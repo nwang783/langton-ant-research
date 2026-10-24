@@ -1,0 +1,129 @@
+{
+  "scope": "Four exact local LRRL port rows and analytic single-LEFT-run templates, not bounded-word or period scanning.",
+  "LRRL_rows": [
+    {
+      "histories": {
+        "Z": "NSSS",
+        "A": "EEEW",
+        "B": "SSSN",
+        "Y": "EWWW"
+      },
+      "first_ordinal_pairs": {
+        "Z": {
+          "out": 0,
+          "in": 0
+        },
+        "A": {
+          "in": 0,
+          "out": 0
+        },
+        "B": {
+          "in": 0,
+          "out": 0
+        },
+        "Y": {
+          "in": 1,
+          "out": 2
+        }
+      },
+      "missing_edge_flow": 1,
+      "clock": "0=4+Delta12(Y)>0"
+    },
+    {
+      "histories": {
+        "Z": "NSSS",
+        "A": "EEEW",
+        "B": "SNSS",
+        "Y": "EWWW"
+      },
+      "first_ordinal_pairs": {
+        "Z": {
+          "out": 0,
+          "in": 0
+        },
+        "A": {
+          "in": 0,
+          "out": 0
+        },
+        "B": {
+          "in": 0,
+          "out": 0
+        },
+        "Y": {
+          "in": 1,
+          "out": 2
+        }
+      },
+      "missing_edge_flow": 1,
+      "clock": "0=4+Delta12(Y)>0"
+    },
+    {
+      "histories": {
+        "Z": "NSSS",
+        "A": "EWEE",
+        "B": "SSSN",
+        "Y": "EWWW"
+      },
+      "first_ordinal_pairs": {
+        "Z": {
+          "out": 0,
+          "in": 0
+        },
+        "A": {
+          "in": 0,
+          "out": 0
+        },
+        "B": {
+          "in": 0,
+          "out": 0
+        },
+        "Y": {
+          "in": 1,
+          "out": 2
+        }
+      },
+      "missing_edge_flow": 1,
+      "clock": "0=4+Delta12(Y)>0"
+    },
+    {
+      "histories": {
+        "Z": "NSSS",
+        "A": "EWEE",
+        "B": "SNSS",
+        "Y": "EWWW"
+      },
+      "first_ordinal_pairs": {
+        "Z": {
+          "out": 0,
+          "in": 0
+        },
+        "A": {
+          "in": 0,
+          "out": 0
+        },
+        "B": {
+          "in": 0,
+          "out": 0
+        },
+        "Y": {
+          "in": 1,
+          "out": 2
+        }
+      },
+      "missing_edge_flow": 1,
+      "clock": "0=4+Delta12(Y)>0"
+    }
+  ],
+  "necessary_turn_templates": [
+    "RR",
+    "RLR",
+    "RLRR",
+    "RRLR",
+    "RRLRR",
+    "RLLR",
+    "RLLRR",
+    "RRLLR",
+    "RRLLRR"
+  ],
+  "max_physical_edges": 5
+}

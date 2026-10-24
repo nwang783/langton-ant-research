@@ -1,0 +1,258 @@
+{
+  "direct_rational_transfer_checks": 120,
+  "synthetic_cases": 18,
+  "synthetic": [
+    {
+      "base": "2",
+      "multiplicity": 1,
+      "sign": -1,
+      "certificate": {
+        "certified": true,
+        "reason": "negative dominant coefficient",
+        "minimal_polynomial": "X**2 - X - 2",
+        "dominant_root": "2",
+        "multiplicity": 1,
+        "leading_coefficient": "-1",
+        "hankel_determinant": "-9"
+      }
+    },
+    {
+      "base": "2",
+      "multiplicity": 1,
+      "sign": 1,
+      "certificate": {
+        "certified": false,
+        "reason": "positive dominant coefficient",
+        "minimal_polynomial": "X**2 - X - 2",
+        "dominant_root": "2",
+        "multiplicity": 1,
+        "leading_coefficient": "1",
+        "hankel_determinant": "9"
+      }
+    },
+    {
+      "base": "2",
+      "multiplicity": 2,
+      "sign": -1,
+      "certificate": {
+        "certified": true,
+        "reason": "negative dominant coefficient",
+        "minimal_polynomial": "X**3 - 3*X**2 + 4",
+        "dominant_root": "2",
+        "multiplicity": 2,
+        "leading_coefficient": "-1",
+        "hankel_determinant": "-324"
+      }
+    },
+    {
+      "base": "2",
+      "multiplicity": 2,
+      "sign": 1,
+      "certificate": {
+        "certified": false,
+        "reason": "positive dominant coefficient",
+        "minimal_polynomial": "X**3 - 3*X**2 + 4",
+        "dominant_root": "2",
+        "multiplicity": 2,
+        "leading_coefficient": "1",
+        "hankel_determinant": "-324"
+      }
+    },
+    {
+      "base": "2",
+      "multiplicity": 3,
+      "sign": -1,
+      "certificate": {
+        "certified": true,
+        "reason": "negative dominant coefficient",
+        "minimal_polynomial": "X**4 - 5*X**3 + 6*X**2 + 4*X - 8",
+        "dominant_root": "2",
+        "multiplicity": 3,
+        "leading_coefficient": "-1",
+        "hankel_determinant": "373248"
+      }
+    },
+    {
+      "base": "2",
+      "multiplicity": 3,
+      "sign": 1,
+      "certificate": {
+        "certified": false,
+        "reason": "positive dominant coefficient",
+        "minimal_polynomial": "X**4 - 5*X**3 + 6*X**2 + 4*X - 8",
+        "dominant_root": "2",
+        "multiplicity": 3,
+        "leading_coefficient": "1",
+        "hankel_determinant": "-373248"
+      }
+    },
+    {
+      "base": "3",
+      "multiplicity": 1,
+      "sign": -1,
+      "certificate": {
+        "certified": true,
+        "reason": "negative dominant coefficient",
+        "minimal_polynomial": "X**2 - 2*X - 3",
+        "dominant_root": "3",
+        "multiplicity": 1,
+        "leading_coefficient": "-1",
+        "hankel_determinant": "-16"
+      }
+    },
+    {
+      "base": "3",
+      "multiplicity": 1,
+      "sign": 1,
+      "certificate": {
+        "certified": false,
+        "reason": "positive dominant coefficient",
+        "minimal_polynomial": "X**2 - 2*X - 3",
+        "dominant_root": "3",
+        "multiplicity": 1,
+        "leading_coefficient": "1",
+        "hankel_determinant": "16"
+      }
+    },
+    {
+      "base": "3",
+      "multiplicity": 2,
+      "sign": -1,
+      "certificate": {
+        "certified": true,
+        "reason": "negative dominant coefficient",
+        "minimal_polynomial": "X**3 - 5*X**2 + 3*X + 9",
+        "dominant_root": "3",
+        "multiplicity": 2,
+        "leading_coefficient": "-1",
+        "hankel_determinant": "-2304"
+      }
+    },
+    {
+      "base": "3",
+      "multiplicity": 2,
+      "sign": 1,
+      "certificate": {
+        "certified": false,
+        "reason": "positive dominant coefficient",
+        "minimal_polynomial": "X**3 - 5*X**2 + 3*X + 9",
+        "dominant_root": "3",
+        "multiplicity": 2,
+        "leading_coefficient": "1",
+        "hankel_determinant": "-2304"
+      }
+    },
+    {
+      "base": "3",
+      "multiplicity": 3,
+      "sign": -1,
+      "certificate": {
+        "certified": true,
+        "reason": "negative dominant coefficient",
+        "minimal_polynomial": "X**4 - 8*X**3 + 18*X**2 - 27",
+        "dominant_root": "3",
+        "multiplicity": 3,
+        "leading_coefficient": "-1",
+        "hankel_determinant": "23887872"
+      }
+    },
+    {
+      "base": "3",
+      "multiplicity": 3,
+      "sign": 1,
+      "certificate": {
+        "certified": false,
+        "reason": "positive dominant coefficient",
+        "minimal_polynomial": "X**4 - 8*X**3 + 18*X**2 - 27",
+        "dominant_root": "3",
+        "multiplicity": 3,
+        "leading_coefficient": "1",
+        "hankel_determinant": "-23887872"
+      }
+    },
+    {
+      "base": "3/2",
+      "multiplicity": 1,
+      "sign": -1,
+      "certificate": {
+        "certified": true,
+        "reason": "negative dominant coefficient",
+        "minimal_polynomial": "X**2 - X/2 - 3/2",
+        "dominant_root": "3/2",
+        "multiplicity": 1,
+        "leading_coefficient": "-1",
+        "hankel_determinant": "-25/4"
+      }
+    },
+    {
+      "base": "3/2",
+      "multiplicity": 1,
+      "sign": 1,
+      "certificate": {
+        "certified": false,
+        "reason": "positive dominant coefficient",
+        "minimal_polynomial": "X**2 - X/2 - 3/2",
+        "dominant_root": "3/2",
+        "multiplicity": 1,
+        "leading_coefficient": "1",
+        "hankel_determinant": "25/4"
+      }
+    },
+    {
+      "base": "3/2",
+      "multiplicity": 2,
+      "sign": -1,
+      "certificate": {
+        "certified": true,
+        "reason": "negative dominant coefficient",
+        "minimal_polynomial": "X**3 - 2*X**2 - 3*X/4 + 9/4",
+        "dominant_root": "3/2",
+        "multiplicity": 2,
+        "leading_coefficient": "-1",
+        "hankel_determinant": "-5625/64"
+      }
+    },
+    {
+      "base": "3/2",
+      "multiplicity": 2,
+      "sign": 1,
+      "certificate": {
+        "certified": false,
+        "reason": "positive dominant coefficient",
+        "minimal_polynomial": "X**3 - 2*X**2 - 3*X/4 + 9/4",
+        "dominant_root": "3/2",
+        "multiplicity": 2,
+        "leading_coefficient": "1",
+        "hankel_determinant": "-5625/64"
+      }
+    },
+    {
+      "base": "3/2",
+      "multiplicity": 3,
+      "sign": -1,
+      "certificate": {
+        "certified": true,
+        "reason": "negative dominant coefficient",
+        "minimal_polynomial": "X**4 - 7*X**3/2 + 9*X**2/4 + 27*X/8 - 27/8",
+        "dominant_root": "3/2",
+        "multiplicity": 3,
+        "leading_coefficient": "-1",
+        "hankel_determinant": "11390625/512"
+      }
+    },
+    {
+      "base": "3/2",
+      "multiplicity": 3,
+      "sign": 1,
+      "certificate": {
+        "certified": false,
+        "reason": "positive dominant coefficient",
+        "minimal_polynomial": "X**4 - 7*X**3/2 + 9*X**2/4 + 27*X/8 - 27/8",
+        "dominant_root": "3/2",
+        "multiplicity": 3,
+        "leading_coefficient": "1",
+        "hankel_determinant": "-11390625/512"
+      }
+    }
+  ]
+}

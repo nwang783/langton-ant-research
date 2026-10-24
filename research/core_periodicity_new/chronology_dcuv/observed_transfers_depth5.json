@@ -1,0 +1,1808 @@
+{
+  "status": "Literal positive controls only; bounded enumeration is not an absence theorem",
+  "packet_depth": 5,
+  "candidate_nodes": 15241,
+  "feasible_by_packet_length": [
+    1,
+    10,
+    51,
+    253,
+    1209,
+    5619
+  ],
+  "transfer_count": 19,
+  "minimum_U_initial_tokens": {
+    "7": {
+      "name": "U",
+      "initial_tokens": 3,
+      "packet_ids": [
+        6,
+        5,
+        0,
+        7,
+        0
+      ],
+      "packet_index": 3,
+      "rootcounts_so_far": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "initial_black_seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          -1
+        ]
+      ]
+    },
+    "8": {
+      "name": "UC",
+      "initial_tokens": 3,
+      "packet_ids": [
+        6,
+        5,
+        0,
+        8,
+        0
+      ],
+      "packet_index": 3,
+      "rootcounts_so_far": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "initial_black_seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ]
+    },
+    "9": {
+      "name": "UCC",
+      "initial_tokens": 5,
+      "packet_ids": [
+        0,
+        0,
+        0,
+        9,
+        4
+      ],
+      "packet_index": 3,
+      "rootcounts_so_far": [
+        1,
+        1,
+        1,
+        5
+      ],
+      "initial_black_seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ]
+    }
+  },
+  "seconds": 0.8293828964233398,
+  "profile_sha256": "ebbf2a99f1b8f1d45c317522872dc0cc662c7b46bd321f944df086fe990fc9b8",
+  "witnesses": [
+    {
+      "tuple": [
+        1,
+        4,
+        0,
+        1,
+        1,
+        2,
+        0
+      ],
+      "packet_ids": [
+        1,
+        6,
+        4,
+        4,
+        0
+      ],
+      "packet_names": [
+        "DC",
+        "VCC",
+        "V",
+        "V",
+        "D"
+      ],
+      "source_index": 0,
+      "target_index": 3,
+      "target_input_slot": 1,
+      "source_pose": [
+        0,
+        0,
+        0
+      ],
+      "target_pose": [
+        0,
+        1,
+        1
+      ],
+      "initial_black_seed": [
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "raw_word": "LLLLRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRR",
+      "terminal_marker": "LLLLRLRRRRL"
+    },
+    {
+      "tuple": [
+        1,
+        4,
+        0,
+        1,
+        1,
+        3,
+        1
+      ],
+      "packet_ids": [
+        1,
+        6,
+        4,
+        4,
+        0
+      ],
+      "packet_names": [
+        "DC",
+        "VCC",
+        "V",
+        "V",
+        "D"
+      ],
+      "source_index": 0,
+      "target_index": 3,
+      "target_input_slot": 0,
+      "source_pose": [
+        0,
+        0,
+        0
+      ],
+      "target_pose": [
+        0,
+        1,
+        1
+      ],
+      "initial_black_seed": [
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "raw_word": "LLLLRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRR",
+      "terminal_marker": "LLLLRLRRRRL"
+    },
+    {
+      "tuple": [
+        1,
+        5,
+        0,
+        1,
+        1,
+        2,
+        0
+      ],
+      "packet_ids": [
+        1,
+        6,
+        4,
+        5,
+        0
+      ],
+      "packet_names": [
+        "DC",
+        "VCC",
+        "V",
+        "VC",
+        "D"
+      ],
+      "source_index": 0,
+      "target_index": 3,
+      "target_input_slot": 1,
+      "source_pose": [
+        0,
+        0,
+        0
+      ],
+      "target_pose": [
+        0,
+        1,
+        1
+      ],
+      "initial_black_seed": [
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "raw_word": "LLLLRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRR",
+      "terminal_marker": "LLLLRLRRRRL"
+    },
+    {
+      "tuple": [
+        1,
+        5,
+        0,
+        1,
+        1,
+        3,
+        1
+      ],
+      "packet_ids": [
+        1,
+        6,
+        4,
+        5,
+        0
+      ],
+      "packet_names": [
+        "DC",
+        "VCC",
+        "V",
+        "VC",
+        "D"
+      ],
+      "source_index": 0,
+      "target_index": 3,
+      "target_input_slot": 0,
+      "source_pose": [
+        0,
+        0,
+        0
+      ],
+      "target_pose": [
+        0,
+        1,
+        1
+      ],
+      "initial_black_seed": [
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "raw_word": "LLLLRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRR",
+      "terminal_marker": "LLLLRLRRRRL"
+    },
+    {
+      "tuple": [
+        3,
+        4,
+        0,
+        1,
+        1,
+        2,
+        0
+      ],
+      "packet_ids": [
+        3,
+        4,
+        0
+      ],
+      "packet_names": [
+        "DCCC",
+        "V",
+        "D"
+      ],
+      "source_index": 0,
+      "target_index": 1,
+      "target_input_slot": 1,
+      "source_pose": [
+        0,
+        0,
+        0
+      ],
+      "target_pose": [
+        0,
+        1,
+        1
+      ],
+      "initial_black_seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "raw_word": "LLLLRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRR",
+      "terminal_marker": "LLLLRLRRRRL"
+    },
+    {
+      "tuple": [
+        3,
+        4,
+        0,
+        1,
+        1,
+        3,
+        1
+      ],
+      "packet_ids": [
+        3,
+        4,
+        0
+      ],
+      "packet_names": [
+        "DCCC",
+        "V",
+        "D"
+      ],
+      "source_index": 0,
+      "target_index": 1,
+      "target_input_slot": 0,
+      "source_pose": [
+        0,
+        0,
+        0
+      ],
+      "target_pose": [
+        0,
+        1,
+        1
+      ],
+      "initial_black_seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "raw_word": "LLLLRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRR",
+      "terminal_marker": "LLLLRLRRRRL"
+    },
+    {
+      "tuple": [
+        3,
+        5,
+        0,
+        1,
+        1,
+        2,
+        0
+      ],
+      "packet_ids": [
+        3,
+        5,
+        0
+      ],
+      "packet_names": [
+        "DCCC",
+        "VC",
+        "D"
+      ],
+      "source_index": 0,
+      "target_index": 1,
+      "target_input_slot": 1,
+      "source_pose": [
+        0,
+        0,
+        0
+      ],
+      "target_pose": [
+        0,
+        1,
+        1
+      ],
+      "initial_black_seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "raw_word": "LLLLRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRR",
+      "terminal_marker": "LLLLRLRRRRL"
+    },
+    {
+      "tuple": [
+        3,
+        5,
+        0,
+        1,
+        1,
+        3,
+        1
+      ],
+      "packet_ids": [
+        3,
+        5,
+        0
+      ],
+      "packet_names": [
+        "DCCC",
+        "VC",
+        "D"
+      ],
+      "source_index": 0,
+      "target_index": 1,
+      "target_input_slot": 0,
+      "source_pose": [
+        0,
+        0,
+        0
+      ],
+      "target_pose": [
+        0,
+        1,
+        1
+      ],
+      "initial_black_seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "raw_word": "LLLLRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRR",
+      "terminal_marker": "LLLLRLRRRRL"
+    },
+    {
+      "tuple": [
+        4,
+        4,
+        0,
+        4,
+        2,
+        0,
+        1
+      ],
+      "packet_ids": [
+        4,
+        6,
+        4,
+        4,
+        4
+      ],
+      "packet_names": [
+        "V",
+        "VCC",
+        "V",
+        "V",
+        "V"
+      ],
+      "source_index": 0,
+      "target_index": 3,
+      "target_input_slot": 0,
+      "source_pose": [
+        0,
+        0,
+        0
+      ],
+      "target_pose": [
+        0,
+        4,
+        2
+      ],
+      "initial_black_seed": [
+        [
+          -2,
+          -1
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "raw_word": "LLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRLRRRR",
+      "terminal_marker": "LLLLRLRRRRL"
+    },
+    {
+      "tuple": [
+        4,
+        5,
+        0,
+        4,
+        2,
+        0,
+        1
+      ],
+      "packet_ids": [
+        4,
+        6,
+        4,
+        5,
+        0
+      ],
+      "packet_names": [
+        "V",
+        "VCC",
+        "V",
+        "VC",
+        "D"
+      ],
+      "source_index": 0,
+      "target_index": 3,
+      "target_input_slot": 0,
+      "source_pose": [
+        0,
+        0,
+        0
+      ],
+      "target_pose": [
+        0,
+        4,
+        2
+      ],
+      "initial_black_seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "raw_word": "LLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRR",
+      "terminal_marker": "LLLLRLRRRRL"
+    },
+    {
+      "tuple": [
+        6,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "packet_ids": [
+        0,
+        6,
+        5,
+        0,
+        0
+      ],
+      "packet_names": [
+        "D",
+        "VCC",
+        "VC",
+        "D",
+        "D"
+      ],
+      "source_index": 1,
+      "target_index": 3,
+      "target_input_slot": 0,
+      "source_pose": [
+        1,
+        1,
+        0
+      ],
+      "target_pose": [
+        0,
+        1,
+        1
+      ],
+      "initial_black_seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "raw_word": "LLLLRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLLLLRLRRRR",
+      "terminal_marker": "LLLLRLRRRRL"
+    },
+    {
+      "tuple": [
+        6,
+        4,
+        0,
+        4,
+        2,
+        0,
+        1
+      ],
+      "packet_ids": [
+        0,
+        4,
+        6,
+        4,
+        4
+      ],
+      "packet_names": [
+        "D",
+        "V",
+        "VCC",
+        "V",
+        "V"
+      ],
+      "source_index": 2,
+      "target_index": 3,
+      "target_input_slot": 0,
+      "source_pose": [
+        2,
+        4,
+        0
+      ],
+      "target_pose": [
+        2,
+        8,
+        2
+      ],
+      "initial_black_seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "raw_word": "LLLLRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRLRRRR",
+      "terminal_marker": "LLLLRLRRRRL"
+    },
+    {
+      "tuple": [
+        6,
+        5,
+        0,
+        4,
+        2,
+        0,
+        1
+      ],
+      "packet_ids": [
+        0,
+        6,
+        5,
+        0
+      ],
+      "packet_names": [
+        "D",
+        "VCC",
+        "VC",
+        "D"
+      ],
+      "source_index": 1,
+      "target_index": 2,
+      "target_input_slot": 0,
+      "source_pose": [
+        1,
+        1,
+        0
+      ],
+      "target_pose": [
+        1,
+        5,
+        2
+      ],
+      "initial_black_seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "raw_word": "LLLLRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRR",
+      "terminal_marker": "LLLLRLRRRRL"
+    },
+    {
+      "tuple": [
+        6,
+        7,
+        0,
+        -1,
+        1,
+        1,
+        0
+      ],
+      "packet_ids": [
+        6,
+        5,
+        0,
+        7,
+        0
+      ],
+      "packet_names": [
+        "VCC",
+        "VC",
+        "D",
+        "U",
+        "D"
+      ],
+      "source_index": 0,
+      "target_index": 3,
+      "target_input_slot": 0,
+      "source_pose": [
+        0,
+        0,
+        0
+      ],
+      "target_pose": [
+        0,
+        -1,
+        1
+      ],
+      "initial_black_seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          -1
+        ]
+      ],
+      "raw_word": "LLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLLLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRR",
+      "terminal_marker": "LLLLRLRRRRL"
+    },
+    {
+      "tuple": [
+        6,
+        7,
+        0,
+        -1,
+        1,
+        2,
+        0
+      ],
+      "packet_ids": [
+        6,
+        5,
+        0,
+        7,
+        0
+      ],
+      "packet_names": [
+        "VCC",
+        "VC",
+        "D",
+        "U",
+        "D"
+      ],
+      "source_index": 0,
+      "target_index": 3,
+      "target_input_slot": 1,
+      "source_pose": [
+        0,
+        0,
+        0
+      ],
+      "target_pose": [
+        0,
+        -1,
+        1
+      ],
+      "initial_black_seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          -1
+        ]
+      ],
+      "raw_word": "LLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLLLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRR",
+      "terminal_marker": "LLLLRLRRRRL"
+    },
+    {
+      "tuple": [
+        6,
+        8,
+        0,
+        -1,
+        1,
+        1,
+        0
+      ],
+      "packet_ids": [
+        6,
+        5,
+        0,
+        8,
+        0
+      ],
+      "packet_names": [
+        "VCC",
+        "VC",
+        "D",
+        "UC",
+        "D"
+      ],
+      "source_index": 0,
+      "target_index": 3,
+      "target_input_slot": 0,
+      "source_pose": [
+        0,
+        0,
+        0
+      ],
+      "target_pose": [
+        0,
+        -1,
+        1
+      ],
+      "initial_black_seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "raw_word": "LLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLLLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRR",
+      "terminal_marker": "LLLLRLRRRRL"
+    },
+    {
+      "tuple": [
+        6,
+        8,
+        0,
+        -1,
+        1,
+        2,
+        0
+      ],
+      "packet_ids": [
+        6,
+        5,
+        0,
+        8,
+        0
+      ],
+      "packet_names": [
+        "VCC",
+        "VC",
+        "D",
+        "UC",
+        "D"
+      ],
+      "source_index": 0,
+      "target_index": 3,
+      "target_input_slot": 1,
+      "source_pose": [
+        0,
+        0,
+        0
+      ],
+      "target_pose": [
+        0,
+        -1,
+        1
+      ],
+      "initial_black_seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "raw_word": "LLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLLLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRR",
+      "terminal_marker": "LLLLRLRRRRL"
+    },
+    {
+      "tuple": [
+        7,
+        4,
+        -1,
+        5,
+        2,
+        -1,
+        2
+      ],
+      "packet_ids": [
+        7,
+        6,
+        4,
+        4,
+        0
+      ],
+      "packet_names": [
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D"
+      ],
+      "source_index": 0,
+      "target_index": 3,
+      "target_input_slot": 0,
+      "source_pose": [
+        0,
+        0,
+        0
+      ],
+      "target_pose": [
+        -1,
+        5,
+        2
+      ],
+      "initial_black_seed": [
+        [
+          -2,
+          1
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          -1,
+          6
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "raw_word": "LLLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRR",
+      "terminal_marker": "LLLLRLRRRRL"
+    },
+    {
+      "tuple": [
+        9,
+        4,
+        -1,
+        5,
+        2,
+        -1,
+        2
+      ],
+      "packet_ids": [
+        0,
+        0,
+        9,
+        4,
+        0
+      ],
+      "packet_names": [
+        "D",
+        "D",
+        "UCC",
+        "V",
+        "D"
+      ],
+      "source_index": 2,
+      "target_index": 3,
+      "target_input_slot": 0,
+      "source_pose": [
+        2,
+        2,
+        0
+      ],
+      "target_pose": [
+        1,
+        7,
+        2
+      ],
+      "initial_black_seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "raw_word": "LLLLRLRRRRLLLLRLRRRRLLLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLRRRRLLLLRLRRRR",
+      "terminal_marker": "LLLLRLRRRRL"
+    }
+  ]
+}

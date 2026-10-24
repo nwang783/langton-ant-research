@@ -1,0 +1,1956 @@
+{
+  "status": "PASS named full-board cap6 corner-writer output trap",
+  "source_sha256": {
+    "reframe_finite_seed_2026-10-24/cap6_resource_obstruction.json": "8f94d5b501be80c0507d5d5885f734a98ae46f24fa99094f678fa91ad6158d3a"
+  },
+  "fixed_sector": {
+    "w": 1,
+    "z": 0
+  },
+  "universal_output_geometry": {
+    "head": [
+      -1,
+      3
+    ],
+    "heading": 0,
+    "empty_w_cursor": [
+      -1,
+      5
+    ],
+    "complete_corner": [
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ]
+    ],
+    "corner_vertices": [
+      [
+        -5,
+        1
+      ],
+      [
+        -5,
+        5
+      ],
+      [
+        -3,
+        3
+      ]
+    ],
+    "four_mandatory_R_cells": [
+      [
+        -1,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        -1,
+        2
+      ]
+    ],
+    "four_R_other_endpoints": [
+      [
+        -3,
+        7
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        -3,
+        3
+      ]
+    ],
+    "first_corner_contact_R": 3,
+    "forced_five_edge_archive": [
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "following_empty_cursor": [
+      -3,
+      7
+    ],
+    "following_four_R_contains_old_archive_vertex": [
+      -1,
+      5
+    ]
+  },
+  "controls": [
+    {
+      "name": "minimal actual corner writer",
+      "initial_black": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "initial_mass": 2,
+      "writer_word": "RRRRLRLRRL",
+      "writer_output": {
+        "pose": [
+          [
+            -1,
+            3
+          ],
+          0
+        ],
+        "full_black": [
+          [
+            -2,
+            1
+          ],
+          [
+            -2,
+            2
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "w_components": [
+          [
+            [
+              -2,
+              1
+            ],
+            [
+              -2,
+              2
+            ]
+          ],
+          [
+            [
+              -1,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        ],
+        "z_components": [
+          [
+            [
+              -2,
+              1
+            ],
+            [
+              -2,
+              2
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        ]
+      },
+      "first_active_w_cap6_exit": 17,
+      "trace": [
+        {
+          "cut": 0,
+          "pose": [
+            [
+              0,
+              0
+            ],
+            0
+          ],
+          "w_cursor": [
+            1,
+            -1
+          ],
+          "z_cursor": [
+            -1,
+            -1
+          ],
+          "active_w_mass": 0,
+          "active_z_mass": 0,
+          "turn": "R",
+          "imported_w_component": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 1,
+          "pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ],
+          "w_cursor": [
+            1,
+            -1
+          ],
+          "z_cursor": [
+            1,
+            1
+          ],
+          "active_w_mass": 3,
+          "active_z_mass": 1,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 2,
+          "pose": [
+            [
+              1,
+              -1
+            ],
+            2
+          ],
+          "w_cursor": [
+            1,
+            -1
+          ],
+          "z_cursor": [
+            3,
+            -1
+          ],
+          "active_w_mass": 4,
+          "active_z_mass": 2,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 3,
+          "pose": [
+            [
+              0,
+              -1
+            ],
+            3
+          ],
+          "w_cursor": [
+            1,
+            -1
+          ],
+          "z_cursor": [
+            1,
+            -3
+          ],
+          "active_w_mass": 5,
+          "active_z_mass": 3,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 4,
+          "pose": [
+            [
+              0,
+              0
+            ],
+            0
+          ],
+          "w_cursor": [
+            1,
+            -1
+          ],
+          "z_cursor": [
+            -1,
+            -1
+          ],
+          "active_w_mass": 6,
+          "active_z_mass": 4,
+          "turn": "L",
+          "imported_w_component": []
+        },
+        {
+          "cut": 5,
+          "pose": [
+            [
+              -1,
+              0
+            ],
+            3
+          ],
+          "w_cursor": [
+            -1,
+            1
+          ],
+          "z_cursor": [
+            -1,
+            -1
+          ],
+          "active_w_mass": 2,
+          "active_z_mass": 3,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 6,
+          "pose": [
+            [
+              -1,
+              1
+            ],
+            0
+          ],
+          "w_cursor": [
+            -1,
+            1
+          ],
+          "z_cursor": [
+            -3,
+            1
+          ],
+          "active_w_mass": 3,
+          "active_z_mass": 6,
+          "turn": "L",
+          "imported_w_component": []
+        },
+        {
+          "cut": 7,
+          "pose": [
+            [
+              -2,
+              1
+            ],
+            3
+          ],
+          "w_cursor": [
+            -3,
+            3
+          ],
+          "z_cursor": [
+            -3,
+            1
+          ],
+          "active_w_mass": 1,
+          "active_z_mass": 4,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 8,
+          "pose": [
+            [
+              -2,
+              2
+            ],
+            0
+          ],
+          "w_cursor": [
+            -3,
+            3
+          ],
+          "z_cursor": [
+            -5,
+            3
+          ],
+          "active_w_mass": 2,
+          "active_z_mass": 5,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 9,
+          "pose": [
+            [
+              -1,
+              2
+            ],
+            1
+          ],
+          "w_cursor": [
+            -3,
+            3
+          ],
+          "z_cursor": [
+            -3,
+            5
+          ],
+          "active_w_mass": 3,
+          "active_z_mass": 7,
+          "turn": "L",
+          "imported_w_component": []
+        },
+        {
+          "cut": 10,
+          "pose": [
+            [
+              -1,
+              3
+            ],
+            0
+          ],
+          "w_cursor": [
+            -1,
+            5
+          ],
+          "z_cursor": [
+            -3,
+            5
+          ],
+          "active_w_mass": 0,
+          "active_z_mass": 6,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 11,
+          "pose": [
+            [
+              0,
+              3
+            ],
+            1
+          ],
+          "w_cursor": [
+            -1,
+            5
+          ],
+          "z_cursor": [
+            -1,
+            7
+          ],
+          "active_w_mass": 1,
+          "active_z_mass": 7,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 12,
+          "pose": [
+            [
+              0,
+              2
+            ],
+            2
+          ],
+          "w_cursor": [
+            -1,
+            5
+          ],
+          "z_cursor": [
+            1,
+            5
+          ],
+          "active_w_mass": 2,
+          "active_z_mass": 8,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 13,
+          "pose": [
+            [
+              -1,
+              2
+            ],
+            3
+          ],
+          "w_cursor": [
+            -1,
+            5
+          ],
+          "z_cursor": [
+            -1,
+            3
+          ],
+          "active_w_mass": 3,
+          "active_z_mass": 9,
+          "turn": "R",
+          "imported_w_component": [
+            [
+              -2,
+              1
+            ],
+            [
+              -2,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 14,
+          "pose": [
+            [
+              -1,
+              3
+            ],
+            0
+          ],
+          "w_cursor": [
+            -1,
+            5
+          ],
+          "z_cursor": [
+            -3,
+            5
+          ],
+          "active_w_mass": 6,
+          "active_z_mass": 10,
+          "turn": "L",
+          "imported_w_component": []
+        },
+        {
+          "cut": 15,
+          "pose": [
+            [
+              -2,
+              3
+            ],
+            3
+          ],
+          "w_cursor": [
+            -3,
+            7
+          ],
+          "z_cursor": [
+            -3,
+            5
+          ],
+          "active_w_mass": 0,
+          "active_z_mass": 9,
+          "turn": "R",
+          "imported_w_component": [
+            [
+              -2,
+              1
+            ],
+            [
+              -2,
+              2
+            ],
+            [
+              -1,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ]
+          ]
+        },
+        {
+          "cut": 16,
+          "pose": [
+            [
+              -2,
+              4
+            ],
+            0
+          ],
+          "w_cursor": [
+            -3,
+            7
+          ],
+          "z_cursor": [
+            -5,
+            7
+          ],
+          "active_w_mass": 6,
+          "active_z_mass": 10,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 17,
+          "pose": [
+            [
+              -1,
+              4
+            ],
+            1
+          ],
+          "w_cursor": [
+            -3,
+            7
+          ],
+          "z_cursor": [
+            -3,
+            9
+          ],
+          "active_w_mass": 7,
+          "active_z_mass": 11,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 18,
+          "pose": [
+            [
+              -1,
+              3
+            ],
+            2
+          ],
+          "w_cursor": [
+            -3,
+            7
+          ],
+          "z_cursor": [
+            -1,
+            7
+          ],
+          "active_w_mass": 8,
+          "active_z_mass": 12,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 19,
+          "pose": [
+            [
+              -2,
+              3
+            ],
+            3
+          ],
+          "w_cursor": [
+            -3,
+            7
+          ],
+          "z_cursor": [
+            -3,
+            5
+          ],
+          "active_w_mass": 9,
+          "active_z_mass": 13,
+          "turn": "L",
+          "imported_w_component": []
+        }
+      ]
+    },
+    {
+      "name": "writer plus fully pre-funded next identical input corner",
+      "initial_black": [
+        [
+          -2,
+          4
+        ],
+        [
+          -2,
+          5
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "initial_mass": 4,
+      "writer_word": "RRRRLRLRRL",
+      "writer_output": {
+        "pose": [
+          [
+            -1,
+            3
+          ],
+          0
+        ],
+        "full_black": [
+          [
+            -2,
+            1
+          ],
+          [
+            -2,
+            2
+          ],
+          [
+            -2,
+            4
+          ],
+          [
+            -2,
+            5
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "w_components": [
+          [
+            [
+              -2,
+              1
+            ],
+            [
+              -2,
+              2
+            ]
+          ],
+          [
+            [
+              -2,
+              4
+            ],
+            [
+              -2,
+              5
+            ]
+          ],
+          [
+            [
+              -1,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        ],
+        "z_components": [
+          [
+            [
+              -2,
+              1
+            ],
+            [
+              -2,
+              2
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          [
+            [
+              -2,
+              4
+            ],
+            [
+              -2,
+              5
+            ]
+          ]
+        ]
+      },
+      "first_active_w_cap6_exit": 14,
+      "trace": [
+        {
+          "cut": 0,
+          "pose": [
+            [
+              0,
+              0
+            ],
+            0
+          ],
+          "w_cursor": [
+            1,
+            -1
+          ],
+          "z_cursor": [
+            -1,
+            -1
+          ],
+          "active_w_mass": 0,
+          "active_z_mass": 0,
+          "turn": "R",
+          "imported_w_component": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 1,
+          "pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ],
+          "w_cursor": [
+            1,
+            -1
+          ],
+          "z_cursor": [
+            1,
+            1
+          ],
+          "active_w_mass": 3,
+          "active_z_mass": 1,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 2,
+          "pose": [
+            [
+              1,
+              -1
+            ],
+            2
+          ],
+          "w_cursor": [
+            1,
+            -1
+          ],
+          "z_cursor": [
+            3,
+            -1
+          ],
+          "active_w_mass": 4,
+          "active_z_mass": 2,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 3,
+          "pose": [
+            [
+              0,
+              -1
+            ],
+            3
+          ],
+          "w_cursor": [
+            1,
+            -1
+          ],
+          "z_cursor": [
+            1,
+            -3
+          ],
+          "active_w_mass": 5,
+          "active_z_mass": 3,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 4,
+          "pose": [
+            [
+              0,
+              0
+            ],
+            0
+          ],
+          "w_cursor": [
+            1,
+            -1
+          ],
+          "z_cursor": [
+            -1,
+            -1
+          ],
+          "active_w_mass": 6,
+          "active_z_mass": 4,
+          "turn": "L",
+          "imported_w_component": []
+        },
+        {
+          "cut": 5,
+          "pose": [
+            [
+              -1,
+              0
+            ],
+            3
+          ],
+          "w_cursor": [
+            -1,
+            1
+          ],
+          "z_cursor": [
+            -1,
+            -1
+          ],
+          "active_w_mass": 2,
+          "active_z_mass": 3,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 6,
+          "pose": [
+            [
+              -1,
+              1
+            ],
+            0
+          ],
+          "w_cursor": [
+            -1,
+            1
+          ],
+          "z_cursor": [
+            -3,
+            1
+          ],
+          "active_w_mass": 3,
+          "active_z_mass": 6,
+          "turn": "L",
+          "imported_w_component": []
+        },
+        {
+          "cut": 7,
+          "pose": [
+            [
+              -2,
+              1
+            ],
+            3
+          ],
+          "w_cursor": [
+            -3,
+            3
+          ],
+          "z_cursor": [
+            -3,
+            1
+          ],
+          "active_w_mass": 1,
+          "active_z_mass": 4,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 8,
+          "pose": [
+            [
+              -2,
+              2
+            ],
+            0
+          ],
+          "w_cursor": [
+            -3,
+            3
+          ],
+          "z_cursor": [
+            -5,
+            3
+          ],
+          "active_w_mass": 2,
+          "active_z_mass": 5,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 9,
+          "pose": [
+            [
+              -1,
+              2
+            ],
+            1
+          ],
+          "w_cursor": [
+            -3,
+            3
+          ],
+          "z_cursor": [
+            -3,
+            5
+          ],
+          "active_w_mass": 3,
+          "active_z_mass": 7,
+          "turn": "L",
+          "imported_w_component": []
+        },
+        {
+          "cut": 10,
+          "pose": [
+            [
+              -1,
+              3
+            ],
+            0
+          ],
+          "w_cursor": [
+            -1,
+            5
+          ],
+          "z_cursor": [
+            -3,
+            5
+          ],
+          "active_w_mass": 0,
+          "active_z_mass": 6,
+          "turn": "R",
+          "imported_w_component": [
+            [
+              -2,
+              4
+            ],
+            [
+              -2,
+              5
+            ]
+          ]
+        },
+        {
+          "cut": 11,
+          "pose": [
+            [
+              0,
+              3
+            ],
+            1
+          ],
+          "w_cursor": [
+            -1,
+            5
+          ],
+          "z_cursor": [
+            -1,
+            7
+          ],
+          "active_w_mass": 3,
+          "active_z_mass": 7,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 12,
+          "pose": [
+            [
+              0,
+              2
+            ],
+            2
+          ],
+          "w_cursor": [
+            -1,
+            5
+          ],
+          "z_cursor": [
+            1,
+            5
+          ],
+          "active_w_mass": 4,
+          "active_z_mass": 8,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 13,
+          "pose": [
+            [
+              -1,
+              2
+            ],
+            3
+          ],
+          "w_cursor": [
+            -1,
+            5
+          ],
+          "z_cursor": [
+            -1,
+            3
+          ],
+          "active_w_mass": 5,
+          "active_z_mass": 9,
+          "turn": "R",
+          "imported_w_component": [
+            [
+              -2,
+              1
+            ],
+            [
+              -2,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 14,
+          "pose": [
+            [
+              -1,
+              3
+            ],
+            0
+          ],
+          "w_cursor": [
+            -1,
+            5
+          ],
+          "z_cursor": [
+            -3,
+            5
+          ],
+          "active_w_mass": 8,
+          "active_z_mass": 10,
+          "turn": "L",
+          "imported_w_component": []
+        },
+        {
+          "cut": 15,
+          "pose": [
+            [
+              -2,
+              3
+            ],
+            3
+          ],
+          "w_cursor": [
+            -3,
+            7
+          ],
+          "z_cursor": [
+            -3,
+            5
+          ],
+          "active_w_mass": 2,
+          "active_z_mass": 9,
+          "turn": "R",
+          "imported_w_component": [
+            [
+              -2,
+              1
+            ],
+            [
+              -2,
+              2
+            ],
+            [
+              -1,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ]
+          ]
+        },
+        {
+          "cut": 16,
+          "pose": [
+            [
+              -2,
+              4
+            ],
+            0
+          ],
+          "w_cursor": [
+            -3,
+            7
+          ],
+          "z_cursor": [
+            -5,
+            7
+          ],
+          "active_w_mass": 8,
+          "active_z_mass": 12,
+          "turn": "L",
+          "imported_w_component": []
+        },
+        {
+          "cut": 17,
+          "pose": [
+            [
+              -3,
+              4
+            ],
+            3
+          ],
+          "w_cursor": [
+            -5,
+            9
+          ],
+          "z_cursor": [
+            -5,
+            7
+          ],
+          "active_w_mass": 1,
+          "active_z_mass": 10,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 18,
+          "pose": [
+            [
+              -3,
+              5
+            ],
+            0
+          ],
+          "w_cursor": [
+            -5,
+            9
+          ],
+          "z_cursor": [
+            -7,
+            9
+          ],
+          "active_w_mass": 2,
+          "active_z_mass": 11,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 19,
+          "pose": [
+            [
+              -2,
+              5
+            ],
+            1
+          ],
+          "w_cursor": [
+            -5,
+            9
+          ],
+          "z_cursor": [
+            -5,
+            11
+          ],
+          "active_w_mass": 3,
+          "active_z_mass": 13,
+          "turn": "L",
+          "imported_w_component": []
+        }
+      ]
+    },
+    {
+      "name": "minimal writer plus remote unread isolated component",
+      "initial_black": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          100,
+          100
+        ]
+      ],
+      "initial_mass": 3,
+      "writer_word": "RRRRLRLRRL",
+      "writer_output": {
+        "pose": [
+          [
+            -1,
+            3
+          ],
+          0
+        ],
+        "full_black": [
+          [
+            -2,
+            1
+          ],
+          [
+            -2,
+            2
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            100,
+            100
+          ]
+        ],
+        "w_components": [
+          [
+            [
+              -2,
+              1
+            ],
+            [
+              -2,
+              2
+            ]
+          ],
+          [
+            [
+              -1,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          [
+            [
+              100,
+              100
+            ]
+          ]
+        ],
+        "z_components": [
+          [
+            [
+              -2,
+              1
+            ],
+            [
+              -2,
+              2
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          [
+            [
+              100,
+              100
+            ]
+          ]
+        ]
+      },
+      "first_active_w_cap6_exit": 17,
+      "trace": [
+        {
+          "cut": 0,
+          "pose": [
+            [
+              0,
+              0
+            ],
+            0
+          ],
+          "w_cursor": [
+            1,
+            -1
+          ],
+          "z_cursor": [
+            -1,
+            -1
+          ],
+          "active_w_mass": 0,
+          "active_z_mass": 0,
+          "turn": "R",
+          "imported_w_component": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 1,
+          "pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ],
+          "w_cursor": [
+            1,
+            -1
+          ],
+          "z_cursor": [
+            1,
+            1
+          ],
+          "active_w_mass": 3,
+          "active_z_mass": 1,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 2,
+          "pose": [
+            [
+              1,
+              -1
+            ],
+            2
+          ],
+          "w_cursor": [
+            1,
+            -1
+          ],
+          "z_cursor": [
+            3,
+            -1
+          ],
+          "active_w_mass": 4,
+          "active_z_mass": 2,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 3,
+          "pose": [
+            [
+              0,
+              -1
+            ],
+            3
+          ],
+          "w_cursor": [
+            1,
+            -1
+          ],
+          "z_cursor": [
+            1,
+            -3
+          ],
+          "active_w_mass": 5,
+          "active_z_mass": 3,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 4,
+          "pose": [
+            [
+              0,
+              0
+            ],
+            0
+          ],
+          "w_cursor": [
+            1,
+            -1
+          ],
+          "z_cursor": [
+            -1,
+            -1
+          ],
+          "active_w_mass": 6,
+          "active_z_mass": 4,
+          "turn": "L",
+          "imported_w_component": []
+        },
+        {
+          "cut": 5,
+          "pose": [
+            [
+              -1,
+              0
+            ],
+            3
+          ],
+          "w_cursor": [
+            -1,
+            1
+          ],
+          "z_cursor": [
+            -1,
+            -1
+          ],
+          "active_w_mass": 2,
+          "active_z_mass": 3,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 6,
+          "pose": [
+            [
+              -1,
+              1
+            ],
+            0
+          ],
+          "w_cursor": [
+            -1,
+            1
+          ],
+          "z_cursor": [
+            -3,
+            1
+          ],
+          "active_w_mass": 3,
+          "active_z_mass": 6,
+          "turn": "L",
+          "imported_w_component": []
+        },
+        {
+          "cut": 7,
+          "pose": [
+            [
+              -2,
+              1
+            ],
+            3
+          ],
+          "w_cursor": [
+            -3,
+            3
+          ],
+          "z_cursor": [
+            -3,
+            1
+          ],
+          "active_w_mass": 1,
+          "active_z_mass": 4,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 8,
+          "pose": [
+            [
+              -2,
+              2
+            ],
+            0
+          ],
+          "w_cursor": [
+            -3,
+            3
+          ],
+          "z_cursor": [
+            -5,
+            3
+          ],
+          "active_w_mass": 2,
+          "active_z_mass": 5,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 9,
+          "pose": [
+            [
+              -1,
+              2
+            ],
+            1
+          ],
+          "w_cursor": [
+            -3,
+            3
+          ],
+          "z_cursor": [
+            -3,
+            5
+          ],
+          "active_w_mass": 3,
+          "active_z_mass": 7,
+          "turn": "L",
+          "imported_w_component": []
+        },
+        {
+          "cut": 10,
+          "pose": [
+            [
+              -1,
+              3
+            ],
+            0
+          ],
+          "w_cursor": [
+            -1,
+            5
+          ],
+          "z_cursor": [
+            -3,
+            5
+          ],
+          "active_w_mass": 0,
+          "active_z_mass": 6,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 11,
+          "pose": [
+            [
+              0,
+              3
+            ],
+            1
+          ],
+          "w_cursor": [
+            -1,
+            5
+          ],
+          "z_cursor": [
+            -1,
+            7
+          ],
+          "active_w_mass": 1,
+          "active_z_mass": 7,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 12,
+          "pose": [
+            [
+              0,
+              2
+            ],
+            2
+          ],
+          "w_cursor": [
+            -1,
+            5
+          ],
+          "z_cursor": [
+            1,
+            5
+          ],
+          "active_w_mass": 2,
+          "active_z_mass": 8,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 13,
+          "pose": [
+            [
+              -1,
+              2
+            ],
+            3
+          ],
+          "w_cursor": [
+            -1,
+            5
+          ],
+          "z_cursor": [
+            -1,
+            3
+          ],
+          "active_w_mass": 3,
+          "active_z_mass": 9,
+          "turn": "R",
+          "imported_w_component": [
+            [
+              -2,
+              1
+            ],
+            [
+              -2,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 14,
+          "pose": [
+            [
+              -1,
+              3
+            ],
+            0
+          ],
+          "w_cursor": [
+            -1,
+            5
+          ],
+          "z_cursor": [
+            -3,
+            5
+          ],
+          "active_w_mass": 6,
+          "active_z_mass": 10,
+          "turn": "L",
+          "imported_w_component": []
+        },
+        {
+          "cut": 15,
+          "pose": [
+            [
+              -2,
+              3
+            ],
+            3
+          ],
+          "w_cursor": [
+            -3,
+            7
+          ],
+          "z_cursor": [
+            -3,
+            5
+          ],
+          "active_w_mass": 0,
+          "active_z_mass": 9,
+          "turn": "R",
+          "imported_w_component": [
+            [
+              -2,
+              1
+            ],
+            [
+              -2,
+              2
+            ],
+            [
+              -1,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ]
+          ]
+        },
+        {
+          "cut": 16,
+          "pose": [
+            [
+              -2,
+              4
+            ],
+            0
+          ],
+          "w_cursor": [
+            -3,
+            7
+          ],
+          "z_cursor": [
+            -5,
+            7
+          ],
+          "active_w_mass": 6,
+          "active_z_mass": 10,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 17,
+          "pose": [
+            [
+              -1,
+              4
+            ],
+            1
+          ],
+          "w_cursor": [
+            -3,
+            7
+          ],
+          "z_cursor": [
+            -3,
+            9
+          ],
+          "active_w_mass": 7,
+          "active_z_mass": 11,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 18,
+          "pose": [
+            [
+              -1,
+              3
+            ],
+            2
+          ],
+          "w_cursor": [
+            -3,
+            7
+          ],
+          "z_cursor": [
+            -1,
+            7
+          ],
+          "active_w_mass": 8,
+          "active_z_mass": 12,
+          "turn": "R",
+          "imported_w_component": []
+        },
+        {
+          "cut": 19,
+          "pose": [
+            [
+              -2,
+              3
+            ],
+            3
+          ],
+          "w_cursor": [
+            -3,
+            7
+          ],
+          "z_cursor": [
+            -3,
+            5
+          ],
+          "active_w_mass": 9,
+          "active_z_mass": 13,
+          "turn": "L",
+          "imported_w_component": []
+        }
+      ]
+    }
+  ],
+  "scope": "The arbitrary-exterior <=9-update output-trap theorem is analytic. These3 named full-board controls preserve all initial fuel and both graph roles; same-word WW failure is weaker than the universal continuation obstruction."
+}

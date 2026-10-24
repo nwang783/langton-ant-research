@@ -1,0 +1,117 @@
+{
+  "status": "MANDATORY_D_FAMILY_NECESSARY_PREFIX_CLARIFICATION",
+  "all4_actual_fullpacket_cases": [
+    {
+      "old_fullsource": "VCC",
+      "first_W_fullpacket": "D",
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 59,
+        "previous_read": 19,
+        "cell": [
+          0,
+          3
+        ],
+        "turn": "L"
+      },
+      "canonical_physical_owner": {
+        "packet": "D",
+        "context_tick0": 11,
+        "context_read_number1": 12,
+        "RAW_length": 10,
+        "owner": "next actual word RAW",
+        "owner_tick0": 1,
+        "owner_read_number1": 2,
+        "turn": "L",
+        "next_word_tick0": 1,
+        "next_word_read_number1": 2,
+        "label": "context tick 11 (zero-based), RAW length 10; next actual word RAW tick 1 (zero-based), read 2 (one-based), L"
+      }
+    },
+    {
+      "old_fullsource": "VCC",
+      "first_W_fullpacket": "DC",
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 59,
+        "previous_read": 19,
+        "cell": [
+          0,
+          3
+        ],
+        "turn": "L"
+      },
+      "canonical_physical_owner": {
+        "packet": "DC",
+        "context_tick0": 11,
+        "context_read_number1": 12,
+        "RAW_length": 25,
+        "owner": "own C-tail 1 RAW",
+        "owner_tick0": 1,
+        "owner_read_number1": 2,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 11 (zero-based), RAW length 25; own C-tail 1 RAW tick 1 (zero-based), read 2 (one-based), L"
+      }
+    },
+    {
+      "old_fullsource": "UCC",
+      "first_W_fullpacket": "D",
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 69,
+        "previous_read": 29,
+        "cell": [
+          -1,
+          4
+        ],
+        "turn": "L"
+      },
+      "canonical_physical_owner": {
+        "packet": "D",
+        "context_tick0": 11,
+        "context_read_number1": 12,
+        "RAW_length": 10,
+        "owner": "next actual word RAW",
+        "owner_tick0": 1,
+        "owner_read_number1": 2,
+        "turn": "L",
+        "next_word_tick0": 1,
+        "next_word_read_number1": 2,
+        "label": "context tick 11 (zero-based), RAW length 10; next actual word RAW tick 1 (zero-based), read 2 (one-based), L"
+      }
+    },
+    {
+      "old_fullsource": "UCC",
+      "first_W_fullpacket": "DC",
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 69,
+        "previous_read": 29,
+        "cell": [
+          -1,
+          4
+        ],
+        "turn": "L"
+      },
+      "canonical_physical_owner": {
+        "packet": "DC",
+        "context_tick0": 11,
+        "context_read_number1": 12,
+        "RAW_length": 25,
+        "owner": "own C-tail 1 RAW",
+        "owner_tick0": 1,
+        "owner_read_number1": 2,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 11 (zero-based), RAW length 25; own C-tail 1 RAW tick 1 (zero-based), read 2 (one-based), L"
+      }
+    }
+  ],
+  "dependencies": {
+    "seven_word_spatial_return_2026-10-23/earliest_W_portal_ancestry_guard_manifest.json": "e74dca08ba5962577861c1fbb4435456399467b231671372a34328f160d1ebaa",
+    "literal_ownership_conventions_2026-10-24/canonical_read_ownership.py": "041b40e04a0f71a6b9511abf1d15b1d86c548e74f4f99281477c115b72036ea2"
+  }
+}

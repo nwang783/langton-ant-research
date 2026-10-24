@@ -1,0 +1,252 @@
+{
+  "scope": "All local actual ports of an all-V constant-flow-two first-R wall.\nNo period or front scan. The global proof uses the embedded essential b-circle.\n",
+  "all_normalized_rows": [
+    {
+      "turn": "RIGHT",
+      "history": "EEWW",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "S",
+      "incoming_cycle_ranks": [
+        0,
+        1
+      ],
+      "outgoing_cycle_ranks": [
+        0,
+        3
+      ],
+      "exterior_side": "LEFT",
+      "events": [
+        {
+          "rank": 0,
+          "incoming_heading": "E",
+          "outgoing_heading": "S",
+          "incoming_side": "RIGHT",
+          "outgoing_side": "RIGHT"
+        },
+        {
+          "rank": 1,
+          "incoming_heading": "E",
+          "outgoing_heading": "N",
+          "incoming_side": "LEFT",
+          "outgoing_side": "LEFT"
+        },
+        {
+          "rank": 2,
+          "incoming_heading": "W",
+          "outgoing_heading": "N",
+          "incoming_side": "LEFT",
+          "outgoing_side": "LEFT"
+        },
+        {
+          "rank": 3,
+          "incoming_heading": "W",
+          "outgoing_heading": "S",
+          "incoming_side": "LEFT",
+          "outgoing_side": "LEFT"
+        }
+      ],
+      "actual_crossings": []
+    },
+    {
+      "turn": "RIGHT",
+      "history": "EWWE",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "S",
+      "incoming_cycle_ranks": [
+        0,
+        3
+      ],
+      "outgoing_cycle_ranks": [
+        0,
+        1
+      ],
+      "exterior_side": "LEFT",
+      "events": [
+        {
+          "rank": 0,
+          "incoming_heading": "E",
+          "outgoing_heading": "S",
+          "incoming_side": "RIGHT",
+          "outgoing_side": "RIGHT"
+        },
+        {
+          "rank": 1,
+          "incoming_heading": "W",
+          "outgoing_heading": "S",
+          "incoming_side": "LEFT",
+          "outgoing_side": "LEFT"
+        },
+        {
+          "rank": 2,
+          "incoming_heading": "W",
+          "outgoing_heading": "N",
+          "incoming_side": "LEFT",
+          "outgoing_side": "LEFT"
+        },
+        {
+          "rank": 3,
+          "incoming_heading": "E",
+          "outgoing_heading": "N",
+          "incoming_side": "LEFT",
+          "outgoing_side": "LEFT"
+        }
+      ],
+      "actual_crossings": []
+    },
+    {
+      "turn": "LEFT",
+      "history": "WWEE",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "N",
+      "incoming_cycle_ranks": [
+        2,
+        3
+      ],
+      "outgoing_cycle_ranks": [
+        0,
+        3
+      ],
+      "exterior_side": "RIGHT",
+      "events": [
+        {
+          "rank": 0,
+          "incoming_heading": "W",
+          "outgoing_heading": "N",
+          "incoming_side": "RIGHT",
+          "outgoing_side": "RIGHT"
+        },
+        {
+          "rank": 1,
+          "incoming_heading": "W",
+          "outgoing_heading": "S",
+          "incoming_side": "RIGHT",
+          "outgoing_side": "RIGHT"
+        },
+        {
+          "rank": 2,
+          "incoming_heading": "E",
+          "outgoing_heading": "S",
+          "incoming_side": "RIGHT",
+          "outgoing_side": "RIGHT"
+        },
+        {
+          "rank": 3,
+          "incoming_heading": "E",
+          "outgoing_heading": "N",
+          "incoming_side": "LEFT",
+          "outgoing_side": "LEFT"
+        }
+      ],
+      "actual_crossings": []
+    },
+    {
+      "turn": "LEFT",
+      "history": "WEE",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "N",
+      "incoming_cycle_ranks": [
+        1,
+        2
+      ],
+      "outgoing_cycle_ranks": [
+        0,
+        1
+      ],
+      "exterior_side": "RIGHT",
+      "events": [
+        {
+          "rank": 0,
+          "incoming_heading": "W",
+          "outgoing_heading": "N",
+          "incoming_side": "RIGHT",
+          "outgoing_side": "RIGHT"
+        },
+        {
+          "rank": 1,
+          "incoming_heading": "E",
+          "outgoing_heading": "N",
+          "incoming_side": "RIGHT",
+          "outgoing_side": "LEFT"
+        },
+        {
+          "rank": 2,
+          "incoming_heading": "E",
+          "outgoing_heading": "S",
+          "incoming_side": "LEFT",
+          "outgoing_side": "RIGHT"
+        }
+      ],
+      "actual_crossings": [
+        [
+          1,
+          "RIGHT",
+          "LEFT"
+        ],
+        [
+          2,
+          "LEFT",
+          "RIGHT"
+        ]
+      ]
+    },
+    {
+      "turn": "LEFT",
+      "history": "WEEW",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "N",
+      "incoming_cycle_ranks": [
+        1,
+        2
+      ],
+      "outgoing_cycle_ranks": [
+        0,
+        1
+      ],
+      "exterior_side": "RIGHT",
+      "events": [
+        {
+          "rank": 0,
+          "incoming_heading": "W",
+          "outgoing_heading": "N",
+          "incoming_side": "RIGHT",
+          "outgoing_side": "RIGHT"
+        },
+        {
+          "rank": 1,
+          "incoming_heading": "E",
+          "outgoing_heading": "N",
+          "incoming_side": "RIGHT",
+          "outgoing_side": "LEFT"
+        },
+        {
+          "rank": 2,
+          "incoming_heading": "E",
+          "outgoing_heading": "S",
+          "incoming_side": "LEFT",
+          "outgoing_side": "RIGHT"
+        },
+        {
+          "rank": 3,
+          "incoming_heading": "W",
+          "outgoing_heading": "S",
+          "incoming_side": "RIGHT",
+          "outgoing_side": "RIGHT"
+        }
+      ],
+      "actual_crossings": [
+        [
+          1,
+          "RIGHT",
+          "LEFT"
+        ],
+        [
+          2,
+          "LEFT",
+          "RIGHT"
+        ]
+      ]
+    }
+  ],
+  "all_rotations": 20,
+  "conclusion": "Both RIGHT profiles and LEFT V preserve actual event side. LEFT O/U have exactly the genuine L1 RIGHT-to-LEFT and R2 LEFT-to-RIGHT reset pair. An all-V embedded essential b-circle therefore partitions the actual full event orbit, even with chords or arbitrary exterior histories."
+}

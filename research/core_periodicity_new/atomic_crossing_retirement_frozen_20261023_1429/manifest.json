@@ -1,0 +1,39 @@
+{
+  "scope": "All38 V/U-first proper atomic center crossings at entry gap3(E)/5(W) require an earlier nonadjacent CLOSED contact. Full-source ages<=5 plus exact zero-C endpoint cones; no global angle bound, endpoint exclusion, fuel or capture.",
+  "files": [
+    {
+      "frozen": "00_atomic_crossing_early_retirement.md",
+      "source": "atomic_crossing_early_retirement.md",
+      "sha256": "5237f44bf572e757c1bff1a0ba9f125e6d4f255aa2360a8d4f03f34fc48eea50"
+    },
+    {
+      "frozen": "01_check_atomic_crossing_early_retirement.py",
+      "source": "check_atomic_crossing_early_retirement.py",
+      "sha256": "ad525b73c3b734f52d31f7058b679c1d023c20a5aa9323e2e1b316fbe7ecf334"
+    },
+    {
+      "frozen": "02_atomic_crossing_early_retirement.json",
+      "source": "chronology_dcuv/atomic_crossing_early_retirement.json",
+      "sha256": "d5f7edb86a351ce745c3c4d6cb090f3a7414b25b145a8090dc847487111012bd"
+    },
+    {
+      "frozen": "03_literal_residual_geometry.json",
+      "source": "chronology_dcuv/literal_residual_geometry.json",
+      "sha256": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd"
+    },
+    {
+      "frozen": "04_manifest.json",
+      "source": "atomic_crossing_contexts_frozen_20261023_1414/manifest.json",
+      "sha256": "d4b48e7e6cec0ba207373e30efa4014a77adde094451c38a0567fa69f8710f63"
+    },
+    {
+      "frozen": "05_02_atomic_center_crossing_contexts.json",
+      "source": "atomic_crossing_contexts_frozen_20261023_1414/02_atomic_center_crossing_contexts.json",
+      "sha256": "405db427620c3fa21426c1fac9a4d36423bf1f3dc0df4f65005f548d8b472ec0"
+    }
+  ],
+  "external_immutable_inputs": {
+    "chronology_dcuv/protected_patch2.tsv": "edd8d83e17ddaa220c17960315c235ca90fa2fde9045007efabf824d580f74fd",
+    "chronology_dcuv/critical_ucc_count5/frozen_20261023_0813/01_closure.tsv": "f68f23f8189dc750489ed3aabd48741fde629d1263503ac9cff94fb703163f58"
+  }
+}

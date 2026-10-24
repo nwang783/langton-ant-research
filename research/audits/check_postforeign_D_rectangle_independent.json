@@ -1,0 +1,59 @@
+{
+  "status": "PASS all-length named postforeign D-rectangle last-R shadow obstruction only",
+  "manifest_sha256": "14ed9c10bcfb93e156435ee8811f38788f2397fbf5468a515ec53acece388082",
+  "script_sha256": "9d334648e5e717e2b3e7deb12205cdc6d40245025215fc2d86b25fd77ad60f7c",
+  "affine_RAW_offsets": 85,
+  "actual_foreign_shadows": [
+    [
+      "F",
+      47,
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        -1
+      ],
+      "D",
+      8
+    ],
+    [
+      "Q",
+      57,
+      [
+        -3,
+        -2
+      ],
+      [
+        -1,
+        -2
+      ],
+      "V",
+      8
+    ],
+    [
+      "B",
+      67,
+      [
+        -2,
+        -3
+      ],
+      [
+        -1,
+        -2
+      ],
+      "V",
+      8
+    ]
+  ],
+  "finite_regressions": 216,
+  "other_prescribed_controls": 12,
+  "positive_U_entry_prefixes": 2,
+  "analytic_review": [
+    "Actual affine heads follow by literal D and C displacements with full orientations. Index endpoints j=0/a or0/b-1 give all RAW read bounds for every a>=0,b>=1, not an empirical length cutoff. The lastV proper midpoint crossing is fixed independently of parameters.",
+    "Q/B actual last-R shadow is below every earlier body read; finalV firstR8 requires itWHITE. F actual lastR shadow is left of allN reads and below every later pre-lastE read; the finalE D firstR8 requires itWHITE. These identities remain physically BLACK because there was no read, including any marker reads already present inside subsequent RAWs.",
+    "All216 finite regressions and12 VCC owner cases were independently recomputed; both genuine UQ/UB VCCV complete positive boards remain valid. The proof uses no postforeign maturation or external-current-to-death shortcut.",
+    "Only this D-only proper-crossing template is excluded. Mixed V/U rails may restore the shadow, and neither the historical4C theorem nor arbitrary-tail simplicity is inferred."
+  ]
+}

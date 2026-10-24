@@ -1,0 +1,99 @@
+{
+  "status": "PASS exact supplied201 exclusion at full a=c=5 odd inventory; uniform stated-top-parity rank lemma",
+  "proof": "09c11d3cfc428b7a1b951085d0fed05db344d73e4a7f747a9c13afbd038f3351",
+  "certificate": "96922c82036dbdc569a5ca7933303a8c94eac6fd36c545e6eb1dfa4af0261f3b",
+  "script": "200ddebd13512a61fa5d276a4b10ff73cd168e86e71bb54d42ac68de0d6445fd",
+  "complete_counts": {
+    "33": {
+      "open": 1
+    },
+    "32": {
+      "open": 1
+    },
+    "31": {
+      "open": 3
+    },
+    "30": {
+      "first_return_rank": 54,
+      "open": 3
+    },
+    "29": {
+      "open": 8,
+      "first_return_rank": 121,
+      "skipped_rank": 5,
+      "positive_rank_clock_cycle": 4
+    }
+  },
+  "derived_bounds": [
+    3,
+    3,
+    7,
+    11,
+    11,
+    11,
+    13,
+    13,
+    13
+  ],
+  "eight_open_interfaces": [
+    {
+      "T30": "NNNNSS",
+      "T31": "EWWWE",
+      "T29": "EEWE",
+      "block": []
+    },
+    {
+      "T30": "NNNNSS",
+      "T31": "EWWWE",
+      "T29": "EWEWWWWE",
+      "block": []
+    },
+    {
+      "T30": "NNNNSS",
+      "T31": "EWWWE",
+      "T29": "EWWWEWWE",
+      "block": [
+        1
+      ]
+    },
+    {
+      "T30": "NNNNSS",
+      "T31": "EWWWE",
+      "T29": "WWEWEWWE",
+      "block": []
+    },
+    {
+      "T30": "NNSNNS",
+      "T31": "WWEWE",
+      "T29": "EEWE",
+      "block": []
+    },
+    {
+      "T30": "NNSNNS",
+      "T31": "WWEWE",
+      "T29": "EWEWWWWE",
+      "block": []
+    },
+    {
+      "T30": "NNSNNS",
+      "T31": "WWEWE",
+      "T29": "EWWEEWWW",
+      "block": []
+    },
+    {
+      "T30": "NNSNNS",
+      "T31": "WWEWE",
+      "T29": "EWWWEWWE",
+      "block": [
+        1
+      ]
+    }
+  ],
+  "analytic_review": [
+    "In a complete WHITE full(3,1) front with the vertical-even sector, the maximum of the ENTIRE actual read footprint is even singletonN, hence equals the highest full odd level34 for the exact supplied inventory. Only levels35..37 are setempty; all omitted lowerlevels<=28 remain UNKNOWN. This is not a black-field or cropped-wake extremum.",
+    "For even newlevel exact upper SinI/WoutJ gives floor(n/2)=I+J-2a. For odd E-inI/NoutJ gives ceil(n/2)=I+J-2b. Therefore n<=2(I+J)+1 is complete and derived. Independent binary-word enumeration reproduces every complete parity-constrained domain, including empty when permitted, without using the author subset generator.",
+    "All upper same-PHYSICAL-cell return paths and full voltages were independently reconstructed. Every121 explicit return rejection, five skipped-rank paths and four positive clock cycles atT29 was verified, along with all earlier57 T30 cases. Eight necessary OPEN upper interfaces remain; no exterior completion is claimed.",
+    "The W/L,W/R,W/L,E/R physical block can occur only at complete rank1 in EWWWEWWE. Thus there is no earlier L rank of ANY heading. The factor provides q+d W/L at87 and consecutive q block93/105/109/117. Full translation implies an actual q W/L at87-P<93 for every positive P, contradicting complete-rank firstness. Prepared BLACK is not rejected by itself; its observed full-drift owner is the constraint.",
+    "The general rank lemma depends only on the stated six top parities odd/even/odd/odd/even/even and complete-read maximum. Its application excludes only the given201 factor with FULL odd inventory{0,1,2,6,7,31,32,34}. It does not exclude all c=a fronts, a5c3, largerparameters, arbitrary controllers or global attraction, and does not retract the genuine finite factor."
+  ]
+}

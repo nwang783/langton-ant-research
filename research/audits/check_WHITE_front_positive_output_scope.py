@@ -1,0 +1,26 @@
+from pathlib import Path
+from itertools import product
+import json,hashlib
+SELF=Path(__file__).resolve();R=SELF.parents[1];source=R/'sources/kehao95-core/wake_synthesis/proof/periodic-growth-closure.md';count=0
+# Independent direct finite-state verification of the exact displayed mod4 potential.
+def F(h,c,S,f):return[-c*S,c*(S-f),-c*(S+2*f),c*(S+f)][h]%4
+vel=[(0,1),(1,0),(0,-1),(-1,0)]
+for S,fm,f,fp,c,h,delta in product(range(4),range(4),range(4),range(4),(-1,1),range(4),(-1,1)):
+ hn=(h+delta)%4;dx,dy=vel[hn]
+ Sn=(S+(f+fp if dx==1 else-fm-f if dx==-1 else 0))%4
+ fn=fp if dx==1 else fm if dx==-1 else f
+ assert(F(hn,-c,Sn,fn)-F(h,c,S,f)+delta*c*f)%4==0;count+=1
+assert count==4096
+mono=0
+for S,f,total,c,h,sgn in product(range(4),range(4),range(4),(-1,1),range(4),(-1,1)):
+ assert(F(h,c,(S+2*sgn*total)%4,f)-F(h,c,S,f))%4==(2*total)%4;mono+=1
+# Exact finite-overlap interval arithmetic, not a trajectory-existence claim.
+for P in range(1,9):
+ for ts in product(range(-2*P,2*P+1),repeat=2):
+  ceil=lambda a,b:-((-a)//b)
+  lo=ceil(-max(ts),P);hi=ceil(-min(ts),P)-1
+  actual=[n for n in range(-4,5)if any(n*P+t<0 for t in ts)and any(n*P+t>=0 for t in ts)]
+  assert actual==list(range(lo,hi+1))
+files=[source,R/'periodic_classification_new/cap_three_port_pairing.md',R/'periodic_classification_new/README.md'];hs={str(p.relative_to(R)):hashlib.sha256(p.read_bytes()).hexdigest()for p in files}
+out={'status':'PASS scope correction: zero odd output already impossible for every complete WHITE nonzero-drift front','source_hashes':hs,'local_mod4_cases':count,'monodromy_cases':mono,'proof':['Fix a bi-infinite P-periodic turn stream with nonzero full drift d, heading restoration and complete WHITE physical histories. There are finitely many read classes modulo d. In classc choose phase offsets q_i=c+k_i*d; visits to c+n*d occur at nP+t_i with t_i=i-P*k_i. Each physical cell has finitely many visits, and only finitely many n have both a past(<0) and future(>=0) visit: ceil(-max t_i/P)<=n<=ceil(-min t_i/P)-1.','At the cut, retain only currentlyBLACK cells that will be read in the future. Every such cell has a past read, because genuinely future-first cells have complete first colorWHITE. Thus this retained set is contained in the finite past/future overlap. Set every other siteWHITE. A first-difference induction reproduces the entire future trace from this COMPLETE FINITE seed; deleting old never-again-read wake is harmless only because it is never again queried. This is a proof about a supplied complete WHITE periodic front, not a general finite-state reduction.','The period excess g=#R-#L equals the sum of complete-class excesses. Every class has alternatingWHITE-start history, excess0 for even multiplicity and1 for odd multiplicity. Hence g=Nodd. Heading restoration makes g divisible4, P even and d_x+d_y even.','For a nonzero horizontal drift a, use the retained integer potential with f periodic mod|a|. Its local conservation was independently checked in all4096 residue choices; the explicit algebra is valid for every integer x. Checker andf return underd, while the head correction changes by2*sum_residue f modulo4, independently of signa andheading. The field change over one period is sum_odd chi(q)f(q_x), since weights are constant on each full-drift class. Conservation yields each signed residue sum equal2 mod4. If a=0 use a nonzero vertical coordinate after quarter rotation.','Each nonzero drift-coordinate residue therefore contains at least2 odd classes. Thus Nodd=g>=2*max(|d_x|,|d_y|)>0, and g is a positive multiple4. In particular Nodd0 would give0=2 mod4 in a residue. This contradiction is independent of any cap4, K1, canonical geometry, or new zero-output local argument.','The retained source TheoremA additionally states g>=8 using its separate axis/checker/unit-diagonal closure. This audit does not rerun that larger certificate, because Section2.3 alone already establishes the scope correction. Its finite-support hypotheses apply through the overlap construction, and the source attribution to Jillhewar is preserved.'],'interpretation':['All earlier whole-front Nodd0 corollaries in the current completeWHITE translating-front scope are counterfactual conditional truths relative to stronger retained positive-output results. They must not be described as newly closing a live family or as new global progress.','Keep mathematically valid local all-even port identities, typed output capacities, nonzero-output defect versions, and unconditional canonical geometry. These remain usable without treating a complete all-even front as an open possibility.','The new unconditional clockwise elementary-face classification remains meaningful; its zero-output counterclockwise extension is conditional/counterfactual. Likewise finite no-output rail/pit consequences remain local algebraic tools, not fresh whole-front exclusions. No existing frozen files are silently changed.'],'scope':'Complete WHITE bi-infinite heading-restoring nonzero full-drift fronts. Prepared fronts with BLACK first colors are excluded from this reduction and may have different signed class excess. Universal finite-seed standard104 capture remains open.'}
+SELF.with_suffix('.json').write_text(json.dumps(out,indent=2)+'\n');print(out['status']);print(hs)

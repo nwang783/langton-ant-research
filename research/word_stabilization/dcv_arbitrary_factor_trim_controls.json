@@ -1,0 +1,206 @@
+{
+  "C5": {
+    "feasible": false,
+    "conflict_read": 67,
+    "previous_read": 7,
+    "cell": [
+      2,
+      1
+    ]
+  },
+  "D_endpoint": {
+    "feasible": true,
+    "endpoint": [
+      1,
+      1
+    ],
+    "heading": 0,
+    "endpoint_last_read": [
+      6,
+      "R"
+    ]
+  },
+  "C4_M11": {
+    "feasible": false,
+    "conflict_read": 67,
+    "previous_read": 7,
+    "cell": [
+      2,
+      1
+    ]
+  },
+  "VCCC_M11": {
+    "feasible": false,
+    "conflict_read": 71,
+    "previous_read": 11,
+    "cell": [
+      0,
+      1
+    ]
+  },
+  "DCC_D": {
+    "feasible": true,
+    "endpoint": [
+      -1,
+      1
+    ],
+    "heading": 2,
+    "endpoint_last_read": [
+      46,
+      "R"
+    ]
+  },
+  "DCC_D_L": {
+    "feasible": true,
+    "endpoint": [
+      0,
+      1
+    ],
+    "heading": 1,
+    "endpoint_last_read": [
+      11,
+      "L"
+    ]
+  },
+  "DCC_D_LL": {
+    "feasible": false,
+    "conflict_read": 51,
+    "previous_read": 11,
+    "cell": [
+      0,
+      1
+    ]
+  },
+  "DCC_V": {
+    "feasible": false,
+    "conflict_read": 53,
+    "previous_read": 1,
+    "cell": [
+      -1,
+      0
+    ]
+  },
+  "DCC_D_C": {
+    "feasible": false,
+    "conflict_read": 51,
+    "previous_read": 11,
+    "cell": [
+      0,
+      1
+    ]
+  },
+  "retained_DC_actual_marker": {
+    "feasible": true,
+    "endpoint": [
+      0,
+      2
+    ],
+    "heading": 2,
+    "endpoint_last_read": null
+  },
+  "DCC_terminal_packet_cases": {
+    "D": {
+      "feasible": true,
+      "endpoint": [
+        -1,
+        1
+      ],
+      "heading": 2,
+      "endpoint_last_read": [
+        46,
+        "R"
+      ]
+    },
+    "DC": {
+      "feasible": false,
+      "conflict_read": 51,
+      "previous_read": 11,
+      "cell": [
+        0,
+        1
+      ]
+    },
+    "DCC": {
+      "feasible": false,
+      "conflict_read": 51,
+      "previous_read": 11,
+      "cell": [
+        0,
+        1
+      ]
+    },
+    "DCCC": {
+      "feasible": false,
+      "conflict_read": 51,
+      "previous_read": 11,
+      "cell": [
+        0,
+        1
+      ]
+    },
+    "DCCCC": {
+      "feasible": false,
+      "conflict_read": 51,
+      "previous_read": 11,
+      "cell": [
+        0,
+        1
+      ]
+    },
+    "V": {
+      "feasible": false,
+      "conflict_read": 53,
+      "previous_read": 1,
+      "cell": [
+        -1,
+        0
+      ]
+    },
+    "VC": {
+      "feasible": false,
+      "conflict_read": 53,
+      "previous_read": 1,
+      "cell": [
+        -1,
+        0
+      ]
+    },
+    "VCC": {
+      "feasible": false,
+      "conflict_read": 53,
+      "previous_read": 1,
+      "cell": [
+        -1,
+        0
+      ]
+    },
+    "VCCC": {
+      "feasible": false,
+      "conflict_read": 53,
+      "previous_read": 1,
+      "cell": [
+        -1,
+        0
+      ]
+    },
+    "VCCCC": {
+      "feasible": false,
+      "conflict_read": 53,
+      "previous_read": 1,
+      "cell": [
+        -1,
+        0
+      ]
+    }
+  },
+  "raw_lengths": {
+    "D": 10,
+    "C": 15,
+    "V": 18
+  },
+  "trim_steps": 193,
+  "entry_mass_extra": 21,
+  "terminal_exception_steps": 25,
+  "status": "Direct literal controls; corrected full trim argument awaits independent review",
+  "script_sha256": "60090d1ca4f0f5f58f1488ed92951143685fc2a31c82d95c451ee1f97f9fd7be"
+}

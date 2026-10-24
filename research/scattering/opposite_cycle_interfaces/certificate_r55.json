@@ -1,0 +1,356 @@
+{
+  "status": "exact complete finite-kernel three-marker cycle for all independent n,p>=100",
+  "phase": 55,
+  "domain": "n=U+100,p=V+100; U,V independent nonnegative integers",
+  "initial": [
+    [
+      [
+        0,
+        0,
+        6
+      ],
+      [
+        0,
+        0,
+        -3
+      ]
+    ],
+    [
+      [
+        -2,
+        0,
+        -230
+      ],
+      [
+        -2,
+        0,
+        -201
+      ]
+    ],
+    [
+      [
+        0,
+        2,
+        211
+      ],
+      [
+        0,
+        2,
+        178
+      ]
+    ]
+  ],
+  "first_contacts": {
+    "q2": [
+      104,
+      0,
+      17107
+    ],
+    "q3": [
+      208,
+      104,
+      89025
+    ]
+  },
+  "capture_time": [
+    312,
+    208,
+    165430
+  ],
+  "capture_pose": [
+    [
+      [
+        -2,
+        0,
+        -193
+      ],
+      [
+        -2,
+        0,
+        -233
+      ]
+    ],
+    2
+  ],
+  "tail": {
+    "drift": [
+      2,
+      -2
+    ],
+    "heading": 2,
+    "required_cells": 40,
+    "odd_cells": 32
+  },
+  "tail_phase": 0,
+  "prefix_u_bounds": [
+    -92,
+    96
+  ],
+  "whole_future_u_lower": -92,
+  "unused_opposite_corners": {
+    "NW": [
+      [
+        -2,
+        0,
+        -230
+      ],
+      [
+        0,
+        2,
+        178
+      ]
+    ],
+    "SE": [
+      [
+        0,
+        2,
+        211
+      ],
+      [
+        -2,
+        0,
+        -201
+      ]
+    ]
+  },
+  "unused_corners_never_read": true,
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        0,
+        6422
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -21
+          ],
+          [
+            0,
+            0,
+            11
+          ]
+        ],
+        0
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 1,
+      "time": [
+        104,
+        0,
+        17030
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            0,
+            -225
+          ],
+          [
+            -2,
+            0,
+            -193
+          ]
+        ],
+        0
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 2,
+      "time": [
+        104,
+        0,
+        68153
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            0,
+            -191
+          ],
+          [
+            -2,
+            0,
+            -230
+          ]
+        ],
+        1
+      ],
+      "contacts": {
+        "q2": [
+          104,
+          0,
+          17107
+        ]
+      }
+    },
+    {
+      "segment": 3,
+      "time": [
+        208,
+        104,
+        88953
+      ],
+      "pose": [
+        [
+          [
+            0,
+            2,
+            209
+          ],
+          [
+            0,
+            2,
+            170
+          ]
+        ],
+        1
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 4,
+      "time": [
+        208,
+        104,
+        140071
+      ],
+      "pose": [
+        [
+          [
+            0,
+            2,
+            172
+          ],
+          [
+            0,
+            2,
+            207
+          ]
+        ],
+        3
+      ],
+      "contacts": {
+        "q3": [
+          208,
+          104,
+          89025
+        ]
+      }
+    },
+    {
+      "segment": 5,
+      "time": [
+        208,
+        208,
+        149119
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -2
+          ],
+          [
+            0,
+            0,
+            33
+          ]
+        ],
+        3
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 6,
+      "time": [
+        208,
+        208,
+        154185
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -21
+          ],
+          [
+            0,
+            0,
+            -4
+          ]
+        ],
+        3
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 7,
+      "time": [
+        312,
+        208,
+        163337
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            0,
+            -197
+          ],
+          [
+            -2,
+            0,
+            -180
+          ]
+        ],
+        3
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 8,
+      "time": [
+        312,
+        208,
+        165430
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            0,
+            -193
+          ],
+          [
+            -2,
+            0,
+            -233
+          ]
+        ],
+        2
+      ],
+      "contacts": {}
+    }
+  ],
+  "statistics": {
+    "finite_read_constraints": 12000,
+    "periodic_read_constraints": 208,
+    "affine_guards": 10025,
+    "excluded_isolated_equalities": 26087593
+  },
+  "template_sha256": "c3f61167534051ce8e50a98a4bfd589e65e2415fc97a1d5a4c1ab958efcbd79b",
+  "source_certificate_sha256": "e5d95570a1c5a94b2c66489957093c2a3164304a593220ef4eaf557f5e0238bf",
+  "scope": "Arbitrary finite history belowu=-160 is protected, including the blank old history at fixed m>=100. Recurrence coupling is separately justified."
+}

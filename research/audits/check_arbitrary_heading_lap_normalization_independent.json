@@ -1,0 +1,307 @@
+{
+  "status": "PASS arbitrary-heading literal affine-count lap preprocessing",
+  "note_sha256": "df9ebd03a6499635f7470593a2230a9cc3cebae6dd415d3b9ba0a4b24a32292e",
+  "records": [
+    {
+      "rejected": true,
+      "kind": "rotation",
+      "power": 8,
+      "witness_lap": 7,
+      "block": 0,
+      "name": "nonrestoring_variable_power"
+    },
+    {
+      "rejected": true,
+      "kind": "closed",
+      "power": 2,
+      "witness_lap": 1,
+      "block": 0,
+      "name": "zero_drift_variable_power"
+    },
+    {
+      "rejected": false,
+      "skipped_initial_empty_laps": 0,
+      "original_lap_rotation": 1,
+      "original_laps_per_group": 4,
+      "A": [
+        0,
+        0
+      ],
+      "B": [
+        -4,
+        4
+      ],
+      "bundled": false,
+      "blocks": [
+        [
+          "LRRL",
+          4,
+          1
+        ],
+        [
+          "R",
+          0,
+          1
+        ],
+        [
+          "LRRL",
+          4,
+          2
+        ],
+        [
+          "R",
+          0,
+          1
+        ],
+        [
+          "LRRL",
+          4,
+          3
+        ],
+        [
+          "R",
+          0,
+          1
+        ],
+        [
+          "LRRL",
+          4,
+          4
+        ],
+        [
+          "R",
+          0,
+          1
+        ]
+      ],
+      "name": "rotating_laps",
+      "physical_read_comparisons": 1224
+    },
+    {
+      "rejected": false,
+      "skipped_initial_empty_laps": 0,
+      "original_lap_rotation": 0,
+      "original_laps_per_group": 1,
+      "A": [
+        1,
+        0
+      ],
+      "B": [
+        1,
+        0
+      ],
+      "bundled": false,
+      "blocks": [
+        [
+          "LRRL",
+          1,
+          1
+        ]
+      ],
+      "name": "quadratic_restored_laps",
+      "physical_read_comparisons": 84
+    },
+    {
+      "rejected": false,
+      "skipped_initial_empty_laps": 1,
+      "original_lap_rotation": 0,
+      "original_laps_per_group": 1,
+      "A": [
+        1,
+        0
+      ],
+      "B": [
+        1,
+        0
+      ],
+      "bundled": false,
+      "blocks": [
+        [
+          "LRRL",
+          1,
+          1
+        ]
+      ],
+      "name": "empty_first_lap",
+      "physical_read_comparisons": 84
+    },
+    {
+      "rejected": false,
+      "skipped_initial_empty_laps": 0,
+      "original_lap_rotation": 2,
+      "original_laps_per_group": 4,
+      "A": [
+        0,
+        0
+      ],
+      "B": [
+        0,
+        -4
+      ],
+      "bundled": false,
+      "blocks": [
+        [
+          "LRRL",
+          4,
+          1
+        ],
+        [
+          "RR",
+          0,
+          1
+        ],
+        [
+          "LRRL",
+          4,
+          2
+        ],
+        [
+          "RR",
+          0,
+          1
+        ],
+        [
+          "LRRL",
+          4,
+          3
+        ],
+        [
+          "RR",
+          0,
+          1
+        ],
+        [
+          "LRRL",
+          4,
+          4
+        ],
+        [
+          "RR",
+          0,
+          1
+        ]
+      ],
+      "name": "halfturn_laps",
+      "physical_read_comparisons": 1248
+    },
+    {
+      "rejected": false,
+      "skipped_initial_empty_laps": 0,
+      "original_lap_rotation": 3,
+      "original_laps_per_group": 4,
+      "A": [
+        0,
+        0
+      ],
+      "B": [
+        -4,
+        4
+      ],
+      "bundled": false,
+      "blocks": [
+        [
+          "LRRL",
+          4,
+          1
+        ],
+        [
+          "L",
+          0,
+          1
+        ],
+        [
+          "LRRL",
+          4,
+          2
+        ],
+        [
+          "L",
+          0,
+          1
+        ],
+        [
+          "LRRL",
+          4,
+          3
+        ],
+        [
+          "L",
+          0,
+          1
+        ],
+        [
+          "LRRL",
+          4,
+          4
+        ],
+        [
+          "L",
+          0,
+          1
+        ]
+      ],
+      "name": "negative_quarter_laps",
+      "physical_read_comparisons": 1224
+    },
+    {
+      "rejected": false,
+      "skipped_initial_empty_laps": 0,
+      "original_lap_rotation": 0,
+      "original_laps_per_group": 1,
+      "A": [
+        2,
+        2
+      ],
+      "B": [
+        1,
+        1
+      ],
+      "bundled": true,
+      "blocks": [
+        [
+          "RL",
+          2,
+          1
+        ],
+        [
+          "RL",
+          2,
+          2
+        ]
+      ],
+      "name": "odd_drift_core_bundling",
+      "physical_read_comparisons": 156
+    },
+    {
+      "rejected": true,
+      "kind": "empty",
+      "name": "empty_domain"
+    },
+    {
+      "rejected": false,
+      "skipped_initial_empty_laps": 1,
+      "original_lap_rotation": 0,
+      "original_laps_per_group": 1,
+      "A": [
+        -2,
+        0
+      ],
+      "B": [
+        -2,
+        0
+      ],
+      "bundled": false,
+      "blocks": [
+        [
+          "LRRL",
+          2,
+          2
+        ]
+      ],
+      "name": "skip_then_rotate",
+      "physical_read_comparisons": 168
+    }
+  ],
+  "analytic": "A nonrestoring growing word eventually contains w^8: w^4 returns pose; two identical closed-pose words force even local visit multiplicity, zero full XOR, and an impossible bounded periodic physical orbit. Restoring zero-drift growing words similarly fail at w^2. Remaining whole-lap rotation is constant; four actual laps cancel the drift slope, preserving every actual read. Empty initial lap is a harmless index shift. Core odd-drift bundling is additionally retained when theta=0.",
+  "scope": "General finite-expression realizability and standard-capture decision reduction, not discovery of a nonstandard finite-seed orbit. Wrapper group metadata records the preprocessing factor; core bundled flag supplies an additional factor2 when needed."
+}

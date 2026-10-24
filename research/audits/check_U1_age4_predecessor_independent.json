@@ -1,0 +1,439 @@
+{
+  "status": "PASS independent full32 predecessor table and all-length forced-turn bound",
+  "manifest_sha256": "b479caa10614305ede6066c6df1bbec67ccda328adebb76544e1bd2d5288b545",
+  "counts": {
+    "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET": 12,
+    "STRICT_RECORD_REJECTED": 10,
+    "FORCED_DC_THREE_PACKET_LITERAL_REJECTED": 2,
+    "PAIR_LITERAL_REJECTED": 8
+  },
+  "rows": [
+    {
+      "source": 5,
+      "predecessor": 0,
+      "predecessor_pose": [
+        -5,
+        -3,
+        0
+      ],
+      "predecessor_peak": 26,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET",
+      "conflict_cell": null
+    },
+    {
+      "source": 5,
+      "predecessor": 1,
+      "predecessor_pose": [
+        -6,
+        -1,
+        1
+      ],
+      "predecessor_peak": 30,
+      "reason": "STRICT_RECORD_REJECTED",
+      "conflict_cell": null
+    },
+    {
+      "source": 5,
+      "predecessor": 4,
+      "predecessor_pose": [
+        -5,
+        -5,
+        0
+      ],
+      "predecessor_peak": 26,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET",
+      "conflict_cell": null
+    },
+    {
+      "source": 5,
+      "predecessor": 5,
+      "predecessor_pose": [
+        -8,
+        -1,
+        1
+      ],
+      "predecessor_peak": 34,
+      "reason": "STRICT_RECORD_REJECTED",
+      "conflict_cell": null
+    },
+    {
+      "source": 5,
+      "predecessor": 6,
+      "predecessor_pose": [
+        -4,
+        2,
+        2
+      ],
+      "predecessor_peak": 26,
+      "reason": "FORCED_DC_THREE_PACKET_LITERAL_REJECTED",
+      "conflict_cell": [
+        -6,
+        2
+      ]
+    },
+    {
+      "source": 5,
+      "predecessor": 7,
+      "predecessor_pose": [
+        -4,
+        -6,
+        0
+      ],
+      "predecessor_peak": 26,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET",
+      "conflict_cell": null
+    },
+    {
+      "source": 5,
+      "predecessor": 8,
+      "predecessor_pose": [
+        -9,
+        -2,
+        1
+      ],
+      "predecessor_peak": 34,
+      "reason": "STRICT_RECORD_REJECTED",
+      "conflict_cell": null
+    },
+    {
+      "source": 5,
+      "predecessor": 9,
+      "predecessor_pose": [
+        -5,
+        3,
+        2
+      ],
+      "predecessor_peak": 26,
+      "reason": "FORCED_DC_THREE_PACKET_LITERAL_REJECTED",
+      "conflict_cell": [
+        -4,
+        2
+      ]
+    },
+    {
+      "source": 6,
+      "predecessor": 0,
+      "predecessor_pose": [
+        -5,
+        -3,
+        0
+      ],
+      "predecessor_peak": 26,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET",
+      "conflict_cell": null
+    },
+    {
+      "source": 6,
+      "predecessor": 1,
+      "predecessor_pose": [
+        -6,
+        -1,
+        1
+      ],
+      "predecessor_peak": 30,
+      "reason": "STRICT_RECORD_REJECTED",
+      "conflict_cell": null
+    },
+    {
+      "source": 6,
+      "predecessor": 4,
+      "predecessor_pose": [
+        -5,
+        -5,
+        0
+      ],
+      "predecessor_peak": 26,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET",
+      "conflict_cell": null
+    },
+    {
+      "source": 6,
+      "predecessor": 5,
+      "predecessor_pose": [
+        -8,
+        -1,
+        1
+      ],
+      "predecessor_peak": 34,
+      "reason": "STRICT_RECORD_REJECTED",
+      "conflict_cell": null
+    },
+    {
+      "source": 6,
+      "predecessor": 6,
+      "predecessor_pose": [
+        -4,
+        2,
+        2
+      ],
+      "predecessor_peak": 26,
+      "reason": "PAIR_LITERAL_REJECTED",
+      "conflict_cell": [
+        -4,
+        2
+      ]
+    },
+    {
+      "source": 6,
+      "predecessor": 7,
+      "predecessor_pose": [
+        -4,
+        -6,
+        0
+      ],
+      "predecessor_peak": 26,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET",
+      "conflict_cell": null
+    },
+    {
+      "source": 6,
+      "predecessor": 8,
+      "predecessor_pose": [
+        -9,
+        -2,
+        1
+      ],
+      "predecessor_peak": 34,
+      "reason": "STRICT_RECORD_REJECTED",
+      "conflict_cell": null
+    },
+    {
+      "source": 6,
+      "predecessor": 9,
+      "predecessor_pose": [
+        -5,
+        3,
+        2
+      ],
+      "predecessor_peak": 26,
+      "reason": "PAIR_LITERAL_REJECTED",
+      "conflict_cell": [
+        -5,
+        2
+      ]
+    },
+    {
+      "source": 8,
+      "predecessor": 0,
+      "predecessor_pose": [
+        -4,
+        -4,
+        0
+      ],
+      "predecessor_peak": 22,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET",
+      "conflict_cell": null
+    },
+    {
+      "source": 8,
+      "predecessor": 1,
+      "predecessor_pose": [
+        -5,
+        -2,
+        1
+      ],
+      "predecessor_peak": 26,
+      "reason": "PAIR_LITERAL_REJECTED",
+      "conflict_cell": [
+        -4,
+        -2
+      ]
+    },
+    {
+      "source": 8,
+      "predecessor": 4,
+      "predecessor_pose": [
+        -4,
+        -6,
+        0
+      ],
+      "predecessor_peak": 22,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET",
+      "conflict_cell": null
+    },
+    {
+      "source": 8,
+      "predecessor": 5,
+      "predecessor_pose": [
+        -7,
+        -2,
+        1
+      ],
+      "predecessor_peak": 30,
+      "reason": "STRICT_RECORD_REJECTED",
+      "conflict_cell": null
+    },
+    {
+      "source": 8,
+      "predecessor": 6,
+      "predecessor_pose": [
+        -3,
+        1,
+        2
+      ],
+      "predecessor_peak": 22,
+      "reason": "PAIR_LITERAL_REJECTED",
+      "conflict_cell": [
+        -3,
+        -1
+      ]
+    },
+    {
+      "source": 8,
+      "predecessor": 7,
+      "predecessor_pose": [
+        -3,
+        -7,
+        0
+      ],
+      "predecessor_peak": 22,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET",
+      "conflict_cell": null
+    },
+    {
+      "source": 8,
+      "predecessor": 8,
+      "predecessor_pose": [
+        -8,
+        -3,
+        1
+      ],
+      "predecessor_peak": 30,
+      "reason": "STRICT_RECORD_REJECTED",
+      "conflict_cell": null
+    },
+    {
+      "source": 8,
+      "predecessor": 9,
+      "predecessor_pose": [
+        -4,
+        2,
+        2
+      ],
+      "predecessor_peak": 22,
+      "reason": "PAIR_LITERAL_REJECTED",
+      "conflict_cell": [
+        -3,
+        -1
+      ]
+    },
+    {
+      "source": 9,
+      "predecessor": 0,
+      "predecessor_pose": [
+        -4,
+        -4,
+        0
+      ],
+      "predecessor_peak": 22,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET",
+      "conflict_cell": null
+    },
+    {
+      "source": 9,
+      "predecessor": 1,
+      "predecessor_pose": [
+        -5,
+        -2,
+        1
+      ],
+      "predecessor_peak": 26,
+      "reason": "PAIR_LITERAL_REJECTED",
+      "conflict_cell": [
+        -4,
+        -2
+      ]
+    },
+    {
+      "source": 9,
+      "predecessor": 4,
+      "predecessor_pose": [
+        -4,
+        -6,
+        0
+      ],
+      "predecessor_peak": 22,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET",
+      "conflict_cell": null
+    },
+    {
+      "source": 9,
+      "predecessor": 5,
+      "predecessor_pose": [
+        -7,
+        -2,
+        1
+      ],
+      "predecessor_peak": 30,
+      "reason": "STRICT_RECORD_REJECTED",
+      "conflict_cell": null
+    },
+    {
+      "source": 9,
+      "predecessor": 6,
+      "predecessor_pose": [
+        -3,
+        1,
+        2
+      ],
+      "predecessor_peak": 22,
+      "reason": "PAIR_LITERAL_REJECTED",
+      "conflict_cell": [
+        -3,
+        -1
+      ]
+    },
+    {
+      "source": 9,
+      "predecessor": 7,
+      "predecessor_pose": [
+        -3,
+        -7,
+        0
+      ],
+      "predecessor_peak": 22,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET",
+      "conflict_cell": null
+    },
+    {
+      "source": 9,
+      "predecessor": 8,
+      "predecessor_pose": [
+        -8,
+        -3,
+        1
+      ],
+      "predecessor_peak": 30,
+      "reason": "STRICT_RECORD_REJECTED",
+      "conflict_cell": null
+    },
+    {
+      "source": 9,
+      "predecessor": 9,
+      "predecessor_pose": [
+        -4,
+        2,
+        2
+      ],
+      "predecessor_peak": 22,
+      "reason": "PAIR_LITERAL_REJECTED",
+      "conflict_cell": [
+        -3,
+        -1
+      ]
+    }
+  ],
+  "positive_C_W_height_caps": {
+    "1": 6,
+    "5": 4,
+    "6": 0,
+    "8": 4,
+    "9": 0
+  },
+  "zero_C_W_increments": [
+    2,
+    4,
+    4
+  ],
+  "scope": "Strict unfunded outer U1 produced lower age4 only. Immediate predecessor must D/V/U; VC/UC has immediate following DC. Necessary remaining two-C protected return, not exclusion or funding descent."
+}

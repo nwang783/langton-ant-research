@@ -1,0 +1,6 @@
+PASS: all 36 initial interior/child-interface states; exact completed traces ['', 'B', 'G', 'GB']
+PASS: all64 initial local color states, four arbitrary grandchild return interfaces; max reads [6, 6] states 376 terminal traces 336
+Witness first interior: [(0, 'exterior reset'), (4, 'G'), (0, 'exterior reset'), (5, 'G'), (6, 'G'), (6, 'nonreturn')]
+Witness second interior: [(0, 'exterior reset'), (4, 'G'), (0, 'exterior reset'), (5, 'G'), (6, 'G'), (6, 'nonreturn')]
+Conditioned on tracked initial color [same,opposite]: [[6, 5], [6, 5]]
+PASS: all16 initial root-face interior color states; maximum root/predecessor reads [5, 3] states 114

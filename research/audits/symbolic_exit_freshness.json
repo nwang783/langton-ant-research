@@ -1,0 +1,167 @@
+{
+  "status": "PASS",
+  "macro_bounds": {
+    "C": {
+      "reduced_syllables": 2,
+      "maximum_read_coset_syllables": 3
+    },
+    "V": {
+      "reduced_syllables": 4,
+      "maximum_read_coset_syllables": 5
+    },
+    "U": {
+      "reduced_syllables": 6,
+      "maximum_read_coset_syllables": 7
+    },
+    "Q": {
+      "reduced_syllables": 16,
+      "maximum_read_coset_syllables": 17
+    },
+    "B": {
+      "reduced_syllables": 18,
+      "maximum_read_coset_syllables": 19
+    }
+  },
+  "exit_bounds": {
+    "V": {
+      "first_exit_phase": 13,
+      "canonical_syllables": 3
+    },
+    "U": {
+      "first_exit_phase": 23,
+      "canonical_syllables": 5
+    },
+    "Q": {
+      "first_exit_phase": 59,
+      "canonical_syllables": 15
+    },
+    "B": {
+      "first_exit_phase": 69,
+      "canonical_syllables": 17
+    }
+  },
+  "physical_reuse_control": [
+    {
+      "t": 0,
+      "letter": "R",
+      "coset": []
+    },
+    {
+      "t": 32,
+      "letter": "L",
+      "coset": [
+        [
+          "R",
+          1
+        ],
+        [
+          "L",
+          2
+        ],
+        [
+          "R",
+          2
+        ],
+        [
+          "L",
+          1
+        ],
+        [
+          "R",
+          2
+        ],
+        [
+          "L",
+          1
+        ],
+        [
+          "R",
+          1
+        ],
+        [
+          "L",
+          1
+        ],
+        [
+          "R",
+          2
+        ],
+        [
+          "L",
+          1
+        ],
+        [
+          "R",
+          2
+        ],
+        [
+          "L",
+          2
+        ],
+        [
+          "R",
+          2
+        ]
+      ]
+    },
+    {
+      "t": 36,
+      "letter": "R",
+      "coset": [
+        [
+          "R",
+          1
+        ],
+        [
+          "L",
+          2
+        ],
+        [
+          "R",
+          2
+        ],
+        [
+          "L",
+          1
+        ],
+        [
+          "R",
+          2
+        ],
+        [
+          "L",
+          1
+        ],
+        [
+          "R",
+          1
+        ],
+        [
+          "L",
+          1
+        ],
+        [
+          "R",
+          2
+        ],
+        [
+          "L",
+          1
+        ],
+        [
+          "R",
+          2
+        ],
+        [
+          "L",
+          2
+        ],
+        [
+          "R",
+          2
+        ]
+      ]
+    }
+  ],
+  "scope": "Symbolic exit freshness holds for all five-macro words. The reuse control has an arbitrary non-macro prefix and is not a five-macro counterexample."
+}

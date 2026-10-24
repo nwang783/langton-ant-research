@@ -1,0 +1,79 @@
+{
+  "status": "PASS prepared plateau black-corner alternative and scoped reverse root/counterflow lemmas",
+  "hashes": {
+    "K1_pipeline_detours_2026-10-23/reversed_positive_plateau_birth_roots_or_counterflow.md": "b48f7a9def07365020668258e6c526c1fbe25c091c15aed549147f572bb21293",
+    "K1_pipeline_detours_2026-10-23/prepared_plateau_black_corner_alternative_and_reverse_output.md": "ab9fad0a34a031b2e60f7add0aa40d942d399e92f6503f6a0f25833796b77935",
+    "K1_pipeline_detours_2026-10-23/finite_local_maximum_plateau_criterion.md": "fb1c92ce019043bd59408c60183076aa9b78dfdfbbc2184a66a0e5be34c9e4d1",
+    "rank_two_plateau_2026-10-23/max_C_first_L_face_birth_backbone.md": "c91710090256c728ae9876e7188a39fff3617fcb151a9fd3fc595c5bdbb7f6a5",
+    "rank_two_plateau_2026-10-23/face_birth_curve_cursor_counterflow.md": "30b6aab03c07d0593c140af49f6262aeb427db7c8016ae672cf51b7399c40231",
+    "rank_two_plateau_2026-10-23/cursor_stream_height_and_K1_pipeline.md": "2e9400915fcc0a571b4effd209f04a8dfd4a0043b7f4c1a80e9f6e2ae5216c35"
+  },
+  "literal_reversal_cases": [
+    {
+      "forward_h": 0,
+      "forward_turn": 1,
+      "reverse_same_read_h": 3,
+      "reverse_turn": -1,
+      "reverse_exit_h": 2
+    },
+    {
+      "forward_h": 0,
+      "forward_turn": -1,
+      "reverse_same_read_h": 1,
+      "reverse_turn": 1,
+      "reverse_exit_h": 2
+    },
+    {
+      "forward_h": 1,
+      "forward_turn": 1,
+      "reverse_same_read_h": 0,
+      "reverse_turn": -1,
+      "reverse_exit_h": 3
+    },
+    {
+      "forward_h": 1,
+      "forward_turn": -1,
+      "reverse_same_read_h": 2,
+      "reverse_turn": 1,
+      "reverse_exit_h": 3
+    },
+    {
+      "forward_h": 2,
+      "forward_turn": 1,
+      "reverse_same_read_h": 1,
+      "reverse_turn": -1,
+      "reverse_exit_h": 0
+    },
+    {
+      "forward_h": 2,
+      "forward_turn": -1,
+      "reverse_same_read_h": 3,
+      "reverse_turn": 1,
+      "reverse_exit_h": 0
+    },
+    {
+      "forward_h": 3,
+      "forward_turn": 1,
+      "reverse_same_read_h": 2,
+      "reverse_turn": -1,
+      "reverse_exit_h": 1
+    },
+    {
+      "forward_h": 3,
+      "forward_turn": -1,
+      "reverse_same_read_h": 0,
+      "reverse_turn": 1,
+      "reverse_exit_h": 1
+    }
+  ],
+  "analytic": [
+    "The exact reversed event at a forward read q with incoming heading h and outgoing heading h_out uses the postflip board, read position q, and heading h_out+2. Its opposite turn exits along h+2 toward the previous physical read. This is a shifted read-event conjugacy, not the naive inverse map at the unshifted forward poststep head. It flips the checkerboard sector, reverses current, and gives reverse C=original L, h_rev=-h, c_right_rev=-c_left.",
+    "An original WHITE cell with k complete reads is BLACK in the reverse first-color field iff k is odd. This identification counts physical classes modulo the actual full drift and retains all even classes; it is output stock, not original seed fuel.",
+    "If a locally maximal same-height C component Q has no incident initial BLACK corner, a zero boundary edge leads to an L face with all four neighboring C faces in Q. Every corner is WHITE and any first R would traverse a forbidden zero edge. Hence all corner ports vanish. Propagation reaches the connected diagonal L lattice while every newly reached corner remains incident to Q, so the WHITE premise persists locally. The exterior stream jump1 rules out the resulting constant stream. All Q boundary edges are therefore positive.",
+    "The negative first-port classification is entirely local at the chosen WHITE corner: R0 uses the opposite equal-height C face, L1 is the first output of the child and R2 its first input. All parents remain in Q and birth strictly decreases by at least5. A finite full-drift quotient closes to an embedded essential parent-to-child circle of positive full winding1. No global WHITE premise is needed outside its selected contacts.",
+    "Only selected contacts intersect that circle. Their WHITE R0/L1/R2/L3 crossing inventory makes actual right excursions retreat in the selected L1 order. Their equivariant endpoint permutation has integer K>=1. Prepared BLACK histories elsewhere remain in the two actual physical side currents. The piecewise stream h-lambda on the right and0 on the left has right homology c_right-lambda=-K. Thus lambda>c_right.",
+    "With explicit positivity but arbitrary BLACK selected corners, stop the predecessor at each BLACK-selected face. A black class is incident to at most two C faces, hence at most2B root faces/components. A root-free quotient component has the same WHITE-selected cycle and is possible only when lambda>c_right. This is the narrower first note; it does not assert positivity automatically.",
+    "For fixed lambda<=c_right the stronger whole-component alternative assigns an incident BLACK class to each distinct finite locally maximal Q. One BLACK class cannot meet two different same-height Q, because its two incident C faces are corner-adjacent. Therefore their count is<=B, with no face/branch count. Reversal gives at fixed original L minimum m>=c_left at most N_odd such components. An incident-odd-free minimum instead has m<c_left and a genuine essential reverse counterflow K=c_left-m."
+  ],
+  "scope": "Complete translating cap-four fronts, actual full period and nonzero drift. Finite quotient local plateaus, not finite original input, global reverse WHITE, general ancestry acyclicity, original fuel, iterative regress or capture."
+}

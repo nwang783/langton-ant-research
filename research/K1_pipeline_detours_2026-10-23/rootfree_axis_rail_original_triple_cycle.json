@@ -1,0 +1,155 @@
+{
+  "scope": "Invert the signed four-cell reverse rail and reconstruct its G3 port ordinals.\nOne exact local interface; no period, drift or front scan.\n",
+  "reverse_histories": {
+    "Z": "WWWE",
+    "A": "NNSN",
+    "B": "EEWE",
+    "Y": "NNNS"
+  },
+  "original_histories": {
+    "Z": "SSNS",
+    "A": "EEEW",
+    "B": "SSSN",
+    "Y": "WWEW"
+  },
+  "physical_unit_displacement": [
+    0,
+    -2
+  ],
+  "ports": [
+    {
+      "source": "Z",
+      "target": "A",
+      "target_k_shift": 0,
+      "travel": "E",
+      "source_ranks": [
+        1,
+        2,
+        3
+      ],
+      "target_ranks": [
+        0,
+        1,
+        2
+      ],
+      "actual_rank_pairs": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "middle_source_rank": 2,
+      "middle_target_rank": 1,
+      "matched_rank12": false
+    },
+    {
+      "source": "A",
+      "target": "B",
+      "target_k_shift": -1,
+      "travel": "S",
+      "source_ranks": [
+        0,
+        2,
+        3
+      ],
+      "target_ranks": [
+        0,
+        1,
+        2
+      ],
+      "actual_rank_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "middle_source_rank": 2,
+      "middle_target_rank": 1,
+      "matched_rank12": false
+    },
+    {
+      "source": "B",
+      "target": "Y",
+      "target_k_shift": 0,
+      "travel": "W",
+      "source_ranks": [
+        0,
+        2,
+        3
+      ],
+      "target_ranks": [
+        0,
+        1,
+        3
+      ],
+      "actual_rank_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "middle_source_rank": 2,
+      "middle_target_rank": 1,
+      "matched_rank12": false
+    },
+    {
+      "source": "Y",
+      "target": "Z",
+      "target_k_shift": 0,
+      "travel": "S",
+      "source_ranks": [
+        1,
+        2,
+        3
+      ],
+      "target_ranks": [
+        0,
+        1,
+        3
+      ],
+      "actual_rank_pairs": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "middle_source_rank": 2,
+      "middle_target_rank": 1,
+      "matched_rank12": false
+    }
+  ],
+  "canonical_middle": "Every edge ordinal2 is source R2 -> target L1; repaired node is everywhere incoming L1 -> outgoing R2.",
+  "scope_warning": "Necessary original-WHITE front interface conditional on the signed root-free M-3 reverse rail, not a complete-front or autonomous realization."
+}

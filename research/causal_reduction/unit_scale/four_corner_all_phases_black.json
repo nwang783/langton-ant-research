@@ -1,0 +1,1923 @@
+{
+  "scope": "First exact no-new-fuel test for known positive single-turn corner phases.\nOnly required black stencils are checked first; a pass is not full legality.\nThe source is the complete finite four-corner loop output, for every r>=3.\n",
+  "source": "full four-corner finite output, r>=3",
+  "target_cases": 171,
+  "rotations": 4,
+  "black_stencil_matches": [
+    {
+      "case": 16,
+      "rotation_ccw": 0,
+      "translations": "[r, a, b] -> {  : (a = 1 - 2r and b = 1 + 2r and r >= 3) or (b = 2 - a and (1 + a) mod 2 = 0 and 3 - 2r <= a <= -5) }",
+      "phase_data": {
+        "in_phase": 46,
+        "cap": "R",
+        "out_rotation_head": 3,
+        "out_phase": 102,
+        "extra_count": 12,
+        "extra_relative_cap": [
+          [
+            -4,
+            -5
+          ],
+          [
+            -4,
+            -4
+          ],
+          [
+            -3,
+            -6
+          ],
+          [
+            -3,
+            -3
+          ],
+          [
+            -3,
+            -2
+          ],
+          [
+            -2,
+            -7
+          ],
+          [
+            -2,
+            -6
+          ],
+          [
+            -2,
+            -5
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            -1,
+            -4
+          ],
+          [
+            -1,
+            -3
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        "base_count": 21,
+        "input_head": 2,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          2
+        ],
+        "tail_pose": [
+          [
+            59,
+            -60
+          ],
+          3
+        ]
+      }
+    },
+    {
+      "case": 16,
+      "rotation_ccw": 1,
+      "translations": "[r, a, b] -> {  : b = 5 + a and (a) mod 2 = 0 and r >= 3 and 2 <= a <= -4 + 2r }",
+      "phase_data": {
+        "in_phase": 46,
+        "cap": "R",
+        "out_rotation_head": 3,
+        "out_phase": 102,
+        "extra_count": 12,
+        "extra_relative_cap": [
+          [
+            -4,
+            -5
+          ],
+          [
+            -4,
+            -4
+          ],
+          [
+            -3,
+            -6
+          ],
+          [
+            -3,
+            -3
+          ],
+          [
+            -3,
+            -2
+          ],
+          [
+            -2,
+            -7
+          ],
+          [
+            -2,
+            -6
+          ],
+          [
+            -2,
+            -5
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            -1,
+            -4
+          ],
+          [
+            -1,
+            -3
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        "base_count": 21,
+        "input_head": 2,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          2
+        ],
+        "tail_pose": [
+          [
+            59,
+            -60
+          ],
+          3
+        ]
+      }
+    },
+    {
+      "case": 16,
+      "rotation_ccw": 2,
+      "translations": "[r, a, b] -> {  : b = 4 + 4r - a and (a) mod 2 = 0 and 2 <= a <= -4 + 2r }",
+      "phase_data": {
+        "in_phase": 46,
+        "cap": "R",
+        "out_rotation_head": 3,
+        "out_phase": 102,
+        "extra_count": 12,
+        "extra_relative_cap": [
+          [
+            -4,
+            -5
+          ],
+          [
+            -4,
+            -4
+          ],
+          [
+            -3,
+            -6
+          ],
+          [
+            -3,
+            -3
+          ],
+          [
+            -3,
+            -2
+          ],
+          [
+            -2,
+            -7
+          ],
+          [
+            -2,
+            -6
+          ],
+          [
+            -2,
+            -5
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            -1,
+            -4
+          ],
+          [
+            -1,
+            -3
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        "base_count": 21,
+        "input_head": 2,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          2
+        ],
+        "tail_pose": [
+          [
+            59,
+            -60
+          ],
+          3
+        ]
+      }
+    },
+    {
+      "case": 16,
+      "rotation_ccw": 3,
+      "translations": "[r, a, b] -> {  : (a = 1 - 2r and b = 8 + 2r and r >= 3) or (a = 3 - 2r and b = 10 + 2r and r >= 4) or (b = 7 + 4r + a and (a) mod 2 = 1 and (1 + a) mod 2 = 0 and 5 - 2r <= a <= -5) }",
+      "phase_data": {
+        "in_phase": 46,
+        "cap": "R",
+        "out_rotation_head": 3,
+        "out_phase": 102,
+        "extra_count": 12,
+        "extra_relative_cap": [
+          [
+            -4,
+            -5
+          ],
+          [
+            -4,
+            -4
+          ],
+          [
+            -3,
+            -6
+          ],
+          [
+            -3,
+            -3
+          ],
+          [
+            -3,
+            -2
+          ],
+          [
+            -2,
+            -7
+          ],
+          [
+            -2,
+            -6
+          ],
+          [
+            -2,
+            -5
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            -1,
+            -4
+          ],
+          [
+            -1,
+            -3
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        "base_count": 21,
+        "input_head": 2,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          2
+        ],
+        "tail_pose": [
+          [
+            59,
+            -60
+          ],
+          3
+        ]
+      }
+    },
+    {
+      "case": 17,
+      "rotation_ccw": 0,
+      "translations": "[r, a, b] -> {  : (a = -2r and b = 1 + 2r and r >= 3) or (b = 1 - a and (a) mod 2 = 0 and 2 - 2r <= a <= -6) }",
+      "phase_data": {
+        "in_phase": 47,
+        "cap": "L",
+        "out_rotation_head": 3,
+        "out_phase": 103,
+        "extra_count": 12,
+        "extra_relative_cap": [
+          [
+            -3,
+            -5
+          ],
+          [
+            -3,
+            -4
+          ],
+          [
+            -2,
+            -6
+          ],
+          [
+            -2,
+            -3
+          ],
+          [
+            -2,
+            -2
+          ],
+          [
+            -1,
+            -7
+          ],
+          [
+            -1,
+            -6
+          ],
+          [
+            -1,
+            -5
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            -3
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "base_count": 22,
+        "input_head": 3,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          3
+        ],
+        "tail_pose": [
+          [
+            60,
+            -61
+          ],
+          2
+        ]
+      }
+    },
+    {
+      "case": 17,
+      "rotation_ccw": 1,
+      "translations": "[r, a, b] -> {  : b = 4 + a and (a) mod 2 = 0 and r >= 3 and 2 <= a <= -4 + 2r }",
+      "phase_data": {
+        "in_phase": 47,
+        "cap": "L",
+        "out_rotation_head": 3,
+        "out_phase": 103,
+        "extra_count": 12,
+        "extra_relative_cap": [
+          [
+            -3,
+            -5
+          ],
+          [
+            -3,
+            -4
+          ],
+          [
+            -2,
+            -6
+          ],
+          [
+            -2,
+            -3
+          ],
+          [
+            -2,
+            -2
+          ],
+          [
+            -1,
+            -7
+          ],
+          [
+            -1,
+            -6
+          ],
+          [
+            -1,
+            -5
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            -3
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "base_count": 22,
+        "input_head": 3,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          3
+        ],
+        "tail_pose": [
+          [
+            60,
+            -61
+          ],
+          2
+        ]
+      }
+    },
+    {
+      "case": 17,
+      "rotation_ccw": 2,
+      "translations": "[r, a, b] -> {  : (a = 3 and b = 2 + 4r and r >= 3) or (b = 5 + 4r - a and (1 + a) mod 2 = 0 and 5 <= a <= -3 + 2r) }",
+      "phase_data": {
+        "in_phase": 47,
+        "cap": "L",
+        "out_rotation_head": 3,
+        "out_phase": 103,
+        "extra_count": 12,
+        "extra_relative_cap": [
+          [
+            -3,
+            -5
+          ],
+          [
+            -3,
+            -4
+          ],
+          [
+            -2,
+            -6
+          ],
+          [
+            -2,
+            -3
+          ],
+          [
+            -2,
+            -2
+          ],
+          [
+            -1,
+            -7
+          ],
+          [
+            -1,
+            -6
+          ],
+          [
+            -1,
+            -5
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            -3
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "base_count": 22,
+        "input_head": 3,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          3
+        ],
+        "tail_pose": [
+          [
+            60,
+            -61
+          ],
+          2
+        ]
+      }
+    },
+    {
+      "case": 17,
+      "rotation_ccw": 3,
+      "translations": "[r, a, b] -> {  : (a = 1 - 2r and b = 9 + 2r and r >= 3) or (a = 3 - 2r and b = 11 + 2r and r >= 4) or (b = 8 + 4r + a and (a) mod 2 = 1 and (1 + a) mod 2 = 0 and 5 - 2r <= a <= -5) }",
+      "phase_data": {
+        "in_phase": 47,
+        "cap": "L",
+        "out_rotation_head": 3,
+        "out_phase": 103,
+        "extra_count": 12,
+        "extra_relative_cap": [
+          [
+            -3,
+            -5
+          ],
+          [
+            -3,
+            -4
+          ],
+          [
+            -2,
+            -6
+          ],
+          [
+            -2,
+            -3
+          ],
+          [
+            -2,
+            -2
+          ],
+          [
+            -1,
+            -7
+          ],
+          [
+            -1,
+            -6
+          ],
+          [
+            -1,
+            -5
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            -3
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "base_count": 22,
+        "input_head": 3,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          3
+        ],
+        "tail_pose": [
+          [
+            60,
+            -61
+          ],
+          2
+        ]
+      }
+    },
+    {
+      "case": 67,
+      "rotation_ccw": 0,
+      "translations": "[r, a, b] -> {  : a = 1 + 2r and b = 6 + 2r and r >= 3 }",
+      "phase_data": {
+        "in_phase": 43,
+        "cap": "R",
+        "out_rotation_head": 1,
+        "out_phase": 93,
+        "extra_count": 14,
+        "extra_relative_cap": [
+          [
+            -1,
+            -4
+          ],
+          [
+            -1,
+            -3
+          ],
+          [
+            0,
+            -5
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            1,
+            -5
+          ],
+          [
+            2,
+            -4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            -4
+          ],
+          [
+            3,
+            -3
+          ],
+          [
+            3,
+            -2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            -4
+          ],
+          [
+            4,
+            -1
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "base_count": 20,
+        "input_head": 1,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          1
+        ],
+        "tail_pose": [
+          [
+            60,
+            -61
+          ],
+          2
+        ]
+      }
+    },
+    {
+      "case": 67,
+      "rotation_ccw": 1,
+      "translations": "[r, a, b] -> {  : a = -3 and b = 7 + 4r and r >= 3 }",
+      "phase_data": {
+        "in_phase": 43,
+        "cap": "R",
+        "out_rotation_head": 1,
+        "out_phase": 93,
+        "extra_count": 14,
+        "extra_relative_cap": [
+          [
+            -1,
+            -4
+          ],
+          [
+            -1,
+            -3
+          ],
+          [
+            0,
+            -5
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            1,
+            -5
+          ],
+          [
+            2,
+            -4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            -4
+          ],
+          [
+            3,
+            -3
+          ],
+          [
+            3,
+            -2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            -4
+          ],
+          [
+            4,
+            -1
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "base_count": 20,
+        "input_head": 1,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          1
+        ],
+        "tail_pose": [
+          [
+            60,
+            -61
+          ],
+          2
+        ]
+      }
+    },
+    {
+      "case": 67,
+      "rotation_ccw": 2,
+      "translations": "[r, a, b] -> {  : a = -4 - 2r and b = 3 + 2r and r >= 3 }",
+      "phase_data": {
+        "in_phase": 43,
+        "cap": "R",
+        "out_rotation_head": 1,
+        "out_phase": 93,
+        "extra_count": 14,
+        "extra_relative_cap": [
+          [
+            -1,
+            -4
+          ],
+          [
+            -1,
+            -3
+          ],
+          [
+            0,
+            -5
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            1,
+            -5
+          ],
+          [
+            2,
+            -4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            -4
+          ],
+          [
+            3,
+            -3
+          ],
+          [
+            3,
+            -2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            -4
+          ],
+          [
+            4,
+            -1
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "base_count": 20,
+        "input_head": 1,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          1
+        ],
+        "tail_pose": [
+          [
+            60,
+            -61
+          ],
+          2
+        ]
+      }
+    },
+    {
+      "case": 68,
+      "rotation_ccw": 0,
+      "translations": "[r, a, b] -> {  : a = 1 + 2r and b = 5 + 2r and r >= 3 }",
+      "phase_data": {
+        "in_phase": 44,
+        "cap": "L",
+        "out_rotation_head": 1,
+        "out_phase": 94,
+        "extra_count": 14,
+        "extra_relative_cap": [
+          [
+            -1,
+            -3
+          ],
+          [
+            -1,
+            -2
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            -4
+          ],
+          [
+            2,
+            -3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            -3
+          ],
+          [
+            3,
+            -2
+          ],
+          [
+            3,
+            -1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            -3
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "base_count": 21,
+        "input_head": 2,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          2
+        ],
+        "tail_pose": [
+          [
+            61,
+            -60
+          ],
+          1
+        ]
+      }
+    },
+    {
+      "case": 68,
+      "rotation_ccw": 1,
+      "translations": "[r, a, b] -> {  : a = -2 and b = 7 + 4r and r >= 3 }",
+      "phase_data": {
+        "in_phase": 44,
+        "cap": "L",
+        "out_rotation_head": 1,
+        "out_phase": 94,
+        "extra_count": 14,
+        "extra_relative_cap": [
+          [
+            -1,
+            -3
+          ],
+          [
+            -1,
+            -2
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            -4
+          ],
+          [
+            2,
+            -3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            -3
+          ],
+          [
+            3,
+            -2
+          ],
+          [
+            3,
+            -1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            -3
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "base_count": 21,
+        "input_head": 2,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          2
+        ],
+        "tail_pose": [
+          [
+            61,
+            -60
+          ],
+          1
+        ]
+      }
+    },
+    {
+      "case": 68,
+      "rotation_ccw": 2,
+      "translations": "[r, a, b] -> {  : a = -4 - 2r and b = 4 + 2r and r >= 3 }",
+      "phase_data": {
+        "in_phase": 44,
+        "cap": "L",
+        "out_rotation_head": 1,
+        "out_phase": 94,
+        "extra_count": 14,
+        "extra_relative_cap": [
+          [
+            -1,
+            -3
+          ],
+          [
+            -1,
+            -2
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            -4
+          ],
+          [
+            2,
+            -3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            -3
+          ],
+          [
+            3,
+            -2
+          ],
+          [
+            3,
+            -1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            -3
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "base_count": 21,
+        "input_head": 2,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          2
+        ],
+        "tail_pose": [
+          [
+            61,
+            -60
+          ],
+          1
+        ]
+      }
+    },
+    {
+      "case": 69,
+      "rotation_ccw": 0,
+      "translations": "[r, a, b] -> {  : a = 2 + 2r and b = 5 + 2r and r >= 3 }",
+      "phase_data": {
+        "in_phase": 45,
+        "cap": "R",
+        "out_rotation_head": 1,
+        "out_phase": 95,
+        "extra_count": 14,
+        "extra_relative_cap": [
+          [
+            -2,
+            -3
+          ],
+          [
+            -2,
+            -2
+          ],
+          [
+            -1,
+            -4
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            1,
+            -3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            -3
+          ],
+          [
+            2,
+            -2
+          ],
+          [
+            2,
+            -1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            -3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "base_count": 20,
+        "input_head": 1,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          1
+        ],
+        "tail_pose": [
+          [
+            60,
+            -61
+          ],
+          2
+        ]
+      }
+    },
+    {
+      "case": 69,
+      "rotation_ccw": 1,
+      "translations": "[r, a, b] -> {  : a = -2 and b = 8 + 4r and r >= 3 }",
+      "phase_data": {
+        "in_phase": 45,
+        "cap": "R",
+        "out_rotation_head": 1,
+        "out_phase": 95,
+        "extra_count": 14,
+        "extra_relative_cap": [
+          [
+            -2,
+            -3
+          ],
+          [
+            -2,
+            -2
+          ],
+          [
+            -1,
+            -4
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            1,
+            -3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            -3
+          ],
+          [
+            2,
+            -2
+          ],
+          [
+            2,
+            -1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            -3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "base_count": 20,
+        "input_head": 1,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          1
+        ],
+        "tail_pose": [
+          [
+            60,
+            -61
+          ],
+          2
+        ]
+      }
+    },
+    {
+      "case": 69,
+      "rotation_ccw": 2,
+      "translations": "[r, a, b] -> {  : a = -5 - 2r and b = 4 + 2r and r >= 3 }",
+      "phase_data": {
+        "in_phase": 45,
+        "cap": "R",
+        "out_rotation_head": 1,
+        "out_phase": 95,
+        "extra_count": 14,
+        "extra_relative_cap": [
+          [
+            -2,
+            -3
+          ],
+          [
+            -2,
+            -2
+          ],
+          [
+            -1,
+            -4
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            1,
+            -3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            -3
+          ],
+          [
+            2,
+            -2
+          ],
+          [
+            2,
+            -1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            -3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "base_count": 20,
+        "input_head": 1,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          1
+        ],
+        "tail_pose": [
+          [
+            60,
+            -61
+          ],
+          2
+        ]
+      }
+    },
+    {
+      "case": 70,
+      "rotation_ccw": 0,
+      "translations": "[r, a, b] -> {  : a = 2 + 2r and b = 4 + 2r and r >= 3 }",
+      "phase_data": {
+        "in_phase": 46,
+        "cap": "R",
+        "out_rotation_head": 1,
+        "out_phase": 96,
+        "extra_count": 14,
+        "extra_relative_cap": [
+          [
+            -2,
+            -2
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            -1,
+            -3
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -3
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            -2
+          ],
+          [
+            2,
+            -1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            -2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "base_count": 21,
+        "input_head": 2,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          2
+        ],
+        "tail_pose": [
+          [
+            59,
+            -60
+          ],
+          3
+        ]
+      }
+    },
+    {
+      "case": 70,
+      "rotation_ccw": 1,
+      "translations": "[r, a, b] -> {  : a = -1 and b = 8 + 4r and r >= 3 }",
+      "phase_data": {
+        "in_phase": 46,
+        "cap": "R",
+        "out_rotation_head": 1,
+        "out_phase": 96,
+        "extra_count": 14,
+        "extra_relative_cap": [
+          [
+            -2,
+            -2
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            -1,
+            -3
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -3
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            -2
+          ],
+          [
+            2,
+            -1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            -2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "base_count": 21,
+        "input_head": 2,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          2
+        ],
+        "tail_pose": [
+          [
+            59,
+            -60
+          ],
+          3
+        ]
+      }
+    },
+    {
+      "case": 70,
+      "rotation_ccw": 2,
+      "translations": "[r, a, b] -> {  : a = -5 - 2r and b = 5 + 2r and r >= 3 }",
+      "phase_data": {
+        "in_phase": 46,
+        "cap": "R",
+        "out_rotation_head": 1,
+        "out_phase": 96,
+        "extra_count": 14,
+        "extra_relative_cap": [
+          [
+            -2,
+            -2
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            -1,
+            -3
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -3
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            -2
+          ],
+          [
+            2,
+            -1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            -2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "base_count": 21,
+        "input_head": 2,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          2
+        ],
+        "tail_pose": [
+          [
+            59,
+            -60
+          ],
+          3
+        ]
+      }
+    },
+    {
+      "case": 71,
+      "rotation_ccw": 0,
+      "translations": "[r, a, b] -> {  : a = 1 + 2r and b = 4 + 2r and r >= 3 }",
+      "phase_data": {
+        "in_phase": 47,
+        "cap": "L",
+        "out_rotation_head": 1,
+        "out_phase": 97,
+        "extra_count": 14,
+        "extra_relative_cap": [
+          [
+            -1,
+            -2
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            0,
+            -3
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            -3
+          ],
+          [
+            2,
+            -2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            -2
+          ],
+          [
+            3,
+            -1
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            -2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "base_count": 22,
+        "input_head": 3,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          3
+        ],
+        "tail_pose": [
+          [
+            60,
+            -61
+          ],
+          2
+        ]
+      }
+    },
+    {
+      "case": 71,
+      "rotation_ccw": 1,
+      "translations": "[r, a, b] -> {  : a = -1 and b = 7 + 4r and r >= 3 }",
+      "phase_data": {
+        "in_phase": 47,
+        "cap": "L",
+        "out_rotation_head": 1,
+        "out_phase": 97,
+        "extra_count": 14,
+        "extra_relative_cap": [
+          [
+            -1,
+            -2
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            0,
+            -3
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            -3
+          ],
+          [
+            2,
+            -2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            -2
+          ],
+          [
+            3,
+            -1
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            -2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "base_count": 22,
+        "input_head": 3,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          3
+        ],
+        "tail_pose": [
+          [
+            60,
+            -61
+          ],
+          2
+        ]
+      }
+    },
+    {
+      "case": 71,
+      "rotation_ccw": 2,
+      "translations": "[r, a, b] -> {  : a = -4 - 2r and b = 5 + 2r and r >= 3 }",
+      "phase_data": {
+        "in_phase": 47,
+        "cap": "L",
+        "out_rotation_head": 1,
+        "out_phase": 97,
+        "extra_count": 14,
+        "extra_relative_cap": [
+          [
+            -1,
+            -2
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            0,
+            -3
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            -3
+          ],
+          [
+            2,
+            -2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            -2
+          ],
+          [
+            3,
+            -1
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            -2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "base_count": 22,
+        "input_head": 3,
+        "cap_pose": [
+          [
+            60,
+            -60
+          ],
+          3
+        ],
+        "tail_pose": [
+          [
+            60,
+            -61
+          ],
+          2
+        ]
+      }
+    }
+  ],
+  "seconds": 894.563483356993
+}

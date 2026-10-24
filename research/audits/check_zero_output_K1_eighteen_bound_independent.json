@@ -1,0 +1,92 @@
+{
+  "status": "PASS local early cross-port exclusion, exact late reduction, and zero-output WHITE cap4 K1 bound P>=18||d||infinity",
+  "notes": {
+    "zero_output_early_R_ancestor_cross_port_obstruction.md": "72a895af45f52e4a1fd2607725701ee9d37fa6b9a908e4d83c255fa312ad8930",
+    "zero_output_K1_all_branched_faces_are_exact_late.md": "0991948603b2feac71dfef169c3f1c0be357519c4338e6ba2cd29663ffd843ea",
+    "zero_output_K1_front_eighteen_current_lower_bound.md": "bcdebac2522ce6f6f8fd9506fb3a7c02b6b2c82d08aa1f2bcb8d706342ae0870"
+  },
+  "signed_prior_reports": {
+    "check_canonical_birth_rank3_balance_independent.json": "83d6302f9872d1f5dc6f6be57f67ce938dc4eaced7b81f9877d043e18a032885",
+    "check_K1_cleanup_Q1_ancestor_independent.json": "831c6b7a9b1531c50d84cc5c682f61f7b28f0bc92940ee44ed157c67ba5b32a8",
+    "check_K1_bit11_two_branch_waits_independent.json": "288ab787e1e4d31a31e3a237aa7a585907bda8f33e9997702c6fc6b3075ba6f0",
+    "check_K1_all_early_zero_L3_supplier_independent.json": "72dd914bdf19d31ffbc4882840293094e4c961d49324122927ef4e85f1915e8f",
+    "check_zero_output_half_turn_rail_independent.json": "7306762a2aadfeb9ca989faa2d5600e6c69e25cc1c6936a70b53b2e6e8b39887",
+    "zero_output_late_Gamma_strict_pit_independent.json": "61f591c4e183cabf2d0d9af6ddf275fa4bf7363b6723c3d9d16c345ca5a22686"
+  },
+  "fresh_canonical_rows": 110,
+  "all_even_canonical_rows": 24,
+  "ancestor_prior_rows": 72,
+  "all_even_ancestor_rows": 2,
+  "lower_square_completions": [
+    [
+      "EEWE",
+      "NNSN",
+      "EWWW",
+      "SSNS"
+    ],
+    [
+      "EEWE",
+      "NNSN",
+      "EWWW",
+      "NSSS"
+    ]
+  ],
+  "cross_edge_required_departures": 3,
+  "available_arrivals": 1,
+  "new_branch_prior_rows": 324,
+  "all_even_rows": 6,
+  "exact_modes": [
+    {
+      "mode": [
+        "SNNN",
+        "WEWW",
+        "SSSN",
+        "EEWE",
+        "NNNS",
+        "EWEE"
+      ],
+      "count": 3
+    },
+    {
+      "mode": [
+        "NNSN",
+        "WWWE",
+        "SSSN",
+        "EEWE",
+        "NNNS",
+        "EWEE"
+      ],
+      "count": 3
+    }
+  ],
+  "late_P0_completions": [
+    [
+      "WWWE",
+      "NNNS",
+      -2
+    ],
+    [
+      "WWWE",
+      "NSNN",
+      -2
+    ],
+    [
+      "WWEW",
+      "NSSS",
+      0
+    ],
+    [
+      "EWWW",
+      "SSNS",
+      0
+    ]
+  ],
+  "analytic": [
+    "The local lower face F opposite P0 across EWWW is maximum. Its NW d is flat between two maxima. The complete physical adjacent edges supply one S input from j=EEWE and one E output into x=EWWW, forcing even d=NNSN or SNNN. Fresh canonical inventory, including flag0 entries and all four rotations, permits only two NNSN completions, both with three E departures at t, contradicting r=WEWW one E arrival. This requires no K1 or Gamma at the local step.",
+    "For an actual bit11 maximum-branched RIGHT, the old-first-branch mode contains odd q=SSS and vanishes when Nodd=0. The full new-J inventory leaves exactly early SNNN or late NNSN at e. Existing zero-L3 exclusions and genuine two-ancestor theorem reduce the early source-L3 case to the new 3-versus-1 obstruction, including elimination of singleton-W straight ancestor.",
+    "For the remaining e=NNSN, u=EEWE, all24 even canonical face profiles and rotations give exactly four P0 completions, every genuine birth at e. Thus p(P0)=J is proved. Neighboring f has equal C heights or difference2 and needs two R reads; zero odd output makes its history four-read, satisfying the precise late-route hypotheses.",
+    "The signed repeated-descendant/half-turn alternatives now apply to this actual late path. The independent full-history ancestry rail excludes half-turn, and finite unique-parent quotient terminates repeated descendants at a strict LEFT L pit. No spatial-only monotonicity or off-Gamma K1 order is introduced.",
+    "For global zero-output K1 scope, selected state rises reserve odd output, so no rises or falls; signed constant-zero exclusion forces state1. The signed LEFTMOST branch-existence theorem supplies a maximum LEFT branch, which constant1 geometry places at a bit11 RIGHT. The just-proved exact late reduction supplies its LEFT pit, and the signed reverse/three-physical-band current theorem gives P>=18||d||infinity."
+  ],
+  "scope": "Whole-period lower bound for complete WHITE cap4 translating K1 fronts with zero odd output. Not exclusion, existence, positive output fuel, per-branch additive payment, or universal finite-seed capture."
+}

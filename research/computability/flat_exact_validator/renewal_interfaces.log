@@ -1,0 +1,21 @@
+BEGIN G G -1
+RESULT {"offset_sign": -1, "mismatch_states": 23, "bounded_repair_parameter_states": 1, "any_constant_parameter_offset_with_bounded_repair": false, "witness": null, "source": "G", "target": "G"}
+BEGIN G G 1
+RESULT {"offset_sign": 1, "mismatch_states": 36, "bounded_repair_parameter_states": 1, "any_constant_parameter_offset_with_bounded_repair": false, "witness": null, "source": "G", "target": "G"}
+ARBITRARY {"mismatch_states": 13, "far_witness_relation_states": 1, "all_source_r_and_target_s_at_least_one_have_far_mismatch": true, "source": "G", "target": "G"}
+BEGIN G H -1
+RESULT {"offset_sign": -1, "mismatch_states": 18, "bounded_repair_parameter_states": 1, "any_constant_parameter_offset_with_bounded_repair": false, "witness": null, "source": "G", "target": "H"}
+BEGIN G H 1
+RESULT {"offset_sign": 1, "mismatch_states": 26, "bounded_repair_parameter_states": 1, "any_constant_parameter_offset_with_bounded_repair": false, "witness": null, "source": "G", "target": "H"}
+ARBITRARY {"mismatch_states": 16, "far_witness_relation_states": 1, "all_source_r_and_target_s_at_least_one_have_far_mismatch": true, "source": "G", "target": "H"}
+BEGIN H G -1
+RESULT {"offset_sign": -1, "mismatch_states": 17, "bounded_repair_parameter_states": 1, "any_constant_parameter_offset_with_bounded_repair": false, "witness": null, "source": "H", "target": "G"}
+BEGIN H G 1
+RESULT {"offset_sign": 1, "mismatch_states": 42, "bounded_repair_parameter_states": 1, "any_constant_parameter_offset_with_bounded_repair": false, "witness": null, "source": "H", "target": "G"}
+ARBITRARY {"mismatch_states": 17, "far_witness_relation_states": 1, "all_source_r_and_target_s_at_least_one_have_far_mismatch": true, "source": "H", "target": "G"}
+BEGIN H H -1
+RESULT {"offset_sign": -1, "mismatch_states": 12, "bounded_repair_parameter_states": 1, "any_constant_parameter_offset_with_bounded_repair": false, "witness": null, "source": "H", "target": "H"}
+BEGIN H H 1
+RESULT {"offset_sign": 1, "mismatch_states": 30, "bounded_repair_parameter_states": 1, "any_constant_parameter_offset_with_bounded_repair": false, "witness": null, "source": "H", "target": "H"}
+ARBITRARY {"mismatch_states": 21, "far_witness_relation_states": 1, "all_source_r_and_target_s_at_least_one_have_far_mismatch": true, "source": "H", "target": "H"}
+DONE 0.5491158929944504

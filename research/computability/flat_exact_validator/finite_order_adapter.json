@@ -1,0 +1,180 @@
+{
+  "records": [
+    {
+      "status": "decided",
+      "possible": false,
+      "reason": "literal powered block internally inconsistent",
+      "conflict": {
+        "cell": [
+          -1,
+          0
+        ],
+        "first_read": 5,
+        "conflicting_read": 9,
+        "required_initial_bits": [
+          0,
+          1
+        ]
+      },
+      "adapter": {
+        "verified_spatial_order": 2,
+        "first_letter_root_cycle": 1,
+        "common_power": 2,
+        "powered_image_lengths": [
+          81,
+          81,
+          81,
+          81,
+          81,
+          81,
+          81,
+          81
+        ]
+      },
+      "name": "halfturn"
+    },
+    {
+      "status": "decided",
+      "possible": false,
+      "reason": "literal powered block internally inconsistent",
+      "conflict": {
+        "cell": [
+          -1,
+          0
+        ],
+        "first_read": 5,
+        "conflicting_read": 9,
+        "required_initial_bits": [
+          0,
+          1
+        ]
+      },
+      "adapter": {
+        "verified_spatial_order": 4,
+        "first_letter_root_cycle": 1,
+        "common_power": 4,
+        "powered_image_lengths": [
+          2401,
+          2401,
+          2401,
+          2401,
+          2401,
+          2401,
+          2401,
+          2401
+        ]
+      },
+      "name": "quarterturn"
+    },
+    {
+      "processed_schemes": 2,
+      "last_base_length": 1,
+      "theoretical_base_bound": 1,
+      "requirement_states": {
+        "(-1, -1)": [
+          1,
+          1
+        ],
+        "(-1, 1)": [
+          1,
+          1
+        ],
+        "(1, -1)": [
+          1,
+          1
+        ],
+        "(1, 1)": [
+          1,
+          2
+        ]
+      },
+      "status": "decided",
+      "possible": true,
+      "complete_generated_cover": true,
+      "candidate_seed": [],
+      "given_seed_validation": {
+        "possible": true,
+        "frame_checks": 4,
+        "nested_root": true,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "seed": []
+      },
+      "seconds": 0.02586517800227739,
+      "adapter": {
+        "verified_spatial_order": 2,
+        "first_letter_root_cycle": 1,
+        "common_power": 2,
+        "powered_image_lengths": [
+          1,
+          1,
+          49,
+          49,
+          1,
+          1,
+          49,
+          49
+        ]
+      },
+      "name": "nonorthogonal_order2"
+    },
+    {
+      "processed_schemes": 2,
+      "last_base_length": 1,
+      "theoretical_base_bound": 1,
+      "requirement_states": {
+        "(-1, -1)": [
+          1,
+          1
+        ],
+        "(-1, 1)": [
+          1,
+          1
+        ],
+        "(1, -1)": [
+          1,
+          1
+        ],
+        "(1, 1)": [
+          1,
+          2
+        ]
+      },
+      "status": "decided",
+      "possible": true,
+      "complete_generated_cover": true,
+      "candidate_seed": [],
+      "given_seed_validation": {
+        "possible": true,
+        "frame_checks": 4,
+        "nested_root": true,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "seed": []
+      },
+      "seconds": 0.0071110790013335645,
+      "adapter": {
+        "verified_spatial_order": 1,
+        "first_letter_root_cycle": 2,
+        "common_power": 2,
+        "powered_image_lengths": [
+          1,
+          1
+        ]
+      },
+      "name": "two_state_root_cycle"
+    }
+  ],
+  "strict_invalid_input_rejections": 3,
+  "transient_root_result": {
+    "status": "unsupported root convention",
+    "possible": null,
+    "error": "root is not on a first-letter cycle; supply the actual power-limit root"
+  },
+  "explicit_size_cap_result": {
+    "status": "unknown: adapter resources",
+    "possible": null,
+    "error": "explicit powered-image size cap"
+  },
+  "scope": "Verified finite-order spatial/root-cycle powering adapter for exact heading-compatible unit presentations. Calls the generated A=I solver. No singular finite-power matrices, nonperiodic boundary headings, macro bases or accepted growing models."
+}

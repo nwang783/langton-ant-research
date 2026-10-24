@@ -1,0 +1,214 @@
+{
+  "status": "AUTHOR_ALL_WORD_LAST_HELPER_PROOF_MASKS_PASS",
+  "scope": "Conditional DC output(3,1)\u2192V input(0,3), relativeconsumer(0,1,h1), exact source-included age3, all strict intermediates recurrent-eight. No whole V1 exclusion or general producer claim.",
+  "height": "X+Y in sourceDC normalized N frame; goal is headingE/globalphase1. H is consumer head height. This equals record model phase1 height after target normalization.",
+  "base_endpoint_heights_by_heading": {
+    "3": {
+      "D": 0,
+      "V": -2,
+      "U": -4
+    },
+    "2": {
+      "D": -2,
+      "V": -4,
+      "U": -4
+    },
+    "1": {
+      "D": 0,
+      "V": 2,
+      "U": 4
+    }
+  },
+  "Cword": "LLLLRLRRRRLRRRR",
+  "C_center_step": [
+    1,
+    1
+  ],
+  "strict_C_center_height_steps": [
+    0,
+    -2
+  ],
+  "zero_base_height_balance": "h+2i=b+2c+d+2e+2f",
+  "variables": "pre-W counts a,b,c; middle-S d,e,f; post-E g,h,i for D,V,U, including bases attached to C tails.",
+  "why_positive_RHS": "One C2 packet is VCC/UCC and has pre-W V/U base; two C1 packets need a middle-S D/V/U base. Thus RHS>=1 and post-E V/U exists.",
+  "last_helper_masks": [
+    {
+      "helper_packet": 4,
+      "heading": 1,
+      "head_height_minus_H": -2,
+      "input_heights_minus_H": [
+        1,
+        -1
+      ],
+      "output_heights_minus_H": [
+        -2,
+        -1,
+        -3,
+        -4,
+        -3,
+        -2
+      ],
+      "critical_input": [
+        0,
+        3
+      ],
+      "critical_input_height_minus_H": 1,
+      "critical_input_min_age_if_produced": 2,
+      "candidate_created_peak": 26,
+      "candidate_record_score_minus_2H": 22
+    },
+    {
+      "helper_packet": 7,
+      "heading": 1,
+      "head_height_minus_H": -4,
+      "input_heights_minus_H": [
+        -2,
+        -1,
+        1,
+        -2,
+        -1
+      ],
+      "output_heights_minus_H": [
+        -1,
+        -4,
+        -3,
+        -5,
+        -4,
+        -3,
+        -2,
+        -6,
+        -5
+      ],
+      "critical_input": [
+        -1,
+        4
+      ],
+      "critical_input_height_minus_H": 1,
+      "critical_input_min_age_if_produced": 5,
+      "candidate_created_peak": 30,
+      "candidate_record_score_minus_2H": 22
+    }
+  ],
+  "later_D_output_heights_minus_H": [
+    -2
+  ],
+  "prehelper_obligations": {
+    "H+1": "two distinct current residual identities; V-helper ages>=2,>=3, U-helper ages>=5,>=3; entry identities formal age infinity",
+    "H+3": "one current protected DC output identity, C-age exactly3",
+    "last_helper_record_score": "S-4, with S=2H+26, V1/U1 peaks26/30"
+  },
+  "sharp_V_helper_literal_control": {
+    "seed": [
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        3
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "word": [
+      1,
+      6,
+      4,
+      4
+    ],
+    "reads_including_final_marker": 120,
+    "helper_cut": [
+      {
+        "prehelper_time": 73,
+        "helper_pose": [
+          -3,
+          2,
+          1
+        ],
+        "goal_head_height": 1,
+        "goal_selected_identity_cell": [
+          2,
+          0
+        ],
+        "helper_critical_identity_cell": [
+          0,
+          2
+        ],
+        "goal_other_identity_cell": [
+          3,
+          1
+        ],
+        "C_ages": {
+          "(2, 0)": 3,
+          "(0, 2)": 2,
+          "(3, 1)": 3
+        }
+      }
+    ],
+    "steps": [
+      [
+        0,
+        1,
+        25,
+        1,
+        2,
+        3,
+        1
+      ],
+      [
+        1,
+        6,
+        73,
+        -3,
+        2,
+        1,
+        3
+      ],
+      [
+        2,
+        4,
+        91,
+        0,
+        1,
+        1,
+        3
+      ],
+      [
+        3,
+        4,
+        109,
+        3,
+        0,
+        1,
+        3
+      ]
+    ]
+  },
+  "input_sha256": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd"
+}

@@ -1,0 +1,55 @@
+{
+  "status": "PASS two actual long spiral flight controls; no new universal claim",
+  "cases": [
+    {
+      "q": 8,
+      "complete_mass": 80,
+      "first_event": 169,
+      "status": "import",
+      "preperiod": 166,
+      "period": 20,
+      "drift": [
+        0,
+        0
+      ],
+      "witness": {
+        "kind": "static",
+        "phase": 3,
+        "epoch": 0,
+        "vertex": [
+          -29,
+          -1
+        ]
+      }
+    },
+    {
+      "q": 16,
+      "complete_mass": 288,
+      "first_event": 593,
+      "status": "import",
+      "preperiod": 590,
+      "period": 20,
+      "drift": [
+        0,
+        0
+      ],
+      "witness": {
+        "kind": "static",
+        "phase": 3,
+        "epoch": 0,
+        "vertex": [
+          -61,
+          -1
+        ]
+      }
+    }
+  ],
+  "independent_full_field_statistics": {
+    "literal_updates": 762,
+    "exact_whole_component_imports": 2,
+    "cases": 2,
+    "import": 2,
+    "repeated_predictor_cases": 2
+  },
+  "analytic": "Both complete input fields are signed physical spiral controls. Full boards and all intermediate cuts are independently replayed to the actual first import, not inferred from sampled predictor states. This extends the finite tests beyond short first contacts; it is not evidence that every isolated predictor has zero drift."
+}

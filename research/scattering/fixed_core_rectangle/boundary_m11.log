@@ -1,0 +1,471 @@
+{"segment": 0, "time": [0, 0, 9977], "pose": [[[0, 0, -15], [0, 0, 10]], 3], "contacts": {}}
+{"segment": 1, "time": [0, 104, 31609], "pose": [[[0, -2, -431], [0, -2, -406]], 3], "contacts": {}}
+{"segment": 2, "time": [0, 104, 82727], "pose": [[[0, -2, -394], [0, -2, -443]], 1], "contacts": {"q": [0, 104, 31681]}}
+{"segment": 3, "time": [0, 208, 104255], "pose": [[[0, 0, 20], [0, 0, -29]], 1], "contacts": {}}
+{"segment": 4, "time": [0, 208, 112333], "pose": [[[0, 0, -15], [0, 0, 26]], 1], "contacts": {}}
+{"segment": 5, "time": [0, 208, 113477], "pose": [[[0, 0, -37], [0, 0, 48]], 1], "contacts": {}}
+{"segment": 6, "time": [0, 208, 164600], "pose": [[[0, 0, -74], [0, 0, 14]], 2], "contacts": {"s": [0, 208, 113554]}}
+{"segment": 7, "time": [0, 208, 165952], "pose": [[[0, 0, -48], [0, 0, -12]], 2], "contacts": {}}
+{"segment": 8, "time": [0, 208, 188888], "pose": [[[0, 0, 40], [0, 0, -50]], 2], "contacts": {}}
+{"segment": 9, "time": [0, 312, 207608], "pose": [[[0, 2, 400], [0, -2, -410]], 2], "contacts": {}}
+{"segment": 10, "time": [0, 312, 258730], "pose": [[[0, 2, 437], [0, -2, -375]], 0], "contacts": {"c": [0, 312, 207684]}}
+{"segment": 11, "time": [0, 416, 281714], "pose": [[[0, 0, -5], [0, 0, 67]], 0], "contacts": {}}
+{"segment": 12, "time": [0, 416, 284336], "pose": [[[0, 0, -50], [0, 0, 90]], 0], "contacts": {}}
+{
+  "status": "exact bivariate complete-field certificate passed",
+  "domain": "integer n>=200, fixed m=11",
+  "variables": "u unused, v=n-200>=0",
+  "capture_time_in_u_v": [
+    0,
+    416,
+    284336
+  ],
+  "capture_time_in_n_m": [
+    416,
+    312,
+    197704
+  ],
+  "capture_pose": [
+    [
+      [
+        0,
+        0,
+        -50
+      ],
+      [
+        0,
+        0,
+        90
+      ]
+    ],
+    0
+  ],
+  "tail": {
+    "drift": [
+      -2,
+      2
+    ],
+    "heading": 0,
+    "required_cells": 44,
+    "odd_cells": 36
+  },
+  "contacts": {
+    "q": [
+      0,
+      104,
+      31681
+    ],
+    "s": [
+      0,
+      208,
+      113554
+    ],
+    "c": [
+      0,
+      312,
+      207684
+    ]
+  },
+  "never_read": [
+    "a",
+    "d"
+  ],
+  "statistics": {
+    "finite_read_constraints": 21118,
+    "periodic_read_constraints": 336,
+    "affine_guards": 20397,
+    "excluded_isolated_equalities": 83625060
+  },
+  "interfaces": {
+    "two_bit": {
+      "time": [
+        0,
+        208,
+        188888
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            40
+          ],
+          [
+            0,
+            0,
+            -50
+          ]
+        ],
+        2
+      ],
+      "tail": {
+        "drift": [
+          2,
+          -2
+        ],
+        "heading": 2,
+        "required_cells": 44,
+        "odd_cells": 36
+      },
+      "archive": {
+        "u_lower_m_coefficient": -4,
+        "u_lower_constant": -130,
+        "u_upper": 98,
+        "z_upper": 71
+      },
+      "finite_reads": {
+        "u_lower_m_coefficient": -4,
+        "u_lower_constant": -130,
+        "u_upper": 98,
+        "z_upper": 71
+      }
+    },
+    "three_bit": {
+      "archive": {
+        "u_lower_m_coefficient": -4,
+        "u_lower_constant": -130,
+        "u_upper": null,
+        "z_upper": 75
+      },
+      "finite_reads": {
+        "u_lower_m_coefficient": -4,
+        "u_lower_constant": -130,
+        "u_upper": null,
+        "z_upper": 75
+      }
+    }
+  },
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        0,
+        9977
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -15
+          ],
+          [
+            0,
+            0,
+            10
+          ]
+        ],
+        3
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 1,
+      "time": [
+        0,
+        104,
+        31609
+      ],
+      "pose": [
+        [
+          [
+            0,
+            -2,
+            -431
+          ],
+          [
+            0,
+            -2,
+            -406
+          ]
+        ],
+        3
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 2,
+      "time": [
+        0,
+        104,
+        82727
+      ],
+      "pose": [
+        [
+          [
+            0,
+            -2,
+            -394
+          ],
+          [
+            0,
+            -2,
+            -443
+          ]
+        ],
+        1
+      ],
+      "contacts": {
+        "q": [
+          0,
+          104,
+          31681
+        ]
+      }
+    },
+    {
+      "segment": 3,
+      "time": [
+        0,
+        208,
+        104255
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            20
+          ],
+          [
+            0,
+            0,
+            -29
+          ]
+        ],
+        1
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 4,
+      "time": [
+        0,
+        208,
+        112333
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -15
+          ],
+          [
+            0,
+            0,
+            26
+          ]
+        ],
+        1
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 5,
+      "time": [
+        0,
+        208,
+        113477
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -37
+          ],
+          [
+            0,
+            0,
+            48
+          ]
+        ],
+        1
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 6,
+      "time": [
+        0,
+        208,
+        164600
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -74
+          ],
+          [
+            0,
+            0,
+            14
+          ]
+        ],
+        2
+      ],
+      "contacts": {
+        "s": [
+          0,
+          208,
+          113554
+        ]
+      }
+    },
+    {
+      "segment": 7,
+      "time": [
+        0,
+        208,
+        165952
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -48
+          ],
+          [
+            0,
+            0,
+            -12
+          ]
+        ],
+        2
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 8,
+      "time": [
+        0,
+        208,
+        188888
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            40
+          ],
+          [
+            0,
+            0,
+            -50
+          ]
+        ],
+        2
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 9,
+      "time": [
+        0,
+        312,
+        207608
+      ],
+      "pose": [
+        [
+          [
+            0,
+            2,
+            400
+          ],
+          [
+            0,
+            -2,
+            -410
+          ]
+        ],
+        2
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 10,
+      "time": [
+        0,
+        312,
+        258730
+      ],
+      "pose": [
+        [
+          [
+            0,
+            2,
+            437
+          ],
+          [
+            0,
+            -2,
+            -375
+          ]
+        ],
+        0
+      ],
+      "contacts": {
+        "c": [
+          0,
+          312,
+          207684
+        ]
+      }
+    },
+    {
+      "segment": 11,
+      "time": [
+        0,
+        416,
+        281714
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -5
+          ],
+          [
+            0,
+            0,
+            67
+          ]
+        ],
+        0
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 12,
+      "time": [
+        0,
+        416,
+        284336
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -50
+          ],
+          [
+            0,
+            0,
+            90
+          ]
+        ],
+        0
+      ],
+      "contacts": {}
+    }
+  ],
+  "template_sha256": "05c5fca0529ffb365a499a92ece844fd6cb4520cc8465f4d2027c049b66f222f"
+}

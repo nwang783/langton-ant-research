@@ -1,0 +1,1575 @@
+{
+  "status": "AUTHOR_FROZEN_EARLIEST_PORTAL_GUARD_AND_ENDPOINT_SELECTED_ATTEMPTS_PENDING_REVIEW",
+  "scope": "Exactly three actual C3 residues. Universal T<=2 portal nonspending, arbitrary D lengths and arbitrary N/W/S before the pop. Two old C2 fullsource-role exclusions.25 prescribed positive-realization attempts all fail; no arbitrary-W or all-T3 exclusion.",
+  "both_immutable_DVQ_DUB_complete_prefix_returned_C_guards": [
+    {
+      "tokens": [
+        "D",
+        "V",
+        "Q"
+      ],
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 93,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      },
+      "previous_actual_owner": "D RAW phase2 L deletion",
+      "required_actual_continuation": "returned RAW C",
+      "conflicting_actual_owner": "returned RAW C phase2, not foreign RAW",
+      "immutable_without_any_seed_choice": true
+    },
+    {
+      "tokens": [
+        "D",
+        "U",
+        "B"
+      ],
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 113,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      },
+      "previous_actual_owner": "D RAW phase2 L deletion",
+      "required_actual_continuation": "returned RAW C",
+      "conflicting_actual_owner": "returned RAW C phase2, not foreign RAW",
+      "immutable_without_any_seed_choice": true
+    }
+  ],
+  "four_unbounded_T2_endpoint_tail_obligations": [
+    {
+      "source_base": "V",
+      "source_weighted_index": 2,
+      "foreign": "Q",
+      "remaining_E_weight": 1,
+      "actual_S_runs_before_portal_consumer": "arbitrary; not omitted",
+      "forced_remaining_E_fullword": "D^(B+4),V,Q,returned_RAW_C",
+      "actual_W_head_parameter": "B>=1",
+      "remaining_D_count_formula": "B+4",
+      "immutable_forbidden_suffix": [
+        "D",
+        "V",
+        "Q",
+        "returned_RAW_C"
+      ]
+    },
+    {
+      "source_base": "V",
+      "source_weighted_index": 2,
+      "foreign": "B",
+      "remaining_E_weight": 2,
+      "actual_S_runs_before_portal_consumer": "arbitrary; not omitted",
+      "forced_remaining_E_fullword": "D^(B+4),U,B,returned_RAW_C",
+      "actual_W_head_parameter": "B>=1",
+      "remaining_D_count_formula": "B+4",
+      "immutable_forbidden_suffix": [
+        "D",
+        "U",
+        "B",
+        "returned_RAW_C"
+      ]
+    },
+    {
+      "source_base": "U",
+      "source_weighted_index": 2,
+      "foreign": "Q",
+      "remaining_E_weight": 1,
+      "actual_S_runs_before_portal_consumer": "arbitrary; not omitted",
+      "forced_remaining_E_fullword": "D^(B+3),V,Q,returned_RAW_C",
+      "actual_W_head_parameter": "B>=1",
+      "remaining_D_count_formula": "B+3",
+      "immutable_forbidden_suffix": [
+        "D",
+        "V",
+        "Q",
+        "returned_RAW_C"
+      ]
+    },
+    {
+      "source_base": "U",
+      "source_weighted_index": 2,
+      "foreign": "B",
+      "remaining_E_weight": 2,
+      "actual_S_runs_before_portal_consumer": "arbitrary; not omitted",
+      "forced_remaining_E_fullword": "D^(B+3),U,B,returned_RAW_C",
+      "actual_W_head_parameter": "B>=1",
+      "remaining_D_count_formula": "B+3",
+      "immutable_forbidden_suffix": [
+        "D",
+        "U",
+        "B",
+        "returned_RAW_C"
+      ]
+    }
+  ],
+  "both_old_C2_containing_fullsource_complete_pair_guards": [
+    {
+      "old_full_source": "VCC",
+      "old_C_index": 2,
+      "forced_first_W_fullpacket": "D",
+      "complete_pair_conflict": {
+        "feasible": false,
+        "conflict_read": 59,
+        "previous_read": 19,
+        "cell": [
+          0,
+          3
+        ],
+        "turn": "L"
+      },
+      "contradiction_read_owner": "next actual word RAW phase2, supplied by actual M11",
+      "conflict_inside_D_RAW": false,
+      "source_full_completion_retained": true
+    },
+    {
+      "old_full_source": "UCC",
+      "old_C_index": 2,
+      "forced_first_W_fullpacket": "D",
+      "complete_pair_conflict": {
+        "feasible": false,
+        "conflict_read": 69,
+        "previous_read": 29,
+        "cell": [
+          -1,
+          4
+        ],
+        "turn": "L"
+      },
+      "contradiction_read_owner": "next actual word RAW phase2, supplied by actual M11",
+      "conflict_inside_D_RAW": false,
+      "source_full_completion_retained": true
+    }
+  ],
+  "all25_endpoint_and_actual_portal_selected_candidate_histories": [
+    {
+      "family": "T2_boundary_UCC",
+      "old_full_source": "DC",
+      "old_C_index": 1,
+      "tokens": [
+        "DC",
+        "D",
+        "UCC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "Q",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        4,
+        -5,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 132,
+        "previous_read": 12,
+        "cell": [
+          0,
+          0
+        ],
+        "turn": "L"
+      },
+      "scope": "Only this endpoint/portal-selected physical word; not arbitrary W exhaustion."
+    },
+    {
+      "family": "T2_boundary_UCC",
+      "old_full_source": "DC",
+      "old_C_index": 1,
+      "tokens": [
+        "DC",
+        "D",
+        "UCC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "U",
+        "B",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        5,
+        -4,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 132,
+        "previous_read": 12,
+        "cell": [
+          0,
+          0
+        ],
+        "turn": "L"
+      },
+      "scope": "Only this endpoint/portal-selected physical word; not arbitrary W exhaustion."
+    },
+    {
+      "family": "T2_plain_U_regression_module",
+      "old_full_source": "DC",
+      "old_C_index": 1,
+      "tokens": [
+        "DC",
+        "D",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "Q",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        4,
+        -5,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 168,
+        "previous_read": 12,
+        "cell": [
+          0,
+          0
+        ],
+        "turn": "L"
+      },
+      "scope": "Only this endpoint/portal-selected physical word; not arbitrary W exhaustion."
+    },
+    {
+      "family": "T2_plain_U_regression_module",
+      "old_full_source": "DC",
+      "old_C_index": 1,
+      "tokens": [
+        "DC",
+        "D",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "U",
+        "B",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        5,
+        -4,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 168,
+        "previous_read": 12,
+        "cell": [
+          0,
+          0
+        ],
+        "turn": "L"
+      },
+      "scope": "Only this endpoint/portal-selected physical word; not arbitrary W exhaustion."
+    },
+    {
+      "family": "T3_F_plain_U_regression_module",
+      "old_full_source": "DC",
+      "old_C_index": 1,
+      "tokens": [
+        "DC",
+        "D",
+        "V",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "F",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        2,
+        -5,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 206,
+        "previous_read": 2,
+        "cell": [
+          -1,
+          -1
+        ],
+        "turn": "L"
+      },
+      "scope": "One prescribed next-weight F module, not all T3 candidates."
+    },
+    {
+      "family": "T2_boundary_UCC",
+      "old_full_source": "VC",
+      "old_C_index": 1,
+      "tokens": [
+        "VC",
+        "D",
+        "UCC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "Q",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        4,
+        -5,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 135,
+        "previous_read": 11,
+        "cell": [
+          0,
+          1
+        ],
+        "turn": "R"
+      },
+      "scope": "Only this endpoint/portal-selected physical word; not arbitrary W exhaustion."
+    },
+    {
+      "family": "T2_boundary_UCC",
+      "old_full_source": "VC",
+      "old_C_index": 1,
+      "tokens": [
+        "VC",
+        "D",
+        "UCC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "U",
+        "B",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        5,
+        -4,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 135,
+        "previous_read": 11,
+        "cell": [
+          0,
+          1
+        ],
+        "turn": "R"
+      },
+      "scope": "Only this endpoint/portal-selected physical word; not arbitrary W exhaustion."
+    },
+    {
+      "family": "T2_plain_U_regression_module",
+      "old_full_source": "VC",
+      "old_C_index": 1,
+      "tokens": [
+        "VC",
+        "D",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "Q",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        4,
+        -5,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 171,
+        "previous_read": 11,
+        "cell": [
+          0,
+          1
+        ],
+        "turn": "R"
+      },
+      "scope": "Only this endpoint/portal-selected physical word; not arbitrary W exhaustion."
+    },
+    {
+      "family": "T2_plain_U_regression_module",
+      "old_full_source": "VC",
+      "old_C_index": 1,
+      "tokens": [
+        "VC",
+        "D",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "U",
+        "B",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        5,
+        -4,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 171,
+        "previous_read": 11,
+        "cell": [
+          0,
+          1
+        ],
+        "turn": "R"
+      },
+      "scope": "Only this endpoint/portal-selected physical word; not arbitrary W exhaustion."
+    },
+    {
+      "family": "T3_F_plain_U_regression_module",
+      "old_full_source": "VC",
+      "old_C_index": 1,
+      "tokens": [
+        "VC",
+        "D",
+        "V",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "F",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        2,
+        -5,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 298,
+        "previous_read": 10,
+        "cell": [
+          1,
+          1
+        ],
+        "turn": "L"
+      },
+      "scope": "One prescribed next-weight F module, not all T3 candidates."
+    },
+    {
+      "family": "T2_boundary_UCC",
+      "old_full_source": "UC",
+      "old_C_index": 1,
+      "tokens": [
+        "UC",
+        "D",
+        "UCC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "Q",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        4,
+        -5,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 145,
+        "previous_read": 21,
+        "cell": [
+          -1,
+          2
+        ],
+        "turn": "R"
+      },
+      "scope": "Only this endpoint/portal-selected physical word; not arbitrary W exhaustion."
+    },
+    {
+      "family": "T2_boundary_UCC",
+      "old_full_source": "UC",
+      "old_C_index": 1,
+      "tokens": [
+        "UC",
+        "D",
+        "UCC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "U",
+        "B",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        5,
+        -4,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 145,
+        "previous_read": 21,
+        "cell": [
+          -1,
+          2
+        ],
+        "turn": "R"
+      },
+      "scope": "Only this endpoint/portal-selected physical word; not arbitrary W exhaustion."
+    },
+    {
+      "family": "T2_plain_U_regression_module",
+      "old_full_source": "UC",
+      "old_C_index": 1,
+      "tokens": [
+        "UC",
+        "D",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "Q",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        4,
+        -5,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 181,
+        "previous_read": 21,
+        "cell": [
+          -1,
+          2
+        ],
+        "turn": "R"
+      },
+      "scope": "Only this endpoint/portal-selected physical word; not arbitrary W exhaustion."
+    },
+    {
+      "family": "T2_plain_U_regression_module",
+      "old_full_source": "UC",
+      "old_C_index": 1,
+      "tokens": [
+        "UC",
+        "D",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "U",
+        "B",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        5,
+        -4,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 181,
+        "previous_read": 21,
+        "cell": [
+          -1,
+          2
+        ],
+        "turn": "R"
+      },
+      "scope": "Only this endpoint/portal-selected physical word; not arbitrary W exhaustion."
+    },
+    {
+      "family": "T3_F_plain_U_regression_module",
+      "old_full_source": "UC",
+      "old_C_index": 1,
+      "tokens": [
+        "UC",
+        "D",
+        "V",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "F",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        2,
+        -5,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 234,
+        "previous_read": 14,
+        "cell": [
+          -1,
+          1
+        ],
+        "turn": "L"
+      },
+      "scope": "One prescribed next-weight F module, not all T3 candidates."
+    },
+    {
+      "family": "T2_boundary_UCC",
+      "old_full_source": "VCC",
+      "old_C_index": 2,
+      "tokens": [
+        "VCC",
+        "D",
+        "UCC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "Q",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        4,
+        -5,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 59,
+        "previous_read": 19,
+        "cell": [
+          0,
+          3
+        ],
+        "turn": "L"
+      },
+      "scope": "Only this endpoint/portal-selected physical word; not arbitrary W exhaustion."
+    },
+    {
+      "family": "T2_boundary_UCC",
+      "old_full_source": "VCC",
+      "old_C_index": 2,
+      "tokens": [
+        "VCC",
+        "D",
+        "UCC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "U",
+        "B",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        5,
+        -4,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 59,
+        "previous_read": 19,
+        "cell": [
+          0,
+          3
+        ],
+        "turn": "L"
+      },
+      "scope": "Only this endpoint/portal-selected physical word; not arbitrary W exhaustion."
+    },
+    {
+      "family": "T2_plain_U_regression_module",
+      "old_full_source": "VCC",
+      "old_C_index": 2,
+      "tokens": [
+        "VCC",
+        "D",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "Q",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        4,
+        -5,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 59,
+        "previous_read": 19,
+        "cell": [
+          0,
+          3
+        ],
+        "turn": "L"
+      },
+      "scope": "Only this endpoint/portal-selected physical word; not arbitrary W exhaustion."
+    },
+    {
+      "family": "T2_plain_U_regression_module",
+      "old_full_source": "VCC",
+      "old_C_index": 2,
+      "tokens": [
+        "VCC",
+        "D",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "U",
+        "B",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        5,
+        -4,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 59,
+        "previous_read": 19,
+        "cell": [
+          0,
+          3
+        ],
+        "turn": "L"
+      },
+      "scope": "Only this endpoint/portal-selected physical word; not arbitrary W exhaustion."
+    },
+    {
+      "family": "T3_F_plain_U_regression_module",
+      "old_full_source": "VCC",
+      "old_C_index": 2,
+      "tokens": [
+        "VCC",
+        "D",
+        "V",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "F",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        2,
+        -5,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 59,
+        "previous_read": 19,
+        "cell": [
+          0,
+          3
+        ],
+        "turn": "L"
+      },
+      "scope": "One prescribed next-weight F module, not all T3 candidates."
+    },
+    {
+      "family": "T2_boundary_UCC",
+      "old_full_source": "UCC",
+      "old_C_index": 2,
+      "tokens": [
+        "UCC",
+        "D",
+        "UCC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "Q",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        4,
+        -5,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 69,
+        "previous_read": 29,
+        "cell": [
+          -1,
+          4
+        ],
+        "turn": "L"
+      },
+      "scope": "Only this endpoint/portal-selected physical word; not arbitrary W exhaustion."
+    },
+    {
+      "family": "T2_boundary_UCC",
+      "old_full_source": "UCC",
+      "old_C_index": 2,
+      "tokens": [
+        "UCC",
+        "D",
+        "UCC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "U",
+        "B",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        5,
+        -4,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 69,
+        "previous_read": 29,
+        "cell": [
+          -1,
+          4
+        ],
+        "turn": "L"
+      },
+      "scope": "Only this endpoint/portal-selected physical word; not arbitrary W exhaustion."
+    },
+    {
+      "family": "T2_plain_U_regression_module",
+      "old_full_source": "UCC",
+      "old_C_index": 2,
+      "tokens": [
+        "UCC",
+        "D",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "Q",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        4,
+        -5,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 69,
+        "previous_read": 29,
+        "cell": [
+          -1,
+          4
+        ],
+        "turn": "L"
+      },
+      "scope": "Only this endpoint/portal-selected physical word; not arbitrary W exhaustion."
+    },
+    {
+      "family": "T2_plain_U_regression_module",
+      "old_full_source": "UCC",
+      "old_C_index": 2,
+      "tokens": [
+        "UCC",
+        "D",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "U",
+        "B",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        5,
+        -4,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 69,
+        "previous_read": 29,
+        "cell": [
+          -1,
+          4
+        ],
+        "turn": "L"
+      },
+      "scope": "Only this endpoint/portal-selected physical word; not arbitrary W exhaustion."
+    },
+    {
+      "family": "T3_F_plain_U_regression_module",
+      "old_full_source": "UCC",
+      "old_C_index": 2,
+      "tokens": [
+        "UCC",
+        "D",
+        "V",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "F",
+        "C"
+      ],
+      "normalized_foreign_pose": [
+        2,
+        -5,
+        1
+      ],
+      "normalized_returned_RAW_C_pose": [
+        0,
+        -1,
+        3
+      ],
+      "full_board_first_read_consistency": false,
+      "literal_conflict": {
+        "feasible": false,
+        "conflict_read": 69,
+        "previous_read": 29,
+        "cell": [
+          -1,
+          4
+        ],
+        "turn": "L"
+      },
+      "scope": "One prescribed next-weight F module, not all T3 candidates."
+    }
+  ],
+  "both_genuine_U_entry_regression_controls_replayed": [
+    {
+      "full_packet_sequence": [
+        "U",
+        "V",
+        "VCC",
+        "V",
+        "V"
+      ],
+      "complete_finite_seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          -1,
+          6
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      "entry_mass": 16,
+      "unlisted_cells_WHITE": true,
+      "full_packet_entries": [
+        {
+          "full_packet": "U",
+          "entry": [
+            0,
+            0,
+            0
+          ],
+          "tick": 0,
+          "C_clock": 0
+        },
+        {
+          "full_packet": "V",
+          "entry": [
+            0,
+            4,
+            0
+          ],
+          "tick": 28,
+          "C_clock": 0
+        },
+        {
+          "full_packet": "VCC",
+          "entry": [
+            1,
+            7,
+            0
+          ],
+          "tick": 46,
+          "C_clock": 0
+        },
+        {
+          "full_packet": "V",
+          "entry": [
+            1,
+            11,
+            2
+          ],
+          "tick": 94,
+          "C_clock": 2
+        },
+        {
+          "full_packet": "V",
+          "entry": [
+            0,
+            8,
+            2
+          ],
+          "tick": 112,
+          "C_clock": 2
+        }
+      ],
+      "source_index": 1,
+      "source_kind": "V",
+      "source_tag_physical_site": [
+        0,
+        5
+      ],
+      "source_tag_normalized_output": [
+        0,
+        1
+      ],
+      "source_tag_all_actual_reads": [
+        [
+          "R",
+          39
+        ],
+        [
+          "L",
+          131
+        ]
+      ],
+      "source_full_exit": {
+        "tick": 46,
+        "pose": [
+          1,
+          7,
+          0
+        ],
+        "tag_current": true
+      },
+      "consumer_V_pose_in_source_frame": [
+        0,
+        4,
+        2
+      ],
+      "consumer_input": [
+        0,
+        3
+      ],
+      "source_to_consumer_C_age": 2,
+      "consumer_input_physical_owner": "word_after_final_V_RAW_phase2; here the actual M11 phase2",
+      "actual_RAW_exit": {
+        "tick": 130,
+        "pose": [
+          -1,
+          5,
+          2
+        ],
+        "mass": 42,
+        "tag_current": true
+      },
+      "after_actual_M11": {
+        "pose": [
+          -1,
+          4,
+          1
+        ],
+        "mass": 41
+      },
+      "genuine_U_entry_eight_factor": true,
+      "foreign_or_three_C_residue_attainment_claimed": false
+    },
+    {
+      "full_packet_sequence": [
+        "U",
+        "VCC",
+        "V",
+        "V"
+      ],
+      "complete_finite_seed": [
+        [
+          -2,
+          3
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          -1,
+          6
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "entry_mass": 14,
+      "unlisted_cells_WHITE": true,
+      "full_packet_entries": [
+        {
+          "full_packet": "U",
+          "entry": [
+            0,
+            0,
+            0
+          ],
+          "tick": 0,
+          "C_clock": 0
+        },
+        {
+          "full_packet": "VCC",
+          "entry": [
+            0,
+            4,
+            0
+          ],
+          "tick": 28,
+          "C_clock": 0
+        },
+        {
+          "full_packet": "V",
+          "entry": [
+            0,
+            8,
+            2
+          ],
+          "tick": 76,
+          "C_clock": 2
+        },
+        {
+          "full_packet": "V",
+          "entry": [
+            -1,
+            5,
+            2
+          ],
+          "tick": 94,
+          "C_clock": 2
+        }
+      ],
+      "source_index": 0,
+      "source_kind": "U",
+      "source_tag_physical_site": [
+        -1,
+        2
+      ],
+      "source_tag_normalized_output": [
+        -1,
+        2
+      ],
+      "source_tag_all_actual_reads": [
+        [
+          "L",
+          13
+        ],
+        [
+          "R",
+          21
+        ],
+        [
+          "L",
+          113
+        ]
+      ],
+      "source_full_exit": {
+        "tick": 28,
+        "pose": [
+          0,
+          4,
+          0
+        ],
+        "tag_current": true
+      },
+      "consumer_V_pose_in_source_frame": [
+        -1,
+        5,
+        2
+      ],
+      "consumer_input": [
+        0,
+        3
+      ],
+      "source_to_consumer_C_age": 2,
+      "consumer_input_physical_owner": "word_after_final_V_RAW_phase2; here the actual M11 phase2",
+      "actual_RAW_exit": {
+        "tick": 112,
+        "pose": [
+          -2,
+          2,
+          2
+        ],
+        "mass": 36,
+        "tag_current": true
+      },
+      "after_actual_M11": {
+        "pose": [
+          -2,
+          1,
+          1
+        ],
+        "mass": 35
+      },
+      "genuine_U_entry_eight_factor": true,
+      "foreign_or_three_C_residue_attainment_claimed": false
+    }
+  ],
+  "conclusions": [
+    "Every actual spent W portal in any of the three residues must have source weighted index T>=3.",
+    "The earliest W portal is unspent, whether its producer is V(T1)or U(T2); its identity remains current through the first return.",
+    "Old C2 of VCC/UCC is impossible by first-W-D and actual next-word phase2 contradiction; together with signed C1 double-tail closure, only C1 of DC/VC/UC remains.",
+    "No actual U-entry realization was attained by the25 specifically selected whole histories; no broader negative-search claim is made."
+  ],
+  "dependencies": {
+    "core_periodicity_new/chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "word_stabilization/shifted1_llrlrrrrlll_fold_coalesced_port_quotient.json": "216ef5edde9404799744b5d9ab3d1fe62f55846cbe97e88f82395b195765ec35",
+    "word_stabilization/check_foreign_return_interfaces.py": "249f89213a96c8daad9d0ecde65e877d5e254af033092adb81b4bbaca0cc729c",
+    "seven_word_spatial_return_2026-10-23/ordered_W_portal_submatching_manifest.json": "23f62a2c925b627cc2fa5e3efa244390c5ba5ddd18a2ef810b8f2ff485940a13",
+    "seven_word_spatial_return_2026-10-23/W_portal_complementary_indices_manifest.json": "ef6f916a8899ee57b064578da6a940b9ba48f661d85b9e14497cbf1c5a8f2ffd",
+    "seven_word_spatial_return_2026-10-23/ordered_W_marker_ownership_erratum_manifest.json": "506cb0d1771c0f0ce7317bbdab2a23d6463da8a3437f1995d18148838c6e9295",
+    "seven_word_spatial_return_2026-10-23/returned_C_double_tail_source_manifest.json": "5ca7b68cac3ff890706c6c500287478020e178ce5213f0e74d805e08538e6f03",
+    "seven_word_spatial_return_2026-10-23/ordered_W_seal_withdrawal_controls_manifest.json": "e1ec487ac011d317dd3bb6d2beef5ae53740c213bbcedaca2ab254b8bc61f570"
+  }
+}

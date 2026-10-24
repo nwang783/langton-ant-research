@@ -1,0 +1,626 @@
+{
+  "status": "AUTHOR_FROZEN_ALL_LENGTH_LITERAL_V_RAIL_GUARD_PENDING_REVIEW",
+  "scope": "Literal V^r,VCC,V^j rail with 0<=j<=r+1 forces the next old-eight zero-C base to be V. Its endpoint corollary excludes only C3 W=D^a,V^r,VCC with empty S. Arbitrary mixed W, S nonempty, D-separated V blocks, and the five general first-contact targets remain open.",
+  "two_all_integer_forward_last_L_and_reverse_nonreading_interfaces": [
+    {
+      "next_old_E_base": "D",
+      "c": 3,
+      "proposed_first_L": 11,
+      "canonical_actual_owner": {
+        "packet": "D",
+        "context_tick0": 11,
+        "context_read_number1": 12,
+        "RAW_length": 10,
+        "owner": "next actual word RAW",
+        "owner_tick0": 1,
+        "owner_read_number1": 2,
+        "turn": "L",
+        "next_word_tick0": 1,
+        "next_word_read_number1": 2,
+        "label": "context tick 11 (zero-based), RAW length 10; next actual word RAW tick 1 (zero-based), read 2 (one-based), L"
+      },
+      "victim_in_initial_V_frame": "(r-j,3*(r-j)+c)",
+      "all_forward_plain_V_line_contacts": [
+        {
+          "d": -1,
+          "cell": [
+            -1,
+            0
+          ],
+          "actual_reads": [
+            [
+              "L",
+              1
+            ]
+          ]
+        }
+      ],
+      "all_VCC_line_contacts": [
+        {
+          "d": -1,
+          "cell": [
+            -1,
+            0
+          ],
+          "actual_reads": [
+            [
+              "L",
+              1
+            ]
+          ]
+        },
+        {
+          "d": 0,
+          "cell": [
+            0,
+            3
+          ],
+          "actual_reads": [
+            [
+              "L",
+              19
+            ]
+          ]
+        },
+        {
+          "d": 1,
+          "cell": [
+            1,
+            6
+          ],
+          "actual_reads": [
+            [
+              "R",
+              41
+            ]
+          ]
+        }
+      ],
+      "all_past_reverse_V_d_ge1_line_contacts": [],
+      "last_actual_deletion_tick0": "18*(r-j)+19",
+      "no_intermediate_R": "Forward affine-line contacts end at L; VCC d=-j and all earlier reverse V contacts give no later read.",
+      "validity": "Every integer r>=0 and 0<=j<=r+1."
+    },
+    {
+      "next_old_E_base": "U",
+      "c": 2,
+      "proposed_first_L": 12,
+      "canonical_actual_owner": {
+        "packet": "U",
+        "context_tick0": 12,
+        "context_read_number1": 13,
+        "RAW_length": 28,
+        "owner": "own U-base RAW",
+        "owner_tick0": 12,
+        "owner_read_number1": 13,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 12 (zero-based), RAW length 28; own U-base RAW tick 12 (zero-based), read 13 (one-based), L"
+      },
+      "victim_in_initial_V_frame": "(r-j,3*(r-j)+c)",
+      "all_forward_plain_V_line_contacts": [
+        {
+          "d": -1,
+          "cell": [
+            -1,
+            -1
+          ],
+          "actual_reads": [
+            [
+              "L",
+              2
+            ]
+          ]
+        },
+        {
+          "d": 0,
+          "cell": [
+            0,
+            2
+          ],
+          "actual_reads": [
+            [
+              "R",
+              12
+            ]
+          ]
+        }
+      ],
+      "all_VCC_line_contacts": [
+        {
+          "d": -1,
+          "cell": [
+            -1,
+            -1
+          ],
+          "actual_reads": [
+            [
+              "L",
+              2
+            ]
+          ]
+        },
+        {
+          "d": 0,
+          "cell": [
+            0,
+            2
+          ],
+          "actual_reads": [
+            [
+              "R",
+              12
+            ],
+            [
+              "L",
+              20
+            ]
+          ]
+        },
+        {
+          "d": 1,
+          "cell": [
+            1,
+            5
+          ],
+          "actual_reads": [
+            [
+              "R",
+              30
+            ],
+            [
+              "L",
+              38
+            ],
+            [
+              "R",
+              42
+            ]
+          ]
+        }
+      ],
+      "all_past_reverse_V_d_ge1_line_contacts": [],
+      "last_actual_deletion_tick0": "18*(r-j)+20",
+      "no_intermediate_R": "Forward affine-line contacts end at L; VCC d=-j and all earlier reverse V contacts give no later read.",
+      "validity": "Every integer r>=0 and 0<=j<=r+1."
+    }
+  ],
+  "sixteen_prescribed_literal_regression_checks": [
+    {
+      "r": 0,
+      "j": 0,
+      "next_base": "D",
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 59,
+        "previous_read": 19,
+        "cell": [
+          0,
+          3
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "r": 0,
+      "j": 0,
+      "next_base": "U",
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 60,
+        "previous_read": 20,
+        "cell": [
+          0,
+          2
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "r": 0,
+      "j": 1,
+      "next_base": "D",
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 77,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "r": 0,
+      "j": 1,
+      "next_base": "U",
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 78,
+        "previous_read": 2,
+        "cell": [
+          -1,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "r": 1,
+      "j": 0,
+      "next_base": "D",
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 77,
+        "previous_read": 37,
+        "cell": [
+          1,
+          6
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "r": 1,
+      "j": 0,
+      "next_base": "U",
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 78,
+        "previous_read": 38,
+        "cell": [
+          1,
+          5
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "r": 1,
+      "j": 2,
+      "next_base": "D",
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 113,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "r": 1,
+      "j": 2,
+      "next_base": "U",
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 114,
+        "previous_read": 2,
+        "cell": [
+          -1,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "r": 2,
+      "j": 0,
+      "next_base": "D",
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 95,
+        "previous_read": 55,
+        "cell": [
+          2,
+          9
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "r": 2,
+      "j": 0,
+      "next_base": "U",
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 96,
+        "previous_read": 56,
+        "cell": [
+          2,
+          8
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "r": 2,
+      "j": 3,
+      "next_base": "D",
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 149,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "r": 2,
+      "j": 3,
+      "next_base": "U",
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 150,
+        "previous_read": 2,
+        "cell": [
+          -1,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "r": 10,
+      "j": 0,
+      "next_base": "D",
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 239,
+        "previous_read": 199,
+        "cell": [
+          10,
+          33
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "r": 10,
+      "j": 0,
+      "next_base": "U",
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 240,
+        "previous_read": 200,
+        "cell": [
+          10,
+          32
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "r": 10,
+      "j": 11,
+      "next_base": "D",
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 437,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "r": 10,
+      "j": 11,
+      "next_base": "U",
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 438,
+        "previous_read": 2,
+        "cell": [
+          -1,
+          -1
+        ],
+        "turn": "L"
+      }
+    }
+  ],
+  "both_genuine_U_entry_controls_physically_replayed": true,
+  "genuine_next_forced_V_17black_continuation": {
+    "full_packet_sequence": [
+      "U",
+      "V",
+      "VCC",
+      "V",
+      "V",
+      "V"
+    ],
+    "RAW_length": 148,
+    "actual_physical_read_count": 159,
+    "complete_finite_seed": [
+      [
+        -2,
+        3
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        -1,
+        4
+      ],
+      [
+        -1,
+        6
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        9
+      ]
+    ],
+    "added_entry_root_relative_to_genuine16black_control": [
+      -2,
+      3
+    ],
+    "added_root_first_read_tick0": 143,
+    "added_root_actual_owner": {
+      "packet": "V",
+      "context_tick0": 13,
+      "context_read_number1": 14,
+      "RAW_length": 18,
+      "owner": "own V-base RAW",
+      "owner_tick0": 13,
+      "owner_read_number1": 14,
+      "turn": "L",
+      "next_word_tick0": null,
+      "next_word_read_number1": null,
+      "label": "context tick 13 (zero-based), RAW length 18; own V-base RAW tick 13 (zero-based), read 14 (one-based), L"
+    },
+    "genuine_original_U_q_reads": [
+      [
+        "L",
+        13
+      ],
+      [
+        "R",
+        21
+      ],
+      [
+        "L",
+        149
+      ]
+    ],
+    "q_physical_L_owner": {
+      "packet": "V",
+      "context_tick0": 19,
+      "context_read_number1": 20,
+      "RAW_length": 18,
+      "owner": "next actual word RAW",
+      "owner_tick0": 1,
+      "owner_read_number1": 2,
+      "turn": "L",
+      "next_word_tick0": 1,
+      "next_word_read_number1": 2,
+      "label": "context tick 19 (zero-based), RAW length 18; next actual word RAW tick 1 (zero-based), read 2 (one-based), L"
+    },
+    "meaning": "The third reverse V is genuinely attained on a 17-black complete U-entry board. The preceding 16-black control plus actual M11 is unchanged; only a previously unread root was added."
+  },
+  "rejected_seal6ea48d5_not_used": true,
+  "three_all_length_C3_endpoint_corollaries": [
+    {
+      "foreign": "F",
+      "target_old_C_frame": [
+        2,
+        -5,
+        1
+      ],
+      "assumed_W_fullpacket_word": "D^a,V^r,VCC with a>=1,r>=0",
+      "actual_S_stage": "empty: VCC supplies the two actual remaining C tails",
+      "actual_E_start": "(-a-3r-4,1+a+r,E)",
+      "exact_E_D_plus_V": "a+r+6",
+      "exact_E_V_plus_2U": "r+0",
+      "positive_E_D_count_lower_bound": "a+6",
+      "required_last_old_E_packet": [
+        "V",
+        "U"
+      ],
+      "all_length_contradiction": "First D/U needs at least r+2 earlier Vs, exceeding total E weight r+offset."
+    },
+    {
+      "foreign": "Q",
+      "target_old_C_frame": [
+        4,
+        -5,
+        1
+      ],
+      "assumed_W_fullpacket_word": "D^a,V^r,VCC with a>=1,r>=0",
+      "actual_S_stage": "empty: VCC supplies the two actual remaining C tails",
+      "actual_E_start": "(-a-3r-4,1+a+r,E)",
+      "exact_E_D_plus_V": "a+r+6",
+      "exact_E_V_plus_2U": "r+1",
+      "positive_E_D_count_lower_bound": "a+5",
+      "required_last_old_E_packet": [
+        "V",
+        "U"
+      ],
+      "all_length_contradiction": "First D/U needs at least r+2 earlier Vs, exceeding total E weight r+offset."
+    },
+    {
+      "foreign": "B",
+      "target_old_C_frame": [
+        5,
+        -4,
+        1
+      ],
+      "assumed_W_fullpacket_word": "D^a,V^r,VCC with a>=1,r>=0",
+      "actual_S_stage": "empty: VCC supplies the two actual remaining C tails",
+      "actual_E_start": "(-a-3r-4,1+a+r,E)",
+      "exact_E_D_plus_V": "a+r+5",
+      "exact_E_V_plus_2U": "r+2",
+      "positive_E_D_count_lower_bound": "a+3",
+      "required_last_old_E_packet": [
+        "U"
+      ],
+      "all_length_contradiction": "At least r+2 earlier Vs use the entire E weight; required final U would add2, impossible."
+    }
+  ],
+  "dependencies": {
+    "core_periodicity_new/chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "seven_word_spatial_return_2026-10-23/first_returned_five_label_frontier_manifest.json": "2ca70c9c1d92e1d1b70de7b845b70119d3057d7ad27b884a891ee4a16e11520a",
+    "seven_word_spatial_return_2026-10-23/complete8_foreign_adjacency_manifest.json": "735023bebfa154bd936e9546023367b541006ea1d9f57bb2eb7240bf040017ea",
+    "seven_word_spatial_return_2026-10-23/ordered_W_seal_withdrawal_controls_manifest.json": "e1ec487ac011d317dd3bb6d2beef5ae53740c213bbcedaca2ab254b8bc61f570",
+    "literal_ownership_conventions_2026-10-24/canonical_read_ownership.py": "041b40e04a0f71a6b9511abf1d15b1d86c548e74f4f99281477c115b72036ea2"
+  }
+}

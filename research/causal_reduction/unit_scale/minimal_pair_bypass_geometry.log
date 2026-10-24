@@ -1,0 +1,4 @@
+palettes {'RR': ['RR', 'LRRLRRLRRL', 'LLLRLLRLLL'], 'RL': ['RL', 'LRRLRRLRRR', 'LLLRLLRLLR'], 'LR': ['LR', 'RRRLRRLRRL', 'RLLRLLRLLL'], 'LL': ['LL', 'RRRLRRLRRR', 'RLLRLLRLLR']}
+repeat controls Counter({'ILLEGAL_PERIODIC': 16, 'LEGAL_PREPARED_PERIODIC': 2})
+{'coarse_pair': 'RL', 'images': ['RL', 'RL'], 'length': 4, 'drift': (2, 2), 'charge': 0, 'input_black_classes': [(2, 0), (2, 1)], 'output_black_classes': [(0, 0), (0, 1)]}
+{'coarse_pair': 'LR', 'images': ['LR', 'LR'], 'length': 4, 'drift': (-2, 2), 'charge': 0, 'input_black_classes': [(0, 0), (0, 1)], 'output_black_classes': [(-2, 0), (-2, 1)]}

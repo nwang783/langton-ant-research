@@ -1,0 +1,222 @@
+{
+  "status": "PASS independent exact tile identity proving all r, plus complete-field controls",
+  "tile": [
+    {
+      "cell": [
+        -2,
+        0
+      ],
+      "history": "L",
+      "invariant": -6
+    },
+    {
+      "cell": [
+        -2,
+        1
+      ],
+      "history": "LR",
+      "invariant": -5
+    },
+    {
+      "cell": [
+        -2,
+        2
+      ],
+      "history": "R",
+      "invariant": -4
+    },
+    {
+      "cell": [
+        -1,
+        0
+      ],
+      "history": "RLR",
+      "invariant": -3
+    },
+    {
+      "cell": [
+        -1,
+        1
+      ],
+      "history": "LRL",
+      "invariant": -2
+    },
+    {
+      "cell": [
+        -1,
+        2
+      ],
+      "history": "L",
+      "invariant": -1
+    },
+    {
+      "cell": [
+        0,
+        0
+      ],
+      "history": "LRL",
+      "invariant": 0
+    },
+    {
+      "cell": [
+        0,
+        1
+      ],
+      "history": "RL",
+      "invariant": 1
+    },
+    {
+      "cell": [
+        0,
+        2
+      ],
+      "history": "L",
+      "invariant": 2
+    },
+    {
+      "cell": [
+        0,
+        3
+      ],
+      "history": "R",
+      "invariant": 3
+    },
+    {
+      "cell": [
+        1,
+        1
+      ],
+      "history": "R",
+      "invariant": 4
+    },
+    {
+      "cell": [
+        1,
+        2
+      ],
+      "history": "R",
+      "invariant": 5
+    }
+  ],
+  "controls": [
+    {
+      "r": 1,
+      "reads": 21,
+      "input": 6,
+      "output": 7,
+      "visited": 13,
+      "xor": 11,
+      "closed_pose_extension": {
+        "reads": 24,
+        "output": 10,
+        "xor": 14
+      }
+    },
+    {
+      "r": 2,
+      "reads": 41,
+      "input": 12,
+      "output": 13,
+      "visited": 25,
+      "xor": 21,
+      "closed_pose_extension": {
+        "reads": 44,
+        "output": 16,
+        "xor": 24
+      }
+    },
+    {
+      "r": 3,
+      "reads": 61,
+      "input": 18,
+      "output": 19,
+      "visited": 37,
+      "xor": 31,
+      "closed_pose_extension": {
+        "reads": 64,
+        "output": 22,
+        "xor": 34
+      }
+    },
+    {
+      "r": 4,
+      "reads": 81,
+      "input": 24,
+      "output": 25,
+      "visited": 49,
+      "xor": 41,
+      "closed_pose_extension": {
+        "reads": 84,
+        "output": 28,
+        "xor": 44
+      }
+    },
+    {
+      "r": 7,
+      "reads": 141,
+      "input": 42,
+      "output": 43,
+      "visited": 85,
+      "xor": 71,
+      "closed_pose_extension": {
+        "reads": 144,
+        "output": 46,
+        "xor": 74
+      }
+    },
+    {
+      "r": 16,
+      "reads": 321,
+      "input": 96,
+      "output": 97,
+      "visited": 193,
+      "xor": 161,
+      "closed_pose_extension": {
+        "reads": 324,
+        "output": 100,
+        "xor": 164
+      }
+    },
+    {
+      "r": 31,
+      "reads": 621,
+      "input": 186,
+      "output": 187,
+      "visited": 373,
+      "xor": 311,
+      "closed_pose_extension": {
+        "reads": 624,
+        "output": 190,
+        "xor": 314
+      }
+    },
+    {
+      "r": 64,
+      "reads": 1281,
+      "input": 384,
+      "output": 385,
+      "visited": 769,
+      "xor": 641,
+      "closed_pose_extension": {
+        "reads": 1284,
+        "output": 388,
+        "xor": 644
+      }
+    },
+    {
+      "r": 257,
+      "reads": 5141,
+      "input": 1542,
+      "output": 1543,
+      "visited": 3085,
+      "xor": 2571,
+      "closed_pose_extension": {
+        "reads": 5144,
+        "output": 1546,
+        "xor": 2574
+      }
+    }
+  ],
+  "note_sha256": "be88dca2014621838a45f7180f78ee8beb6031a2973d8f5d30e8c9b2831aefa6",
+  "scope": "All W_r=U^r R V^r internally legal, exact minimum6r input. Not nested root prefixes or a finite-fuel construction."
+}

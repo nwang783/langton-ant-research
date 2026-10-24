@@ -1,0 +1,32 @@
+{
+  "status": "PASS dependent exact-two-flat exclusion; at least three flats under stated scope",
+  "proof": "2fbb42868e0d85e554c1e6abfd104e8164f07582953caa97af3f0b3432071150",
+  "script": "6ebd62b34fc479f05640998d4a235ec6f7ca8882f1c30ff35470b1451ad0eaef",
+  "dependencies": {
+    "high_macro_junctions_force_a_triangular_run_normal_form.md": "20cb0cb139bce6d779945d02379780364f0e5bfa325b57a7492093ed1166c533",
+    "high_macro_run_zero_separator_clarification.md": "e2010748903b3ee900f6489d317f50a8d7908f4f07dca26aa6f97d197eb2c88b",
+    "adjacent_two_flat_pair_gates_leave_only_RR_open.md": "94b498abfda220c2ff3e08d634d12ea5057c314166ed546213ff738015ba2d15",
+    "global_max_mixed_flow2_roots_have_only_flat_local_islands.md": "c9574fb8a1a2d8d592cbd06d601a49ef241eec6d18c6c50cfa3497ee83e8259d",
+    "mixed_LL_zero_chord_bridges_and_critical_last_LEFT_gate.md": "dba869f472061078537c45b980381287271cea9aeb6fcde55b56d9555b2d5a07",
+    "local_sink_Y_source_uncapped_reader_requires_higher_C.md": "17e8d2fd81c4bcebe8d167717e4b44d55a684d96e6a528ba2eee5b9e405c0be5",
+    "critical_flat_ages_have_an_exact_pointwise_temporal_cover.md": "5671be0280f61b97c2936a95b1e960fb59a8237f8731aefb380e746d010bd042",
+    "RRLL_flow2_departure_circles_force_disconnected_actual_events.md": "9276befb71360ea9507f0a1532de8505ddd611c1435cd1c3aa7e4ba57494b996",
+    "global_max_flow2_staircase_segments_have_one_core_and_cannot_close.md": "e597889e756ec21b6f4c6db01de2ea8e56d2e85fdb6851439673db39c7eb1b21"
+  },
+  "independent_bindings": {
+    "check_high_macro_junctions_independent.json": "cbb8b590f1c654980db514407ff93cd7e7076aba315074b2f7ae71d84fd7b041",
+    "high_macro_zero_separator_binding.json": "4c759c601ba2f67ad6a3996882d242f7f42d8f4aa86d51a510dc4c63f8952f9b",
+    "check_two_flat_pair_gate_independent.json": "ea0bd913e9917f6b2adba24c17e4e21fe38e2f6604a8c2a0225c7f56e62a976f",
+    "check_uncapped_sink_Y_reader_independent.json": "dadd4a43318a2797caad12aed81a98c5a02c474f5e51c00a9f948331f527178e",
+    "check_flat_temporal_cover_independent.json": "6b19ab6fd48ab897097258ac4cc0aeda6f9638f8499bbb206cbb2af6e9436809"
+  },
+  "analytic_review": [
+    "Keep every hypothesis: complete WHITE cap4, actual fullP/d, embedded essential first-R b-circle at critical GLOBALM, and no one-use edge. This is not a statement about arbitrary fronts or prepared local patches.",
+    "Y exists directly from the signed integrated temporal identity: sumYage-sumXage=ell+L_RIGHT+sumflow3Delta>0. Alternatively a flow2 root has precedingY; with no such roots the negative selected-lane clock itself forcesY. No modulo-age replacement.",
+    "If a Y has no neighboring flat in cyclic nearest-RIGHT order, both neighbors are high sink/source. RR adjacency would force its partnerflat by general RR closure. Between a flat and high, O/U is excluded by the signed flat predecessor/localisland results; mixed LL cover permits only flat-flat or high-high endpoints, so VV is excluded too. ThreeLEFT closes a square. Therefore both gaps are exactly one passiveV, giving the exact forbidden high-sink,V,Y,V,high-source local reader gate.",
+    "With exactlytwo flat classes and any high macro, nonisolationY makes the two flats consecutive in nearest-RIGHT order. Their other arc contains all high macros, so their immediate outside RIGHTs are high. The preceding argument gives singleV outercaps. The signed208-primary local pair cover then excludes one/twoLEFT between the flats, leavingRR. Quotient-related physical cells still satisfy the local overapproximation; no physical providers are identified by class alone.",
+    "The complementary highrun has k=q+epsilon macros, with epsilon0/1 initialRLR3, q arbitraryRR3/RR4, two endpointV and2(k-1) internalV contacts. It hasR=2q+2epsilon,L=2q+3epsilon. Adding the two flatRIGHTs gives turning2-epsilon, neverzero. The essential embedded b-circle has turningzero, contradiction for every unbounded q.",
+    "Without high macros, exactlytwo RIGHTflatclasses and zero turning give exactlytwoLEFTclasses, allflow2. The only cyclic turntypesRRLL/RLRL are covered by the retained event-separator and global-M staircase obstructions, including short full quotients.",
+    "ConclusionatleastTHREEflatRIGHTclasses only. No bound on largerflatclusters, rails, fullvoltages, ages, suppliedoldstock, exteriorcompletion or globalone-use/frontclassification follows."
+  ]
+}

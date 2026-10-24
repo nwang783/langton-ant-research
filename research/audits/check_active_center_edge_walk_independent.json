@@ -1,0 +1,228 @@
+{
+  "status": "PASS exact fine-step edge bijection and marked five-port core",
+  "manifest_sha256": "b7d41cc3ce9b68c68943b7d7af6fbf1a448b69e434d1b833e8f0d677093ab328",
+  "translated_local_checks": 72,
+  "atomic_traces": {
+    "D": {
+      "raw_length": 10,
+      "R_walk": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "exit": [
+        1,
+        1,
+        0
+      ]
+    },
+    "C": {
+      "raw_length": 15,
+      "R_walk": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "exit": [
+        0,
+        1,
+        3
+      ]
+    },
+    "V": {
+      "raw_length": 18,
+      "R_walk": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "exit": [
+        1,
+        3,
+        0
+      ]
+    },
+    "U": {
+      "raw_length": 28,
+      "R_walk": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "exit": [
+        0,
+        4,
+        0
+      ]
+    }
+  },
+  "scope": "No historical root embedding or fine-step simplicity. R adds and traverses; L deletes without moving corrected center. Even one D has an internal four-edge center loop."
+}

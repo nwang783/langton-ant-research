@@ -1,0 +1,52 @@
+{
+  "status": "complete bounded discovery search; independent review pending",
+  "k": 13,
+  "matrix": [
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      5
+    ]
+  ],
+  "controller": "eight independent (actual incoming heading, turn) image words; final heading preserved",
+  "horizon": 3000,
+  "domain_sizes": [
+    40,
+    40,
+    39,
+    39,
+    40,
+    40,
+    39,
+    39
+  ],
+  "raw_controller_count": 5922408960000,
+  "root_normalization": "incoming headings N/E, each R/L; global180-degree rotation covers S/W; first-state cycles fixed or two-cycle",
+  "completed_slices": [
+    [
+      0,
+      5
+    ],
+    [
+      5,
+      119
+    ],
+    [
+      119,
+      158
+    ]
+  ],
+  "slices_half_open": true,
+  "maximum_legal_prefix": 1346,
+  "survivors": 0,
+  "files": {
+    "search_eight_context_images.cpp": "34fc2f3cea3d3b0f4043bd343b3a8f105b3ed982fe7155cc81d63499d7f194ed",
+    "rectangular_axis_turn_k13_domains.txt": "fc6884b8c607fb5b4b59c331f38ec50ca142fe8c055182ae6ec29b84e95d68d8",
+    "rectangular_eight_context_k13.log": "27f6cf1fb227ce59ede8dd7a59f10f3e58519c12bb760db96a70d69ce472139e",
+    "rectangular_eight_context_k13_continue5.log": "e90a282e5c9570abb24e046120ffeea745de22eb8711f40071782c97fa11cd8e",
+    "rectangular_eight_context_k13_continue119.log": "af9f4a23dbca6ca19fd8a0f1922c79d204240c3795bea63bf30cffcf773c41d6"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "status": "PASS all-length exact fixed A10/B94 language classification only",
+  "proof": "bd5c47924b867fba4dc7480fd3ab341cb90c2b5a746a2534bba1fb4b0c2bcedc",
+  "certificate": "31769a5dc99def26d715f1195a2e5c4d2b5f776b1984f79bd416bbef571df51e",
+  "script": "1a4be0c573be1db51fe0d476d3551f72364044344dcfa9c406d8284c3476ff89",
+  "all_module_events": 104,
+  "complete_source_classes": 11,
+  "AA_full_factor_reads": 20,
+  "AA_seed": [
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      1,
+      -1
+    ]
+  ],
+  "AB_full_field_mass": 758,
+  "AB_infinite_parity_tests": 154,
+  "full_drift_controls": [
+    {
+      "module_count": 2,
+      "period": 104,
+      "full_drift": [
+        -2,
+        2
+      ],
+      "complete_read_classes": 22
+    },
+    {
+      "module_count": 4,
+      "period": 208,
+      "full_drift": [
+        -4,
+        4
+      ],
+      "complete_read_classes": 44
+    },
+    {
+      "module_count": 6,
+      "period": 312,
+      "full_drift": [
+        -6,
+        6
+      ],
+      "complete_read_classes": 66
+    },
+    {
+      "module_count": 10,
+      "period": 520,
+      "full_drift": [
+        -10,
+        10
+      ],
+      "complete_read_classes": 110
+    }
+  ],
+  "analytic_review": [
+    "Both literal modules preserve incoming W and displace by delta=(-1,1). Every local event is explicitly integrated. The delta bookkeeping representative is (0,x+y) and its relative module index is x; thus the finite source tables enumerate every possible read of each physical cell for ANY module sequence. This does not collapse the n residues of an actual full drift n*delta.",
+    "For AA at successive indices j-1,j, q_j=(0,-1)+j*delta is first read by A_j.L5. The only possible earlier table entry is B_(j-1).R7, absent because that module is A. All other B entries lie in module j or later. In a complete WHITE bi-infinite history this is impossible. In a one-sided actual tail, every internal AA pair instead consumes a distinct BLACK bit present at the whole tail-entry cut, since no earlier tail read can touch q_j and delta is nonzero. No newly written bit or restarted cohort is charged.",
+    "For BB, the same physical cell at(-2,-1) relative to the first module has consecutive R updates17 and109, with no intervening read in either module. Initial color, older archive and later modules cannot repair consecutive identical turns. This excludes BB on any board.",
+    "Consequently complete WHITE bi-infinite module histories alternate. Complete WHITE periodic histories are standard104 phases/powers. An actual infinite finite-field module tail has finitely many AA by the injective entry-bit charge and no BB, hence eventually alternates. The condition of entering and staying in this exact module alphabet is not supplied by this theorem.",
+    "The actual prepared AA three-cell seed and complete20-read output are retained; AA is not an arbitrary-board contradiction. The AB control retains its whole758-cell blank-origin state and exact infinite standard tail. Full-drift power controls verify physical classes without a period bound. No claim covers extra routers, orientation resets, different modules, arbitrary controllers, WHITE S=1, or universal capture."
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "status": "PASS exact twelve-edge physical old-stock route and disjoint next-main-gate waits",
+  "notes": {
+    "K1_early_LEFT_parent_L3_exact_cleanup.md": "484944913183bda20019b92bdeff6552bc5edabb5cd92571e8c20edfcd97af0f",
+    "K1_early_L3_cleanup_forces_next_gate.md": "e385bb1fc18780e71f14936d58bf77361cb93e569105fba75b286700f4c8e212"
+  },
+  "results": {
+    "False": {
+      "candidates": 486,
+      "rows": 54,
+      "profiles": []
+    },
+    "True": {
+      "candidates": 486,
+      "rows": 36,
+      "profiles": [
+        [
+          [
+            "R",
+            "NNN",
+            "EEWW",
+            "SSN"
+          ],
+          27
+        ],
+        [
+          [
+            "R",
+            "NNNS",
+            "EEE",
+            "SSN"
+          ],
+          23
+        ],
+        [
+          [
+            "R",
+            "NNNS",
+            "EEEW",
+            "SSNS"
+          ],
+          23
+        ],
+        [
+          [
+            "S",
+            "NNN",
+            "",
+            "EEW"
+          ],
+          18
+        ],
+        [
+          [
+            "S",
+            "NNN",
+            "",
+            "EEWW"
+          ],
+          18
+        ],
+        [
+          [
+            "S",
+            "NNNS",
+            "",
+            "EEWE"
+          ],
+          18
+        ]
+      ]
+    }
+  },
+  "route": [
+    [
+      "B",
+      2
+    ],
+    [
+      "v",
+      1
+    ],
+    [
+      "a",
+      1
+    ],
+    [
+      "Y",
+      2
+    ],
+    [
+      "u",
+      2
+    ],
+    [
+      "t",
+      1
+    ],
+    [
+      "f",
+      3
+    ],
+    [
+      "g",
+      3
+    ],
+    [
+      "u",
+      3
+    ],
+    [
+      "t",
+      2
+    ],
+    [
+      "a",
+      2
+    ],
+    [
+      "Y",
+      3
+    ],
+    [
+      "B",
+      3
+    ]
+  ],
+  "analytic": "Complete t-to-f and f-to-g ordinal matching forces f EEEW; its earlier R2 funds g L1. The 12-edge actual route omits next physical D. K1 puts D L1 after B R2, hence strictly after B L3. Full next profiles leave strict S or locked row4 and both retained falls. The exact next-main intervals, distinct from the branched predecessor intervals, contribute 13/18/22 over baseline5. No later B R2 minimal time is claimed.",
+  "scope": "Necessary old-stock interfaces and main-clock refinement only, not exterior realization, extra overlapping-span charge, original fuel or K1 exclusion."
+}

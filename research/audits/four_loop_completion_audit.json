@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "domain": "every integer L >= 128",
+  "capture_time": [
+    520,
+    43111
+  ],
+  "pose": [
+    [
+      [
+        -2,
+        -40
+      ],
+      [
+        2,
+        57
+      ]
+    ],
+    1
+  ],
+  "new_infinite_tail": {
+    "read_ray_constraints": 44,
+    "interval_terms": 782,
+    "drift": [
+      -2,
+      2
+    ]
+  },
+  "baseline_infinite_tail": {
+    "distinct_required_cells": 44,
+    "odd_read_cells": 36,
+    "drift": [
+      -2,
+      2
+    ],
+    "heading": 1
+  },
+  "remote_marker_rejected": [
+    "new infinite-ray checker",
+    "baseline rectangle-tail checker"
+  ],
+  "scope": "Exact symbolic checker audit; no full-conjecture claim."
+}

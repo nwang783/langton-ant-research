@@ -1,0 +1,18 @@
+{
+  "status": "FROZEN; independent audit requested",
+  "files": {
+    "FIXED_COHORT_AXIAL_BAND_READ_BUDGET.md": "fff36a723a83a6556a08b5abddd9e855376c50ee6bd4e4d14b3cd6794d341492",
+    "check_fixed_cohort_band_reads.py": "26276eb0333717ece45d90c59e8a8fdf3a944e892e68fd8220bf63e6b1c5c25a",
+    "FIXED_COHORT_BAND_READS_CHECKED.json": "1ba2a32a0cb7c3d6b7c7c1d4ee57b05365d87a1fbefcb0562320ef406e9916a9",
+    "TWO_BLACK_CANONICAL_COMPLETION.md": "d943bbcc5100a27ed218340a4a1b79074d3f285115bcd07552d7da54e39b543f",
+    "CANONICAL_TWO_INPUT_FIXED_COHORT_BRIDGE.md": "36ffecb39a343ec6b681a585e997b356902718333accc0647be2d4195feead80",
+    "PRISTINE_ONE_INPUT_RECORD_BUDGET.md": "10f8313a9a7fca736c14c6fd94ef06a3f72d2775a59cc9ade8a310dc08f71464",
+    "FIXED_BAND_WIDE_OUTPUT_CHECKED.json": "88c62910969fa2ce86c41f4ec2c3b872f668916a35d0be93579cda66f124067d"
+  },
+  "signed_dependencies": {
+    "../audits/two_black_canonical_completion_independent.json": "892862a6fe5569a739671cb0e56c1f2432738ebff48a2bdad29cbc93ca765a62",
+    "../audits/generic_P104_fixed_cohort_independent.json": "ca1747663654fb773d268e29aca98715ae02e89ca58caf4d6eb71838ff8d8bd4",
+    "../audits/check_one_black_budget_independent.json": "5a694b5ec4f5eb51b28965bd0adc345fb09c5fa9fca37431c0e2519fe72df31b"
+  },
+  "claim": "At any full cut, at most270504+312w actual reads in any fixed w-row or w-column band before third consumption of the ORIGINAL current black cohort. No pristine/guard/active cap premise; no diagonal-band or reset claim."
+}

@@ -1,0 +1,345 @@
+{
+  "status": "AUTHOR_ACTUAL_THREE_C_BUD_MATURATION_SHARP_CONTROL_PASS",
+  "scope": "Actual fourteen-cell finite complete-eight factor, not minimality or renewal. Final V consumes first and SECOND D exit buds at exactly3 postexitCs. Shows atomic maturation3 cannot be raised universally; no global fuel/capture claim.",
+  "word": [
+    0,
+    0,
+    0,
+    1,
+    5,
+    5,
+    0,
+    4
+  ],
+  "initial_actual_board": [
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      4
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "initial_mass": 14,
+  "final_mass": 35,
+  "raw_length": 149,
+  "C_before_final_V": 3,
+  "produced_HB_count_queries": 2,
+  "rows": [
+    {
+      "packet": 0,
+      "head": [
+        0,
+        0,
+        0
+      ],
+      "C": 0,
+      "inputs": [
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "age": null,
+          "origin": {
+            "initial": true
+          }
+        }
+      ],
+      "raw_exit": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "packet": 0,
+      "head": [
+        1,
+        1,
+        0
+      ],
+      "C": 0,
+      "inputs": [
+        {
+          "cell": [
+            1,
+            2
+          ],
+          "age": null,
+          "origin": {
+            "initial": true
+          }
+        }
+      ],
+      "raw_exit": [
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "packet": 0,
+      "head": [
+        2,
+        2,
+        0
+      ],
+      "C": 0,
+      "inputs": [
+        {
+          "cell": [
+            2,
+            3
+          ],
+          "age": null,
+          "origin": {
+            "initial": true
+          }
+        }
+      ],
+      "raw_exit": [
+        3,
+        3,
+        0
+      ]
+    },
+    {
+      "packet": 1,
+      "head": [
+        3,
+        3,
+        0
+      ],
+      "C": 0,
+      "inputs": [
+        {
+          "cell": [
+            3,
+            4
+          ],
+          "age": null,
+          "origin": {
+            "initial": true
+          }
+        }
+      ],
+      "raw_exit": [
+        4,
+        5,
+        3
+      ]
+    },
+    {
+      "packet": 5,
+      "head": [
+        4,
+        5,
+        3
+      ],
+      "C": 1,
+      "inputs": [
+        {
+          "cell": [
+            1,
+            5
+          ],
+          "age": null,
+          "origin": {
+            "initial": true
+          }
+        },
+        {
+          "cell": [
+            2,
+            6
+          ],
+          "age": null,
+          "origin": {
+            "initial": true
+          }
+        }
+      ],
+      "raw_exit": [
+        0,
+        6,
+        2
+      ]
+    },
+    {
+      "packet": 5,
+      "head": [
+        0,
+        6,
+        2
+      ],
+      "C": 2,
+      "inputs": [
+        {
+          "cell": [
+            -1,
+            4
+          ],
+          "age": null,
+          "origin": {
+            "initial": true
+          }
+        },
+        {
+          "cell": [
+            0,
+            3
+          ],
+          "age": null,
+          "origin": {
+            "initial": true
+          }
+        }
+      ],
+      "raw_exit": [
+        -1,
+        2,
+        1
+      ]
+    },
+    {
+      "packet": 0,
+      "head": [
+        -1,
+        2,
+        1
+      ],
+      "C": 3,
+      "inputs": [
+        {
+          "cell": [
+            0,
+            2
+          ],
+          "age": null,
+          "origin": {
+            "initial": true
+          }
+        }
+      ],
+      "raw_exit": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "packet": 4,
+      "head": [
+        0,
+        1,
+        1
+      ],
+      "C": 3,
+      "inputs": [
+        {
+          "cell": [
+            2,
+            0
+          ],
+          "age": 3,
+          "origin": {
+            "packet": 0,
+            "step": 0,
+            "head": [
+              0,
+              0
+            ],
+            "heading": 0,
+            "slot": [
+              2,
+              0
+            ],
+            "C": 0
+          }
+        },
+        {
+          "cell": [
+            3,
+            1
+          ],
+          "age": 3,
+          "origin": {
+            "packet": 0,
+            "step": 1,
+            "head": [
+              1,
+              1
+            ],
+            "heading": 0,
+            "slot": [
+              2,
+              0
+            ],
+            "C": 0
+          }
+        }
+      ],
+      "raw_exit": [
+        3,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": {
+    "chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "chronology_dcuv/protected_patch2.tsv": "edd8d83e17ddaa220c17960315c235ca90fa2fde9045007efabf824d580f74fd",
+    "chronology_dcuv/critical_ucc_count5/frozen_20261023_0813/01_closure.tsv": "f68f23f8189dc750489ed3aabd48741fde629d1263503ac9cff94fb703163f58",
+    "check_atomic_bud_three_C_sharp_control.py": "251f28bb2b6f33cb4533cabf4027f5963d7ae195c422f8af14acbaba05cc5de0"
+  }
+}

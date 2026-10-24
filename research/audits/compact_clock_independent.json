@@ -1,0 +1,40 @@
+{
+  "status": "PASS independent compact positive models and literal replay",
+  "controls": [
+    {
+      "period": 104,
+      "drift": [
+        -2,
+        -2
+      ],
+      "SMT_assertions_checked": 5064,
+      "events": 104,
+      "seed_mass": 18,
+      "literal_steps": 20800
+    },
+    {
+      "period": 208,
+      "drift": [
+        -4,
+        -4
+      ],
+      "SMT_assertions_checked": 10124,
+      "events": 208,
+      "seed_mass": 18,
+      "literal_steps": 41600
+    },
+    {
+      "period": 312,
+      "drift": [
+        -6,
+        -6
+      ],
+      "SMT_assertions_checked": 15184,
+      "events": 312,
+      "seed_mass": 18,
+      "literal_steps": 62400
+    }
+  ],
+  "scope": "Positive implementation controls plus analytic encoding review. No independently checked finite-strip UNSAT proof or unrestricted exclusion.",
+  "source_sha256": "6aae80f665088cfd6006b54c74c6dc99e7e79d8f762f44220a4784cd5c3031e8"
+}

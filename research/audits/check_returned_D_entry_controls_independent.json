@@ -1,0 +1,1294 @@
+{
+  "status": "PASS literal controls, exact geometry and finite predecessor closure; phase indexing qualification required",
+  "manifest_sha256": "8a7b1a1c567d0e8aff449c02eed63356c095f89809601652def459b1540b6e4c",
+  "six_controls": [
+    {
+      "word": "DCDVFVC",
+      "seed_mass": 24,
+      "RAW_length": 142,
+      "RAW_mass": 40,
+      "after_marker_mass": 39,
+      "tag_reads": [
+        [
+          8,
+          "R"
+        ],
+        [
+          128,
+          "L"
+        ]
+      ],
+      "old_proxy_pieces": 5,
+      "returned_contact": {
+        "old_atom": "D",
+        "both_parameters": "1/2",
+        "doubled_point": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "word": "DDCDUFVC",
+      "seed_mass": 28,
+      "RAW_length": 162,
+      "RAW_mass": 44,
+      "after_marker_mass": 43,
+      "tag_reads": [
+        [
+          8,
+          "R"
+        ],
+        [
+          148,
+          "L"
+        ]
+      ],
+      "old_proxy_pieces": 6,
+      "returned_contact": {
+        "old_atom": "D",
+        "both_parameters": "1/2",
+        "doubled_point": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "word": "DCDDUQVC",
+      "seed_mass": 29,
+      "RAW_length": 170,
+      "RAW_mass": 49,
+      "after_marker_mass": 48,
+      "tag_reads": [
+        [
+          8,
+          "R"
+        ],
+        [
+          156,
+          "L"
+        ]
+      ],
+      "old_proxy_pieces": 7,
+      "returned_contact": {
+        "old_atom": "D",
+        "both_parameters": "1/2",
+        "doubled_point": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "word": "DCVVQVC",
+      "seed_mass": 26,
+      "RAW_length": 158,
+      "RAW_mass": 50,
+      "after_marker_mass": 49,
+      "tag_reads": [
+        [
+          8,
+          "R"
+        ],
+        [
+          144,
+          "L"
+        ]
+      ],
+      "old_proxy_pieces": 6,
+      "returned_contact": {
+        "old_atom": "D",
+        "both_parameters": "1/2",
+        "doubled_point": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "word": "DDCVUQVC",
+      "seed_mass": 30,
+      "RAW_length": 178,
+      "RAW_mass": 54,
+      "after_marker_mass": 53,
+      "tag_reads": [
+        [
+          8,
+          "R"
+        ],
+        [
+          164,
+          "L"
+        ]
+      ],
+      "old_proxy_pieces": 7,
+      "returned_contact": {
+        "old_atom": "D",
+        "both_parameters": "1/2",
+        "doubled_point": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "word": "DCVUBVC",
+      "seed_mass": 32,
+      "RAW_length": 178,
+      "RAW_mass": 56,
+      "after_marker_mass": 55,
+      "tag_reads": [
+        [
+          8,
+          "R"
+        ],
+        [
+          164,
+          "L"
+        ]
+      ],
+      "old_proxy_pieces": 6,
+      "returned_contact": {
+        "old_atom": "D",
+        "both_parameters": "1/2",
+        "doubled_point": [
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "all96_minimal_prefix_predecessor_queries": [
+    {
+      "control": "DCDVFV",
+      "extra_D": 0,
+      "preceding_packet": "D",
+      "legal": true,
+      "mass": 24
+    },
+    {
+      "control": "DCDVFV",
+      "extra_D": 0,
+      "preceding_packet": "DC",
+      "legal": false,
+      "conflict_tick": 120,
+      "cell": [
+        0,
+        0
+      ],
+      "first_tick": 0
+    },
+    {
+      "control": "DCDVFV",
+      "extra_D": 0,
+      "preceding_packet": "V",
+      "legal": false,
+      "conflict_tick": 135,
+      "cell": [
+        0,
+        1
+      ],
+      "first_tick": 11
+    },
+    {
+      "control": "DCDVFV",
+      "extra_D": 0,
+      "preceding_packet": "VC",
+      "legal": false,
+      "conflict_tick": 102,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick": 2
+    },
+    {
+      "control": "DCDVFV",
+      "extra_D": 0,
+      "preceding_packet": "VCC",
+      "legal": false,
+      "conflict_tick": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick": 19
+    },
+    {
+      "control": "DCDVFV",
+      "extra_D": 0,
+      "preceding_packet": "U",
+      "legal": false,
+      "conflict_tick": 145,
+      "cell": [
+        -1,
+        2
+      ],
+      "first_tick": 13
+    },
+    {
+      "control": "DCDVFV",
+      "extra_D": 0,
+      "preceding_packet": "UC",
+      "legal": false,
+      "conflict_tick": 113,
+      "cell": [
+        -1,
+        0
+      ],
+      "first_tick": 1
+    },
+    {
+      "control": "DCDVFV",
+      "extra_D": 0,
+      "preceding_packet": "UCC",
+      "legal": false,
+      "conflict_tick": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick": 29
+    },
+    {
+      "control": "DCDVFV",
+      "extra_D": 1,
+      "preceding_packet": "D",
+      "legal": false,
+      "conflict_tick": 136,
+      "cell": [
+        2,
+        0
+      ],
+      "first_tick": 8
+    },
+    {
+      "control": "DCDVFV",
+      "extra_D": 1,
+      "preceding_packet": "DC",
+      "legal": false,
+      "conflict_tick": 106,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick": 2
+    },
+    {
+      "control": "DCDVFV",
+      "extra_D": 1,
+      "preceding_packet": "V",
+      "legal": false,
+      "conflict_tick": 144,
+      "cell": [
+        2,
+        2
+      ],
+      "first_tick": 16
+    },
+    {
+      "control": "DCDVFV",
+      "extra_D": 1,
+      "preceding_packet": "VC",
+      "legal": false,
+      "conflict_tick": 113,
+      "cell": [
+        -1,
+        0
+      ],
+      "first_tick": 1
+    },
+    {
+      "control": "DCDVFV",
+      "extra_D": 1,
+      "preceding_packet": "VCC",
+      "legal": false,
+      "conflict_tick": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick": 19
+    },
+    {
+      "control": "DCDVFV",
+      "extra_D": 1,
+      "preceding_packet": "U",
+      "legal": false,
+      "conflict_tick": 154,
+      "cell": [
+        1,
+        3
+      ],
+      "first_tick": 26
+    },
+    {
+      "control": "DCDVFV",
+      "extra_D": 1,
+      "preceding_packet": "UC",
+      "legal": false,
+      "conflict_tick": 141,
+      "cell": [
+        -1,
+        0
+      ],
+      "first_tick": 1
+    },
+    {
+      "control": "DCDVFV",
+      "extra_D": 1,
+      "preceding_packet": "UCC",
+      "legal": false,
+      "conflict_tick": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick": 29
+    },
+    {
+      "control": "DDCDUFV",
+      "extra_D": 0,
+      "preceding_packet": "D",
+      "legal": true,
+      "mass": 28
+    },
+    {
+      "control": "DDCDUFV",
+      "extra_D": 0,
+      "preceding_packet": "DC",
+      "legal": false,
+      "conflict_tick": 140,
+      "cell": [
+        0,
+        0
+      ],
+      "first_tick": 0
+    },
+    {
+      "control": "DDCDUFV",
+      "extra_D": 0,
+      "preceding_packet": "V",
+      "legal": false,
+      "conflict_tick": 155,
+      "cell": [
+        0,
+        1
+      ],
+      "first_tick": 11
+    },
+    {
+      "control": "DDCDUFV",
+      "extra_D": 0,
+      "preceding_packet": "VC",
+      "legal": false,
+      "conflict_tick": 122,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick": 2
+    },
+    {
+      "control": "DDCDUFV",
+      "extra_D": 0,
+      "preceding_packet": "VCC",
+      "legal": false,
+      "conflict_tick": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick": 19
+    },
+    {
+      "control": "DDCDUFV",
+      "extra_D": 0,
+      "preceding_packet": "U",
+      "legal": false,
+      "conflict_tick": 165,
+      "cell": [
+        -1,
+        2
+      ],
+      "first_tick": 13
+    },
+    {
+      "control": "DDCDUFV",
+      "extra_D": 0,
+      "preceding_packet": "UC",
+      "legal": false,
+      "conflict_tick": 133,
+      "cell": [
+        -1,
+        0
+      ],
+      "first_tick": 1
+    },
+    {
+      "control": "DDCDUFV",
+      "extra_D": 0,
+      "preceding_packet": "UCC",
+      "legal": false,
+      "conflict_tick": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick": 29
+    },
+    {
+      "control": "DDCDUFV",
+      "extra_D": 1,
+      "preceding_packet": "D",
+      "legal": false,
+      "conflict_tick": 156,
+      "cell": [
+        2,
+        0
+      ],
+      "first_tick": 8
+    },
+    {
+      "control": "DDCDUFV",
+      "extra_D": 1,
+      "preceding_packet": "DC",
+      "legal": false,
+      "conflict_tick": 126,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick": 2
+    },
+    {
+      "control": "DDCDUFV",
+      "extra_D": 1,
+      "preceding_packet": "V",
+      "legal": false,
+      "conflict_tick": 164,
+      "cell": [
+        2,
+        2
+      ],
+      "first_tick": 16
+    },
+    {
+      "control": "DDCDUFV",
+      "extra_D": 1,
+      "preceding_packet": "VC",
+      "legal": false,
+      "conflict_tick": 133,
+      "cell": [
+        -1,
+        0
+      ],
+      "first_tick": 1
+    },
+    {
+      "control": "DDCDUFV",
+      "extra_D": 1,
+      "preceding_packet": "VCC",
+      "legal": false,
+      "conflict_tick": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick": 19
+    },
+    {
+      "control": "DDCDUFV",
+      "extra_D": 1,
+      "preceding_packet": "U",
+      "legal": false,
+      "conflict_tick": 174,
+      "cell": [
+        1,
+        3
+      ],
+      "first_tick": 26
+    },
+    {
+      "control": "DDCDUFV",
+      "extra_D": 1,
+      "preceding_packet": "UC",
+      "legal": false,
+      "conflict_tick": 161,
+      "cell": [
+        -1,
+        0
+      ],
+      "first_tick": 1
+    },
+    {
+      "control": "DDCDUFV",
+      "extra_D": 1,
+      "preceding_packet": "UCC",
+      "legal": false,
+      "conflict_tick": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick": 29
+    },
+    {
+      "control": "DCDDUQV",
+      "extra_D": 0,
+      "preceding_packet": "D",
+      "legal": true,
+      "mass": 29
+    },
+    {
+      "control": "DCDDUQV",
+      "extra_D": 0,
+      "preceding_packet": "DC",
+      "legal": false,
+      "conflict_tick": 157,
+      "cell": [
+        1,
+        0
+      ],
+      "first_tick": 5
+    },
+    {
+      "control": "DCDDUQV",
+      "extra_D": 0,
+      "preceding_packet": "V",
+      "legal": false,
+      "conflict_tick": 163,
+      "cell": [
+        0,
+        1
+      ],
+      "first_tick": 11
+    },
+    {
+      "control": "DCDDUQV",
+      "extra_D": 0,
+      "preceding_packet": "VC",
+      "legal": false,
+      "conflict_tick": 149,
+      "cell": [
+        -1,
+        0
+      ],
+      "first_tick": 1
+    },
+    {
+      "control": "DCDDUQV",
+      "extra_D": 0,
+      "preceding_packet": "VCC",
+      "legal": false,
+      "conflict_tick": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick": 19
+    },
+    {
+      "control": "DCDDUQV",
+      "extra_D": 0,
+      "preceding_packet": "U",
+      "legal": false,
+      "conflict_tick": 173,
+      "cell": [
+        -1,
+        2
+      ],
+      "first_tick": 13
+    },
+    {
+      "control": "DCDDUQV",
+      "extra_D": 0,
+      "preceding_packet": "UC",
+      "legal": false,
+      "conflict_tick": 134,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick": 2
+    },
+    {
+      "control": "DCDDUQV",
+      "extra_D": 0,
+      "preceding_packet": "UCC",
+      "legal": false,
+      "conflict_tick": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick": 29
+    },
+    {
+      "control": "DCDDUQV",
+      "extra_D": 1,
+      "preceding_packet": "D",
+      "legal": false,
+      "conflict_tick": 164,
+      "cell": [
+        2,
+        0
+      ],
+      "first_tick": 8
+    },
+    {
+      "control": "DCDDUQV",
+      "extra_D": 1,
+      "preceding_packet": "DC",
+      "legal": false,
+      "conflict_tick": 150,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick": 2
+    },
+    {
+      "control": "DCDDUQV",
+      "extra_D": 1,
+      "preceding_packet": "V",
+      "legal": false,
+      "conflict_tick": 172,
+      "cell": [
+        2,
+        2
+      ],
+      "first_tick": 16
+    },
+    {
+      "control": "DCDDUQV",
+      "extra_D": 1,
+      "preceding_packet": "VC",
+      "legal": false,
+      "conflict_tick": 134,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick": 2
+    },
+    {
+      "control": "DCDDUQV",
+      "extra_D": 1,
+      "preceding_packet": "VCC",
+      "legal": false,
+      "conflict_tick": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick": 19
+    },
+    {
+      "control": "DCDDUQV",
+      "extra_D": 1,
+      "preceding_packet": "U",
+      "legal": false,
+      "conflict_tick": 182,
+      "cell": [
+        1,
+        3
+      ],
+      "first_tick": 26
+    },
+    {
+      "control": "DCDDUQV",
+      "extra_D": 1,
+      "preceding_packet": "UC",
+      "legal": false,
+      "conflict_tick": 163,
+      "cell": [
+        0,
+        -1
+      ],
+      "first_tick": 3
+    },
+    {
+      "control": "DCDDUQV",
+      "extra_D": 1,
+      "preceding_packet": "UCC",
+      "legal": false,
+      "conflict_tick": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick": 29
+    },
+    {
+      "control": "DCVVQV",
+      "extra_D": 0,
+      "preceding_packet": "D",
+      "legal": true,
+      "mass": 26
+    },
+    {
+      "control": "DCVVQV",
+      "extra_D": 0,
+      "preceding_packet": "DC",
+      "legal": false,
+      "conflict_tick": 69,
+      "cell": [
+        -1,
+        0
+      ],
+      "first_tick": 1
+    },
+    {
+      "control": "DCVVQV",
+      "extra_D": 0,
+      "preceding_packet": "V",
+      "legal": false,
+      "conflict_tick": 151,
+      "cell": [
+        0,
+        1
+      ],
+      "first_tick": 11
+    },
+    {
+      "control": "DCVVQV",
+      "extra_D": 0,
+      "preceding_packet": "VC",
+      "legal": false,
+      "conflict_tick": 137,
+      "cell": [
+        -1,
+        0
+      ],
+      "first_tick": 1
+    },
+    {
+      "control": "DCVVQV",
+      "extra_D": 0,
+      "preceding_packet": "VCC",
+      "legal": false,
+      "conflict_tick": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick": 19
+    },
+    {
+      "control": "DCVVQV",
+      "extra_D": 0,
+      "preceding_packet": "U",
+      "legal": false,
+      "conflict_tick": 161,
+      "cell": [
+        -1,
+        2
+      ],
+      "first_tick": 13
+    },
+    {
+      "control": "DCVVQV",
+      "extra_D": 0,
+      "preceding_packet": "UC",
+      "legal": false,
+      "conflict_tick": 122,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick": 2
+    },
+    {
+      "control": "DCVVQV",
+      "extra_D": 0,
+      "preceding_packet": "UCC",
+      "legal": false,
+      "conflict_tick": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick": 29
+    },
+    {
+      "control": "DCVVQV",
+      "extra_D": 1,
+      "preceding_packet": "D",
+      "legal": false,
+      "conflict_tick": 152,
+      "cell": [
+        2,
+        0
+      ],
+      "first_tick": 8
+    },
+    {
+      "control": "DCVVQV",
+      "extra_D": 1,
+      "preceding_packet": "DC",
+      "legal": false,
+      "conflict_tick": 138,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick": 2
+    },
+    {
+      "control": "DCVVQV",
+      "extra_D": 1,
+      "preceding_packet": "V",
+      "legal": false,
+      "conflict_tick": 160,
+      "cell": [
+        2,
+        2
+      ],
+      "first_tick": 16
+    },
+    {
+      "control": "DCVVQV",
+      "extra_D": 1,
+      "preceding_packet": "VC",
+      "legal": false,
+      "conflict_tick": 122,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick": 2
+    },
+    {
+      "control": "DCVVQV",
+      "extra_D": 1,
+      "preceding_packet": "VCC",
+      "legal": false,
+      "conflict_tick": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick": 19
+    },
+    {
+      "control": "DCVVQV",
+      "extra_D": 1,
+      "preceding_packet": "U",
+      "legal": false,
+      "conflict_tick": 170,
+      "cell": [
+        1,
+        3
+      ],
+      "first_tick": 26
+    },
+    {
+      "control": "DCVVQV",
+      "extra_D": 1,
+      "preceding_packet": "UC",
+      "legal": false,
+      "conflict_tick": 151,
+      "cell": [
+        0,
+        -1
+      ],
+      "first_tick": 3
+    },
+    {
+      "control": "DCVVQV",
+      "extra_D": 1,
+      "preceding_packet": "UCC",
+      "legal": false,
+      "conflict_tick": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick": 29
+    },
+    {
+      "control": "DDCVUQV",
+      "extra_D": 0,
+      "preceding_packet": "D",
+      "legal": true,
+      "mass": 30
+    },
+    {
+      "control": "DDCVUQV",
+      "extra_D": 0,
+      "preceding_packet": "DC",
+      "legal": false,
+      "conflict_tick": 165,
+      "cell": [
+        1,
+        0
+      ],
+      "first_tick": 5
+    },
+    {
+      "control": "DDCVUQV",
+      "extra_D": 0,
+      "preceding_packet": "V",
+      "legal": false,
+      "conflict_tick": 171,
+      "cell": [
+        0,
+        1
+      ],
+      "first_tick": 11
+    },
+    {
+      "control": "DDCVUQV",
+      "extra_D": 0,
+      "preceding_packet": "VC",
+      "legal": false,
+      "conflict_tick": 157,
+      "cell": [
+        -1,
+        0
+      ],
+      "first_tick": 1
+    },
+    {
+      "control": "DDCVUQV",
+      "extra_D": 0,
+      "preceding_packet": "VCC",
+      "legal": false,
+      "conflict_tick": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick": 19
+    },
+    {
+      "control": "DDCVUQV",
+      "extra_D": 0,
+      "preceding_packet": "U",
+      "legal": false,
+      "conflict_tick": 181,
+      "cell": [
+        -1,
+        2
+      ],
+      "first_tick": 13
+    },
+    {
+      "control": "DDCVUQV",
+      "extra_D": 0,
+      "preceding_packet": "UC",
+      "legal": false,
+      "conflict_tick": 142,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick": 2
+    },
+    {
+      "control": "DDCVUQV",
+      "extra_D": 0,
+      "preceding_packet": "UCC",
+      "legal": false,
+      "conflict_tick": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick": 29
+    },
+    {
+      "control": "DDCVUQV",
+      "extra_D": 1,
+      "preceding_packet": "D",
+      "legal": false,
+      "conflict_tick": 172,
+      "cell": [
+        2,
+        0
+      ],
+      "first_tick": 8
+    },
+    {
+      "control": "DDCVUQV",
+      "extra_D": 1,
+      "preceding_packet": "DC",
+      "legal": false,
+      "conflict_tick": 158,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick": 2
+    },
+    {
+      "control": "DDCVUQV",
+      "extra_D": 1,
+      "preceding_packet": "V",
+      "legal": false,
+      "conflict_tick": 180,
+      "cell": [
+        2,
+        2
+      ],
+      "first_tick": 16
+    },
+    {
+      "control": "DDCVUQV",
+      "extra_D": 1,
+      "preceding_packet": "VC",
+      "legal": false,
+      "conflict_tick": 142,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick": 2
+    },
+    {
+      "control": "DDCVUQV",
+      "extra_D": 1,
+      "preceding_packet": "VCC",
+      "legal": false,
+      "conflict_tick": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick": 19
+    },
+    {
+      "control": "DDCVUQV",
+      "extra_D": 1,
+      "preceding_packet": "U",
+      "legal": false,
+      "conflict_tick": 190,
+      "cell": [
+        1,
+        3
+      ],
+      "first_tick": 26
+    },
+    {
+      "control": "DDCVUQV",
+      "extra_D": 1,
+      "preceding_packet": "UC",
+      "legal": false,
+      "conflict_tick": 171,
+      "cell": [
+        0,
+        -1
+      ],
+      "first_tick": 3
+    },
+    {
+      "control": "DDCVUQV",
+      "extra_D": 1,
+      "preceding_packet": "UCC",
+      "legal": false,
+      "conflict_tick": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick": 29
+    },
+    {
+      "control": "DCVUBV",
+      "extra_D": 0,
+      "preceding_packet": "D",
+      "legal": true,
+      "mass": 32
+    },
+    {
+      "control": "DCVUBV",
+      "extra_D": 0,
+      "preceding_packet": "DC",
+      "legal": false,
+      "conflict_tick": 69,
+      "cell": [
+        -1,
+        0
+      ],
+      "first_tick": 1
+    },
+    {
+      "control": "DCVUBV",
+      "extra_D": 0,
+      "preceding_packet": "V",
+      "legal": false,
+      "conflict_tick": 171,
+      "cell": [
+        0,
+        1
+      ],
+      "first_tick": 11
+    },
+    {
+      "control": "DCVUBV",
+      "extra_D": 0,
+      "preceding_packet": "VC",
+      "legal": false,
+      "conflict_tick": 89,
+      "cell": [
+        -1,
+        0
+      ],
+      "first_tick": 1
+    },
+    {
+      "control": "DCVUBV",
+      "extra_D": 0,
+      "preceding_packet": "VCC",
+      "legal": false,
+      "conflict_tick": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick": 19
+    },
+    {
+      "control": "DCVUBV",
+      "extra_D": 0,
+      "preceding_packet": "U",
+      "legal": false,
+      "conflict_tick": 181,
+      "cell": [
+        -1,
+        2
+      ],
+      "first_tick": 13
+    },
+    {
+      "control": "DCVUBV",
+      "extra_D": 0,
+      "preceding_packet": "UC",
+      "legal": false,
+      "conflict_tick": 157,
+      "cell": [
+        -1,
+        0
+      ],
+      "first_tick": 1
+    },
+    {
+      "control": "DCVUBV",
+      "extra_D": 0,
+      "preceding_packet": "UCC",
+      "legal": false,
+      "conflict_tick": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick": 29
+    },
+    {
+      "control": "DCVUBV",
+      "extra_D": 1,
+      "preceding_packet": "D",
+      "legal": false,
+      "conflict_tick": 172,
+      "cell": [
+        2,
+        0
+      ],
+      "first_tick": 8
+    },
+    {
+      "control": "DCVUBV",
+      "extra_D": 1,
+      "preceding_packet": "DC",
+      "legal": false,
+      "conflict_tick": 164,
+      "cell": [
+        0,
+        0
+      ],
+      "first_tick": 0
+    },
+    {
+      "control": "DCVUBV",
+      "extra_D": 1,
+      "preceding_packet": "V",
+      "legal": false,
+      "conflict_tick": 180,
+      "cell": [
+        2,
+        2
+      ],
+      "first_tick": 16
+    },
+    {
+      "control": "DCVUBV",
+      "extra_D": 1,
+      "preceding_packet": "VC",
+      "legal": false,
+      "conflict_tick": 157,
+      "cell": [
+        -1,
+        0
+      ],
+      "first_tick": 1
+    },
+    {
+      "control": "DCVUBV",
+      "extra_D": 1,
+      "preceding_packet": "VCC",
+      "legal": false,
+      "conflict_tick": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick": 19
+    },
+    {
+      "control": "DCVUBV",
+      "extra_D": 1,
+      "preceding_packet": "U",
+      "legal": false,
+      "conflict_tick": 190,
+      "cell": [
+        1,
+        3
+      ],
+      "first_tick": 26
+    },
+    {
+      "control": "DCVUBV",
+      "extra_D": 1,
+      "preceding_packet": "UC",
+      "legal": false,
+      "conflict_tick": 142,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick": 2
+    },
+    {
+      "control": "DCVUBV",
+      "extra_D": 1,
+      "preceding_packet": "UCC",
+      "legal": false,
+      "conflict_tick": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick": 29
+    }
+  ],
+  "ownership": "All ticks are ZERO BASED. Source D tag is born at tick8. Returned V raw has18 reads; tag is first read at returned packet tick19. It is C-tail tick1, meaning the SECOND physical read of the C tail. In minimal V+M11 it is M11 tick1, the SECOND physical read of the actual following word, not its first read. Exact exit-core residual absorption is distinct from this later physical L.",
+  "analytic": [
+    "Complete minimal first-read boards were independently derived and directly physically replayed, all other cells WHITE. The six controls really attain young source-D lifetime consumption after foreign and a returned V proper crossing of the old D midpoint. Thus old-eight input lifetime and simple-path laws do not extend blindly through foreign.",
+    "The old path and actual F-prefix/Q/B-tail repaired geometry is simple; the returned V has exactly the old D midpoint crossing and its true adjacent foreign start endpoint. No unsafe whole Q/B chord or invented marker used.",
+    "The reverse obstruction tests every possible immediate full-eight predecessor against the NECESSARY shorter returned V+actual M11. Only D survives, and every one of the eight predecessors before that D conflicts. Therefore no longer uninterrupted old-eight prefix can exist, regardless length. The initial D/DC and unique D prepend cannot be a U-family factor entry.",
+    "The six cases are positive fixed controls and their exact reverse closure only. The separate endpoint-driven assertion that these exhaust three catalogue configurations is not certified by this bundle."
+  ],
+  "scope": "D-entry controls, not U-entry counterexamples. No general returned simplicity, arbitrary marker ancestry, universal foreign age law or seven-word termination."
+}

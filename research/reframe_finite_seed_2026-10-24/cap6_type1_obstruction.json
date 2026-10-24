@@ -1,0 +1,1663 @@
+{
+  "target_type": 1,
+  "status": "EXACT_RESOURCE_RELAXATION_OBSTRUCTION_NOT_PHYSICAL_COMPILER",
+  "net_emission_minus_consumption": [
+    0,
+    2,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "cycles": [
+    {
+      "index": 21795,
+      "multiplicity": 2,
+      "indices": [
+        5,
+        3090,
+        4403,
+        6378,
+        10239,
+        2952,
+        3345,
+        1775,
+        2589,
+        3346
+      ],
+      "word": "RRRRLRLRRL",
+      "length": 10,
+      "displacement": [
+        -1,
+        3
+      ],
+      "heading": 0,
+      "imports": 1,
+      "emissions": 3,
+      "transitions": [
+        {
+          "source": 0,
+          "target": 24,
+          "consume": 1,
+          "emit": null,
+          "turn": "R",
+          "input_component": [],
+          "imported_component": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              2
+            ]
+          ],
+          "output_active": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              2
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 24,
+          "target": 366,
+          "consume": null,
+          "emit": null,
+          "turn": "R",
+          "input_component": [
+            [
+              -2,
+              -2
+            ],
+            [
+              -1,
+              -2
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              -2,
+              -2
+            ],
+            [
+              -1,
+              -2
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 366,
+          "target": 1976,
+          "consume": null,
+          "emit": null,
+          "turn": "R",
+          "input_component": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              -3
+            ],
+            [
+              2,
+              -2
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              -3
+            ],
+            [
+              2,
+              -2
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 1976,
+          "target": 8519,
+          "consume": null,
+          "emit": null,
+          "turn": "R",
+          "input_component": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 8519,
+          "target": 21,
+          "consume": null,
+          "emit": 4,
+          "turn": "L",
+          "input_component": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              2
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              2
+            ]
+          ],
+          "emitted_component": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "output_pose": [
+            [
+              -1,
+              0
+            ],
+            3
+          ]
+        },
+        {
+          "source": 21,
+          "target": 61,
+          "consume": null,
+          "emit": null,
+          "turn": "R",
+          "input_component": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 61,
+          "target": 3,
+          "consume": null,
+          "emit": 0,
+          "turn": "L",
+          "input_component": [
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              0,
+              1
+            ]
+          ],
+          "emitted_component": [
+            [
+              0,
+              -1
+            ]
+          ],
+          "output_pose": [
+            [
+              -1,
+              0
+            ],
+            3
+          ]
+        },
+        {
+          "source": 3,
+          "target": 12,
+          "consume": null,
+          "emit": null,
+          "turn": "R",
+          "input_component": [
+            [
+              1,
+              -1
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 12,
+          "target": 62,
+          "consume": null,
+          "emit": null,
+          "turn": "R",
+          "input_component": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 62,
+          "target": 0,
+          "consume": null,
+          "emit": 1,
+          "turn": "L",
+          "input_component": [
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [],
+          "emitted_component": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "output_pose": [
+            [
+              -1,
+              0
+            ],
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "index": 21981,
+      "multiplicity": 1,
+      "indices": [
+        5,
+        3090,
+        4403,
+        6378,
+        10239,
+        2953,
+        4080,
+        1775,
+        2589,
+        3346
+      ],
+      "word": "RRRRLRLRRL",
+      "length": 10,
+      "displacement": [
+        -1,
+        3
+      ],
+      "heading": 0,
+      "imports": 2,
+      "emissions": 3,
+      "transitions": [
+        {
+          "source": 0,
+          "target": 24,
+          "consume": 1,
+          "emit": null,
+          "turn": "R",
+          "input_component": [],
+          "imported_component": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              2
+            ]
+          ],
+          "output_active": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              2
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 24,
+          "target": 366,
+          "consume": null,
+          "emit": null,
+          "turn": "R",
+          "input_component": [
+            [
+              -2,
+              -2
+            ],
+            [
+              -1,
+              -2
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              -2,
+              -2
+            ],
+            [
+              -1,
+              -2
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 366,
+          "target": 1976,
+          "consume": null,
+          "emit": null,
+          "turn": "R",
+          "input_component": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              -3
+            ],
+            [
+              2,
+              -2
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              -3
+            ],
+            [
+              2,
+              -2
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 1976,
+          "target": 8519,
+          "consume": null,
+          "emit": null,
+          "turn": "R",
+          "input_component": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 8519,
+          "target": 21,
+          "consume": null,
+          "emit": 4,
+          "turn": "L",
+          "input_component": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              2
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              2
+            ]
+          ],
+          "emitted_component": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "output_pose": [
+            [
+              -1,
+              0
+            ],
+            3
+          ]
+        },
+        {
+          "source": 21,
+          "target": 214,
+          "consume": 0,
+          "emit": null,
+          "turn": "R",
+          "input_component": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "imported_component": [
+            [
+              -1,
+              1
+            ]
+          ],
+          "output_active": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 214,
+          "target": 3,
+          "consume": null,
+          "emit": 2,
+          "turn": "L",
+          "input_component": [
+            [
+              -1,
+              -2
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              0,
+              1
+            ]
+          ],
+          "emitted_component": [
+            [
+              -1,
+              -2
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "output_pose": [
+            [
+              -1,
+              0
+            ],
+            3
+          ]
+        },
+        {
+          "source": 3,
+          "target": 12,
+          "consume": null,
+          "emit": null,
+          "turn": "R",
+          "input_component": [
+            [
+              1,
+              -1
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 12,
+          "target": 62,
+          "consume": null,
+          "emit": null,
+          "turn": "R",
+          "input_component": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 62,
+          "target": 0,
+          "consume": null,
+          "emit": 1,
+          "turn": "L",
+          "input_component": [
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [],
+          "emitted_component": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "output_pose": [
+            [
+              -1,
+              0
+            ],
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "index": 33391,
+      "multiplicity": 1,
+      "indices": [
+        9,
+        3115,
+        4246,
+        6375,
+        10988,
+        2777,
+        3430,
+        4195,
+        2091,
+        3270
+      ],
+      "word": "RRRRLRRLRL",
+      "length": 10,
+      "displacement": [
+        1,
+        3
+      ],
+      "heading": 0,
+      "imports": 2,
+      "emissions": 3,
+      "transitions": [
+        {
+          "source": 0,
+          "target": 27,
+          "consume": 2,
+          "emit": null,
+          "turn": "R",
+          "input_component": [],
+          "imported_component": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "output_active": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 27,
+          "target": 311,
+          "consume": null,
+          "emit": null,
+          "turn": "R",
+          "input_component": [
+            [
+              -2,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              -2,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 311,
+          "target": 1973,
+          "consume": null,
+          "emit": null,
+          "turn": "R",
+          "input_component": [
+            [
+              0,
+              -3
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -2
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              0,
+              -3
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              -2
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 1973,
+          "target": 10153,
+          "consume": null,
+          "emit": null,
+          "turn": "R",
+          "input_component": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              -1
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              -1
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 10153,
+          "target": 18,
+          "consume": null,
+          "emit": 4,
+          "turn": "L",
+          "input_component": [
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "emitted_component": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "output_pose": [
+            [
+              -1,
+              0
+            ],
+            3
+          ]
+        },
+        {
+          "source": 18,
+          "target": 70,
+          "consume": null,
+          "emit": null,
+          "turn": "R",
+          "input_component": [
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              -2
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              -2
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 70,
+          "target": 284,
+          "consume": null,
+          "emit": null,
+          "turn": "R",
+          "input_component": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 284,
+          "target": 4,
+          "consume": null,
+          "emit": 1,
+          "turn": "L",
+          "input_component": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [
+            [
+              -1,
+              1
+            ]
+          ],
+          "emitted_component": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "output_pose": [
+            [
+              -1,
+              0
+            ],
+            3
+          ]
+        },
+        {
+          "source": 4,
+          "target": 55,
+          "consume": 0,
+          "emit": null,
+          "turn": "R",
+          "input_component": [
+            [
+              1,
+              0
+            ]
+          ],
+          "imported_component": [
+            [
+              -1,
+              0
+            ]
+          ],
+          "output_active": [
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "emitted_component": [],
+          "output_pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ]
+        },
+        {
+          "source": 55,
+          "target": 0,
+          "consume": null,
+          "emit": 1,
+          "turn": "L",
+          "input_component": [
+            [
+              0,
+              -2
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "imported_component": [],
+          "output_active": [],
+          "emitted_component": [
+            [
+              0,
+              -2
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "output_pose": [
+            [
+              -1,
+              0
+            ],
+            3
+          ]
+        }
+      ]
+    }
+  ]
+}

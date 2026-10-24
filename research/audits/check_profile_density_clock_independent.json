@@ -1,0 +1,101 @@
+{
+  "status": "PASS independent normalized complete-profile scalar-clock theorem",
+  "note_sha256": "723bd11f026a4fdbb0327fbc6e6e0586955e578619527fefea89e4aeb286d676",
+  "exact_eight_local_coefficients": [
+    {
+      "h": 0,
+      "turn": "R",
+      "w_coeff": 2,
+      "inverse_w_coeff": 22,
+      "constant": -2
+    },
+    {
+      "h": 0,
+      "turn": "L",
+      "w_coeff": 0,
+      "inverse_w_coeff": 0,
+      "constant": 2
+    },
+    {
+      "h": 1,
+      "turn": "R",
+      "w_coeff": 0,
+      "inverse_w_coeff": 0,
+      "constant": 2
+    },
+    {
+      "h": 1,
+      "turn": "L",
+      "w_coeff": 22,
+      "inverse_w_coeff": 2,
+      "constant": -2
+    },
+    {
+      "h": 2,
+      "turn": "R",
+      "w_coeff": 22,
+      "inverse_w_coeff": 2,
+      "constant": -2
+    },
+    {
+      "h": 2,
+      "turn": "L",
+      "w_coeff": 0,
+      "inverse_w_coeff": 0,
+      "constant": 2
+    },
+    {
+      "h": 3,
+      "turn": "R",
+      "w_coeff": 0,
+      "inverse_w_coeff": 0,
+      "constant": 2
+    },
+    {
+      "h": 3,
+      "turn": "L",
+      "w_coeff": 2,
+      "inverse_w_coeff": 22,
+      "constant": -2
+    }
+  ],
+  "complete_input_classes": 2892,
+  "complete_output_classes": 3300,
+  "controls": [
+    {
+      "center": 0,
+      "delta": [
+        229957540580135445166309490306412004635158498188973472161,
+        193118646128519322884263378944
+      ],
+      "lower": [
+        5108,
+        13
+      ]
+    },
+    {
+      "center": 9,
+      "delta": [
+        3066004390079081247868940623373072869065497515,
+        368344585663832326668288
+      ],
+      "lower": [
+        5108,
+        13
+      ]
+    },
+    {
+      "center": 14,
+      "delta": [
+        2921006979984697564240258534249778092783335832403381,
+        754369711439528605016653824
+      ],
+      "lower": [
+        5108,
+        13
+      ]
+    }
+  ],
+  "proof": "For any common longitudinal multiple L, k=L/|s| repeats contribute at least2kP. Heading and normal return cancel all J terms. Complete alternating orbit histories give net O-I, including unchanged passive orbits. The weighted sum is L times density potential change, yielding deltaPhi>=2P/|s|>=4.",
+  "scope": "Fixed physical oblique axis, sector, normal anchor, complete mature periodic profiles and legitimate translating-interface contracts. Finite caps/transients do not change bulk. No profile cycle or same-sector exact bulk reset; fixed normal support gives finite number of complete phases. Not a finite-board rank, finite endpoint transient bound, global capture or existence statement."
+}

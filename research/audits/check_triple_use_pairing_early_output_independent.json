@@ -1,0 +1,781 @@
+{
+  "status": "PASS triple-use spatial endpoint pairing, plateau preservation and early Nodd>=3*n_A projection",
+  "note_sha256": {
+    "triple_use_current_pairs_top_same_R_outputs.md": "3ffd2f42af3fe147dcc9b13f207343cc1ac82ea06174a9a73a79c25e9507aba6",
+    "early_triple_output_via_triple_use_pairing.md": "874d5586c71ca3b2e6c90a093374399c6670457f1e030d3d592d0b2316b431d6"
+  },
+  "fresh30_physical_port_histories": [
+    {
+      "headings": "E",
+      "physical_incoming_ports": {
+        "W": 1
+      },
+      "physical_outgoing_ports": {
+        "S": 1
+      },
+      "C": {
+        "NE": -1,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -1
+      },
+      "triple_ports": [],
+      "type": "absent",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "W",
+      "physical_incoming_ports": {
+        "E": 1
+      },
+      "physical_outgoing_ports": {
+        "N": 1
+      },
+      "C": {
+        "NE": 0,
+        "SW": -1
+      },
+      "L": {
+        "NW": -1,
+        "SE": -1
+      },
+      "triple_ports": [],
+      "type": "absent",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "EE",
+      "physical_incoming_ports": {
+        "W": 2
+      },
+      "physical_outgoing_ports": {
+        "S": 1,
+        "N": 1
+      },
+      "C": {
+        "NE": -1,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      },
+      "triple_ports": [],
+      "type": "absent",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "EW",
+      "physical_incoming_ports": {
+        "W": 1,
+        "E": 1
+      },
+      "physical_outgoing_ports": {
+        "S": 2
+      },
+      "C": {
+        "NE": -1,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      },
+      "triple_ports": [],
+      "type": "absent",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "WE",
+      "physical_incoming_ports": {
+        "E": 1,
+        "W": 1
+      },
+      "physical_outgoing_ports": {
+        "N": 2
+      },
+      "C": {
+        "NE": 0,
+        "SW": -1
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      },
+      "triple_ports": [],
+      "type": "absent",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "WW",
+      "physical_incoming_ports": {
+        "E": 2
+      },
+      "physical_outgoing_ports": {
+        "N": 1,
+        "S": 1
+      },
+      "C": {
+        "NE": 0,
+        "SW": -1
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      },
+      "triple_ports": [],
+      "type": "absent",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "EEE",
+      "physical_incoming_ports": {
+        "W": 3
+      },
+      "physical_outgoing_ports": {
+        "S": 2,
+        "N": 1
+      },
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -2
+      },
+      "triple_ports": [
+        "W"
+      ],
+      "type": "sink",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "EEW",
+      "physical_incoming_ports": {
+        "W": 2,
+        "E": 1
+      },
+      "physical_outgoing_ports": {
+        "S": 1,
+        "N": 2
+      },
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      },
+      "triple_ports": [],
+      "type": "absent",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "EWE",
+      "physical_incoming_ports": {
+        "W": 2,
+        "E": 1
+      },
+      "physical_outgoing_ports": {
+        "S": 3
+      },
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      },
+      "triple_ports": [
+        "S"
+      ],
+      "type": "source",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "EWW",
+      "physical_incoming_ports": {
+        "W": 1,
+        "E": 2
+      },
+      "physical_outgoing_ports": {
+        "S": 2,
+        "N": 1
+      },
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      },
+      "triple_ports": [],
+      "type": "absent",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "WEE",
+      "physical_incoming_ports": {
+        "E": 1,
+        "W": 2
+      },
+      "physical_outgoing_ports": {
+        "N": 2,
+        "S": 1
+      },
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      },
+      "triple_ports": [],
+      "type": "absent",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "WEW",
+      "physical_incoming_ports": {
+        "E": 2,
+        "W": 1
+      },
+      "physical_outgoing_ports": {
+        "N": 3
+      },
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -2
+      },
+      "triple_ports": [
+        "N"
+      ],
+      "type": "source",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "WWE",
+      "physical_incoming_ports": {
+        "E": 2,
+        "W": 1
+      },
+      "physical_outgoing_ports": {
+        "N": 1,
+        "S": 2
+      },
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      },
+      "triple_ports": [],
+      "type": "absent",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "WWW",
+      "physical_incoming_ports": {
+        "E": 3
+      },
+      "physical_outgoing_ports": {
+        "N": 2,
+        "S": 1
+      },
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      },
+      "triple_ports": [
+        "E"
+      ],
+      "type": "sink",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "EEEE",
+      "physical_incoming_ports": {
+        "W": 4
+      },
+      "physical_outgoing_ports": {
+        "S": 2,
+        "N": 2
+      },
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      },
+      "triple_ports": [],
+      "type": "absent",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "EEEW",
+      "physical_incoming_ports": {
+        "W": 3,
+        "E": 1
+      },
+      "physical_outgoing_ports": {
+        "S": 3,
+        "N": 1
+      },
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "triple_ports": [
+        "W",
+        "S"
+      ],
+      "type": "internal",
+      "changes_diagonal_L_face": true
+    },
+    {
+      "headings": "EEWE",
+      "physical_incoming_ports": {
+        "W": 3,
+        "E": 1
+      },
+      "physical_outgoing_ports": {
+        "S": 1,
+        "N": 3
+      },
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -1
+      },
+      "triple_ports": [
+        "W",
+        "N"
+      ],
+      "type": "internal",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "EEWW",
+      "physical_incoming_ports": {
+        "W": 2,
+        "E": 2
+      },
+      "physical_outgoing_ports": {
+        "S": 2,
+        "N": 2
+      },
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      },
+      "triple_ports": [],
+      "type": "absent",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "EWEE",
+      "physical_incoming_ports": {
+        "W": 3,
+        "E": 1
+      },
+      "physical_outgoing_ports": {
+        "S": 3,
+        "N": 1
+      },
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "triple_ports": [
+        "W",
+        "S"
+      ],
+      "type": "internal",
+      "changes_diagonal_L_face": true
+    },
+    {
+      "headings": "EWEW",
+      "physical_incoming_ports": {
+        "W": 2,
+        "E": 2
+      },
+      "physical_outgoing_ports": {
+        "S": 4
+      },
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      },
+      "triple_ports": [],
+      "type": "absent",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "EWWE",
+      "physical_incoming_ports": {
+        "W": 2,
+        "E": 2
+      },
+      "physical_outgoing_ports": {
+        "S": 2,
+        "N": 2
+      },
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      },
+      "triple_ports": [],
+      "type": "absent",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "EWWW",
+      "physical_incoming_ports": {
+        "W": 1,
+        "E": 3
+      },
+      "physical_outgoing_ports": {
+        "S": 3,
+        "N": 1
+      },
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -3
+      },
+      "triple_ports": [
+        "E",
+        "S"
+      ],
+      "type": "internal",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "WEEE",
+      "physical_incoming_ports": {
+        "E": 1,
+        "W": 3
+      },
+      "physical_outgoing_ports": {
+        "N": 3,
+        "S": 1
+      },
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -1
+      },
+      "triple_ports": [
+        "W",
+        "N"
+      ],
+      "type": "internal",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "WEEW",
+      "physical_incoming_ports": {
+        "E": 2,
+        "W": 2
+      },
+      "physical_outgoing_ports": {
+        "N": 2,
+        "S": 2
+      },
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      },
+      "triple_ports": [],
+      "type": "absent",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "WEWE",
+      "physical_incoming_ports": {
+        "E": 2,
+        "W": 2
+      },
+      "physical_outgoing_ports": {
+        "N": 4
+      },
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      },
+      "triple_ports": [],
+      "type": "absent",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "WEWW",
+      "physical_incoming_ports": {
+        "E": 3,
+        "W": 1
+      },
+      "physical_outgoing_ports": {
+        "N": 3,
+        "S": 1
+      },
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "triple_ports": [
+        "E",
+        "N"
+      ],
+      "type": "internal",
+      "changes_diagonal_L_face": true
+    },
+    {
+      "headings": "WWEE",
+      "physical_incoming_ports": {
+        "E": 2,
+        "W": 2
+      },
+      "physical_outgoing_ports": {
+        "N": 2,
+        "S": 2
+      },
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      },
+      "triple_ports": [],
+      "type": "absent",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "WWEW",
+      "physical_incoming_ports": {
+        "E": 3,
+        "W": 1
+      },
+      "physical_outgoing_ports": {
+        "N": 1,
+        "S": 3
+      },
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -3
+      },
+      "triple_ports": [
+        "E",
+        "S"
+      ],
+      "type": "internal",
+      "changes_diagonal_L_face": false
+    },
+    {
+      "headings": "WWWE",
+      "physical_incoming_ports": {
+        "E": 3,
+        "W": 1
+      },
+      "physical_outgoing_ports": {
+        "N": 3,
+        "S": 1
+      },
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "triple_ports": [
+        "E",
+        "N"
+      ],
+      "type": "internal",
+      "changes_diagonal_L_face": true
+    },
+    {
+      "headings": "WWWW",
+      "physical_incoming_ports": {
+        "E": 4
+      },
+      "physical_outgoing_ports": {
+        "N": 2,
+        "S": 2
+      },
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      },
+      "triple_ports": [],
+      "type": "absent",
+      "changes_diagonal_L_face": false
+    }
+  ],
+  "types": {
+    "absent": 18,
+    "sink": 2,
+    "source": 2,
+    "internal": 8
+  },
+  "signed_reservation_projection": {
+    "S3": {
+      "shallow": [
+        "j singleton",
+        "x oppositeR",
+        "e oppositeR"
+      ],
+      "sinks": [
+        "q SSS"
+      ],
+      "sources": []
+    },
+    "S4a": {
+      "shallow": [
+        "j singleton"
+      ],
+      "sinks": [
+        "q SSS",
+        "t SSS"
+      ],
+      "sources": [
+        "r WEW"
+      ]
+    },
+    "S4b": {
+      "shallow": [
+        "j singleton"
+      ],
+      "sinks": [
+        "t SSS"
+      ],
+      "sources": []
+    },
+    "R3": {
+      "shallow": [
+        "x oppositeR",
+        "e oppositeR"
+      ],
+      "sinks": [
+        "q SSS"
+      ],
+      "sources": []
+    },
+    "R4a": {
+      "shallow": [
+        "d oppositeR"
+      ],
+      "sinks": [
+        "q SSS",
+        "t SSS"
+      ],
+      "sources": [
+        "r WEW"
+      ]
+    },
+    "R4b": {
+      "shallow": [
+        "d oppositeR"
+      ],
+      "sinks": [
+        "t SSS"
+      ],
+      "sources": []
+    }
+  },
+  "top_output_weights": {
+    "S3": 5,
+    "S4a": 5,
+    "S4b": 3,
+    "R3": 4,
+    "R4a": 5,
+    "R4b": 3
+  },
+  "shallow_plus_pair_root_weights": {
+    "S3": 4,
+    "S4a": 3,
+    "S4b": 2,
+    "R3": 3,
+    "R4a": 3,
+    "R4b": 2
+  },
+  "prior_independent_joint_injection_report_sha256": "e28a37ac7bb15cb61ecbc93485083e3c6a44eb0536cb30cfc4b64016f52482fa",
+  "analytic": [
+    "Full-pose periodicity has P even and drift checker-parity even, so the physical Manhattan edge direction and incoming-axis type descend to the actual full quotient without a spurious type change. There are finitely many used edge/cell classes. Lifted multiedge incidences are retained.",
+    "At each fixed C level c, the direct30-history inventory gives only absent vertices, one-input/one-output internal vertices, and odd same-R source/sink endpoints. Both internal ports have C=c,L=c-3. In any finite directed multigraph with these degrees a source path cannot merge, enter a cycle, revisit its source or revisit an internal vertex; it terminates at a distinct sink. Hence source/sink classes pair bijectively and Nsame(c)=2J(c). This is spatial graph incidence, not chronological occurrence matching.",
+    "Along the path either the right C face is unchanged or its two diagonal sectors at level c meet in the retained C-face graph; likewise for L at c-3. Thus both level components are preserved. I also explicitly checked the selected-curve corner issue: whenever the two L sectors differ, the internal word has equal R headings and is not a selected opposite-R contact. At an opposite-R selected corner with triple ports, both ports share one L sector. Hence low-plateau pairing cannot sneak across the selected curve through a diagonal corner.",
+    "In an actual inter-max band with minimum<=M-3, shallow top odd classes cannot root the minimum. If there is no non-top root, each top same-R root has its paired endpoint in the same L plateau, strictly in the same band; different spatial bands use different pairs. Rooted bands therefore number at most Nodd-Ntop+J=Nodd-Nshallow-J. The existing disjoint physical-current partition yields P>=6D+12D max(0,r-1-Nodd+Nshallow+J).",
+    "The previously signed early joint injections supply A0=n_A+2nS3+nR3 mutually distinct shallow top outputs and G=n_A+nS4a+nR4a mutually distinct all-same-heading sinks. Existing r=WEW reservations are sources and are NOT added again. Since J>=G, Ntop=Nshallow+2J>=A0+2G, giving weights5,5,3,4,5,3 and Nodd>=3n_A. Likewise Nshallow+J>=A0+G>=2n_A gives the stated strengthened band-root subtraction."
+  ],
+  "scope": "Complete WHITE cap4 full-drift front. Pairing itself needs no K1; ordered-band and early-family consequences retain K1 and all actual source hypotheses. No path-length payment, original fuel, manufactured band count, whole-front exclusion or capture."
+}

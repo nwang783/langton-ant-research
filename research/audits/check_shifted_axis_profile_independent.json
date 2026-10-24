@@ -1,0 +1,26 @@
+{
+  "status": "PASS direct compass-port controls for the analytically reviewed shifted profile",
+  "maximum_read_count_control": 20,
+  "local_column_states": 361,
+  "matched_pair_controls": 5992,
+  "mixed_parity_controls": 2472,
+  "cap4_profiles": [
+    [
+      3,
+      3,
+      4,
+      4
+    ],
+    [
+      4,
+      4,
+      4,
+      4
+    ]
+  ],
+  "scope": "Conditional on all four lowest-row classes singleton, actual full drift(-4,0). No all-cap front exclusion.",
+  "hashes": {
+    "audits/check_shifted_axis_profile_independent.py": "b115b7f1d1013cb7ebb95b4afdff263164c945520aeebbde4e431f43e0c5e3f3",
+    "periodic_classification_new/axis_singleton_shifted_count_profile.md": "7a06463e2e907c3ca86d6c6e760bcafecbfe170d1190aa823a4671b162148ec0"
+  }
+}

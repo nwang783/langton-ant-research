@@ -1,0 +1,33 @@
+{
+  "status": "PASS universal finite-board axial pristine-record fresh clockwise loop merger, no return budget",
+  "manifest": "4463ffef766240fd0a2cfb42605018e2756c9b57f77e21974c2b72d44579b7e7",
+  "script": "bbe80ed16fc11df98d76fd37cdb560ad1d30ce30cbdca93fdc39059a96f3eab2",
+  "records": 122,
+  "controls": [
+    {
+      "name": "blank",
+      "reads": 10081,
+      "records": 92,
+      "max_active_before": 1336
+    },
+    {
+      "name": "MT100",
+      "reads": 109168,
+      "records": 30,
+      "max_active_before": 200
+    }
+  ],
+  "analytic_review": [
+    "A strict coordinate record beyond the augmented original-support/head-history hull has incoming outward normal, current WHITE head and the entire current BLACK field strictly behind the record line. The opposite incoming state follows one untouched clockwise four-state square in the fresh closed half-plane.",
+    "Every modified empty-board circuit through a BLACK site strictly behind the line stays in the old closed half-plane, and their union is closed under the changed pairing. Hence the active frozen circuit at the record is also behind the line, whether altered or baseline. This uses the whole field, not a local crop or a current relevant hull.",
+    "The active and opposite-state circuits are distinct and their plaquette domains disjoint. Signed winding surgery then forces equal clockwise orientation. The R update merges them with length+4 and negative area minus1, while total positive winding P is unchanged. The actual old successor belongs to the new merged loop, so the static update is correctly tied to the real move.",
+    "Other normals and checkerboard sectors follow proper rotation/translation with the baseline carried along. No reflection, physical time reversal or invariant-sector substitution is required. All122 exact records independently reconstruct from the original two seeds, including complete current-field identity digests and terminal record supported by the signed full future.",
+    "This is a fresh-boundary interface only. It does not prevent later interior positive-area creation, detached-loop reuse, cancellation or remote reattachment, and gives no return-time, record-density, global budget or attraction conclusion."
+  ],
+  "dependencies": {
+    "MIRROR_WINDING_RENEWAL_MANIFEST.json": "266ea46614a7c088065ea82276f82991958175d64fc95e1274bd1808ab120dde",
+    "MIRROR_WINDING_RENEWAL_CHECKED.json": "879742a63f2674ed46c82a59c5c5914671ebe8ca1ec810a78b7fdbaa2ed6fd7d",
+    "mirror_pairing_geometry.py": "f3b56e0446e422dae3692f18a4be102961fb6d306bff36ad3f6f0483aafeeb4e",
+    "independent_winding_report": "ff73d90092c246de34e2a0aa048c74da2361709e3d916e56d3de6a05a6a5bc2a"
+  }
+}

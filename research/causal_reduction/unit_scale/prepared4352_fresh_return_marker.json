@@ -1,0 +1,217 @@
+{
+  "scope": "Find the canonical first fresh R after the signed two-phase checkpoint,\nand prove its complete all-M prior READ/seed disjointness before any edit.\nNo modified trajectory is executed by this tool.\n",
+  "status": "CANONICAL FRESH MARKER ALL-M PROVED",
+  "marker": [
+    108,
+    105
+  ],
+  "incoming_heading": 1,
+  "offset_after_checkpoint": 89,
+  "read_time_M_constant": [
+    129780,
+    455250
+  ],
+  "actual_unmodified_turn": "R",
+  "original_black_mass": 394,
+  "hypothetical_preloaded_mass": 395,
+  "relevant_unique_affine_read_families_tested": 266,
+  "all_unique_affine_read_families": 23538,
+  "seed_families_tested": 394,
+  "first_M1_fresh_candidates": [
+    {
+      "offset": 89,
+      "pose": [
+        [
+          108,
+          105
+        ],
+        1
+      ],
+      "all_M_prior_hits": 0,
+      "all_M_seed_hits": 0
+    }
+  ],
+  "earlier_R_prior_union_covered_all_M": [
+    [
+      0,
+      [
+        117,
+        111
+      ],
+      3
+    ],
+    [
+      1,
+      [
+        118,
+        111
+      ],
+      4
+    ],
+    [
+      3,
+      [
+        119,
+        110
+      ],
+      4
+    ],
+    [
+      4,
+      [
+        119,
+        109
+      ],
+      3
+    ],
+    [
+      6,
+      [
+        118,
+        108
+      ],
+      5
+    ],
+    [
+      9,
+      [
+        118,
+        107
+      ],
+      5
+    ],
+    [
+      10,
+      [
+        118,
+        106
+      ],
+      3
+    ],
+    [
+      12,
+      [
+        117,
+        105
+      ],
+      6
+    ],
+    [
+      29,
+      [
+        114,
+        107
+      ],
+      3
+    ],
+    [
+      31,
+      [
+        113,
+        108
+      ],
+      2
+    ],
+    [
+      37,
+      [
+        114,
+        109
+      ],
+      2
+    ],
+    [
+      42,
+      [
+        112,
+        110
+      ],
+      3
+    ],
+    [
+      43,
+      [
+        113,
+        110
+      ],
+      2
+    ],
+    [
+      47,
+      [
+        111,
+        108
+      ],
+      2
+    ],
+    [
+      48,
+      [
+        111,
+        109
+      ],
+      3
+    ],
+    [
+      56,
+      [
+        111,
+        107
+      ],
+      3
+    ],
+    [
+      57,
+      [
+        110,
+        107
+      ],
+      3
+    ],
+    [
+      58,
+      [
+        110,
+        108
+      ],
+      3
+    ],
+    [
+      66,
+      [
+        110,
+        106
+      ],
+      3
+    ],
+    [
+      74,
+      [
+        108,
+        106
+      ],
+      2
+    ],
+    [
+      75,
+      [
+        107,
+        106
+      ],
+      2
+    ],
+    [
+      76,
+      [
+        107,
+        107
+      ],
+      2
+    ]
+  ],
+  "preceding_unmodified_return_prefix": "RRLRRLRLLRRLRLLLLRLLLLRRRRLRLRLRLLLLRRRRLRRRRLRRRRLLLLRLRRRRLLLLRLRLLLLRLLRRRRLLRRRRLLRLL",
+  "complete_prior_read_miss_all_M": true,
+  "original_seed_miss_all_M": true,
+  "manifest_sha256": "ffd8a1393f96ad81b6d8515912b00304e5c4527b1a7b949644686e5c05d56715",
+  "source_sha256": "f721642c073168e2f1e8d29b367c6a330d057d4a896ea029ed75b8bcd468157f"
+}

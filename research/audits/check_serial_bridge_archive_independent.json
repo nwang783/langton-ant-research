@@ -1,0 +1,323 @@
+{
+  "status": "PASS serial bridge release, exact proper-block archive splice and all-r one-erasure rod construction",
+  "notes": {
+    "serial_bridge_release_and_archive_splice.md": "7a404d2fdd7fa36751d38209362384e5892c98139fa75cca5d23f6ac42f97d7f",
+    "serial_bridge_release_and_archive_splice_v2.md": "f1df38ca56a45ea5cbef0d318b6cc5942f8a27af35787387bf691bd178eee351"
+  },
+  "counts": {
+    "fine_steps": 13184,
+    "bridge_insertions": 7821,
+    "proper_r4": 1150,
+    "isolated_bridge_resets": 940,
+    "path_contractions": 797,
+    "serial_expansions": 541,
+    "isolated_nonbridge_splices": 210,
+    "serial_prefix_edges": 1150,
+    "proper_r0": 1514,
+    "far_side_inheritances": 2288,
+    "proper_r1": 449,
+    "proper_r2": 422,
+    "ordinary_external_imports": 13
+  },
+  "rods": [
+    {
+      "r": 1,
+      "mass": 12,
+      "erasures": [
+        0
+      ],
+      "max_release": 11,
+      "consumed": 1
+    },
+    {
+      "r": 2,
+      "mass": 16,
+      "erasures": [
+        0
+      ],
+      "max_release": 15,
+      "consumed": 3
+    },
+    {
+      "r": 3,
+      "mass": 20,
+      "erasures": [
+        0
+      ],
+      "max_release": 19,
+      "consumed": 5
+    },
+    {
+      "r": 10,
+      "mass": 48,
+      "erasures": [
+        0
+      ],
+      "max_release": 47,
+      "consumed": 19
+    },
+    {
+      "r": 30,
+      "mass": 128,
+      "erasures": [
+        0
+      ],
+      "max_release": 127,
+      "consumed": 59
+    },
+    {
+      "r": 100,
+      "mass": 408,
+      "erasures": [
+        0
+      ],
+      "max_release": 407,
+      "consumed": 199
+    }
+  ],
+  "nonlifo": {
+    "word": "RRRRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRR",
+    "archives": [
+      {
+        "state": 5,
+        "cells": [
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "lifetimes": [
+          1,
+          2,
+          3
+        ],
+        "return": 9
+      },
+      {
+        "state": 10,
+        "cells": [
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "lifetimes": [
+          1,
+          2,
+          3,
+          6,
+          7,
+          8
+        ],
+        "return": 11
+      },
+      {
+        "state": 17,
+        "cells": [
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "lifetimes": [
+          1,
+          2
+        ],
+        "return": 42
+      },
+      {
+        "state": 18,
+        "cells": [
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "lifetimes": [
+          6,
+          7
+        ],
+        "return": null
+      },
+      {
+        "state": 20,
+        "cells": [
+          [
+            -2,
+            0
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        "lifetimes": [
+          12,
+          18
+        ],
+        "return": 24
+      },
+      {
+        "state": 25,
+        "cells": [
+          [
+            -3,
+            -2
+          ],
+          [
+            -3,
+            -1
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            -2,
+            0
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        "lifetimes": [
+          12,
+          18,
+          21,
+          22,
+          23
+        ],
+        "return": 26
+      },
+      {
+        "state": 32,
+        "cells": [
+          [
+            -2,
+            0
+          ]
+        ],
+        "lifetimes": [
+          12
+        ],
+        "return": null
+      },
+      {
+        "state": 33,
+        "cells": [
+          [
+            -3,
+            -2
+          ],
+          [
+            -3,
+            -1
+          ]
+        ],
+        "lifetimes": [
+          21,
+          22
+        ],
+        "return": null
+      },
+      {
+        "state": 35,
+        "cells": [
+          [
+            -2,
+            -3
+          ],
+          [
+            -1,
+            -2
+          ]
+        ],
+        "lifetimes": [
+          27,
+          33
+        ],
+        "return": 39
+      },
+      {
+        "state": 40,
+        "cells": [
+          [
+            -2,
+            -3
+          ],
+          [
+            -1,
+            -4
+          ],
+          [
+            -1,
+            -3
+          ],
+          [
+            -1,
+            -2
+          ],
+          [
+            0,
+            -4
+          ]
+        ],
+        "lifetimes": [
+          27,
+          33,
+          36,
+          37,
+          38
+        ],
+        "return": 41
+      }
+    ]
+  },
+  "analytic": [
+    "Deleting a nonbridge e creates exactly the bridges separating its endpoints in G-e. They form the unique endpoint-to-endpoint bridge-tree path; every old bridge remains. Restoring/inserting an intracomponent edge contracts precisely that bridge path. All embedded blocks, attachment vertices and remote subtrees are retained.",
+    "The stronger chain-prefix law holds until the next proper r4 or w-nonbridge block, even across z-only erasures; every intervening proper r<=2 w-bridge block retains exact far-side inheritance. The 42-update complete-lifetime replay also verifies a bridge archive created at17 first reactivates42 while newer archives18,32,33 remain dormant.",
+    "After a w-erasure, the signed no-erasure zipper is a simple bridge path from the actual arrival vertex. Its new-chain edges form a prefix; leaving via an old side branch is irreversible until another erasure. The prefix may be empty if a nontrivial block separates the cursor from the next attachment.",
+    "A proper block starts immediately after L, so its incoming port is absent. Its R count is0,1,2,4, never3. For r2, the departure is the sole entry incident edge, hence a leaf bridge. If it is now nonbridge one new arm must reconnect its old far component, leaving at most one external-component import. For r0/1 the same at-most-one bound is immediate.",
+    "For r4 the entry cursor is isolated. After first-arm deletion, no remaining arm into the arrival old component gives exactly that unchanged component. Otherwise remaining three arms connect at most three whole old components. Isolated marked vertices are retained in these component identities. The arbitrary first interval block need not be proper.",
+    "The explicit return-cell formulas give a simple w cycle of4r+8 edges. In the opposite lattice its return edges form2r+2 isolated edges and three2-edge paths, disjoint from the original rod. All doubled return Y<=-1; the only Y=-1 vertices have X=-3 or4r+1, beyond the rod endpoints. New upper-row vertices have Y>=1, so no z cycle can appear.",
+    "In w, first L opens the unique cycle into the serial4r+7 chain. Return vertices have Y<=-1 while newly written upper-row vertices have Y>=1; the standard paired-forest rod induction attaches the growing written path only at the unwritten frontier. Thus every later L is a bridge in both lattices. The exact LRRL word consumes2r-1 further chain edges and has no second erasure for all r>=1."
+  ],
+  "scope": "Full-board graph calculus and finite growing-mass controls. No constant release-length, LIFO theorem, finite summary, renewal budget, capture distinction or universal capture."
+}

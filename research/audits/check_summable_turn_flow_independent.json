@@ -1,0 +1,65 @@
+{
+  "status": "PASS explicit all-lattice summable balanced-turn FLOW relaxation countercontrol, NOT AN ANT ORBIT",
+  "manifest": "28a356641c60aa440e20db3389928b556723eeaf77b5d5c525c6dbe65454d391",
+  "dependencies": {
+    "RECTANGLE_VISIT_FLOW_MANIFEST.json": "ae95dcdef257f2fff6768449011ed58d3bc127cc10602907652d7bfc6be9db8f",
+    "../audits/check_rectangle_visit_flow_independent.json": "62bcf41f75f008eaf74c68ef1c0cd70a2337ce51d1c0204fab663ec23ae12b8b",
+    "../first_principles_new/recurrent_boundary_current.md": "8052d804cf1568e17a1222f41466d7b2754360f7d7a84a36c9f252a6c288a6bd"
+  },
+  "symbolic_corner_matrix": [
+    [
+      "3/4",
+      "1/4",
+      "-1/4",
+      "1/4"
+    ],
+    [
+      "1/4",
+      "3/4",
+      "1/4",
+      "-1/4"
+    ],
+    [
+      "-1/4",
+      "1/4",
+      "3/4",
+      "1/4"
+    ],
+    [
+      "1/4",
+      "-1/4",
+      "1/4",
+      "3/4"
+    ]
+  ],
+  "exact_sector_vertex_checks": 13448,
+  "parameter_controls": [
+    {
+      "r": "1/3",
+      "norm": "16",
+      "origin": "1/9"
+    },
+    {
+      "r": "1/2",
+      "norm": "36",
+      "origin": "1/16"
+    },
+    {
+      "r": "2/3",
+      "norm": "100",
+      "origin": "1/36"
+    },
+    {
+      "r": "9/10",
+      "norm": "1444",
+      "origin": "1/400"
+    }
+  ],
+  "analytic_review": [
+    "The four-corner linear matrix is checked symbolically: adjacent corner sums equal exactly the shared-face edge pair, opposite corner sums equal one-half total node mass, and all four sum to total surrounding face mass. Fixed checkerboard direction makes those opposite pairs precisely R andL in both sectors, with every incoming/outgoing incidence conserved.",
+    "All radial adjacent face quadruples are u times(1,r,r,r\u00b2), up to rotation/reflection. Numerators are3+2r-r\u00b2, twice(1+r)\u00b2, and(3r-1)(r+1). Thus every turn is nonnegative for1/3<=r<1 and positive forr>1/3, uniformly over the whole lattice, not by sample extrapolation.",
+    "The exact tensor-product face sum is((1+r)/(1-r))\u00b2, with each face contributing to four node masses. Total turn/head occupation mass is therefore4 times this sum; r1/2 normalization36 and origin1/16 follow. The stationary four-corner visit inequalities also follow directly because each adjacent mass ratio is at leastr, so2 times two predecessor masses is at least4r times local mass.",
+    "This is only a stationary directed edge/turn-frequency relaxation, NOT a finite seed, actual R/L visit alternation, deterministic ant orbit, recurrence example, or global attraction counterexample. It rules out deriving vanishing localized frequency from one-site equalR/L balance and conservation alone. The finite confined-interval theorem remains untouched."
+  ],
+  "scope": "Stationary one-site frequency relaxation only; no finite seed, actual visit alternation, ant recurrence, or global attraction counterexample"
+}

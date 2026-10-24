@@ -1,0 +1,73 @@
+{
+  "status": "PASS exact even-gap integer transfer/residue projection and unbounded OPEN clock family only",
+  "proof_sha256": "d3db81f88726e44a98b49cb50fe8deb0f1ac4c4027bc31814af8fe20373424b1",
+  "bindings_sha256": "e4003d7b0d7c3e54a6914717bccf57170e9b873b939dfc3a1620930aa1604ad7",
+  "matrix_cube": [
+    [
+      -3,
+      0,
+      0
+    ],
+    [
+      0,
+      -3,
+      0
+    ],
+    [
+      0,
+      0,
+      -3
+    ]
+  ],
+  "local_count_controls": 144,
+  "transfer_controls": 7717,
+  "residue_cycle_counts": {
+    "1": 4,
+    "3": 20
+  },
+  "literal_controls": [
+    {
+      "k": 1,
+      "P": 130,
+      "internal_edges": 4,
+      "chains": 8
+    },
+    {
+      "k": 2,
+      "P": 258,
+      "internal_edges": 8,
+      "chains": 16
+    },
+    {
+      "k": 3,
+      "P": 386,
+      "internal_edges": 12,
+      "chains": 24
+    },
+    {
+      "k": 5,
+      "P": 642,
+      "internal_edges": 20,
+      "chains": 40
+    },
+    {
+      "k": 10,
+      "P": 1282,
+      "internal_edges": 40,
+      "chains": 80
+    },
+    {
+      "k": 25,
+      "P": 3202,
+      "internal_edges": 100,
+      "chains": 200
+    }
+  ],
+  "analytic_review": [
+    "Even vertical N/R=I-h,N/L=h,S/R=J-2I+3h,S/L=J-I+h and odd horizontal W/R=I-l,W/L=l,E/R=J-l,E/L=I+J-3l derive all admissible integer intervals by nonnegativity. Every bin allocation has an alternating-position word, but chronology is not implied. Empty allzero cell is allowed at count level.",
+    "At the even-level cut, parity-sector orientation leaves precisely W_t,N_(t-1) crossing forward and S_(t+1),S_(t+3) backward. Complete finite read support and balanced actual traffic give w+n-s-u=0. Processing odd then even gives displayed integer map and A^3=-3I, hence three-step residue period, not integer-state finiteness.",
+    "Formulae valid for every k>=1: named clocks occupy twelve disjoint residues per128block and lie in0..P-1; P mod4=2 equals the phase shift of full drift(3,1). Four exact internal ordinal edges perblock have zero voltage and +1clock; every remaining port is UNKNOWN. The graph has8k open chains and no internal cycle.",
+    "The open family is not a finite physical factor, complete WHITE front, controller, g8 prefix-reachable state or counterexample to attraction. Zero odd output on a partial band is not a zero-output whole front.",
+    "The list of exact boundary metadata is understood as sufficient data for faithful explicit ordinal transfer, not a proved lower bound on all possible representations. No impossibility of every finite quotient is inferred from the unbounded displayed family."
+  ]
+}

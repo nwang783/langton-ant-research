@@ -1,0 +1,443 @@
+{
+  "records": [
+    {
+      "name": "two_state_recursive_cycle",
+      "result": {
+        "status": "decided",
+        "possible": false,
+        "nested_root": false,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "finite_black_requirement": true,
+        "conflict_cells": {
+          "(-1, -1)": {
+            "x": 0,
+            "y": 0
+          },
+          "(-1, 1)": {
+            "x": 0,
+            "y": 0
+          },
+          "(1, -1)": {
+            "x": 0,
+            "y": 0
+          },
+          "(1, 1)": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "seed": null,
+        "schemes": 6,
+        "rational_parity": {
+          "0": {
+            "numerator": "1",
+            "denominator": "y*z + 1",
+            "states": 2
+          },
+          "2": {
+            "numerator": "1",
+            "denominator": "y*z + 1",
+            "states": 2
+          },
+          "4": {
+            "numerator": "1",
+            "denominator": "y*z + 1",
+            "states": 2
+          },
+          "6": {
+            "numerator": "1",
+            "denominator": "y*z + 1",
+            "states": 2
+          },
+          "8": {
+            "numerator": "x*y*z + x*z + y**2*z**2 + y*z + z + 1",
+            "denominator": "y**3*z**3 + y**2*z**2 + y*z + 1",
+            "states": 6
+          },
+          "9": {
+            "numerator": "x*y**2*z**2 + x*y*z**2 + y*z**2 + 1",
+            "denominator": "y**3*z**3 + y**2*z**2 + y*z + 1",
+            "states": 6
+          }
+        },
+        "requirement_state_counts": {
+          "(-1, -1)": [
+            3,
+            3
+          ],
+          "(-1, 1)": [
+            2,
+            2
+          ],
+          "(1, -1)": [
+            3,
+            3
+          ],
+          "(1, 1)": [
+            3,
+            3
+          ]
+        },
+        "seconds": 0.0981269890035037
+      },
+      "checks": {
+        "exact_walk_cover_checks": 55,
+        "selected_prior_parity_checks": 72,
+        "largest_literal_block": 21,
+        "max_scheme_cycles": 2,
+        "nontrivial_scc_sizes": [
+          2
+        ]
+      }
+    },
+    {
+      "name": "quadratic_nested_axial",
+      "result": {
+        "status": "decided",
+        "possible": false,
+        "nested_root": true,
+        "growing_root": true,
+        "accepted_growing_model": false,
+        "finite_black_requirement": false,
+        "conflict_cells": {
+          "(-1, -1)": {
+            "x": 0,
+            "y": 0
+          },
+          "(-1, 1)": {
+            "x": 0,
+            "y": 0
+          },
+          "(1, -1)": {
+            "x": 0,
+            "y": 0
+          },
+          "(1, 1)": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "seed": null,
+        "schemes": 21,
+        "rational_parity": {
+          "0": {
+            "numerator": "1",
+            "denominator": "x**2*y**3*z + 1",
+            "states": 5
+          },
+          "1": {
+            "numerator": "1",
+            "denominator": "x**2*y**3*z + 1",
+            "states": 5
+          },
+          "2": {
+            "numerator": "1",
+            "denominator": "x**2*y**3*z + 1",
+            "states": 5
+          },
+          "3": {
+            "numerator": "1",
+            "denominator": "x**2*y**3*z + 1",
+            "states": 5
+          },
+          "4": {
+            "numerator": "1",
+            "denominator": "x**2*y**3*z + 1",
+            "states": 5
+          },
+          "5": {
+            "numerator": "1",
+            "denominator": "x**2*y**3*z + 1",
+            "states": 5
+          },
+          "6": {
+            "numerator": "1",
+            "denominator": "x**2*y**3*z + 1",
+            "states": 5
+          },
+          "7": {
+            "numerator": "1",
+            "denominator": "x**2*y**3*z + 1",
+            "states": 5
+          },
+          "8": {
+            "numerator": "x**7*y**5*z**2 + x**7*y**4*z**2 + x**6*y**6*z**2 + x**6*y**5*z**2 + x**6*y**4*z**2 + x**6*y**3*z**2 + x**5*y**6*z**2 + x**5*y**5*z**2 + x**4*y**3*z**2 + x**3*y**5*z**2 + x**3*y**4*z**2 + x**3*y**3*z + x**3*y**2*z + x**2*y**2*z + x**2*y*z + 1",
+            "denominator": "x**6*y**7*z**3 + x**4*y**6*z**2 + x**2*y*z + 1",
+            "states": 31
+          },
+          "9": {
+            "numerator": "x**4*y**2*z + x**4*y*z + x**3*y**3*z + x**3*y**2*z + x**3*y*z + x**3*z + x**2*y**3*z + x**2*y**2*z + x**2*z + y**2*z + y*z + 1",
+            "denominator": "x**4*y**4*z**2 + x**2*y**3*z + x**2*y*z + 1",
+            "states": 36
+          }
+        },
+        "requirement_state_counts": {
+          "(-1, -1)": [
+            5,
+            5
+          ],
+          "(-1, 1)": [
+            2,
+            2
+          ],
+          "(1, -1)": [
+            8,
+            9
+          ],
+          "(1, 1)": [
+            4,
+            4
+          ]
+        },
+        "seconds": 0.9510295299987774
+      },
+      "checks": {
+        "exact_walk_cover_checks": 651,
+        "selected_prior_parity_checks": 1092,
+        "largest_literal_block": 925,
+        "max_scheme_cycles": 3,
+        "nontrivial_scc_sizes": []
+      }
+    },
+    {
+      "name": "quadratic_nested_oblique",
+      "result": {
+        "status": "decided",
+        "possible": false,
+        "nested_root": true,
+        "growing_root": true,
+        "accepted_growing_model": false,
+        "finite_black_requirement": false,
+        "conflict_cells": {
+          "(-1, -1)": {
+            "x": 0,
+            "y": 0
+          },
+          "(-1, 1)": {
+            "x": 0,
+            "y": 0
+          },
+          "(1, -1)": {
+            "x": 0,
+            "y": 0
+          },
+          "(1, 1)": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "seed": null,
+        "schemes": 46,
+        "rational_parity": {
+          "0": {
+            "numerator": "1",
+            "denominator": "y*z + 1",
+            "states": 2
+          },
+          "1": {
+            "numerator": "1",
+            "denominator": "y*z + 1",
+            "states": 2
+          },
+          "2": {
+            "numerator": "1",
+            "denominator": "y*z + 1",
+            "states": 2
+          },
+          "3": {
+            "numerator": "1",
+            "denominator": "y*z + 1",
+            "states": 2
+          },
+          "4": {
+            "numerator": "1",
+            "denominator": "y*z + 1",
+            "states": 2
+          },
+          "5": {
+            "numerator": "1",
+            "denominator": "y*z + 1",
+            "states": 2
+          },
+          "6": {
+            "numerator": "1",
+            "denominator": "y*z + 1",
+            "states": 2
+          },
+          "7": {
+            "numerator": "1",
+            "denominator": "y*z + 1",
+            "states": 2
+          },
+          "8": {
+            "numerator": "x**3*y**4*z**2 + x**3*y**3*z**2 + x**3*y**2*z + x**3*y*z**2 + x**2*y**3*z**2 + x**2*y*z**2 + x*y**4*z**2 + x*y**3*z**2 + x*y*z + x*z + z + 1",
+            "denominator": "x**3*y**4*z**3 + x**3*y**2*z + y**2*z**2 + 1",
+            "states": 57
+          },
+          "9": {
+            "numerator": "x**3*y*z + x**2*y**3*z + x**2*y**2*z + x**2*y*z + x**2*z + x*y**2*z + x*z + y**3*z + y**2*z + 1",
+            "denominator": "x**3*y**3*z**2 + x**3*y**2*z + y*z + 1",
+            "states": 67
+          },
+          "10": {
+            "numerator": "x**3*y*z + x**2*y**3*z + x**2*y**2*z + x**2*y*z + x**2*z + x*y**2*z + x*z + y**3*z + y**2*z + 1",
+            "denominator": "x**3*y**3*z**2 + x**3*y**2*z + y*z + 1",
+            "states": 67
+          }
+        },
+        "requirement_state_counts": {
+          "(-1, -1)": [
+            3,
+            3
+          ],
+          "(-1, 1)": [
+            2,
+            2
+          ],
+          "(1, -1)": [
+            7,
+            6
+          ],
+          "(1, 1)": [
+            25,
+            22
+          ]
+        },
+        "seconds": 3.2525950449926313
+      },
+      "checks": {
+        "exact_walk_cover_checks": 791,
+        "selected_prior_parity_checks": 2644,
+        "largest_literal_block": 2161,
+        "max_scheme_cycles": 3,
+        "nontrivial_scc_sizes": [
+          2
+        ]
+      }
+    },
+    {
+      "name": "cubic_mixed_recursive",
+      "result": {
+        "status": "decided",
+        "possible": false,
+        "nested_root": true,
+        "growing_root": true,
+        "accepted_growing_model": false,
+        "finite_black_requirement": false,
+        "conflict_cells": {
+          "(-1, -1)": {
+            "x": 0,
+            "y": 0
+          },
+          "(-1, 1)": {
+            "x": 0,
+            "y": 0
+          },
+          "(1, -1)": {
+            "x": 0,
+            "y": 0
+          },
+          "(1, 1)": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "seed": null,
+        "schemes": 62,
+        "rational_parity": {
+          "0": {
+            "numerator": "1",
+            "denominator": "x**2*y**3*z + 1",
+            "states": 5
+          },
+          "1": {
+            "numerator": "1",
+            "denominator": "x**2*y**3*z + 1",
+            "states": 5
+          },
+          "2": {
+            "numerator": "1",
+            "denominator": "x**2*y**3*z + 1",
+            "states": 5
+          },
+          "3": {
+            "numerator": "1",
+            "denominator": "x**2*y**3*z + 1",
+            "states": 5
+          },
+          "4": {
+            "numerator": "1",
+            "denominator": "x**2*y**3*z + 1",
+            "states": 5
+          },
+          "5": {
+            "numerator": "1",
+            "denominator": "x**2*y**3*z + 1",
+            "states": 5
+          },
+          "6": {
+            "numerator": "1",
+            "denominator": "x**2*y**3*z + 1",
+            "states": 5
+          },
+          "7": {
+            "numerator": "1",
+            "denominator": "x**2*y**3*z + 1",
+            "states": 5
+          },
+          "8": {
+            "numerator": "x**12*y**9*z**3 + x**12*y**8*z**3 + x**11*y**10*z**3 + x**11*y**9*z**3 + x**11*y**8*z**3 + x**11*y**7*z**3 + x**9*y**11*z**3 + x**9*y**10*z**3 + x**9*y**9*z**3 + x**9*y**8*z**3 + x**9*y**7*z**3 + x**8*y**10*z**3 + x**8*y**9*z**3 + x**8*y**7*z**2 + x**8*y**6*z**2 + x**7*y**11*z**3 + x**7*y**10*z**3 + x**7*y**6*z**2 + x**7*y**4*z**2 + x**6*y**6*z**2 + x**6*y**5*z**2 + x**6*y**4*z**2 + x**6*y**3*z**2 + x**5*y**6*z**2 + x**5*y**5*z**2 + x**5*y**4*z + x**4*y**3*z**2 + x**3*y**5*z**2 + x**3*y**4*z**2 + x**3*y**3*z + x**3*y**2*z + x**2*y**2*z + x**2*y*z + 1",
+            "denominator": "x**11*y**11*z**4 + x**9*y**10*z**3 + x**7*y**5*z**2 + x**6*y**7*z**3 + x**5*y**4*z + x**4*y**6*z**2 + x**2*y*z + 1",
+            "states": 789
+          },
+          "9": {
+            "numerator": "x**9*y**6*z**2 + x**9*y**5*z**2 + x**8*y**7*z**2 + x**8*y**6*z**2 + x**8*y**5*z**2 + x**8*y**4*z**2 + x**7*y**4*z**2 + x**6*y**8*z**2 + x**6*y**7*z**2 + x**6*y**6*z**2 + x**6*y**5*z**2 + x**5*y**7*z**2 + x**5*y**6*z**2 + x**5*y**4*z + x**4*y**8*z**2 + x**4*y**7*z**2 + x**4*y**2*z + x**4*y*z + x**3*y**3*z + x**3*y**2*z + x**3*y*z + x**3*z + x**2*y**3*z + x**2*y**2*z + x**2*z + y**2*z + y*z + 1",
+            "denominator": "x**9*y**8*z**3 + x**7*y**7*z**2 + x**7*y**5*z**2 + x**5*y**4*z + x**4*y**4*z**2 + x**2*y**3*z + x**2*y*z + 1",
+            "states": 507
+          },
+          "10": {
+            "numerator": "x**5*y**3*z + x**4*y**5*z + x**4*y**4*z + x**4*y**3*z + x**4*y**2*z + x**3*y**4*z + x**3*y**2*z + x**2*y**5*z + x**2*y**4*z + 1",
+            "denominator": "x**7*y**7*z**2 + x**5*y**4*z + x**2*y**3*z + 1",
+            "states": 104
+          },
+          "11": {
+            "numerator": "x**5*y**3*z + x**4*y**5*z + x**4*y**4*z + x**4*y**3*z + x**4*y**2*z + x**3*y**4*z + x**3*y**2*z + x**2*y**5*z + x**2*y**4*z + 1",
+            "denominator": "x**7*y**7*z**2 + x**5*y**4*z + x**2*y**3*z + 1",
+            "states": 104
+          }
+        },
+        "requirement_state_counts": {
+          "(-1, -1)": [
+            5,
+            5
+          ],
+          "(-1, 1)": [
+            2,
+            2
+          ],
+          "(1, -1)": [
+            4,
+            4
+          ],
+          "(1, 1)": [
+            10,
+            10
+          ]
+        },
+        "seconds": 48.74024949299928
+      },
+      "checks": {
+        "exact_walk_cover_checks": 1351,
+        "selected_prior_parity_checks": 11396,
+        "largest_literal_block": 22193,
+        "max_scheme_cycles": 4,
+        "nontrivial_scc_sizes": [
+          2
+        ]
+      }
+    }
+  ],
+  "seconds": 56.26168343500467,
+  "scope": "Author-side extended exact all-walk scheme and literal selected-prior parity controls. No independent signoff and no new accepted ant model."
+}

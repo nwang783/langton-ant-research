@@ -1,0 +1,75 @@
+{
+  "status": "complete finite five-cell family with eternal standard tail",
+  "phase": 61,
+  "domain": "m>=100,n-m>=100",
+  "variables": "u=m-100>=0,v=n-m-100>=0",
+  "source_capture_time": [
+    0,
+    0,
+    31594
+  ],
+  "total_capture_time": [
+    728,
+    624,
+    361876
+  ],
+  "total_capture_pose": [
+    [
+      [
+        -2,
+        0,
+        -148
+      ],
+      [
+        2,
+        0,
+        262
+      ]
+    ],
+    0
+  ],
+  "tail": {
+    "drift": [
+      -2,
+      2
+    ],
+    "heading": 0,
+    "required_cells": 40,
+    "odd_cells": 32
+  },
+  "tail_phase": 0,
+  "all_future_z_upper": 123,
+  "remote_d_never_read": true,
+  "statistics": {
+    "finite_read_constraints": 3395,
+    "periodic_read_constraints": 40,
+    "affine_guards": 2454,
+    "excluded_isolated_equalities": 30999744
+  },
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        0,
+        31594
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            15
+          ],
+          [
+            0,
+            0,
+            37
+          ]
+        ],
+        0
+      ]
+    }
+  ],
+  "template_sha256": "6b9abaf3127d41fcc9c4957c8b63fd5f21d4dbe26be321677ba8a8d7b23ff505"
+}

@@ -1,0 +1,50 @@
+{
+  "status": "PASS direct root-free M-4/C-max contact forces a consecutive two-level essential ladder",
+  "author_note": "ef3f393dc05bd34853adf0ad576f202262e8b5c6e7e221b5436f29c6bdd5d01f",
+  "source_incoming": [
+    1,
+    3,
+    1,
+    3
+  ],
+  "source_outgoing": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "target_incoming": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "target_outgoing": [
+    3,
+    1,
+    3,
+    1
+  ],
+  "four_actual_edge_event_pairs": [
+    "RR",
+    "LL",
+    "RR",
+    "LL"
+  ],
+  "independent_dependency_reports": {
+    "check_nonleaf_max_RIGHT_tradeoff_independent": "8ef38a1145eca1dcf92ade21e071ef371d3466c77ef801965ce1aa9b25e6a503",
+    "check_contractible_canonical_face_classification_independent": "0d2f1992c427da962b46d7abf2d8afd234941612876758a0a03449ec8703d977",
+    "check_prepared_plateau_reverse_independent": "cce4d238fae9162fe65b1d66dd2f09c4a190d6bfe145bb33b7d8301b99e1d24f",
+    "check_simultaneous_scalar_canonical_embedding_independent": "5ba417cbfc6e9db91fdb6c6f37372fb26ad076b99f293842a819830088108703",
+    "check_essential_contour_walk_localization_independent": "4a95d65a044e28365c916860fb6eb7047adf9248eaadbeca86ae86a936562ade"
+  },
+  "analytic_review": [
+    "The stated hypothesis is a DIRECT physical edge between originalL local-minimumQ=M-4 and C=M. Its flow is exactly4. Cap4 forces all four endpoint reads on that port, sourceEWEW/targetSSSS after rotation. All sourceL1/L3 and target occurrences remain; actual T_r(target)=T_r(source)+1 and their spans agree. Ordinals1..4 have levelsM,M-1,M-2,M-3.",
+    "The signed canonical swap sends ordinal2 to the upper M-1 circle and ordinal3 to the lower M-2 circle, yielding two parallel graph exchange edges at the two physical endpoints. Endpoints are opposite checker parity, impossible to identify under actual full drift; the nodes have distinct sheet labels. This is not a primitive-period or an R-only transport simplification.",
+    "At the upper circle the local transition is RIGHT with C=M on geometricRIGHT and Q onLEFT. If clockwise contractible, the unconditional signed classification makes it a unit C loop of heightj=M-1, incompatible with its inside C=M sector. If counterclockwise, its boundedLEFT disk contains Q; since m<=j-2 the whole corner-connected Q is confined there by the dual low-L barrier. The root-free prepared reverse theorem supplies an essential selected curve in Q, impossible in a bounded physical lift.",
+    "At the lower circle the transition is LEFT around Q with m=j-2. Clockwise contractibility is impossible because a signed clockwise circle has onlyRIGHT corners. Counterclockwise contractibility again puts Q in its boundedLEFT disk, and the exact equality-case low-L barrier confines the WHOLE plateau. Only Q-collar reverseWHITE is needed; BLACK reverse cells elsewhere remain untouched.",
+    "Thus both circles are essential. The simultaneous scalar field places their shared-edge crossing points at adjacent half-levels. The open connector contains NO canonical half-level at any sheet. An additional essential circle between them would separate every path across their intermediate annulus, contradicting this connector; hence they are consecutive. The annulus orientation gives equal winding signs, as in the independently signed scalar exchange theorem.",
+    "The exact ordered essential walk therefore contains consecutiveUP labelsM-2,M-1 or consecutiveDOWN labelsM-1,M-2. K1 ceilingM-1 makes this an ascent/descent of depth at least2, not a depth-one valley or an unattested temporal ladder. Existing distinct-flow4 parallel-pair rank and even beta imply beta>=2 here, with no upper bound and no new charge per renewal.",
+    "This does not prove that any root-freeM-4 plateau touches C=M. Intermediate-height shielding, other supplier routes, existing odd output, and repeated use of the same two essential nodes remain possible. No whole-front or finite-seed capture exclusion is inferred."
+  ]
+}

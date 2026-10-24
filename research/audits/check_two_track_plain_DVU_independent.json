@@ -1,0 +1,652 @@
+{
+  "status": "PASS exact UCC/plain-DVU south/F/plain-DVU north/attempted-U two-track family impossible through targetU13",
+  "manifest_sha256": "6d9a85d89ffbf04d4b6c10441a1d2304a5fd663686f05eff8a6d970fd18b3b7d",
+  "dependencies": {
+    "two_track_UCC_F_return_2026-10-24/manifest.json": "bcd968da47b1434133ad7d121b53b7e20e0820bc5cb00d9d7535c5577675b2a4",
+    "audits/check_two_track_UCC_F_guard_independent.json": "d5b90a66a4f8889b602fd85bf143f399cf47cf4a557fe977acd6230cfd0762e2",
+    "literal_ownership_conventions_2026-10-24/canonical_read_ownership.py": "041b40e04a0f71a6b9511abf1d15b1d86c548e74f4f99281477c115b72036ea2",
+    "word_stabilization/shifted1_llrlrrrrlll_fold_coalesced_port_quotient.json": "216ef5edde9404799744b5d9ab3d1fe62f55846cbe97e88f82395b195765ec35"
+  },
+  "south16": [
+    {
+      "full_plain_source": "D",
+      "fresh_O_slot": [
+        2,
+        0
+      ],
+      "required_S_entry": [
+        1,
+        0
+      ],
+      "all_possible_prior_rail_count_solutions": [],
+      "exclusion": "requires_head_right_of_all_S_rail_heads"
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_O_slot": [
+        0,
+        0
+      ],
+      "required_S_entry": [
+        -1,
+        0
+      ],
+      "all_possible_prior_rail_count_solutions": [],
+      "exclusion": "no_nonnegative_prefix_count_solution"
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_O_slot": [
+        0,
+        1
+      ],
+      "required_S_entry": [
+        -1,
+        1
+      ],
+      "all_possible_prior_rail_count_solutions": [
+        {
+          "d": 0,
+          "v": 0,
+          "u": 1
+        }
+      ],
+      "exclusion": "unique_prefix_U_contains_forbidden_UCCU"
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_O_slot": [
+        1,
+        0
+      ],
+      "required_S_entry": [
+        0,
+        0
+      ],
+      "all_possible_prior_rail_count_solutions": [],
+      "exclusion": "requires_head_right_of_all_S_rail_heads"
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_O_slot": [
+        2,
+        0
+      ],
+      "required_S_entry": [
+        1,
+        0
+      ],
+      "all_possible_prior_rail_count_solutions": [],
+      "exclusion": "requires_head_right_of_all_S_rail_heads"
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_O_slot": [
+        2,
+        1
+      ],
+      "required_S_entry": [
+        1,
+        1
+      ],
+      "all_possible_prior_rail_count_solutions": [],
+      "exclusion": "requires_head_right_of_all_S_rail_heads"
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_O_slot": [
+        2,
+        2
+      ],
+      "required_S_entry": [
+        1,
+        2
+      ],
+      "all_possible_prior_rail_count_solutions": [],
+      "exclusion": "requires_head_right_of_all_S_rail_heads"
+    },
+    {
+      "full_plain_source": "U",
+      "fresh_O_slot": [
+        -1,
+        2
+      ],
+      "required_S_entry": [
+        -2,
+        2
+      ],
+      "all_possible_prior_rail_count_solutions": [
+        {
+          "d": 0,
+          "v": 1,
+          "u": 0
+        }
+      ],
+      "exclusion": "unique_prefix_V_contains_forbidden_UCCVU"
+    },
+    {
+      "full_plain_source": "U",
+      "fresh_O_slot": [
+        0,
+        0
+      ],
+      "required_S_entry": [
+        -1,
+        0
+      ],
+      "all_possible_prior_rail_count_solutions": [],
+      "exclusion": "no_nonnegative_prefix_count_solution"
+    },
+    {
+      "full_plain_source": "U",
+      "fresh_O_slot": [
+        0,
+        1
+      ],
+      "required_S_entry": [
+        -1,
+        1
+      ],
+      "all_possible_prior_rail_count_solutions": [
+        {
+          "d": 0,
+          "v": 0,
+          "u": 1
+        }
+      ],
+      "exclusion": "unique_prefix_U_contains_forbidden_UCCU"
+    },
+    {
+      "full_plain_source": "U",
+      "fresh_O_slot": [
+        1,
+        0
+      ],
+      "required_S_entry": [
+        0,
+        0
+      ],
+      "all_possible_prior_rail_count_solutions": [],
+      "exclusion": "requires_head_right_of_all_S_rail_heads"
+    },
+    {
+      "full_plain_source": "U",
+      "fresh_O_slot": [
+        1,
+        1
+      ],
+      "required_S_entry": [
+        0,
+        1
+      ],
+      "all_possible_prior_rail_count_solutions": [],
+      "exclusion": "requires_head_right_of_all_S_rail_heads"
+    },
+    {
+      "full_plain_source": "U",
+      "fresh_O_slot": [
+        1,
+        2
+      ],
+      "required_S_entry": [
+        0,
+        2
+      ],
+      "all_possible_prior_rail_count_solutions": [],
+      "exclusion": "requires_head_right_of_all_S_rail_heads"
+    },
+    {
+      "full_plain_source": "U",
+      "fresh_O_slot": [
+        1,
+        3
+      ],
+      "required_S_entry": [
+        0,
+        3
+      ],
+      "all_possible_prior_rail_count_solutions": [],
+      "exclusion": "requires_head_right_of_all_S_rail_heads"
+    },
+    {
+      "full_plain_source": "U",
+      "fresh_O_slot": [
+        2,
+        0
+      ],
+      "required_S_entry": [
+        1,
+        0
+      ],
+      "all_possible_prior_rail_count_solutions": [],
+      "exclusion": "requires_head_right_of_all_S_rail_heads"
+    },
+    {
+      "full_plain_source": "U",
+      "fresh_O_slot": [
+        2,
+        1
+      ],
+      "required_S_entry": [
+        1,
+        1
+      ],
+      "all_possible_prior_rail_count_solutions": [],
+      "exclusion": "requires_head_right_of_all_S_rail_heads"
+    }
+  ],
+  "north16": [
+    {
+      "full_plain_source": "D",
+      "fresh_O_slot": [
+        2,
+        0
+      ],
+      "required_N_entry": [
+        -3,
+        0
+      ],
+      "genuine_full_exit": [
+        -2,
+        1,
+        0
+      ],
+      "exit_Y_minus_target_Y": 3
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_O_slot": [
+        0,
+        0
+      ],
+      "required_N_entry": [
+        -1,
+        0
+      ],
+      "genuine_full_exit": [
+        0,
+        3,
+        0
+      ],
+      "exit_Y_minus_target_Y": 5
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_O_slot": [
+        0,
+        1
+      ],
+      "required_N_entry": [
+        -1,
+        -1
+      ],
+      "genuine_full_exit": [
+        0,
+        2,
+        0
+      ],
+      "exit_Y_minus_target_Y": 4
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_O_slot": [
+        1,
+        0
+      ],
+      "required_N_entry": [
+        -2,
+        0
+      ],
+      "genuine_full_exit": [
+        -1,
+        3,
+        0
+      ],
+      "exit_Y_minus_target_Y": 5
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_O_slot": [
+        2,
+        0
+      ],
+      "required_N_entry": [
+        -3,
+        0
+      ],
+      "genuine_full_exit": [
+        -2,
+        3,
+        0
+      ],
+      "exit_Y_minus_target_Y": 5
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_O_slot": [
+        2,
+        1
+      ],
+      "required_N_entry": [
+        -3,
+        -1
+      ],
+      "genuine_full_exit": [
+        -2,
+        2,
+        0
+      ],
+      "exit_Y_minus_target_Y": 4
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_O_slot": [
+        2,
+        2
+      ],
+      "required_N_entry": [
+        -3,
+        -2
+      ],
+      "genuine_full_exit": [
+        -2,
+        1,
+        0
+      ],
+      "exit_Y_minus_target_Y": 3
+    },
+    {
+      "full_plain_source": "U",
+      "fresh_O_slot": [
+        -1,
+        2
+      ],
+      "required_N_entry": [
+        0,
+        -2
+      ],
+      "genuine_full_exit": [
+        0,
+        2,
+        0
+      ],
+      "exit_Y_minus_target_Y": 4
+    },
+    {
+      "full_plain_source": "U",
+      "fresh_O_slot": [
+        0,
+        0
+      ],
+      "required_N_entry": [
+        -1,
+        0
+      ],
+      "genuine_full_exit": [
+        -1,
+        4,
+        0
+      ],
+      "exit_Y_minus_target_Y": 6
+    },
+    {
+      "full_plain_source": "U",
+      "fresh_O_slot": [
+        0,
+        1
+      ],
+      "required_N_entry": [
+        -1,
+        -1
+      ],
+      "genuine_full_exit": [
+        -1,
+        3,
+        0
+      ],
+      "exit_Y_minus_target_Y": 5
+    },
+    {
+      "full_plain_source": "U",
+      "fresh_O_slot": [
+        1,
+        0
+      ],
+      "required_N_entry": [
+        -2,
+        0
+      ],
+      "genuine_full_exit": [
+        -2,
+        4,
+        0
+      ],
+      "exit_Y_minus_target_Y": 6
+    },
+    {
+      "full_plain_source": "U",
+      "fresh_O_slot": [
+        1,
+        1
+      ],
+      "required_N_entry": [
+        -2,
+        -1
+      ],
+      "genuine_full_exit": [
+        -2,
+        3,
+        0
+      ],
+      "exit_Y_minus_target_Y": 5
+    },
+    {
+      "full_plain_source": "U",
+      "fresh_O_slot": [
+        1,
+        2
+      ],
+      "required_N_entry": [
+        -2,
+        -2
+      ],
+      "genuine_full_exit": [
+        -2,
+        2,
+        0
+      ],
+      "exit_Y_minus_target_Y": 4
+    },
+    {
+      "full_plain_source": "U",
+      "fresh_O_slot": [
+        1,
+        3
+      ],
+      "required_N_entry": [
+        -2,
+        -3
+      ],
+      "genuine_full_exit": [
+        -2,
+        1,
+        0
+      ],
+      "exit_Y_minus_target_Y": 3
+    },
+    {
+      "full_plain_source": "U",
+      "fresh_O_slot": [
+        2,
+        0
+      ],
+      "required_N_entry": [
+        -3,
+        0
+      ],
+      "genuine_full_exit": [
+        -3,
+        4,
+        0
+      ],
+      "exit_Y_minus_target_Y": 6
+    },
+    {
+      "full_plain_source": "U",
+      "fresh_O_slot": [
+        2,
+        1
+      ],
+      "required_N_entry": [
+        -3,
+        -1
+      ],
+      "genuine_full_exit": [
+        -3,
+        3,
+        0
+      ],
+      "exit_Y_minus_target_Y": 5
+    }
+  ],
+  "south_reason_counts": {
+    "requires_head_right_of_all_S_rail_heads": 11,
+    "no_nonnegative_prefix_count_solution": 2,
+    "unique_prefix_U_contains_forbidden_UCCU": 2,
+    "unique_prefix_V_contains_forbidden_UCCVU": 1
+  },
+  "immutable_short_prefixes": [
+    [
+      "UCCU",
+      70,
+      30,
+      [
+        -1,
+        3
+      ]
+    ],
+    [
+      "UCCVU",
+      89,
+      1,
+      [
+        -1,
+        0
+      ]
+    ]
+  ],
+  "complete_prefix_controls": [
+    {
+      "X": "VVVU",
+      "Y": "U",
+      "deltaU": 0,
+      "seed_mass": 39,
+      "successful_reads": 237,
+      "next_actual_R_cell": [
+        -1,
+        0
+      ],
+      "next_board_mass": 70,
+      "all7_conflict_ticks": {
+        "D": 11,
+        "C": 12,
+        "V": 12,
+        "U": 13,
+        "F": 13,
+        "Q": 13,
+        "B": 13
+      }
+    },
+    {
+      "X": "VVVUV",
+      "Y": "VU",
+      "deltaU": 0,
+      "seed_mass": 43,
+      "successful_reads": 273,
+      "next_actual_R_cell": [
+        -1,
+        0
+      ],
+      "next_board_mass": 82,
+      "all7_conflict_ticks": {
+        "D": 11,
+        "C": 12,
+        "V": 12,
+        "U": 13,
+        "F": 13,
+        "Q": 13,
+        "B": 13
+      }
+    },
+    {
+      "X": "VVVVUU",
+      "Y": "VUU",
+      "deltaU": 0,
+      "seed_mass": 53,
+      "successful_reads": 329,
+      "next_actual_R_cell": [
+        -1,
+        0
+      ],
+      "next_board_mass": 100,
+      "all7_conflict_ticks": {
+        "D": 11,
+        "C": 12,
+        "V": 12,
+        "U": 13,
+        "F": 13,
+        "Q": 13,
+        "B": 13
+      }
+    },
+    {
+      "X": "VVVVV",
+      "Y": "DDU",
+      "deltaU": 1,
+      "seed_mass": 40,
+      "successful_reads": 265,
+      "next_actual_R_cell": [
+        -1,
+        0
+      ],
+      "next_board_mass": 75,
+      "all7_conflict_ticks": {
+        "D": 11,
+        "C": 12,
+        "V": 12,
+        "U": 13,
+        "F": 13,
+        "Q": 13,
+        "B": 13
+      }
+    },
+    {
+      "X": "VVDDU",
+      "Y": "V",
+      "deltaU": -1,
+      "seed_mass": 36,
+      "successful_reads": 229,
+      "next_actual_R_cell": [
+        -1,
+        0
+      ],
+      "next_board_mass": 63,
+      "all7_conflict_ticks": {
+        "D": 11,
+        "C": 12,
+        "V": 12,
+        "U": 13,
+        "F": 13,
+        "Q": 13,
+        "B": 13
+      }
+    }
+  ],
+  "analytic_review": [
+    "Endpoint equations give deltaD=2deltaU,deltaV=-3-2deltaU and dropX=9+dropY>=9, not the narrower equal-D/V-offset assumption. All orders and unbounded nonnegative counts are covered.",
+    "All16 genuine full-output roles regenerated independently. S heads have d+v=-outputx; this exactly bounds the predecessor counts. Unique singleton U or V count vectors force the literal first prefix itself, not merely a chosen ordering. The recycled U q role needs original hole BLACK before R21 and fails UCCVU at89 versus1. V(0,1) is excluded through unique preceding U, not old DV-only first-entry reasoning.",
+    "At foreign entry the hole is localy<=-4 below every F RAW read, and at exit its relativey>=2 lies outsideK. N origins all exit at leasty1 and remaining N motion strictly increasesy, so cannot reach targety-2.",
+    "Full residual export remains exhaustive: every final-R cell outside exitK is in the enumerated true O; entryK identities are actually deleted in first6 reads of each next fullpacket. No untested core-carried identity can become final external BLACK. No intermediate whiteness or postforeign age law is assumed.",
+    "Five actual finite boards including U in both rails and deltaU=-1,0,1 replay completely through targetticks0..12; nextactualR at deleted hole rejects all seven continuations. No completed targetU, proxycontact, otherconnector or general FSA/decidability claim."
+  ]
+}

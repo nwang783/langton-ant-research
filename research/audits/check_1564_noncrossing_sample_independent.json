@@ -1,0 +1,141 @@
+{
+  "status": "PASS independent complete184-cell seven-flight three-wave-period sample",
+  "R": 100,
+  "wave_periods": 3,
+  "source_sha256": "9746d8650e409a1d883717925f15ea1b6dc06323629c77ed41d7306d50354c01",
+  "router_plan_sha256": "e3d6af0700c933ddff96319415e0d59f5b7e0407c883b9f1d990d8d91d87deac",
+  "whole_word_sha256": "65579477fce4cee47a646a69dec550a606622396e6221ccbcc27ce278c182c99",
+  "initial_mass": 184,
+  "minimal_first_L_mass": 184,
+  "unused_initial_black": 0,
+  "raw_reads": 96439,
+  "actual_inverse_history": "LRLRRRRLLL",
+  "actual_K": 1934,
+  "wave_segment_K": 1844,
+  "wave_segment_bad10_starting_after_launch": 2174,
+  "wave_start_time": 91747,
+  "wave_start_mass": 10805,
+  "final_mass": 11117,
+  "final_pose": [
+    36,
+    36,
+    0
+  ],
+  "final_black_sha256": "f0d9a7feb74e0dc84cfbc791e6b0d51682790389e20d10c8fe5734afa871ac7c",
+  "max_reads_one_cell": 17,
+  "segments": [
+    {
+      "kind": "H",
+      "start": 0,
+      "end": 7800,
+      "mass": 1084,
+      "actual_K": 4
+    },
+    {
+      "kind": "router",
+      "start": 7800,
+      "end": 8418,
+      "mass": 1162,
+      "actual_K": 9
+    },
+    {
+      "kind": "H",
+      "start": 8418,
+      "end": 18922,
+      "mass": 2374,
+      "actual_K": 7
+    },
+    {
+      "kind": "router",
+      "start": 18922,
+      "end": 19852,
+      "mass": 2488,
+      "actual_K": 9
+    },
+    {
+      "kind": "H",
+      "start": 19852,
+      "end": 35556,
+      "mass": 4300,
+      "actual_K": 7
+    },
+    {
+      "kind": "router",
+      "start": 35556,
+      "end": 37254,
+      "mass": 4502,
+      "actual_K": 3
+    },
+    {
+      "kind": "H",
+      "start": 37254,
+      "end": 58158,
+      "mass": 6914,
+      "actual_K": 3
+    },
+    {
+      "kind": "router",
+      "start": 58158,
+      "end": 59546,
+      "mass": 7080,
+      "actual_K": 3
+    },
+    {
+      "kind": "H",
+      "start": 59546,
+      "end": 75250,
+      "mass": 8892,
+      "actual_K": 6
+    },
+    {
+      "kind": "router",
+      "start": 75250,
+      "end": 75910,
+      "mass": 8974,
+      "actual_K": 3
+    },
+    {
+      "kind": "H",
+      "start": 75910,
+      "end": 86414,
+      "mass": 10186,
+      "actual_K": 6
+    },
+    {
+      "kind": "router",
+      "start": 86414,
+      "end": 86676,
+      "mass": 10220,
+      "actual_K": 4
+    },
+    {
+      "kind": "H",
+      "start": 86676,
+      "end": 91668,
+      "mass": 10796,
+      "actual_K": 3
+    },
+    {
+      "kind": "H-prefix",
+      "start": 91668,
+      "end": 91723,
+      "mass": 10803,
+      "actual_K": 0
+    },
+    {
+      "kind": "launch",
+      "start": 91723,
+      "end": 91747,
+      "mass": 10805,
+      "actual_K": 23
+    },
+    {
+      "kind": "wave",
+      "start": 91747,
+      "end": 96439,
+      "mass": 11117,
+      "actual_K": 1844
+    }
+  ],
+  "scope": "One supplied complete finite seed and exact finite three-wave episode. No all-parameter family, eventual capture or noncapture, or fixed-mass unbounded-defect conclusion is inferred."
+}

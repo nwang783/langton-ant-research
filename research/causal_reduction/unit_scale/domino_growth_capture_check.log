@@ -1,0 +1,33 @@
+checked 0 / 973 pairs 155 seconds 0.16
+checked 100 / 973 pairs 14695 seconds 0.36
+checked 200 / 973 pairs 29233 seconds 0.51
+checked 300 / 973 pairs 42544 seconds 0.63
+checked 400 / 973 pairs 56159 seconds 0.79
+checked 500 / 973 pairs 69963 seconds 0.92
+checked 600 / 973 pairs 83765 seconds 1.11
+checked 700 / 973 pairs 98431 seconds 1.31
+checked 800 / 973 pairs 112096 seconds 1.49
+checked 900 / 973 pairs 148073 seconds 1.82
+{
+  "status": "EXACT_ALL_PARAMETER_ALL_FUTURE_LEGAL",
+  "scope": "One specified seed family J_r for every integer r>=20, seven finite counted arms followed by the stated infinite104 word.",
+  "minimum_r": 20,
+  "families": 973,
+  "candidate_pairs": 211034,
+  "nonempty_prior_relations": 2493,
+  "failures": [],
+  "tail_start_time": "60*r+777",
+  "tail_start_pose": [
+    "2*r+2",
+    7,
+    "N"
+  ],
+  "tail_period": 104,
+  "tail_drift": [
+    -2,
+    2
+  ],
+  "seconds": 2.5661521430010907,
+  "isl_version": "isl-0.27-GMP",
+  "checker_sha256": "9f20970b01a2629458d2d556299ddf044178202751d9297197f701893a78cf03"
+}

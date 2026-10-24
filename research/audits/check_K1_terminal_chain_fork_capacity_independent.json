@@ -1,0 +1,17 @@
+{
+  "status": "PASS actual terminal canonical chains, disjoint classes and fork-capacity identity",
+  "note_sha256": "31b34f93ccc09757ce49b24c5d75141f0250d306cb291ac098c0b96e3a627ae9",
+  "complete_heading_alternative_controls": 32,
+  "outdegrees": [
+    1,
+    1,
+    0
+  ],
+  "analytic": "Every known corner is checked for the negative same-heading rank1 canonical switch. Q1 has only P0 child, P0 only I, I none. Thus none lies on a canonical cycle. Signed same-level injections plus leaf-vs-degree1 and LEFT-vs-RIGHT/STRAIGHT unique-child turn distinctions prevent all cross-level aliases in the actual full quotient. The three incoming contacts are distinct full four-read classes, off every selected cycle. Finite indegree-one quotient degree balance gives at least n_A branching excess and at least ceil(n_A/2) fork classes, since degree<=3.",
+  "bounds": [
+    "P>=3*ell+12*n_A, to combine with overlapping main-clock bounds only by max",
+    "canonical branching excess>=n_A",
+    "canonical fork classes>=ceil(n_A/2)"
+  ],
+  "scope": "Actual canonical stock/topology reservation only. No initial fuel, odd-output charge for RIGHT ancestors, independent root, new component, repeated ancestor package or general K1 exclusion."
+}

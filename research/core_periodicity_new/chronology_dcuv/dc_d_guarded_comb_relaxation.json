@@ -1,0 +1,28 @@
+{
+  "status": "AUTHOR_GUARDED_UNARY_RELAXATION_PASS_NOT_PHYSICAL",
+  "initial_residual_roots": 12,
+  "checked_C_events": 16000,
+  "packet_instances": 31993,
+  "final_residual_mass": 48012,
+  "core_size": 5,
+  "DC_to_D_age": 7,
+  "D_to_DC_age": 5,
+  "per_stream_DC_head_shift": [
+    1,
+    -3
+  ],
+  "zero_additional_sibling_retirements": true,
+  "role_edges_pass": true,
+  "local_context_band_3x_plus_y": [
+    -4,
+    11
+  ],
+  "parallel_band_separation": 30,
+  "endpoint_continuity_failures": 31992,
+  "scope": "All actual D/DC input/output masks, complete guards, disjoint current/post cores, birth clocks and sectors. Free five-core transport is explicitly inserted between packets. NOT a physical word; does not satisfy the actual head endpoint relation or challenge signed DCV finite-factor bounds.",
+  "dependencies": {
+    "chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "genealogy_saturation_roles_frozen_20261023_0833/01_graph.json": "224ed5b3c8b922402647a55ff0c79563ba6fc706f4d0d7d38204c429fb3be4b6",
+    "check_dc_d_guarded_comb_relaxation.py": "5384d6d984d39adf800d866afadc8742bae01e5a174db735fb752c583a11ab0e"
+  }
+}

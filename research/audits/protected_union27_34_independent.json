@@ -1,0 +1,99 @@
+{
+  "status": "PASS two on-list exclusions",
+  "cases": [
+    {
+      "index": 27,
+      "literal_model": {
+        "status": "PASS independent literal abstraction reconstruction",
+        "source": 4,
+        "target": 0,
+        "target_pose": [
+          3,
+          0,
+          3
+        ],
+        "protected_q": [
+          2,
+          0
+        ],
+        "frozen_bad_list_index_zero_based": 26,
+        "patch_cells": 24,
+        "near_poses": 219,
+        "abstract_states": 3690987520,
+        "transitions": 799,
+        "reentry_poses": 80,
+        "start": [
+          97,
+          3211263,
+          32504
+        ],
+        "dependency_hashes": {
+          "word_stabilization/seven_sub_dcv_star4_kernel.tsv": "51979b66632b81c04b1dd9dbcfa85bf6a6f759db953252e32040ba4605d80146",
+          "word_stabilization/dcv_protected_patch2_kernel.tsv": "395d31eb25954760bbf42520398eb18f510ab97fbee085da683fc9d6374f71ce",
+          "core_periodicity_new/protected_union_case27.json": "9b1ee89a5ee6f866f845771305d4a33b736aca1bb0d0a9092dda1a50d0587bf1",
+          "core_periodicity_new/protected_union_case27.dat": "01513388f71b0a27de4ca42782da2cadf71df75d963125d72c01d2c4a5298d33"
+        }
+      },
+      "invariant_check": {
+        "status": "PASS independent canonical restriction/XOR invariant check",
+        "variables": 24,
+        "positions": 220,
+        "certificate_nodes": 193472,
+        "invariant_states": 320511736,
+        "checks": 880,
+        "canonical_nodes": 196292
+      },
+      "bdd_sha256": "ea4a59893cd86928462c3fc8f5c2eb6e3d491ecf4a2baf5250aaffa4800052fa"
+    },
+    {
+      "index": 34,
+      "literal_model": {
+        "status": "PASS independent literal abstraction reconstruction",
+        "source": 4,
+        "target": 0,
+        "target_pose": [
+          2,
+          2,
+          2
+        ],
+        "protected_q": [
+          2,
+          1
+        ],
+        "frozen_bad_list_index_zero_based": 33,
+        "patch_cells": 20,
+        "near_poses": 198,
+        "abstract_states": 208666624,
+        "transitions": 685,
+        "reentry_poses": 73,
+        "start": [
+          99,
+          917499,
+          65008
+        ],
+        "dependency_hashes": {
+          "word_stabilization/seven_sub_dcv_star4_kernel.tsv": "51979b66632b81c04b1dd9dbcfa85bf6a6f759db953252e32040ba4605d80146",
+          "word_stabilization/dcv_protected_patch2_kernel.tsv": "395d31eb25954760bbf42520398eb18f510ab97fbee085da683fc9d6374f71ce",
+          "core_periodicity_new/protected_union_case34.json": "f7b9cf9185471d29056911a60a808aea26b8c6b2a17837d9edf98c496bff0708",
+          "core_periodicity_new/protected_union_case34.dat": "a9d44b125e68bfd292cdf17c737fc9e0b5d7790d0244c805d06eac6a705475ae"
+        }
+      },
+      "invariant_check": {
+        "status": "PASS independent canonical restriction/XOR invariant check",
+        "variables": 20,
+        "positions": 199,
+        "certificate_nodes": 75426,
+        "invariant_states": 37337207,
+        "checks": 759,
+        "canonical_nodes": 76054
+      },
+      "bdd_sha256": "d1cead1d3f174ac95d8688f2b1af02ea84ab2f0bb1296204912b51fc7e8197e4"
+    }
+  ],
+  "controls": {
+    "status": "PASS",
+    "independent_explicit_graph_controls": 100,
+    "rejected_initial_cube_mutations": 100,
+    "positive_checks": 1800
+  }
+}

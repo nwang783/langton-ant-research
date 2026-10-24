@@ -1,0 +1,46 @@
+{
+  "status": "PASS cap-free GLOBAL-M one-use L3-state no-fall across LRL and equality across LRRL; scoped LL-drop local control",
+  "proof": "58fb54278ae797cc2a643a20177fc6b9b937a9e8fd4ba8074962c41eb391dd20",
+  "certificate": "64ff894f60b223efc3da118e779a599c1a7a1d42d20805a947755018384dadd6",
+  "script": "b439e197fd3743b8b2e2789b2cfe55022f66e4d1ee27c60613cb086dd264808e",
+  "derived_domain_count": 14,
+  "counts": {
+    "open": 5,
+    "rank": 9
+  },
+  "necessary_profiles": [
+    [
+      0,
+      0,
+      "SSNN"
+    ],
+    [
+      0,
+      1,
+      "SSS"
+    ],
+    [
+      1,
+      1,
+      "SSSN"
+    ],
+    [
+      1,
+      1,
+      "SSSNN"
+    ],
+    [
+      1,
+      1,
+      "SSNNS"
+    ]
+  ],
+  "LL_drop_events": 13,
+  "analytic_review": [
+    "Exact LRL counts SinD=2+t,WoutD=2+s and completeWHITE R/L positions give c=k+l-3a+epsilon,n=2(k+l-2a)+epsilon. KnownD NW=M gives a>=c by unrestricted curl, without assuming DfirstRselectsmaximum. Independent position-subset generation proves the derivedn<=5 and all14 candidates, nine physicalrankfailures andfive necessaryopens.",
+    "For bit1->0 the only integerpossibilitya2,c0,epsilon1 forcesSNS. Its actual fourstepA0->R0->C2->D2->A3 skips requiredranks at SAMEphysicalA. The two five-read1->1 readers remain necessaryuncappedescapes, not factors.",
+    "LRRL closingC->A completeportcounts2+t and2+s forcebitequality independentlyofGLOBALM/exteriorcap. Allfour pairs and surviving actualfourR firstreturn plusoptionalL3edge checked. ThreeRIGHTs closeaphysicalsquare, forbidden on the actualembeddedessentialbpath, so allpossiblegaps betweenconsecutiveLEFTs are0/1/2RIGHTs. Everybitfall therefore occursatLL; no pathlength/voltage/lifespan bound is inferred.",
+    "ActualGLOBALM stock-tail fourreadbit1 to evenUportal forcedthree-readbit0 implies someLL, inadditionto the separatelysigned internalRIGHTsingleton. Those are geometricnecessities, not independentfuel payments or a contradiction. Changedendpointroles/startbits are not covered.",
+    "The13eventLLdrop local inventory retains allcompleteports, exactheight/clockconsistency and disjoint injective mod4wholecomponentcalendar. Its exteriorconnections remain unfilled; it is not anactualpreparedfactor orfront."
+  ]
+}

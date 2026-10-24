@@ -1,0 +1,211 @@
+{
+  "scope": "Discovery only constrained triple-circle full odd inventories",
+  "counts": {
+    "(2, 'NOT_EXCLUDED')": 120,
+    "(2, 'EXCLUDED')": 168,
+    "(5, 'NOT_EXCLUDED')": 120,
+    "(5, 'EXCLUDED')": 168
+  },
+  "order_counts": {
+    "(2, 'b<a<=c')": {
+      "NOT_EXCLUDED": 120
+    },
+    "(2, 'a<=b')": {
+      "EXCLUDED": 84
+    },
+    "(2, 'a>c')": {
+      "EXCLUDED": 84
+    },
+    "(5, 'b<a<=c')": {
+      "NOT_EXCLUDED": 120
+    },
+    "(5, 'a<=b')": {
+      "EXCLUDED": 84
+    },
+    "(5, 'a>c')": {
+      "EXCLUDED": 84
+    }
+  },
+  "examples": {
+    "(2, 'NOT_EXCLUDED')": [
+      2,
+      1,
+      2,
+      [
+        0,
+        1,
+        2,
+        5,
+        6,
+        13,
+        8,
+        14
+      ],
+      {
+        "drift": [
+          3,
+          1
+        ],
+        "growth": 8,
+        "orientation_convention": 1,
+        "status": "NOT_EXCLUDED",
+        "reason": "quadratic port sign",
+        "required_signature": 0,
+        "winding": 1,
+        "charges": [
+          [
+            2,
+            2,
+            -2
+          ],
+          [
+            2
+          ]
+        ],
+        "signature": 0,
+        "E": 0,
+        "L": 0,
+        "positive_edges_parity": 1,
+        "endpoint_port_parity": 0,
+        "C_parity": 1,
+        "runs": 14,
+        "odd_edges": 16
+      }
+    ],
+    "(2, 'EXCLUDED')": [
+      2,
+      2,
+      3,
+      [
+        0,
+        1,
+        2,
+        5,
+        6,
+        13,
+        14,
+        20
+      ],
+      {
+        "drift": [
+          3,
+          1
+        ],
+        "growth": 8,
+        "orientation_convention": 1,
+        "status": "EXCLUDED",
+        "reason": "quadratic port sign",
+        "required_signature": 0,
+        "winding": 1,
+        "charges": [
+          [
+            2,
+            2,
+            -2
+          ],
+          [
+            2
+          ]
+        ],
+        "signature": 1,
+        "E": 1,
+        "L": 0,
+        "positive_edges_parity": 1,
+        "endpoint_port_parity": 0,
+        "C_parity": 1,
+        "runs": 23,
+        "odd_edges": 26
+      }
+    ],
+    "(5, 'NOT_EXCLUDED')": [
+      2,
+      1,
+      2,
+      [
+        0,
+        1,
+        2,
+        5,
+        6,
+        13,
+        11,
+        17
+      ],
+      {
+        "drift": [
+          3,
+          1
+        ],
+        "growth": 8,
+        "orientation_convention": 1,
+        "status": "NOT_EXCLUDED",
+        "reason": "quadratic port sign",
+        "required_signature": 0,
+        "winding": 1,
+        "charges": [
+          [
+            2,
+            -2,
+            -2
+          ],
+          [
+            -2
+          ]
+        ],
+        "signature": 0,
+        "E": 0,
+        "L": 0,
+        "positive_edges_parity": 1,
+        "endpoint_port_parity": 0,
+        "C_parity": 1,
+        "runs": 20,
+        "odd_edges": 22
+      }
+    ],
+    "(5, 'EXCLUDED')": [
+      2,
+      2,
+      3,
+      [
+        0,
+        1,
+        2,
+        5,
+        6,
+        13,
+        17,
+        23
+      ],
+      {
+        "drift": [
+          3,
+          1
+        ],
+        "growth": 8,
+        "orientation_convention": 1,
+        "status": "EXCLUDED",
+        "reason": "quadratic port sign",
+        "required_signature": 0,
+        "winding": 1,
+        "charges": [
+          [
+            2,
+            -2,
+            -2
+          ],
+          [
+            -2
+          ]
+        ],
+        "signature": 1,
+        "E": 1,
+        "L": 0,
+        "positive_edges_parity": 1,
+        "endpoint_port_parity": 0,
+        "C_parity": 1,
+        "runs": 23,
+        "odd_edges": 26
+      }
+    ]
+  }
+}

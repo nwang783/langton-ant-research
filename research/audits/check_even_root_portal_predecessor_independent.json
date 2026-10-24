@@ -1,0 +1,212 @@
+{
+  "status": "PASS scoped complete-WHITE GLOBAL-M cap4 exclusion of exact even-root two-read-endpoint LL portal",
+  "bindings": {
+    "even_root_even_endpoint_LL_portals_have_no_incoming_b_predecessor.md": "f85ae1142b0057277d608847f200d26acd4def8c87bb07c07a0b895e5da7e893",
+    "check_even_root_portal_incoming_predecessor.py": "9360da16951d0d73a20c939736e17789139b17439a0a628c0013311d2d528184",
+    "check_even_root_portal_incoming_predecessor.json": "aa9bc25577424aa72c9f1610a92416a889be2365b7507c14ed5a15d465618d77"
+  },
+  "first_square": {
+    "W": {
+      "port": 936,
+      "open": 6,
+      "rank": 13,
+      "higher_C": 4,
+      "clock": 2
+    },
+    "WW": {
+      "port": 933,
+      "open": 9,
+      "rank": 13,
+      "clock": 5,
+      "higher_C": 1
+    },
+    "WWE": {
+      "port": 933,
+      "open": 9,
+      "rank": 13,
+      "clock": 5,
+      "higher_C": 1
+    },
+    "WWEW": {
+      "port": 949,
+      "open": 4,
+      "rank": 6,
+      "clock": 2
+    }
+  },
+  "complete_predecessors": [
+    "W",
+    "WW",
+    "WWE",
+    "WWEW"
+  ],
+  "local_rank_lengths": {
+    "4": 45
+  },
+  "local_clock_weights": {
+    "8": 4,
+    "4": 8,
+    "12": 2
+  },
+  "local_higher_C": [
+    [
+      [
+        "W",
+        "NN",
+        "WEWE"
+      ],
+      [
+        [
+          3,
+          -3
+        ],
+        1
+      ]
+    ],
+    [
+      [
+        "W",
+        "NNN",
+        "WEWE"
+      ],
+      [
+        [
+          3,
+          -3
+        ],
+        2
+      ]
+    ],
+    [
+      [
+        "W",
+        "NSNN",
+        "EE"
+      ],
+      [
+        [
+          3,
+          -3
+        ],
+        2
+      ]
+    ],
+    [
+      [
+        "W",
+        "NSNN",
+        "EEW"
+      ],
+      [
+        [
+          3,
+          -3
+        ],
+        2
+      ]
+    ],
+    [
+      [
+        "WW",
+        "NNNN",
+        "WEWE"
+      ],
+      [
+        [
+          3,
+          -3
+        ],
+        2
+      ]
+    ],
+    [
+      [
+        "WWE",
+        "NNNN",
+        "WEWE"
+      ],
+      [
+        [
+          3,
+          -3
+        ],
+        2
+      ]
+    ]
+  ],
+  "closure": {
+    "rank": 358,
+    "open": 30,
+    "higher_C": 6
+  },
+  "closure_rank_lengths": {
+    "16": 186,
+    "12": 124,
+    "8": 16,
+    "4": 32
+  },
+  "closure_higher_C": [
+    [
+      [
+        -5,
+        -3
+      ],
+      1
+    ],
+    [
+      [
+        -5,
+        -3
+      ],
+      1
+    ],
+    [
+      [
+        -5,
+        -3
+      ],
+      1
+    ],
+    [
+      [
+        -5,
+        -3
+      ],
+      1
+    ],
+    [
+      [
+        -5,
+        -3
+      ],
+      1
+    ],
+    [
+      [
+        -5,
+        -3
+      ],
+      1
+    ]
+  ],
+  "open_profiles": {
+    "('W', 'NSSS', 'EWE')": 4,
+    "('WW', 'NNS', 'WEE')": 4,
+    "('WW', 'NNSS', 'WEEW')": 4,
+    "('WWE', 'NNS', 'WEE')": 6,
+    "('WWE', 'NNSS', 'WEEW')": 6,
+    "('WWEW', 'NNSN', 'WEE')": 6
+  },
+  "no_b_predecessor_networks": 12,
+  "signed_upper_completion_networks": 18,
+  "signed_upper_report": "b80c7a3800f7547cc23e31d20ba62e1554fefbbd902e564a7169d93aa75a5b07",
+  "analytic_review": [
+    "The supplied prior entry-incidence theorem forces q=SSN and C=WWEE in this rotated exact even portal. A b-predecessor of q could geometrically use either its S or N arrival, but C north of q first-departs N away. Thus actual cyclic predecessor is south v, first-departing N; q has exactly one N input. Every complete WHITE cap4 v is W,WW,WWE,WWEW, with no presumed LEFT/RIGHT or incoming multiplicity.",
+    "The selected maximum is the physical C face bottom-left F=(1,0), so independent test translates ALL cells by(-1,-1) to its canonical anchor(0,-1). Opposite face(0,-1) in the original frame is NEVER assumed maximal for W/WW. q SSN has balanced R_S/R_N and transports the known portal maximum to F.",
+    "Independent full products4*31*31 produce exactly28 modes and independently verify every stored local wrong-rank/positive-clock witness. Count propagation uses both directed edges and all zero ports. Three geometric two-neighbor corner additions are derived, not chosen by radius.",
+    "All394 complete closure histories independently reconstructed and matched by full physical words.358 literal same-physical-cell next-rank failures,6 GLOBAL-M contradictions and30 open local networks. No period, lifetime, critical K or fuel condition is used.",
+    "Every W/WW survivor has only W arrivals at v; its only possible physical b predecessor is east X. Every X first R is N and departs E away from v, so there is no b predecessor. Translated full-drift aliases preserve the same local departure and cannot supply the missing physical edge.",
+    "Every other survivor contains the exact four histories of signed65df upper-side completion. Balanced C WWEE transports the known portal M sector to the upper Q sector; independently signed b80c upper-reader cover eliminates all18. No assumption about v side, age, or owner is needed.",
+    "The conclusion is only this specified even-root/two-read-endpoint portal in complete WHITE cap4 GLOBAL-M essential b-circle scope, at any incoming mixed-link length and any critical index. Odd-root EWW, changed endpoint roles, nonmaximum/higher-cap curves and prepared finite F48/F49/F84/F85 remain outside. Weaker local networks remain valid without full completion. No whole-front/classification/fuel theorem follows."
+  ]
+}

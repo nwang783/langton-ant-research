@@ -1,0 +1,100 @@
+{
+  "status": "PASS exact all-ten-packet residual ledger, source geometry, and full unpruned literal kernel input",
+  "packets": [
+    {
+      "packet": "D",
+      "mass_change": 0,
+      "input_output_overlap": [],
+      "context_cells": 12
+    },
+    {
+      "packet": "DC",
+      "mass_change": 3,
+      "input_output_overlap": [],
+      "context_cells": 18
+    },
+    {
+      "packet": "DCC",
+      "mass_change": 6,
+      "input_output_overlap": [],
+      "context_cells": 24
+    },
+    {
+      "packet": "DCCC",
+      "mass_change": 9,
+      "input_output_overlap": [],
+      "context_cells": 25
+    },
+    {
+      "packet": "V",
+      "mass_change": 4,
+      "input_output_overlap": [],
+      "context_cells": 18
+    },
+    {
+      "packet": "VC",
+      "mass_change": 7,
+      "input_output_overlap": [],
+      "context_cells": 24
+    },
+    {
+      "packet": "VCC",
+      "mass_change": 10,
+      "input_output_overlap": [],
+      "context_cells": 30
+    },
+    {
+      "packet": "U",
+      "mass_change": 4,
+      "input_output_overlap": [
+        [
+          -1,
+          2
+        ]
+      ],
+      "context_cells": 22
+    },
+    {
+      "packet": "UC",
+      "mass_change": 7,
+      "input_output_overlap": [
+        [
+          -1,
+          2
+        ]
+      ],
+      "context_cells": 28
+    },
+    {
+      "packet": "UCC",
+      "mass_change": 10,
+      "input_output_overlap": [
+        [
+          -1,
+          2
+        ]
+      ],
+      "context_cells": 34
+    }
+  ],
+  "random_complete_boards": 1000,
+  "hashes": {
+    "macro_words": {
+      "path": "/workspace/shared/langton/word_stabilization/seven_sub_dcvu_port_quotient.json",
+      "sha256": "e5e44c59f20c81e45db81a3b8a9ee53279f0ad70534a9191f43441692c0bc9e8"
+    },
+    "geometry": {
+      "path": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/literal_residual_geometry.json",
+      "sha256": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd"
+    },
+    "ordinary": {
+      "path": "/workspace/shared/langton/word_stabilization/seven_sub_dcvu_patch2_kernel.tsv",
+      "sha256": "c17fe5c0480078446c66bfd7f8655cd69158fb3a70203e81032b3ed05e3e42d6"
+    },
+    "protected": {
+      "path": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/protected_patch2.tsv",
+      "sha256": "edd8d83e17ddaa220c17960315c235ca90fa2fde9045007efabf824d580f74fd"
+    }
+  },
+  "scope": "All-board identity plus finite controls. No DCUV capture or recurrent-type pruning is inferred."
+}

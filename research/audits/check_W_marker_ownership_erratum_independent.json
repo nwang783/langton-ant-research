@@ -1,0 +1,152 @@
+{
+  "status": "PASS mandatory W marker physical-owner correction",
+  "manifest_sha256": "506cb0d1771c0f0ce7317bbdab2a23d6463da8a3437f1995d18148838c6e9295",
+  "canonical_ownership_utility_sha256": "041b40e04a0f71a6b9511abf1d15b1d86c548e74f4f99281477c115b72036ea2",
+  "all_eight_chosen_inputs": [
+    {
+      "packet": "D",
+      "context_tick0": 11,
+      "context_read_number1": 12,
+      "RAW_length": 10,
+      "owner": "next actual word RAW",
+      "owner_tick0": 1,
+      "owner_read_number1": 2,
+      "turn": "L",
+      "next_word_tick0": 1,
+      "next_word_read_number1": 2,
+      "label": "context tick 11 (zero-based), RAW length 10; next actual word RAW tick 1 (zero-based), read 2 (one-based), L",
+      "input_cell": [
+        0,
+        1
+      ],
+      "ordered_W_choice": true
+    },
+    {
+      "packet": "DC",
+      "context_tick0": 11,
+      "context_read_number1": 12,
+      "RAW_length": 25,
+      "owner": "own C-tail 1 RAW",
+      "owner_tick0": 1,
+      "owner_read_number1": 2,
+      "turn": "L",
+      "next_word_tick0": null,
+      "next_word_read_number1": null,
+      "label": "context tick 11 (zero-based), RAW length 25; own C-tail 1 RAW tick 1 (zero-based), read 2 (one-based), L",
+      "input_cell": [
+        0,
+        1
+      ],
+      "ordered_W_choice": true
+    },
+    {
+      "packet": "V",
+      "context_tick0": 13,
+      "context_read_number1": 14,
+      "RAW_length": 18,
+      "owner": "own V-base RAW",
+      "owner_tick0": 13,
+      "owner_read_number1": 14,
+      "turn": "L",
+      "next_word_tick0": null,
+      "next_word_read_number1": null,
+      "label": "context tick 13 (zero-based), RAW length 18; own V-base RAW tick 13 (zero-based), read 14 (one-based), L",
+      "input_cell": [
+        1,
+        2
+      ],
+      "ordered_W_choice": true
+    },
+    {
+      "packet": "VC",
+      "context_tick0": 13,
+      "context_read_number1": 14,
+      "RAW_length": 33,
+      "owner": "own V-base RAW",
+      "owner_tick0": 13,
+      "owner_read_number1": 14,
+      "turn": "L",
+      "next_word_tick0": null,
+      "next_word_read_number1": null,
+      "label": "context tick 13 (zero-based), RAW length 33; own V-base RAW tick 13 (zero-based), read 14 (one-based), L",
+      "input_cell": [
+        1,
+        2
+      ],
+      "ordered_W_choice": true
+    },
+    {
+      "packet": "VCC",
+      "context_tick0": 19,
+      "context_read_number1": 20,
+      "RAW_length": 48,
+      "owner": "own C-tail 1 RAW",
+      "owner_tick0": 1,
+      "owner_read_number1": 2,
+      "turn": "L",
+      "next_word_tick0": null,
+      "next_word_read_number1": null,
+      "label": "context tick 19 (zero-based), RAW length 48; own C-tail 1 RAW tick 1 (zero-based), read 2 (one-based), L",
+      "input_cell": [
+        0,
+        3
+      ],
+      "ordered_W_choice": true
+    },
+    {
+      "packet": "U",
+      "context_tick0": 29,
+      "context_read_number1": 30,
+      "RAW_length": 28,
+      "owner": "next actual word RAW",
+      "owner_tick0": 1,
+      "owner_read_number1": 2,
+      "turn": "L",
+      "next_word_tick0": 1,
+      "next_word_read_number1": 2,
+      "label": "context tick 29 (zero-based), RAW length 28; next actual word RAW tick 1 (zero-based), read 2 (one-based), L",
+      "input_cell": [
+        -1,
+        4
+      ],
+      "ordered_W_choice": true
+    },
+    {
+      "packet": "UC",
+      "context_tick0": 29,
+      "context_read_number1": 30,
+      "RAW_length": 43,
+      "owner": "own C-tail 1 RAW",
+      "owner_tick0": 1,
+      "owner_read_number1": 2,
+      "turn": "L",
+      "next_word_tick0": null,
+      "next_word_read_number1": null,
+      "label": "context tick 29 (zero-based), RAW length 43; own C-tail 1 RAW tick 1 (zero-based), read 2 (one-based), L",
+      "input_cell": [
+        -1,
+        4
+      ],
+      "ordered_W_choice": true
+    },
+    {
+      "packet": "UCC",
+      "context_tick0": 29,
+      "context_read_number1": 30,
+      "RAW_length": 58,
+      "owner": "own C-tail 1 RAW",
+      "owner_tick0": 1,
+      "owner_read_number1": 2,
+      "turn": "L",
+      "next_word_tick0": null,
+      "next_word_read_number1": null,
+      "label": "context tick 29 (zero-based), RAW length 58; own C-tail 1 RAW tick 1 (zero-based), read 2 (one-based), L",
+      "input_cell": [
+        -1,
+        4
+      ],
+      "ordered_W_choice": true
+    }
+  ],
+  "analytic": "The full before-color inputs and exact context ticks are unchanged. RAW length L owns ticks0..L-1; context tick L+1 is next actual word tick1, the SECOND read. D11, U29 and V19 therefore are not first physical reads. DC/UC/UCC/VCC own their corresponding first-C-tail tick1/read2. Residual remove/core absorption may precede the physical next-word read. This erratum changes owner prose, not literal chronology, C clock or the established matching/transport claims. Companion U-role erratum remains separately mandatory."
+}

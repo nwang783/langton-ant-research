@@ -1,0 +1,751 @@
+{
+  "scope": "Exact finite-word obstruction for a whole flat flow-two F segment.\nNo period, drift, width, multiplicity or front scan.\n",
+  "given_complete_histories": [
+    {
+      "cell": [
+        0,
+        -1
+      ],
+      "headings": "WWEE"
+    },
+    {
+      "cell": [
+        0,
+        0
+      ],
+      "headings": "NSSN"
+    },
+    {
+      "cell": [
+        1,
+        0
+      ],
+      "headings": "WWEE"
+    },
+    {
+      "cell": [
+        1,
+        1
+      ],
+      "headings": "NSSN"
+    },
+    {
+      "cell": [
+        2,
+        1
+      ],
+      "headings": "WWEE"
+    }
+  ],
+  "D_candidates": [
+    {
+      "headings": "NNSS",
+      "first_W_rank": 1,
+      "second_S_rank": 3,
+      "can_return_in_four": false
+    },
+    {
+      "headings": "NSSN",
+      "first_W_rank": 2,
+      "second_S_rank": 2,
+      "can_return_in_four": false
+    },
+    {
+      "headings": "SNNS",
+      "first_W_rank": 0,
+      "second_S_rank": 3,
+      "can_return_in_four": false
+    },
+    {
+      "headings": "SSNN",
+      "first_W_rank": 0,
+      "second_S_rank": 1,
+      "can_return_in_four": true
+    }
+  ],
+  "forced_D_histories": [
+    {
+      "cell": [
+        1,
+        -1
+      ],
+      "headings": "SSNN"
+    },
+    {
+      "cell": [
+        2,
+        0
+      ],
+      "headings": "SSNN"
+    }
+  ],
+  "forced_return_chains": [
+    {
+      "kind": "D firstW to secondS",
+      "steps": 4,
+      "path": [
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "rank": 0
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "rank": 0
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "rank": 0
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "rank": 2
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "kind": "D firstW to secondS",
+      "steps": 4,
+      "path": [
+        {
+          "cell": [
+            2,
+            0
+          ],
+          "rank": 0
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "rank": 0
+        },
+        {
+          "cell": [
+            1,
+            1
+          ],
+          "rank": 0
+        },
+        {
+          "cell": [
+            2,
+            1
+          ],
+          "rank": 2
+        },
+        {
+          "cell": [
+            2,
+            0
+          ],
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "kind": "E secondN to firstE",
+      "steps": 8,
+      "path": [
+        {
+          "cell": [
+            2,
+            -1
+          ],
+          "port": "second outgoing N"
+        },
+        {
+          "cell": [
+            2,
+            0
+          ],
+          "rank": 3
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "rank": 1
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "rank": 0
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "rank": 0
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "rank": 0
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "rank": 2
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "rank": 1
+        },
+        {
+          "cell": [
+            2,
+            -1
+          ],
+          "port": "first incoming E"
+        }
+      ]
+    }
+  ],
+  "all_named_internal_edges": [
+    {
+      "source": [
+        0,
+        -1
+      ],
+      "source_rank": 0,
+      "target": [
+        0,
+        0
+      ],
+      "target_rank": 0
+    },
+    {
+      "source": [
+        0,
+        -1
+      ],
+      "source_rank": 3,
+      "target": [
+        0,
+        0
+      ],
+      "target_rank": 3
+    },
+    {
+      "source": [
+        0,
+        0
+      ],
+      "source_rank": 0,
+      "target": [
+        1,
+        0
+      ],
+      "target_rank": 2
+    },
+    {
+      "source": [
+        0,
+        0
+      ],
+      "source_rank": 1,
+      "target": [
+        1,
+        0
+      ],
+      "target_rank": 3
+    },
+    {
+      "source": [
+        1,
+        0
+      ],
+      "source_rank": 0,
+      "target": [
+        1,
+        1
+      ],
+      "target_rank": 0
+    },
+    {
+      "source": [
+        1,
+        0
+      ],
+      "source_rank": 1,
+      "target": [
+        1,
+        -1
+      ],
+      "target_rank": 0
+    },
+    {
+      "source": [
+        1,
+        0
+      ],
+      "source_rank": 2,
+      "target": [
+        1,
+        -1
+      ],
+      "target_rank": 1
+    },
+    {
+      "source": [
+        1,
+        0
+      ],
+      "source_rank": 3,
+      "target": [
+        1,
+        1
+      ],
+      "target_rank": 3
+    },
+    {
+      "source": [
+        1,
+        1
+      ],
+      "source_rank": 0,
+      "target": [
+        2,
+        1
+      ],
+      "target_rank": 2
+    },
+    {
+      "source": [
+        1,
+        1
+      ],
+      "source_rank": 1,
+      "target": [
+        2,
+        1
+      ],
+      "target_rank": 3
+    },
+    {
+      "source": [
+        2,
+        1
+      ],
+      "source_rank": 1,
+      "target": [
+        2,
+        0
+      ],
+      "target_rank": 0
+    },
+    {
+      "source": [
+        2,
+        1
+      ],
+      "source_rank": 2,
+      "target": [
+        2,
+        0
+      ],
+      "target_rank": 1
+    },
+    {
+      "source": [
+        1,
+        -1
+      ],
+      "source_rank": 0,
+      "target": [
+        0,
+        -1
+      ],
+      "target_rank": 0
+    },
+    {
+      "source": [
+        1,
+        -1
+      ],
+      "source_rank": 3,
+      "target": [
+        0,
+        -1
+      ],
+      "target_rank": 1
+    },
+    {
+      "source": [
+        2,
+        0
+      ],
+      "source_rank": 0,
+      "target": [
+        1,
+        0
+      ],
+      "target_rank": 0
+    },
+    {
+      "source": [
+        2,
+        0
+      ],
+      "source_rank": 3,
+      "target": [
+        1,
+        0
+      ],
+      "target_rank": 1
+    }
+  ],
+  "all_named_outgoing_open_ports": [
+    {
+      "source": [
+        0,
+        -1
+      ],
+      "rank": 1,
+      "heading": "S",
+      "target": [
+        0,
+        -2
+      ],
+      "outgoing_ordinal": 1
+    },
+    {
+      "source": [
+        0,
+        -1
+      ],
+      "rank": 2,
+      "heading": "S",
+      "target": [
+        0,
+        -2
+      ],
+      "outgoing_ordinal": 2
+    },
+    {
+      "source": [
+        0,
+        0
+      ],
+      "rank": 2,
+      "heading": "W",
+      "target": [
+        -1,
+        0
+      ],
+      "outgoing_ordinal": 1
+    },
+    {
+      "source": [
+        0,
+        0
+      ],
+      "rank": 3,
+      "heading": "W",
+      "target": [
+        -1,
+        0
+      ],
+      "outgoing_ordinal": 2
+    },
+    {
+      "source": [
+        1,
+        1
+      ],
+      "rank": 2,
+      "heading": "W",
+      "target": [
+        0,
+        1
+      ],
+      "outgoing_ordinal": 1
+    },
+    {
+      "source": [
+        1,
+        1
+      ],
+      "rank": 3,
+      "heading": "W",
+      "target": [
+        0,
+        1
+      ],
+      "outgoing_ordinal": 2
+    },
+    {
+      "source": [
+        2,
+        1
+      ],
+      "rank": 0,
+      "heading": "N",
+      "target": [
+        2,
+        2
+      ],
+      "outgoing_ordinal": 1
+    },
+    {
+      "source": [
+        2,
+        1
+      ],
+      "rank": 3,
+      "heading": "N",
+      "target": [
+        2,
+        2
+      ],
+      "outgoing_ordinal": 2
+    },
+    {
+      "source": [
+        1,
+        -1
+      ],
+      "rank": 1,
+      "heading": "E",
+      "target": [
+        2,
+        -1
+      ],
+      "outgoing_ordinal": 1
+    },
+    {
+      "source": [
+        1,
+        -1
+      ],
+      "rank": 2,
+      "heading": "E",
+      "target": [
+        2,
+        -1
+      ],
+      "outgoing_ordinal": 2
+    },
+    {
+      "source": [
+        2,
+        0
+      ],
+      "rank": 1,
+      "heading": "E",
+      "target": [
+        3,
+        0
+      ],
+      "outgoing_ordinal": 1
+    },
+    {
+      "source": [
+        2,
+        0
+      ],
+      "rank": 2,
+      "heading": "E",
+      "target": [
+        3,
+        0
+      ],
+      "outgoing_ordinal": 2
+    }
+  ],
+  "all_named_incoming_open_ports": [
+    {
+      "target": [
+        0,
+        -1
+      ],
+      "rank": 2,
+      "heading": "E",
+      "source": [
+        -1,
+        -1
+      ],
+      "incoming_ordinal": 1
+    },
+    {
+      "target": [
+        0,
+        -1
+      ],
+      "rank": 3,
+      "heading": "E",
+      "source": [
+        -1,
+        -1
+      ],
+      "incoming_ordinal": 2
+    },
+    {
+      "target": [
+        0,
+        0
+      ],
+      "rank": 1,
+      "heading": "S",
+      "source": [
+        0,
+        1
+      ],
+      "incoming_ordinal": 1
+    },
+    {
+      "target": [
+        0,
+        0
+      ],
+      "rank": 2,
+      "heading": "S",
+      "source": [
+        0,
+        1
+      ],
+      "incoming_ordinal": 2
+    },
+    {
+      "target": [
+        1,
+        1
+      ],
+      "rank": 1,
+      "heading": "S",
+      "source": [
+        1,
+        2
+      ],
+      "incoming_ordinal": 1
+    },
+    {
+      "target": [
+        1,
+        1
+      ],
+      "rank": 2,
+      "heading": "S",
+      "source": [
+        1,
+        2
+      ],
+      "incoming_ordinal": 2
+    },
+    {
+      "target": [
+        2,
+        1
+      ],
+      "rank": 0,
+      "heading": "W",
+      "source": [
+        3,
+        1
+      ],
+      "incoming_ordinal": 1
+    },
+    {
+      "target": [
+        2,
+        1
+      ],
+      "rank": 1,
+      "heading": "W",
+      "source": [
+        3,
+        1
+      ],
+      "incoming_ordinal": 2
+    },
+    {
+      "target": [
+        1,
+        -1
+      ],
+      "rank": 2,
+      "heading": "N",
+      "source": [
+        1,
+        -2
+      ],
+      "incoming_ordinal": 1
+    },
+    {
+      "target": [
+        1,
+        -1
+      ],
+      "rank": 3,
+      "heading": "N",
+      "source": [
+        1,
+        -2
+      ],
+      "incoming_ordinal": 2
+    },
+    {
+      "target": [
+        2,
+        0
+      ],
+      "rank": 2,
+      "heading": "N",
+      "source": [
+        2,
+        -1
+      ],
+      "incoming_ordinal": 1
+    },
+    {
+      "target": [
+        2,
+        0
+      ],
+      "rank": 3,
+      "heading": "N",
+      "source": [
+        2,
+        -1
+      ],
+      "incoming_ordinal": 2
+    }
+  ],
+  "unknown_E_port_counts": {
+    "incoming_E": 2,
+    "outgoing_N": 2
+  },
+  "ordinal_collision": "First E immediately after second N: source cannot be L(E), so it is R(W); the next read is L(E), producing a third N departure, contradicting count2.",
+  "scope_warning": "Only this five-corner constant flow2 staircase word is excluded. Other flat states, odd LEFT corners, changing flows, turns, all exterior histories and the general one-use theorem remain open."
+}

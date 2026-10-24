@@ -1,0 +1,262 @@
+{
+  "status": "PASS exact even staircase first-R basin closure and critical complete-cap4 RIGHT-extremal consequence",
+  "proof": "28cb8901ba2ee3792b48e0194a9bc15c04c8ec86c859dc5d03e15e7e54614b5d",
+  "certificate": "702fc9c4113c18dfc8807f8d81e5b3eeeeee92b5a74f1cca2b57fbcb82d240b9",
+  "script": "007ffb847564fd84eb311603eca78a43b7698e0a84dc73239c5bebe168f4133f",
+  "signed_dependencies": {
+    "audits/check_four_read_one_use_terrace_independent.json": "206a102fdaa1e6a1755b97d7d780395f1fe212395465b7ef3b0c90bcdcb7d8cd",
+    "audits/four_read_terrace_even_scope_binding.json": "ca37b0343ec17af4f3c8eacbe5d48580e60bd0b405591fd557679e795adf4d2e",
+    "audits/check_one_use_L3_transport_independent.json": "ad205d481891b627c1fa783be2f185a112ae784eca5768149867cf68f004069e",
+    "audits/check_three_read_one_use_staircase_independent.json": "8fd1d92b752e25f17151bac74664fd748543a16f606160f5cf0acefa73385c8d",
+    "audits/check_mixed_first_track_pipeline_independent.json": "8ff4e2b77138f10372b4074fe93d9e0a7d28b4af32d29137f16cf4df8add9bab",
+    "audits/boundary_local_first_track_independent.json": "74ac01941b7641d8e359fb38c3bbca344e4950cadc57d24cf355845a2c8bc28b"
+  },
+  "all12_physical_direction_ports": [
+    {
+      "target_family": "A",
+      "input_direction": "N",
+      "complete_arrival_ranks": [],
+      "physical_source": [
+        1,
+        -1
+      ],
+      "source_family_index": [
+        "D",
+        -1
+      ],
+      "first_destination": [
+        0,
+        -1
+      ],
+      "is_first_R_predecessor": false
+    },
+    {
+      "target_family": "A",
+      "input_direction": "E",
+      "complete_arrival_ranks": [
+        2
+      ],
+      "physical_source": [
+        0,
+        0
+      ],
+      "source_family_index": [
+        "R",
+        -1
+      ],
+      "first_destination": [
+        1,
+        0
+      ],
+      "is_first_R_predecessor": true
+    },
+    {
+      "target_family": "A",
+      "input_direction": "S",
+      "complete_arrival_ranks": [],
+      "physical_source": [
+        1,
+        1
+      ],
+      "source_family_index": [
+        "R",
+        0
+      ],
+      "first_destination": [
+        2,
+        1
+      ],
+      "is_first_R_predecessor": false
+    },
+    {
+      "target_family": "A",
+      "input_direction": "W",
+      "complete_arrival_ranks": [
+        0,
+        1,
+        3
+      ],
+      "physical_source": [
+        2,
+        0
+      ],
+      "source_family_index": [
+        "D",
+        0
+      ],
+      "first_destination": [
+        1,
+        0
+      ],
+      "is_first_R_predecessor": true
+    },
+    {
+      "target_family": "R",
+      "input_direction": "N",
+      "complete_arrival_ranks": [
+        0
+      ],
+      "physical_source": [
+        1,
+        0
+      ],
+      "source_family_index": [
+        "A",
+        0
+      ],
+      "first_destination": [
+        1,
+        1
+      ],
+      "is_first_R_predecessor": true
+    },
+    {
+      "target_family": "R",
+      "input_direction": "E",
+      "complete_arrival_ranks": [],
+      "physical_source": [
+        0,
+        1
+      ],
+      "source_family_index": null,
+      "first_destination": null,
+      "is_first_R_predecessor": false
+    },
+    {
+      "target_family": "R",
+      "input_direction": "S",
+      "complete_arrival_ranks": [],
+      "physical_source": [
+        1,
+        2
+      ],
+      "source_family_index": null,
+      "first_destination": null,
+      "is_first_R_predecessor": false
+    },
+    {
+      "target_family": "R",
+      "input_direction": "W",
+      "complete_arrival_ranks": [],
+      "physical_source": [
+        2,
+        1
+      ],
+      "source_family_index": [
+        "A",
+        1
+      ],
+      "first_destination": [
+        2,
+        2
+      ],
+      "is_first_R_predecessor": false
+    },
+    {
+      "target_family": "D",
+      "input_direction": "N",
+      "complete_arrival_ranks": [
+        3
+      ],
+      "physical_source": [
+        2,
+        -1
+      ],
+      "source_family_index": [
+        "E",
+        0
+      ],
+      "first_destination": [
+        2,
+        -2
+      ],
+      "is_first_R_predecessor": false
+    },
+    {
+      "target_family": "D",
+      "input_direction": "E",
+      "complete_arrival_ranks": [],
+      "physical_source": [
+        1,
+        0
+      ],
+      "source_family_index": [
+        "A",
+        0
+      ],
+      "first_destination": [
+        1,
+        1
+      ],
+      "is_first_R_predecessor": false
+    },
+    {
+      "target_family": "D",
+      "input_direction": "S",
+      "complete_arrival_ranks": [
+        0,
+        1,
+        2
+      ],
+      "physical_source": [
+        2,
+        1
+      ],
+      "source_family_index": [
+        "A",
+        1
+      ],
+      "first_destination": [
+        2,
+        2
+      ],
+      "is_first_R_predecessor": false
+    },
+    {
+      "target_family": "D",
+      "input_direction": "W",
+      "complete_arrival_ranks": [],
+      "physical_source": [
+        3,
+        0
+      ],
+      "source_family_index": [
+        "E",
+        1
+      ],
+      "first_destination": [
+        3,
+        -1
+      ],
+      "is_first_R_predecessor": false
+    }
+  ],
+  "first_R_predecessors": {
+    "A": [
+      [
+        "D",
+        0
+      ],
+      [
+        "R",
+        -1
+      ]
+    ],
+    "R": [
+      [
+        "A",
+        0
+      ]
+    ],
+    "D": []
+  },
+  "analytic_review": [
+    "The graph is actual physical first-R departure b, not C-discovery or last-exit and not a repaired rank map. CompleteWHITE ensures every visited vertex has a genuinefirstR. The explicit all-index evenreaderD_i=SSSN premise is retained, with E_i=EWW/EWWW; five-read sharedreader alternatives are not covered.",
+    "All four inputdirections at every A/R/D are exhausted, includingzeroports. Only R_(i-1),D_i firstdepartintoA_i; onlyA_i firstdepartsintoR_i; neitherA_(i+1) norE_i firstdepartsintoD_i although later actualreads supply itsS/N ports. Thus predDempty,predGamma=GammaunionD, and bimageGammaunionD=Gamma. Backwardclosure proves its ENTIRE basin has no deepernodes.",
+    "Familytransverseoffsets0/1/2/3 are distinct under FULL d=(-n,-n), includingn1 andnonminimalquotients. Physicalneighbor exhaustiveness survivesalllifts. Every E_i isoutside thebasin andvisited. Finitecompletefront quotient therefore forces its bforwardorbit to a DIFFERENT cycle; no infinite spatialdescent argument isused.",
+    "The b staircase travelsN/E with offsets1/0, whileE hasoffset3 on geometricRIGHT. Cardinalgridpaths cannotcross theembeddedessentialGamma withouta sharedvertex; backwardclosure forbids that. Hence theentire newcycle isonRIGHT. This doesnot mean a newCplateau, first-entrybasin, BLACKroot orfreshfuel, andmultipleE maymerge.",
+    "Only under COMPLETEWHITEcap4 andGLOBALM=c_right+1 do allnewcyclevertices inherit signedlocalfirstRmaximum/monotoneheight. Finitecycles thenhaveconstantselectedc. The signed mixed first-track proof applies toeverycycle, withALL edgecopies, and eachnonemptyRIGHT repairedcircuit haspositiveintegerwinding; thus c>=c_right+1. Globalc<=M forces EVERY bcycleheightM. No unrestrictedallcapmaximum rule is imported.",
+    "Finitelymanydisjointembeddedessentialbcycles areordered across thefullcylinder, so aRIGHT-extremal Mcycleexists. The newRIGHT Mcycle contradicts thatselection iftheextremalcyclehasthewholeevenstaircase. Ifitisonlyassumedwhollyoneuse/purealternating, signedcyclicno-fall makesLEFTbitsconstant; bit0fails thephysicalthreeLEFTstaircase eveninshortlifts, bit1forcesallDSSSNundercompletecap4 andusesthebasinargument.",
+    "Conclusion only: aRIGHT-extremal criticalmaxcap4 bcircle cannotbe bothwhollyoneuse andpurealternating. It mayhave multiplyusededges orRR/LL bends. No strongeroneusetheorem, mixedfront exclusion, odd/fuelbound, allcapnewcycleheight or universalcapture follows."
+  ]
+}

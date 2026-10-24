@@ -1,0 +1,215 @@
+{
+  "status": "PASS: actual complete WHITE cap4 b-cycle, constant physical flow2 and cyclic RRLL geometry only",
+  "proof_sha256": "9276befb71360ea9507f0a1532de8505ddd611c1435cd1c3aa7e4ba57494b996",
+  "script_sha256": "209a78804275c834e9782ff2569ec4eeb193d5c0da48949d6ff09b15848955ff",
+  "full_alphabets": {
+    "Z": [
+      "NNSS",
+      "NSS",
+      "NSSN"
+    ],
+    "A": [
+      "EEWW",
+      "EWWE"
+    ],
+    "B": [
+      "SNNS",
+      "SSNN"
+    ],
+    "Y": [
+      "EEWW",
+      "EWW",
+      "EWWE"
+    ]
+  },
+  "F_rows": 20,
+  "F_survivors": 4,
+  "Q_survivor": {
+    "Z": "NNSS",
+    "A": "EWWE",
+    "B": "SNNS",
+    "Y": "EEWW"
+  },
+  "internal_edges": [
+    [
+      "Z",
+      0,
+      0,
+      "A",
+      0,
+      0,
+      "E"
+    ],
+    [
+      "Z",
+      0,
+      3,
+      "A",
+      0,
+      3,
+      "E"
+    ],
+    [
+      "A",
+      0,
+      0,
+      "B",
+      -1,
+      0,
+      "S"
+    ],
+    [
+      "A",
+      0,
+      1,
+      "B",
+      -1,
+      3,
+      "S"
+    ],
+    [
+      "A",
+      0,
+      2,
+      "B",
+      0,
+      1,
+      "N"
+    ],
+    [
+      "A",
+      0,
+      3,
+      "B",
+      0,
+      2,
+      "N"
+    ],
+    [
+      "B",
+      0,
+      0,
+      "Y",
+      0,
+      2,
+      "W"
+    ],
+    [
+      "B",
+      0,
+      1,
+      "Y",
+      0,
+      3,
+      "W"
+    ],
+    [
+      "Y",
+      0,
+      0,
+      "Z",
+      0,
+      2,
+      "S"
+    ],
+    [
+      "Y",
+      0,
+      1,
+      "Z",
+      1,
+      0,
+      "N"
+    ],
+    [
+      "Y",
+      0,
+      2,
+      "Z",
+      1,
+      1,
+      "N"
+    ],
+    [
+      "Y",
+      0,
+      3,
+      "Z",
+      0,
+      3,
+      "S"
+    ]
+  ],
+  "open_ingress": [
+    [
+      "A",
+      1,
+      "W",
+      2,
+      0
+    ],
+    [
+      "A",
+      2,
+      "W",
+      2,
+      0
+    ],
+    [
+      "Y",
+      0,
+      "E",
+      -1,
+      1
+    ],
+    [
+      "Y",
+      1,
+      "E",
+      -1,
+      1
+    ]
+  ],
+  "open_egress": [
+    [
+      "Z",
+      1,
+      "W",
+      -1,
+      0
+    ],
+    [
+      "Z",
+      2,
+      "W",
+      -1,
+      0
+    ],
+    [
+      "B",
+      2,
+      "E",
+      2,
+      1
+    ],
+    [
+      "B",
+      3,
+      "E",
+      2,
+      1
+    ]
+  ],
+  "analytic_closure": [
+    "Actual first-departure winding -1 makes full drift (0,2a), not a guessed primitive shift",
+    "All physical cells in the two infinite columns have complete four-read histories; no hidden strip rank",
+    "Every internal successor and every open port preserves WEST/EAST; exterior unit paths cannot cross either complete column without an accounted strip event",
+    "Full vertical quotient preserves the two nonempty sets, contradicting the one actual P-event successor cycle"
+  ],
+  "not_claimed": [
+    "finite RRLL segment exclusion",
+    "general one-use theorem",
+    "global maximum premise",
+    "complete cap4 front exclusion"
+  ]
+}

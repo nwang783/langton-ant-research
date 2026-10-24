@@ -1,0 +1,388 @@
+{
+  "status": "PASS independent minimal geometric palette, full nonstationary physical chronology, complete CNF truth tables and RUP replay",
+  "note_sha256": "ed6a5960523402379811813f5d83d1715e7d49cba27f3f5069d5e3184bf31cfe",
+  "source_sha256": "bebc63247b025440f760bb9bd36d709d2965bb2cf7055930c00171f541384839",
+  "palettes": {
+    "RR": [
+      "RR",
+      "LRRLRRLRRL",
+      "LLLRLLRLLL"
+    ],
+    "RL": [
+      "RL",
+      "LRRLRRLRRR",
+      "LLLRLLRLLR"
+    ],
+    "LR": [
+      "LR",
+      "RRRLRRLRRL",
+      "RLLRLLRLLL"
+    ],
+    "LL": [
+      "LL",
+      "RRRLRRLRRR",
+      "RLLRLLRLLR"
+    ]
+  },
+  "complete_geometric_lengths": {
+    "RR": {
+      "2": [],
+      "6": [],
+      "10": [
+        "LRRLRRLRRL",
+        "LLLRLLRLLL"
+      ]
+    },
+    "RL": {
+      "2": [],
+      "6": [],
+      "10": [
+        "LRRLRRLRRR",
+        "LLLRLLRLLR"
+      ]
+    },
+    "LR": {
+      "2": [],
+      "6": [],
+      "10": [
+        "RRRLRRLRRL",
+        "RLLRLLRLLL"
+      ]
+    },
+    "LL": {
+      "2": [],
+      "6": [],
+      "10": [
+        "RRRLRRLRRR",
+        "RLLRLLRLLR"
+      ]
+    }
+  },
+  "results": [
+    {
+      "cut": 0,
+      "variables": 15918,
+      "clauses": 53145,
+      "physical_cells": 266,
+      "max_orbit_span": 3,
+      "RUP": 81,
+      "controls": [
+        {
+          "length": 728,
+          "legal": true,
+          "central_bypass": false,
+          "input_mass": 97
+        },
+        {
+          "length": 736,
+          "legal": false,
+          "central_bypass": false,
+          "input_mass": 93
+        },
+        {
+          "length": 744,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 98
+        },
+        {
+          "length": 752,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 93
+        },
+        {
+          "length": 760,
+          "legal": false,
+          "central_bypass": false,
+          "input_mass": 97
+        },
+        {
+          "length": 768,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 97
+        },
+        {
+          "length": 776,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 96
+        },
+        {
+          "length": 784,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 99
+        },
+        {
+          "length": 792,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 103
+        },
+        {
+          "length": 800,
+          "legal": false,
+          "central_bypass": false,
+          "input_mass": 93
+        },
+        {
+          "length": 808,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 98
+        },
+        {
+          "length": 816,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 90
+        },
+        {
+          "length": 824,
+          "legal": false,
+          "central_bypass": false,
+          "input_mass": 93
+        },
+        {
+          "length": 832,
+          "legal": false,
+          "central_bypass": false,
+          "input_mass": 97
+        },
+        {
+          "length": 840,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 98
+        },
+        {
+          "length": 848,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 88
+        },
+        {
+          "length": 856,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 91
+        },
+        {
+          "length": 864,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 83
+        },
+        {
+          "length": 872,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 104
+        },
+        {
+          "length": 880,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 99
+        },
+        {
+          "length": 888,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 101
+        },
+        {
+          "length": 896,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 93
+        },
+        {
+          "length": 904,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 99
+        },
+        {
+          "length": 912,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 83
+        },
+        {
+          "length": 920,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 90
+        }
+      ],
+      "cnf_sha256": "7a99dd865e5fb0459de231c9f7c4ad4fcfa5b97570cd4380b1ac3afcf23b7a66",
+      "rup_sha256": "2960b118b19dd8fbc35e62b306b9d706f90b8252978b74cc023093cb71e3fa9c"
+    },
+    {
+      "cut": 1,
+      "variables": 15917,
+      "clauses": 53145,
+      "physical_cells": 265,
+      "max_orbit_span": 3,
+      "RUP": 42,
+      "controls": [
+        {
+          "length": 728,
+          "legal": true,
+          "central_bypass": false,
+          "input_mass": 97
+        },
+        {
+          "length": 736,
+          "legal": false,
+          "central_bypass": false,
+          "input_mass": 97
+        },
+        {
+          "length": 744,
+          "legal": false,
+          "central_bypass": false,
+          "input_mass": 101
+        },
+        {
+          "length": 752,
+          "legal": false,
+          "central_bypass": false,
+          "input_mass": 91
+        },
+        {
+          "length": 760,
+          "legal": false,
+          "central_bypass": false,
+          "input_mass": 101
+        },
+        {
+          "length": 768,
+          "legal": false,
+          "central_bypass": false,
+          "input_mass": 100
+        },
+        {
+          "length": 776,
+          "legal": false,
+          "central_bypass": false,
+          "input_mass": 106
+        },
+        {
+          "length": 784,
+          "legal": false,
+          "central_bypass": false,
+          "input_mass": 100
+        },
+        {
+          "length": 792,
+          "legal": false,
+          "central_bypass": false,
+          "input_mass": 100
+        },
+        {
+          "length": 800,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 91
+        },
+        {
+          "length": 808,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 99
+        },
+        {
+          "length": 816,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 94
+        },
+        {
+          "length": 824,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 91
+        },
+        {
+          "length": 832,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 89
+        },
+        {
+          "length": 840,
+          "legal": false,
+          "central_bypass": false,
+          "input_mass": 98
+        },
+        {
+          "length": 848,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 96
+        },
+        {
+          "length": 856,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 93
+        },
+        {
+          "length": 864,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 94
+        },
+        {
+          "length": 872,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 91
+        },
+        {
+          "length": 880,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 91
+        },
+        {
+          "length": 888,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 92
+        },
+        {
+          "length": 896,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 91
+        },
+        {
+          "length": 904,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 96
+        },
+        {
+          "length": 912,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 99
+        },
+        {
+          "length": 920,
+          "legal": false,
+          "central_bypass": true,
+          "input_mass": 82
+        }
+      ],
+      "cnf_sha256": "e378f322eff8d7b29ce6bdd72fc37d1e8eb4e6ebcc0f4b468a1b70f119a9b97f",
+      "rup_sha256": "b8d756b68e9d58496dc0d79a5911dc14023543d0cf213388d985c591c009a1d5"
+    }
+  ],
+  "scope": "Every legal seven-period word in either fixed inverse104 pair alignment has identity central period, with arbitrary entry colors and independent pair choices. Infinite schedules are identity after period3 and impossible from finite black support by charge minus12. Different scaffolds, alignments varying in time, or other pair images are outside."
+}

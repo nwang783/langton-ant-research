@@ -1,0 +1,2070 @@
+{
+  "status": "PASS focused all-n validator with independent literal controls",
+  "scope": "Nonzero-collinear supplied words only; no cap synthesis, arbitrary-period classification, or general semilinear extraction.",
+  "records": [
+    {
+      "name": "standard_positive",
+      "all_n_legal": true,
+      "fuel_status": "BOUNDED",
+      "uniform_fuel_bound": 13,
+      "illegal_depths": "{ [n] : false }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 13,
+          "bad_cells": 0
+        },
+        {
+          "n": 2,
+          "first_L": 13,
+          "bad_cells": 0
+        },
+        {
+          "n": 3,
+          "first_L": 13,
+          "bad_cells": 0
+        },
+        {
+          "n": 5,
+          "first_L": 13,
+          "bad_cells": 0
+        },
+        {
+          "n": 10,
+          "first_L": 13,
+          "bad_cells": 0
+        }
+      ],
+      "seconds": 1.3368449440022232
+    },
+    {
+      "name": "prepared_rail_positive",
+      "all_n_legal": true,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : false }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 4,
+          "bad_cells": 0
+        },
+        {
+          "n": 2,
+          "first_L": 8,
+          "bad_cells": 0
+        },
+        {
+          "n": 3,
+          "first_L": 12,
+          "bad_cells": 0
+        },
+        {
+          "n": 5,
+          "first_L": 20,
+          "bad_cells": 0
+        },
+        {
+          "n": 10,
+          "first_L": 40,
+          "bad_cells": 0
+        }
+      ],
+      "seconds": 0.023558230997878127
+    },
+    {
+      "name": "prepared108_positive",
+      "all_n_legal": true,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : false }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 35,
+          "bad_cells": 0
+        },
+        {
+          "n": 2,
+          "first_L": 57,
+          "bad_cells": 0
+        },
+        {
+          "n": 3,
+          "first_L": 79,
+          "bad_cells": 0
+        },
+        {
+          "n": 5,
+          "first_L": 123,
+          "bad_cells": 0
+        },
+        {
+          "n": 10,
+          "first_L": 233,
+          "bad_cells": 0
+        }
+      ],
+      "seconds": 1.4236901469994336
+    },
+    {
+      "name": "standard_reverse_return",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        -2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 17,
+          "bad_cells": 13
+        },
+        {
+          "n": 2,
+          "first_L": 19,
+          "bad_cells": 23
+        },
+        {
+          "n": 3,
+          "first_L": 21,
+          "bad_cells": 33
+        },
+        {
+          "n": 5,
+          "first_L": 25,
+          "bad_cells": 53
+        },
+        {
+          "n": 10,
+          "first_L": 35,
+          "bad_cells": 103
+        }
+      ],
+      "seconds": 2.1065945669979556
+    },
+    {
+      "name": "low_fuel_but_illegal_D10_return",
+      "all_n_legal": false,
+      "fuel_status": "BOUNDED",
+      "uniform_fuel_bound": 13,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        -1
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 13,
+          "bad_cells": 3
+        },
+        {
+          "n": 2,
+          "first_L": 13,
+          "bad_cells": 6
+        },
+        {
+          "n": 3,
+          "first_L": 13,
+          "bad_cells": 7
+        },
+        {
+          "n": 5,
+          "first_L": 13,
+          "bad_cells": 11
+        },
+        {
+          "n": 10,
+          "first_L": 13,
+          "bad_cells": 22
+        }
+      ],
+      "seconds": 0.49971661999006756
+    },
+    {
+      "name": "unequal_copy_rates",
+      "all_n_legal": true,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : false }",
+      "scalar_drifts": [
+        2,
+        4
+      ],
+      "residue_modulus": 4,
+      "literal_controls": [
+        {
+          "n": 2,
+          "first_L": 12,
+          "bad_cells": 0
+        },
+        {
+          "n": 3,
+          "first_L": 18,
+          "bad_cells": 0
+        },
+        {
+          "n": 5,
+          "first_L": 30,
+          "bad_cells": 0
+        },
+        {
+          "n": 10,
+          "first_L": 60,
+          "bad_cells": 0
+        }
+      ],
+      "seconds": 0.06421277299523354
+    },
+    {
+      "name": "small_geometry_0",
+      "all_n_legal": true,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : false }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 4,
+          "bad_cells": 0
+        },
+        {
+          "n": 2,
+          "first_L": 8,
+          "bad_cells": 0
+        },
+        {
+          "n": 3,
+          "first_L": 12,
+          "bad_cells": 0
+        },
+        {
+          "n": 4,
+          "first_L": 16,
+          "bad_cells": 0
+        },
+        {
+          "n": 7,
+          "first_L": 28,
+          "bad_cells": 0
+        }
+      ],
+      "seconds": 0.020680211993749253
+    },
+    {
+      "name": "small_geometry_1",
+      "all_n_legal": true,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : false }",
+      "scalar_drifts": [
+        2,
+        -2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 2,
+          "bad_cells": 0
+        },
+        {
+          "n": 2,
+          "first_L": 4,
+          "bad_cells": 0
+        },
+        {
+          "n": 3,
+          "first_L": 6,
+          "bad_cells": 0
+        },
+        {
+          "n": 4,
+          "first_L": 8,
+          "bad_cells": 0
+        },
+        {
+          "n": 7,
+          "first_L": 14,
+          "bad_cells": 0
+        }
+      ],
+      "seconds": 0.013415401001111604
+    },
+    {
+      "name": "small_geometry_2",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 5,
+          "bad_cells": 2
+        },
+        {
+          "n": 2,
+          "first_L": 9,
+          "bad_cells": 2
+        },
+        {
+          "n": 3,
+          "first_L": 13,
+          "bad_cells": 2
+        },
+        {
+          "n": 4,
+          "first_L": 17,
+          "bad_cells": 2
+        },
+        {
+          "n": 7,
+          "first_L": 29,
+          "bad_cells": 2
+        }
+      ],
+      "seconds": 0.02805964600702282
+    },
+    {
+      "name": "small_geometry_3",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        -2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 2,
+          "bad_cells": 3
+        },
+        {
+          "n": 2,
+          "first_L": 4,
+          "bad_cells": 6
+        },
+        {
+          "n": 3,
+          "first_L": 6,
+          "bad_cells": 9
+        },
+        {
+          "n": 4,
+          "first_L": 8,
+          "bad_cells": 12
+        },
+        {
+          "n": 7,
+          "first_L": 14,
+          "bad_cells": 21
+        }
+      ],
+      "seconds": 0.026017173993750475
+    },
+    {
+      "name": "small_geometry_4",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        -2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 5,
+          "bad_cells": 1
+        },
+        {
+          "n": 2,
+          "first_L": 9,
+          "bad_cells": 3
+        },
+        {
+          "n": 3,
+          "first_L": 13,
+          "bad_cells": 5
+        },
+        {
+          "n": 4,
+          "first_L": 17,
+          "bad_cells": 7
+        },
+        {
+          "n": 7,
+          "first_L": 29,
+          "bad_cells": 13
+        }
+      ],
+      "seconds": 0.03941545999259688
+    },
+    {
+      "name": "small_geometry_5",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 5,
+          "bad_cells": 2
+        },
+        {
+          "n": 2,
+          "first_L": 10,
+          "bad_cells": 4
+        },
+        {
+          "n": 3,
+          "first_L": 15,
+          "bad_cells": 6
+        },
+        {
+          "n": 4,
+          "first_L": 20,
+          "bad_cells": 8
+        },
+        {
+          "n": 7,
+          "first_L": 35,
+          "bad_cells": 14
+        }
+      ],
+      "seconds": 0.04582802500226535
+    },
+    {
+      "name": "small_geometry_6",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        -2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 8,
+          "bad_cells": 2
+        },
+        {
+          "n": 2,
+          "first_L": 13,
+          "bad_cells": 4
+        },
+        {
+          "n": 3,
+          "first_L": 18,
+          "bad_cells": 6
+        },
+        {
+          "n": 4,
+          "first_L": 23,
+          "bad_cells": 8
+        },
+        {
+          "n": 7,
+          "first_L": 38,
+          "bad_cells": 14
+        }
+      ],
+      "seconds": 0.042659393991925754
+    },
+    {
+      "name": "small_geometry_7",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 5,
+          "bad_cells": 1
+        },
+        {
+          "n": 2,
+          "first_L": 10,
+          "bad_cells": 3
+        },
+        {
+          "n": 3,
+          "first_L": 15,
+          "bad_cells": 5
+        },
+        {
+          "n": 4,
+          "first_L": 20,
+          "bad_cells": 7
+        },
+        {
+          "n": 7,
+          "first_L": 35,
+          "bad_cells": 13
+        }
+      ],
+      "seconds": 0.033418421997339465
+    },
+    {
+      "name": "small_geometry_8",
+      "all_n_legal": true,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : false }",
+      "scalar_drifts": [
+        2,
+        -4
+      ],
+      "residue_modulus": 4,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 4,
+          "bad_cells": 0
+        },
+        {
+          "n": 2,
+          "first_L": 8,
+          "bad_cells": 0
+        },
+        {
+          "n": 3,
+          "first_L": 12,
+          "bad_cells": 0
+        },
+        {
+          "n": 4,
+          "first_L": 16,
+          "bad_cells": 0
+        },
+        {
+          "n": 7,
+          "first_L": 28,
+          "bad_cells": 0
+        }
+      ],
+      "seconds": 0.052487652996205725
+    },
+    {
+      "name": "small_geometry_9",
+      "all_n_legal": true,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : false }",
+      "scalar_drifts": [
+        2,
+        4
+      ],
+      "residue_modulus": 4,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 6,
+          "bad_cells": 0
+        },
+        {
+          "n": 2,
+          "first_L": 12,
+          "bad_cells": 0
+        },
+        {
+          "n": 3,
+          "first_L": 18,
+          "bad_cells": 0
+        },
+        {
+          "n": 4,
+          "first_L": 24,
+          "bad_cells": 0
+        },
+        {
+          "n": 7,
+          "first_L": 42,
+          "bad_cells": 0
+        }
+      ],
+      "seconds": 0.06454285098880064
+    },
+    {
+      "name": "small_geometry_10",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : floor((n)/4) >= 0 and 3*floor((n)/4) < n }",
+      "scalar_drifts": [
+        2,
+        -4
+      ],
+      "residue_modulus": 4,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 8,
+          "bad_cells": 1
+        },
+        {
+          "n": 2,
+          "first_L": 14,
+          "bad_cells": 1
+        },
+        {
+          "n": 3,
+          "first_L": 20,
+          "bad_cells": 1
+        },
+        {
+          "n": 4,
+          "first_L": 26,
+          "bad_cells": 1
+        },
+        {
+          "n": 7,
+          "first_L": 44,
+          "bad_cells": 1
+        }
+      ],
+      "seconds": 0.11082292399078142
+    },
+    {
+      "name": "small_geometry_11",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 6,
+          "bad_cells": 1
+        },
+        {
+          "n": 2,
+          "first_L": 12,
+          "bad_cells": 2
+        },
+        {
+          "n": 3,
+          "first_L": 18,
+          "bad_cells": 3
+        },
+        {
+          "n": 4,
+          "first_L": 24,
+          "bad_cells": 4
+        },
+        {
+          "n": 7,
+          "first_L": 42,
+          "bad_cells": 7
+        }
+      ],
+      "seconds": 0.055867672999738716
+    },
+    {
+      "name": "small_geometry_12",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        -2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 3,
+          "bad_cells": 2
+        },
+        {
+          "n": 2,
+          "first_L": 6,
+          "bad_cells": 4
+        },
+        {
+          "n": 3,
+          "first_L": 9,
+          "bad_cells": 6
+        },
+        {
+          "n": 4,
+          "first_L": 12,
+          "bad_cells": 8
+        },
+        {
+          "n": 7,
+          "first_L": 21,
+          "bad_cells": 14
+        }
+      ],
+      "seconds": 0.044051353994291276
+    },
+    {
+      "name": "small_geometry_13",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 8,
+          "bad_cells": 1
+        },
+        {
+          "n": 2,
+          "first_L": 14,
+          "bad_cells": 2
+        },
+        {
+          "n": 3,
+          "first_L": 20,
+          "bad_cells": 3
+        },
+        {
+          "n": 4,
+          "first_L": 26,
+          "bad_cells": 4
+        },
+        {
+          "n": 7,
+          "first_L": 44,
+          "bad_cells": 7
+        }
+      ],
+      "seconds": 0.06549682198965456
+    },
+    {
+      "name": "small_geometry_14",
+      "all_n_legal": true,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : false }",
+      "scalar_drifts": [
+        2,
+        -2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 2,
+          "bad_cells": 0
+        },
+        {
+          "n": 2,
+          "first_L": 4,
+          "bad_cells": 0
+        },
+        {
+          "n": 3,
+          "first_L": 6,
+          "bad_cells": 0
+        },
+        {
+          "n": 4,
+          "first_L": 8,
+          "bad_cells": 0
+        },
+        {
+          "n": 7,
+          "first_L": 14,
+          "bad_cells": 0
+        }
+      ],
+      "seconds": 0.013226045994088054
+    },
+    {
+      "name": "small_geometry_15",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        -2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 2,
+          "bad_cells": 2
+        },
+        {
+          "n": 2,
+          "first_L": 4,
+          "bad_cells": 5
+        },
+        {
+          "n": 3,
+          "first_L": 6,
+          "bad_cells": 8
+        },
+        {
+          "n": 4,
+          "first_L": 8,
+          "bad_cells": 11
+        },
+        {
+          "n": 7,
+          "first_L": 14,
+          "bad_cells": 20
+        }
+      ],
+      "seconds": 0.023617213999386877
+    },
+    {
+      "name": "small_geometry_16",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 3,
+          "bad_cells": 1
+        },
+        {
+          "n": 2,
+          "first_L": 6,
+          "bad_cells": 1
+        },
+        {
+          "n": 3,
+          "first_L": 9,
+          "bad_cells": 1
+        },
+        {
+          "n": 4,
+          "first_L": 12,
+          "bad_cells": 1
+        },
+        {
+          "n": 7,
+          "first_L": 21,
+          "bad_cells": 1
+        }
+      ],
+      "seconds": 0.01992567400156986
+    },
+    {
+      "name": "small_geometry_17",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        -2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 4,
+          "bad_cells": 1
+        },
+        {
+          "n": 2,
+          "first_L": 7,
+          "bad_cells": 3
+        },
+        {
+          "n": 3,
+          "first_L": 10,
+          "bad_cells": 5
+        },
+        {
+          "n": 4,
+          "first_L": 13,
+          "bad_cells": 7
+        },
+        {
+          "n": 7,
+          "first_L": 22,
+          "bad_cells": 13
+        }
+      ],
+      "seconds": 0.029489453008864075
+    },
+    {
+      "name": "small_geometry_18",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 5,
+          "bad_cells": 2
+        },
+        {
+          "n": 2,
+          "first_L": 10,
+          "bad_cells": 4
+        },
+        {
+          "n": 3,
+          "first_L": 15,
+          "bad_cells": 6
+        },
+        {
+          "n": 4,
+          "first_L": 20,
+          "bad_cells": 8
+        },
+        {
+          "n": 7,
+          "first_L": 35,
+          "bad_cells": 14
+        }
+      ],
+      "seconds": 0.03462559200124815
+    },
+    {
+      "name": "small_geometry_19",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 5,
+          "bad_cells": 1
+        },
+        {
+          "n": 2,
+          "first_L": 10,
+          "bad_cells": 3
+        },
+        {
+          "n": 3,
+          "first_L": 15,
+          "bad_cells": 5
+        },
+        {
+          "n": 4,
+          "first_L": 20,
+          "bad_cells": 7
+        },
+        {
+          "n": 7,
+          "first_L": 35,
+          "bad_cells": 13
+        }
+      ],
+      "seconds": 0.029945431000669487
+    },
+    {
+      "name": "small_geometry_20",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        -2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 3,
+          "bad_cells": 3
+        },
+        {
+          "n": 2,
+          "first_L": 6,
+          "bad_cells": 7
+        },
+        {
+          "n": 3,
+          "first_L": 9,
+          "bad_cells": 11
+        },
+        {
+          "n": 4,
+          "first_L": 12,
+          "bad_cells": 15
+        },
+        {
+          "n": 7,
+          "first_L": 21,
+          "bad_cells": 27
+        }
+      ],
+      "seconds": 0.031968854993465357
+    },
+    {
+      "name": "small_geometry_21",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 7,
+          "bad_cells": 1
+        },
+        {
+          "n": 2,
+          "first_L": 12,
+          "bad_cells": 3
+        },
+        {
+          "n": 3,
+          "first_L": 17,
+          "bad_cells": 5
+        },
+        {
+          "n": 4,
+          "first_L": 22,
+          "bad_cells": 7
+        },
+        {
+          "n": 7,
+          "first_L": 37,
+          "bad_cells": 13
+        }
+      ],
+      "seconds": 0.04042616499646101
+    },
+    {
+      "name": "small_geometry_22",
+      "all_n_legal": true,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : false }",
+      "scalar_drifts": [
+        2,
+        4
+      ],
+      "residue_modulus": 4,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 6,
+          "bad_cells": 0
+        },
+        {
+          "n": 2,
+          "first_L": 12,
+          "bad_cells": 0
+        },
+        {
+          "n": 3,
+          "first_L": 18,
+          "bad_cells": 0
+        },
+        {
+          "n": 4,
+          "first_L": 24,
+          "bad_cells": 0
+        },
+        {
+          "n": 7,
+          "first_L": 42,
+          "bad_cells": 0
+        }
+      ],
+      "seconds": 0.062056330003542826
+    },
+    {
+      "name": "small_geometry_23",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        -2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 2,
+          "bad_cells": 2
+        },
+        {
+          "n": 2,
+          "first_L": 4,
+          "bad_cells": 4
+        },
+        {
+          "n": 3,
+          "first_L": 6,
+          "bad_cells": 6
+        },
+        {
+          "n": 4,
+          "first_L": 8,
+          "bad_cells": 8
+        },
+        {
+          "n": 7,
+          "first_L": 14,
+          "bad_cells": 14
+        }
+      ],
+      "seconds": 0.021571136006969027
+    },
+    {
+      "name": "small_geometry_24",
+      "all_n_legal": true,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : false }",
+      "scalar_drifts": [
+        2,
+        -2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 4,
+          "bad_cells": 0
+        },
+        {
+          "n": 2,
+          "first_L": 7,
+          "bad_cells": 0
+        },
+        {
+          "n": 3,
+          "first_L": 10,
+          "bad_cells": 0
+        },
+        {
+          "n": 4,
+          "first_L": 13,
+          "bad_cells": 0
+        },
+        {
+          "n": 7,
+          "first_L": 22,
+          "bad_cells": 0
+        }
+      ],
+      "seconds": 0.02032950300781522
+    },
+    {
+      "name": "small_geometry_25",
+      "all_n_legal": true,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : false }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 3,
+          "bad_cells": 0
+        },
+        {
+          "n": 2,
+          "first_L": 6,
+          "bad_cells": 0
+        },
+        {
+          "n": 3,
+          "first_L": 9,
+          "bad_cells": 0
+        },
+        {
+          "n": 4,
+          "first_L": 12,
+          "bad_cells": 0
+        },
+        {
+          "n": 7,
+          "first_L": 21,
+          "bad_cells": 0
+        }
+      ],
+      "seconds": 0.02045280901074875
+    },
+    {
+      "name": "small_geometry_26",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        -2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 4,
+          "bad_cells": 2
+        },
+        {
+          "n": 2,
+          "first_L": 6,
+          "bad_cells": 3
+        },
+        {
+          "n": 3,
+          "first_L": 8,
+          "bad_cells": 4
+        },
+        {
+          "n": 4,
+          "first_L": 10,
+          "bad_cells": 5
+        },
+        {
+          "n": 7,
+          "first_L": 16,
+          "bad_cells": 8
+        }
+      ],
+      "seconds": 0.03416001000732649
+    },
+    {
+      "name": "small_geometry_27",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 6,
+          "bad_cells": 1
+        },
+        {
+          "n": 2,
+          "first_L": 11,
+          "bad_cells": 3
+        },
+        {
+          "n": 3,
+          "first_L": 16,
+          "bad_cells": 5
+        },
+        {
+          "n": 4,
+          "first_L": 21,
+          "bad_cells": 7
+        },
+        {
+          "n": 7,
+          "first_L": 36,
+          "bad_cells": 13
+        }
+      ],
+      "seconds": 0.049665174999972805
+    },
+    {
+      "name": "small_geometry_28",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 5,
+          "bad_cells": 1
+        },
+        {
+          "n": 2,
+          "first_L": 10,
+          "bad_cells": 3
+        },
+        {
+          "n": 3,
+          "first_L": 15,
+          "bad_cells": 5
+        },
+        {
+          "n": 4,
+          "first_L": 20,
+          "bad_cells": 7
+        },
+        {
+          "n": 7,
+          "first_L": 35,
+          "bad_cells": 13
+        }
+      ],
+      "seconds": 0.031009557002107613
+    },
+    {
+      "name": "small_geometry_29",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        -2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 5,
+          "bad_cells": 1
+        },
+        {
+          "n": 2,
+          "first_L": 10,
+          "bad_cells": 3
+        },
+        {
+          "n": 3,
+          "first_L": 15,
+          "bad_cells": 5
+        },
+        {
+          "n": 4,
+          "first_L": 20,
+          "bad_cells": 7
+        },
+        {
+          "n": 7,
+          "first_L": 35,
+          "bad_cells": 13
+        }
+      ],
+      "seconds": 0.036024512999574654
+    },
+    {
+      "name": "small_geometry_30",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 7,
+          "bad_cells": 1
+        },
+        {
+          "n": 2,
+          "first_L": 12,
+          "bad_cells": 3
+        },
+        {
+          "n": 3,
+          "first_L": 17,
+          "bad_cells": 5
+        },
+        {
+          "n": 4,
+          "first_L": 22,
+          "bad_cells": 7
+        },
+        {
+          "n": 7,
+          "first_L": 37,
+          "bad_cells": 13
+        }
+      ],
+      "seconds": 0.06246180200832896
+    },
+    {
+      "name": "small_geometry_31",
+      "all_n_legal": true,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : false }",
+      "scalar_drifts": [
+        2,
+        4
+      ],
+      "residue_modulus": 4,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 6,
+          "bad_cells": 0
+        },
+        {
+          "n": 2,
+          "first_L": 12,
+          "bad_cells": 0
+        },
+        {
+          "n": 3,
+          "first_L": 18,
+          "bad_cells": 0
+        },
+        {
+          "n": 4,
+          "first_L": 24,
+          "bad_cells": 0
+        },
+        {
+          "n": 7,
+          "first_L": 42,
+          "bad_cells": 0
+        }
+      ],
+      "seconds": 0.060938733993680216
+    },
+    {
+      "name": "small_geometry_32",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        -2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 4,
+          "bad_cells": 2
+        },
+        {
+          "n": 2,
+          "first_L": 7,
+          "bad_cells": 4
+        },
+        {
+          "n": 3,
+          "first_L": 10,
+          "bad_cells": 6
+        },
+        {
+          "n": 4,
+          "first_L": 13,
+          "bad_cells": 8
+        },
+        {
+          "n": 7,
+          "first_L": 22,
+          "bad_cells": 14
+        }
+      ],
+      "seconds": 0.02591539100103546
+    },
+    {
+      "name": "small_geometry_33",
+      "all_n_legal": true,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : false }",
+      "scalar_drifts": [
+        2,
+        -2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 3,
+          "bad_cells": 0
+        },
+        {
+          "n": 2,
+          "first_L": 5,
+          "bad_cells": 0
+        },
+        {
+          "n": 3,
+          "first_L": 7,
+          "bad_cells": 0
+        },
+        {
+          "n": 4,
+          "first_L": 9,
+          "bad_cells": 0
+        },
+        {
+          "n": 7,
+          "first_L": 15,
+          "bad_cells": 0
+        }
+      ],
+      "seconds": 0.012735424999846146
+    },
+    {
+      "name": "small_geometry_34",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 3,
+          "bad_cells": 2
+        },
+        {
+          "n": 2,
+          "first_L": 7,
+          "bad_cells": 2
+        },
+        {
+          "n": 3,
+          "first_L": 11,
+          "bad_cells": 2
+        },
+        {
+          "n": 4,
+          "first_L": 15,
+          "bad_cells": 2
+        },
+        {
+          "n": 7,
+          "first_L": 27,
+          "bad_cells": 2
+        }
+      ],
+      "seconds": 0.03298492799513042
+    },
+    {
+      "name": "small_geometry_35",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        -2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 5,
+          "bad_cells": 1
+        },
+        {
+          "n": 2,
+          "first_L": 9,
+          "bad_cells": 1
+        },
+        {
+          "n": 3,
+          "first_L": 13,
+          "bad_cells": 1
+        },
+        {
+          "n": 4,
+          "first_L": 17,
+          "bad_cells": 1
+        },
+        {
+          "n": 7,
+          "first_L": 29,
+          "bad_cells": 1
+        }
+      ],
+      "seconds": 0.03198079300636891
+    },
+    {
+      "name": "small_geometry_36",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 3,
+          "bad_cells": 1
+        },
+        {
+          "n": 2,
+          "first_L": 6,
+          "bad_cells": 1
+        },
+        {
+          "n": 3,
+          "first_L": 9,
+          "bad_cells": 1
+        },
+        {
+          "n": 4,
+          "first_L": 12,
+          "bad_cells": 1
+        },
+        {
+          "n": 7,
+          "first_L": 21,
+          "bad_cells": 1
+        }
+      ],
+      "seconds": 0.02860953100025654
+    },
+    {
+      "name": "small_geometry_37",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 5,
+          "bad_cells": 2
+        },
+        {
+          "n": 2,
+          "first_L": 10,
+          "bad_cells": 4
+        },
+        {
+          "n": 3,
+          "first_L": 15,
+          "bad_cells": 6
+        },
+        {
+          "n": 4,
+          "first_L": 20,
+          "bad_cells": 8
+        },
+        {
+          "n": 7,
+          "first_L": 35,
+          "bad_cells": 14
+        }
+      ],
+      "seconds": 0.04677118800464086
+    },
+    {
+      "name": "small_geometry_38",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        -2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 5,
+          "bad_cells": 1
+        },
+        {
+          "n": 2,
+          "first_L": 9,
+          "bad_cells": 3
+        },
+        {
+          "n": 3,
+          "first_L": 13,
+          "bad_cells": 5
+        },
+        {
+          "n": 4,
+          "first_L": 17,
+          "bad_cells": 7
+        },
+        {
+          "n": 7,
+          "first_L": 29,
+          "bad_cells": 13
+        }
+      ],
+      "seconds": 0.03585094099980779
+    },
+    {
+      "name": "small_geometry_39",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 8,
+          "bad_cells": 1
+        },
+        {
+          "n": 2,
+          "first_L": 13,
+          "bad_cells": 3
+        },
+        {
+          "n": 3,
+          "first_L": 18,
+          "bad_cells": 5
+        },
+        {
+          "n": 4,
+          "first_L": 23,
+          "bad_cells": 7
+        },
+        {
+          "n": 7,
+          "first_L": 38,
+          "bad_cells": 13
+        }
+      ],
+      "seconds": 0.040027663999353535
+    },
+    {
+      "name": "small_geometry_40",
+      "all_n_legal": false,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : n > 0 }",
+      "scalar_drifts": [
+        2,
+        -2
+      ],
+      "residue_modulus": 2,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 3,
+          "bad_cells": 3
+        },
+        {
+          "n": 2,
+          "first_L": 6,
+          "bad_cells": 7
+        },
+        {
+          "n": 3,
+          "first_L": 9,
+          "bad_cells": 11
+        },
+        {
+          "n": 4,
+          "first_L": 12,
+          "bad_cells": 15
+        },
+        {
+          "n": 7,
+          "first_L": 21,
+          "bad_cells": 27
+        }
+      ],
+      "seconds": 0.03410981400520541
+    },
+    {
+      "name": "small_geometry_41",
+      "all_n_legal": true,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : false }",
+      "scalar_drifts": [
+        2,
+        4
+      ],
+      "residue_modulus": 4,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 6,
+          "bad_cells": 0
+        },
+        {
+          "n": 2,
+          "first_L": 12,
+          "bad_cells": 0
+        },
+        {
+          "n": 3,
+          "first_L": 18,
+          "bad_cells": 0
+        },
+        {
+          "n": 4,
+          "first_L": 24,
+          "bad_cells": 0
+        },
+        {
+          "n": 7,
+          "first_L": 42,
+          "bad_cells": 0
+        }
+      ],
+      "seconds": 0.06398892600554973
+    },
+    {
+      "name": "small_geometry_42",
+      "all_n_legal": true,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : false }",
+      "scalar_drifts": [
+        2,
+        -4
+      ],
+      "residue_modulus": 4,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 5,
+          "bad_cells": 0
+        },
+        {
+          "n": 2,
+          "first_L": 9,
+          "bad_cells": 0
+        },
+        {
+          "n": 3,
+          "first_L": 13,
+          "bad_cells": 0
+        },
+        {
+          "n": 4,
+          "first_L": 17,
+          "bad_cells": 0
+        },
+        {
+          "n": 7,
+          "first_L": 29,
+          "bad_cells": 0
+        }
+      ],
+      "seconds": 0.09543352900072932
+    },
+    {
+      "name": "small_geometry_43",
+      "all_n_legal": true,
+      "fuel_status": "UNBOUNDED",
+      "uniform_fuel_bound": null,
+      "illegal_depths": "{ [n] : false }",
+      "scalar_drifts": [
+        2,
+        4
+      ],
+      "residue_modulus": 4,
+      "literal_controls": [
+        {
+          "n": 1,
+          "first_L": 8,
+          "bad_cells": 0
+        },
+        {
+          "n": 2,
+          "first_L": 14,
+          "bad_cells": 0
+        },
+        {
+          "n": 3,
+          "first_L": 20,
+          "bad_cells": 0
+        },
+        {
+          "n": 4,
+          "first_L": 26,
+          "bad_cells": 0
+        },
+        {
+          "n": 7,
+          "first_L": 44,
+          "bad_cells": 0
+        }
+      ],
+      "seconds": 0.11382787799811922
+    }
+  ],
+  "fiber_controls": [
+    {
+      "name": "separated_two_tracks",
+      "status": "BOUNDED",
+      "uniform_bound": 2,
+      "pieces": [
+        {
+          "piece": "{ [N, Z = N] : N >= 0 }",
+          "local_divisions": 0,
+          "status": "BOUNDED",
+          "max_fiber_diameter": 0
+        },
+        {
+          "piece": "{ [N, Z = 0] : N >= 0 }",
+          "local_divisions": 0,
+          "status": "BOUNDED",
+          "max_fiber_diameter": 0
+        }
+      ]
+    },
+    {
+      "name": "growing_integer_interval",
+      "status": "UNBOUNDED",
+      "uniform_bound": null,
+      "pieces": [
+        {
+          "piece": "{ [N, Z] : N >= 0 and 0 <= Z <= N }",
+          "local_divisions": 0,
+          "status": "UNBOUNDED_INTERVALS",
+          "max_fiber_diameter": null
+        }
+      ]
+    },
+    {
+      "name": "three_point_interval",
+      "status": "BOUNDED",
+      "uniform_bound": 3,
+      "pieces": [
+        {
+          "piece": "{ [N, Z] : N >= 0 and N <= Z <= 2 + N }",
+          "local_divisions": 0,
+          "status": "BOUNDED",
+          "max_fiber_diameter": 2
+        }
+      ]
+    },
+    {
+      "name": "div_structure_not_assumed_convex",
+      "status": "UNKNOWN",
+      "uniform_bound": null,
+      "pieces": [
+        {
+          "piece": "{ [N, Z] : (Z) mod 2 = 0 and 0 <= Z <= N }",
+          "local_divisions": 1,
+          "status": "UNKNOWN_DIVS",
+          "max_fiber_diameter": null
+        }
+      ]
+    }
+  ],
+  "invalid_inputs_rejected": 4,
+  "exact_cases": 50,
+  "literal_parameter_controls": 249,
+  "seconds": 7.294678723003017,
+  "isl_version": "isl-0.27-GMP",
+  "source_sha256": {
+    "flat_collinear_validator.py": "66c5a332af35a58b7a58bbf6f7d43f70925d6190c45897feaf3ef652e8b1c6cd",
+    "check_flat_collinear_validator.py": "846341dd0ffe27075104712d52a95ba4d0fe313900555623cdc6fa810f6517de"
+  }
+}

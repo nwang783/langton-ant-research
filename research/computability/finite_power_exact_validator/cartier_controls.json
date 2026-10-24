@@ -1,0 +1,272 @@
+{
+  "formal_coefficient_checks": 36992,
+  "literal_parity_checks": 324,
+  "literal_letters": 488281,
+  "geometric_control_first_conflict": 4,
+  "records": [
+    {
+      "name": "trinomial_parity",
+      "numerator": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "denominator": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "states": 2,
+      "degree_bounds": [
+        1,
+        1,
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "outputs": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "positive_glider",
+      "numerator": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "denominator": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "states": 2,
+      "degree_bounds": [
+        1,
+        1,
+        0
+      ],
+      "transitions": [
+        [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "outputs": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "geometric_R5_read_parity_shifted_y",
+      "numerator": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "denominator": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0
+        ]
+      ],
+      "states": 3,
+      "degree_bounds": [
+        2,
+        1,
+        1
+      ],
+      "transitions": [
+        [
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1
+        ]
+      ],
+      "outputs": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "two_dimensional_grid",
+      "numerator": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "denominator": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "states": 2,
+      "degree_bounds": [
+        0,
+        1,
+        1
+      ],
+      "transitions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "outputs": [
+        1,
+        0
+      ]
+    }
+  ],
+  "scope": "Cartier coefficient/parity layer only; not an end-to-end automata/frame validator.",
+  "seconds": 0.18672044099366758
+}

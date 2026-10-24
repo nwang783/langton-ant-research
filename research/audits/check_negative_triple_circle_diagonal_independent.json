@@ -1,0 +1,1544 @@
+{
+  "status": "PASS homogeneous negative G3 circle forces alternating turns and full diagonal drift",
+  "author_note": "2bcd69edc9e2c98270c468be3b66706e646e4edd842cab01c78aec5a2cf66182",
+  "local_profiles": [
+    {
+      "headings": "NSNN",
+      "gamma_incoming": "N",
+      "gamma_outgoing": "E",
+      "incoming_ranks": [
+        0,
+        2,
+        3
+      ],
+      "outgoing_ranks": [
+        0,
+        1,
+        2
+      ],
+      "turn": "RIGHT",
+      "off_circle_side": "LEFT",
+      "actual_rank_in_out_sides": [
+        [
+          "RIGHT",
+          "RIGHT"
+        ],
+        [
+          "LEFT",
+          "MIDDLE"
+        ],
+        [
+          "MIDDLE",
+          "LEFT"
+        ],
+        [
+          "LEFT",
+          "LEFT"
+        ]
+      ]
+    },
+    {
+      "headings": "NSSS",
+      "gamma_incoming": "S",
+      "gamma_outgoing": "E",
+      "incoming_ranks": [
+        1,
+        2,
+        3
+      ],
+      "outgoing_ranks": [
+        0,
+        1,
+        3
+      ],
+      "turn": "LEFT",
+      "off_circle_side": "RIGHT",
+      "actual_rank_in_out_sides": [
+        [
+          "RIGHT",
+          "RIGHT"
+        ],
+        [
+          "RIGHT",
+          "MIDDLE"
+        ],
+        [
+          "MIDDLE",
+          "RIGHT"
+        ],
+        [
+          "LEFT",
+          "LEFT"
+        ]
+      ]
+    },
+    {
+      "headings": "SNNN",
+      "gamma_incoming": "N",
+      "gamma_outgoing": "W",
+      "incoming_ranks": [
+        1,
+        2,
+        3
+      ],
+      "outgoing_ranks": [
+        0,
+        1,
+        3
+      ],
+      "turn": "LEFT",
+      "off_circle_side": "RIGHT",
+      "actual_rank_in_out_sides": [
+        [
+          "RIGHT",
+          "RIGHT"
+        ],
+        [
+          "RIGHT",
+          "MIDDLE"
+        ],
+        [
+          "MIDDLE",
+          "RIGHT"
+        ],
+        [
+          "LEFT",
+          "LEFT"
+        ]
+      ]
+    },
+    {
+      "headings": "SNSS",
+      "gamma_incoming": "S",
+      "gamma_outgoing": "W",
+      "incoming_ranks": [
+        0,
+        2,
+        3
+      ],
+      "outgoing_ranks": [
+        0,
+        1,
+        2
+      ],
+      "turn": "RIGHT",
+      "off_circle_side": "LEFT",
+      "actual_rank_in_out_sides": [
+        [
+          "RIGHT",
+          "RIGHT"
+        ],
+        [
+          "LEFT",
+          "MIDDLE"
+        ],
+        [
+          "MIDDLE",
+          "LEFT"
+        ],
+        [
+          "LEFT",
+          "LEFT"
+        ]
+      ]
+    },
+    {
+      "headings": "EWEE",
+      "gamma_incoming": "E",
+      "gamma_outgoing": "S",
+      "incoming_ranks": [
+        0,
+        2,
+        3
+      ],
+      "outgoing_ranks": [
+        0,
+        1,
+        2
+      ],
+      "turn": "RIGHT",
+      "off_circle_side": "LEFT",
+      "actual_rank_in_out_sides": [
+        [
+          "RIGHT",
+          "RIGHT"
+        ],
+        [
+          "LEFT",
+          "MIDDLE"
+        ],
+        [
+          "MIDDLE",
+          "LEFT"
+        ],
+        [
+          "LEFT",
+          "LEFT"
+        ]
+      ]
+    },
+    {
+      "headings": "EWWW",
+      "gamma_incoming": "W",
+      "gamma_outgoing": "S",
+      "incoming_ranks": [
+        1,
+        2,
+        3
+      ],
+      "outgoing_ranks": [
+        0,
+        1,
+        3
+      ],
+      "turn": "LEFT",
+      "off_circle_side": "RIGHT",
+      "actual_rank_in_out_sides": [
+        [
+          "RIGHT",
+          "RIGHT"
+        ],
+        [
+          "RIGHT",
+          "MIDDLE"
+        ],
+        [
+          "MIDDLE",
+          "RIGHT"
+        ],
+        [
+          "LEFT",
+          "LEFT"
+        ]
+      ]
+    },
+    {
+      "headings": "WEEE",
+      "gamma_incoming": "E",
+      "gamma_outgoing": "N",
+      "incoming_ranks": [
+        1,
+        2,
+        3
+      ],
+      "outgoing_ranks": [
+        0,
+        1,
+        3
+      ],
+      "turn": "LEFT",
+      "off_circle_side": "RIGHT",
+      "actual_rank_in_out_sides": [
+        [
+          "RIGHT",
+          "RIGHT"
+        ],
+        [
+          "RIGHT",
+          "MIDDLE"
+        ],
+        [
+          "MIDDLE",
+          "RIGHT"
+        ],
+        [
+          "LEFT",
+          "LEFT"
+        ]
+      ]
+    },
+    {
+      "headings": "WEWW",
+      "gamma_incoming": "W",
+      "gamma_outgoing": "N",
+      "incoming_ranks": [
+        0,
+        2,
+        3
+      ],
+      "outgoing_ranks": [
+        0,
+        1,
+        2
+      ],
+      "turn": "RIGHT",
+      "off_circle_side": "LEFT",
+      "actual_rank_in_out_sides": [
+        [
+          "RIGHT",
+          "RIGHT"
+        ],
+        [
+          "LEFT",
+          "MIDDLE"
+        ],
+        [
+          "MIDDLE",
+          "LEFT"
+        ],
+        [
+          "LEFT",
+          "LEFT"
+        ]
+      ]
+    }
+  ],
+  "abstract_clock_controls_not_fronts": [
+    {
+      "length": 2,
+      "period": 41,
+      "gaps": [
+        19,
+        24
+      ]
+    },
+    {
+      "length": 2,
+      "period": 26,
+      "gaps": [
+        10,
+        18
+      ]
+    },
+    {
+      "length": 2,
+      "period": 48,
+      "gaps": [
+        25,
+        25
+      ]
+    },
+    {
+      "length": 2,
+      "period": 43,
+      "gaps": [
+        16,
+        29
+      ]
+    },
+    {
+      "length": 2,
+      "period": 47,
+      "gaps": [
+        24,
+        25
+      ]
+    },
+    {
+      "length": 2,
+      "period": 16,
+      "gaps": [
+        13,
+        5
+      ]
+    },
+    {
+      "length": 2,
+      "period": 37,
+      "gaps": [
+        26,
+        13
+      ]
+    },
+    {
+      "length": 2,
+      "period": 31,
+      "gaps": [
+        7,
+        26
+      ]
+    },
+    {
+      "length": 2,
+      "period": 40,
+      "gaps": [
+        32,
+        10
+      ]
+    },
+    {
+      "length": 2,
+      "period": 38,
+      "gaps": [
+        14,
+        26
+      ]
+    },
+    {
+      "length": 4,
+      "period": 54,
+      "gaps": [
+        23,
+        11,
+        5,
+        19
+      ]
+    },
+    {
+      "length": 4,
+      "period": 76,
+      "gaps": [
+        5,
+        24,
+        33,
+        18
+      ]
+    },
+    {
+      "length": 4,
+      "period": 73,
+      "gaps": [
+        15,
+        32,
+        8,
+        22
+      ]
+    },
+    {
+      "length": 4,
+      "period": 79,
+      "gaps": [
+        32,
+        6,
+        13,
+        32
+      ]
+    },
+    {
+      "length": 4,
+      "period": 75,
+      "gaps": [
+        27,
+        6,
+        14,
+        32
+      ]
+    },
+    {
+      "length": 4,
+      "period": 74,
+      "gaps": [
+        18,
+        31,
+        13,
+        16
+      ]
+    },
+    {
+      "length": 4,
+      "period": 71,
+      "gaps": [
+        21,
+        12,
+        12,
+        30
+      ]
+    },
+    {
+      "length": 4,
+      "period": 62,
+      "gaps": [
+        8,
+        18,
+        16,
+        24
+      ]
+    },
+    {
+      "length": 4,
+      "period": 58,
+      "gaps": [
+        8,
+        15,
+        8,
+        31
+      ]
+    },
+    {
+      "length": 4,
+      "period": 59,
+      "gaps": [
+        25,
+        6,
+        14,
+        18
+      ]
+    },
+    {
+      "length": 6,
+      "period": 98,
+      "gaps": [
+        24,
+        15,
+        12,
+        7,
+        26,
+        20
+      ]
+    },
+    {
+      "length": 6,
+      "period": 111,
+      "gaps": [
+        31,
+        17,
+        6,
+        22,
+        15,
+        26
+      ]
+    },
+    {
+      "length": 6,
+      "period": 97,
+      "gaps": [
+        9,
+        18,
+        8,
+        9,
+        32,
+        27
+      ]
+    },
+    {
+      "length": 6,
+      "period": 95,
+      "gaps": [
+        6,
+        33,
+        18,
+        6,
+        14,
+        24
+      ]
+    },
+    {
+      "length": 6,
+      "period": 93,
+      "gaps": [
+        10,
+        12,
+        26,
+        11,
+        24,
+        16
+      ]
+    },
+    {
+      "length": 6,
+      "period": 73,
+      "gaps": [
+        8,
+        7,
+        13,
+        12,
+        29,
+        10
+      ]
+    },
+    {
+      "length": 6,
+      "period": 111,
+      "gaps": [
+        25,
+        33,
+        22,
+        9,
+        17,
+        11
+      ]
+    },
+    {
+      "length": 6,
+      "period": 73,
+      "gaps": [
+        22,
+        14,
+        9,
+        18,
+        6,
+        10
+      ]
+    },
+    {
+      "length": 6,
+      "period": 121,
+      "gaps": [
+        30,
+        23,
+        31,
+        15,
+        24,
+        4
+      ]
+    },
+    {
+      "length": 6,
+      "period": 99,
+      "gaps": [
+        13,
+        13,
+        30,
+        10,
+        25,
+        14
+      ]
+    },
+    {
+      "length": 8,
+      "period": 159,
+      "gaps": [
+        14,
+        26,
+        16,
+        20,
+        22,
+        9,
+        33,
+        27
+      ]
+    },
+    {
+      "length": 8,
+      "period": 137,
+      "gaps": [
+        9,
+        32,
+        9,
+        12,
+        20,
+        19,
+        30,
+        14
+      ]
+    },
+    {
+      "length": 8,
+      "period": 102,
+      "gaps": [
+        18,
+        19,
+        21,
+        6,
+        9,
+        5,
+        26,
+        6
+      ]
+    },
+    {
+      "length": 8,
+      "period": 141,
+      "gaps": [
+        14,
+        24,
+        29,
+        6,
+        17,
+        26,
+        22,
+        11
+      ]
+    },
+    {
+      "length": 8,
+      "period": 109,
+      "gaps": [
+        17,
+        11,
+        4,
+        19,
+        20,
+        14,
+        22,
+        10
+      ]
+    },
+    {
+      "length": 8,
+      "period": 137,
+      "gaps": [
+        30,
+        6,
+        11,
+        26,
+        4,
+        20,
+        15,
+        33
+      ]
+    },
+    {
+      "length": 8,
+      "period": 149,
+      "gaps": [
+        6,
+        31,
+        28,
+        6,
+        33,
+        7,
+        33,
+        13
+      ]
+    },
+    {
+      "length": 8,
+      "period": 123,
+      "gaps": [
+        27,
+        6,
+        30,
+        13,
+        9,
+        16,
+        26,
+        4
+      ]
+    },
+    {
+      "length": 8,
+      "period": 95,
+      "gaps": [
+        11,
+        13,
+        13,
+        5,
+        30,
+        13,
+        9,
+        9
+      ]
+    },
+    {
+      "length": 8,
+      "period": 160,
+      "gaps": [
+        16,
+        32,
+        24,
+        15,
+        26,
+        7,
+        23,
+        25
+      ]
+    },
+    {
+      "length": 17,
+      "period": 284,
+      "gaps": [
+        11,
+        10,
+        31,
+        30,
+        11,
+        17,
+        11,
+        8,
+        25,
+        29,
+        4,
+        5,
+        15,
+        24,
+        20,
+        28,
+        22
+      ]
+    },
+    {
+      "length": 17,
+      "period": 319,
+      "gaps": [
+        4,
+        27,
+        24,
+        8,
+        30,
+        7,
+        26,
+        22,
+        14,
+        31,
+        26,
+        29,
+        32,
+        12,
+        12,
+        8,
+        24
+      ]
+    },
+    {
+      "length": 17,
+      "period": 344,
+      "gaps": [
+        19,
+        33,
+        30,
+        19,
+        26,
+        32,
+        26,
+        30,
+        8,
+        23,
+        5,
+        12,
+        27,
+        23,
+        12,
+        13,
+        23
+      ]
+    },
+    {
+      "length": 17,
+      "period": 317,
+      "gaps": [
+        31,
+        9,
+        14,
+        32,
+        16,
+        22,
+        33,
+        7,
+        6,
+        6,
+        26,
+        30,
+        17,
+        26,
+        7,
+        26,
+        26
+      ]
+    },
+    {
+      "length": 17,
+      "period": 203,
+      "gaps": [
+        13,
+        6,
+        14,
+        14,
+        16,
+        26,
+        7,
+        6,
+        10,
+        4,
+        27,
+        13,
+        4,
+        9,
+        4,
+        14,
+        33
+      ]
+    },
+    {
+      "length": 17,
+      "period": 328,
+      "gaps": [
+        5,
+        26,
+        8,
+        20,
+        22,
+        19,
+        33,
+        11,
+        28,
+        15,
+        28,
+        11,
+        26,
+        32,
+        29,
+        23,
+        9
+      ]
+    },
+    {
+      "length": 17,
+      "period": 369,
+      "gaps": [
+        23,
+        32,
+        15,
+        23,
+        31,
+        29,
+        24,
+        31,
+        26,
+        18,
+        27,
+        11,
+        14,
+        26,
+        31,
+        17,
+        8
+      ]
+    },
+    {
+      "length": 17,
+      "period": 353,
+      "gaps": [
+        29,
+        18,
+        21,
+        22,
+        23,
+        16,
+        27,
+        12,
+        23,
+        32,
+        21,
+        20,
+        20,
+        28,
+        15,
+        30,
+        13
+      ]
+    },
+    {
+      "length": 17,
+      "period": 332,
+      "gaps": [
+        26,
+        19,
+        11,
+        16,
+        30,
+        15,
+        29,
+        9,
+        10,
+        27,
+        33,
+        13,
+        27,
+        31,
+        9,
+        24,
+        20
+      ]
+    },
+    {
+      "length": 17,
+      "period": 345,
+      "gaps": [
+        28,
+        23,
+        11,
+        29,
+        13,
+        31,
+        23,
+        11,
+        30,
+        24,
+        20,
+        9,
+        6,
+        29,
+        27,
+        18,
+        30
+      ]
+    }
+  ],
+  "alternating_geometry_controls": [
+    [
+      2,
+      0,
+      -1,
+      [
+        -1,
+        1
+      ]
+    ],
+    [
+      2,
+      0,
+      1,
+      [
+        1,
+        1
+      ]
+    ],
+    [
+      2,
+      1,
+      -1,
+      [
+        1,
+        1
+      ]
+    ],
+    [
+      2,
+      1,
+      1,
+      [
+        1,
+        -1
+      ]
+    ],
+    [
+      2,
+      2,
+      -1,
+      [
+        1,
+        -1
+      ]
+    ],
+    [
+      2,
+      2,
+      1,
+      [
+        -1,
+        -1
+      ]
+    ],
+    [
+      2,
+      3,
+      -1,
+      [
+        -1,
+        -1
+      ]
+    ],
+    [
+      2,
+      3,
+      1,
+      [
+        -1,
+        1
+      ]
+    ],
+    [
+      4,
+      0,
+      -1,
+      [
+        -2,
+        2
+      ]
+    ],
+    [
+      4,
+      0,
+      1,
+      [
+        2,
+        2
+      ]
+    ],
+    [
+      4,
+      1,
+      -1,
+      [
+        2,
+        2
+      ]
+    ],
+    [
+      4,
+      1,
+      1,
+      [
+        2,
+        -2
+      ]
+    ],
+    [
+      4,
+      2,
+      -1,
+      [
+        2,
+        -2
+      ]
+    ],
+    [
+      4,
+      2,
+      1,
+      [
+        -2,
+        -2
+      ]
+    ],
+    [
+      4,
+      3,
+      -1,
+      [
+        -2,
+        -2
+      ]
+    ],
+    [
+      4,
+      3,
+      1,
+      [
+        -2,
+        2
+      ]
+    ],
+    [
+      6,
+      0,
+      -1,
+      [
+        -3,
+        3
+      ]
+    ],
+    [
+      6,
+      0,
+      1,
+      [
+        3,
+        3
+      ]
+    ],
+    [
+      6,
+      1,
+      -1,
+      [
+        3,
+        3
+      ]
+    ],
+    [
+      6,
+      1,
+      1,
+      [
+        3,
+        -3
+      ]
+    ],
+    [
+      6,
+      2,
+      -1,
+      [
+        3,
+        -3
+      ]
+    ],
+    [
+      6,
+      2,
+      1,
+      [
+        -3,
+        -3
+      ]
+    ],
+    [
+      6,
+      3,
+      -1,
+      [
+        -3,
+        -3
+      ]
+    ],
+    [
+      6,
+      3,
+      1,
+      [
+        -3,
+        3
+      ]
+    ],
+    [
+      8,
+      0,
+      -1,
+      [
+        -4,
+        4
+      ]
+    ],
+    [
+      8,
+      0,
+      1,
+      [
+        4,
+        4
+      ]
+    ],
+    [
+      8,
+      1,
+      -1,
+      [
+        4,
+        4
+      ]
+    ],
+    [
+      8,
+      1,
+      1,
+      [
+        4,
+        -4
+      ]
+    ],
+    [
+      8,
+      2,
+      -1,
+      [
+        4,
+        -4
+      ]
+    ],
+    [
+      8,
+      2,
+      1,
+      [
+        -4,
+        -4
+      ]
+    ],
+    [
+      8,
+      3,
+      -1,
+      [
+        -4,
+        -4
+      ]
+    ],
+    [
+      8,
+      3,
+      1,
+      [
+        -4,
+        4
+      ]
+    ],
+    [
+      10,
+      0,
+      -1,
+      [
+        -5,
+        5
+      ]
+    ],
+    [
+      10,
+      0,
+      1,
+      [
+        5,
+        5
+      ]
+    ],
+    [
+      10,
+      1,
+      -1,
+      [
+        5,
+        5
+      ]
+    ],
+    [
+      10,
+      1,
+      1,
+      [
+        5,
+        -5
+      ]
+    ],
+    [
+      10,
+      2,
+      -1,
+      [
+        5,
+        -5
+      ]
+    ],
+    [
+      10,
+      2,
+      1,
+      [
+        -5,
+        -5
+      ]
+    ],
+    [
+      10,
+      3,
+      -1,
+      [
+        -5,
+        -5
+      ]
+    ],
+    [
+      10,
+      3,
+      1,
+      [
+        -5,
+        5
+      ]
+    ],
+    [
+      12,
+      0,
+      -1,
+      [
+        -6,
+        6
+      ]
+    ],
+    [
+      12,
+      0,
+      1,
+      [
+        6,
+        6
+      ]
+    ],
+    [
+      12,
+      1,
+      -1,
+      [
+        6,
+        6
+      ]
+    ],
+    [
+      12,
+      1,
+      1,
+      [
+        6,
+        -6
+      ]
+    ],
+    [
+      12,
+      2,
+      -1,
+      [
+        6,
+        -6
+      ]
+    ],
+    [
+      12,
+      2,
+      1,
+      [
+        -6,
+        -6
+      ]
+    ],
+    [
+      12,
+      3,
+      -1,
+      [
+        -6,
+        -6
+      ]
+    ],
+    [
+      12,
+      3,
+      1,
+      [
+        -6,
+        6
+      ]
+    ],
+    [
+      14,
+      0,
+      -1,
+      [
+        -7,
+        7
+      ]
+    ],
+    [
+      14,
+      0,
+      1,
+      [
+        7,
+        7
+      ]
+    ],
+    [
+      14,
+      1,
+      -1,
+      [
+        7,
+        7
+      ]
+    ],
+    [
+      14,
+      1,
+      1,
+      [
+        7,
+        -7
+      ]
+    ],
+    [
+      14,
+      2,
+      -1,
+      [
+        7,
+        -7
+      ]
+    ],
+    [
+      14,
+      2,
+      1,
+      [
+        -7,
+        -7
+      ]
+    ],
+    [
+      14,
+      3,
+      -1,
+      [
+        -7,
+        -7
+      ]
+    ],
+    [
+      14,
+      3,
+      1,
+      [
+        -7,
+        7
+      ]
+    ],
+    [
+      16,
+      0,
+      -1,
+      [
+        -8,
+        8
+      ]
+    ],
+    [
+      16,
+      0,
+      1,
+      [
+        8,
+        8
+      ]
+    ],
+    [
+      16,
+      1,
+      -1,
+      [
+        8,
+        8
+      ]
+    ],
+    [
+      16,
+      1,
+      1,
+      [
+        8,
+        -8
+      ]
+    ],
+    [
+      16,
+      2,
+      -1,
+      [
+        8,
+        -8
+      ]
+    ],
+    [
+      16,
+      2,
+      1,
+      [
+        -8,
+        -8
+      ]
+    ],
+    [
+      16,
+      3,
+      -1,
+      [
+        -8,
+        -8
+      ]
+    ],
+    [
+      16,
+      3,
+      1,
+      [
+        -8,
+        8
+      ]
+    ]
+  ],
+  "analytic_review": [
+    "Fresh enumeration of all WHITE histories of lengths1..4 in both compass axes gives exactly eight negative internal triple-use profiles, necessarily four-read. Sides were independently reconstructed from actual perturbed port coordinates, not copied labels: first triple tracks RIGHT, third LEFT, middle on gamma. R0 is RIGHT\u2192RIGHT; L3 LEFT\u2192LEFT; L1 comes from side s to middle and R2 leaves middle to the same s. The side s is opposite geometric turn.",
+    "Ordinal first/second/third matching across every actual physical triple edge gives globally consistent tracks. Small disjoint vertex disks and edge strips realize those perturbations. Unused physical edges have no crossing of gamma away from vertices and attach to their actual side. An excursion involving only R0/L3 contacts can therefore be homotoped into one component of the complement without crossing the middle cut, even if it uses boundary-tangent first/third tracks or unused chords between gamma vertices.",
+    "Negative middle routing is eta(i+1)=tau(i)+1 and Delta(i)=eta(i)-tau(i)>=4. Hence tau(i-1)-tau(i)=Delta(i)-1>=3. Summing one quotient circuit gives winding*kP=ell-sumDelta<0; embedded essential simplicity forces winding-1. A contractible cycle is already ruled out by the strictly negative clock sum. Full-winding-1 means this one lift contains all full-drift translates, with no extra gamma contacts omitted.",
+    "The bi-infinite time order is exactly L1(i),R2(i+1),L1(i-1),R2(i). No other gamma L1 or R2 lies between R2(i+1) and L1(i-1), since all R2 events are one update after their predecessor-index L1 and consecutive L1 gaps are>=3. Thus this real off-circle excursion forces s(i+1)=s(i-1). Other circles or off-gamma cells do not alter separation by this fixed gamma.",
+    "Period-two turn sequence is constant or alternating. A constant quarter-turn repeats the same four-edge physical square, impossible for this embedded essential lift. Therefore turns strictly alternate, ell is even, and exactly two perpendicular travel directions persist. Winding-1 full displacement is -d, yielding |dx|=|dy|=ell/2, with no primitive-drift replacement.",
+    "No K1, maximum level, root-free collar or zero-output premise is needed for the homogeneous-negative theorem. The root-free shallow valley corollary uses the separately signed axis rail, so simultaneous homogeneous-negative circles are impossible there. Mixed-sign circles remain open; the top-plateau alternative odd corner or lower neighbor is not an injection or global exclusion."
+  ]
+}

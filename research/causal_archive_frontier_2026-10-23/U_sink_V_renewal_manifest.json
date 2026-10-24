@@ -1,0 +1,55 @@
+{
+  "status": "INDEPENDENT_PASS_U_BASE_SELECTED_SINK_AND_V_RENEWAL_NECESSITY",
+  "date_utc": "2026-10-23T20:30:00Z",
+  "scope": "Actual post-entry U-entry complete-eight factors. U-base parallel selected supply only plain D at age6; unbounded epoch lengths and any infinite factor require unbounded V-base epoch counts specifically. No V contraction, width descent, record funding closure or capture.",
+  "files": [
+    {
+      "path": "U_sink_V_renewal.md",
+      "sha256": "bf610a8ba9efe29419721a49caf345c781c7f09d342656113e97c8ec44473ae9"
+    },
+    {
+      "path": "check_U_sink_V_renewal.py",
+      "sha256": "6685421ec568ef5399092320dcbcc1ba9e19b3c85bb5b4ebf0e7f2a2a24c1934"
+    },
+    {
+      "path": "U_sink_V_renewal_controls.json",
+      "sha256": "4869db6d41fa68c657b156cb1df55fb3c0cbc484ad9be049927f3e2f4e555a7e"
+    }
+  ],
+  "independent_audits": [
+    {
+      "path": "audits/check_U_parallel_selected_supply_independent.py",
+      "sha256": "acc0a2525c2c51a6b07a1fb49e2f9e2b1b8ea4da8c933e7abc0af1087de3a14f"
+    },
+    {
+      "path": "audits/check_U_parallel_selected_supply_independent.json",
+      "sha256": "8fb147d9f41f6b4b7e3626ea186e2637cd2b04eeffccd9cf551559b0264d1536"
+    },
+    {
+      "path": "audits/check_U_sink_V_renewal_independent.py",
+      "sha256": "9a165a6826be2f29db2bc03e19e13ac5e68b43f7be52f311d05d2a3d01ad1539"
+    },
+    {
+      "path": "audits/check_U_sink_V_renewal_independent.json",
+      "sha256": "765b0902195d0defe119cdedf8d71087083cfc45c5ff72a9e4a42866345bf2d2"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "causal_archive_frontier_2026-10-23/parallel_transport_manifest.json",
+      "sha256": "f400727a79ae429335830e48d2119da32feb084ba2404f187e87347279d2c80d"
+    },
+    {
+      "path": "causal_archive_frontier_2026-10-23/perpendicular_manifest.json",
+      "sha256": "72ec0a0066fa74302c1749fd08b4844314ae10b7c0efe245e0b902eda9d7fd7f"
+    },
+    {
+      "path": "causal_archive_frontier_2026-10-23/manifest.json",
+      "sha256": "79e3dc9c41d215f65ac02e68db1ccd1179700cbb9ce1f7570d433a47f34b26f8"
+    },
+    {
+      "path": "core_periodicity_new/U_parallel_selected_supply_frozen_20261023_2026/manifest.json",
+      "sha256": "044aef9be871da4586b9377e0cb1cd3bebc87d6cff28b1c7e98f7440082b54f6"
+    }
+  ]
+}

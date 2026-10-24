@@ -1,0 +1,7 @@
+The original solver (preserved as loop_decoration_solver_v1.py) completed the
+reduced-standard UNKNOWN and T24 UNSAT records, then hit Python's recursion
+limit on the full standard104 backbone. No result was obtained for that case.
+The strengthened exact implication closure in version2 completed the same
+three cases with results UNKNOWN, UNSAT, UNKNOWN. Distinct versioned JSON and
+logs preserve both runs. The T24 exclusion is still an internal solver result,
+not independently audited.

@@ -1,0 +1,3171 @@
+{
+  "status": "PASS exact literal prepared controls; NOT a white-input front",
+  "scope": "Literal prepared alternating-bend K1 gate control, not a white-input front.\nThe word is algebraically prescribed by the signed local skeleton, not searched.\n",
+  "word": "LRRRRLLLLRLLLLRLRRRR",
+  "profiles": [
+    {
+      "full_period": 20,
+      "full_drift": [
+        0,
+        2
+      ],
+      "histories": [
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "turns": "L",
+          "incoming": [
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            12
+          ],
+          "input": "black"
+        },
+        {
+          "cell": [
+            -1,
+            1
+          ],
+          "turns": "L",
+          "incoming": [
+            [
+              -1,
+              0
+            ]
+          ],
+          "times": [
+            11
+          ],
+          "input": "black"
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            1,
+            5,
+            9,
+            13
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            2,
+            10,
+            14,
+            26
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "times": [
+            -4,
+            0,
+            4,
+            8
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            1,
+            1
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            3,
+            15,
+            19,
+            27
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            2,
+            0
+          ],
+          "turns": "R",
+          "incoming": [
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            -3
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            2,
+            1
+          ],
+          "turns": "R",
+          "incoming": [
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            18
+          ],
+          "input": "white"
+        }
+      ],
+      "stream": {
+        "c_left": -1,
+        "c_right": 0,
+        "max_C": 1,
+        "excess_K": 1,
+        "scope": "prepared front stream; no white-input maximum theorem imported",
+        "faces": [
+          {
+            "face": [
+              -4,
+              0
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -4,
+              1
+            ],
+            "kind": "L",
+            "height": -1
+          },
+          {
+            "face": [
+              -3,
+              0
+            ],
+            "kind": "L",
+            "height": -1
+          },
+          {
+            "face": [
+              -3,
+              1
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -2,
+              0
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -2,
+              1
+            ],
+            "kind": "L",
+            "height": -1
+          },
+          {
+            "face": [
+              -1,
+              0
+            ],
+            "kind": "L",
+            "height": -2
+          },
+          {
+            "face": [
+              -1,
+              1
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              0,
+              0
+            ],
+            "kind": "C",
+            "height": 1
+          },
+          {
+            "face": [
+              0,
+              1
+            ],
+            "kind": "L",
+            "height": -2
+          },
+          {
+            "face": [
+              1,
+              0
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              1,
+              1
+            ],
+            "kind": "C",
+            "height": 1
+          },
+          {
+            "face": [
+              2,
+              0
+            ],
+            "kind": "C",
+            "height": 0
+          },
+          {
+            "face": [
+              2,
+              1
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              3,
+              0
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              3,
+              1
+            ],
+            "kind": "C",
+            "height": 0
+          },
+          {
+            "face": [
+              4,
+              0
+            ],
+            "kind": "C",
+            "height": 0
+          },
+          {
+            "face": [
+              4,
+              1
+            ],
+            "kind": "L",
+            "height": 0
+          }
+        ]
+      }
+    },
+    {
+      "full_period": 40,
+      "full_drift": [
+        0,
+        4
+      ],
+      "histories": [
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "turns": "L",
+          "incoming": [
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            12
+          ],
+          "input": "black"
+        },
+        {
+          "cell": [
+            -1,
+            1
+          ],
+          "turns": "L",
+          "incoming": [
+            [
+              -1,
+              0
+            ]
+          ],
+          "times": [
+            11
+          ],
+          "input": "black"
+        },
+        {
+          "cell": [
+            -1,
+            2
+          ],
+          "turns": "L",
+          "incoming": [
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            32
+          ],
+          "input": "black"
+        },
+        {
+          "cell": [
+            -1,
+            3
+          ],
+          "turns": "L",
+          "incoming": [
+            [
+              -1,
+              0
+            ]
+          ],
+          "times": [
+            31
+          ],
+          "input": "black"
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            1,
+            5,
+            9,
+            13
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            2,
+            10,
+            14,
+            26
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            0,
+            2
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            21,
+            25,
+            29,
+            33
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            0,
+            3
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            22,
+            30,
+            34,
+            46
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "times": [
+            -4,
+            0,
+            4,
+            8
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            1,
+            1
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            3,
+            15,
+            19,
+            27
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            1,
+            2
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "times": [
+            16,
+            20,
+            24,
+            28
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            1,
+            3
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            23,
+            35,
+            39,
+            47
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            2,
+            0
+          ],
+          "turns": "R",
+          "incoming": [
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            -3
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            2,
+            1
+          ],
+          "turns": "R",
+          "incoming": [
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            18
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            2,
+            2
+          ],
+          "turns": "R",
+          "incoming": [
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            17
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            2,
+            3
+          ],
+          "turns": "R",
+          "incoming": [
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            38
+          ],
+          "input": "white"
+        }
+      ],
+      "stream": {
+        "c_left": -1,
+        "c_right": 0,
+        "max_C": 1,
+        "excess_K": 1,
+        "scope": "prepared front stream; no white-input maximum theorem imported",
+        "faces": [
+          {
+            "face": [
+              -4,
+              0
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -4,
+              1
+            ],
+            "kind": "L",
+            "height": -1
+          },
+          {
+            "face": [
+              -4,
+              2
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -4,
+              3
+            ],
+            "kind": "L",
+            "height": -1
+          },
+          {
+            "face": [
+              -3,
+              0
+            ],
+            "kind": "L",
+            "height": -1
+          },
+          {
+            "face": [
+              -3,
+              1
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -3,
+              2
+            ],
+            "kind": "L",
+            "height": -1
+          },
+          {
+            "face": [
+              -3,
+              3
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -2,
+              0
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -2,
+              1
+            ],
+            "kind": "L",
+            "height": -1
+          },
+          {
+            "face": [
+              -2,
+              2
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -2,
+              3
+            ],
+            "kind": "L",
+            "height": -1
+          },
+          {
+            "face": [
+              -1,
+              0
+            ],
+            "kind": "L",
+            "height": -2
+          },
+          {
+            "face": [
+              -1,
+              1
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -1,
+              2
+            ],
+            "kind": "L",
+            "height": -2
+          },
+          {
+            "face": [
+              -1,
+              3
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              0,
+              0
+            ],
+            "kind": "C",
+            "height": 1
+          },
+          {
+            "face": [
+              0,
+              1
+            ],
+            "kind": "L",
+            "height": -2
+          },
+          {
+            "face": [
+              0,
+              2
+            ],
+            "kind": "C",
+            "height": 1
+          },
+          {
+            "face": [
+              0,
+              3
+            ],
+            "kind": "L",
+            "height": -2
+          },
+          {
+            "face": [
+              1,
+              0
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              1,
+              1
+            ],
+            "kind": "C",
+            "height": 1
+          },
+          {
+            "face": [
+              1,
+              2
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              1,
+              3
+            ],
+            "kind": "C",
+            "height": 1
+          },
+          {
+            "face": [
+              2,
+              0
+            ],
+            "kind": "C",
+            "height": 0
+          },
+          {
+            "face": [
+              2,
+              1
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              2,
+              2
+            ],
+            "kind": "C",
+            "height": 0
+          },
+          {
+            "face": [
+              2,
+              3
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              3,
+              0
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              3,
+              1
+            ],
+            "kind": "C",
+            "height": 0
+          },
+          {
+            "face": [
+              3,
+              2
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              3,
+              3
+            ],
+            "kind": "C",
+            "height": 0
+          },
+          {
+            "face": [
+              4,
+              0
+            ],
+            "kind": "C",
+            "height": 0
+          },
+          {
+            "face": [
+              4,
+              1
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              4,
+              2
+            ],
+            "kind": "C",
+            "height": 0
+          },
+          {
+            "face": [
+              4,
+              3
+            ],
+            "kind": "L",
+            "height": 0
+          }
+        ]
+      }
+    },
+    {
+      "full_period": 60,
+      "full_drift": [
+        0,
+        6
+      ],
+      "histories": [
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "turns": "L",
+          "incoming": [
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            12
+          ],
+          "input": "black"
+        },
+        {
+          "cell": [
+            -1,
+            1
+          ],
+          "turns": "L",
+          "incoming": [
+            [
+              -1,
+              0
+            ]
+          ],
+          "times": [
+            11
+          ],
+          "input": "black"
+        },
+        {
+          "cell": [
+            -1,
+            2
+          ],
+          "turns": "L",
+          "incoming": [
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            32
+          ],
+          "input": "black"
+        },
+        {
+          "cell": [
+            -1,
+            3
+          ],
+          "turns": "L",
+          "incoming": [
+            [
+              -1,
+              0
+            ]
+          ],
+          "times": [
+            31
+          ],
+          "input": "black"
+        },
+        {
+          "cell": [
+            -1,
+            4
+          ],
+          "turns": "L",
+          "incoming": [
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            52
+          ],
+          "input": "black"
+        },
+        {
+          "cell": [
+            -1,
+            5
+          ],
+          "turns": "L",
+          "incoming": [
+            [
+              -1,
+              0
+            ]
+          ],
+          "times": [
+            51
+          ],
+          "input": "black"
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            1,
+            5,
+            9,
+            13
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            2,
+            10,
+            14,
+            26
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            0,
+            2
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            21,
+            25,
+            29,
+            33
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            0,
+            3
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            22,
+            30,
+            34,
+            46
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            0,
+            4
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            41,
+            45,
+            49,
+            53
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            0,
+            5
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            42,
+            50,
+            54,
+            66
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "times": [
+            -4,
+            0,
+            4,
+            8
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            1,
+            1
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            3,
+            15,
+            19,
+            27
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            1,
+            2
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "times": [
+            16,
+            20,
+            24,
+            28
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            1,
+            3
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            23,
+            35,
+            39,
+            47
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            1,
+            4
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "times": [
+            36,
+            40,
+            44,
+            48
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            1,
+            5
+          ],
+          "turns": "RLRL",
+          "incoming": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            43,
+            55,
+            59,
+            67
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            2,
+            0
+          ],
+          "turns": "R",
+          "incoming": [
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            -3
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            2,
+            1
+          ],
+          "turns": "R",
+          "incoming": [
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            18
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            2,
+            2
+          ],
+          "turns": "R",
+          "incoming": [
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            17
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            2,
+            3
+          ],
+          "turns": "R",
+          "incoming": [
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            38
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            2,
+            4
+          ],
+          "turns": "R",
+          "incoming": [
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            37
+          ],
+          "input": "white"
+        },
+        {
+          "cell": [
+            2,
+            5
+          ],
+          "turns": "R",
+          "incoming": [
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            58
+          ],
+          "input": "white"
+        }
+      ],
+      "stream": {
+        "c_left": -1,
+        "c_right": 0,
+        "max_C": 1,
+        "excess_K": 1,
+        "scope": "prepared front stream; no white-input maximum theorem imported",
+        "faces": [
+          {
+            "face": [
+              -4,
+              0
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -4,
+              1
+            ],
+            "kind": "L",
+            "height": -1
+          },
+          {
+            "face": [
+              -4,
+              2
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -4,
+              3
+            ],
+            "kind": "L",
+            "height": -1
+          },
+          {
+            "face": [
+              -4,
+              4
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -4,
+              5
+            ],
+            "kind": "L",
+            "height": -1
+          },
+          {
+            "face": [
+              -3,
+              0
+            ],
+            "kind": "L",
+            "height": -1
+          },
+          {
+            "face": [
+              -3,
+              1
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -3,
+              2
+            ],
+            "kind": "L",
+            "height": -1
+          },
+          {
+            "face": [
+              -3,
+              3
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -3,
+              4
+            ],
+            "kind": "L",
+            "height": -1
+          },
+          {
+            "face": [
+              -3,
+              5
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -2,
+              0
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -2,
+              1
+            ],
+            "kind": "L",
+            "height": -1
+          },
+          {
+            "face": [
+              -2,
+              2
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -2,
+              3
+            ],
+            "kind": "L",
+            "height": -1
+          },
+          {
+            "face": [
+              -2,
+              4
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -2,
+              5
+            ],
+            "kind": "L",
+            "height": -1
+          },
+          {
+            "face": [
+              -1,
+              0
+            ],
+            "kind": "L",
+            "height": -2
+          },
+          {
+            "face": [
+              -1,
+              1
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -1,
+              2
+            ],
+            "kind": "L",
+            "height": -2
+          },
+          {
+            "face": [
+              -1,
+              3
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              -1,
+              4
+            ],
+            "kind": "L",
+            "height": -2
+          },
+          {
+            "face": [
+              -1,
+              5
+            ],
+            "kind": "C",
+            "height": -1
+          },
+          {
+            "face": [
+              0,
+              0
+            ],
+            "kind": "C",
+            "height": 1
+          },
+          {
+            "face": [
+              0,
+              1
+            ],
+            "kind": "L",
+            "height": -2
+          },
+          {
+            "face": [
+              0,
+              2
+            ],
+            "kind": "C",
+            "height": 1
+          },
+          {
+            "face": [
+              0,
+              3
+            ],
+            "kind": "L",
+            "height": -2
+          },
+          {
+            "face": [
+              0,
+              4
+            ],
+            "kind": "C",
+            "height": 1
+          },
+          {
+            "face": [
+              0,
+              5
+            ],
+            "kind": "L",
+            "height": -2
+          },
+          {
+            "face": [
+              1,
+              0
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              1,
+              1
+            ],
+            "kind": "C",
+            "height": 1
+          },
+          {
+            "face": [
+              1,
+              2
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              1,
+              3
+            ],
+            "kind": "C",
+            "height": 1
+          },
+          {
+            "face": [
+              1,
+              4
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              1,
+              5
+            ],
+            "kind": "C",
+            "height": 1
+          },
+          {
+            "face": [
+              2,
+              0
+            ],
+            "kind": "C",
+            "height": 0
+          },
+          {
+            "face": [
+              2,
+              1
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              2,
+              2
+            ],
+            "kind": "C",
+            "height": 0
+          },
+          {
+            "face": [
+              2,
+              3
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              2,
+              4
+            ],
+            "kind": "C",
+            "height": 0
+          },
+          {
+            "face": [
+              2,
+              5
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              3,
+              0
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              3,
+              1
+            ],
+            "kind": "C",
+            "height": 0
+          },
+          {
+            "face": [
+              3,
+              2
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              3,
+              3
+            ],
+            "kind": "C",
+            "height": 0
+          },
+          {
+            "face": [
+              3,
+              4
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              3,
+              5
+            ],
+            "kind": "C",
+            "height": 0
+          },
+          {
+            "face": [
+              4,
+              0
+            ],
+            "kind": "C",
+            "height": 0
+          },
+          {
+            "face": [
+              4,
+              1
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              4,
+              2
+            ],
+            "kind": "C",
+            "height": 0
+          },
+          {
+            "face": [
+              4,
+              3
+            ],
+            "kind": "L",
+            "height": 0
+          },
+          {
+            "face": [
+              4,
+              4
+            ],
+            "kind": "C",
+            "height": 0
+          },
+          {
+            "face": [
+              4,
+              5
+            ],
+            "kind": "L",
+            "height": 0
+          }
+        ]
+      }
+    }
+  ],
+  "finite_fuel_controls": [
+    {
+      "stages": 1,
+      "matched_steps": 20,
+      "initial_black_count": 5,
+      "initial_black": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "first_missing_fuel": {
+        "offset": 11,
+        "cell": [
+          -1,
+          3
+        ],
+        "expected": "L",
+        "actual": "R"
+      }
+    },
+    {
+      "stages": 2,
+      "matched_steps": 40,
+      "initial_black_count": 7,
+      "initial_black": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "first_missing_fuel": {
+        "offset": 11,
+        "cell": [
+          -1,
+          5
+        ],
+        "expected": "L",
+        "actual": "R"
+      }
+    },
+    {
+      "stages": 3,
+      "matched_steps": 60,
+      "initial_black_count": 9,
+      "initial_black": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          -1,
+          5
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "first_missing_fuel": {
+        "offset": 11,
+        "cell": [
+          -1,
+          7
+        ],
+        "expected": "L",
+        "actual": "R"
+      }
+    },
+    {
+      "stages": 10,
+      "matched_steps": 200,
+      "initial_black_count": 23,
+      "initial_black": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          -1,
+          5
+        ],
+        [
+          -1,
+          6
+        ],
+        [
+          -1,
+          7
+        ],
+        [
+          -1,
+          8
+        ],
+        [
+          -1,
+          9
+        ],
+        [
+          -1,
+          10
+        ],
+        [
+          -1,
+          11
+        ],
+        [
+          -1,
+          12
+        ],
+        [
+          -1,
+          13
+        ],
+        [
+          -1,
+          14
+        ],
+        [
+          -1,
+          15
+        ],
+        [
+          -1,
+          16
+        ],
+        [
+          -1,
+          17
+        ],
+        [
+          -1,
+          18
+        ],
+        [
+          -1,
+          19
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "first_missing_fuel": {
+        "offset": 11,
+        "cell": [
+          -1,
+          21
+        ],
+        "expected": "L",
+        "actual": "R"
+      }
+    },
+    {
+      "stages": 100,
+      "matched_steps": 2000,
+      "initial_black_count": 203,
+      "initial_black": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          -1,
+          5
+        ],
+        [
+          -1,
+          6
+        ],
+        [
+          -1,
+          7
+        ],
+        [
+          -1,
+          8
+        ],
+        [
+          -1,
+          9
+        ],
+        [
+          -1,
+          10
+        ],
+        [
+          -1,
+          11
+        ],
+        [
+          -1,
+          12
+        ],
+        [
+          -1,
+          13
+        ],
+        [
+          -1,
+          14
+        ],
+        [
+          -1,
+          15
+        ],
+        [
+          -1,
+          16
+        ],
+        [
+          -1,
+          17
+        ],
+        [
+          -1,
+          18
+        ],
+        [
+          -1,
+          19
+        ],
+        [
+          -1,
+          20
+        ],
+        [
+          -1,
+          21
+        ],
+        [
+          -1,
+          22
+        ],
+        [
+          -1,
+          23
+        ],
+        [
+          -1,
+          24
+        ],
+        [
+          -1,
+          25
+        ],
+        [
+          -1,
+          26
+        ],
+        [
+          -1,
+          27
+        ],
+        [
+          -1,
+          28
+        ],
+        [
+          -1,
+          29
+        ],
+        [
+          -1,
+          30
+        ],
+        [
+          -1,
+          31
+        ],
+        [
+          -1,
+          32
+        ],
+        [
+          -1,
+          33
+        ],
+        [
+          -1,
+          34
+        ],
+        [
+          -1,
+          35
+        ],
+        [
+          -1,
+          36
+        ],
+        [
+          -1,
+          37
+        ],
+        [
+          -1,
+          38
+        ],
+        [
+          -1,
+          39
+        ],
+        [
+          -1,
+          40
+        ],
+        [
+          -1,
+          41
+        ],
+        [
+          -1,
+          42
+        ],
+        [
+          -1,
+          43
+        ],
+        [
+          -1,
+          44
+        ],
+        [
+          -1,
+          45
+        ],
+        [
+          -1,
+          46
+        ],
+        [
+          -1,
+          47
+        ],
+        [
+          -1,
+          48
+        ],
+        [
+          -1,
+          49
+        ],
+        [
+          -1,
+          50
+        ],
+        [
+          -1,
+          51
+        ],
+        [
+          -1,
+          52
+        ],
+        [
+          -1,
+          53
+        ],
+        [
+          -1,
+          54
+        ],
+        [
+          -1,
+          55
+        ],
+        [
+          -1,
+          56
+        ],
+        [
+          -1,
+          57
+        ],
+        [
+          -1,
+          58
+        ],
+        [
+          -1,
+          59
+        ],
+        [
+          -1,
+          60
+        ],
+        [
+          -1,
+          61
+        ],
+        [
+          -1,
+          62
+        ],
+        [
+          -1,
+          63
+        ],
+        [
+          -1,
+          64
+        ],
+        [
+          -1,
+          65
+        ],
+        [
+          -1,
+          66
+        ],
+        [
+          -1,
+          67
+        ],
+        [
+          -1,
+          68
+        ],
+        [
+          -1,
+          69
+        ],
+        [
+          -1,
+          70
+        ],
+        [
+          -1,
+          71
+        ],
+        [
+          -1,
+          72
+        ],
+        [
+          -1,
+          73
+        ],
+        [
+          -1,
+          74
+        ],
+        [
+          -1,
+          75
+        ],
+        [
+          -1,
+          76
+        ],
+        [
+          -1,
+          77
+        ],
+        [
+          -1,
+          78
+        ],
+        [
+          -1,
+          79
+        ],
+        [
+          -1,
+          80
+        ],
+        [
+          -1,
+          81
+        ],
+        [
+          -1,
+          82
+        ],
+        [
+          -1,
+          83
+        ],
+        [
+          -1,
+          84
+        ],
+        [
+          -1,
+          85
+        ],
+        [
+          -1,
+          86
+        ],
+        [
+          -1,
+          87
+        ],
+        [
+          -1,
+          88
+        ],
+        [
+          -1,
+          89
+        ],
+        [
+          -1,
+          90
+        ],
+        [
+          -1,
+          91
+        ],
+        [
+          -1,
+          92
+        ],
+        [
+          -1,
+          93
+        ],
+        [
+          -1,
+          94
+        ],
+        [
+          -1,
+          95
+        ],
+        [
+          -1,
+          96
+        ],
+        [
+          -1,
+          97
+        ],
+        [
+          -1,
+          98
+        ],
+        [
+          -1,
+          99
+        ],
+        [
+          -1,
+          100
+        ],
+        [
+          -1,
+          101
+        ],
+        [
+          -1,
+          102
+        ],
+        [
+          -1,
+          103
+        ],
+        [
+          -1,
+          104
+        ],
+        [
+          -1,
+          105
+        ],
+        [
+          -1,
+          106
+        ],
+        [
+          -1,
+          107
+        ],
+        [
+          -1,
+          108
+        ],
+        [
+          -1,
+          109
+        ],
+        [
+          -1,
+          110
+        ],
+        [
+          -1,
+          111
+        ],
+        [
+          -1,
+          112
+        ],
+        [
+          -1,
+          113
+        ],
+        [
+          -1,
+          114
+        ],
+        [
+          -1,
+          115
+        ],
+        [
+          -1,
+          116
+        ],
+        [
+          -1,
+          117
+        ],
+        [
+          -1,
+          118
+        ],
+        [
+          -1,
+          119
+        ],
+        [
+          -1,
+          120
+        ],
+        [
+          -1,
+          121
+        ],
+        [
+          -1,
+          122
+        ],
+        [
+          -1,
+          123
+        ],
+        [
+          -1,
+          124
+        ],
+        [
+          -1,
+          125
+        ],
+        [
+          -1,
+          126
+        ],
+        [
+          -1,
+          127
+        ],
+        [
+          -1,
+          128
+        ],
+        [
+          -1,
+          129
+        ],
+        [
+          -1,
+          130
+        ],
+        [
+          -1,
+          131
+        ],
+        [
+          -1,
+          132
+        ],
+        [
+          -1,
+          133
+        ],
+        [
+          -1,
+          134
+        ],
+        [
+          -1,
+          135
+        ],
+        [
+          -1,
+          136
+        ],
+        [
+          -1,
+          137
+        ],
+        [
+          -1,
+          138
+        ],
+        [
+          -1,
+          139
+        ],
+        [
+          -1,
+          140
+        ],
+        [
+          -1,
+          141
+        ],
+        [
+          -1,
+          142
+        ],
+        [
+          -1,
+          143
+        ],
+        [
+          -1,
+          144
+        ],
+        [
+          -1,
+          145
+        ],
+        [
+          -1,
+          146
+        ],
+        [
+          -1,
+          147
+        ],
+        [
+          -1,
+          148
+        ],
+        [
+          -1,
+          149
+        ],
+        [
+          -1,
+          150
+        ],
+        [
+          -1,
+          151
+        ],
+        [
+          -1,
+          152
+        ],
+        [
+          -1,
+          153
+        ],
+        [
+          -1,
+          154
+        ],
+        [
+          -1,
+          155
+        ],
+        [
+          -1,
+          156
+        ],
+        [
+          -1,
+          157
+        ],
+        [
+          -1,
+          158
+        ],
+        [
+          -1,
+          159
+        ],
+        [
+          -1,
+          160
+        ],
+        [
+          -1,
+          161
+        ],
+        [
+          -1,
+          162
+        ],
+        [
+          -1,
+          163
+        ],
+        [
+          -1,
+          164
+        ],
+        [
+          -1,
+          165
+        ],
+        [
+          -1,
+          166
+        ],
+        [
+          -1,
+          167
+        ],
+        [
+          -1,
+          168
+        ],
+        [
+          -1,
+          169
+        ],
+        [
+          -1,
+          170
+        ],
+        [
+          -1,
+          171
+        ],
+        [
+          -1,
+          172
+        ],
+        [
+          -1,
+          173
+        ],
+        [
+          -1,
+          174
+        ],
+        [
+          -1,
+          175
+        ],
+        [
+          -1,
+          176
+        ],
+        [
+          -1,
+          177
+        ],
+        [
+          -1,
+          178
+        ],
+        [
+          -1,
+          179
+        ],
+        [
+          -1,
+          180
+        ],
+        [
+          -1,
+          181
+        ],
+        [
+          -1,
+          182
+        ],
+        [
+          -1,
+          183
+        ],
+        [
+          -1,
+          184
+        ],
+        [
+          -1,
+          185
+        ],
+        [
+          -1,
+          186
+        ],
+        [
+          -1,
+          187
+        ],
+        [
+          -1,
+          188
+        ],
+        [
+          -1,
+          189
+        ],
+        [
+          -1,
+          190
+        ],
+        [
+          -1,
+          191
+        ],
+        [
+          -1,
+          192
+        ],
+        [
+          -1,
+          193
+        ],
+        [
+          -1,
+          194
+        ],
+        [
+          -1,
+          195
+        ],
+        [
+          -1,
+          196
+        ],
+        [
+          -1,
+          197
+        ],
+        [
+          -1,
+          198
+        ],
+        [
+          -1,
+          199
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "first_missing_fuel": {
+        "offset": 11,
+        "cell": [
+          -1,
+          201
+        ],
+        "expected": "L",
+        "actual": "R"
+      }
+    }
+  ]
+}

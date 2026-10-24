@@ -1,0 +1,995 @@
+{
+  "status": "AUTHOR_ALL_PREPARATIONS_TWO_FOREIGN_TAG_N4_GUARD_PENDING_REVIEW",
+  "scope": "After actual Q/B, no arbitrary ordinary RAW suffix with actual finalM11 reaches either of its two N4 hook-loss U gates. No U ancestry, global simplicity, firstpost-letter or ordinary rail-length bound. W5 and hook-missing contacts remain open.",
+  "all8_true_input_RAW_exit_coordinate_inequalities": [
+    {
+      "atom": "D",
+      "input": [
+        0,
+        1
+      ],
+      "E_RAW_exit_relative_tag": [
+        0,
+        -1,
+        1
+      ],
+      "E_exit_H_lower_bound": -1,
+      "N_RAW_exit_relative_tag": [
+        1,
+        0,
+        0
+      ],
+      "N_exit_x_lower_bound": 0,
+      "N_input_y_minimum": 1,
+      "W_input_x_minimum": 0
+    },
+    {
+      "atom": "V",
+      "input": [
+        0,
+        3
+      ],
+      "E_RAW_exit_relative_tag": [
+        0,
+        -1,
+        1
+      ],
+      "E_exit_H_lower_bound": -1,
+      "N_RAW_exit_relative_tag": [
+        1,
+        0,
+        0
+      ],
+      "N_exit_x_lower_bound": 0,
+      "N_input_y_minimum": 3,
+      "W_input_x_minimum": 0
+    },
+    {
+      "atom": "V",
+      "input": [
+        1,
+        2
+      ],
+      "E_RAW_exit_relative_tag": [
+        1,
+        0,
+        1
+      ],
+      "E_exit_H_lower_bound": -1,
+      "N_RAW_exit_relative_tag": [
+        0,
+        1,
+        0
+      ],
+      "N_exit_x_lower_bound": 0,
+      "N_input_y_minimum": 2,
+      "W_input_x_minimum": 1
+    },
+    {
+      "atom": "U",
+      "input": [
+        -1,
+        1
+      ],
+      "E_RAW_exit_relative_tag": [
+        3,
+        -1,
+        1
+      ],
+      "E_exit_H_lower_bound": -1,
+      "N_RAW_exit_relative_tag": [
+        1,
+        3,
+        0
+      ],
+      "N_exit_x_lower_bound": 0,
+      "N_input_y_minimum": 1,
+      "W_input_x_minimum": -1
+    },
+    {
+      "atom": "U",
+      "input": [
+        -1,
+        2
+      ],
+      "E_RAW_exit_relative_tag": [
+        2,
+        -1,
+        1
+      ],
+      "E_exit_H_lower_bound": -1,
+      "N_RAW_exit_relative_tag": [
+        1,
+        2,
+        0
+      ],
+      "N_exit_x_lower_bound": 0,
+      "N_input_y_minimum": 2,
+      "W_input_x_minimum": -1
+    },
+    {
+      "atom": "U",
+      "input": [
+        -1,
+        4
+      ],
+      "E_RAW_exit_relative_tag": [
+        0,
+        -1,
+        1
+      ],
+      "E_exit_H_lower_bound": -1,
+      "N_RAW_exit_relative_tag": [
+        1,
+        0,
+        0
+      ],
+      "N_exit_x_lower_bound": 0,
+      "N_input_y_minimum": 4,
+      "W_input_x_minimum": -1
+    },
+    {
+      "atom": "U",
+      "input": [
+        0,
+        2
+      ],
+      "E_RAW_exit_relative_tag": [
+        2,
+        0,
+        1
+      ],
+      "E_exit_H_lower_bound": -1,
+      "N_RAW_exit_relative_tag": [
+        0,
+        2,
+        0
+      ],
+      "N_exit_x_lower_bound": 0,
+      "N_input_y_minimum": 2,
+      "W_input_x_minimum": 0
+    },
+    {
+      "atom": "U",
+      "input": [
+        0,
+        3
+      ],
+      "E_RAW_exit_relative_tag": [
+        1,
+        0,
+        1
+      ],
+      "E_exit_H_lower_bound": -1,
+      "N_RAW_exit_relative_tag": [
+        0,
+        1,
+        0
+      ],
+      "N_exit_x_lower_bound": 0,
+      "N_input_y_minimum": 3,
+      "W_input_x_minimum": 0
+    }
+  ],
+  "actual_C_external_input_empty": true,
+  "actual_RAW_C_U_noncontinuation": {
+    "feasible": false,
+    "conflict_read": 29,
+    "previous_read": 1,
+    "cell": [
+      -1,
+      0
+    ],
+    "turn": "L"
+  },
+  "source_cases": [
+    {
+      "foreign": "Q",
+      "translation": [
+        0,
+        0
+      ],
+      "actual_FOREIGN_R39_R54_births": [
+        {
+          "name": "g_R39",
+          "postforeign_cell": [
+            0,
+            -5
+          ],
+          "actual_A_cell": [
+            -4,
+            1
+          ],
+          "actual_last_R_tick0": 39,
+          "actual_last_R_read1": 40,
+          "external_CURRENT_at_A_exit": true
+        },
+        {
+          "name": "r_R54",
+          "postforeign_cell": [
+            1,
+            -3
+          ],
+          "actual_A_cell": [
+            -5,
+            -1
+          ],
+          "actual_last_R_tick0": 54,
+          "actual_last_R_read1": 55,
+          "external_CURRENT_at_A_exit": true
+        }
+      ],
+      "all16_clock2_tag_input_alignments": {
+        "r_R54": [
+          {
+            "atom": "D",
+            "input": [
+              0,
+              1
+            ],
+            "S_head": [
+              1,
+              -2,
+              2
+            ],
+            "reason": "sector"
+          },
+          {
+            "atom": "V",
+            "input": [
+              0,
+              3
+            ],
+            "S_head": [
+              1,
+              0,
+              2
+            ],
+            "reason": "sector"
+          },
+          {
+            "atom": "V",
+            "input": [
+              1,
+              2
+            ],
+            "S_head": [
+              2,
+              -1,
+              2
+            ],
+            "reason": "sector"
+          },
+          {
+            "atom": "U",
+            "input": [
+              -1,
+              1
+            ],
+            "S_head": [
+              0,
+              -2,
+              2
+            ],
+            "reason": "young_hook_CURRENT_core_or_first_WHITE",
+            "hook_CORE": [
+              [
+                -1,
+                -2
+              ]
+            ],
+            "hook_WHITE": [
+              [
+                -2,
+                -3
+              ],
+              [
+                -1,
+                -3
+              ]
+            ]
+          },
+          {
+            "atom": "U",
+            "input": [
+              -1,
+              2
+            ],
+            "S_head": [
+              0,
+              -1,
+              2
+            ],
+            "reason": "sector"
+          },
+          {
+            "atom": "U",
+            "input": [
+              -1,
+              4
+            ],
+            "S_head": [
+              0,
+              1,
+              2
+            ],
+            "reason": "sector"
+          },
+          {
+            "atom": "U",
+            "input": [
+              0,
+              2
+            ],
+            "S_head": [
+              1,
+              -1,
+              2
+            ],
+            "reason": "young_hook_CURRENT_core_or_first_WHITE",
+            "hook_CORE": [],
+            "hook_WHITE": [
+              [
+                -1,
+                -2
+              ]
+            ]
+          },
+          {
+            "atom": "U",
+            "input": [
+              0,
+              3
+            ],
+            "S_head": [
+              1,
+              0,
+              2
+            ],
+            "reason": "sector"
+          }
+        ],
+        "g_R39": [
+          {
+            "atom": "D",
+            "input": [
+              0,
+              1
+            ],
+            "S_head": [
+              0,
+              -4,
+              2
+            ],
+            "reason": "same_r_R54_CURRENT_in_D_entry_CORE",
+            "r_local": [
+              -1,
+              -1
+            ]
+          },
+          {
+            "atom": "V",
+            "input": [
+              0,
+              3
+            ],
+            "S_head": [
+              0,
+              -2,
+              2
+            ],
+            "reason": "young_hook_CURRENT_core_or_first_WHITE",
+            "hook_CORE": [
+              [
+                -1,
+                -2
+              ]
+            ],
+            "hook_WHITE": [
+              [
+                -2,
+                -3
+              ],
+              [
+                -1,
+                -3
+              ]
+            ]
+          },
+          {
+            "atom": "V",
+            "input": [
+              1,
+              2
+            ],
+            "S_head": [
+              1,
+              -3,
+              2
+            ],
+            "reason": "young_hook_CURRENT_core_or_first_WHITE",
+            "hook_CORE": [],
+            "hook_WHITE": [
+              [
+                -1,
+                -3
+              ]
+            ]
+          },
+          {
+            "atom": "U",
+            "input": [
+              -1,
+              1
+            ],
+            "S_head": [
+              -1,
+              -4,
+              2
+            ],
+            "reason": "sector"
+          },
+          {
+            "atom": "U",
+            "input": [
+              -1,
+              2
+            ],
+            "S_head": [
+              -1,
+              -3,
+              2
+            ],
+            "reason": "young_hook_CURRENT_core_or_first_WHITE",
+            "hook_CORE": [
+              [
+                -2,
+                -3
+              ],
+              [
+                -1,
+                -3
+              ],
+              [
+                -1,
+                -2
+              ]
+            ],
+            "hook_WHITE": [
+              [
+                -3,
+                -3
+              ]
+            ]
+          },
+          {
+            "atom": "U",
+            "input": [
+              -1,
+              4
+            ],
+            "S_head": [
+              -1,
+              -1,
+              2
+            ],
+            "reason": "young_hook_CURRENT_core_or_first_WHITE",
+            "hook_CORE": [],
+            "hook_WHITE": [
+              [
+                -2,
+                -3
+              ],
+              [
+                -1,
+                -2
+              ]
+            ]
+          },
+          {
+            "atom": "U",
+            "input": [
+              0,
+              2
+            ],
+            "S_head": [
+              0,
+              -3,
+              2
+            ],
+            "reason": "sector"
+          },
+          {
+            "atom": "U",
+            "input": [
+              0,
+              3
+            ],
+            "S_head": [
+              0,
+              -2,
+              2
+            ],
+            "reason": "young_hook_CURRENT_core_or_first_WHITE",
+            "hook_CORE": [
+              [
+                -1,
+                -2
+              ]
+            ],
+            "hook_WHITE": [
+              [
+                -2,
+                -3
+              ],
+              [
+                -1,
+                -3
+              ]
+            ]
+          }
+        ]
+      },
+      "two_N4_target_obligations": [
+        {
+          "target_U_N": [
+            -1,
+            -5
+          ],
+          "postforeign_C_entry_clock": 4,
+          "needed_same_foreign_tag": "g_R39",
+          "target_H": -6,
+          "nonempty_final_N_H_minimum": 2,
+          "E_terminal_H_max": -9,
+          "minimum_E_tag_loss_RAW_exit_H": -6,
+          "minimum_N_tag_loss_RAW_exit_x": 0,
+          "target_x": -1,
+          "literal_target_local": [
+            1,
+            0
+          ],
+          "exact_target_cut": "same_g_R39_CURRENT_in_U_entry_CORE",
+          "actual_R_owner": null
+        },
+        {
+          "target_U_N": [
+            0,
+            -4
+          ],
+          "postforeign_C_entry_clock": 4,
+          "needed_same_foreign_tag": "r_R54",
+          "target_H": -4,
+          "nonempty_final_N_H_minimum": 2,
+          "E_terminal_H_max": -7,
+          "minimum_E_tag_loss_RAW_exit_H": -3,
+          "minimum_N_tag_loss_RAW_exit_x": 1,
+          "target_x": 0,
+          "literal_target_local": [
+            1,
+            1
+          ],
+          "exact_target_cut": "same_r_R54_BLACK_at_actual_U_R6",
+          "actual_R_owner": {
+            "packet": "U",
+            "context_tick0": 6,
+            "context_read_number1": 7,
+            "RAW_length": 28,
+            "owner": "own U-base RAW",
+            "owner_tick0": 6,
+            "owner_read_number1": 7,
+            "turn": "R",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 6 (zero-based), RAW length 28; own U-base RAW tick 6 (zero-based), read 7 (one-based), R"
+          }
+        }
+      ]
+    },
+    {
+      "foreign": "B",
+      "translation": [
+        1,
+        -1
+      ],
+      "actual_FOREIGN_R39_R54_births": [
+        {
+          "name": "g_R39",
+          "postforeign_cell": [
+            1,
+            -6
+          ],
+          "actual_A_cell": [
+            -4,
+            1
+          ],
+          "actual_last_R_tick0": 39,
+          "actual_last_R_read1": 40,
+          "external_CURRENT_at_A_exit": true
+        },
+        {
+          "name": "r_R54",
+          "postforeign_cell": [
+            2,
+            -4
+          ],
+          "actual_A_cell": [
+            -5,
+            -1
+          ],
+          "actual_last_R_tick0": 54,
+          "actual_last_R_read1": 55,
+          "external_CURRENT_at_A_exit": true
+        }
+      ],
+      "all16_clock2_tag_input_alignments": {
+        "r_R54": [
+          {
+            "atom": "D",
+            "input": [
+              0,
+              1
+            ],
+            "S_head": [
+              2,
+              -3,
+              2
+            ],
+            "reason": "sector"
+          },
+          {
+            "atom": "V",
+            "input": [
+              0,
+              3
+            ],
+            "S_head": [
+              2,
+              -1,
+              2
+            ],
+            "reason": "sector"
+          },
+          {
+            "atom": "V",
+            "input": [
+              1,
+              2
+            ],
+            "S_head": [
+              3,
+              -2,
+              2
+            ],
+            "reason": "sector"
+          },
+          {
+            "atom": "U",
+            "input": [
+              -1,
+              1
+            ],
+            "S_head": [
+              1,
+              -3,
+              2
+            ],
+            "reason": "young_hook_CURRENT_core_or_first_WHITE",
+            "hook_CORE": [
+              [
+                0,
+                -3
+              ]
+            ],
+            "hook_WHITE": [
+              [
+                -1,
+                -4
+              ],
+              [
+                0,
+                -4
+              ]
+            ]
+          },
+          {
+            "atom": "U",
+            "input": [
+              -1,
+              2
+            ],
+            "S_head": [
+              1,
+              -2,
+              2
+            ],
+            "reason": "sector"
+          },
+          {
+            "atom": "U",
+            "input": [
+              -1,
+              4
+            ],
+            "S_head": [
+              1,
+              0,
+              2
+            ],
+            "reason": "sector"
+          },
+          {
+            "atom": "U",
+            "input": [
+              0,
+              2
+            ],
+            "S_head": [
+              2,
+              -2,
+              2
+            ],
+            "reason": "young_hook_CURRENT_core_or_first_WHITE",
+            "hook_CORE": [],
+            "hook_WHITE": [
+              [
+                0,
+                -3
+              ]
+            ]
+          },
+          {
+            "atom": "U",
+            "input": [
+              0,
+              3
+            ],
+            "S_head": [
+              2,
+              -1,
+              2
+            ],
+            "reason": "sector"
+          }
+        ],
+        "g_R39": [
+          {
+            "atom": "D",
+            "input": [
+              0,
+              1
+            ],
+            "S_head": [
+              1,
+              -5,
+              2
+            ],
+            "reason": "same_r_R54_CURRENT_in_D_entry_CORE",
+            "r_local": [
+              -1,
+              -1
+            ]
+          },
+          {
+            "atom": "V",
+            "input": [
+              0,
+              3
+            ],
+            "S_head": [
+              1,
+              -3,
+              2
+            ],
+            "reason": "young_hook_CURRENT_core_or_first_WHITE",
+            "hook_CORE": [
+              [
+                0,
+                -3
+              ]
+            ],
+            "hook_WHITE": [
+              [
+                -1,
+                -4
+              ],
+              [
+                0,
+                -4
+              ]
+            ]
+          },
+          {
+            "atom": "V",
+            "input": [
+              1,
+              2
+            ],
+            "S_head": [
+              2,
+              -4,
+              2
+            ],
+            "reason": "young_hook_CURRENT_core_or_first_WHITE",
+            "hook_CORE": [],
+            "hook_WHITE": [
+              [
+                0,
+                -4
+              ]
+            ]
+          },
+          {
+            "atom": "U",
+            "input": [
+              -1,
+              1
+            ],
+            "S_head": [
+              0,
+              -5,
+              2
+            ],
+            "reason": "sector"
+          },
+          {
+            "atom": "U",
+            "input": [
+              -1,
+              2
+            ],
+            "S_head": [
+              0,
+              -4,
+              2
+            ],
+            "reason": "young_hook_CURRENT_core_or_first_WHITE",
+            "hook_CORE": [
+              [
+                -1,
+                -4
+              ],
+              [
+                0,
+                -4
+              ],
+              [
+                0,
+                -3
+              ]
+            ],
+            "hook_WHITE": [
+              [
+                -2,
+                -4
+              ]
+            ]
+          },
+          {
+            "atom": "U",
+            "input": [
+              -1,
+              4
+            ],
+            "S_head": [
+              0,
+              -2,
+              2
+            ],
+            "reason": "young_hook_CURRENT_core_or_first_WHITE",
+            "hook_CORE": [],
+            "hook_WHITE": [
+              [
+                -1,
+                -4
+              ],
+              [
+                0,
+                -3
+              ]
+            ]
+          },
+          {
+            "atom": "U",
+            "input": [
+              0,
+              2
+            ],
+            "S_head": [
+              1,
+              -4,
+              2
+            ],
+            "reason": "sector"
+          },
+          {
+            "atom": "U",
+            "input": [
+              0,
+              3
+            ],
+            "S_head": [
+              1,
+              -3,
+              2
+            ],
+            "reason": "young_hook_CURRENT_core_or_first_WHITE",
+            "hook_CORE": [
+              [
+                0,
+                -3
+              ]
+            ],
+            "hook_WHITE": [
+              [
+                -1,
+                -4
+              ],
+              [
+                0,
+                -4
+              ]
+            ]
+          }
+        ]
+      },
+      "two_N4_target_obligations": [
+        {
+          "target_U_N": [
+            0,
+            -6
+          ],
+          "postforeign_C_entry_clock": 4,
+          "needed_same_foreign_tag": "g_R39",
+          "target_H": -6,
+          "nonempty_final_N_H_minimum": 2,
+          "E_terminal_H_max": -9,
+          "minimum_E_tag_loss_RAW_exit_H": -6,
+          "minimum_N_tag_loss_RAW_exit_x": 1,
+          "target_x": 0,
+          "literal_target_local": [
+            1,
+            0
+          ],
+          "exact_target_cut": "same_g_R39_CURRENT_in_U_entry_CORE",
+          "actual_R_owner": null
+        },
+        {
+          "target_U_N": [
+            1,
+            -5
+          ],
+          "postforeign_C_entry_clock": 4,
+          "needed_same_foreign_tag": "r_R54",
+          "target_H": -4,
+          "nonempty_final_N_H_minimum": 2,
+          "E_terminal_H_max": -7,
+          "minimum_E_tag_loss_RAW_exit_H": -3,
+          "minimum_N_tag_loss_RAW_exit_x": 2,
+          "target_x": 1,
+          "literal_target_local": [
+            1,
+            1
+          ],
+          "exact_target_cut": "same_r_R54_BLACK_at_actual_U_R6",
+          "actual_R_owner": {
+            "packet": "U",
+            "context_tick0": 6,
+            "context_read_number1": 7,
+            "RAW_length": 28,
+            "owner": "own U-base RAW",
+            "owner_tick0": 6,
+            "owner_read_number1": 7,
+            "turn": "R",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 6 (zero-based), RAW length 28; own U-base RAW tick 6 (zero-based), read 7 (one-based), R"
+          }
+        }
+      ]
+    }
+  ],
+  "chronological_dependency_order": "Signed four-hook CURRENT throughC3 -> initial r_R54 CURRENT throughC2 by six sectors/two hook cuts -> initial g_R39 CURRENT throughC2 by sectors/fivehookcuts/one rCORE -> exact E/N endpoint reserves at selectedN4 targets -> gCORE or r firstWHITE contradiction. No circular reserve assumption.",
+  "unbounded_endpoint_argument": "N0 andW1 cannot consume initial negative-y tags. E3 lossRAWexitH>=tagH-1, while C4+nonemptyNrail forces lastE H<=targetH-3; these bounds contradict. N4 lossRAWexitx>=tagx>targetx cannot return under monotoneN x. C hasI0. Nrail empty is actualCU RAW contradiction.",
+  "no_postFOREIGN_JO_age_import_or_unread_CORE_omission": true,
+  "no_W5_hook_miss_secondFOREIGN_or_simplicity_or_capture_claim": true
+}

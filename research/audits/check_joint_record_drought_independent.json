@@ -1,0 +1,196 @@
+{
+  "status": "PASS all-direction endpoint-record theorem, conditional explicit rectangle evacuation/translation, and exact all-n simultaneous drought control",
+  "manifest": "279631813c510c23d6939b3ef97d417f72b727e6820e243846e06cbc135adf80",
+  "script": "1f29a0ec208d2528d7d7e706006539b6d803c56edc8f0bf4419eb1df714ed440",
+  "full_reads": 921933,
+  "completed_R_intervals": 416187,
+  "controls": [
+    {
+      "name": "twenty_20",
+      "reads": 12155,
+      "completed": 5331,
+      "max_age": 11436,
+      "max_local_gap": 3789,
+      "marked": [
+        [
+          60,
+          10964,
+          3789,
+          4
+        ]
+      ],
+      "record_count": 6,
+      "parity_tests": 170
+    },
+    {
+      "name": "twenty_80",
+      "reads": 49595,
+      "completed": 21891,
+      "max_age": 48876,
+      "max_local_gap": 16269,
+      "marked": [
+        [
+          60,
+          48404,
+          16269,
+          4
+        ]
+      ],
+      "record_count": 6,
+      "parity_tests": 170
+    },
+    {
+      "name": "twenty_400",
+      "reads": 249275,
+      "completed": 110211,
+      "max_age": 248556,
+      "max_local_gap": 82829,
+      "marked": [
+        [
+          60,
+          248084,
+          82829,
+          4
+        ]
+      ],
+      "record_count": 6,
+      "parity_tests": 170
+    },
+    {
+      "name": "sixteen_20",
+      "reads": 23587,
+      "completed": 10673,
+      "max_age": 19900,
+      "max_local_gap": 12577,
+      "marked": [
+        [
+          3061,
+          14393,
+          5516,
+          2
+        ]
+      ],
+      "record_count": 4,
+      "parity_tests": 170
+    },
+    {
+      "name": "sixteen_40",
+      "reads": 39187,
+      "completed": 17573,
+      "max_age": 32380,
+      "max_local_gap": 18817,
+      "marked": [
+        [
+          6181,
+          29993,
+          11756,
+          2
+        ]
+      ],
+      "record_count": 4,
+      "parity_tests": 170
+    },
+    {
+      "name": "sixteen_80",
+      "reads": 70387,
+      "completed": 31373,
+      "max_age": 57340,
+      "max_local_gap": 31297,
+      "marked": [
+        [
+          12421,
+          61193,
+          24236,
+          2
+        ]
+      ],
+      "record_count": 4,
+      "parity_tests": 170
+    },
+    {
+      "name": "MT_100",
+      "reads": 113801,
+      "completed": 52943,
+      "max_age": 91684,
+      "max_local_gap": 59920,
+      "marked": [
+        [
+          20165,
+          52605,
+          13170,
+          2
+        ]
+      ],
+      "record_count": 120,
+      "parity_tests": 159
+    },
+    {
+      "name": "MT_137",
+      "reads": 125345,
+      "completed": 58049,
+      "max_age": 99380,
+      "max_local_gap": 63768,
+      "marked": [
+        [
+          20165,
+          60301,
+          17018,
+          2
+        ]
+      ],
+      "record_count": 194,
+      "parity_tests": 159
+    },
+    {
+      "name": "MT_500",
+      "reads": 238601,
+      "completed": 108143,
+      "max_age": 174884,
+      "max_local_gap": 101520,
+      "marked": [
+        [
+          20165,
+          135805,
+          54770,
+          2
+        ]
+      ],
+      "record_count": 920,
+      "parity_tests": 159
+    }
+  ],
+  "all_n_affine_checks": 358132,
+  "affine_stage_counts": {
+    "prefix": 84500,
+    "first_flight": 416,
+    "last_flight": 416,
+    "partial_flight": 304,
+    "T_all": 44928,
+    "SW_first": 416,
+    "SW_last": 416,
+    "SW_partial": 400,
+    "post": 193856,
+    "NW_before_first_W": 32392,
+    "initial_seed": 68,
+    "initial_T_seed": 20
+  },
+  "first_W_tail_hit": [
+    8098,
+    77,
+    90,
+    [
+      -2,
+      372
+    ],
+    3
+  ],
+  "analytic_review": [
+    "For any unit latticewalk and q=p_t in the earlierclosedrectangleR_s, last recordell_a has coordinateM_a(s)+n_a >= a.q+n_a. Hence n_a<=t-ell_a. Ordering atmostfour occurringnormals bylastoccurrence gives suffixbound t-ell_a<=H(1+sumlater n). Exact backwardrecursion Snew<=H+(H+1)S yields N<=(H+1)^m-1 and duration<=H(H+1)^m. Noant/color/nesting premise is hidden; endpointtisnotrecord, startsexcluded, no-recordcaseH=duration.",
+    "Global uniongaps<=H from anactualrecordT with infinitelymanylaterrecords dominate all endpointsubgaps for every s>=T. Thus noheadreturns anywhere inR_s afters+G(H), G=H(H+1)^4, independentlyofrectanglesize. CruciallyR_s includes ENTIREfiniteinitialBLACK plusheadhistory, so everyoldcurrentBLACK identity atT isinside. Futureconsumedoldidentities die byT+G; fromnextcut everyrelevantidentity islateRborn and has totalage<=G. Entire rho<=G, not merelyselectedcohort/activecomponent.",
+    "Finite normalized exactpruning recurrence then gives eventualturn/pose translation while allpermanentarchive remains. Infiniteunionrecords exclude zerodrift. Converselyatranslatorhas a positiveaxis and nextrecordwithinP afteroldextrema, soeventualuniongapsbounded. Ordinaryheadrecords differfromaugmentedrecords byonlyfinitelymanylevels, possiblyverylate; no uniform conversionthresholdisclaimed. Signedfinite-antunboundedness supplies infiniteunionrecords.",
+    "Contrapositive is arbitrarylate simultaneous FOUR-side droughts in a nontranslator. It is stronger thanseparateaxiswaits but not anoccurrenceproof, a canonical104classification, or a resourcepayment. The polynomial boundalsoappliesto eachcompletedRage and yields H>=(age/16)^(1/5), withnooptimalityclaim.",
+    "Ninefreshwholefiniteorbits retainallfields and initial/R identities. Reconstructed everypristine augmentedrecord andordinaryheadrecord, all416187completedR intervals, strongeropenintervals tooriginalinputs, namedwholeboards andallfuturecanonicalparity. Theproofisanalytic; controlsarenot promotedfromsamplemaxima.",
+    "For allintegern>=100 the complete22cellMT source/flight/T/SW/actualL/postrecovery/NW decomposition is inherited from signedfullfieldfamilies and independently rechecked geometrically. Affineendpointbounds coverevery phaseof everyunboundedperiod interval. StartNrecord is29671+104n at(233+2n,262+2n), oldaugmentedhull[-1,2n+250]x[0,2n+262]; alloriginalsdied2470updatesearlier. Everyfollowingheadcut until88368+208n staysinthatrectangle. ExactNW104ray equations give firstW atperiod77phase90,(-2,372),W; gap58697+104n.",
+    "Acrossfamilyunboundeddrought withfixed22seedsize, nooriginalsleft andcurrentrelevance1082 refutesonlyuniformresetclock proposals. Everymembercaptures. Thisdoesnotproduceonefiniteorbitwitharbitrarylateunboundeddroughts orproveuniversaltranslation."
+  ]
+}

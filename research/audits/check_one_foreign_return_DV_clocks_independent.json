@@ -1,0 +1,729 @@
+{
+  "status": "PASS returned D/DC and V/VC old-w foreign-clock lower bounds8",
+  "bindings": {
+    "one_foreign_return_D_clock_2026-10-23": "ec07dfb325a6ff432cc554de6434c618887946a4b25dc9e35350c7458613622c",
+    "one_foreign_return_V_clock_2026-10-23": "128d48ee9c45cc10042ca7ed2e32b0e14b4f22361fbcabb0f888c498830edac4"
+  },
+  "twelve_cases": [
+    {
+      "returned": "D",
+      "foreign": "F",
+      "pose": [
+        4,
+        4,
+        0
+      ],
+      "before_white_guard": [
+        2,
+        4
+      ],
+      "phase": 44,
+      "zero_C_solutions": [],
+      "necessary_clock": 8
+    },
+    {
+      "returned": "D",
+      "foreign": "Q",
+      "pose": [
+        4,
+        6,
+        0
+      ],
+      "before_white_guard": [
+        1,
+        3
+      ],
+      "phase": 58,
+      "zero_C_solutions": [],
+      "necessary_clock": 8
+    },
+    {
+      "returned": "D",
+      "foreign": "B",
+      "pose": [
+        3,
+        7,
+        0
+      ],
+      "before_white_guard": [
+        1,
+        3
+      ],
+      "phase": 68,
+      "zero_C_solutions": [
+        [
+          3,
+          0,
+          0
+        ]
+      ],
+      "necessary_clock": 8
+    },
+    {
+      "returned": "DC",
+      "foreign": "F",
+      "pose": [
+        4,
+        4,
+        0
+      ],
+      "before_white_guard": [
+        2,
+        4
+      ],
+      "phase": 44,
+      "zero_C_solutions": [],
+      "necessary_clock": 8
+    },
+    {
+      "returned": "DC",
+      "foreign": "Q",
+      "pose": [
+        4,
+        6,
+        0
+      ],
+      "before_white_guard": [
+        1,
+        3
+      ],
+      "phase": 58,
+      "zero_C_solutions": [],
+      "necessary_clock": 8
+    },
+    {
+      "returned": "DC",
+      "foreign": "B",
+      "pose": [
+        3,
+        7,
+        0
+      ],
+      "before_white_guard": [
+        1,
+        3
+      ],
+      "phase": 68,
+      "zero_C_solutions": [
+        [
+          3,
+          0,
+          0
+        ]
+      ],
+      "necessary_clock": 8
+    },
+    {
+      "returned": "V",
+      "foreign": "F",
+      "pose": [
+        4,
+        6,
+        0
+      ],
+      "before_white_guard": [
+        0,
+        4
+      ],
+      "phase": 52,
+      "zero_C_solutions": [],
+      "necessary_clock": 8
+    },
+    {
+      "returned": "V",
+      "foreign": "Q",
+      "pose": [
+        4,
+        8,
+        0
+      ],
+      "before_white_guard": [
+        0,
+        4
+      ],
+      "phase": 60,
+      "zero_C_solutions": [
+        [
+          4,
+          0,
+          0
+        ]
+      ],
+      "necessary_clock": 8
+    },
+    {
+      "returned": "V",
+      "foreign": "B",
+      "pose": [
+        3,
+        9,
+        0
+      ],
+      "before_white_guard": [
+        0,
+        4
+      ],
+      "phase": 70,
+      "zero_C_solutions": [
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "necessary_clock": 8
+    },
+    {
+      "returned": "VC",
+      "foreign": "F",
+      "pose": [
+        4,
+        6,
+        0
+      ],
+      "before_white_guard": [
+        0,
+        4
+      ],
+      "phase": 52,
+      "zero_C_solutions": [],
+      "necessary_clock": 8
+    },
+    {
+      "returned": "VC",
+      "foreign": "Q",
+      "pose": [
+        4,
+        8,
+        0
+      ],
+      "before_white_guard": [
+        0,
+        4
+      ],
+      "phase": 60,
+      "zero_C_solutions": [
+        [
+          4,
+          0,
+          0
+        ]
+      ],
+      "necessary_clock": 8
+    },
+    {
+      "returned": "VC",
+      "foreign": "B",
+      "pose": [
+        3,
+        9,
+        0
+      ],
+      "before_white_guard": [
+        0,
+        4
+      ],
+      "phase": 70,
+      "zero_C_solutions": [
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "necessary_clock": 8
+    }
+  ],
+  "D_common_bud_endpoint_rows": [
+    [
+      "(3+1j)",
+      3,
+      "D",
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      "exact x, y>=3"
+    ],
+    [
+      "(3+1j)",
+      3,
+      "V",
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      "exact x, y>=3"
+    ],
+    [
+      "(3+1j)",
+      3,
+      "V",
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      "C4 x overflow"
+    ],
+    [
+      "(3+1j)",
+      3,
+      "U",
+      [
+        -1,
+        1
+      ],
+      [
+        5,
+        3
+      ],
+      "C4 x overflow"
+    ],
+    [
+      "(3+1j)",
+      3,
+      "U",
+      [
+        -1,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      "C4 x overflow"
+    ],
+    [
+      "(3+1j)",
+      3,
+      "U",
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        4
+      ],
+      "C4 x overflow"
+    ],
+    [
+      "(3+1j)",
+      3,
+      "U",
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      "C4 x overflow"
+    ],
+    [
+      "(3+1j)",
+      3,
+      "U",
+      [
+        -1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      "exact x, y>=3"
+    ],
+    [
+      "(3+1j)",
+      4,
+      "D",
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      "N height"
+    ],
+    [
+      "(3+1j)",
+      4,
+      "V",
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      "N height"
+    ],
+    [
+      "(3+1j)",
+      4,
+      "V",
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      "N height"
+    ],
+    [
+      "(3+1j)",
+      4,
+      "U",
+      [
+        -1,
+        1
+      ],
+      [
+        3,
+        7
+      ],
+      "N height"
+    ],
+    [
+      "(3+1j)",
+      4,
+      "U",
+      [
+        -1,
+        2
+      ],
+      [
+        3,
+        6
+      ],
+      "N height"
+    ],
+    [
+      "(3+1j)",
+      4,
+      "U",
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        6
+      ],
+      "N height"
+    ],
+    [
+      "(3+1j)",
+      4,
+      "U",
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      "N height"
+    ],
+    [
+      "(3+1j)",
+      4,
+      "U",
+      [
+        -1,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      "N height"
+    ],
+    [
+      "4",
+      3,
+      "D",
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      "one extra x permits y>=2 only"
+    ],
+    [
+      "4",
+      3,
+      "V",
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      "one extra x permits y>=2 only"
+    ],
+    [
+      "4",
+      3,
+      "V",
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      "exact x, y>=4"
+    ],
+    [
+      "4",
+      3,
+      "U",
+      [
+        -1,
+        1
+      ],
+      [
+        5,
+        3
+      ],
+      "C4 x overflow"
+    ],
+    [
+      "4",
+      3,
+      "U",
+      [
+        -1,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      "C4 x overflow"
+    ],
+    [
+      "4",
+      3,
+      "U",
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        4
+      ],
+      "C4 x overflow"
+    ],
+    [
+      "4",
+      3,
+      "U",
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      "exact x, y>=4"
+    ],
+    [
+      "4",
+      3,
+      "U",
+      [
+        -1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      "one extra x permits y>=2 only"
+    ],
+    [
+      "4",
+      4,
+      "D",
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      "N height"
+    ],
+    [
+      "4",
+      4,
+      "V",
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      "N height"
+    ],
+    [
+      "4",
+      4,
+      "V",
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      "N height"
+    ],
+    [
+      "4",
+      4,
+      "U",
+      [
+        -1,
+        1
+      ],
+      [
+        3,
+        7
+      ],
+      "N height"
+    ],
+    [
+      "4",
+      4,
+      "U",
+      [
+        -1,
+        2
+      ],
+      [
+        3,
+        6
+      ],
+      "N height"
+    ],
+    [
+      "4",
+      4,
+      "U",
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        6
+      ],
+      "N height"
+    ],
+    [
+      "4",
+      4,
+      "U",
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      "N height"
+    ],
+    [
+      "4",
+      4,
+      "U",
+      [
+        -1,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      "N height"
+    ]
+  ],
+  "V_first_atom_interfaces": [
+    [
+      "D",
+      [
+        1,
+        5
+      ],
+      0
+    ],
+    [
+      "C",
+      [
+        0,
+        5
+      ],
+      3
+    ],
+    [
+      "V",
+      [
+        1,
+        7
+      ],
+      0
+    ],
+    [
+      "U",
+      [
+        0,
+        8
+      ],
+      0
+    ]
+  ],
+  "analytic": [
+    "Foreign heading N permits only clocks0 mod4. Exact no-C head equations and signed last-V/U adjacency exclude clock0 in all twelve cases. All actual COMPLETE foreign contexts miss the original U star, so no earlier marker absorption is silently included.",
+    "D/DC: Q/B require original creator exit bud(1,3) before-white at RAW58/68 while signed maturity keeps it current through clock4. F instead requires actual first-post-U-base common bud(2,4) white at RAW44. That first atom begins at clock0 even for internal C1 of UC/UCC, and all four atoms freshly install it at R8.",
+    "Only plain V(3,1,N) or U(4,0,N) can be last before F(4,4,N); neither has the common bud as an input. Thus a full retiring packet must complete earlier. Maturity excludes ages<3. At3 every E base-consumer endpoint has x>=2; the one remaining C and nonnegative E/N cones cannot reach either target. At4 all N endpoints have y>=4. Positive tails are included in the remaining-C budget rather than resetting source clocks.",
+    "V/VC: the first actual atom after creating U base starts(0,4,N). D/C ends at the first foreigners eventual terminal corrected center(1,9), contradicting already signed simplicity through first foreign. U freshly installs permanent r=(0,4); V freshly installs r with exact first-retirement age5. In both cases it stays current at foreign clock4, contradicting the first before-white RAW52/60/70.",
+    "Every maturity or permanence argument stops at FOREIGN ENTRY. No returned-path simplicity or postforeign lifetime law is used. Plain D/V old-w reads are phases11/19 in the following word after exit-core absorption; DC/VC own those reads in their RAW tails."
+  ],
+  "scope": "Twelve exact one-first-foreign then D/DC or V/VC suffix cases. Necessary age>=8 only, no actual attainment or later age iteration."
+}

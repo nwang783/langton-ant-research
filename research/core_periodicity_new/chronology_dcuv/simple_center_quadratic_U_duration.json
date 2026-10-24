@@ -1,0 +1,72 @@
+{
+  "status": "AUTHOR_ANALYTIC_COROLLARY_WITH_ARITHMETIC_CONTROLS",
+  "scope": "Complete recurrent-eight factors, entry mass m >= 5, u U-family packets. Raw duration only; actual M11 adds 11.",
+  "bound": "L <= F(m,0) + 112 (R(m,0) + 24u + 1)^2; if u=0 use F(m,0).",
+  "not_claimed": "No U upper bound, component budget, record closure, unrestricted ant parsing or capture.",
+  "atomic_lengths": {
+    "D": 10,
+    "V": 18,
+    "U": 28,
+    "C": 15
+  },
+  "arithmetic_tests": 9696,
+  "center_square_controls": 10,
+  "examples": [
+    {
+      "m": 5,
+      "R0": 23,
+      "F0": 359628,
+      "quadratic_bound_coefficients_in_u": [
+        64512,
+        129024,
+        424140
+      ]
+    },
+    {
+      "m": 10,
+      "R0": 99,
+      "F0": 26507580,
+      "quadratic_bound_coefficients_in_u": [
+        64512,
+        537600,
+        27627580
+      ]
+    },
+    {
+      "m": 20,
+      "R0": 251,
+      "F0": 425733148,
+      "quadratic_bound_coefficients_in_u": [
+        64512,
+        1354752,
+        432845596
+      ]
+    },
+    {
+      "m": 50,
+      "R0": 707,
+      "F0": 9455850684,
+      "quadratic_bound_coefficients_in_u": [
+        64512,
+        3806208,
+        9511992252
+      ]
+    },
+    {
+      "m": 100,
+      "R0": 1467,
+      "F0": 84327539484,
+      "quadratic_bound_coefficients_in_u": [
+        64512,
+        7891968,
+        84568902172
+      ]
+    }
+  ],
+  "dependencies": {
+    "core_periodicity_new/chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "word_stabilization/dcuv_epoch_reset_bound_manifest.json": "b4e2393e3c6dc669e176190778c7317fb8a117a6400a170bcb6f3f374aea7e50",
+    "core_periodicity_new/U_entry_simplicity_frozen_20261023_1616/manifest.json": "127a00884b4a06af35a807ab76f6f6499b9427d56350a931c03cc0e8de65524d",
+    "core_periodicity_new/check_simple_center_quadratic_U_duration.py": "f2ff564a766810f88c7aeb297b74e3af432965f0dbc1ffcb2a48f2f3c5c6d16b"
+  }
+}

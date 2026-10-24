@@ -1,0 +1,92 @@
+{
+  "status": "Selected chain independently PASS; global conjecture UNSOLVED",
+  "handoff": {
+    "file": "SCATTERING_TO_RECORD_COMPACTNESS_HANDOFF_1520.md",
+    "sha256": "f438a61738fbdad18e85dbd10bead0c46a919c9b85c16bf7096fbd5c905e738b"
+  },
+  "signed_packages": [
+    {
+      "name": "recursive S/M paid finite class",
+      "manifest": "RECURSIVE_PHASE13_PACKET_MANIFEST.json",
+      "manifest_sha256": "6ddc626c03632dbaa1d11a4cdfc487b112d4c15bb8d9638d79dfc2fade266220",
+      "independent_report": "../audits/check_recursive_phase13_packet_independent.json",
+      "independent_report_sha256": "b5866d4e15e718b89a1d81c4daafa92e4dcc2fe4a8a534a7ea96f7f5d953c8eb"
+    },
+    {
+      "name": "M-to-T backward archive import",
+      "manifest": "SOUTHWEST_ARCHIVE_IMPORT_MANIFEST.json",
+      "manifest_sha256": "bbd355881af85e24445f23d7d99d1eba88d5519ec5487c920b07f39892c5cf66",
+      "independent_report": "../audits/check_southwest_archive_import_independent.json",
+      "independent_report_sha256": "600f91c4b51dc92dd08901233e290d345eb836e1ccc92750d4e9fdc9adbcb463"
+    },
+    {
+      "name": "latest-M register",
+      "manifest": "LAST_M_REGISTER_SCATTERING_MANIFEST.json",
+      "manifest_sha256": "f78459ea17f25c93fa4d2cd69fbf94c95372738f990dc10a979e78609d59acae",
+      "independent_report": "../audits/check_last_M_register_scattering_independent.json",
+      "independent_report_sha256": "ff513b2adbd68a864445efa9f41de7d46c68ef49a67504a884a406659338a426"
+    },
+    {
+      "name": "T7 selected V1",
+      "manifest": "T_PORT7_ABSORBER_MANIFEST_V1_0e8dbf82.json",
+      "manifest_sha256": "0e8dbf82450a2109fc466a200dab7ec181603179f2397a979d8889cb532abaed",
+      "independent_report": "../audits/check_T_port7_absorber_independent.json",
+      "independent_report_sha256": "4a0857db45462c8b12dfc257e0e2d2e7fdb9871a2a4f9abd5fe0a8918bb563a2"
+    },
+    {
+      "name": "T and T7 full ray exposure",
+      "manifest": "T_TERMINAL_RAY_EXPOSURE_MANIFEST.json",
+      "manifest_sha256": "5aeade0832f03ee73e6739a44711e92c47a5a057c51d217920574c6d4f26d3a9",
+      "independent_report": "../audits/check_T_ray_exposure_independent.json",
+      "independent_report_sha256": "4ef47ca997a4e5f0097d7ffabcdd4b0bf095928d674b71d322598d7b211af79b"
+    },
+    {
+      "name": "T8 single sibling",
+      "manifest": "T_PORT8_ABSORBER_MANIFEST.json",
+      "manifest_sha256": "0851a2f132d07836fbcbf983e7953bcb418d8bec20c3e6915086193c3f6fbc51",
+      "independent_report": "../audits/check_T_port8_absorber_independent.json",
+      "independent_report_sha256": "bd7ad862f15cb7e3bfff3603bde99118baf2fc2c16330ee9fc508189b2a29dad"
+    },
+    {
+      "name": "T9 complete at-most-one-extra cover",
+      "manifest": "T_PORT9_SINGLE_EXTRA_MANIFEST.json",
+      "manifest_sha256": "6266c400717005e0a901c61d586e59d41cebefd0a41466e5d56ed223da3c8a57",
+      "independent_report": "../audits/check_T_port9_confluence_independent.json",
+      "independent_report_sha256": "262ab3ac9acbc47a072e342e9989e994c1796394374578e37472beb2f68f0e4c"
+    },
+    {
+      "name": "pristine record after original retirement",
+      "manifest": "PRISTINE_RECORD_AFTER_RETIREMENT_MANIFEST.json",
+      "manifest_sha256": "802c8898531f196550a4b708c9cd00c34793b5aa67b53229ed8a227ea281ec29",
+      "independent_report": "../audits/check_pristine_record_after_retirement_independent.json",
+      "independent_report_sha256": "c94b27784a7c1896fe84c013a2d207f413c4231007b86dec265ede5bcd9bbfee"
+    },
+    {
+      "name": "record-gap compactness bridge",
+      "manifest": "RECORD_GAP_COMPACTNESS_MANIFEST.json",
+      "manifest_sha256": "f9336d6755b0de327381255365b0275d92222b6bb379159309e013c0c34bd968",
+      "independent_report": "../audits/check_record_gap_compactness_independent.json",
+      "independent_report_sha256": "423e612a73e683f1edb6902a4e0a57adb9b6cd33dea6ac230d2e6192845478a0"
+    },
+    {
+      "name": "canonical trapped-limit ray dependency",
+      "manifest": "RECORD_LIMIT_RAY_DEPENDENCY_MANIFEST.json",
+      "manifest_sha256": "857ef830b767ec907656a1fe34eb7bce1b17d83e89b88c3f956d31a56f2c8322",
+      "independent_report": "../audits/check_record_limit_rays_independent.json",
+      "independent_report_sha256": "8bf28ed10b7d7f283a593f2eba8985074b23c1301135ac84e89df68795c96bc6"
+    }
+  ],
+  "mandatory_provenance": {
+    "T_PORT7_PROVENANCE_RECONCILIATION.json": "cae3dfd6e7e36b2a86f736b49cf3af53adf460442abec02d08c626c59dd52506",
+    "T_PORT9_SELECTED_T7_DEPENDENCY_ADDENDUM.json": "2499db3d17cfb135413b43830a8675d28377223bfaeecbbd16bf662e732e11ed",
+    "../audits/T9_selected_T7_dependency_binding.json": "0e244ed27abe75906ba71b0a4c123b79cd55eff94978b6ea207292f05fb308a1"
+  },
+  "excluded_alternate_T7": "T_PORT7_ABSORBER_MANIFEST_V2_36a1328e.json and its alternate prose are NOT promoted",
+  "open": [
+    "simultaneous near terminal ray inputs",
+    "arbitrary finite perturbation scattering",
+    "occurrence of an outward record limit",
+    "obstruction to repeated generation of trapped-limit ray inputs",
+    "unrestricted finite-board translating-tail canonical uniqueness"
+  ]
+}

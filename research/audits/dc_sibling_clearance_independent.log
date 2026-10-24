@@ -1,0 +1,365 @@
+{
+  "status": "PASS complete role graph; no KY zero-margin directed cycle",
+  "roles": 272,
+  "raw_tight_edges": 1468,
+  "remaining_tight_edges": 944,
+  "blocked_tight_edges": 524,
+  "fundamental_edges": 35904,
+  "longest_tight_path": 2,
+  "eight_old_and_new_cycle_cuts_verified": 8,
+  "manifest_sha256": "a622da698363472e596cd6487bbfcd924d178354df72d01a98067ce3e794da5e",
+  "scope": "Produced-parent ancestry saturation only. Fundamental edges overapproximate arbitrarily long intervening actual packet words; no physical realization, ancestry-length bound or capture is inferred."
+}
+{
+  "status": "PASS literal sibling partition, period-four clearance and explicitly nonphysical comb control",
+  "self_transfer_rows": [
+    {
+      "source_cell": [
+        2,
+        0
+      ],
+      "target_heading": 1,
+      "target_head": [
+        1,
+        0
+      ],
+      "core_retire": [],
+      "white_retire": [],
+      "coinputs": [],
+      "outside_context": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "must_retire": []
+    },
+    {
+      "source_cell": [
+        2,
+        0
+      ],
+      "target_heading": 3,
+      "target_head": [
+        3,
+        0
+      ],
+      "core_retire": [
+        [
+          3,
+          1
+        ]
+      ],
+      "white_retire": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "coinputs": [],
+      "outside_context": [],
+      "must_retire": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "source_cell": [
+        2,
+        3
+      ],
+      "target_heading": 0,
+      "target_head": [
+        2,
+        2
+      ],
+      "core_retire": [
+        [
+          3,
+          2
+        ]
+      ],
+      "white_retire": [],
+      "coinputs": [],
+      "outside_context": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "must_retire": [
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "source_cell": [
+        2,
+        3
+      ],
+      "target_heading": 2,
+      "target_head": [
+        2,
+        4
+      ],
+      "core_retire": [],
+      "white_retire": [
+        [
+          2,
+          0
+        ]
+      ],
+      "coinputs": [],
+      "outside_context": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "must_retire": [
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "source_cell": [
+        3,
+        1
+      ],
+      "target_heading": 1,
+      "target_head": [
+        2,
+        1
+      ],
+      "core_retire": [
+        [
+          2,
+          0
+        ]
+      ],
+      "white_retire": [],
+      "coinputs": [],
+      "outside_context": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "must_retire": [
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "source_cell": [
+        3,
+        1
+      ],
+      "target_heading": 3,
+      "target_head": [
+        4,
+        1
+      ],
+      "core_retire": [],
+      "white_retire": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "coinputs": [],
+      "outside_context": [
+        [
+          2,
+          0
+        ]
+      ],
+      "must_retire": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "source_cell": [
+        3,
+        2
+      ],
+      "target_heading": 0,
+      "target_head": [
+        3,
+        1
+      ],
+      "core_retire": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "white_retire": [],
+      "coinputs": [],
+      "outside_context": [
+        [
+          2,
+          3
+        ]
+      ],
+      "must_retire": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "source_cell": [
+        3,
+        2
+      ],
+      "target_heading": 2,
+      "target_head": [
+        3,
+        3
+      ],
+      "core_retire": [
+        [
+          2,
+          3
+        ]
+      ],
+      "white_retire": [
+        [
+          2,
+          0
+        ]
+      ],
+      "coinputs": [],
+      "outside_context": [
+        [
+          3,
+          1
+        ]
+      ],
+      "must_retire": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    }
+  ],
+  "rotating_spine_poses": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      -1,
+      2
+    ],
+    [
+      0,
+      -1,
+      3
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "age3_query": [
+    1,
+    1,
+    1,
+    0,
+    1,
+    2,
+    0,
+    3
+  ],
+  "minimum_rotating_gap": 7,
+  "spare_slots": 12,
+  "comb_events": 5000,
+  "comb_old_core_blockers": [
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "frozen_rotating_bundle_sha256": "40f136ce74010f8b442561629323a1c55e6960a76735e5dd024c4221d794ef86",
+  "frozen_comb_bundle_sha256": "8fab851e9203be8c9bc345452e822d0daec70a7332441ccbdf4a50bfe2d674e6",
+  "scope": "Ordered residual retirement is not physical black deletion. All-N support counts follow from distinct birth IDs; no fresh fuel, physical realization, no-support theorem or capture."
+}

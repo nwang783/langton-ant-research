@@ -1,0 +1,30 @@
+{
+  "scope": "Exact all-translation LOCAL stable-corner profile comparison.\nInfinite profiles are limits of completed finite old sides, not proposed seeds.\nA match would be a necessary clean no-extra-fuel interface, not a reachable pose.\n",
+  "old_stable_black_relation": "[a, b] -> { [x, y] : (y <= 3 - x and floor((x)/2) < 0 and 2*floor((x)/2) <= -3 + 2x + y) or (y >= -4 + x and floor((x)/2) >= 2 and 2*floor((x)/2) >= 3 + y) or (y <= 6 + x and floor((x)/2) < x and 2*floor((x)/2) >= 5 + 2x - y) or (y >= -2 and y >= -3 - x and floor((x)/2) >= x and x + y < 2*floor((x)/2) <= -2 - y) or ((x) mod 2 = 0 and -4 - x <= y <= -3 - x and 2y <= -12 - 3x) or ((x) mod 2 = 1 and x <= -5 and -6 - x <= y <= -5 - x) or ((x) mod 2 = 1 and x > 0 and x < y <= 2 + x) or ((x) mod 2 = 1 and x > 0 and -2 + x <= y < x) or ((-x) mod 2 = x + y and (x) mod 2 = x + y and -x <= y <= -2x and y <= 2); [x, y = x] : (x) mod 2 = 0 and x >= 2; [x, y = -1 - x] : (x) mod 2 = 1 and x <= -3; [x, y = -2 - x] : (x) mod 2 = 0 and x <= -6; [x = -4, y] : -2 <= y < 0; [x, y = -4 - x] : (x) mod 2 = 1 and -5 <= x <= -3; [x, y = -7 - x] : x <= -5; [x = -3, y = 3]; [x = -3, y = 1]; [x, y = 7 + x] : -5 <= x <= -4; [x, y = 4 + x] : (x) mod 2 = 0 and x >= 2; [x, y = 1 - x] : (x) mod 2 = 0 and x <= -2 }",
+  "cases": [
+    {
+      "rotation_ccw": 0,
+      "matching_translations": "[a, b] -> {  : false }",
+      "is_empty": true,
+      "seconds": 2.618753728005686
+    },
+    {
+      "rotation_ccw": 1,
+      "matching_translations": "[a, b] -> {  : false }",
+      "is_empty": true,
+      "seconds": 2.594723598987912
+    },
+    {
+      "rotation_ccw": 2,
+      "matching_translations": "[a, b] -> {  : false }",
+      "is_empty": true,
+      "seconds": 3.7444292979926104
+    },
+    {
+      "rotation_ccw": 3,
+      "matching_translations": "[a, b] -> {  : false }",
+      "is_empty": true,
+      "seconds": 3.0309789029997773
+    }
+  ]
+}

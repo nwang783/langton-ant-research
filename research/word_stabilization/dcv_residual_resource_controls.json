@@ -1,0 +1,1041 @@
+[
+  {
+    "word": "DCCCV",
+    "seed_mass": 6,
+    "seed": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "packets": [
+      {
+        "packet": "DCCC",
+        "pose": [
+          0,
+          0,
+          0
+        ],
+        "inputs": [
+          {
+            "point": [
+              0,
+              1
+            ],
+            "producer": null
+          }
+        ],
+        "outputs": [
+          [
+            -2,
+            1
+          ],
+          [
+            -2,
+            2
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            -1,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "entry_root_inputs": 1
+      },
+      {
+        "packet": "V",
+        "pose": [
+          0,
+          1,
+          1
+        ],
+        "inputs": [
+          {
+            "point": [
+              3,
+              1
+            ],
+            "producer": {
+              "packet_index": 0,
+              "packet": "DCCC",
+              "output_slot": 8,
+              "pose": [
+                0,
+                0,
+                0
+              ]
+            }
+          },
+          {
+            "point": [
+              2,
+              0
+            ],
+            "producer": {
+              "packet_index": 0,
+              "packet": "DCCC",
+              "output_slot": 6,
+              "pose": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        ],
+        "outputs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            2,
+            -1
+          ]
+        ],
+        "entry_root_inputs": 0
+      }
+    ]
+  },
+  {
+    "word": "DDCDCDCDV",
+    "seed_mass": 10,
+    "seed": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "packets": [
+      {
+        "packet": "D",
+        "pose": [
+          0,
+          0,
+          0
+        ],
+        "inputs": [
+          {
+            "point": [
+              0,
+              1
+            ],
+            "producer": null
+          }
+        ],
+        "outputs": [
+          [
+            2,
+            0
+          ]
+        ],
+        "entry_root_inputs": 1
+      },
+      {
+        "packet": "DC",
+        "pose": [
+          1,
+          1,
+          0
+        ],
+        "inputs": [
+          {
+            "point": [
+              1,
+              2
+            ],
+            "producer": null
+          }
+        ],
+        "outputs": [
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "entry_root_inputs": 1
+      },
+      {
+        "packet": "DC",
+        "pose": [
+          2,
+          3,
+          3
+        ],
+        "inputs": [
+          {
+            "point": [
+              1,
+              3
+            ],
+            "producer": null
+          }
+        ],
+        "outputs": [
+          [
+            2,
+            5
+          ],
+          [
+            -1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "entry_root_inputs": 1
+      },
+      {
+        "packet": "DC",
+        "pose": [
+          0,
+          4,
+          2
+        ],
+        "inputs": [
+          {
+            "point": [
+              0,
+              3
+            ],
+            "producer": null
+          }
+        ],
+        "outputs": [
+          [
+            -2,
+            4
+          ],
+          [
+            -2,
+            1
+          ],
+          [
+            -3,
+            3
+          ],
+          [
+            -3,
+            2
+          ]
+        ],
+        "entry_root_inputs": 1
+      },
+      {
+        "packet": "D",
+        "pose": [
+          -1,
+          2,
+          1
+        ],
+        "inputs": [
+          {
+            "point": [
+              0,
+              2
+            ],
+            "producer": null
+          }
+        ],
+        "outputs": [
+          [
+            -1,
+            0
+          ]
+        ],
+        "entry_root_inputs": 1
+      },
+      {
+        "packet": "V",
+        "pose": [
+          0,
+          1,
+          1
+        ],
+        "inputs": [
+          {
+            "point": [
+              3,
+              1
+            ],
+            "producer": {
+              "packet_index": 1,
+              "packet": "DC",
+              "output_slot": 0,
+              "pose": [
+                1,
+                1,
+                0
+              ]
+            }
+          },
+          {
+            "point": [
+              2,
+              0
+            ],
+            "producer": {
+              "packet_index": 0,
+              "packet": "D",
+              "output_slot": 0,
+              "pose": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        ],
+        "outputs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            2,
+            -1
+          ]
+        ],
+        "entry_root_inputs": 0
+      }
+    ]
+  },
+  {
+    "word": "DCVCCVV",
+    "seed_mass": 9,
+    "seed": [
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        3
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "packets": [
+      {
+        "packet": "DC",
+        "pose": [
+          0,
+          0,
+          0
+        ],
+        "inputs": [
+          {
+            "point": [
+              0,
+              1
+            ],
+            "producer": null
+          }
+        ],
+        "outputs": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "entry_root_inputs": 1
+      },
+      {
+        "packet": "VCC",
+        "pose": [
+          1,
+          2,
+          3
+        ],
+        "inputs": [
+          {
+            "point": [
+              -2,
+              2
+            ],
+            "producer": null
+          },
+          {
+            "point": [
+              -1,
+              3
+            ],
+            "producer": null
+          }
+        ],
+        "outputs": [
+          [
+            -4,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            -5,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            -5,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            -1,
+            4
+          ],
+          [
+            -4,
+            4
+          ],
+          [
+            -2,
+            5
+          ],
+          [
+            -3,
+            5
+          ]
+        ],
+        "entry_root_inputs": 2
+      },
+      {
+        "packet": "V",
+        "pose": [
+          -3,
+          2,
+          1
+        ],
+        "inputs": [
+          {
+            "point": [
+              0,
+              2
+            ],
+            "producer": {
+              "packet_index": 1,
+              "packet": "VCC",
+              "output_slot": 2,
+              "pose": [
+                1,
+                2,
+                3
+              ]
+            }
+          },
+          {
+            "point": [
+              -1,
+              1
+            ],
+            "producer": null
+          }
+        ],
+        "outputs": [
+          [
+            -3,
+            2
+          ],
+          [
+            -2,
+            2
+          ],
+          [
+            -3,
+            1
+          ],
+          [
+            -3,
+            0
+          ],
+          [
+            -2,
+            0
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        "entry_root_inputs": 1
+      },
+      {
+        "packet": "V",
+        "pose": [
+          0,
+          1,
+          1
+        ],
+        "inputs": [
+          {
+            "point": [
+              3,
+              1
+            ],
+            "producer": {
+              "packet_index": 0,
+              "packet": "DC",
+              "output_slot": 2,
+              "pose": [
+                0,
+                0,
+                0
+              ]
+            }
+          },
+          {
+            "point": [
+              2,
+              0
+            ],
+            "producer": {
+              "packet_index": 0,
+              "packet": "DC",
+              "output_slot": 0,
+              "pose": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        ],
+        "outputs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            2,
+            -1
+          ]
+        ],
+        "entry_root_inputs": 0
+      }
+    ]
+  },
+  {
+    "word": "DVCCVCDDCD",
+    "seed_mass": 10,
+    "seed": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "packets": [
+      {
+        "packet": "D",
+        "pose": [
+          0,
+          0,
+          0
+        ],
+        "inputs": [
+          {
+            "point": [
+              0,
+              1
+            ],
+            "producer": null
+          }
+        ],
+        "outputs": [
+          [
+            2,
+            0
+          ]
+        ],
+        "entry_root_inputs": 1
+      },
+      {
+        "packet": "VCC",
+        "pose": [
+          1,
+          1,
+          0
+        ],
+        "inputs": [
+          {
+            "point": [
+              1,
+              4
+            ],
+            "producer": null
+          },
+          {
+            "point": [
+              2,
+              3
+            ],
+            "producer": null
+          }
+        ],
+        "outputs": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "entry_root_inputs": 2
+      },
+      {
+        "packet": "VC",
+        "pose": [
+          1,
+          5,
+          2
+        ],
+        "inputs": [
+          {
+            "point": [
+              1,
+              2
+            ],
+            "producer": {
+              "packet_index": 1,
+              "packet": "VCC",
+              "output_slot": 2,
+              "pose": [
+                1,
+                1,
+                0
+              ]
+            }
+          },
+          {
+            "point": [
+              0,
+              3
+            ],
+            "producer": null
+          }
+        ],
+        "outputs": [
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            -1,
+            5
+          ],
+          [
+            -1,
+            4
+          ],
+          [
+            -1,
+            3
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            -2,
+            2
+          ],
+          [
+            -2,
+            1
+          ]
+        ],
+        "entry_root_inputs": 1
+      },
+      {
+        "packet": "D",
+        "pose": [
+          0,
+          1,
+          1
+        ],
+        "inputs": [
+          {
+            "point": [
+              1,
+              1
+            ],
+            "producer": {
+              "packet_index": 1,
+              "packet": "VCC",
+              "output_slot": 1,
+              "pose": [
+                1,
+                1,
+                0
+              ]
+            }
+          }
+        ],
+        "outputs": [
+          [
+            0,
+            -1
+          ]
+        ],
+        "entry_root_inputs": 0
+      },
+      {
+        "packet": "DC",
+        "pose": [
+          1,
+          0,
+          1
+        ],
+        "inputs": [
+          {
+            "point": [
+              2,
+              0
+            ],
+            "producer": {
+              "packet_index": 0,
+              "packet": "D",
+              "output_slot": 0,
+              "pose": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        ],
+        "outputs": [
+          [
+            1,
+            -2
+          ],
+          [
+            4,
+            -2
+          ],
+          [
+            2,
+            -3
+          ],
+          [
+            3,
+            -3
+          ]
+        ],
+        "entry_root_inputs": 0
+      },
+      {
+        "packet": "D",
+        "pose": [
+          3,
+          -1,
+          0
+        ],
+        "inputs": [
+          {
+            "point": [
+              3,
+              0
+            ],
+            "producer": null
+          }
+        ],
+        "outputs": [
+          [
+            5,
+            -1
+          ]
+        ],
+        "entry_root_inputs": 1
+      }
+    ]
+  }
+]

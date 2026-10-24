@@ -1,0 +1,108 @@
+{
+  "status": "PASS all-even-n>=210 fixed-column permanent-output span with bounded relevant stock and bounded band count",
+  "manifest_sha256": "05837d326fe78dc4f310cb4b460d2e91ac4ab75c1357095a2ba50a71dd74eed3",
+  "proof_sha256": "2f178941fa7d86c8636d8dfc1637655516b2dcfdba2ec7bd0125505736a209dd",
+  "independent_checker_sha256": "79be017f564dd6d4b13f2e3defcb5cbe426893451ba599f846e9685975edded1",
+  "exact_reference_last_read_rays": [
+    {
+      "phase": 20,
+      "cell": [
+        5,
+        1
+      ],
+      "nonnegative_future_ray_equalities": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          20
+        ]
+      ]
+    },
+    {
+      "phase": 15,
+      "cell": [
+        8,
+        1
+      ],
+      "nonnegative_future_ray_equalities": [
+        [
+          0,
+          15
+        ]
+      ]
+    }
+  ],
+  "full_controls": [
+    {
+      "n": 210,
+      "physical_updates": 130507,
+      "witness_births": [
+        [
+          32165,
+          [
+            -200,
+            623
+          ]
+        ],
+        [
+          119125,
+          [
+            -200,
+            -199
+          ]
+        ]
+      ],
+      "terminal_field_sha256": "25f5a8afeb75ac470bdbce6140cfd3e9b487aeb47265f65451b9b10c01bb85e0",
+      "terminal_mass": 15129,
+      "infinite_parity_tests": 170,
+      "canonical_onset": 130298,
+      "onset_phase": 103,
+      "preceding_mismatch": [
+        "R",
+        "L"
+      ],
+      "band_reads": 15284,
+      "span": 822
+    },
+    {
+      "n": 400,
+      "physical_updates": 249067,
+      "witness_births": [
+        [
+          51925,
+          [
+            -200,
+            1003
+          ]
+        ],
+        [
+          237685,
+          [
+            -200,
+            -199
+          ]
+        ]
+      ],
+      "terminal_field_sha256": "e690e8f60d85ed0f400bf134ea0b95f63e6684f52fc9c598286e1965823d4160",
+      "terminal_mass": 28809,
+      "infinite_parity_tests": 170,
+      "canonical_onset": 248858,
+      "onset_phase": 103,
+      "preceding_mismatch": [
+        "R",
+        "L"
+      ],
+      "band_reads": 15600,
+      "span": 1202
+    }
+  ],
+  "analytic_scope": [
+    "Exact affine phase indices are inside complete actual stages for k>=105. Reference later-ray absence, signed full stage read-set disjointness, and full protected post-e x>=-16 imply genuine whole-future permanence of both x=-200 witnesses, not standalone template credit.",
+    "Earliest canonical onset e+774 is inherited signed and independently checked at both controls using full-field tail parity and actual previous-turn mismatch. All canonical104 phases are distinct; any earlier permanent canonical word would have the same backward extension. Thus any sound guard with delay<=773 is absent at cuts<=e, including specified immediate/262/278 guard families. Not every conceivable finite capture guard is excluded.",
+    "Two actual permanent cells give unbounded transverse SPAN in one fixed column across this finite-seed family, while five phase streams each move x by2 and allow at most75 hits per phase in width150. Band reads<=40188, so permanent-cell COUNT remains uniformly bounded by that value.",
+    "No one-orbit infinite deep returns, failure of eventual orbit-dependent width/age, general finite-band capacity obstruction, or global capture follows."
+  ]
+}

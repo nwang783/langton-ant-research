@@ -1,0 +1,20 @@
+INPUTS 65536 seconds 1.235147476196289
+INPUTS 131072 seconds 2.5058999061584473
+INPUTS 196608 seconds 3.9863216876983643
+INPUTS 262144 seconds 5.158265590667725
+INPUTS 327680 seconds 6.4351232051849365
+INPUTS 393216 seconds 7.625366449356079
+INPUTS 458752 seconds 8.9696204662323
+INPUTS 524288 seconds 10.375909566879272
+INPUTS 589824 seconds 11.869245290756226
+INPUTS 655360 seconds 13.037356615066528
+INPUTS 720896 seconds 14.291110515594482
+INPUTS 786432 seconds 15.571792125701904
+INPUTS 851968 seconds 16.671140670776367
+INPUTS 917504 seconds 17.814983129501343
+INPUTS 983040 seconds 18.986980438232422
+Traceback (most recent call last):
+  File "/workspace/shared/langton/causal_reduction/renewable_tracks/learn_two_row_language.py", line 12, in <module>
+    prev=[array('I',outputs[:1<<(2*l)]) for l in range(N+1)];rows=[]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: bytes length not a multiple of item size

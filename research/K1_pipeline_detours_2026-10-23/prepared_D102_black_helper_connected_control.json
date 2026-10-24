@@ -1,0 +1,1554 @@
+{
+  "scope": "Literal prepared102-read BLACK-helper connector, not a complete front.\nExplicit17-cell input, actual ant replay and complete WITHIN-FACTOR histories.\n",
+  "word": "RRRRLRRRRLRRRRLLLLRLLLLRLRRRRLLLLRLLLLRLRRLLRRRRLLRRLLLLRRLLRLLLLRLRRLLLLRRLRRRRLLLLRLLRLLRRLRLLRLLRLL",
+  "prepared_black": [
+    [
+      -3,
+      0
+    ],
+    [
+      -3,
+      1
+    ],
+    [
+      -2,
+      -1
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      3
+    ],
+    [
+      -2,
+      4
+    ],
+    [
+      -1,
+      -2
+    ],
+    [
+      -1,
+      5
+    ],
+    [
+      0,
+      -2
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      -1
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      3
+    ]
+  ],
+  "initial_pose": {
+    "cell": [
+      1,
+      0
+    ],
+    "incoming": "N"
+  },
+  "end_pose": {
+    "cell": [
+      0,
+      3
+    ],
+    "incoming": "N"
+  },
+  "length": 102,
+  "initial_black_count": 17,
+  "final_black_count": 9,
+  "read_turn_counts": {
+    "R": 47,
+    "L": 55
+  },
+  "visited_cells": 44,
+  "maximum_reads": 4,
+  "visit_spectrum": {
+    "4": 16,
+    "3": 2,
+    "2": 6,
+    "1": 20
+  },
+  "known_headings": {
+    "(1, 0)": "NNSN",
+    "(0, 0)": "WWEW",
+    "(0, 1)": "NSSS",
+    "(1, 1)": "EEWE",
+    "(0, -1)": "SSSN",
+    "(-1, -1)": "WWWE",
+    "(-1, 0)": "NNSN",
+    "(-2, 0)": "WWWE",
+    "(-2, 1)": "NNNS",
+    "(-1, 1)": "EEWE",
+    "(-1, 2)": "NNNS",
+    "(0, 2)": "EWEE",
+    "(1, 2)": "NNNS",
+    "(2, 2)": "EEEW",
+    "(2, 1)": "SSNS",
+    "(-2, 2)": "W"
+  },
+  "known_read_times": {
+    "(1, 0)": [
+      0,
+      4,
+      8,
+      16
+    ],
+    "(0, 0)": [
+      5,
+      9,
+      13,
+      17
+    ],
+    "(0, 1)": [
+      6,
+      42,
+      50,
+      58
+    ],
+    "(1, 1)": [
+      7,
+      43,
+      47,
+      59
+    ],
+    "(0, -1)": [
+      10,
+      14,
+      18,
+      22
+    ],
+    "(-1, -1)": [
+      11,
+      19,
+      23,
+      31
+    ],
+    "(-1, 0)": [
+      12,
+      24,
+      28,
+      32
+    ],
+    "(-2, 0)": [
+      25,
+      29,
+      33,
+      37
+    ],
+    "(-2, 1)": [
+      26,
+      34,
+      38,
+      54
+    ],
+    "(-1, 1)": [
+      27,
+      39,
+      51,
+      55
+    ],
+    "(-1, 2)": [
+      40,
+      52,
+      56,
+      100
+    ],
+    "(0, 2)": [
+      41,
+      49,
+      57,
+      101
+    ],
+    "(1, 2)": [
+      44,
+      48,
+      60,
+      64
+    ],
+    "(2, 2)": [
+      45,
+      61,
+      65,
+      81
+    ],
+    "(2, 1)": [
+      46,
+      66,
+      74,
+      82
+    ],
+    "(-2, 2)": [
+      53
+    ]
+  },
+  "first_boundary_times": {
+    "D": 4,
+    "J": 9,
+    "P0": 24,
+    "I": 39,
+    "G": 43
+  },
+  "boundary_first_departures": {
+    "D": [
+      {
+        "cell": [
+          1,
+          0
+        ],
+        "direction": "W",
+        "first": 4
+      },
+      {
+        "cell": [
+          0,
+          0
+        ],
+        "direction": "N",
+        "first": 5
+      },
+      {
+        "cell": [
+          0,
+          1
+        ],
+        "direction": "E",
+        "first": 6
+      },
+      {
+        "cell": [
+          1,
+          1
+        ],
+        "direction": "S",
+        "first": 7
+      }
+    ],
+    "J": [
+      {
+        "cell": [
+          0,
+          -1
+        ],
+        "direction": "W",
+        "first": 10
+      },
+      {
+        "cell": [
+          -1,
+          -1
+        ],
+        "direction": "N",
+        "first": 11
+      },
+      {
+        "cell": [
+          -1,
+          0
+        ],
+        "direction": "E",
+        "first": 12
+      },
+      {
+        "cell": [
+          0,
+          0
+        ],
+        "direction": "S",
+        "first": 9
+      }
+    ],
+    "P0": [
+      {
+        "cell": [
+          -1,
+          0
+        ],
+        "direction": "W",
+        "first": 24
+      },
+      {
+        "cell": [
+          -2,
+          0
+        ],
+        "direction": "N",
+        "first": 25
+      },
+      {
+        "cell": [
+          -2,
+          1
+        ],
+        "direction": "E",
+        "first": 26
+      },
+      {
+        "cell": [
+          -1,
+          1
+        ],
+        "direction": "S",
+        "first": 27
+      }
+    ],
+    "I": [
+      {
+        "cell": [
+          0,
+          1
+        ],
+        "direction": "W",
+        "first": 50
+      },
+      {
+        "cell": [
+          -1,
+          1
+        ],
+        "direction": "N",
+        "first": 39
+      },
+      {
+        "cell": [
+          -1,
+          2
+        ],
+        "direction": "E",
+        "first": 40
+      },
+      {
+        "cell": [
+          0,
+          2
+        ],
+        "direction": "S",
+        "first": 41
+      }
+    ],
+    "G": [
+      {
+        "cell": [
+          2,
+          1
+        ],
+        "direction": "W",
+        "first": 46
+      },
+      {
+        "cell": [
+          1,
+          1
+        ],
+        "direction": "N",
+        "first": 43
+      },
+      {
+        "cell": [
+          1,
+          2
+        ],
+        "direction": "E",
+        "first": 44
+      },
+      {
+        "cell": [
+          2,
+          2
+        ],
+        "direction": "S",
+        "first": 45
+      }
+    ]
+  },
+  "exact_helper_route_times": [
+    51,
+    52,
+    53,
+    54,
+    55
+  ],
+  "trace": [
+    {
+      "time": 0,
+      "cell": [
+        1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "outgoing": "E"
+    },
+    {
+      "time": 1,
+      "cell": [
+        2,
+        0
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "outgoing": "S"
+    },
+    {
+      "time": 2,
+      "cell": [
+        2,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "outgoing": "W"
+    },
+    {
+      "time": 3,
+      "cell": [
+        1,
+        -1
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "outgoing": "N"
+    },
+    {
+      "time": 4,
+      "cell": [
+        1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "outgoing": "W"
+    },
+    {
+      "time": 5,
+      "cell": [
+        0,
+        0
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "outgoing": "N"
+    },
+    {
+      "time": 6,
+      "cell": [
+        0,
+        1
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "outgoing": "E"
+    },
+    {
+      "time": 7,
+      "cell": [
+        1,
+        1
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "outgoing": "S"
+    },
+    {
+      "time": 8,
+      "cell": [
+        1,
+        0
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "outgoing": "W"
+    },
+    {
+      "time": 9,
+      "cell": [
+        0,
+        0
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "outgoing": "S"
+    },
+    {
+      "time": 10,
+      "cell": [
+        0,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "outgoing": "W"
+    },
+    {
+      "time": 11,
+      "cell": [
+        -1,
+        -1
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "outgoing": "N"
+    },
+    {
+      "time": 12,
+      "cell": [
+        -1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "outgoing": "E"
+    },
+    {
+      "time": 13,
+      "cell": [
+        0,
+        0
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "outgoing": "S"
+    },
+    {
+      "time": 14,
+      "cell": [
+        0,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "outgoing": "E"
+    },
+    {
+      "time": 15,
+      "cell": [
+        1,
+        -1
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "outgoing": "N"
+    },
+    {
+      "time": 16,
+      "cell": [
+        1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "outgoing": "W"
+    },
+    {
+      "time": 17,
+      "cell": [
+        0,
+        0
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "outgoing": "S"
+    },
+    {
+      "time": 18,
+      "cell": [
+        0,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "outgoing": "W"
+    },
+    {
+      "time": 19,
+      "cell": [
+        -1,
+        -1
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "outgoing": "S"
+    },
+    {
+      "time": 20,
+      "cell": [
+        -1,
+        -2
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "outgoing": "E"
+    },
+    {
+      "time": 21,
+      "cell": [
+        0,
+        -2
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "outgoing": "N"
+    },
+    {
+      "time": 22,
+      "cell": [
+        0,
+        -1
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "outgoing": "W"
+    },
+    {
+      "time": 23,
+      "cell": [
+        -1,
+        -1
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "outgoing": "N"
+    },
+    {
+      "time": 24,
+      "cell": [
+        -1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "outgoing": "W"
+    },
+    {
+      "time": 25,
+      "cell": [
+        -2,
+        0
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "outgoing": "N"
+    },
+    {
+      "time": 26,
+      "cell": [
+        -2,
+        1
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "outgoing": "E"
+    },
+    {
+      "time": 27,
+      "cell": [
+        -1,
+        1
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "outgoing": "S"
+    },
+    {
+      "time": 28,
+      "cell": [
+        -1,
+        0
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "outgoing": "W"
+    },
+    {
+      "time": 29,
+      "cell": [
+        -2,
+        0
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "outgoing": "S"
+    },
+    {
+      "time": 30,
+      "cell": [
+        -2,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "outgoing": "E"
+    },
+    {
+      "time": 31,
+      "cell": [
+        -1,
+        -1
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "outgoing": "N"
+    },
+    {
+      "time": 32,
+      "cell": [
+        -1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "outgoing": "W"
+    },
+    {
+      "time": 33,
+      "cell": [
+        -2,
+        0
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "outgoing": "N"
+    },
+    {
+      "time": 34,
+      "cell": [
+        -2,
+        1
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "outgoing": "W"
+    },
+    {
+      "time": 35,
+      "cell": [
+        -3,
+        1
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "outgoing": "S"
+    },
+    {
+      "time": 36,
+      "cell": [
+        -3,
+        0
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "outgoing": "E"
+    },
+    {
+      "time": 37,
+      "cell": [
+        -2,
+        0
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "outgoing": "N"
+    },
+    {
+      "time": 38,
+      "cell": [
+        -2,
+        1
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "outgoing": "E"
+    },
+    {
+      "time": 39,
+      "cell": [
+        -1,
+        1
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "outgoing": "N"
+    },
+    {
+      "time": 40,
+      "cell": [
+        -1,
+        2
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "outgoing": "E"
+    },
+    {
+      "time": 41,
+      "cell": [
+        0,
+        2
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "outgoing": "S"
+    },
+    {
+      "time": 42,
+      "cell": [
+        0,
+        1
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "outgoing": "E"
+    },
+    {
+      "time": 43,
+      "cell": [
+        1,
+        1
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "outgoing": "N"
+    },
+    {
+      "time": 44,
+      "cell": [
+        1,
+        2
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "outgoing": "E"
+    },
+    {
+      "time": 45,
+      "cell": [
+        2,
+        2
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "outgoing": "S"
+    },
+    {
+      "time": 46,
+      "cell": [
+        2,
+        1
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "outgoing": "W"
+    },
+    {
+      "time": 47,
+      "cell": [
+        1,
+        1
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "outgoing": "N"
+    },
+    {
+      "time": 48,
+      "cell": [
+        1,
+        2
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "outgoing": "W"
+    },
+    {
+      "time": 49,
+      "cell": [
+        0,
+        2
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "outgoing": "S"
+    },
+    {
+      "time": 50,
+      "cell": [
+        0,
+        1
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "outgoing": "W"
+    },
+    {
+      "time": 51,
+      "cell": [
+        -1,
+        1
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "outgoing": "N"
+    },
+    {
+      "time": 52,
+      "cell": [
+        -1,
+        2
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "outgoing": "W"
+    },
+    {
+      "time": 53,
+      "cell": [
+        -2,
+        2
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "outgoing": "S"
+    },
+    {
+      "time": 54,
+      "cell": [
+        -2,
+        1
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "outgoing": "E"
+    },
+    {
+      "time": 55,
+      "cell": [
+        -1,
+        1
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "outgoing": "N"
+    },
+    {
+      "time": 56,
+      "cell": [
+        -1,
+        2
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "outgoing": "E"
+    },
+    {
+      "time": 57,
+      "cell": [
+        0,
+        2
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "outgoing": "S"
+    },
+    {
+      "time": 58,
+      "cell": [
+        0,
+        1
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "outgoing": "E"
+    },
+    {
+      "time": 59,
+      "cell": [
+        1,
+        1
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "outgoing": "N"
+    },
+    {
+      "time": 60,
+      "cell": [
+        1,
+        2
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "outgoing": "E"
+    },
+    {
+      "time": 61,
+      "cell": [
+        2,
+        2
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "outgoing": "N"
+    },
+    {
+      "time": 62,
+      "cell": [
+        2,
+        3
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "outgoing": "W"
+    },
+    {
+      "time": 63,
+      "cell": [
+        1,
+        3
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "outgoing": "S"
+    },
+    {
+      "time": 64,
+      "cell": [
+        1,
+        2
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "outgoing": "E"
+    },
+    {
+      "time": 65,
+      "cell": [
+        2,
+        2
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "outgoing": "S"
+    },
+    {
+      "time": 66,
+      "cell": [
+        2,
+        1
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "outgoing": "E"
+    },
+    {
+      "time": 67,
+      "cell": [
+        3,
+        1
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "outgoing": "S"
+    },
+    {
+      "time": 68,
+      "cell": [
+        3,
+        0
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "outgoing": "W"
+    },
+    {
+      "time": 69,
+      "cell": [
+        2,
+        0
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "outgoing": "S"
+    },
+    {
+      "time": 70,
+      "cell": [
+        2,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "outgoing": "E"
+    },
+    {
+      "time": 71,
+      "cell": [
+        3,
+        -1
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "outgoing": "N"
+    },
+    {
+      "time": 72,
+      "cell": [
+        3,
+        0
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "outgoing": "W"
+    },
+    {
+      "time": 73,
+      "cell": [
+        2,
+        0
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "outgoing": "N"
+    },
+    {
+      "time": 74,
+      "cell": [
+        2,
+        1
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "outgoing": "E"
+    },
+    {
+      "time": 75,
+      "cell": [
+        3,
+        1
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "outgoing": "N"
+    },
+    {
+      "time": 76,
+      "cell": [
+        3,
+        2
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "outgoing": "E"
+    },
+    {
+      "time": 77,
+      "cell": [
+        4,
+        2
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "outgoing": "S"
+    },
+    {
+      "time": 78,
+      "cell": [
+        4,
+        1
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "outgoing": "W"
+    },
+    {
+      "time": 79,
+      "cell": [
+        3,
+        1
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "outgoing": "N"
+    },
+    {
+      "time": 80,
+      "cell": [
+        3,
+        2
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "outgoing": "W"
+    },
+    {
+      "time": 81,
+      "cell": [
+        2,
+        2
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "outgoing": "S"
+    },
+    {
+      "time": 82,
+      "cell": [
+        2,
+        1
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "outgoing": "E"
+    },
+    {
+      "time": 83,
+      "cell": [
+        3,
+        1
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "outgoing": "N"
+    },
+    {
+      "time": 84,
+      "cell": [
+        3,
+        2
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "outgoing": "E"
+    },
+    {
+      "time": 85,
+      "cell": [
+        4,
+        2
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "outgoing": "N"
+    },
+    {
+      "time": 86,
+      "cell": [
+        4,
+        3
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "outgoing": "W"
+    },
+    {
+      "time": 87,
+      "cell": [
+        3,
+        3
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "outgoing": "N"
+    },
+    {
+      "time": 88,
+      "cell": [
+        3,
+        4
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "outgoing": "W"
+    },
+    {
+      "time": 89,
+      "cell": [
+        2,
+        4
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "outgoing": "S"
+    },
+    {
+      "time": 90,
+      "cell": [
+        2,
+        3
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "outgoing": "W"
+    },
+    {
+      "time": 91,
+      "cell": [
+        1,
+        3
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "outgoing": "N"
+    },
+    {
+      "time": 92,
+      "cell": [
+        1,
+        4
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "outgoing": "W"
+    },
+    {
+      "time": 93,
+      "cell": [
+        0,
+        4
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "outgoing": "N"
+    },
+    {
+      "time": 94,
+      "cell": [
+        0,
+        5
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "outgoing": "W"
+    },
+    {
+      "time": 95,
+      "cell": [
+        -1,
+        5
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "outgoing": "S"
+    },
+    {
+      "time": 96,
+      "cell": [
+        -1,
+        4
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "outgoing": "W"
+    },
+    {
+      "time": 97,
+      "cell": [
+        -2,
+        4
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "outgoing": "S"
+    },
+    {
+      "time": 98,
+      "cell": [
+        -2,
+        3
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "outgoing": "E"
+    },
+    {
+      "time": 99,
+      "cell": [
+        -1,
+        3
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "outgoing": "S"
+    },
+    {
+      "time": 100,
+      "cell": [
+        -1,
+        2
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "outgoing": "E"
+    },
+    {
+      "time": 101,
+      "cell": [
+        0,
+        2
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "outgoing": "N"
+    }
+  ],
+  "complete_finite_headings": {
+    "(1, 0)": "NNSN",
+    "(2, 0)": "EWW",
+    "(2, -1)": "SS",
+    "(1, -1)": "WE",
+    "(0, 0)": "WWEW",
+    "(0, 1)": "NSSS",
+    "(1, 1)": "EEWE",
+    "(0, -1)": "SSSN",
+    "(-1, -1)": "WWWE",
+    "(-1, 0)": "NNSN",
+    "(-1, -2)": "S",
+    "(0, -2)": "E",
+    "(-2, 0)": "WWWE",
+    "(-2, 1)": "NNNS",
+    "(-1, 1)": "EEWE",
+    "(-2, -1)": "S",
+    "(-3, 1)": "W",
+    "(-3, 0)": "S",
+    "(-1, 2)": "NNNS",
+    "(0, 2)": "EWEE",
+    "(1, 2)": "NNNS",
+    "(2, 2)": "EEEW",
+    "(2, 1)": "SSNS",
+    "(-2, 2)": "W",
+    "(2, 3)": "NS",
+    "(1, 3)": "WW",
+    "(3, 1)": "EEWE",
+    "(3, 0)": "SN",
+    "(3, -1)": "E",
+    "(3, 2)": "NNN",
+    "(4, 2)": "EE",
+    "(4, 1)": "S",
+    "(4, 3)": "N",
+    "(3, 3)": "W",
+    "(3, 4)": "N",
+    "(2, 4)": "W",
+    "(1, 4)": "N",
+    "(0, 4)": "W",
+    "(0, 5)": "N",
+    "(-1, 5)": "W",
+    "(-1, 4)": "S",
+    "(-2, 4)": "W",
+    "(-2, 3)": "S",
+    "(-1, 3)": "E"
+  },
+  "complete_finite_turns": {
+    "(1, 0)": "RLRL",
+    "(2, 0)": "RLR",
+    "(2, -1)": "RL",
+    "(1, -1)": "RL",
+    "(0, 0)": "RLRL",
+    "(0, 1)": "RLRL",
+    "(1, 1)": "RLRL",
+    "(0, -1)": "RLRL",
+    "(-1, -1)": "RLRL",
+    "(-1, 0)": "RLRL",
+    "(-1, -2)": "L",
+    "(0, -2)": "L",
+    "(-2, 0)": "RLRL",
+    "(-2, 1)": "RLRL",
+    "(-1, 1)": "RLRL",
+    "(-2, -1)": "L",
+    "(-3, 1)": "L",
+    "(-3, 0)": "L",
+    "(-1, 2)": "RLRL",
+    "(0, 2)": "RLRL",
+    "(1, 2)": "RLRL",
+    "(2, 2)": "RLRL",
+    "(2, 1)": "RLRL",
+    "(-2, 2)": "L",
+    "(2, 3)": "LR",
+    "(1, 3)": "LR",
+    "(3, 1)": "RLRL",
+    "(3, 0)": "RL",
+    "(3, -1)": "L",
+    "(3, 2)": "RLR",
+    "(4, 2)": "RL",
+    "(4, 1)": "R",
+    "(4, 3)": "L",
+    "(3, 3)": "R",
+    "(3, 4)": "L",
+    "(2, 4)": "L",
+    "(1, 4)": "L",
+    "(0, 4)": "R",
+    "(0, 5)": "L",
+    "(-1, 5)": "L",
+    "(-1, 4)": "R",
+    "(-2, 4)": "L",
+    "(-2, 3)": "L",
+    "(-1, 3)": "R"
+  },
+  "final_black": [
+    [
+      -1,
+      3
+    ],
+    [
+      -1,
+      4
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      1
+    ]
+  ]
+}

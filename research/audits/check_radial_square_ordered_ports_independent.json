@@ -1,0 +1,3858 @@
+{
+  "status": "PASS exact all-WHITE-start ordered local port model only, NOT an actual full-board ant construction",
+  "manifest": "a7de97d9ee6b3b73447368ac8d3ed872a4879f64e1b36509c6bc44f9fb06b15a",
+  "mandatory_terminology_addendum": "13b706122185ea7578899d570d3086d4c912b7daba6e74b05c7f156129bacf65",
+  "script": "8681cc05884223bd66e000ef1a703903921b66c10a58f514ac37625781919907",
+  "ports": [
+    0,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    0
+  ],
+  "external_entries": 96,
+  "patch_reads": 288,
+  "all_local_words": "(RL)^36",
+  "full_patch_read_trace": [
+    {
+      "episode": 0,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 0,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 1,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 2,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 2,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 3,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 3,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 3,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 3,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 3,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 3,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 4,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 4,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 5,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 5,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 5,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 5,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 5,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 5,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 6,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 6,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 7,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 7,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 7,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 7,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 7,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 7,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 8,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 8,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 9,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 9,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 9,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 9,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 9,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 9,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 10,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 10,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 11,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 11,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 11,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 11,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 11,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 11,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 12,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 12,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 13,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 13,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 13,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 13,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 13,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 13,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 14,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 14,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 15,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 15,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 15,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 15,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 15,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 15,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 16,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 16,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 17,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 17,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 17,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 17,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 17,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 17,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 18,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 18,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 19,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 19,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 19,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 19,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 19,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 19,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 20,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 20,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 21,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 21,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 21,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 21,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 21,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 21,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 22,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 22,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 23,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 23,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 23,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 23,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 23,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 23,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 24,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 24,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 25,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 25,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 25,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 25,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 25,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 25,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 26,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 26,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 27,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 27,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 27,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 27,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 27,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 27,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 28,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 28,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 29,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 29,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 29,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 29,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 29,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 29,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 30,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 30,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 31,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 31,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 31,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 31,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 31,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 31,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 32,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 32,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 33,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 33,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 33,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 33,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 33,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 33,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 34,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 34,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 35,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 35,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 35,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 35,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 35,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 35,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 36,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 36,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 37,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 37,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 37,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 37,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 37,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 37,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 38,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 38,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 39,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 39,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 39,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 39,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 39,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 39,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 40,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 40,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 41,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 41,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 41,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 41,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 41,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 41,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 42,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 42,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 43,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 43,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 43,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 43,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 43,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 43,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 44,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 44,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 45,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 45,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 45,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 45,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 45,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 45,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 46,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 46,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 47,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 47,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 47,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 47,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 47,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 47,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 48,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 48,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 49,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 49,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 49,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 49,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 49,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 49,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 50,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 50,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 51,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 51,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 51,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 51,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 51,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 51,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 52,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 52,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 53,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 53,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 53,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 53,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 53,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 53,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 54,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 54,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 55,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 55,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 55,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 55,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 55,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 55,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 56,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 56,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 57,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 57,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 57,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 57,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 57,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 57,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 58,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 58,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 59,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 59,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 59,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 59,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 59,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 59,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 60,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 60,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 61,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 61,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 61,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 61,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 61,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 61,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 62,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 63,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 63,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 64,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 65,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 66,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 66,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 67,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 68,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 69,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 69,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 70,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 71,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 72,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 72,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 73,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 74,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 75,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 75,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 76,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 77,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 78,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 78,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 79,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 80,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 81,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 81,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 82,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 83,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 84,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        1,
+        0
+      ]
+    },
+    {
+      "episode": 84,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 85,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 86,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 87,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        1,
+        1
+      ]
+    },
+    {
+      "episode": 87,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "R",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 88,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "L",
+      "next": [
+        1,
+        -1
+      ]
+    },
+    {
+      "episode": 89,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 90,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        0,
+        1
+      ]
+    },
+    {
+      "episode": 90,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 3,
+      "turn": "R",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 91,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 2,
+      "turn": "L",
+      "next": [
+        2,
+        1
+      ]
+    },
+    {
+      "episode": 92,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 93,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "R",
+      "next": [
+        0,
+        0
+      ]
+    },
+    {
+      "episode": 93,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 2,
+      "turn": "R",
+      "next": [
+        -1,
+        0
+      ]
+    },
+    {
+      "episode": 94,
+      "cell": [
+        0,
+        1
+      ],
+      "heading": 1,
+      "turn": "L",
+      "next": [
+        0,
+        2
+      ]
+    },
+    {
+      "episode": 95,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "L",
+      "next": [
+        -1,
+        0
+      ]
+    }
+  ],
+  "analytic_review": [
+    "The three4-vertex preparation/cleanup sweeps and fifteen4-entry inner circulations are reconstructed directly. Exact local colors and headings persist between all96 externally selected entries; every cell has36 alternatingRL pairs and returnsWHITE. Full scaled32 radial corner counts30/6/18/18 match independently from the face-weight formula.",
+    "The automaton has16 colorstates and64 state-entry transitions, as explicitly qualified. Its selected port protocol is externally controlled: no causal exterior routes, times, fields, finite initial seed, larger-box gluing or autonomous repetition are supplied.",
+    "This disproves only an exclusion based on this central square local alternation and allWHITE initialization. OuterL exits evade the pureinnerL BLACK-root condition; that signed last-exit theorem remains valid. The earlier genuine blank component does not realize these96 outside connectors or the whole infinite summable witness."
+  ]
+}

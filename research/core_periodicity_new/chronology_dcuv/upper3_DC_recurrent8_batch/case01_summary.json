@@ -1,0 +1,46 @@
+{
+  "scope": "Conditional discovery only; H is not a signed relation",
+  "args": {
+    "profile": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/profile_recurrent8.json",
+    "hypotheses": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/hypothesis_U_upper3_post_dccc.tsv",
+    "signed": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/empty.tsv",
+    "row": [
+      1,
+      7,
+      -2,
+      -1,
+      1,
+      2,
+      0
+    ],
+    "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_DC_recurrent8_batch/case01",
+    "rounds": 8,
+    "cap": 750000,
+    "mode": "source",
+    "watch": "2,0;0,-1",
+    "scope": null,
+    "expand": true
+  },
+  "results": [
+    {
+      "round": 0,
+      "extra_points": [],
+      "watched": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "variables": 22,
+      "result": "status CAP_OR_ERROR reason node cap",
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_DC_recurrent8_batch/case01_r00_quotient",
+      "seconds": 11.824,
+      "closure_result": "status EXHAUSTED_NO_HIT states 19333737 depth 57 nodes 145002",
+      "verification": "{\"status\": \"VERIFIED_INDUCTIVE_NO_HIT\", \"variables\": 22, \"positions\": 226, \"nodes\": 145002, \"states\": 19333737, \"checks\": 1477, \"memo_states\": 28936}"
+    }
+  ]
+}

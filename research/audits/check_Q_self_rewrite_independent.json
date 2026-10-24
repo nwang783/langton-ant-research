@@ -1,0 +1,228 @@
+{
+  "status": "PASS independent supplied opposite-Q interface, five-orbit relaxed CNF and RUP",
+  "note_sha256": "0b07cdf2ffe3f2dfa2bd9dbed24042d1cf2af9eaa89985327e1c4c6d1462da51",
+  "source_input_classes": 3,
+  "source_output_classes": 11,
+  "target_input_classes": [
+    [
+      -8,
+      0
+    ],
+    [
+      -7,
+      0
+    ],
+    [
+      -6,
+      1
+    ]
+  ],
+  "missing_class": [
+    -8,
+    0
+  ],
+  "retained_five_colors": {
+    "(-8, 0)": false,
+    "(-7, 1)": false,
+    "(-6, 0)": false,
+    "(-5, 1)": true,
+    "(-4, 0)": false
+  },
+  "variables": 1641,
+  "clauses": 7181,
+  "RUP": 25,
+  "cnf_sha256": "88c3eec63eebf710210c4a976c2bfeb8337458fa50b82e0e922c6539f5cee14f",
+  "rup_sha256": "ce8b7ea2e3e757355a4355c7023ded3b909d9c45e0fe830e762ea0a76cb44e9d",
+  "controls": [
+    {
+      "label": "identity_own",
+      "length": 108,
+      "first_colors": true,
+      "alternating": true,
+      "legal": true
+    },
+    {
+      "label": "identity_source",
+      "length": 108,
+      "first_colors": false,
+      "alternating": true,
+      "legal": false
+    },
+    {
+      "label": "first_color_repair",
+      "length": 112,
+      "first_colors": true,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 112,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 124,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 132,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 132,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 140,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 148,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 164,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 164,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 164,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 176,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 192,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 192,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 196,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 204,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 212,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 232,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 224,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 236,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 252,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 248,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 268,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 272,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 272,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    },
+    {
+      "label": "sparse",
+      "length": 284,
+      "first_colors": false,
+      "alternating": false,
+      "legal": false
+    }
+  ],
+  "scope": "Fixed Q108 scaffold at(0,14,W), stationary legal exact-pose1/5/9 choices. Dropping every other orbit chronology still UNSAT. No changing choices, other images/scaffolds, arbitrary self-rewrite, cap/bootstrap or noncapture claim."
+}

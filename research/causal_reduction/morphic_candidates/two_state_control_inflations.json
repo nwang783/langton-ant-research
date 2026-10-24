@@ -1,0 +1,4962 @@
+{
+  "status": "EXHAUSTED",
+  "nodes": 8101,
+  "maxdepth": 8,
+  "latest_conflict": 79,
+  "counts": {
+    "conflict_leaves": 5078,
+    "full_rooted_models_excluded": 955514880
+  },
+  "best": {
+    "images": [
+      [
+        "L",
+        0,
+        "LRLRRRRLR"
+      ],
+      [
+        "L",
+        1,
+        "RLLRLLRLR"
+      ],
+      [
+        "R",
+        0,
+        "RRLLRLLLL"
+      ],
+      [
+        "R",
+        1,
+        "RLRRLRRRR"
+      ]
+    ],
+    "controller": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        3,
+        1
+      ],
+      [
+        0,
+        4,
+        1
+      ],
+      [
+        0,
+        5,
+        0
+      ],
+      [
+        0,
+        6,
+        0
+      ],
+      [
+        0,
+        7,
+        0
+      ]
+    ],
+    "macros": 8,
+    "choices": [
+      "RRLLRLLLL",
+      "RLRRLRRRR",
+      "LRLRRRRLR",
+      "RLLRLLRLR",
+      "RLRRLRRRR",
+      "LRLRRRRLR",
+      "LRLRRRRLR",
+      "LRLRRRRLR"
+    ],
+    "word": "RRLLRLLLLRLRRLRRRRLRLRRRRLRRLLRLLRLRRLRRLRRRRLRLRRRRLRLRLRRRRLRLRLRRRRLR"
+  },
+  "example_leaves": [
+    {
+      "images": [
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "time": 11,
+      "earlier": 7,
+      "cell": [
+        2,
+        -1
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RRLRRRRLR"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "time": 11,
+      "earlier": 7,
+      "cell": [
+        2,
+        -1
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RRLLRLLLL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "time": 11,
+      "earlier": 7,
+      "cell": [
+        2,
+        -1
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRRLRRRR"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "time": 16,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RRRRLRLLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "time": 20,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RRRRLLRRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "time": 20,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RRRLRRLRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "time": 20,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "time": 29,
+      "earlier": 25,
+      "cell": [
+        5,
+        -4
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          0
+        ]
+      ],
+      "time": 40,
+      "earlier": 24,
+      "cell": [
+        4,
+        -4
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          0
+        ]
+      ],
+      "time": 47,
+      "earlier": 23,
+      "cell": [
+        4,
+        -5
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          1
+        ]
+      ],
+      "time": 46,
+      "earlier": 22,
+      "cell": [
+        3,
+        -5
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRRRRLRRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "time": 24,
+      "earlier": 16,
+      "cell": [
+        4,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "time": 29,
+      "earlier": 25,
+      "cell": [
+        5,
+        -4
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          0
+        ]
+      ],
+      "time": 39,
+      "earlier": 23,
+      "cell": [
+        4,
+        -5
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          0
+        ]
+      ],
+      "time": 48,
+      "earlier": 24,
+      "cell": [
+        4,
+        -4
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          0,
+          6,
+          0
+        ]
+      ],
+      "time": 55,
+      "earlier": 19,
+      "cell": [
+        4,
+        -3
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          0,
+          6,
+          1
+        ]
+      ],
+      "time": 56,
+      "earlier": 16,
+      "cell": [
+        4,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRLLRLLLL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "time": 25,
+      "earlier": 13,
+      "cell": [
+        5,
+        -2
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LLRRLRRRR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "time": 20,
+      "earlier": 16,
+      "cell": [
+        4,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LLRLLLLRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "time": 20,
+      "earlier": 16,
+      "cell": [
+        4,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RRRRLRLLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "time": 20,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RRRRLLRRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "time": 20,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RRRLRRLRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "time": 20,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "time": 29,
+      "earlier": 25,
+      "cell": [
+        5,
+        -4
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          0
+        ]
+      ],
+      "time": 40,
+      "earlier": 24,
+      "cell": [
+        4,
+        -4
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          0
+        ]
+      ],
+      "time": 47,
+      "earlier": 23,
+      "cell": [
+        4,
+        -5
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          1
+        ]
+      ],
+      "time": 46,
+      "earlier": 22,
+      "cell": [
+        3,
+        -5
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LRRRRLRRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "time": 24,
+      "earlier": 16,
+      "cell": [
+        4,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "time": 29,
+      "earlier": 25,
+      "cell": [
+        5,
+        -4
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          0
+        ]
+      ],
+      "time": 39,
+      "earlier": 23,
+      "cell": [
+        4,
+        -5
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          0
+        ]
+      ],
+      "time": 48,
+      "earlier": 24,
+      "cell": [
+        4,
+        -4
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          0,
+          6,
+          0
+        ]
+      ],
+      "time": 55,
+      "earlier": 19,
+      "cell": [
+        4,
+        -3
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          0,
+          6,
+          1
+        ]
+      ],
+      "time": 56,
+      "earlier": 16,
+      "cell": [
+        4,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LRLLRLLLL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "time": 25,
+      "earlier": 13,
+      "cell": [
+        5,
+        -2
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LLRRLRRRR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "time": 20,
+      "earlier": 16,
+      "cell": [
+        4,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LLRLLLLRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLRLLLLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "time": 20,
+      "earlier": 16,
+      "cell": [
+        4,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "RLLLLRLLR"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "time": 15,
+      "earlier": 7,
+      "cell": [
+        2,
+        -1
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RRRRLRLLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "time": 20,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RRRRLLRRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "time": 20,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RRRLRRLRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "time": 20,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "time": 29,
+      "earlier": 25,
+      "cell": [
+        5,
+        -4
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          0
+        ]
+      ],
+      "time": 40,
+      "earlier": 24,
+      "cell": [
+        4,
+        -4
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          0
+        ]
+      ],
+      "time": 47,
+      "earlier": 23,
+      "cell": [
+        4,
+        -5
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          0,
+          6,
+          0
+        ]
+      ],
+      "time": 54,
+      "earlier": 18,
+      "cell": [
+        3,
+        -3
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          0,
+          6,
+          1
+        ]
+      ],
+      "time": 56,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRRRRLRRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "time": 24,
+      "earlier": 16,
+      "cell": [
+        4,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "time": 29,
+      "earlier": 25,
+      "cell": [
+        5,
+        -4
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          0
+        ]
+      ],
+      "time": 39,
+      "earlier": 23,
+      "cell": [
+        4,
+        -5
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          0
+        ]
+      ],
+      "time": 48,
+      "earlier": 24,
+      "cell": [
+        4,
+        -4
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          0,
+          6,
+          0
+        ]
+      ],
+      "time": 55,
+      "earlier": 19,
+      "cell": [
+        4,
+        -3
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          0,
+          6,
+          1
+        ]
+      ],
+      "time": 54,
+      "earlier": 18,
+      "cell": [
+        3,
+        -3
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRLLRLLLL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "time": 29,
+      "earlier": 21,
+      "cell": [
+        5,
+        -4
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRLLRLLLL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ]
+      ],
+      "time": 27,
+      "earlier": 23,
+      "cell": [
+        6,
+        -3
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LLRRLRRRR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "time": 20,
+      "earlier": 16,
+      "cell": [
+        4,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LLRLLLLRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "time": 20,
+      "earlier": 16,
+      "cell": [
+        4,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RRRRLRLLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "time": 20,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RRRRLLRRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "time": 20,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RRRLRRLRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "time": 20,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "time": 29,
+      "earlier": 25,
+      "cell": [
+        5,
+        -4
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          0
+        ]
+      ],
+      "time": 40,
+      "earlier": 24,
+      "cell": [
+        4,
+        -4
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          0
+        ]
+      ],
+      "time": 47,
+      "earlier": 23,
+      "cell": [
+        4,
+        -5
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          0,
+          6,
+          0
+        ]
+      ],
+      "time": 54,
+      "earlier": 18,
+      "cell": [
+        3,
+        -3
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          0,
+          6,
+          1
+        ]
+      ],
+      "time": 56,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LRRRRLRRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "time": 24,
+      "earlier": 16,
+      "cell": [
+        4,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "time": 29,
+      "earlier": 25,
+      "cell": [
+        5,
+        -4
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          0
+        ]
+      ],
+      "time": 39,
+      "earlier": 23,
+      "cell": [
+        4,
+        -5
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          0
+        ]
+      ],
+      "time": 48,
+      "earlier": 24,
+      "cell": [
+        4,
+        -4
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          0,
+          6,
+          0
+        ]
+      ],
+      "time": 55,
+      "earlier": 19,
+      "cell": [
+        4,
+        -3
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          1
+        ],
+        [
+          0,
+          6,
+          1
+        ]
+      ],
+      "time": 54,
+      "earlier": 18,
+      "cell": [
+        3,
+        -3
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LRLLRLLLL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "time": 29,
+      "earlier": 21,
+      "cell": [
+        5,
+        -4
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LRLLRLLLL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ]
+      ],
+      "time": 27,
+      "earlier": 23,
+      "cell": [
+        6,
+        -3
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LLRRLRRRR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "time": 20,
+      "earlier": 16,
+      "cell": [
+        4,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LLRLLLLRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LRRLRRLRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "time": 20,
+      "earlier": 16,
+      "cell": [
+        4,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLRLLRLR"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "time": 12,
+      "earlier": 8,
+      "cell": [
+        2,
+        0
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRRLLR"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "time": 15,
+      "earlier": 7,
+      "cell": [
+        2,
+        -1
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RRRRLRLLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "time": 20,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RRRRLLRRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "time": 20,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RRRLRRLRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "time": 20,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "time": 29,
+      "earlier": 25,
+      "cell": [
+        5,
+        -4
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          0
+        ]
+      ],
+      "time": 40,
+      "earlier": 24,
+      "cell": [
+        4,
+        -4
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ]
+      ],
+      "time": 39,
+      "earlier": 35,
+      "cell": [
+        6,
+        -5
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRRRRLRRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "time": 24,
+      "earlier": 16,
+      "cell": [
+        4,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "time": 29,
+      "earlier": 25,
+      "cell": [
+        5,
+        -4
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          0
+        ]
+      ],
+      "time": 39,
+      "earlier": 23,
+      "cell": [
+        4,
+        -5
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ]
+      ],
+      "time": 39,
+      "earlier": 35,
+      "cell": [
+        6,
+        -5
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRLLRLLLL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "time": 29,
+      "earlier": 21,
+      "cell": [
+        5,
+        -4
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LRLLRLLLL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ]
+      ],
+      "time": 27,
+      "earlier": 23,
+      "cell": [
+        6,
+        -3
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LLRRLRRRR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "time": 20,
+      "earlier": 16,
+      "cell": [
+        4,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          0,
+          "LLRLLLLRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "time": 20,
+      "earlier": 16,
+      "cell": [
+        4,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RRRRLRLLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "time": 20,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RRRRLLRRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "time": 20,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RRRLRRLRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "time": 20,
+      "earlier": 4,
+      "cell": [
+        2,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "time": 29,
+      "earlier": 25,
+      "cell": [
+        5,
+        -4
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          0
+        ]
+      ],
+      "time": 40,
+      "earlier": 24,
+      "cell": [
+        4,
+        -4
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "RLLRLLRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ]
+      ],
+      "time": 39,
+      "earlier": 35,
+      "cell": [
+        6,
+        -5
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LRRRRLRRL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "time": 24,
+      "earlier": 16,
+      "cell": [
+        4,
+        -2
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "time": 29,
+      "earlier": 25,
+      "cell": [
+        5,
+        -4
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          0
+        ]
+      ],
+      "time": 39,
+      "earlier": 23,
+      "cell": [
+        4,
+        -5
+      ],
+      "turn": "R"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LRLRRRRLR"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ]
+      ],
+      "time": 39,
+      "earlier": 35,
+      "cell": [
+        6,
+        -5
+      ],
+      "turn": "L"
+    },
+    {
+      "images": [
+        [
+          "L",
+          1,
+          "LRLLRLLLL"
+        ],
+        [
+          "R",
+          0,
+          "RRLRRRRLR"
+        ],
+        [
+          "R",
+          1,
+          "LLLLRLRRL"
+        ]
+      ],
+      "controller": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "time": 29,
+      "earlier": 21,
+      "cell": [
+        5,
+        -4
+      ],
+      "turn": "L"
+    }
+  ],
+  "seconds": 0.02413201332092285,
+  "complete_rooted_class_size": 955514880
+}

@@ -1,0 +1,99 @@
+{
+  "status": "AUTHOR_FINITE_SUPPORT_ALL_COMPLETE8_EXCLUSION_PENDING_INDEPENDENT_AUDIT",
+  "scope": "Finite COMPLETE black support at actual context-complete T8 factor entry. No infinite prepared-board, arbitrary eventual-language, label-union or universal-capture inference.",
+  "rows": [
+    {
+      "packet": 0,
+      "name": "D",
+      "base": "D",
+      "C_tails": 0,
+      "word": "LLLLRLRRRR",
+      "length": 10,
+      "U_family": false
+    },
+    {
+      "packet": 1,
+      "name": "DC",
+      "base": "D",
+      "C_tails": 1,
+      "word": "LLLLRLRRRRLLLLRLRRRRLRRRR",
+      "length": 25,
+      "U_family": false
+    },
+    {
+      "packet": 4,
+      "name": "V",
+      "base": "V",
+      "C_tails": 0,
+      "word": "LLLLRLRRRRLRRLRRRR",
+      "length": 18,
+      "U_family": false
+    },
+    {
+      "packet": 5,
+      "name": "VC",
+      "base": "V",
+      "C_tails": 1,
+      "word": "LLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRR",
+      "length": 33,
+      "U_family": false
+    },
+    {
+      "packet": 6,
+      "name": "VCC",
+      "base": "V",
+      "C_tails": 2,
+      "word": "LLLLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRR",
+      "length": 48,
+      "U_family": false
+    },
+    {
+      "packet": 7,
+      "name": "U",
+      "base": "U",
+      "C_tails": 0,
+      "word": "LLLLRLRRRRLRLLLLRRRRLRRLRRRR",
+      "length": 28,
+      "U_family": true
+    },
+    {
+      "packet": 8,
+      "name": "UC",
+      "base": "U",
+      "C_tails": 1,
+      "word": "LLLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRR",
+      "length": 43,
+      "U_family": true
+    },
+    {
+      "packet": 9,
+      "name": "UCC",
+      "base": "U",
+      "C_tails": 2,
+      "word": "LLLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRR",
+      "length": 58,
+      "U_family": true
+    }
+  ],
+  "base_words": {
+    "D": "LLLLRLRRRR",
+    "C": "LLLLRLRRRRLRRRR",
+    "V": "LLLLRLRRRRLRRLRRRR",
+    "U": "LLLLRLRRRRLRLLLLRRRRLRRLRRRR"
+  },
+  "first_U": "Finite-prefix actual flips preserve finite complete support, so the first U suffix is covered by signed U-entry exclusion.",
+  "no_U": "Expands literally to D/C/V; signed finite-tail exclusion, equivalently HS F(m,0) on every complete prefix.",
+  "first_U_interface": {
+    "T": "<=F(m,0)",
+    "mass_at_U": "<=m+T",
+    "radius_about_U_head": "<=R0+T"
+  },
+  "dependencies": {
+    "causal_archive_frontier_2026-10-23/finite_support_U_entry_exclusion_manifest.json": "24e05ce4f03ecfd2cae3d4072bef1a7502289478b912d5115e426536e29cc794",
+    "word_stabilization/dcv_finite_tail_theorem.md": "4da1a39ccebc4485a47d0a8c430a9237d499c807d2090b98272abf9263f14678",
+    "word_stabilization/dcv_producer_closed_family_manifest.json": "717f6e35aa17b12379f2e0464cd9b581564bd91ae0bef6451f21ccef79c2ad58",
+    "word_stabilization/dcv_producer_closed_family_signoff.md": "55d2cc209e0b5ca3ac64fad4be5b6b3acf967e7f1d41120c1b7f818e17ca9f5d",
+    "word_stabilization/dcuv_epoch_reset_bound_manifest.json": "b4e2393e3c6dc669e176190778c7317fb8a117a6400a170bcb6f3f374aea7e50",
+    "core_periodicity_new/chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd"
+  }
+}

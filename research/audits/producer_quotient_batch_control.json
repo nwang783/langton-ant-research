@@ -1,0 +1,194 @@
+{
+  "status": "PASS conditional semantics and invariants ONLY; H202 not closed",
+  "cases": [
+    {
+      "status": "PASS conditional producer-quotient semantics; hypothesis closure NOT asserted",
+      "model": "core_periodicity_new/producer_helper_refinement/case01_r0_quotient.json",
+      "hypotheses": 202,
+      "watched_cells": 2,
+      "variables": 38,
+      "base_transitions": 972,
+      "guard_cubes": 1099,
+      "sha256": {
+        "core_periodicity_new/producer_helper_refinement/case01_r0_quotient.json": "5536e522b65c75c7bc8841fb9d091737e6ee34834e76a43b6441eee195bcaad1",
+        "core_periodicity_new/producer_helper_refinement/case01_r0_quotient.dat": "bea181a8e4ca26a8032f18532999ef5af6a5c88afbf23898ec45b75bd4b656e5",
+        "core_periodicity_new/producer_helper_refinement/case01.json": "c5c9a0cab62527c09db0f18d730ea9d6633e9bdc336f75e3a7c37247f7495582",
+        "core_periodicity_new/producer_labels_hypothesis_202.tsv": "0bb8982e528afd35f1f232d2e0ad3ac9206831a7355f00aa07961bf71c9fcade",
+        "word_stabilization/dcv_anchored_signed41.tsv": "5238d50675816d46e094aaed690070ab5660c4a7ed1db902d2c6dd34fd48cbb1",
+        "core_periodicity_new/producer_helper_refinement/case01_r0_exact.json": "e95dd21b4584d107ae702a0d7f14fd95b8de73733fb9e8837e45bbd6ba9c2edb",
+        "core_periodicity_new/producer_helper_refinement/case01_r0_quotient.bdd": "053b19afb14a78cfc0ca83da29c8163a21ccbe6f5e9664b1b71afd16eecf346f"
+      },
+      "invariant": {
+        "status": "PASS independent canonical restriction/XOR/reset invariant check",
+        "variables": 38,
+        "positions": 262,
+        "certificate_nodes": 193694,
+        "invariant_states": 401812640,
+        "checks": 1187,
+        "canonical_nodes": 204670
+      }
+    },
+    {
+      "status": "PASS conditional producer-quotient semantics; hypothesis closure NOT asserted",
+      "model": "core_periodicity_new/producer_helper_refinement/case02_r0_quotient.json",
+      "hypotheses": 202,
+      "watched_cells": 2,
+      "variables": 35,
+      "base_transitions": 878,
+      "guard_cubes": 964,
+      "sha256": {
+        "core_periodicity_new/producer_helper_refinement/case02_r0_quotient.json": "ca542c79567f871be63c6bd90f9e051e7030f4913d83108c0da8d71ecee02f72",
+        "core_periodicity_new/producer_helper_refinement/case02_r0_quotient.dat": "d5c16d0955eef11f55e7fc14bed839ceb127616ac257316303dac65fb0b1ccc0",
+        "core_periodicity_new/producer_helper_refinement/case02.json": "5c597e732b87ef1885fc8e624bf43968f319d5734446b89d02e65f7dfcab893b",
+        "core_periodicity_new/producer_labels_hypothesis_202.tsv": "0bb8982e528afd35f1f232d2e0ad3ac9206831a7355f00aa07961bf71c9fcade",
+        "word_stabilization/dcv_anchored_signed41.tsv": "5238d50675816d46e094aaed690070ab5660c4a7ed1db902d2c6dd34fd48cbb1",
+        "core_periodicity_new/producer_helper_refinement/case02_r0_exact.json": "30fc5fa09d2d95045d96ce2e428f87b438ca2e01350521f3d0daef24bf883725",
+        "core_periodicity_new/producer_helper_refinement/case02_r0_quotient.bdd": "af58ed996dcd1b8565cf620ce5a795949797f163333bb19c2916a362c7367313"
+      },
+      "invariant": {
+        "status": "PASS independent canonical restriction/XOR/reset invariant check",
+        "variables": 35,
+        "positions": 243,
+        "certificate_nodes": 157887,
+        "invariant_states": 465896704,
+        "checks": 1047,
+        "canonical_nodes": 164535
+      }
+    },
+    {
+      "status": "PASS conditional producer-quotient semantics; hypothesis closure NOT asserted",
+      "model": "core_periodicity_new/producer_helper_refinement/case03_r0_quotient.json",
+      "hypotheses": 202,
+      "watched_cells": 3,
+      "variables": 43,
+      "base_transitions": 917,
+      "guard_cubes": 1241,
+      "sha256": {
+        "core_periodicity_new/producer_helper_refinement/case03_r0_quotient.json": "aa4ee9a1c5a0ae1e8785167389eea09b220ce1435ad8219f5d3918b9dee28be7",
+        "core_periodicity_new/producer_helper_refinement/case03_r0_quotient.dat": "ef9d6e564a2332aa6f05502c59b82f5bd305b742418db8f44822b06f5e5e4a65",
+        "core_periodicity_new/producer_helper_refinement/case03.json": "ce057c83a3b9e948262780eadc1392e2638009365f63f38ffa5f477946100321",
+        "core_periodicity_new/producer_labels_hypothesis_202.tsv": "0bb8982e528afd35f1f232d2e0ad3ac9206831a7355f00aa07961bf71c9fcade",
+        "word_stabilization/dcv_anchored_signed41.tsv": "5238d50675816d46e094aaed690070ab5660c4a7ed1db902d2c6dd34fd48cbb1",
+        "core_periodicity_new/producer_helper_refinement/case03_r0_exact.json": "9e8b5f97f053f998afb9213dd50557560c59a30138b872b528d989affe15feb7",
+        "core_periodicity_new/producer_helper_refinement/case03_r0_quotient.bdd": "816e7e3021a1b74b25d28a5d305ed34af9c5147fd3cdbe50167ecaa653a34a5e"
+      },
+      "invariant": {
+        "status": "PASS independent canonical restriction/XOR/reset invariant check",
+        "variables": 43,
+        "positions": 259,
+        "certificate_nodes": 178553,
+        "invariant_states": 1604729112,
+        "checks": 1326,
+        "canonical_nodes": 201117
+      }
+    },
+    {
+      "status": "PASS conditional producer-quotient semantics; hypothesis closure NOT asserted",
+      "model": "core_periodicity_new/producer_helper_refinement/case05_r0_quotient.json",
+      "hypotheses": 202,
+      "watched_cells": 3,
+      "variables": 33,
+      "base_transitions": 671,
+      "guard_cubes": 729,
+      "sha256": {
+        "core_periodicity_new/producer_helper_refinement/case05_r0_quotient.json": "2b5c7f52f4c12e3aec4540a6587b0e358208e7f88f2cadde6216ef1f727555e8",
+        "core_periodicity_new/producer_helper_refinement/case05_r0_quotient.dat": "24defa9d9f61745146f8b60749d7d0929934fdcf4f721c78376cec75171f27a8",
+        "core_periodicity_new/producer_helper_refinement/case05.json": "683d32c004a7ba97935a07ed75d66b54944ae4ae37d85a36780f30c7b8b0c092",
+        "core_periodicity_new/producer_labels_hypothesis_202.tsv": "0bb8982e528afd35f1f232d2e0ad3ac9206831a7355f00aa07961bf71c9fcade",
+        "word_stabilization/dcv_anchored_signed41.tsv": "5238d50675816d46e094aaed690070ab5660c4a7ed1db902d2c6dd34fd48cbb1",
+        "core_periodicity_new/producer_helper_refinement/case05_r0_exact.json": "57af73cd5385b8e0cdd809ae77c5e5c6a61c89a72405538e4d6a3430ccebe321",
+        "core_periodicity_new/producer_helper_refinement/case05_r0_quotient.bdd": "a24bab5d4f9d82dcc491a03790c218d7992df1d0d1e137fa9698c66705dceea2"
+      },
+      "invariant": {
+        "status": "PASS independent canonical restriction/XOR/reset invariant check",
+        "variables": 33,
+        "positions": 223,
+        "certificate_nodes": 199014,
+        "invariant_states": 18771271,
+        "checks": 814,
+        "canonical_nodes": 209094
+      }
+    },
+    {
+      "status": "PASS conditional producer-quotient semantics; hypothesis closure NOT asserted",
+      "model": "core_periodicity_new/producer_helper_refinement/case06_r0_quotient.json",
+      "hypotheses": 202,
+      "watched_cells": 2,
+      "variables": 38,
+      "base_transitions": 967,
+      "guard_cubes": 1092,
+      "sha256": {
+        "core_periodicity_new/producer_helper_refinement/case06_r0_quotient.json": "824169993043b8626a454909810f7096968957e551b3780d749ae74e54bb34ed",
+        "core_periodicity_new/producer_helper_refinement/case06_r0_quotient.dat": "dc40fea479501219732955b7ebf1a8dd323f8f0527fa0ba7cb9d88d0952889b8",
+        "core_periodicity_new/producer_helper_refinement/case06.json": "0c6ed80ed1600d814092446e4417af831e37c19e2177ac6cb3d763f499794d1a",
+        "core_periodicity_new/producer_labels_hypothesis_202.tsv": "0bb8982e528afd35f1f232d2e0ad3ac9206831a7355f00aa07961bf71c9fcade",
+        "word_stabilization/dcv_anchored_signed41.tsv": "5238d50675816d46e094aaed690070ab5660c4a7ed1db902d2c6dd34fd48cbb1",
+        "core_periodicity_new/producer_helper_refinement/case06_r0_exact.json": "957ffd38818efa6380fa02c2a456849349e26154a060c7e1ffbd3f7d2d03cc13",
+        "core_periodicity_new/producer_helper_refinement/case06_r0_quotient.bdd": "2faf0f8a1166697c515c187d272d9c093fa2bab0f1686e2eb4de85ec3b3ca976"
+      },
+      "invariant": {
+        "status": "PASS independent canonical restriction/XOR/reset invariant check",
+        "variables": 38,
+        "positions": 262,
+        "certificate_nodes": 168673,
+        "invariant_states": 1223345088,
+        "checks": 1182,
+        "canonical_nodes": 172501
+      }
+    },
+    {
+      "status": "PASS conditional producer-quotient semantics; hypothesis closure NOT asserted",
+      "model": "core_periodicity_new/producer_helper_refinement/case09_r0_quotient.json",
+      "hypotheses": 202,
+      "watched_cells": 2,
+      "variables": 44,
+      "base_transitions": 784,
+      "guard_cubes": 911,
+      "sha256": {
+        "core_periodicity_new/producer_helper_refinement/case09_r0_quotient.json": "a3148d4c8f03b54f12fc37a3dcfb73de2b0be244bcbdc96007ec9c0d7c4944fd",
+        "core_periodicity_new/producer_helper_refinement/case09_r0_quotient.dat": "e2a09c8ef6dca624420eae8fde1ae62586ab341a523b7c4fe1d7a169d5e1580c",
+        "core_periodicity_new/producer_helper_refinement/case09.json": "aa92b917213e9ee14c1ebaaccf650f3c3d346a76e9ce183951ba44282b740e06",
+        "core_periodicity_new/producer_labels_hypothesis_202.tsv": "0bb8982e528afd35f1f232d2e0ad3ac9206831a7355f00aa07961bf71c9fcade",
+        "word_stabilization/dcv_anchored_signed41.tsv": "5238d50675816d46e094aaed690070ab5660c4a7ed1db902d2c6dd34fd48cbb1",
+        "core_periodicity_new/producer_helper_refinement/case09_r0_exact.json": "834de148e80b3d5caff0725bfff99b539a96bb7bd0dfd59f99ef4856c84478c2",
+        "core_periodicity_new/producer_helper_refinement/case09_r0_quotient.bdd": "4538822ae924f0ab44061bb82d6f2a9da44286c36b68d3ae549b31b675343510"
+      },
+      "invariant": {
+        "status": "PASS independent canonical restriction/XOR/reset invariant check",
+        "variables": 44,
+        "positions": 299,
+        "certificate_nodes": 26575,
+        "invariant_states": 92006976,
+        "checks": 1008,
+        "canonical_nodes": 29529
+      }
+    },
+    {
+      "status": "PASS conditional producer-quotient semantics; hypothesis closure NOT asserted",
+      "model": "core_periodicity_new/producer_helper_refinement/case10_r0_quotient.json",
+      "hypotheses": 202,
+      "watched_cells": 2,
+      "variables": 41,
+      "base_transitions": 771,
+      "guard_cubes": 847,
+      "sha256": {
+        "core_periodicity_new/producer_helper_refinement/case10_r0_quotient.json": "5992ffe8b1d37e827cdcd9691b25961191aa5d7b3073fc713a576059258f6e1a",
+        "core_periodicity_new/producer_helper_refinement/case10_r0_quotient.dat": "e604920f182b3e46dbf52b2299bcd0063c1393cd7f59129476cb358685abcb84",
+        "core_periodicity_new/producer_helper_refinement/case10.json": "66b6b3b67e6a7eb51ea349b9d556d0c381bfc70400c661e6ece98ba15cec8dc0",
+        "core_periodicity_new/producer_labels_hypothesis_202.tsv": "0bb8982e528afd35f1f232d2e0ad3ac9206831a7355f00aa07961bf71c9fcade",
+        "word_stabilization/dcv_anchored_signed41.tsv": "5238d50675816d46e094aaed690070ab5660c4a7ed1db902d2c6dd34fd48cbb1",
+        "core_periodicity_new/producer_helper_refinement/case10_r0_exact.json": "90fd51c5d05daf5de6620c149577987fa210ae8451207ecc98f6ec0ed516b021",
+        "core_periodicity_new/producer_helper_refinement/case10_r0_quotient.bdd": "c60f3a4c72ddb27ff18f8fc0b0a96a18858287f8e9c5c28f5e2fbba3b2073b8a"
+      },
+      "invariant": {
+        "status": "PASS independent canonical restriction/XOR/reset invariant check",
+        "variables": 41,
+        "positions": 279,
+        "certificate_nodes": 86114,
+        "invariant_states": 51611392,
+        "checks": 937,
+        "canonical_nodes": 88075
+      }
+    }
+  ]
+}

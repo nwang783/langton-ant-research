@@ -1,0 +1,185 @@
+{
+  "status": "FROZEN_AUTHOR_RESIDUE_CONTROLS_PENDING_INDEPENDENT_REPLAY",
+  "created_UTC": "2026-10-23T07:14:00Z",
+  "phase": 1,
+  "transverse_modulus": 4,
+  "balanced_residue_profiles": [
+    0,
+    2
+  ],
+  "age_cap": 4,
+  "low_cutoff": -18,
+  "port_depths": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "initial_DFA_class": 0,
+  "unit_interface": "Push depth+1 and pop depth\u22121 carry odd transverse residues. Zero-height packet edges carry even residue, possibly2, not necessarily0. Private chains preserve exact whole-packet transverse displacement modulo4 and put the full packet C count on their first unit edge.",
+  "initial_transverse_parity": "A port at depthd has exact headheightq=\u221218\u2212d. Its two admitted initial residues are t in{0,1,2,3} with t\u2261q modulo2; equivalently q and t have the same physical checker parity. All initial lowhead heights are quantified, not stack-capped. Initial high tokens are absent and retained ages mature, so only low-prefix reachability is used.",
+  "port_format": "RESIDUE_PORTS NP NE NI 4; initial IDs; NP rows(heading,DFA,depth); NE rows(source,target,delta_t_mod4,max_saturated_C_FOR_THAT_RESIDUE). Unmatched pop/push segments retain all4 residues. Maximum weights are never shared across distinct transverse residues.",
+  "scope": "Exact weighted packet-DFA low-counter relaxation summaries, finite derivation certificates and full port projection controls. No unretained low-cell color legality, complete record model, record exclusion or capture theorem is claimed.",
+  "files": [
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/delayed_height_probe/low_k3_residue_unit.dat",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/low_k3_residue_unit.dat",
+      "sha256": "b52cd1ae5a18d1cf090a8292c1dbb6682c9106312d44df56c98eee94395904d2",
+      "bytes": 7809
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/delayed_height_probe/low_k3_residue_unit.json",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/low_k3_residue_unit.json",
+      "sha256": "435fcf09e2d9d55d6c24f8195e8997585ddc5d4edea099b2a5db843008eb8822",
+      "bytes": 49956
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/delayed_height_probe/low_k3_residue_dyck.sparse",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/low_k3_residue_dyck.sparse",
+      "sha256": "5d9bd4b59d4bd0ccc481fb75f7f562b2e22f40429fcdde47f0edcdb3b9bc084b",
+      "bytes": 331982
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/delayed_height_probe/low_k3_residue_dyck.proof",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/low_k3_residue_dyck.proof",
+      "sha256": "7b1a9c3c392875505a37a7a521d8c85558c336158d4d2a8cd0af1ad6cd78e4d4",
+      "bytes": 629733
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/delayed_height_probe/low_k3_residue_dyck.check.json",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/low_k3_residue_dyck.check.json",
+      "sha256": "d40cf6d9c7308c743c8dea6bddfbdc9d24dded251c1891bdf1473a60bf86ca69",
+      "bytes": 594
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/delayed_height_probe/low_k3_residue_dyck.ports",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/low_k3_residue_dyck.ports",
+      "sha256": "39894a74bbc2f6af8c09ed2e24a073bd5a99588ee928c8492c0e19afb0763f1a",
+      "bytes": 500552
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/delayed_height_probe/low_k3_residue_dyck.ports.log",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/low_k3_residue_dyck.ports.log",
+      "sha256": "a7b8093ef47c32dee6c199439d5b5d4f3078c1a0df67fbcd89f6ed029e793fba",
+      "bytes": 149
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/delayed_height_probe/low_k3_residue_dyck.ports.projection_check.json",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/low_k3_residue_dyck.ports.projection_check.json",
+      "sha256": "dff484c82af6dbb95603078bfc44132b1fd780407d55ef5670fff387e0f921dc",
+      "bytes": 362
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/delayed_height_probe/v1_k3.json",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/v1_k3.json",
+      "sha256": "1fa2c70c307e9d99965421a2bdf1f8c83de2eb1d3ec8bab611b78a1cd960231a",
+      "bytes": 4993
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/literal_factor_dfa_k3.json",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/literal_factor_dfa_k3.json",
+      "sha256": "7be7f03a2b7b78b5696585a31f9f173600c76006709145c918a126217d0c8b12",
+      "bytes": 16371
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/delayed_height_probe/low_k5_residue_unit.dat",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/low_k5_residue_unit.dat",
+      "sha256": "fa65a9fe46f8aa686e02abf0d75e0b44a610b71e5c991b55b55f61ae0bb09b96",
+      "bytes": 88348
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/delayed_height_probe/low_k5_residue_unit.json",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/low_k5_residue_unit.json",
+      "sha256": "d73ceba2cca1f7bfb9c52066afcdbc306a63956fbea973e0592a80878ab1f4eb",
+      "bytes": 516328
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/delayed_height_probe/low_k5_residue_dyck.sparse",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/low_k5_residue_dyck.sparse",
+      "sha256": "82308475b12509eda79fe96b339b0444088407b63bde6433f0ad8f90c15323bb",
+      "bytes": 16648265
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/delayed_height_probe/low_k5_residue_dyck.proof",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/low_k5_residue_dyck.proof",
+      "sha256": "d556c9ca17dc8d86709c0c0d010ae77a6d69a2141aa13a4135e3da439393e70e",
+      "bytes": 30020054
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/delayed_height_probe/low_k5_residue_dyck.check.json",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/low_k5_residue_dyck.check.json",
+      "sha256": "7bb56b4bb82a0200f0552c9269c3530f5e67858b1c1f21e6473bd31c6f27771e",
+      "bytes": 598
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/delayed_height_probe/low_k5_residue_dyck.ports",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/low_k5_residue_dyck.ports",
+      "sha256": "c0cecbf1b62591cff851ff189c900e68abe5667b53a177740eee050fb1692c87",
+      "bytes": 37181506
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/delayed_height_probe/low_k5_residue_dyck.ports.log",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/low_k5_residue_dyck.ports.log",
+      "sha256": "2c65c59a6513f4d5b1b031ec0e1aeae9a961412aa269a66cf518cb3e066e0e84",
+      "bytes": 353
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/delayed_height_probe/low_k5_residue_dyck.ports.projection_check.json",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/low_k5_residue_dyck.ports.projection_check.json",
+      "sha256": "97b408256a6004af1a883560234d1cbe64fbce964356efc840b7547108e201cd",
+      "bytes": 349
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/delayed_height_probe/v1_k5.json",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/v1_k5.json",
+      "sha256": "d1a4ef3fe6b200f181a17f5bc3c40ad489eacda165e5dcbd25e87c5b8d3087cd",
+      "bytes": 4993
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/literal_factor_dfa_k5.json",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/literal_factor_dfa_k5.json",
+      "sha256": "d175db5544ec1b75cf7afc0761292ca2c2e42bb563f0b51e2ad357feb1920b55",
+      "bytes": 453028
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/literal_residual_geometry.json",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/literal_residual_geometry.json",
+      "sha256": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+      "bytes": 34938
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/build_low_height_residue_unit_graph.py",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/build_low_height_residue_unit_graph.py",
+      "sha256": "ee5e983be0ec7de88497c14b5f4490dacb2d81fd5aaa91ea563e5e11f7fed92d",
+      "bytes": 2550
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/weighted_residue_dyck_summary.cpp",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/weighted_residue_dyck_summary.cpp",
+      "sha256": "0af04d24d141022c2e6f6b954ef0d113c4767e486f1cfb2a7c6bdfa068ce44e6",
+      "bytes": 2664
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/check_weighted_residue_dyck_summary.py",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/check_weighted_residue_dyck_summary.py",
+      "sha256": "82d4d315f619e3b5cfc35c30bda3a6144f66f999389030cbb07d7d66fdd0c3b9",
+      "bytes": 3004
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/compile_low_height_residue_ports.cpp",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/compile_low_height_residue_ports.cpp",
+      "sha256": "8262452fcebc770429c09cc231a91d191f3b7de16f4759c44963acd631718318",
+      "bytes": 4294
+    },
+    {
+      "original": "/workspace/shared/langton/core_periodicity_new/exact_low_excursion_residue_summary.md",
+      "frozen": "/workspace/shared/langton/core_periodicity_new/low_residue_frozen_20261023_0714/exact_low_excursion_residue_summary.md",
+      "sha256": "54f1cee358615f395d565b3f3e8e473c2095bbb0efe7c3269e6d66e36070b315",
+      "bytes": 4861
+    }
+  ]
+}

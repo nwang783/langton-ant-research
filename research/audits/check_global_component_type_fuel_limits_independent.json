@@ -1,0 +1,289 @@
+{
+  "status": "PASS exact global component-type potential scope limits and all-even-n fixed full profile",
+  "author_hashes": {
+    "GLOBAL_COMPONENT_TYPE_FUEL_LIMITS.md": "fab336f3de6843cfcab406fb875507532599dd0ffaa30cadaed59db410231dec",
+    "check_twenty_cell_type_profile.py": "d1e821d5cc257ebd507e8af06982c5494115e6016aa244ce1a9c10dc407e464f",
+    "twenty_cell_type_profile_certificate.json": "635adda34e08c3041faa92084f4d9d4aa4ee5f48b6af9bfc088a49d5d93b1d10"
+  },
+  "controls": [
+    {
+      "n": 20,
+      "mass": 51,
+      "sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        6,
+        10,
+        15
+      ]
+    },
+    {
+      "n": 22,
+      "mass": 51,
+      "sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        6,
+        10,
+        15
+      ]
+    },
+    {
+      "n": 40,
+      "mass": 51,
+      "sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        6,
+        10,
+        15
+      ]
+    },
+    {
+      "n": 80,
+      "mass": 51,
+      "sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        6,
+        10,
+        15
+      ]
+    },
+    {
+      "n": 1000000,
+      "mass": 51,
+      "sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        6,
+        10,
+        15
+      ]
+    }
+  ],
+  "affine_intervals": [
+    [
+      "2",
+      -5,
+      4,
+      8
+    ],
+    [
+      "3",
+      -3,
+      0,
+      2
+    ],
+    [
+      "1",
+      -1,
+      -2,
+      0
+    ],
+    [
+      "local",
+      0,
+      0,
+      7
+    ],
+    [
+      "0",
+      1,
+      -4,
+      0
+    ]
+  ],
+  "affine_gaps": [
+    [
+      2,
+      -8,
+      32
+    ],
+    [
+      2,
+      -4,
+      36
+    ],
+    [
+      1,
+      0,
+      20
+    ],
+    [
+      1,
+      -11,
+      9
+    ]
+  ],
+  "marked_R60_cell": [
+    0,
+    2
+  ],
+  "marked_archive": [
+    [
+      0,
+      -2
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      -2
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      4,
+      -2
+    ],
+    [
+      4,
+      -1
+    ],
+    [
+      5,
+      -2
+    ]
+  ],
+  "active_component": [
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      6,
+      -1
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      1
+    ]
+  ],
+  "source_dependencies": {
+    "causal_reduction/unit_scale/prepared1564_original_bistandard_family.md": "6fad9da22ca0b71fac235f38e23c834fec9a06c30449b0c67fd679f626115aee",
+    "standard_unread_cap_2026-10-23/W_FRONTIER.md": "fa3608e58b22fe9911282893dc79f92b9f8f09af18b711be8ecbf7ff915aca52",
+    "active_w_archive_itinerary_2026-10-23/TWENTY_CELL_SUSTAINED_CAP.md": "45e327d689431f873fc791f5e3955edad080b8d7a6ed23a54232c06b9089e6de",
+    "reframe_finite_seed_2026-10-24/PARAMETER_FREE_SATURATION_AND_FUEL_SCHEMA.md": "19093b03c62b67d24137cc729dd6d5dd489657d9403944a1a2022f947524386e"
+  },
+  "analytic_review": [
+    "For complete finite mass m, connected embedded graph types up to translation and rooted active types are finite, with at most m passive components. Finite nonnegative type weights therefore give a placement-independent uniform initial upper bound. With a GLOBAL lower bound and global nonincrease INCLUDING preparation, arbitrarily many actual1564 copies from fixed184 defeat any fixed strictly positive per-copy charge. This does not exclude conditional ranks, spatial/ancestral types, or preparation gains.",
+    "The signed cleared standard whole-field decomposition has identical translated active/frontier types and one extra COMPLETE disjoint12-edge tree per period; other legacy components remain unchanged. Thus the potential increment is exactly W(T12), forcing W(T12)=0 under global nonincrease and nonnegative W. This is not a claim of future usefulness of these trees.",
+    "For the twenty-cell family, every read through172 lies in the exact local box, disjoint from the other four affine port groups for every n>=20. Therefore the complete field at173 is precisely local35 plus those16 unread initial cells. Its affine x gaps32/36/20/9 at20 are nondecreasing, so different groups cannot share any diagonal vertex; no hidden attachment or extra component is omitted.",
+    "Every admissible even parameter shift preserves the fixed diagonal lattice and translates each old port without rotating it. Thus the entire18-component TYPE MULTISET is exactly constant, with sizes ten1/five2/6/10/15. Active geometry/head and the unchanged actualR60 lifetime in the15-edge archive are identical too. Named replays are controls; separation and translation are the all-parameter proof.",
+    "The prior signed all-time501229 cap and wait624n-1778 are used as dependencies, not re-inferred from these finite replays. The type summary cannot provide a uniform waiting deadline across this family, although each member captures. No one-orbit noncapture, impossibility of every potential, or new attraction theorem follows."
+  ]
+}

@@ -1,0 +1,867 @@
+{
+  "status": "PASS complete passive-strip singleton-O exit exclusion in critical GLOBAL-M no-one-use complete-WHITE cap-four scope",
+  "proof": "1179a3cb0d2999fedfb4f70a6e375a9a5b36da6816dd5c299c8cb9602da32437",
+  "author_checker": "1798f67d00b4978d7b3bd8030320fb1dc641b46440fd2ac0378276a03a70dae0",
+  "author_certificate": "1e9c53e80d5c80a86011affa4be232c1524aa885c9cbdd84b6872272469a1fe6",
+  "script": "669129a68e18772af3be9977f1a285d052b28db225ce8b4edc51645f010220a4",
+  "signed_dependencies": {
+    "check_passive_LL_flat_cap_independent.json": "aa479215fa36356079086f0c179d069fdd283cad2a6dd520663e8fd2a8b98cbb",
+    "check_passive_packet_exit_independent.json": "5012cb04d26cc6b94d40a7f5967cd5c73c96e522903ae7753742758d4bea678d",
+    "check_mixed_flow2_flat_islands_independent.json": "c4fabac9c366e6536b760af2a52f23d6d24bd5eb53f16f8e1d788b9a8680defe",
+    "check_mixed_LL_gate_independent.json": "441ffa775b9fe212ddcc2312533c0b7feb0c01e4aeac95b89bf229c34edca119"
+  },
+  "derived_Q_domain": [
+    "EWE",
+    "EEWW",
+    "EWEW",
+    "EWWE"
+  ],
+  "total": 45000,
+  "witness_lengths": {
+    "4": 44808,
+    "12": 84,
+    "8": 108
+  },
+  "rows": [
+    {
+      "post": "EEWW",
+      "next": "EWE",
+      "count": 100,
+      "witness_lengths": {
+        "4": 100
+      },
+      "ordered_domain_digest": "823f91f5af2f5799eca03a318328fe8eeba7cbc2937188074ae5d1a4ca5d5ef6"
+    },
+    {
+      "post": "EEWW",
+      "next": "EEWW",
+      "count": 11150,
+      "witness_lengths": {
+        "4": 11150
+      },
+      "ordered_domain_digest": "10c826ed227f2f07e7c997842e64874c19a7bf28656f65e3c82c6bc778da1424"
+    },
+    {
+      "post": "EEWW",
+      "next": "EWEW",
+      "count": 100,
+      "witness_lengths": {
+        "4": 100
+      },
+      "ordered_domain_digest": "075fca65c4b6933a9c668af4e8e38452da59eaa1d7d7dd57de3b31db81a8d5ac"
+    },
+    {
+      "post": "EEWW",
+      "next": "EWWE",
+      "count": 11150,
+      "witness_lengths": {
+        "4": 11066,
+        "12": 84
+      },
+      "ordered_domain_digest": "4284973776fc7696d68999aa8b3e732985ddc144a27cb784e1639015326ce027"
+    },
+    {
+      "post": "EWWE",
+      "next": "EWE",
+      "count": 100,
+      "witness_lengths": {
+        "4": 100
+      },
+      "ordered_domain_digest": "87e9d3fd8d0be2acaf8a1dec8ef7a37fac882c50b611aab1687a210d667fb979"
+    },
+    {
+      "post": "EWWE",
+      "next": "EEWW",
+      "count": 11150,
+      "witness_lengths": {
+        "4": 11078,
+        "8": 72
+      },
+      "ordered_domain_digest": "529e5e9158d102a427b4f037c4bba366df1517b31cda3d8c9d9e308d27f71d61"
+    },
+    {
+      "post": "EWWE",
+      "next": "EWEW",
+      "count": 100,
+      "witness_lengths": {
+        "4": 100
+      },
+      "ordered_domain_digest": "b1f87e36e77482655a96883185114e46bb5b7ef6d1a9b85018d8f5cb01071a8f"
+    },
+    {
+      "post": "EWWE",
+      "next": "EWWE",
+      "count": 11150,
+      "witness_lengths": {
+        "4": 11114,
+        "8": 36
+      },
+      "ordered_domain_digest": "7a1bfd7d5ef79dce8433ee7663f8bf0da5c8c49154785e3ac28069e40df20c99"
+    }
+  ],
+  "samples": [
+    {
+      "post": "EEWW",
+      "next": "EWE",
+      "histories": {
+        "(0, -2)": "",
+        "(0, -1)": "WE",
+        "(0, 0)": "NNSS",
+        "(0, 1)": "EEWW",
+        "(0, 2)": "NNSS",
+        "(1, -2)": "WW",
+        "(1, -1)": "NSS",
+        "(1, 0)": "EWWE",
+        "(1, 1)": "SNNS",
+        "(1, 2)": "EWWE",
+        "(2, -2)": "NNSS",
+        "(2, -1)": "EEWW",
+        "(2, 0)": "NNSS",
+        "(2, 1)": "WWEE",
+        "(2, 2)": "NSSN",
+        "(3, -2)": "EWE",
+        "(3, -1)": "SSS",
+        "(3, 0)": "EWE",
+        "(3, 1)": "SSS",
+        "(3, 2)": "EWE"
+      },
+      "path": [
+        [
+          [
+            1,
+            -1
+          ],
+          2
+        ],
+        [
+          [
+            0,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "post": "EEWW",
+      "next": "EWE",
+      "histories": {
+        "(0, -2)": "N",
+        "(0, -1)": "WE",
+        "(0, 0)": "NNSS",
+        "(0, 1)": "EEWW",
+        "(0, 2)": "NNSS",
+        "(1, -2)": "EWW",
+        "(1, -1)": "NSS",
+        "(1, 0)": "EWWE",
+        "(1, 1)": "SNNS",
+        "(1, 2)": "EWWE",
+        "(2, -2)": "NNSS",
+        "(2, -1)": "EEWW",
+        "(2, 0)": "NNSS",
+        "(2, 1)": "WWEE",
+        "(2, 2)": "NSSN",
+        "(3, -2)": "EWE",
+        "(3, -1)": "SSS",
+        "(3, 0)": "EWE",
+        "(3, 1)": "SSS",
+        "(3, 2)": "EWE"
+      },
+      "path": [
+        [
+          [
+            1,
+            -2
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            -2
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "post": "EEWW",
+      "next": "EWE",
+      "histories": {
+        "(0, -2)": "N",
+        "(0, -1)": "WE",
+        "(0, 0)": "NNSS",
+        "(0, 1)": "EEWW",
+        "(0, 2)": "NNSS",
+        "(1, -2)": "WWE",
+        "(1, -1)": "NSS",
+        "(1, 0)": "EWWE",
+        "(1, 1)": "SNNS",
+        "(1, 2)": "EWWE",
+        "(2, -2)": "NNSS",
+        "(2, -1)": "EEWW",
+        "(2, 0)": "NNSS",
+        "(2, 1)": "WWEE",
+        "(2, 2)": "NSSN",
+        "(3, -2)": "EWE",
+        "(3, -1)": "SSS",
+        "(3, 0)": "EWE",
+        "(3, 1)": "SSS",
+        "(3, 2)": "EWE"
+      },
+      "path": [
+        [
+          [
+            1,
+            -1
+          ],
+          2
+        ],
+        [
+          [
+            0,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "post": "EEWW",
+      "next": "EWE",
+      "histories": {
+        "(0, -2)": "NN",
+        "(0, -1)": "WE",
+        "(0, 0)": "NNSS",
+        "(0, 1)": "EEWW",
+        "(0, 2)": "NNSS",
+        "(1, -2)": "EWW",
+        "(1, -1)": "NSS",
+        "(1, 0)": "EWWE",
+        "(1, 1)": "SNNS",
+        "(1, 2)": "EWWE",
+        "(2, -2)": "NNSS",
+        "(2, -1)": "EEWW",
+        "(2, 0)": "NNSS",
+        "(2, 1)": "WWEE",
+        "(2, 2)": "NSSN",
+        "(3, -2)": "EWE",
+        "(3, -1)": "SSS",
+        "(3, 0)": "EWE",
+        "(3, 1)": "SSS",
+        "(3, 2)": "EWE"
+      },
+      "path": [
+        [
+          [
+            1,
+            -2
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            -2
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "post": "EEWW",
+      "next": "EWE",
+      "histories": {
+        "(0, -2)": "NN",
+        "(0, -1)": "WE",
+        "(0, 0)": "NNSS",
+        "(0, 1)": "EEWW",
+        "(0, 2)": "NNSS",
+        "(1, -2)": "WWE",
+        "(1, -1)": "NSS",
+        "(1, 0)": "EWWE",
+        "(1, 1)": "SNNS",
+        "(1, 2)": "EWWE",
+        "(2, -2)": "NNSS",
+        "(2, -1)": "EEWW",
+        "(2, 0)": "NNSS",
+        "(2, 1)": "WWEE",
+        "(2, 2)": "NSSN",
+        "(3, -2)": "EWE",
+        "(3, -1)": "SSS",
+        "(3, 0)": "EWE",
+        "(3, 1)": "SSS",
+        "(3, 2)": "EWE"
+      },
+      "path": [
+        [
+          [
+            1,
+            -1
+          ],
+          2
+        ],
+        [
+          [
+            0,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "post": "EEWW",
+      "next": "EWE",
+      "histories": {
+        "(0, -2)": "S",
+        "(0, -1)": "EEW",
+        "(0, 0)": "NNSS",
+        "(0, 1)": "EEWW",
+        "(0, 2)": "NNSS",
+        "(1, -2)": "WW",
+        "(1, -1)": "NSS",
+        "(1, 0)": "EWWE",
+        "(1, 1)": "SNNS",
+        "(1, 2)": "EWWE",
+        "(2, -2)": "NNSS",
+        "(2, -1)": "EEWW",
+        "(2, 0)": "NNSS",
+        "(2, 1)": "WWEE",
+        "(2, 2)": "NSSN",
+        "(3, -2)": "EWE",
+        "(3, -1)": "SSS",
+        "(3, 0)": "EWE",
+        "(3, 1)": "SSS",
+        "(3, 2)": "EWE"
+      },
+      "path": [
+        [
+          [
+            2,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          0
+        ],
+        [
+          [
+            3,
+            2
+          ],
+          0
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          0
+        ]
+      ]
+    },
+    {
+      "post": "EEWW",
+      "next": "EWE",
+      "histories": {
+        "(0, -2)": "SN",
+        "(0, -1)": "EEW",
+        "(0, 0)": "NNSS",
+        "(0, 1)": "EEWW",
+        "(0, 2)": "NNSS",
+        "(1, -2)": "WW",
+        "(1, -1)": "NSS",
+        "(1, 0)": "EWWE",
+        "(1, 1)": "SNNS",
+        "(1, 2)": "EWWE",
+        "(2, -2)": "NNSS",
+        "(2, -1)": "EEWW",
+        "(2, 0)": "NNSS",
+        "(2, 1)": "WWEE",
+        "(2, 2)": "NSSN",
+        "(3, -2)": "EWE",
+        "(3, -1)": "SSS",
+        "(3, 0)": "EWE",
+        "(3, 1)": "SSS",
+        "(3, 2)": "EWE"
+      },
+      "path": [
+        [
+          [
+            2,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          0
+        ],
+        [
+          [
+            3,
+            2
+          ],
+          0
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          0
+        ]
+      ]
+    },
+    {
+      "post": "EEWW",
+      "next": "EWE",
+      "histories": {
+        "(0, -2)": "NNS",
+        "(0, -1)": "EEW",
+        "(0, 0)": "NNSS",
+        "(0, 1)": "EEWW",
+        "(0, 2)": "NNSS",
+        "(1, -2)": "EWW",
+        "(1, -1)": "NSS",
+        "(1, 0)": "EWWE",
+        "(1, 1)": "SNNS",
+        "(1, 2)": "EWWE",
+        "(2, -2)": "NNSS",
+        "(2, -1)": "EEWW",
+        "(2, 0)": "NNSS",
+        "(2, 1)": "WWEE",
+        "(2, 2)": "NSSN",
+        "(3, -2)": "EWE",
+        "(3, -1)": "SSS",
+        "(3, 0)": "EWE",
+        "(3, 1)": "SSS",
+        "(3, 2)": "EWE"
+      },
+      "path": [
+        [
+          [
+            1,
+            -2
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            -2
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "post": "EEWW",
+      "next": "EWE",
+      "histories": {
+        "(0, -2)": "SNN",
+        "(0, -1)": "EEW",
+        "(0, 0)": "NNSS",
+        "(0, 1)": "EEWW",
+        "(0, 2)": "NNSS",
+        "(1, -2)": "EWW",
+        "(1, -1)": "NSS",
+        "(1, 0)": "EWWE",
+        "(1, 1)": "SNNS",
+        "(1, 2)": "EWWE",
+        "(2, -2)": "NNSS",
+        "(2, -1)": "EEWW",
+        "(2, 0)": "NNSS",
+        "(2, 1)": "WWEE",
+        "(2, 2)": "NSSN",
+        "(3, -2)": "EWE",
+        "(3, -1)": "SSS",
+        "(3, 0)": "EWE",
+        "(3, 1)": "SSS",
+        "(3, 2)": "EWE"
+      },
+      "path": [
+        [
+          [
+            1,
+            -2
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            -2
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "post": "EEWW",
+      "next": "EWE",
+      "histories": {
+        "(0, -2)": "NNSN",
+        "(0, -1)": "EEW",
+        "(0, 0)": "NNSS",
+        "(0, 1)": "EEWW",
+        "(0, 2)": "NNSS",
+        "(1, -2)": "EWW",
+        "(1, -1)": "NSS",
+        "(1, 0)": "EWWE",
+        "(1, 1)": "SNNS",
+        "(1, 2)": "EWWE",
+        "(2, -2)": "NNSS",
+        "(2, -1)": "EEWW",
+        "(2, 0)": "NNSS",
+        "(2, 1)": "WWEE",
+        "(2, 2)": "NSSN",
+        "(3, -2)": "EWE",
+        "(3, -1)": "SSS",
+        "(3, 0)": "EWE",
+        "(3, 1)": "SSS",
+        "(3, 2)": "EWE"
+      },
+      "path": [
+        [
+          [
+            1,
+            -2
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            -2
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "post": "EEWW",
+      "next": "EWE",
+      "histories": {
+        "(0, -2)": "SNNN",
+        "(0, -1)": "EEW",
+        "(0, 0)": "NNSS",
+        "(0, 1)": "EEWW",
+        "(0, 2)": "NNSS",
+        "(1, -2)": "EWW",
+        "(1, -1)": "NSS",
+        "(1, 0)": "EWWE",
+        "(1, 1)": "SNNS",
+        "(1, 2)": "EWWE",
+        "(2, -2)": "NNSS",
+        "(2, -1)": "EEWW",
+        "(2, 0)": "NNSS",
+        "(2, 1)": "WWEE",
+        "(2, 2)": "NSSN",
+        "(3, -2)": "EWE",
+        "(3, -1)": "SSS",
+        "(3, 0)": "EWE",
+        "(3, 1)": "SSS",
+        "(3, 2)": "EWE"
+      },
+      "path": [
+        [
+          [
+            1,
+            -2
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            -2
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "post": "EEWW",
+      "next": "EWE",
+      "histories": {
+        "(0, -2)": "NNS",
+        "(0, -1)": "EEW",
+        "(0, 0)": "NNSS",
+        "(0, 1)": "EEWW",
+        "(0, 2)": "NNSS",
+        "(1, -2)": "WWE",
+        "(1, -1)": "NSS",
+        "(1, 0)": "EWWE",
+        "(1, 1)": "SNNS",
+        "(1, 2)": "EWWE",
+        "(2, -2)": "NNSS",
+        "(2, -1)": "EEWW",
+        "(2, 0)": "NNSS",
+        "(2, 1)": "WWEE",
+        "(2, 2)": "NSSN",
+        "(3, -2)": "EWE",
+        "(3, -1)": "SSS",
+        "(3, 0)": "EWE",
+        "(3, 1)": "SSS",
+        "(3, 2)": "EWE"
+      },
+      "path": [
+        [
+          [
+            2,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          0
+        ],
+        [
+          [
+            3,
+            2
+          ],
+          0
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          0
+        ]
+      ]
+    }
+  ],
+  "analytic_review": [
+    "The last passive packet has the exact signed unique cyclic3x3 inventory, not an arbitrary earlier local profile. Its Y endpoint followed by singletonO gives rootNSS and the signed singleton-island flatC and next passiveV. Earlier passive-strip length never enters.",
+    "If the next contact after V wereLEFT, criticality makes itV; mixedLL with precedingflatC makes the opposite flankflat, so the mandatory flat-ended passive-cap theorem applies. It requires a precedingRIGHT forC, contradicting its actual precedingrootO. Thus nextQ isRIGHT. ExactlyEin2 and selectedSout>=2 with firstE derive allEEWW/EWWE/EWE/EWEW including source4.",
+    "Independent corner closure gives exactly20physicalcells. Each unknown retainsEMPTY/allWHITE1..4 axiswords, and independent bidirectional count propagation matches every internal zero/nonzeroport. All45000 complete leaves independently enumerated and matched one-to-one against the certificate. Every stored path checked as an actual physical successor path and independent shortest failures rederived:44808length4,108length8,84length12.",
+    "No height, clock, period, finiteage, inputfuel or exterior filter is used to reject a leaf. A full-drift alias adds equality constraints but cannot repair a wrong physical next-rank visit inside a contiguous known path. Completeness uses globalcap4 at addedreaders; no exteriorcapfree claim.",
+    "This excludes exactly the singletonO exit of a maximal passivePstrip. Other singletonO contexts, K>=2, some-oneuse circles and unrestricted all-cap fronts are not excluded. Signed weaker prepared/local controls remain valid."
+  ]
+}

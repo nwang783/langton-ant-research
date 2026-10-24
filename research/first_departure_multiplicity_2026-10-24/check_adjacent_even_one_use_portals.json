@@ -1,0 +1,200 @@
+{
+  "scope": "Exact two-portal composition. Counts retain O/U lower roots; the surviving\njoin has an actual8-step same-event cycle independent of external readers.\n",
+  "summary": {
+    "port": 2,
+    "actual_event_cycle": 2
+  },
+  "rows": [
+    {
+      "upper_root": "EWW",
+      "lower_root": "EWW",
+      "result": "port",
+      "certificate": [
+        {
+          "source": [
+            0,
+            -1
+          ],
+          "target": [
+            0,
+            0
+          ],
+          "direction": "N",
+          "sr": [
+            2
+          ],
+          "tr": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "upper_root": "EWW",
+      "lower_root": "EWWE",
+      "result": "actual_event_cycle",
+      "certificate": [
+        [
+          [
+            1,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            -2
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            -1
+          ],
+          2
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          0
+        ]
+      ]
+    },
+    {
+      "upper_root": "EWWE",
+      "lower_root": "EWW",
+      "result": "port",
+      "certificate": [
+        {
+          "source": [
+            0,
+            -1
+          ],
+          "target": [
+            0,
+            0
+          ],
+          "direction": "N",
+          "sr": [
+            2
+          ],
+          "tr": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "upper_root": "EWWE",
+      "lower_root": "EWWE",
+      "result": "actual_event_cycle",
+      "certificate": [
+        [
+          [
+            1,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            -2
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            -1
+          ],
+          2
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          0
+        ]
+      ]
+    }
+  ],
+  "warning": "Exact adjacent complete interface only. Does not exclude one prepared portal or inserted geometry/changed endpoint roles."
+}

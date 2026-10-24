@@ -1,0 +1,325 @@
+{
+  "status": "PASS literal retained DCV controls and CLOSED21-query seven-atom reverse relation only",
+  "manifest": "cae8084dcbcea916b67abd37d1748d2b8d2125730fe93c3f7624b021dfaefe98",
+  "positive_controls": [
+    {
+      "tokens": "DCDCDCDV",
+      "initial_mass": 10,
+      "RAW_length": 103,
+      "actual_reads": 114
+    },
+    {
+      "tokens": "DDCDCDCDV",
+      "initial_mass": 10,
+      "RAW_length": 113,
+      "actual_reads": 124
+    },
+    {
+      "tokens": "DCDVCVCVCC",
+      "initial_mass": 13,
+      "RAW_length": 149,
+      "actual_reads": 160
+    }
+  ],
+  "queries": [
+    {
+      "suffix": "T10",
+      "predecessor": "D",
+      "result": {
+        "feasible": true
+      }
+    },
+    {
+      "suffix": "T10",
+      "predecessor": "C",
+      "result": {
+        "feasible": false,
+        "i": 101,
+        "previous": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "suffix": "T10",
+      "predecessor": "V",
+      "result": {
+        "feasible": false,
+        "i": 111,
+        "previous": 11,
+        "cell": [
+          0,
+          1
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "suffix": "T10",
+      "predecessor": "U",
+      "result": {
+        "feasible": false,
+        "i": 121,
+        "previous": 21,
+        "cell": [
+          -1,
+          2
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "suffix": "T10",
+      "predecessor": "F",
+      "result": {
+        "feasible": false,
+        "i": 139,
+        "previous": 47,
+        "cell": [
+          -2,
+          -1
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "suffix": "T10",
+      "predecessor": "Q",
+      "result": {
+        "feasible": false,
+        "i": 157,
+        "previous": 57,
+        "cell": [
+          -3,
+          -2
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "suffix": "T10",
+      "predecessor": "B",
+      "result": {
+        "feasible": false,
+        "i": 167,
+        "previous": 67,
+        "cell": [
+          -2,
+          -3
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "suffix": "D_T10",
+      "predecessor": "D",
+      "result": {
+        "feasible": false,
+        "i": 112,
+        "previous": 8,
+        "cell": [
+          2,
+          0
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "suffix": "D_T10",
+      "predecessor": "C",
+      "result": {
+        "feasible": false,
+        "i": 117,
+        "previous": 13,
+        "cell": [
+          1,
+          2
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "suffix": "D_T10",
+      "predecessor": "V",
+      "result": {
+        "feasible": false,
+        "i": 120,
+        "previous": 16,
+        "cell": [
+          2,
+          2
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "suffix": "D_T10",
+      "predecessor": "U",
+      "result": {
+        "feasible": false,
+        "i": 130,
+        "previous": 26,
+        "cell": [
+          1,
+          3
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "suffix": "D_T10",
+      "predecessor": "F",
+      "result": {
+        "feasible": false,
+        "i": 158,
+        "previous": 54,
+        "cell": [
+          -5,
+          -1
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "suffix": "D_T10",
+      "predecessor": "Q",
+      "result": {
+        "feasible": false,
+        "i": 166,
+        "previous": 62,
+        "cell": [
+          -5,
+          -3
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "suffix": "D_T10",
+      "predecessor": "B",
+      "result": {
+        "feasible": false,
+        "i": 176,
+        "previous": 72,
+        "cell": [
+          -4,
+          -4
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "suffix": "T13",
+      "predecessor": "D",
+      "result": {
+        "feasible": false,
+        "i": 152,
+        "previous": 8,
+        "cell": [
+          2,
+          0
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "suffix": "T13",
+      "predecessor": "C",
+      "result": {
+        "feasible": false,
+        "i": 135,
+        "previous": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "suffix": "T13",
+      "predecessor": "V",
+      "result": {
+        "feasible": false,
+        "i": 143,
+        "previous": 11,
+        "cell": [
+          0,
+          1
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "suffix": "T13",
+      "predecessor": "U",
+      "result": {
+        "feasible": false,
+        "i": 153,
+        "previous": 21,
+        "cell": [
+          -1,
+          2
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "suffix": "T13",
+      "predecessor": "F",
+      "result": {
+        "feasible": false,
+        "i": 164,
+        "previous": 4,
+        "cell": [
+          0,
+          0
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "suffix": "T13",
+      "predecessor": "Q",
+      "result": {
+        "feasible": false,
+        "i": 189,
+        "previous": 57,
+        "cell": [
+          -3,
+          -2
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "suffix": "T13",
+      "predecessor": "B",
+      "result": {
+        "feasible": false,
+        "i": 199,
+        "previous": 67,
+        "cell": [
+          -2,
+          -3
+        ],
+        "turn": "R"
+      }
+    }
+  ],
+  "only_reverse_edge": [
+    [
+      "T10",
+      "D"
+    ]
+  ],
+  "analytic_review": [
+    "All three minimal finite fields and every physical RAW+actualM read were independently replayed with every unlisted cell WHITE. The positive10/10/13-black controls remain actual, not refuted by their missing ancestry.",
+    "All seven possible last RAW atoms are tested at EACH of the three fixed suffixes. T10 has exactlyD leading to the explicitly tested D_T10 node; D_T10 and T13 have no parent. Thus this reverse relation is genuinely closed and any longer seven-atom prefix is impossible, not merely unobserved beyond a chosen depth.",
+    "Every one of20 rejected queries has consecutive same-color reads of one physical cell inside the actual concatenated RAWs. Both zero-based offsets and generated one-based owners are independently checked. Adding unread exterior cells cannot fix such a parity conflict; no marker-only execution shortcut is used.",
+    "Only these FIXED words fail a U-entry/firstforeign seven-atom lift. Other histories through their contact geometry, outside-seven return words, arbitrary ordinary-tail simplicity and capture remain open. Old atomic1344 already handled four-C full-pose returns; the retained center-contact controls are not relabeled as new full-pose failures."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "status": "Exact arithmetic checked; theorem application needs independent producer-family signoff",
+  "core_offsets": [
+    2,
+    52,
+    54,
+    -8
+  ],
+  "initial_token_weight": 60,
+  "initial_potential_extra": 60,
+  "minimum_stored_weight": -60,
+  "core_black_strip_margin": 37,
+  "residual_black_strip_margin": 60,
+  "intermediate_head_strip_margin": 48,
+  "head_max_attainer": {
+    "packet": 6,
+    "heading": 0,
+    "prefix_length": 41,
+    "relative_cell": [
+      1,
+      6
+    ]
+  },
+  "all_black_strip_margin": 60,
+  "bounding_rectangle": {
+    "x_margin": "24+ceil(3H/10)",
+    "y_margin": "24+ceil(3W/10)",
+    "width_X": "W+48+2ceil(3H/10)",
+    "width_Y": "H+48+2ceil(3W/10)"
+  },
+  "factor_bound": {
+    "A": "(X+1)(Y+1)",
+    "d": "min(X,Y)",
+    "m": "floor((A-N0)/3)",
+    "macro_count": "(m+1)d+m",
+    "fine_step_count": "10(m+1)d+18m"
+  },
+  "sha256": {
+    "/workspace/shared/langton/word_stabilization/dcv_free_direction_family102.json": "838a458a906b214d19888d92c3fbba6b5440387fe3cbb064005155753125d24d",
+    "/workspace/shared/langton/word_stabilization/dcv_residual_core_resources.json": "7fdb41445719db8328b02113af7d44879398d8b0aea7b17319253994df1bea06",
+    "/workspace/shared/langton/word_stabilization/seven_sub_dcv_port_quotient.json": "23d4a8ed66eb91599c91c8b3e501cd22271e1a9806d4487713085f3eee318fd2"
+  }
+}

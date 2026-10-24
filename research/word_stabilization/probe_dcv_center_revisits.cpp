@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;using P=pair<int,int>;
+P rot(P p,int h){while(h--)p={p.second,-p.first};return p;} P add(P a,P b){return{a.first+b.first,a.second+b.second};}
+int dx[]={0,1,0,-1},dy[]={1,0,-1,0};string names="DCV",words[]={"LLLLRLRRRR","LLLLRLRRRRLRRRR","LLLLRLRRRRLRRLRRRR"},marker="LLLLRLRRRRL";
+struct Geo{map<P,int> req;set<P> odd;vector<P> ins,outs;P end;int dh;};Geo G[3];set<P> core;map<P,int> board;map<P,pair<int,int>>tokens;
+struct Tr{map<P,int>first,last;set<P>odd;P end;int h;};
+Tr tr(string w){Tr t;P p={0,0};int h=0;for(char c:w){int b=c=='L';if(t.last.count(p))assert(t.last[p]!=b);t.first.emplace(p,b);t.last[p]=b;if(t.odd.count(p))t.odd.erase(p);else t.odd.insert(p);h=(h+(b?3:1))%4;p={p.first+dx[h],p.second+dy[h]};}t.end=p;t.h=h;return t;}
+long long nodes=0,cap;int dep,fuelcap,bestzero=-1,bestdepth=-1;bool stop=false,hit=false;string path;vector<pair<P,int>> poses;set<array<int,8>> edges; set<array<int,4>> centers; set<pair<int,int>> firstcenter;vector<int>fuels;mt19937 rng;bool randomize=false;
+void dfs(P p,int h,int fuel,int zero){if(++nodes>cap){stop=true;return;}if(zero>bestzero){bestzero=zero;cout<<"ZERO_RECORD "<<zero<<" fuel "<<fuel<<" depth "<<path.size()<<" word "<<path<<endl;}if((int)path.size()>bestdepth){bestdepth=path.size();cout<<"DEPTH_RECORD "<<bestdepth<<" fuel "<<fuel<<" word "<<path<<endl;}if(path.size()==dep)return;array<int,3>order={0,1,2};if(randomize)shuffle(order.begin(),order.end(),rng);for(int a:order){auto &g=G[a];vector<pair<P,int>>bu;vector<pair<P,optional<pair<int,int>>>>tu;bool ok=true;int f=fuel;vector<pair<int,int>>parents;
+ for(auto[z,b]:g.req){P q=add(p,rot(z,h));auto it=board.find(q);if(it!=board.end()){if(it->second!=b){ok=false;break;}}else{bu.push_back({q,-1});board[q]=b;f+=b;}}
+ if(ok&&f<=fuelcap){for(P q:g.ins){q=add(p,rot(q,h));auto it=tokens.find(q);if(it==tokens.end())parents.push_back({-1,-1});else{parents.push_back(it->second);tu.push_back({q,it->second});tokens.erase(it);}}int roots=count(parents.begin(),parents.end(),pair<int,int>{-1,-1});assert(f-fuel==roots);
+ for(P q:g.outs){q=add(p,rot(q,h));assert(!tokens.count(q));tu.push_back({q,nullopt});tokens[q]={a,(int)path.size()};}
+ for(P q:g.odd){q=add(p,rot(q,h));assert(board.count(q));bu.push_back({q,board[q]});board[q]^=1;}
+ poses.push_back({p,h});path+=names[a];fuels.push_back(roots);
+ P cen=add({2*p.first,2*p.second},rot({-1,-1},h));
+ for(int ti=0;ti+1<(int)poses.size();ti++){auto [op,oh]=poses[ti];P oc=add({2*op.first,2*op.second},rot({-1,-1},oh));if(cen==oc){int countc=count(path.begin()+ti,path.end()-1,'C');array<int,4>r={int(path[ti]),int(names[a]),(h-oh+4)%4,countc};if(centers.insert(r).second){cout<<"CENTER_REPEAT source "<<path[ti]<<" target "<<names[a]<<" dh "<<r[2]<<" C "<<r[3]<<" word "<<path.substr(ti)<<endl;}}}
+
+ for(int j=0;j<(int)parents.size();j++)if(parents[j].first>=0){int kind=parents[j].first,t=parents[j].second;P q=add(p,rot(g.ins[j],h));P rel=rot({q.first-poses[t].first.first,q.second-poses[t].first.second},(4-poses[t].second)%4);edges.insert({kind,rel.first,rel.second,a,g.ins[j].first,g.ins[j].second,(h-poses[t].second+4)%4,int(count(path.begin()+t,path.end()-1,'C'))});}
+ if(!stop)dfs(add(p,rot(g.end,h)),(h+g.dh)%4,f,roots?0:zero+1);
+ fuels.pop_back();path.pop_back();poses.pop_back();}
+ for(auto it=tu.rbegin();it!=tu.rend();++it){if(it->second)tokens[it->first]=*it->second;else tokens.erase(it->first);}for(auto it=bu.rbegin();it!=bu.rend();++it){if(it->second==-1)board.erase(it->first);else board[it->first]=it->second;}if(stop)return;}}
+int main(int argc,char**argv){dep=stoi(argv[1]);fuelcap=stoi(argv[2]);cap=stoll(argv[3]);if(argc>4){rng.seed(stoi(argv[4]));randomize=true;}auto m=tr(marker);for(auto[q,c]:m.first){board[q]=c;if(c)core.insert(q);}for(int a=0;a<3;a++){auto r=tr(words[a]),t=tr(words[a]+marker);auto &g=G[a];g.req=t.first;g.odd=r.odd;g.end=r.end;g.dh=r.h;set<P>in,out,nc;for(P q:core)nc.insert(add(r.end,rot(q,r.h)));for(auto[q,c]:t.first)if(c)in.insert(q);out=in;for(P q:r.odd)if(out.count(q))out.erase(q);else out.insert(q);for(P q:core)in.erase(q);for(P q:nc)out.erase(q);for(P q:in){assert(!out.count(q));g.ins.push_back(q);}for(P q:out)g.outs.push_back(q);}dfs({0,0},0,5,0);for(auto e:edges){cout<<"EDGE";for(int k:e)cout<<" "<<k;cout<<endl;}cout<<"FINISH nodes "<<nodes<<" cap "<<(stop&&!hit)<<" hit "<<hit<<" zero "<<bestzero<<" depth "<<bestdepth<<endl;}

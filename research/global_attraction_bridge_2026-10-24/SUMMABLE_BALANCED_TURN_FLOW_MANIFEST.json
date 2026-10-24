@@ -1,0 +1,17 @@
+{
+  "status": "FROZEN explicit stationary-flow countercontrol; independent audit pending",
+  "NOT_AN_ANT_ORBIT": true,
+  "files": {
+    "SUMMABLE_BALANCED_TURN_FLOW_OBSTRUCTION.md": "a7080849aeae651c1b3584879032712dfbae0d9a9bbbe304cd1378425cc06411",
+    "check_summable_balanced_turn_flow.py": "6a641dd27f7d75834984ccfe387b59f204a115c67df8a81bde69c1e931a41f4e",
+    "SUMMABLE_BALANCED_TURN_FLOW_CHECKED.json": "8ad57d4f8a8fcda61d921c93177df73e61fcdcfe1ea3691a185639f8ca18d4ac",
+    "SUMMABLE_BALANCED_TURN_FLOW_RUN.log": "fcb2ed465de5ac1c6d76590a1406b1aa7fe96c2e642dd1fc2a61ca692e79d589"
+  },
+  "dependencies": {
+    "RECTANGLE_VISIT_FLOW_MANIFEST.json": "ae95dcdef257f2fff6768449011ed58d3bc127cc10602907652d7bfc6be9db8f",
+    "../audits/check_rectangle_visit_flow_independent.json": "62bcf41f75f008eaf74c68ef1c0cd70a2337ce51d1c0204fab663ec23ae12b8b",
+    "../first_principles_new/recurrent_boundary_current.md": "8052d804cf1568e17a1222f41466d7b2754360f7d7a84a36c9f252a6c288a6bd"
+  },
+  "claim": "A nonzero summable directed flow with exact per-site equal R/L turns exists for every1/3<=r<1; r=1/2 total36 and normalized head weight1/16 at origin",
+  "scope": "Stationary one-site frequency relaxation only; no finite seed, actual visit alternation, ant recurrence, or global attraction counterexample"
+}

@@ -1,0 +1,260 @@
+{
+  "status": "AUTHOR_ALL_PARAMETER_KINEMATIC_AND_LITERAL_PASS",
+  "scope": "Only source VCC output(0,0) feeding D input(0,1) at relativepose(-1,0,1), exact source-included C age3. No global genealogy or capture claim.",
+  "source": 6,
+  "target": 0,
+  "source_output": [
+    0,
+    0
+  ],
+  "target_input": [
+    0,
+    1
+  ],
+  "target_pose": [
+    -1,
+    0,
+    1
+  ],
+  "exact_C_age": 3,
+  "remaining_intermediate_C": 1,
+  "center_remaining_after_source_in_exit_frame": [
+    2,
+    4
+  ],
+  "after_subtracting_unique_C": [
+    1,
+    3
+  ],
+  "equations": [
+    "a+b-d-3e-4f=1",
+    "a+3b+4c+d+e=3"
+  ],
+  "deduced_complete_constraint": "b+2c+d+2e+2f=1",
+  "all_nonnegative_solutions": [
+    {
+      "pre_DVU": [
+        0,
+        1,
+        0
+      ],
+      "post_DVU": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "pre_DVU": [
+        2,
+        0,
+        0
+      ],
+      "post_DVU": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "only_intermediate_packet_words": [
+    [
+      5
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "records": [
+    {
+      "feasible": true,
+      "bad": null,
+      "seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "poses": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          -1,
+          0,
+          1
+        ]
+      ],
+      "packet_ids": [
+        6,
+        5,
+        0
+      ],
+      "packet_names": [
+        "VCC",
+        "VC",
+        "D"
+      ],
+      "events_at_protected_q": [
+        [
+          0,
+          [
+            0,
+            0
+          ],
+          0,
+          "L"
+        ],
+        [
+          4,
+          [
+            0,
+            0
+          ],
+          0,
+          "R"
+        ],
+        [
+          92,
+          [
+            0,
+            0
+          ],
+          0,
+          "L"
+        ]
+      ]
+    },
+    {
+      "feasible": false,
+      "bad": {
+        "time": 59,
+        "cell": [
+          0,
+          3
+        ],
+        "turn": "L",
+        "previous_same_turn": 19
+      },
+      "seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "poses": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          -1,
+          3,
+          2
+        ]
+      ],
+      "packet_ids": [
+        6,
+        0,
+        1,
+        0,
+        0
+      ],
+      "packet_names": [
+        "VCC",
+        "D",
+        "DC",
+        "D",
+        "D"
+      ],
+      "events_at_protected_q": [
+        [
+          0,
+          [
+            0,
+            0
+          ],
+          0,
+          "L"
+        ],
+        [
+          4,
+          [
+            0,
+            0
+          ],
+          0,
+          "R"
+        ]
+      ]
+    }
+  ],
+  "input_sha256": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd"
+}

@@ -1,0 +1,234 @@
+{
+  "result": "UNSAT_ARCHITECTURE",
+  "seconds": 0.05358610600524116,
+  "scope": "Fixed derived Q108-output to opposite-Q108 exact-pose1/5/9 rewrite interface.\nOne fixed geometry, unchanged certified image palette. SAT is a prepared bulk\noperator only: producer Q itself needs prepared input and no cap is supplied.\n",
+  "variables": 9289,
+  "clauses": 37585,
+  "start": [
+    0,
+    14,
+    3
+  ],
+  "drift": [
+    -2,
+    -2
+  ],
+  "input_black_classes": [
+    [
+      -7,
+      0
+    ],
+    [
+      -6,
+      1
+    ],
+    [
+      -5,
+      1
+    ],
+    [
+      -3,
+      0
+    ],
+    [
+      -2,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "scaffold": "LRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRLLLLRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLR",
+  "local_images": {
+    "R": [
+      "R",
+      "RLLLL",
+      "LLLLR",
+      "RRRRLLLLR",
+      "RLRRRRLLL",
+      "RLLRRRRLL",
+      "RLLLLRRRR",
+      "LLRRRRLLR",
+      "LLLRRRRLR",
+      "LLLLRLLLL"
+    ],
+    "L": [
+      "L",
+      "RRRRL",
+      "LRRRR",
+      "RRRRLRRRR",
+      "RRRLLLLRL",
+      "RRLLLLRRL",
+      "LRRRRLLLL",
+      "LRRLLLLRR",
+      "LRLLLLRRR",
+      "LLLLRRRRL"
+    ]
+  },
+  "possible_read_orbits": [
+    [
+      -19,
+      0
+    ],
+    [
+      -19,
+      1
+    ],
+    [
+      -18,
+      0
+    ],
+    [
+      -18,
+      1
+    ],
+    [
+      -17,
+      0
+    ],
+    [
+      -17,
+      1
+    ],
+    [
+      -16,
+      0
+    ],
+    [
+      -16,
+      1
+    ],
+    [
+      -15,
+      0
+    ],
+    [
+      -15,
+      1
+    ],
+    [
+      -14,
+      0
+    ],
+    [
+      -14,
+      1
+    ],
+    [
+      -13,
+      0
+    ],
+    [
+      -13,
+      1
+    ],
+    [
+      -12,
+      0
+    ],
+    [
+      -12,
+      1
+    ],
+    [
+      -11,
+      0
+    ],
+    [
+      -11,
+      1
+    ],
+    [
+      -10,
+      0
+    ],
+    [
+      -10,
+      1
+    ],
+    [
+      -9,
+      0
+    ],
+    [
+      -9,
+      1
+    ],
+    [
+      -8,
+      0
+    ],
+    [
+      -8,
+      1
+    ],
+    [
+      -7,
+      0
+    ],
+    [
+      -7,
+      1
+    ],
+    [
+      -6,
+      0
+    ],
+    [
+      -6,
+      1
+    ],
+    [
+      -5,
+      0
+    ],
+    [
+      -5,
+      1
+    ],
+    [
+      -4,
+      0
+    ],
+    [
+      -4,
+      1
+    ]
+  ],
+  "producer": "UNSAT 29 668",
+  "producer_returncode": 0,
+  "proof_seconds": 0.023871252007666044,
+  "checker": {
+    "valid": true,
+    "input_clauses": 37585,
+    "additions": 29,
+    "deletions": 0,
+    "RUP": 29,
+    "RAT": 0,
+    "propagation_checks": 29
+  },
+  "rup_sha256": "e1cf3cd09f74db3ea64d809985c8c343b0dfaadb385af7cc1740a060bbab667e",
+  "source_sha256": "873fc507bc51f8e60e390b89bca437f4ca7e37aad0dc348eda8136af7e9025b5",
+  "cnf_sha256": "13f04f8d0148776e757c34ea488fb877c50bc2bd61bd6f2d3b94b6c4748552a9"
+}

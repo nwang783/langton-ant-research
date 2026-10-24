@@ -1,0 +1,73 @@
+{
+  "status": "PASS literal affine-lap normalization controls",
+  "records": [
+    {
+      "name": "nonrestoring_variable_power",
+      "rejected": true,
+      "reason": "nonrestoring unbounded word power contains impossible w^8",
+      "block": 0,
+      "witness_lap": 7,
+      "power": 8,
+      "word": "R"
+    },
+    {
+      "name": "zero_drift_variable_power",
+      "rejected": true,
+      "reason": "zero-drift restored unbounded word contains impossible w^2",
+      "block": 0,
+      "witness_lap": 1,
+      "power": 2,
+      "word": "RRRR"
+    },
+    {
+      "name": "rotating_laps",
+      "rejected": false,
+      "skipped_initial_empty_laps": 0,
+      "original_lap_rotation": 1,
+      "original_laps_per_group": 4,
+      "A": [
+        0,
+        0
+      ],
+      "B": [
+        -4,
+        4
+      ],
+      "physical_read_comparisons": 1224
+    },
+    {
+      "name": "quadratic_restored_laps",
+      "rejected": false,
+      "skipped_initial_empty_laps": 0,
+      "original_lap_rotation": 0,
+      "original_laps_per_group": 1,
+      "A": [
+        1,
+        0
+      ],
+      "B": [
+        1,
+        0
+      ],
+      "physical_read_comparisons": 84
+    },
+    {
+      "name": "empty_first_lap",
+      "rejected": false,
+      "skipped_initial_empty_laps": 1,
+      "original_lap_rotation": 0,
+      "original_laps_per_group": 1,
+      "A": [
+        1,
+        0
+      ],
+      "B": [
+        1,
+        0
+      ],
+      "physical_read_comparisons": 84
+    }
+  ],
+  "source_sha256": "424d18c1691e5e795d721178796f428ded9cd73ac7cd7042373e4e8131de12ad",
+  "scope": "Preprocessing only; does not claim any new accepted finite-seed infinite model."
+}

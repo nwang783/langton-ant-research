@@ -1,0 +1,91 @@
+{
+  "status": "PASS all-cap lifted C-discovery excursion triangular winding ONLY",
+  "proof": "d6407a02283e4f22232977f2a278c81ebb15429237fbee4c748a6ea6b1ea3961",
+  "certificate": "591a616b670d0410cd4baf821e8734a4f4ffd3e9b6c1e6a59657c3c3a95ad2df",
+  "script": "04208f0162764f943e3cfd42eecfd0542ff112a42c12392479d03ead5eee0ae2",
+  "controls": {
+    "S104": [
+      {
+        "parent_faces": [
+          [
+            0,
+            1
+          ],
+          [
+            -1,
+            2
+          ]
+        ],
+        "lengths": [
+          88,
+          12
+        ],
+        "matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "parent_faces": [
+          [
+            0,
+            -3
+          ],
+          [
+            -1,
+            -2
+          ]
+        ],
+        "lengths": [
+          92,
+          8
+        ],
+        "matrix": [
+          [
+            0,
+            0
+          ],
+          [
+            -1,
+            1
+          ]
+        ]
+      }
+    ],
+    "P1564": [],
+    "Q4352": [],
+    "M10": [
+      {
+        "parent_faces": [
+          [
+            0,
+            -1
+          ]
+        ],
+        "lengths": [
+          8
+        ],
+        "matrix": [
+          [
+            1
+          ]
+        ]
+      }
+    ],
+    "F80": []
+  },
+  "representation_controls": 40,
+  "analytic_review": [
+    "Use the signed embedded FULL-d WHITE-owned discovery cycle and its actual chronological lifts, not projected lifetime planarity. Every later selected face is unactivated during E_i. At a shared C-edge read vertex any actual allowed-axis visit activates one of the two endpoints; hence every future spine-edge vertex is unread during E_i. The proper future diagonal half-ray meets unit grid paths only at those vertices, so lies in the complement and connects every later face to infinity. Its winding is zero.",
+    "The root between parent and child is visited only at firstR and the endpoint firstL, with identical incoming heading. The closed polygon uses exactly the clockwise R corner there. The two adjacent C-face winding values differ by+1 on the active parent side; future child has zero, hence parent+1. Repeated edges or self-intersections elsewhere do not affect this local current identity.",
+    "For finite linear combinations, the greatest nonzero excursion index sees only its own diagonal+1, proving independence. This does not apply to infinite periodic sums or period-aliased matrices. No physical deletion/surgery or fuel payment follows.",
+    "Independent full-class active-C reconstruction supplies every lift and first activation; a left-ray winding sum independently checks every geometric-box face and all40 representations. Standard E92 has older indices-3,-2 each-1 and singular aliased matrix. Prepared10 satisfies the same triangular law while retaining its real input."
+  ],
+  "scope": "Only a selected actual WHITE-owned C-entry cycle; arbitrary read cap/period. Future ray unread only during the excursion, not a permanently unread outer row. No positivity of old coefficients, bounded backward support, finite alphabet, input detector, WHITE S1 or controller/global attraction theorem."
+}

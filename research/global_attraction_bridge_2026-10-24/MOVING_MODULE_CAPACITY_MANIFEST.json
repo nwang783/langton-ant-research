@@ -1,0 +1,17 @@
+{
+  "status": "FROZEN; independent audit requested",
+  "files": {
+    "MOVING_MODULE_CAPACITY_CORRECTION.md": "ce404851b265d2de0b6f598b9cc2021d531963d0e8a5a4bcf7af376ef4a34087",
+    "check_moving_capacity_regression.py": "382e703a99037c994124f8348b9fbc6ca55438940a97bc378d30c22134d4f139",
+    "MOVING_CAPACITY_REGRESSION_CHECKED.json": "22035850e568b03757d26292fd7f32006682e9de78d7fead87d232206ba69938",
+    "RETURN_BAND_PACKING_MANIFEST.json": "b9542f203723455971cdd733f1af4816f218788c4dfee4ed82f4c33611a3d213",
+    "TWENTY_RELEVANT_STOCK_MANIFEST.json": "0727f6d758e43ccb6c7585545f9b46c5512f5db137348eaeb0e16c8055137d18",
+    "REVERSE_RETURN_INTERFACE_CERTIFICATE.json": "54fac4909696179a44fbe59773cba39d9d04604c4b0a22be87198b42de11fd20"
+  },
+  "signed_dependencies": {
+    "../audits/check_return_band_packing_independent.json": "3067f91b82e4b24e7b3fd9ed8953f00b9546153c651d369f2010c992fd42de38",
+    "../audits/twenty_relevant_stock_independent.json": "5e4aa39a54bd2a2d8b11e24f3220a7a039654a03b426c3c756a3316f76d3751a",
+    "../audits/check_reverse_return_interface_independent.json": "04fd16d282ffcc61c8e5bd122130781586766f343c75fd419f424439cc5d80ca"
+  },
+  "claim": "Moving-band packing must use physical union capacity and explicit frame boundary increment. Literal canonical116-age return modules have fixed normalized13-cell permanent output support but physical union12K+1. Positive regression only, not unbounded-age or guard-avoiding counterexample."
+}

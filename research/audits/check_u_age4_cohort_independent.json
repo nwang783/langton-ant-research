@@ -1,0 +1,93 @@
+{
+  "status": "PASS independent literal placements, signed count queries and strict-record arithmetic",
+  "manifest_sha256": "513a844cd76494d2c12227d0986e582e0e727879541c84fd18e4694a0e889ed6",
+  "distinct_birth_excluded_queries": 39,
+  "same_birth_survivors": {
+    "7": 8,
+    "8": 6,
+    "9": 0
+  },
+  "U1_record_sources": [
+    {
+      "packet": 1,
+      "head": [
+        -4,
+        0,
+        0
+      ],
+      "created_peak": 10,
+      "excluded_by_strict_record": false
+    },
+    {
+      "packet": 5,
+      "head": [
+        -4,
+        -2,
+        0
+      ],
+      "created_peak": 10,
+      "excluded_by_strict_record": false
+    },
+    {
+      "packet": 6,
+      "head": [
+        -4,
+        -2,
+        0
+      ],
+      "created_peak": 22,
+      "excluded_by_strict_record": false
+    },
+    {
+      "packet": 7,
+      "head": [
+        -3,
+        1,
+        0
+      ],
+      "created_peak": 38,
+      "excluded_by_strict_record": true
+    },
+    {
+      "packet": 8,
+      "head": [
+        -3,
+        1,
+        0
+      ],
+      "created_peak": 18,
+      "excluded_by_strict_record": false
+    },
+    {
+      "packet": 8,
+      "head": [
+        -3,
+        -3,
+        0
+      ],
+      "created_peak": 10,
+      "excluded_by_strict_record": false
+    },
+    {
+      "packet": 9,
+      "head": [
+        -3,
+        1,
+        0
+      ],
+      "created_peak": 30,
+      "excluded_by_strict_record": true
+    },
+    {
+      "packet": 9,
+      "head": [
+        -3,
+        -3,
+        0
+      ],
+      "created_peak": 22,
+      "excluded_by_strict_record": false
+    }
+  ],
+  "scope": "Produced lower-q age4 forces same lower-a producer/age; surviving templates are necessary only, not attained. U1 remains open."
+}

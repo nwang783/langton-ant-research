@@ -1,0 +1,27 @@
+{
+  "status": "PASS conditional all-cap full-fibre corrected charge for genuinely single-used first-R circle",
+  "bindings_sha256": "2f72ea9435bd0280e8b1cb0beebe53d1a409bbdf4f837bcc6cad6a604c704575",
+  "dependencies": {
+    "SINGLE_USED_FIRST_CIRCLE_CORRECTED_CHARGE.md": "7774dde0ca943ac9ff63b1125f4c8efaa5afc337ef71ea840281db3621e910e9",
+    "SINGLE_USED_FIRST_CIRCLE_MIDDLE_READ_INTERFACE.md": "29cce94ff89eddaebdf8aede750cf56256febdb9ac17ec7850c72359ff335d7e",
+    "EXTREMAL_CYCLE_RESIDUE_CHARGE.md": "8716dd224fb915b1548d652eb58f3ab0fb9fc658fee98cc20d0315411db4b6f7",
+    "../sources/kehao95-core/wake_synthesis/proof/periodic-growth-closure.md": "bd3e74c5a2a87c4431fe4c777b9eeaa7010e42600ab9eb9bea6198e9ca249db7",
+    "../audits/check_single_used_first_circle_independent.json": "01d7c9dceb9ca651427c6fe421a3e0b4817ebc28525517287a95a70b53df01ed",
+    "../audits/check_extremal_cycle_residue_charge_independent.json": "bf9f530b0c2e90ee0fc9302e6e4d2cb7fd6481cfab67ff885ed7d2fe0e1ab8d5",
+    "DIAGONAL_G8_F4_SIGNED_HANDOFF_0629.md": "2cd87bffb10b186937c1050d0fd1ba93abbba7cffb1c7c609a7a6e0f7842931f"
+  },
+  "algebra_controls": 48208,
+  "drift31_growth8_possible_lengths": [
+    6,
+    10,
+    14
+  ],
+  "analytic_review": [
+    "Hypothesis is a genuinely physical single-used first-R circle in a complete WHITE front. Signed29cce supplies embedded essential winding-1 and the exact singleton RIGHT / triple-or-quadruple LEFT inventory. The existence of such a circle is NOT proved for arbitrary drift/front or arbitrary first-R cycle.",
+    "Each vertex has one vertical and one horizontal cycle edge, giving separate perfect matchings of all circle classes. Checker sign is well-defined because full drift preserves parity. Vertical pairs cancel signed x-fibre totals; horizontal pairs cancel y-fibres. This remains true across a quotient seam because the full coordinate residue is unchanged and checker signs flip across the actual unit edge. Zero drift coordinates have no modular obligation and are assigned Phi0.",
+    "Removing k even quadruple classes leaves circle odd sum minus q in every fibre. Full-front odd signed sum2mod4 therefore demands residual sum2+q, with min absolute representative f. The outside odd subset need not be physically realizable or independently balanced. Each residual class contributes one unit in its one fibre, so its cardinality is separately at leastPhi_x andPhi_y, hence maximum rather than sum.",
+    "The f distance-to4Z is1-Lipschitz; k signed quadruple contributions lower baseline2|a| by at mostk. Thus g>=ell-k+maxPhi>=ell+2D-2k for both drift signs and zero-coordinate cases. No overlap with event-time or other output reservations is added.",
+    "For a simple embedded essential rectilinear loop in the flat translation cylinder, disjoint parallel straight core and an annulus cut give total turning0. Equivalently its tangent rotation number is the essential straight class. Since all corners are90degrees, RIGHT=LEFT=ell/2. Hence k=ell/2-tau and g>=2D+2tau. Distinct singleton RIGHT classes implyell<=2g.",
+    "At full drift3,1, ell/2 horizontal and ell/2 vertical unit steps have odd counts, ell>=2D=6 and ell<=16 atg8, giving6,10,14; tau<=1. These are necessary conditional restrictions only. Full-diagonalg8 circle forcing is a separately signed premise, not extended to3,1."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "scope": "At most3 accessible states; binary time; common Gaussian scale of norm squared2; stable zero-padding start; unit quarter-turn geometry and ant alternation. One-state case excluded analytically. No arbitrary offsets omitted, since first seven moves determine them.",
+  "results": [
+    {
+      "states": 2,
+      "legal_geometric_prefixes": 8,
+      "consistent_distinct_recurrences": 128,
+      "outcomes": {
+        "nonunit": 124,
+        "equal consecutive reads": 4
+      },
+      "finite_probe_survivors": [],
+      "record_sha256": "8c8b69e7a9cf5285df4fcbdf2be7d2d969db18c0359c92042294d00c38a732aa",
+      "elapsed_seconds": 0.0026233989992761053
+    },
+    {
+      "states": 3,
+      "legal_geometric_prefixes": 88,
+      "consistent_distinct_recurrences": 1512,
+      "outcomes": {
+        "nonunit": 1422,
+        "equal consecutive reads": 90
+      },
+      "finite_probe_survivors": [],
+      "record_sha256": "455edfa4c145b6feec6e61774d99eb5d77a711a608a93144512336daa680422c",
+      "elapsed_seconds": 0.14813736300129676
+    }
+  ]
+}

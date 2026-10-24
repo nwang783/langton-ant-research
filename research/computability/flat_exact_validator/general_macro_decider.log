@@ -1,0 +1,85 @@
+BEGIN identity_multiread
+MACRO BASE 1 0 / 1
+MACRO BASE 2 1 / 1
+MACRO READ 0 [4, 4, 2, 3]
+MACRO FRAME 0 4
+RESULT {"processed_schemes": 2, "terminal_read_schemes": 16, "last_base_length": 1, "theoretical_base_bound": 1, "status": "decided", "possible": true, "complete_generated_cover": true, "candidate_seed": [[-1, 1], [0, 0], [0, 1]], "given_seed_validation": {"possible": true, "frame_checks": 4, "base_reads": 8, "nested_root": true, "growing_root": false, "accepted_growing_model": false, "seed": [[-1, 1], [0, 0], [0, 1]]}, "seconds": 0.06539194300421514, "name": "identity_multiread"}
+BEGIN two_state_multiread_cycle
+MACRO BASE 1 0 / 5
+MACRO BASE 2 1 / 5
+MACRO BASE 3 2 / 5
+MACRO BASE 4 3 / 5
+MACRO BASE 5 4 / 5
+MACRO BASE 6 5 / 5
+MACRO READ 0 [4, 4, 2, 3]
+MACRO READ 1 [4, 4, 2, 3]
+MACRO FRAME 0 4
+MACRO FRAME 1 8
+RESULT {"processed_schemes": 6, "terminal_read_schemes": 48, "last_base_length": 5, "theoretical_base_bound": 5, "status": "decided", "possible": true, "complete_generated_cover": true, "candidate_seed": [[-1, 1], [0, 0], [0, 1]], "given_seed_validation": {"possible": true, "frame_checks": 8, "base_reads": 16, "nested_root": false, "growing_root": false, "accepted_growing_model": false, "seed": [[-1, 1], [0, 0], [0, 1]]}, "seconds": 0.09289819600235205, "name": "two_state_multiread_cycle"}
+BEGIN branching_zero_displacement
+MACRO BASE 1 0 / 2
+MACRO BASE 2 1 / 2
+MACRO BASE 3 1 / 2
+RESULT {"processed_schemes": 3, "terminal_read_schemes": 9, "last_base_length": 1, "theoretical_base_bound": 2, "status": "decided", "possible": false, "early_certificate": {"reason": "conflicting genuine macro requirements", "signs": [1, 1], "witness": {"x": 0, "y": 0}}, "seconds": 0.012368793992209248, "name": "branching_zero_displacement"}
+BEGIN zero_parity_illegal
+MACRO BASE 1 0 / 1
+RESULT {"processed_schemes": 1, "terminal_read_schemes": 5, "last_base_length": 0, "theoretical_base_bound": 1, "status": "decided", "possible": false, "early_certificate": {"reason": "conflicting genuine macro requirements", "signs": [1, 1], "witness": {"x": 0, "y": 0}}, "seconds": 0.006785474004573189, "name": "zero_parity_illegal"}
+BEGIN transient_macro_positive
+MACRO BASE 1 0 / 14
+MACRO BASE 2 1 / 14
+MACRO BASE 3 1 / 14
+MACRO BASE 4 2 / 14
+MACRO BASE 5 2 / 14
+MACRO BASE 6 3 / 14
+MACRO BASE 7 3 / 14
+MACRO BASE 8 4 / 14
+MACRO BASE 9 4 / 14
+MACRO BASE 10 5 / 14
+MACRO BASE 11 5 / 14
+MACRO READ 0 [3, 3, 2, 3]
+MACRO READ 1 [2, 3, 3, 3]
+MACRO READ 2 [4, 4, 2, 3]
+MACRO FRAME 0 4
+MACRO FRAME 1 8
+MACRO FRAME 2 16
+RESULT {"processed_schemes": 29, "terminal_read_schemes": 120, "last_base_length": 14, "theoretical_base_bound": 14, "status": "decided", "possible": true, "complete_generated_cover": true, "candidate_seed": [[-1, 1], [0, 0], [0, 1]], "given_seed_validation": {"possible": true, "frame_checks": 16, "base_reads": 16, "nested_root": false, "growing_root": false, "accepted_growing_model": false, "seed": [[-1, 1], [0, 0], [0, 1]]}, "seconds": 0.2045826660032617, "name": "transient_macro_positive"}
+BEGIN canonical_revisited_prefix_positive
+MACRO BASE 1 0 / 65
+MACRO BASE 2 1 / 65
+MACRO BASE 3 1 / 65
+MACRO BASE 4 1 / 65
+MACRO BASE 5 1 / 65
+MACRO BASE 6 1 / 65
+MACRO BASE 7 2 / 65
+MACRO BASE 8 2 / 65
+MACRO BASE 9 2 / 65
+MACRO BASE 10 2 / 65
+MACRO BASE 11 2 / 65
+MACRO BASE 100 20 / 65
+MACRO BASE 200 40 / 65
+MACRO BASE 300 60 / 65
+MACRO READ 2 [2, 2, 2, 2]
+MACRO READ 4 [2, 2, 2, 2]
+MACRO READ 6 [2, 2, 2, 2]
+MACRO READ 8 [4, 4, 2, 3]
+MACRO READ 9 [2, 2, 2, 2]
+MACRO READ 10 [4, 4, 3, 3]
+MACRO FRAME 2 4
+MACRO FRAME 4 8
+MACRO FRAME 6 12
+MACRO FRAME 8 16
+MACRO FRAME 9 20
+MACRO FRAME 10 40
+RESULT {"processed_schemes": 326, "terminal_read_schemes": 792, "last_base_length": 65, "theoretical_base_bound": 65, "status": "decided", "possible": true, "complete_generated_cover": true, "candidate_seed": [[-1, 1], [0, 0], [0, 1]], "given_seed_validation": {"possible": true, "frame_checks": 40, "base_reads": 24, "nested_root": false, "growing_root": false, "accepted_growing_model": false, "seed": [[-1, 1], [0, 0], [0, 1]]}, "seconds": 1.0591660009959014, "name": "canonical_revisited_prefix_positive"}
+BEGIN capped_G
+MACRO BASE 1 0 / 309
+MACRO BASE 2 1 / 309
+MACRO BASE 3 1 / 309
+RESULT {"processed_schemes": 3, "terminal_read_schemes": 10, "last_base_length": 1, "theoretical_base_bound": 309, "status": "decided", "possible": false, "early_certificate": {"reason": "conflicting genuine macro requirements", "signs": [1, 1], "witness": {"x": 0, "y": 1}}, "seconds": 0.14813380099076312, "name": "capped_G"}
+BEGIN capped_H
+MACRO BASE 1 0 / 309
+MACRO BASE 2 1 / 309
+MACRO BASE 3 1 / 309
+MACRO BASE 4 1 / 309
+MACRO BASE 5 1 / 309
+RESULT {"processed_schemes": 5, "terminal_read_schemes": 16, "last_base_length": 1, "theoretical_base_bound": 309, "status": "decided", "possible": false, "early_certificate": {"reason": "conflicting genuine macro requirements", "signs": [1, 1], "witness": {"x": 1, "y": 0}}, "seconds": 0.17328045700560324, "name": "capped_H"}

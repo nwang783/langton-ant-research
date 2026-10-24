@@ -1,0 +1,58 @@
+{
+  "status": "PASS v2 ONLY: GLOBAL-M cap4 one-use-input flow3 launch is RR; crossing LEFT3 needs odd2to3 source",
+  "proof": "4d2981d9ecce52eaf12d19074a201a435743102967c2fe5dba3ac1ec530051ac",
+  "certificate": "2f39224bf0d01cdf93fa6627cd4b24006fce23c0267a5995acfe14cd32a735be",
+  "script": "51abc2d9791a66d6fd0756c020000f692aa66cf34b35aa9a5579b1c0f394bdf7",
+  "endpoint_sources": [
+    [
+      "EWE",
+      2
+    ],
+    [
+      "EWWW",
+      1
+    ]
+  ],
+  "endpoint_sinks": [
+    [
+      "EEE",
+      2
+    ],
+    [
+      "EEWE",
+      1
+    ]
+  ],
+  "RLR_counts": {
+    "port": 57,
+    "rank": 5
+  },
+  "RR_counts": {
+    "open": 3,
+    "port": 6,
+    "rank": 1
+  },
+  "RR_profiles": [
+    [
+      "NNS",
+      "SSNS",
+      "EEW"
+    ],
+    [
+      "NNS",
+      "SSS",
+      "EEWW"
+    ],
+    [
+      "NNSN",
+      "SSNS",
+      "EEWE"
+    ]
+  ],
+  "analytic_review": [
+    "CompleteE-first cap4 RIGHT ports yield exactly source2to3EWE/source1to3EWWW and sink3to2EEE/sink3to1EEWE. No input3/output4 or4to3 case is missing. Signed f008 GLOBAL-M RR/RLR geometric reduction retains one-use endpoints and gives the all-length premise.",
+    "Independent62 full reader products give57 port mismatches and5 actual wrong-next-rank paths. Both output1 andoutput2 RLR sinks are covered; the latterWEW/WEWW path skipsB.L1, andWWWE skipsY.R2. All paths return to the SAME physical cell and complete known ports, so no missing exterior or full-drift alias can repair them.",
+    "The ten RR outerLEFT products give6 port failures,1 literal rank failure and3 necessaryopens, including passive flow2 endpoint with odd incomingLEFT andodd sink. Everyopen has the actualfourR firstreturn. Onlyv2 bookkeeping/source is bound; v1 is expressly unsigned.",
+    "At GLOBALM a one-use-input source cannot feed the crossingLEFT3, so any LEFT3 has odd2to3 source. This is only role necessity, not an additive output injection, originalfuel charge or universal boundarycoverage. Higherreader shields outsidecap4, unknownexterior connectors, generalcontrollers andcapture remainopen."
+  ]
+}

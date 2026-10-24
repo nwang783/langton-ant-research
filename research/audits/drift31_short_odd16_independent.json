@@ -1,0 +1,86 @@
+{
+  "status": "PASS exact supplied full O16 inventory excluded for specified short all-quadruple interface",
+  "proof_sha256": "3779f9e725cd4271ba6be294fde55d205be23d9166a151ed64af113d98405899",
+  "certificate_sha256": "332e05d5953b33516e22a15c2de3f7c5f64ad254d2ff4cfda390446b5c3af12e",
+  "script_sha256": "051c26481162be19524a15ae5aa0d94eb5b9dfe1bc9fdfa0fdd870d1799dce4c",
+  "full_odd_inventory": [
+    0,
+    1,
+    2,
+    6,
+    7,
+    13,
+    14,
+    16
+  ],
+  "local_counts": {
+    "top_T15_parents": 1,
+    "top_T15_open": 1,
+    "top_T14_parents": 1,
+    "top_T14_open": 1,
+    "top_T13_parents": 1,
+    "top_T13_open": 3,
+    "top_T12_parents": 3,
+    "top_T12_open": 3,
+    "top_T11_parents": 3,
+    "top_T11_open": 8,
+    "top_T11_skipped_rank": 5,
+    "top_T11_positive_rank_clock_cycle": 4,
+    "bottom_T8_parents": 1,
+    "bottom_T8_open": 6,
+    "bottom_T9_parents": 6,
+    "bottom_T9_skipped_rank": 4,
+    "bottom_T9_positive_rank_clock_cycle": 2,
+    "bottom_T9_open": 16
+  },
+  "join_counts": {
+    "closed_component": 6,
+    "physical_port_count_mismatch": 108,
+    "positive_rank_clock_cycle": 4,
+    "skipped_rank": 10
+  },
+  "closed_component_size_winding_outside": [
+    [
+      26,
+      1,
+      30
+    ],
+    [
+      26,
+      1,
+      30
+    ],
+    [
+      4,
+      0,
+      60
+    ],
+    [
+      4,
+      0,
+      60
+    ],
+    [
+      8,
+      0,
+      56
+    ],
+    [
+      12,
+      0,
+      52
+    ]
+  ],
+  "analytic_checks": [
+    "Read extrema0/16 follow signed actual read-minimum/maximum singleton lemmas plus EXACT FULL odd inventory, not treating a partial odd subset as wake. Only below0/above16 declared empty;T10alwaysUNKNOWN.",
+    "Every upper/lower binary-heading domain regenerated from literal perpendicular-port counts, exactparity and allphysicalfirstreturns, derivedbound<=15.",
+    "Every128join rejection checked by exactnamedphysicalports or actualfullvoltageeventpaths; allrankclock cycles positiveforP>=namedcount. Closedcomponents rejectnonpositivewinding orpropernesswithnamedoutsideevents, not positivewindingalone.",
+    "UnknownmiddleT10 orarbitraryhighercompletioncannotchangethe alreadycomplete ordinalpaths/ports. This isonefullinventory/oneprefixonly, notwidth16classification."
+  ],
+  "not_claimed": [
+    "threegeneralshortmodesexcluded",
+    "newcontroller",
+    "unconditionalsingleusedcircle",
+    "globalattraction"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS dependent parity sharpening",
+  "note_sha256": "fe3edfe64fb7b00196b1f13118e8fd0c633c68001990957a6f9cf62807952df6",
+  "offset_parities": {
+    "0": 10,
+    "1": 10
+  },
+  "argument": "Full incoming-heading restoration forces P even, hence dx+dy even. Actual full-drift classes preserve checker parity. All stopping maximum C faces have one fixed lower-left checker parity, so any fixed odd-output cell class admits only the matching ten of the twenty affine offsets. The signed distinct-stop-class argument then gives H<=10Nodd+|U|<=11Nodd-nSanc. Other face parity selects the opposite ten, unchanged. No primitive-period substitution.",
+  "scope": "Exactly the signed half-turn source interfaces and aggregate OUTPUT count; no new local premise or original-fuel charge."
+}

@@ -1,0 +1,275 @@
+{
+  "status": "exact complete-field all-n proof passed",
+  "m": 1,
+  "domain": "integer n>=200",
+  "capture_time": [
+    416,
+    156312
+  ],
+  "capture_pose": [
+    [
+      [
+        0,
+        -14
+      ],
+      [
+        0,
+        -102
+      ]
+    ],
+    0
+  ],
+  "tail": {
+    "distinct_required_cells": 52,
+    "odd_read_cells": 36,
+    "drift": [
+      2,
+      -2
+    ],
+    "heading": 0
+  },
+  "tail_phase": 84,
+  "exceptional_phase72_ray": [
+    [
+      [
+        0,
+        -8
+      ],
+      [
+        0,
+        -106
+      ]
+    ],
+    [
+      2,
+      -2
+    ]
+  ],
+  "tail_fixed_normals": {
+    "z": [
+      -123,
+      -113
+    ]
+  },
+  "first_contacts": {
+    "q": [
+      104,
+      10881
+    ],
+    "s": [
+      208,
+      70914
+    ],
+    "a": [
+      312,
+      92814
+    ]
+  },
+  "complete_field_support_bounds": {
+    "z_upper": 47,
+    "z_lower": null,
+    "u_upper": 94,
+    "u_lower": null
+  },
+  "finite_read_bounds": {
+    "z_upper": 47,
+    "z_lower": null,
+    "u_upper": 94,
+    "u_lower": null
+  },
+  "statistics": {
+    "finite_read_constraints": 16416,
+    "periodic_read_constraints": 216,
+    "affine_guards": 12924,
+    "excluded_isolated_equalities": 48711060
+  },
+  "template_sha256": "554bb54acc574917089d664bc8e6b96c7d9bddc54a2ddf5995ed8e84dcbe8005",
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        9977
+      ],
+      "base": [
+        [
+          0,
+          -15
+        ],
+        [
+          0,
+          10
+        ]
+      ],
+      "heading": 3,
+      "contacts": {}
+    },
+    {
+      "segment": 1,
+      "time": [
+        104,
+        10809
+      ],
+      "base": [
+        [
+          -2,
+          -31
+        ],
+        [
+          -2,
+          -6
+        ]
+      ],
+      "heading": 3,
+      "contacts": {}
+    },
+    {
+      "segment": 2,
+      "time": [
+        104,
+        61927
+      ],
+      "base": [
+        [
+          -2,
+          6
+        ],
+        [
+          -2,
+          -43
+        ]
+      ],
+      "heading": 1,
+      "contacts": {
+        "q": [
+          104,
+          10881
+        ]
+      }
+    },
+    {
+      "segment": 3,
+      "time": [
+        208,
+        62655
+      ],
+      "base": [
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          -29
+        ]
+      ],
+      "heading": 1,
+      "contacts": {}
+    },
+    {
+      "segment": 4,
+      "time": [
+        208,
+        93466
+      ],
+      "base": [
+        [
+          0,
+          -39
+        ],
+        [
+          0,
+          -11
+        ]
+      ],
+      "heading": 0,
+      "contacts": {
+        "s": [
+          208,
+          70914
+        ]
+      }
+    },
+    {
+      "segment": 5,
+      "time": [
+        312,
+        92738
+      ],
+      "base": [
+        [
+          -2,
+          -25
+        ],
+        [
+          2,
+          -25
+        ]
+      ],
+      "heading": 0,
+      "contacts": {}
+    },
+    {
+      "segment": 6,
+      "time": [
+        312,
+        143860
+      ],
+      "base": [
+        [
+          -2,
+          -62
+        ],
+        [
+          2,
+          -60
+        ]
+      ],
+      "heading": 2,
+      "contacts": {
+        "a": [
+          312,
+          92814
+        ]
+      }
+    },
+    {
+      "segment": 7,
+      "time": [
+        416,
+        142924
+      ],
+      "base": [
+        [
+          0,
+          -80
+        ],
+        [
+          0,
+          -42
+        ]
+      ],
+      "heading": 2,
+      "contacts": {}
+    },
+    {
+      "segment": 8,
+      "time": [
+        416,
+        156312
+      ],
+      "base": [
+        [
+          0,
+          -14
+        ],
+        [
+          0,
+          -102
+        ]
+      ],
+      "heading": 0,
+      "contacts": {}
+    }
+  ]
+}

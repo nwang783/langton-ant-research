@@ -1,0 +1,124 @@
+{
+  "max_length": 16,
+  "results": {
+    "left": {
+      "count": 167,
+      "best": 1,
+      "bestwords": [
+        {
+          "word": "LLRLRRLR",
+          "bad_count": 1,
+          "bad": [
+            [
+              [
+                -1,
+                3
+              ],
+              "L"
+            ]
+          ],
+          "odd": [
+            [
+              -2,
+              2
+            ],
+            [
+              -2,
+              3
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              3
+            ]
+          ],
+          "net_R": 0
+        }
+      ],
+      "candidates": []
+    },
+    "right": {
+      "count": 124,
+      "best": 1,
+      "bestwords": [
+        {
+          "word": "LRRRRLRRRRLL",
+          "bad_count": 1,
+          "bad": [
+            [
+              [
+                0,
+                0
+              ],
+              "LRL"
+            ]
+          ],
+          "odd": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "net_R": 4
+        },
+        {
+          "word": "RRRRLRRRRLRRRRLL",
+          "bad_count": 1,
+          "bad": [
+            [
+              [
+                -1,
+                0
+              ],
+              "RRL"
+            ]
+          ],
+          "odd": [
+            [
+              -1,
+              3
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "net_R": 8
+        }
+      ],
+      "candidates": []
+    }
+  },
+  "seconds": 0.5276525020599365
+}

@@ -1,0 +1,241 @@
+{
+  "status": "PASS seven literal first-M returns, complete23-cell DVFD control and conditional consecutive-D bounds",
+  "manifest_sha256": "33578efe36cf3727c31f3fd844dc53b197e9403c7c3d4607fcb6421a48650261",
+  "literal_rows": [
+    {
+      "name": "D",
+      "length": 10,
+      "endpoint": [
+        1,
+        1,
+        0
+      ],
+      "mass_gain": 0,
+      "first_returns": [
+        0,
+        10
+      ]
+    },
+    {
+      "name": "C",
+      "length": 15,
+      "endpoint": [
+        0,
+        1,
+        3
+      ],
+      "mass_gain": 3,
+      "first_returns": [
+        0,
+        15
+      ]
+    },
+    {
+      "name": "V",
+      "length": 18,
+      "endpoint": [
+        1,
+        3,
+        0
+      ],
+      "mass_gain": 4,
+      "first_returns": [
+        0,
+        18
+      ]
+    },
+    {
+      "name": "U",
+      "length": 28,
+      "endpoint": [
+        0,
+        4,
+        0
+      ],
+      "mass_gain": 4,
+      "first_returns": [
+        0,
+        28
+      ]
+    },
+    {
+      "name": "F",
+      "length": 56,
+      "endpoint": [
+        -4,
+        -2,
+        2
+      ],
+      "mass_gain": 2,
+      "first_returns": [
+        0,
+        56
+      ]
+    },
+    {
+      "name": "Q",
+      "length": 64,
+      "endpoint": [
+        -4,
+        -4,
+        2
+      ],
+      "mass_gain": 6,
+      "first_returns": [
+        0,
+        64
+      ]
+    },
+    {
+      "name": "B",
+      "length": 74,
+      "endpoint": [
+        -3,
+        -5,
+        2
+      ],
+      "mass_gain": 6,
+      "first_returns": [
+        0,
+        74
+      ]
+    }
+  ],
+  "seed": [
+    [
+      -3,
+      5
+    ],
+    [
+      -3,
+      6
+    ],
+    [
+      -2,
+      1
+    ],
+    [
+      -2,
+      3
+    ],
+    [
+      -2,
+      4
+    ],
+    [
+      -2,
+      7
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      -1,
+      3
+    ],
+    [
+      -1,
+      5
+    ],
+    [
+      -1,
+      6
+    ],
+    [
+      -1,
+      7
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      6
+    ]
+  ],
+  "cuts": [
+    [
+      0,
+      0,
+      0,
+      0,
+      23
+    ],
+    [
+      10,
+      1,
+      1,
+      0,
+      23
+    ],
+    [
+      28,
+      2,
+      4,
+      0,
+      27
+    ],
+    [
+      84,
+      -2,
+      2,
+      2,
+      29
+    ],
+    [
+      94,
+      -3,
+      1,
+      2,
+      29
+    ]
+  ],
+  "quotient_label_paths": 77,
+  "return_bounds": {
+    "duration": "33*m+334",
+    "next_entry_mass": "8*m+68"
+  },
+  "scope": "Actual whole-board finite control, not an identified original history-class path or infinite extension. Obstructs decreasing D-entry mass and literal-C-only heading clocks. No seven-word or universal capture theorem."
+}

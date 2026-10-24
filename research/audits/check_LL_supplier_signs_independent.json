@@ -1,0 +1,33 @@
+{
+  "status": "PASS both-sign OPEN supplier inventories and conditional distinct long-return owner only",
+  "files": {
+    "LL_reset_late_suppliers_keep_both_tail_signs_open_locally.md": "8a0f30700e9043ecc381e3434cb6e01d3bea69618296d6f1115c96eaaac94760",
+    "check_fixed_LL_L3_supplier_controls.py": "56eabe0a8eba5d441e30901670817d44dbbbd4a325b0d61ad0742a8571703b01",
+    "check_fixed_LL_L3_supplier_controls.json": "0d78caa060dfa639958fa1a6413003ddf4384b4486c2f950a945402bba985a2e"
+  },
+  "script": "3d5b824a562c1e4b70c246f663416ddc68dbc3a129618302237fe49698a56808",
+  "controls": [
+    {
+      "kind": "positive",
+      "events": 28,
+      "channels": 8,
+      "internal_edges": 20,
+      "directed_flow_equations": 24,
+      "tail": 45
+    },
+    {
+      "kind": "negative",
+      "events": 31,
+      "channels": 10,
+      "internal_edges": 21,
+      "directed_flow_equations": 24,
+      "tail": -3
+    }
+  ],
+  "analytic_review": [
+    "Every complete WHITE cap4 cell history is retained. Internal physical directional counts include all zero ports; ordinal matching gives exactly the serialized maximal channels. Supplied distinct mod4 clocks satisfy all literal unit steps and same-cell rank gaps>=4, and full stream face equations have C<=M and shiftedL<=M. Exterior connector demands are not fulfilled, so neither inventory is an actual ant factor/front.",
+    "The negative late LRR chain goes Y.L3 through D.R2,R.R2 to X.L3, forcing exact signed tail-3. The earlier X.R2,Y.R2,D.L1,T.R2 chain and actual four-L root cleanup remain present; no middle reads are skipped or replaced by a bare prepared subfactor.",
+    "Conditional on a critical GLOBAL-M/no-one-use complete cap4 boundary realizing this exact square, R=NNS is off Gamma because its first-R outgoingE has physical use1. D=WEE cannot be a RIGHT boundary contact because its incomingW edge has use1; its LEFT incomingE possibility would require Y first-R outgoingE, while actual Y first-R departsW. Thus both intermediate cells are off Gamma.",
+    "The entire late path lies on the LEFT of Gamma and cannot cross a cut at the flat endpoints or off-boundary interiors. Critical same-physical-contact pipeline puts it inside one actual LEFT excursion. It contains R reads and cannot lie in any LL-first four-L return or any four-step same-pose return. Signed root classification leaves a distinct singletonO or WEEE root, with span>=8. This is conditional owner existence, not an injection, per-reset fuel charge, unit voltage or globally attained network."
+  ]
+}

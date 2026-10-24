@@ -1,0 +1,343 @@
+{
+  "word": [
+    9,
+    4,
+    5,
+    5,
+    0,
+    5,
+    1,
+    5,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    4,
+    1,
+    0,
+    1,
+    0,
+    6,
+    4
+  ],
+  "states": [
+    {
+      "state": {
+        "initial": true
+      },
+      "packet": 9,
+      "Q": -10,
+      "colors": 0
+    },
+    {
+      "state": {
+        "far_heading": 0,
+        "height": null,
+        "transverse_band": 0
+      },
+      "packet": 4,
+      "Q": -6,
+      "colors": 0
+    },
+    {
+      "state": {
+        "far_heading": 0,
+        "height": null,
+        "transverse_band": 0
+      },
+      "packet": 5,
+      "Q": -6,
+      "colors": 0
+    },
+    {
+      "state": {
+        "pose": [
+          5,
+          -4,
+          3
+        ]
+      },
+      "packet": 5,
+      "Q": -6,
+      "colors": 0
+    },
+    {
+      "state": {
+        "far_heading": 2,
+        "height": -4,
+        "transverse_band": 0
+      },
+      "packet": 0,
+      "Q": -2,
+      "colors": 16
+    },
+    {
+      "state": {
+        "far_heading": 2,
+        "height": -4,
+        "transverse_band": 0
+      },
+      "packet": 5,
+      "Q": -2,
+      "colors": 16
+    },
+    {
+      "state": {
+        "far_heading": 1,
+        "height": -7,
+        "transverse_band": 0
+      },
+      "packet": 1,
+      "Q": -2,
+      "colors": 16
+    },
+    {
+      "state": {
+        "pose": [
+          3,
+          -7,
+          0
+        ]
+      },
+      "packet": 5,
+      "Q": -2,
+      "colors": 16
+    },
+    {
+      "state": {
+        "pose": [
+          4,
+          -3,
+          3
+        ]
+      },
+      "packet": 0,
+      "Q": -2,
+      "colors": 16
+    },
+    {
+      "state": {
+        "pose": [
+          3,
+          -2,
+          3
+        ]
+      },
+      "packet": 0,
+      "Q": -2,
+      "colors": 16
+    },
+    {
+      "state": {
+        "pose": [
+          2,
+          -1,
+          3
+        ]
+      },
+      "packet": 1,
+      "Q": -2,
+      "colors": 16
+    },
+    {
+      "state": {
+        "pose": [
+          0,
+          0,
+          2
+        ]
+      },
+      "packet": 1,
+      "Q": 2,
+      "colors": 96
+    },
+    {
+      "state": {
+        "pose": [
+          -1,
+          -2,
+          1
+        ]
+      },
+      "packet": 1,
+      "Q": 2,
+      "colors": 96
+    },
+    {
+      "state": {
+        "pose": [
+          1,
+          -3,
+          0
+        ]
+      },
+      "packet": 0,
+      "Q": 2,
+      "colors": 96
+    },
+    {
+      "state": {
+        "pose": [
+          2,
+          -2,
+          0
+        ]
+      },
+      "packet": 4,
+      "Q": 2,
+      "colors": 96
+    },
+    {
+      "state": {
+        "pose": [
+          3,
+          1,
+          0
+        ]
+      },
+      "packet": 1,
+      "Q": 2,
+      "colors": 32
+    },
+    {
+      "state": {
+        "pose": [
+          4,
+          3,
+          3
+        ]
+      },
+      "packet": 0,
+      "Q": 2,
+      "colors": 32
+    },
+    {
+      "state": {
+        "pose": [
+          3,
+          4,
+          3
+        ]
+      },
+      "packet": 1,
+      "Q": 2,
+      "colors": 8224
+    },
+    {
+      "state": {
+        "pose": [
+          1,
+          5,
+          2
+        ]
+      },
+      "packet": 0,
+      "Q": 6,
+      "colors": 8224
+    },
+    {
+      "state": {
+        "pose": [
+          0,
+          4,
+          2
+        ]
+      },
+      "packet": 6,
+      "Q": 6,
+      "colors": 8224
+    },
+    {
+      "state": {
+        "pose": [
+          0,
+          0,
+          0
+        ]
+      },
+      "packet": 4,
+      "Q": 6,
+      "colors": 8249
+    }
+  ],
+  "shortest_literal_conflicts": [
+    {
+      "start": 0,
+      "length": 6,
+      "word": [
+        9,
+        4,
+        5,
+        5,
+        0,
+        5
+      ],
+      "conflict": {
+        "raw_step": 164,
+        "previous_read": 8,
+        "cell": [
+          2,
+          0
+        ],
+        "old_initial_requirement": false,
+        "new_initial_requirement": true
+      }
+    },
+    {
+      "start": 3,
+      "length": 6,
+      "word": [
+        5,
+        0,
+        5,
+        1,
+        5,
+        0
+      ],
+      "conflict": {
+        "raw_step": 151,
+        "previous_read": 31,
+        "cell": [
+          2,
+          5
+        ],
+        "old_initial_requirement": false,
+        "new_initial_requirement": true
+      }
+    },
+    {
+      "start": 8,
+      "length": 6,
+      "word": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "conflict": {
+        "raw_step": 112,
+        "previous_read": 8,
+        "cell": [
+          2,
+          0
+        ],
+        "old_initial_requirement": false,
+        "new_initial_requirement": true
+      }
+    }
+  ],
+  "whole_word_conflict": {
+    "raw_step": 164,
+    "previous_read": 8,
+    "cell": [
+      2,
+      0
+    ],
+    "old_initial_requirement": false,
+    "new_initial_requirement": true
+  }
+}

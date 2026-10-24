@@ -1,0 +1,32 @@
+{
+  "status": "PASS independent exact104 successor suffix query",
+  "source_sha256": "242d8627502409388a721d1a486be12c8192a17a0d6b377993c82c435c2c8755",
+  "records": [
+    {
+      "name": "standard104_grouped",
+      "mismatch_finite": true,
+      "mismatch_relation": "{ [n, b, j, r] : false }",
+      "literal_six_lap_successor_checks": 2183
+    },
+    {
+      "name": "infinite_prepared_axial_rail",
+      "mismatch_finite": true,
+      "mismatch_relation": "{ [n, b, j, r] : false }",
+      "literal_six_lap_successor_checks": 83
+    },
+    {
+      "name": "punctuated_prepared_rail",
+      "mismatch_finite": false,
+      "mismatch_relation": "{ [n, b, j = 0, r = 3] : n >= 0 and n <= b <= 1; [n, b, j = 0, r = 0] : n >= 0 and n <= b <= 1; [n, b = 1, j = 0, r = 3] : n >= 3 and (n >= 24 or n <= 22); [n = 4, b = 0, j = 3, r = 3]; [n, b = 0, j = -18 + 3n, r = 3] : 6 <= n <= 9; [n, b = 0, j = -22 + 2n, r = 3] : 11 <= n <= 22; [n, b = 0, j = -25 + n, r = 3] : n >= 25; [n, b = 1, j = 0, r = 0] : n >= 3 and (n >= 24 or n <= 22); [n = 4, b = 0, j = 3, r = 0]; [n, b = 0, j = -18 + 3n, r = 0] : 6 <= n <= 9; [n, b = 0, j = -22 + 2n, r = 0] : 11 <= n <= 22; [n, b = 0, j = -25 + n, r = 0] : n >= 25 }",
+      "literal_six_lap_successor_checks": 107
+    },
+    {
+      "name": "rotating_constant_stages",
+      "mismatch_finite": false,
+      "mismatch_relation": "{ [n, b, j, r] : 0 <= b <= 2 - n and 0 <= j < n and 0 <= r <= 2 - n + j and r <= 1 - b + j; [n, b = 2, j, r] : (0 <= j <= n and j <= -43 + 4n and r >= -44 + 3n - j and 0 <= r <= 1) or (8 <= n <= 9 and j <= -37 + 5n and r <= 1 and 2r >= -37 + 5n - j) or (n >= 7 and j >= -36 + 5n and -28 + 4n <= j <= n and r >= 0 and 3r <= -24 + 4n - j) or (6 <= n <= 7 and -30 + 5n <= j <= -35 + 6n and 0 <= r <= 1); [n, b = 3, j = 0, r = 4 - n] : 2 <= n <= 4; [n, b = 3, j = 0, r = 2] : n >= 4 and (n >= 51 or (15 <= n <= 23) or (8 <= n <= 9) or n <= 5); [n = 5, b = 2, j = 5, r = 1]; [n, b, j = 0, r] : n >= 0 and b >= 2 + n and n <= r <= 3 + n - b; [n, b = 0, j, r] : r <= 1 and ((8 <= n <= 9 and -40 + 5n <= j <= -28 + 4n and r >= 0) or (16 <= n <= 23 and j <= -47 + 3n and r >= -47 + 3n - j) or (9 <= n <= 10 and j <= -41 + 5n and r >= -41 + 5n - j) or (n <= 5 and j < n and r >= -3 + n - j and r >= 5 - n) or (n >= 7 and -35 + 5n <= j <= 7 and r >= 0 and r >= 39 - 6n + j) or (0 <= j < n and r >= 0 and r >= 46 - 4n + j and 2r <= 42 - 3n + j) or (0 <= j < n and r >= -51 + n - j and r >= 0 and r >= 51 - 2n + j) or (n >= 15 and j >= -46 + 3n and -30 + 2n <= j < n and j <= -43 + 3n and r >= 0)); [n = 2, b = 0, j = 0, r = 1]; [n, b = 1, j = 0, r = 0] : n >= 8 and (n >= 51 or (16 <= n <= 23) or n <= 10); [n, b = 3, j = 0, r = 1] : 6 <= n <= 49 and (n >= 46 or (24 <= n <= 45) or (11 <= n <= 14) or n <= 7); [n = 2, b = 3, j = 0, r = 0]; [n = 5, b = 1, j = 0, r = 0]; [n = 4, b = 0, j, r = 0] : 0 <= j <= 2; [n, b = 2, j = -46 + 3n, r = 1] : 16 <= n <= 23; [n = 4, b = 2, j, r] : 0 <= j <= 4 and 0 <= r <= 1; [n = 2, b = 2, j, r] : j <= 2 and r >= 0 and -j < r <= 1; [n, b = 2, j, r = 1] : (j >= -51 + n and 0 <= j <= n and j <= -49 + 2n) or (7 <= n <= 8 and -26 + 4n <= j <= -24 + 4n); [n, b = 3, j = 0, r = 0] : n >= 8 and (n >= 50 or (15 <= n <= 22) or n <= 9); [n, b = 0, j, r = 1] : 14 <= n <= 20 and -42 + 3n <= j <= -41 + 3n; [n, b = 2, j, r = 0] : j >= -49 + n and 0 <= j <= n and j <= -49 + 2n }",
+      "literal_six_lap_successor_checks": 95
+    }
+  ],
+  "analytic": "Globally least later actual event independently reconstructs the complete successor across copies, zero-count stages and laps. 104 sequential compositions match all three saved mismatch sets; finite mismatch criterion must additionally inspect the canonical cyclic word, so pure LRRL is not mislabeled standard. For a nonempty finite mismatch set, starting a lap after its maximum n is safely beyond all mismatches. This decision concerns actual finite-seed paths only after exact geometry, alternation and finite FirstL have passed.",
+  "scope": "Fixed standard104 target, not arbitrary unknown period or a new nonstandard finite-seed construction."
+}

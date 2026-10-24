@@ -1,0 +1,54 @@
+{
+  "status": "PASS independent disconnected complete color histories and shortest-first-connector obstruction",
+  "note_sha256": "9d723fd38968661a0780649330b756138a70124f4d750bdbb114783bfc1d5c99",
+  "read_classes": 42,
+  "reads": 214,
+  "output_black_classes": 20,
+  "whole_piece_order_bounds": [
+    -1,
+    -2,
+    1
+  ],
+  "endpoints": [
+    [
+      2,
+      12,
+      1
+    ],
+    [
+      2,
+      7,
+      2
+    ],
+    [
+      2,
+      2,
+      1
+    ]
+  ],
+  "H_endpoint_reads": [
+    [
+      32,
+      "R"
+    ],
+    [
+      36,
+      "L"
+    ],
+    [
+      40,
+      "R"
+    ]
+  ],
+  "shortest_connector_lengths": [
+    7,
+    15,
+    20
+  ],
+  "shortest_kinematic_counts": [
+    3,
+    21,
+    126
+  ],
+  "scope": "ONLY sections1\u20133: exact adjacent LR transfer and disconnected H/LR/Q periodic color ownership are valid. A shortest first connector must depart south/R but H endpoint is black, so every shortest triple fails immediately. No longer connector, continuous ant, renewal, finite-seed noncapture, floating flow or solver-only chronology claim."
+}

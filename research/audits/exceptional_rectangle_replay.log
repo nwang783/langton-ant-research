@@ -1,0 +1,584 @@
+{"segment": 0, "type": "finite", "time": [0, 9977], "start": [[0, 0], [0, 0]], "end": [[0, -15], [0, 10]], "heading": 3, "field_point_terms": 719, "field_ray_terms": 0, "new_input_contacts": {}, "wall_seconds": 0.016}
+{"segment": 1, "type": "periods", "time": [104, 10809], "start": [[0, -15], [0, 10]], "end": [[-2, -31], [-2, -6]], "heading": 3, "field_point_terms": 719, "field_ray_terms": 32, "new_input_contacts": {}, "wall_seconds": 0.043}
+{"segment": 2, "type": "finite", "time": [104, 61927], "start": [[-2, -31], [-2, -6]], "end": [[-2, 6], [-2, -43]], "heading": 1, "field_point_terms": 2927, "field_ray_terms": 32, "new_input_contacts": {"q_southwest": [104, 10881]}, "wall_seconds": 2.48}
+{"segment": 3, "type": "periods", "time": [208, 62655], "start": [[-2, 6], [-2, -43]], "end": [[0, 20], [0, -29]], "heading": 1, "field_point_terms": 2927, "field_ray_terms": 64, "new_input_contacts": {}, "wall_seconds": 2.591}
+{"segment": 4, "type": "finite", "time": [208, 70733], "start": [[0, 20], [0, -29]], "end": [[0, -15], [0, 26]], "heading": 1, "field_point_terms": 3251, "field_ray_terms": 64, "new_input_contacts": {}, "one_bit_archive_u": {"lower": -82, "upper": 58, "affine_endpoints": 3376}, "prefix_read_bounds": {"u": {"lower": -82, "upper": 58, "affine_endpoints": 6594}, "z": {"lower": null, "upper": 39, "affine_endpoints": 6594}}, "one_bit_infinite_tail": {"distinct_required_cells": 44, "odd_read_cells": 36, "drift": [-2, 2], "heading": 1}, "wall_seconds": 6.637}
+{"segment": 5, "type": "periods", "time": [312, 71253], "start": [[0, -15], [0, 26]], "end": [[-2, -25], [2, 36]], "heading": 1, "field_point_terms": 3251, "field_ray_terms": 100, "new_input_contacts": {}, "wall_seconds": 6.841}
+{"segment": 6, "type": "finite", "time": [312, 122376], "start": [[-2, -25], [2, 36]], "end": [[-2, -62], [2, 2]], "heading": 2, "field_point_terms": 5462, "field_ray_terms": 100, "new_input_contacts": {"a_northwest": [312, 71330]}, "wall_seconds": 16.457}
+{"segment": 7, "type": "periods", "time": [416, 123104], "start": [[-2, -62], [2, 2]], "end": [[0, -48], [0, -12]], "heading": 2, "field_point_terms": 5462, "field_ray_terms": 132, "new_input_contacts": {}, "wall_seconds": 16.737}
+{"segment": 8, "type": "finite", "time": [416, 146040], "start": [[0, -48], [0, -12]], "end": [[0, 40], [0, -50]], "heading": 2, "field_point_terms": 6920, "field_ray_terms": 132, "new_input_contacts": {}, "two_bit_archive_u": {"lower": null, "upper": 98, "affine_endpoints": 7182}, "prefix_read_bounds": {"u": {"lower": null, "upper": 98, "affine_endpoints": 13821}, "z": {"lower": null, "upper": 71, "affine_endpoints": 13821}}, "two_bit_infinite_tail": {"distinct_required_cells": 44, "odd_read_cells": 36, "drift": [2, -2], "heading": 2}, "wall_seconds": 33.356}
+{"segment": 9, "type": "periods", "time": [520, 143960], "start": [[0, 40], [0, -50]], "end": [[2, 0], [-2, -10]], "heading": 2, "field_point_terms": 6920, "field_ray_terms": 168, "new_input_contacts": {}, "wall_seconds": 33.728}
+{"segment": 10, "type": "finite", "time": [520, 195082], "start": [[2, 0], [-2, -10]], "end": [[2, 37], [-2, 25]], "heading": 0, "field_point_terms": 9130, "field_ray_terms": 168, "new_input_contacts": {"c_southeast": [520, 144036]}, "wall_seconds": 56.873}
+{"segment": 11, "type": "periods", "time": [728, 196642], "start": [[2, 37], [-2, 25]], "end": [[-2, 7], [2, 55]], "heading": 0, "field_point_terms": 9130, "field_ray_terms": 200, "new_input_contacts": {}, "wall_seconds": 57.257}
+{"segment": 12, "type": "finite", "time": [728, 198952], "start": [[-2, 7], [2, 55]], "end": [[-2, -32], [2, 72]], "heading": 0, "field_point_terms": 9282, "field_ray_terms": 200, "new_input_contacts": {}, "wall_seconds": 62.293}
+{"segment": 13, "type": "periods", "time": [728, 200304], "start": [[-2, -32], [2, 72]], "end": [[-2, -58], [2, 98]], "heading": 0, "field_point_terms": 9282, "field_ray_terms": 236, "new_input_contacts": {}, "wall_seconds": 62.771}
+{
+  "status": "proved by exact affine-field read verification",
+  "parameter_minimum": 200,
+  "family": "{-33-2n,8+2n} x {-14-2n,41+2n}",
+  "time": [
+    728,
+    200304
+  ],
+  "tail_pose": [
+    [
+      [
+        -2,
+        -58
+      ],
+      [
+        2,
+        98
+      ]
+    ],
+    0
+  ],
+  "tail": {
+    "distinct_required_cells": 44,
+    "odd_read_cells": 36,
+    "drift": [
+      -2,
+      2
+    ],
+    "heading": 0
+  },
+  "northeast_corner_never_read": true,
+  "initial_cell_first_read_times": {
+    "q_southwest": [
+      104,
+      10881
+    ],
+    "a_northwest": [
+      312,
+      71330
+    ],
+    "c_southeast": [
+      520,
+      144036
+    ]
+  },
+  "statistics": {
+    "finite_read_constraints": 21030,
+    "periodic_read_constraints": 424,
+    "affine_guards": 22010,
+    "excluded_isolated_equalities": 81915689
+  },
+  "segments": [
+    {
+      "segment": 0,
+      "type": "finite",
+      "time": [
+        0,
+        9977
+      ],
+      "start": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "end": [
+        [
+          0,
+          -15
+        ],
+        [
+          0,
+          10
+        ]
+      ],
+      "heading": 3,
+      "field_point_terms": 719,
+      "field_ray_terms": 0,
+      "new_input_contacts": {}
+    },
+    {
+      "segment": 1,
+      "type": "periods",
+      "time": [
+        104,
+        10809
+      ],
+      "start": [
+        [
+          0,
+          -15
+        ],
+        [
+          0,
+          10
+        ]
+      ],
+      "end": [
+        [
+          -2,
+          -31
+        ],
+        [
+          -2,
+          -6
+        ]
+      ],
+      "heading": 3,
+      "field_point_terms": 719,
+      "field_ray_terms": 32,
+      "new_input_contacts": {}
+    },
+    {
+      "segment": 2,
+      "type": "finite",
+      "time": [
+        104,
+        61927
+      ],
+      "start": [
+        [
+          -2,
+          -31
+        ],
+        [
+          -2,
+          -6
+        ]
+      ],
+      "end": [
+        [
+          -2,
+          6
+        ],
+        [
+          -2,
+          -43
+        ]
+      ],
+      "heading": 1,
+      "field_point_terms": 2927,
+      "field_ray_terms": 32,
+      "new_input_contacts": {
+        "q_southwest": [
+          104,
+          10881
+        ]
+      }
+    },
+    {
+      "segment": 3,
+      "type": "periods",
+      "time": [
+        208,
+        62655
+      ],
+      "start": [
+        [
+          -2,
+          6
+        ],
+        [
+          -2,
+          -43
+        ]
+      ],
+      "end": [
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          -29
+        ]
+      ],
+      "heading": 1,
+      "field_point_terms": 2927,
+      "field_ray_terms": 64,
+      "new_input_contacts": {}
+    },
+    {
+      "segment": 4,
+      "type": "finite",
+      "time": [
+        208,
+        70733
+      ],
+      "start": [
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          -29
+        ]
+      ],
+      "end": [
+        [
+          0,
+          -15
+        ],
+        [
+          0,
+          26
+        ]
+      ],
+      "heading": 1,
+      "field_point_terms": 3251,
+      "field_ray_terms": 64,
+      "new_input_contacts": {},
+      "one_bit_archive_u": {
+        "lower": -82,
+        "upper": 58,
+        "affine_endpoints": 3376
+      },
+      "prefix_read_bounds": {
+        "u": {
+          "lower": -82,
+          "upper": 58,
+          "affine_endpoints": 6594
+        },
+        "z": {
+          "lower": null,
+          "upper": 39,
+          "affine_endpoints": 6594
+        }
+      },
+      "one_bit_infinite_tail": {
+        "distinct_required_cells": 44,
+        "odd_read_cells": 36,
+        "drift": [
+          -2,
+          2
+        ],
+        "heading": 1
+      }
+    },
+    {
+      "segment": 5,
+      "type": "periods",
+      "time": [
+        312,
+        71253
+      ],
+      "start": [
+        [
+          0,
+          -15
+        ],
+        [
+          0,
+          26
+        ]
+      ],
+      "end": [
+        [
+          -2,
+          -25
+        ],
+        [
+          2,
+          36
+        ]
+      ],
+      "heading": 1,
+      "field_point_terms": 3251,
+      "field_ray_terms": 100,
+      "new_input_contacts": {}
+    },
+    {
+      "segment": 6,
+      "type": "finite",
+      "time": [
+        312,
+        122376
+      ],
+      "start": [
+        [
+          -2,
+          -25
+        ],
+        [
+          2,
+          36
+        ]
+      ],
+      "end": [
+        [
+          -2,
+          -62
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "heading": 2,
+      "field_point_terms": 5462,
+      "field_ray_terms": 100,
+      "new_input_contacts": {
+        "a_northwest": [
+          312,
+          71330
+        ]
+      }
+    },
+    {
+      "segment": 7,
+      "type": "periods",
+      "time": [
+        416,
+        123104
+      ],
+      "start": [
+        [
+          -2,
+          -62
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "end": [
+        [
+          0,
+          -48
+        ],
+        [
+          0,
+          -12
+        ]
+      ],
+      "heading": 2,
+      "field_point_terms": 5462,
+      "field_ray_terms": 132,
+      "new_input_contacts": {}
+    },
+    {
+      "segment": 8,
+      "type": "finite",
+      "time": [
+        416,
+        146040
+      ],
+      "start": [
+        [
+          0,
+          -48
+        ],
+        [
+          0,
+          -12
+        ]
+      ],
+      "end": [
+        [
+          0,
+          40
+        ],
+        [
+          0,
+          -50
+        ]
+      ],
+      "heading": 2,
+      "field_point_terms": 6920,
+      "field_ray_terms": 132,
+      "new_input_contacts": {},
+      "two_bit_archive_u": {
+        "lower": null,
+        "upper": 98,
+        "affine_endpoints": 7182
+      },
+      "prefix_read_bounds": {
+        "u": {
+          "lower": null,
+          "upper": 98,
+          "affine_endpoints": 13821
+        },
+        "z": {
+          "lower": null,
+          "upper": 71,
+          "affine_endpoints": 13821
+        }
+      },
+      "two_bit_infinite_tail": {
+        "distinct_required_cells": 44,
+        "odd_read_cells": 36,
+        "drift": [
+          2,
+          -2
+        ],
+        "heading": 2
+      }
+    },
+    {
+      "segment": 9,
+      "type": "periods",
+      "time": [
+        520,
+        143960
+      ],
+      "start": [
+        [
+          0,
+          40
+        ],
+        [
+          0,
+          -50
+        ]
+      ],
+      "end": [
+        [
+          2,
+          0
+        ],
+        [
+          -2,
+          -10
+        ]
+      ],
+      "heading": 2,
+      "field_point_terms": 6920,
+      "field_ray_terms": 168,
+      "new_input_contacts": {}
+    },
+    {
+      "segment": 10,
+      "type": "finite",
+      "time": [
+        520,
+        195082
+      ],
+      "start": [
+        [
+          2,
+          0
+        ],
+        [
+          -2,
+          -10
+        ]
+      ],
+      "end": [
+        [
+          2,
+          37
+        ],
+        [
+          -2,
+          25
+        ]
+      ],
+      "heading": 0,
+      "field_point_terms": 9130,
+      "field_ray_terms": 168,
+      "new_input_contacts": {
+        "c_southeast": [
+          520,
+          144036
+        ]
+      }
+    },
+    {
+      "segment": 11,
+      "type": "periods",
+      "time": [
+        728,
+        196642
+      ],
+      "start": [
+        [
+          2,
+          37
+        ],
+        [
+          -2,
+          25
+        ]
+      ],
+      "end": [
+        [
+          -2,
+          7
+        ],
+        [
+          2,
+          55
+        ]
+      ],
+      "heading": 0,
+      "field_point_terms": 9130,
+      "field_ray_terms": 200,
+      "new_input_contacts": {}
+    },
+    {
+      "segment": 12,
+      "type": "finite",
+      "time": [
+        728,
+        198952
+      ],
+      "start": [
+        [
+          -2,
+          7
+        ],
+        [
+          2,
+          55
+        ]
+      ],
+      "end": [
+        [
+          -2,
+          -32
+        ],
+        [
+          2,
+          72
+        ]
+      ],
+      "heading": 0,
+      "field_point_terms": 9282,
+      "field_ray_terms": 200,
+      "new_input_contacts": {}
+    },
+    {
+      "segment": 13,
+      "type": "periods",
+      "time": [
+        728,
+        200304
+      ],
+      "start": [
+        [
+          -2,
+          -32
+        ],
+        [
+          2,
+          72
+        ]
+      ],
+      "end": [
+        [
+          -2,
+          -58
+        ],
+        [
+          2,
+          98
+        ]
+      ],
+      "heading": 0,
+      "field_point_terms": 9282,
+      "field_ray_terms": 236,
+      "new_input_contacts": {}
+    }
+  ],
+  "wall_seconds": 63.308
+}

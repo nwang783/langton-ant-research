@@ -1,0 +1,197 @@
+{
+  "records": [
+    {
+      "schemes": 1,
+      "selected_requirements": {
+        "(-1, -1)": [
+          1,
+          1
+        ],
+        "(-1, 1)": [
+          1,
+          1
+        ],
+        "(1, -1)": [
+          1,
+          1
+        ],
+        "(1, 1)": [
+          1,
+          2
+        ]
+      },
+      "selected_conflicts": {},
+      "selected_black_finite": true,
+      "status": "decided",
+      "possible": true,
+      "position_coverage_exact": true,
+      "candidate_seed": [],
+      "given_seed_validation": {
+        "possible": true,
+        "frame_checks": 4,
+        "nested_root": true,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "seed": []
+      },
+      "seconds": 0.04408299099304713,
+      "name": "identity_0"
+    },
+    {
+      "schemes": 1,
+      "selected_requirements": {
+        "(-1, -1)": [
+          1,
+          1
+        ],
+        "(-1, 1)": [
+          1,
+          1
+        ],
+        "(1, -1)": [
+          1,
+          1
+        ],
+        "(1, 1)": [
+          2,
+          1
+        ]
+      },
+      "selected_conflicts": {},
+      "selected_black_finite": true,
+      "status": "decided",
+      "possible": true,
+      "position_coverage_exact": true,
+      "candidate_seed": [
+        [
+          0,
+          0
+        ]
+      ],
+      "given_seed_validation": {
+        "possible": true,
+        "frame_checks": 4,
+        "nested_root": true,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "seed": [
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "seconds": 0.009148072989773937,
+      "name": "identity_1"
+    },
+    {
+      "schemes": 1,
+      "selected_requirements": {
+        "(-1, -1)": [
+          1,
+          1
+        ],
+        "(-1, 1)": [
+          1,
+          1
+        ],
+        "(1, -1)": [
+          1,
+          1
+        ],
+        "(1, 1)": [
+          1,
+          2
+        ]
+      },
+      "selected_conflicts": {},
+      "selected_black_finite": true,
+      "status": "incomplete cover",
+      "possible": null,
+      "uncovered": {
+        "(1, -1)": {
+          "x": 0,
+          "y": 1
+        },
+        "(1, 1)": {
+          "x": 1,
+          "y": 0
+        }
+      },
+      "seconds": 0.5733552080055233,
+      "name": "R5_incomplete"
+    },
+    {
+      "schemes": 4,
+      "selected_requirements": {
+        "(-1, -1)": [
+          1,
+          1
+        ],
+        "(-1, 1)": [
+          1,
+          1
+        ],
+        "(1, -1)": [
+          1,
+          3
+        ],
+        "(1, 1)": [
+          1,
+          3
+        ]
+      },
+      "selected_conflicts": {},
+      "selected_black_finite": true,
+      "status": "decided",
+      "possible": false,
+      "position_coverage_exact": true,
+      "candidate_seed": [],
+      "given_seed_validation": {
+        "possible": false,
+        "reason": "all-depth frame disagreement",
+        "state": 0,
+        "child_index": 4,
+        "witness": {
+          "r": 0,
+          "x": 0,
+          "y": 0
+        },
+        "frame_checks": 5
+      },
+      "seconds": 2.6808166269911453,
+      "name": "R5_complete_position_cover"
+    },
+    {
+      "schemes": 1,
+      "selected_requirements": {
+        "(-1, -1)": [
+          1,
+          1
+        ],
+        "(-1, 1)": [
+          1,
+          1
+        ],
+        "(1, -1)": [
+          1,
+          1
+        ],
+        "(1, 1)": [
+          7,
+          7
+        ]
+      },
+      "selected_conflicts": {},
+      "selected_black_finite": false,
+      "status": "decided",
+      "possible": false,
+      "reason": "inconsistent or infinite genuine selected requirements",
+      "coverage_required_for_this_negative": false,
+      "seconds": 0.6415715740004089,
+      "name": "nine_partial_infinite_black"
+    }
+  ],
+  "seconds": 3.9672956750000594,
+  "scope": "Integrated unknown-mass/radius decision from supplied exact genuine position covers for arbitrary branching additive-I unit presentations; incomplete covers never imply NO. Partial genuine schemes can independently certify infinite forced fuel. General cover generation not yet integrated."
+}

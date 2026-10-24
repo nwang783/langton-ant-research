@@ -1,0 +1,205 @@
+{
+  "status": "PASS independent rotated local inventories and exact supplier ordinal table",
+  "note_sha256": "f1dabd689180c2e1fce744cae34c84226a1078efd03a99b5b50be40158bc9c38",
+  "flat_q_universe": [
+    [
+      0,
+      0,
+      2
+    ],
+    [
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0
+    ]
+  ],
+  "height_two_q_universe": [
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ]
+  ],
+  "rows": [
+    {
+      "previous": "LEFT",
+      "r": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "north_output_ranks": [
+        1,
+        2,
+        3
+      ],
+      "east_input_ranks": [
+        0,
+        1,
+        3
+      ],
+      "q": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "current_S_rank": 3
+    },
+    {
+      "previous": "STRAIGHT",
+      "r": [
+        3,
+        3,
+        3,
+        1
+      ],
+      "north_output_ranks": [
+        0,
+        2,
+        3
+      ],
+      "east_input_ranks": [
+        3
+      ],
+      "q": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "current_S_rank": 0
+    },
+    {
+      "previous": "RIGHT2",
+      "r": [
+        3,
+        1,
+        3
+      ],
+      "north_output_ranks": [
+        0,
+        1,
+        2
+      ],
+      "east_input_ranks": [
+        1
+      ],
+      "q": [
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "current_S_rank": 2
+    },
+    {
+      "previous": "RIGHT4",
+      "r": [
+        3,
+        3,
+        3,
+        1
+      ],
+      "north_output_ranks": [
+        0,
+        2,
+        3
+      ],
+      "east_input_ranks": [
+        3
+      ],
+      "q": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "current_S_rank": 0
+    },
+    {
+      "previous": "RIGHT5",
+      "r": [
+        3,
+        1,
+        3,
+        3
+      ],
+      "north_output_ranks": [
+        0,
+        1,
+        2
+      ],
+      "east_input_ranks": [
+        1
+      ],
+      "q": [
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "current_S_rank": 2
+    }
+  ],
+  "clock_identities": [
+    "current alpha=T2(A)+2",
+    "R0-current: T2(q)=T3(A)-2",
+    "R2-current: T0(q)=T1(A)-2; T2(q)-T0(q)=T2(A)-T1(A)+4",
+    "L3-current: T2(q)=T0(A)-2; cleanup times alpha-1 through alpha+3"
+  ],
+  "scope": "Complete-white cap4, leftmost branch-free K1 strict-straight local context. Table is necessary, not a realized exterior itinerary or a fuel bound."
+}

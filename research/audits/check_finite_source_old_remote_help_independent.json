@@ -1,0 +1,21 @@
+{
+  "status": "PASS finite-existence old-remote-help bound, with ORIGINAL supplied active cap and no effectiveness claim",
+  "author_note": "a858ddf0a392e5242dbee99e5882db3a0e7a1ea6f65095faf85807953c19711b",
+  "dependencies": {
+    "kernel_cycle_lift_2026-10-24/PRODUCTIVE_RETURN_REMOTE_HELP_TEST_v2.md": "b64ec3398bcdfe34ea458d6df099653817b453ce4367fb22d6159fcc74683f9b",
+    "kernel_cycle_lift_2026-10-24/PRODUCTIVE_RETURN_REMOTE_HELP_TEST_v3.md": "d186f40a3f4b1d15a41b58cdcf2e4a30bcfc6c5ee55584770762331f98a936a4",
+    "active_w_archive_itinerary_2026-10-23/ACTIVE_EPISODES.md": "ad3cb9f07e078bcbaaa02622004f56254b211de2ed238fa2bd031e7d5e3d5721",
+    "audits/check_marked_component_old_cohort_erasure_independent.json": "dd96119ec0f88e45d9a3cb43c66e6c167dba5794b62a07da8af7cd6d5379c1c4"
+  },
+  "definition": "Q_M integer box[-4M,4M]^2; S_M={(complete B subsetQ_M,headingh,markedx inB)}, head0; F(M)=max({0} union finite first-read times of marks).",
+  "ensemble_cardinality": "4N*2^(N-1), N=(8M+1)^2",
+  "conclusion": "If every full active cut from predeparture through marked consuming read is <=M and no cut-d old lifetime outside the original4M box is consumed, c-d<=F(M); including the consuming update costs at mostF(M)+1.",
+  "analytic_review": [
+    "For each fixed M the complete finite ensemble has exactly four times the sum of black subset sizes, 4N2^(N-1). EmptyB contributes no marked state. Each state fixes one deterministic full-plane trajectory with no supplied exterior; its mark has a unique first-read time in the nonnegative integers or infinity. The subset of FINITE such times is finite, regardless whether we can recognize which states supply it. Taking max with0 therefore defines a finite integerF(M).",
+    "The independently signed marked-component localization uses every finecut including predeparture and marked consumption, and allows all intermediate activations/departures. Original marker x stays in the ORIGINAL4M box. Under no old remoteL, deleting exactly the cut-d outside black cells once removes only unread lifetimes and preserves every futureR write and the full physical trace throughc.",
+    "Translation of the departure head to0 and retention of its heading yields an exact S_M state. The marked coordinate is black at cutd and has no read until its consumingLc; no reborn replacement is used. Thus reduced first-read time is EXACTLY c-d, not an arbitrary later return. All previous birth metadata is irrelevant to this deterministic coupling.",
+    "Although active size can fall to Mprime after deletion, the defining board domain remains Q_M and no normalization to Q_Mprime is used. The all-four-headings ensemble also avoids an incorrect fixed-sector rotation/translation constraint.",
+    "Contraposition forces an actual OLD REMOTE L during[d,c] when lag exceedsF(M). Since the marked cell is insideQ_M, this helper consumption cannot be the marked read itself. Unit-speed bounds every head displacement before that read byF(M), while the update count including the finalL isF(M)+1.",
+    "Finite-ensemble cardinality is NOT a computable time bound. The proof supplies no effective recognition of all finite hitting times, no decidability/uncomputability result, no RH16/4 estimate, no bound on unconsumed dormant waits, no total lifetime-age bound, and no attraction or regeneration-rank theorem. Version3s preservation of the original supplied parameter is mandatory."
+  ]
+}

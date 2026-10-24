@@ -1,0 +1,79 @@
+{
+  "scope": "Exact all-charge incidence identity, complete raw word controls only; no all-length ant obstruction.",
+  "per_length": {
+    "1": {
+      "geometric": 8,
+      "internally_legal": 8
+    },
+    "5": {
+      "geometric": 32,
+      "internally_legal": 16
+    },
+    "9": {
+      "geometric": 288,
+      "internally_legal": 56
+    },
+    "13": {
+      "geometric": 3200,
+      "internally_legal": 192
+    }
+  },
+  "total_geometry": 3528,
+  "total_internal_legal": 272,
+  "geometric_single_self_nonzero_offset_controls": [
+    {
+      "word": "RLLLR",
+      "heading": 0,
+      "turn": 1,
+      "A": 0,
+      "B": 1,
+      "z": 0,
+      "legal": false,
+      "self": [
+        [
+          2,
+          [
+            1,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "RLLLR",
+      "heading": 1,
+      "turn": 1,
+      "A": 1,
+      "B": 0,
+      "z": 0,
+      "legal": false,
+      "self": [
+        [
+          2,
+          [
+            1,
+            -1
+          ]
+        ]
+      ]
+    },
+    {
+      "word": "RLLLR",
+      "heading": 2,
+      "turn": 1,
+      "A": 0,
+      "B": 1,
+      "z": 0,
+      "legal": false,
+      "self": [
+        [
+          2,
+          [
+            -1,
+            -1
+          ]
+        ]
+      ]
+    }
+  ]
+}

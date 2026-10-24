@@ -1,0 +1,1178 @@
+[
+  {
+    "assumed": {
+      "U": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "V": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Q": [
+        [
+          -1,
+          0
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -4,
+          3
+        ],
+        [
+          -5,
+          2
+        ],
+        [
+          -5,
+          1
+        ],
+        [
+          -4,
+          0
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -4,
+          -1
+        ],
+        [
+          -4,
+          -3
+        ]
+      ],
+      "B": [
+        [
+          -1,
+          0
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -4,
+          3
+        ],
+        [
+          -5,
+          2
+        ],
+        [
+          -5,
+          1
+        ],
+        [
+          -4,
+          0
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -4,
+          -1
+        ],
+        [
+          -3,
+          -3
+        ],
+        [
+          -2,
+          -3
+        ],
+        [
+          -2,
+          -2
+        ],
+        [
+          -3,
+          -4
+        ]
+      ]
+    },
+    "surviving": {
+      "U": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "V": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Q": [
+        [
+          -1,
+          0
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -5,
+          2
+        ],
+        [
+          -5,
+          1
+        ],
+        [
+          -4,
+          0
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -4,
+          -1
+        ],
+        [
+          -4,
+          -3
+        ]
+      ],
+      "B": [
+        [
+          -1,
+          0
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -5,
+          2
+        ],
+        [
+          -5,
+          1
+        ],
+        [
+          -4,
+          0
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -4,
+          -1
+        ],
+        [
+          -2,
+          -3
+        ],
+        [
+          -2,
+          -2
+        ],
+        [
+          -3,
+          -4
+        ]
+      ]
+    },
+    "results": [
+      {
+        "macro": "U",
+        "site": [
+          -1,
+          0
+        ],
+        "excluded": true,
+        "stdout": "CONFIG U (-1, 0) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 292199 seconds 1.753760814666748\n",
+        "stderr": ""
+      },
+      {
+        "macro": "U",
+        "site": [
+          0,
+          2
+        ],
+        "excluded": false,
+        "stdout": "CONFIG U (0, 2) patch 25 heads 68 sources 36 reentry 30\nCAP 1000026 pending 89262 seconds 5.894952058792114\n",
+        "stderr": ""
+      },
+      {
+        "macro": "U",
+        "site": [
+          -1,
+          2
+        ],
+        "excluded": true,
+        "stdout": "CONFIG U (-1, 2) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 292199 seconds 1.6746668815612793\n",
+        "stderr": ""
+      },
+      {
+        "macro": "U",
+        "site": [
+          -1,
+          1
+        ],
+        "excluded": true,
+        "stdout": "CONFIG U (-1, 1) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 87182 seconds 0.3841366767883301\n",
+        "stderr": ""
+      },
+      {
+        "macro": "U",
+        "site": [
+          0,
+          3
+        ],
+        "excluded": true,
+        "stdout": "CONFIG U (0, 3) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 292199 seconds 1.807772159576416\n",
+        "stderr": ""
+      },
+      {
+        "macro": "V",
+        "site": [
+          1,
+          2
+        ],
+        "excluded": true,
+        "stdout": "CONFIG V (1, 2) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 292199 seconds 1.7698137760162354\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -1,
+          0
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-1, 0) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 292199 seconds 1.6608037948608398\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -2,
+          2
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-2, 2) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 87182 seconds 0.4995386600494385\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -3,
+          2
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-3, 2) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 292199 seconds 1.882659912109375\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -3,
+          1
+        ],
+        "excluded": false,
+        "stdout": "CONFIG Q (-3, 1) patch 25 heads 68 sources 36 reentry 30\nCAP 1000026 pending 89262 seconds 5.904151678085327\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -3,
+          3
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-3, 3) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 87182 seconds 0.5810885429382324\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -4,
+          3
+        ],
+        "excluded": false,
+        "stdout": "CONFIG Q (-4, 3) patch 25 heads 71 sources 42 reentry 33\nABSTRACT WITNESS 86691 seconds 0.3233344554901123 [((-3, 3, 2), 'V'), ((-4, 0, 2), 'Q'), ((0, 4, 0), 'U'), ((0, 8, 0), 'U'), ('OUT', 'OUT'), ((-1, 1, 0), 'V'), ((0, 4, 0), 'U'), ((0, 8, 0), 'U'), ('OUT', 'OUT'), ((0, 0, 0), 'Q')]\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -5,
+          2
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-5, 2) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 292199 seconds 1.9507975578308105\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -5,
+          1
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-5, 1) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 87182 seconds 0.5616054534912109\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -4,
+          0
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-4, 0) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 87182 seconds 0.42092013359069824\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -3,
+          -1
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-3, -1) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 87182 seconds 0.5275826454162598\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -2,
+          -1
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-2, -1) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 292199 seconds 1.4527511596679688\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -4,
+          -1
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-4, -1) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 292199 seconds 1.5586864948272705\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -4,
+          -3
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-4, -3) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 292199 seconds 1.5560600757598877\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -1,
+          0
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-1, 0) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 292199 seconds 1.5225872993469238\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -2,
+          2
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-2, 2) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 87182 seconds 0.505565881729126\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -3,
+          2
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-3, 2) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 292199 seconds 1.8036279678344727\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -3,
+          1
+        ],
+        "excluded": false,
+        "stdout": "CONFIG B (-3, 1) patch 25 heads 68 sources 36 reentry 30\nCAP 1000026 pending 89262 seconds 5.714296817779541\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -3,
+          3
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-3, 3) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 87182 seconds 0.4501957893371582\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -4,
+          3
+        ],
+        "excluded": false,
+        "stdout": "CONFIG B (-4, 3) patch 25 heads 71 sources 42 reentry 33\nABSTRACT WITNESS 86691 seconds 0.41075658798217773 [((-3, 3, 2), 'V'), ((-4, 0, 2), 'Q'), ((0, 4, 0), 'U'), ((0, 8, 0), 'U'), ('OUT', 'OUT'), ((-1, 1, 0), 'V'), ((0, 4, 0), 'U'), ((0, 8, 0), 'U'), ('OUT', 'OUT'), ((0, 0, 0), 'B')]\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -5,
+          2
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-5, 2) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 292199 seconds 1.6209352016448975\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -5,
+          1
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-5, 1) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 87182 seconds 0.5378737449645996\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -4,
+          0
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-4, 0) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 87182 seconds 0.5451760292053223\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -3,
+          -1
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-3, -1) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 87182 seconds 0.5380759239196777\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -2,
+          -1
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-2, -1) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 292199 seconds 1.5135393142700195\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -4,
+          -1
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-4, -1) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 292199 seconds 1.6668000221252441\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -3,
+          -3
+        ],
+        "excluded": false,
+        "stdout": "CONFIG B (-3, -3) patch 25 heads 68 sources 36 reentry 30\nCAP 1000026 pending 89262 seconds 5.875980854034424\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -2,
+          -3
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-2, -3) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 292199 seconds 1.8775205612182617\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -2,
+          -2
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-2, -2) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 87182 seconds 0.5264527797698975\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -3,
+          -4
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-3, -4) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 292199 seconds 1.7795183658599854\n",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "assumed": {
+      "U": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "V": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Q": [
+        [
+          -1,
+          0
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -5,
+          2
+        ],
+        [
+          -5,
+          1
+        ],
+        [
+          -4,
+          0
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -4,
+          -1
+        ],
+        [
+          -4,
+          -3
+        ]
+      ],
+      "B": [
+        [
+          -1,
+          0
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -5,
+          2
+        ],
+        [
+          -5,
+          1
+        ],
+        [
+          -4,
+          0
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -4,
+          -1
+        ],
+        [
+          -2,
+          -3
+        ],
+        [
+          -2,
+          -2
+        ],
+        [
+          -3,
+          -4
+        ]
+      ]
+    },
+    "surviving": {
+      "U": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "V": [
+        [
+          1,
+          2
+        ]
+      ],
+      "Q": [
+        [
+          -1,
+          0
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -5,
+          2
+        ],
+        [
+          -5,
+          1
+        ],
+        [
+          -4,
+          0
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -4,
+          -1
+        ],
+        [
+          -4,
+          -3
+        ]
+      ],
+      "B": [
+        [
+          -1,
+          0
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -5,
+          2
+        ],
+        [
+          -5,
+          1
+        ],
+        [
+          -4,
+          0
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -4,
+          -1
+        ],
+        [
+          -2,
+          -3
+        ],
+        [
+          -2,
+          -2
+        ],
+        [
+          -3,
+          -4
+        ]
+      ]
+    },
+    "results": [
+      {
+        "macro": "U",
+        "site": [
+          -1,
+          0
+        ],
+        "excluded": true,
+        "stdout": "CONFIG U (-1, 0) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 476218 seconds 2.9666919708251953\n",
+        "stderr": ""
+      },
+      {
+        "macro": "U",
+        "site": [
+          -1,
+          2
+        ],
+        "excluded": true,
+        "stdout": "CONFIG U (-1, 2) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 476218 seconds 2.938070058822632\n",
+        "stderr": ""
+      },
+      {
+        "macro": "U",
+        "site": [
+          -1,
+          1
+        ],
+        "excluded": true,
+        "stdout": "CONFIG U (-1, 1) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 131896 seconds 0.8278772830963135\n",
+        "stderr": ""
+      },
+      {
+        "macro": "U",
+        "site": [
+          0,
+          3
+        ],
+        "excluded": true,
+        "stdout": "CONFIG U (0, 3) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 476218 seconds 3.012118339538574\n",
+        "stderr": ""
+      },
+      {
+        "macro": "V",
+        "site": [
+          1,
+          2
+        ],
+        "excluded": true,
+        "stdout": "CONFIG V (1, 2) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 476218 seconds 3.006239414215088\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -1,
+          0
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-1, 0) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 476218 seconds 3.108485698699951\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -2,
+          2
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-2, 2) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 131896 seconds 0.8249721527099609\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -3,
+          2
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-3, 2) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 476218 seconds 3.042447328567505\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -3,
+          3
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-3, 3) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 131896 seconds 0.7667560577392578\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -5,
+          2
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-5, 2) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 476218 seconds 2.79398512840271\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -5,
+          1
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-5, 1) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 131896 seconds 0.6118934154510498\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -4,
+          0
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-4, 0) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 131896 seconds 0.7429599761962891\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -3,
+          -1
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-3, -1) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 131896 seconds 0.8477551937103271\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -2,
+          -1
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-2, -1) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 476218 seconds 2.423948049545288\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -4,
+          -1
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-4, -1) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 476218 seconds 3.073225259780884\n",
+        "stderr": ""
+      },
+      {
+        "macro": "Q",
+        "site": [
+          -4,
+          -3
+        ],
+        "excluded": true,
+        "stdout": "CONFIG Q (-4, -3) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 476218 seconds 3.0563390254974365\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -1,
+          0
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-1, 0) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 476218 seconds 3.0685389041900635\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -2,
+          2
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-2, 2) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 131896 seconds 0.7954397201538086\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -3,
+          2
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-3, 2) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 476218 seconds 2.9300127029418945\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -3,
+          3
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-3, 3) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 131896 seconds 0.6718361377716064\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -5,
+          2
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-5, 2) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 476218 seconds 2.938737392425537\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -5,
+          1
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-5, 1) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 131896 seconds 0.7518203258514404\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -4,
+          0
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-4, 0) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 131896 seconds 0.6872818470001221\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -3,
+          -1
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-3, -1) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 131896 seconds 0.7442512512207031\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -2,
+          -1
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-2, -1) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 476218 seconds 2.743439197540283\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -4,
+          -1
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-4, -1) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 476218 seconds 2.840963840484619\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -2,
+          -3
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-2, -3) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 476218 seconds 2.884554147720337\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -2,
+          -2
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-2, -2) patch 25 heads 72 sources 32 reentry 34\nEXCLUDED 131896 seconds 0.7731270790100098\n",
+        "stderr": ""
+      },
+      {
+        "macro": "B",
+        "site": [
+          -3,
+          -4
+        ],
+        "excluded": true,
+        "stdout": "CONFIG B (-3, -4) patch 25 heads 71 sources 42 reentry 33\nEXCLUDED 476218 seconds 2.9998629093170166\n",
+        "stderr": ""
+      }
+    ]
+  }
+]

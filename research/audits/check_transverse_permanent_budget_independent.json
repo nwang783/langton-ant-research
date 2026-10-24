@@ -1,0 +1,60 @@
+{
+  "status": "PASS all-parameter exact transverse-family relevant stock, actual permanent production, and return radius",
+  "manifest_sha256": "36ea5f3665cdd802c6f8284e59f7d3ac83fa7b468cc4a6b5a94da58cbae0da71",
+  "script_sha256": "fe36f9b044fe1abf49ae99fc1910357ec07f5b849b9d59eb108a0aca05100278",
+  "main_audit_sha256": "bf83ce128193b45d09de46f67bfd94f0261d24fec94173c44a5ef3322afbc377",
+  "birth_cut_partition": [
+    12,
+    19,
+    191
+  ],
+  "birth_cut_relevant": 222,
+  "predeath_relevant": 285,
+  "periodic_output_classes": 12,
+  "independent_phase72_cuts": [
+    254,
+    358,
+    462
+  ],
+  "phase72_latest_first_read": 112,
+  "upper_affine_extrema": 3618,
+  "controls": [
+    {
+      "n": 20,
+      "birth_cut_relevant": 222,
+      "predeath_relevant": 285,
+      "peak_relevant": 254,
+      "actual_permanent_births": 1286,
+      "exact_radius": 116,
+      "entire_normalized_relevant_field_equal": true,
+      "all_future_tests": 170
+    },
+    {
+      "n": 40,
+      "birth_cut_relevant": 222,
+      "predeath_relevant": 285,
+      "peak_relevant": 254,
+      "actual_permanent_births": 2726,
+      "exact_radius": 236,
+      "entire_normalized_relevant_field_equal": true,
+      "all_future_tests": 170
+    },
+    {
+      "n": 80,
+      "birth_cut_relevant": 222,
+      "predeath_relevant": 285,
+      "peak_relevant": 254,
+      "actual_permanent_births": 5606,
+      "exact_radius": 476,
+      "entire_normalized_relevant_field_equal": true,
+      "all_future_tests": 170
+    }
+  ],
+  "analytic_review": [
+    "Future-relevant current positions are exactly future first-L cells. Hence equal future word and pose give an exact translated pruned field, not an assumption of equal birth timestamps. Three independent phase72 comparisons each give19 current future inputs all read by112; the first remote port is208n-115 updates away.",
+    "Twelve remote initial lifetimes are distinct and consumed in their own first59 reads. The other reference-current cells are either one of19 near-future inputs, finite launch permanent residue, or a genuinely permanent periodic-output class. Launch residue is outside protected Omega for allk>=10. The complete12-class/finite-Omega matching yields exactly191 already-born actual protected-future inputs; required copy indices exist already at k10. No cross-stage read can retire these identities beforec by the signed complete-read separators.",
+    "At predeathc the entire normalized330-cell protected field is exact and all exterior is never read; its independently computed finite fates give the same285-cell entire relevant field for everyparameter. Full mass balances then imply actual new permanent birthsP=72n-154 on[b+1,c), not template-predicted wake or total final permanent stock.",
+    "Fresh3618 affine upper extrema and signed lower extrema give radius<=6n-4; actual stage1 phase56 at time468n-455 gives equality. The named fullboards independently check all relevance partitions, complete fields, permanent lifetimes and infinite futures.",
+    "Identical normalized current relevant field determines the same future word, but does not bound the past returning lifetime age or permanent physical production uniformly across finite seeds. Every member captures; no contradiction to one-time deletion coupling, eventual per-orbit bounded age, or global attraction is asserted."
+  ]
+}

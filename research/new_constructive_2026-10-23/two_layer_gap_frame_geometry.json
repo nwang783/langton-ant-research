@@ -1,0 +1,21 @@
+{
+  "status": "EXACT all-r,k complete outer ownership PASS",
+  "domain": "r>=0,k>=0",
+  "initial": "K=I(r,k) UNION (I(r,k+2)+(0,2))",
+  "target": "K(r,k+2)+(0,2)",
+  "initial_mass": "16r+8k+8",
+  "target_mass": "16r+8k+24",
+  "first_word": "((LRRL)^r (RL)^k R)^4",
+  "first_complete_output": "I(r,k+1)+(0,1) UNION I(r,k+2)+(0,2)",
+  "outer_disjoint_entire_first_read_set": true,
+  "initial_sector": 1,
+  "target_sector": 1,
+  "target_pose": [
+    [
+      0,
+      2
+    ],
+    1
+  ],
+  "scope": "One explicit two-layer moving-endpoint frame candidate, no cap/parameter scan.\nFirst prove outer-frame ownership for all r,k, then one r=k10 natural orbit.\n"
+}

@@ -1,0 +1,377 @@
+{
+  "status": "PASS no first-foreign RAW original-U-star effect at C ages3/4",
+  "manifest_sha256": "9fdbb997d06af051d91b8e907df8dbfe175dfd34d8e8b70a7b74a78278bc887b",
+  "role_counts": {
+    "2": {
+      "sector": 18,
+      "held_star": 19,
+      "strict_earlier_same_cell_residual": 1
+    },
+    "1": {
+      "held_star": 18,
+      "sector": 20
+    },
+    "0": {
+      "sector": 16,
+      "held_star": 12,
+      "N_endpoint_y_at_least2": 4
+    }
+  },
+  "gates": [
+    {
+      "pose": [
+        "F",
+        -2,
+        -5,
+        1
+      ],
+      "guard_inputs": [
+        [
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "F",
+        -3,
+        -4,
+        1
+      ],
+      "guard_inputs": [
+        [
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "F",
+        3,
+        -3,
+        0
+      ],
+      "guard_inputs": [
+        [
+          0,
+          -1
+        ],
+        [
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "F",
+        2,
+        -2,
+        0
+      ],
+      "guard_inputs": [
+        [
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "F",
+        -2,
+        -1,
+        1
+      ],
+      "guard_inputs": [
+        [
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "F",
+        -3,
+        -2,
+        1
+      ],
+      "guard_inputs": [
+        [
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "F",
+        0,
+        -5,
+        1
+      ],
+      "guard_inputs": [
+        [
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "F",
+        5,
+        -3,
+        0
+      ],
+      "guard_inputs": [
+        [
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "Q",
+        -2,
+        -5,
+        1
+      ],
+      "guard_inputs": [
+        [
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "Q",
+        -3,
+        -4,
+        1
+      ],
+      "guard_inputs": [
+        [
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "Q",
+        3,
+        -3,
+        0
+      ],
+      "guard_inputs": [
+        [
+          0,
+          -1
+        ],
+        [
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "Q",
+        2,
+        -2,
+        0
+      ],
+      "guard_inputs": [
+        [
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "Q",
+        -2,
+        -1,
+        1
+      ],
+      "guard_inputs": [
+        [
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "Q",
+        -3,
+        -2,
+        1
+      ],
+      "guard_inputs": [
+        [
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "Q",
+        0,
+        -5,
+        1
+      ],
+      "guard_inputs": [
+        [
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "Q",
+        5,
+        -3,
+        0
+      ],
+      "guard_inputs": [
+        [
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "B",
+        -2,
+        -5,
+        1
+      ],
+      "guard_inputs": [
+        [
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "B",
+        -3,
+        -4,
+        1
+      ],
+      "guard_inputs": [
+        [
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "B",
+        3,
+        -3,
+        0
+      ],
+      "guard_inputs": [
+        [
+          0,
+          -1
+        ],
+        [
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "B",
+        2,
+        -2,
+        0
+      ],
+      "guard_inputs": [
+        [
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "B",
+        -2,
+        -1,
+        1
+      ],
+      "guard_inputs": [
+        [
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "B",
+        -3,
+        -2,
+        1
+      ],
+      "guard_inputs": [
+        [
+          -1,
+          0
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "B",
+        0,
+        -5,
+        1
+      ],
+      "guard_inputs": [
+        [
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "pose": [
+        "B",
+        5,
+        -3,
+        0
+      ],
+      "guard_inputs": [
+        [
+          0,
+          -1
+        ]
+      ]
+    }
+  ],
+  "analytic": [
+    "Both guarded cells were actually deleted by creating U. Any later current residual outside active core must arise through a genuine subsequent net-output event, not untouched entry stock or mere transient core occupancy. Literal N-y and W-H cones exclude all origins through the first two C increments, including actual internal source tails.",
+    "At S phase the only unblocked output role is U(-2,2,S) recycled q at physical c=(-1,0). Its same physical cell is a true residual INPUT readL13 before outputR21. Earliest new residual rebirth therefore cannot be this role. This is a well-founded finite-history descent, not a claim that the physical cell remains white during all fine steps. E phase has no role, including actual C4 outputs.",
+    "All15 E RAW-erosion gates require one of these cells as a black residual input. At age4 only plain N D/V/U output producers can finish before foreign; all4 unblocked roles finish at y>=2, while all9 N RAW gates have negative y. N zero-C motion cannot lower y. Positive-C source tails overshoot the actual full foreign entry and are not ignored.",
+    "Combining separately signed ages0..2 and marker lower clocks gives necessary source-entry C age>=5 for any first-foreign original-star RAW retirement or marker-only absorption. This is not attainment at5, an all-age erosion exclusion, or postforeign permanence."
+  ],
+  "scope": "Genuine U/UC/UCC creator, uninterrupted actual complete8 history to its FIRST foreign. No first-center-contact premise, age scan, global seven-word budget or capture."
+}

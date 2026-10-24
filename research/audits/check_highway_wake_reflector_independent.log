@@ -1,0 +1,50 @@
+complete parametric seeds, approach, collision guards and XOR PASS 4.120057523003197
+{
+  "status": "PASS independent whole-board all n,m>=30 and all future tail reads; exact322-cell scatterer pruning",
+  "candidate_sha256": "f402d8c6b0fbfdcf7321bc988c6c3087a53e44f8cc77d5b12f1e2a9e027fd527",
+  "collision_word_sha256": "cdf96ff8bbc2c508060100fb8fc06706c7aec46983225dbbbda57d17d916b756",
+  "collision_read_cells": 2416,
+  "collision_xor_cells": 1260,
+  "all_tail_ordered_pairs_including_self": 10816,
+  "nonempty_prior_relations": 262,
+  "erased_old_black": 152,
+  "changed_old_strip_cells": 298,
+  "mirror_cells": 322,
+  "mirror_total_initial_mass": 335,
+  "tail_start_time": "104*m+18832",
+  "tail_pose": [
+    -31,
+    -10,
+    "N"
+  ],
+  "tail_drift": [
+    -2,
+    2
+  ],
+  "same_pose_sector": 1,
+  "controls": [
+    {
+      "n": 30,
+      "m": 30,
+      "tail_periods": 100,
+      "complete_initial_mass": 746,
+      "reduced_initial_mass": 335
+    },
+    {
+      "n": 30,
+      "m": 80,
+      "tail_periods": 100,
+      "complete_initial_mass": 746,
+      "reduced_initial_mass": 335
+    },
+    {
+      "n": 80,
+      "m": 30,
+      "tail_periods": 100,
+      "complete_initial_mass": 1946,
+      "reduced_initial_mass": 335
+    }
+  ],
+  "seconds": 10.552256213995861,
+  "scope": "One-shot finite prepared-wake/scatterer family only. Old guard is damaged; no renewable mirror, compound preparation path or noncapture model."
+}

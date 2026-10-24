@@ -1,0 +1,1393 @@
+{
+  "status": "AUTHOR_PENDING_INDEPENDENT_AUDIT",
+  "scope": "Reader-independent D15 F(2,-5,E) impossible at selectedDclock3 when actual first C1 of genuine DC/VC parent is followed by one N plainV before selectedD(D/DC). Sequential current TthenQ prevents either actual lastV/U entrycore. No returned-reader premise, no postforeign maturity or source-free raw-C/foreign shortcut.",
+  "exact_older_C_V_rail_cohort_interface": [
+    {
+      "case": "single_V_run",
+      "actual_prior_DC_VC_choices": [
+        {
+          "full_packet": "DC",
+          "entry": [
+            -3,
+            -2,
+            1
+          ],
+          "C1_entry": [
+            -2,
+            -3,
+            1
+          ],
+          "C1_exit": [
+            -1,
+            -3,
+            0
+          ],
+          "full_source_entry_C_clock": -1,
+          "C1_entry_C_clock": -1,
+          "C1_exit_C_clock": 0
+        },
+        {
+          "full_packet": "VC",
+          "entry": [
+            -5,
+            -2,
+            1
+          ],
+          "C1_entry": [
+            -2,
+            -3,
+            1
+          ],
+          "C1_exit": [
+            -1,
+            -3,
+            0
+          ],
+          "full_source_entry_C_clock": -1,
+          "C1_entry_C_clock": -1,
+          "C1_exit_C_clock": 0
+        }
+      ],
+      "actual_following_N_run": "V",
+      "selected_D_entry": [
+        0,
+        0,
+        0
+      ],
+      "foreign": [
+        2,
+        -5,
+        1
+      ],
+      "genuine_first_C_cohort": {
+        "T": [
+          -2,
+          -5
+        ],
+        "Q": [
+          -1,
+          -5
+        ],
+        "exitbud": [
+          0,
+          -4
+        ]
+      },
+      "first_consumer_clock_bounds": {
+        "T": "at least selectedDclock2, atomic ENTRY maturity3",
+        "Q": "at least selectedDclock1, full-produced minimum2",
+        "exitbud": "at least selectedDclock3, actual C EXIT maturity3"
+      },
+      "proved_CURRENT_at_foreign": [
+        [
+          -2,
+          -5
+        ],
+        [
+          -1,
+          -5
+        ]
+      ],
+      "returned_reader_NOT_USED": true
+    }
+  ],
+  "all23_complete8_input_minima": [
+    {
+      "packet": "D",
+      "slot": [
+        0,
+        1
+      ],
+      "certified_minimum": 3
+    },
+    {
+      "packet": "DC",
+      "slot": [
+        0,
+        1
+      ],
+      "certified_minimum": 3
+    },
+    {
+      "packet": "V",
+      "slot": [
+        0,
+        3
+      ],
+      "certified_minimum": 2
+    },
+    {
+      "packet": "V",
+      "slot": [
+        1,
+        2
+      ],
+      "certified_minimum": 3
+    },
+    {
+      "packet": "VC",
+      "slot": [
+        0,
+        3
+      ],
+      "certified_minimum": 2
+    },
+    {
+      "packet": "VC",
+      "slot": [
+        1,
+        2
+      ],
+      "certified_minimum": 3
+    },
+    {
+      "packet": "VCC",
+      "slot": [
+        0,
+        3
+      ],
+      "certified_minimum": 5
+    },
+    {
+      "packet": "VCC",
+      "slot": [
+        1,
+        2
+      ],
+      "certified_minimum": 5
+    },
+    {
+      "packet": "U",
+      "slot": [
+        -1,
+        1
+      ],
+      "certified_minimum": 3
+    },
+    {
+      "packet": "U",
+      "slot": [
+        -1,
+        2
+      ],
+      "certified_minimum": 3
+    },
+    {
+      "packet": "U",
+      "slot": [
+        -1,
+        4
+      ],
+      "certified_minimum": 5
+    },
+    {
+      "packet": "U",
+      "slot": [
+        0,
+        2
+      ],
+      "certified_minimum": 5
+    },
+    {
+      "packet": "U",
+      "slot": [
+        0,
+        3
+      ],
+      "certified_minimum": 5
+    },
+    {
+      "packet": "UC",
+      "slot": [
+        -1,
+        1
+      ],
+      "certified_minimum": 3
+    },
+    {
+      "packet": "UC",
+      "slot": [
+        -1,
+        2
+      ],
+      "certified_minimum": 3
+    },
+    {
+      "packet": "UC",
+      "slot": [
+        -1,
+        4
+      ],
+      "certified_minimum": 5
+    },
+    {
+      "packet": "UC",
+      "slot": [
+        0,
+        2
+      ],
+      "certified_minimum": 5
+    },
+    {
+      "packet": "UC",
+      "slot": [
+        0,
+        3
+      ],
+      "certified_minimum": 5
+    },
+    {
+      "packet": "UCC",
+      "slot": [
+        -1,
+        1
+      ],
+      "certified_minimum": 3
+    },
+    {
+      "packet": "UCC",
+      "slot": [
+        -1,
+        2
+      ],
+      "certified_minimum": 3
+    },
+    {
+      "packet": "UCC",
+      "slot": [
+        -1,
+        4
+      ],
+      "certified_minimum": 5
+    },
+    {
+      "packet": "UCC",
+      "slot": [
+        0,
+        2
+      ],
+      "certified_minimum": 5
+    },
+    {
+      "packet": "UCC",
+      "slot": [
+        0,
+        3
+      ],
+      "certified_minimum": 5
+    }
+  ],
+  "five_COMPLETE_old_C_tail_to_F_conflicts": [
+    {
+      "full_old_packet": "DC",
+      "foreign": "F",
+      "literal_conflict": {
+        "feasible": false,
+        "tick0": 41,
+        "cell": [
+          -1,
+          0
+        ],
+        "first_read": [
+          1,
+          "L"
+        ]
+      }
+    },
+    {
+      "full_old_packet": "VC",
+      "foreign": "F",
+      "literal_conflict": {
+        "feasible": false,
+        "tick0": 70,
+        "cell": [
+          -1,
+          -1
+        ],
+        "first_read": [
+          2,
+          "L"
+        ]
+      }
+    },
+    {
+      "full_old_packet": "VCC",
+      "foreign": "F",
+      "literal_conflict": {
+        "feasible": false,
+        "tick0": 60,
+        "cell": [
+          0,
+          2
+        ],
+        "first_read": [
+          12,
+          "R"
+        ]
+      }
+    },
+    {
+      "full_old_packet": "UC",
+      "foreign": "F",
+      "literal_conflict": {
+        "feasible": false,
+        "tick0": 81,
+        "cell": [
+          -1,
+          0
+        ],
+        "first_read": [
+          1,
+          "L"
+        ]
+      }
+    },
+    {
+      "full_old_packet": "UCC",
+      "foreign": "F",
+      "literal_conflict": {
+        "feasible": false,
+        "tick0": 70,
+        "cell": [
+          -1,
+          3
+        ],
+        "first_read": [
+          22,
+          "R"
+        ]
+      }
+    }
+  ],
+  "atomic_C_to_U_conflict": {
+    "feasible": false,
+    "tick0": 29,
+    "cell": [
+      -1,
+      0
+    ],
+    "first_read": [
+      1,
+      "L"
+    ]
+  },
+  "standalone_raw_C_to_F_negative_scope_control": {
+    "literally_feasible": true,
+    "warning": "RawC+F is feasible; only the five completeG8 parent-tail conflicts justify no immediateF after actual lastC3."
+  },
+  "all16_S2_consumer_vertical_budget_obligations": [
+    {
+      "case": "single_V_run",
+      "tag_label": "T",
+      "tag": [
+        -2,
+        -5
+      ],
+      "consumer_base": "D",
+      "input_slot": [
+        0,
+        1
+      ],
+      "entry": [
+        -2,
+        -4,
+        2
+      ],
+      "S_base_exit": [
+        -3,
+        -5
+      ],
+      "maximum_possible_foreign_y": -7,
+      "required_foreign_y": -5,
+      "why": "one remaining S-to-E C plus mandatory first E D/V"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "T",
+      "tag": [
+        -2,
+        -5
+      ],
+      "consumer_base": "V",
+      "input_slot": [
+        0,
+        3
+      ],
+      "entry": [
+        -2,
+        -2,
+        2
+      ],
+      "S_base_exit": [
+        -3,
+        -5
+      ],
+      "maximum_possible_foreign_y": -7,
+      "required_foreign_y": -5,
+      "why": "one remaining S-to-E C plus mandatory first E D/V"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "T",
+      "tag": [
+        -2,
+        -5
+      ],
+      "consumer_base": "V",
+      "input_slot": [
+        1,
+        2
+      ],
+      "entry": [
+        -1,
+        -3,
+        2
+      ],
+      "S_base_exit": [
+        -2,
+        -6
+      ],
+      "maximum_possible_foreign_y": -8,
+      "required_foreign_y": -5,
+      "why": "one remaining S-to-E C plus mandatory first E D/V"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "T",
+      "tag": [
+        -2,
+        -5
+      ],
+      "consumer_base": "U",
+      "input_slot": [
+        -1,
+        1
+      ],
+      "entry": [
+        -3,
+        -4,
+        2
+      ],
+      "S_base_exit": [
+        -3,
+        -8
+      ],
+      "maximum_possible_foreign_y": -10,
+      "required_foreign_y": -5,
+      "why": "one remaining S-to-E C plus mandatory first E D/V"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "T",
+      "tag": [
+        -2,
+        -5
+      ],
+      "consumer_base": "U",
+      "input_slot": [
+        -1,
+        2
+      ],
+      "entry": [
+        -3,
+        -3,
+        2
+      ],
+      "S_base_exit": [
+        -3,
+        -7
+      ],
+      "maximum_possible_foreign_y": -9,
+      "required_foreign_y": -5,
+      "why": "one remaining S-to-E C plus mandatory first E D/V"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "T",
+      "tag": [
+        -2,
+        -5
+      ],
+      "consumer_base": "U",
+      "input_slot": [
+        -1,
+        4
+      ],
+      "entry": [
+        -3,
+        -1,
+        2
+      ],
+      "S_base_exit": [
+        -3,
+        -5
+      ],
+      "maximum_possible_foreign_y": -7,
+      "required_foreign_y": -5,
+      "why": "one remaining S-to-E C plus mandatory first E D/V"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "T",
+      "tag": [
+        -2,
+        -5
+      ],
+      "consumer_base": "U",
+      "input_slot": [
+        0,
+        2
+      ],
+      "entry": [
+        -2,
+        -3,
+        2
+      ],
+      "S_base_exit": [
+        -2,
+        -7
+      ],
+      "maximum_possible_foreign_y": -9,
+      "required_foreign_y": -5,
+      "why": "one remaining S-to-E C plus mandatory first E D/V"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "T",
+      "tag": [
+        -2,
+        -5
+      ],
+      "consumer_base": "U",
+      "input_slot": [
+        0,
+        3
+      ],
+      "entry": [
+        -2,
+        -2,
+        2
+      ],
+      "S_base_exit": [
+        -2,
+        -6
+      ],
+      "maximum_possible_foreign_y": -8,
+      "required_foreign_y": -5,
+      "why": "one remaining S-to-E C plus mandatory first E D/V"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "Q",
+      "tag": [
+        -1,
+        -5
+      ],
+      "consumer_base": "D",
+      "input_slot": [
+        0,
+        1
+      ],
+      "entry": [
+        -1,
+        -4,
+        2
+      ],
+      "S_base_exit": [
+        -2,
+        -5
+      ],
+      "maximum_possible_foreign_y": -7,
+      "required_foreign_y": -5,
+      "why": "one remaining S-to-E C plus mandatory first E D/V"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "Q",
+      "tag": [
+        -1,
+        -5
+      ],
+      "consumer_base": "V",
+      "input_slot": [
+        0,
+        3
+      ],
+      "entry": [
+        -1,
+        -2,
+        2
+      ],
+      "S_base_exit": [
+        -2,
+        -5
+      ],
+      "maximum_possible_foreign_y": -7,
+      "required_foreign_y": -5,
+      "why": "one remaining S-to-E C plus mandatory first E D/V"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "Q",
+      "tag": [
+        -1,
+        -5
+      ],
+      "consumer_base": "V",
+      "input_slot": [
+        1,
+        2
+      ],
+      "entry": [
+        0,
+        -3,
+        2
+      ],
+      "S_base_exit": [
+        -1,
+        -6
+      ],
+      "maximum_possible_foreign_y": -8,
+      "required_foreign_y": -5,
+      "why": "one remaining S-to-E C plus mandatory first E D/V"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "Q",
+      "tag": [
+        -1,
+        -5
+      ],
+      "consumer_base": "U",
+      "input_slot": [
+        -1,
+        1
+      ],
+      "entry": [
+        -2,
+        -4,
+        2
+      ],
+      "S_base_exit": [
+        -2,
+        -8
+      ],
+      "maximum_possible_foreign_y": -10,
+      "required_foreign_y": -5,
+      "why": "one remaining S-to-E C plus mandatory first E D/V"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "Q",
+      "tag": [
+        -1,
+        -5
+      ],
+      "consumer_base": "U",
+      "input_slot": [
+        -1,
+        2
+      ],
+      "entry": [
+        -2,
+        -3,
+        2
+      ],
+      "S_base_exit": [
+        -2,
+        -7
+      ],
+      "maximum_possible_foreign_y": -9,
+      "required_foreign_y": -5,
+      "why": "one remaining S-to-E C plus mandatory first E D/V"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "Q",
+      "tag": [
+        -1,
+        -5
+      ],
+      "consumer_base": "U",
+      "input_slot": [
+        -1,
+        4
+      ],
+      "entry": [
+        -2,
+        -1,
+        2
+      ],
+      "S_base_exit": [
+        -2,
+        -5
+      ],
+      "maximum_possible_foreign_y": -7,
+      "required_foreign_y": -5,
+      "why": "one remaining S-to-E C plus mandatory first E D/V"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "Q",
+      "tag": [
+        -1,
+        -5
+      ],
+      "consumer_base": "U",
+      "input_slot": [
+        0,
+        2
+      ],
+      "entry": [
+        -1,
+        -3,
+        2
+      ],
+      "S_base_exit": [
+        -1,
+        -7
+      ],
+      "maximum_possible_foreign_y": -9,
+      "required_foreign_y": -5,
+      "why": "one remaining S-to-E C plus mandatory first E D/V"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "Q",
+      "tag": [
+        -1,
+        -5
+      ],
+      "consumer_base": "U",
+      "input_slot": [
+        0,
+        3
+      ],
+      "entry": [
+        -1,
+        -2,
+        2
+      ],
+      "S_base_exit": [
+        -1,
+        -6
+      ],
+      "maximum_possible_foreign_y": -8,
+      "required_foreign_y": -5,
+      "why": "one remaining S-to-E C plus mandatory first E D/V"
+    }
+  ],
+  "all2_Q_age2_W_consumer_cone_failures": [
+    {
+      "case": "single_V_run",
+      "tag": [
+        -1,
+        -5
+      ],
+      "consumer": "V",
+      "slot": [
+        0,
+        3
+      ],
+      "pose": [
+        2,
+        -5,
+        3
+      ],
+      "source_full_age": 2,
+      "selected_D_clock": 1,
+      "why": "W1 heads after selectedD have y>=2"
+    },
+    {
+      "case": "single_V_run",
+      "tag": [
+        -1,
+        -5
+      ],
+      "consumer": "VC",
+      "slot": [
+        0,
+        3
+      ],
+      "pose": [
+        2,
+        -5,
+        3
+      ],
+      "source_full_age": 2,
+      "selected_D_clock": 1,
+      "why": "W1 heads after selectedD have y>=2"
+    }
+  ],
+  "all16_E3_hierarchical_current_cohort_roles": [
+    {
+      "case": "single_V_run",
+      "tag_label": "T",
+      "tag": [
+        -2,
+        -5
+      ],
+      "prior_CURRENT_tags": [],
+      "consumer": "D",
+      "input_slot": [
+        0,
+        1
+      ],
+      "full_input_minimum": 3,
+      "consumer_entry": [
+        -3,
+        -5,
+        1
+      ],
+      "endpoint": [
+        -2,
+        -6
+      ],
+      "current_contacts": [],
+      "E_run_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "T",
+      "tag": [
+        -2,
+        -5
+      ],
+      "prior_CURRENT_tags": [],
+      "consumer": "V",
+      "input_slot": [
+        0,
+        3
+      ],
+      "full_input_minimum": 2,
+      "consumer_entry": [
+        -5,
+        -5,
+        1
+      ],
+      "endpoint": [
+        -2,
+        -6
+      ],
+      "current_contacts": [],
+      "E_run_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "T",
+      "tag": [
+        -2,
+        -5
+      ],
+      "prior_CURRENT_tags": [],
+      "consumer": "V",
+      "input_slot": [
+        1,
+        2
+      ],
+      "full_input_minimum": 3,
+      "consumer_entry": [
+        -4,
+        -4,
+        1
+      ],
+      "endpoint": [
+        -1,
+        -5
+      ],
+      "current_contacts": [],
+      "E_run_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "T",
+      "tag": [
+        -2,
+        -5
+      ],
+      "prior_CURRENT_tags": [],
+      "consumer": "U",
+      "input_slot": [
+        -1,
+        1
+      ],
+      "full_input_minimum": 3,
+      "consumer_entry": [
+        -3,
+        -6,
+        1
+      ],
+      "endpoint": [
+        1,
+        -6
+      ],
+      "current_contacts": [],
+      "E_run_solutions": [],
+      "reason": "no_exact_E_zero_run_endpoint_with_actual_last_V_U"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "T",
+      "tag": [
+        -2,
+        -5
+      ],
+      "prior_CURRENT_tags": [],
+      "consumer": "U",
+      "input_slot": [
+        -1,
+        2
+      ],
+      "full_input_minimum": 3,
+      "consumer_entry": [
+        -4,
+        -6,
+        1
+      ],
+      "endpoint": [
+        0,
+        -6
+      ],
+      "current_contacts": [],
+      "E_run_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "T",
+      "tag": [
+        -2,
+        -5
+      ],
+      "prior_CURRENT_tags": [],
+      "consumer": "U",
+      "input_slot": [
+        -1,
+        4
+      ],
+      "full_input_minimum": 5,
+      "consumer_entry": [
+        -6,
+        -6,
+        1
+      ],
+      "endpoint": [
+        -2,
+        -6
+      ],
+      "current_contacts": [],
+      "E_run_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "T",
+      "tag": [
+        -2,
+        -5
+      ],
+      "prior_CURRENT_tags": [],
+      "consumer": "U",
+      "input_slot": [
+        0,
+        2
+      ],
+      "full_input_minimum": 5,
+      "consumer_entry": [
+        -4,
+        -5,
+        1
+      ],
+      "endpoint": [
+        0,
+        -5
+      ],
+      "current_contacts": [],
+      "E_run_solutions": [],
+      "reason": "true_input_full_age4_below_minimum5"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "T",
+      "tag": [
+        -2,
+        -5
+      ],
+      "prior_CURRENT_tags": [],
+      "consumer": "U",
+      "input_slot": [
+        0,
+        3
+      ],
+      "full_input_minimum": 5,
+      "consumer_entry": [
+        -5,
+        -5,
+        1
+      ],
+      "endpoint": [
+        -1,
+        -5
+      ],
+      "current_contacts": [],
+      "E_run_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "Q",
+      "tag": [
+        -1,
+        -5
+      ],
+      "prior_CURRENT_tags": [
+        [
+          -2,
+          -5
+        ]
+      ],
+      "consumer": "D",
+      "input_slot": [
+        0,
+        1
+      ],
+      "full_input_minimum": 3,
+      "consumer_entry": [
+        -2,
+        -5,
+        1
+      ],
+      "endpoint": [
+        -1,
+        -6
+      ],
+      "current_contacts": [
+        [
+          -2,
+          -5
+        ]
+      ],
+      "E_run_solutions": [],
+      "reason": "would_touch_or_retire_previously_proved_CURRENT_cohort_tag"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "Q",
+      "tag": [
+        -1,
+        -5
+      ],
+      "prior_CURRENT_tags": [
+        [
+          -2,
+          -5
+        ]
+      ],
+      "consumer": "V",
+      "input_slot": [
+        0,
+        3
+      ],
+      "full_input_minimum": 2,
+      "consumer_entry": [
+        -4,
+        -5,
+        1
+      ],
+      "endpoint": [
+        -1,
+        -6
+      ],
+      "current_contacts": [
+        [
+          -2,
+          -5
+        ]
+      ],
+      "E_run_solutions": [],
+      "reason": "would_touch_or_retire_previously_proved_CURRENT_cohort_tag"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "Q",
+      "tag": [
+        -1,
+        -5
+      ],
+      "prior_CURRENT_tags": [
+        [
+          -2,
+          -5
+        ]
+      ],
+      "consumer": "V",
+      "input_slot": [
+        1,
+        2
+      ],
+      "full_input_minimum": 3,
+      "consumer_entry": [
+        -3,
+        -4,
+        1
+      ],
+      "endpoint": [
+        0,
+        -5
+      ],
+      "current_contacts": [
+        [
+          -2,
+          -5
+        ]
+      ],
+      "E_run_solutions": [],
+      "reason": "would_touch_or_retire_previously_proved_CURRENT_cohort_tag"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "Q",
+      "tag": [
+        -1,
+        -5
+      ],
+      "prior_CURRENT_tags": [
+        [
+          -2,
+          -5
+        ]
+      ],
+      "consumer": "U",
+      "input_slot": [
+        -1,
+        1
+      ],
+      "full_input_minimum": 3,
+      "consumer_entry": [
+        -2,
+        -6,
+        1
+      ],
+      "endpoint": [
+        2,
+        -6
+      ],
+      "current_contacts": [
+        [
+          -2,
+          -5
+        ]
+      ],
+      "E_run_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "Q",
+      "tag": [
+        -1,
+        -5
+      ],
+      "prior_CURRENT_tags": [
+        [
+          -2,
+          -5
+        ]
+      ],
+      "consumer": "U",
+      "input_slot": [
+        -1,
+        2
+      ],
+      "full_input_minimum": 3,
+      "consumer_entry": [
+        -3,
+        -6,
+        1
+      ],
+      "endpoint": [
+        1,
+        -6
+      ],
+      "current_contacts": [
+        [
+          -2,
+          -5
+        ]
+      ],
+      "E_run_solutions": [],
+      "reason": "would_touch_or_retire_previously_proved_CURRENT_cohort_tag"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "Q",
+      "tag": [
+        -1,
+        -5
+      ],
+      "prior_CURRENT_tags": [
+        [
+          -2,
+          -5
+        ]
+      ],
+      "consumer": "U",
+      "input_slot": [
+        -1,
+        4
+      ],
+      "full_input_minimum": 5,
+      "consumer_entry": [
+        -5,
+        -6,
+        1
+      ],
+      "endpoint": [
+        -1,
+        -6
+      ],
+      "current_contacts": [
+        [
+          -2,
+          -5
+        ]
+      ],
+      "E_run_solutions": [],
+      "reason": "true_input_full_age4_below_minimum5"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "Q",
+      "tag": [
+        -1,
+        -5
+      ],
+      "prior_CURRENT_tags": [
+        [
+          -2,
+          -5
+        ]
+      ],
+      "consumer": "U",
+      "input_slot": [
+        0,
+        2
+      ],
+      "full_input_minimum": 5,
+      "consumer_entry": [
+        -3,
+        -5,
+        1
+      ],
+      "endpoint": [
+        1,
+        -5
+      ],
+      "current_contacts": [
+        [
+          -2,
+          -5
+        ]
+      ],
+      "E_run_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "case": "single_V_run",
+      "tag_label": "Q",
+      "tag": [
+        -1,
+        -5
+      ],
+      "prior_CURRENT_tags": [
+        [
+          -2,
+          -5
+        ]
+      ],
+      "consumer": "U",
+      "input_slot": [
+        0,
+        3
+      ],
+      "full_input_minimum": 5,
+      "consumer_entry": [
+        -4,
+        -5,
+        1
+      ],
+      "endpoint": [
+        0,
+        -5
+      ],
+      "current_contacts": [
+        [
+          -2,
+          -5
+        ]
+      ],
+      "E_run_solutions": [],
+      "reason": "true_input_full_age4_below_minimum5"
+    }
+  ],
+  "all2_LAST_V_U_entry_core_clashes": [
+    {
+      "case": "single_V_run",
+      "last_old_packet": "V",
+      "entry": [
+        -1,
+        -4,
+        1
+      ],
+      "same_original_CURRENT_tag_in_entryK": [
+        -1,
+        -5
+      ],
+      "local_core_cell": [
+        1,
+        0
+      ],
+      "first_RAW_tick0": 5,
+      "first_RAW_read_number1": 6,
+      "why": "A current ordered residual cannot already be in a later old entry core; any prior marker-only core absorption was a first full consumer already excluded."
+    },
+    {
+      "case": "single_V_run",
+      "last_old_packet": "U",
+      "entry": [
+        -2,
+        -5,
+        1
+      ],
+      "same_original_CURRENT_tag_in_entryK": [
+        -2,
+        -5
+      ],
+      "local_core_cell": [
+        0,
+        0
+      ],
+      "first_RAW_tick0": 0,
+      "first_RAW_read_number1": 1,
+      "why": "A current ordered residual cannot already be in a later old entry core; any prior marker-only core absorption was a first full consumer already excluded."
+    }
+  ],
+  "E_role_counts": {
+    "wrong_active_sector": 8,
+    "no_exact_E_zero_run_endpoint_with_actual_last_V_U": 1,
+    "true_input_full_age4_below_minimum5": 3,
+    "would_touch_or_retire_previously_proved_CURRENT_cohort_tag": 4
+  },
+  "dependencies": {
+    "core_periodicity_new/chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "word_stabilization/shifted1_llrlrrrrlll_fold_coalesced_port_quotient.json": "216ef5edde9404799744b5d9ab3d1fe62f55846cbe97e88f82395b195765ec35",
+    "audits/dcuv_count5_replay/queries.json": "3652fbf0f790fb63a8dbe9182a26e07e9a05a534ae06b15cb8a901b8f36ef0d6",
+    "core_periodicity_new/atomic_common_4C_frozen_20261023_1344/manifest.json": "dd9c3ad2c7c7dd2e2383e43e05710ea4621f2d6fd25e07a3f8860fc7c458492f",
+    "core_periodicity_new/atomic_exit_bud_frozen_20261023_1325/manifest.json": "4c570a4f2853c7b1abb6b70c679690bc921ff8e47fc6657e9e5ce1606955da81",
+    "seven_word_spatial_return_2026-10-23/complete8_foreign_adjacency_manifest.json": "735023bebfa154bd936e9546023367b541006ea1d9f57bb2eb7240bf040017ea",
+    "F_D15_V_rail_C_cohort_lock_2026-10-24/check_F_D15_V_cohort_lock.py": "6bd7a05a058c403fc1f8e4d0086438f64f690e87341cad519248431274fa21a3"
+  }
+}

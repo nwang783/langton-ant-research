@@ -1,0 +1,57 @@
+{
+  "status": "independent PASS exact two-clean-return passive spatial incompatibility",
+  "scope": "A and C individually have finite-board realizations, but NONE of AA/AC/CA/CC has any complete-board lift with the prescribed full active-component paths. C fails by wrong-port fourth-R old singleton import, not necessarily immediate cap failure.",
+  "not_claimed": [
+    "new reset collision discovery",
+    "global cap5 theorem from one LP circulation",
+    "classification of all bounded-active dynamics",
+    "no physical turn-word realization merely from full-component mismatch",
+    "finite outside archives may be translated or discarded"
+  ],
+  "artifacts": [
+    {
+      "path": "TWO_CLEAN_RETURNS_OBSTRUCTION.md",
+      "sha256": "a281adbd24850f323474b0da6675b3f44c3bc94f0dd483e2f4caf8f75bc74a8a",
+      "bytes": 6685
+    },
+    {
+      "path": "check_two_clean_returns.py",
+      "sha256": "3b541f970033e6e95d17c722f8bae204087691f4748a771970f4646114cee112",
+      "bytes": 5649
+    },
+    {
+      "path": "two_clean_returns_certificate.json",
+      "sha256": "2f6019cb77c9b6adea69eabe1f5bc1511c79c7b6a1185beda17bfa970df809d6",
+      "bytes": 5188
+    },
+    {
+      "path": "../audits/check_two_clean_returns_independent.py",
+      "sha256": "f7e8fee3245a89d222fa674e3f64adf5715e25568d799eb79271f9eb4f9f5a4a",
+      "bytes": 4470
+    },
+    {
+      "path": "../audits/check_two_clean_returns_independent.json",
+      "sha256": "1ec5be267667e5dbf8877465a2d9cb492918cf30e5a5eba34edfc34e297bfab3",
+      "bytes": 4175
+    },
+    {
+      "path": "../reframe_finite_seed_2026-10-24/kernel_M5_scc.json",
+      "sha256": "ecc712cd97ecf0c3d234a9dca6fec800a5bd3a2685c763699f5960d68dce3bb3",
+      "bytes": 733617
+    },
+    {
+      "path": "../reframe_finite_seed_2026-10-24/component_kernel_M5.json",
+      "sha256": "06682206da5d7c924393fdbf48d7dd6b1c7d33cbdce7ecd2ab927fcbae1f1161",
+      "bytes": 1683198
+    },
+    {
+      "path": "../reframe_finite_seed_2026-10-24/active_flight.py",
+      "sha256": "9e547580cff17819fb5720f0fccc3b59a7aa0f54c4978f7eb961bf49507e47fd",
+      "bytes": 7682
+    }
+  ],
+  "excluded_exploration": [
+    "check_five_clean_returns.py",
+    "five_clean_returns_certificate.json"
+  ]
+}

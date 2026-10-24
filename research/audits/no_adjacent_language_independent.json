@@ -1,0 +1,54 @@
+{
+  "status": "Independent no-adjacent-bad-window reduction passed",
+  "enumeration_nodes": 6866831,
+  "words150": 304468,
+  "word_file_sha256": "28c950002dd8c7bcaddee65da9fcb2291f7166196aea80f4fab6b3db7374ba27",
+  "vertices": 270902,
+  "contracted_DAG_vertices": 236065,
+  "recurrent_groups": {
+    "H": [
+      34712,
+      36277
+    ],
+    "W104": [
+      104,
+      104
+    ],
+    "T24": [
+      24,
+      24
+    ]
+  },
+  "actual_marker_ports": 995,
+  "H_strong_connectivity_verified": true,
+  "longest_nonport_distance_to_a_port": 73,
+  "return_paths": 2747,
+  "return_word_counts_by_length": {
+    "18": 992,
+    "15": 702,
+    "64": 342,
+    "28": 575,
+    "74": 136
+  },
+  "before_marker_words": [
+    "LLLLRLRRRRLRRRR",
+    "LLLLRLRRRRLRRLRRRR",
+    "LLLLRLRRRRLRLLLLRRRRLRRLRRRR",
+    "LLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLRRRRLRRLRRRR",
+    "LLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRR"
+  ],
+  "T24_initial_black_rays": [
+    [
+      2,
+      -3,
+      7
+    ],
+    [
+      3,
+      -1,
+      22
+    ]
+  ],
+  "seconds": 6.153304100036621,
+  "scope": "Every infinite physically feasible no-adjacent-defect tail eventually follows W104,T24,or a before-marker C/V/U/Q/B concatenation. T24 needs infinite black support; independently proved packet fuel excludes the five-macro case."
+}

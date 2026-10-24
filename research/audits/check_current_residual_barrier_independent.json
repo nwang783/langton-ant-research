@@ -1,0 +1,366 @@
+{
+  "status": "PASS independent exact45-cell contact enumeration and atomic endpoint stars",
+  "manifest_sha256": "6f82a336d20f37d1619e6c7e8e73d0ba19534867f2ef6dc627c0f5c85e06eb9f",
+  "rows": [
+    {
+      "atom": "D",
+      "chord": [
+        [
+          -1,
+          -1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "candidate_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "contacts": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "role": "core",
+          "contact": [
+            "overlap",
+            "0",
+            "1"
+          ]
+        }
+      ],
+      "exit_input_contacts": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "atom": "V",
+      "chord": [
+        [
+          -1,
+          -1
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "candidate_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "contacts": [
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "role": "white",
+          "contact": [
+            "point",
+            "1/2",
+            "1/2"
+          ]
+        }
+      ],
+      "exit_input_contacts": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "atom": "U",
+      "chord": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          7
+        ]
+      ],
+      "candidate_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "contacts": [
+        {
+          "cell": [
+            -1,
+            1
+          ],
+          "role": "input",
+          "contact": [
+            "point",
+            "1/2",
+            "1"
+          ]
+        },
+        {
+          "cell": [
+            -1,
+            2
+          ],
+          "role": "input",
+          "contact": [
+            "point",
+            "1/2",
+            "1"
+          ]
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "role": "white",
+          "contact": [
+            "point",
+            "1/2",
+            "0"
+          ]
+        },
+        {
+          "cell": [
+            0,
+            2
+          ],
+          "role": "input",
+          "contact": [
+            "point",
+            "1/2",
+            "0"
+          ]
+        }
+      ],
+      "exit_input_contacts": [
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "atom": "C",
+      "chord": [
+        [
+          -1,
+          -1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "candidate_cells": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "contacts": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "role": "core",
+          "contact": [
+            "overlap",
+            "0",
+            "1"
+          ]
+        }
+      ],
+      "exit_input_contacts": []
+    }
+  ],
+  "scope": "Current ordered residual edge is disjoint from subsequent actual atomic center path strictly before its consuming base. Consumption and fresh recycling end/start different lifetimes. No historical wire or component connectivity is inferred."
+}

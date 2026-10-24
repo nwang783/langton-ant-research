@@ -1,0 +1,122 @@
+{
+  "scope": "Positive count-level cycle discovery only. Bounds are search limits, not proof exclusions.",
+  "search_cap": 24,
+  "start": [
+    5,
+    4,
+    5,
+    2
+  ],
+  "cycle": [
+    {
+      "before": [
+        5,
+        4,
+        5,
+        2
+      ],
+      "lambda": 0,
+      "eta": 0,
+      "new_H_reads": 20,
+      "new_V_reads": 22,
+      "after": [
+        7,
+        15,
+        4,
+        1
+      ]
+    },
+    {
+      "before": [
+        7,
+        15,
+        4,
+        1
+      ],
+      "lambda": 0,
+      "eta": 5,
+      "new_H_reads": 22,
+      "new_V_reads": 20,
+      "after": [
+        5,
+        18,
+        18,
+        12
+      ]
+    },
+    {
+      "before": [
+        5,
+        18,
+        18,
+        12
+      ],
+      "lambda": 5,
+      "eta": 8,
+      "new_H_reads": 26,
+      "new_V_reads": 38,
+      "after": [
+        17,
+        8,
+        5,
+        12
+      ]
+    },
+    {
+      "before": [
+        17,
+        8,
+        5,
+        12
+      ],
+      "lambda": 5,
+      "eta": 8,
+      "new_H_reads": 24,
+      "new_V_reads": 30,
+      "after": [
+        23,
+        19,
+        20,
+        15
+      ]
+    },
+    {
+      "before": [
+        23,
+        19,
+        20,
+        15
+      ],
+      "lambda": 14,
+      "eta": 12,
+      "new_H_reads": 30,
+      "new_V_reads": 24,
+      "after": [
+        17,
+        10,
+        22,
+        14
+      ]
+    },
+    {
+      "before": [
+        17,
+        10,
+        22,
+        14
+      ],
+      "lambda": 13,
+      "eta": 4,
+      "new_H_reads": 26,
+      "new_V_reads": 14,
+      "after": [
+        5,
+        4,
+        5,
+        2
+      ]
+    }
+  ],
+  "total_new_reads": 296,
+  "warning": "Counts only: no ordinal words, clock state, finite factor or front claimed."
+}

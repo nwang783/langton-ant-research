@@ -1,0 +1,111 @@
+{
+  "status": "PASS exact fixed-anchor crossing identity and actual periodic controls",
+  "one_step_cases": 9984,
+  "periods": [
+    {
+      "debt": 8,
+      "crossings": 8,
+      "delta": 0,
+      "end": [
+        [
+          -2,
+          -2
+        ],
+        3
+      ],
+      "kappa": 1
+    },
+    {
+      "debt": 4,
+      "crossings": 4,
+      "delta": 0,
+      "end": [
+        [
+          8,
+          8
+        ],
+        0
+      ],
+      "kappa": 1
+    },
+    {
+      "debt": 66,
+      "crossings": 66,
+      "delta": 0,
+      "end": [
+        [
+          24,
+          29
+        ],
+        3
+      ],
+      "kappa": 1
+    },
+    {
+      "debt": 326,
+      "crossings": 326,
+      "delta": 0,
+      "end": [
+        [
+          39,
+          33
+        ],
+        0
+      ],
+      "kappa": 1
+    }
+  ],
+  "full_affine_crossings": [
+    {
+      "family": "184",
+      "total": [
+        144,
+        559
+      ],
+      "supplied_standard": [
+        140,
+        490
+      ],
+      "residual": [
+        4,
+        69
+      ]
+    },
+    {
+      "family": "394two",
+      "total": [
+        1148,
+        3498
+      ],
+      "supplied_standard": [
+        624,
+        1712
+      ],
+      "residual": [
+        524,
+        1786
+      ]
+    },
+    {
+      "family": "394capture",
+      "total": [
+        1148,
+        3944
+      ],
+      "supplied_standard": [
+        624,
+        1712
+      ],
+      "residual": [
+        524,
+        2232
+      ]
+    }
+  ],
+  "note_sha256": "ab1e36e6fe33bb01289c0e5efe169aba766f2b9a4a528fd07bc17dd7400d7997",
+  "standard_seed_mass": 13,
+  "standard_tail_orbits": 22,
+  "standard_tail_critical_tests": 62,
+  "far_flip_rejections": 22,
+  "scope": "Exact positive separator flux, not a global resource bound. Arbitrary-region streak bound must retain endpoint DeltaH unless it cancels or endpoint ports are bounded. Prepared bodies transfer to finite original seeds only through the previously signed family contracts."
+}

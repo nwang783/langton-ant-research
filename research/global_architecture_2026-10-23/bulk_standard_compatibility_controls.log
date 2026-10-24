@@ -1,0 +1,255 @@
+{
+  "status": "PASS supplied-word bulk controls",
+  "records": [
+    {
+      "name": "standard",
+      "status": "MATCH_EMPTY_WHITE_PROFILE",
+      "constants": {
+        "superperiod_copies": 1,
+        "common_drift": [
+          2,
+          2
+        ],
+        "standard_superperiods": 1,
+        "consumer_endpoint_loss": 2,
+        "standard_endpoint_width": 3,
+        "parallel_flight_loss": 6,
+        "nonparallel_flight_loss": 1364,
+        "cap_loss_per_read": 1,
+        "lower_bound": "|B|>=floor(n/1)-2-L-6*r_parallel-1364*r_nonparallel"
+      },
+      "rail_variables": null,
+      "rail_clauses": null,
+      "RUP": null
+    },
+    {
+      "name": "standard_scale4",
+      "status": "MATCH_EMPTY_WHITE_PROFILE",
+      "constants": {
+        "superperiod_copies": 1,
+        "common_drift": [
+          4,
+          4
+        ],
+        "standard_superperiods": 2,
+        "consumer_endpoint_loss": 2,
+        "standard_endpoint_width": 2,
+        "parallel_flight_loss": 108,
+        "nonparallel_flight_loss": 2728,
+        "cap_loss_per_read": 1,
+        "lower_bound": "|B|>=floor(n/1)-2-L-108*r_parallel-2728*r_nonparallel"
+      },
+      "rail_variables": null,
+      "rail_clauses": null,
+      "RUP": null
+    },
+    {
+      "name": "P108",
+      "status": "INCOMPATIBLE",
+      "constants": {
+        "superperiod_copies": 1,
+        "common_drift": [
+          2,
+          2
+        ],
+        "standard_superperiods": 1,
+        "consumer_endpoint_loss": 2,
+        "standard_endpoint_width": 3,
+        "parallel_flight_loss": 6,
+        "nonparallel_flight_loss": 1408,
+        "cap_loss_per_read": 1,
+        "lower_bound": "|B|>=floor(n/1)-2-L-6*r_parallel-1408*r_nonparallel"
+      },
+      "rail_variables": 39,
+      "rail_clauses": 643,
+      "RUP": {
+        "valid": true,
+        "input_clauses": 643,
+        "additions": 1,
+        "deletions": 0,
+        "RUP": 1,
+        "RAT": 0,
+        "propagation_checks": 1
+      }
+    },
+    {
+      "name": "reverse104",
+      "status": "INCOMPATIBLE",
+      "constants": {
+        "superperiod_copies": 1,
+        "common_drift": [
+          2,
+          2
+        ],
+        "standard_superperiods": 1,
+        "consumer_endpoint_loss": 2,
+        "standard_endpoint_width": 3,
+        "parallel_flight_loss": 6,
+        "nonparallel_flight_loss": 1364,
+        "cap_loss_per_read": 1,
+        "lower_bound": "|B|>=floor(n/1)-2-L-6*r_parallel-1364*r_nonparallel"
+      },
+      "rail_variables": 39,
+      "rail_clauses": 644,
+      "RUP": {
+        "valid": true,
+        "input_clauses": 644,
+        "additions": 1,
+        "deletions": 0,
+        "RUP": 1,
+        "RAT": 0,
+        "propagation_checks": 1
+      }
+    },
+    {
+      "name": "reverse_scale4",
+      "status": "INCOMPATIBLE",
+      "constants": {
+        "superperiod_copies": 1,
+        "common_drift": [
+          4,
+          4
+        ],
+        "standard_superperiods": 2,
+        "consumer_endpoint_loss": 1,
+        "standard_endpoint_width": 2,
+        "parallel_flight_loss": 108,
+        "nonparallel_flight_loss": 2728,
+        "cap_loss_per_read": 1,
+        "lower_bound": "|B|>=floor(n/1)-1-L-108*r_parallel-2728*r_nonparallel"
+      },
+      "rail_variables": 39,
+      "rail_clauses": 656,
+      "RUP": {
+        "valid": true,
+        "input_clauses": 656,
+        "additions": 1,
+        "deletions": 0,
+        "RUP": 1,
+        "RAT": 0,
+        "propagation_checks": 1
+      }
+    },
+    {
+      "name": "D10",
+      "status": "INCOMPATIBLE",
+      "constants": {
+        "superperiod_copies": 2,
+        "common_drift": [
+          2,
+          2
+        ],
+        "standard_superperiods": 1,
+        "consumer_endpoint_loss": 2,
+        "standard_endpoint_width": 3,
+        "parallel_flight_loss": 6,
+        "nonparallel_flight_loss": 1056,
+        "cap_loss_per_read": 1,
+        "lower_bound": "|B|>=floor(n/2)-2-L-6*r_parallel-1056*r_nonparallel"
+      },
+      "rail_variables": 16,
+      "rail_clauses": 138,
+      "RUP": {
+        "valid": true,
+        "input_clauses": 138,
+        "additions": 1,
+        "deletions": 0,
+        "RUP": 1,
+        "RAT": 0,
+        "propagation_checks": 1
+      }
+    },
+    {
+      "name": "odd_LR",
+      "status": "INCOMPATIBLE",
+      "constants": {
+        "superperiod_copies": 2,
+        "common_drift": [
+          2,
+          2
+        ],
+        "standard_superperiods": 1,
+        "consumer_endpoint_loss": 1,
+        "standard_endpoint_width": 3,
+        "parallel_flight_loss": 6,
+        "nonparallel_flight_loss": 968,
+        "cap_loss_per_read": 1,
+        "lower_bound": "|B|>=floor(n/2)-1-L-6*r_parallel-968*r_nonparallel"
+      },
+      "rail_variables": 16,
+      "rail_clauses": 138,
+      "RUP": {
+        "valid": true,
+        "input_clauses": 138,
+        "additions": 1,
+        "deletions": 0,
+        "RUP": 1,
+        "RAT": 0,
+        "propagation_checks": 1
+      }
+    },
+    {
+      "name": "odd_scale3",
+      "status": "INCOMPATIBLE",
+      "constants": {
+        "superperiod_copies": 2,
+        "common_drift": [
+          6,
+          6
+        ],
+        "standard_superperiods": 3,
+        "consumer_endpoint_loss": 1,
+        "standard_endpoint_width": 2,
+        "parallel_flight_loss": 212,
+        "nonparallel_flight_loss": 2904,
+        "cap_loss_per_read": 1,
+        "lower_bound": "|B|>=floor(n/2)-1-L-212*r_parallel-2904*r_nonparallel"
+      },
+      "rail_variables": 16,
+      "rail_clauses": 142,
+      "RUP": {
+        "valid": true,
+        "input_clauses": 142,
+        "additions": 1,
+        "deletions": 0,
+        "RUP": 1,
+        "RAT": 0,
+        "propagation_checks": 1
+      }
+    },
+    {
+      "name": "axis_RLLR",
+      "status": "INCOMPATIBLE",
+      "constants": null,
+      "rail_variables": null,
+      "rail_clauses": null,
+      "RUP": null
+    },
+    {
+      "name": "nonrestoring",
+      "status": "FINITE_POWER_CONFLICT",
+      "constants": null,
+      "rail_variables": null,
+      "rail_clauses": null,
+      "RUP": null
+    },
+    {
+      "name": "zero",
+      "status": "FINITE_POWER_CONFLICT",
+      "constants": null,
+      "rail_variables": null,
+      "rail_clauses": null,
+      "RUP": null
+    }
+  ],
+  "supplied_words": 11,
+  "rotation_controls": 44,
+  "joint_profile_class_controls": 179,
+  "synthetic_selector_positive_and_negative": true,
+  "scope": "No consumer enumeration or arbitrary-period classification; generic implementation audit separate.",
+  "seconds": 0.09126778900099453,
+  "source_sha256": {
+    "bulk_standard_compatibility.py": "2e932d22b52d83800f702368eb21d77b2ab6a6f0948402bfbf5ea98d7de53f3a",
+    "check_bulk_standard_compatibility.py": "9add2c7cd29427ac64dbcbcff96821a37939c973ee0b054e57dbfa332349f18c"
+  }
+}

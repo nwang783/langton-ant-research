@@ -1,0 +1,17 @@
+{
+  "all_depths_internally_legal": true,
+  "bad_depths": "[r] -> {  : false }",
+  "counterexample_depth": null,
+  "required_initial_black": "[r] -> { [x, y] : y <= 2 and 2 - r + x - y <= floor((x)/2) <= 1 + x - y and 2*floor((x)/2) > x - y; [x = 1 + 2r, y] : r > 0 and 0 <= y <= 1; [x, y = -1] : (x) mod 2 = 1 and 0 < x < 2r }",
+  "position_cosets": 10,
+  "maximum_reads_per_cell": 3,
+  "final_minimal_black": "[r] -> { [x, y] : y >= -2 and 0 < floor((1 + x)/2) <= r and 2*floor((1 + x)/2) >= 2 + x + y; [x, y = 1] : (x) mod 2 = 0 and 2 <= x <= 2r; [x = 1, y] : r > 0 and 0 <= y <= 1; [x = 2r, y = 0] : r >= 0 }",
+  "read_support": "[r] -> { [x, y] : -2 <= y <= 2 and (((-1 + x) mod 2 = 0 and r > 0 and 0 < x <= 1 + 2r and y >= 0 and 2y <= 3 + 2r - x) or (y < 0 and -r + x <= floor((x)/2) < x) or ((x) mod 2 = 0 and r > 0 and 0 <= x <= 2r and y >= 0 and 2 - 2r + x <= 2y <= 2 + x)); [x = 2r, y = 0] : r >= 0 }",
+  "U": "RRLRRRRL",
+  "V": "LLRLLRLL",
+  "parent": "R",
+  "heading": 0,
+  "scope": "One supplied axial hairpin, exact all depths; not a common finite-seed root.",
+  "literal_exact_input_controls": 41,
+  "seconds": 0.6745372519944794
+}

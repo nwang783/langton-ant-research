@@ -1,0 +1,99 @@
+{
+  "status": "MANDATORY_PHYSICAL_OWNER_PHASE_ERRATUM_COORDINATES_TICKS_THEOREMS_UNCHANGED",
+  "all_eight_chosen_port_physical_owners": [
+    {
+      "source": "D",
+      "specified_input": [
+        0,
+        1
+      ],
+      "RAW_length": 10,
+      "zero_based_first_physical_L": 11,
+      "inside_own_RAW": false,
+      "following_RAW_physical_owner_phase": 2
+    },
+    {
+      "source": "DC",
+      "specified_input": [
+        0,
+        1
+      ],
+      "RAW_length": 25,
+      "zero_based_first_physical_L": 11,
+      "inside_own_RAW": true,
+      "following_RAW_physical_owner_phase": null
+    },
+    {
+      "source": "V",
+      "specified_input": [
+        1,
+        2
+      ],
+      "RAW_length": 18,
+      "zero_based_first_physical_L": 13,
+      "inside_own_RAW": true,
+      "following_RAW_physical_owner_phase": null
+    },
+    {
+      "source": "VC",
+      "specified_input": [
+        1,
+        2
+      ],
+      "RAW_length": 33,
+      "zero_based_first_physical_L": 13,
+      "inside_own_RAW": true,
+      "following_RAW_physical_owner_phase": null
+    },
+    {
+      "source": "VCC",
+      "specified_input": [
+        0,
+        3
+      ],
+      "RAW_length": 48,
+      "zero_based_first_physical_L": 19,
+      "inside_own_RAW": true,
+      "following_RAW_physical_owner_phase": null
+    },
+    {
+      "source": "U",
+      "specified_input": [
+        -1,
+        4
+      ],
+      "RAW_length": 28,
+      "zero_based_first_physical_L": 29,
+      "inside_own_RAW": false,
+      "following_RAW_physical_owner_phase": 2
+    },
+    {
+      "source": "UC",
+      "specified_input": [
+        -1,
+        4
+      ],
+      "RAW_length": 43,
+      "zero_based_first_physical_L": 29,
+      "inside_own_RAW": true,
+      "following_RAW_physical_owner_phase": null
+    },
+    {
+      "source": "UCC",
+      "specified_input": [
+        -1,
+        4
+      ],
+      "RAW_length": 58,
+      "zero_based_first_physical_L": 29,
+      "inside_own_RAW": true,
+      "following_RAW_physical_owner_phase": null
+    }
+  ],
+  "dependencies": {
+    "seven_word_spatial_return_2026-10-23/ordered_W_archive_matching_manifest.json": "bf616fdc960c8e24a259b2581c92a3d0eee02e6a06c31e43ed1e71493e6aed8e",
+    "seven_word_spatial_return_2026-10-23/ordered_W_U_role_label_erratum_manifest.json": "f2ff1b4df6f8fe968ec379ad639cdd98f6b5836c54b11dd8485ca83850ff2cae",
+    "core_periodicity_new/chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "word_stabilization/check_foreign_return_interfaces.py": "249f89213a96c8daad9d0ecde65e877d5e254af033092adb81b4bbaca0cc729c"
+  }
+}

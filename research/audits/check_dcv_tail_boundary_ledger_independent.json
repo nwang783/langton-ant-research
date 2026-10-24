@@ -1,0 +1,73 @@
+{
+  "status": "PASS residual token protection and recurrent-packet boundary reduction",
+  "packets": [
+    {
+      "packet": "D",
+      "input_count": 1,
+      "output_count": 1,
+      "black_increment": 0
+    },
+    {
+      "packet": "DC",
+      "input_count": 1,
+      "output_count": 4,
+      "black_increment": 3
+    },
+    {
+      "packet": "DCC",
+      "input_count": 1,
+      "output_count": 7,
+      "black_increment": 6
+    },
+    {
+      "packet": "DCCC",
+      "input_count": 1,
+      "output_count": 10,
+      "black_increment": 9
+    },
+    {
+      "packet": "V",
+      "input_count": 2,
+      "output_count": 6,
+      "black_increment": 4
+    },
+    {
+      "packet": "VC",
+      "input_count": 2,
+      "output_count": 9,
+      "black_increment": 7
+    },
+    {
+      "packet": "VCC",
+      "input_count": 2,
+      "output_count": 12,
+      "black_increment": 10
+    }
+  ],
+  "recurrent_packet_types": [
+    0,
+    1,
+    4,
+    5,
+    6
+  ],
+  "boundary_exceptions": {
+    "DCC": "cannot have a successor packet",
+    "DCCC": "cannot have a predecessor packet"
+  },
+  "forbidden_long_runs": [
+    "CCCC",
+    "DCCCC",
+    "VCCC"
+  ],
+  "macro_mass_increments": [
+    0,
+    3,
+    4
+  ],
+  "D_endpoint": [
+    1,
+    1,
+    0
+  ]
+}

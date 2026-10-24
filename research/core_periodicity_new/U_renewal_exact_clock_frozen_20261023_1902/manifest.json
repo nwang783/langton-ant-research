@@ -1,0 +1,27 @@
+{
+  "scope": "Exact four-C U-cycle renewal by protected Jordan bridge; upper inputs strictly predate creator, factor-first creator breaker has exactly4reset historical components. No general chain/U/fuel bound or confinement.",
+  "files": [
+    {
+      "source": "U_renewal_exact_clock.md",
+      "file": "00_U_renewal_exact_clock.md",
+      "sha256": "1080aeed41e45a7aa2012ec78fe4871a2875231e5714866bd69e00adffb64f5a"
+    },
+    {
+      "source": "check_U_renewal_exact_clock.py",
+      "file": "01_check_U_renewal_exact_clock.py",
+      "sha256": "b3ef4f4c15ae6e55414245b5c8b44789c99191c68ee56a7ddfe2858efe5ebca6"
+    },
+    {
+      "source": "chronology_dcuv/U_renewal_exact_clock.json",
+      "file": "02_U_renewal_exact_clock.json",
+      "sha256": "d02f58e2694a654c1743fea7745c2c9f12af4b57a986c3355dcce06b0fec71b9"
+    }
+  ],
+  "dependencies": {
+    "chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "causal_cycle_renewal_20261023_1841/manifest.json": "27db0bc457534074587a988c16bbf57c994464656df7c9aa06427ab23203d7d4",
+    "current_residual_barrier_frozen_20261023_1822/manifest.json": "6f82a336d20f37d1619e6c7e8e73d0ba19534867f2ef6dc627c0f5c85e06eb9f",
+    "U_entry_simplicity_frozen_20261023_1616/manifest.json": "127a00884b4a06af35a807ab76f6f6499b9427d56350a931c03cc0e8de65524d",
+    "chronology_dcuv/critical_ucc_count5/age_five_queries/manifest.json": "1328197885b6b016e1f01886386f5a5eddf38ce4caf35d32700bb86b8132bacf"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "status": "PASS exact whole-history last-exit exchange and narrow net-renewal falsifier, with mandatory fresh-root qualification",
+  "manifest": "2689a2a619f607b42011bce454b6da60746747a314822027103fe89d90e22bd4",
+  "endpoint_addendum": "15a2411bbad3ff4d8947a39b2af7be02ff19ab81fc2e39cc2fff43ffaac9b5de",
+  "script": "f057b748c0a54626f8baaa4569d0bcffd653712dd9645e91c2b59e3007df829f",
+  "physical_reads": 256217,
+  "intervals": [
+    {
+      "name": "empty",
+      "start": 11,
+      "end": 20,
+      "leaf_delta": 1,
+      "C": 3,
+      "O": 2,
+      "P": 0,
+      "F": 2,
+      "relevant_delta": -1
+    },
+    {
+      "name": "empty",
+      "start": 5710,
+      "end": 6042,
+      "leaf_delta": 6,
+      "C": 47,
+      "O": 67,
+      "P": 6,
+      "F": 61,
+      "relevant_delta": 14
+    },
+    {
+      "name": "MT_100",
+      "start": 40071,
+      "end": 109168,
+      "leaf_delta": 1859,
+      "C": 1082,
+      "O": 4909,
+      "P": 4890,
+      "F": 19,
+      "relevant_delta": -1063
+    },
+    {
+      "name": "MT_100",
+      "start": 42833,
+      "end": 101070,
+      "leaf_delta": 1336,
+      "C": 807,
+      "O": 3548,
+      "P": 3528,
+      "F": 20,
+      "relevant_delta": -787
+    },
+    {
+      "name": "MT_137",
+      "start": 43919,
+      "end": 116864,
+      "leaf_delta": 2081,
+      "C": 1082,
+      "O": 5353,
+      "P": 5334,
+      "F": 19,
+      "relevant_delta": -1063
+    },
+    {
+      "name": "MT_137",
+      "start": 46681,
+      "end": 108766,
+      "leaf_delta": 1558,
+      "C": 807,
+      "O": 3992,
+      "P": 3972,
+      "F": 20,
+      "relevant_delta": -787
+    },
+    {
+      "name": "factor11",
+      "start": 5,
+      "end": 66,
+      "leaf_delta": 2,
+      "C": 13,
+      "O": 24,
+      "P": 0,
+      "F": 24,
+      "relevant_delta": 11
+    }
+  ],
+  "analytic_review": [
+    "The entire historical last-exit graph deletes the currenthead oldsuccessor and has exactlyone root. Along any nonrootedge lastdeparturetimes strictlyincrease, excludingcycles. Fixedsector permits indegree0/1/2, giving leaves=branches+1. Newarrival preservesleaves; oldarrival removesitsactualoldsuccessor edge and addsoldhead->arrival, yielding precisely thetwo degreeindicators. All chronological exchanges and snapshot edge/time order checked.",
+    "C counts consumed distinct BLACK-at-start identities, O intervalborn lastR outputs; permanentP and actualfutureF splitO. Fullmasschange=P+F-C and entire relevantchange=F-C are bookkeeping, not a charging theorem. Unread oldBLACK remains in every fullboard and may lie outside the headhistorygraph.",
+    "EmptyseedE pristinecuts11/20 are consecutive; wholehistoricalleaves2->3,branches1->2 while C*7->6, C3,F2,P0. Allten earlierreadvertices are rereadby124 and thefresh eleventhroot is FIRSTreadat20, as mandatoryaddendum clarifies. Thus positivebranch/leafrenewal neednotpay permanentabandonment or netrelevantgrowth; actualselfwritten inputreplacements are retained.",
+    "Fresh256217 updates acrossfour original completefields, seven intervals, allterminalfields, infinitecanonicalparity and allpast/futureidentity fates reconstruct. The11cell exteriorfactor is independently captured at sufficientcut20000, not claimedearliest; its earlier finiteportfailure remainsunchanged.",
+    "The proposed interval-reset leaf<=C+O+1 bound staysUNPROVED. Gross output/lifetime charging, a different amortizedpotential and repeated-drought exclusions are not falsified by this narrowcountercontrol. No universal occurrence or capture follows."
+  ]
+}

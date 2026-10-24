@@ -1,0 +1,458 @@
+{
+  "status": "exact bivariate complete-field certificate passed",
+  "domain": "integers m>=15,n>=m+100",
+  "variables": "u=m-15>=0,v=n-m-100>=0",
+  "capture_time_in_u_v": [
+    728,
+    416,
+    250224
+  ],
+  "capture_time_in_n_m": [
+    416,
+    312,
+    197704
+  ],
+  "capture_pose": [
+    [
+      [
+        -2,
+        0,
+        -58
+      ],
+      [
+        2,
+        0,
+        98
+      ]
+    ],
+    0
+  ],
+  "tail": {
+    "drift": [
+      -2,
+      2
+    ],
+    "heading": 0,
+    "required_cells": 44,
+    "odd_cells": 36
+  },
+  "contacts": {
+    "q": [
+      104,
+      104,
+      22841
+    ],
+    "s": [
+      312,
+      208,
+      96290
+    ],
+    "c": [
+      520,
+      312,
+      181996
+    ]
+  },
+  "never_read": [
+    "a",
+    "d"
+  ],
+  "statistics": {
+    "finite_read_constraints": 21118,
+    "periodic_read_constraints": 336,
+    "affine_guards": 20397,
+    "excluded_isolated_equalities": 83662133
+  },
+  "interfaces": {
+    "two_bit": {
+      "time": [
+        416,
+        208,
+        172040
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            40
+          ],
+          [
+            0,
+            0,
+            -50
+          ]
+        ],
+        2
+      ],
+      "tail": {
+        "drift": [
+          2,
+          -2
+        ],
+        "heading": 2,
+        "required_cells": 44,
+        "odd_cells": 36
+      },
+      "archive": {
+        "u_lower_m_coefficient": -4,
+        "u_lower_constant": -130,
+        "u_upper": 98,
+        "z_upper": 71
+      },
+      "finite_reads": {
+        "u_lower_m_coefficient": -4,
+        "u_lower_constant": -130,
+        "u_upper": 98,
+        "z_upper": 71
+      }
+    },
+    "three_bit": {
+      "archive": {
+        "u_lower_m_coefficient": -4,
+        "u_lower_constant": -130,
+        "u_upper": null,
+        "z_upper": 75
+      },
+      "finite_reads": {
+        "u_lower_m_coefficient": -4,
+        "u_lower_constant": -130,
+        "u_upper": null,
+        "z_upper": 75
+      }
+    }
+  },
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        0,
+        9977
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -15
+          ],
+          [
+            0,
+            0,
+            10
+          ]
+        ],
+        3
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 1,
+      "time": [
+        104,
+        104,
+        22769
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            -2,
+            -261
+          ],
+          [
+            -2,
+            -2,
+            -236
+          ]
+        ],
+        3
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 2,
+      "time": [
+        104,
+        104,
+        73887
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            -2,
+            -224
+          ],
+          [
+            -2,
+            -2,
+            -273
+          ]
+        ],
+        1
+      ],
+      "contacts": {
+        "q": [
+          104,
+          104,
+          22841
+        ]
+      }
+    },
+    {
+      "segment": 3,
+      "time": [
+        208,
+        208,
+        86575
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            20
+          ],
+          [
+            0,
+            0,
+            -29
+          ]
+        ],
+        1
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 4,
+      "time": [
+        208,
+        208,
+        94653
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -15
+          ],
+          [
+            0,
+            0,
+            26
+          ]
+        ],
+        1
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 5,
+      "time": [
+        312,
+        208,
+        96213
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            0,
+            -45
+          ],
+          [
+            2,
+            0,
+            56
+          ]
+        ],
+        1
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 6,
+      "time": [
+        312,
+        208,
+        147336
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            0,
+            -82
+          ],
+          [
+            2,
+            0,
+            22
+          ]
+        ],
+        2
+      ],
+      "contacts": {
+        "s": [
+          312,
+          208,
+          96290
+        ]
+      }
+    },
+    {
+      "segment": 7,
+      "time": [
+        416,
+        208,
+        149104
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -48
+          ],
+          [
+            0,
+            0,
+            -12
+          ]
+        ],
+        2
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 8,
+      "time": [
+        416,
+        208,
+        172040
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            40
+          ],
+          [
+            0,
+            0,
+            -50
+          ]
+        ],
+        2
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 9,
+      "time": [
+        520,
+        312,
+        181920
+      ],
+      "pose": [
+        [
+          [
+            2,
+            2,
+            230
+          ],
+          [
+            -2,
+            -2,
+            -240
+          ]
+        ],
+        2
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 10,
+      "time": [
+        520,
+        312,
+        233042
+      ],
+      "pose": [
+        [
+          [
+            2,
+            2,
+            267
+          ],
+          [
+            -2,
+            -2,
+            -205
+          ]
+        ],
+        0
+      ],
+      "contacts": {
+        "c": [
+          520,
+          312,
+          181996
+        ]
+      }
+    },
+    {
+      "segment": 11,
+      "time": [
+        728,
+        416,
+        247602
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            0,
+            -13
+          ],
+          [
+            2,
+            0,
+            75
+          ]
+        ],
+        0
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 12,
+      "time": [
+        728,
+        416,
+        250224
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            0,
+            -58
+          ],
+          [
+            2,
+            0,
+            98
+          ]
+        ],
+        0
+      ],
+      "contacts": {}
+    }
+  ],
+  "template_sha256": "05c5fca0529ffb365a499a92ece844fd6cb4520cc8465f4d2027c049b66f222f"
+}

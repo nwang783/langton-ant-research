@@ -1,0 +1,79 @@
+{
+  "scope": "Abstract cap-free chronology controls, NOT ant-factor realizations.\nVoltages and nonprimitive packing-cycle winding are explicitly retained.\n",
+  "zero_winding_countercontrol": {
+    "edges": [
+      {
+        "source": "A",
+        "target": "B",
+        "nu": 0,
+        "w": 13
+      },
+      {
+        "source": "B",
+        "target": "A",
+        "nu": 0,
+        "w": 13
+      }
+    ],
+    "relaxed_starts": {
+      "A": 0,
+      "B": 0
+    },
+    "temporal_winding": 0,
+    "packing_sum": 26,
+    "contradiction": true
+  },
+  "positive_winding_controls": [
+    {
+      "P": 32,
+      "starts": {
+        "A": 0,
+        "B": 16
+      },
+      "edges": [
+        {
+          "source": "A",
+          "target": "B",
+          "nu": 0,
+          "w": 13
+        },
+        {
+          "source": "B",
+          "target": "A",
+          "nu": -1,
+          "w": 13
+        }
+      ],
+      "temporal_winding": 1,
+      "all26_event_phases_distinct": true,
+      "unassigned_event_phases": 6,
+      "not_a_physical_completion": true
+    },
+    {
+      "P": 32,
+      "starts": {
+        "A": 0,
+        "B": 16
+      },
+      "edges": [
+        {
+          "source": "A",
+          "target": "B",
+          "nu": 0,
+          "w": 13
+        },
+        {
+          "source": "B",
+          "target": "A",
+          "nu": -2,
+          "w": 13
+        }
+      ],
+      "temporal_winding": 2,
+      "all26_event_phases_distinct": true,
+      "unassigned_event_phases": 6,
+      "not_a_physical_completion": true
+    }
+  ],
+  "proof": "Whole contiguous event intervals are disjoint; occurrence voltages align the precedence cycle. No bounded period search."
+}

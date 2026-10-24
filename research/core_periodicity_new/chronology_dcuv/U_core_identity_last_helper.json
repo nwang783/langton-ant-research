@@ -1,0 +1,2185 @@
+{
+  "status": "AUTHOR_EXACT_CORE_PORT_GATE_PENDING_INDEPENDENT_AUDIT",
+  "scope": "Actual complete-eight factor with simple corrected-center path. All five future U inputs remain current after a boundary at which (-1,0) is a current residual. Its first retirement must be the goal immediate predecessor D/V/U in the exact three poses. Necessary gate only; no attainment, U budget or capture.",
+  "protected_final_inputs": [
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      -1,
+      4
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "core_identity_cell": [
+    -1,
+    0
+  ],
+  "counts": {
+    "MUST_BE_IMMEDIATE_PREDECESSOR": 3,
+    "wrong_sector": 46,
+    "protected_final_input_context": 40,
+    "earlier_base_contains_future_entry_center": 3
+  },
+  "cases": [
+    {
+      "packet": 0,
+      "head": [
+        -1,
+        -1,
+        0
+      ],
+      "input_slot": [
+        0,
+        1
+      ],
+      "atomic_chords": [
+        {
+          "atom": 0,
+          "head": [
+            -1,
+            -1,
+            0
+          ],
+          "start": [
+            -3,
+            -3
+          ],
+          "end": [
+            -1,
+            -1
+          ]
+        }
+      ],
+      "raw_exit": [
+        0,
+        0,
+        0
+      ],
+      "reason": "MUST_BE_IMMEDIATE_PREDECESSOR"
+    },
+    {
+      "packet": 0,
+      "head": [
+        -2,
+        0,
+        1
+      ],
+      "input_slot": [
+        0,
+        1
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 0,
+      "head": [
+        -1,
+        1,
+        2
+      ],
+      "input_slot": [
+        0,
+        1
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 0,
+      "head": [
+        0,
+        0,
+        3
+      ],
+      "input_slot": [
+        0,
+        1
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 1,
+      "head": [
+        -1,
+        -1,
+        0
+      ],
+      "input_slot": [
+        0,
+        1
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 1,
+      "head": [
+        -2,
+        0,
+        1
+      ],
+      "input_slot": [
+        0,
+        1
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 1,
+      "head": [
+        -1,
+        1,
+        2
+      ],
+      "input_slot": [
+        0,
+        1
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 1,
+      "head": [
+        0,
+        0,
+        3
+      ],
+      "input_slot": [
+        0,
+        1
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 4,
+      "head": [
+        -1,
+        -3,
+        0
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "atomic_chords": [
+        {
+          "atom": 4,
+          "head": [
+            -1,
+            -3,
+            0
+          ],
+          "start": [
+            -3,
+            -7
+          ],
+          "end": [
+            -1,
+            -1
+          ]
+        }
+      ],
+      "raw_exit": [
+        0,
+        0,
+        0
+      ],
+      "reason": "MUST_BE_IMMEDIATE_PREDECESSOR"
+    },
+    {
+      "packet": 4,
+      "head": [
+        -2,
+        -2,
+        0
+      ],
+      "input_slot": [
+        1,
+        2
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 4,
+      "head": [
+        -4,
+        0,
+        1
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 4,
+      "head": [
+        -3,
+        1,
+        1
+      ],
+      "input_slot": [
+        1,
+        2
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 4,
+      "head": [
+        -1,
+        3,
+        2
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 4,
+      "head": [
+        0,
+        2,
+        2
+      ],
+      "input_slot": [
+        1,
+        2
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 4,
+      "head": [
+        2,
+        0,
+        3
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 4,
+      "head": [
+        1,
+        -1,
+        3
+      ],
+      "input_slot": [
+        1,
+        2
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 5,
+      "head": [
+        -1,
+        -3,
+        0
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 5,
+      "head": [
+        -2,
+        -2,
+        0
+      ],
+      "input_slot": [
+        1,
+        2
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 5,
+      "head": [
+        -4,
+        0,
+        1
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 5,
+      "head": [
+        -3,
+        1,
+        1
+      ],
+      "input_slot": [
+        1,
+        2
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 5,
+      "head": [
+        -1,
+        3,
+        2
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 5,
+      "head": [
+        0,
+        2,
+        2
+      ],
+      "input_slot": [
+        1,
+        2
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 5,
+      "head": [
+        2,
+        0,
+        3
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 5,
+      "head": [
+        1,
+        -1,
+        3
+      ],
+      "input_slot": [
+        1,
+        2
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 6,
+      "head": [
+        -1,
+        -3,
+        0
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 6,
+      "head": [
+        -2,
+        -2,
+        0
+      ],
+      "input_slot": [
+        1,
+        2
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 6,
+      "head": [
+        -4,
+        0,
+        1
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 6,
+      "head": [
+        -3,
+        1,
+        1
+      ],
+      "input_slot": [
+        1,
+        2
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 6,
+      "head": [
+        -1,
+        3,
+        2
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 6,
+      "head": [
+        0,
+        2,
+        2
+      ],
+      "input_slot": [
+        1,
+        2
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 6,
+      "head": [
+        2,
+        0,
+        3
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 6,
+      "head": [
+        1,
+        -1,
+        3
+      ],
+      "input_slot": [
+        1,
+        2
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 7,
+      "head": [
+        0,
+        -1,
+        0
+      ],
+      "input_slot": [
+        -1,
+        1
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 7,
+      "head": [
+        0,
+        -2,
+        0
+      ],
+      "input_slot": [
+        -1,
+        2
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 7,
+      "head": [
+        0,
+        -4,
+        0
+      ],
+      "input_slot": [
+        -1,
+        4
+      ],
+      "atomic_chords": [
+        {
+          "atom": 7,
+          "head": [
+            0,
+            -4,
+            0
+          ],
+          "start": [
+            -1,
+            -9
+          ],
+          "end": [
+            -1,
+            -1
+          ]
+        }
+      ],
+      "raw_exit": [
+        0,
+        0,
+        0
+      ],
+      "reason": "MUST_BE_IMMEDIATE_PREDECESSOR"
+    },
+    {
+      "packet": 7,
+      "head": [
+        -1,
+        -2,
+        0
+      ],
+      "input_slot": [
+        0,
+        2
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 7,
+      "head": [
+        -1,
+        -3,
+        0
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 7,
+      "head": [
+        -2,
+        -1,
+        1
+      ],
+      "input_slot": [
+        -1,
+        1
+      ],
+      "atomic_chords": [
+        {
+          "atom": 7,
+          "head": [
+            -2,
+            -1,
+            1
+          ],
+          "start": [
+            -5,
+            -1
+          ],
+          "end": [
+            3,
+            -1
+          ]
+        }
+      ],
+      "raw_exit": [
+        2,
+        -1,
+        1
+      ],
+      "reason": "earlier_base_contains_future_entry_center"
+    },
+    {
+      "packet": 7,
+      "head": [
+        -3,
+        -1,
+        1
+      ],
+      "input_slot": [
+        -1,
+        2
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 7,
+      "head": [
+        -5,
+        -1,
+        1
+      ],
+      "input_slot": [
+        -1,
+        4
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 7,
+      "head": [
+        -3,
+        0,
+        1
+      ],
+      "input_slot": [
+        0,
+        2
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ]
+      ]
+    },
+    {
+      "packet": 7,
+      "head": [
+        -4,
+        0,
+        1
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 7,
+      "head": [
+        -2,
+        1,
+        2
+      ],
+      "input_slot": [
+        -1,
+        1
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 7,
+      "head": [
+        -2,
+        2,
+        2
+      ],
+      "input_slot": [
+        -1,
+        2
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 7,
+      "head": [
+        -2,
+        4,
+        2
+      ],
+      "input_slot": [
+        -1,
+        4
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ]
+      ]
+    },
+    {
+      "packet": 7,
+      "head": [
+        -1,
+        2,
+        2
+      ],
+      "input_slot": [
+        0,
+        2
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 7,
+      "head": [
+        -1,
+        3,
+        2
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 7,
+      "head": [
+        0,
+        1,
+        3
+      ],
+      "input_slot": [
+        -1,
+        1
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 7,
+      "head": [
+        1,
+        1,
+        3
+      ],
+      "input_slot": [
+        -1,
+        2
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 7,
+      "head": [
+        3,
+        1,
+        3
+      ],
+      "input_slot": [
+        -1,
+        4
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 7,
+      "head": [
+        1,
+        0,
+        3
+      ],
+      "input_slot": [
+        0,
+        2
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 7,
+      "head": [
+        2,
+        0,
+        3
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 8,
+      "head": [
+        0,
+        -1,
+        0
+      ],
+      "input_slot": [
+        -1,
+        1
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 8,
+      "head": [
+        0,
+        -2,
+        0
+      ],
+      "input_slot": [
+        -1,
+        2
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 8,
+      "head": [
+        0,
+        -4,
+        0
+      ],
+      "input_slot": [
+        -1,
+        4
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 8,
+      "head": [
+        -1,
+        -2,
+        0
+      ],
+      "input_slot": [
+        0,
+        2
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 8,
+      "head": [
+        -1,
+        -3,
+        0
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 8,
+      "head": [
+        -2,
+        -1,
+        1
+      ],
+      "input_slot": [
+        -1,
+        1
+      ],
+      "atomic_chords": [
+        {
+          "atom": 7,
+          "head": [
+            -2,
+            -1,
+            1
+          ],
+          "start": [
+            -5,
+            -1
+          ],
+          "end": [
+            3,
+            -1
+          ]
+        },
+        {
+          "atom": "C",
+          "head": [
+            2,
+            -1,
+            1
+          ],
+          "start": [
+            3,
+            -1
+          ],
+          "end": [
+            5,
+            -3
+          ]
+        }
+      ],
+      "raw_exit": [
+        3,
+        -1,
+        0
+      ],
+      "reason": "earlier_base_contains_future_entry_center"
+    },
+    {
+      "packet": 8,
+      "head": [
+        -3,
+        -1,
+        1
+      ],
+      "input_slot": [
+        -1,
+        2
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 8,
+      "head": [
+        -5,
+        -1,
+        1
+      ],
+      "input_slot": [
+        -1,
+        4
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 8,
+      "head": [
+        -3,
+        0,
+        1
+      ],
+      "input_slot": [
+        0,
+        2
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ]
+      ]
+    },
+    {
+      "packet": 8,
+      "head": [
+        -4,
+        0,
+        1
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 8,
+      "head": [
+        -2,
+        1,
+        2
+      ],
+      "input_slot": [
+        -1,
+        1
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 8,
+      "head": [
+        -2,
+        2,
+        2
+      ],
+      "input_slot": [
+        -1,
+        2
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 8,
+      "head": [
+        -2,
+        4,
+        2
+      ],
+      "input_slot": [
+        -1,
+        4
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ]
+      ]
+    },
+    {
+      "packet": 8,
+      "head": [
+        -1,
+        2,
+        2
+      ],
+      "input_slot": [
+        0,
+        2
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 8,
+      "head": [
+        -1,
+        3,
+        2
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 8,
+      "head": [
+        0,
+        1,
+        3
+      ],
+      "input_slot": [
+        -1,
+        1
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 8,
+      "head": [
+        1,
+        1,
+        3
+      ],
+      "input_slot": [
+        -1,
+        2
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 8,
+      "head": [
+        3,
+        1,
+        3
+      ],
+      "input_slot": [
+        -1,
+        4
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 8,
+      "head": [
+        1,
+        0,
+        3
+      ],
+      "input_slot": [
+        0,
+        2
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 8,
+      "head": [
+        2,
+        0,
+        3
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 9,
+      "head": [
+        0,
+        -1,
+        0
+      ],
+      "input_slot": [
+        -1,
+        1
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 9,
+      "head": [
+        0,
+        -2,
+        0
+      ],
+      "input_slot": [
+        -1,
+        2
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 9,
+      "head": [
+        0,
+        -4,
+        0
+      ],
+      "input_slot": [
+        -1,
+        4
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 9,
+      "head": [
+        -1,
+        -2,
+        0
+      ],
+      "input_slot": [
+        0,
+        2
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 9,
+      "head": [
+        -1,
+        -3,
+        0
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 9,
+      "head": [
+        -2,
+        -1,
+        1
+      ],
+      "input_slot": [
+        -1,
+        1
+      ],
+      "atomic_chords": [
+        {
+          "atom": 7,
+          "head": [
+            -2,
+            -1,
+            1
+          ],
+          "start": [
+            -5,
+            -1
+          ],
+          "end": [
+            3,
+            -1
+          ]
+        },
+        {
+          "atom": "C",
+          "head": [
+            2,
+            -1,
+            1
+          ],
+          "start": [
+            3,
+            -1
+          ],
+          "end": [
+            5,
+            -3
+          ]
+        },
+        {
+          "atom": "C",
+          "head": [
+            3,
+            -1,
+            0
+          ],
+          "start": [
+            5,
+            -3
+          ],
+          "end": [
+            7,
+            -1
+          ]
+        }
+      ],
+      "raw_exit": [
+        3,
+        0,
+        3
+      ],
+      "reason": "earlier_base_contains_future_entry_center"
+    },
+    {
+      "packet": 9,
+      "head": [
+        -3,
+        -1,
+        1
+      ],
+      "input_slot": [
+        -1,
+        2
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 9,
+      "head": [
+        -5,
+        -1,
+        1
+      ],
+      "input_slot": [
+        -1,
+        4
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 9,
+      "head": [
+        -3,
+        0,
+        1
+      ],
+      "input_slot": [
+        0,
+        2
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ]
+      ]
+    },
+    {
+      "packet": 9,
+      "head": [
+        -4,
+        0,
+        1
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 9,
+      "head": [
+        -2,
+        1,
+        2
+      ],
+      "input_slot": [
+        -1,
+        1
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 9,
+      "head": [
+        -2,
+        2,
+        2
+      ],
+      "input_slot": [
+        -1,
+        2
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 9,
+      "head": [
+        -2,
+        4,
+        2
+      ],
+      "input_slot": [
+        -1,
+        4
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ]
+      ]
+    },
+    {
+      "packet": 9,
+      "head": [
+        -1,
+        2,
+        2
+      ],
+      "input_slot": [
+        0,
+        2
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 9,
+      "head": [
+        -1,
+        3,
+        2
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 9,
+      "head": [
+        0,
+        1,
+        3
+      ],
+      "input_slot": [
+        -1,
+        1
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "packet": 9,
+      "head": [
+        1,
+        1,
+        3
+      ],
+      "input_slot": [
+        -1,
+        2
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 9,
+      "head": [
+        3,
+        1,
+        3
+      ],
+      "input_slot": [
+        -1,
+        4
+      ],
+      "reason": "wrong_sector"
+    },
+    {
+      "packet": 9,
+      "head": [
+        1,
+        0,
+        3
+      ],
+      "input_slot": [
+        0,
+        2
+      ],
+      "reason": "protected_final_input_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 9,
+      "head": [
+        2,
+        0,
+        3
+      ],
+      "input_slot": [
+        0,
+        3
+      ],
+      "reason": "wrong_sector"
+    }
+  ],
+  "older_q_four_cohort_applications": [
+    {
+      "source": 8,
+      "head": [
+        1,
+        5,
+        2
+      ],
+      "co_born_goal_inputs": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "older_goal_q": [
+        -1,
+        2
+      ],
+      "mandatory_core_outputs": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "last_helper_options": [
+        {
+          "helper": 0,
+          "head": [
+            -1,
+            -1,
+            0
+          ],
+          "also_consumes_other_core_spare": false
+        },
+        {
+          "helper": 4,
+          "head": [
+            -1,
+            -3,
+            0
+          ],
+          "also_consumes_other_core_spare": true
+        },
+        {
+          "helper": 7,
+          "head": [
+            0,
+            -4,
+            0
+          ],
+          "also_consumes_other_core_spare": true
+        }
+      ]
+    },
+    {
+      "source": 9,
+      "head": [
+        1,
+        5,
+        2
+      ],
+      "co_born_goal_inputs": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "older_goal_q": [
+        -1,
+        2
+      ],
+      "mandatory_core_outputs": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "last_helper_options": [
+        {
+          "helper": 0,
+          "head": [
+            -1,
+            -1,
+            0
+          ],
+          "also_consumes_other_core_spare": false
+        },
+        {
+          "helper": 4,
+          "head": [
+            -1,
+            -3,
+            0
+          ],
+          "also_consumes_other_core_spare": true
+        },
+        {
+          "helper": 7,
+          "head": [
+            0,
+            -4,
+            0
+          ],
+          "also_consumes_other_core_spare": true
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "check_U_core_identity_last_helper.py": "d4fa4dad428d8585c97bec81c9ae82d7194467daeb4a1722da455db51a68b0c1",
+    "U_entry_simplicity_frozen_20261023_1616/manifest.json": "127a00884b4a06af35a807ab76f6f6499b9427d56350a931c03cc0e8de65524d"
+  }
+}

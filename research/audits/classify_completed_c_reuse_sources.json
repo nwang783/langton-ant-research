@@ -1,0 +1,859 @@
+{
+  "status": "bounded search exhausted",
+  "max_prefix_macros": 12,
+  "node_cap": 5000000,
+  "nodes": 495272,
+  "feasible_prefix_counts": [
+    1,
+    4,
+    16,
+    53,
+    159,
+    435,
+    1167,
+    3025,
+    7765,
+    19506,
+    48764,
+    119936,
+    294441
+  ],
+  "reused_feasible_first_Cs": 11412,
+  "completion_tests": 22824,
+  "witness": null,
+  "seconds": 5.000040577000618,
+  "words_sha256": "4afa16be5b9a78e8d49d2eb82ca0f5b267b83f09bf0de991e893a4f569813f29",
+  "source_categories": [
+    {
+      "macro": "U",
+      "phase": 21,
+      "heading_relative_to_C": 2,
+      "balanced_CC": false,
+      "count": 5173,
+      "shortest_suffix": "UCCVC"
+    },
+    {
+      "macro": "V",
+      "phase": 11,
+      "heading_relative_to_C": 2,
+      "balanced_CC": true,
+      "count": 6239,
+      "shortest_suffix": "VCCVC"
+    }
+  ],
+  "distinct_suffixes": 10,
+  "suffix_counts": {
+    "VCCVC": 5308,
+    "UCCVC": 4334,
+    "VVCCVVC": 796,
+    "UVCCVVC": 710,
+    "VVVCCVVVC": 118,
+    "UVVCCVVVC": 112,
+    "VVVVCCVVVVC": 16,
+    "VVVVVCCVVVVVC": 1,
+    "UVVVCCVVVVC": 16,
+    "UVVVVCCVVVVVC": 1
+  },
+  "unbalanced_examples": [
+    {
+      "prefix": "VCCVVCVVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCCVVCVUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCCVVVCVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCCVVVVVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCCVVVVUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCCVVVVUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCCVVVUCCV",
+      "source_index": 6,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCCVVVUVCCVV",
+      "source_index": 6,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UVCCVVC"
+    },
+    {
+      "prefix": "VCCVVVUVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCCVVVUUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCCVVVUUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCCVVUCCV",
+      "source_index": 5,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCCVVUCVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCCVVUVCCVV",
+      "source_index": 5,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UVCCVVC"
+    },
+    {
+      "prefix": "VCCVVUVVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCCVVUVUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCCVVUVUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCCVVUUCCV",
+      "source_index": 6,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCCVVUUVCCVV",
+      "source_index": 6,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UVCCVVC"
+    },
+    {
+      "prefix": "VCCVVUUVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCCVVUUUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCCVVUUUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVCVVVVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVCVVVUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVCVVVUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVCVVUCCV",
+      "source_index": 6,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVCVVUVCCVV",
+      "source_index": 6,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UVCCVVC"
+    },
+    {
+      "prefix": "VCVCVVUVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVCVVUUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVCVVUUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVCVUVVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVCVUVUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVCVUVUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVCVUUCCV",
+      "source_index": 6,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVCVUUVCCVV",
+      "source_index": 6,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UVCCVVC"
+    },
+    {
+      "prefix": "VCVCVUUVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVCVUUUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVCVUUUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVCVVVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVCVVUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVCVVUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVCVUCCV",
+      "source_index": 6,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVCVUVCCVV",
+      "source_index": 6,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UVCCVVC"
+    },
+    {
+      "prefix": "VCVVCVUVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVCVUUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVCVUUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVVCVVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVVCVUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVVCVUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVVVCVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVVVVVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVVVVUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVVVVUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVVVUCCV",
+      "source_index": 6,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVVVUVCCVV",
+      "source_index": 6,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UVCCVVC"
+    },
+    {
+      "prefix": "VCVVVVUVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVVVUUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVVVUUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVVUCCV",
+      "source_index": 5,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVVUCVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVVUVCCVV",
+      "source_index": 5,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UVCCVVC"
+    },
+    {
+      "prefix": "VCVVVUVVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVVUVUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVVUVUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVVUUCCV",
+      "source_index": 6,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVVUUVCCVV",
+      "source_index": 6,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UVCCVVC"
+    },
+    {
+      "prefix": "VCVVVUUVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVVUUUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVVUUUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUCCV",
+      "source_index": 4,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUCVVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUCVUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUCVUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUVCCVV",
+      "source_index": 4,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UVCCVVC"
+    },
+    {
+      "prefix": "VCVVUVCVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUVVCCVVV",
+      "source_index": 4,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UVVCCVVVC"
+    },
+    {
+      "prefix": "VCVVUVVVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUVVUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUVVUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUVUCCV",
+      "source_index": 6,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUVUVCCVV",
+      "source_index": 6,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UVCCVVC"
+    },
+    {
+      "prefix": "VCVVUVUVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUVUUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUVUUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUUCCV",
+      "source_index": 5,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUUCVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUUVCCVV",
+      "source_index": 5,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UVCCVVC"
+    },
+    {
+      "prefix": "VCVVUUVVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUUVUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUUVUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUUUCCV",
+      "source_index": 6,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUUUVCCVV",
+      "source_index": 6,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UVCCVVC"
+    },
+    {
+      "prefix": "VCVVUUUVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUUUUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVVUUUUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVUCCV",
+      "source_index": 3,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVUCVVVUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVUCVVUCCV",
+      "source_index": 7,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVUCVVUUCCV",
+      "source_index": 8,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    },
+    {
+      "prefix": "VCVUCVUCCV",
+      "source_index": 6,
+      "source_macro": "U",
+      "source_phase": 21,
+      "relative_heading": 2,
+      "suffix": "UCCVC"
+    }
+  ]
+}

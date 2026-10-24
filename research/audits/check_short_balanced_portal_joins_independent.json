@@ -1,0 +1,574 @@
+{
+  "status": "PASS two specified balanced one-use joins, scoped necessary local cover",
+  "files": {
+    "shortest_balanced_one_use_portal_joins_are_chiral.md": "2cfd811dd61117e46d19957fa86389c67db4a73c41a367ea5358e8ded5b6aeb4",
+    "check_shortest_balanced_one_use_portal_joins.py": "b1c599a1570d039e37f72666b0ba9a120f2ee440ad11c856d23d5b7f0478cb51",
+    "check_shortest_balanced_one_use_portal_joins.json": "5898c499702f4bd635c2b64b79e5b008c454135a01811b400ee43f35c0249cd8"
+  },
+  "script": "71b912aea785f8f66de8522c474de1a1a3a107a9b793b9242a7718a428c4036d",
+  "counts": {
+    "open": 4,
+    "port": 10,
+    "skipped_rank": 2
+  },
+  "rows": [
+    {
+      "kind": "RL",
+      "upper": "EWW",
+      "lower": "EWW",
+      "extra_L": false,
+      "result": "OPEN_local_only",
+      "events": 26,
+      "components": 7,
+      "heights": {
+        "(-2, -4)": -2,
+        "(-2, -3)": 0,
+        "(-2, -2)": -1,
+        "(-1, -4)": 0,
+        "(-1, -3)": -2,
+        "(-1, -2)": 0,
+        "(-1, -1)": -2,
+        "(-1, 0)": 0,
+        "(-1, 1)": -1,
+        "(0, -4)": -1,
+        "(0, -3)": -1,
+        "(0, -2)": -1,
+        "(0, -1)": 0,
+        "(0, 0)": -2,
+        "(0, 1)": 0,
+        "(1, -2)": -1,
+        "(1, -1)": -1,
+        "(1, 0)": -1,
+        "(1, 1)": -1
+      }
+    },
+    {
+      "kind": "RL",
+      "upper": "EWW",
+      "lower": "EWW",
+      "extra_L": true,
+      "result": "port",
+      "witnesses": [
+        [
+          [
+            0,
+            -1
+          ],
+          [
+            0,
+            0
+          ],
+          0,
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "kind": "RL",
+      "upper": "EWW",
+      "lower": "EWWE",
+      "extra_L": false,
+      "result": "OPEN_local_only",
+      "events": 27,
+      "components": 8,
+      "heights": {
+        "(-2, -4)": -2,
+        "(-2, -3)": 0,
+        "(-2, -2)": -2,
+        "(-1, -4)": 0,
+        "(-1, -3)": -2,
+        "(-1, -2)": 0,
+        "(-1, -1)": -2,
+        "(-1, 0)": 0,
+        "(-1, 1)": -1,
+        "(0, -4)": -1,
+        "(0, -3)": -1,
+        "(0, -2)": -1,
+        "(0, -1)": 0,
+        "(0, 0)": -2,
+        "(0, 1)": 0,
+        "(1, -2)": -1,
+        "(1, -1)": -1,
+        "(1, 0)": -1,
+        "(1, 1)": -1
+      }
+    },
+    {
+      "kind": "RL",
+      "upper": "EWW",
+      "lower": "EWWE",
+      "extra_L": true,
+      "result": "port",
+      "witnesses": [
+        [
+          [
+            0,
+            -1
+          ],
+          [
+            0,
+            0
+          ],
+          0,
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "kind": "RL",
+      "upper": "EWWE",
+      "lower": "EWW",
+      "extra_L": false,
+      "result": "OPEN_local_only",
+      "events": 27,
+      "components": 8,
+      "heights": {
+        "(-2, -4)": -2,
+        "(-2, -3)": 0,
+        "(-2, -2)": -1,
+        "(-1, -4)": 0,
+        "(-1, -3)": -2,
+        "(-1, -2)": 0,
+        "(-1, -1)": -2,
+        "(-1, 0)": 0,
+        "(-1, 1)": -2,
+        "(0, -4)": -1,
+        "(0, -3)": -1,
+        "(0, -2)": -1,
+        "(0, -1)": 0,
+        "(0, 0)": -2,
+        "(0, 1)": 0,
+        "(1, -2)": -1,
+        "(1, -1)": -1,
+        "(1, 0)": -1,
+        "(1, 1)": -1
+      }
+    },
+    {
+      "kind": "RL",
+      "upper": "EWWE",
+      "lower": "EWW",
+      "extra_L": true,
+      "result": "port",
+      "witnesses": [
+        [
+          [
+            0,
+            -1
+          ],
+          [
+            0,
+            0
+          ],
+          0,
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "kind": "RL",
+      "upper": "EWWE",
+      "lower": "EWWE",
+      "extra_L": false,
+      "result": "OPEN_local_only",
+      "events": 28,
+      "components": 9,
+      "heights": {
+        "(-2, -4)": -2,
+        "(-2, -3)": 0,
+        "(-2, -2)": -2,
+        "(-1, -4)": 0,
+        "(-1, -3)": -2,
+        "(-1, -2)": 0,
+        "(-1, -1)": -2,
+        "(-1, 0)": 0,
+        "(-1, 1)": -2,
+        "(0, -4)": -1,
+        "(0, -3)": -1,
+        "(0, -2)": -1,
+        "(0, -1)": 0,
+        "(0, 0)": -2,
+        "(0, 1)": 0,
+        "(1, -2)": -1,
+        "(1, -1)": -1,
+        "(1, 0)": -1,
+        "(1, 1)": -1
+      }
+    },
+    {
+      "kind": "RL",
+      "upper": "EWWE",
+      "lower": "EWWE",
+      "extra_L": true,
+      "result": "port",
+      "witnesses": [
+        [
+          [
+            0,
+            -1
+          ],
+          [
+            0,
+            0
+          ],
+          0,
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "kind": "LR",
+      "upper": "EWW",
+      "lower": "EWW",
+      "extra_L": false,
+      "result": "port",
+      "witnesses": [
+        [
+          [
+            1,
+            -2
+          ],
+          [
+            1,
+            -1
+          ],
+          0,
+          [
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "kind": "LR",
+      "upper": "EWW",
+      "lower": "EWW",
+      "extra_L": true,
+      "result": "port",
+      "witnesses": [
+        [
+          [
+            1,
+            -2
+          ],
+          [
+            1,
+            -1
+          ],
+          0,
+          [
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ]
+        ]
+      ]
+    },
+    {
+      "kind": "LR",
+      "upper": "EWW",
+      "lower": "EWWE",
+      "extra_L": false,
+      "result": "same_physical_event_cycle",
+      "path": [
+        [
+          [
+            1,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            -2
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -3
+          ],
+          3
+        ],
+        [
+          [
+            2,
+            -3
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "LR",
+      "upper": "EWW",
+      "lower": "EWWE",
+      "extra_L": true,
+      "result": "port",
+      "witnesses": [
+        [
+          [
+            1,
+            -2
+          ],
+          [
+            1,
+            -1
+          ],
+          0,
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            3
+          ]
+        ]
+      ]
+    },
+    {
+      "kind": "LR",
+      "upper": "EWWE",
+      "lower": "EWW",
+      "extra_L": false,
+      "result": "port",
+      "witnesses": [
+        [
+          [
+            1,
+            -2
+          ],
+          [
+            1,
+            -1
+          ],
+          0,
+          [
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "kind": "LR",
+      "upper": "EWWE",
+      "lower": "EWW",
+      "extra_L": true,
+      "result": "port",
+      "witnesses": [
+        [
+          [
+            1,
+            -2
+          ],
+          [
+            1,
+            -1
+          ],
+          0,
+          [
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ]
+        ]
+      ]
+    },
+    {
+      "kind": "LR",
+      "upper": "EWWE",
+      "lower": "EWWE",
+      "extra_L": false,
+      "result": "same_physical_event_cycle",
+      "path": [
+        [
+          [
+            1,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            -2
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -3
+          ],
+          3
+        ],
+        [
+          [
+            2,
+            -3
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          0
+        ]
+      ]
+    },
+    {
+      "kind": "LR",
+      "upper": "EWWE",
+      "lower": "EWWE",
+      "extra_L": true,
+      "result": "port",
+      "witnesses": [
+        [
+          [
+            1,
+            -2
+          ],
+          [
+            1,
+            -1
+          ],
+          0,
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            3
+          ]
+        ]
+      ]
+    }
+  ],
+  "complete_flow_one_domain_derivation": "Every1..4 complete WHITE same-axis word independently generated with actual first heading, one selected incoming and one selected outgoing port. RIGHT singleton and LEFT3/4 domains follow without dropped alternatives.",
+  "scope": "Only the displayed RL/LR two-internal-vertex joins. All physical zero ports, full literal LR8-event cycles, exposed stream heights, and four injective event-disjoint whole-component calendars independently checked. RL carries two odd classes in this stipulated local geometry; no charge for arbitrary longer joins, no actual factor, complete full-drift aliasing or periodic front is supplied.",
+  "geometry": {
+    "b_turns": "RLLRRL",
+    "displacement": [
+      -1,
+      -3
+    ],
+    "not_a_repeatable_tile": true
+  }
+}

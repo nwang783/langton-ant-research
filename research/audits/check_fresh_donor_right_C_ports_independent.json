@@ -1,0 +1,105 @@
+{
+  "status": "PASS fresh V/U right-throughC3 and fresh C outputs-throughone-postEXIT-C guards",
+  "manifest": "48091fd4b07c314ca0c332a196ab38ec9815218876669a88c15d14e7d071f100",
+  "script": "dd6560bdff55ead0ccd6632e881bd1ef6846980aa6b90ad22675dccb79103ac4",
+  "V_U": [
+    {
+      "source": "V",
+      "roles": 32,
+      "counts": {
+        "N0_endpoint_obligation": 4,
+        "sector": 16,
+        "would_touch_independently_guarded_anchor": 12
+      }
+    },
+    {
+      "source": "U",
+      "roles": 32,
+      "counts": {
+        "N0_endpoint_obligation": 4,
+        "sector": 16,
+        "would_touch_independently_guarded_anchor": 12
+      }
+    }
+  ],
+  "C_input_cones": [
+    [
+      "D",
+      [
+        0,
+        1
+      ],
+      -1,
+      -1
+    ],
+    [
+      "V",
+      [
+        0,
+        3
+      ],
+      -3,
+      -1
+    ],
+    [
+      "V",
+      [
+        1,
+        2
+      ],
+      -2,
+      -2
+    ],
+    [
+      "U",
+      [
+        -1,
+        1
+      ],
+      -1,
+      0
+    ],
+    [
+      "U",
+      [
+        -1,
+        2
+      ],
+      -2,
+      0
+    ],
+    [
+      "U",
+      [
+        0,
+        2
+      ],
+      -2,
+      -1
+    ],
+    [
+      "U",
+      [
+        0,
+        3
+      ],
+      -3,
+      -1
+    ],
+    [
+      "U",
+      [
+        -1,
+        4
+      ],
+      -4,
+      0
+    ]
+  ],
+  "analytic_review": [
+    "The actual selected V/U right cell1,0 is finalR9 external output. All8 real input slots and4 orientations are reconstructed, including marker-owned capture. SourceV r remains CURRENT throughC4; sourceU LEFT throughC3 by signed9cf. The12 anchor-touch cases are excluded by this independent CURRENT reserve at completed loss atoms, not by declaring true inputs intrinsically invalid.",
+    "Remaining four loss poses are N-facing negative-y heads. With deadlineC<=3 headingN forcesC0; source exitsy3/4 and every actual zero-C N base raisesy, so none is reachable. This proves right CURRENT throughC3 only, with simple source-prefix and no interveningFOREIGN as required. No rightC4/all-age extension.",
+    "Actual sourceC EXIT0,1W has three residual outputs withx>=1. W headsx<=0 give all inputx<=-1. One laterC movesxleft1 and turnsS; S headsx<=-1 give all inputx<=0. The complete8 input cone list includes physical and marker-owned CORE capture, C has no external I. Thus all3 SAME C outputs persist throughone postEXITC, without simplicity. SourceENTRYclock is2, not1.",
+    "Actual readerC2,0S CORE contains V/U right1,0 and C common2,0. At sourceENTRYage2 the respective guards imply CURRENT/CORE contradiction, not BLACK-versus-L. Application to another target still needs its exact source/reader frame, last-R and simple-prefix obligations."
+  ]
+}

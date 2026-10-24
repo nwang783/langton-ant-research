@@ -1,0 +1,2248 @@
+{
+  "status": "AUTHOR_FROZEN_PENDING_INDEPENDENT_REVIEW",
+  "scope": "Exact ordinary RAW factor beginning at a D/V/U base and ending at a D/V/U base, with ACTUAL final M11. If the first base is D, it has an ACTUAL preceding seven-atom RAW; for initial V/U no external predecessor is needed. Then the factor partitions into D,DC,V,VC,VCC,U,UC,UCC actual packets. This is a restricted-word grammar theorem, not arbitrary ant coverage or terminal-C parsing.",
+  "all4_actual_M11_supplies": [
+    {
+      "atom": "D",
+      "RAW_length": 10,
+      "M11_supply": "own first10 plus ACTUAL next word firstL"
+    },
+    {
+      "atom": "C",
+      "RAW_length": 15,
+      "M11_supply": "own first11 RAW"
+    },
+    {
+      "atom": "V",
+      "RAW_length": 18,
+      "M11_supply": "own first11 RAW"
+    },
+    {
+      "atom": "U",
+      "RAW_length": 28,
+      "M11_supply": "own first11 RAW"
+    }
+  ],
+  "all5_fixed_literal_conflicts": [
+    {
+      "word": "DCCD",
+      "conflict": {
+        "feasible": false,
+        "conflict_read": 51,
+        "previous_read": 11,
+        "cell": [
+          0,
+          1
+        ],
+        "turn": "L"
+      },
+      "previous_owner": {
+        "atom_index0": 1,
+        "atom": "C",
+        "atom_tick0": 1,
+        "atom_read_number1": 2,
+        "turn": "L"
+      },
+      "conflicting_owner": {
+        "owner": "actual following word supplied by M11",
+        "next_word_tick0": 1,
+        "next_word_read_number1": 2,
+        "turn": "L"
+      }
+    },
+    {
+      "word": "DCCV",
+      "conflict": {
+        "feasible": false,
+        "conflict_read": 53,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      },
+      "previous_owner": {
+        "atom_index0": 0,
+        "atom": "D",
+        "atom_tick0": 1,
+        "atom_read_number1": 2,
+        "turn": "L"
+      },
+      "conflicting_owner": {
+        "atom_index0": 3,
+        "atom": "V",
+        "atom_tick0": 13,
+        "atom_read_number1": 14,
+        "turn": "L"
+      }
+    },
+    {
+      "word": "DCCU",
+      "conflict": {
+        "feasible": false,
+        "conflict_read": 52,
+        "previous_read": 12,
+        "cell": [
+          0,
+          0
+        ],
+        "turn": "L"
+      },
+      "previous_owner": {
+        "atom_index0": 1,
+        "atom": "C",
+        "atom_tick0": 2,
+        "atom_read_number1": 3,
+        "turn": "L"
+      },
+      "conflicting_owner": {
+        "atom_index0": 3,
+        "atom": "U",
+        "atom_tick0": 12,
+        "atom_read_number1": 13,
+        "turn": "L"
+      }
+    },
+    {
+      "word": "VCCC",
+      "conflict": {
+        "feasible": false,
+        "conflict_read": 71,
+        "previous_read": 11,
+        "cell": [
+          0,
+          1
+        ],
+        "turn": "R"
+      },
+      "previous_owner": {
+        "atom_index0": 0,
+        "atom": "V",
+        "atom_tick0": 11,
+        "atom_read_number1": 12,
+        "turn": "R"
+      },
+      "conflicting_owner": {
+        "owner": "actual following word supplied by M11",
+        "next_word_tick0": 8,
+        "next_word_read_number1": 9,
+        "turn": "R"
+      }
+    },
+    {
+      "word": "UCCC",
+      "conflict": {
+        "feasible": false,
+        "conflict_read": 81,
+        "previous_read": 21,
+        "cell": [
+          -1,
+          2
+        ],
+        "turn": "R"
+      },
+      "previous_owner": {
+        "atom_index0": 0,
+        "atom": "U",
+        "atom_tick0": 21,
+        "atom_read_number1": 22,
+        "turn": "R"
+      },
+      "conflicting_owner": {
+        "owner": "actual following word supplied by M11",
+        "next_word_tick0": 8,
+        "next_word_read_number1": 9,
+        "turn": "R"
+      }
+    }
+  ],
+  "all7_actual_predecessor_DCCC_EXIT_bud_conflicts": [
+    {
+      "actual_preceding_RAW": "D",
+      "previous_RAW_EXIT": [
+        1,
+        1,
+        0
+      ],
+      "SAME_EXIT_bud": [
+        2,
+        0
+      ],
+      "last_R_tick0": 8,
+      "RAW_birth_owner": {
+        "packet": "D",
+        "context_tick0": 8,
+        "context_read_number1": 9,
+        "RAW_length": 10,
+        "owner": "own D-base RAW",
+        "owner_tick0": 8,
+        "owner_read_number1": 9,
+        "turn": "R",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 8 (zero-based), RAW length 10; own D-base RAW tick 8 (zero-based), read 9 (one-based), R"
+      },
+      "DCCC_RAW_MISS": true,
+      "DCCC_context_first_R_tick0": 62,
+      "following_owner": {
+        "owner": "actual following word supplied by M11",
+        "next_word_tick0": 7,
+        "next_word_read_number1": 8,
+        "turn": "R"
+      },
+      "whole_conflict": {
+        "feasible": false,
+        "conflict_read": 72,
+        "previous_read": 8,
+        "cell": [
+          2,
+          0
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "actual_preceding_RAW": "C",
+      "previous_RAW_EXIT": [
+        0,
+        1,
+        3
+      ],
+      "SAME_EXIT_bud": [
+        1,
+        2
+      ],
+      "last_R_tick0": 13,
+      "RAW_birth_owner": {
+        "packet": "C",
+        "context_tick0": 13,
+        "context_read_number1": 14,
+        "RAW_length": 15,
+        "owner": "own C-tail 1 RAW",
+        "owner_tick0": 13,
+        "owner_read_number1": 14,
+        "turn": "R",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 13 (zero-based), RAW length 15; own C-tail 1 RAW tick 13 (zero-based), read 14 (one-based), R"
+      },
+      "DCCC_RAW_MISS": true,
+      "DCCC_context_first_R_tick0": 62,
+      "following_owner": {
+        "owner": "actual following word supplied by M11",
+        "next_word_tick0": 7,
+        "next_word_read_number1": 8,
+        "turn": "R"
+      },
+      "whole_conflict": {
+        "feasible": false,
+        "conflict_read": 77,
+        "previous_read": 13,
+        "cell": [
+          1,
+          2
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "actual_preceding_RAW": "V",
+      "previous_RAW_EXIT": [
+        1,
+        3,
+        0
+      ],
+      "SAME_EXIT_bud": [
+        2,
+        2
+      ],
+      "last_R_tick0": 16,
+      "RAW_birth_owner": {
+        "packet": "V",
+        "context_tick0": 16,
+        "context_read_number1": 17,
+        "RAW_length": 18,
+        "owner": "own V-base RAW",
+        "owner_tick0": 16,
+        "owner_read_number1": 17,
+        "turn": "R",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 16 (zero-based), RAW length 18; own V-base RAW tick 16 (zero-based), read 17 (one-based), R"
+      },
+      "DCCC_RAW_MISS": true,
+      "DCCC_context_first_R_tick0": 62,
+      "following_owner": {
+        "owner": "actual following word supplied by M11",
+        "next_word_tick0": 7,
+        "next_word_read_number1": 8,
+        "turn": "R"
+      },
+      "whole_conflict": {
+        "feasible": false,
+        "conflict_read": 80,
+        "previous_read": 16,
+        "cell": [
+          2,
+          2
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "actual_preceding_RAW": "U",
+      "previous_RAW_EXIT": [
+        0,
+        4,
+        0
+      ],
+      "SAME_EXIT_bud": [
+        1,
+        3
+      ],
+      "last_R_tick0": 26,
+      "RAW_birth_owner": {
+        "packet": "U",
+        "context_tick0": 26,
+        "context_read_number1": 27,
+        "RAW_length": 28,
+        "owner": "own U-base RAW",
+        "owner_tick0": 26,
+        "owner_read_number1": 27,
+        "turn": "R",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 26 (zero-based), RAW length 28; own U-base RAW tick 26 (zero-based), read 27 (one-based), R"
+      },
+      "DCCC_RAW_MISS": true,
+      "DCCC_context_first_R_tick0": 62,
+      "following_owner": {
+        "owner": "actual following word supplied by M11",
+        "next_word_tick0": 7,
+        "next_word_read_number1": 8,
+        "turn": "R"
+      },
+      "whole_conflict": {
+        "feasible": false,
+        "conflict_read": 90,
+        "previous_read": 26,
+        "cell": [
+          1,
+          3
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "actual_preceding_RAW": "F",
+      "previous_RAW_EXIT": [
+        -4,
+        -2,
+        2
+      ],
+      "SAME_EXIT_bud": [
+        -5,
+        -1
+      ],
+      "last_R_tick0": 54,
+      "RAW_birth_owner": {
+        "packet": "F",
+        "context_tick0": 54,
+        "context_read_number1": 55,
+        "RAW_length": 56,
+        "owner": "own F-base RAW",
+        "owner_tick0": 54,
+        "owner_read_number1": 55,
+        "turn": "R",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 54 (zero-based), RAW length 56; own F-base RAW tick 54 (zero-based), read 55 (one-based), R"
+      },
+      "DCCC_RAW_MISS": true,
+      "DCCC_context_first_R_tick0": 62,
+      "following_owner": {
+        "owner": "actual following word supplied by M11",
+        "next_word_tick0": 7,
+        "next_word_read_number1": 8,
+        "turn": "R"
+      },
+      "whole_conflict": {
+        "feasible": false,
+        "conflict_read": 118,
+        "previous_read": 54,
+        "cell": [
+          -5,
+          -1
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "actual_preceding_RAW": "Q",
+      "previous_RAW_EXIT": [
+        -4,
+        -4,
+        2
+      ],
+      "SAME_EXIT_bud": [
+        -5,
+        -3
+      ],
+      "last_R_tick0": 62,
+      "RAW_birth_owner": {
+        "packet": "Q",
+        "context_tick0": 62,
+        "context_read_number1": 63,
+        "RAW_length": 64,
+        "owner": "own Q-base RAW",
+        "owner_tick0": 62,
+        "owner_read_number1": 63,
+        "turn": "R",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 62 (zero-based), RAW length 64; own Q-base RAW tick 62 (zero-based), read 63 (one-based), R"
+      },
+      "DCCC_RAW_MISS": true,
+      "DCCC_context_first_R_tick0": 62,
+      "following_owner": {
+        "owner": "actual following word supplied by M11",
+        "next_word_tick0": 7,
+        "next_word_read_number1": 8,
+        "turn": "R"
+      },
+      "whole_conflict": {
+        "feasible": false,
+        "conflict_read": 126,
+        "previous_read": 62,
+        "cell": [
+          -5,
+          -3
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "actual_preceding_RAW": "B",
+      "previous_RAW_EXIT": [
+        -3,
+        -5,
+        2
+      ],
+      "SAME_EXIT_bud": [
+        -4,
+        -4
+      ],
+      "last_R_tick0": 72,
+      "RAW_birth_owner": {
+        "packet": "B",
+        "context_tick0": 72,
+        "context_read_number1": 73,
+        "RAW_length": 74,
+        "owner": "own B-base RAW",
+        "owner_tick0": 72,
+        "owner_read_number1": 73,
+        "turn": "R",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 72 (zero-based), RAW length 74; own B-base RAW tick 72 (zero-based), read 73 (one-based), R"
+      },
+      "DCCC_RAW_MISS": true,
+      "DCCC_context_first_R_tick0": 62,
+      "following_owner": {
+        "owner": "actual following word supplied by M11",
+        "next_word_tick0": 7,
+        "next_word_read_number1": 8,
+        "turn": "R"
+      },
+      "whole_conflict": {
+        "feasible": false,
+        "conflict_read": 136,
+        "previous_read": 72,
+        "cell": [
+          -4,
+          -4
+        ],
+        "turn": "R"
+      }
+    }
+  ],
+  "DCCC_identity_statement": "Previous RAW final-R at own len-2 is SAME CURRENT physical EXIT beta. DCCC RAW entirely MISSES it. Its actual following word tick7/read8 first requires R at DCCC context62, an immutable repeated R. No minimum age or residual-only repair argument is used.",
+  "arbitrary_length_parse_proof": "Write each ordinary word as maximal base-plus-C runs. VCCC/UCCC forbid >=3 Cs after V/U, using actual next M if needed. DCC followed D/V/U is forbidden by the three fixed conflicts. >=3 Cs after D is forbidden by the actual preceding RAW EXIT-bud conflict; this previous atom exists internally unless D is first, where it is a stated hypothesis. Because the factor ends at a BASE, a DCC run cannot be terminal, hence every D run has <=1 C. Thus each maximal run is exactly a chosen G8 packet, with identical real RAW cuts and actual M11 supply. No bounded-length enumeration is used.",
+  "source_U_invocation": "For a selected fresh RAW U, every D has a real preceding RAW inside the factor. The first maximal run is ACTUAL U/UC/UCC and the ending base is an ACTUAL completed D/V/U G8 packet with the SAME final M11. The signed U-entry center-simplicity theorem applies to arbitrary actual complete entry field; an earlier foreign or unrelated history lies outside the factor and is not an extra required ancestry. Therefore the selected-U-to-ending-base atomic proxy is injective without assuming it before the conclusion.",
+  "all18_foreign_EXIT_outgoing_b1U_terminal_actors": [
+    {
+      "atom": "D",
+      "entry": [
+        -1,
+        -1,
+        0
+      ],
+      "new_t": "1",
+      "necessary_source_relative_C": [
+        4
+      ],
+      "LEFT_conflicts": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "role": "first_WHITE",
+          "local": [
+            1,
+            1
+          ]
+        }
+      ],
+      "LEFT_roles": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "local": [
+            1,
+            1
+          ],
+          "first": [
+            "R",
+            6
+          ],
+          "owner": {
+            "packet": "D",
+            "context_tick0": 6,
+            "context_read_number1": 7,
+            "RAW_length": 10,
+            "owner": "own D-base RAW",
+            "owner_tick0": 6,
+            "owner_read_number1": 7,
+            "turn": "R",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 6 (zero-based), RAW length 10; own D-base RAW tick 6 (zero-based), read 7 (one-based), R"
+          }
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "local": [
+            1,
+            2
+          ],
+          "first": null,
+          "owner": null
+        }
+      ],
+      "route": "SAME_LEFT_CURRENT_CORE_or_WHITE"
+    },
+    {
+      "atom": "D",
+      "entry": [
+        -1,
+        0,
+        1
+      ],
+      "new_t": "1",
+      "necessary_source_relative_C": [
+        3
+      ],
+      "LEFT_conflicts": [],
+      "LEFT_roles": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "local": [
+            0,
+            1
+          ],
+          "first": [
+            "L",
+            11
+          ],
+          "owner": {
+            "packet": "D",
+            "context_tick0": 11,
+            "context_read_number1": 12,
+            "RAW_length": 10,
+            "owner": "next actual word RAW",
+            "owner_tick0": 1,
+            "owner_read_number1": 2,
+            "turn": "L",
+            "next_word_tick0": 1,
+            "next_word_read_number1": 2,
+            "label": "context tick 11 (zero-based), RAW length 10; next actual word RAW tick 1 (zero-based), read 2 (one-based), L"
+          }
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "local": [
+            -1,
+            1
+          ],
+          "first": null,
+          "owner": null
+        }
+      ],
+      "route": "base_cut_G8_bridge"
+    },
+    {
+      "atom": "D",
+      "entry": [
+        0,
+        0,
+        2
+      ],
+      "new_t": "1",
+      "necessary_source_relative_C": [
+        6
+      ],
+      "LEFT_conflicts": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "role": "ENTRY_CORE",
+          "local": [
+            0,
+            0
+          ]
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "role": "ENTRY_CORE",
+          "local": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "LEFT_roles": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "local": [
+            0,
+            0
+          ],
+          "first": [
+            "L",
+            0
+          ],
+          "owner": {
+            "packet": "D",
+            "context_tick0": 0,
+            "context_read_number1": 1,
+            "RAW_length": 10,
+            "owner": "own D-base RAW",
+            "owner_tick0": 0,
+            "owner_read_number1": 1,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 0 (zero-based), RAW length 10; own D-base RAW tick 0 (zero-based), read 1 (one-based), L"
+          }
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "local": [
+            0,
+            -1
+          ],
+          "first": [
+            "L",
+            3
+          ],
+          "owner": {
+            "packet": "D",
+            "context_tick0": 3,
+            "context_read_number1": 4,
+            "RAW_length": 10,
+            "owner": "own D-base RAW",
+            "owner_tick0": 3,
+            "owner_read_number1": 4,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 3 (zero-based), RAW length 10; own D-base RAW tick 3 (zero-based), read 4 (one-based), L"
+          }
+        }
+      ],
+      "route": "SAME_LEFT_CURRENT_CORE_or_WHITE"
+    },
+    {
+      "atom": "D",
+      "entry": [
+        0,
+        -1,
+        3
+      ],
+      "new_t": "1",
+      "necessary_source_relative_C": [
+        5
+      ],
+      "LEFT_conflicts": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "role": "ENTRY_CORE",
+          "local": [
+            1,
+            0
+          ]
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "role": "first_WHITE",
+          "local": [
+            2,
+            0
+          ]
+        }
+      ],
+      "LEFT_roles": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "local": [
+            1,
+            0
+          ],
+          "first": [
+            "L",
+            5
+          ],
+          "owner": {
+            "packet": "D",
+            "context_tick0": 5,
+            "context_read_number1": 6,
+            "RAW_length": 10,
+            "owner": "own D-base RAW",
+            "owner_tick0": 5,
+            "owner_read_number1": 6,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 5 (zero-based), RAW length 10; own D-base RAW tick 5 (zero-based), read 6 (one-based), L"
+          }
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "local": [
+            2,
+            0
+          ],
+          "first": [
+            "R",
+            8
+          ],
+          "owner": {
+            "packet": "D",
+            "context_tick0": 8,
+            "context_read_number1": 9,
+            "RAW_length": 10,
+            "owner": "own D-base RAW",
+            "owner_tick0": 8,
+            "owner_read_number1": 9,
+            "turn": "R",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 8 (zero-based), RAW length 10; own D-base RAW tick 8 (zero-based), read 9 (one-based), R"
+          }
+        }
+      ],
+      "route": "SAME_LEFT_CURRENT_CORE_or_WHITE"
+    },
+    {
+      "atom": "C",
+      "entry": [
+        -1,
+        -1,
+        0
+      ],
+      "new_t": "1",
+      "necessary_source_relative_C": [
+        4
+      ],
+      "LEFT_conflicts": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "role": "first_WHITE",
+          "local": [
+            1,
+            1
+          ]
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "role": "first_WHITE",
+          "local": [
+            1,
+            2
+          ]
+        }
+      ],
+      "LEFT_roles": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "local": [
+            1,
+            1
+          ],
+          "first": [
+            "R",
+            6
+          ],
+          "owner": {
+            "packet": "C",
+            "context_tick0": 6,
+            "context_read_number1": 7,
+            "RAW_length": 15,
+            "owner": "own C-tail 1 RAW",
+            "owner_tick0": 6,
+            "owner_read_number1": 7,
+            "turn": "R",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 6 (zero-based), RAW length 15; own C-tail 1 RAW tick 6 (zero-based), read 7 (one-based), R"
+          }
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "local": [
+            1,
+            2
+          ],
+          "first": [
+            "R",
+            13
+          ],
+          "owner": {
+            "packet": "C",
+            "context_tick0": 13,
+            "context_read_number1": 14,
+            "RAW_length": 15,
+            "owner": "own C-tail 1 RAW",
+            "owner_tick0": 13,
+            "owner_read_number1": 14,
+            "turn": "R",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 13 (zero-based), RAW length 15; own C-tail 1 RAW tick 13 (zero-based), read 14 (one-based), R"
+          }
+        }
+      ],
+      "route": "SAME_LEFT_CURRENT_CORE_or_WHITE"
+    },
+    {
+      "atom": "C",
+      "entry": [
+        -1,
+        0,
+        1
+      ],
+      "new_t": "1",
+      "necessary_source_relative_C": [
+        3
+      ],
+      "LEFT_conflicts": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "role": "first_WHITE",
+          "local": [
+            0,
+            1
+          ]
+        }
+      ],
+      "LEFT_roles": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "local": [
+            0,
+            1
+          ],
+          "first": [
+            "R",
+            11
+          ],
+          "owner": {
+            "packet": "C",
+            "context_tick0": 11,
+            "context_read_number1": 12,
+            "RAW_length": 15,
+            "owner": "own C-tail 1 RAW",
+            "owner_tick0": 11,
+            "owner_read_number1": 12,
+            "turn": "R",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 11 (zero-based), RAW length 15; own C-tail 1 RAW tick 11 (zero-based), read 12 (one-based), R"
+          }
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "local": [
+            -1,
+            1
+          ],
+          "first": null,
+          "owner": null
+        }
+      ],
+      "route": "SAME_LEFT_CURRENT_CORE_or_WHITE"
+    },
+    {
+      "atom": "C",
+      "entry": [
+        0,
+        0,
+        2
+      ],
+      "new_t": "1",
+      "necessary_source_relative_C": [
+        6
+      ],
+      "LEFT_conflicts": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "role": "ENTRY_CORE",
+          "local": [
+            0,
+            0
+          ]
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "role": "ENTRY_CORE",
+          "local": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "LEFT_roles": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "local": [
+            0,
+            0
+          ],
+          "first": [
+            "L",
+            0
+          ],
+          "owner": {
+            "packet": "C",
+            "context_tick0": 0,
+            "context_read_number1": 1,
+            "RAW_length": 15,
+            "owner": "own C-tail 1 RAW",
+            "owner_tick0": 0,
+            "owner_read_number1": 1,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 0 (zero-based), RAW length 15; own C-tail 1 RAW tick 0 (zero-based), read 1 (one-based), L"
+          }
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "local": [
+            0,
+            -1
+          ],
+          "first": [
+            "L",
+            3
+          ],
+          "owner": {
+            "packet": "C",
+            "context_tick0": 3,
+            "context_read_number1": 4,
+            "RAW_length": 15,
+            "owner": "own C-tail 1 RAW",
+            "owner_tick0": 3,
+            "owner_read_number1": 4,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 3 (zero-based), RAW length 15; own C-tail 1 RAW tick 3 (zero-based), read 4 (one-based), L"
+          }
+        }
+      ],
+      "route": "SAME_LEFT_CURRENT_CORE_or_WHITE"
+    },
+    {
+      "atom": "C",
+      "entry": [
+        0,
+        -1,
+        3
+      ],
+      "new_t": "1",
+      "necessary_source_relative_C": [
+        5
+      ],
+      "LEFT_conflicts": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "role": "ENTRY_CORE",
+          "local": [
+            1,
+            0
+          ]
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "role": "first_WHITE",
+          "local": [
+            2,
+            0
+          ]
+        }
+      ],
+      "LEFT_roles": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "local": [
+            1,
+            0
+          ],
+          "first": [
+            "L",
+            5
+          ],
+          "owner": {
+            "packet": "C",
+            "context_tick0": 5,
+            "context_read_number1": 6,
+            "RAW_length": 15,
+            "owner": "own C-tail 1 RAW",
+            "owner_tick0": 5,
+            "owner_read_number1": 6,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 5 (zero-based), RAW length 15; own C-tail 1 RAW tick 5 (zero-based), read 6 (one-based), L"
+          }
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "local": [
+            2,
+            0
+          ],
+          "first": [
+            "R",
+            8
+          ],
+          "owner": {
+            "packet": "C",
+            "context_tick0": 8,
+            "context_read_number1": 9,
+            "RAW_length": 15,
+            "owner": "own C-tail 1 RAW",
+            "owner_tick0": 8,
+            "owner_read_number1": 9,
+            "turn": "R",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 8 (zero-based), RAW length 15; own C-tail 1 RAW tick 8 (zero-based), read 9 (one-based), R"
+          }
+        }
+      ],
+      "route": "SAME_LEFT_CURRENT_CORE_or_WHITE"
+    },
+    {
+      "atom": "V",
+      "entry": [
+        -1,
+        -3,
+        0
+      ],
+      "new_t": "1",
+      "necessary_source_relative_C": [
+        4
+      ],
+      "LEFT_conflicts": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "role": "first_WHITE",
+          "local": [
+            1,
+            3
+          ]
+        }
+      ],
+      "LEFT_roles": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "local": [
+            1,
+            3
+          ],
+          "first": [
+            "R",
+            14
+          ],
+          "owner": {
+            "packet": "V",
+            "context_tick0": 14,
+            "context_read_number1": 15,
+            "RAW_length": 18,
+            "owner": "own V-base RAW",
+            "owner_tick0": 14,
+            "owner_read_number1": 15,
+            "turn": "R",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 14 (zero-based), RAW length 18; own V-base RAW tick 14 (zero-based), read 15 (one-based), R"
+          }
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "local": [
+            1,
+            4
+          ],
+          "first": null,
+          "owner": null
+        }
+      ],
+      "route": "SAME_LEFT_CURRENT_CORE_or_WHITE"
+    },
+    {
+      "atom": "V",
+      "entry": [
+        -3,
+        0,
+        1
+      ],
+      "new_t": "1",
+      "necessary_source_relative_C": [
+        3
+      ],
+      "LEFT_conflicts": [],
+      "LEFT_roles": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "local": [
+            0,
+            3
+          ],
+          "first": [
+            "L",
+            19
+          ],
+          "owner": {
+            "packet": "V",
+            "context_tick0": 19,
+            "context_read_number1": 20,
+            "RAW_length": 18,
+            "owner": "next actual word RAW",
+            "owner_tick0": 1,
+            "owner_read_number1": 2,
+            "turn": "L",
+            "next_word_tick0": 1,
+            "next_word_read_number1": 2,
+            "label": "context tick 19 (zero-based), RAW length 18; next actual word RAW tick 1 (zero-based), read 2 (one-based), L"
+          }
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "local": [
+            -1,
+            3
+          ],
+          "first": null,
+          "owner": null
+        }
+      ],
+      "route": "base_cut_G8_bridge"
+    },
+    {
+      "atom": "V",
+      "entry": [
+        0,
+        2,
+        2
+      ],
+      "new_t": "1",
+      "necessary_source_relative_C": [
+        6
+      ],
+      "LEFT_conflicts": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "role": "first_WHITE",
+          "local": [
+            0,
+            2
+          ]
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "role": "first_WHITE",
+          "local": [
+            0,
+            1
+          ]
+        }
+      ],
+      "LEFT_roles": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "local": [
+            0,
+            2
+          ],
+          "first": [
+            "R",
+            12
+          ],
+          "owner": {
+            "packet": "V",
+            "context_tick0": 12,
+            "context_read_number1": 13,
+            "RAW_length": 18,
+            "owner": "own V-base RAW",
+            "owner_tick0": 12,
+            "owner_read_number1": 13,
+            "turn": "R",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 12 (zero-based), RAW length 18; own V-base RAW tick 12 (zero-based), read 13 (one-based), R"
+          }
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "local": [
+            0,
+            1
+          ],
+          "first": [
+            "R",
+            11
+          ],
+          "owner": {
+            "packet": "V",
+            "context_tick0": 11,
+            "context_read_number1": 12,
+            "RAW_length": 18,
+            "owner": "own V-base RAW",
+            "owner_tick0": 11,
+            "owner_read_number1": 12,
+            "turn": "R",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 11 (zero-based), RAW length 18; own V-base RAW tick 11 (zero-based), read 12 (one-based), R"
+          }
+        }
+      ],
+      "route": "SAME_LEFT_CURRENT_CORE_or_WHITE"
+    },
+    {
+      "atom": "V",
+      "entry": [
+        2,
+        -1,
+        3
+      ],
+      "new_t": "1",
+      "necessary_source_relative_C": [
+        5
+      ],
+      "LEFT_conflicts": [
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "role": "first_WHITE",
+          "local": [
+            2,
+            2
+          ]
+        }
+      ],
+      "LEFT_roles": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "local": [
+            1,
+            2
+          ],
+          "first": [
+            "L",
+            13
+          ],
+          "owner": {
+            "packet": "V",
+            "context_tick0": 13,
+            "context_read_number1": 14,
+            "RAW_length": 18,
+            "owner": "own V-base RAW",
+            "owner_tick0": 13,
+            "owner_read_number1": 14,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 13 (zero-based), RAW length 18; own V-base RAW tick 13 (zero-based), read 14 (one-based), L"
+          }
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "local": [
+            2,
+            2
+          ],
+          "first": [
+            "R",
+            16
+          ],
+          "owner": {
+            "packet": "V",
+            "context_tick0": 16,
+            "context_read_number1": 17,
+            "RAW_length": 18,
+            "owner": "own V-base RAW",
+            "owner_tick0": 16,
+            "owner_read_number1": 17,
+            "turn": "R",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 16 (zero-based), RAW length 18; own V-base RAW tick 16 (zero-based), read 17 (one-based), R"
+          }
+        }
+      ],
+      "route": "SAME_LEFT_CURRENT_CORE_or_WHITE"
+    },
+    {
+      "atom": "U",
+      "entry": [
+        0,
+        -2,
+        0
+      ],
+      "new_t": "1/2",
+      "necessary_source_relative_C": [
+        4
+      ],
+      "LEFT_conflicts": [],
+      "LEFT_roles": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "local": [
+            0,
+            2
+          ],
+          "first": [
+            "L",
+            12
+          ],
+          "owner": {
+            "packet": "U",
+            "context_tick0": 12,
+            "context_read_number1": 13,
+            "RAW_length": 28,
+            "owner": "own U-base RAW",
+            "owner_tick0": 12,
+            "owner_read_number1": 13,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 12 (zero-based), RAW length 28; own U-base RAW tick 12 (zero-based), read 13 (one-based), L"
+          }
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "local": [
+            0,
+            3
+          ],
+          "first": [
+            "L",
+            23
+          ],
+          "owner": {
+            "packet": "U",
+            "context_tick0": 23,
+            "context_read_number1": 24,
+            "RAW_length": 28,
+            "owner": "own U-base RAW",
+            "owner_tick0": 23,
+            "owner_read_number1": 24,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 23 (zero-based), RAW length 28; own U-base RAW tick 23 (zero-based), read 24 (one-based), L"
+          }
+        }
+      ],
+      "route": "base_cut_G8_bridge"
+    },
+    {
+      "atom": "U",
+      "entry": [
+        0,
+        -4,
+        0
+      ],
+      "new_t": "1",
+      "necessary_source_relative_C": [
+        4
+      ],
+      "LEFT_conflicts": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "role": "first_WHITE",
+          "local": [
+            0,
+            4
+          ]
+        }
+      ],
+      "LEFT_roles": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "local": [
+            0,
+            4
+          ],
+          "first": [
+            "R",
+            24
+          ],
+          "owner": {
+            "packet": "U",
+            "context_tick0": 24,
+            "context_read_number1": 25,
+            "RAW_length": 28,
+            "owner": "own U-base RAW",
+            "owner_tick0": 24,
+            "owner_read_number1": 25,
+            "turn": "R",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 24 (zero-based), RAW length 28; own U-base RAW tick 24 (zero-based), read 25 (one-based), R"
+          }
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "local": [
+            0,
+            5
+          ],
+          "first": null,
+          "owner": null
+        }
+      ],
+      "route": "SAME_LEFT_CURRENT_CORE_or_WHITE"
+    },
+    {
+      "atom": "U",
+      "entry": [
+        -2,
+        -1,
+        1
+      ],
+      "new_t": "1/2",
+      "necessary_source_relative_C": [
+        3
+      ],
+      "LEFT_conflicts": [],
+      "LEFT_roles": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "local": [
+            -1,
+            2
+          ],
+          "first": [
+            "L",
+            13
+          ],
+          "owner": {
+            "packet": "U",
+            "context_tick0": 13,
+            "context_read_number1": 14,
+            "RAW_length": 28,
+            "owner": "own U-base RAW",
+            "owner_tick0": 13,
+            "owner_read_number1": 14,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 13 (zero-based), RAW length 28; own U-base RAW tick 13 (zero-based), read 14 (one-based), L"
+          }
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "local": [
+            -2,
+            2
+          ],
+          "first": null,
+          "owner": null
+        }
+      ],
+      "route": "base_cut_G8_bridge"
+    },
+    {
+      "atom": "U",
+      "entry": [
+        -4,
+        -1,
+        1
+      ],
+      "new_t": "1",
+      "necessary_source_relative_C": [
+        3
+      ],
+      "LEFT_conflicts": [],
+      "LEFT_roles": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "local": [
+            -1,
+            4
+          ],
+          "first": [
+            "L",
+            29
+          ],
+          "owner": {
+            "packet": "U",
+            "context_tick0": 29,
+            "context_read_number1": 30,
+            "RAW_length": 28,
+            "owner": "next actual word RAW",
+            "owner_tick0": 1,
+            "owner_read_number1": 2,
+            "turn": "L",
+            "next_word_tick0": 1,
+            "next_word_read_number1": 2,
+            "label": "context tick 29 (zero-based), RAW length 28; next actual word RAW tick 1 (zero-based), read 2 (one-based), L"
+          }
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "local": [
+            -2,
+            4
+          ],
+          "first": null,
+          "owner": null
+        }
+      ],
+      "route": "base_cut_G8_bridge"
+    },
+    {
+      "atom": "U",
+      "entry": [
+        1,
+        0,
+        3
+      ],
+      "new_t": "1/2",
+      "necessary_source_relative_C": [
+        5
+      ],
+      "LEFT_conflicts": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "role": "first_WHITE",
+          "local": [
+            0,
+            1
+          ]
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "role": "first_WHITE",
+          "local": [
+            1,
+            1
+          ]
+        }
+      ],
+      "LEFT_roles": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "local": [
+            0,
+            1
+          ],
+          "first": [
+            "R",
+            11
+          ],
+          "owner": {
+            "packet": "U",
+            "context_tick0": 11,
+            "context_read_number1": 12,
+            "RAW_length": 28,
+            "owner": "own U-base RAW",
+            "owner_tick0": 11,
+            "owner_read_number1": 12,
+            "turn": "R",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 11 (zero-based), RAW length 28; own U-base RAW tick 11 (zero-based), read 12 (one-based), R"
+          }
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "local": [
+            1,
+            1
+          ],
+          "first": [
+            "R",
+            6
+          ],
+          "owner": {
+            "packet": "U",
+            "context_tick0": 6,
+            "context_read_number1": 7,
+            "RAW_length": 28,
+            "owner": "own U-base RAW",
+            "owner_tick0": 6,
+            "owner_read_number1": 7,
+            "turn": "R",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 6 (zero-based), RAW length 28; own U-base RAW tick 6 (zero-based), read 7 (one-based), R"
+          }
+        }
+      ],
+      "route": "SAME_LEFT_CURRENT_CORE_or_WHITE"
+    },
+    {
+      "atom": "U",
+      "entry": [
+        3,
+        0,
+        3
+      ],
+      "new_t": "1",
+      "necessary_source_relative_C": [
+        5
+      ],
+      "LEFT_conflicts": [
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "role": "first_WHITE",
+          "local": [
+            1,
+            3
+          ]
+        }
+      ],
+      "LEFT_roles": [
+        {
+          "tag": [
+            0,
+            0
+          ],
+          "local": [
+            0,
+            3
+          ],
+          "first": [
+            "L",
+            23
+          ],
+          "owner": {
+            "packet": "U",
+            "context_tick0": 23,
+            "context_read_number1": 24,
+            "RAW_length": 28,
+            "owner": "own U-base RAW",
+            "owner_tick0": 23,
+            "owner_read_number1": 24,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 23 (zero-based), RAW length 28; own U-base RAW tick 23 (zero-based), read 24 (one-based), L"
+          }
+        },
+        {
+          "tag": [
+            0,
+            1
+          ],
+          "local": [
+            1,
+            3
+          ],
+          "first": [
+            "R",
+            26
+          ],
+          "owner": {
+            "packet": "U",
+            "context_tick0": 26,
+            "context_read_number1": 27,
+            "RAW_length": 28,
+            "owner": "own U-base RAW",
+            "owner_tick0": 26,
+            "owner_read_number1": 27,
+            "turn": "R",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 26 (zero-based), RAW length 28; own U-base RAW tick 26 (zero-based), read 27 (one-based), R"
+          }
+        }
+      ],
+      "route": "SAME_LEFT_CURRENT_CORE_or_WHITE"
+    }
+  ],
+  "terminal_consequence": "If the first ordinary RAW after a foreign is U, a GLOBAL first contact at that foreign EXIT is owned by outgoing U. Nonadjacent contact C is excluded by CURRENT LEFT at ENTRY (all four terminal C poses have an actual CORE/WHITE conflict). Every remaining D/V/U actor is excluded by the source-U base-cut G8 bridge and signed U-entry simplicity. The initial adjacent join with the foreign, and U immediately leaving its own entry, are not counted as recontacts.",
+  "terminal_DCC_exception": "An ordinary factor ending in C may end in DCC, not a chosen packet. Actual UDCC and UQUDCC+M controls are positive. No full ordinary-tail simplicity is inferred at those terminal cuts, and no claim is made about contacts involving earlier sources before the new U.",
+  "positive_scope_regressions": [
+    {
+      "word": "DCCC",
+      "selected_source_index0": null,
+      "selected_ordinary_word": "DCCC",
+      "selected_parse": {
+        "packets": [],
+        "unparsed": "DCCC",
+        "offset": 0
+      },
+      "complete_seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "all_actual_RAW_plus_M_reads": 66,
+      "scope": "Physical positive regression; terminal DCC and prepared factor-first DCCC are deliberately NOT called G8."
+    },
+    {
+      "word": "UDCC",
+      "selected_source_index0": 0,
+      "selected_ordinary_word": "UDCC",
+      "selected_parse": {
+        "packets": [
+          "U"
+        ],
+        "unparsed": "DCC",
+        "offset": 1
+      },
+      "complete_seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "all_actual_RAW_plus_M_reads": 79,
+      "scope": "Physical positive regression; terminal DCC and prepared factor-first DCCC are deliberately NOT called G8."
+    },
+    {
+      "word": "UQUDCC",
+      "selected_source_index0": 2,
+      "selected_ordinary_word": "UDCC",
+      "selected_parse": {
+        "packets": [
+          "U"
+        ],
+        "unparsed": "DCC",
+        "offset": 1
+      },
+      "complete_seed": [
+        [
+          -5,
+          5
+        ],
+        [
+          -5,
+          6
+        ],
+        [
+          -4,
+          -5
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          -4,
+          -2
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          -4,
+          3
+        ],
+        [
+          -4,
+          4
+        ],
+        [
+          -4,
+          7
+        ],
+        [
+          -3,
+          -4
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -3,
+          5
+        ],
+        [
+          -3,
+          6
+        ],
+        [
+          -3,
+          7
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -2,
+          6
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          -1,
+          6
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "all_actual_RAW_plus_M_reads": 171,
+      "scope": "Physical positive regression; terminal DCC and prepared factor-first DCCC are deliberately NOT called G8."
+    },
+    {
+      "word": "UQUCCV",
+      "selected_source_index0": 2,
+      "selected_ordinary_word": "UCCV",
+      "selected_parse": {
+        "packets": [
+          "UCC",
+          "V"
+        ],
+        "unparsed": "",
+        "offset": 4
+      },
+      "complete_seed": [
+        [
+          -5,
+          5
+        ],
+        [
+          -5,
+          6
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          -4,
+          -2
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          -4,
+          3
+        ],
+        [
+          -4,
+          4
+        ],
+        [
+          -4,
+          7
+        ],
+        [
+          -3,
+          -4
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -3,
+          5
+        ],
+        [
+          -3,
+          6
+        ],
+        [
+          -3,
+          7
+        ],
+        [
+          -2,
+          -3
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -2,
+          6
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          -1,
+          6
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "all_actual_RAW_plus_M_reads": 179,
+      "scope": "Physical positive regression; terminal DCC and prepared factor-first DCCC are deliberately NOT called G8."
+    }
+  ],
+  "not_claimed": [
+    "No arbitrary seven-atom coverage of an ant trajectory.",
+    "No second foreign.",
+    "No conversion of a merely RAW-complete terminal DCC into G8.",
+    "No source-D/C/V arbitrary-tail simplicity.",
+    "No LEFT persistence through a contact atom."
+  ],
+  "dependencies": {
+    "word_stabilization/check_foreign_return_interfaces.py": "249f89213a96c8daad9d0ecde65e877d5e254af033092adb81b4bbaca0cc729c",
+    "literal_ownership_conventions_2026-10-24/canonical_read_ownership.py": "041b40e04a0f71a6b9511abf1d15b1d86c548e74f4f99281477c115b72036ea2",
+    "core_periodicity_new/U_entry_simplicity_frozen_20261023_1616/manifest.json": "127a00884b4a06af35a807ab76f6f6499b9427d56350a931c03cc0e8de65524d",
+    "audits/check_U_entry_simplicity_independent.json": "abef1636797a663aa98b76f54019cac0cb2b8f561b49c7d71df7fb00cad4a53c",
+    "fresh_RAW_U_LEFT_all_length_2026-10-24/manifest.json": "aa6a04d0e64f7cf2c7bd4d7a7e4e3632b2ab3d166d4c3554d4fc47ed3611fd1a",
+    "audits/check_fresh_U_LEFT_all_length_independent.json": "2720193d1f51956e0ea40bba8b3a1193775b50cbefc4bc2d19238c862f45c9b0",
+    "one_foreign_first_contact_compression_2026-10-24/manifest.json": "94bea2fc176865c14d0c45b7cd42b4f3e03638048a22b552006862c12bcae018",
+    "audits/check_one_foreign_contact_C_window_independent.json": "5b00e8b773e528d465bab7e7797106fce49f9004b8b4735c9ae242ad2e90fc96"
+  }
+}

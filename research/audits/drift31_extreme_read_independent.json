@@ -1,0 +1,77 @@
+{
+  "status": "PASS complete-read maximum lemma and conditional two-quadruple s5/all-parameter plus s2,c2 exclusions",
+  "proof_sha256": "2d5bb1e6839592c4293580ed56cd06853879869e88fff50b22a3fcf0596c9353",
+  "script_sha256": "b05db86617a57c39e0b61085fec39becf02bca756a35060a689282e61fd5b64a",
+  "dependencies": {
+    "middle_reads": "7506b92708fcb97973ae23ad65710be06fe73796704f504d04cc52213baf5b75",
+    "wake_interleaving": "4b83bb8c49928954c1634ae27f869ea56f7f41ec6530a2772da0d47caae2e9cf"
+  },
+  "top_histories": {
+    "T14": [
+      0
+    ],
+    "T13": [
+      [
+        1
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "T12": [
+      [],
+      [
+        0
+      ]
+    ],
+    "T9": [],
+    "T8": [
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        2
+      ]
+    ]
+  },
+  "physical_rank_skip_points": [
+    [
+      -8,
+      0
+    ],
+    [
+      -7,
+      0
+    ],
+    [
+      -7,
+      -1
+    ],
+    [
+      -8,
+      -1
+    ],
+    [
+      -8,
+      0
+    ]
+  ],
+  "analytic_scope": [
+    "Full finite READ quotient has a maximum since T is invariant under actual nonzero d(3,1). At that maximum only N/W arrival is possible; horizontal W first R exits above, so maximum is vertical-even and N singleton. A second N/L would again exit above. Therefore max FULL odd inventory equals the complete read maximum, even. Unread external field is irrelevant, not assumed absent.",
+    "T0 minimum S singleton fixes vertical-even checker sector. With signed b<a<=c, s5 full odd maximum6c+5 is odd, impossible for every parameter; s2 remains.",
+    "For c2 the entire odd set fixes max14. Zero ports and exact alternation force T13 E, T12 empty, T9 empty, T8 NSN orNSNS. The explicit same-physical four-return skips T8 rank1. No unknown sibling or high class is treated empty except via proved max or zero-port/odd-status deductions.",
+    "Remaining s2,c>=3,1<=b<a<=c and all-quadruple branch remain OPEN; passing parity sets are not controllers."
+  ],
+  "not_claimed": [
+    "unconditional existence of single-used circle",
+    "all drift3,1 fronts excluded",
+    "growth8 excluded",
+    "physical realization of candidate odd sets"
+  ]
+}

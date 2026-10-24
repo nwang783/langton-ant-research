@@ -1,0 +1,2101 @@
+{
+  "status": "EXACT supplied cap6 profile pair composition controls",
+  "source_sha256": {
+    "reframe_finite_seed_2026-10-24/physical_cap6_resource_obstructions.json": "eb42088dbe177e304ad4e864385562d75d2c717ec062510438b1e6a156eda125"
+  },
+  "single_profiles": [
+    {
+      "status": "ACTUAL_FINITE_BOARD_LIFT",
+      "macros": [
+        2818
+      ],
+      "word": "RRRRLRL",
+      "initial_black": [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_mass": 2,
+      "final_black": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "final_pose": [
+        [
+          -2,
+          1
+        ],
+        3
+      ],
+      "maximum_complete_active_mass": 6,
+      "seams": [
+        0,
+        7
+      ],
+      "events": [
+        {
+          "kind": "whole_component_import",
+          "update": 0,
+          "macro": 0,
+          "local": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "component": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "lifetimes": [
+            {
+              "cell": [
+                -1,
+                1
+              ],
+              "birth": null,
+              "birth_macro": null
+            },
+            {
+              "cell": [
+                0,
+                1
+              ],
+              "birth": null,
+              "birth_macro": null
+            }
+          ]
+        },
+        {
+          "kind": "actual_consumption",
+          "update": 4,
+          "macro": 0,
+          "local": 4,
+          "cell": [
+            0,
+            0
+          ],
+          "birth": 0
+        },
+        {
+          "kind": "actual_consumption",
+          "update": 6,
+          "macro": 0,
+          "local": 6,
+          "cell": [
+            -1,
+            1
+          ],
+          "birth": null
+        }
+      ],
+      "trace": [
+        {
+          "cut": 0,
+          "pose": [
+            [
+              0,
+              0
+            ],
+            0
+          ],
+          "C": [],
+          "full_black": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "cut": 1,
+          "pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ],
+          "C": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "full_black": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "cut": 2,
+          "pose": [
+            [
+              1,
+              -1
+            ],
+            2
+          ],
+          "C": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "full_black": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "cut": 3,
+          "pose": [
+            [
+              0,
+              -1
+            ],
+            3
+          ],
+          "C": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "full_black": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "cut": 4,
+          "pose": [
+            [
+              0,
+              0
+            ],
+            0
+          ],
+          "C": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "full_black": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "cut": 5,
+          "pose": [
+            [
+              -1,
+              0
+            ],
+            3
+          ],
+          "C": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "full_black": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "cut": 6,
+          "pose": [
+            [
+              -1,
+              1
+            ],
+            0
+          ],
+          "C": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "full_black": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "cut": 7,
+          "pose": [
+            [
+              -2,
+              1
+            ],
+            3
+          ],
+          "C": [],
+          "full_black": [
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        }
+      ],
+      "mandatory_output_budget": {
+        "forced_imported_edges": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "forced_mass": 2,
+        "first_tip_in_forced_field": false,
+        "trapped": true
+      }
+    },
+    {
+      "status": "ACTUAL_FINITE_BOARD_LIFT",
+      "macros": [
+        33389
+      ],
+      "word": "RRRRLRRLRL",
+      "initial_black": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "initial_mass": 2,
+      "final_black": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "final_pose": [
+        [
+          1,
+          3
+        ],
+        0
+      ],
+      "maximum_complete_active_mass": 6,
+      "seams": [
+        0,
+        10
+      ],
+      "events": [
+        {
+          "kind": "whole_component_import",
+          "update": 0,
+          "macro": 0,
+          "local": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "component": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "lifetimes": [
+            {
+              "cell": [
+                0,
+                1
+              ],
+              "birth": null,
+              "birth_macro": null
+            },
+            {
+              "cell": [
+                1,
+                2
+              ],
+              "birth": null,
+              "birth_macro": null
+            }
+          ]
+        },
+        {
+          "kind": "actual_consumption",
+          "update": 4,
+          "macro": 0,
+          "local": 4,
+          "cell": [
+            0,
+            0
+          ],
+          "birth": 0
+        },
+        {
+          "kind": "actual_consumption",
+          "update": 7,
+          "macro": 0,
+          "local": 7,
+          "cell": [
+            0,
+            1
+          ],
+          "birth": null
+        },
+        {
+          "kind": "actual_consumption",
+          "update": 9,
+          "macro": 0,
+          "local": 9,
+          "cell": [
+            1,
+            2
+          ],
+          "birth": null
+        }
+      ],
+      "trace": [
+        {
+          "cut": 0,
+          "pose": [
+            [
+              0,
+              0
+            ],
+            0
+          ],
+          "C": [],
+          "full_black": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 1,
+          "pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ],
+          "C": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "full_black": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 2,
+          "pose": [
+            [
+              1,
+              -1
+            ],
+            2
+          ],
+          "C": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "full_black": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 3,
+          "pose": [
+            [
+              0,
+              -1
+            ],
+            3
+          ],
+          "C": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "full_black": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 4,
+          "pose": [
+            [
+              0,
+              0
+            ],
+            0
+          ],
+          "C": [
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "full_black": [
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 5,
+          "pose": [
+            [
+              -1,
+              0
+            ],
+            3
+          ],
+          "C": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "full_black": [
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 6,
+          "pose": [
+            [
+              -1,
+              1
+            ],
+            0
+          ],
+          "C": [
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "full_black": [
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 7,
+          "pose": [
+            [
+              0,
+              1
+            ],
+            1
+          ],
+          "C": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "full_black": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 8,
+          "pose": [
+            [
+              0,
+              2
+            ],
+            0
+          ],
+          "C": [
+            [
+              1,
+              2
+            ]
+          ],
+          "full_black": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 9,
+          "pose": [
+            [
+              1,
+              2
+            ],
+            1
+          ],
+          "C": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "full_black": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 10,
+          "pose": [
+            [
+              1,
+              3
+            ],
+            0
+          ],
+          "C": [],
+          "full_black": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        }
+      ],
+      "mandatory_output_budget": {
+        "forced_imported_edges": [
+          [
+            0,
+            2
+          ]
+        ],
+        "forced_mass": 1,
+        "first_tip_in_forced_field": false,
+        "trapped": false
+      }
+    },
+    {
+      "status": "ACTUAL_FINITE_BOARD_LIFT",
+      "macros": [
+        33390
+      ],
+      "word": "RRRRLRRLRL",
+      "initial_black": [
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "initial_mass": 3,
+      "final_black": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "final_pose": [
+        [
+          1,
+          3
+        ],
+        0
+      ],
+      "maximum_complete_active_mass": 6,
+      "seams": [
+        0,
+        10
+      ],
+      "events": [
+        {
+          "kind": "whole_component_import",
+          "update": 0,
+          "macro": 0,
+          "local": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "component": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "lifetimes": [
+            {
+              "cell": [
+                0,
+                1
+              ],
+              "birth": null,
+              "birth_macro": null
+            },
+            {
+              "cell": [
+                1,
+                2
+              ],
+              "birth": null,
+              "birth_macro": null
+            }
+          ]
+        },
+        {
+          "kind": "actual_consumption",
+          "update": 4,
+          "macro": 0,
+          "local": 4,
+          "cell": [
+            0,
+            0
+          ],
+          "birth": 0
+        },
+        {
+          "kind": "actual_consumption",
+          "update": 7,
+          "macro": 0,
+          "local": 7,
+          "cell": [
+            0,
+            1
+          ],
+          "birth": null
+        },
+        {
+          "kind": "whole_component_import",
+          "update": 8,
+          "macro": 0,
+          "local": 8,
+          "cell": [
+            0,
+            2
+          ],
+          "component": [
+            [
+              -1,
+              3
+            ]
+          ],
+          "lifetimes": [
+            {
+              "cell": [
+                -1,
+                3
+              ],
+              "birth": null,
+              "birth_macro": null
+            }
+          ]
+        },
+        {
+          "kind": "actual_consumption",
+          "update": 9,
+          "macro": 0,
+          "local": 9,
+          "cell": [
+            1,
+            2
+          ],
+          "birth": null
+        }
+      ],
+      "trace": [
+        {
+          "cut": 0,
+          "pose": [
+            [
+              0,
+              0
+            ],
+            0
+          ],
+          "C": [],
+          "full_black": [
+            [
+              -1,
+              3
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 1,
+          "pose": [
+            [
+              1,
+              0
+            ],
+            1
+          ],
+          "C": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "full_black": [
+            [
+              -1,
+              3
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 2,
+          "pose": [
+            [
+              1,
+              -1
+            ],
+            2
+          ],
+          "C": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "full_black": [
+            [
+              -1,
+              3
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 3,
+          "pose": [
+            [
+              0,
+              -1
+            ],
+            3
+          ],
+          "C": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "full_black": [
+            [
+              -1,
+              3
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 4,
+          "pose": [
+            [
+              0,
+              0
+            ],
+            0
+          ],
+          "C": [
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "full_black": [
+            [
+              -1,
+              3
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 5,
+          "pose": [
+            [
+              -1,
+              0
+            ],
+            3
+          ],
+          "C": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "full_black": [
+            [
+              -1,
+              3
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 6,
+          "pose": [
+            [
+              -1,
+              1
+            ],
+            0
+          ],
+          "C": [
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "full_black": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              3
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 7,
+          "pose": [
+            [
+              0,
+              1
+            ],
+            1
+          ],
+          "C": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "full_black": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              3
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 8,
+          "pose": [
+            [
+              0,
+              2
+            ],
+            0
+          ],
+          "C": [
+            [
+              1,
+              2
+            ]
+          ],
+          "full_black": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              3
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 9,
+          "pose": [
+            [
+              1,
+              2
+            ],
+            1
+          ],
+          "C": [
+            [
+              -1,
+              3
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "full_black": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              3
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "cut": 10,
+          "pose": [
+            [
+              1,
+              3
+            ],
+            0
+          ],
+          "C": [],
+          "full_black": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              3
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        }
+      ],
+      "mandatory_output_budget": {
+        "forced_imported_edges": [
+          [
+            -1,
+            3
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "forced_mass": 2,
+        "first_tip_in_forced_field": false,
+        "trapped": true
+      }
+    }
+  ],
+  "all_nine_ordered_pairs": [
+    {
+      "status": "NO_COMPLETE_BOARD_LIFT",
+      "macros": [
+        2818,
+        2818
+      ],
+      "conflict_cell": [
+        -1,
+        0
+      ],
+      "first": {
+        "cut": 1,
+        "black": 0,
+        "current_black": false,
+        "read_parity": 0,
+        "macro": 0,
+        "local": 1
+      },
+      "second": {
+        "cut": 11,
+        "black": 1,
+        "current_black": false,
+        "read_parity": 1,
+        "macro": 1,
+        "local": 4
+      }
+    },
+    {
+      "status": "NO_COMPLETE_BOARD_LIFT",
+      "macros": [
+        2818,
+        33389
+      ],
+      "conflict_cell": [
+        -1,
+        0
+      ],
+      "first": {
+        "cut": 1,
+        "black": 0,
+        "current_black": false,
+        "read_parity": 0,
+        "macro": 0,
+        "local": 1
+      },
+      "second": {
+        "cut": 11,
+        "black": 1,
+        "current_black": false,
+        "read_parity": 1,
+        "macro": 1,
+        "local": 4
+      }
+    },
+    {
+      "status": "NO_COMPLETE_BOARD_LIFT",
+      "macros": [
+        2818,
+        33390
+      ],
+      "conflict_cell": [
+        -1,
+        0
+      ],
+      "first": {
+        "cut": 1,
+        "black": 0,
+        "current_black": false,
+        "read_parity": 0,
+        "macro": 0,
+        "local": 1
+      },
+      "second": {
+        "cut": 11,
+        "black": 1,
+        "current_black": false,
+        "read_parity": 1,
+        "macro": 1,
+        "local": 4
+      }
+    },
+    {
+      "status": "NO_COMPLETE_BOARD_LIFT",
+      "macros": [
+        33389,
+        2818
+      ],
+      "conflict_cell": [
+        0,
+        2
+      ],
+      "first": {
+        "cut": 1,
+        "black": 0,
+        "current_black": false,
+        "read_parity": 0,
+        "macro": 0,
+        "local": 1
+      },
+      "second": {
+        "cut": 14,
+        "black": 1,
+        "current_black": false,
+        "read_parity": 1,
+        "macro": 1,
+        "local": 4
+      }
+    },
+    {
+      "status": "NO_COMPLETE_BOARD_LIFT",
+      "macros": [
+        33389,
+        33389
+      ],
+      "conflict_cell": [
+        0,
+        2
+      ],
+      "first": {
+        "cut": 1,
+        "black": 0,
+        "current_black": false,
+        "read_parity": 0,
+        "macro": 0,
+        "local": 1
+      },
+      "second": {
+        "cut": 14,
+        "black": 1,
+        "current_black": false,
+        "read_parity": 1,
+        "macro": 1,
+        "local": 4
+      }
+    },
+    {
+      "status": "NO_COMPLETE_BOARD_LIFT",
+      "macros": [
+        33389,
+        33390
+      ],
+      "conflict_cell": [
+        0,
+        2
+      ],
+      "first": {
+        "cut": 1,
+        "black": 0,
+        "current_black": false,
+        "read_parity": 0,
+        "macro": 0,
+        "local": 1
+      },
+      "second": {
+        "cut": 14,
+        "black": 1,
+        "current_black": false,
+        "read_parity": 1,
+        "macro": 1,
+        "local": 4
+      }
+    },
+    {
+      "status": "NO_COMPLETE_BOARD_LIFT",
+      "macros": [
+        33390,
+        2818
+      ],
+      "conflict_cell": [
+        0,
+        2
+      ],
+      "first": {
+        "cut": 1,
+        "black": 0,
+        "current_black": false,
+        "read_parity": 0,
+        "macro": 0,
+        "local": 1
+      },
+      "second": {
+        "cut": 14,
+        "black": 1,
+        "current_black": false,
+        "read_parity": 1,
+        "macro": 1,
+        "local": 4
+      }
+    },
+    {
+      "status": "NO_COMPLETE_BOARD_LIFT",
+      "macros": [
+        33390,
+        33389
+      ],
+      "conflict_cell": [
+        0,
+        2
+      ],
+      "first": {
+        "cut": 1,
+        "black": 0,
+        "current_black": false,
+        "read_parity": 0,
+        "macro": 0,
+        "local": 1
+      },
+      "second": {
+        "cut": 14,
+        "black": 1,
+        "current_black": false,
+        "read_parity": 1,
+        "macro": 1,
+        "local": 4
+      }
+    },
+    {
+      "status": "NO_COMPLETE_BOARD_LIFT",
+      "macros": [
+        33390,
+        33390
+      ],
+      "conflict_cell": [
+        0,
+        2
+      ],
+      "first": {
+        "cut": 1,
+        "black": 0,
+        "current_black": false,
+        "read_parity": 0,
+        "macro": 0,
+        "local": 1
+      },
+      "second": {
+        "cut": 14,
+        "black": 1,
+        "current_black": false,
+        "read_parity": 1,
+        "macro": 1,
+        "local": 4
+      }
+    }
+  ],
+  "scope": "A positive pair is one actual fixed finite initial board with no mid-run changes and explicit lifetime provenance. A negative pair is an arbitrary-exterior complete-component port/read-parity contradiction. Neither outcome classifies intervening profiles or proves indefinite regeneration."
+}

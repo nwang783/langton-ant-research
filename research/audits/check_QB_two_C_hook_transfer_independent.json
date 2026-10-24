@@ -1,0 +1,1058 @@
+{
+  "status": "PASS SAME Q/B hook across one next FOREIGN after exactly two ordinary Cs only",
+  "manifest": "63c1fb626ac174b4863369e7120dd66af7e267133ffe01fa5aef59d41629d40c",
+  "script": "95b22cfc0af02315f9e0989d577cc41ccc2265cb671bcae5233417a86273ddca",
+  "actual_source_frames": [
+    {
+      "source": "Q",
+      "exit": [
+        -4,
+        -4
+      ],
+      "births": [
+        {
+          "cell": [
+            -3,
+            -2
+          ],
+          "own_R_tick0": 57
+        },
+        {
+          "cell": [
+            -3,
+            -1
+          ],
+          "own_R_tick0": 50
+        },
+        {
+          "cell": [
+            -2,
+            -1
+          ],
+          "own_R_tick0": 47
+        },
+        {
+          "cell": [
+            -1,
+            -1
+          ],
+          "own_R_tick0": 46
+        }
+      ]
+    },
+    {
+      "source": "B",
+      "exit": [
+        -3,
+        -5
+      ],
+      "births": [
+        {
+          "cell": [
+            -3,
+            -2
+          ],
+          "own_R_tick0": 65
+        },
+        {
+          "cell": [
+            -3,
+            -1
+          ],
+          "own_R_tick0": 50
+        },
+        {
+          "cell": [
+            -2,
+            -1
+          ],
+          "own_R_tick0": 47
+        },
+        {
+          "cell": [
+            -1,
+            -1
+          ],
+          "own_R_tick0": 46
+        }
+      ]
+    }
+  ],
+  "true_hook_loss_poses": [
+    {
+      "next_foreign": "B",
+      "entry": [
+        -3,
+        -3,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        -2,
+        -4,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "three_deleted_CORE_hole_route"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        -1,
+        -3,
+        0
+      ],
+      "true_inputs": 3,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        -1,
+        -1,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        -1,
+        1,
+        0
+      ],
+      "true_inputs": 2,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        -1,
+        3,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        0,
+        -4,
+        0
+      ],
+      "true_inputs": 2,
+      "classification": "three_deleted_CORE_hole_route"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        0,
+        -2,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        0,
+        0,
+        0
+      ],
+      "true_inputs": 2,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        0,
+        2,
+        0
+      ],
+      "true_inputs": 3,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        0,
+        4,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        1,
+        -5,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "three_deleted_CORE_hole_route"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        1,
+        -3,
+        0
+      ],
+      "true_inputs": 2,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        1,
+        -1,
+        0
+      ],
+      "true_inputs": 2,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        1,
+        1,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        1,
+        3,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        2,
+        -4,
+        0
+      ],
+      "true_inputs": 3,
+      "classification": "three_deleted_CORE_hole_route"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        2,
+        -2,
+        0
+      ],
+      "true_inputs": 2,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        2,
+        0,
+        0
+      ],
+      "true_inputs": 2,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        2,
+        2,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        3,
+        -3,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        3,
+        -1,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "B",
+      "entry": [
+        4,
+        -2,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "F",
+      "entry": [
+        -3,
+        -3,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "F",
+      "entry": [
+        -2,
+        -4,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "three_deleted_CORE_hole_route"
+    },
+    {
+      "next_foreign": "F",
+      "entry": [
+        -1,
+        -3,
+        0
+      ],
+      "true_inputs": 3,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "F",
+      "entry": [
+        -1,
+        -1,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "F",
+      "entry": [
+        0,
+        -4,
+        0
+      ],
+      "true_inputs": 2,
+      "classification": "three_deleted_CORE_hole_route"
+    },
+    {
+      "next_foreign": "F",
+      "entry": [
+        0,
+        -2,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "F",
+      "entry": [
+        0,
+        0,
+        0
+      ],
+      "true_inputs": 3,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "F",
+      "entry": [
+        1,
+        -5,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "three_deleted_CORE_hole_route"
+    },
+    {
+      "next_foreign": "F",
+      "entry": [
+        1,
+        -3,
+        0
+      ],
+      "true_inputs": 2,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "F",
+      "entry": [
+        1,
+        -1,
+        0
+      ],
+      "true_inputs": 2,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "F",
+      "entry": [
+        1,
+        1,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "F",
+      "entry": [
+        2,
+        -4,
+        0
+      ],
+      "true_inputs": 3,
+      "classification": "three_deleted_CORE_hole_route"
+    },
+    {
+      "next_foreign": "F",
+      "entry": [
+        2,
+        -2,
+        0
+      ],
+      "true_inputs": 2,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "F",
+      "entry": [
+        2,
+        0,
+        0
+      ],
+      "true_inputs": 2,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "F",
+      "entry": [
+        3,
+        -3,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "F",
+      "entry": [
+        3,
+        -1,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "F",
+      "entry": [
+        4,
+        -2,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "Q",
+      "entry": [
+        -3,
+        -3,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "Q",
+      "entry": [
+        -2,
+        -4,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "three_deleted_CORE_hole_route"
+    },
+    {
+      "next_foreign": "Q",
+      "entry": [
+        -1,
+        -3,
+        0
+      ],
+      "true_inputs": 3,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "Q",
+      "entry": [
+        -1,
+        -1,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "Q",
+      "entry": [
+        0,
+        -4,
+        0
+      ],
+      "true_inputs": 2,
+      "classification": "three_deleted_CORE_hole_route"
+    },
+    {
+      "next_foreign": "Q",
+      "entry": [
+        0,
+        -2,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "Q",
+      "entry": [
+        0,
+        0,
+        0
+      ],
+      "true_inputs": 2,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "Q",
+      "entry": [
+        0,
+        2,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "Q",
+      "entry": [
+        1,
+        -5,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "three_deleted_CORE_hole_route"
+    },
+    {
+      "next_foreign": "Q",
+      "entry": [
+        1,
+        -3,
+        0
+      ],
+      "true_inputs": 2,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "Q",
+      "entry": [
+        1,
+        -1,
+        0
+      ],
+      "true_inputs": 2,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "Q",
+      "entry": [
+        1,
+        1,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "Q",
+      "entry": [
+        1,
+        3,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "Q",
+      "entry": [
+        2,
+        -4,
+        0
+      ],
+      "true_inputs": 3,
+      "classification": "three_deleted_CORE_hole_route"
+    },
+    {
+      "next_foreign": "Q",
+      "entry": [
+        2,
+        -2,
+        0
+      ],
+      "true_inputs": 2,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "Q",
+      "entry": [
+        2,
+        0,
+        0
+      ],
+      "true_inputs": 2,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "Q",
+      "entry": [
+        2,
+        2,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "Q",
+      "entry": [
+        3,
+        -3,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "Q",
+      "entry": [
+        3,
+        -1,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    },
+    {
+      "next_foreign": "Q",
+      "entry": [
+        4,
+        -2,
+        0
+      ],
+      "true_inputs": 1,
+      "classification": "all_NE_unspent_FIELD_CORE_WHITE"
+    }
+  ],
+  "unspent_counts": {
+    "all_NE_unspent_FIELD_CORE_WHITE": 48,
+    "three_deleted_CORE_hole_route": 12
+  },
+  "spent_cone_exclusions": 60,
+  "physical_R_event_count": 41,
+  "hole_routes": [
+    {
+      "source": "Q",
+      "target": "B",
+      "head": [
+        -2,
+        -4
+      ],
+      "hole": [
+        -3,
+        -4
+      ],
+      "hole_H": -1,
+      "target_H": -2,
+      "own_FIRST_L": 1
+    },
+    {
+      "source": "Q",
+      "target": "B",
+      "head": [
+        0,
+        -4
+      ],
+      "hole": [
+        -3,
+        -3
+      ],
+      "hole_H": 0,
+      "target_H": -4,
+      "own_FIRST_L": 18
+    },
+    {
+      "source": "Q",
+      "target": "B",
+      "head": [
+        1,
+        -5
+      ],
+      "hole": [
+        -4,
+        -3
+      ],
+      "hole_H": 1,
+      "target_H": -6,
+      "own_FIRST_L": 37
+    },
+    {
+      "source": "Q",
+      "target": "B",
+      "head": [
+        2,
+        -4
+      ],
+      "hole": [
+        -3,
+        -3
+      ],
+      "hole_H": 0,
+      "target_H": -6,
+      "own_FIRST_L": 38
+    },
+    {
+      "source": "Q",
+      "target": "F",
+      "head": [
+        -2,
+        -4
+      ],
+      "hole": [
+        -3,
+        -4
+      ],
+      "hole_H": -1,
+      "target_H": -2,
+      "own_FIRST_L": 1
+    },
+    {
+      "source": "Q",
+      "target": "F",
+      "head": [
+        0,
+        -4
+      ],
+      "hole": [
+        -3,
+        -3
+      ],
+      "hole_H": 0,
+      "target_H": -4,
+      "own_FIRST_L": 18
+    },
+    {
+      "source": "Q",
+      "target": "F",
+      "head": [
+        1,
+        -5
+      ],
+      "hole": [
+        -4,
+        -3
+      ],
+      "hole_H": 1,
+      "target_H": -6,
+      "own_FIRST_L": 37
+    },
+    {
+      "source": "Q",
+      "target": "F",
+      "head": [
+        2,
+        -4
+      ],
+      "hole": [
+        -3,
+        -3
+      ],
+      "hole_H": 0,
+      "target_H": -6,
+      "own_FIRST_L": 38
+    },
+    {
+      "source": "Q",
+      "target": "Q",
+      "head": [
+        -2,
+        -4
+      ],
+      "hole": [
+        -3,
+        -4
+      ],
+      "hole_H": -1,
+      "target_H": -2,
+      "own_FIRST_L": 1
+    },
+    {
+      "source": "Q",
+      "target": "Q",
+      "head": [
+        0,
+        -4
+      ],
+      "hole": [
+        -3,
+        -3
+      ],
+      "hole_H": 0,
+      "target_H": -4,
+      "own_FIRST_L": 18
+    },
+    {
+      "source": "Q",
+      "target": "Q",
+      "head": [
+        1,
+        -5
+      ],
+      "hole": [
+        -4,
+        -3
+      ],
+      "hole_H": 1,
+      "target_H": -6,
+      "own_FIRST_L": 37
+    },
+    {
+      "source": "Q",
+      "target": "Q",
+      "head": [
+        2,
+        -4
+      ],
+      "hole": [
+        -3,
+        -3
+      ],
+      "hole_H": 0,
+      "target_H": -6,
+      "own_FIRST_L": 38
+    },
+    {
+      "source": "B",
+      "target": "B",
+      "head": [
+        -2,
+        -4
+      ],
+      "hole": [
+        -3,
+        -4
+      ],
+      "hole_H": -1,
+      "target_H": -2,
+      "own_FIRST_L": 1
+    },
+    {
+      "source": "B",
+      "target": "B",
+      "head": [
+        0,
+        -4
+      ],
+      "hole": [
+        -2,
+        -5
+      ],
+      "hole_H": -3,
+      "target_H": -4,
+      "own_FIRST_L": 43
+    },
+    {
+      "source": "B",
+      "target": "B",
+      "head": [
+        1,
+        -5
+      ],
+      "hole": [
+        -2,
+        -4
+      ],
+      "hole_H": -2,
+      "target_H": -6,
+      "own_FIRST_L": 18
+    },
+    {
+      "source": "B",
+      "target": "B",
+      "head": [
+        2,
+        -4
+      ],
+      "hole": [
+        -2,
+        -5
+      ],
+      "hole_H": -3,
+      "target_H": -6,
+      "own_FIRST_L": 51
+    },
+    {
+      "source": "B",
+      "target": "F",
+      "head": [
+        -2,
+        -4
+      ],
+      "hole": [
+        -3,
+        -4
+      ],
+      "hole_H": -1,
+      "target_H": -2,
+      "own_FIRST_L": 1
+    },
+    {
+      "source": "B",
+      "target": "F",
+      "head": [
+        0,
+        -4
+      ],
+      "hole": [
+        -2,
+        -5
+      ],
+      "hole_H": -3,
+      "target_H": -4,
+      "own_FIRST_L": 43
+    },
+    {
+      "source": "B",
+      "target": "F",
+      "head": [
+        1,
+        -5
+      ],
+      "hole": [
+        -2,
+        -4
+      ],
+      "hole_H": -2,
+      "target_H": -6,
+      "own_FIRST_L": 18
+    },
+    {
+      "source": "B",
+      "target": "F",
+      "head": [
+        2,
+        -4
+      ],
+      "hole": [
+        -2,
+        -5
+      ],
+      "hole_H": -3,
+      "target_H": -6,
+      "own_FIRST_L": 51
+    },
+    {
+      "source": "B",
+      "target": "Q",
+      "head": [
+        -2,
+        -4
+      ],
+      "hole": [
+        -3,
+        -4
+      ],
+      "hole_H": -1,
+      "target_H": -2,
+      "own_FIRST_L": 1
+    },
+    {
+      "source": "B",
+      "target": "Q",
+      "head": [
+        0,
+        -4
+      ],
+      "hole": [
+        -2,
+        -5
+      ],
+      "hole_H": -3,
+      "target_H": -4,
+      "own_FIRST_L": 43
+    },
+    {
+      "source": "B",
+      "target": "Q",
+      "head": [
+        1,
+        -5
+      ],
+      "hole": [
+        -2,
+        -4
+      ],
+      "hole_H": -2,
+      "target_H": -6,
+      "own_FIRST_L": 18
+    },
+    {
+      "source": "B",
+      "target": "Q",
+      "head": [
+        2,
+        -4
+      ],
+      "hole": [
+        -2,
+        -5
+      ],
+      "hole_H": -3,
+      "target_H": -6,
+      "own_FIRST_L": 51
+    }
+  ],
+  "analytic_review": [
+    "Both source frames and all four actual last-R hook births reconstruct. The hook and NE sets share SAME R46 at(-1,-1), giving13 distinct current cells. Signed four-C ordinary hook maturity is used only through the two-C ordinary connector. Signed158 supplies either allNE unspent or actual first pair-loss U(3,-1,N) completed at3,3, followed only by N bases with X,Y>=3 and H=y-x>=0.",
+    "All complete-context external first-L slots are regenerated, including marker-only exitCORE absorption. At nextFOREIGN entry any oldCURRENT tag inside ENTRYCORE or demanding firstWHITE already contradicts actual partition/color. Grouping all hook true-input roles gives exactly60 poses, all outside the spent-pair cone. In the unspent branch48 CORE/WHITE cuts leave twelve genuinely simultaneous-input poses. No static population argument discards them.",
+    "The first actual ordinary RAW exists because exactlytwo Cs occur and physically L1/L2/L3-deletes the three common CORE holes. Every RAW has those as its last reads at those cells. Complete physical R supports, including CORE writes and intermediate nonfinal writes, show S heads cannot restore the two upper holes or sidehole. For the sidehole in E, the required top row and negative-local-x R force an initial E U immediately after the first C, which is literally impossible by CU29/1. Any earlier S base or E D/V lowers that row; a second C has no negative-x R. Thus all three remain WHITE until N2 for arbitrary rail lengths.",
+    "For every physical R of a completed N D/V/U producer, H_EXIT>=H_written. Remaining N increments have nonnegative H, and no C remains. A selected hole with H larger than the nextFOREIGN head cannot therefore have any repairing last R before target entry. This includes CORE-to-external funding and all earlier prepared colors because the actual firstordinary L deleted them. Each of24 source/target choices then has an ownRAW FIRST L contradiction, so the target cannot self-repair before reading it.",
+    "Exhausting every true-input first loss also prevents unread absorption into nextFOREIGN EXITCORE. Hence the same four old identities remain BLACK and CURRENT at that RAWexit and avoid deletion in its real suppliedM. This does not execute any subsequent foreign, assert zero/one-C generic transfer, global simplicity, full-state finite abstraction, decreasing resource, or capture. Earlier history and sourceU assumptions are genuinely absent."
+  ]
+}

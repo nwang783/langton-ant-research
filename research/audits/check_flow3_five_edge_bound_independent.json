@@ -1,0 +1,70 @@
+{
+  "status": "PASS at-most-five physical edges for maximal open flow3 b-segments at locally maximal selected C",
+  "proof_sha256": "0a4a6a90cce92d158bc438fb8e53149c3608e454f9b6d6688ae92276c6627a0b",
+  "control_sha256": "523792469db29f96acf35d5dcef74c31deb555367e0c40e38c03c0cfb5a77843",
+  "four_LRRL_rows": [
+    {
+      "Z": "NSSS",
+      "A": "EEEW",
+      "B": "SSSN",
+      "Y": "EWWW"
+    },
+    {
+      "Z": "NSSS",
+      "A": "EEEW",
+      "B": "SNSS",
+      "Y": "EWWW"
+    },
+    {
+      "Z": "NSSS",
+      "A": "EWEE",
+      "B": "SSSN",
+      "Y": "EWWW"
+    },
+    {
+      "Z": "NSSS",
+      "A": "EWEE",
+      "B": "SNSS",
+      "Y": "EWWW"
+    }
+  ],
+  "source_types": {
+    "EWE": [
+      2,
+      3
+    ],
+    "EWWW": [
+      1,
+      3
+    ]
+  },
+  "sink_types": {
+    "EEE": [
+      3,
+      2
+    ],
+    "EEWE": [
+      3,
+      1
+    ]
+  },
+  "nine_necessary_templates": [
+    "RR",
+    "RLR",
+    "RLRR",
+    "RRLR",
+    "RRLRR",
+    "RLLR",
+    "RLLRR",
+    "RRLLR",
+    "RRLLRR"
+  ],
+  "max_edges": 5,
+  "analytic_review": [
+    "All four LRRL profile choices give physical ordinal equations Z0->A0->B0->Y1 and Y2->Z0 across the real missing square edge of total flow1. Thus T1Y=T2Y+4, contrary to T2Y>=T1Y+4. No height, period, exterior or uninterrupted-cursor assumption needed.",
+    "Signed b955 local LRL obstruction uses only the two internal LEFT profiles, either internal RIGHT sign and true outside supplier. Its higher adjacent C face contradicts local maximality. Endpoints cannot be LEFT because the complete constant-selected-C LEFT inventory preserves physical multiplicity.",
+    "An embedded essential unit-grid b-circle cannot contain three identical successive turns: their four physical edges close a contractible square. This includes edges beyond a maximal segment endpoint because the full b-circle is embedded.",
+    "Two separate LEFT runs in the segment would have one or two RIGHT turns between them, producing forbidden LRL/LRRL. Hence at most one LEFT run of length<=2, with RIGHT endpoint runs of length1/2. The complete nine templates have at most six vertices/five edges; no maximum length was guessed or scanned.",
+    "Closed all3 is already excluded at local C maximum by signed b955. One-use rerouting EWWW/EEWE is retained; no number-of-segments, age, period, source fuel, arbitrary b-tree or nonmaximal-C bound follows. Templates are necessary, not attained."
+  ]
+}

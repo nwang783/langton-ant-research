@@ -1,0 +1,91 @@
+{
+  "status": "ALL RAW PREFIX CEILINGS MATCH",
+  "matrix": [
+    [
+      3,
+      2
+    ],
+    [
+      2,
+      5
+    ]
+  ],
+  "k": 9,
+  "covector": [
+    -2,
+    3
+  ],
+  "dual_scale": 11,
+  "total_words": 48,
+  "global_ceiling": 10,
+  "records": [
+    {
+      "direction": 0,
+      "start_horizontal": false,
+      "count": 4,
+      "ceiling_by_prefix": [
+        0,
+        3,
+        5,
+        8,
+        6,
+        9,
+        7,
+        10,
+        8
+      ],
+      "maximum": 10
+    },
+    {
+      "direction": 1,
+      "start_horizontal": true,
+      "count": 20,
+      "ceiling_by_prefix": [
+        0,
+        2,
+        5,
+        3,
+        6,
+        4,
+        7,
+        5,
+        2
+      ],
+      "maximum": 7
+    },
+    {
+      "direction": 2,
+      "start_horizontal": false,
+      "count": 4,
+      "ceiling_by_prefix": [
+        0,
+        -3,
+        -1,
+        -4,
+        -2,
+        -5,
+        -3,
+        -6,
+        -8
+      ],
+      "maximum": 0
+    },
+    {
+      "direction": 3,
+      "start_horizontal": true,
+      "count": 20,
+      "ceiling_by_prefix": [
+        0,
+        2,
+        5,
+        7,
+        4,
+        6,
+        3,
+        5,
+        2
+      ],
+      "maximum": 7
+    }
+  ]
+}

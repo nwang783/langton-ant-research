@@ -1,0 +1,254 @@
+{
+  "status": "PASS independent exact-pose repairs length<=9 and all-M inherited-white ownership",
+  "note_sha256": "80a718ddddd168926704ffcde67f8a448fb237a6e0283611a808fa0ee95c15fa",
+  "manifest_sha256": "ffd8a1393f96ad81b6d8515912b00304e5c4527b1a7b949644686e5c05d56715",
+  "counts": [
+    {
+      "length": 1,
+      "geometric": 0,
+      "internally_legal": []
+    },
+    {
+      "length": 5,
+      "geometric": 2,
+      "internally_legal": [
+        "LLLLR"
+      ]
+    },
+    {
+      "length": 9,
+      "geometric": 18,
+      "internally_legal": [
+        "LLRRRRLLR",
+        "LLLRRRRLR",
+        "LLLLRLLLL"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "word": "LRRRL",
+      "internal_conflict": [
+        4,
+        [
+          14,
+          -7
+        ],
+        "L"
+      ]
+    },
+    {
+      "word": "LLLLR",
+      "internal_conflict": null
+    },
+    {
+      "word": "LRRRRRRRL",
+      "internal_conflict": [
+        5,
+        [
+          14,
+          -8
+        ],
+        "R"
+      ]
+    },
+    {
+      "word": "LRRRRLLLR",
+      "internal_conflict": [
+        8,
+        [
+          14,
+          -7
+        ],
+        "R"
+      ]
+    },
+    {
+      "word": "LRRRLRRRR",
+      "internal_conflict": [
+        4,
+        [
+          14,
+          -7
+        ],
+        "L"
+      ]
+    },
+    {
+      "word": "LRRRLLLLL",
+      "internal_conflict": [
+        4,
+        [
+          14,
+          -7
+        ],
+        "L"
+      ]
+    },
+    {
+      "word": "LRRLRRRLL",
+      "internal_conflict": [
+        7,
+        [
+          13,
+          -7
+        ],
+        "L"
+      ]
+    },
+    {
+      "word": "LRRLLLLRL",
+      "internal_conflict": [
+        8,
+        [
+          14,
+          -7
+        ],
+        "L"
+      ]
+    },
+    {
+      "word": "LRLRRRLRL",
+      "internal_conflict": [
+        6,
+        [
+          13,
+          -8
+        ],
+        "L"
+      ]
+    },
+    {
+      "word": "LRLLLRLLR",
+      "internal_conflict": [
+        5,
+        [
+          14,
+          -8
+        ],
+        "R"
+      ]
+    },
+    {
+      "word": "LRLLLLRRL",
+      "internal_conflict": [
+        8,
+        [
+          14,
+          -7
+        ],
+        "L"
+      ]
+    },
+    {
+      "word": "LLRRRRLLR",
+      "internal_conflict": null
+    },
+    {
+      "word": "LLRRRLRRL",
+      "internal_conflict": [
+        5,
+        [
+          14,
+          -8
+        ],
+        "L"
+      ]
+    },
+    {
+      "word": "LLRLLLRLR",
+      "internal_conflict": [
+        6,
+        [
+          15,
+          -8
+        ],
+        "R"
+      ]
+    },
+    {
+      "word": "LLLRRRRLR",
+      "internal_conflict": null
+    },
+    {
+      "word": "LLLRLLLRR",
+      "internal_conflict": [
+        7,
+        [
+          15,
+          -7
+        ],
+        "R"
+      ]
+    },
+    {
+      "word": "LLLLRRRRR",
+      "internal_conflict": [
+        8,
+        [
+          14,
+          -7
+        ],
+        "R"
+      ]
+    },
+    {
+      "word": "LLLLRLLLL",
+      "internal_conflict": null
+    },
+    {
+      "word": "LLLLLRRRL",
+      "internal_conflict": [
+        4,
+        [
+          14,
+          -7
+        ],
+        "L"
+      ]
+    },
+    {
+      "word": "LLLLLLLLR",
+      "internal_conflict": [
+        4,
+        [
+          14,
+          -7
+        ],
+        "L"
+      ]
+    }
+  ],
+  "owned_cell": [
+    14,
+    -8
+  ],
+  "last_launch_reads": [
+    [
+      5209,
+      0,
+      "L"
+    ],
+    [
+      5213,
+      2,
+      "R"
+    ],
+    [
+      5217,
+      0,
+      "L"
+    ]
+  ],
+  "later_min_u_affine": [
+    [
+      156,
+      182
+    ],
+    [
+      0,
+      182
+    ]
+  ],
+  "scope": "Only initial additions disjoint from entire preceding READ preserve the stated contact. No longer repair, earlier deviation or changed producer excluded."
+}

@@ -1,0 +1,111 @@
+{
+  "drift": [
+    -2,
+    2
+  ],
+  "library": [
+    "RRRR",
+    "LLLL",
+    "RRRRLLLL",
+    "RRRLLLLR",
+    "RRLLLLRR",
+    "RLLLLRRR",
+    "LRRRRLLL",
+    "LLRRRRLL",
+    "LLLRRRRL",
+    "LLLLRRRR"
+  ],
+  "radius_periods": 4,
+  "variables": 4680,
+  "original_equations": 663,
+  "complete_cell_count": 206,
+  "direct_central_zero": 514,
+  "central_option_count": 520,
+  "base_rank": 3234,
+  "base_rounds": [
+    {
+      "forced_zero": 2496,
+      "activated": 0,
+      "rank": 3159
+    },
+    {
+      "forced_zero": 64,
+      "activated": 0,
+      "rank": 3223
+    },
+    {
+      "forced_zero": 4,
+      "activated": 0,
+      "rank": 3227
+    },
+    {
+      "forced_zero": 7,
+      "activated": 0,
+      "rank": 3234
+    },
+    {
+      "forced_zero": 0,
+      "activated": 0,
+      "rank": 3234
+    }
+  ],
+  "failed_literal_certificates": [
+    {
+      "variable": 2242,
+      "option": [
+        32,
+        "RLLLLRRR"
+      ],
+      "contradiction": true,
+      "rounds": []
+    },
+    {
+      "variable": 2249,
+      "option": [
+        33,
+        "LLLLRRRR"
+      ],
+      "contradiction": true,
+      "rounds": []
+    },
+    {
+      "variable": 2303,
+      "option": [
+        44,
+        "LRRRRLLL"
+      ],
+      "contradiction": true,
+      "rounds": []
+    },
+    {
+      "variable": 2306,
+      "option": [
+        45,
+        "RRRRLLLL"
+      ],
+      "contradiction": true,
+      "rounds": []
+    },
+    {
+      "variable": 2378,
+      "option": [
+        59,
+        "LRRRRLLL"
+      ],
+      "contradiction": true,
+      "rounds": []
+    },
+    {
+      "variable": 2381,
+      "option": [
+        60,
+        "RRRRLLLL"
+      ],
+      "contradiction": true,
+      "rounds": []
+    }
+  ],
+  "window_multiplicity": 8,
+  "finite_fuel_bound": "4+8m decorated periods",
+  "seconds": 0.3960225582122803
+}

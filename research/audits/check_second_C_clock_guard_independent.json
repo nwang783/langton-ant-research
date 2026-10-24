@@ -1,0 +1,38 @@
+{
+  "status": "PASS independent second-C actual clock-shift bridge",
+  "manifest_sha256": "819fecf8839ec081bdbd63f4c82d7499c9d5754f3d37009f96af354e1b73f237",
+  "roles": [
+    [
+      6,
+      5,
+      [
+        1,
+        4,
+        3
+      ],
+      [
+        1,
+        6
+      ],
+      1
+    ],
+    [
+      9,
+      8,
+      [
+        0,
+        5,
+        3
+      ],
+      [
+        0,
+        7
+      ],
+      1
+    ]
+  ],
+  "raw_cases": 184,
+  "sector_impossible": 92,
+  "signed_count5": 92,
+  "scope": "Only full VCC(1,6)/UCC(0,7) outputs representing second-C atomiclocal(2,0). Full producer starts one C before second atom, so atomic age=fullage\u22121. No fullage<=3 consumption implies atomicage>=3. Internal tail C has no residual inputs. No standalone-C kernel or separate return/global theorem."
+}

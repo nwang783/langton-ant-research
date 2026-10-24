@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "depth": 5,
+  "counts": [
+    1,
+    8,
+    43,
+    210,
+    1000,
+    4627
+  ],
+  "attempts": 10096,
+  "maximum_required_I": 24,
+  "events": [
+    {
+      "required_I": 2,
+      "path": [
+        0,
+        0
+      ]
+    },
+    {
+      "required_I": 14,
+      "path": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "required_I": 20,
+      "path": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "required_I": 22,
+      "path": [
+        0,
+        0,
+        0,
+        6,
+        4
+      ]
+    },
+    {
+      "required_I": 24,
+      "path": [
+        1,
+        6,
+        4,
+        4,
+        0
+      ]
+    }
+  ],
+  "scope": "Fresh current-color tracing and ordered residual remove/install, compared to last-turn alternating trace/full-context label engine."
+}

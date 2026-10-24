@@ -1,0 +1,250 @@
+{
+  "status": "PASS all cap-derived local histories; every nonempty ordinal-balanced assignment contains a zero-winding successor cycle",
+  "counts": {
+    "all_assignments": 99225,
+    "empty": 1,
+    "nonempty_balanced": 2
+  },
+  "input": [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+  ],
+  "caps": [
+    0,
+    1,
+    2,
+    3,
+    3,
+    2,
+    1,
+    0
+  ],
+  "balanced": [
+    {
+      "histories": [
+        [],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          0
+        ],
+        []
+      ],
+      "cycles": [
+        {
+          "events": [
+            [
+              [
+                1,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                3,
+                1
+              ],
+              0
+            ],
+            [
+              [
+                4,
+                1
+              ],
+              0
+            ],
+            [
+              [
+                6,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                5,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                3,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                4,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                2,
+                0
+              ],
+              0
+            ]
+          ],
+          "length": 8,
+          "winding": 0
+        }
+      ]
+    },
+    {
+      "histories": [
+        [],
+        [
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          3,
+          3,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0
+        ],
+        []
+      ],
+      "cycles": [
+        {
+          "events": [
+            [
+              [
+                1,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                3,
+                1
+              ],
+              0
+            ],
+            [
+              [
+                4,
+                1
+              ],
+              0
+            ],
+            [
+              [
+                6,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                5,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                3,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                4,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                2,
+                0
+              ],
+              0
+            ]
+          ],
+          "length": 8,
+          "winding": 0
+        },
+        {
+          "events": [
+            [
+              [
+                2,
+                1
+              ],
+              1
+            ],
+            [
+              [
+                5,
+                1
+              ],
+              0
+            ],
+            [
+              [
+                3,
+                2
+              ],
+              0
+            ],
+            [
+              [
+                4,
+                2
+              ],
+              0
+            ]
+          ],
+          "length": 4,
+          "winding": 1
+        }
+      ]
+    }
+  ],
+  "author_result_sha256": "70b97b92f74d1a911a50453790f360d87c841dcd08dd40cf7f77e0c7a055be55",
+  "scope": "Specified central four-row prepared104 cylinder, full drift(-2,-2), sector1, arbitrary outputs. No supplied cap or period bound beyond signed LK, no variable-width or nonperiodic-return exclusion."
+}

@@ -1,0 +1,159 @@
+{
+  "status": "PASS independent recursive expansion, exact complex pose and conflict witnesses",
+  "literal_moves": 23384,
+  "controls": [
+    {
+      "name": "half",
+      "literal_moves": 728,
+      "result": {
+        "status": "decided",
+        "possible": false,
+        "reason": "literal powered block internally inconsistent",
+        "conflict": {
+          "cell": [
+            -1,
+            0
+          ],
+          "first_read": 5,
+          "conflicting_read": 9,
+          "required_initial_bits": [
+            0,
+            1
+          ]
+        },
+        "adapter": {
+          "verified_spatial_order": 2,
+          "first_letter_root_cycle": 1,
+          "common_power": 2,
+          "powered_image_lengths": [
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81
+          ]
+        }
+      }
+    },
+    {
+      "name": "quarter",
+      "literal_moves": 22408,
+      "result": {
+        "status": "decided",
+        "possible": false,
+        "reason": "literal powered block internally inconsistent",
+        "conflict": {
+          "cell": [
+            -1,
+            0
+          ],
+          "first_read": 5,
+          "conflicting_read": 9,
+          "required_initial_bits": [
+            0,
+            1
+          ]
+        },
+        "adapter": {
+          "verified_spatial_order": 4,
+          "first_letter_root_cycle": 1,
+          "common_power": 4,
+          "powered_image_lengths": [
+            2401,
+            2401,
+            2401,
+            2401,
+            2401,
+            2401,
+            2401,
+            2401
+          ]
+        }
+      }
+    },
+    {
+      "name": "oblique_reflection",
+      "literal_moves": 248,
+      "result": {
+        "processed_schemes": 2,
+        "last_base_length": 1,
+        "theoretical_base_bound": 1,
+        "requirement_states": {
+          "(-1, -1)": [
+            1,
+            1
+          ],
+          "(-1, 1)": [
+            1,
+            1
+          ],
+          "(1, -1)": [
+            1,
+            1
+          ],
+          "(1, 1)": [
+            1,
+            2
+          ]
+        },
+        "status": "decided",
+        "possible": true,
+        "complete_generated_cover": true,
+        "candidate_seed": [],
+        "given_seed_validation": {
+          "possible": true,
+          "frame_checks": 4,
+          "nested_root": true,
+          "growing_root": false,
+          "accepted_growing_model": false,
+          "seed": []
+        },
+        "seconds": 0.03776311699766666,
+        "adapter": {
+          "verified_spatial_order": 2,
+          "first_letter_root_cycle": 1,
+          "common_power": 2,
+          "powered_image_lengths": [
+            1,
+            1,
+            49,
+            49,
+            1,
+            1,
+            49,
+            49
+          ]
+        }
+      }
+    }
+  ],
+  "decorated_first_letter_cycle": {
+    "verified_spatial_order": 2,
+    "first_letter_root_cycle": 2,
+    "common_power": 2,
+    "powered_image_lengths": [
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81
+    ]
+  },
+  "invalid_controls": 2,
+  "subject_sha256": "ddfe6e194af4537d2f45255425cf5cbcd3865e78022e2a8acb48566136169fd2",
+  "scope": "Selected cofinal root power-limit only, exact physical boundary headings and finite-order supplied matrix. Does not require all intermediate root phases to share one seed."
+}

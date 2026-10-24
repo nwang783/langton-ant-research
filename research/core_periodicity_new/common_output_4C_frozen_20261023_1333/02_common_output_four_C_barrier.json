@@ -1,0 +1,545 @@
+{
+  "status": "AUTHOR_COMMON_SOURCE_OUTPUT_3C_4C_BARRIER_AND_UNCONDITIONAL_4C_NONRETURN_PASS",
+  "scope": "Any complete8 source atA0,N, includingfactorFIRST. Fresh source-output(2,0) survives before3C targetBheadingE withX<=1 and4C targetBheadingN withX<=1. Thus exactmarkedpose repeat at4C impossible evenfactorfirst. No atomicinternal-cut extension or higherCnonreturn claimed.",
+  "sources": [
+    {
+      "source": 0,
+      "C_count": 0,
+      "output": [
+        2,
+        0
+      ],
+      "source_before_white_requirement": [
+        2,
+        0,
+        false,
+        8
+      ],
+      "fresh_output_birth_clock": 0
+    },
+    {
+      "source": 1,
+      "C_count": 1,
+      "output": [
+        2,
+        0
+      ],
+      "source_before_white_requirement": [
+        2,
+        0,
+        false,
+        8
+      ],
+      "fresh_output_birth_clock": 0
+    },
+    {
+      "source": 4,
+      "C_count": 0,
+      "output": [
+        2,
+        0
+      ],
+      "source_before_white_requirement": [
+        2,
+        0,
+        false,
+        8
+      ],
+      "fresh_output_birth_clock": 0
+    },
+    {
+      "source": 5,
+      "C_count": 1,
+      "output": [
+        2,
+        0
+      ],
+      "source_before_white_requirement": [
+        2,
+        0,
+        false,
+        8
+      ],
+      "fresh_output_birth_clock": 0
+    },
+    {
+      "source": 6,
+      "C_count": 2,
+      "output": [
+        2,
+        0
+      ],
+      "source_before_white_requirement": [
+        2,
+        0,
+        false,
+        8
+      ],
+      "fresh_output_birth_clock": 0
+    },
+    {
+      "source": 7,
+      "C_count": 0,
+      "output": [
+        2,
+        0
+      ],
+      "source_before_white_requirement": [
+        2,
+        0,
+        false,
+        8
+      ],
+      "fresh_output_birth_clock": 0
+    },
+    {
+      "source": 8,
+      "C_count": 1,
+      "output": [
+        2,
+        0
+      ],
+      "source_before_white_requirement": [
+        2,
+        0,
+        false,
+        8
+      ],
+      "fresh_output_birth_clock": 0
+    },
+    {
+      "source": 9,
+      "C_count": 2,
+      "output": [
+        2,
+        0
+      ],
+      "source_before_white_requirement": [
+        2,
+        0,
+        false,
+        8
+      ],
+      "fresh_output_birth_clock": 0
+    }
+  ],
+  "all_target_marker_whites": [
+    {
+      "target": 0,
+      "marked_before_white_requirement": [
+        2,
+        0,
+        false,
+        8
+      ]
+    },
+    {
+      "target": 1,
+      "marked_before_white_requirement": [
+        2,
+        0,
+        false,
+        8
+      ]
+    },
+    {
+      "target": 4,
+      "marked_before_white_requirement": [
+        2,
+        0,
+        false,
+        8
+      ]
+    },
+    {
+      "target": 5,
+      "marked_before_white_requirement": [
+        2,
+        0,
+        false,
+        8
+      ]
+    },
+    {
+      "target": 6,
+      "marked_before_white_requirement": [
+        2,
+        0,
+        false,
+        8
+      ]
+    },
+    {
+      "target": 7,
+      "marked_before_white_requirement": [
+        2,
+        0,
+        false,
+        8
+      ]
+    },
+    {
+      "target": 8,
+      "marked_before_white_requirement": [
+        2,
+        0,
+        false,
+        8
+      ]
+    },
+    {
+      "target": 9,
+      "marked_before_white_requirement": [
+        2,
+        0,
+        false,
+        8
+      ]
+    }
+  ],
+  "all_age2_eligible_consumers_wrong_sector": [
+    {
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "required_pose": [
+        2,
+        3,
+        2
+      ],
+      "wrong_sector": 1
+    },
+    {
+      "consumer": 5,
+      "input": [
+        0,
+        3
+      ],
+      "required_pose": [
+        2,
+        3,
+        2
+      ],
+      "wrong_sector": 1
+    }
+  ],
+  "all16_after_consumer_endpoints": [
+    {
+      "age": 4,
+      "heading": 0,
+      "consumer_base": 0,
+      "input": [
+        0,
+        1
+      ],
+      "base_start": [
+        2,
+        -1
+      ],
+      "base_end": [
+        3,
+        0
+      ],
+      "remaining_C_to4": 0,
+      "minimum_four_C_final_x": 3
+    },
+    {
+      "age": 4,
+      "heading": 0,
+      "consumer_base": 4,
+      "input": [
+        0,
+        3
+      ],
+      "base_start": [
+        2,
+        -3
+      ],
+      "base_end": [
+        3,
+        0
+      ],
+      "remaining_C_to4": 0,
+      "minimum_four_C_final_x": 3
+    },
+    {
+      "age": 4,
+      "heading": 0,
+      "consumer_base": 4,
+      "input": [
+        1,
+        2
+      ],
+      "base_start": [
+        1,
+        -2
+      ],
+      "base_end": [
+        2,
+        1
+      ],
+      "remaining_C_to4": 0,
+      "minimum_four_C_final_x": 2
+    },
+    {
+      "age": 4,
+      "heading": 0,
+      "consumer_base": 7,
+      "input": [
+        -1,
+        1
+      ],
+      "base_start": [
+        3,
+        -1
+      ],
+      "base_end": [
+        3,
+        3
+      ],
+      "remaining_C_to4": 0,
+      "minimum_four_C_final_x": 3
+    },
+    {
+      "age": 4,
+      "heading": 0,
+      "consumer_base": 7,
+      "input": [
+        -1,
+        2
+      ],
+      "base_start": [
+        3,
+        -2
+      ],
+      "base_end": [
+        3,
+        2
+      ],
+      "remaining_C_to4": 0,
+      "minimum_four_C_final_x": 3
+    },
+    {
+      "age": 4,
+      "heading": 0,
+      "consumer_base": 7,
+      "input": [
+        -1,
+        4
+      ],
+      "base_start": [
+        3,
+        -4
+      ],
+      "base_end": [
+        3,
+        0
+      ],
+      "remaining_C_to4": 0,
+      "minimum_four_C_final_x": 3
+    },
+    {
+      "age": 4,
+      "heading": 0,
+      "consumer_base": 7,
+      "input": [
+        0,
+        2
+      ],
+      "base_start": [
+        2,
+        -2
+      ],
+      "base_end": [
+        2,
+        2
+      ],
+      "remaining_C_to4": 0,
+      "minimum_four_C_final_x": 2
+    },
+    {
+      "age": 4,
+      "heading": 0,
+      "consumer_base": 7,
+      "input": [
+        0,
+        3
+      ],
+      "base_start": [
+        2,
+        -3
+      ],
+      "base_end": [
+        2,
+        1
+      ],
+      "remaining_C_to4": 0,
+      "minimum_four_C_final_x": 2
+    },
+    {
+      "age": 3,
+      "heading": 1,
+      "consumer_base": 0,
+      "input": [
+        0,
+        1
+      ],
+      "base_start": [
+        1,
+        0
+      ],
+      "base_end": [
+        2,
+        -1
+      ],
+      "remaining_C_to4": 1,
+      "minimum_four_C_final_x": 3
+    },
+    {
+      "age": 3,
+      "heading": 1,
+      "consumer_base": 4,
+      "input": [
+        0,
+        3
+      ],
+      "base_start": [
+        -1,
+        0
+      ],
+      "base_end": [
+        2,
+        -1
+      ],
+      "remaining_C_to4": 1,
+      "minimum_four_C_final_x": 3
+    },
+    {
+      "age": 3,
+      "heading": 1,
+      "consumer_base": 4,
+      "input": [
+        1,
+        2
+      ],
+      "base_start": [
+        0,
+        1
+      ],
+      "base_end": [
+        3,
+        0
+      ],
+      "remaining_C_to4": 1,
+      "minimum_four_C_final_x": 4
+    },
+    {
+      "age": 3,
+      "heading": 1,
+      "consumer_base": 7,
+      "input": [
+        -1,
+        1
+      ],
+      "base_start": [
+        1,
+        -1
+      ],
+      "base_end": [
+        5,
+        -1
+      ],
+      "remaining_C_to4": 1,
+      "minimum_four_C_final_x": 6
+    },
+    {
+      "age": 3,
+      "heading": 1,
+      "consumer_base": 7,
+      "input": [
+        -1,
+        2
+      ],
+      "base_start": [
+        0,
+        -1
+      ],
+      "base_end": [
+        4,
+        -1
+      ],
+      "remaining_C_to4": 1,
+      "minimum_four_C_final_x": 5
+    },
+    {
+      "age": 3,
+      "heading": 1,
+      "consumer_base": 7,
+      "input": [
+        -1,
+        4
+      ],
+      "base_start": [
+        -2,
+        -1
+      ],
+      "base_end": [
+        2,
+        -1
+      ],
+      "remaining_C_to4": 1,
+      "minimum_four_C_final_x": 3
+    },
+    {
+      "age": 3,
+      "heading": 1,
+      "consumer_base": 7,
+      "input": [
+        0,
+        2
+      ],
+      "base_start": [
+        0,
+        0
+      ],
+      "base_end": [
+        4,
+        0
+      ],
+      "remaining_C_to4": 1,
+      "minimum_four_C_final_x": 5
+    },
+    {
+      "age": 3,
+      "heading": 1,
+      "consumer_base": 7,
+      "input": [
+        0,
+        3
+      ],
+      "base_start": [
+        -1,
+        0
+      ],
+      "base_end": [
+        3,
+        0
+      ],
+      "remaining_C_to4": 1,
+      "minimum_four_C_final_x": 4
+    }
+  ],
+  "sector_invariant": "x+y+h mod2=0 after normalizing sourceA to0,N; each packet has length parity equal C parity",
+  "remaining_E_to_N_C_displacement": [
+    1,
+    0,
+    0
+  ],
+  "dependencies": {
+    "chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "chronology_dcuv/counted_input_age_rules_complete.json": "ce1d90d3887522fe5c71ad132eda9be3c32302d897a51ea38fbfabb0d08624bc",
+    "check_common_output_four_C_barrier.py": "07e36e57cba27486c4b2f3716c460fd535da4a5edad9b5c665845081541135f3"
+  }
+}

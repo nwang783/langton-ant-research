@@ -1,0 +1,292 @@
+{"segment": 0, "time": [0, 0, 8250], "pose": [[[0, 0, -23], [0, 0, -17]], 0], "contacts": {}}
+{"segment": 1, "time": [104, 0, 18858], "pose": [[[-2, 0, -227], [-2, 0, -221]], 0], "contacts": {}}
+{"segment": 2, "time": [104, 0, 69981], "pose": [[[-2, 0, -193], [-2, 0, -258]], 1], "contacts": {"q2": [104, 0, 18935]}}
+{"segment": 3, "time": [208, 104, 90781], "pose": [[[0, 2, 207], [0, 2, 142]], 1], "contacts": {}}
+{"segment": 4, "time": [208, 104, 141899], "pose": [[[0, 2, 170], [0, 2, 179]], 3], "contacts": {"q3": [208, 104, 90853]}}
+{"segment": 5, "time": [208, 208, 150219], "pose": [[[0, 0, 10], [0, 0, 19]], 3], "contacts": {}}
+{"segment": 6, "time": [208, 208, 151386], "pose": [[[0, 0, -25], [0, 0, 1]], 0], "contacts": {}}
+{
+  "status": "exact complete finite-kernel backward cycle for all independent n,p>=100",
+  "phase": 32,
+  "domain": "n=U+100,p=V+100; U,V independent nonnegative integers",
+  "initial": [
+    [
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        -2
+      ]
+    ],
+    [
+      [
+        -2,
+        0,
+        -232
+      ],
+      [
+        -2,
+        0,
+        -229
+      ]
+    ],
+    [
+      [
+        0,
+        2,
+        209
+      ],
+      [
+        0,
+        2,
+        150
+      ]
+    ]
+  ],
+  "first_contacts": {
+    "q2": [
+      104,
+      0,
+      18935
+    ],
+    "q3": [
+      208,
+      104,
+      90853
+    ]
+  },
+  "capture_time": [
+    208,
+    208,
+    151386
+  ],
+  "capture_pose": [
+    [
+      [
+        0,
+        0,
+        -25
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    0
+  ],
+  "tail": {
+    "drift": [
+      -2,
+      2
+    ],
+    "heading": 0,
+    "required_cells": 40,
+    "odd_cells": 32
+  },
+  "tail_phase": 0,
+  "prefix_u_bounds": [
+    -66,
+    122
+  ],
+  "canonical_older_deposits_protected": true,
+  "tail_z_bounds": [
+    -31,
+    -21
+  ],
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        0,
+        8250
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -23
+          ],
+          [
+            0,
+            0,
+            -17
+          ]
+        ],
+        0
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 1,
+      "time": [
+        104,
+        0,
+        18858
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            0,
+            -227
+          ],
+          [
+            -2,
+            0,
+            -221
+          ]
+        ],
+        0
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 2,
+      "time": [
+        104,
+        0,
+        69981
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            0,
+            -193
+          ],
+          [
+            -2,
+            0,
+            -258
+          ]
+        ],
+        1
+      ],
+      "contacts": {
+        "q2": [
+          104,
+          0,
+          18935
+        ]
+      }
+    },
+    {
+      "segment": 3,
+      "time": [
+        208,
+        104,
+        90781
+      ],
+      "pose": [
+        [
+          [
+            0,
+            2,
+            207
+          ],
+          [
+            0,
+            2,
+            142
+          ]
+        ],
+        1
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 4,
+      "time": [
+        208,
+        104,
+        141899
+      ],
+      "pose": [
+        [
+          [
+            0,
+            2,
+            170
+          ],
+          [
+            0,
+            2,
+            179
+          ]
+        ],
+        3
+      ],
+      "contacts": {
+        "q3": [
+          208,
+          104,
+          90853
+        ]
+      }
+    },
+    {
+      "segment": 5,
+      "time": [
+        208,
+        208,
+        150219
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            10
+          ],
+          [
+            0,
+            0,
+            19
+          ]
+        ],
+        3
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 6,
+      "time": [
+        208,
+        208,
+        151386
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -25
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        0
+      ],
+      "contacts": {}
+    }
+  ],
+  "statistics": {
+    "finite_read_constraints": 10195,
+    "periodic_read_constraints": 164,
+    "affine_guards": 7196,
+    "excluded_isolated_equalities": 17055589
+  },
+  "template_sha256": "6fdb9700754662d72dd7a565e49390a23d50b94cd26e4da159fa0c6d30bfe1c6",
+  "source_certificate_sha256": "a48bf0a9e8feaff5f35701f7d730b8074b3b86d2d3ba572539e8df4677f12248",
+  "scope": "Only additional canonical old deposits are protected. Arbitrary-history and actual blank transfer need a separate cap/strip proof."
+}

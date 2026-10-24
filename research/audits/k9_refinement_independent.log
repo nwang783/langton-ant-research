@@ -1,0 +1,38 @@
+Independent1280 inventory and12 positive controls PASS
+0 {'unsat': 1} 0.29
+50 {'unsat': 51} 6.32
+100 {'unsat': 101} 12.11
+150 {'unsat': 151} 17.85
+200 {'unsat': 201} 23.32
+250 {'unsat': 251} 28.7
+300 {'unsat': 301} 34.25
+350 {'unsat': 351} 39.93
+400 {'unsat': 401} 45.61
+450 {'unsat': 451} 51.22
+500 {'unsat': 501} 56.92
+550 {'unsat': 551} 63.36
+600 {'unsat': 601} 69.08
+650 {'unsat': 651} 74.94
+700 {'unsat': 701} 81.14
+750 {'unsat': 751} 86.9
+800 {'unsat': 801} 93.59
+850 {'unsat': 851} 101.18
+900 {'unsat': 901} 107.55
+950 {'unsat': 951} 113.33
+1000 {'unsat': 1001} 119.51
+1050 {'unsat': 1051} 125.81
+1100 {'unsat': 1101} 132.06
+1150 {'unsat': 1151} 138.45
+1200 {'unsat': 1201} 145.15
+1250 {'unsat': 1251} 151.61
+{
+  "status": "independent exhaustive inventory and complete refinement exclusion passed",
+  "prefix_nodes": 12697,
+  "coarse81_prefixes": 1280,
+  "positive_controls": 12,
+  "refinement_counts": {
+    "unsat": 1280
+  },
+  "seconds": 155.43576216697693,
+  "scope": "No729-turn prefix on ANY initial coloring can satisfy p(9n)=3p(n), h(9n)=h(n) through all81 coarse moves. Trusted solver: installed Z3; independent integer-choice/XOR encoding, no shared construction imports."
+}

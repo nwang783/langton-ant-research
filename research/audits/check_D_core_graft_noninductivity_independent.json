@@ -1,0 +1,50 @@
+{
+  "status": "PASS literal eight-cell D control and artificial-color noninductivity",
+  "manifest_sha256": "721e0425c04832570bda83f6d910273b3f5225f85f8a499e87a6daf7bac11266",
+  "seed": [
+    [
+      -2,
+      0
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      -2
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "raw_reads": 10,
+  "marker_reads": 11,
+  "raw_exit": [
+    [
+      1,
+      1
+    ],
+    0
+  ],
+  "initial_grafted_components": 1,
+  "final_grafted_components": 3,
+  "scope": "The common component color of the two untouched cells is ARTIFICIAL. This refutes only local inductivity of that predicate from itself and the D guard, not reachable historical connectivity or the U-merger conjecture."
+}

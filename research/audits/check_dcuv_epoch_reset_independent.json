@@ -1,0 +1,61 @@
+{
+  "status": "PASS epoch-reset constants and analytic O((m+u)^3) recurrent-factor bound",
+  "core_offsets": [
+    2,
+    52,
+    54,
+    -8
+  ],
+  "reset_cost": 120,
+  "U_core_output_cost": 100,
+  "U_prefix_maximum": 40,
+  "DCV_prefix_maximum": 36,
+  "initial_activation_cost": 76,
+  "packets": [
+    {
+      "packet": "D",
+      "length": 10,
+      "black_increment": 0
+    },
+    {
+      "packet": "DC",
+      "length": 25,
+      "black_increment": 3
+    },
+    {
+      "packet": "V",
+      "length": 18,
+      "black_increment": 4
+    },
+    {
+      "packet": "VC",
+      "length": 33,
+      "black_increment": 7
+    },
+    {
+      "packet": "VCC",
+      "length": 48,
+      "black_increment": 10
+    },
+    {
+      "packet": "U",
+      "length": 28,
+      "black_increment": 4
+    },
+    {
+      "packet": "UC",
+      "length": 43,
+      "black_increment": 7
+    },
+    {
+      "packet": "UCC",
+      "length": 58,
+      "black_increment": 10
+    }
+  ],
+  "produced_strip": "57+38(m-5)+60u",
+  "radius": "ceil(2B/5)",
+  "duration": "20R(t+1)+28t, t=floor((2R+1)^2/3)",
+  "scope": "Complete recurrent-eight factors only. Does not bound u or exclude an infinite DCUV tail.",
+  "sha256": "e6ab9323d72bc866077497236502cf6555794a1ecdee2ebec490d3695912d28c"
+}

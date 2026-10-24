@@ -1,0 +1,19 @@
+{
+  "status": "PASS analytic corollary with independent literal constants and exact ceiling identity",
+  "manifest_sha256": "64eba0aac6627ab8690e0fdfa1a15f25f378c252d1898063bc2a30f00f1ea113",
+  "raw_atom_lengths": {
+    "D": 10,
+    "V": 18,
+    "U": 28,
+    "C": 15
+  },
+  "bound": "L <= F(m,0) + 112*(R(m,0)+24u+1)^2 for u>=1; L<=F(m,0) for u=0",
+  "terminal_marker_extra": 11,
+  "center_count": "(2R+2)^2",
+  "analytic_dependencies": [
+    "Signed HS confines every atomic read head in the whole original factor using original m and actual u.",
+    "The U-free full-packet prefix has an actual marker supplied by the next U packet.",
+    "The remaining U-entry suffix is center-simple, so each counted center occurs at most once."
+  ],
+  "scope": "Necessary square-root U recurrence only. No U count upper bound, microscopic cap four, merger resource or capture."
+}

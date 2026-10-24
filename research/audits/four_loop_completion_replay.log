@@ -1,0 +1,63 @@
+{
+  "status": "all parameter integer proof passed; no global-conjecture claim",
+  "parameter_domain": "integer L >= 128",
+  "initial_black_cells": 16,
+  "first_collision_time": [
+    416,
+    37740
+  ],
+  "first_collision_position": [
+    4,
+    22
+  ],
+  "first_recovery_length": 1766,
+  "intermediate_flight_periods": [
+    1,
+    2
+  ],
+  "second_recovery_length": 3397,
+  "capture_time": [
+    520,
+    43111
+  ],
+  "capture_pose_affine": {
+    "x": [
+      -2,
+      -40
+    ],
+    "y": [
+      2,
+      57
+    ],
+    "heading": "E"
+  },
+  "infinite_tail_certificate": {
+    "read_ray_constraints": 44,
+    "interval_terms": 782,
+    "drift": [
+      -2,
+      2
+    ]
+  },
+  "tail_phase": 99,
+  "prefix_statistics": {
+    "finite_read_constraints": 4823,
+    "periodic_read_constraints": 192,
+    "affine_guards": 6178,
+    "excluded_isolated_equalities": 11009546
+  },
+  "total_statistics": {
+    "finite_read_constraints": 5920,
+    "periodic_read_constraints": 234,
+    "affine_guards": 9943,
+    "excluded_isolated_equalities": 15251600
+  },
+  "field_representation": {
+    "affine_point_terms": 4287,
+    "finite_ray_terms": 184
+  },
+  "dependencies": {
+    "/workspace/shared/langton/continuation_2026-10-22/ant_continuation/wake_clock/certify_four_scatterer_prefix.py": "fadd30f0dbeb0c19fb2bb74dc6d8b2aa23171f9cf6ec3a380ed5eaff2a6ef12a",
+    "/workspace/shared/langton/audits/four_loop_snapshot/completion_template.json": "d561e8bc8d319bdb70a67d99a66e9501fc3a19f4facab22ea9f292d09bcb9156"
+  }
+}

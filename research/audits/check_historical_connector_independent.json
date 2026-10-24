@@ -1,0 +1,84 @@
+{
+  "status": "PASS all-n historical connector and reset-tree scope contrast",
+  "manifest": "ef3e97bde5cf3eb0d2821316a1e2ae1e78fbda63cb0b32fb73357e33e5303f84",
+  "dependencies": {
+    "CHRONOLOGICAL_SPINE_ORIENTATION_MANIFEST.json": "65a4b90707b05a417311fbb357e4f4f76eb0362265fc0cd6bdb87daa6614c997",
+    "../audits/check_chronological_spine_independent.json": "31de7066f655c5a3f0e693769927955609087793a92db8427804b149100b37e7",
+    "PRIMITIVE_SPINE_CLOCK_MANIFEST.json": "791d3c29af66f0f95c8c541f86beeccd71ca155653f7237d83a3867d8d48e517",
+    "SOUTHWEST_ARCHIVE_IMPORT_MANIFEST.json": "bbd355881af85e24445f23d7d99d1eba88d5519ec5487c920b07f39892c5cf66",
+    "../audits/check_southwest_archive_import_independent.json": "600f91c4b51dc92dd08901233e290d345eb836e1ccc92750d4e9fdc9adbcb463",
+    "../audits/check_primitive_spine_clock_independent.json": "bbab1109da85f0160a2a768234d94d1fe41af14bc486acd8d2a5a6f7961fc135"
+  },
+  "full_reads": 418400,
+  "controls": [
+    {
+      "n": 100,
+      "reads": 109168,
+      "edge": [
+        [
+          157,
+          164
+        ],
+        [
+          158,
+          164
+        ]
+      ],
+      "labels": [
+        8183,
+        99996
+      ],
+      "jump": 91813,
+      "both_permanent": true,
+      "parity_tests": 189
+    },
+    {
+      "n": 137,
+      "reads": 116864,
+      "edge": [
+        [
+          157,
+          164
+        ],
+        [
+          158,
+          164
+        ]
+      ],
+      "labels": [
+        8183,
+        107692
+      ],
+      "jump": 99509,
+      "both_permanent": true,
+      "parity_tests": 189
+    },
+    {
+      "n": 500,
+      "reads": 192368,
+      "edge": [
+        [
+          157,
+          164
+        ],
+        [
+          158,
+          164
+        ]
+      ],
+      "labels": [
+        8183,
+        183196
+      ],
+      "jump": 175013,
+      "both_permanent": true,
+      "parity_tests": 189
+    }
+  ],
+  "analytic": [
+    "Actual common source/M prefix reads v once at R8183 and immediately reaches w; w has four source reads ending L8308. Every later pre-collision stage misses both: NE minx225, T minx2n+192, full SW minimum206 and final partial minimum204. These are complete stage ranges from the already signed all-n MT source, not arbitrary synthetic fields.",
+    "Actual postcollision recovery begins31806+208n, misses v, and reads w exactly once at relative R47390. The entire NW tail has y>=213 and positive y drift, so both identities are permanent. Consequently the historical parent edge v->w has labels8183 and79196+208n, with jump71013+208n for every integer n>=100.",
+    "All three complete original-seed histories and infinite parity fields replay independently. The old v is absent from the drought readset, so this edge does not contradict its bounded29865 reset-tree clock. It is a selected unbounded historical lower witness, not a whole-history maximum or consumed-lifetime edge.",
+    "No single-orbit recurrence, universal connector law, chronological Euler identity or gross leaf budget is inferred."
+  ]
+}

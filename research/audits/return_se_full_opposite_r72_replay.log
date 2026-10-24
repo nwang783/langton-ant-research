@@ -1,0 +1,243 @@
+{"segment": 0, "time": [0, 0, 50990], "pose": [[[0, 0, 29], [0, 0, 51]], 0]}
+{"segment": 1, "time": [0, 104, 72206], "pose": [[[0, 2, 437], [0, 2, 459]], 0]}
+{"segment": 2, "time": [0, 104, 123293], "pose": [[[0, 2, 397], [0, 2, 494]], 3]}
+{"segment": 3, "time": [0, 208, 144197], "pose": [[[0, 0, -5], [0, 0, 92]], 3]}
+{"segment": 4, "time": [0, 208, 147310], "pose": [[[0, 0, -23], [0, 0, 75]], 0]}
+{"segment": 5, "time": [0, 208, 148142], "pose": [[[0, 0, -39], [0, 0, 59]], 0]}
+{"segment": 6, "time": [0, 208, 157189], "pose": [[[0, 0, -59], [0, 0, 36]], 3]}
+{
+  "status": "exact complete finite five-cell family with eternal standard tail",
+  "phase": 72,
+  "domain": "m>=100,k>=200,n=m+k+13",
+  "variables": "u=m-100>=0,v=k-200>=0",
+  "initial_source_points": 5460,
+  "initial_source_rays": 132,
+  "first_d_read_source_time": [
+    0,
+    104,
+    72247
+  ],
+  "first_d_phase": 72,
+  "source_capture_time": [
+    0,
+    208,
+    157189
+  ],
+  "source_capture_pose": [
+    [
+      [
+        0,
+        0,
+        -59
+      ],
+      [
+        0,
+        0,
+        36
+      ]
+    ],
+    3
+  ],
+  "total_capture_time": [
+    312,
+    624,
+    399373
+  ],
+  "total_capture_pose": [
+    [
+      [
+        -2,
+        0,
+        -321
+      ],
+      [
+        2,
+        0,
+        238
+      ]
+    ],
+    3
+  ],
+  "tail": {
+    "drift": [
+      -2,
+      -2
+    ],
+    "heading": 3,
+    "required_cells": 40,
+    "odd_cells": 32
+  },
+  "tail_phase": 0,
+  "remote_c_never_read": true,
+  "statistics": {
+    "finite_read_constraints": 11129,
+    "periodic_read_constraints": 163,
+    "affine_guards": 12268,
+    "excluded_isolated_equalities": 81266677
+  },
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        0,
+        50990
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            29
+          ],
+          [
+            0,
+            0,
+            51
+          ]
+        ],
+        0
+      ]
+    },
+    {
+      "segment": 1,
+      "time": [
+        0,
+        104,
+        72206
+      ],
+      "pose": [
+        [
+          [
+            0,
+            2,
+            437
+          ],
+          [
+            0,
+            2,
+            459
+          ]
+        ],
+        0
+      ]
+    },
+    {
+      "segment": 2,
+      "time": [
+        0,
+        104,
+        123293
+      ],
+      "pose": [
+        [
+          [
+            0,
+            2,
+            397
+          ],
+          [
+            0,
+            2,
+            494
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 3,
+      "time": [
+        0,
+        208,
+        144197
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -5
+          ],
+          [
+            0,
+            0,
+            92
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 4,
+      "time": [
+        0,
+        208,
+        147310
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -23
+          ],
+          [
+            0,
+            0,
+            75
+          ]
+        ],
+        0
+      ]
+    },
+    {
+      "segment": 5,
+      "time": [
+        0,
+        208,
+        148142
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -39
+          ],
+          [
+            0,
+            0,
+            59
+          ]
+        ],
+        0
+      ]
+    },
+    {
+      "segment": 6,
+      "time": [
+        0,
+        208,
+        157189
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -59
+          ],
+          [
+            0,
+            0,
+            36
+          ]
+        ],
+        3
+      ]
+    }
+  ],
+  "old_template_sha256": "16246ec40cbdd4ad94c35698992582b27a942dc7d539683f1b3684892cd5687d",
+  "new_template_sha256": "7d285f7b0c46c608fc93e4e3cd3f9b95b94f54e12d553c64adb109952f6f9110"
+}

@@ -1,0 +1,161 @@
+{
+  "status": "PASS genuine LL-root post-X must immediately begin a flat RR cap",
+  "proof": "2554859ec7670e287cd1089b34e26127627d3e0fcffaeca0bbc130fb0b9d14de",
+  "mandatory_correction": "09e98e9665f929d612765a19a9e5e130ce2158e8d8d259cad2583d5243b92637",
+  "certificate": "2a0ba830881a0a6ffef53535cafdf064d5d19081c64295cf1942e080c3c1a167",
+  "script": "7e95013642bbbebaa020fd134f389e08fcd78168d75395fc4b8159a75c67a3dd",
+  "dependencies": {
+    "check_cyclic_LL_reactivation_independent.json": "fb74c8a00cfe84266ccbd0b30f8837d8e33eef7de1abf7093f4f56400771c817",
+    "check_mixed_flow2_flat_islands_independent.json": "c4fabac9c366e6536b760af2a52f23d6d24bd5eb53f16f8e1d788b9a8680defe",
+    "check_mixed_LL_gate_independent.json": "441ffa775b9fe212ddcc2312533c0b7feb0c01e4aeac95b89bf229c34edca119",
+    "check_mixed_RR_closure_independent.json": "6a5571ed9cd4a804868b7378ecd3a4f675592e4b200e944cc4c62ff97a8883ac"
+  },
+  "four_cores": [
+    {
+      "R": "NNS",
+      "C": "EEWW",
+      "second_E_arrival_rank": 1,
+      "second_N_departure_rank": 2,
+      "exact_edges": [
+        [
+          "X",
+          3,
+          "B",
+          3
+        ],
+        [
+          "B",
+          3,
+          "C",
+          1
+        ],
+        [
+          "C",
+          2,
+          "R",
+          1
+        ],
+        [
+          "R",
+          1,
+          "X",
+          2
+        ]
+      ],
+      "forced_comparison": "second_N(C)=T2(X)-2<T3(X)<second_E(C)=T3(X)+2",
+      "complete_history_comparison": "second_E(C)<=second_N(C)",
+      "contradiction": true
+    },
+    {
+      "R": "NNS",
+      "C": "EWWE",
+      "second_E_arrival_rank": 3,
+      "second_N_departure_rank": 3,
+      "exact_edges": [
+        [
+          "X",
+          3,
+          "B",
+          3
+        ],
+        [
+          "B",
+          3,
+          "C",
+          3
+        ],
+        [
+          "C",
+          3,
+          "R",
+          1
+        ],
+        [
+          "R",
+          1,
+          "X",
+          2
+        ]
+      ],
+      "forced_comparison": "second_N(C)=T2(X)-2<T3(X)<second_E(C)=T3(X)+2",
+      "complete_history_comparison": "second_E(C)<=second_N(C)",
+      "contradiction": true
+    },
+    {
+      "R": "NNSS",
+      "C": "EEWW",
+      "second_E_arrival_rank": 1,
+      "second_N_departure_rank": 2,
+      "exact_edges": [
+        [
+          "X",
+          3,
+          "B",
+          3
+        ],
+        [
+          "B",
+          3,
+          "C",
+          1
+        ],
+        [
+          "C",
+          2,
+          "R",
+          1
+        ],
+        [
+          "R",
+          1,
+          "X",
+          2
+        ]
+      ],
+      "forced_comparison": "second_N(C)=T2(X)-2<T3(X)<second_E(C)=T3(X)+2",
+      "complete_history_comparison": "second_E(C)<=second_N(C)",
+      "contradiction": true
+    },
+    {
+      "R": "NNSS",
+      "C": "EWWE",
+      "second_E_arrival_rank": 3,
+      "second_N_departure_rank": 3,
+      "exact_edges": [
+        [
+          "X",
+          3,
+          "B",
+          3
+        ],
+        [
+          "B",
+          3,
+          "C",
+          3
+        ],
+        [
+          "C",
+          3,
+          "R",
+          1
+        ],
+        [
+          "R",
+          1,
+          "X",
+          2
+        ]
+      ],
+      "forced_comparison": "second_N(C)=T2(X)-2<T3(X)<second_E(C)=T3(X)+2",
+      "complete_history_comparison": "second_E(C)<=second_N(C)",
+      "contradiction": true
+    }
+  ],
+  "analytic_review": [
+    "The signed six complete cyclic inventories supply R=NNS/NNSS and actual R.L1->X.R2; fixed off-cycle8a controls are not used. If the immediate nextB wereLEFT, incomingflow2 plus critical flat-island gate excludes crossingO/U afterX, leaving passiveNNSS. If nextC wereLEFT, the signed mixedLL rows with flat precedingRIGHT requireY, contrarytoX. ThusC isRIGHT incomingE.",
+    "Complete physical ports B->C have exactlytwoE arrivals, C->R exactlytwoN departures. Exhausting every complete1..4 E-axis history with actualRIGHTfirstE and nooneuse selectedoutflow yields onlyEEWW/EWWE. This is not a guessed exterior reader or assumedfirstreturn.",
+    "All four actual ordinal cores are reconstructed independently. CORRECTED X3->B3 and B3->C.Esecond give Esecond=X3+2; C.Nsecond->R1->X2 puts Nsecond=X2-2, strictlybeforeX3. Both retained complete histories requireEsecond<=Nsecond, contradiction. Full-drift aliases cannot alter physical consecutive ordinal edges or strict rank order.",
+    "Therefore actual successor ofX isRIGHT, and signed generalRR forces it flat. Root-to-firstX injection is only cyclic predecessor uniqueness; a cap can precede another root. No additional curvature deficit, owner injection, loop deletion, fuel or generalfront exclusion follows. Main criticalGLOBALM/completeWHITEcap4/nooneuse scope retained."
+  ]
+}

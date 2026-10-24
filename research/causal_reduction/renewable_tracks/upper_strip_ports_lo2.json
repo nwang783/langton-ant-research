@@ -1,0 +1,87 @@
+{
+  "lo": 2,
+  "ports": [
+    -3,
+    -1,
+    1,
+    3,
+    5,
+    7
+  ],
+  "states": 431,
+  "edges": 969,
+  "status": "COUNTEREXAMPLE",
+  "chain": [
+    {
+      "port": [
+        -1,
+        2,
+        0
+      ],
+      "word": "RR",
+      "exit": [
+        0,
+        1,
+        2
+      ],
+      "output": 24
+    },
+    {
+      "port": [
+        3,
+        2,
+        0
+      ],
+      "word": "RR",
+      "exit": [
+        4,
+        1,
+        2
+      ],
+      "output": 408
+    },
+    {
+      "port": [
+        3,
+        2,
+        0
+      ],
+      "word": "LRRRRL",
+      "exit": [
+        2,
+        1,
+        2
+      ],
+      "output": 1573272
+    },
+    {
+      "port": [
+        3,
+        2,
+        0
+      ],
+      "word": "LRLRRRRLRL",
+      "exit": [
+        0,
+        1,
+        2
+      ],
+      "output": 6444024168
+    },
+    {
+      "port": [
+        1,
+        2,
+        0
+      ],
+      "word": "LRRRRL",
+      "exit": [
+        0,
+        1,
+        2
+      ],
+      "output": 6444417384
+    }
+  ],
+  "seconds": 0.003383636474609375
+}

@@ -1,0 +1,1005 @@
+{
+  "status": "PASS critical LL endpoint catalog with one-use allowed, and necessary even portal calendar",
+  "files": {
+    "critical_LL_catalog_with_one_use_even_portals.md": "a93b53b9e97c40699e0445e3fd6c778fc9d91d01706d922c1085a41f878bdd4f",
+    "check_critical_LL_one_use_endpoint_catalog.py": "96bda5270cb8ddac31a0cc7df21755dfcccf179940d9864bd4c296f4c1714157",
+    "check_critical_LL_one_use_endpoint_catalog.json": "6bf048a39f4570a468ca91dbc8a2d64ee87c0087c3e07713c613dc59b9875e87",
+    "check_even_one_use_LL_portal_calendar.py": "90379e00e526bc7e1befe192451a6fa84cbafb0ee54fed7a269d877cc0d474b8",
+    "check_even_one_use_LL_portal_calendar.json": "193d98cb9083732080fa7f1c0b5965278289c0c9376f110918de8d7f5f338e45"
+  },
+  "script": "749738d39c438328ee9fc8763590ad38f2d1342e442e34393ae5692ce61603f9",
+  "complete_B_domain": [
+    "SN",
+    "SNN",
+    "SSS",
+    "SNNS",
+    "SSNN",
+    "SSSS"
+  ],
+  "complete_A_domain": [
+    "EE",
+    "EEW",
+    "EWE",
+    "EEWW",
+    "EWEW",
+    "EWWE"
+  ],
+  "counts": {
+    "open": 24,
+    "skipped_rank": 18,
+    "port": 66
+  },
+  "all_rank_witnesses": [
+    {
+      "B": "SN",
+      "A": "EE",
+      "Y": "EEWW",
+      "path": [
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          3
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "B": "SNN",
+      "A": "EEW",
+      "Y": "EEWW",
+      "path": [
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          3
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "B": "SNN",
+      "A": "EEWW",
+      "Y": "EEWW",
+      "path": [
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          3
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "B": "SNN",
+      "A": "EWWE",
+      "Y": "EWW",
+      "path": [
+        [
+          [
+            1,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "B": "SNN",
+      "A": "EWWE",
+      "Y": "EWWE",
+      "path": [
+        [
+          [
+            1,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "B": "SNNS",
+      "A": "EEW",
+      "Y": "EEWW",
+      "path": [
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          3
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "B": "SNNS",
+      "A": "EEWW",
+      "Y": "EEWW",
+      "path": [
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          3
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "B": "SNNS",
+      "A": "EWWE",
+      "Y": "EWW",
+      "path": [
+        [
+          [
+            1,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "B": "SNNS",
+      "A": "EWWE",
+      "Y": "EWWE",
+      "path": [
+        [
+          [
+            1,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "B": "SSNN",
+      "A": "EEW",
+      "Y": "EWW",
+      "path": [
+        [
+          [
+            1,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "B": "SSNN",
+      "A": "EEW",
+      "Y": "EWWE",
+      "path": [
+        [
+          [
+            1,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "B": "SSNN",
+      "A": "EEW",
+      "Y": "EEWW",
+      "path": [
+        [
+          [
+            1,
+            1
+          ],
+          3
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          3
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "B": "SSNN",
+      "A": "EEWW",
+      "Y": "EWW",
+      "path": [
+        [
+          [
+            1,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "B": "SSNN",
+      "A": "EEWW",
+      "Y": "EWWE",
+      "path": [
+        [
+          [
+            1,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "B": "SSNN",
+      "A": "EEWW",
+      "Y": "EEWW",
+      "path": [
+        [
+          [
+            1,
+            1
+          ],
+          3
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          3
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "B": "SSNN",
+      "A": "EWWE",
+      "Y": "EWW",
+      "path": [
+        [
+          [
+            1,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          3
+        ]
+      ]
+    },
+    {
+      "B": "SSNN",
+      "A": "EWWE",
+      "Y": "EWWE",
+      "path": [
+        [
+          [
+            1,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          3
+        ]
+      ]
+    },
+    {
+      "B": "SSNN",
+      "A": "EWWE",
+      "Y": "EEWW",
+      "path": [
+        [
+          [
+            1,
+            1
+          ],
+          3
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          3
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          3
+        ]
+      ]
+    }
+  ],
+  "critical_remaining": [
+    {
+      "B": "SN",
+      "A": "EE",
+      "Y": "EWW",
+      "Z": "NNSS"
+    },
+    {
+      "B": "SN",
+      "A": "EE",
+      "Y": "EWWE",
+      "Z": "NNSS"
+    },
+    {
+      "B": "SNN",
+      "A": "EEW",
+      "Y": "EWW",
+      "Z": "NNSS"
+    },
+    {
+      "B": "SNN",
+      "A": "EEW",
+      "Y": "EWWE",
+      "Z": "NNSS"
+    },
+    {
+      "B": "SNN",
+      "A": "EEWW",
+      "Y": "EWW",
+      "Z": "NNSS"
+    },
+    {
+      "B": "SNN",
+      "A": "EEWW",
+      "Y": "EWWE",
+      "Z": "NNSS"
+    },
+    {
+      "B": "SNN",
+      "A": "EWWE",
+      "Y": "EEWW",
+      "Z": "NNSS"
+    },
+    {
+      "B": "SSS",
+      "A": "EWE",
+      "Y": "EEWW",
+      "Z": "NNSS"
+    },
+    {
+      "B": "SSS",
+      "A": "EWEW",
+      "Y": "EEWW",
+      "Z": "NNSS"
+    },
+    {
+      "B": "SNNS",
+      "A": "EEW",
+      "Y": "EWW",
+      "Z": "NNSS"
+    },
+    {
+      "B": "SNNS",
+      "A": "EEW",
+      "Y": "EWWE",
+      "Z": "NNSS"
+    },
+    {
+      "B": "SNNS",
+      "A": "EEWW",
+      "Y": "EWW",
+      "Z": "NNSS"
+    },
+    {
+      "B": "SNNS",
+      "A": "EEWW",
+      "Y": "EWWE",
+      "Z": "NNSS"
+    },
+    {
+      "B": "SNNS",
+      "A": "EWWE",
+      "Y": "EEWW",
+      "Z": "NNSS"
+    },
+    {
+      "B": "SSSS",
+      "A": "EWE",
+      "Y": "EEWW",
+      "Z": "NNSS"
+    },
+    {
+      "B": "SSSS",
+      "A": "EWEW",
+      "Y": "EEWW",
+      "Z": "NNSS"
+    }
+  ],
+  "portal_components": [
+    [
+      [
+        [
+          0,
+          0
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          0
+        ],
+        0
+      ]
+    ],
+    [
+      [
+        [
+          0,
+          0
+        ],
+        1
+      ]
+    ],
+    [
+      [
+        [
+          0,
+          1
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        2
+      ]
+    ],
+    [
+      [
+        [
+          0,
+          1
+        ],
+        3
+      ]
+    ],
+    [
+      [
+        [
+          1,
+          1
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        3
+      ],
+      [
+        [
+          1,
+          0
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        2
+      ]
+    ]
+  ],
+  "portal_calendar": {
+    "((0, 0), 0)": -36,
+    "((1, 0), 0)": -35,
+    "((0, 0), 1)": 32,
+    "((0, 1), 0)": 99,
+    "((0, 0), 2)": 100,
+    "((1, 1), 0)": 166,
+    "((0, 1), 1)": 167,
+    "((0, 0), 3)": 168,
+    "((1, 0), 1)": 169,
+    "((1, 1), 1)": 170,
+    "((0, 1), 2)": 171,
+    "((0, 1), 3)": 235
+  },
+  "analytic_review": [
+    "Critical last-LEFT passiveV theorem has no no-one-use premise; it fixesZ only. All cap4RIGHT endpoints are independently count-derived, including two-read one-use sources/sinks, not assumed singletons.",
+    "For high4 predecessorSSSS, the only physical four-output supplier is RIGHT EWEW, so general mixedRR forces the adjoining LEFT passive orflow1, not O/U. For odd sinkSSS, a RIGHT predecessor yields the same RR gate, including1to3 sources; a LEFT predecessor mustEWWW. Exact w0\u2192q0\u2192Y1 andw3\u2192q2\u2192Y2 give T1w>=T1Y+2,T2w<=T2Y-6, impossible for critical same-physical disjoint return intervals. No upstream one-use edge changes those actual strands.",
+    "Only high-sink rejection transfers; the old conclusion predecessorFLAT doesNOT. Remaining sourcesSN/SNN are retained. All16 rows are necessary local interfaces, with unfilled exterior and full-quotient alias constraints not silently solved.",
+    "The12-event all-even control preserves both earlierR0s, allL3s, zero ports and five event-disjoint whole successor components with injective mod4 clocks. It is not an actual factor by itself and supplies no odd/fuel charge."
+  ],
+  "scope": "Complete WHITE cap4 actual critical constant-selected-C b-circle; one-use edges allowed. No global attraction, wholly single-used boundary, attained front or new controller claim."
+}

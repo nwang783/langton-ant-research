@@ -1,0 +1,135 @@
+{
+  "status": "PASS literal prepared F84/F85 LL-drop factors with mandatory count/scope qualifier, not full fronts",
+  "files": {
+    "prepared_F84_F85_realize_the_one_use_LL_drop.md": "744df9cb1a5691a4a691fd94e07ea55a6acd603c29e033d4dc674e7822baa291",
+    "prepared_F84_F85_mandatory_count_and_scope_qualifier.md": "41379bcf9a5819dee8dee031c01fb38f3cc99ac82924d973753923c8fea55c68",
+    "check_prepared_F84_F85_LL_drop.py": "61556df0bb2ca70876d6c1cd222f36ca05fc164081c6bce06804dc648b8e2877",
+    "check_prepared_F84_F85_LL_drop.json": "efb23df8e27faad6c21d5348547818ad5b025a5a9105032eb5e9fb07519c2be1"
+  },
+  "script": "46d115a0ea7ced754abd85fd37301b4131af9441360db64c85d03806957177d5",
+  "controls": [
+    {
+      "name": "F84",
+      "reads": 84,
+      "mass": [
+        20,
+        36
+      ],
+      "cells": 58,
+      "target_owned_R_L": [
+        [
+          [
+            1,
+            1
+          ],
+          0,
+          4
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          5,
+          9
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          6,
+          18
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          7,
+          19
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          22,
+          82
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          43,
+          83
+        ]
+      ]
+    },
+    {
+      "name": "F85",
+      "reads": 85,
+      "mass": [
+        21,
+        36
+      ],
+      "cells": 58,
+      "target_owned_R_L": [
+        [
+          [
+            1,
+            1
+          ],
+          1,
+          5
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          6,
+          10
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          7,
+          19
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          8,
+          20
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          23,
+          83
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          44,
+          84
+        ]
+      ]
+    }
+  ],
+  "analytic_review": [
+    "Every84/85 read is independentlyreplayed from the ENTIRE prelaid20/21-cellseed; everyfullbefore/afterboard and physicalpose matches. No discoverylazyseed snapshots are used. Exact58physicalcells, maxfactor4,50R/34or35L,final36cells andsameendpoint1,-1,S are confirmed.",
+    "Allfour namedtargetcells startWHITE and have exactlythe13 displayedfactorreads; each targetL has an actual earlierinternalR owner. Allthree selectedphysicaldirectededges occuronce. F85 supplieseverytargetR0 througharealpreviousedge, but its initialoutsideL is explicitlyBLACK-first.",
+    "F84endpointBLACK forbids its immediateR-startrepeat. SamefinalF84/F85field doesnotmean start=endfield, full-drift classcompletion, GLOBALM, essentialb-circle, fullfuture or autonomousregeneration. The mandatoryqualifier corrects62to58 and disclaims the unsupportedatomic-bud implication. This is only actualfinitepreparedrealization of the retainedlocalLLescape."
+  ]
+}

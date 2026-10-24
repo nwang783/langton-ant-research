@@ -1,0 +1,27 @@
+{
+  "scope": "Constructive router for ONE fixed nine-cell late-L3 target.\nNot a front/period/radius scan. Fresh connector paths are chosen around the\ncurrent finite obstacle hull; failure is a router restriction, not a theorem.\nAll board colors and known middle ranks are retained. Prepared input explicit.\n",
+  "success": false,
+  "all_attempts": [
+    {
+      "initial": [
+        [
+          2,
+          1
+        ],
+        "W"
+      ],
+      "success": false,
+      "nodes": 1761,
+      "best_known_reads": 20,
+      "failures": {
+        "no_connector_or_forced_conflict": 3172
+      }
+    }
+  ],
+  "planner_nodes": 1761,
+  "best_known_reads": 20,
+  "failures": {
+    "no_connector_or_forced_conflict": 3172
+  },
+  "seconds": 1.6945602893829346
+}

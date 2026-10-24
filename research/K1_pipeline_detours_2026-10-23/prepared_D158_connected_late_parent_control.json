@@ -1,0 +1,2176 @@
+{
+  "scope": "Replay one literal prepared connected cap-four late-parent control.\nFinite factor only. All sixteen designated cells start WHITE and are read four times.\nThe 37 prepared black exterior cells are explicit fuel, not renewable WHITE input.\n",
+  "initial_pose": {
+    "cell": [
+      1,
+      0
+    ],
+    "incoming": "N"
+  },
+  "end_pose": {
+    "cell": [
+      -2,
+      3
+    ],
+    "incoming": "N"
+  },
+  "length": 158,
+  "prepared_black": [
+    [
+      -5,
+      2
+    ],
+    [
+      -5,
+      3
+    ],
+    [
+      -5,
+      4
+    ],
+    [
+      -5,
+      5
+    ],
+    [
+      -4,
+      1
+    ],
+    [
+      -4,
+      4
+    ],
+    [
+      -4,
+      6
+    ],
+    [
+      -3,
+      0
+    ],
+    [
+      -3,
+      1
+    ],
+    [
+      -3,
+      2
+    ],
+    [
+      -3,
+      3
+    ],
+    [
+      -3,
+      5
+    ],
+    [
+      -3,
+      6
+    ],
+    [
+      -2,
+      -1
+    ],
+    [
+      -2,
+      3
+    ],
+    [
+      -2,
+      5
+    ],
+    [
+      -2,
+      6
+    ],
+    [
+      -1,
+      -2
+    ],
+    [
+      -1,
+      3
+    ],
+    [
+      -1,
+      4
+    ],
+    [
+      -1,
+      5
+    ],
+    [
+      -1,
+      6
+    ],
+    [
+      0,
+      -2
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      -1
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "initial_black_count": 37,
+  "final_black_count": 25,
+  "read_turn_counts": {
+    "R": 73,
+    "L": 85
+  },
+  "visited_cells": 73,
+  "maximum_reads": 4,
+  "visit_spectrum": {
+    "4": 17,
+    "3": 7,
+    "2": 20,
+    "1": 29
+  },
+  "known_headings": {
+    "(1, 0)": "NNSN",
+    "(0, 0)": "WWEW",
+    "(0, 1)": "NSSS",
+    "(1, 1)": "EEWE",
+    "(0, -1)": "SSSN",
+    "(-1, -1)": "WWWE",
+    "(-1, 0)": "NNSN",
+    "(-2, 0)": "WWWE",
+    "(-2, 1)": "NNNS",
+    "(-1, 1)": "EEWE",
+    "(-1, 2)": "NNNS",
+    "(0, 2)": "EWEE",
+    "(1, 2)": "NNNS",
+    "(2, 2)": "EEEW",
+    "(2, 1)": "SSNS",
+    "(-2, 2)": "WEEE"
+  },
+  "known_read_times": {
+    "(1, 0)": [
+      0,
+      4,
+      8,
+      16
+    ],
+    "(0, 0)": [
+      5,
+      9,
+      13,
+      17
+    ],
+    "(0, 1)": [
+      6,
+      42,
+      50,
+      82
+    ],
+    "(1, 1)": [
+      7,
+      43,
+      47,
+      83
+    ],
+    "(0, -1)": [
+      10,
+      14,
+      18,
+      22
+    ],
+    "(-1, -1)": [
+      11,
+      19,
+      23,
+      31
+    ],
+    "(-1, 0)": [
+      12,
+      24,
+      28,
+      32
+    ],
+    "(-2, 0)": [
+      25,
+      29,
+      33,
+      37
+    ],
+    "(-2, 1)": [
+      26,
+      34,
+      38,
+      78
+    ],
+    "(-1, 1)": [
+      27,
+      39,
+      51,
+      79
+    ],
+    "(-1, 2)": [
+      40,
+      52,
+      80,
+      124
+    ],
+    "(0, 2)": [
+      41,
+      49,
+      81,
+      125
+    ],
+    "(1, 2)": [
+      44,
+      48,
+      84,
+      88
+    ],
+    "(2, 2)": [
+      45,
+      85,
+      89,
+      105
+    ],
+    "(2, 1)": [
+      46,
+      90,
+      98,
+      106
+    ],
+    "(-2, 2)": [
+      53,
+      57,
+      77,
+      157
+    ]
+  },
+  "face_lower_left": {
+    "D": [
+      0,
+      0
+    ],
+    "J": [
+      -1,
+      -1
+    ],
+    "P0": [
+      -2,
+      0
+    ],
+    "I": [
+      -1,
+      1
+    ],
+    "G": [
+      1,
+      1
+    ]
+  },
+  "first_boundary_times": {
+    "D": 4,
+    "J": 9,
+    "P0": 24,
+    "I": 39,
+    "G": 43
+  },
+  "boundary_first_departures": {
+    "D": [
+      {
+        "cell": [
+          1,
+          0
+        ],
+        "direction": "W",
+        "first": 4
+      },
+      {
+        "cell": [
+          0,
+          0
+        ],
+        "direction": "N",
+        "first": 5
+      },
+      {
+        "cell": [
+          0,
+          1
+        ],
+        "direction": "E",
+        "first": 6
+      },
+      {
+        "cell": [
+          1,
+          1
+        ],
+        "direction": "S",
+        "first": 7
+      }
+    ],
+    "J": [
+      {
+        "cell": [
+          0,
+          -1
+        ],
+        "direction": "W",
+        "first": 10
+      },
+      {
+        "cell": [
+          -1,
+          -1
+        ],
+        "direction": "N",
+        "first": 11
+      },
+      {
+        "cell": [
+          -1,
+          0
+        ],
+        "direction": "E",
+        "first": 12
+      },
+      {
+        "cell": [
+          0,
+          0
+        ],
+        "direction": "S",
+        "first": 9
+      }
+    ],
+    "P0": [
+      {
+        "cell": [
+          -1,
+          0
+        ],
+        "direction": "W",
+        "first": 24
+      },
+      {
+        "cell": [
+          -2,
+          0
+        ],
+        "direction": "N",
+        "first": 25
+      },
+      {
+        "cell": [
+          -2,
+          1
+        ],
+        "direction": "E",
+        "first": 26
+      },
+      {
+        "cell": [
+          -1,
+          1
+        ],
+        "direction": "S",
+        "first": 27
+      }
+    ],
+    "I": [
+      {
+        "cell": [
+          0,
+          1
+        ],
+        "direction": "W",
+        "first": 50
+      },
+      {
+        "cell": [
+          -1,
+          1
+        ],
+        "direction": "N",
+        "first": 39
+      },
+      {
+        "cell": [
+          -1,
+          2
+        ],
+        "direction": "E",
+        "first": 40
+      },
+      {
+        "cell": [
+          0,
+          2
+        ],
+        "direction": "S",
+        "first": 41
+      }
+    ],
+    "G": [
+      {
+        "cell": [
+          2,
+          1
+        ],
+        "direction": "W",
+        "first": 46
+      },
+      {
+        "cell": [
+          1,
+          1
+        ],
+        "direction": "N",
+        "first": 43
+      },
+      {
+        "cell": [
+          1,
+          2
+        ],
+        "direction": "E",
+        "first": 44
+      },
+      {
+        "cell": [
+          2,
+          2
+        ],
+        "direction": "S",
+        "first": 45
+      }
+    ]
+  },
+  "word": "RRRRLRRRRLRRRRLLLLRLLLLRLRRRRLLLLRLLLLRLRRLLRRRRLLRRLRLLLLRLLRLLRLRLLRLRRRRLRRLLRRLLRLLLLRLRRLLLLRRLRRRRLLLLRLLRLLRRLRLLRLLRLLRLRRLLRLLRLLRRLLRRLLRRLLRLLRLRLL",
+  "trace": [
+    {
+      "time": 0,
+      "cell": [
+        1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "time": 1,
+      "cell": [
+        2,
+        0
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "time": 2,
+      "cell": [
+        2,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "time": 3,
+      "cell": [
+        1,
+        -1
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "time": 4,
+      "cell": [
+        1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 5,
+      "cell": [
+        0,
+        0
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "time": 6,
+      "cell": [
+        0,
+        1
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "time": 7,
+      "cell": [
+        1,
+        1
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "time": 8,
+      "cell": [
+        1,
+        0
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "time": 9,
+      "cell": [
+        0,
+        0
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 10,
+      "cell": [
+        0,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "time": 11,
+      "cell": [
+        -1,
+        -1
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "time": 12,
+      "cell": [
+        -1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "time": 13,
+      "cell": [
+        0,
+        0
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "time": 14,
+      "cell": [
+        0,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "time": 15,
+      "cell": [
+        1,
+        -1
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "time": 16,
+      "cell": [
+        1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 17,
+      "cell": [
+        0,
+        0
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 18,
+      "cell": [
+        0,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "time": 19,
+      "cell": [
+        -1,
+        -1
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 20,
+      "cell": [
+        -1,
+        -2
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "time": 21,
+      "cell": [
+        0,
+        -2
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "time": 22,
+      "cell": [
+        0,
+        -1
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 23,
+      "cell": [
+        -1,
+        -1
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "time": 24,
+      "cell": [
+        -1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 25,
+      "cell": [
+        -2,
+        0
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "time": 26,
+      "cell": [
+        -2,
+        1
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "time": 27,
+      "cell": [
+        -1,
+        1
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "time": 28,
+      "cell": [
+        -1,
+        0
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "time": 29,
+      "cell": [
+        -2,
+        0
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 30,
+      "cell": [
+        -2,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "time": 31,
+      "cell": [
+        -1,
+        -1
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "time": 32,
+      "cell": [
+        -1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 33,
+      "cell": [
+        -2,
+        0
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "time": 34,
+      "cell": [
+        -2,
+        1
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 35,
+      "cell": [
+        -3,
+        1
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 36,
+      "cell": [
+        -3,
+        0
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "time": 37,
+      "cell": [
+        -2,
+        0
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "time": 38,
+      "cell": [
+        -2,
+        1
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "time": 39,
+      "cell": [
+        -1,
+        1
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "time": 40,
+      "cell": [
+        -1,
+        2
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "time": 41,
+      "cell": [
+        0,
+        2
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "time": 42,
+      "cell": [
+        0,
+        1
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "time": 43,
+      "cell": [
+        1,
+        1
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "time": 44,
+      "cell": [
+        1,
+        2
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "time": 45,
+      "cell": [
+        2,
+        2
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "time": 46,
+      "cell": [
+        2,
+        1
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "time": 47,
+      "cell": [
+        1,
+        1
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "time": 48,
+      "cell": [
+        1,
+        2
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 49,
+      "cell": [
+        0,
+        2
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 50,
+      "cell": [
+        0,
+        1
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "time": 51,
+      "cell": [
+        -1,
+        1
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "time": 52,
+      "cell": [
+        -1,
+        2
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 53,
+      "cell": [
+        -2,
+        2
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "time": 54,
+      "cell": [
+        -2,
+        3
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 55,
+      "cell": [
+        -3,
+        3
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 56,
+      "cell": [
+        -3,
+        2
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "time": 57,
+      "cell": [
+        -2,
+        2
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "time": 58,
+      "cell": [
+        -2,
+        3
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "time": 59,
+      "cell": [
+        -1,
+        3
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "time": 60,
+      "cell": [
+        -1,
+        4
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 61,
+      "cell": [
+        -2,
+        4
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "time": 62,
+      "cell": [
+        -2,
+        5
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 63,
+      "cell": [
+        -3,
+        5
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 64,
+      "cell": [
+        -3,
+        4
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "time": 65,
+      "cell": [
+        -4,
+        4
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 66,
+      "cell": [
+        -4,
+        3
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "time": 67,
+      "cell": [
+        -5,
+        3
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 68,
+      "cell": [
+        -5,
+        2
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "time": 69,
+      "cell": [
+        -4,
+        2
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "time": 70,
+      "cell": [
+        -4,
+        1
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "time": 71,
+      "cell": [
+        -3,
+        1
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "time": 72,
+      "cell": [
+        -3,
+        0
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "time": 73,
+      "cell": [
+        -4,
+        0
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "time": 74,
+      "cell": [
+        -4,
+        1
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "time": 75,
+      "cell": [
+        -3,
+        1
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "time": 76,
+      "cell": [
+        -3,
+        2
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "time": 77,
+      "cell": [
+        -2,
+        2
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "time": 78,
+      "cell": [
+        -2,
+        1
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "time": 79,
+      "cell": [
+        -1,
+        1
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "time": 80,
+      "cell": [
+        -1,
+        2
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "time": 81,
+      "cell": [
+        0,
+        2
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "time": 82,
+      "cell": [
+        0,
+        1
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "time": 83,
+      "cell": [
+        1,
+        1
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "time": 84,
+      "cell": [
+        1,
+        2
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "time": 85,
+      "cell": [
+        2,
+        2
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "time": 86,
+      "cell": [
+        2,
+        3
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 87,
+      "cell": [
+        1,
+        3
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 88,
+      "cell": [
+        1,
+        2
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "time": 89,
+      "cell": [
+        2,
+        2
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "time": 90,
+      "cell": [
+        2,
+        1
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "time": 91,
+      "cell": [
+        3,
+        1
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "time": 92,
+      "cell": [
+        3,
+        0
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "time": 93,
+      "cell": [
+        2,
+        0
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 94,
+      "cell": [
+        2,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "time": 95,
+      "cell": [
+        3,
+        -1
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "time": 96,
+      "cell": [
+        3,
+        0
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 97,
+      "cell": [
+        2,
+        0
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "time": 98,
+      "cell": [
+        2,
+        1
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "time": 99,
+      "cell": [
+        3,
+        1
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "time": 100,
+      "cell": [
+        3,
+        2
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "time": 101,
+      "cell": [
+        4,
+        2
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "time": 102,
+      "cell": [
+        4,
+        1
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "time": 103,
+      "cell": [
+        3,
+        1
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "time": 104,
+      "cell": [
+        3,
+        2
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 105,
+      "cell": [
+        2,
+        2
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 106,
+      "cell": [
+        2,
+        1
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "time": 107,
+      "cell": [
+        3,
+        1
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "time": 108,
+      "cell": [
+        3,
+        2
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "time": 109,
+      "cell": [
+        4,
+        2
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "time": 110,
+      "cell": [
+        4,
+        3
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 111,
+      "cell": [
+        3,
+        3
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "time": 112,
+      "cell": [
+        3,
+        4
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 113,
+      "cell": [
+        2,
+        4
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 114,
+      "cell": [
+        2,
+        3
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "time": 115,
+      "cell": [
+        1,
+        3
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "time": 116,
+      "cell": [
+        1,
+        4
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 117,
+      "cell": [
+        0,
+        4
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "time": 118,
+      "cell": [
+        0,
+        5
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 119,
+      "cell": [
+        -1,
+        5
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 120,
+      "cell": [
+        -1,
+        4
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "time": 121,
+      "cell": [
+        -2,
+        4
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 122,
+      "cell": [
+        -2,
+        3
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "time": 123,
+      "cell": [
+        -1,
+        3
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "time": 124,
+      "cell": [
+        -1,
+        2
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "time": 125,
+      "cell": [
+        0,
+        2
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "time": 126,
+      "cell": [
+        0,
+        3
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "time": 127,
+      "cell": [
+        1,
+        3
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "time": 128,
+      "cell": [
+        1,
+        4
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "time": 129,
+      "cell": [
+        2,
+        4
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "time": 130,
+      "cell": [
+        2,
+        3
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "time": 131,
+      "cell": [
+        3,
+        3
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "time": 132,
+      "cell": [
+        3,
+        4
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "time": 133,
+      "cell": [
+        4,
+        4
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "time": 134,
+      "cell": [
+        4,
+        5
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 135,
+      "cell": [
+        3,
+        5
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "time": 136,
+      "cell": [
+        3,
+        6
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 137,
+      "cell": [
+        2,
+        6
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 138,
+      "cell": [
+        2,
+        5
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "time": 139,
+      "cell": [
+        1,
+        5
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "time": 140,
+      "cell": [
+        1,
+        6
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 141,
+      "cell": [
+        0,
+        6
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 142,
+      "cell": [
+        0,
+        5
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "time": 143,
+      "cell": [
+        -1,
+        5
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "time": 144,
+      "cell": [
+        -1,
+        6
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 145,
+      "cell": [
+        -2,
+        6
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 146,
+      "cell": [
+        -2,
+        5
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "time": 147,
+      "cell": [
+        -3,
+        5
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "time": 148,
+      "cell": [
+        -3,
+        6
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "time": 149,
+      "cell": [
+        -4,
+        6
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 150,
+      "cell": [
+        -4,
+        5
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "time": 151,
+      "cell": [
+        -5,
+        5
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "time": 152,
+      "cell": [
+        -5,
+        4
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "time": 153,
+      "cell": [
+        -4,
+        4
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "time": 154,
+      "cell": [
+        -4,
+        3
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "time": 155,
+      "cell": [
+        -3,
+        3
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "time": 156,
+      "cell": [
+        -3,
+        2
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "time": 157,
+      "cell": [
+        -2,
+        2
+      ],
+      "incoming": "E",
+      "turn": "L"
+    }
+  ],
+  "complete_finite_headings": {
+    "(1, 0)": "NNSN",
+    "(2, 0)": "EWW",
+    "(2, -1)": "SS",
+    "(1, -1)": "WE",
+    "(0, 0)": "WWEW",
+    "(0, 1)": "NSSS",
+    "(1, 1)": "EEWE",
+    "(0, -1)": "SSSN",
+    "(-1, -1)": "WWWE",
+    "(-1, 0)": "NNSN",
+    "(-1, -2)": "S",
+    "(0, -2)": "E",
+    "(-2, 0)": "WWWE",
+    "(-2, 1)": "NNNS",
+    "(-1, 1)": "EEWE",
+    "(-2, -1)": "S",
+    "(-3, 1)": "WEE",
+    "(-3, 0)": "SS",
+    "(-1, 2)": "NNNS",
+    "(0, 2)": "EWEE",
+    "(1, 2)": "NNNS",
+    "(2, 2)": "EEEW",
+    "(2, 1)": "SSNS",
+    "(-2, 2)": "WEEE",
+    "(-2, 3)": "NNS",
+    "(-3, 3)": "WE",
+    "(-3, 2)": "SNS",
+    "(-1, 3)": "EE",
+    "(-1, 4)": "NS",
+    "(-2, 4)": "WW",
+    "(-2, 5)": "NS",
+    "(-3, 5)": "WW",
+    "(-3, 4)": "S",
+    "(-4, 4)": "WE",
+    "(-4, 3)": "SS",
+    "(-5, 3)": "W",
+    "(-5, 2)": "S",
+    "(-4, 2)": "E",
+    "(-4, 1)": "SN",
+    "(-4, 0)": "W",
+    "(2, 3)": "NSS",
+    "(1, 3)": "WWE",
+    "(3, 1)": "EEWE",
+    "(3, 0)": "SN",
+    "(3, -1)": "E",
+    "(3, 2)": "NNN",
+    "(4, 2)": "EE",
+    "(4, 1)": "S",
+    "(4, 3)": "N",
+    "(3, 3)": "WE",
+    "(3, 4)": "NN",
+    "(2, 4)": "WE",
+    "(1, 4)": "NN",
+    "(0, 4)": "W",
+    "(0, 5)": "NS",
+    "(-1, 5)": "WW",
+    "(0, 3)": "N",
+    "(4, 4)": "E",
+    "(4, 5)": "N",
+    "(3, 5)": "W",
+    "(3, 6)": "N",
+    "(2, 6)": "W",
+    "(2, 5)": "S",
+    "(1, 5)": "W",
+    "(1, 6)": "N",
+    "(0, 6)": "W",
+    "(-1, 6)": "N",
+    "(-2, 6)": "W",
+    "(-3, 6)": "N",
+    "(-4, 6)": "W",
+    "(-4, 5)": "S",
+    "(-5, 5)": "W",
+    "(-5, 4)": "S"
+  },
+  "complete_finite_turns": {
+    "(1, 0)": "RLRL",
+    "(2, 0)": "RLR",
+    "(2, -1)": "RL",
+    "(1, -1)": "RL",
+    "(0, 0)": "RLRL",
+    "(0, 1)": "RLRL",
+    "(1, 1)": "RLRL",
+    "(0, -1)": "RLRL",
+    "(-1, -1)": "RLRL",
+    "(-1, 0)": "RLRL",
+    "(-1, -2)": "L",
+    "(0, -2)": "L",
+    "(-2, 0)": "RLRL",
+    "(-2, 1)": "RLRL",
+    "(-1, 1)": "RLRL",
+    "(-2, -1)": "L",
+    "(-3, 1)": "LRL",
+    "(-3, 0)": "LR",
+    "(-1, 2)": "RLRL",
+    "(0, 2)": "RLRL",
+    "(1, 2)": "RLRL",
+    "(2, 2)": "RLRL",
+    "(2, 1)": "RLRL",
+    "(-2, 2)": "RLRL",
+    "(-2, 3)": "LRL",
+    "(-3, 3)": "LR",
+    "(-3, 2)": "LRL",
+    "(-1, 3)": "LR",
+    "(-1, 4)": "LR",
+    "(-2, 4)": "RL",
+    "(-2, 5)": "LR",
+    "(-3, 5)": "LR",
+    "(-3, 4)": "R",
+    "(-4, 4)": "LR",
+    "(-4, 3)": "RL",
+    "(-5, 3)": "L",
+    "(-5, 2)": "L",
+    "(-4, 2)": "R",
+    "(-4, 1)": "LR",
+    "(-4, 0)": "R",
+    "(2, 3)": "LRL",
+    "(1, 3)": "LRL",
+    "(3, 1)": "RLRL",
+    "(3, 0)": "RL",
+    "(3, -1)": "L",
+    "(3, 2)": "RLR",
+    "(4, 2)": "RL",
+    "(4, 1)": "R",
+    "(4, 3)": "L",
+    "(3, 3)": "RL",
+    "(3, 4)": "LR",
+    "(2, 4)": "LR",
+    "(1, 4)": "LR",
+    "(0, 4)": "R",
+    "(0, 5)": "LR",
+    "(-1, 5)": "LR",
+    "(0, 3)": "R",
+    "(4, 4)": "L",
+    "(4, 5)": "L",
+    "(3, 5)": "R",
+    "(3, 6)": "L",
+    "(2, 6)": "L",
+    "(2, 5)": "R",
+    "(1, 5)": "R",
+    "(1, 6)": "L",
+    "(0, 6)": "L",
+    "(-1, 6)": "L",
+    "(-2, 6)": "L",
+    "(-3, 6)": "L",
+    "(-4, 6)": "L",
+    "(-4, 5)": "R",
+    "(-5, 5)": "L",
+    "(-5, 4)": "L"
+  },
+  "final_black": [
+    [
+      -4,
+      0
+    ],
+    [
+      -4,
+      1
+    ],
+    [
+      -4,
+      2
+    ],
+    [
+      -4,
+      4
+    ],
+    [
+      -4,
+      5
+    ],
+    [
+      -3,
+      0
+    ],
+    [
+      -3,
+      3
+    ],
+    [
+      -3,
+      4
+    ],
+    [
+      -3,
+      5
+    ],
+    [
+      -2,
+      5
+    ],
+    [
+      -1,
+      3
+    ],
+    [
+      -1,
+      4
+    ],
+    [
+      -1,
+      5
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      1
+    ]
+  ]
+}

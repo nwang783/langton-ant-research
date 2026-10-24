@@ -1,0 +1,120 @@
+{
+  "status": "PASS all-cap single-use extremal edge formulas and at-most-one E cycle",
+  "author_note": "5648cb495d0dd7fdcc4c35caed84deea60b0d0dd0149aec77234b99565afc1fe",
+  "first_departure_source": "44302c05565a1320b3793e3f279a6355ce099387f1b2f853bca2046895446c7a",
+  "local_formula_controls": 16380,
+  "triple_right_side_ports": [
+    [
+      0,
+      2,
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      3,
+      2,
+      3,
+      0
+    ],
+    [
+      2,
+      0,
+      3,
+      0,
+      1
+    ],
+    [
+      3,
+      1,
+      0,
+      1,
+      2
+    ]
+  ],
+  "standard_full_drift_controls": [
+    {
+      "period": 104,
+      "rotation": 0,
+      "marked_edges": 5,
+      "cycles": 0
+    },
+    {
+      "period": 104,
+      "rotation": 1,
+      "marked_edges": 5,
+      "cycles": 0
+    },
+    {
+      "period": 104,
+      "rotation": 2,
+      "marked_edges": 5,
+      "cycles": 0
+    },
+    {
+      "period": 104,
+      "rotation": 3,
+      "marked_edges": 5,
+      "cycles": 0
+    },
+    {
+      "period": 208,
+      "rotation": 0,
+      "marked_edges": 10,
+      "cycles": 0
+    },
+    {
+      "period": 208,
+      "rotation": 1,
+      "marked_edges": 10,
+      "cycles": 0
+    },
+    {
+      "period": 208,
+      "rotation": 2,
+      "marked_edges": 10,
+      "cycles": 0
+    },
+    {
+      "period": 208,
+      "rotation": 3,
+      "marked_edges": 10,
+      "cycles": 0
+    },
+    {
+      "period": 312,
+      "rotation": 0,
+      "marked_edges": 15,
+      "cycles": 0
+    },
+    {
+      "period": 312,
+      "rotation": 1,
+      "marked_edges": 15,
+      "cycles": 0
+    },
+    {
+      "period": 312,
+      "rotation": 2,
+      "marked_edges": 15,
+      "cycles": 0
+    },
+    {
+      "period": 312,
+      "rotation": 3,
+      "marked_edges": 15,
+      "cycles": 0
+    }
+  ],
+  "finite_marked_edges": 7312,
+  "finite_boundary_exceptions": 43,
+  "analytic_review": [
+    "In a fixed physical ant sector every cell has one fixed incomingaxis and the perpendicular outgoingaxis. Thus each physical edge is usable in only ONE direction. The first read atsource is its first departure; targetarrival is simultaneously its lastread. Exact physicaledgeordinal matching forces totaluse1. Reverse traversal is not an omitted possibility.",
+    "Two allowed incomingheadings plusalternatingR/L force all-m source A,A,-A,A,-A,... and target A^(m-1),-A (singletonseparate). Comparingformulas gives ONLYsingletonorRLRtriple A,A,-A at any internalE vertex. Boundedformula controls do not supply the all-m argument.",
+    "An Ecycle is an actual firstRdeparturecycle, so signed cap-free theorem makes it embedded essential winding-1. Its incoming cycleheading is targetLAST, outgoing is sourceFIRSTR. Singleton givesRcorner, triple givesLcorner. At triple the two unusedcycleports, eachusedtwice, lie strictly in local RIGHT sector; singletonhasnootherusedports. Unitgrid edges cannot crosscircleexceptatvertices, and physicalusededgegraph is connected as imageofsingleeventorbit.",
+    "Therefore no used support can lie in LEFT component of anyEcircle: a connectingpath would first attach via a forbiddenleftport. Two disjoint orientedessentialwinding-1 circles are linearlyordered on cylinder; each would have to contain the other onitsRIGHT, impossible. Indegree/outdegree<=1 makes distinctEcycles vertexdisjoint; latticequotient remains embedded and axesprevent edgecrossingwithoutvertex. AtmostONE, not guaranteedexistence.",
+    "Cycleell oddoutputclasses are exactlyhalf singleton/halftriple. Alternatingaxes give horizontal=vertical=ell/2, so ell>=2||d||inf and ell/2 congruent eachdriftcoordinate mod2. Atg8, ell<=8 and signedunitdiagonalexclusion removesell2; only4,6,8 conditionalpossibilities. This does not use missinghistoricalwidth10g8exhaustion.",
+    "All outputroots, arbitrary evenhistoriesoffcycle and acyclic/emptyE remainallowed. No all-capclassification, growth8exclusion, positivecontrollerconstruction or eventualcapture follows."
+  ]
+}

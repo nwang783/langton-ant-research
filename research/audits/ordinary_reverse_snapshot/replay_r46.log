@@ -1,0 +1,167 @@
+{"segment": 0, "time": [0, 618], "pose": [[[0, 7], [0, 3]], 2]}
+{"segment": 1, "time": [104, 722], "pose": [[[2, 9], [2, 5]], 2]}
+{"segment": 2, "time": [104, 51845], "pose": [[[2, -25], [2, 42]], 3]}
+{"segment": 3, "time": [208, 51845], "pose": [[[0, -25], [0, 42]], 3]}
+{"segment": 4, "time": [208, 60982], "pose": [[[0, -47], [0, 25]], 0]}
+{
+  "status": "exact all-k complete finite-kernel capture",
+  "phase": 46,
+  "domain": "integer k>=100",
+  "input_old_deposit_count": 42,
+  "second_marker_affine": [
+    [
+      2,
+      14
+    ],
+    [
+      2,
+      13
+    ]
+  ],
+  "second_first_hit": [
+    104,
+    799
+  ],
+  "capture_time": [
+    208,
+    60982
+  ],
+  "capture_pose": [
+    [
+      [
+        0,
+        -47
+      ],
+      [
+        0,
+        25
+      ]
+    ],
+    0
+  ],
+  "tail": {
+    "distinct_required_cells": 44,
+    "odd_read_cells": 36,
+    "drift": [
+      -2,
+      -2
+    ],
+    "heading": 0
+  },
+  "tail_phase": 99,
+  "whole_future_forward_guard": true,
+  "prefix_u_lower": -104,
+  "full_future_u_lower": -104,
+  "tail_z_bounds": null,
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        618
+      ],
+      "pose": [
+        [
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        2
+      ]
+    },
+    {
+      "segment": 1,
+      "time": [
+        104,
+        722
+      ],
+      "pose": [
+        [
+          [
+            2,
+            9
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        2
+      ]
+    },
+    {
+      "segment": 2,
+      "time": [
+        104,
+        51845
+      ],
+      "pose": [
+        [
+          [
+            2,
+            -25
+          ],
+          [
+            2,
+            42
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 3,
+      "time": [
+        208,
+        51845
+      ],
+      "pose": [
+        [
+          [
+            0,
+            -25
+          ],
+          [
+            0,
+            42
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 4,
+      "time": [
+        208,
+        60982
+      ],
+      "pose": [
+        [
+          [
+            0,
+            -47
+          ],
+          [
+            0,
+            25
+          ]
+        ],
+        0
+      ]
+    }
+  ],
+  "source_sha256": "9caee109537263d06036894c52a954b33f88cee68c2d36c3b1d86f01976baca8",
+  "template_sha256": "a7494d2e64919969150881544ee46ed4f620fa1758ada87feed2517d9ee18d48",
+  "statistics": {
+    "finite_read_constraints": 6005,
+    "periodic_read_constraints": 128,
+    "affine_guards": 4450,
+    "excluded_isolated_equalities": 4047589
+  },
+  "scope": "All older canonical deposits are avoided. Arbitrary finite history contained in u<-160 is protected iff whole_future_forward_guard is true; the other cases need a return/endcap condition."
+}

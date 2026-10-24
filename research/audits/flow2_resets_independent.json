@@ -1,0 +1,203 @@
+{
+  "status": "PASS scoped wall, 36-square cover, and conditional critical-level actual same-contact return theorem",
+  "proofs": {
+    "wall": "b019b6d35f033cc38cd1435f6e91f16852b883b744feaa6830d4c5951d91aa1e",
+    "square": "c3f16bb34cbd92235eb6740f82f6b57cce6f809822e7131ff854e1a99775fb02",
+    "critical": "f7297c7b6beaeb864ae3e3827de7f60f7925ca1b8b365177c5a955d34db89f31"
+  },
+  "script_sha256": "5cb9d636d0d07f4a13009188fbdc04250d55598d15423da5b6a04011a24ec80a",
+  "complete_alphabets": {
+    "RIGHT": [
+      "EEWW",
+      "EWWE"
+    ],
+    "LEFT": [
+      "WEE",
+      "WEEW",
+      "WWEE"
+    ]
+  },
+  "local_side_tables": {
+    "EEWW": [
+      [
+        0,
+        "E",
+        "S",
+        "RIGHT",
+        "RIGHT"
+      ],
+      [
+        1,
+        "E",
+        "N",
+        "LEFT",
+        "LEFT"
+      ],
+      [
+        2,
+        "W",
+        "N",
+        "LEFT",
+        "LEFT"
+      ],
+      [
+        3,
+        "W",
+        "S",
+        "LEFT",
+        "LEFT"
+      ]
+    ],
+    "EWWE": [
+      [
+        0,
+        "E",
+        "S",
+        "RIGHT",
+        "RIGHT"
+      ],
+      [
+        1,
+        "W",
+        "S",
+        "LEFT",
+        "LEFT"
+      ],
+      [
+        2,
+        "W",
+        "N",
+        "LEFT",
+        "LEFT"
+      ],
+      [
+        3,
+        "E",
+        "N",
+        "LEFT",
+        "LEFT"
+      ]
+    ],
+    "WEE": [
+      [
+        0,
+        "W",
+        "N",
+        "RIGHT",
+        "RIGHT"
+      ],
+      [
+        1,
+        "E",
+        "N",
+        "RIGHT",
+        "LEFT"
+      ],
+      [
+        2,
+        "E",
+        "S",
+        "LEFT",
+        "RIGHT"
+      ]
+    ],
+    "WWEE": [
+      [
+        0,
+        "W",
+        "N",
+        "RIGHT",
+        "RIGHT"
+      ],
+      [
+        1,
+        "W",
+        "S",
+        "RIGHT",
+        "RIGHT"
+      ],
+      [
+        2,
+        "E",
+        "S",
+        "RIGHT",
+        "RIGHT"
+      ],
+      [
+        3,
+        "E",
+        "N",
+        "LEFT",
+        "LEFT"
+      ]
+    ],
+    "WEEW": [
+      [
+        0,
+        "W",
+        "N",
+        "RIGHT",
+        "RIGHT"
+      ],
+      [
+        1,
+        "E",
+        "N",
+        "RIGHT",
+        "LEFT"
+      ],
+      [
+        2,
+        "E",
+        "S",
+        "LEFT",
+        "RIGHT"
+      ],
+      [
+        3,
+        "W",
+        "S",
+        "RIGHT",
+        "RIGHT"
+      ]
+    ]
+  },
+  "square_counts": {
+    "skipped rank": 21,
+    "open": 3,
+    "positive clock cycle": 12
+  },
+  "square_open_rows": [
+    {
+      "Z": "NNSS",
+      "A": "EEWW",
+      "B": "SNNS",
+      "Y": "EWW"
+    },
+    {
+      "Z": "NNSS",
+      "A": "EEWW",
+      "B": "SNNS",
+      "Y": "EWWE"
+    },
+    {
+      "Z": "NNSS",
+      "A": "EWWE",
+      "B": "SNNS",
+      "Y": "EEWW"
+    }
+  ],
+  "analytic_checks": [
+    "Embedded physical essential b-circle separates the full drift cylinder; every off-circle grid edge and nonlocal chord has one side, and its endpoint exterior port labels agree. Full drift preserves labels; all-V yields two actual successor-invariant nonempty event sets.",
+    "O/U repairs pair right incoming L1 with outgoing R2 and left incoming R2 with outgoing L1. All other physical occurrences and actual pairings retained.",
+    "For winding-minus-one b-circle, geometric RIGHT contains global LEFT. Piecewise stream h-(c-1) gives right homology c-c_right. Positive actual-edge lengths plus positive T2-T1 imply every right circuit has positive integer time winding; no untouched proper actual orbit.",
+    "At c=c_right+1, unique right circuit has winding one and covers every O/U class exactly once. Lifted physical contact sequence gives disjoint ordered intervals T1_i<T2_i<T1_next, repeated by exactly P. This exhausts all crossing events, proving the next actual left excursion returns to the same physical contact, not just quotient class.",
+    "Partial graph only is a star; no full canonical graph, geometric simplicity, bounded age or fuel consequence."
+  ],
+  "not_claimed": [
+    "general one-use",
+    "all constant-flow-two circles excluded",
+    "complete realization of open square profiles",
+    "full exchange graph beta bound"
+  ]
+}

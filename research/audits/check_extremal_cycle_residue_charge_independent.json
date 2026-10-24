@@ -1,0 +1,78 @@
+{
+  "status": "PASS conditional extremal-cycle residue charge and growth-eight restriction",
+  "author_note": "8716dd224fb915b1548d652eb58f3ab0fb9fc658fee98cc20d0315411db4b6f7",
+  "dependencies": {
+    "single_use_report": "9b0906abf802ce84e3ed4175696461e2dd8e90714311226878012ae8ba9a8a55",
+    "signed_residue_source": "bd3e74c5a2a87c4431fe4c777b9eeaa7010e42600ab9eb9bea6198e9ca249db7",
+    "minimal_full_drift": "e6580bdb07dfd6c378c086640f777596ea74d17f4d1a77bc593e22cd312ae3ad"
+  },
+  "geometric_controls_not_ant_fronts": [
+    {
+      "length": 4,
+      "simple_full_drift_geometric_circuits": 24
+    },
+    {
+      "length": 6,
+      "simple_full_drift_geometric_circuits": 56
+    },
+    {
+      "length": 8,
+      "simple_full_drift_geometric_circuits": 120
+    },
+    {
+      "length": 10,
+      "simple_full_drift_geometric_circuits": 288
+    }
+  ],
+  "four_class_parity_matrices": [
+    [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    [
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ]
+  ],
+  "g8_remaining_cycle_drift_length": [
+    [
+      -2,
+      -2,
+      4
+    ],
+    [
+      -2,
+      2,
+      4
+    ],
+    [
+      2,
+      -2,
+      4
+    ],
+    [
+      2,
+      2,
+      4
+    ]
+  ],
+  "analytic_review": [
+    "Every E-cycle vertex has perpendicular incoming/outgoing cycle axes. Thus the actual vertical cycle edges, including quotient seams, match each vertex exactly once; horizontal edges do likewise. Full-drift checker parity is invariant because a+b is even. Every vertical endpoint pair has equal x residue and opposite checker sign, including a=0 where its actual x coordinate is preserved. Horizontal pairs give the y statement. The sums vanish EXACTLY, not merely modulo4.",
+    "The signed full-front residue law applies via the previously signed finite-future-read overlap reproduction bridge. Subtracting the cycle vertex set preserves each nonzero-coordinate 2 mod4 obligation. Each such residue needs at least two residual odd classes, so |O minus cycle|>=2 max(|a|,|b|). The residual set need not itself be a physical wake; no physical-wake exclusion is applied to it.",
+    "The signed embedded winding-minus-one E-circle has ell/2 horizontal and ell/2 vertical edges and full displacement -d, hence ell>=2D. Disjoint residual odd classes give g>=ell+2D>=4D, an actual output partition rather than adding overlapping time bounds.",
+    "At g8, signed minimum full Manhattan drift4 excludes unit diagonal and length2 axes, giving D>=2. The only D<=2 vectors left are the four signed diagonals(2,2). Consequently ell4 and residual size4. Four-bin enumeration verifies only diagonal or off-diagonal population2, checker-pure residual but checker-mixed full wake.",
+    "At most one cycle is already signed, not newly required. E may be empty or acyclic for any remaining drift. No missing width10 exhaustion, unrestricted g>=12 theorem, autonomous-controller classification, or capture statement is used or obtained."
+  ]
+}

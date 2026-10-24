@@ -1,0 +1,70 @@
+{
+  "status": "PASS independent short edge-simple polygon and penultimate local junction controls",
+  "note_sha256": "1527bbd19fa04c9ad92a8a2c97f8e5926b8537ac2e51c40b0a0a1c57dbf0c43f",
+  "orientation_note_sha256": "a2170bdce45e58734901f1ebb215f7ac5f7b58ab26deafe2cac8567a3133ec22",
+  "short_closed_walks": [
+    {
+      "length": 4,
+      "turns": "RRRR",
+      "distinct_vertices": 4,
+      "turn_sum": 4
+    },
+    {
+      "length": 4,
+      "turns": "LLLL",
+      "distinct_vertices": 4,
+      "turn_sum": -4
+    },
+    {
+      "length": 8,
+      "turns": "RRRLRRRL",
+      "distinct_vertices": 7,
+      "turn_sum": 4
+    },
+    {
+      "length": 8,
+      "turns": "RRLRRRLR",
+      "distinct_vertices": 7,
+      "turn_sum": 4
+    },
+    {
+      "length": 8,
+      "turns": "RLRRRLRR",
+      "distinct_vertices": 7,
+      "turn_sum": 4
+    },
+    {
+      "length": 8,
+      "turns": "RLLLRLLL",
+      "distinct_vertices": 7,
+      "turn_sum": -4
+    },
+    {
+      "length": 8,
+      "turns": "LRRRLRRR",
+      "distinct_vertices": 7,
+      "turn_sum": 4
+    },
+    {
+      "length": 8,
+      "turns": "LRLLLRLL",
+      "distinct_vertices": 7,
+      "turn_sum": -4
+    },
+    {
+      "length": 8,
+      "turns": "LLRLLLRL",
+      "distinct_vertices": 7,
+      "turn_sum": -4
+    },
+    {
+      "length": 8,
+      "turns": "LLLRLLLR",
+      "distinct_vertices": 7,
+      "turn_sum": -4
+    }
+  ],
+  "local_rows_checked": 30,
+  "analytic_result": "Every contractible penultimate canonical cycle with a RIGHT turn around a global max face has at least12 edges.",
+  "scope": "Counterclockwise orientation comes from signed high-region connectivity. Counts apply per distinct canonical node, not per renewal."
+}

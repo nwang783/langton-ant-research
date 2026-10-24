@@ -1,0 +1,153 @@
+{
+  "status": "PASS independent enlarged atomic-core historical-observable interface",
+  "manifest_sha256": "51338fa8c7a6ad39116e4ab0fc0d0ac9d162ee435abd284aef34da0ef9defdeb",
+  "literal_rows": 32,
+  "raised_peaks": [
+    [
+      1,
+      1,
+      2,
+      22
+    ],
+    [
+      5,
+      1,
+      6,
+      26
+    ],
+    [
+      6,
+      1,
+      18,
+      26
+    ],
+    [
+      6,
+      2,
+      -8,
+      12
+    ],
+    [
+      8,
+      1,
+      10,
+      30
+    ],
+    [
+      9,
+      1,
+      22,
+      30
+    ],
+    [
+      9,
+      2,
+      -8,
+      12
+    ]
+  ],
+  "old_dangerous": 13,
+  "new_dangerous": 17,
+  "added_rows": [
+    [
+      5,
+      1,
+      26
+    ],
+    [
+      6,
+      1,
+      26
+    ],
+    [
+      8,
+      1,
+      30
+    ],
+    [
+      9,
+      1,
+      30
+    ]
+  ],
+  "activation_weight_minimum": 28,
+  "removed_q_youngest_templates": [
+    {
+      "source": 5,
+      "pose": [
+        -4,
+        -2,
+        0
+      ],
+      "C_age_residue": 0,
+      "youngest_input_mask": 3,
+      "old_source_peak": 10,
+      "atomic_source_peak": 30,
+      "base_exit": [
+        -3,
+        1,
+        0
+      ],
+      "base_exit_core": 30,
+      "excluded_under_enlarged_history": true
+    },
+    {
+      "source": 6,
+      "pose": [
+        -4,
+        -2,
+        0
+      ],
+      "C_age_residue": 0,
+      "youngest_input_mask": 3,
+      "old_source_peak": 22,
+      "atomic_source_peak": 30,
+      "base_exit": [
+        -3,
+        1,
+        0
+      ],
+      "base_exit_core": 30,
+      "excluded_under_enlarged_history": true
+    },
+    {
+      "source": 8,
+      "pose": [
+        -3,
+        -3,
+        0
+      ],
+      "C_age_residue": 0,
+      "youngest_input_mask": 3,
+      "old_source_peak": 10,
+      "atomic_source_peak": 30,
+      "base_exit": [
+        -3,
+        1,
+        0
+      ],
+      "base_exit_core": 30,
+      "excluded_under_enlarged_history": true
+    },
+    {
+      "source": 9,
+      "pose": [
+        -3,
+        -3,
+        0
+      ],
+      "C_age_residue": 0,
+      "youngest_input_mask": 3,
+      "old_source_peak": 22,
+      "atomic_source_peak": 30,
+      "base_exit": [
+        -3,
+        1,
+        0
+      ],
+      "base_exit_core": 30,
+      "excluded_under_enlarged_history": true
+    }
+  ],
+  "scope": "New stronger history only. Four added goal rows reduce by true-marker truncation to base V1/U1; eleven existing exclusions restrict unchanged. Conditional confinement can use this new17-row reduction. Four q-youngest positive-age residue0 templates tie earlier observed atomic core30 and fail ONLY this enlarged U1 premise; twelve templates and q-older remain. Original11of13 ledger and global conjecture remain open."
+}

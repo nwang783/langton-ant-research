@@ -1,0 +1,247 @@
+{
+  "status": "PASS non-axis outer-basin singleton lower bound and exact prepared premise checks; four-output target OPEN",
+  "script": "479d1be21ca00341ca6b3dadfdf033795827ef05e338529e977eab2bd3f00f1d",
+  "bindings": {
+    "OUTERMOST_EXIT_BASIN_OUTPUT_TARGET_AND_EXACT_BOUNDARY.md": "9956058bff409f142ca1e0f3ee4a859cbdc8535d97a7629838d8299cd10e49fe",
+    "certify_outer_exit_component_minimum.py": "4d5f62a5fb98f075e8f36e490df48e549ad12f31f3beb4013be256d13be9ba4b",
+    "outer_exit_component_minimum_certificate.json": "394eec5388245b60faa9dd0f04e17dce8f2de80a3d966fa87b49a6e2a943c7ce"
+  },
+  "complete_control_summaries": [
+    [
+      104,
+      [
+        -2,
+        2
+      ],
+      [
+        [
+          4,
+          0,
+          4,
+          0
+        ],
+        [
+          8,
+          0,
+          -4,
+          3
+        ]
+      ],
+      8
+    ],
+    [
+      1564,
+      [
+        14,
+        14
+      ],
+      [
+        [
+          301,
+          197,
+          0,
+          26
+        ]
+      ],
+      0
+    ],
+    [
+      4352,
+      [
+        26,
+        -26
+      ],
+      [
+        [
+          590,
+          406,
+          0,
+          46
+        ]
+      ],
+      0
+    ],
+    [
+      10,
+      [
+        1,
+        1
+      ],
+      [
+        [
+          1,
+          1,
+          0,
+          0
+        ]
+      ],
+      0
+    ],
+    [
+      80,
+      [
+        4,
+        4
+      ],
+      [
+        [
+          14,
+          2,
+          0,
+          3
+        ]
+      ],
+      0
+    ],
+    [
+      104,
+      [
+        -2,
+        2
+      ],
+      [
+        [
+          4,
+          0,
+          4,
+          0
+        ],
+        [
+          8,
+          0,
+          -4,
+          3
+        ]
+      ],
+      8
+    ],
+    [
+      104,
+      [
+        2,
+        2
+      ],
+      [
+        [
+          4,
+          0,
+          4,
+          0
+        ],
+        [
+          8,
+          0,
+          -4,
+          3
+        ]
+      ],
+      8
+    ],
+    [
+      104,
+      [
+        2,
+        -2
+      ],
+      [
+        [
+          4,
+          0,
+          -12,
+          4
+        ],
+        [
+          8,
+          0,
+          12,
+          -1
+        ]
+      ],
+      8
+    ],
+    [
+      104,
+      [
+        -2,
+        -2
+      ],
+      [
+        [
+          4,
+          0,
+          4,
+          0
+        ],
+        [
+          8,
+          0,
+          -4,
+          3
+        ]
+      ],
+      8
+    ],
+    [
+      104,
+      [
+        -2,
+        2
+      ],
+      [
+        [
+          0,
+          7,
+          13,
+          -5
+        ],
+        [
+          0,
+          5,
+          -13,
+          2
+        ]
+      ],
+      12
+    ]
+  ],
+  "inverse_cap": 13,
+  "inverse_input_rays": 12,
+  "finite_controls": [
+    [
+      1,
+      25,
+      13
+    ],
+    [
+      2,
+      37,
+      13
+    ],
+    [
+      3,
+      49,
+      13
+    ],
+    [
+      5,
+      73,
+      13
+    ]
+  ],
+  "analytic_review": [
+    "Physical full-drift last-spine basins are connected embedded sets. For the lowest spine, n below its minimum is wholly on its negative side; a point at that minimum but not on the spine is also negative, since it has a disjoint neighborhood meeting that half-plane. Every higher basin is connected to a higher spine and cannot cross the lowest spine. Thus every global read-footprint minimum belongs to the lowest basin. This does not require a monotone spine or globally separated normal ranges.",
+    "For non-axis drift, the normal changes nontrivially on each grid axis. At a complete physical read minimum, incoming normal change must be negative and outgoing change positive. The fixed arrival axis permits only one incoming and one outgoing heading, hence one fixed turn. Complete WHITE makes it R, and alternation forbids another visit. Symmetrically each outer basin has at least one permanent singleton. Axis drift is not included.",
+    "Each cross-basin actual departure is strictly before its source last read and therefore has an actual next same-cell opposite read at a positive multiple of four. Full physical lifts give the stated source/target first/last inequalities. Source lifetime owners remain in the source physical read basin, but intervening movement and root excursions need not. No monotonicity or flux cancellation follows.",
+    "All five supplied fronts, four proper standard rotations and the reversed/exchanged standard word independently reconstruct. Standard only-first-arrival crossing31 and only-first-R departure crossing38 have opposite basin directions. Branch-cut Phi is additive and integer accounting gives O_outer congruent Phi mod4 under WHITE; divisibility by four would be sufficient, not equivalent, to the open four-output target.",
+    "The reverse-standard prepared premise check has complete13-cell cap and twelve forward input rays. Every stable class, finite threshold and full one-period field bit relation is independently verified, with empty below-threshold and constant above-threshold tails. All classes end L, so there is no omitted output background. Truncating each input ray after N points agrees on every first-N-copy read and leaves exactly the translated cap: N-copy read lifts never exceed high+N-1, while omitted ray cells begin at high+N. N1 shows every cap bit is actually consumed; the ray farthest-phase first-L witness shows every truncated ray bit is necessary. Thus the all-N13+12N to13 statement is analytic, not extrapolated.",
+    "The exact inverse outer I7/I5,O0, flux residues1/3 shows the WHITE premise matters and is not a WHITE counterexample. The named minimum-cover interface leaves upper cells unknown; it cannot be called a complete one-output basin. In the live middle-short case an eventual four-output theorem would force one basin, not itself exclude the branch. No second-component theorem, universal output minimum beyond singleton, or global attraction is proved."
+  ],
+  "dependencies": {
+    "PHYSICAL_EXIT_COMPONENT_SIGNED_HANDOFF_2003.md": "5bd2dae23a7b8e37387a77e75fab3a092028bcaea6cd8dd8ca0ffcf3bf6cc0d0",
+    "PHYSICAL_EXIT_SPINES_ORDER_COMPONENTS_AND_FLUX_CUTS.md": "82b34f15074a73f857bea4ce0012330f0503be14c6a9b6d187a8701e37dbfdbd",
+    "exit_component_turn_flux_certificate.json": "61a1dd93fb93e79055dffe80aacb8de85febdc9e9ed85f3aba16badb38592ba9",
+    "DRIFT31_UNCONDITIONAL_READ_MINIMUM_INTERFACE.md": "92b5092a879681fc6ff673ea7d3cb8614075562419e4d7b2c38019993004b432",
+    "drift31_read_minimum_certificate.json": "2b0e8cd1343c0e483659f823bcc41b4799f5cfe2316eadb3bb98befe0b043088",
+    "../audits/check_drift31_read_minimum_independent.json": "2bf25e31599a2bc1078988fcc01a4f60bb67a3c88978445dc606aa7502d0f162"
+  }
+}

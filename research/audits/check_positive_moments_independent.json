@@ -1,0 +1,14 @@
+{
+  "status": "PASS positive-moment lower-bound obstruction and frozen negative certificates",
+  "rational_literal_checks": 480,
+  "synthetic_leading_cases": 18,
+  "negative_certificates": 20,
+  "covered_pairs": 10,
+  "independent_leading_method": "Exact shift-operator projection, not generating-function evaluation",
+  "scope": "One-sided finite-support obstruction only; positive divergence or no certificate gives no conclusion. Current implementation validates charge-preserving images although the coefficientwise lower-bound theorem itself does not need charge preservation.",
+  "sha256": {
+    "positive_moments.md": "d5cd7c06352e0f710edf5b94f47a6cb91dac5656b2911eb74c87b0359b2d0d0e",
+    "positive_moments.py": "b64aaafd6fc39bd9d271b78ab249726d172cc406f999900ee4974832d55fe16d",
+    "positive_controls.records.json": "75ce5761d5b5642dd8bde8cb26e72c5e2627c6eb5048aae0d4c462d2bd5dda0f"
+  }
+}

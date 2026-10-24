@@ -1,0 +1,72 @@
+{
+  "status": "PASS finite-support half-turn families via signed GN plus complete independent residual replay",
+  "results": [
+    {
+      "radix": 17,
+      "matrix": [
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      "raw_images": [
+        4704,
+        56
+      ],
+      "legal_images": [
+        534,
+        56
+      ],
+      "alien_images": [
+        0,
+        0
+      ],
+      "vertex_only_pairs": 29904,
+      "residual_cases": 0,
+      "latest_conflict": null,
+      "files": {
+        "inventory.json": "38168e3da0dfcae440b544d8bd4823544e2e22d97f9acd2e26c7685abaed363e",
+        "records.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "result.json": "0b20c64213221bbde9c1ea673a80ad95d9d3c16ce112733b48d93ee994944729"
+      }
+    },
+    {
+      "radix": 21,
+      "matrix": [
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          11
+        ]
+      ],
+      "raw_images": [
+        69300,
+        210
+      ],
+      "legal_images": [
+        2925,
+        210
+      ],
+      "alien_images": [
+        38,
+        0
+      ],
+      "vertex_only_pairs": 606270,
+      "residual_cases": 31920,
+      "latest_conflict": 736,
+      "files": {
+        "inventory.json": "669801e332417b480755ce199ed78a97e00f328aa0156c09efa3e50fdce917da",
+        "records.json": "a998751ef68e54587b9933514958d6d1cbef9c267833035a293718674eb6cb6a",
+        "result.json": "0b1b7f2c84f1a6a3fc0e2ddbcf4f1ed0bc654c4aa2308d8444e529df6e69a47e"
+      }
+    }
+  ],
+  "scope": "Only residual cases are rejected on arbitrary initial colorings; GN uses finite support."
+}

@@ -1,0 +1,186 @@
+{
+  "status": "PASS exact middle-short core forces genuine three-face WHITE C-discovery cycle; no branch exclusion",
+  "proof": "50990252375d9afd680913394f2dee27fb113e931c5657e1057c2f34947d5580",
+  "certificate": "9b96cc89861910581f9e4025273589924d3f3cafbd6cf497516c9dfc38baa938",
+  "script": "cd4fa2626f8462f8fcceebb1fb1eb3f6d99ed0c6821dc5a512095428691fc797",
+  "prior_weak_interface": "01e4725119addc4817f2138f8dacb575bd9a03a2982d87aab306e2fa0d920224",
+  "three_R_prelude": [
+    {
+      "level": 7,
+      "rank": 0,
+      "lift": 0,
+      "position": [
+        -7,
+        0
+      ],
+      "heading": 1,
+      "turn": "R",
+      "C_face": [
+        -8,
+        -1
+      ]
+    },
+    {
+      "level": 4,
+      "rank": 0,
+      "lift": -1,
+      "position": [
+        -7,
+        -1
+      ],
+      "heading": 2,
+      "turn": "R",
+      "C_face": [
+        -8,
+        -1
+      ]
+    },
+    {
+      "level": 5,
+      "rank": 2,
+      "lift": -1,
+      "position": [
+        -8,
+        -1
+      ],
+      "heading": 3,
+      "turn": "R",
+      "C_face": [
+        -8,
+        -1
+      ]
+    }
+  ],
+  "exact_T5_N_port": [
+    {
+      "source_T5_rank": 1,
+      "target_T8_N_ordinal": 0,
+      "source_position": [
+        -8,
+        -1
+      ],
+      "target_position": [
+        -8,
+        0
+      ]
+    },
+    {
+      "source_T5_rank": 2,
+      "target_T8_N_ordinal": 1,
+      "source_position": [
+        -8,
+        -1
+      ],
+      "target_position": [
+        -8,
+        0
+      ]
+    },
+    {
+      "source_T5_rank": 3,
+      "target_T8_N_ordinal": 2,
+      "source_position": [
+        -8,
+        -1
+      ],
+      "target_position": [
+        -8,
+        0
+      ]
+    }
+  ],
+  "complete_C5_named_sector_reads": [
+    {
+      "cell": [
+        -7,
+        -1
+      ],
+      "level": 4,
+      "heading": 2,
+      "ranks": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "cell": [
+        -8,
+        -1
+      ],
+      "level": 5,
+      "heading": 3,
+      "ranks": [
+        2
+      ]
+    },
+    {
+      "cell": [
+        -7,
+        0
+      ],
+      "level": 7,
+      "heading": 1,
+      "ranks": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "complete_C_counts": {
+    "C1": 6,
+    "C3": 8,
+    "C5": 10
+  },
+  "actual_cycle_steps": [
+    [
+      [
+        -8,
+        -1
+      ],
+      [
+        -7,
+        -2
+      ]
+    ],
+    [
+      [
+        -7,
+        -2
+      ],
+      [
+        -6,
+        -1
+      ]
+    ],
+    [
+      [
+        -6,
+        -1
+      ],
+      [
+        -5,
+        0
+      ]
+    ]
+  ],
+  "activation_times_from_T7_R2": {
+    "C5": "17-P",
+    "C1": 2,
+    "C3": 7,
+    "C5+d": 17
+  },
+  "exact_interval_words": [
+    "unrestricted P-15",
+    "RRRRL",
+    "RRRRLLLLRL"
+  ],
+  "analytic_review": [
+    "The physical T5 complete N-departure ranks are1,2,3; they supply T8 N arrivals in exactly that order. The fixed T7R0->T4R0->T5R2 prelude therefore ends just before SECOND N arrival, not first. First N must be earlier, and none of the three preceding literal reads is T8, so it precedes the ENTIRE prelude.",
+    "Every possible active C5 read is independently inventoried: T4 S ranks0/1/3, T5 W rank2, T7 E ranks0/1/2, and exactly three T8 N arrivals. All seven named reads are at/after T7R0; all later T8 N arrivals are after its first. Thus the very first C5 activation is firstT8N, supplied immediately by actualT5.L1 on C3-d. Arbitrarily many T8 S reads remain allowed but are on its other activeface.",
+    "This eliminates the weak upper C5 first-parent alternative without an upper multiplicity cap, initialT8heading assumption, optional-lap identification or guessed temporal order. The prior weak alternatives remain valid statements. C7 alternatives are unchanged.",
+    "Combined with independently signed C1/C3 first entries, the distinct full-drift faceclasses give actual C5->C1->C3->C5+d. The literal17-read channel fixes activations at s+2,s+7,s+17; hence full forward winding+1 and exact gapsP-15,5,10. Its fixed latter words are five-readRRRRL and ten-readRRRRLLLLRL; the entire third interval remains open.",
+    "Completeactiveface counts10/6/8 do not bound exterior excursions, T8other-sector reads, period or globalstock. Selected firstL cells retain their real R0owners. No removablemodule, fullfixedCtrace, controllercompletion, odd/fuelpayment, four-typeexclusion, WHITE S1 or universalcapture theorem follows."
+  ]
+}

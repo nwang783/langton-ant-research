@@ -1,0 +1,1184 @@
+{
+  "scope": "Complete local LEFT/RIGHT pair inventories, retaining all selected L3 states.\nFinite local port/clock closure, not a period or translator search.\n",
+  "count": 23,
+  "patterns": [
+    {
+      "sA": 0,
+      "sB": 0,
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "Z": "EWW",
+      "Y": "SSN",
+      "q": "NSS",
+      "count": 4
+    },
+    {
+      "sA": 0,
+      "sB": 0,
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "Z": "EWW",
+      "Y": "SSN",
+      "q": "NSSN",
+      "count": 4
+    },
+    {
+      "sA": 0,
+      "sB": 0,
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "Z": "EWWE",
+      "Y": "SSNN",
+      "q": "NSS",
+      "count": 4
+    },
+    {
+      "sA": 0,
+      "sB": 0,
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "Z": "EWWE",
+      "Y": "SSNN",
+      "q": "NSSN",
+      "count": 4
+    },
+    {
+      "sA": 0,
+      "sB": 1,
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "Z": "EWW",
+      "Y": "SSNS",
+      "q": "NSS",
+      "count": 2
+    },
+    {
+      "sA": 0,
+      "sB": 1,
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "Z": "EWW",
+      "Y": "SSNS",
+      "q": "NSSN",
+      "count": 2
+    },
+    {
+      "sA": 1,
+      "sB": 0,
+      "Z_other": "strict",
+      "Y_other": "equal",
+      "Z": "WWW",
+      "Y": "NNSS",
+      "q": "NNNS",
+      "count": 1
+    },
+    {
+      "sA": 1,
+      "sB": 0,
+      "Z_other": "strict",
+      "Y_other": "strict",
+      "Z": "WWWE",
+      "Y": "NNN",
+      "q": "NNNS",
+      "count": 1
+    },
+    {
+      "sA": 1,
+      "sB": 1,
+      "Z_other": "strict",
+      "Y_other": "strict",
+      "Z": "WWWE",
+      "Y": "NNNS",
+      "q": "NNNS",
+      "count": 1
+    }
+  ],
+  "rows": [
+    {
+      "Z_other": "strict",
+      "Y_other": "strict",
+      "headings": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NNN",
+        "B": "EEW",
+        "C": "EEWE",
+        "q": "NNNS"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9,
+          13
+        ],
+        "Z": [
+          6,
+          10,
+          14,
+          18
+        ],
+        "Y": [
+          7,
+          15,
+          19
+        ],
+        "B": [
+          8,
+          20,
+          24
+        ],
+        "C": [
+          -8,
+          0,
+          4,
+          12
+        ],
+        "q": [
+          -9,
+          -5,
+          -1,
+          11
+        ]
+      }
+    },
+    {
+      "Z_other": "strict",
+      "Y_other": "strict",
+      "headings": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NNNS",
+        "B": "EEWE",
+        "C": "EEWE",
+        "q": "NNNS"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9,
+          13
+        ],
+        "Z": [
+          6,
+          10,
+          14,
+          18
+        ],
+        "Y": [
+          7,
+          15,
+          19,
+          27
+        ],
+        "B": [
+          8,
+          20,
+          24,
+          28
+        ],
+        "C": [
+          -8,
+          0,
+          4,
+          12
+        ],
+        "q": [
+          -9,
+          -5,
+          -1,
+          11
+        ]
+      }
+    },
+    {
+      "Z_other": "strict",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNSN",
+        "Z": "WWW",
+        "Y": "NNSS",
+        "B": "EEW",
+        "C": "EEWE",
+        "q": "NNNS"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9,
+          13
+        ],
+        "Z": [
+          6,
+          10,
+          14
+        ],
+        "Y": [
+          7,
+          15,
+          19,
+          23
+        ],
+        "B": [
+          8,
+          24,
+          28
+        ],
+        "C": [
+          -8,
+          0,
+          4,
+          12
+        ],
+        "q": [
+          -9,
+          -5,
+          -1,
+          11
+        ]
+      }
+    },
+    {
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNS",
+        "Z": "EWW",
+        "Y": "SSN",
+        "B": "EEW",
+        "C": "EEW",
+        "q": "NSS"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9
+        ],
+        "Z": [
+          -2,
+          6,
+          10
+        ],
+        "Y": [
+          -5,
+          7,
+          11
+        ],
+        "B": [
+          8,
+          12,
+          16
+        ],
+        "C": [
+          -4,
+          0,
+          4
+        ],
+        "q": [
+          -5,
+          -1,
+          7
+        ]
+      }
+    },
+    {
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNS",
+        "Z": "EWW",
+        "Y": "SSN",
+        "B": "EEW",
+        "C": "EEW",
+        "q": "NSSN"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9
+        ],
+        "Z": [
+          -2,
+          6,
+          10
+        ],
+        "Y": [
+          -5,
+          7,
+          11
+        ],
+        "B": [
+          8,
+          12,
+          16
+        ],
+        "C": [
+          -4,
+          0,
+          4
+        ],
+        "q": [
+          -5,
+          -1,
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNS",
+        "Z": "EWW",
+        "Y": "SSN",
+        "B": "EEW",
+        "C": "EEWW",
+        "q": "NSS"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9
+        ],
+        "Z": [
+          -2,
+          6,
+          10
+        ],
+        "Y": [
+          -5,
+          7,
+          11
+        ],
+        "B": [
+          8,
+          12,
+          16
+        ],
+        "C": [
+          -4,
+          0,
+          4,
+          8
+        ],
+        "q": [
+          -5,
+          -1,
+          7
+        ]
+      }
+    },
+    {
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNS",
+        "Z": "EWW",
+        "Y": "SSN",
+        "B": "EEW",
+        "C": "EEWW",
+        "q": "NSSN"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9
+        ],
+        "Z": [
+          -2,
+          6,
+          10
+        ],
+        "Y": [
+          -5,
+          7,
+          11
+        ],
+        "B": [
+          8,
+          12,
+          16
+        ],
+        "C": [
+          -4,
+          0,
+          4,
+          8
+        ],
+        "q": [
+          -5,
+          -1,
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNS",
+        "Z": "EWW",
+        "Y": "SSNS",
+        "B": "EEWE",
+        "C": "EEW",
+        "q": "NSS"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9
+        ],
+        "Z": [
+          -2,
+          6,
+          10
+        ],
+        "Y": [
+          -5,
+          7,
+          11,
+          19
+        ],
+        "B": [
+          8,
+          12,
+          16,
+          20
+        ],
+        "C": [
+          -4,
+          0,
+          4
+        ],
+        "q": [
+          -5,
+          -1,
+          7
+        ]
+      }
+    },
+    {
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNS",
+        "Z": "EWW",
+        "Y": "SSNS",
+        "B": "EEWE",
+        "C": "EEW",
+        "q": "NSSN"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9
+        ],
+        "Z": [
+          -2,
+          6,
+          10
+        ],
+        "Y": [
+          -5,
+          7,
+          11,
+          19
+        ],
+        "B": [
+          8,
+          12,
+          16,
+          20
+        ],
+        "C": [
+          -4,
+          0,
+          4
+        ],
+        "q": [
+          -5,
+          -1,
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNS",
+        "Z": "EWW",
+        "Y": "SSNS",
+        "B": "EEWE",
+        "C": "EEWW",
+        "q": "NSS"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9
+        ],
+        "Z": [
+          -2,
+          6,
+          10
+        ],
+        "Y": [
+          -5,
+          7,
+          11,
+          19
+        ],
+        "B": [
+          8,
+          12,
+          16,
+          20
+        ],
+        "C": [
+          -4,
+          0,
+          4,
+          8
+        ],
+        "q": [
+          -5,
+          -1,
+          7
+        ]
+      }
+    },
+    {
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNS",
+        "Z": "EWW",
+        "Y": "SSNS",
+        "B": "EEWE",
+        "C": "EEWW",
+        "q": "NSSN"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9
+        ],
+        "Z": [
+          -2,
+          6,
+          10
+        ],
+        "Y": [
+          -5,
+          7,
+          11,
+          19
+        ],
+        "B": [
+          8,
+          12,
+          16,
+          20
+        ],
+        "C": [
+          -4,
+          0,
+          4,
+          8
+        ],
+        "q": [
+          -5,
+          -1,
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNS",
+        "Z": "EWWE",
+        "Y": "SSNN",
+        "B": "EEW",
+        "C": "EEW",
+        "q": "NSS"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9
+        ],
+        "Z": [
+          -2,
+          6,
+          10,
+          14
+        ],
+        "Y": [
+          -5,
+          7,
+          11,
+          15
+        ],
+        "B": [
+          8,
+          12,
+          16
+        ],
+        "C": [
+          -4,
+          0,
+          4
+        ],
+        "q": [
+          -5,
+          -1,
+          7
+        ]
+      }
+    },
+    {
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNS",
+        "Z": "EWWE",
+        "Y": "SSNN",
+        "B": "EEW",
+        "C": "EEW",
+        "q": "NSSN"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9
+        ],
+        "Z": [
+          -2,
+          6,
+          10,
+          14
+        ],
+        "Y": [
+          -5,
+          7,
+          11,
+          15
+        ],
+        "B": [
+          8,
+          12,
+          16
+        ],
+        "C": [
+          -4,
+          0,
+          4
+        ],
+        "q": [
+          -5,
+          -1,
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNS",
+        "Z": "EWWE",
+        "Y": "SSNN",
+        "B": "EEW",
+        "C": "EEWW",
+        "q": "NSS"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9
+        ],
+        "Z": [
+          -2,
+          6,
+          10,
+          14
+        ],
+        "Y": [
+          -5,
+          7,
+          11,
+          15
+        ],
+        "B": [
+          8,
+          12,
+          16
+        ],
+        "C": [
+          -4,
+          0,
+          4,
+          8
+        ],
+        "q": [
+          -5,
+          -1,
+          7
+        ]
+      }
+    },
+    {
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNS",
+        "Z": "EWWE",
+        "Y": "SSNN",
+        "B": "EEW",
+        "C": "EEWW",
+        "q": "NSSN"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9
+        ],
+        "Z": [
+          -2,
+          6,
+          10,
+          14
+        ],
+        "Y": [
+          -5,
+          7,
+          11,
+          15
+        ],
+        "B": [
+          8,
+          12,
+          16
+        ],
+        "C": [
+          -4,
+          0,
+          4,
+          8
+        ],
+        "q": [
+          -5,
+          -1,
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNSS",
+        "Z": "EWW",
+        "Y": "SSN",
+        "B": "EEWW",
+        "C": "EEW",
+        "q": "NSS"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9,
+          21
+        ],
+        "Z": [
+          -2,
+          6,
+          10
+        ],
+        "Y": [
+          -5,
+          7,
+          11
+        ],
+        "B": [
+          8,
+          12,
+          16,
+          20
+        ],
+        "C": [
+          -4,
+          0,
+          4
+        ],
+        "q": [
+          -5,
+          -1,
+          7
+        ]
+      }
+    },
+    {
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNSS",
+        "Z": "EWW",
+        "Y": "SSN",
+        "B": "EEWW",
+        "C": "EEW",
+        "q": "NSSN"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9,
+          21
+        ],
+        "Z": [
+          -2,
+          6,
+          10
+        ],
+        "Y": [
+          -5,
+          7,
+          11
+        ],
+        "B": [
+          8,
+          12,
+          16,
+          20
+        ],
+        "C": [
+          -4,
+          0,
+          4
+        ],
+        "q": [
+          -5,
+          -1,
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNSS",
+        "Z": "EWW",
+        "Y": "SSN",
+        "B": "EEWW",
+        "C": "EEWW",
+        "q": "NSS"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9,
+          21
+        ],
+        "Z": [
+          -2,
+          6,
+          10
+        ],
+        "Y": [
+          -5,
+          7,
+          11
+        ],
+        "B": [
+          8,
+          12,
+          16,
+          20
+        ],
+        "C": [
+          -4,
+          0,
+          4,
+          8
+        ],
+        "q": [
+          -5,
+          -1,
+          7
+        ]
+      }
+    },
+    {
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNSS",
+        "Z": "EWW",
+        "Y": "SSN",
+        "B": "EEWW",
+        "C": "EEWW",
+        "q": "NSSN"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9,
+          21
+        ],
+        "Z": [
+          -2,
+          6,
+          10
+        ],
+        "Y": [
+          -5,
+          7,
+          11
+        ],
+        "B": [
+          8,
+          12,
+          16,
+          20
+        ],
+        "C": [
+          -4,
+          0,
+          4,
+          8
+        ],
+        "q": [
+          -5,
+          -1,
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNSS",
+        "Z": "EWWE",
+        "Y": "SSNN",
+        "B": "EEWW",
+        "C": "EEW",
+        "q": "NSS"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9,
+          21
+        ],
+        "Z": [
+          -2,
+          6,
+          10,
+          14
+        ],
+        "Y": [
+          -5,
+          7,
+          11,
+          15
+        ],
+        "B": [
+          8,
+          12,
+          16,
+          20
+        ],
+        "C": [
+          -4,
+          0,
+          4
+        ],
+        "q": [
+          -5,
+          -1,
+          7
+        ]
+      }
+    },
+    {
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNSS",
+        "Z": "EWWE",
+        "Y": "SSNN",
+        "B": "EEWW",
+        "C": "EEW",
+        "q": "NSSN"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9,
+          21
+        ],
+        "Z": [
+          -2,
+          6,
+          10,
+          14
+        ],
+        "Y": [
+          -5,
+          7,
+          11,
+          15
+        ],
+        "B": [
+          8,
+          12,
+          16,
+          20
+        ],
+        "C": [
+          -4,
+          0,
+          4
+        ],
+        "q": [
+          -5,
+          -1,
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNSS",
+        "Z": "EWWE",
+        "Y": "SSNN",
+        "B": "EEWW",
+        "C": "EEWW",
+        "q": "NSS"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9,
+          21
+        ],
+        "Z": [
+          -2,
+          6,
+          10,
+          14
+        ],
+        "Y": [
+          -5,
+          7,
+          11,
+          15
+        ],
+        "B": [
+          8,
+          12,
+          16,
+          20
+        ],
+        "C": [
+          -4,
+          0,
+          4,
+          8
+        ],
+        "q": [
+          -5,
+          -1,
+          7
+        ]
+      }
+    },
+    {
+      "Z_other": "equal",
+      "Y_other": "equal",
+      "headings": {
+        "A": "NNSS",
+        "Z": "EWWE",
+        "Y": "SSNN",
+        "B": "EEWW",
+        "C": "EEWW",
+        "q": "NSSN"
+      },
+      "minimum_clocks": {
+        "A": [
+          1,
+          5,
+          9,
+          21
+        ],
+        "Z": [
+          -2,
+          6,
+          10,
+          14
+        ],
+        "Y": [
+          -5,
+          7,
+          11,
+          15
+        ],
+        "B": [
+          8,
+          12,
+          16,
+          20
+        ],
+        "C": [
+          -4,
+          0,
+          4,
+          8
+        ],
+        "q": [
+          -5,
+          -1,
+          7,
+          11
+        ]
+      }
+    }
+  ]
+}

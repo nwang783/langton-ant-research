@@ -1,0 +1,103 @@
+{
+  "status": "PASS original394-cell two-phase M1 return endpoint and complete all-future standard tail",
+  "source_sha256": "96dcc9d9859e072c4d41ec11833caeae3ea51b9c8dd3a19f9810437096eac5b1",
+  "initial_mass": 394,
+  "literal_reads": 652501,
+  "first_missing_fuel": {
+    "time": 602294,
+    "offset": 17353,
+    "phase": 2029,
+    "pose": [
+      [
+        14,
+        -7
+      ],
+      3
+    ],
+    "wanted": "R",
+    "actual": "L",
+    "previous_read": [
+      379402,
+      "R"
+    ],
+    "previous_read_owner": "causal6812-turn launch"
+  },
+  "events": [
+    {
+      "time": 615333,
+      "pose": [
+        [
+          -9,
+          19
+        ],
+        0
+      ],
+      "mass": 51051,
+      "next_mismatch": 466,
+      "drift": [
+        -2,
+        2
+      ],
+      "orbits": 22,
+      "critical_tests": 96
+    },
+    {
+      "time": 623444,
+      "pose": [
+        [
+          -5,
+          -66
+        ],
+        3
+      ],
+      "mass": 51486,
+      "next_mismatch": 27280,
+      "drift": [
+        -2,
+        -2
+      ],
+      "orbits": 22,
+      "critical_tests": 92
+    },
+    {
+      "time": 652501,
+      "pose": [
+        [
+          -555,
+          -585
+        ],
+        0
+      ],
+      "mass": 54763,
+      "next_mismatch": null,
+      "drift": [
+        -2,
+        -2
+      ],
+      "orbits": 22,
+      "critical_tests": 71
+    }
+  ],
+  "capture_pose": [
+    [
+      -555,
+      -585
+    ],
+    0
+  ],
+  "capture_mass": 54763,
+  "final_field_sha256": "4cbf1d3e4740fa78a4c651ab4f1491b98ce60f1bcb8f87cd89f4c21d7b7439c8",
+  "total_future_K": 117863,
+  "far_flip_rejections": 22,
+  "next_canonical_phase0": {
+    "time": 652512,
+    "pose": [
+      [
+        -557,
+        -582
+      ],
+      3
+    ]
+  },
+  "scope": "Only two-phase M1 (original producer N7) finite394-cell board. Two temporary highways retain exact next collisions. The next return fails on an old launch bit, not a fresh-white assumption. No family-wide capture or renewal theorem."
+}

@@ -1,0 +1,226 @@
+{
+  "status": "PASS coefficient-one nonbranching V renewal and physical rail synthesis",
+  "note_sha256": "a0c512a14a0579b69270cb89902ccc0bd81f3b33bd1498bd6a7f60031b7195af",
+  "rows": [
+    {
+      "consumer": 4,
+      "pose": [
+        1,
+        -1,
+        0
+      ],
+      "selected": [
+        1,
+        2
+      ],
+      "base_exit": [
+        3,
+        3
+      ],
+      "mu": 3
+    },
+    {
+      "consumer": 4,
+      "pose": [
+        3,
+        3,
+        2
+      ],
+      "selected": [
+        1,
+        2
+      ],
+      "base_exit": [
+        5,
+        1
+      ],
+      "mu": 3
+    },
+    {
+      "consumer": 5,
+      "pose": [
+        1,
+        -1,
+        0
+      ],
+      "selected": [
+        1,
+        2
+      ],
+      "base_exit": [
+        3,
+        3
+      ],
+      "mu": 3
+    },
+    {
+      "consumer": 5,
+      "pose": [
+        3,
+        3,
+        2
+      ],
+      "selected": [
+        1,
+        2
+      ],
+      "base_exit": [
+        5,
+        1
+      ],
+      "mu": 3
+    },
+    {
+      "consumer": 6,
+      "pose": [
+        2,
+        -2,
+        0
+      ],
+      "selected": [
+        0,
+        3
+      ],
+      "base_exit": [
+        5,
+        1
+      ],
+      "mu": 3
+    },
+    {
+      "consumer": 6,
+      "pose": [
+        2,
+        4,
+        2
+      ],
+      "selected": [
+        0,
+        3
+      ],
+      "base_exit": [
+        3,
+        3
+      ],
+      "mu": 3
+    },
+    {
+      "consumer": 7,
+      "pose": [
+        2,
+        -2,
+        0
+      ],
+      "selected": [
+        0,
+        3
+      ],
+      "base_exit": [
+        3,
+        3
+      ],
+      "mu": 3
+    },
+    {
+      "consumer": 7,
+      "pose": [
+        2,
+        4,
+        2
+      ],
+      "selected": [
+        0,
+        3
+      ],
+      "base_exit": [
+        5,
+        1
+      ],
+      "mu": 3
+    },
+    {
+      "consumer": 8,
+      "pose": [
+        2,
+        -2,
+        0
+      ],
+      "selected": [
+        0,
+        3
+      ],
+      "base_exit": [
+        3,
+        3
+      ],
+      "mu": 3
+    },
+    {
+      "consumer": 8,
+      "pose": [
+        2,
+        4,
+        2
+      ],
+      "selected": [
+        0,
+        3
+      ],
+      "base_exit": [
+        5,
+        1
+      ],
+      "mu": 3
+    },
+    {
+      "consumer": 9,
+      "pose": [
+        2,
+        -2,
+        0
+      ],
+      "selected": [
+        0,
+        3
+      ],
+      "base_exit": [
+        3,
+        3
+      ],
+      "mu": 3
+    },
+    {
+      "consumer": 9,
+      "pose": [
+        2,
+        4,
+        2
+      ],
+      "selected": [
+        0,
+        3
+      ],
+      "base_exit": [
+        5,
+        1
+      ],
+      "mu": 3
+    }
+  ],
+  "dependencies": {
+    "check_U_parallel_selected_supply_independent.json": "8fb147d9f41f6b4b7e3626ea186e2637cd2b04eeffccd9cf551559b0264d1536",
+    "check_V_parallel_reproductive_supply_independent.json": "c0d1779d5c4c6e8047c1745f9f35559aedd66878ff40a2c1b8ec6b878fb396ad",
+    "check_parallel_width_and_infinite_epoch_independent.json": "92cc9f841767cc5382396654924b77c20b28384cb014caacb9ee1b309d2f896f",
+    "check_full_context_horizon_independent.json": "1923c21d12cbfcbde2e70beeb71ae111e13cb94cfc90322450d6ef50237c47df"
+  },
+  "inequalities": {
+    "Q": "v_j+u_j<=5292+sum_even2..294 v",
+    "N": "N_j<=5292+sum_even2..294 v+v_(j-4)+u_(j-6)",
+    "bounded_V": "N eventually<=10584+295M",
+    "block_Q": "sum_Q<=4854m+876+sum_padded_V",
+    "block_U": "sum_U<=4854m+876+sum_left_boundary_V",
+    "bounded_depth": "v_j<=r0+5292*(294*(L-1)+1)"
+  },
+  "analytic": "Graph edges follow the one original V-base C identity into a parallel reproductive distinguished input. Actual once-only spending gives outdegree<=1, unique selected input gives indegree<=1, even positive age gives acyclic finite ancestor chains and U terminal. Produced roots are perpendicular-selected or boundary-tail-selected, at most5292 per clock, and entry-selected roots total at most r0. After rotating AND translating a path root to0,N, actual shared support edges and base exits lie on invariant physical diagonal mu=x+y+3s; simplicity makes exits distinct with normal separation2. Epoch heads progress strictly in z, so vertices in an epoch are on distinct rails and paths. Uniform path depth bounds parent clock window, hence V counts; signed infinite-factor epoch necessity then demands unbounded depth unless a stronger role exclusion closes it.",
+  "scope": "Simple U-entry complete-eight factors, growing frontier. No uniform root count over all clocks or universal capture claim. Later same-heading ordinary-child exclusion is separate."
+}

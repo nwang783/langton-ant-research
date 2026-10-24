@@ -1,0 +1,656 @@
+{
+  "status": "PASS all32 four-return cases have an internal color conflict; three returns can be legal",
+  "four_return_cases": [
+    {
+      "initial_turn": "R",
+      "loop_orientations": [
+        "R",
+        "R",
+        "R",
+        "R"
+      ],
+      "word": "RRRRLRRRRRRRLRRR",
+      "first_conflict": [
+        5,
+        9,
+        [
+          -1,
+          0
+        ],
+        "R"
+      ]
+    },
+    {
+      "initial_turn": "R",
+      "loop_orientations": [
+        "R",
+        "R",
+        "R",
+        "L"
+      ],
+      "word": "RRRRLRRRRRRRLLLL",
+      "first_conflict": [
+        5,
+        9,
+        [
+          -1,
+          0
+        ],
+        "R"
+      ]
+    },
+    {
+      "initial_turn": "R",
+      "loop_orientations": [
+        "R",
+        "R",
+        "L",
+        "R"
+      ],
+      "word": "RRRRLRRRRLLLLRRR",
+      "first_conflict": [
+        6,
+        14,
+        [
+          -1,
+          1
+        ],
+        "R"
+      ]
+    },
+    {
+      "initial_turn": "R",
+      "loop_orientations": [
+        "R",
+        "R",
+        "L",
+        "L"
+      ],
+      "word": "RRRRLRRRRLLLLLLL",
+      "first_conflict": [
+        9,
+        13,
+        [
+          -1,
+          0
+        ],
+        "L"
+      ]
+    },
+    {
+      "initial_turn": "R",
+      "loop_orientations": [
+        "R",
+        "L",
+        "R",
+        "R"
+      ],
+      "word": "RRRRLLLLRRRRLRRR",
+      "first_conflict": [
+        1,
+        9,
+        [
+          1,
+          0
+        ],
+        "R"
+      ]
+    },
+    {
+      "initial_turn": "R",
+      "loop_orientations": [
+        "R",
+        "L",
+        "R",
+        "L"
+      ],
+      "word": "RRRRLLLLRRRRLLLL",
+      "first_conflict": [
+        1,
+        9,
+        [
+          1,
+          0
+        ],
+        "R"
+      ]
+    },
+    {
+      "initial_turn": "R",
+      "loop_orientations": [
+        "R",
+        "L",
+        "L",
+        "R"
+      ],
+      "word": "RRRRLLLLRLLLLRRR",
+      "first_conflict": [
+        2,
+        14,
+        [
+          1,
+          -1
+        ],
+        "R"
+      ]
+    },
+    {
+      "initial_turn": "R",
+      "loop_orientations": [
+        "R",
+        "L",
+        "L",
+        "L"
+      ],
+      "word": "RRRRLLLLRLLLLLLL",
+      "first_conflict": [
+        9,
+        13,
+        [
+          1,
+          0
+        ],
+        "L"
+      ]
+    },
+    {
+      "initial_turn": "R",
+      "loop_orientations": [
+        "L",
+        "R",
+        "R",
+        "R"
+      ],
+      "word": "RLLLLRRRRRRRLRRR",
+      "first_conflict": [
+        5,
+        9,
+        [
+          1,
+          0
+        ],
+        "R"
+      ]
+    },
+    {
+      "initial_turn": "R",
+      "loop_orientations": [
+        "L",
+        "R",
+        "R",
+        "L"
+      ],
+      "word": "RLLLLRRRRRRRLLLL",
+      "first_conflict": [
+        5,
+        9,
+        [
+          1,
+          0
+        ],
+        "R"
+      ]
+    },
+    {
+      "initial_turn": "R",
+      "loop_orientations": [
+        "L",
+        "R",
+        "L",
+        "R"
+      ],
+      "word": "RLLLLRRRRLLLLRRR",
+      "first_conflict": [
+        2,
+        10,
+        [
+          1,
+          1
+        ],
+        "L"
+      ]
+    },
+    {
+      "initial_turn": "R",
+      "loop_orientations": [
+        "L",
+        "R",
+        "L",
+        "L"
+      ],
+      "word": "RLLLLRRRRLLLLLLL",
+      "first_conflict": [
+        2,
+        10,
+        [
+          1,
+          1
+        ],
+        "L"
+      ]
+    },
+    {
+      "initial_turn": "R",
+      "loop_orientations": [
+        "L",
+        "L",
+        "R",
+        "R"
+      ],
+      "word": "RLLLLLLLRRRRLRRR",
+      "first_conflict": [
+        1,
+        5,
+        [
+          1,
+          0
+        ],
+        "L"
+      ]
+    },
+    {
+      "initial_turn": "R",
+      "loop_orientations": [
+        "L",
+        "L",
+        "R",
+        "L"
+      ],
+      "word": "RLLLLLLLRRRRLLLL",
+      "first_conflict": [
+        1,
+        5,
+        [
+          1,
+          0
+        ],
+        "L"
+      ]
+    },
+    {
+      "initial_turn": "R",
+      "loop_orientations": [
+        "L",
+        "L",
+        "L",
+        "R"
+      ],
+      "word": "RLLLLLLLRLLLLRRR",
+      "first_conflict": [
+        1,
+        5,
+        [
+          1,
+          0
+        ],
+        "L"
+      ]
+    },
+    {
+      "initial_turn": "R",
+      "loop_orientations": [
+        "L",
+        "L",
+        "L",
+        "L"
+      ],
+      "word": "RLLLLLLLRLLLLLLL",
+      "first_conflict": [
+        1,
+        5,
+        [
+          1,
+          0
+        ],
+        "L"
+      ]
+    },
+    {
+      "initial_turn": "L",
+      "loop_orientations": [
+        "R",
+        "R",
+        "R",
+        "R"
+      ],
+      "word": "LRRRRRRRLRRRRRRR",
+      "first_conflict": [
+        1,
+        5,
+        [
+          -1,
+          0
+        ],
+        "R"
+      ]
+    },
+    {
+      "initial_turn": "L",
+      "loop_orientations": [
+        "R",
+        "R",
+        "R",
+        "L"
+      ],
+      "word": "LRRRRRRRLRRRRLLL",
+      "first_conflict": [
+        1,
+        5,
+        [
+          -1,
+          0
+        ],
+        "R"
+      ]
+    },
+    {
+      "initial_turn": "L",
+      "loop_orientations": [
+        "R",
+        "R",
+        "L",
+        "R"
+      ],
+      "word": "LRRRRRRRLLLLRRRR",
+      "first_conflict": [
+        1,
+        5,
+        [
+          -1,
+          0
+        ],
+        "R"
+      ]
+    },
+    {
+      "initial_turn": "L",
+      "loop_orientations": [
+        "R",
+        "R",
+        "L",
+        "L"
+      ],
+      "word": "LRRRRRRRLLLLRLLL",
+      "first_conflict": [
+        1,
+        5,
+        [
+          -1,
+          0
+        ],
+        "R"
+      ]
+    },
+    {
+      "initial_turn": "L",
+      "loop_orientations": [
+        "R",
+        "L",
+        "R",
+        "R"
+      ],
+      "word": "LRRRRLLLLRRRRRRR",
+      "first_conflict": [
+        2,
+        10,
+        [
+          -1,
+          1
+        ],
+        "R"
+      ]
+    },
+    {
+      "initial_turn": "L",
+      "loop_orientations": [
+        "R",
+        "L",
+        "R",
+        "L"
+      ],
+      "word": "LRRRRLLLLRRRRLLL",
+      "first_conflict": [
+        2,
+        10,
+        [
+          -1,
+          1
+        ],
+        "R"
+      ]
+    },
+    {
+      "initial_turn": "L",
+      "loop_orientations": [
+        "R",
+        "L",
+        "L",
+        "R"
+      ],
+      "word": "LRRRRLLLLLLLRRRR",
+      "first_conflict": [
+        5,
+        9,
+        [
+          -1,
+          0
+        ],
+        "L"
+      ]
+    },
+    {
+      "initial_turn": "L",
+      "loop_orientations": [
+        "R",
+        "L",
+        "L",
+        "L"
+      ],
+      "word": "LRRRRLLLLLLLRLLL",
+      "first_conflict": [
+        5,
+        9,
+        [
+          -1,
+          0
+        ],
+        "L"
+      ]
+    },
+    {
+      "initial_turn": "L",
+      "loop_orientations": [
+        "L",
+        "R",
+        "R",
+        "R"
+      ],
+      "word": "LLLLRRRRLRRRRRRR",
+      "first_conflict": [
+        9,
+        13,
+        [
+          -1,
+          0
+        ],
+        "R"
+      ]
+    },
+    {
+      "initial_turn": "L",
+      "loop_orientations": [
+        "L",
+        "R",
+        "R",
+        "L"
+      ],
+      "word": "LLLLRRRRLRRRRLLL",
+      "first_conflict": [
+        2,
+        14,
+        [
+          -1,
+          -1
+        ],
+        "L"
+      ]
+    },
+    {
+      "initial_turn": "L",
+      "loop_orientations": [
+        "L",
+        "R",
+        "L",
+        "R"
+      ],
+      "word": "LLLLRRRRLLLLRRRR",
+      "first_conflict": [
+        1,
+        9,
+        [
+          -1,
+          0
+        ],
+        "L"
+      ]
+    },
+    {
+      "initial_turn": "L",
+      "loop_orientations": [
+        "L",
+        "R",
+        "L",
+        "L"
+      ],
+      "word": "LLLLRRRRLLLLRLLL",
+      "first_conflict": [
+        1,
+        9,
+        [
+          -1,
+          0
+        ],
+        "L"
+      ]
+    },
+    {
+      "initial_turn": "L",
+      "loop_orientations": [
+        "L",
+        "L",
+        "R",
+        "R"
+      ],
+      "word": "LLLLRLLLLRRRRRRR",
+      "first_conflict": [
+        9,
+        13,
+        [
+          1,
+          0
+        ],
+        "R"
+      ]
+    },
+    {
+      "initial_turn": "L",
+      "loop_orientations": [
+        "L",
+        "L",
+        "R",
+        "L"
+      ],
+      "word": "LLLLRLLLLRRRRLLL",
+      "first_conflict": [
+        6,
+        14,
+        [
+          1,
+          1
+        ],
+        "L"
+      ]
+    },
+    {
+      "initial_turn": "L",
+      "loop_orientations": [
+        "L",
+        "L",
+        "L",
+        "R"
+      ],
+      "word": "LLLLRLLLLLLLRRRR",
+      "first_conflict": [
+        5,
+        9,
+        [
+          1,
+          0
+        ],
+        "L"
+      ]
+    },
+    {
+      "initial_turn": "L",
+      "loop_orientations": [
+        "L",
+        "L",
+        "L",
+        "L"
+      ],
+      "word": "LLLLRLLLLLLLRLLL",
+      "first_conflict": [
+        5,
+        9,
+        [
+          1,
+          0
+        ],
+        "L"
+      ]
+    }
+  ],
+  "three_return_legal_controls": [
+    {
+      "initial_turn": "R",
+      "loop_orientations": [
+        "R",
+        "R",
+        "L"
+      ],
+      "word": "RRRRLRRRRLLL",
+      "first_conflict": null
+    },
+    {
+      "initial_turn": "R",
+      "loop_orientations": [
+        "R",
+        "L",
+        "L"
+      ],
+      "word": "RRRRLLLLRLLL",
+      "first_conflict": null
+    },
+    {
+      "initial_turn": "L",
+      "loop_orientations": [
+        "L",
+        "R",
+        "R"
+      ],
+      "word": "LLLLRRRRLRRR",
+      "first_conflict": null
+    },
+    {
+      "initial_turn": "L",
+      "loop_orientations": [
+        "L",
+        "L",
+        "R"
+      ],
+      "word": "LLLLRLLLLRRR",
+      "first_conflict": null
+    }
+  ],
+  "scope": "Any literal ordinary ant coloring; four successive physical returns each of exact length4 are impossible. Does not exclude separated or longer returns."
+}

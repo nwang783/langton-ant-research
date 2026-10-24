@@ -1,0 +1,203 @@
+{
+  "scope": "Exact reader-count and physical rank-reversal check for one3-phase rail.\nFull d=(-3,-3), all P open. No period, width, cap or drift scan.\n",
+  "full_drift": [
+    -3,
+    -3
+  ],
+  "fixed_RIGHT_rail": [
+    {
+      "cell": [
+        0,
+        0
+      ],
+      "history": "NSSN"
+    },
+    {
+      "cell": [
+        1,
+        1
+      ],
+      "history": "NSN"
+    },
+    {
+      "cell": [
+        2,
+        2
+      ],
+      "history": "NNN"
+    }
+  ],
+  "derived_helper_domains": {
+    "L0": [
+      "EEE",
+      "EEEE"
+    ],
+    "L2": [
+      "WEW",
+      "WEWE"
+    ]
+  },
+  "all_next_reader_count_completions": [
+    {
+      "L0": "EEE",
+      "L2": "WEW",
+      "Q": "NNNS",
+      "N_in": 3,
+      "E_out": 3
+    },
+    {
+      "L0": "EEE",
+      "L2": "WEW",
+      "Q": "NSNN",
+      "N_in": 3,
+      "E_out": 3
+    }
+  ],
+  "literal_rank_reversals": [
+    {
+      "complete_histories": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "history": "NSSN"
+        },
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "history": "WEW"
+        },
+        {
+          "cell": [
+            -1,
+            1
+          ],
+          "history": "NNNS"
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "history": "EEE"
+        }
+      ],
+      "actual_four_R_route": [
+        [
+          [
+            0,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            -1,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            -1,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "complete_histories": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "history": "NSSN"
+        },
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "history": "WEW"
+        },
+        {
+          "cell": [
+            -1,
+            1
+          ],
+          "history": "NSNN"
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "history": "EEE"
+        }
+      ],
+      "actual_four_R_route": [
+        [
+          [
+            0,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            -1,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            -1,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          1
+        ]
+      ]
+    }
+  ],
+  "uncapped_local_counterprofile": {
+    "history": "SNNSN",
+    "N_in": 3,
+    "E_out": 3,
+    "first_N_rank": 1
+  },
+  "warning": "Exact fixed-rail obstruction only. The5-read counterprofile is not a full rail extension or front. Older/farther stock remains arbitrary; one of the three displayed helpers must exceed4."
+}

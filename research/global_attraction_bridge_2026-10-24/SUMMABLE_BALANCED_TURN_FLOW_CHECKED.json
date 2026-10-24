@@ -1,0 +1,18 @@
+{
+  "status": "AUTHOR explicit summable flow countercontrol; independent audit pending",
+  "NOT_AN_ANT_ORBIT": true,
+  "r": "1/2",
+  "sector_vertex_checks": 3362,
+  "four_corner_inequalities": 6724,
+  "unnormalized_total_turn_flow": "36",
+  "head_probability_at_origin": "1/16",
+  "finite_exact_log_sha256": "01a6f2268a849153a3abfd9be035b257e916e0f95f989408c690fc2859bca5ad",
+  "all_lattice_formula": "A(i,j)=r^(abs(i)+abs(j)); edge=A_left+A_right; corner=(3A_self+A_adj1+A_adj2-A_opposite)/4",
+  "parameter_domain": "1/3 <= r < 1",
+  "dependencies": {
+    "RECTANGLE_VISIT_FLOW_MANIFEST.json": "ae95dcdef257f2fff6768449011ed58d3bc127cc10602907652d7bfc6be9db8f",
+    "../audits/check_rectangle_visit_flow_independent.json": "62bcf41f75f008eaf74c68ef1c0cd70a2337ce51d1c0204fab663ec23ae12b8b",
+    "../first_principles_new/recurrent_boundary_current.md": "8052d804cf1568e17a1222f41466d7b2754360f7d7a84a36c9f252a6c288a6bd"
+  },
+  "scope": "Refutes only stationary edge-conservation plus equal per-site R/L-flow exclusion of a summable profile. Actual chronological alternation and finite-seed realization are not established."
+}

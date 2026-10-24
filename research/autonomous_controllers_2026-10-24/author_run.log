@@ -1,0 +1,240 @@
+{
+  "standard_control_count": 12,
+  "finite_controls": 120,
+  "boundary_exceptions": 8,
+  "finite_positive": {
+    "initial_black": [],
+    "initial_pose": [
+      [
+        0,
+        0
+      ],
+      0
+    ],
+    "source": [
+      -4,
+      11
+    ],
+    "target": [
+      -4,
+      10
+    ],
+    "source_first_time": 1723,
+    "target_last_time_within_3000": 1724,
+    "source_first_heading": 1,
+    "target_last_heading": 2,
+    "limitation": "Last means within the actual 3000-read finite factor, not all future time."
+  },
+  "D102": {
+    "D102": {
+      "period": 102,
+      "drift": [
+        -1,
+        3
+      ],
+      "growth": -8,
+      "complete_white": false,
+      "bad_alternation": [
+        {
+          "cell": [
+            0,
+            3
+          ],
+          "word": "LRRLR"
+        },
+        {
+          "cell": [
+            0,
+            -3
+          ],
+          "word": "RRLRL"
+        },
+        {
+          "cell": [
+            0,
+            -2
+          ],
+          "word": "RRLRL"
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "word": "RRLRL"
+        },
+        {
+          "cell": [
+            0,
+            -8
+          ],
+          "word": "RLRLL"
+        },
+        {
+          "cell": [
+            0,
+            -5
+          ],
+          "word": "LRLRLL"
+        },
+        {
+          "cell": [
+            0,
+            5
+          ],
+          "word": "RLRLL"
+        },
+        {
+          "cell": [
+            0,
+            6
+          ],
+          "word": "LRRL"
+        }
+      ],
+      "black_first_classes": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          -7
+        ],
+        [
+          0,
+          -6
+        ],
+        [
+          0,
+          -5
+        ],
+        [
+          0,
+          -10
+        ],
+        [
+          0,
+          -11
+        ],
+        [
+          0,
+          -12
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          12
+        ]
+      ]
+    },
+    "inverse_D102": {
+      "period": 102,
+      "drift": [
+        1,
+        -3
+      ],
+      "growth": 8,
+      "complete_white": false,
+      "bad_alternation": [
+        {
+          "cell": [
+            0,
+            -2
+          ],
+          "word": "RLRLL"
+        },
+        {
+          "cell": [
+            0,
+            -4
+          ],
+          "word": "RRLRLR"
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "word": "RLRLL"
+        },
+        {
+          "cell": [
+            0,
+            2
+          ],
+          "word": "RLRLL"
+        },
+        {
+          "cell": [
+            0,
+            4
+          ],
+          "word": "LRLLR"
+        },
+        {
+          "cell": [
+            0,
+            7
+          ],
+          "word": "RLLR"
+        },
+        {
+          "cell": [
+            0,
+            6
+          ],
+          "word": "RRLRL"
+        },
+        {
+          "cell": [
+            0,
+            -7
+          ],
+          "word": "RRLRL"
+        }
+      ],
+      "black_first_classes": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    }
+  }
+}

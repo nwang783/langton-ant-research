@@ -1,0 +1,209 @@
+{
+  "status": "All literal ingredients for minimum-span descent verified independently",
+  "macro_word_hash": "e59b6cf36c8214f284f13deeda3b98ae3ad6dfefab1db73761b009eedb0b2684",
+  "rows": [
+    {
+      "predecessor": "U",
+      "entry": [
+        -1,
+        5,
+        2
+      ],
+      "witnesses": [
+        {
+          "physical": [
+            -1,
+            2
+          ],
+          "local": [
+            0,
+            3
+          ],
+          "read_phases": [
+            [
+              23,
+              "L"
+            ],
+            [
+              27,
+              "R"
+            ]
+          ]
+        },
+        {
+          "physical": [
+            0,
+            3
+          ],
+          "local": [
+            -1,
+            2
+          ],
+          "read_phases": [
+            [
+              13,
+              "L"
+            ],
+            [
+              21,
+              "R"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "predecessor": "V",
+      "entry": [
+        0,
+        4,
+        2
+      ],
+      "witnesses": [
+        {
+          "physical": [
+            -1,
+            2
+          ],
+          "local": [
+            1,
+            2
+          ],
+          "read_phases": [
+            [
+              13,
+              "L"
+            ],
+            [
+              17,
+              "R"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "predecessor": "Q",
+      "entry": [
+        3,
+        5,
+        0
+      ],
+      "witnesses": [
+        {
+          "physical": [
+            -1,
+            2
+          ],
+          "local": [
+            -4,
+            -3
+          ],
+          "read_phases": [
+            [
+              59,
+              "L"
+            ],
+            [
+              63,
+              "R"
+            ]
+          ]
+        },
+        {
+          "physical": [
+            1,
+            4
+          ],
+          "local": [
+            -2,
+            -1
+          ],
+          "read_phases": [
+            [
+              43,
+              "L"
+            ],
+            [
+              47,
+              "R"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "predecessor": "B",
+      "entry": [
+        2,
+        6,
+        0
+      ],
+      "witnesses": [
+        {
+          "physical": [
+            -1,
+            2
+          ],
+          "local": [
+            -3,
+            -4
+          ],
+          "read_phases": [
+            [
+              69,
+              "L"
+            ],
+            [
+              73,
+              "R"
+            ]
+          ]
+        },
+        {
+          "physical": [
+            0,
+            3
+          ],
+          "local": [
+            -2,
+            -3
+          ],
+          "read_phases": [
+            [
+              59,
+              "L"
+            ],
+            [
+              67,
+              "R"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "endpoints": {
+    "U": [
+      0,
+      4,
+      0
+    ],
+    "V": [
+      1,
+      3,
+      0
+    ],
+    "Q": [
+      -4,
+      -4,
+      2
+    ],
+    "B": [
+      -3,
+      -5,
+      2
+    ]
+  },
+  "scope": "Macro starts plus terminal boundary in feasible C-free words; terminal-star relation and endpoint descent checked; relies on audited29-site freshness"
+}

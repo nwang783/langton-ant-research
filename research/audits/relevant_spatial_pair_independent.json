@@ -1,0 +1,59 @@
+{
+  "status": "PASS finite fresh-layer production and paired complete-future wake-return controls",
+  "proof_sha256": {
+    "FRESH_HULL_RELEVANT_PRODUCTION.md": "3e40921438d733868ca44d780da8e1d8c793e3674589f52a569e68e110c12764",
+    "PAIRED_WAKE_RETURN_CREDIT.md": "3d9bade88031a0fdfcb19b1819bf5f17d5e066be79ba66b30f37bce8a1ab7a00"
+  },
+  "script_sha256": "6c9ea0b71b6a0527bceee87c388dc9ce710feae06634dd5de8a17bcf672769c7",
+  "fresh_relevant_layer_counts": {
+    "3": 4,
+    "1": 4,
+    "2": 4,
+    "0": 5
+  },
+  "normalized_added_missing": [
+    11,
+    2
+  ],
+  "next3_input_birth_deaths": [
+    [
+      17,
+      109
+    ],
+    [
+      102,
+      110
+    ],
+    [
+      27,
+      135
+    ]
+  ],
+  "baseline_all_period_parity_tests": 154,
+  "both_104_RL_counts": [
+    58,
+    46
+  ],
+  "permanent_R_outputs_baseline_defect": [
+    12,
+    3
+  ],
+  "relevant_gains_baseline_defect": [
+    0,
+    9
+  ],
+  "analytic_checks": [
+    "Signed full defect replay rebuilt, including exact all-future lifetime relevance.17 relevant R lifetimes lie in original-white layers0..3 and exceed14 retired entrylifetimes. This defeats only a unit injective retirement charge.",
+    "Same-sector displacement normalization is actual2,-2; relevant14->23 corresponds11 added2 missing, scalar change9-4alpha. No bounded-below or total-credit argument follows.",
+    "Independent full15-black baseline replay and exact104 infinite phase-ray parity certify its whole future. All27 terminal lifetimes receive exact first futurehit or none, not a finite replay guess.",
+    "General identity C*(u)-C*(t)=R-P-L is exact lifetime accounting with P retrospectively forever-unread interval births. Permanent current lifetimes cannot later be consumed in the SAME orbit.",
+    "Four identical commonprefixRbirths have different futures on two distinct initialboards. No actually forever-unread lifetime revives; nine permanent-output deficit is NET, not a claimed nine-birth bijection."
+  ],
+  "not_claimed": [
+    "global resource or P(m) impossibility",
+    "repeatable growth",
+    "noncapture",
+    "failure of fixed-cohort272754",
+    "all spatial/amortized potentials ruled out"
+  ]
+}

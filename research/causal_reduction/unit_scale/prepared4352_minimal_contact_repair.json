@@ -1,0 +1,337 @@
+{
+  "scope": "Complete length<=9 exact-pose inventory at the supplied old-bit contact.\nOnly lengths1,5,9 are geometrically possible; first turn is forced L.\nEvery internally legal candidate fails its SECOND read on the owned white cell.\n",
+  "status": "NO PHYSICAL EXACT-POSE REPAIR THROUGH LENGTH9",
+  "contact": [
+    [
+      14,
+      -7
+    ],
+    3
+  ],
+  "target_pose": [
+    [
+      14,
+      -6
+    ],
+    0
+  ],
+  "owned_white_cell": [
+    14,
+    -8
+  ],
+  "launch_history": [
+    [
+      5209,
+      0,
+      "L"
+    ],
+    [
+      5213,
+      2,
+      "R"
+    ],
+    [
+      5217,
+      0,
+      "L"
+    ]
+  ],
+  "owned_cell_whole_future4352_unread": true,
+  "later_stage_minima": [
+    {
+      "kind": "source-transition",
+      "read_lower_u_M_constant": [
+        156,
+        182
+      ],
+      "minimum_M_ge_1": 338
+    },
+    {
+      "kind": "return-wave",
+      "read_lower_u_M_constant": [
+        0,
+        182
+      ],
+      "minimum_M_ge_1": 182
+    }
+  ],
+  "fixed_extra_return_prefix_reads": 17353,
+  "inventory": [
+    {
+      "length": 1,
+      "geometric_count": 0,
+      "internally_legal": [],
+      "records": []
+    },
+    {
+      "length": 5,
+      "geometric_count": 2,
+      "internally_legal": [
+        "LLLLR"
+      ],
+      "records": [
+        {
+          "word": "LRRRL",
+          "internal_conflict": {
+            "read": 4,
+            "cell": [
+              14,
+              -7
+            ],
+            "previous_read": 0,
+            "turn": "L"
+          }
+        },
+        {
+          "word": "LLLLR",
+          "internal_conflict": null,
+          "inherited_conflict": {
+            "read": 1,
+            "cell": [
+              14,
+              -8
+            ],
+            "required": "L",
+            "actual": "R",
+            "last_launch_read": 5217
+          }
+        }
+      ]
+    },
+    {
+      "length": 9,
+      "geometric_count": 18,
+      "internally_legal": [
+        "LLRRRRLLR",
+        "LLLRRRRLR",
+        "LLLLRLLLL"
+      ],
+      "records": [
+        {
+          "word": "LRRRRRRRL",
+          "internal_conflict": {
+            "read": 5,
+            "cell": [
+              14,
+              -8
+            ],
+            "previous_read": 1,
+            "turn": "R"
+          }
+        },
+        {
+          "word": "LRRRRLLLR",
+          "internal_conflict": {
+            "read": 8,
+            "cell": [
+              14,
+              -7
+            ],
+            "previous_read": 4,
+            "turn": "R"
+          }
+        },
+        {
+          "word": "LRRRLRRRR",
+          "internal_conflict": {
+            "read": 4,
+            "cell": [
+              14,
+              -7
+            ],
+            "previous_read": 0,
+            "turn": "L"
+          }
+        },
+        {
+          "word": "LRRRLLLLL",
+          "internal_conflict": {
+            "read": 4,
+            "cell": [
+              14,
+              -7
+            ],
+            "previous_read": 0,
+            "turn": "L"
+          }
+        },
+        {
+          "word": "LRRLRRRLL",
+          "internal_conflict": {
+            "read": 7,
+            "cell": [
+              13,
+              -7
+            ],
+            "previous_read": 3,
+            "turn": "L"
+          }
+        },
+        {
+          "word": "LRRLLLLRL",
+          "internal_conflict": {
+            "read": 8,
+            "cell": [
+              14,
+              -7
+            ],
+            "previous_read": 0,
+            "turn": "L"
+          }
+        },
+        {
+          "word": "LRLRRRLRL",
+          "internal_conflict": {
+            "read": 6,
+            "cell": [
+              13,
+              -8
+            ],
+            "previous_read": 2,
+            "turn": "L"
+          }
+        },
+        {
+          "word": "LRLLLRLLR",
+          "internal_conflict": {
+            "read": 5,
+            "cell": [
+              14,
+              -8
+            ],
+            "previous_read": 1,
+            "turn": "R"
+          }
+        },
+        {
+          "word": "LRLLLLRRL",
+          "internal_conflict": {
+            "read": 8,
+            "cell": [
+              14,
+              -7
+            ],
+            "previous_read": 0,
+            "turn": "L"
+          }
+        },
+        {
+          "word": "LLRRRRLLR",
+          "internal_conflict": null,
+          "inherited_conflict": {
+            "read": 1,
+            "cell": [
+              14,
+              -8
+            ],
+            "required": "L",
+            "actual": "R",
+            "last_launch_read": 5217
+          }
+        },
+        {
+          "word": "LLRRRLRRL",
+          "internal_conflict": {
+            "read": 5,
+            "cell": [
+              14,
+              -8
+            ],
+            "previous_read": 1,
+            "turn": "L"
+          }
+        },
+        {
+          "word": "LLRLLLRLR",
+          "internal_conflict": {
+            "read": 6,
+            "cell": [
+              15,
+              -8
+            ],
+            "previous_read": 2,
+            "turn": "R"
+          }
+        },
+        {
+          "word": "LLLRRRRLR",
+          "internal_conflict": null,
+          "inherited_conflict": {
+            "read": 1,
+            "cell": [
+              14,
+              -8
+            ],
+            "required": "L",
+            "actual": "R",
+            "last_launch_read": 5217
+          }
+        },
+        {
+          "word": "LLLRLLLRR",
+          "internal_conflict": {
+            "read": 7,
+            "cell": [
+              15,
+              -7
+            ],
+            "previous_read": 3,
+            "turn": "R"
+          }
+        },
+        {
+          "word": "LLLLRRRRR",
+          "internal_conflict": {
+            "read": 8,
+            "cell": [
+              14,
+              -7
+            ],
+            "previous_read": 4,
+            "turn": "R"
+          }
+        },
+        {
+          "word": "LLLLRLLLL",
+          "internal_conflict": null,
+          "inherited_conflict": {
+            "read": 1,
+            "cell": [
+              14,
+              -8
+            ],
+            "required": "L",
+            "actual": "R",
+            "last_launch_read": 5217
+          }
+        },
+        {
+          "word": "LLLLLRRRL",
+          "internal_conflict": {
+            "read": 4,
+            "cell": [
+              14,
+              -7
+            ],
+            "previous_read": 0,
+            "turn": "L"
+          }
+        },
+        {
+          "word": "LLLLLLLLR",
+          "internal_conflict": {
+            "read": 4,
+            "cell": [
+              14,
+              -7
+            ],
+            "previous_read": 0,
+            "turn": "L"
+          }
+        }
+      ]
+    }
+  ],
+  "manifest_sha256": "ffd8a1393f96ad81b6d8515912b00304e5c4527b1a7b949644686e5c05d56715",
+  "source_sha256": "a575e6bdf7f36828584e1d5de60978e72f3eb996e37a9b1b5b7ab6920ed8690c"
+}

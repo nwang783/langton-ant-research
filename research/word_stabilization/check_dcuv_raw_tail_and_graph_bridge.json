@@ -1,0 +1,270 @@
+{
+  "status": "PASS fixed literal raw-tail boundary and exact existing-graph diagnostic; no mass-budget tree evaluated",
+  "alphabet_lengths": [
+    10,
+    15,
+    18,
+    28
+  ],
+  "fixed_long_C_conflicts": {
+    "C5_raw": {
+      "feasible": false,
+      "conflict_read": 67,
+      "cell": [
+        2,
+        1
+      ],
+      "turn": "R"
+    },
+    "C4_marker": {
+      "feasible": false,
+      "conflict_read": 67,
+      "cell": [
+        2,
+        1
+      ],
+      "turn": "R"
+    },
+    "DC4_marker": {
+      "feasible": false,
+      "conflict_read": 68,
+      "cell": [
+        2,
+        0
+      ],
+      "turn": "R"
+    },
+    "VC3_marker": {
+      "feasible": false,
+      "conflict_read": 71,
+      "cell": [
+        0,
+        1
+      ],
+      "turn": "R"
+    },
+    "UC3_marker": {
+      "feasible": false,
+      "conflict_read": 81,
+      "cell": [
+        -1,
+        2
+      ],
+      "turn": "R"
+    }
+  },
+  "twenty_boundary_conflicts": {
+    "DCC_successor_D": {
+      "feasible": false,
+      "conflict_read": 51,
+      "cell": [
+        0,
+        1
+      ],
+      "turn": "L"
+    },
+    "DCCC_predecessor_D": {
+      "feasible": false,
+      "conflict_read": 72,
+      "cell": [
+        2,
+        0
+      ],
+      "turn": "R"
+    },
+    "DCC_successor_DC": {
+      "feasible": false,
+      "conflict_read": 51,
+      "cell": [
+        0,
+        1
+      ],
+      "turn": "L"
+    },
+    "DCCC_predecessor_DC": {
+      "feasible": false,
+      "conflict_read": 87,
+      "cell": [
+        2,
+        3
+      ],
+      "turn": "R"
+    },
+    "DCC_successor_DCC": {
+      "feasible": false,
+      "conflict_read": 51,
+      "cell": [
+        0,
+        1
+      ],
+      "turn": "L"
+    },
+    "DCCC_predecessor_DCC": {
+      "feasible": false,
+      "conflict_read": 51,
+      "cell": [
+        0,
+        1
+      ],
+      "turn": "L"
+    },
+    "DCC_successor_DCCC": {
+      "feasible": false,
+      "conflict_read": 51,
+      "cell": [
+        0,
+        1
+      ],
+      "turn": "L"
+    },
+    "DCCC_predecessor_DCCC": {
+      "feasible": false,
+      "conflict_read": 66,
+      "cell": [
+        1,
+        1
+      ],
+      "turn": "L"
+    },
+    "DCC_successor_V": {
+      "feasible": false,
+      "conflict_read": 53,
+      "cell": [
+        -1,
+        0
+      ],
+      "turn": "L"
+    },
+    "DCCC_predecessor_V": {
+      "feasible": false,
+      "conflict_read": 80,
+      "cell": [
+        2,
+        2
+      ],
+      "turn": "R"
+    },
+    "DCC_successor_VC": {
+      "feasible": false,
+      "conflict_read": 53,
+      "cell": [
+        -1,
+        0
+      ],
+      "turn": "L"
+    },
+    "DCCC_predecessor_VC": {
+      "feasible": false,
+      "conflict_read": 95,
+      "cell": [
+        2,
+        5
+      ],
+      "turn": "R"
+    },
+    "DCC_successor_VCC": {
+      "feasible": false,
+      "conflict_read": 53,
+      "cell": [
+        -1,
+        0
+      ],
+      "turn": "L"
+    },
+    "DCCC_predecessor_VCC": {
+      "feasible": false,
+      "conflict_read": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "turn": "L"
+    },
+    "DCC_successor_U": {
+      "feasible": false,
+      "conflict_read": 52,
+      "cell": [
+        0,
+        0
+      ],
+      "turn": "L"
+    },
+    "DCCC_predecessor_U": {
+      "feasible": false,
+      "conflict_read": 90,
+      "cell": [
+        1,
+        3
+      ],
+      "turn": "R"
+    },
+    "DCC_successor_UC": {
+      "feasible": false,
+      "conflict_read": 52,
+      "cell": [
+        0,
+        0
+      ],
+      "turn": "L"
+    },
+    "DCCC_predecessor_UC": {
+      "feasible": false,
+      "conflict_read": 105,
+      "cell": [
+        1,
+        6
+      ],
+      "turn": "R"
+    },
+    "DCC_successor_UCC": {
+      "feasible": false,
+      "conflict_read": 52,
+      "cell": [
+        0,
+        0
+      ],
+      "turn": "L"
+    },
+    "DCCC_predecessor_UCC": {
+      "feasible": false,
+      "conflict_read": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "turn": "L"
+    }
+  },
+  "source_graph_sha256": "216ef5edde9404799744b5d9ab3d1fe62f55846cbe97e88f82395b195765ec35",
+  "cyclic_components": {
+    "all": [
+      {
+        "vertices": 214,
+        "edges": 993,
+        "labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "DCUV_edges": [
+      {
+        "vertices": 93,
+        "edges": 417,
+        "labels": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "FQB_edges": []
+  },
+  "not_claimed": "No new global K-language coverage, SCC deletion, finite foreign count, or universal capture."
+}

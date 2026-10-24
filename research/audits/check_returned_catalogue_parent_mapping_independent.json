@@ -1,0 +1,23 @@
+{
+  "status": "PASS mandatory explicit catalogue IDs versus parent/source-row counts",
+  "author_manifest": "d284a4af95c88572bbd11cc0779d148cae5234fbaeeeb25f801eb2030bae5065",
+  "actual_coarse_catalogue_ids": [
+    15,
+    30
+  ],
+  "parent_row_counts": {
+    "15": 10,
+    "30": 4,
+    "total": 14
+  },
+  "typed_D_DC_row_counts": {
+    "15": 20,
+    "30": 8,
+    "total": 28
+  },
+  "C75_actual_contact_owner": "C1 inside the selected DC, not its earlier last-positive-C parent",
+  "C75_older_parent_rows": 6,
+  "literal_pose_compositions_checked": 20,
+  "clocks": "older parent full entry0/C1 entry0; selected outgoingD entry1; foreign4, equivalent source-to-foreign age3",
+  "scope": "No catalogue relabeling. D14/D28 was only ambiguous shorthand for fourteen parent/run rows and twenty-eight source-typed rows; use explicit words. One immediate ordinary RAW atom only."
+}

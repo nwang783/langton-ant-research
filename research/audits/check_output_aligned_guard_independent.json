@@ -1,0 +1,36 @@
+{
+  "status": "PASS all-parameter phase-six closing guard and independently replayed positive prefix",
+  "note_sha256": "9c87d0d20d304a8a763910cb0b58b6e603182c213e811ab0dbc22745198a9ca6",
+  "all_parameter_domain": "M>=1,r>=10,k>=10",
+  "frame_only_touch": "[r, k] -> { [s = 3, b = 2, j = 0, ph = 0] : r >= 10 and k >= 10 }",
+  "geometry": {
+    "A": [
+      1,
+      1
+    ],
+    "B": [
+      1,
+      5
+    ],
+    "length": [
+      408,
+      5344
+    ],
+    "mass": [
+      12,
+      56
+    ]
+  },
+  "positive_prefix": {
+    "reads": 1899,
+    "seed_mass": 450,
+    "final_mass": 453,
+    "failure_cell": [
+      -101,
+      0
+    ],
+    "previous_read": 999
+  },
+  "analytic": "The last W6 read writes black at one cell west of the next entry. The entire first four-side frame touches that cell only at its final prescribed R. Initial colors, later cap state and passive layers cannot alter this consecutive-read R/R obstruction. The r<=M earlier conflict follows from disjoint odd/even output coordinates and T forward endpoint first reach.",
+  "scope": "This exact prescribed W6-to-K join only; physical clearing operations and other caps are not excluded."
+}

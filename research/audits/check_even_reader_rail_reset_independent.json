@@ -1,0 +1,31 @@
+{
+  "status": "PASS exact expanding even rail and local all-even role-reset only",
+  "proof": "1df4856ef1ca27c20ed7087a2d1ec0fd18957f30877b05044e22c61c6518b19e",
+  "certificate": "a1acb1bb5350eaf165abcc8f6034349d38d36819ef7faf109728b1f7d2fe37c7",
+  "script": "4ac5d0f6bd4d464e8691cf7243dd8af8e266b94d1e23c2bdafbb2e869f4a623d",
+  "controls": [
+    {
+      "mode": "expanding",
+      "events": 56,
+      "components": 18,
+      "internal_edges": 38,
+      "all_complete_even": true,
+      "distinct_calendar": true
+    },
+    {
+      "mode": "merge_reset",
+      "events": 56,
+      "components": 18,
+      "internal_edges": 38,
+      "all_complete_even": true,
+      "distinct_calendar": true
+    }
+  ],
+  "analytic_review": [
+    "Exact complete four-read ordinal matching gives H.L1 to G.L1 to C.R0 and C.L3 to F.L3 to H.R2 in the NNSS/NNSS interface. Same-cell rank gaps at least four imply strict middle-span growth by twelve. The next chosen reader really is H=C+(1,-1) and the inherited helper G has the required NNSS role.",
+    "An infinite unchanged rail contradicts the finite FULL drift quotient: nonparallel drift makes infinitely many distinct classes; parallel nonzero integral drift identifies two rail cells and preserves both-rank time difference under the exact period voltage. No primitive period or spatial-descent assumption is used.",
+    "In the alternative SSNN/SNNS mode the actual RLLL channel is H.R0 to G.L1 to C.L3 to F.L1 to H.L1. It rotates heading by180 rather than returning full pose, and puts H.L1 after C.L3. The role required for nesting has changed. Actual b(H)=G,b(G)=C,b(C)=R are distinct from actual chronological successors using G.L1.",
+    "Both whole fourteen-cell inventories independently pass every port including zeros, literal next-rank return, positive-clock-cycle and global-C-height check. All56 event phases are distinct, every internal edge costs one, same-cell rank gaps are at least four, and all complete successor components and open endpoints partition the events with a disjoint mod-four calendar.",
+    "Neither local calendar supplies the missing physical connector paths, an actual prepared factor, full periodic field, or controller. The reset is an obstruction to an inference from this necessary abstraction only; it is not a physical counterexample to any complete-front odd-output theorem. No fresh-fuel charge or eventual global rail behavior follows."
+  ]
+}

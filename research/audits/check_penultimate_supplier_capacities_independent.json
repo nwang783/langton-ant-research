@@ -1,0 +1,1472 @@
+{
+  "status": "PASS independent thirty-row local supplier, multiplicity, root and aggregate-turn reconstruction",
+  "notes": {
+    "max_turn_leaf_stock_balance.md": "5e1794e79ae8bf226af2c4ff6e693ffc233128f2bb4e8132cf9cc82e90aaad2b",
+    "canonical_turn_balance_and_stock_hole_capacity.md": "afbc4e56fd5b3513d51f8dae596f5aad133b7607b5b0b2181224385a923aa24c",
+    "penultimate_leaf_top_R0_supplier_capacity.md": "9cb47d19f412fd29690f2e2d4f54c027e73861648614a99c1f15cfb2938613e4",
+    "nonleaf_penultimate_R0_supplier_capacity.md": "1e4b6b034bcabe0e2df3766be0de8fd27a7b02dc14ef53f03107ec7808d58614"
+  },
+  "rows": [
+    {
+      "headings": [
+        0
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": 0,
+        "SE": 1,
+        "SW": 0
+      },
+      "incoming_levels": [
+        1
+      ],
+      "outgoing_levels": [
+        1
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          1,
+          1,
+          "SE"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        2
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -1,
+        "SE": -1,
+        "SW": -1
+      },
+      "incoming_levels": [
+        0
+      ],
+      "outgoing_levels": [
+        0
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "NW"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        0,
+        0
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": 0,
+        "SE": 1,
+        "SW": -1
+      },
+      "incoming_levels": [
+        1,
+        0
+      ],
+      "outgoing_levels": [
+        1,
+        0
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          1,
+          1,
+          "SE"
+        ],
+        [
+          1,
+          1,
+          0,
+          3,
+          "SE"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        0,
+        2
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -1,
+        "SE": 1,
+        "SW": 0
+      },
+      "incoming_levels": [
+        1,
+        0
+      ],
+      "outgoing_levels": [
+        1,
+        0
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          1,
+          1,
+          "SE"
+        ],
+        [
+          1,
+          1,
+          0,
+          3,
+          "NW"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        2,
+        0
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -1,
+        "SE": -1,
+        "SW": -2
+      },
+      "incoming_levels": [
+        0,
+        -1
+      ],
+      "outgoing_levels": [
+        0,
+        -1
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "NW"
+        ],
+        [
+          1,
+          1,
+          -1,
+          3,
+          "SE"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        2,
+        2
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -2,
+        "SE": -1,
+        "SW": -1
+      },
+      "incoming_levels": [
+        0,
+        -1
+      ],
+      "outgoing_levels": [
+        0,
+        -1
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "NW"
+        ],
+        [
+          1,
+          1,
+          -1,
+          3,
+          "NW"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        0,
+        0,
+        0
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": 0,
+        "SE": 2,
+        "SW": -1
+      },
+      "incoming_levels": [
+        2,
+        1,
+        0
+      ],
+      "outgoing_levels": [
+        2,
+        0,
+        1
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          2,
+          1,
+          "SE"
+        ],
+        [
+          1,
+          2,
+          1,
+          1,
+          "SE"
+        ],
+        [
+          2,
+          1,
+          0,
+          3,
+          "SE"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        0,
+        0,
+        2
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -1,
+        "SE": 0,
+        "SW": -2
+      },
+      "incoming_levels": [
+        0,
+        -1,
+        0
+      ],
+      "outgoing_levels": [
+        0,
+        0,
+        -1
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "SE"
+        ],
+        [
+          1,
+          2,
+          -1,
+          3,
+          "SE"
+        ],
+        [
+          2,
+          1,
+          0,
+          1,
+          "NW"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        0,
+        2,
+        0
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -1,
+        "SE": 2,
+        "SW": 0
+      },
+      "incoming_levels": [
+        2,
+        0,
+        1
+      ],
+      "outgoing_levels": [
+        2,
+        1,
+        0
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          2,
+          1,
+          "SE"
+        ],
+        [
+          1,
+          2,
+          0,
+          3,
+          "NW"
+        ],
+        [
+          2,
+          1,
+          1,
+          1,
+          "SE"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        0,
+        2,
+        2
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -2,
+        "SE": 0,
+        "SW": -1
+      },
+      "incoming_levels": [
+        0,
+        0,
+        -1
+      ],
+      "outgoing_levels": [
+        0,
+        -1,
+        0
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "SE"
+        ],
+        [
+          1,
+          2,
+          0,
+          1,
+          "NW"
+        ],
+        [
+          2,
+          1,
+          -1,
+          3,
+          "NW"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        2,
+        0,
+        0
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -1,
+        "SE": 0,
+        "SW": -2
+      },
+      "incoming_levels": [
+        0,
+        0,
+        -1
+      ],
+      "outgoing_levels": [
+        0,
+        -1,
+        0
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "NW"
+        ],
+        [
+          1,
+          2,
+          0,
+          1,
+          "SE"
+        ],
+        [
+          2,
+          1,
+          -1,
+          3,
+          "SE"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        2,
+        0,
+        2
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -2,
+        "SE": -2,
+        "SW": -3
+      },
+      "incoming_levels": [
+        0,
+        -2,
+        -1
+      ],
+      "outgoing_levels": [
+        0,
+        -1,
+        -2
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "NW"
+        ],
+        [
+          1,
+          2,
+          -2,
+          3,
+          "SE"
+        ],
+        [
+          2,
+          1,
+          -1,
+          1,
+          "NW"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        2,
+        2,
+        0
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -2,
+        "SE": 0,
+        "SW": -1
+      },
+      "incoming_levels": [
+        0,
+        -1,
+        0
+      ],
+      "outgoing_levels": [
+        0,
+        0,
+        -1
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "NW"
+        ],
+        [
+          1,
+          2,
+          -1,
+          3,
+          "NW"
+        ],
+        [
+          2,
+          1,
+          0,
+          1,
+          "SE"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        2,
+        2,
+        2
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -3,
+        "SE": -2,
+        "SW": -2
+      },
+      "incoming_levels": [
+        0,
+        -1,
+        -2
+      ],
+      "outgoing_levels": [
+        0,
+        -2,
+        -1
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "NW"
+        ],
+        [
+          1,
+          2,
+          -1,
+          1,
+          "NW"
+        ],
+        [
+          2,
+          1,
+          -2,
+          3,
+          "NW"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": 0,
+        "SE": 2,
+        "SW": -2
+      },
+      "incoming_levels": [
+        2,
+        1,
+        0,
+        -1
+      ],
+      "outgoing_levels": [
+        2,
+        0,
+        1,
+        -1
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          2,
+          1,
+          "SE"
+        ],
+        [
+          1,
+          2,
+          1,
+          1,
+          "SE"
+        ],
+        [
+          2,
+          1,
+          0,
+          3,
+          "SE"
+        ],
+        [
+          3,
+          3,
+          -1,
+          3,
+          "SE"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -1,
+        "SE": 2,
+        "SW": -1
+      },
+      "incoming_levels": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "outgoing_levels": [
+        2,
+        0,
+        1,
+        0
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          2,
+          1,
+          "SE"
+        ],
+        [
+          1,
+          2,
+          1,
+          1,
+          "SE"
+        ],
+        [
+          2,
+          1,
+          0,
+          3,
+          "SE"
+        ],
+        [
+          3,
+          3,
+          0,
+          3,
+          "NW"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -1,
+        "SE": 0,
+        "SW": -3
+      },
+      "incoming_levels": [
+        0,
+        -1,
+        0,
+        -2
+      ],
+      "outgoing_levels": [
+        0,
+        0,
+        -1,
+        -2
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "SE"
+        ],
+        [
+          1,
+          2,
+          -1,
+          3,
+          "SE"
+        ],
+        [
+          2,
+          1,
+          0,
+          1,
+          "NW"
+        ],
+        [
+          3,
+          3,
+          -2,
+          3,
+          "SE"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -2,
+        "SE": 0,
+        "SW": -2
+      },
+      "incoming_levels": [
+        0,
+        -1,
+        0,
+        -1
+      ],
+      "outgoing_levels": [
+        0,
+        0,
+        -1,
+        -1
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "SE"
+        ],
+        [
+          1,
+          2,
+          -1,
+          3,
+          "SE"
+        ],
+        [
+          2,
+          1,
+          0,
+          1,
+          "NW"
+        ],
+        [
+          3,
+          3,
+          -1,
+          3,
+          "NW"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        0,
+        2,
+        0,
+        0
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -1,
+        "SE": 2,
+        "SW": -1
+      },
+      "incoming_levels": [
+        2,
+        0,
+        1,
+        0
+      ],
+      "outgoing_levels": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          2,
+          1,
+          "SE"
+        ],
+        [
+          1,
+          2,
+          0,
+          3,
+          "NW"
+        ],
+        [
+          2,
+          1,
+          1,
+          1,
+          "SE"
+        ],
+        [
+          3,
+          3,
+          0,
+          3,
+          "SE"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        0,
+        2,
+        0,
+        2
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -2,
+        "SE": 2,
+        "SW": 0
+      },
+      "incoming_levels": [
+        2,
+        0,
+        1,
+        -1
+      ],
+      "outgoing_levels": [
+        2,
+        1,
+        0,
+        -1
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          2,
+          1,
+          "SE"
+        ],
+        [
+          1,
+          2,
+          0,
+          3,
+          "NW"
+        ],
+        [
+          2,
+          1,
+          1,
+          1,
+          "SE"
+        ],
+        [
+          3,
+          3,
+          -1,
+          3,
+          "NW"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        0,
+        2,
+        2,
+        0
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -2,
+        "SE": 0,
+        "SW": -2
+      },
+      "incoming_levels": [
+        0,
+        0,
+        -1,
+        -1
+      ],
+      "outgoing_levels": [
+        0,
+        -1,
+        0,
+        -1
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "SE"
+        ],
+        [
+          1,
+          2,
+          0,
+          1,
+          "NW"
+        ],
+        [
+          2,
+          1,
+          -1,
+          3,
+          "NW"
+        ],
+        [
+          3,
+          3,
+          -1,
+          3,
+          "SE"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        0,
+        2,
+        2,
+        2
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -3,
+        "SE": 0,
+        "SW": -1
+      },
+      "incoming_levels": [
+        0,
+        0,
+        -1,
+        -2
+      ],
+      "outgoing_levels": [
+        0,
+        -1,
+        0,
+        -2
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "SE"
+        ],
+        [
+          1,
+          2,
+          0,
+          1,
+          "NW"
+        ],
+        [
+          2,
+          1,
+          -1,
+          3,
+          "NW"
+        ],
+        [
+          3,
+          3,
+          -2,
+          3,
+          "NW"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -1,
+        "SE": 0,
+        "SW": -3
+      },
+      "incoming_levels": [
+        0,
+        0,
+        -1,
+        -2
+      ],
+      "outgoing_levels": [
+        0,
+        -1,
+        0,
+        -2
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "NW"
+        ],
+        [
+          1,
+          2,
+          0,
+          1,
+          "SE"
+        ],
+        [
+          2,
+          1,
+          -1,
+          3,
+          "SE"
+        ],
+        [
+          3,
+          3,
+          -2,
+          3,
+          "SE"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -2,
+        "SE": 0,
+        "SW": -2
+      },
+      "incoming_levels": [
+        0,
+        0,
+        -1,
+        -1
+      ],
+      "outgoing_levels": [
+        0,
+        -1,
+        0,
+        -1
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "NW"
+        ],
+        [
+          1,
+          2,
+          0,
+          1,
+          "SE"
+        ],
+        [
+          2,
+          1,
+          -1,
+          3,
+          "SE"
+        ],
+        [
+          3,
+          3,
+          -1,
+          3,
+          "NW"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        2,
+        0,
+        2,
+        0
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -2,
+        "SE": -2,
+        "SW": -4
+      },
+      "incoming_levels": [
+        0,
+        -2,
+        -1,
+        -3
+      ],
+      "outgoing_levels": [
+        0,
+        -1,
+        -2,
+        -3
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "NW"
+        ],
+        [
+          1,
+          2,
+          -2,
+          3,
+          "SE"
+        ],
+        [
+          2,
+          1,
+          -1,
+          1,
+          "NW"
+        ],
+        [
+          3,
+          3,
+          -3,
+          3,
+          "SE"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        2,
+        0,
+        2,
+        2
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -3,
+        "SE": -2,
+        "SW": -3
+      },
+      "incoming_levels": [
+        0,
+        -2,
+        -1,
+        -2
+      ],
+      "outgoing_levels": [
+        0,
+        -1,
+        -2,
+        -2
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "NW"
+        ],
+        [
+          1,
+          2,
+          -2,
+          3,
+          "SE"
+        ],
+        [
+          2,
+          1,
+          -1,
+          1,
+          "NW"
+        ],
+        [
+          3,
+          3,
+          -2,
+          3,
+          "NW"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        2,
+        2,
+        0,
+        0
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -2,
+        "SE": 0,
+        "SW": -2
+      },
+      "incoming_levels": [
+        0,
+        -1,
+        0,
+        -1
+      ],
+      "outgoing_levels": [
+        0,
+        0,
+        -1,
+        -1
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "NW"
+        ],
+        [
+          1,
+          2,
+          -1,
+          3,
+          "NW"
+        ],
+        [
+          2,
+          1,
+          0,
+          1,
+          "SE"
+        ],
+        [
+          3,
+          3,
+          -1,
+          3,
+          "SE"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        2,
+        2,
+        0,
+        2
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -3,
+        "SE": 0,
+        "SW": -1
+      },
+      "incoming_levels": [
+        0,
+        -1,
+        0,
+        -2
+      ],
+      "outgoing_levels": [
+        0,
+        0,
+        -1,
+        -2
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "NW"
+        ],
+        [
+          1,
+          2,
+          -1,
+          3,
+          "NW"
+        ],
+        [
+          2,
+          1,
+          0,
+          1,
+          "SE"
+        ],
+        [
+          3,
+          3,
+          -2,
+          3,
+          "NW"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        2,
+        2,
+        2,
+        0
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -3,
+        "SE": -2,
+        "SW": -3
+      },
+      "incoming_levels": [
+        0,
+        -1,
+        -2,
+        -2
+      ],
+      "outgoing_levels": [
+        0,
+        -2,
+        -1,
+        -2
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "NW"
+        ],
+        [
+          1,
+          2,
+          -1,
+          1,
+          "NW"
+        ],
+        [
+          2,
+          1,
+          -2,
+          3,
+          "NW"
+        ],
+        [
+          3,
+          3,
+          -2,
+          3,
+          "SE"
+        ]
+      ]
+    },
+    {
+      "headings": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "heights": {
+        "NW": 0,
+        "NE": -4,
+        "SE": -2,
+        "SW": -2
+      },
+      "incoming_levels": [
+        0,
+        -1,
+        -2,
+        -3
+      ],
+      "outgoing_levels": [
+        0,
+        -2,
+        -1,
+        -3
+      ],
+      "canonical": [
+        [
+          0,
+          0,
+          0,
+          1,
+          "NW"
+        ],
+        [
+          1,
+          2,
+          -1,
+          1,
+          "NW"
+        ],
+        [
+          2,
+          1,
+          -2,
+          3,
+          "NW"
+        ],
+        [
+          3,
+          3,
+          -3,
+          3,
+          "NW"
+        ]
+      ]
+    }
+  ],
+  "scope": "Analytic global registers separately reviewed: leaf brackets, canonical node orientation, distinct occurrence sets, top birth reservation. Not a renewal-to-node injection or finite initial fuel theorem."
+}

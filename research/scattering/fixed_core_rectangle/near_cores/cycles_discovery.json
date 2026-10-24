@@ -1,0 +1,176 @@
+[
+  {
+    "m": 1,
+    "r0": {
+      "m": 1,
+      "n": 200,
+      "capture": 344656,
+      "pose": [
+        [
+          38,
+          -46
+        ],
+        0
+      ],
+      "tail": {
+        "period": 104,
+        "drift": [
+          2,
+          -2
+        ],
+        "breakpoints": 157
+      },
+      "phase": 42,
+      "contacts": {
+        "q": 31681,
+        "s": 112514,
+        "a": 155214,
+        "c": 255620
+      },
+      "exc72": [
+        43,
+        -47
+      ]
+    },
+    "r1": {
+      "m": 1,
+      "n": 201,
+      "capture": 345280,
+      "pose": [
+        [
+          38,
+          -46
+        ],
+        0
+      ],
+      "tail": {
+        "period": 104,
+        "drift": [
+          2,
+          -2
+        ],
+        "breakpoints": 157
+      },
+      "phase": 42,
+      "contacts": {
+        "q": 31785,
+        "s": 112722,
+        "a": 155526,
+        "c": 256140
+      },
+      "exc72": [
+        43,
+        -47
+      ]
+    },
+    "candidate": {
+      "status": "two-sample candidate; exact symbolic proof required",
+      "m": 1,
+      "base": 200,
+      "time": [
+        624,
+        219856
+      ],
+      "pose_coeff": [
+        0,
+        0
+      ],
+      "pose_constant": [
+        38,
+        -46
+      ],
+      "heading": 0,
+      "drift": [
+        2,
+        -2
+      ]
+    }
+  },
+  {
+    "m": 6,
+    "r0": {
+      "m": 6,
+      "n": 200,
+      "capture": 355264,
+      "pose": [
+        [
+          70,
+          18
+        ],
+        2
+      ],
+      "tail": {
+        "period": 104,
+        "drift": [
+          2,
+          2
+        ],
+        "breakpoints": 175
+      },
+      "phase": 99,
+      "contacts": {
+        "q": 31681,
+        "s": 113034,
+        "c": 174612,
+        "a": 270762
+      },
+      "exc72": [
+        75,
+        26
+      ]
+    },
+    "r1": {
+      "m": 6,
+      "n": 201,
+      "capture": 355888,
+      "pose": [
+        [
+          70,
+          18
+        ],
+        2
+      ],
+      "tail": {
+        "period": 104,
+        "drift": [
+          2,
+          2
+        ],
+        "breakpoints": 175
+      },
+      "phase": 99,
+      "contacts": {
+        "q": 31785,
+        "s": 113242,
+        "c": 174924,
+        "a": 271282
+      },
+      "exc72": [
+        75,
+        26
+      ]
+    },
+    "candidate": {
+      "status": "two-sample candidate; exact symbolic proof required",
+      "m": 6,
+      "base": 200,
+      "time": [
+        624,
+        230464
+      ],
+      "pose_coeff": [
+        0,
+        0
+      ],
+      "pose_constant": [
+        70,
+        18
+      ],
+      "heading": 2,
+      "drift": [
+        2,
+        2
+      ]
+    }
+  }
+]

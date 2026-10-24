@@ -1,0 +1,312 @@
+{
+  "status": "PASS all-q charged one-tree paired-forest collector and exact epoch ledger",
+  "bindings": {
+    "one_component_paired_forest_collector.md": "ed7197b2f981ab73ef47df9a9c30d9a190bd739540bdd7cc19aae1875606956c",
+    "epoch_component_ledger.md": "9996e812118f628afd909c9245e061dc8d13f4b8b0afef90db1342d12bc5e2b3"
+  },
+  "controls": [
+    {
+      "q": 1,
+      "n": 8,
+      "M": 19,
+      "gain": -1,
+      "epoch_reads": 15,
+      "new_marked_w_vertices": 0,
+      "fixed_z_components": [
+        [
+          [
+            1,
+            1
+          ],
+          8
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "q": 2,
+      "n": 16,
+      "M": 39,
+      "gain": 0,
+      "epoch_reads": 32,
+      "new_marked_w_vertices": 1,
+      "fixed_z_components": [
+        [
+          [
+            1,
+            1
+          ],
+          15
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "q": 3,
+      "n": 32,
+      "M": 75,
+      "gain": 1,
+      "epoch_reads": 65,
+      "new_marked_w_vertices": 2,
+      "fixed_z_components": [
+        [
+          [
+            1,
+            1
+          ],
+          30
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "q": 4,
+      "n": 48,
+      "M": 111,
+      "gain": 2,
+      "epoch_reads": 98,
+      "new_marked_w_vertices": 3,
+      "fixed_z_components": [
+        [
+          [
+            1,
+            1
+          ],
+          45
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          3
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          3
+        ]
+      ]
+    },
+    {
+      "q": 5,
+      "n": 72,
+      "M": 163,
+      "gain": 3,
+      "epoch_reads": 147,
+      "new_marked_w_vertices": 4,
+      "fixed_z_components": [
+        [
+          [
+            1,
+            1
+          ],
+          68
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          4
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          4
+        ]
+      ]
+    },
+    {
+      "q": 8,
+      "n": 160,
+      "M": 351,
+      "gain": 6,
+      "epoch_reads": 326,
+      "new_marked_w_vertices": 7,
+      "fixed_z_components": [
+        [
+          [
+            1,
+            1
+          ],
+          153
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          7
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          7
+        ]
+      ]
+    },
+    {
+      "q": 12,
+      "n": 336,
+      "M": 719,
+      "gain": 10,
+      "epoch_reads": 682,
+      "new_marked_w_vertices": 11,
+      "fixed_z_components": [
+        [
+          [
+            1,
+            1
+          ],
+          325
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          11
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          11
+        ]
+      ]
+    },
+    {
+      "q": 20,
+      "n": 880,
+      "M": 1839,
+      "gain": 18,
+      "epoch_reads": 1778,
+      "new_marked_w_vertices": 19,
+      "fixed_z_components": [
+        [
+          [
+            1,
+            1
+          ],
+          861
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          19
+        ],
+        [
+          [
+            3,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          19
+        ]
+      ]
+    }
+  ],
+  "counts": {
+    "fine_reads": 3143,
+    "post_L_suffix_and_one_archive_checks": 1552
+  },
+  "analytic": [
+    "Spacing8 is a scaled version of the independently proved square-spiral run separation. Every nonconsecutive run is at least8 away in Chebyshev distance. Collector detours lie within distance2 of their own corners, and each run is at least8 long, so nonlocal and adjacent-corner patch contacts are absent. The initial connector near the origin is disjoint from all later spiral runs and patches.",
+    "The exact normalized detour dual decomposes into two-edge path {(3,-3),(3,-1),(5,-1)} with no base-union contact, three-edge path {(5,1),(3,1),(3,3),(1,3)} with one contact, and ordinary isolated dual edges with one contact. The connector dual is a disjoint three-edge star with no base-union contact. Coordinates here are doubled w-lattice coordinates. Thus fixed components attach to the UNION of all possible base z vertices at most once, proving z acyclicity at EVERY cut, not just an endpoint.",
+    "In w, the collector and connector are fully charged initial resources forming one tree with the path. Each straight/first-corner arm joins the active root to the same archive, while the second corner arm creates a fresh leaf at the deliberately skipped tip. No write touches a future old path vertex; the departing old edge is a bridge. At every L cut the exact active graph is the old suffix and all other black edges form one tree.",
+    "The physical predecessor L is explicitly realized but may erase a w cycle, and lies OUTSIDE the claimed ordinary epoch. The next RRRRL block lies after it. The all-q claim concerns the complete finite board, without omitted passive pieces or uncharged connectors.",
+    "n=8floor((q+1)^2/4),K=n+4(q-1),M=2n+4q-1, G=q-2, T=2n+q-2. Exactly q-1 new marked w vertices are created. Final marked components are the single archive and the isolated cursor, so G=A_w-1. The conservative half-sqrt(M)-4 bound holds for all q.",
+    "Epoch ledger: initial active edges partition into consumed old path P, retained old suffix F and pruned old Q. Passive inputs and all newly written lifetimes remain dormant outside F. Euler on permanently retained marked vertices gives DeltaC=A+B-D-G exactly. For n>=1 the last bridge deletion ensures at least two final marked components, hence G<=A+B+Centry-2. These are identities and a local inequality, not a monotone global progress resource."
+  ],
+  "scope": "All-q one-epoch construction; does not show repeatable concatenation, global cubic sharpness, a finite archive summary or capture."
+}

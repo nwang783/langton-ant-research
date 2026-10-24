@@ -1,0 +1,714 @@
+{
+  "scope": "Secondary ports of a root-free plateau's reverse locked rail.\nReverse WHITE-even and BLACK-odd histories only, lambda=0,L floor=-3.\nNo whole-front or period search; all immediate physical port profiles.\n",
+  "O": [
+    {
+      "headings": "W",
+      "initial": "BLACK",
+      "turns": "L",
+      "outgoing": "S",
+      "C": {
+        "NE": -2,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      },
+      "other": -2
+    },
+    {
+      "headings": "EW",
+      "initial": "WHITE",
+      "turns": "RL",
+      "outgoing": "SS",
+      "C": {
+        "NE": -2,
+        "SW": -1
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      },
+      "other": -1
+    },
+    {
+      "headings": "EEW",
+      "initial": "BLACK",
+      "turns": "LRL",
+      "outgoing": "NSS",
+      "C": {
+        "NE": -2,
+        "SW": -1
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "other": -1
+    },
+    {
+      "headings": "WEE",
+      "initial": "BLACK",
+      "turns": "LRL",
+      "outgoing": "SSN",
+      "C": {
+        "NE": -2,
+        "SW": -1
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "other": -1
+    },
+    {
+      "headings": "EEEW",
+      "initial": "WHITE",
+      "turns": "RLRL",
+      "outgoing": "SNSS",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "other": 0
+    },
+    {
+      "headings": "EWEE",
+      "initial": "WHITE",
+      "turns": "RLRL",
+      "outgoing": "SSSN",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "other": 0
+    }
+  ],
+  "E": [
+    {
+      "headings": "S",
+      "initial": "BLACK",
+      "turns": "L",
+      "outgoing": "E",
+      "C": {
+        "SE": -2,
+        "NW": -2
+      },
+      "L": {
+        "NE": -3,
+        "SW": -2
+      },
+      "other": -2
+    },
+    {
+      "headings": "SS",
+      "initial": "WHITE",
+      "turns": "RL",
+      "outgoing": "WE",
+      "C": {
+        "SE": -2,
+        "NW": -1
+      },
+      "L": {
+        "NE": -3,
+        "SW": -2
+      },
+      "other": -1
+    },
+    {
+      "headings": "NSS",
+      "initial": "BLACK",
+      "turns": "LRL",
+      "outgoing": "WWE",
+      "C": {
+        "SE": -2,
+        "NW": -1
+      },
+      "L": {
+        "NE": -3,
+        "SW": -3
+      },
+      "other": -1
+    },
+    {
+      "headings": "SSN",
+      "initial": "BLACK",
+      "turns": "LRL",
+      "outgoing": "EWW",
+      "C": {
+        "SE": -2,
+        "NW": -1
+      },
+      "L": {
+        "NE": -3,
+        "SW": -3
+      },
+      "other": -1
+    },
+    {
+      "headings": "SNSS",
+      "initial": "WHITE",
+      "turns": "RLRL",
+      "outgoing": "WWWE",
+      "C": {
+        "SE": -2,
+        "NW": 0
+      },
+      "L": {
+        "NE": -3,
+        "SW": -3
+      },
+      "other": 0
+    },
+    {
+      "headings": "SSSN",
+      "initial": "WHITE",
+      "turns": "RLRL",
+      "outgoing": "WEWW",
+      "C": {
+        "SE": -2,
+        "NW": 0
+      },
+      "L": {
+        "NE": -3,
+        "SW": -3
+      },
+      "other": 0
+    }
+  ],
+  "pairs": [
+    {
+      "O": {
+        "headings": "W",
+        "initial": "BLACK",
+        "turns": "L",
+        "outgoing": "S",
+        "C": {
+          "NE": -2,
+          "SW": -2
+        },
+        "L": {
+          "NW": -2,
+          "SE": -3
+        },
+        "other": -2
+      },
+      "E": {
+        "headings": "S",
+        "initial": "BLACK",
+        "turns": "L",
+        "outgoing": "E",
+        "C": {
+          "SE": -2,
+          "NW": -2
+        },
+        "L": {
+          "NE": -3,
+          "SW": -2
+        },
+        "other": -2
+      },
+      "W_input_rank": 0,
+      "E_output_rank": 0,
+      "minimum_clocks": {
+        "O": [
+          0
+        ],
+        "E": [
+          1
+        ]
+      },
+      "next_N_outputs": 0,
+      "previous_N_inputs": 0
+    },
+    {
+      "O": {
+        "headings": "EW",
+        "initial": "WHITE",
+        "turns": "RL",
+        "outgoing": "SS",
+        "C": {
+          "NE": -2,
+          "SW": -1
+        },
+        "L": {
+          "NW": -2,
+          "SE": -3
+        },
+        "other": -1
+      },
+      "E": {
+        "headings": "SS",
+        "initial": "WHITE",
+        "turns": "RL",
+        "outgoing": "WE",
+        "C": {
+          "SE": -2,
+          "NW": -1
+        },
+        "L": {
+          "NE": -3,
+          "SW": -2
+        },
+        "other": -1
+      },
+      "W_input_rank": 1,
+      "E_output_rank": 1,
+      "minimum_clocks": {
+        "O": [
+          -4,
+          0
+        ],
+        "E": [
+          -3,
+          1
+        ]
+      },
+      "next_N_outputs": 0,
+      "previous_N_inputs": 0
+    },
+    {
+      "O": {
+        "headings": "EW",
+        "initial": "WHITE",
+        "turns": "RL",
+        "outgoing": "SS",
+        "C": {
+          "NE": -2,
+          "SW": -1
+        },
+        "L": {
+          "NW": -2,
+          "SE": -3
+        },
+        "other": -1
+      },
+      "E": {
+        "headings": "NSS",
+        "initial": "BLACK",
+        "turns": "LRL",
+        "outgoing": "WWE",
+        "C": {
+          "SE": -2,
+          "NW": -1
+        },
+        "L": {
+          "NE": -3,
+          "SW": -3
+        },
+        "other": -1
+      },
+      "W_input_rank": 1,
+      "E_output_rank": 2,
+      "minimum_clocks": {
+        "O": [
+          -4,
+          0
+        ],
+        "E": [
+          -7,
+          -3,
+          1
+        ]
+      },
+      "next_N_outputs": 0,
+      "previous_N_inputs": 1
+    },
+    {
+      "O": {
+        "headings": "EEW",
+        "initial": "BLACK",
+        "turns": "LRL",
+        "outgoing": "NSS",
+        "C": {
+          "NE": -2,
+          "SW": -1
+        },
+        "L": {
+          "NW": -3,
+          "SE": -3
+        },
+        "other": -1
+      },
+      "E": {
+        "headings": "SS",
+        "initial": "WHITE",
+        "turns": "RL",
+        "outgoing": "WE",
+        "C": {
+          "SE": -2,
+          "NW": -1
+        },
+        "L": {
+          "NE": -3,
+          "SW": -2
+        },
+        "other": -1
+      },
+      "W_input_rank": 2,
+      "E_output_rank": 1,
+      "minimum_clocks": {
+        "O": [
+          -8,
+          -4,
+          0
+        ],
+        "E": [
+          -3,
+          1
+        ]
+      },
+      "next_N_outputs": 1,
+      "previous_N_inputs": 0
+    },
+    {
+      "O": {
+        "headings": "EEW",
+        "initial": "BLACK",
+        "turns": "LRL",
+        "outgoing": "NSS",
+        "C": {
+          "NE": -2,
+          "SW": -1
+        },
+        "L": {
+          "NW": -3,
+          "SE": -3
+        },
+        "other": -1
+      },
+      "E": {
+        "headings": "NSS",
+        "initial": "BLACK",
+        "turns": "LRL",
+        "outgoing": "WWE",
+        "C": {
+          "SE": -2,
+          "NW": -1
+        },
+        "L": {
+          "NE": -3,
+          "SW": -3
+        },
+        "other": -1
+      },
+      "W_input_rank": 2,
+      "E_output_rank": 2,
+      "minimum_clocks": {
+        "O": [
+          -8,
+          -4,
+          0
+        ],
+        "E": [
+          -8,
+          -3,
+          1
+        ]
+      },
+      "next_N_outputs": 1,
+      "previous_N_inputs": 1
+    },
+    {
+      "O": {
+        "headings": "WEE",
+        "initial": "BLACK",
+        "turns": "LRL",
+        "outgoing": "SSN",
+        "C": {
+          "NE": -2,
+          "SW": -1
+        },
+        "L": {
+          "NW": -3,
+          "SE": -3
+        },
+        "other": -1
+      },
+      "E": {
+        "headings": "SS",
+        "initial": "WHITE",
+        "turns": "RL",
+        "outgoing": "WE",
+        "C": {
+          "SE": -2,
+          "NW": -1
+        },
+        "L": {
+          "NE": -3,
+          "SW": -2
+        },
+        "other": -1
+      },
+      "W_input_rank": 0,
+      "E_output_rank": 1,
+      "minimum_clocks": {
+        "O": [
+          0,
+          4,
+          8
+        ],
+        "E": [
+          1,
+          5
+        ]
+      },
+      "next_N_outputs": 1,
+      "previous_N_inputs": 0
+    },
+    {
+      "O": {
+        "headings": "WEE",
+        "initial": "BLACK",
+        "turns": "LRL",
+        "outgoing": "SSN",
+        "C": {
+          "NE": -2,
+          "SW": -1
+        },
+        "L": {
+          "NW": -3,
+          "SE": -3
+        },
+        "other": -1
+      },
+      "E": {
+        "headings": "NSS",
+        "initial": "BLACK",
+        "turns": "LRL",
+        "outgoing": "WWE",
+        "C": {
+          "SE": -2,
+          "NW": -1
+        },
+        "L": {
+          "NE": -3,
+          "SW": -3
+        },
+        "other": -1
+      },
+      "W_input_rank": 0,
+      "E_output_rank": 2,
+      "minimum_clocks": {
+        "O": [
+          0,
+          4,
+          8
+        ],
+        "E": [
+          -3,
+          1,
+          5
+        ]
+      },
+      "next_N_outputs": 1,
+      "previous_N_inputs": 1
+    },
+    {
+      "O": {
+        "headings": "WEE",
+        "initial": "BLACK",
+        "turns": "LRL",
+        "outgoing": "SSN",
+        "C": {
+          "NE": -2,
+          "SW": -1
+        },
+        "L": {
+          "NW": -3,
+          "SE": -3
+        },
+        "other": -1
+      },
+      "E": {
+        "headings": "SSN",
+        "initial": "BLACK",
+        "turns": "LRL",
+        "outgoing": "EWW",
+        "C": {
+          "SE": -2,
+          "NW": -1
+        },
+        "L": {
+          "NE": -3,
+          "SW": -3
+        },
+        "other": -1
+      },
+      "W_input_rank": 0,
+      "E_output_rank": 0,
+      "minimum_clocks": {
+        "O": [
+          0,
+          4,
+          8
+        ],
+        "E": [
+          1,
+          5,
+          9
+        ]
+      },
+      "next_N_outputs": 1,
+      "previous_N_inputs": 1
+    },
+    {
+      "O": {
+        "headings": "EEEW",
+        "initial": "WHITE",
+        "turns": "RLRL",
+        "outgoing": "SNSS",
+        "C": {
+          "NE": -2,
+          "SW": 0
+        },
+        "L": {
+          "NW": -3,
+          "SE": -3
+        },
+        "other": 0
+      },
+      "E": {
+        "headings": "SNSS",
+        "initial": "WHITE",
+        "turns": "RLRL",
+        "outgoing": "WWWE",
+        "C": {
+          "SE": -2,
+          "NW": 0
+        },
+        "L": {
+          "NE": -3,
+          "SW": -3
+        },
+        "other": 0
+      },
+      "W_input_rank": 3,
+      "E_output_rank": 3,
+      "minimum_clocks": {
+        "O": [
+          -12,
+          -8,
+          -4,
+          0
+        ],
+        "E": [
+          -11,
+          -7,
+          -3,
+          1
+        ]
+      },
+      "next_N_outputs": 1,
+      "previous_N_inputs": 1
+    },
+    {
+      "O": {
+        "headings": "EWEE",
+        "initial": "WHITE",
+        "turns": "RLRL",
+        "outgoing": "SSSN",
+        "C": {
+          "NE": -2,
+          "SW": 0
+        },
+        "L": {
+          "NW": -3,
+          "SE": -3
+        },
+        "other": 0
+      },
+      "E": {
+        "headings": "SNSS",
+        "initial": "WHITE",
+        "turns": "RLRL",
+        "outgoing": "WWWE",
+        "C": {
+          "SE": -2,
+          "NW": 0
+        },
+        "L": {
+          "NE": -3,
+          "SW": -3
+        },
+        "other": 0
+      },
+      "W_input_rank": 1,
+      "E_output_rank": 3,
+      "minimum_clocks": {
+        "O": [
+          -8,
+          0,
+          4,
+          8
+        ],
+        "E": [
+          -7,
+          -3,
+          1,
+          5
+        ]
+      },
+      "next_N_outputs": 1,
+      "previous_N_inputs": 1
+    },
+    {
+      "O": {
+        "headings": "EWEE",
+        "initial": "WHITE",
+        "turns": "RLRL",
+        "outgoing": "SSSN",
+        "C": {
+          "NE": -2,
+          "SW": 0
+        },
+        "L": {
+          "NW": -3,
+          "SE": -3
+        },
+        "other": 0
+      },
+      "E": {
+        "headings": "SSSN",
+        "initial": "WHITE",
+        "turns": "RLRL",
+        "outgoing": "WEWW",
+        "C": {
+          "SE": -2,
+          "NW": 0
+        },
+        "L": {
+          "NE": -3,
+          "SW": -3
+        },
+        "other": 0
+      },
+      "W_input_rank": 1,
+      "E_output_rank": 1,
+      "minimum_clocks": {
+        "O": [
+          -4,
+          0,
+          4,
+          8
+        ],
+        "E": [
+          -3,
+          1,
+          5,
+          9
+        ]
+      },
+      "next_N_outputs": 1,
+      "previous_N_inputs": 1
+    }
+  ]
+}

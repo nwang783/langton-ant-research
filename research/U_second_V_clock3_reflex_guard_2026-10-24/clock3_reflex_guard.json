@@ -1,0 +1,190 @@
+{
+  "status": "AUTHOR_PENDING_INDEPENDENT_AUDIT",
+  "scope": "Only the two necessary old-outgoing-U chronological FIRST new-contact cases Q5,0E+C+V0,4S and B6,1E+C+V0,4S at true preforeign clock3 are excluded. Earlier sourceU half is rigorously inside the simple first-contact loop, but below the whole loop support. No earlier/later arbitrary contacts or unconditional enclosure contradiction.",
+  "cases": [
+    {
+      "foreign": "Q",
+      "foreign_pose": [
+        5,
+        0,
+        1
+      ],
+      "true_preforeign_C_clock": 3,
+      "FIRST_atom": "C",
+      "SECOND_atom": "V",
+      "SECOND_pose": [
+        0,
+        4,
+        2
+      ],
+      "foreign_plus_first_and_second_pieces": [
+        [
+          [
+            9,
+            1
+          ],
+          [
+            7,
+            7
+          ]
+        ],
+        [
+          [
+            7,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        [
+          [
+            3,
+            7
+          ],
+          [
+            1,
+            9
+          ]
+        ],
+        [
+          [
+            1,
+            9
+          ],
+          [
+            -1,
+            3
+          ]
+        ]
+      ],
+      "first_old_U_contact": {
+        "source_parameter": "1/2",
+        "second_parameter": "1",
+        "point": [
+          -1,
+          3
+        ]
+      },
+      "loop_orientation": "CCW",
+      "corner_inside_reflex_angle": "2*pi-beta, beta=atan(1/3)",
+      "reverse_incoming_old_U_half_strictly_inside": true,
+      "phase_support": {
+        "source_U_remainder_min_y2": 3,
+        "N_clock0_after_U_head_y_at_least4": true,
+        "N_clock0_corrected_y_at_least7": true,
+        "W_clock1_head_y_at_least5": true,
+        "W_clock1_corrected_y_at_least9": true,
+        "S_clock2_and_C3_minimum_reduced_to_E3": true,
+        "E_clock3_head_y_at_least_foreign_y": 0,
+        "E_clock3_corrected_y_at_least": 1,
+        "foreign_repaired_piece_min_y2": 1,
+        "FIRST_C_and_SECOND_V_min_y2": 3
+      },
+      "whole_loop_min_y2": 1,
+      "actual_old_U_start": [
+        -1,
+        -1
+      ],
+      "old_start_strictly_below_entire_loop": true
+    },
+    {
+      "foreign": "B",
+      "foreign_pose": [
+        6,
+        1,
+        1
+      ],
+      "true_preforeign_C_clock": 3,
+      "FIRST_atom": "C",
+      "SECOND_atom": "V",
+      "SECOND_pose": [
+        0,
+        4,
+        2
+      ],
+      "foreign_plus_first_and_second_pieces": [
+        [
+          [
+            11,
+            3
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        [
+          [
+            9,
+            9
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        [
+          [
+            3,
+            7
+          ],
+          [
+            1,
+            9
+          ]
+        ],
+        [
+          [
+            1,
+            9
+          ],
+          [
+            -1,
+            3
+          ]
+        ]
+      ],
+      "first_old_U_contact": {
+        "source_parameter": "1/2",
+        "second_parameter": "1",
+        "point": [
+          -1,
+          3
+        ]
+      },
+      "loop_orientation": "CCW",
+      "corner_inside_reflex_angle": "2*pi-beta, beta=atan(1/3)",
+      "reverse_incoming_old_U_half_strictly_inside": true,
+      "phase_support": {
+        "source_U_remainder_min_y2": 3,
+        "N_clock0_after_U_head_y_at_least4": true,
+        "N_clock0_corrected_y_at_least7": true,
+        "W_clock1_head_y_at_least5": true,
+        "W_clock1_corrected_y_at_least9": true,
+        "S_clock2_and_C3_minimum_reduced_to_E3": true,
+        "E_clock3_head_y_at_least_foreign_y": 1,
+        "E_clock3_corrected_y_at_least": 3,
+        "foreign_repaired_piece_min_y2": 3,
+        "FIRST_C_and_SECOND_V_min_y2": 3
+      },
+      "whole_loop_min_y2": 3,
+      "actual_old_U_start": [
+        -1,
+        -1
+      ],
+      "old_start_strictly_below_entire_loop": true
+    }
+  ],
+  "topological_analytic_obligation": "First contact at old-U strict midpoint closes B-to-B future subarc into a Jordan loop. Signed one-foreign tangent lift gives CCW orientation. The reverse incoming old-U half lies in the reflex interior; it cannot leave without another old/new intersection, forbidden by old simplicity and the chronological FIRST-contact premise. Hence oldUstart is strictly inside. A loop contained in y>=minimum has its bounded region there; oldUstart_y=-1 contradicts minimum1/3.",
+  "no_age_or_identity_rule_used": true,
+  "dependencies": {
+    "U_star_one_foreign_return_transfer_2026-10-24/check_U_star_corner_transfer.py": "fa390462928ee52330465e62b2ead5cca1f214fae58344bc689518b89da2b946",
+    "seven_word_spatial_return_2026-10-23/foreign_kinked_barrier_manifest.json": "92909b5493022d5d48b5da8a11581e1c4409f66380fecc4c0a0db3746d9e97b9",
+    "seven_word_spatial_return_2026-10-23/complete8_foreign_adjacency_manifest.json": "735023bebfa154bd936e9546023367b541006ea1d9f57bb2eb7240bf040017ea",
+    "second_ordinary_after_first_foreign_2026-10-24/old_U_second_contact_LEFT_frontier_manifest.json": "474b53816c006efac6230d5e5e77f6ffda65ac384df7dedc483d8d6f4be0677f",
+    "U_second_V_original_q_frontier_2026-10-24/manifest.json": "d9ab9c0dd926bf27f9563a849f6d3e21016d45f3f1849c43335108835879cfcc",
+    "U_second_V_clock3_reflex_guard_2026-10-24/check_clock3_reflex_guard.py": "0703d7987cc99c0a14903f91863224af0fb7af958eb7f79d6bcac875ae3ae69d"
+  }
+}

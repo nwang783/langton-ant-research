@@ -1,0 +1,146 @@
+{
+  "status": "AUTHOR_V1_U_HELPER_PRE_DC_CUT_PASS",
+  "scope": "Only signedDC-age3\u2192V1 last-U-helper branch, full unfundedI>=28. Boundary theorem supplies conditional lower4. No fresh roots, rank, recurrence, V1 closure or capture.",
+  "normalization": {
+    "H": 1,
+    "S": 28,
+    "DC_birth_clock": 0,
+    "U_helper_head_affine": [
+      -4,
+      1
+    ],
+    "goal_head": [
+      0,
+      1,
+      1
+    ],
+    "helper_C_clock": 3,
+    "helper_peak": 24
+  },
+  "young3_source_first_activation": {
+    "source_head_height": -2,
+    "initial_input_heights": [
+      1,
+      1
+    ],
+    "I28_activations": [
+      30,
+      30
+    ],
+    "outer_score": 28
+  },
+  "five_helper_inputs": [
+    {
+      "input": [
+        -1,
+        1
+      ],
+      "affine_cell_at_g0": [
+        -3,
+        2
+      ],
+      "g_coefficient": [
+        -1,
+        1
+      ],
+      "height": -1,
+      "produced_min_age_at_helper": 4,
+      "minimum_age_at_preDC_cut": 1,
+      "latest_birth_clock_relative_tau": -1,
+      "entry_excluded_I28": false,
+      "entry_excluded_I30": true
+    },
+    {
+      "input": [
+        -1,
+        2
+      ],
+      "affine_cell_at_g0": [
+        -2,
+        2
+      ],
+      "g_coefficient": [
+        -1,
+        1
+      ],
+      "height": 0,
+      "produced_min_age_at_helper": 4,
+      "minimum_age_at_preDC_cut": 1,
+      "latest_birth_clock_relative_tau": -1,
+      "entry_excluded_I28": true,
+      "entry_excluded_I30": true
+    },
+    {
+      "input": [
+        -1,
+        4
+      ],
+      "affine_cell_at_g0": [
+        0,
+        2
+      ],
+      "g_coefficient": [
+        -1,
+        1
+      ],
+      "height": 2,
+      "produced_min_age_at_helper": 5,
+      "minimum_age_at_preDC_cut": 2,
+      "latest_birth_clock_relative_tau": -2,
+      "entry_excluded_I28": true,
+      "entry_excluded_I30": true
+    },
+    {
+      "input": [
+        0,
+        2
+      ],
+      "affine_cell_at_g0": [
+        -2,
+        1
+      ],
+      "g_coefficient": [
+        -1,
+        1
+      ],
+      "height": -1,
+      "produced_min_age_at_helper": 5,
+      "minimum_age_at_preDC_cut": 2,
+      "latest_birth_clock_relative_tau": -2,
+      "entry_excluded_I28": false,
+      "entry_excluded_I30": true
+    },
+    {
+      "input": [
+        0,
+        3
+      ],
+      "affine_cell_at_g0": [
+        -1,
+        1
+      ],
+      "g_coefficient": [
+        -1,
+        1
+      ],
+      "height": 0,
+      "produced_min_age_at_helper": 5,
+      "minimum_age_at_preDC_cut": 2,
+      "latest_birth_clock_relative_tau": -2,
+      "entry_excluded_I28": true,
+      "entry_excluded_I30": true
+    }
+  ],
+  "pre_DC_required_live_identities": 6,
+  "post_DC_required_live_identities": 9,
+  "pre_DC_produced_at_I28_at_least": 4,
+  "post_DC_produced_at_I28_at_least": 7,
+  "pre_DC_produced_at_I30": 6,
+  "post_DC_produced_at_I30": 9,
+  "meaning": "At preDC the five eventual U-helper identities coexist with DCinput; their produced ages are >=1,1,2,2,2, entry identities exempt. At I28 three helpers forced produced; at I30 all five. No helper identity is a DC I/O; all four fresh DC outputs add to the immediate postDC cut.",
+  "dependencies": {
+    "chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "chronology_dcuv/delayed_height_probe/u1_residue_cegar/root_out.json": "52a20cfa26b60df57cb1ce58fefda880b93983600cb771b43dd3e6e6aafd26cb",
+    "check_v1_U_helper_preDC_cut.py": "1d457bddd4350c25bef9b9efcab1a1b84db845b25ca42037dc342e902c0f6fc5"
+  }
+}

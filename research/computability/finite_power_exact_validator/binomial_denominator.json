@@ -1,0 +1,224 @@
+{
+  "cases": 9,
+  "literal_occupation_checks": 25,
+  "records": [
+    {
+      "passes": true,
+      "reduced_numerator": "-1",
+      "reduced_denominator": "x*z - 1",
+      "factors": [
+        {
+          "factor": "x*z - 1",
+          "multiplicity": 1,
+          "primitive_monomial": [
+            1,
+            1,
+            0
+          ],
+          "univariate": "t - 1",
+          "passes": true,
+          "reason": null
+        }
+      ],
+      "name": "single_affine_particle"
+    },
+    {
+      "passes": true,
+      "reduced_numerator": "1",
+      "reduced_denominator": "x*y*z**2 - x*z - y*z + 1",
+      "factors": [
+        {
+          "factor": "x*z - 1",
+          "multiplicity": 1,
+          "primitive_monomial": [
+            1,
+            1,
+            0
+          ],
+          "univariate": "t - 1",
+          "passes": true,
+          "reason": null
+        },
+        {
+          "factor": "y*z - 1",
+          "multiplicity": 1,
+          "primitive_monomial": [
+            1,
+            0,
+            1
+          ],
+          "univariate": "t - 1",
+          "passes": true,
+          "reason": null
+        }
+      ],
+      "name": "two_dimensional_fiber"
+    },
+    {
+      "passes": true,
+      "reduced_numerator": "1",
+      "reduced_denominator": "x**2*z**2 - 2*x*z + 1",
+      "factors": [
+        {
+          "factor": "x*z - 1",
+          "multiplicity": 2,
+          "primitive_monomial": [
+            1,
+            1,
+            0
+          ],
+          "univariate": "t - 1",
+          "passes": true,
+          "reason": null
+        }
+      ],
+      "name": "repeated_particle_pole"
+    },
+    {
+      "passes": true,
+      "reduced_numerator": "-1",
+      "reduced_denominator": "x**2*z**2 - 1",
+      "factors": [
+        {
+          "factor": "x*z - 1",
+          "multiplicity": 1,
+          "primitive_monomial": [
+            1,
+            1,
+            0
+          ],
+          "univariate": "t - 1",
+          "passes": true,
+          "reason": null
+        },
+        {
+          "factor": "x*z + 1",
+          "multiplicity": 1,
+          "primitive_monomial": [
+            1,
+            1,
+            0
+          ],
+          "univariate": "t + 1",
+          "passes": true,
+          "reason": null
+        }
+      ],
+      "name": "period_two_particle"
+    },
+    {
+      "passes": true,
+      "reduced_numerator": "1",
+      "reduced_denominator": "x**2*z**2 + x*z + 1",
+      "factors": [
+        {
+          "factor": "x**2*z**2 + x*z + 1",
+          "multiplicity": 1,
+          "primitive_monomial": [
+            1,
+            1,
+            0
+          ],
+          "univariate": "t**2 + t + 1",
+          "passes": true,
+          "reason": null
+        }
+      ],
+      "name": "signed_period_three"
+    },
+    {
+      "passes": false,
+      "reduced_numerator": "-1",
+      "reduced_denominator": "x*z + z - 1",
+      "factors": [
+        {
+          "factor": "x*z + z - 1",
+          "multiplicity": 1,
+          "primitive_monomial": [
+            1,
+            1,
+            0
+          ],
+          "univariate": null,
+          "passes": false,
+          "reason": "factor support is not on one monomial ray"
+        }
+      ],
+      "name": "Pascal_coefficients"
+    },
+    {
+      "passes": false,
+      "reduced_numerator": "-1",
+      "reduced_denominator": "2*z - 1",
+      "factors": [
+        {
+          "factor": "2*z - 1",
+          "multiplicity": 1,
+          "primitive_monomial": [
+            1,
+            0,
+            0
+          ],
+          "univariate": "t - 1/2",
+          "passes": false,
+          "reason": "one-ray factor is not cyclotomic"
+        }
+      ],
+      "name": "exponential_single_site"
+    },
+    {
+      "passes": true,
+      "reduced_numerator": "-1",
+      "reduced_denominator": "x*z - 1",
+      "factors": [
+        {
+          "factor": "x*z - 1",
+          "multiplicity": 1,
+          "primitive_monomial": [
+            1,
+            1,
+            0
+          ],
+          "univariate": "t - 1",
+          "passes": true,
+          "reason": null
+        }
+      ],
+      "name": "cancellation_removed"
+    },
+    {
+      "passes": false,
+      "reduced_numerator": "x*y*z + x*z - 4*y*z + y + z",
+      "reduced_denominator": "5*z**2 - 6*z + 1",
+      "factors": [
+        {
+          "factor": "z - 1",
+          "multiplicity": 1,
+          "primitive_monomial": [
+            1,
+            0,
+            0
+          ],
+          "univariate": "t - 1",
+          "passes": true,
+          "reason": null
+        },
+        {
+          "factor": "5*z - 1",
+          "multiplicity": 1,
+          "primitive_monomial": [
+            1,
+            0,
+            0
+          ],
+          "univariate": "t - 1/5",
+          "passes": false,
+          "reason": "one-ray factor is not cyclotomic"
+        }
+      ],
+      "name": "literal_right_five"
+    }
+  ],
+  "scope": "Necessary reduced-denominator filter only. Passing does not imply bounded coefficients or legality.",
+  "seconds": 0.10052256399649195
+}

@@ -1,0 +1,111 @@
+{
+  "status": "PASS independent exact one-C cone classification and literal older-helper contact",
+  "five_alternatives": [
+    {
+      "strict": [
+        8
+      ],
+      "feasible": false,
+      "conflict": {
+        "time": 60,
+        "cell": [
+          0,
+          2
+        ],
+        "turn": "L",
+        "previous": [
+          20,
+          "L"
+        ]
+      }
+    },
+    {
+      "strict": [
+        5,
+        0
+      ],
+      "feasible": true,
+      "conflict": null
+    },
+    {
+      "strict": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "feasible": false,
+      "conflict": {
+        "time": 59,
+        "cell": [
+          0,
+          3
+        ],
+        "turn": "L",
+        "previous": [
+          19,
+          "L"
+        ]
+      }
+    },
+    {
+      "strict": [
+        0,
+        0,
+        1,
+        4
+      ],
+      "feasible": false,
+      "conflict": {
+        "time": 59,
+        "cell": [
+          0,
+          3
+        ],
+        "turn": "L",
+        "previous": [
+          19,
+          "L"
+        ]
+      }
+    },
+    {
+      "strict": [
+        0,
+        0,
+        0,
+        1,
+        7
+      ],
+      "feasible": false,
+      "conflict": {
+        "time": 59,
+        "cell": [
+          0,
+          3
+        ],
+        "turn": "L",
+        "previous": [
+          19,
+          "L"
+        ]
+      }
+    }
+  ],
+  "unique_strict_word": [
+    5,
+    0
+  ],
+  "positive_raw_plus_marker_lengths": [
+    130,
+    145,
+    160
+  ],
+  "older_helper": [
+    -1,
+    2
+  ],
+  "actual_core_time": 66,
+  "manifest_sha256": "61b1a95e7c0563de8cb941287c1bc3e3ab1d014deb436420945ca8ea14f37f44",
+  "scope": "Only source VCC supplying both lower U inputs at exact C-age3; no fresh-root assumption, no U bound, no exclusion of the positive word."
+}

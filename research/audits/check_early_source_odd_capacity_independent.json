@@ -1,0 +1,180 @@
+{
+  "status": "PASS n_early <=14 Nodd for exact surviving early K1 source classes",
+  "note_sha256": "7893c25250c26861a4a23cc87c08df968e3086541e5a18e39b0aceb9a9eb2bb1",
+  "new_local_dependency_report": "def8e8cd631e23ef2bf621d264494210f559ba1c5c6d403987356b219e6b66dd",
+  "ancestor_rows": 72,
+  "odd_hitting_variables": [
+    "D",
+    "a",
+    "j",
+    "q",
+    "v"
+  ],
+  "all_even_rows": 2,
+  "source_successor_types": {
+    "S": 36,
+    "R": 36
+  },
+  "normalized_cell_offsets": [
+    [
+      -3,
+      -1
+    ],
+    [
+      -3,
+      0
+    ],
+    [
+      -3,
+      1
+    ],
+    [
+      -2,
+      -1
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "all_rotated_offsets": [
+    [
+      -3,
+      -1
+    ],
+    [
+      -3,
+      0
+    ],
+    [
+      -3,
+      1
+    ],
+    [
+      -2,
+      -1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      -1,
+      3
+    ],
+    [
+      -1,
+      4
+    ],
+    [
+      0,
+      -3
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      -3
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      -3
+    ],
+    [
+      2,
+      -2
+    ],
+    [
+      2,
+      -1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ]
+  ],
+  "checker_counts": {
+    "0": 14,
+    "1": 14
+  },
+  "analytic": [
+    "The five variables v,D,a,q,j hit every nonempty odd history set in the signed complete72-row inventory; the two remaining rows give exactly the early cross-port obstruction. Their three unknown lower-square corners are included in S, so if all nine physical sites are even the full local contradiction applies without global zero output.",
+    "The actual successor port path gives D=(2,2) for straight and D=(2,1) for right; both are retained. Rotation about face center(.5,.5) produces28 physical offsets with14 per checker parity.",
+    "Every actual C face lower-left has fixed checker parity. Full-heading period is even and full drift preserves that parity. For each odd physical class[p], supported source classes are among[p-s] for the14 eligible offsets. Quotient aliases only reduce the possible class count, irrespective drift direction or short quotient. Distinct source face classes therefore number at most14 times all odd classes."
+  ],
+  "scope": "Exact early source family, complete WHITE cap4 K1. Aggregate OUTPUT capacity, not original black fuel, disjoint extra charge, front exclusion, or global capture."
+}

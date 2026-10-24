@@ -1,0 +1,52 @@
+{
+  "status": "literal exact inheritance remains valid with R-cycle births; global erasure forcing/renewal controls passed",
+  "counts": {
+    "runs": 201,
+    "prefixes": 38000,
+    "w_birth_but_bridge_L_blocks": 161,
+    "first_erasure_cases": 200,
+    "max_erasure_wait": 14
+  },
+  "blank": {
+    "m": 0,
+    "T": 2000,
+    "A": 179,
+    "DH": 233,
+    "DG": 399,
+    "ordinary": 577,
+    "exceptional": 322,
+    "w_birth_but_bridge_L_blocks": 17
+  },
+  "rods": [
+    {
+      "r": 1,
+      "m": 2,
+      "first_erasure": 9,
+      "bound": 13
+    },
+    {
+      "r": 2,
+      "m": 4,
+      "first_erasure": 13,
+      "bound": 21
+    },
+    {
+      "r": 10,
+      "m": 20,
+      "first_erasure": 45,
+      "bound": 85
+    },
+    {
+      "r": 30,
+      "m": 60,
+      "first_erasure": 125,
+      "bound": 245
+    },
+    {
+      "r": 100,
+      "m": 200,
+      "first_erasure": 405,
+      "bound": 805
+    }
+  ]
+}

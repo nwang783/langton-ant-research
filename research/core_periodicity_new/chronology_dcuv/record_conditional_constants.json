@@ -1,0 +1,119 @@
+{
+  "status": "CONDITIONAL ARITHMETIC ONLY: requires all13 funding-aware strict record event exclusions, of which11 are signed at2026-10-23 04:59 UTC.",
+  "geometry_sha256": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+  "core_offsets": [
+    0,
+    22,
+    20,
+    10
+  ],
+  "minimum_initial_weight": 28,
+  "activation_offset_max": [
+    6,
+    9,
+    0,
+    [
+      0,
+      3
+    ]
+  ],
+  "shifted_raw_prefix_max": [
+    14,
+    9,
+    0,
+    51,
+    [
+      0,
+      7
+    ]
+  ],
+  "packet_arithmetic": [
+    {
+      "packet": 0,
+      "name": "D",
+      "length": 10,
+      "D": 1,
+      "V": 0,
+      "U": 0,
+      "C": 0,
+      "mass_change": 0
+    },
+    {
+      "packet": 1,
+      "name": "DC",
+      "length": 25,
+      "D": 1,
+      "V": 0,
+      "U": 0,
+      "C": 1,
+      "mass_change": 3
+    },
+    {
+      "packet": 4,
+      "name": "V",
+      "length": 18,
+      "D": 0,
+      "V": 1,
+      "U": 0,
+      "C": 0,
+      "mass_change": 4
+    },
+    {
+      "packet": 5,
+      "name": "VC",
+      "length": 33,
+      "D": 0,
+      "V": 1,
+      "U": 0,
+      "C": 1,
+      "mass_change": 7
+    },
+    {
+      "packet": 6,
+      "name": "VCC",
+      "length": 48,
+      "D": 0,
+      "V": 1,
+      "U": 0,
+      "C": 2,
+      "mass_change": 10
+    },
+    {
+      "packet": 7,
+      "name": "U",
+      "length": 28,
+      "D": 0,
+      "V": 0,
+      "U": 1,
+      "C": 0,
+      "mass_change": 4
+    },
+    {
+      "packet": 8,
+      "name": "UC",
+      "length": 43,
+      "D": 0,
+      "V": 0,
+      "U": 1,
+      "C": 1,
+      "mass_change": 7
+    },
+    {
+      "packet": 9,
+      "name": "UCC",
+      "length": 58,
+      "D": 0,
+      "V": 0,
+      "U": 1,
+      "C": 2,
+      "mass_change": 10
+    }
+  ],
+  "formulae": {
+    "activation_jump": "K=I+6",
+    "raw_radius": "R=ceil(18+(I+6)*(m-5)/2)",
+    "non_D_macro_bound": "t=floor((2*R+1)^2/3)",
+    "raw_duration_bound": "20*R*(t+1)+28*t"
+  },
+  "example_only_I48": "R=18+27*(m-5), not asserted sufficient for currently open cases."
+}

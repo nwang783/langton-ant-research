@@ -1,0 +1,205 @@
+{
+  "status": "PASS exact finite-word Boolean compiler WITH mandatory minimum-board simplification; no solver/global claim",
+  "manifest_sha256": "16fb0d540c5b4bfee36059b838afd20fe46fae04568c7d9b98547a59ee16ed1d",
+  "all_source_hashes": {
+    "SYMBOLIC_CAPPED_WORD_GUARD.md": "40a911057867db1208d379c1aaf5b55250d2aa176a737d7657e2b57e801b1c31",
+    "symbolic_capped_word.py": "5fa2b556c9a8628f58e1b8d189b15a31563a6adbea13679374c0f01859925e4c",
+    "check_symbolic_capped_word.py": "71a67508cc37603daa9e12d10f8224b8a8acd37f174f84fa1ff60013c7632db2",
+    "symbolic_capped_word_controls.json": "9e7e4b469043e4b9372781d72995be69b6e286131c26d613f1d7b359eb302cf6",
+    "symbolic_unit_contradiction.json": "76eb7c8df61d1667234821ff1c1057f0a449026cb65623bbe2b82b5f30c9cb31",
+    "certify_cap7_word_models.py": "226cee0d9339c9d989ff8d8046bb758ab026ac2d5891dc04c4946f1f1a5697fc",
+    "cap7_word_cnf_models.json": "115d2bd35d302a9b8b1ab067ef18f74723169c19dca2d86edd87050aa983af4e",
+    "cap7_longest_word.cnf": "6be14dabb135e313d39426f3086803824e3e9a3fbc02dce8010ab1c66b18f183",
+    "cap7_longest_word_cnf_map.json": "6623ce912c23acfb5390644d39a4157abe9a594f476fefd4a3151f3cb586067d",
+    "MINIMUM_BOARD_SIMPLIFICATION.md": "f9774f2c77660260a6b352824a9f258d5d1800774e5acf884d56499017c47e31",
+    "minimum_board_word_checker.py": "d9e33f6646a2d4851073a22faec8076d831b15affa6c7ddcb3c079f50ec5f6d2",
+    "minimum_board_word_controls.json": "2751a4d7cf0d1d6856c575c8b0f63eed3f30308db24203352bfff494299f039f"
+  },
+  "fresh922_CNF_versus_full_graph_controls": [
+    [
+      "RRRRL",
+      4,
+      4311,
+      12842,
+      514
+    ],
+    [
+      "RRRRLRL",
+      5,
+      11958,
+      36146,
+      102
+    ],
+    [
+      "RRRRLRLRL",
+      6,
+      26327,
+      80286,
+      102
+    ],
+    [
+      "RRRRLRLRRL",
+      6,
+      29484,
+      89998,
+      102
+    ],
+    [
+      "RRRRLRLRLRL",
+      7,
+      50426,
+      154712,
+      102
+    ]
+  ],
+  "fresh23_decoded_clause_and_complete_field_models": [
+    [
+      "RRRRLL",
+      1,
+      25198,
+      76977
+    ],
+    [
+      "RRRRLRL",
+      1,
+      30042,
+      91934
+    ],
+    [
+      "RRRRLRLL",
+      2,
+      35390,
+      108366
+    ],
+    [
+      "RRRRLRLRL",
+      2,
+      40234,
+      123323
+    ],
+    [
+      "RRRRLRRLL",
+      2,
+      40217,
+      123314
+    ],
+    [
+      "RRRRLLLLRL",
+      2,
+      45218,
+      138659
+    ],
+    [
+      "RRRRLLRLRL",
+      3,
+      45527,
+      139632
+    ],
+    [
+      "RRRRLRLLRL",
+      3,
+      45547,
+      139692
+    ],
+    [
+      "RRRRLRLRLL",
+      3,
+      45582,
+      139755
+    ],
+    [
+      "RRRRLRLRRL",
+      2,
+      45076,
+      138274
+    ],
+    [
+      "RRRRLRRLRL",
+      2,
+      45059,
+      138265
+    ],
+    [
+      "RRRRLLLLRLL",
+      3,
+      50551,
+      155088
+    ],
+    [
+      "RRRRLLRLRRL",
+      3,
+      50371,
+      154589
+    ],
+    [
+      "RRRRLLRRLRL",
+      3,
+      50376,
+      154646
+    ],
+    [
+      "RRRRLRLRLRL",
+      3,
+      50426,
+      154712
+    ],
+    [
+      "RRRRLRLRRLL",
+      3,
+      50409,
+      154703
+    ],
+    [
+      "RRRRLRRLRLL",
+      3,
+      50407,
+      154697
+    ],
+    [
+      "RRRRLLLLRLRL",
+      3,
+      55393,
+      170039
+    ],
+    [
+      "RRRRLLRRLRRL",
+      3,
+      55218,
+      169597
+    ],
+    [
+      "RRRRLRLRLRRL",
+      3,
+      55268,
+      169663
+    ],
+    [
+      "RRRRLRLRRLRL",
+      3,
+      55251,
+      169654
+    ],
+    [
+      "RRRRLRRLRLRL",
+      3,
+      55249,
+      169648
+    ],
+    [
+      "RRRRLRRLRRLRRLL",
+      2,
+      69517,
+      213813
+    ]
+  ],
+  "minimum_consistent_words": 350,
+  "unread_extra_background_tests": 2800,
+  "analytic_review": [
+    "For any fixed literal word, parity fixes each visited cell initial bit; all other realizing boards add only globally unread cells to the first-L minimum board. They stay unread and unchanged at every cut. Cap and empty-endpoint failures of the minimum cannot be repaired by adding black edges.",
+    "The interior nonempty requirement is also exact at the minimum: if it is empty at an interior cut on a realization ending empty, there must be at least four updates left. Four R ports then occur consecutively at that same stationary w root, so all four incident cells were white in EVERY realization. Added unread exterior cannot make this cut nonempty. Thus the minimum-board algorithm is the primary bare-word existence decision, with no SAT required.",
+    "The alternate CNF uses a common initial bit per queried physical cell and exact read-parity XOR across all phases. At an interior cut the radius-M root ball is closed by every incident edge, including edges leaving to distanceM+1. M rounds of black reachability exactly identify paths of length<=M; marking edges with a reached endpoint and requiring at mostM is equivalent to the COMPLETE component cap. Any larger component has a connected witness ofM+1 edges, each with an endpoint at distance<=M. This covers cycles, arbitrary external attachments, andM0.",
+    "AND/OR Tseitin clauses are equivalences, and the sequential threshold circuit enforces the cardinality exactly, including constant literals and negative residual limits. Total gates/clauses are O((wordlength+1)(M+1)^3). Every satisfying initial-bit assignment extends by white elsewhere to a finite physical witness; any matching arbitrary outside field cannot violate the enforced cap through an unqueried bypass.",
+    "Fresh independent graph replay matches922 circuit evaluations, and all23 packed assignments are decoded and every clause checked without a SAT solver; all full fields and active masses match. The saved RRRR/cap4 contradiction has opposite unit clauses. The longest saved circuit remains NOT_RUN, with no inferred solver outcome.",
+    "The mandatory simplification prevents claiming CNF novelty or necessity for bare literal existence. It is only an exact alternate representation potentially useful for additional nonmonotone profile/resource constraints; no general infinite-orbit decision, indefinite composition, or capture follows."
+  ]
+}

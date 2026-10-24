@@ -1,0 +1,472 @@
+{
+  "status": "PASS conditional prepared locked-rail secondary interfaces and exact full-period count",
+  "source_hashes": {
+    "reverse_locked_rail_prepared_secondary_interfaces.md": "c39497b8456f8ebe9b1b1e4bef96b27ce05c8e998524b227130c175214a8f356",
+    "reverse_locked_rail_secondary_prepared_ports.py": "7ad7c4d67798915de78453b319ed8bdc9b2027163799bb3835879a31400d598f",
+    "reverse_locked_rail_secondary_prepared_ports.json": "db53139e1384e9ea0f3f0e183013fc739099bab8661cab7848bda6b645f1f9be"
+  },
+  "fresh_profiles": {
+    "O": [
+      {
+        "h": "W",
+        "black": true,
+        "out": "S",
+        "C": {
+          "NE": -2,
+          "SW": -2
+        },
+        "L": {
+          "NW": -2,
+          "SE": -3
+        },
+        "eta": -2,
+        "original_h": "N",
+        "original_turns": "R",
+        "original_C": {
+          "NW": 2,
+          "SE": 3
+        },
+        "original_L": {
+          "NE": 2,
+          "SW": 2
+        }
+      },
+      {
+        "h": "EW",
+        "black": false,
+        "out": "SS",
+        "C": {
+          "NE": -2,
+          "SW": -1
+        },
+        "L": {
+          "NW": -2,
+          "SE": -3
+        },
+        "eta": -1,
+        "original_h": "NN",
+        "original_turns": "RL",
+        "original_C": {
+          "NW": 2,
+          "SE": 3
+        },
+        "original_L": {
+          "NE": 2,
+          "SW": 1
+        }
+      },
+      {
+        "h": "EEW",
+        "black": true,
+        "out": "NSS",
+        "C": {
+          "NE": -2,
+          "SW": -1
+        },
+        "L": {
+          "NW": -3,
+          "SE": -3
+        },
+        "eta": -1,
+        "original_h": "NNS",
+        "original_turns": "RLR",
+        "original_C": {
+          "NW": 3,
+          "SE": 3
+        },
+        "original_L": {
+          "NE": 2,
+          "SW": 1
+        }
+      },
+      {
+        "h": "WEE",
+        "black": true,
+        "out": "SSN",
+        "C": {
+          "NE": -2,
+          "SW": -1
+        },
+        "L": {
+          "NW": -3,
+          "SE": -3
+        },
+        "eta": -1,
+        "original_h": "SNN",
+        "original_turns": "RLR",
+        "original_C": {
+          "NW": 3,
+          "SE": 3
+        },
+        "original_L": {
+          "NE": 2,
+          "SW": 1
+        }
+      },
+      {
+        "h": "EEEW",
+        "black": false,
+        "out": "SNSS",
+        "C": {
+          "NE": -2,
+          "SW": 0
+        },
+        "L": {
+          "NW": -3,
+          "SE": -3
+        },
+        "eta": 0,
+        "original_h": "NNSN",
+        "original_turns": "RLRL",
+        "original_C": {
+          "NW": 3,
+          "SE": 3
+        },
+        "original_L": {
+          "NE": 2,
+          "SW": 0
+        }
+      },
+      {
+        "h": "EWEE",
+        "black": false,
+        "out": "SSSN",
+        "C": {
+          "NE": -2,
+          "SW": 0
+        },
+        "L": {
+          "NW": -3,
+          "SE": -3
+        },
+        "eta": 0,
+        "original_h": "SNNN",
+        "original_turns": "RLRL",
+        "original_C": {
+          "NW": 3,
+          "SE": 3
+        },
+        "original_L": {
+          "NE": 2,
+          "SW": 0
+        }
+      }
+    ],
+    "E": [
+      {
+        "h": "S",
+        "black": true,
+        "out": "E",
+        "C": {
+          "SE": -2,
+          "NW": -2
+        },
+        "L": {
+          "NE": -3,
+          "SW": -2
+        },
+        "eta": -2,
+        "original_h": "W",
+        "original_turns": "R",
+        "original_C": {
+          "NE": 3,
+          "SW": 2
+        },
+        "original_L": {
+          "SE": 2,
+          "NW": 2
+        }
+      },
+      {
+        "h": "SS",
+        "black": false,
+        "out": "WE",
+        "C": {
+          "SE": -2,
+          "NW": -1
+        },
+        "L": {
+          "NE": -3,
+          "SW": -2
+        },
+        "eta": -1,
+        "original_h": "WE",
+        "original_turns": "RL",
+        "original_C": {
+          "NE": 3,
+          "SW": 2
+        },
+        "original_L": {
+          "SE": 2,
+          "NW": 1
+        }
+      },
+      {
+        "h": "NSS",
+        "black": true,
+        "out": "WWE",
+        "C": {
+          "SE": -2,
+          "NW": -1
+        },
+        "L": {
+          "NE": -3,
+          "SW": -3
+        },
+        "eta": -1,
+        "original_h": "WEE",
+        "original_turns": "RLR",
+        "original_C": {
+          "NE": 3,
+          "SW": 3
+        },
+        "original_L": {
+          "SE": 2,
+          "NW": 1
+        }
+      },
+      {
+        "h": "SSN",
+        "black": true,
+        "out": "EWW",
+        "C": {
+          "SE": -2,
+          "NW": -1
+        },
+        "L": {
+          "NE": -3,
+          "SW": -3
+        },
+        "eta": -1,
+        "original_h": "EEW",
+        "original_turns": "RLR",
+        "original_C": {
+          "NE": 3,
+          "SW": 3
+        },
+        "original_L": {
+          "SE": 2,
+          "NW": 1
+        }
+      },
+      {
+        "h": "SNSS",
+        "black": false,
+        "out": "WWWE",
+        "C": {
+          "SE": -2,
+          "NW": 0
+        },
+        "L": {
+          "NE": -3,
+          "SW": -3
+        },
+        "eta": 0,
+        "original_h": "WEEE",
+        "original_turns": "RLRL",
+        "original_C": {
+          "NE": 3,
+          "SW": 3
+        },
+        "original_L": {
+          "SE": 2,
+          "NW": 0
+        }
+      },
+      {
+        "h": "SSSN",
+        "black": false,
+        "out": "WEWW",
+        "C": {
+          "SE": -2,
+          "NW": 0
+        },
+        "L": {
+          "NE": -3,
+          "SW": -3
+        },
+        "eta": 0,
+        "original_h": "EEWE",
+        "original_turns": "RLRL",
+        "original_C": {
+          "NE": 3,
+          "SW": 3
+        },
+        "original_L": {
+          "SE": 2,
+          "NW": 0
+        }
+      }
+    ]
+  },
+  "eleven_same_eta_pairs": [
+    [
+      "W",
+      "S",
+      -2,
+      0,
+      0
+    ],
+    [
+      "EW",
+      "SS",
+      -1,
+      0,
+      0
+    ],
+    [
+      "EW",
+      "NSS",
+      -1,
+      0,
+      1
+    ],
+    [
+      "EEW",
+      "SS",
+      -1,
+      1,
+      0
+    ],
+    [
+      "EEW",
+      "NSS",
+      -1,
+      1,
+      1
+    ],
+    [
+      "WEE",
+      "SS",
+      -1,
+      1,
+      0
+    ],
+    [
+      "WEE",
+      "NSS",
+      -1,
+      1,
+      1
+    ],
+    [
+      "WEE",
+      "SSN",
+      -1,
+      1,
+      1
+    ],
+    [
+      "EEEW",
+      "SNSS",
+      0,
+      1,
+      1
+    ],
+    [
+      "EWEE",
+      "SNSS",
+      0,
+      1,
+      1
+    ],
+    [
+      "EWEE",
+      "SSSN",
+      0,
+      1,
+      1
+    ]
+  ],
+  "reverse_singleton_route": [
+    [
+      "1j",
+      "L",
+      "N"
+    ],
+    [
+      "(-1+1j)",
+      "L",
+      "W"
+    ],
+    [
+      "-1",
+      "L",
+      "S"
+    ],
+    [
+      "0j",
+      "L",
+      "E"
+    ],
+    [
+      "1j",
+      "R",
+      "N"
+    ]
+  ],
+  "original_reverse_event_route": [
+    [
+      "1j",
+      "L",
+      "W"
+    ],
+    [
+      "0j",
+      "R",
+      "S"
+    ],
+    [
+      "-1",
+      "R",
+      "W"
+    ],
+    [
+      "(-1+1j)",
+      "R",
+      "N"
+    ],
+    [
+      "1j",
+      "R",
+      "E"
+    ]
+  ],
+  "main_F_to_nextS_edges": [
+    [
+      "0",
+      3
+    ],
+    [
+      "1j",
+      2
+    ],
+    [
+      "1j",
+      3
+    ],
+    [
+      "(1+1j)",
+      3
+    ],
+    [
+      "(1+2j)",
+      3
+    ],
+    [
+      "2j",
+      2
+    ],
+    [
+      "3j",
+      1
+    ]
+  ],
+  "analytic_review": [
+    "All reverse histories are classified by actual original WHITE reversal: WHITEeven2or4 and BLACKodd1or3. Imposing exactly one W input atO or one E output atE, the genuine baselineC=-2 and globalLfloor-3 gives precisely six histories each. No other off-Q cell is assumed WHITE; black singleton and blackLRL suppliers are necessary retained possibilities.",
+    "Independent complete same-pair S ordinal matching, actual rank gaps4 and strictS<F leave exactly11 pairs. The main locked port chain separately verifiesF<Snext (the exact Z3-to-Y2 port, later Y3, and successive B3/A_next3/Z_next2/Y_next1 ports give strict ordering). The secondaryN and farther external ports are not presumed solved.",
+    "At eta-2 the unique BLACK singletons force the literal reverse five-event LLLLR path, each arrow one physical update. Read-event conjugacy, not an unshifted heading reversal, gives original LRRRR. Both original singleton outputs are topC=M/M-1 and L=M-1. At eta-1 BLACK3 endpoints reverse to opposite-R three-read outputs with originalC=M/M and originalL=M-1/M-2, so they are shallow and not roots ofM-3.",
+    "For each same-eta pair, Nout(O)-Nin(E)=indicatorBLACK3O-indicatorBLACK3E. Summing complete physical N edges in the actual full vertical quotient gives equal BLACK3 counts. Eta0 white4 counts cancel pairwise. Eta-2 contributes two singletons, and checker parity preventsO/E aliasing because full drift is(0,2a). Thus exactly2(B1+B3) distinct secondary odd classes are registered, but they may overlap other output reservations.",
+    "Eta0 identifies another same-height reverseC face separated fromQ by the low row, not automatically the same plateau, root-free, or locally maximal. Deeper or odd-rooted suppliers, exterior realization and full rail composition remain open. No seed fuel or additional disjoint output budget is inferred."
+  ]
+}

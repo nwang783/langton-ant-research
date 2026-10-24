@@ -1,0 +1,87 @@
+{
+  "status": "PASS nonvacuous exact prepared-input and white-front controls",
+  "controls": {
+    "opposite_sector_exact_reverse": {
+      "pose": [
+        [
+          -1,
+          -2
+        ],
+        1
+      ],
+      "drift": [
+        2,
+        2
+      ],
+      "orbits": 22,
+      "finite_cap": [
+        [
+          -4,
+          -5
+        ],
+        [
+          -4,
+          -2
+        ],
+        [
+          -3,
+          -7
+        ],
+        [
+          -3,
+          -3
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          -2,
+          -8
+        ],
+        [
+          -2,
+          -7
+        ],
+        [
+          -2,
+          -6
+        ],
+        [
+          -2,
+          -5
+        ],
+        [
+          -2,
+          -4
+        ],
+        [
+          -1,
+          -5
+        ],
+        [
+          -1,
+          -4
+        ]
+      ],
+      "cap_count": 12,
+      "tail_oracle": true
+    },
+    "off_rail_standard_control": {
+      "pose": [
+        [
+          0,
+          -100
+        ],
+        3
+      ],
+      "drift": [
+        -2,
+        -2
+      ],
+      "cap_count": 13,
+      "tail_oracle": true
+    },
+    "same_sector_reverse_guard_rejections": 30
+  }
+}

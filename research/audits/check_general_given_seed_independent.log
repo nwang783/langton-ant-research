@@ -1,0 +1,129 @@
+conversion signed_floor
+conversion mod_floor_union
+conversion signed_witness
+conversion moderate_exact
+conversion two_floor
+ISL independent 11340
+R_identity 972
+L_identity 972
+R5_branch 3888
+transient_R9 8748
+two_state 1944
+{
+  "status": "PASS independent integer arithmetic and complete literal template/footprint controls",
+  "conversion": [
+    {
+      "name": "signed_floor",
+      "direct_integer_checks": 2268
+    },
+    {
+      "name": "mod_floor_union",
+      "direct_integer_checks": 2268
+    },
+    {
+      "name": "signed_witness",
+      "direct_integer_checks": 2268
+    },
+    {
+      "name": "moderate_exact",
+      "direct_integer_checks": 2268
+    },
+    {
+      "name": "two_floor",
+      "direct_integer_checks": 2268
+    }
+  ],
+  "malformed_inputs_rejected": 6,
+  "models": [
+    {
+      "name": "R_identity",
+      "verdict": {
+        "possible": true,
+        "frame_checks": 4,
+        "nested_root": true,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "seed": []
+      },
+      "independent_literal_coordinate_checks": 972
+    },
+    {
+      "name": "L_identity",
+      "verdict": {
+        "possible": true,
+        "frame_checks": 4,
+        "nested_root": true,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "seed": [
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "independent_literal_coordinate_checks": 972
+    },
+    {
+      "name": "R5_branch",
+      "verdict": {
+        "possible": false,
+        "reason": "all-depth frame disagreement",
+        "state": 0,
+        "child_index": 4,
+        "witness": {
+          "r": 0,
+          "x": 0,
+          "y": 0
+        },
+        "frame_checks": 5
+      },
+      "independent_literal_coordinate_checks": 3888
+    },
+    {
+      "name": "transient_R9",
+      "verdict": {
+        "possible": true,
+        "frame_checks": 68,
+        "nested_root": false,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "seed": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "independent_literal_coordinate_checks": 8748
+    },
+    {
+      "name": "two_state",
+      "verdict": {
+        "possible": true,
+        "frame_checks": 8,
+        "nested_root": false,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "seed": []
+      },
+      "independent_literal_coordinate_checks": 1944
+    }
+  ],
+  "position_cover_controls": 2,
+  "seconds": 6.455530448001809,
+  "hashes": {
+    "isl_automatic.py": "54a040fd948e5495be8c3fdd54806b2c3bd6df57996a9995926a12c0264a7676",
+    "general_given_seed.py": "ae7bd566b24b04c5054be48c3236c06dab7c498d3900b380faeb28112a5b80b1",
+    "scheme_cover_decider.py": "4131f7940508d21d6855dd47fe10f28567fe0a34e9fb47c19758f0a7b94c6705"
+  },
+  "scope": "Implementation audit of exact given-seed and supplied genuine position-cover realization for additive-I typed unit presentations. No growing positive or global capture theorem."
+}

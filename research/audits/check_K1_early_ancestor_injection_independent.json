@@ -1,0 +1,16 @@
+{
+  "status": "PASS equivariant early-branch ancestor injection and disjoint singleton-output reservation",
+  "note_sha256": "427658fba721afadec7f7c2c79a5f8505a3ab9f01ac558a8bd028cb728a292f2",
+  "canonical_frame_conflict": {
+    "entry": [
+      0,
+      1
+    ],
+    "entry_history": "SSNS",
+    "SW_S": "W",
+    "SW_R": "WWEW"
+  },
+  "analytic": "Unique p(I) recovers F by F=I-i*(I-p(I)); unique p(P0) recovers I by I=P0+i*(P0-p(P0)). Fixed p(Q1) allows only S and R children, but simultaneous alternatives force incompatible complete histories at the same physical SW corner. Translation by actual full drift aligns quotient representatives, so Q1 assignment is injective. Each S ancestor reserves a distinct one-read class because its sole R selects that unique M face against M-1. One-read classes are disjoint from the signed three-read rise/straight-branch reservations.",
+  "bound": "N_odd>=n_up+n_SB+n_Sanc; equivalently the same clockwise-cycle output excess is at least ceil(sum/4).",
+  "scope": "Output production only. No initial fuel, new root, new component, singleton reservation for R ancestors, additive second cycle payment or iterative supplier mechanism."
+}

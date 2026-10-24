@@ -1,0 +1,31 @@
+{
+  "status": "PASS all-parameter self-owned rod reuse and complete infinite standard104 capture",
+  "source_sha256": "19083e651f177e1c47ab96d860fd4dfb7e73f81e189b3a34d1520ec0bff6416f",
+  "domain": "M>=1 and r>=10 and r>M",
+  "capture_time": "20M+12r+280",
+  "capture_pose": [
+    "-2M+2r+2",
+    -2,
+    1
+  ],
+  "capture_mass": "2r+61",
+  "restart_obstruction": "No W6^6 substring after capture: 104-periodicity identifies indices 2 and 106, whose W6 letters differ.",
+  "tail": {
+    "period": 104,
+    "drift": [
+      2,
+      2
+    ],
+    "physical_orbits": 22,
+    "complete_field_tests": 42,
+    "finite_eligibility_fringes": 20
+  },
+  "sample": {
+    "original_mass": 107,
+    "capture_reads": 1892,
+    "capture_mass": 163,
+    "literal_tail_periods": 2
+  },
+  "scope": "Every member of this explicit finite supplied family captures; no new supply, hidden reset or proxy-only field. No renewable nonstandard mechanism or arbitrary-input capture theorem.",
+  "note_sha256": "40726f15ba56a60942b9ca7e0d4ed8e21a55cea9ca7d329920f68382f76de528"
+}

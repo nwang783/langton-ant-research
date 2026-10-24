@@ -1,0 +1,86 @@
+{
+  "status": "Complete finite overapproximation; all edges survive, no exclusion",
+  "feasible_seven_words": 88,
+  "local_east_images": [
+    "RLRLLRL",
+    "RLLRRLL"
+  ],
+  "preceding_record_read": "R",
+  "fine_aligned_origin": [
+    1,
+    0
+  ],
+  "fine_aligned_heading": "E",
+  "coarse_heading": "N",
+  "fine_read_length": 57,
+  "edges": [
+    {
+      "coarse": "RRLRLLRL",
+      "fine_record": "RRLRLLRL",
+      "levels": [
+        1,
+        1,
+        2,
+        4,
+        12,
+        33,
+        100,
+        240,
+        582
+      ],
+      "conflicts": 1379,
+      "survivors": 582
+    },
+    {
+      "coarse": "RRLRLLRL",
+      "fine_record": "RRLLRRLL",
+      "levels": [
+        1,
+        1,
+        1,
+        2,
+        4,
+        12,
+        34,
+        82,
+        200
+      ],
+      "conflicts": 481,
+      "survivors": 200
+    },
+    {
+      "coarse": "RRLLRRLL",
+      "fine_record": "RRLRLLRL",
+      "levels": [
+        1,
+        1,
+        2,
+        4,
+        12,
+        27,
+        86,
+        204,
+        644
+      ],
+      "conflicts": 1037,
+      "survivors": 644
+    },
+    {
+      "coarse": "RRLLRRLL",
+      "fine_record": "RRLLRRLL",
+      "levels": [
+        1,
+        1,
+        1,
+        2,
+        5,
+        12,
+        37,
+        89,
+        279
+      ],
+      "conflicts": 457,
+      "survivors": 279
+    }
+  ]
+}

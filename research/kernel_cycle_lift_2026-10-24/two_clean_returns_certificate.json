@@ -1,0 +1,258 @@
+{
+  "status": "PASS exact two-clean-return passive-placement obstruction",
+  "source_sha256": {
+    "reframe_finite_seed_2026-10-24/kernel_M5_scc.json": "ecc712cd97ecf0c3d234a9dca6fec800a5bd3a2685c763699f5960d68dce3bb3"
+  },
+  "actual_one_block_controls": [
+    {
+      "status": "ACTUAL_FINITE_BOARD_LIFT",
+      "letters": "A",
+      "initial_black": [],
+      "word": "RRRRL",
+      "final_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ],
+      "final_black": [
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "maximum_complete_active_mass": 4
+    },
+    {
+      "status": "ACTUAL_FINITE_BOARD_LIFT",
+      "letters": "C",
+      "initial_black": [
+        [
+          -1,
+          1
+        ]
+      ],
+      "word": "RRRRLRL",
+      "final_pose": [
+        [
+          -2,
+          1
+        ],
+        3
+      ],
+      "final_black": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "maximum_complete_active_mass": 5
+    }
+  ],
+  "all_four_pair_complete_board_conflicts": [
+    {
+      "status": "NO_COMPLETE_BOARD_LIFT",
+      "letters": "AA",
+      "conflict_cell": [
+        0,
+        -1
+      ],
+      "first": {
+        "cut": 0,
+        "black": 0,
+        "required_current_black": false,
+        "read_parity": 0
+      },
+      "second": {
+        "cut": 9,
+        "black": 1,
+        "required_current_black": false,
+        "read_parity": 1
+      }
+    },
+    {
+      "status": "NO_COMPLETE_BOARD_LIFT",
+      "letters": "AC",
+      "conflict_cell": [
+        0,
+        -1
+      ],
+      "first": {
+        "cut": 0,
+        "black": 0,
+        "required_current_black": false,
+        "read_parity": 0
+      },
+      "second": {
+        "cut": 9,
+        "black": 1,
+        "required_current_black": false,
+        "read_parity": 1
+      }
+    },
+    {
+      "status": "NO_COMPLETE_BOARD_LIFT",
+      "letters": "CA",
+      "conflict_cell": [
+        -1,
+        0
+      ],
+      "first": {
+        "cut": 1,
+        "black": 0,
+        "required_current_black": false,
+        "read_parity": 0
+      },
+      "second": {
+        "cut": 11,
+        "black": 1,
+        "required_current_black": false,
+        "read_parity": 1
+      }
+    },
+    {
+      "status": "NO_COMPLETE_BOARD_LIFT",
+      "letters": "CC",
+      "conflict_cell": [
+        -1,
+        0
+      ],
+      "first": {
+        "cut": 1,
+        "black": 0,
+        "required_current_black": false,
+        "read_parity": 0
+      },
+      "second": {
+        "cut": 11,
+        "black": 1,
+        "required_current_black": false,
+        "read_parity": 1
+      }
+    }
+  ],
+  "actual_four_R_continuations": [
+    {
+      "first_macro": "A",
+      "four_next_mandatory_R": [
+        {
+          "local_R": 0,
+          "cell": [
+            -1,
+            0
+          ],
+          "old_imported_component": [],
+          "active_mass_after": 1
+        },
+        {
+          "local_R": 1,
+          "cell": [
+            -1,
+            1
+          ],
+          "old_imported_component": [],
+          "active_mass_after": 2
+        },
+        {
+          "local_R": 2,
+          "cell": [
+            0,
+            1
+          ],
+          "old_imported_component": [],
+          "active_mass_after": 3
+        },
+        {
+          "local_R": 3,
+          "cell": [
+            0,
+            0
+          ],
+          "old_imported_component": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "active_mass_after": 7
+        }
+      ]
+    },
+    {
+      "first_macro": "C",
+      "four_next_mandatory_R": [
+        {
+          "local_R": 0,
+          "cell": [
+            -2,
+            1
+          ],
+          "old_imported_component": [],
+          "active_mass_after": 1
+        },
+        {
+          "local_R": 1,
+          "cell": [
+            -2,
+            2
+          ],
+          "old_imported_component": [],
+          "active_mass_after": 2
+        },
+        {
+          "local_R": 2,
+          "cell": [
+            -1,
+            2
+          ],
+          "old_imported_component": [],
+          "active_mass_after": 3
+        },
+        {
+          "local_R": 3,
+          "cell": [
+            -1,
+            1
+          ],
+          "old_imported_component": [
+            [
+              -1,
+              0
+            ]
+          ],
+          "active_mass_after": 5
+        }
+      ]
+    }
+  ],
+  "scope": "Only the exact zero-singleton-drop cap5 paths A=index0 and C=index11. Single macros are physically realized. No pair has ANY complete finite-board lift with the prescribed complete active fields; the finite port/read-parity constraints also exclude arbitrary unread extras. General cap5 conclusion additionally requires independent kernel/SCC/resource coverage, and the older conservative theorem is unchanged."
+}

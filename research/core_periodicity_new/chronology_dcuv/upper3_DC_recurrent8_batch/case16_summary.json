@@ -1,0 +1,93 @@
+{
+  "scope": "Conditional discovery only; H is not a signed relation",
+  "args": {
+    "profile": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/profile_recurrent8.json",
+    "hypotheses": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/hypothesis_U_upper3_post_dccc.tsv",
+    "signed": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/empty.tsv",
+    "row": [
+      1,
+      7,
+      3,
+      3,
+      2,
+      3,
+      1
+    ],
+    "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_DC_recurrent8_batch/case16",
+    "rounds": 8,
+    "cap": 750000,
+    "mode": "source",
+    "watch": "",
+    "scope": null,
+    "expand": true
+  },
+  "results": [
+    {
+      "round": 0,
+      "extra_points": [],
+      "watched": [
+        [
+          3,
+          1
+        ]
+      ],
+      "variables": 20,
+      "result": "status CAP_OR_ERROR reason node cap",
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_DC_recurrent8_batch/case16_r00_quotient",
+      "seconds": 11.663,
+      "closure_result": "status ABSTRACT_WITNESS states 6862874 depth 36 nodes 125070",
+      "events": [],
+      "expanded_target_inputs": [
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          -1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "extra_points": [
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          -1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "watched": [
+        [
+          3,
+          1
+        ]
+      ],
+      "variables": 24,
+      "result": "status CAP_OR_ERROR reason node cap",
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_DC_recurrent8_batch/case16_r01_quotient",
+      "seconds": 9.224,
+      "closure_result": "status CAP_OR_ERROR reason node cap",
+      "stop": "no reconstructed witness"
+    }
+  ]
+}

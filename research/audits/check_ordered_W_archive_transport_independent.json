@@ -1,0 +1,221 @@
+{
+  "status": "PASS all-length ordered W archive and preforeign actual identity transport bottleneck",
+  "manifests": {
+    "ordered_W_archive_matching": "bf616fdc960c8e24a259b2581c92a3d0eee02e6a06c31e43ed1e71493e6aed8e",
+    "ordered_W_transport_bottleneck": "ef64552072ac5b42a452815a86c903e4be26469d5450b2222008668209acc97c"
+  },
+  "literal_full_ports": [
+    [
+      "D",
+      [
+        0,
+        1
+      ],
+      11,
+      false,
+      [
+        1,
+        2
+      ]
+    ],
+    [
+      "DC",
+      [
+        0,
+        1
+      ],
+      11,
+      true,
+      [
+        1,
+        2
+      ]
+    ],
+    [
+      "V",
+      [
+        1,
+        2
+      ],
+      13,
+      true,
+      [
+        2,
+        1
+      ]
+    ],
+    [
+      "VC",
+      [
+        1,
+        2
+      ],
+      13,
+      true,
+      [
+        2,
+        1
+      ]
+    ],
+    [
+      "VCC",
+      [
+        0,
+        3
+      ],
+      19,
+      true,
+      [
+        3,
+        2
+      ]
+    ],
+    [
+      "U",
+      [
+        -1,
+        4
+      ],
+      29,
+      false,
+      [
+        4,
+        3
+      ]
+    ],
+    [
+      "UC",
+      [
+        -1,
+        4
+      ],
+      29,
+      true,
+      [
+        4,
+        3
+      ]
+    ],
+    [
+      "UCC",
+      [
+        -1,
+        4
+      ],
+      29,
+      true,
+      [
+        4,
+        3
+      ]
+    ]
+  ],
+  "same_clock": {
+    "sector": 64,
+    "COUNT5": 64
+  },
+  "adjacent_order_checks": 24,
+  "visibility_queries": 1020,
+  "visible_roles": 45,
+  "young_V_r": {
+    "sector": 120,
+    "COUNT5": 87
+  },
+  "young_all_outputs": {
+    "0": {
+      "sector": 760,
+      "COUNT5": 770,
+      "uncompleted source": 34
+    },
+    "1": {
+      "COUNT5": 748,
+      "sector": 804,
+      "uncompleted source": 12
+    }
+  },
+  "reproductive_queries": {
+    "sector": 64,
+    "COUNT5": 68,
+    "V A lock": 2,
+    "U q port law": 2
+  },
+  "four_signed_port_exceptions": [
+    [
+      "VCC",
+      [
+        0,
+        1
+      ],
+      "V",
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    [
+      "VCC",
+      [
+        0,
+        1
+      ],
+      "U",
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    [
+      "UCC",
+      [
+        -1,
+        2
+      ],
+      "V",
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    [
+      "UCC",
+      [
+        -1,
+        2
+      ],
+      "U",
+      [
+        0,
+        3
+      ],
+      [
+        -1,
+        5
+      ]
+    ]
+  ],
+  "visible_D_relays": 24,
+  "relay_total": 423,
+  "analytic": [
+    "After the actual containing source completes, a nonempty W stage starts at old C exit (0,1,W). C1 within a double-tail source instead leaves no W stage, so there is no fictitious internal marker reset. All entries at W stage have full-source clock1, including the final tail-bearing packet.",
+    "No earlier W full output can fund a chosen input at age0. The ordered residual ledger therefore identifies all chosen inputs as distinct unchanged W-entry identities. Marker-only physical reads may occur after the source common R8 birth; the assertion is ledger exchange, not chronological L-before-R.",
+    "Common outputs have y>=3 and cannot retire before full-source-entry age3; foreign entry age2 protects them in the old eight factor. Complete foreign+returnedC+M11 reads have y<=1, so the original birth lifetimes remain current throughout the continuation.",
+    "All full outputs have local y>=0. Future min x=-3 bounds A<=3, giving exactly empty,D,DD,DDD,V head prefixes for ANY W length. Only first V/U base roles can meet context, and their held r requires white there. Hence first D; all W outputs directly avoid future physical context.",
+    "The full-source completion test is needed only for source VCC/UCC. Age0/1 exclusions remove W-to-S, S-to-E, same-stage identity supplies. Actual E reproductive selected ports are V(1,2), U(0,3), irrespective informal lower/upper labels. Four remaining W-to-E roles are eliminated by signed all-age V-A and U-q causal laws. Every selected E input is therefore an additional unchanged W-entry identity, disjoint from W spent choices.",
+    "An E-D maps its actual input q to sole output q-(1,2). Future visibility forces W-head A<=2, exactly empty,D,DD. All24 visible alignments have wrong conserved sector. This excludes only direct input-output ancestry, not counterfactual guard effects or S/E work."
+  ],
+  "scope": "Arbitrary finite W length in the three signed old-C first-return residues. No whole-ledger contraction, second foreign, returned maturity, finite-state quotient, or global capture claim.",
+  "mandatory_role_label_erratum_manifest_sha256": "f2ff1b4df6f8fe968ec379ad639cdd98f6b5836c54b11dd8485ca83850ff2cae",
+  "role_label_correction": "U (0,3) is the usual upper d input, not lower a/q. Both frozen coordinate calculations remain unchanged."
+}

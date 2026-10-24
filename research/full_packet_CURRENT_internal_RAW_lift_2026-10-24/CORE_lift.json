@@ -1,0 +1,102 @@
+{
+  "status": "AUTHOR_FROZEN_PENDING_REVIEW",
+  "scope": "Only SAME physical identities in actual complete-eight full packets; no new maturity or proxy-contact theorem.",
+  "all5_actual_next_C_CORE_first_L_reads": [
+    {
+      "incoming_CORE_cell": [
+        -1,
+        -1
+      ],
+      "actual_C_first_L_tick0": 2,
+      "actual_C_first_L_read1": 3
+    },
+    {
+      "incoming_CORE_cell": [
+        -1,
+        0
+      ],
+      "actual_C_first_L_tick0": 1,
+      "actual_C_first_L_read1": 2
+    },
+    {
+      "incoming_CORE_cell": [
+        0,
+        -1
+      ],
+      "actual_C_first_L_tick0": 3,
+      "actual_C_first_L_read1": 4
+    },
+    {
+      "incoming_CORE_cell": [
+        0,
+        0
+      ],
+      "actual_C_first_L_tick0": 0,
+      "actual_C_first_L_read1": 1
+    },
+    {
+      "incoming_CORE_cell": [
+        1,
+        0
+      ],
+      "actual_C_first_L_tick0": 5,
+      "actual_C_first_L_read1": 6
+    }
+  ],
+  "all7_internal_RAW_cut_interfaces": [
+    {
+      "actual_full_packet": "DC",
+      "internal_RAW_cut_after": "D",
+      "actual_next_RAW_inside_same_packet": "C",
+      "all5_CORE_originals_physically_deleted_before_same_full_completion": true
+    },
+    {
+      "actual_full_packet": "VC",
+      "internal_RAW_cut_after": "V",
+      "actual_next_RAW_inside_same_packet": "C",
+      "all5_CORE_originals_physically_deleted_before_same_full_completion": true
+    },
+    {
+      "actual_full_packet": "VCC",
+      "internal_RAW_cut_after": "V",
+      "actual_next_RAW_inside_same_packet": "C",
+      "all5_CORE_originals_physically_deleted_before_same_full_completion": true
+    },
+    {
+      "actual_full_packet": "VCC",
+      "internal_RAW_cut_after": "VC",
+      "actual_next_RAW_inside_same_packet": "C",
+      "all5_CORE_originals_physically_deleted_before_same_full_completion": true
+    },
+    {
+      "actual_full_packet": "UC",
+      "internal_RAW_cut_after": "U",
+      "actual_next_RAW_inside_same_packet": "C",
+      "all5_CORE_originals_physically_deleted_before_same_full_completion": true
+    },
+    {
+      "actual_full_packet": "UCC",
+      "internal_RAW_cut_after": "U",
+      "actual_next_RAW_inside_same_packet": "C",
+      "all5_CORE_originals_physically_deleted_before_same_full_completion": true
+    },
+    {
+      "actual_full_packet": "UCC",
+      "internal_RAW_cut_after": "UC",
+      "actual_next_RAW_inside_same_packet": "C",
+      "all5_CORE_originals_physically_deleted_before_same_full_completion": true
+    }
+  ],
+  "lemma": "If a SAME identity is CURRENT at an actual full-packet entry or its true fresh birth and is again CURRENT as that SAME identity at the full exit, it was CURRENT at every intermediate RAW cut after birth. Physical death is irreversible for that birth label. Any intermediate CORE capture is physically deleted by the next actual C in its first six reads before full completion, so cannot reappear as the SAME final CURRENT identity. A recoloring by R has a new label. For a plain full BASE there is no internal cut.",
+  "application_to_b224": "Before FIRSTFOREIGN, signed original source-bud min5 supplies SAME bud CURRENT at all actual full cuts through source-entry age4. The actual completed full word containing an earlier physical writer therefore supplies this internal-RAW currentness too. Own creatingU C tails preserve the SAME bud by literal last-R equality; their direct preservation remains separately checked. This justifies the independently CURRENT anchor inside physical hole-origin filters without identifying CORE absorption with immediate physical death.",
+  "not_claimed": [
+    "No claim of currentness from mere final BLACK color",
+    "No invariant across a consuming foreign",
+    "No CORE-to-physical-death shortcut at the earlier cut",
+    "No uncompleted positive-C packet may be treated as completed before the foreign"
+  ],
+  "dependencies": {
+    "literal_ownership_conventions_2026-10-24/canonical_read_ownership.py": "041b40e04a0f71a6b9511abf1d15b1d86c548e74f4f99281477c115b72036ea2",
+    "word_stabilization/check_foreign_return_interfaces.py": "249f89213a96c8daad9d0ecde65e877d5e254af033092adb81b4bbaca0cc729c"
+  }
+}

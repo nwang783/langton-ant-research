@@ -1,0 +1,53 @@
+{
+  "status": "INDEPENDENT_PASS_EXACT_GROWING_CUT_FRONTIER_AND_ALL_N_YOUNG_RAIL",
+  "date_utc": "2026-10-23T19:55:00Z",
+  "scope": "U-entry complete-eight factor: current source/context age exclusion330, exact online331-layer recognition up to first language exit. Entry context expiration20R+271. Frontier size O(r0*C), not bounded global state. All-N rail family has growing entry mass and active entry funding, not post-expiration counterexample or capture.",
+  "files": [
+    {
+      "path": "transition_complete_330_frontier.md",
+      "sha256": "222d694e4882435b58f3bde91565277411aff11d85f14534af5e0e194dffc034"
+    },
+    {
+      "path": "check_full_context_horizon.py",
+      "sha256": "08b3efe230e20197e77fedd922e5275bf8de7de2d735f1abe9d54d860b0670cb"
+    },
+    {
+      "path": "full_context_horizon_controls.json",
+      "sha256": "f8bfd460855d36dd2beda5ada8fe9c2ea3ca46b5561d46bc39467408e289ddb1"
+    },
+    {
+      "path": "young_rail_reuse_all_N.md",
+      "sha256": "d6c236f6a4f45dffa75942b6fad3bc58c54c9197fed8537fe463bd9104fcedc7"
+    },
+    {
+      "path": "check_rail_frontier_family.py",
+      "sha256": "c133139c33207fb5f90a5c7a99e0a0539c62a9bf3e71b448011d11262e7f05e0"
+    },
+    {
+      "path": "rail_frontier_family_controls.json",
+      "sha256": "eabf2eb901b0e8b0455bfe650aaa588c86e2450df9af37aab0e7433303e272a3"
+    }
+  ],
+  "independent_audits": [
+    {
+      "path": "audits/check_full_context_horizon_independent.py",
+      "sha256": "5de4c184a7fd0bfa9bb748ca073ae57b8c3ca0aacb3c439e607542b96ab70796"
+    },
+    {
+      "path": "audits/check_full_context_horizon_independent.json",
+      "sha256": "1923c21d12cbfcbde2e70beeb71ae111e13cb94cfc90322450d6ef50237c47df"
+    },
+    {
+      "path": "audits/check_young_rail_frontier_independent.py",
+      "sha256": "89153bc01528431c1b918d53e427aecbd96fd06069d77768e0a87ec37cebb885"
+    },
+    {
+      "path": "audits/check_young_rail_frontier_independent.json",
+      "sha256": "b1a1e1d83844dca60b8083dfe7dcee6d01713e81e98df4b5e107c6e811f62c01"
+    }
+  ],
+  "dependencies": {
+    "core_periodicity_new/chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "causal_archive_spatial_lifetime_2026-10-23/manifest.json": "7a2c793292be413d7b29e4f99ed9a2984e69418f9645793d76f994b611f1d361"
+  }
+}

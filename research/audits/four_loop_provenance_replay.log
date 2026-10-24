@@ -1,0 +1,80 @@
+{
+  "parameter_domain": "integer L >= 128",
+  "first_collision": {
+    "q": [
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        22
+      ]
+    ],
+    "time": [
+      416,
+      37740
+    ],
+    "prior_visits": [
+      {
+        "time": [
+          0,
+          9500
+        ],
+        "letter": "R",
+        "stage": "initial prelude",
+        "phase": 9500,
+        "epoch": [
+          0,
+          0
+        ]
+      }
+    ],
+    "black_lifetime_age": [
+      416,
+      28240
+    ]
+  },
+  "second_collision": {
+    "q": [
+      [
+        -2,
+        -23
+      ],
+      [
+        2,
+        37
+      ]
+    ],
+    "time": [
+      520,
+      39714
+    ],
+    "prior_visits": [
+      {
+        "time": [
+          104,
+          35382
+        ],
+        "letter": "R",
+        "stage": "old side P1",
+        "phase": 58,
+        "epoch": [
+          0,
+          50
+        ]
+      }
+    ],
+    "black_lifetime_age": [
+      416,
+      4332
+    ]
+  },
+  "forbidden_10_window_count": 19629,
+  "capture_mass_affine": [
+    60,
+    2905
+  ],
+  "event_sequence_sha256": "7d1918c9ca51350a9b3043a4a204a89c716f51288ff014ba6a4ce43e11488ce7",
+  "status": "exact affine incidence/chronology checks passed; count invariance uses interior period insertion"
+}

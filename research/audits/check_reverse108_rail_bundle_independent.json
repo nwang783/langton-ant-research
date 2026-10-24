@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "note_sha256": "0d59d841317cacfe23ca0df475ba577d63a3cc03681994f3517f5b9dfd68bd46",
+  "source_hashes": {
+    "reverse108_parallel_rail_bundle.json": "a8bf5dbe33e7ff3bac57ba7c0c058575c23d83f3bb683ba4a03ae073203f5d00",
+    "reverse108_prepared_family.json": "bbf0474b6357b710acb0003c9a1cab82e6bad87b2d6585433327ea66dd8d4735"
+  },
+  "all_n_P_fields": {
+    "slope": [
+      11,
+      3,
+      23,
+      12
+    ],
+    "intercept": [
+      13,
+      13,
+      19,
+      20
+    ],
+    "maximum_phase_offset_span": 2
+  },
+  "single_rail_cases": [
+    [
+      "NE",
+      "SW",
+      20
+    ],
+    [
+      "SW",
+      "SW",
+      19
+    ],
+    [
+      "NE",
+      "NE",
+      19
+    ],
+    [
+      "SW",
+      "NE",
+      20
+    ]
+  ],
+  "two_rail_cases": 59,
+  "two_rail_case_counts": {
+    "('NE', 'SW')": 18,
+    "('SW', 'SW')": 14,
+    "('NE', 'NE')": 15,
+    "('SW', 'NE')": 12
+  },
+  "scope": "One supplied P108 word, any finite parallel bundle of mature white-written standard rails. Finite-flight/cap lifting is separate; no other rewriter or universal-capture claim."
+}

@@ -1,0 +1,253 @@
+{
+  "status": "PASS",
+  "local_parity_heading_color_cases": 32,
+  "arbitrary_complete_field_intervals": 5000,
+  "blank_intervals": 1000,
+  "blank_time_horizon": 30000,
+  "signed_line_checks": 523982,
+  "checks": "Exact mod4 charges, exact heading-corrected line costs, sharp incoming-midpoint bound",
+  "initial_blank_running_mass_state_bounds": {
+    "0": 4,
+    "1": 84,
+    "2": 1896,
+    "3": 54040,
+    "4": 1915860
+  },
+  "initial_blank_running_mass_field_bounds": {
+    "0": 1,
+    "1": 7,
+    "2": 79,
+    "3": 1351,
+    "4": 31931
+  },
+  "diagonal_counterexamples": [
+    {
+      "time": 18,
+      "black": [
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "head": [
+        -1,
+        -1
+      ],
+      "heading": 2,
+      "diagonal_sign": 1,
+      "empty_separator_coordinate": -1
+    },
+    {
+      "time": 247,
+      "black": [
+        [
+          -5,
+          -4
+        ],
+        [
+          -5,
+          -3
+        ],
+        [
+          -4,
+          -5
+        ],
+        [
+          -4,
+          -2
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          -4,
+          2
+        ],
+        [
+          -3,
+          -6
+        ],
+        [
+          -3,
+          -5
+        ],
+        [
+          -3,
+          -4
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -2,
+          -6
+        ],
+        [
+          -2,
+          -4
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -2,
+          4
+        ],
+        [
+          -1,
+          -3
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          -5
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          -4
+        ],
+        [
+          3,
+          -2
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          -2
+        ],
+        [
+          4,
+          -1
+        ]
+      ],
+      "head": [
+        4,
+        -5
+      ],
+      "heading": 1,
+      "diagonal_sign": -1,
+      "empty_separator_coordinate": 8
+    }
+  ]
+}

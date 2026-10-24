@@ -1,0 +1,47 @@
+{
+  "status": "Exact constants; analytic activation proof pending independent audit",
+  "activation_bound": 76,
+  "activation_attainers": [
+    [
+      4,
+      0,
+      [
+        0,
+        3
+      ]
+    ],
+    [
+      5,
+      0,
+      [
+        0,
+        3
+      ]
+    ],
+    [
+      6,
+      0,
+      [
+        0,
+        3
+      ]
+    ]
+  ],
+  "max_initial_core_offset": 54,
+  "output_weight_minimum": -60,
+  "initial_tokens_at_most": "m-5",
+  "produced_black_strip_bound": "57+38(m-5)",
+  "fine_head_strip_bound": "45+38(m-5)",
+  "core_black_strip_bound": "34+38(m-5)",
+  "R": "ceil((114+76(m-5))/5)",
+  "A": "(2R+1)^2",
+  "t": "floor(A/3)",
+  "macro_bound": "2R(t+1)+t",
+  "fine_step_bound": "20R(t+1)+18t",
+  "hashes": {
+    "dcv_residual_core_resources.json": "7fdb41445719db8328b02113af7d44879398d8b0aea7b17319253994df1bea06",
+    "dcv_free_direction_family102.json": "838a458a906b214d19888d92c3fbba6b5440387fe3cbb064005155753125d24d",
+    "dcv_directional_factor_bound.json": "8d40c68a1cea9fbb6ac99253b3dec6ba61d59eb8930a102fae443fe93ff2a177",
+    "dcv_producer_closed_family.tsv": "c4585979213b8f6bdec63aee6daec119ab16226bce6a9d5401a3ae5968d994e4"
+  }
+}

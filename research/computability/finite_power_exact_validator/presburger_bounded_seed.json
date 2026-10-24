@@ -1,0 +1,208 @@
+{
+  "libisl_version": "isl-0.27-GMP",
+  "invalid_template_rejections": 4,
+  "records": [
+    {
+      "status": "decided",
+      "mass_bound": 0,
+      "possible": true,
+      "growing": false,
+      "accepted_growing_model": false,
+      "feasible_parameters": "{  :  }",
+      "parameter_names": [],
+      "witness_assignment": [],
+      "seed": [],
+      "frame_checks": 2,
+      "name": "identity_R"
+    },
+    {
+      "status": "decided",
+      "mass_bound": 1,
+      "possible": true,
+      "growing": false,
+      "accepted_growing_model": false,
+      "feasible_parameters": "[a0, bx0, by0] -> {  : 0 <= a0 <= 1 and (by0 < 0 or by0 > 0 or (by0 = 0 and bx0 < 0) or (by0 = 0 and bx0 >= a0)) }",
+      "parameter_names": [
+        "a0",
+        "bx0",
+        "by0"
+      ],
+      "witness_assignment": [
+        0,
+        0,
+        -1
+      ],
+      "seed": [],
+      "frame_checks": 2,
+      "name": "identity_R"
+    },
+    {
+      "status": "decided",
+      "mass_bound": 2,
+      "possible": true,
+      "growing": false,
+      "accepted_growing_model": false,
+      "feasible_parameters": "[a0, bx0, by0, a1, bx1, by1] -> {  : 0 <= a0 <= 1 and 0 <= a1 <= 1 and ((by0 < 0 and by1 < 0) or (by0 < 0 and by1 > 0) or (by0 > 0 and by1 < 0) or (by0 > 0 and by1 > 0) or (by1 = 0 and by0 < 0 and bx1 < 0) or (by1 = 0 and by0 < 0 and bx1 >= a1) or (by1 = 0 and by0 > 0 and bx1 < 0) or (by1 = 0 and by0 > 0 and bx1 >= a1) or (by0 = 0 and bx0 < 0 and by1 < 0) or (by0 = 0 and bx0 < 0 and by1 > 0) or (by0 = 0 and bx0 >= a0 and by1 < 0) or (by0 = 0 and bx0 >= a0 and by1 > 0) or (by0 = 0 and by1 = 0 and bx0 < 0 and bx1 < 0) or (by0 = 0 and by1 = 0 and bx0 < 0 and bx1 >= a1) or (by0 = 0 and by1 = 0 and bx0 >= a0 and bx1 < 0) or (by0 = 0 and by1 = 0 and bx0 >= a0 and bx1 >= a1)) }",
+      "parameter_names": [
+        "a0",
+        "bx0",
+        "by0",
+        "a1",
+        "bx1",
+        "by1"
+      ],
+      "witness_assignment": [
+        0,
+        0,
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "seed": [],
+      "frame_checks": 2,
+      "name": "identity_R"
+    },
+    {
+      "status": "decided",
+      "mass_bound": 0,
+      "possible": false,
+      "growing": false,
+      "accepted_growing_model": false,
+      "feasible_parameters": "{  : false }",
+      "parameter_names": [],
+      "witness_assignment": null,
+      "seed": null,
+      "frame_checks": 1,
+      "rejected_by_zero_depth_slice": true,
+      "name": "identity_L"
+    },
+    {
+      "status": "decided",
+      "mass_bound": 1,
+      "possible": true,
+      "growing": false,
+      "accepted_growing_model": false,
+      "feasible_parameters": "[a0, bx0, by0] -> {  : a0 = 1 and bx0 = 0 and by0 = 0 }",
+      "parameter_names": [
+        "a0",
+        "bx0",
+        "by0"
+      ],
+      "witness_assignment": [
+        1,
+        0,
+        0
+      ],
+      "seed": [
+        [
+          0,
+          0
+        ]
+      ],
+      "frame_checks": 2,
+      "name": "identity_L"
+    },
+    {
+      "status": "decided",
+      "mass_bound": 2,
+      "possible": true,
+      "growing": false,
+      "accepted_growing_model": false,
+      "feasible_parameters": "[a0, bx0, by0, a1, bx1, by1] -> {  : (a0 = 1 and bx0 = 0 and by0 = 0 and 0 <= a1 <= 1) or (a1 = 1 and bx1 = 0 and by1 = 0 and 0 <= a0 <= 1 and by0 < 0) or (a1 = 1 and bx1 = 0 and by1 = 0 and 0 <= a0 <= 1 and by0 > 0) or (by0 = 0 and a1 = 1 and bx1 = 0 and by1 = 0 and 0 <= a0 <= 1 and bx0 < 0) or (by0 = 0 and a1 = 1 and bx1 = 0 and by1 = 0 and 0 <= a0 <= 1 and bx0 >= a0) }",
+      "parameter_names": [
+        "a0",
+        "bx0",
+        "by0",
+        "a1",
+        "bx1",
+        "by1"
+      ],
+      "witness_assignment": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "seed": [
+        [
+          0,
+          0
+        ]
+      ],
+      "frame_checks": 2,
+      "name": "identity_L"
+    },
+    {
+      "status": "decided",
+      "mass_bound": 0,
+      "possible": false,
+      "growing": true,
+      "accepted_growing_model": false,
+      "feasible_parameters": "{  : false }",
+      "parameter_names": [],
+      "witness_assignment": null,
+      "seed": null,
+      "frame_checks": 5,
+      "rejected_by_zero_depth_slice": true,
+      "name": "right_five"
+    },
+    {
+      "status": "decided",
+      "mass_bound": 1,
+      "possible": false,
+      "growing": true,
+      "accepted_growing_model": false,
+      "feasible_parameters": "[a0, bx0, by0] -> {  : false }",
+      "parameter_names": [
+        "a0",
+        "bx0",
+        "by0"
+      ],
+      "witness_assignment": null,
+      "seed": null,
+      "frame_checks": 5,
+      "rejected_by_zero_depth_slice": true,
+      "name": "right_five"
+    },
+    {
+      "status": "decided",
+      "mass_bound": 2,
+      "possible": false,
+      "growing": true,
+      "accepted_growing_model": false,
+      "feasible_parameters": "[a0, bx0, by0, a1, bx1, by1] -> {  : false }",
+      "parameter_names": [
+        "a0",
+        "bx0",
+        "by0",
+        "a1",
+        "bx1",
+        "by1"
+      ],
+      "witness_assignment": null,
+      "seed": null,
+      "frame_checks": 5,
+      "rejected_by_zero_depth_slice": true,
+      "name": "right_five"
+    },
+    {
+      "status": "invalid parity certificate",
+      "state": 0,
+      "kind": "base",
+      "name": "forged_parity_base"
+    },
+    {
+      "status": "invalid parity certificate",
+      "state": 0,
+      "kind": "recurrence",
+      "name": "forged_parity_recurrence"
+    }
+  ],
+  "decided_cases": 9,
+  "accepted_growing_models": 0,
+  "scope": "All-coordinate bounded-seed solver with exact supplied parity certificates at A=I; general extraction remains absent.",
+  "seconds": 7.975470284996845
+}

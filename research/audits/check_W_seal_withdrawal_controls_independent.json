@@ -1,0 +1,51 @@
+{
+  "status": "PASS exact two genuine U-entry controls and withdrawal; 6ea48d5 remains NOT PASSED",
+  "manifest_sha256": "e1ec487ac011d317dd3bb6d2beef5ae53740c213bbcedaca2ab254b8bc61f570",
+  "controls": [
+    {
+      "raw_labels": "UVVCCVV",
+      "mass": 16,
+      "tag": [
+        0,
+        5
+      ],
+      "read_history": [
+        [
+          39,
+          "R"
+        ],
+        [
+          131,
+          "L"
+        ]
+      ],
+      "raw_length": 130,
+      "retirement_owner": "following-word RAW phase2, not final plain V RAW"
+    },
+    {
+      "raw_labels": "UVCCVV",
+      "mass": 14,
+      "tag": [
+        -1,
+        2
+      ],
+      "read_history": [
+        [
+          13,
+          "L"
+        ],
+        [
+          21,
+          "R"
+        ],
+        [
+          113,
+          "L"
+        ]
+      ],
+      "raw_length": 112,
+      "retirement_owner": "following-word RAW phase2, not final plain V RAW"
+    }
+  ],
+  "analytic": "Both complete minimal finite boards execute their actual full words and marker. The old plain V A and plain U recycled q really survive to the final V residual input at source age2, then retire at the following-word phase2. The missing arbitrary S run invalidates the proposed ownership exclusion. These controls do not attain the narrower foreign endpoint, and do not refute all possible replacement seals. Earlier matching and bottleneck remain unchanged."
+}

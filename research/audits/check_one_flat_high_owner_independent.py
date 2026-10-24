@@ -1,0 +1,19 @@
+from pathlib import Path
+import json,hashlib
+S=Path(__file__);R=S.parents[1];D=R/'first_departure_multiplicity_2026-10-24';P=D/'one_flat_high_only_circle_has_one_translated_archive_owner.md';sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();assert sha(P)=='53566d7bc391930d7f47b2ddeca907792ff781636533dc19b42c2bb2ee0b1ae9'
+deps=['check_mixed_flow2_flat_islands_independent.json','check_mixed_RR_closure_independent.json','check_mixed_second_lane_independent.json','check_mixed_first_track_pipeline_independent.json','check_critical_flat_providers_independent.json','check_three_phase_diagonal_rail_independent.json']
+H='NESW';ports={}
+for name,w in [('X','EEWW'),('Y','EWWE')]:
+ out=[H[(H.index(c)+(1 if r%2==0 else -1))%4]for r,c in enumerate(w)];inc=[r for r,c in enumerate(w)if c=='E'];dep=[r for r,c in enumerate(out)if c=='S'];ports[name]=dict(incoming_second=inc[1],outgoing_second=dep[1]);assert(inc[1],dep[1])==((1,3)if name=='X'else(3,1))
+J=json.loads((S.parent/'check_mixed_second_lane_independent.json').read_text());sc=[r for r in J['all10_flow3_scatterings']if r['flow3_turn_word']in('RR','RLR')];assert len(sc)==2
+for r in sc:
+ z=r['second_lane'];assert z['kind']=='THROUGH'and z['output_ordinal']==2 and z['route'][0]['rank']==z['route'][-1]['rank']==2
+assert J['flow4']['second_lane']['kind']=='THROUGH';assert next(r for r in J['flow2']if r['history']=='WWEE')['second_lane']['route'][0]['rank']==3
+obj=dict(status='PASS conditional one-flat high-only actual translated LEFT-owner interface',proof=sha(P),script=sha(S),dependencies={str((S.parent/f).relative_to(R)):sha(S.parent/f)for f in deps},actual_flat_ports=ports,analytic_review=[
+'Assumptions are complete WHITE cap4 front, global maximum critical b-circle, no-one-use edges, exactly one flat2RIGHT class and noflow2O/U roots. Signed maximum+RR closure reduces every maximal3 block to transparent RR/RLR; isolated4 andLEFTV transparent. Their actual selected lane keeps all boundary copies, not a repaired-node walk.',
+'Start at the unique flat outgoing-second event. With no crossing f2 roots and no other flat, the actual lane runs once around the negative b-circle to its incoming-second atF-d in exactlyell updates. X has outgoingL3/incomingL1, forcing T1F-P=T3F+ell impossible. Y has outgoingL1/incomingL3, giving T3F-T1F=P+ell. Full voltages are not reduced modP.',
+'Both endpointY reads and every interior selected event are geometricallyLEFT. The high3 crossings are L1/R2, while this selected lane visits theirL3. Thus no crossing event occurs in this continuous actual factor. Critical K=1 alternating crossings divide the complete timeline into physical same-contact LEFT intervals; the entire factor lies strictly within ONE such intervalq.L1->q.R2. Crossing q must be a gammaWEEE vertex because f2 crossings are absent. It is not an arbitrary exterior or canonical-sheet owner.',
+'The selected factor visits each gamma quotient occurrence once, including every flow3LEFTL3 and odd source/sinkR2. In particular it includes q ownL3CLASS, physicallyq+n*d. It cannot beq or a futuretranslate because T3q>T2q. Therefore n=-m withm>=1, and T1q<T3q-mP<T2q. The interval for mP has widthDelta12q<P, so the integer is unique if it exists; no m=1 inference.',
+'The actual walk fromq atT1 toq-m*d and backq atT2 has lengthDelta12>=2m||d||1. IntegerDelta12<P givesm<=floor((P-1)/(2||d||1)). This is only P-dependent geometry; it is neither initial fuel nor a period/age upper bound.',
+'The minimal NSSN/NSN/NNN rail is separately excluded by signed exact helper-rank reversal. Larger single-owner layouts, positive output, exterior chronology and multi-flat cases remainOPEN. No physicalfront realization, canonical node interpretation or globalattraction result is claimed.'
+]);S.with_suffix('.json').write_text(json.dumps(obj,indent=2)+'\n');print(obj['status']);print(sha(S.with_suffix('.json')))

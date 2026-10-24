@@ -1,0 +1,401 @@
+{
+  "scope": "All-length local row transducer for constant flow2 staircase departure segments.\nFive consecutive main corners plus forced D cells and one E cell.\nNo period, drift, width, front, or bounded-length search.\n",
+  "A_modes": {
+    "X": "NNSS",
+    "Y": "NSSN"
+  },
+  "B_modes": {
+    "U": "WEEW",
+    "V": "WWEE"
+  },
+  "forced_D_modes": {
+    "U": "NNSS",
+    "V": "SSNN"
+  },
+  "E_candidates": [
+    "EEW",
+    "WEE",
+    "EEWW",
+    "EWWE",
+    "WEEW",
+    "WWEE"
+  ],
+  "rows": [
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "U",
+      "E_modes": [
+        "WEE",
+        "WEEW"
+      ],
+      "rejections": {
+        "skipped_rank": 4,
+        "open": 2
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "V",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 6
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "U",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 4,
+        "clock_cycle": 2
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "V",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 6
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "U",
+      "E_modes": [],
+      "rejections": {
+        "clock_cycle": 4,
+        "skipped_rank": 2
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "V",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 6
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "U",
+      "E_modes": [],
+      "rejections": {
+        "clock_cycle": 4,
+        "skipped_rank": 2
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "V",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 6
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "U",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 4,
+        "clock_cycle": 2
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "V",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 6
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "U",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 4,
+        "clock_cycle": 2
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "V",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 6
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "U",
+      "E_modes": [],
+      "rejections": {
+        "clock_cycle": 4,
+        "skipped_rank": 2
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "V",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 6
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "U",
+      "E_modes": [],
+      "rejections": {
+        "clock_cycle": 4,
+        "skipped_rank": 2
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "V",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 6
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "U",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 4,
+        "clock_cycle": 2
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "V",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 6
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "U",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 4,
+        "clock_cycle": 2
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "V",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 6
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "U",
+      "E_modes": [],
+      "rejections": {
+        "clock_cycle": 4,
+        "skipped_rank": 2
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "V",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 6
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "U",
+      "E_modes": [],
+      "rejections": {
+        "clock_cycle": 4,
+        "skipped_rank": 2
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "V",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 6
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "U",
+      "E_modes": [
+        "WEE",
+        "WEEW"
+      ],
+      "rejections": {
+        "skipped_rank": 4,
+        "open": 2
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "V",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 6
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "U",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 4,
+        "clock_cycle": 2
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "V",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 6
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "U",
+      "E_modes": [],
+      "rejections": {
+        "clock_cycle": 4,
+        "skipped_rank": 2
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "V",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 6
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "U",
+      "E_modes": [],
+      "rejections": {
+        "clock_cycle": 4,
+        "skipped_rank": 2
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "V",
+      "E_modes": [],
+      "rejections": {
+        "skipped_rank": 6
+      }
+    }
+  ],
+  "admissible_count": 2,
+  "warning": "A compositional necessary local language only. Surviving modes may fail outside this row or under global clock/board constraints. No whole-cycle or front existence is inferred."
+}

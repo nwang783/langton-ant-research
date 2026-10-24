@@ -1,0 +1,45 @@
+{
+  "status": "EXACT_ALL_PARAMETER_ALL_FUTURE_LEGAL",
+  "scope": "One finite prepared-wake family, not a renewable reflector",
+  "domain": "integers n>=30,m>=30",
+  "initial_old_seed_rotation_ccw": 2,
+  "old_start": [
+    "-2*n",
+    "-2*n",
+    "E"
+  ],
+  "old_periods": "2*n",
+  "incoming_seed_rotation_ccw": 1,
+  "incoming_start": [
+    "-2*m+1",
+    "2*m",
+    "S"
+  ],
+  "incoming_prefix": "H^(m-10)",
+  "cut_pose": [
+    -19,
+    20,
+    "S"
+  ],
+  "collision_length": 19872,
+  "collision_read_support": 2416,
+  "complete_collision_xor_count": 1260,
+  "erased_old_black_count": 152,
+  "changed_old_wake_strip_count": 298,
+  "tail_time": "104*m+18832",
+  "tail_pose": [
+    -31,
+    -10,
+    "N"
+  ],
+  "tail_drift": [
+    -2,
+    2
+  ],
+  "tail_prior_relations": 262,
+  "tail_bad_sets": [],
+  "collision_word_sha256": "cdf96ff8bbc2c508060100fb8fc06706c7aec46983225dbbbda57d17d916b756",
+  "source_sha256": "1bfecc8aecca4046dea0a49a1e0f6974348c3c1112e9bbed949b3ccb3b9402ed",
+  "seconds": 8.272031489002984,
+  "isl_version": "isl-0.27-GMP"
+}

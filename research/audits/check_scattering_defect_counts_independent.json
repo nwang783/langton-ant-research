@@ -1,0 +1,22 @@
+{
+  "status": "PASS independent exact defect counts and affine inverse-history separation",
+  "signed_43_cell_family": {
+    "domain": "r,s>=50",
+    "exact_K": 5963,
+    "compressed_length": 15210,
+    "fixed_inverse_history": "RLLLLRLLLL",
+    "moving_points_separated": 30
+  },
+  "conditional_20_cell_family": {
+    "domain": "even n>=20, conditional on retained all-n execution theorem",
+    "exact_K": 440,
+    "compressed_length": 2492,
+    "fresh_literal_controls": [
+      20,
+      26,
+      40
+    ]
+  },
+  "scope": "Fixed templates have constant defects despite unbounded flight lengths. No uniform scattering budget, and no new all-n geometry signoff for the twenty-cell source.",
+  "note_sha256": "960c9dd822a1d1c42571ee789a1800d436b3f8c5c4b0fa81f16d66f66a901221"
+}

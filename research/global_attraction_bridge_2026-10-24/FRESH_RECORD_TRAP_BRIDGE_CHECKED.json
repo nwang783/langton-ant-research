@@ -1,0 +1,1619 @@
+{
+  "status": "AUTHOR exact analytic all-K construction; independent audit pending",
+  "six_cell_axis_pristine_criterion": {
+    "initial_black": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "old_halfplane": "y >= 1",
+    "pristine_halfplane": "y <= 0",
+    "guard": [
+      [
+        -5,
+        1
+      ],
+      [
+        -4,
+        1
+      ],
+      [
+        -4,
+        2
+      ],
+      [
+        -3,
+        1
+      ],
+      [
+        -3,
+        2
+      ],
+      [
+        -3,
+        3
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -2,
+        3
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "guard_required_black": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "guard_required_white": [
+      [
+        -5,
+        1
+      ],
+      [
+        -4,
+        1
+      ],
+      [
+        -4,
+        2
+      ],
+      [
+        -3,
+        1
+      ],
+      [
+        -3,
+        2
+      ],
+      [
+        -3,
+        3
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -2,
+        3
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "guard_first_reads": [
+      [
+        [
+          -5,
+          1
+        ],
+        178
+      ],
+      [
+        [
+          -4,
+          1
+        ],
+        167
+      ],
+      [
+        [
+          -4,
+          2
+        ],
+        168
+      ],
+      [
+        [
+          -3,
+          1
+        ],
+        166
+      ],
+      [
+        [
+          -3,
+          2
+        ],
+        161
+      ],
+      [
+        [
+          -3,
+          3
+        ],
+        162
+      ],
+      [
+        [
+          -2,
+          1
+        ],
+        151
+      ],
+      [
+        [
+          -2,
+          2
+        ],
+        152
+      ],
+      [
+        [
+          -2,
+          3
+        ],
+        163
+      ],
+      [
+        [
+          -1,
+          1
+        ],
+        2
+      ],
+      [
+        [
+          -1,
+          2
+        ],
+        153
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        3
+      ],
+      [
+        [
+          0,
+          2
+        ],
+        48
+      ],
+      [
+        [
+          0,
+          3
+        ],
+        47
+      ],
+      [
+        [
+          0,
+          4
+        ],
+        56
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        10
+      ],
+      [
+        [
+          1,
+          2
+        ],
+        49
+      ],
+      [
+        [
+          1,
+          3
+        ],
+        46
+      ],
+      [
+        [
+          1,
+          4
+        ],
+        41
+      ],
+      [
+        [
+          1,
+          5
+        ],
+        42
+      ],
+      [
+        [
+          2,
+          1
+        ],
+        35
+      ],
+      [
+        [
+          2,
+          2
+        ],
+        36
+      ],
+      [
+        [
+          2,
+          3
+        ],
+        39
+      ],
+      [
+        [
+          2,
+          4
+        ],
+        40
+      ],
+      [
+        [
+          2,
+          5
+        ],
+        43
+      ],
+      [
+        [
+          3,
+          1
+        ],
+        30
+      ],
+      [
+        [
+          3,
+          2
+        ],
+        37
+      ],
+      [
+        [
+          3,
+          3
+        ],
+        38
+      ],
+      [
+        [
+          4,
+          1
+        ],
+        31
+      ]
+    ],
+    "prefix": "RRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLLRLRRRRLRLLRRRRLLRRRRLLRLLLLRLRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLRRLRRRRLLL",
+    "period": "LRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLR",
+    "tail_pose": [
+      [
+        0,
+        -2
+      ],
+      2
+    ],
+    "tail_drift": [
+      2,
+      -2
+    ],
+    "ray_tests": 170
+  },
+  "sharp_two_record_prefix": {
+    "word": "RRRRLRRRRLLLLRLR",
+    "old_input_forced_white": [
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "old_input_forced_black": [
+      [
+        1,
+        1
+      ]
+    ],
+    "unconstrained_guard_bit_count": 26,
+    "unconstrained_required_black": 5,
+    "unconstrained_required_white": 21,
+    "one_bit_controls": [
+      {
+        "cell": [
+          -5,
+          1
+        ],
+        "required_black": false,
+        "first_disagreement": 178,
+        "initial_black": [
+          [
+            -5,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          -4,
+          1
+        ],
+        "required_black": false,
+        "first_disagreement": 167,
+        "initial_black": [
+          [
+            -4,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          -4,
+          2
+        ],
+        "required_black": false,
+        "first_disagreement": 168,
+        "initial_black": [
+          [
+            -4,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          -3,
+          1
+        ],
+        "required_black": false,
+        "first_disagreement": 166,
+        "initial_black": [
+          [
+            -3,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          -3,
+          2
+        ],
+        "required_black": false,
+        "first_disagreement": 161,
+        "initial_black": [
+          [
+            -3,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          -3,
+          3
+        ],
+        "required_black": false,
+        "first_disagreement": 162,
+        "initial_black": [
+          [
+            -3,
+            3
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          -2,
+          1
+        ],
+        "required_black": false,
+        "first_disagreement": 151,
+        "initial_black": [
+          [
+            -2,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          -2,
+          2
+        ],
+        "required_black": false,
+        "first_disagreement": 152,
+        "initial_black": [
+          [
+            -2,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          -2,
+          3
+        ],
+        "required_black": false,
+        "first_disagreement": 163,
+        "initial_black": [
+          [
+            -2,
+            3
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          -1,
+          2
+        ],
+        "required_black": false,
+        "first_disagreement": 153,
+        "initial_black": [
+          [
+            -1,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          0,
+          2
+        ],
+        "required_black": true,
+        "first_disagreement": 48,
+        "initial_black": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          0,
+          3
+        ],
+        "required_black": true,
+        "first_disagreement": 47,
+        "initial_black": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          0,
+          4
+        ],
+        "required_black": false,
+        "first_disagreement": 56,
+        "initial_black": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          1,
+          2
+        ],
+        "required_black": false,
+        "first_disagreement": 49,
+        "initial_black": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          1,
+          3
+        ],
+        "required_black": false,
+        "first_disagreement": 46,
+        "initial_black": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          1,
+          4
+        ],
+        "required_black": false,
+        "first_disagreement": 41,
+        "initial_black": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          1,
+          5
+        ],
+        "required_black": false,
+        "first_disagreement": 42,
+        "initial_black": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          2,
+          1
+        ],
+        "required_black": false,
+        "first_disagreement": 35,
+        "initial_black": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          2,
+          2
+        ],
+        "required_black": false,
+        "first_disagreement": 36,
+        "initial_black": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          2,
+          3
+        ],
+        "required_black": false,
+        "first_disagreement": 39,
+        "initial_black": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          2,
+          4
+        ],
+        "required_black": true,
+        "first_disagreement": 40,
+        "initial_black": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          2,
+          5
+        ],
+        "required_black": false,
+        "first_disagreement": 43,
+        "initial_black": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          3,
+          1
+        ],
+        "required_black": false,
+        "first_disagreement": 30,
+        "initial_black": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          3,
+          2
+        ],
+        "required_black": true,
+        "first_disagreement": 37,
+        "initial_black": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "cell": [
+          3,
+          3
+        ],
+        "required_black": true,
+        "first_disagreement": 38,
+        "initial_black": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      {
+        "cell": [
+          4,
+          1
+        ],
+        "required_black": false,
+        "first_disagreement": 31,
+        "initial_black": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      }
+    ]
+  },
+  "diagonal_record_tangent_family": {
+    "base_initial_black": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "initial_pose": [
+      [
+        1,
+        1
+      ],
+      2
+    ],
+    "prefix": "RLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLLRLRRRRLRLLRRRRLLRRRRLLRLLLLRLRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLRLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLRRLRRRRLLL",
+    "pristine_halfplane": "x+y < 1",
+    "record_sponsor": [
+      0,
+      1
+    ],
+    "first_return_word": "RLRRRRLRRRRL",
+    "first_return_duration": 12,
+    "first_return_pose": [
+      [
+        1,
+        1
+      ],
+      0
+    ],
+    "tail_start": 234,
+    "obstacle_formula": "(5+2K,-4-2K), integer K>=0",
+    "obstacle_mass": 1,
+    "total_initial_mass": 7,
+    "all_K_first_disagreement": "279+104K",
+    "prefix_ray_intersections": [
+      [
+        [
+          -1,
+          2
+        ],
+        -3
+      ],
+      [
+        [
+          3,
+          -2
+        ],
+        -1
+      ],
+      [
+        [
+          1,
+          0
+        ],
+        -2
+      ]
+    ],
+    "tail_ray_matches": [
+      {
+        "phase": 5,
+        "epoch_offset": 1,
+        "time_offset": 109
+      },
+      {
+        "phase": 45,
+        "epoch_offset": 0,
+        "time_offset": 45
+      },
+      {
+        "phase": 49,
+        "epoch_offset": 0,
+        "time_offset": 49
+      },
+      {
+        "phase": 53,
+        "epoch_offset": 0,
+        "time_offset": 53
+      },
+      {
+        "phase": 65,
+        "epoch_offset": 0,
+        "time_offset": 65
+      },
+      {
+        "phase": 81,
+        "epoch_offset": 1,
+        "time_offset": 185
+      },
+      {
+        "phase": 97,
+        "epoch_offset": 1,
+        "time_offset": 201
+      }
+    ],
+    "finite_controls": [
+      {
+        "K": 0,
+        "obstacle": [
+          5,
+          -4
+        ],
+        "first_difference_time": 279,
+        "required_base_turn": "R",
+        "actual_turn": "L"
+      },
+      {
+        "K": 1,
+        "obstacle": [
+          7,
+          -6
+        ],
+        "first_difference_time": 383,
+        "required_base_turn": "R",
+        "actual_turn": "L"
+      },
+      {
+        "K": 2,
+        "obstacle": [
+          9,
+          -8
+        ],
+        "first_difference_time": 487,
+        "required_base_turn": "R",
+        "actual_turn": "L"
+      },
+      {
+        "K": 11,
+        "obstacle": [
+          27,
+          -26
+        ],
+        "first_difference_time": 1423,
+        "required_base_turn": "R",
+        "actual_turn": "L"
+      }
+    ]
+  }
+}

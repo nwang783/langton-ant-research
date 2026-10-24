@@ -1,0 +1,117 @@
+{
+  "status": "PASS independent physical slab, inherited ownership, CNF and RUP reconstruction",
+  "source_sha256": "ee4e2b3e4127e4cf12e2d47385b0e6fab72789470ba4a00836f24c1b425e6318",
+  "note_sha256": "3fcbf137f158500af088a4e63a7956a7ab3376f94a641e230dddfa65f3cb7a64",
+  "architecture_sha256": "99a7af165aa85ff62385d61455aff99700cb0e0e6fce89bb381abea3b811548b",
+  "cnf_sha256": "4ffcc192c250541073d3a8f83285d172719419715a3e87e45ed0c4096035456a",
+  "rup_sha256": "184f384fe8169a5e3a438233eea1be314976feb788baf998fc9df39cf6d3520f",
+  "periods": 5,
+  "independent_image_choices": 520,
+  "physical_cells": 214,
+  "arbitrary_inherited_cells": 64,
+  "rail_prescribed_new_cells": 150,
+  "variables": 44983,
+  "clauses": 183663,
+  "RUP_additions": 787,
+  "controls": [
+    {
+      "name": "prepared108_finite_positive",
+      "length": 540,
+      "legal": true,
+      "minimal_input": 68,
+      "nonstationary": false
+    },
+    {
+      "name": "nonstationary_finite_positive",
+      "length": 532,
+      "legal": true,
+      "minimal_input": 70,
+      "nonstationary": true
+    },
+    {
+      "name": "random0",
+      "length": 3900,
+      "legal": false,
+      "minimal_input": 91,
+      "nonstationary": true
+    },
+    {
+      "name": "random1",
+      "length": 3788,
+      "legal": false,
+      "minimal_input": 98,
+      "nonstationary": true
+    },
+    {
+      "name": "random2",
+      "length": 3844,
+      "legal": false,
+      "minimal_input": 88,
+      "nonstationary": true
+    },
+    {
+      "name": "random3",
+      "length": 3828,
+      "legal": false,
+      "minimal_input": 88,
+      "nonstationary": true
+    },
+    {
+      "name": "random4",
+      "length": 3800,
+      "legal": false,
+      "minimal_input": 100,
+      "nonstationary": true
+    },
+    {
+      "name": "random5",
+      "length": 3932,
+      "legal": false,
+      "minimal_input": 90,
+      "nonstationary": true
+    },
+    {
+      "name": "random6",
+      "length": 3812,
+      "legal": false,
+      "minimal_input": 86,
+      "nonstationary": true
+    },
+    {
+      "name": "random7",
+      "length": 3900,
+      "legal": false,
+      "minimal_input": 92,
+      "nonstationary": true
+    },
+    {
+      "name": "random8",
+      "length": 3872,
+      "legal": false,
+      "minimal_input": 102,
+      "nonstationary": true
+    },
+    {
+      "name": "random9",
+      "length": 3744,
+      "legal": false,
+      "minimal_input": 104,
+      "nonstationary": true
+    },
+    {
+      "name": "random10",
+      "length": 3836,
+      "legal": false,
+      "minimal_input": 108,
+      "nonstationary": true
+    },
+    {
+      "name": "random11",
+      "length": 3856,
+      "legal": false,
+      "minimal_input": 84,
+      "nonstationary": true
+    }
+  ],
+  "scope": "No legal five-period slab under untouched compatible standard-bundle input and arbitrary earlier-architecture inherited colors; choices independent at every occurrence, outputs free. Does not cover additional untouched prepared defects, nonstandard writers, different palettes/scaffolds, or arbitrary earlier interventions."
+}

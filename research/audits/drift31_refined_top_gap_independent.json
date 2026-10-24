@@ -1,0 +1,58 @@
+{
+  "status": "PASS unrestricted five-position odd-read obligation below full drift3,1 read maximum",
+  "proof_sha256": "73bded4fa21709683bf9025410a4424de1026b3b713dcef6d1fae2cace0286d9",
+  "certificate_sha256": "ad9c00e06f250576f7eacffc598d6b6b056b3a60afc802dcb1915f206824c343",
+  "script_sha256": "5f29b6e23c5c6f03a886c1f034fcfa20243f7247a3de32c194912ddf2a3865f0",
+  "complete_counts": {
+    "19": {
+      "open": 1
+    },
+    "18": {
+      "open": 1
+    },
+    "17": {
+      "open": 2
+    },
+    "16": {
+      "open": 6
+    },
+    "15": {
+      "skipped_rank": 6,
+      "open": 2,
+      "positive_rank_clock_cycle": 2
+    },
+    "14": {
+      "skipped_rank": 9,
+      "open": 6
+    },
+    "13": {
+      "skipped_rank": 62
+    }
+  },
+  "final_eightstep_rank_skips": [
+    [
+      0,
+      2,
+      58
+    ],
+    [
+      2,
+      5,
+      4
+    ]
+  ],
+  "greatest_derived_bound": 23,
+  "analytic_checks": [
+    "Complete WHITE full drift3,1; invariantverticaleven sector; actual READ maximumM even singletonN. NormalizeM20; onlyaboveMempty, lowerUNKNOWN.",
+    "EvennessassumedonlyM-1,M-2,M-3,M-5,M-6. M-4=T16 andT13 bothUNRESTRICTEDparity.",
+    "Independent closedformcount inversion: a incomingih atRranks determinedby2a=J-l+I orr+I-J, then allR/Lpositionsubsets enumerateeachcompletebinarywordonce. Bound2(I+J)+1derived, notexternalcap.",
+    "Allphysicalsamecellfirstreturns, exactordinalsuccessors andpositiveclockcyclememberships independentlyrebuilt.62 finalhistories all8step rankskips:58zero-to2,4two-to5.",
+    "Conclusiononlyexistenceoddclassinthefivepositions. No specificfulloddinventoryfamilyownership inferred withoutseparateproof."
+  ],
+  "not_claimed": [
+    "particularshortmodeexcluded",
+    "growth8closure",
+    "unconditionalsingleusedcircle",
+    "globalattraction"
+  ]
+}

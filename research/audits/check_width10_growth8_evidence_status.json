@@ -1,0 +1,63 @@
+{
+  "status": "RECONCILED: historical reported computation, not independently re-certified in recovered package; unchanged from 22 October audit.",
+  "scope": "All periods, full drift (2,-2), diagonal width 10, wake growth 8. This is not the general growth >=8 theorem or growth12 thin-wake rigidity.",
+  "integrity": [
+    {
+      "manifest": "first_principles_2026-10-21/SHA256SUMS.txt",
+      "manifest_sha256": "9ad8ad5039d2d9ca92505541664da65fa1846485db1ffb1cde788d36e8ffdf26",
+      "verified": 114,
+      "failed": []
+    },
+    {
+      "manifest": "continuation_2026-10-21/ant_continuation/MANIFEST.json",
+      "manifest_sha256": "0c71e26fe4d4126532f132a3402fbcdb4ad7d63c80a0e55812e9664e7c6518e3",
+      "verified": 125,
+      "failed": []
+    },
+    {
+      "manifest": "continuation_2026-10-22/ant_continuation2/MANIFEST.json",
+      "manifest_sha256": "d1cbfd93d19246e153a860c85d6a051103075096321c36a28e1b3a45ac16c3ed",
+      "verified": 222,
+      "failed": []
+    },
+    {
+      "manifest": "recovered_bundle/ant_global/manifest_sha256.json",
+      "manifest_sha256": "612c793d44e185b95513dec7d133cfdbf01480791054056b79f63074d958597b",
+      "verified": 80,
+      "failed": []
+    }
+  ],
+  "total": 541,
+  "sources": {
+    "RECOVERY_INDEX.md": "3150801a9f2843230d89cc582924637a7eb294c76e1c9ffde60dc80c95f8e251",
+    "sources/handoff_2026-10-21.txt": "8ed460899f7a598d5b3888413d35e6f594a4ba3adae4eaa5e08cab8fb86d79cb",
+    "sources/continuation_2026-10-22.md": "ef067a8904d74b029f32865d8caced80cd1909f081befda5b8cb30d9d50f9169",
+    "recovered_bundle/ant_global/README.txt": "535eb1be2af0438f3078446007fb8dc386db0d68e218e3623f8e09a187e5e307",
+    "recovered_bundle/ant_global/sources/source_status.md": "1c4539bc43f5cc47a16b41de9b105ba3ff1200b9dfa69b242238ad51acef9313",
+    "sources/kehao95-core/wake_synthesis/proof/periodic-growth-closure.md": "bd3e74c5a2a87c4431fe4c777b9eeaa7010e42600ab9eb9bea6198e9ca249db7",
+    "sources/kehao95-core/wake_synthesis/proof/mixed-wake-interleaving.md": "d16a68c7d4104f594ebd4cfcda041676931a5df0698f404cca8213f03c87e555",
+    "sources/kehao95-core/wake_synthesis/proof/thin-wake.md": "c4066430ac92a525e2c386c5d220c63581d92758d91d28e141e0f64e03cfd390"
+  },
+  "old_workspace_exists": false,
+  "foundations_files": [
+    "fresh_cap_scattering_decomposition.md",
+    "fresh_excursion_third_row_charge.md"
+  ],
+  "historical_counts": {
+    "total": 55812,
+    "arithmetic_local": 55348,
+    "visit_count": 74,
+    "chronology": 390,
+    "exact_searches": 352,
+    "equivalence": 1,
+    "local_contradictions": 3,
+    "earlier_subfamily": 34
+  },
+  "not_claimed": [
+    "counterexample",
+    "refutation of historical theorem",
+    "fresh exhaustive search",
+    "recovery of missing original raw runs",
+    "new downgrade of an independently signed result"
+  ]
+}

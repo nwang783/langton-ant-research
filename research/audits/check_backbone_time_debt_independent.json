@@ -1,0 +1,48 @@
+{
+  "status": "PASS local R-to-L run-start implication; global disjoint-charge and essential-cycle proofs analytically reviewed",
+  "controls": [
+    {
+      "first_heading": 0,
+      "forced_loop": "RRRR",
+      "previous_backbone_cell": [
+        0,
+        -1
+      ],
+      "later_u_read": "R",
+      "earlier_u_read_forced": "L"
+    },
+    {
+      "first_heading": 1,
+      "forced_loop": "RRRR",
+      "previous_backbone_cell": [
+        -1,
+        0
+      ],
+      "later_u_read": "R",
+      "earlier_u_read_forced": "L"
+    },
+    {
+      "first_heading": 2,
+      "forced_loop": "RRRR",
+      "previous_backbone_cell": [
+        0,
+        1
+      ],
+      "later_u_read": "R",
+      "earlier_u_read_forced": "L"
+    },
+    {
+      "first_heading": 3,
+      "forced_loop": "RRRR",
+      "previous_backbone_cell": [
+        1,
+        0
+      ],
+      "later_u_read": "R",
+      "earlier_u_read_forced": "L"
+    }
+  ],
+  "note_sha256": "72ff752e865d13ac4e230c0d636fee11e20d8acd7055d7fc0c9bc8c292aa22cc",
+  "bound": "P >= 3*ell + 4*s >= 6*D + 4*ceil(D/3)",
+  "scope": "Complete white cap-four fronts only; no uninterrupted backbone trajectory or all-period exclusion asserted."
+}

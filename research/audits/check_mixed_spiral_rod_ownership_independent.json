@@ -1,0 +1,104 @@
+{
+  "status": "PASS all-q mixed spiral/rod w-routing and exact ownership; paired-forest assertions verified only for listed fixed controls",
+  "note_sha256": "9a2387d19aa8cc25e289c43e00c6d4a83121a600b9ccc587265700099272d4d2",
+  "controls": [
+    {
+      "q": 1,
+      "n": 4,
+      "entry_mass": 13,
+      "first_length": 24,
+      "first_gain": -2,
+      "second_length": 17,
+      "second_gain": -1,
+      "consumed_first_R": {
+        "rod": 8,
+        "spiral": 1
+      },
+      "final_mass": 13,
+      "full_paired_forests_on_both_ordinary_pieces": true
+    },
+    {
+      "q": 2,
+      "n": 8,
+      "entry_mass": 25,
+      "first_length": 49,
+      "first_gain": -1,
+      "second_length": 33,
+      "second_gain": -1,
+      "consumed_first_R": {
+        "rod": 16,
+        "spiral": 1
+      },
+      "final_mass": 26,
+      "full_paired_forests_on_both_ordinary_pieces": true
+    },
+    {
+      "q": 3,
+      "n": 16,
+      "entry_mass": 49,
+      "first_length": 98,
+      "first_gain": 0,
+      "second_length": 65,
+      "second_gain": -1,
+      "consumed_first_R": {
+        "rod": 32,
+        "spiral": 1
+      },
+      "final_mass": 51,
+      "full_paired_forests_on_both_ordinary_pieces": true
+    },
+    {
+      "q": 4,
+      "n": 24,
+      "entry_mass": 73,
+      "first_length": 147,
+      "first_gain": 1,
+      "second_length": 97,
+      "second_gain": -1,
+      "consumed_first_R": {
+        "rod": 48,
+        "spiral": 1
+      },
+      "final_mass": 76,
+      "full_paired_forests_on_both_ordinary_pieces": true
+    },
+    {
+      "q": 8,
+      "n": 80,
+      "entry_mass": 241,
+      "first_length": 487,
+      "first_gain": 5,
+      "second_length": 321,
+      "second_gain": -1,
+      "consumed_first_R": {
+        "rod": 160,
+        "spiral": 1
+      },
+      "final_mass": 248,
+      "full_paired_forests_on_both_ordinary_pieces": true
+    },
+    {
+      "q": 12,
+      "n": 168,
+      "entry_mass": 505,
+      "first_length": 1019,
+      "first_gain": 9,
+      "second_length": 673,
+      "second_gain": -1,
+      "consumed_first_R": {
+        "rod": 336,
+        "spiral": 1
+      },
+      "final_mass": 516,
+      "full_paired_forests_on_both_ordinary_pieces": true
+    }
+  ],
+  "analytic": [
+    "The signed spacing4 spiral endpoint formulas put every nonfinal run at normalized x<=-4 when the last endpoint is0 and last directionE; their written arms remain at x<=-3. The final-run teeth have roots x<=-1, with only the last tooth ending at(-1,-1). This holds uniformly for every q, including the empty earlier-run case q1.",
+    "The appended odd rod begins at the final extreme and its old w staircase is in x>=0. Its output also stays there except the initial tip(-1,-1), so its only contact with any earlier spiral output is the last tooth. This proves both that the originally supplied rod does not change the spiral trace and that the rod w routing has no remote shortcut.",
+    "The retained exact odd-rod rules execute(LRRL)^nL, resetRRRRL and the reverse output staircase. At the near end the last spiral tooth supplies an immediate r0 L, with no intervening write or connector. The resulting cursor root is isolated from every other spaced output star, so the second ordinary epoch is maximal.",
+    "The first epoch consumes all3n+1 original inputs and writes n+q-2 spiral plus2n rod outputs. Its complete w output graph is one2n+1 carrying path containing exactly one spiral tooth, plus disjoint1/2-edge spiral stars. The next ordinary epoch consumes all2n rod outputs and that one tooth, with no reset or same-epoch consumption. Thus the mixed application of the signed marked-path lemma has spiral-only load mu<=2.",
+    "The all-parameter claim here concerns literal w-routing and lifetime ownership. Complete opposite-graph forest/event assertions were checked at every update for the listed q values but are not promoted to an additional all-q theorem absent a separate dual-contact proof."
+  ],
+  "scope": "Finite charged gaining/carrying family, first gain q-3 and second gain-1. Not gain-bearing positive-positive regeneration, all-future limitation or global cubic sharpness."
+}

@@ -1,0 +1,302 @@
+{
+  "status": "EXACT POSITIVE UP4 CAP AND ALL-PARAMETER NATURAL W20 PORT EXCLUSION",
+  "cap": {
+    "word": "P(r,k) T^r E46 T^r RR",
+    "domain": "r,k>=10",
+    "start_pose": [
+      [
+        0,
+        0
+      ],
+      1
+    ],
+    "endpoint": [
+      [
+        0,
+        4
+      ],
+      1
+    ],
+    "initial": "I(r,k) UNION [I(r,k+2)+(0,2)]",
+    "initial_mass": [
+      16,
+      8,
+      8
+    ],
+    "returned_mass": [
+      16,
+      8,
+      40
+    ],
+    "duration": [
+      64,
+      16,
+      156
+    ],
+    "mass_delta": 32,
+    "complete_returned_relation": "[r, k] -> { [x, y] : r >= 10 and k >= 10 and ((x < 2r and 0 <= y <= 2 - 2r + x) or (x >= -1 + 2r and -1 - 2r + x <= y < 0) or (y >= 4 and 4 - 2r + x <= y <= 5 - 2r + x and y <= 5) or (y >= 3 and 2 - 2r + x <= y <= 3 - 2r + x and y <= 4) or (-6 <= x <= -5 and -6 - x <= y <= -5 - x)); [x = -7, y] : r >= 10 and k >= 10 and -1 <= y <= 0; [x = 2 + 2r, y = 1] : r >= 10 and k >= 10; [x = 1, y = 1] : r >= 10 and k >= 10; [x = -3, y = 1] : r >= 10 and k >= 10; [x = 3 + 2r + k, y] : r >= 10 and k >= 10 and -2r - k <= y < -k; [x = 3 + 2r, y] : r >= 10 and k >= 10 and 2 <= y <= 3; [x, y = 3 + x] : r >= 10 and k >= 10 and -3 - k <= x <= -6; [x, y = 2 + 2r - x] : r >= 10 and k >= 10 and 2 + 2r <= x <= 2 + 2r + k; [x, y = 2] : r >= 10 and k >= 10 and x >= -5 and ((0 <= x < 2r) or x <= -4); [x = -4, y = -4] : r >= 10 and k >= 10; [x = 1 + 2r + k, y] : r >= 10 and k >= 10 and -2r - k <= y < -k; [x, y = 1 + x] : r >= 10 and k >= 10 and -1 - k <= x <= -5; [x, y = 2r - x] : r >= 10 and k >= 10 and 2r < x <= 2r + k; [x, y = 0] : r >= 10 and k >= 10 and -1 <= x <= 1; [x = -1, y] : r >= 10 and k >= 10 and 0 < y <= 4; [x, y = -1 - 4r - 2k + x] : r >= 10 and k >= 10 and 2r <= x <= 2r + k; [x, y = -2] : r >= 10 and k >= 10 and 0 < x <= -3 + 2r; [x = -2 - k, y] : r >= 10 and k >= 10 and -2r - k <= y < -k; [x, y = -2 - 2r - 2k] : r >= 10 and k >= 10 and 0 <= x < 2r; [x, y = -2 - 2r - 2k - x] : r >= 10 and k >= 10 and -1 - k <= x < 0; [x, y = -3 - 4r - 2k + x] : r >= 10 and k >= 10 and 2r <= x <= 2 + 2r + k; [x = -4 - k, y] : r >= 10 and k >= 10 and -2r - k <= y < -k; [x, y = -4 - 2r - 2k] : r >= 10 and k >= 10 and 0 <= x < 2r; [x, y = -4 - 2r - 2k - x] : r >= 10 and k >= 10 and -3 - k <= x < 0; [x, y = -5] : r >= 10 and k >= 10 and -3 <= x <= -2; [x, y = -5 - x] : r >= 10 and k >= 10 and -2 <= x < 0 }",
+    "relation_to_signed_shuttle": "complete_returned_relation XOR {(0,4),(0,3),(-1,3),(-1,2)}",
+    "canonical_one_seed_reads": 956,
+    "canonical_initial_mass": 248,
+    "canonical_returned_mass": 280
+  },
+  "general_interface": {
+    "incoming": "W20^M, M>=1, from E",
+    "cap": "K(r,k), r,k>=10, from its actual arrived E port",
+    "source": "last W20 copy, phase17, R, at (-2M,1)",
+    "target": "first K straight transfer, phase1, R, at (-2M,1)",
+    "intervening_offsets": [
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        0,
+        -1
+      ]
+    ],
+    "statement": "The source and target are consecutive same-cell reads with equal letters, independently of M,r,k and every previous/future field."
+  },
+  "programs": [
+    {
+      "name": "balanced_growing_mixed_shuttle",
+      "A": [
+        0,
+        0
+      ],
+      "B": [
+        0,
+        4
+      ],
+      "lap_length": [
+        160,
+        2288
+      ],
+      "lap_mass_delta": [
+        0,
+        44
+      ],
+      "collision_bound": {
+        "kind": "affine",
+        "K": null
+      },
+      "source_event": [
+        "n",
+        0,
+        "3n+49",
+        17
+      ],
+      "target_event": [
+        "n",
+        1,
+        0,
+        1
+      ],
+      "shared_cell_quadratic": [
+        0,
+        0
+      ],
+      "shared_cell_linear": [
+        -6,
+        4
+      ],
+      "shared_cell_constant": [
+        -100,
+        1
+      ],
+      "selected_same_cell_relation": "{ [n, j, k = 49 + 3n - j] : n >= 0 and 40 + 2n <= j <= 49 + 3n }",
+      "all_n_bad_pair_subrelation": "{ [n, j = 49 + 3n, k = 0] : n >= 0 }",
+      "intervening_offsets": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "source_relative_time": "60n+997",
+      "target_relative_time": "60n+1001",
+      "literal_first_conflict": {
+        "current": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "previous": [
+          0,
+          0,
+          49,
+          17
+        ],
+        "cell": [
+          -100,
+          1
+        ],
+        "turn": "R"
+      },
+      "scope": "Impossible on EVERY initial field, finite or infinite, even after arbitrary true past. No clean reset or initial-fuel premise is used."
+    },
+    {
+      "name": "white_writer_powered_quadratic_shuttle",
+      "A": [
+        1,
+        1
+      ],
+      "B": [
+        1,
+        5
+      ],
+      "lap_length": [
+        264,
+        2392
+      ],
+      "lap_mass_delta": [
+        12,
+        56
+      ],
+      "collision_bound": {
+        "kind": "quadratic",
+        "K": 7,
+        "best": {
+          "ell": [
+            0,
+            1
+          ],
+          "a": 1,
+          "L": 1,
+          "l": -44,
+          "U": 7,
+          "u": 12,
+          "gap": 56,
+          "K": 7,
+          "first_permanent_exclusion": 8
+        },
+        "candidates": [
+          {
+            "ell": [
+              1,
+              0
+            ],
+            "a": 1,
+            "L": -6,
+            "l": -114,
+            "U": 3,
+            "u": 23,
+            "gap": 137,
+            "K": 15,
+            "first_permanent_exclusion": 16
+          },
+          {
+            "ell": [
+              1,
+              1
+            ],
+            "a": 2,
+            "L": -4,
+            "l": -144,
+            "U": 10,
+            "u": 28,
+            "gap": 172,
+            "K": 10,
+            "first_permanent_exclusion": 11
+          },
+          {
+            "ell": [
+              0,
+              1
+            ],
+            "a": 1,
+            "L": 1,
+            "l": -44,
+            "U": 7,
+            "u": 12,
+            "gap": 56,
+            "K": 7,
+            "first_permanent_exclusion": 8
+          }
+        ]
+      },
+      "source_event": [
+        "n",
+        0,
+        "3n+49",
+        17
+      ],
+      "target_event": [
+        "n",
+        1,
+        0,
+        1
+      ],
+      "shared_cell_quadratic": [
+        1,
+        1
+      ],
+      "shared_cell_linear": [
+        -5,
+        5
+      ],
+      "shared_cell_constant": [
+        -100,
+        1
+      ],
+      "selected_same_cell_relation": "{ [n, j, k = 49 + 3n - j] : n >= 0 and 40 + 2n <= j <= 49 + 3n }",
+      "all_n_bad_pair_subrelation": "{ [n, j = 49 + 3n, k = 0] : n >= 0 }",
+      "intervening_offsets": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "source_relative_time": "60n+997",
+      "target_relative_time": "60n+1001",
+      "literal_first_conflict": {
+        "current": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "previous": [
+          0,
+          0,
+          49,
+          17
+        ],
+        "cell": [
+          -100,
+          1
+        ],
+        "turn": "R"
+      },
+      "scope": "Impossible on EVERY initial field, finite or infinite, even after arbitrary true past. No clean reset or initial-fuel premise is used."
+    }
+  ],
+  "source_sha256": "3652cbcf0395ac12927fc61479072511301e77f4dd899a8c42f49c56c4c31c50",
+  "bindings": {
+    "two_layer_carried_endpoint.json": "3b36d6f50ec7221a9474436334ad2d43f0bd987dbf33ee4d3601cffa30016d7e",
+    "two_layer_restored_bulk_shuttle.json": "e4693cb731043b40fbdf716f733cbd41bbad8f7a3b63f602aa18b065341b40fb",
+    "two_layer_gap_frame_r10_k10.word.txt": "24e9037ee2a4a39183c2359b65ad54072c364aa5b6bfeb7fefa48d491332fbcf"
+  },
+  "geometry_validator_sha256": "aacac03e02ecf0d332ed1bfe1f46ee9e813901194b9a71e217c8e31768e7a337",
+  "scope": "One motivated unbounded-state mixed-rail cap application, not a word scan.\nThe carried cap is physically positive; its natural W20 incoming join is impossible.\n"
+}

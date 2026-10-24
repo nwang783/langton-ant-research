@@ -1,0 +1,281 @@
+{
+  "status": "PASS independent odd-output capacity and analytic finite-frontier nonperiodicity consequence",
+  "bindings": {
+    "parallel_epoch_width_transport.md": "9f4a3499b5f5dbcf68df4fa971571c44e0527596e00d5a9b6642b19f09de9d4a",
+    "infinite_factor_requires_unbounded_epoch_width.md": "d70aee97300c88ab4ae9a996af89aed2598df7173aa8f07e70c1b06b9e8de855"
+  },
+  "rows": [
+    {
+      "packet": 0,
+      "name": "D",
+      "odd_output_slots": [],
+      "odd_count": 0,
+      "U_permanent_odd_subtraction": 0,
+      "usable_odd_upper_bound": 0,
+      "V_base": 0,
+      "U_base": 0,
+      "half_normal_sweep": 0,
+      "C_tails": 0,
+      "tail_odd_increment": 0
+    },
+    {
+      "packet": 1,
+      "name": "DC",
+      "odd_output_slots": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "odd_count": 2,
+      "U_permanent_odd_subtraction": 0,
+      "usable_odd_upper_bound": 2,
+      "V_base": 0,
+      "U_base": 0,
+      "half_normal_sweep": 0,
+      "C_tails": 1,
+      "tail_odd_increment": 2
+    },
+    {
+      "packet": 4,
+      "name": "V",
+      "odd_output_slots": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "odd_count": 3,
+      "U_permanent_odd_subtraction": 0,
+      "usable_odd_upper_bound": 3,
+      "V_base": 1,
+      "U_base": 0,
+      "half_normal_sweep": 1,
+      "C_tails": 0,
+      "tail_odd_increment": 0
+    },
+    {
+      "packet": 5,
+      "name": "VC",
+      "odd_output_slots": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "odd_count": 5,
+      "U_permanent_odd_subtraction": 0,
+      "usable_odd_upper_bound": 5,
+      "V_base": 1,
+      "U_base": 0,
+      "half_normal_sweep": 1,
+      "C_tails": 1,
+      "tail_odd_increment": 2
+    },
+    {
+      "packet": 6,
+      "name": "VCC",
+      "odd_output_slots": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "odd_count": 6,
+      "U_permanent_odd_subtraction": 0,
+      "usable_odd_upper_bound": 6,
+      "V_base": 1,
+      "U_base": 0,
+      "half_normal_sweep": 1,
+      "C_tails": 2,
+      "tail_odd_increment": 3
+    },
+    {
+      "packet": 7,
+      "name": "U",
+      "odd_output_slots": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "odd_count": 5,
+      "U_permanent_odd_subtraction": 2,
+      "usable_odd_upper_bound": 3,
+      "V_base": 0,
+      "U_base": 1,
+      "half_normal_sweep": 2,
+      "C_tails": 0,
+      "tail_odd_increment": 0
+    },
+    {
+      "packet": 8,
+      "name": "UC",
+      "odd_output_slots": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "odd_count": 7,
+      "U_permanent_odd_subtraction": 2,
+      "usable_odd_upper_bound": 5,
+      "V_base": 0,
+      "U_base": 1,
+      "half_normal_sweep": 2,
+      "C_tails": 1,
+      "tail_odd_increment": 2
+    },
+    {
+      "packet": 9,
+      "name": "UCC",
+      "odd_output_slots": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "odd_count": 8,
+      "U_permanent_odd_subtraction": 2,
+      "usable_odd_upper_bound": 6,
+      "V_base": 0,
+      "U_base": 1,
+      "half_normal_sweep": 2,
+      "C_tails": 2,
+      "tail_odd_increment": 3
+    }
+  ],
+  "max_raw_length": 58,
+  "max_output_Linf": 7,
+  "parallel_source_cohorts": 147,
+  "transverse_exceptions": 4851,
+  "epoch_bound": "N_j <= 5292 + 3 sum(v_a+2u_a); with permanent U stars <=5292+3 sum(v_a+u_a)",
+  "bounded_width_bound": "N_j <=5292+441 floor(W/2)",
+  "bounded_epoch_frontier_radius": "58*331*B+7",
+  "analytic_review": [
+    "Every selected input has odd local coordinate sum; parallel/antiparallel source and target heads have the same parity. Thus only odd source outputs fund selected inputs. Actual identity uniqueness prevents double spending.",
+    "At a full-entry C clock at most one terminal packet has C tails. Its extra odd birth count is zero, two or three. Actual base normal drop is2v+4u, including the terminal base and excluding its tails.",
+    "Assumed eventual epoch bound B, and only that assumption, bounds all retained 331-layer cells relative to the head. Absolute identities and clock are unnecessary for physical candidate recognition: occupied locations, finite ages, heading/core and finite parser suffice.",
+    "An equal normalized state yields a finite repeated transition cycle. Exact330 is applied at each already-actual U-entry prefix cut, so all omitted archive guards stay irrelevant by induction. This is not an arbitrary reset/deletion of the real exterior.",
+    "A zero-C repeated cycle contradicts finite-C fuel on the original finite board. A zero-displacement cycle contradicts center injectivity.",
+    "For a nonzero displacement periodic simple center curve, a parallel three-leg bridge outside its fixed strip has only uniformly bounded end-leg intersections. Generic perturbation excludes all finitely many translated local degeneracies. The closed rotation index is bounded independently of repeated periods, while positive C count makes tangent turn diverge. Hence such a repeated positive-C word is impossible.",
+    "Therefore an infinite U-entry retained factor needs unbounded epoch lengths. The audited capacity theorem then forces unbounded recent parallel V/U production and transverse base sweeps. No widening descent or capture result follows."
+  ],
+  "scope": "Actual finite-board U-entry retained-eight factor only. No arbitrary-ant finite-state theorem, global U bound, original-mass rank, or universal capture proof."
+}

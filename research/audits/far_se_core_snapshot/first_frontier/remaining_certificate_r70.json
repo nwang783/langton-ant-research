@@ -1,0 +1,175 @@
+{
+  "status": "exact complete-history permanent standard capture",
+  "phase": 70,
+  "domain": "m>=100,n-m>=100",
+  "initial_cell_count": 5,
+  "source_capture_time": [
+    104,
+    208,
+    97241
+  ],
+  "total_capture_time": [
+    624,
+    624,
+    336885
+  ],
+  "total_capture_pose": [
+    [
+      [
+        0,
+        0,
+        37
+      ],
+      [
+        0,
+        0,
+        18
+      ]
+    ],
+    1
+  ],
+  "tail": {
+    "drift": [
+      2,
+      2
+    ],
+    "heading": 1,
+    "required_cells": 40,
+    "odd_cells": 32
+  },
+  "tail_phase": 24,
+  "whole_trajectory_upper": {},
+  "remote_never_read": [
+    "d"
+  ],
+  "forced_corner_source_hit_time": [
+    0,
+    104,
+    15464
+  ],
+  "statistics": {
+    "finite_read_constraints": 7880,
+    "periodic_read_constraints": 124,
+    "affine_guards": 14779,
+    "excluded_isolated_equalities": 63681993
+  },
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        0,
+        8419
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            10
+          ],
+          [
+            0,
+            0,
+            -23
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 1,
+      "time": [
+        0,
+        104,
+        15387
+      ],
+      "pose": [
+        [
+          [
+            0,
+            2,
+            144
+          ],
+          [
+            0,
+            -2,
+            -157
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 2,
+      "time": [
+        0,
+        104,
+        66510
+      ],
+      "pose": [
+        [
+          [
+            0,
+            2,
+            181
+          ],
+          [
+            0,
+            -2,
+            -123
+          ]
+        ],
+        0
+      ]
+    },
+    {
+      "segment": 3,
+      "time": [
+        104,
+        208,
+        86374
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            0,
+            -201
+          ],
+          [
+            2,
+            0,
+            259
+          ]
+        ],
+        0
+      ]
+    },
+    {
+      "segment": 4,
+      "time": [
+        104,
+        208,
+        97241
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            0,
+            -203
+          ],
+          [
+            2,
+            0,
+            270
+          ]
+        ],
+        1
+      ]
+    }
+  ],
+  "interface_sha256": "1ed7f375db61ed8d2c8dd6f17cc676a11206e17d62d18ed6490e7cdc00ee1462",
+  "template_sha256": "1fcdd354ddded0034eb223db3a7ab7458e72f07a0976f2106df91cae5925ccb9"
+}

@@ -1,0 +1,154 @@
+{
+  "status": "MANDATORY_WORDING_PRECISION_NO_NEW_EXCLUSION",
+  "original_manifest_sha256": "b224a727a36249ba2a52d77316613720fc6279ec16b10b82b954928e6d8308b5",
+  "original_files_unchanged": true,
+  "all5_actual_C_EXIT_CORE_R_sites_with_exact_ENTRY_distinction": [
+    {
+      "actual_exit_CORE_site": [
+        0,
+        0
+      ],
+      "already_in_ENTRY_CORE": true,
+      "actual_first": [
+        "L",
+        0
+      ],
+      "first_owner": {
+        "packet": "C",
+        "context_tick0": 0,
+        "context_read_number1": 1,
+        "RAW_length": 15,
+        "owner": "own C-tail 1 RAW",
+        "owner_tick0": 0,
+        "owner_read_number1": 1,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 0 (zero-based), RAW length 15; own C-tail 1 RAW tick 0 (zero-based), read 1 (one-based), L"
+      },
+      "actual_final_R": [
+        "R",
+        4
+      ],
+      "external_CURRENT_capture_exclusion": "Already in ENTRY CORE: an external CURRENT tag cannot be here at C ENTRY. This site does NOT require WHITE before C."
+    },
+    {
+      "actual_exit_CORE_site": [
+        0,
+        1
+      ],
+      "already_in_ENTRY_CORE": false,
+      "actual_first": [
+        "R",
+        11
+      ],
+      "first_owner": {
+        "packet": "C",
+        "context_tick0": 11,
+        "context_read_number1": 12,
+        "RAW_length": 15,
+        "owner": "own C-tail 1 RAW",
+        "owner_tick0": 11,
+        "owner_read_number1": 12,
+        "turn": "R",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 11 (zero-based), RAW length 15; own C-tail 1 RAW tick 11 (zero-based), read 12 (one-based), R"
+      },
+      "actual_final_R": [
+        "R",
+        11
+      ],
+      "external_CURRENT_capture_exclusion": "Outside ENTRY CORE: actual first-R requires WHITE, contradicting a held external CURRENT BLACK tag."
+    },
+    {
+      "actual_exit_CORE_site": [
+        0,
+        2
+      ],
+      "already_in_ENTRY_CORE": false,
+      "actual_first": [
+        "R",
+        12
+      ],
+      "first_owner": {
+        "packet": "C",
+        "context_tick0": 12,
+        "context_read_number1": 13,
+        "RAW_length": 15,
+        "owner": "own C-tail 1 RAW",
+        "owner_tick0": 12,
+        "owner_read_number1": 13,
+        "turn": "R",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 12 (zero-based), RAW length 15; own C-tail 1 RAW tick 12 (zero-based), read 13 (one-based), R"
+      },
+      "actual_final_R": [
+        "R",
+        12
+      ],
+      "external_CURRENT_capture_exclusion": "Outside ENTRY CORE: actual first-R requires WHITE, contradicting a held external CURRENT BLACK tag."
+    },
+    {
+      "actual_exit_CORE_site": [
+        1,
+        0
+      ],
+      "already_in_ENTRY_CORE": true,
+      "actual_first": [
+        "L",
+        5
+      ],
+      "first_owner": {
+        "packet": "C",
+        "context_tick0": 5,
+        "context_read_number1": 6,
+        "RAW_length": 15,
+        "owner": "own C-tail 1 RAW",
+        "owner_tick0": 5,
+        "owner_read_number1": 6,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 5 (zero-based), RAW length 15; own C-tail 1 RAW tick 5 (zero-based), read 6 (one-based), L"
+      },
+      "actual_final_R": [
+        "R",
+        9
+      ],
+      "external_CURRENT_capture_exclusion": "Already in ENTRY CORE: an external CURRENT tag cannot be here at C ENTRY. This site does NOT require WHITE before C."
+    },
+    {
+      "actual_exit_CORE_site": [
+        1,
+        1
+      ],
+      "already_in_ENTRY_CORE": false,
+      "actual_first": [
+        "R",
+        6
+      ],
+      "first_owner": {
+        "packet": "C",
+        "context_tick0": 6,
+        "context_read_number1": 7,
+        "RAW_length": 15,
+        "owner": "own C-tail 1 RAW",
+        "owner_tick0": 6,
+        "owner_read_number1": 7,
+        "turn": "R",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 6 (zero-based), RAW length 15; own C-tail 1 RAW tick 6 (zero-based), read 7 (one-based), R"
+      },
+      "actual_final_R": [
+        "R",
+        14
+      ],
+      "external_CURRENT_capture_exclusion": "Outside ENTRY CORE: actual first-R requires WHITE, contradicting a held external CURRENT BLACK tag."
+    }
+  ],
+  "correction": "Replace any original b224 phrase that all five C exitCORE R sites require before-WHITE: exactly THREE external sites have actual first-R/WHITE; TWO are already ENTRY-CORE first-L sites, unavailable to an external CURRENT tag at ENTRY. Together this proves no silent CURRENT absorption. Ordinary C still has no external true input. No new source/age or contact exclusion is inferred.",
+  "bound_independent_report_sha256": "eb61d924d5633fac2b1c88318e1eb95cfc7f6315a8a7aabb24e000e131b8f50b"
+}

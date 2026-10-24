@@ -1,0 +1,299 @@
+{
+  "records": [
+    {
+      "processed_schemes": 2,
+      "terminal_read_schemes": 16,
+      "last_base_length": 1,
+      "theoretical_base_bound": 1,
+      "status": "decided",
+      "possible": true,
+      "complete_generated_cover": true,
+      "candidate_seed": [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "given_seed_validation": {
+        "possible": true,
+        "frame_checks": 4,
+        "base_reads": 8,
+        "nested_root": true,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "seed": [
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "seconds": 0.06539194300421514,
+      "name": "identity_multiread"
+    },
+    {
+      "processed_schemes": 6,
+      "terminal_read_schemes": 48,
+      "last_base_length": 5,
+      "theoretical_base_bound": 5,
+      "status": "decided",
+      "possible": true,
+      "complete_generated_cover": true,
+      "candidate_seed": [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "given_seed_validation": {
+        "possible": true,
+        "frame_checks": 8,
+        "base_reads": 16,
+        "nested_root": false,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "seed": [
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "seconds": 0.09289819600235205,
+      "name": "two_state_multiread_cycle"
+    },
+    {
+      "processed_schemes": 3,
+      "terminal_read_schemes": 9,
+      "last_base_length": 1,
+      "theoretical_base_bound": 2,
+      "status": "decided",
+      "possible": false,
+      "early_certificate": {
+        "reason": "conflicting genuine macro requirements",
+        "signs": [
+          1,
+          1
+        ],
+        "witness": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "seconds": 0.012368793992209248,
+      "name": "branching_zero_displacement"
+    },
+    {
+      "processed_schemes": 1,
+      "terminal_read_schemes": 5,
+      "last_base_length": 0,
+      "theoretical_base_bound": 1,
+      "status": "decided",
+      "possible": false,
+      "early_certificate": {
+        "reason": "conflicting genuine macro requirements",
+        "signs": [
+          1,
+          1
+        ],
+        "witness": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "seconds": 0.006785474004573189,
+      "name": "zero_parity_illegal"
+    },
+    {
+      "processed_schemes": 29,
+      "terminal_read_schemes": 120,
+      "last_base_length": 14,
+      "theoretical_base_bound": 14,
+      "status": "decided",
+      "possible": true,
+      "complete_generated_cover": true,
+      "candidate_seed": [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "given_seed_validation": {
+        "possible": true,
+        "frame_checks": 16,
+        "base_reads": 16,
+        "nested_root": false,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "seed": [
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "seconds": 0.2045826660032617,
+      "name": "transient_macro_positive"
+    },
+    {
+      "processed_schemes": 326,
+      "terminal_read_schemes": 792,
+      "last_base_length": 65,
+      "theoretical_base_bound": 65,
+      "status": "decided",
+      "possible": true,
+      "complete_generated_cover": true,
+      "candidate_seed": [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "given_seed_validation": {
+        "possible": true,
+        "frame_checks": 40,
+        "base_reads": 24,
+        "nested_root": false,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "seed": [
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "seconds": 1.0591660009959014,
+      "name": "canonical_revisited_prefix_positive"
+    },
+    {
+      "processed_schemes": 3,
+      "terminal_read_schemes": 10,
+      "last_base_length": 1,
+      "theoretical_base_bound": 309,
+      "status": "decided",
+      "possible": false,
+      "early_certificate": {
+        "reason": "conflicting genuine macro requirements",
+        "signs": [
+          1,
+          1
+        ],
+        "witness": {
+          "x": 0,
+          "y": 1
+        }
+      },
+      "seconds": 0.14813380099076312,
+      "name": "capped_G"
+    },
+    {
+      "processed_schemes": 5,
+      "terminal_read_schemes": 16,
+      "last_base_length": 1,
+      "theoretical_base_bound": 309,
+      "status": "decided",
+      "possible": false,
+      "early_certificate": {
+        "reason": "conflicting genuine macro requirements",
+        "signs": [
+          1,
+          1
+        ],
+        "witness": {
+          "x": 1,
+          "y": 0
+        }
+      },
+      "seconds": 0.17328045700560324,
+      "name": "capped_H"
+    }
+  ],
+  "branching_direct_frame_control": {
+    "possible": false,
+    "reason": "all-depth macro frame disagreement",
+    "state": 0,
+    "child_index": 1,
+    "witness": {
+      "r": 0,
+      "x": 0,
+      "y": 0
+    },
+    "frame_checks": 2,
+    "base_reads": 4
+  },
+  "explicit_cap_control": {
+    "processed_schemes": 1,
+    "terminal_read_schemes": 8,
+    "last_base_length": 0,
+    "theoretical_base_bound": 14,
+    "status": "unknown: explicit macro cover cap",
+    "possible": null,
+    "seconds": 0.022061882991692983
+  },
+  "scope": "Integrated generated-cover arbitrary-mass/radius realization for general branching additive-I finite physical macro bases. No unit subdivision, no finite-order/singular matrix adapter, and no accepted growing model."
+}

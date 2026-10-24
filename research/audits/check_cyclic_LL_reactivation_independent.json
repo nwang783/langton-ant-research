@@ -1,0 +1,195 @@
+{
+  "status": "PASS six necessary cyclic LL-root supplier inventories, eight placements, exact X reactivation4/8 and owner gates",
+  "proof": "7a4d0c56a3099960c80f09fd05c8366345b5acaa6d622a09e963a2f355f2c212",
+  "certificate": "f3a9ddad5f2dd853a029f96899adf5ed4ee49a446fbe7709685052162433ecb6",
+  "script": "d70a7b06beaeb5f535295d0aaf762276b9c51c42f5062d509f62e0db9f390096",
+  "signed_dependencies": {
+    "check_mixed_RR_closure_independent.json": "6a5571ed9cd4a804868b7378ecd3a4f675592e4b200e944cc4c62ff97a8883ac",
+    "check_mixed_LL_gate_independent.json": "441ffa775b9fe212ddcc2312533c0b7feb0c01e4aeac95b89bf229c34edca119",
+    "check_mixed_flow2_flat_islands_independent.json": "c4fabac9c366e6536b760af2a52f23d6d24bd5eb53f16f8e1d788b9a8680defe",
+    "check_global_max_flow2_staircase_independent.json": "665b54d8645247b9f5960eb6a3fcb8d7cf4db65b84054a24d444669904266a37",
+    "check_negative_L3_span_owner_independent.json": "045526a85f364fee352b5fe28a45b2230d3cbcd6c0d6fda1358c60039c97c095",
+    "check_fixed_LL_supplier_incidence_independent.json": "04181ee339057f4ff6a60adc47ab0cdbb97fcbb22219ae795ee0c978b1136e8c"
+  },
+  "complete_patch_counts": {
+    "skipped_rank": 5982,
+    "open": 46,
+    "clock_cycle": 62,
+    "global_C_max": 12
+  },
+  "necessary_inventories": [
+    {
+      "root": "EWW",
+      "kind": "N",
+      "histories": {
+        "(0, 0)": "NNSS",
+        "(0, 1)": "EWW",
+        "(0, 2)": "SSN",
+        "(1, 0)": "EEWW",
+        "(1, 1)": "SNNS",
+        "(1, 2)": "EEWW",
+        "(2, 0)": "NNS",
+        "(2, 1)": "WEE",
+        "(2, 2)": "SSNN"
+      },
+      "placements": [
+        "T_RIGHT_X_with_preceding_flat_RR"
+      ],
+      "channel": "LRRLLLLRRL"
+    },
+    {
+      "root": "EWW",
+      "kind": "P",
+      "histories": {
+        "(0, 0)": "NNSS",
+        "(0, 1)": "EWW",
+        "(0, 2)": "SSN",
+        "(1, 0)": "EEWW",
+        "(1, 1)": "SNNS",
+        "(1, 2)": "EEWW",
+        "(2, 0)": "NNSS",
+        "(2, 1)": "EWWE",
+        "(2, 2)": "SNNS"
+      },
+      "placements": [
+        "T_RIGHT_Y_with_preceding_flat_RR"
+      ],
+      "channel": "LRRRRL"
+    },
+    {
+      "root": "EWW",
+      "kind": "N",
+      "histories": {
+        "(0, 0)": "NNSS",
+        "(0, 1)": "EWW",
+        "(0, 2)": "SSN",
+        "(1, 0)": "EEWW",
+        "(1, 1)": "SNNS",
+        "(1, 2)": "EEWW",
+        "(2, 0)": "NNSS",
+        "(2, 1)": "WEEW",
+        "(2, 2)": "SSNN"
+      },
+      "placements": [
+        "T_RIGHT_X_with_preceding_flat_RR",
+        "T_LEFT_V_with_D_RIGHT_Y"
+      ],
+      "channel": "LRRLLLLRRL"
+    },
+    {
+      "root": "EWWE",
+      "kind": "N",
+      "histories": {
+        "(0, 0)": "NNSS",
+        "(0, 1)": "EWWE",
+        "(0, 2)": "SSNN",
+        "(1, 0)": "EEWW",
+        "(1, 1)": "SNNS",
+        "(1, 2)": "EEWW",
+        "(2, 0)": "NNS",
+        "(2, 1)": "WEE",
+        "(2, 2)": "SSNN"
+      },
+      "placements": [
+        "T_RIGHT_X_with_preceding_flat_RR"
+      ],
+      "channel": "LRRLLLLRRL"
+    },
+    {
+      "root": "EWWE",
+      "kind": "P",
+      "histories": {
+        "(0, 0)": "NNSS",
+        "(0, 1)": "EWWE",
+        "(0, 2)": "SSNN",
+        "(1, 0)": "EEWW",
+        "(1, 1)": "SNNS",
+        "(1, 2)": "EEWW",
+        "(2, 0)": "NNSS",
+        "(2, 1)": "EWWE",
+        "(2, 2)": "SNNS"
+      },
+      "placements": [
+        "T_RIGHT_Y_with_preceding_flat_RR"
+      ],
+      "channel": "LRRRRL"
+    },
+    {
+      "root": "EWWE",
+      "kind": "N",
+      "histories": {
+        "(0, 0)": "NNSS",
+        "(0, 1)": "EWWE",
+        "(0, 2)": "SSNN",
+        "(1, 0)": "EEWW",
+        "(1, 1)": "SNNS",
+        "(1, 2)": "EEWW",
+        "(2, 0)": "NNSS",
+        "(2, 1)": "WEEW",
+        "(2, 2)": "SSNN"
+      },
+      "placements": [
+        "T_RIGHT_X_with_preceding_flat_RR",
+        "T_LEFT_V_with_D_RIGHT_Y"
+      ],
+      "channel": "LRRLLLLRRL"
+    }
+  ],
+  "owner_frames": [
+    {
+      "channel": "LRRRRL",
+      "excluded_minimum_owner_span": 8,
+      "only_frames": [
+        {
+          "root": [
+            2,
+            -1
+          ],
+          "incoming": "E",
+          "word": "LLRRRRLL"
+        },
+        {
+          "root": [
+            1,
+            -1
+          ],
+          "incoming": "S",
+          "word": "LLLRRRRL"
+        }
+      ],
+      "required_owner_span_at_least": 12
+    },
+    {
+      "channel": "LRRLLLLRRL",
+      "excluded_minimum_owner_span": 12,
+      "only_frames": [
+        {
+          "root": [
+            2,
+            -1
+          ],
+          "incoming": "E",
+          "word": "LLRRLLLLRRLL"
+        },
+        {
+          "root": [
+            1,
+            -1
+          ],
+          "incoming": "S",
+          "word": "LLLRRLLLLRRL"
+        }
+      ],
+      "required_owner_span_at_least": 16
+    }
+  ],
+  "analytic_review": [
+    "All empty and completeWHITE1..4 histories at every unknown3x3 cell are retained. Exact zero/nonzero radial port matching and exhaustive domain recursion reconstruct6102 patches; independently implemented physical successor ranks, positive-clock cycle extraction, and all dual-face equations at GLOBALM leave46. No period, exterior age or guessed supplier first-heading bound is imposed.",
+    "For a true cyclic LLroot, Y incomingS forces U as predecessor. RIGHTU would put RR immediately before crossingrootr, forbidden by generalRR closure; crossingLEFTU violates either secondLEFT or singleton-island outerV. Thus U is passiveV=EEWW. Its predecessorT startsS. SNN is forbidden asRIGHT by one-use input or asLEFTO by followingY instead of requiredX. SNNS can only RIGHTY; SSNN is RIGHTX or LEFTV. Exactlysix complete inventories survive. This explicitly excludes the formerly off-cycle8a controls, not reinstates them.",
+    "For RIGHTT, precedingQ must RIGHT because LEFTQ gives the actual complete five-corner window Q,T,U,Y,r with forbidden passive middleU. GeneralRR then makesQ flat. For LEFTT, N3 D=WEE has a one-use incoming selected edge; onlyN4 D=WEEW permits cyclic RIGHTY. These are eight necessary placement tags, with exteriorQ and all other stock still unknown.",
+    "All internal physical ordinal edges regenerate actual LRRRRL inP and LRRLLLLRRL inN. Xage23 is exactly4/8; N Yage23=4 and signedL3tail=-3. P tail=A23Y-3>0 retains arbitrary oldY stock. These are conditional literal channels, not phase-remainder arithmetic or attained prepared factors.",
+    "P-side detail: Y.R2 has a LEFT off-boundary output. Its successor D.R0 would be RIGHT for EITHER possible Gamma role, RIGHT contact or LEFTU. Thus D is necessarily offGamma in this side argument, not only excluded asLEFTU. R cannot LEFTV because its L1 would beRIGHT while its edge enters X.R2 LEFT; if RIGHT its L1/R2 areLEFT. Therefore the whole P channel staysLEFT. N uses independently signed generic negative-channel side proof. No unrecorded contact crossing splits either channel.",
+    "Each owner contains the known six/ten events, with at least one earlier rootL1 and later returnR2. A minimal8/12 owner has exactly the two enumerated full-pose frames. The2,-1E frame is forbidden secondLEFT; the1,-1S frame receives the actual two-use edge from flatX and is an excluded f2root afterX. Owner span must therefore>=12/16. Owners may coincide or be translates; no injection or fuel addition is claimed.",
+    "Full completeWHITEcap4, GLOBALcriticalM,no-one-use and genuine LLfirstO/U scope remain. PassiveVV notches, six-profile realizability, fullfront exclusion and iterative stock bounds remain open."
+  ]
+}

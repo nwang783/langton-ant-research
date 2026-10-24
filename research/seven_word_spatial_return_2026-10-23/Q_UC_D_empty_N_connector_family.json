@@ -1,0 +1,3496 @@
+{
+  "count_solutions": [
+    [
+      0,
+      0,
+      1,
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      3,
+      1,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      6,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      2,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      2,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      3,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      2,
+      0
+    ],
+    [
+      1,
+      2,
+      0,
+      0,
+      0,
+      2
+    ],
+    [
+      2,
+      0,
+      0,
+      4,
+      1,
+      0
+    ],
+    [
+      2,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      3,
+      0,
+      0,
+      4,
+      0,
+      1
+    ],
+    [
+      3,
+      0,
+      0,
+      2,
+      2,
+      0
+    ],
+    [
+      3,
+      0,
+      1,
+      0,
+      0,
+      2
+    ],
+    [
+      3,
+      1,
+      0,
+      1,
+      0,
+      2
+    ],
+    [
+      4,
+      0,
+      0,
+      2,
+      1,
+      1
+    ],
+    [
+      4,
+      0,
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      5,
+      0,
+      0,
+      2,
+      0,
+      2
+    ],
+    [
+      5,
+      0,
+      0,
+      0,
+      2,
+      1
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      1,
+      2
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "rows": [
+    {
+      "S": [
+        "D"
+      ],
+      "E": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 129,
+        "previous_read": 21,
+        "cell": [
+          -1,
+          2
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "U"
+      ],
+      "E": [
+        "D",
+        "D",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "UC",
+        "D",
+        "D",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 163,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "U"
+      ],
+      "E": [
+        "D",
+        "U",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "UC",
+        "D",
+        "U",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 153,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "U"
+      ],
+      "E": [
+        "U",
+        "D",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "UC",
+        "U",
+        "D",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 145,
+        "previous_read": 117,
+        "cell": [
+          -3,
+          2
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "U"
+      ],
+      "E": [
+        "V",
+        "V"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "UC",
+        "V",
+        "VC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 150,
+        "previous_read": 14,
+        "cell": [
+          -1,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "V"
+      ],
+      "E": [
+        "D",
+        "D",
+        "D",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "VC",
+        "D",
+        "D",
+        "D",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 163,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "V"
+      ],
+      "E": [
+        "D",
+        "D",
+        "U",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "VC",
+        "D",
+        "D",
+        "U",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 153,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "V"
+      ],
+      "E": [
+        "D",
+        "U",
+        "D",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "VC",
+        "D",
+        "U",
+        "D",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 153,
+        "previous_read": 21,
+        "cell": [
+          -1,
+          2
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "V"
+      ],
+      "E": [
+        "U",
+        "D",
+        "D",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "VC",
+        "U",
+        "D",
+        "D",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 135,
+        "previous_read": 107,
+        "cell": [
+          -4,
+          3
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "V"
+      ],
+      "E": [
+        "D",
+        "V",
+        "V"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "VC",
+        "D",
+        "V",
+        "VC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 150,
+        "previous_read": 14,
+        "cell": [
+          -1,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "V"
+      ],
+      "E": [
+        "V",
+        "D",
+        "V"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "VC",
+        "V",
+        "D",
+        "VC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 150,
+        "previous_read": 14,
+        "cell": [
+          -1,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "V"
+      ],
+      "E": [
+        "V",
+        "V",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "VC",
+        "V",
+        "V",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 151,
+        "previous_read": 19,
+        "cell": [
+          0,
+          1
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "V",
+        "V"
+      ],
+      "E": [
+        "U",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "V",
+        "VC",
+        "U",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 153,
+        "previous_read": 125,
+        "cell": [
+          -5,
+          0
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "V"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "D",
+        "VC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 154,
+        "previous_read": 14,
+        "cell": [
+          -1,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "D",
+        "D",
+        "V",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "V",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 155,
+        "previous_read": 19,
+        "cell": [
+          0,
+          1
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "D",
+        "V",
+        "D",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "V",
+        "D",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 145,
+        "previous_read": 21,
+        "cell": [
+          -1,
+          2
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "V",
+        "D",
+        "D",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "DC",
+        "D",
+        "V",
+        "D",
+        "D",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 137,
+        "previous_read": 21,
+        "cell": [
+          -1,
+          2
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D"
+      ],
+      "E": [
+        "V",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "DC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 137,
+        "previous_read": 21,
+        "cell": [
+          -1,
+          2
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "U"
+      ],
+      "E": [
+        "U",
+        "V"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "UC",
+        "U",
+        "VC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 155,
+        "previous_read": 127,
+        "cell": [
+          -4,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "U"
+      ],
+      "E": [
+        "V",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "UC",
+        "V",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 171,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "U",
+        "D"
+      ],
+      "E": [
+        "U",
+        "V"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "U",
+        "DC",
+        "U",
+        "VC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 155,
+        "previous_read": 127,
+        "cell": [
+          -4,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "U",
+        "D"
+      ],
+      "E": [
+        "V",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "U",
+        "DC",
+        "V",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 171,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "V"
+      ],
+      "E": [
+        "D",
+        "U",
+        "V"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "VC",
+        "D",
+        "U",
+        "VC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 170,
+        "previous_read": 14,
+        "cell": [
+          -1,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "V"
+      ],
+      "E": [
+        "D",
+        "V",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "VC",
+        "D",
+        "V",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 171,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "V"
+      ],
+      "E": [
+        "U",
+        "D",
+        "V"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "VC",
+        "U",
+        "D",
+        "VC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 145,
+        "previous_read": 117,
+        "cell": [
+          -5,
+          2
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "V"
+      ],
+      "E": [
+        "U",
+        "V",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "VC",
+        "U",
+        "V",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 145,
+        "previous_read": 117,
+        "cell": [
+          -5,
+          2
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "V"
+      ],
+      "E": [
+        "V",
+        "D",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "VC",
+        "V",
+        "D",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 171,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "V"
+      ],
+      "E": [
+        "V",
+        "U",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "VC",
+        "V",
+        "U",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 161,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "V",
+        "D"
+      ],
+      "E": [
+        "D",
+        "U",
+        "V"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "V",
+        "DC",
+        "D",
+        "U",
+        "VC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 170,
+        "previous_read": 14,
+        "cell": [
+          -1,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "V",
+        "D"
+      ],
+      "E": [
+        "D",
+        "V",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "V",
+        "DC",
+        "D",
+        "V",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 171,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "V",
+        "D"
+      ],
+      "E": [
+        "U",
+        "D",
+        "V"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "V",
+        "DC",
+        "U",
+        "D",
+        "VC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 145,
+        "previous_read": 117,
+        "cell": [
+          -5,
+          2
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "V",
+        "D"
+      ],
+      "E": [
+        "U",
+        "V",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "V",
+        "DC",
+        "U",
+        "V",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 145,
+        "previous_read": 117,
+        "cell": [
+          -5,
+          2
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "V",
+        "D"
+      ],
+      "E": [
+        "V",
+        "D",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "V",
+        "DC",
+        "V",
+        "D",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 171,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "V",
+        "D"
+      ],
+      "E": [
+        "V",
+        "U",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "V",
+        "DC",
+        "V",
+        "U",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 161,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "D",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 175,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "D",
+        "D",
+        "U",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "U",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 165,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "D",
+        "U",
+        "D",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "U",
+        "D",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 165,
+        "previous_read": 21,
+        "cell": [
+          -1,
+          2
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "U",
+        "D",
+        "D",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "DC",
+        "D",
+        "U",
+        "D",
+        "D",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 157,
+        "previous_read": 21,
+        "cell": [
+          -1,
+          2
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "U",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "DC",
+        "U",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 137,
+        "previous_read": 109,
+        "cell": [
+          -5,
+          4
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "D",
+        "V",
+        "V"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "V",
+        "VC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 162,
+        "previous_read": 14,
+        "cell": [
+          -1,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "V",
+        "D",
+        "V"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "DC",
+        "D",
+        "V",
+        "D",
+        "VC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 162,
+        "previous_read": 14,
+        "cell": [
+          -1,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "V",
+        "V",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "DC",
+        "D",
+        "V",
+        "V",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 163,
+        "previous_read": 19,
+        "cell": [
+          0,
+          1
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "V",
+        "D",
+        "D",
+        "V"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "DC",
+        "V",
+        "D",
+        "D",
+        "VC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 162,
+        "previous_read": 14,
+        "cell": [
+          -1,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "V",
+        "D",
+        "V",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "DC",
+        "V",
+        "D",
+        "V",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 163,
+        "previous_read": 19,
+        "cell": [
+          0,
+          1
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "V",
+        "V",
+        "D",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "DC",
+        "V",
+        "V",
+        "D",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 153,
+        "previous_read": 21,
+        "cell": [
+          -1,
+          2
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "U"
+      ],
+      "E": [
+        "U",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "UC",
+        "U",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 165,
+        "previous_read": 137,
+        "cell": [
+          -5,
+          0
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "U",
+        "D"
+      ],
+      "E": [
+        "U",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "U",
+        "DC",
+        "U",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 165,
+        "previous_read": 137,
+        "cell": [
+          -5,
+          0
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "U",
+        "D",
+        "D"
+      ],
+      "E": [
+        "U",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "U",
+        "D",
+        "DC",
+        "U",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 165,
+        "previous_read": 137,
+        "cell": [
+          -5,
+          0
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "V"
+      ],
+      "E": [
+        "D",
+        "U",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "VC",
+        "D",
+        "U",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 191,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "V"
+      ],
+      "E": [
+        "U",
+        "D",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "VC",
+        "U",
+        "D",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 155,
+        "previous_read": 127,
+        "cell": [
+          -6,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "V"
+      ],
+      "E": [
+        "U",
+        "U",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "VC",
+        "U",
+        "U",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 155,
+        "previous_read": 127,
+        "cell": [
+          -6,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "V",
+        "D"
+      ],
+      "E": [
+        "D",
+        "U",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "V",
+        "DC",
+        "D",
+        "U",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 191,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "V",
+        "D"
+      ],
+      "E": [
+        "U",
+        "D",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "V",
+        "DC",
+        "U",
+        "D",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 155,
+        "previous_read": 127,
+        "cell": [
+          -6,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "V",
+        "D"
+      ],
+      "E": [
+        "U",
+        "U",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "V",
+        "DC",
+        "U",
+        "U",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 155,
+        "previous_read": 127,
+        "cell": [
+          -6,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "V",
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "U",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "V",
+        "D",
+        "DC",
+        "D",
+        "U",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 191,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "V",
+        "D",
+        "D"
+      ],
+      "E": [
+        "U",
+        "D",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "V",
+        "D",
+        "DC",
+        "U",
+        "D",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 155,
+        "previous_read": 127,
+        "cell": [
+          -6,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "V",
+        "D",
+        "D"
+      ],
+      "E": [
+        "U",
+        "U",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "V",
+        "D",
+        "DC",
+        "U",
+        "U",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 155,
+        "previous_read": 127,
+        "cell": [
+          -6,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "D",
+        "U",
+        "V"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "U",
+        "VC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 182,
+        "previous_read": 14,
+        "cell": [
+          -1,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "D",
+        "V",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "V",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 183,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "U",
+        "D",
+        "V"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "D",
+        "U",
+        "D",
+        "VC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 182,
+        "previous_read": 14,
+        "cell": [
+          -1,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "U",
+        "V",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "D",
+        "U",
+        "V",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 183,
+        "previous_read": 19,
+        "cell": [
+          0,
+          1
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "V",
+        "D",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "D",
+        "V",
+        "D",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 183,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "V",
+        "U",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "D",
+        "V",
+        "U",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 173,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "U",
+        "D",
+        "D",
+        "V"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "U",
+        "D",
+        "D",
+        "VC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 147,
+        "previous_read": 119,
+        "cell": [
+          -6,
+          3
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "U",
+        "D",
+        "V",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "U",
+        "D",
+        "V",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 147,
+        "previous_read": 119,
+        "cell": [
+          -6,
+          3
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "U",
+        "V",
+        "D",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "U",
+        "V",
+        "D",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 147,
+        "previous_read": 119,
+        "cell": [
+          -6,
+          3
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "V",
+        "D",
+        "D",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "V",
+        "D",
+        "D",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 183,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "V",
+        "D",
+        "U",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "V",
+        "D",
+        "U",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 173,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "V",
+        "U",
+        "D",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "V",
+        "U",
+        "D",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 173,
+        "previous_read": 21,
+        "cell": [
+          -1,
+          2
+        ],
+        "turn": "R"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "V",
+        "V",
+        "V"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "V",
+        "V",
+        "VC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 170,
+        "previous_read": 14,
+        "cell": [
+          -1,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "D",
+        "U",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "U",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 203,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "U",
+        "D",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "D",
+        "U",
+        "D",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 203,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "D",
+        "U",
+        "U",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "D",
+        "U",
+        "U",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 193,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "U",
+        "D",
+        "D",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "U",
+        "D",
+        "D",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 157,
+        "previous_read": 129,
+        "cell": [
+          -7,
+          2
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "U",
+        "D",
+        "U",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "U",
+        "D",
+        "U",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 157,
+        "previous_read": 129,
+        "cell": [
+          -7,
+          2
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "U",
+        "U",
+        "D",
+        "D"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "U",
+        "U",
+        "D",
+        "DC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 157,
+        "previous_read": 129,
+        "cell": [
+          -7,
+          2
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "U",
+        "V",
+        "V"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "U",
+        "V",
+        "VC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 157,
+        "previous_read": 129,
+        "cell": [
+          -7,
+          2
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "V",
+        "U",
+        "V"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "V",
+        "U",
+        "VC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 190,
+        "previous_read": 14,
+        "cell": [
+          -1,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "V",
+        "V",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "V",
+        "V",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 191,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "U",
+        "U",
+        "V"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "U",
+        "U",
+        "VC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 167,
+        "previous_read": 139,
+        "cell": [
+          -8,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "U",
+        "V",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "U",
+        "V",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 167,
+        "previous_read": 139,
+        "cell": [
+          -8,
+          1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "V",
+        "U",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "V",
+        "U",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 211,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      }
+    },
+    {
+      "S": [
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
+      ],
+      "E": [
+        "U",
+        "U",
+        "U"
+      ],
+      "tokens": [
+        "UC",
+        "D",
+        "DC",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "DC",
+        "U",
+        "U",
+        "UC",
+        "U",
+        "U",
+        "U",
+        "Q",
+        "C"
+      ],
+      "result": {
+        "feasible": false,
+        "conflict_read": 177,
+        "previous_read": 149,
+        "cell": [
+          -9,
+          0
+        ],
+        "turn": "L"
+      }
+    }
+  ]
+}

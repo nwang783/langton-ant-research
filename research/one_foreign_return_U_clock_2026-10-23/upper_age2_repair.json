@@ -1,0 +1,1551 @@
+{
+  "status": "AUTHOR_PENDING_INDEPENDENT_AUDIT",
+  "scope": "Separate repair of ONLY the age-two VC(2,8,S) upper(2,5) origin branch in rejected51018788. Its initial-white upper needs an exact clock0 full producer. Original UC/UCC C1 origin makes selected(1,6) initially white and too young; all later clock0 origin heads are0,4 or1,5, carrying genuine r/star guardians required WHITE by actual VC. No false universal V minimum3, no postforeign age law, no attained history.",
+  "actual_signed_input_minima": {
+    "0:(0, 1)": 3,
+    "1:(0, 1)": 3,
+    "4:(0, 3)": 2,
+    "4:(1, 2)": 3,
+    "5:(0, 3)": 2,
+    "5:(1, 2)": 3,
+    "6:(0, 3)": 5,
+    "6:(1, 2)": 5,
+    "7:(-1, 1)": 3,
+    "7:(-1, 2)": 3,
+    "7:(-1, 4)": 5,
+    "7:(0, 2)": 5,
+    "7:(0, 3)": 5,
+    "8:(-1, 1)": 3,
+    "8:(-1, 2)": 3,
+    "8:(-1, 4)": 5,
+    "8:(0, 2)": 5,
+    "8:(0, 3)": 5,
+    "9:(-1, 1)": 3,
+    "9:(-1, 2)": 3,
+    "9:(-1, 4)": 5,
+    "9:(0, 2)": 5,
+    "9:(0, 3)": 5
+  },
+  "exact_surviving_VC_parent": {
+    "pose": [
+      2,
+      8,
+      2
+    ],
+    "entry_C_clock": 2,
+    "upper_cell": [
+      2,
+      5
+    ],
+    "upper_input_slot": [
+      0,
+      3
+    ],
+    "upper_minimum_age": 2,
+    "selected_cell": [
+      1,
+      6
+    ],
+    "selected_input_slot": [
+      1,
+      2
+    ],
+    "selected_minimum_age": 3
+  },
+  "first_actual_atom_upper_initial_color": [
+    {
+      "first_actual_atom": "D",
+      "global_upper": [
+        2,
+        5
+      ],
+      "first_read": [
+        7,
+        "R"
+      ]
+    },
+    {
+      "first_actual_atom": "C",
+      "global_upper": [
+        2,
+        5
+      ],
+      "first_read": [
+        7,
+        "R"
+      ]
+    },
+    {
+      "first_actual_atom": "V",
+      "global_upper": [
+        2,
+        5
+      ],
+      "first_read": [
+        7,
+        "R"
+      ]
+    },
+    {
+      "first_actual_atom": "U",
+      "global_upper": [
+        2,
+        5
+      ],
+      "first_read": [
+        7,
+        "R"
+      ]
+    }
+  ],
+  "original_creator_cases": [
+    {
+      "original_creator": "U",
+      "upper_is_full_output": false,
+      "reason": "plain_creator_U_does_not_output_25"
+    },
+    {
+      "original_creator": "UC",
+      "upper_is_full_output": true,
+      "reason": "creator_C1_forces_selected_16_initially_white_thus_age_at_most2_below_selected_min3"
+    },
+    {
+      "original_creator": "UCC",
+      "upper_is_full_output": true,
+      "reason": "creator_C1_forces_selected_16_initially_white_thus_age_at_most2_below_selected_min3"
+    }
+  ],
+  "all_clock0_fullproducer_upper_output_alignments": [
+    {
+      "producer": "D",
+      "output_slot": [
+        2,
+        0
+      ],
+      "full_entry": [
+        0,
+        5,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "DC",
+      "output_slot": [
+        2,
+        0
+      ],
+      "full_entry": [
+        0,
+        5,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "DC",
+      "output_slot": [
+        2,
+        3
+      ],
+      "full_entry": [
+        0,
+        2,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "DC",
+      "output_slot": [
+        3,
+        1
+      ],
+      "full_entry": [
+        -1,
+        4,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "DC",
+      "output_slot": [
+        3,
+        2
+      ],
+      "full_entry": [
+        -1,
+        3,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "V",
+      "output_slot": [
+        0,
+        0
+      ],
+      "full_entry": [
+        2,
+        5,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "V",
+      "output_slot": [
+        0,
+        1
+      ],
+      "full_entry": [
+        2,
+        4,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "V",
+      "output_slot": [
+        1,
+        0
+      ],
+      "full_entry": [
+        1,
+        5,
+        0
+      ],
+      "head_count_solutions": [
+        {
+          "d": 1,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "reason": "genuine_V_r_first_retirement_age5_or_U_star_permanence_vs_actual_VC_before_white"
+    },
+    {
+      "producer": "V",
+      "output_slot": [
+        2,
+        0
+      ],
+      "full_entry": [
+        0,
+        5,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "V",
+      "output_slot": [
+        2,
+        1
+      ],
+      "full_entry": [
+        0,
+        4,
+        0
+      ],
+      "head_count_solutions": [
+        {
+          "d": 0,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "reason": "genuine_V_r_first_retirement_age5_or_U_star_permanence_vs_actual_VC_before_white"
+    },
+    {
+      "producer": "V",
+      "output_slot": [
+        2,
+        2
+      ],
+      "full_entry": [
+        0,
+        3,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "VC",
+      "output_slot": [
+        0,
+        0
+      ],
+      "full_entry": [
+        2,
+        5,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "VC",
+      "output_slot": [
+        0,
+        1
+      ],
+      "full_entry": [
+        2,
+        4,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "VC",
+      "output_slot": [
+        1,
+        0
+      ],
+      "full_entry": [
+        1,
+        5,
+        0
+      ],
+      "head_count_solutions": [
+        {
+          "d": 1,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "reason": "genuine_V_r_first_retirement_age5_or_U_star_permanence_vs_actual_VC_before_white"
+    },
+    {
+      "producer": "VC",
+      "output_slot": [
+        2,
+        0
+      ],
+      "full_entry": [
+        0,
+        5,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "VC",
+      "output_slot": [
+        2,
+        1
+      ],
+      "full_entry": [
+        0,
+        4,
+        0
+      ],
+      "head_count_solutions": [
+        {
+          "d": 0,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "reason": "genuine_V_r_first_retirement_age5_or_U_star_permanence_vs_actual_VC_before_white"
+    },
+    {
+      "producer": "VC",
+      "output_slot": [
+        2,
+        2
+      ],
+      "full_entry": [
+        0,
+        3,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "VC",
+      "output_slot": [
+        2,
+        5
+      ],
+      "full_entry": [
+        0,
+        0,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "VC",
+      "output_slot": [
+        3,
+        3
+      ],
+      "full_entry": [
+        -1,
+        2,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "VC",
+      "output_slot": [
+        3,
+        4
+      ],
+      "full_entry": [
+        -1,
+        1,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "VCC",
+      "output_slot": [
+        -1,
+        5
+      ],
+      "full_entry": [
+        3,
+        0,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "VCC",
+      "output_slot": [
+        0,
+        0
+      ],
+      "full_entry": [
+        2,
+        5,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "VCC",
+      "output_slot": [
+        0,
+        1
+      ],
+      "full_entry": [
+        2,
+        4,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "VCC",
+      "output_slot": [
+        0,
+        6
+      ],
+      "full_entry": [
+        2,
+        -1,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "VCC",
+      "output_slot": [
+        1,
+        0
+      ],
+      "full_entry": [
+        1,
+        5,
+        0
+      ],
+      "head_count_solutions": [
+        {
+          "d": 1,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "reason": "genuine_V_r_first_retirement_age5_or_U_star_permanence_vs_actual_VC_before_white"
+    },
+    {
+      "producer": "VCC",
+      "output_slot": [
+        1,
+        6
+      ],
+      "full_entry": [
+        1,
+        -1,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "VCC",
+      "output_slot": [
+        2,
+        0
+      ],
+      "full_entry": [
+        0,
+        5,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "VCC",
+      "output_slot": [
+        2,
+        1
+      ],
+      "full_entry": [
+        0,
+        4,
+        0
+      ],
+      "head_count_solutions": [
+        {
+          "d": 0,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "reason": "genuine_V_r_first_retirement_age5_or_U_star_permanence_vs_actual_VC_before_white"
+    },
+    {
+      "producer": "VCC",
+      "output_slot": [
+        2,
+        2
+      ],
+      "full_entry": [
+        0,
+        3,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "VCC",
+      "output_slot": [
+        2,
+        5
+      ],
+      "full_entry": [
+        0,
+        0,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "VCC",
+      "output_slot": [
+        3,
+        3
+      ],
+      "full_entry": [
+        -1,
+        2,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "VCC",
+      "output_slot": [
+        3,
+        4
+      ],
+      "full_entry": [
+        -1,
+        1,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "U",
+      "output_slot": [
+        -1,
+        2
+      ],
+      "full_entry": [
+        3,
+        3,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "U",
+      "output_slot": [
+        0,
+        0
+      ],
+      "full_entry": [
+        2,
+        5,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "U",
+      "output_slot": [
+        0,
+        1
+      ],
+      "full_entry": [
+        2,
+        4,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "U",
+      "output_slot": [
+        1,
+        0
+      ],
+      "full_entry": [
+        1,
+        5,
+        0
+      ],
+      "head_count_solutions": [
+        {
+          "d": 1,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "reason": "genuine_V_r_first_retirement_age5_or_U_star_permanence_vs_actual_VC_before_white"
+    },
+    {
+      "producer": "U",
+      "output_slot": [
+        1,
+        1
+      ],
+      "full_entry": [
+        1,
+        4,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "U",
+      "output_slot": [
+        1,
+        2
+      ],
+      "full_entry": [
+        1,
+        3,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "U",
+      "output_slot": [
+        1,
+        3
+      ],
+      "full_entry": [
+        1,
+        2,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "U",
+      "output_slot": [
+        2,
+        0
+      ],
+      "full_entry": [
+        0,
+        5,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "U",
+      "output_slot": [
+        2,
+        1
+      ],
+      "full_entry": [
+        0,
+        4,
+        0
+      ],
+      "head_count_solutions": [
+        {
+          "d": 0,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "reason": "genuine_V_r_first_retirement_age5_or_U_star_permanence_vs_actual_VC_before_white"
+    },
+    {
+      "producer": "UC",
+      "output_slot": [
+        -1,
+        2
+      ],
+      "full_entry": [
+        3,
+        3,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "UC",
+      "output_slot": [
+        0,
+        0
+      ],
+      "full_entry": [
+        2,
+        5,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "UC",
+      "output_slot": [
+        0,
+        1
+      ],
+      "full_entry": [
+        2,
+        4,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "UC",
+      "output_slot": [
+        1,
+        0
+      ],
+      "full_entry": [
+        1,
+        5,
+        0
+      ],
+      "head_count_solutions": [
+        {
+          "d": 1,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "reason": "genuine_V_r_first_retirement_age5_or_U_star_permanence_vs_actual_VC_before_white"
+    },
+    {
+      "producer": "UC",
+      "output_slot": [
+        1,
+        1
+      ],
+      "full_entry": [
+        1,
+        4,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "UC",
+      "output_slot": [
+        1,
+        2
+      ],
+      "full_entry": [
+        1,
+        3,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "UC",
+      "output_slot": [
+        1,
+        3
+      ],
+      "full_entry": [
+        1,
+        2,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "UC",
+      "output_slot": [
+        1,
+        6
+      ],
+      "full_entry": [
+        1,
+        -1,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "UC",
+      "output_slot": [
+        2,
+        0
+      ],
+      "full_entry": [
+        0,
+        5,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "UC",
+      "output_slot": [
+        2,
+        1
+      ],
+      "full_entry": [
+        0,
+        4,
+        0
+      ],
+      "head_count_solutions": [
+        {
+          "d": 0,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "reason": "genuine_V_r_first_retirement_age5_or_U_star_permanence_vs_actual_VC_before_white"
+    },
+    {
+      "producer": "UC",
+      "output_slot": [
+        2,
+        4
+      ],
+      "full_entry": [
+        0,
+        1,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "UC",
+      "output_slot": [
+        2,
+        5
+      ],
+      "full_entry": [
+        0,
+        0,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "UCC",
+      "output_slot": [
+        -2,
+        6
+      ],
+      "full_entry": [
+        4,
+        -1,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "UCC",
+      "output_slot": [
+        -1,
+        2
+      ],
+      "full_entry": [
+        3,
+        3,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "UCC",
+      "output_slot": [
+        -1,
+        7
+      ],
+      "full_entry": [
+        3,
+        -2,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "UCC",
+      "output_slot": [
+        0,
+        0
+      ],
+      "full_entry": [
+        2,
+        5,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "UCC",
+      "output_slot": [
+        0,
+        1
+      ],
+      "full_entry": [
+        2,
+        4,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "UCC",
+      "output_slot": [
+        0,
+        7
+      ],
+      "full_entry": [
+        2,
+        -2,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "UCC",
+      "output_slot": [
+        1,
+        0
+      ],
+      "full_entry": [
+        1,
+        5,
+        0
+      ],
+      "head_count_solutions": [
+        {
+          "d": 1,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "reason": "genuine_V_r_first_retirement_age5_or_U_star_permanence_vs_actual_VC_before_white"
+    },
+    {
+      "producer": "UCC",
+      "output_slot": [
+        1,
+        1
+      ],
+      "full_entry": [
+        1,
+        4,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "UCC",
+      "output_slot": [
+        1,
+        2
+      ],
+      "full_entry": [
+        1,
+        3,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "UCC",
+      "output_slot": [
+        1,
+        3
+      ],
+      "full_entry": [
+        1,
+        2,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "UCC",
+      "output_slot": [
+        1,
+        6
+      ],
+      "full_entry": [
+        1,
+        -1,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    },
+    {
+      "producer": "UCC",
+      "output_slot": [
+        2,
+        0
+      ],
+      "full_entry": [
+        0,
+        5,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "UCC",
+      "output_slot": [
+        2,
+        1
+      ],
+      "full_entry": [
+        0,
+        4,
+        0
+      ],
+      "head_count_solutions": [
+        {
+          "d": 0,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "reason": "genuine_V_r_first_retirement_age5_or_U_star_permanence_vs_actual_VC_before_white"
+    },
+    {
+      "producer": "UCC",
+      "output_slot": [
+        2,
+        4
+      ],
+      "full_entry": [
+        0,
+        1,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "producer": "UCC",
+      "output_slot": [
+        2,
+        5
+      ],
+      "full_entry": [
+        0,
+        0,
+        0
+      ],
+      "head_count_solutions": [],
+      "reason": "no_clock0_N_head_count_solution_after_creator_U_base"
+    }
+  ],
+  "twelve_actual_guardian_origins": [
+    {
+      "producer": "V",
+      "full_entry": [
+        1,
+        5,
+        0
+      ],
+      "full_entry_C_clock": 0,
+      "upper_output_slot": [
+        1,
+        0
+      ],
+      "guardian": [
+        1,
+        5
+      ],
+      "guardian_VC_local": [
+        1,
+        3
+      ],
+      "first_VC_before_white_read": [
+        14,
+        "R"
+      ],
+      "head_count_solutions": [
+        {
+          "d": 1,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "identity_law": "V_r_exact_first_retirement5"
+    },
+    {
+      "producer": "V",
+      "full_entry": [
+        0,
+        4,
+        0
+      ],
+      "full_entry_C_clock": 0,
+      "upper_output_slot": [
+        2,
+        1
+      ],
+      "guardian": [
+        0,
+        4
+      ],
+      "guardian_VC_local": [
+        2,
+        4
+      ],
+      "first_VC_before_white_read": [
+        24,
+        "R"
+      ],
+      "head_count_solutions": [
+        {
+          "d": 0,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "identity_law": "V_r_exact_first_retirement5"
+    },
+    {
+      "producer": "VC",
+      "full_entry": [
+        1,
+        5,
+        0
+      ],
+      "full_entry_C_clock": 0,
+      "upper_output_slot": [
+        1,
+        0
+      ],
+      "guardian": [
+        1,
+        5
+      ],
+      "guardian_VC_local": [
+        1,
+        3
+      ],
+      "first_VC_before_white_read": [
+        14,
+        "R"
+      ],
+      "head_count_solutions": [
+        {
+          "d": 1,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "identity_law": "V_r_exact_first_retirement5"
+    },
+    {
+      "producer": "VC",
+      "full_entry": [
+        0,
+        4,
+        0
+      ],
+      "full_entry_C_clock": 0,
+      "upper_output_slot": [
+        2,
+        1
+      ],
+      "guardian": [
+        0,
+        4
+      ],
+      "guardian_VC_local": [
+        2,
+        4
+      ],
+      "first_VC_before_white_read": [
+        24,
+        "R"
+      ],
+      "head_count_solutions": [
+        {
+          "d": 0,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "identity_law": "V_r_exact_first_retirement5"
+    },
+    {
+      "producer": "VCC",
+      "full_entry": [
+        1,
+        5,
+        0
+      ],
+      "full_entry_C_clock": 0,
+      "upper_output_slot": [
+        1,
+        0
+      ],
+      "guardian": [
+        1,
+        5
+      ],
+      "guardian_VC_local": [
+        1,
+        3
+      ],
+      "first_VC_before_white_read": [
+        14,
+        "R"
+      ],
+      "head_count_solutions": [
+        {
+          "d": 1,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "identity_law": "V_r_exact_first_retirement5"
+    },
+    {
+      "producer": "VCC",
+      "full_entry": [
+        0,
+        4,
+        0
+      ],
+      "full_entry_C_clock": 0,
+      "upper_output_slot": [
+        2,
+        1
+      ],
+      "guardian": [
+        0,
+        4
+      ],
+      "guardian_VC_local": [
+        2,
+        4
+      ],
+      "first_VC_before_white_read": [
+        24,
+        "R"
+      ],
+      "head_count_solutions": [
+        {
+          "d": 0,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "identity_law": "V_r_exact_first_retirement5"
+    },
+    {
+      "producer": "U",
+      "full_entry": [
+        1,
+        5,
+        0
+      ],
+      "full_entry_C_clock": 0,
+      "upper_output_slot": [
+        1,
+        0
+      ],
+      "guardian": [
+        1,
+        5
+      ],
+      "guardian_VC_local": [
+        1,
+        3
+      ],
+      "first_VC_before_white_read": [
+        14,
+        "R"
+      ],
+      "head_count_solutions": [
+        {
+          "d": 1,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "identity_law": "U_left_star_permanent_old_eight"
+    },
+    {
+      "producer": "U",
+      "full_entry": [
+        0,
+        4,
+        0
+      ],
+      "full_entry_C_clock": 0,
+      "upper_output_slot": [
+        2,
+        1
+      ],
+      "guardian": [
+        0,
+        4
+      ],
+      "guardian_VC_local": [
+        2,
+        4
+      ],
+      "first_VC_before_white_read": [
+        24,
+        "R"
+      ],
+      "head_count_solutions": [
+        {
+          "d": 0,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "identity_law": "U_left_star_permanent_old_eight"
+    },
+    {
+      "producer": "UC",
+      "full_entry": [
+        1,
+        5,
+        0
+      ],
+      "full_entry_C_clock": 0,
+      "upper_output_slot": [
+        1,
+        0
+      ],
+      "guardian": [
+        1,
+        5
+      ],
+      "guardian_VC_local": [
+        1,
+        3
+      ],
+      "first_VC_before_white_read": [
+        14,
+        "R"
+      ],
+      "head_count_solutions": [
+        {
+          "d": 1,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "identity_law": "U_left_star_permanent_old_eight"
+    },
+    {
+      "producer": "UC",
+      "full_entry": [
+        0,
+        4,
+        0
+      ],
+      "full_entry_C_clock": 0,
+      "upper_output_slot": [
+        2,
+        1
+      ],
+      "guardian": [
+        0,
+        4
+      ],
+      "guardian_VC_local": [
+        2,
+        4
+      ],
+      "first_VC_before_white_read": [
+        24,
+        "R"
+      ],
+      "head_count_solutions": [
+        {
+          "d": 0,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "identity_law": "U_left_star_permanent_old_eight"
+    },
+    {
+      "producer": "UCC",
+      "full_entry": [
+        1,
+        5,
+        0
+      ],
+      "full_entry_C_clock": 0,
+      "upper_output_slot": [
+        1,
+        0
+      ],
+      "guardian": [
+        1,
+        5
+      ],
+      "guardian_VC_local": [
+        1,
+        3
+      ],
+      "first_VC_before_white_read": [
+        14,
+        "R"
+      ],
+      "head_count_solutions": [
+        {
+          "d": 1,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "identity_law": "U_left_star_permanent_old_eight"
+    },
+    {
+      "producer": "UCC",
+      "full_entry": [
+        0,
+        4,
+        0
+      ],
+      "full_entry_C_clock": 0,
+      "upper_output_slot": [
+        2,
+        1
+      ],
+      "guardian": [
+        0,
+        4
+      ],
+      "guardian_VC_local": [
+        2,
+        4
+      ],
+      "first_VC_before_white_read": [
+        24,
+        "R"
+      ],
+      "head_count_solutions": [
+        {
+          "d": 0,
+          "v": 0,
+          "u": 0
+        }
+      ],
+      "identity_law": "U_left_star_permanent_old_eight"
+    }
+  ],
+  "dependencies": {
+    "one_foreign_return_U_clock_2026-10-23/manifest.json": "510187883f9d8e67183f167030b57a2d778dc180aadb87eeaa5ef95b267e5c91",
+    "one_foreign_return_U_clock_2026-10-23/rejected_candidate_correction_manifest.json": "7fd723780206f3a2fcc2327b6537195d6e390cc1dd2685025afcf91459c6ab15",
+    "audits/dcuv_count5_replay/queries.json": "3652fbf0f790fb63a8dbe9182a26e07e9a05a534ae06b15cb8a901b8f36ef0d6",
+    "audits/check_dcuv_count5_queries_independent.py": "6cb86430fd89cdd60b1c25310d758a1d8f14425c1ddbffec80943abd41737bb7",
+    "core_periodicity_new/U_left_star_permanence_frozen_20261023_1918/manifest.json": "f757ae8b14f5b4eb98aef203ca74b9784611ae1415a679df126e526140e471d2",
+    "core_periodicity_new/V_parallel_reproductive_supply_frozen_20261023_2036/manifest.json": "b8db4c0e5a98ee490f37860cc61aef44b785b780dd942e7cd4e873a09d0a093d",
+    "one_foreign_return_U_clock_2026-10-23/check_upper_age2_repair.py": "a05cfc71975680f94afa2bd0ba04435e04a96396a28ff8056362be403221c3b1"
+  }
+}

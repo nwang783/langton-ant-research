@@ -1,0 +1,125 @@
+{
+  "scope": "Exact local edge reservation only; the all-length contradiction is the analytic zero-turn and complete-current partition proof.",
+  "rows": [
+    {
+      "histories": {
+        "Z": "NNSS",
+        "A": "EEWW",
+        "B": "SNNS",
+        "Y": "EWW"
+      },
+      "edge_partition": [
+        {
+          "source": [
+            "Y",
+            1
+          ],
+          "target": [
+            "Z",
+            3
+          ],
+          "heading": "S",
+          "is_gamma_edge": true
+        },
+        {
+          "source": [
+            "Z",
+            3
+          ],
+          "target": [
+            "A",
+            1
+          ],
+          "heading": "E",
+          "is_gamma_edge": true
+        },
+        {
+          "source": [
+            "A",
+            1
+          ],
+          "target": [
+            "B",
+            1
+          ],
+          "heading": "N",
+          "is_gamma_edge": false
+        },
+        {
+          "source": [
+            "B",
+            1
+          ],
+          "target": [
+            "Y",
+            2
+          ],
+          "heading": "W",
+          "is_gamma_edge": true
+        }
+      ],
+      "gamma_second_occurrences": 3,
+      "non_gamma_chord": 1
+    },
+    {
+      "histories": {
+        "Z": "NNSS",
+        "A": "EEWW",
+        "B": "SNNS",
+        "Y": "EWWE"
+      },
+      "edge_partition": [
+        {
+          "source": [
+            "Y",
+            1
+          ],
+          "target": [
+            "Z",
+            3
+          ],
+          "heading": "S",
+          "is_gamma_edge": true
+        },
+        {
+          "source": [
+            "Z",
+            3
+          ],
+          "target": [
+            "A",
+            1
+          ],
+          "heading": "E",
+          "is_gamma_edge": true
+        },
+        {
+          "source": [
+            "A",
+            1
+          ],
+          "target": [
+            "B",
+            1
+          ],
+          "heading": "N",
+          "is_gamma_edge": false
+        },
+        {
+          "source": [
+            "B",
+            1
+          ],
+          "target": [
+            "Y",
+            2
+          ],
+          "heading": "W",
+          "is_gamma_edge": true
+        }
+      ],
+      "gamma_second_occurrences": 3,
+      "non_gamma_chord": 1
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "status": "PASS independent all-r literal arrangement, finite seed formula and protected-sibling geometry",
+  "manifest_sha256": "5190d7e56b57fe0749cbfd7af284e552cf94cc2a8d72e695227420307055168e",
+  "refined_regions": 1188,
+  "read_obligations": 1620,
+  "black_refined_regions": 132,
+  "affine_tail_safe_threshold": 12,
+  "explicit_seed": "K plus (0,1) plus j=0..r rails (-2-3j,2+j),(-1-3j,1+j),(-1-3j,3+j)",
+  "initial_mass_formula": "3r+9",
+  "raw_duration_formula": "36r+109",
+  "final_raw_mass_formula": "11r+30",
+  "controls": [
+    {
+      "r": 0,
+      "mass": 9,
+      "raw_length": 109,
+      "final_mass": 30
+    },
+    {
+      "r": 1,
+      "mass": 12,
+      "raw_length": 145,
+      "final_mass": 41
+    },
+    {
+      "r": 2,
+      "mass": 15,
+      "raw_length": 181,
+      "final_mass": 52
+    },
+    {
+      "r": 5,
+      "mass": 24,
+      "raw_length": 289,
+      "final_mass": 85
+    },
+    {
+      "r": 17,
+      "mass": 60,
+      "raw_length": 721,
+      "final_mass": 217
+    },
+    {
+      "r": 51,
+      "mass": 162,
+      "raw_length": 1945,
+      "final_mass": 591
+    }
+  ],
+  "scope": "Actual finite supported family for every integer r>=0; seed grows with r, C count3, no common seed, renewal, unfunded record or global counterexample."
+}

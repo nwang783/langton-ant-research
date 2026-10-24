@@ -1,0 +1,241 @@
+{
+  "scope": "Only exact local edge partition; no cyclic word or period enumeration.",
+  "rows": [
+    {
+      "histories": {
+        "Y": "WEE",
+        "A": "NSSN",
+        "B": "WWE",
+        "C": "NSSN"
+      },
+      "actual_edge_partition": [
+        {
+          "source": [
+            "Y",
+            1
+          ],
+          "target": [
+            "A",
+            3
+          ],
+          "heading": "N",
+          "is_gamma": true
+        },
+        {
+          "source": [
+            "A",
+            3
+          ],
+          "target": [
+            "B",
+            1
+          ],
+          "heading": "W",
+          "is_gamma": false
+        },
+        {
+          "source": [
+            "B",
+            1
+          ],
+          "target": [
+            "C",
+            1
+          ],
+          "heading": "S",
+          "is_gamma": false
+        },
+        {
+          "source": [
+            "C",
+            1
+          ],
+          "target": [
+            "Y",
+            2
+          ],
+          "heading": "E",
+          "is_gamma": true
+        }
+      ],
+      "gamma_uses": 2
+    },
+    {
+      "histories": {
+        "Y": "WEE",
+        "A": "NSSN",
+        "B": "WWEE",
+        "C": "NSSN"
+      },
+      "actual_edge_partition": [
+        {
+          "source": [
+            "Y",
+            1
+          ],
+          "target": [
+            "A",
+            3
+          ],
+          "heading": "N",
+          "is_gamma": true
+        },
+        {
+          "source": [
+            "A",
+            3
+          ],
+          "target": [
+            "B",
+            1
+          ],
+          "heading": "W",
+          "is_gamma": false
+        },
+        {
+          "source": [
+            "B",
+            1
+          ],
+          "target": [
+            "C",
+            1
+          ],
+          "heading": "S",
+          "is_gamma": false
+        },
+        {
+          "source": [
+            "C",
+            1
+          ],
+          "target": [
+            "Y",
+            2
+          ],
+          "heading": "E",
+          "is_gamma": true
+        }
+      ],
+      "gamma_uses": 2
+    },
+    {
+      "histories": {
+        "Y": "WEEW",
+        "A": "NSSN",
+        "B": "WWE",
+        "C": "NSSN"
+      },
+      "actual_edge_partition": [
+        {
+          "source": [
+            "Y",
+            1
+          ],
+          "target": [
+            "A",
+            3
+          ],
+          "heading": "N",
+          "is_gamma": true
+        },
+        {
+          "source": [
+            "A",
+            3
+          ],
+          "target": [
+            "B",
+            1
+          ],
+          "heading": "W",
+          "is_gamma": false
+        },
+        {
+          "source": [
+            "B",
+            1
+          ],
+          "target": [
+            "C",
+            1
+          ],
+          "heading": "S",
+          "is_gamma": false
+        },
+        {
+          "source": [
+            "C",
+            1
+          ],
+          "target": [
+            "Y",
+            2
+          ],
+          "heading": "E",
+          "is_gamma": true
+        }
+      ],
+      "gamma_uses": 2
+    },
+    {
+      "histories": {
+        "Y": "WEEW",
+        "A": "NSSN",
+        "B": "WWEE",
+        "C": "NSSN"
+      },
+      "actual_edge_partition": [
+        {
+          "source": [
+            "Y",
+            1
+          ],
+          "target": [
+            "A",
+            3
+          ],
+          "heading": "N",
+          "is_gamma": true
+        },
+        {
+          "source": [
+            "A",
+            3
+          ],
+          "target": [
+            "B",
+            1
+          ],
+          "heading": "W",
+          "is_gamma": false
+        },
+        {
+          "source": [
+            "B",
+            1
+          ],
+          "target": [
+            "C",
+            1
+          ],
+          "heading": "S",
+          "is_gamma": false
+        },
+        {
+          "source": [
+            "C",
+            1
+          ],
+          "target": [
+            "Y",
+            2
+          ],
+          "heading": "E",
+          "is_gamma": true
+        }
+      ],
+      "gamma_uses": 2
+    }
+  ]
+}

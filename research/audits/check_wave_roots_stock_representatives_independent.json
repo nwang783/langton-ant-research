@@ -1,0 +1,217 @@
+{
+  "status": "PASS supplied wave roots, complete background controls, SIX representatives only, and exact standard stock replenishment",
+  "author_note": "a96dfbf6435898c0535a912e19da54655d1fd94a7debbae8884c5475370f8428",
+  "graphs": {
+    "S104": {
+      "period": 104,
+      "drift": [
+        -2,
+        2
+      ],
+      "read_classes": 22,
+      "first_black_roots": 0,
+      "last_black_roots": 12,
+      "first_R_cycles": [
+        [
+          4,
+          -1
+        ],
+        [
+          4,
+          -1
+        ]
+      ],
+      "reverse_last_L_cycles": [],
+      "selected_stock_delta": 0
+    },
+    "P1564": {
+      "period": 1564,
+      "drift": [
+        14,
+        14
+      ],
+      "read_classes": 557,
+      "first_black_roots": 197,
+      "last_black_roots": 301,
+      "first_R_cycles": [],
+      "reverse_last_L_cycles": [],
+      "selected_stock_delta": -3
+    },
+    "Q4352": {
+      "period": 4352,
+      "drift": [
+        26,
+        -26
+      ],
+      "read_classes": 1162,
+      "first_black_roots": 406,
+      "last_black_roots": 590,
+      "first_R_cycles": [],
+      "reverse_last_L_cycles": [],
+      "selected_stock_delta": -6
+    }
+  },
+  "six_mixed_replays": [
+    {
+      "source": "S104",
+      "target": "P1564",
+      "phases": [
+        7,
+        296
+      ],
+      "seed_mass": 210,
+      "final_mass": 326,
+      "reads": 1668
+    },
+    {
+      "source": "S104",
+      "target": "Q4352",
+      "phases": [
+        6,
+        4337
+      ],
+      "seed_mass": 472,
+      "final_mass": 668,
+      "reads": 4456
+    },
+    {
+      "source": "P1564",
+      "target": "S104",
+      "phases": [
+        0,
+        23
+      ],
+      "seed_mass": 212,
+      "final_mass": 328,
+      "reads": 1668
+    },
+    {
+      "source": "P1564",
+      "target": "Q4352",
+      "phases": [
+        0,
+        551
+      ],
+      "seed_mass": 678,
+      "final_mass": 966,
+      "reads": 5916
+    },
+    {
+      "source": "Q4352",
+      "target": "S104",
+      "phases": [
+        48,
+        102
+      ],
+      "seed_mass": 460,
+      "final_mass": 656,
+      "reads": 4456
+    },
+    {
+      "source": "Q4352",
+      "target": "P1564",
+      "phases": [
+        7,
+        270
+      ],
+      "seed_mass": 658,
+      "final_mass": 946,
+      "reads": 5916
+    }
+  ],
+  "six_canonical_immutable_conflicts": [
+    {
+      "time": 104,
+      "cell": [
+        -2,
+        2
+      ],
+      "requested": "R",
+      "previous_read_time": 40,
+      "previous_read_turn": "R"
+    },
+    {
+      "time": 104,
+      "cell": [
+        -2,
+        2
+      ],
+      "requested": "R",
+      "previous_read_time": 40,
+      "previous_read_turn": "R"
+    },
+    {
+      "time": 1576,
+      "cell": [
+        14,
+        16
+      ],
+      "requested": "L",
+      "previous_read_time": 1548,
+      "previous_read_turn": "L"
+    },
+    {
+      "time": 1568,
+      "cell": [
+        16,
+        14
+      ],
+      "requested": "R",
+      "previous_read_time": 1560,
+      "previous_read_turn": "R"
+    },
+    {
+      "time": 4352,
+      "cell": [
+        26,
+        -26
+      ],
+      "requested": "L",
+      "previous_read_time": 4340,
+      "previous_read_turn": "L"
+    },
+    {
+      "time": 4355,
+      "cell": [
+        28,
+        -27
+      ],
+      "requested": "R",
+      "previous_read_time": 4347,
+      "previous_read_turn": "R"
+    }
+  ],
+  "complete_background_controls": [
+    {
+      "full_bulk_black_classes": 420,
+      "full_output_black_classes": 524,
+      "untouched_black_classes": 223,
+      "selected_full_input": 9,
+      "selected_full_output": 6,
+      "selected_untouched": 4,
+      "retained_finite_XOR_cap_count": 2,
+      "final_full_XOR_count": 1076,
+      "final_full_XOR_sha256": "f81e03df3ae63f66013d1d7fb681f9f3bf60abca976ed8902e21fb43ae8c783b"
+    },
+    {
+      "full_bulk_black_classes": 468,
+      "full_output_black_classes": 652,
+      "untouched_black_classes": 62,
+      "selected_full_input": 13,
+      "selected_full_output": 7,
+      "selected_untouched": 0,
+      "retained_finite_XOR_cap_count": 68,
+      "final_full_XOR_count": 1994,
+      "final_full_XOR_sha256": "847f276e716c7cb2c3a3897590fdefad3de38c8cbcf011ea34b4423c2366eb94"
+    }
+  ],
+  "phase14_all_future_threshold_cases": 159,
+  "phase14_stock_gain_per_period": 1,
+  "scope": [
+    "All-cut legal-pair counts remain author discovery data; they were NOT independently enumerated or used as a premise.",
+    "Each supplied finite minimum board and complete final field was replayed without discarding unread cells. These are one-period mixed joins, not recurrent controllers or mature-output conversions.",
+    "The complete normal-form background and finite XOR cap are retained in three-period controls. Their all-future prepared-wave validity remains the attributed retained certificate, not this replay.",
+    "The phase14 standard finite seed has a fresh exact all-period color certificate. Drift preserves the stock mask and each period contributes+1, so the proposed phase-blind stock is not monotone even in a standard tail.",
+    "First/last causal graphs retain genuine prepared input roots; supplied prepared waves are not autonomous WHITE translators. This does not classify other controllers."
+  ]
+}

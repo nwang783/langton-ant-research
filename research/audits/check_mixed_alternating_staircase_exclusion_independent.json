@@ -1,0 +1,26 @@
+{
+  "status": "PASS dependent all-length critical mixed-boundary alternating-staircase exclusion",
+  "proof": "7637b9c1a8adeb266718793195621b4dac1a902cd31b3acb9770b5a81880665a",
+  "dependencies": {
+    "global_max_flow2_staircase_segments_have_one_core_and_cannot_close.md": "e597889e756ec21b6f4c6db01de2ea8e56d2e85fdb6851439673db39c7eb1b21",
+    "mixed_RR_boundary_closure_and_required_flat_RIGHT_exits.md": "f008184db7e904542e3a674c0225248cc70a0b572578a440a963fb290c14e4a9",
+    "global_max_mixed_flow2_roots_have_only_flat_local_islands.md": "c9574fb8a1a2d8d592cbd06d601a49ef241eec6d18c6c50cfa3497ee83e8259d",
+    "critical_flow2_roots_cannot_have_high_flow_predecessors.md": "f59ebed0eeb02378ffc766d7d8bd014a333f44d8994c51b6cdc243579e3b9297",
+    "adjacent_two_flat_pair_gates_leave_only_RR_open.md": "94b498abfda220c2ff3e08d634d12ea5057c314166ed546213ff738015ba2d15",
+    "local_sink_Y_source_uncapped_reader_requires_higher_C.md": "17e8d2fd81c4bcebe8d167717e4b44d55a684d96e6a528ba2eee5b9e405c0be5"
+  },
+  "signed_reports": {
+    "check_global_max_flow2_staircase_independent.json": "665b54d8645247b9f5960eb6a3fcb8d7cf4db65b84054a24d444669904266a37",
+    "check_mixed_RR_closure_independent.json": "6a5571ed9cd4a804868b7378ecd3a4f675592e4b200e944cc4c62ff97a8883ac",
+    "check_mixed_flow2_flat_islands_independent.json": "c4fabac9c366e6536b760af2a52f23d6d24bd5eb53f16f8e1d788b9a8680defe",
+    "check_high_sink_nesting_independent.json": "018e5161c16f6c6e55b65884c4c761faffdf483fdc4a454f0e3ab0d77b9df052",
+    "check_two_flat_pair_gate_independent.json": "ea0bd913e9917f6b2adba24c17e4e21fe38e2f6604a8c2a0225c7f56e62a976f",
+    "check_uncapped_sink_Y_reader_independent.json": "dadd4a43318a2797caad12aed81a98c5a02c474f5e51c00a9f948331f527178e"
+  },
+  "analytic_review": [
+    "Under zero turning noLL forces noRR: if LEFTs are isolated, every extra RIGHT would violate equality. Then signed GLOBAL-M/no-one-use macro inventory leaves only RLR3 and flat2 RIGHT, with an actual flow2 edge supplied by the local-max b-cycle rule. A whole flow3 circle is not silently omitted. No high macro reduces to the independently excluded constant2 staircase.",
+    "With high macros, nearest-RIGHT flat groups have high sink/source endpoints. Between adjacent flats the complete five-corner GLOBAL-M window applies on actual flow2 edges and excludes passiveV; critical singleton-island then excludesU and forcesO with outerV caps. Three consecutive flats would demand the neighboringO also beV. Exactlytwo flats therefore form the signed RLR pair gate with actual high sink/source and V outer contacts, not an arbitrary pair window. The local gate excludes it.",
+    "A remaining singletonY is exactly the uncapped sink-Y-source reader obstruction. A Y must exist: any f2root has precedingY by the signed island rule; with nof2root the uninterrupted selected-lane negative-lap clock -P=ell+sumXage13-sumYage13 forcesY. All ages retain full physical lifts. There is no dependence on a bounded age or omitted exterior stock.",
+    "Therefore someLL andRR occur in the full stated critical GLOBAL-M completeWHITEcap4/no-one-use scope. This is qualitative mixed2/3/4 geometry only; it neither bounds run lengths nor excludes boundaries with double turns."
+  ]
+}

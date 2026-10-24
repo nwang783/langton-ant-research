@@ -1,0 +1,39 @@
+{
+  "status": "PASS exact joint first/last C temporal graph and literal countercontrols, with zero-duration identity arcs discarded after contraction",
+  "proof": "9a1c37168565f05c9d69c0383e570792e1c2399105b6d81beee25537c618825c",
+  "certificate": "7e910e59f2fb8450ce6294994b0e870e27545f79cda6c3cc204e15062582c0bf",
+  "script": "79b2416def205dd0aa4be587292e5f194d8ed0201372f7eee6d62f2b4786fb68",
+  "base": {
+    "S104": {
+      "faces": 10,
+      "edges": 41,
+      "maximum_span": 254,
+      "maximum_carry": 3,
+      "zero_spans": 0
+    },
+    "M10": {
+      "faces": 2,
+      "edges": 8,
+      "maximum_span": 17,
+      "maximum_carry": 2,
+      "zero_spans": 0
+    },
+    "F80": {
+      "faces": 14,
+      "edges": 58,
+      "maximum_span": 65,
+      "maximum_carry": 1,
+      "zero_spans": 1
+    }
+  },
+  "representation_checks": 60,
+  "blank_absolute_start": 10359,
+  "complete_tail_parity_tests": 192,
+  "analytic_review": [
+    "Each edge is checked against actual physical first/last occurrence times with full supplied drift; FIRST reverses the child-parent arrow and its voltage. Actual same-cell R/L owners and final-R opposite headings remain. Arbitrary interior events are retained, not declared separate channels.",
+    "Canonical carry ceil((B-A)/P) targets a translated face, never a free rewind. A nonzero span cannot be a multiple of P since one phase has only one position under nonzero full drift. Zero-span A/B identification also discards its zero-duration identity arcs; every remaining closed positive-duration walk has wP=sum gaps>0.",
+    "The collapsed FIRST/LAST identity retains signed span switches at each occurrence. It allows nonpositive projected winding. Restoring each backward switch adds the actual carry voltage, not an assumed unit. Graph-simple two-node span/carry cycles need not be spatially embedded and can wind three times.",
+    "All graphs, event owners, three complete finite fields, every countercontrol event and rigid map were independently reconstructed. Blank standard control includes full all-future parity and every archived bit. Prepared10/80 controls cover only the specified paid finite periods, not complete finite-seed translation.",
+    "No span/carry bound, event-disjointness across graph walks, controller module forcing, WHITE lifetime S1 or universal capture follows. Powers split full quotient classes and change numerical carry; these are not invariant input charges."
+  ]
+}

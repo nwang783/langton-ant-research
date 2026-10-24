@@ -1,0 +1,205 @@
+{
+  "scope": "Supplied-wave causal roots, COMPLETE prepared fields, and stock counterchecks.",
+  "graphs": {
+    "S104": {
+      "period": 104,
+      "drift": [
+        -2,
+        2
+      ],
+      "read_classes": 22,
+      "first_black_roots": 0,
+      "last_black_roots": 12,
+      "first_R_cycles": [
+        {
+          "cells": [
+            [
+              1,
+              -2
+            ],
+            [
+              1,
+              -3
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              -2
+            ]
+          ],
+          "winding": -1
+        },
+        {
+          "cells": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "winding": -1
+        }
+      ],
+      "reverse_last_L_cycles": [],
+      "selected_first_black": 0,
+      "selected_last_black": 0,
+      "selected_stock_delta": 0
+    },
+    "P1564": {
+      "period": 1564,
+      "drift": [
+        14,
+        14
+      ],
+      "read_classes": 557,
+      "first_black_roots": 197,
+      "last_black_roots": 301,
+      "first_R_cycles": [],
+      "reverse_last_L_cycles": [],
+      "selected_first_black": 5,
+      "selected_last_black": 2,
+      "selected_stock_delta": -3
+    },
+    "Q4352": {
+      "period": 4352,
+      "drift": [
+        26,
+        -26
+      ],
+      "read_classes": 1162,
+      "first_black_roots": 406,
+      "last_black_roots": 590,
+      "first_R_cycles": [],
+      "reverse_last_L_cycles": [],
+      "selected_first_black": 13,
+      "selected_last_black": 7,
+      "selected_stock_delta": -6
+    }
+  },
+  "complete_prepared_fields": [
+    {
+      "normal_form": "prepared_wave_five_band_normal_form.json",
+      "normal_form_sha256": "13f7b3c64f558d149816e5ffdf75102fff98309491034b75463f251c7c668f7b",
+      "full_bulk_black_classes": 420,
+      "full_output_black_classes": 524,
+      "untouched_black_classes": 223,
+      "selected_full_input": 9,
+      "selected_full_output": 6,
+      "selected_untouched": 4,
+      "retained_finite_XOR_cap_count": 2,
+      "literal_replay_periods": 3,
+      "final_full_XOR_count": 1076,
+      "final_full_XOR_sha256": "f81e03df3ae63f66013d1d7fb681f9f3bf60abca976ed8902e21fb43ae8c783b"
+    },
+    {
+      "normal_form": "three_standard_band_wave_normal_form.json",
+      "normal_form_sha256": "f3a5430dd4f45dc0f85a57485f386c687359f6ab48511b1ab3a246020f9eabb0",
+      "full_bulk_black_classes": 468,
+      "full_output_black_classes": 652,
+      "untouched_black_classes": 62,
+      "selected_full_input": 13,
+      "selected_full_output": 7,
+      "selected_untouched": 0,
+      "retained_finite_XOR_cap_count": 68,
+      "literal_replay_periods": 3,
+      "final_full_XOR_count": 1994,
+      "final_full_XOR_sha256": "847f276e716c7cb2c3a3897590fdefad3de38c8cbcf011ea34b4423c2366eb94"
+    }
+  ],
+  "stock_mask": "x even and x+y=20 mod28, in common boundary-heading-N coordinates",
+  "canonical_phase_stock_deltas": [
+    0,
+    -3,
+    -6
+  ],
+  "all_six_canonical_cross_pairs_illegal": true,
+  "phase14_countercontrol": {
+    "phase": 14,
+    "initial_black": [
+      [
+        -5,
+        -3
+      ],
+      [
+        -4,
+        -3
+      ],
+      [
+        -4,
+        -2
+      ],
+      [
+        -3,
+        -3
+      ],
+      [
+        -3,
+        -1
+      ],
+      [
+        -2,
+        -4
+      ],
+      [
+        -2,
+        -3
+      ],
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -1,
+        -4
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -1
+      ]
+    ],
+    "initial_position": [
+      0,
+      0
+    ],
+    "initial_heading": 0,
+    "exact_periodic_tail_certified": true,
+    "complete_stock_counts_at_four_boundaries": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "drift": [
+      -2,
+      2
+    ],
+    "meaning": "An actual finite-seed standard highway replenishes this proposed fuel by1 each period. Therefore it is not a phase-independent resource."
+  },
+  "all_six_finite_mixed_witnesses_literally_replayed": true
+}

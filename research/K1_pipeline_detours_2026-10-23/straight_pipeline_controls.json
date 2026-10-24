@@ -1,0 +1,1734 @@
+{
+  "status": "PASS literal exact controls; NOT a white translating front",
+  "scope": "Uniform straight-diagonal K1 contact prototype only. Word6 fails on every coloring; word10 is a prepared translator consuming one black lower-rail cell per stage. Full drifts retained for all copies.",
+  "six_step_controls": [
+    {
+      "word": "RRRRLR",
+      "copies": 1,
+      "full_period": 6,
+      "full_drift": [
+        -1,
+        1
+      ],
+      "histories": [
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "transverse": -1,
+          "turns": "RR",
+          "incoming": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "times": [
+            -1,
+            3
+          ],
+          "alternating": false,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "transverse": 0,
+          "turns": "RLR",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            0,
+            4,
+            8
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "transverse": 1,
+          "turns": "R",
+          "incoming": [
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            7
+          ],
+          "alternating": true,
+          "input_color": "white"
+        }
+      ],
+      "all_alternating": false
+    },
+    {
+      "word": "RRRRLR",
+      "copies": 2,
+      "full_period": 12,
+      "full_drift": [
+        -2,
+        2
+      ],
+      "histories": [
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "transverse": -1,
+          "turns": "RR",
+          "incoming": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "times": [
+            5,
+            9
+          ],
+          "alternating": false,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            -1,
+            1
+          ],
+          "transverse": 0,
+          "turns": "RLR",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            6,
+            10,
+            14
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            -1,
+            2
+          ],
+          "transverse": 1,
+          "turns": "R",
+          "incoming": [
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            13
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "transverse": -1,
+          "turns": "RR",
+          "incoming": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "times": [
+            -1,
+            3
+          ],
+          "alternating": false,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "transverse": 0,
+          "turns": "RLR",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            0,
+            4,
+            8
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "transverse": 1,
+          "turns": "R",
+          "incoming": [
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            7
+          ],
+          "alternating": true,
+          "input_color": "white"
+        }
+      ],
+      "all_alternating": false
+    },
+    {
+      "word": "RRRRLR",
+      "copies": 3,
+      "full_period": 18,
+      "full_drift": [
+        -3,
+        3
+      ],
+      "histories": [
+        {
+          "cell": [
+            -2,
+            1
+          ],
+          "transverse": -1,
+          "turns": "RR",
+          "incoming": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "times": [
+            11,
+            15
+          ],
+          "alternating": false,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            -2,
+            2
+          ],
+          "transverse": 0,
+          "turns": "RLR",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            12,
+            16,
+            20
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            -2,
+            3
+          ],
+          "transverse": 1,
+          "turns": "R",
+          "incoming": [
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            19
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "transverse": -1,
+          "turns": "RR",
+          "incoming": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "times": [
+            5,
+            9
+          ],
+          "alternating": false,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            -1,
+            1
+          ],
+          "transverse": 0,
+          "turns": "RLR",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            6,
+            10,
+            14
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            -1,
+            2
+          ],
+          "transverse": 1,
+          "turns": "R",
+          "incoming": [
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            13
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "transverse": -1,
+          "turns": "RR",
+          "incoming": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ]
+          ],
+          "times": [
+            -1,
+            3
+          ],
+          "alternating": false,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "transverse": 0,
+          "turns": "RLR",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            0,
+            4,
+            8
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "transverse": 1,
+          "turns": "R",
+          "incoming": [
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            7
+          ],
+          "alternating": true,
+          "input_color": "white"
+        }
+      ],
+      "all_alternating": false
+    }
+  ],
+  "ten_step_controls": [
+    {
+      "word": "RRRLLLLRLR",
+      "copies": 1,
+      "full_period": 10,
+      "full_drift": [
+        -1,
+        1
+      ],
+      "histories": [
+        {
+          "cell": [
+            0,
+            -2
+          ],
+          "transverse": -2,
+          "turns": "L",
+          "incoming": [
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            4
+          ],
+          "alternating": true,
+          "input_color": "black"
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "transverse": -1,
+          "turns": "RLRL",
+          "incoming": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            -1,
+            3,
+            7,
+            15
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "transverse": 0,
+          "turns": "RLRL",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "times": [
+            0,
+            8,
+            12,
+            16
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "transverse": 1,
+          "turns": "R",
+          "incoming": [
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            11
+          ],
+          "alternating": true,
+          "input_color": "white"
+        }
+      ],
+      "all_alternating": true
+    },
+    {
+      "word": "RRRLLLLRLR",
+      "copies": 2,
+      "full_period": 20,
+      "full_drift": [
+        -2,
+        2
+      ],
+      "histories": [
+        {
+          "cell": [
+            -1,
+            -1
+          ],
+          "transverse": -2,
+          "turns": "L",
+          "incoming": [
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            14
+          ],
+          "alternating": true,
+          "input_color": "black"
+        },
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "transverse": -1,
+          "turns": "RLRL",
+          "incoming": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            9,
+            13,
+            17,
+            25
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            -1,
+            1
+          ],
+          "transverse": 0,
+          "turns": "RLRL",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "times": [
+            10,
+            18,
+            22,
+            26
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            -1,
+            2
+          ],
+          "transverse": 1,
+          "turns": "R",
+          "incoming": [
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            21
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            0,
+            -2
+          ],
+          "transverse": -2,
+          "turns": "L",
+          "incoming": [
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            4
+          ],
+          "alternating": true,
+          "input_color": "black"
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "transverse": -1,
+          "turns": "RLRL",
+          "incoming": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            -1,
+            3,
+            7,
+            15
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "transverse": 0,
+          "turns": "RLRL",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "times": [
+            0,
+            8,
+            12,
+            16
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "transverse": 1,
+          "turns": "R",
+          "incoming": [
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            11
+          ],
+          "alternating": true,
+          "input_color": "white"
+        }
+      ],
+      "all_alternating": true
+    },
+    {
+      "word": "RRRLLLLRLR",
+      "copies": 3,
+      "full_period": 30,
+      "full_drift": [
+        -3,
+        3
+      ],
+      "histories": [
+        {
+          "cell": [
+            -2,
+            0
+          ],
+          "transverse": -2,
+          "turns": "L",
+          "incoming": [
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            24
+          ],
+          "alternating": true,
+          "input_color": "black"
+        },
+        {
+          "cell": [
+            -2,
+            1
+          ],
+          "transverse": -1,
+          "turns": "RLRL",
+          "incoming": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            19,
+            23,
+            27,
+            35
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            -2,
+            2
+          ],
+          "transverse": 0,
+          "turns": "RLRL",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "times": [
+            20,
+            28,
+            32,
+            36
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            -2,
+            3
+          ],
+          "transverse": 1,
+          "turns": "R",
+          "incoming": [
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            31
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            -1,
+            -1
+          ],
+          "transverse": -2,
+          "turns": "L",
+          "incoming": [
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            14
+          ],
+          "alternating": true,
+          "input_color": "black"
+        },
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "transverse": -1,
+          "turns": "RLRL",
+          "incoming": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            9,
+            13,
+            17,
+            25
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            -1,
+            1
+          ],
+          "transverse": 0,
+          "turns": "RLRL",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "times": [
+            10,
+            18,
+            22,
+            26
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            -1,
+            2
+          ],
+          "transverse": 1,
+          "turns": "R",
+          "incoming": [
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            21
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            0,
+            -2
+          ],
+          "transverse": -2,
+          "turns": "L",
+          "incoming": [
+            [
+              0,
+              -1
+            ]
+          ],
+          "times": [
+            4
+          ],
+          "alternating": true,
+          "input_color": "black"
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "transverse": -1,
+          "turns": "RLRL",
+          "incoming": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            -1,
+            3,
+            7,
+            15
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "transverse": 0,
+          "turns": "RLRL",
+          "incoming": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "times": [
+            0,
+            8,
+            12,
+            16
+          ],
+          "alternating": true,
+          "input_color": "white"
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "transverse": 1,
+          "turns": "R",
+          "incoming": [
+            [
+              1,
+              0
+            ]
+          ],
+          "times": [
+            11
+          ],
+          "alternating": true,
+          "input_color": "white"
+        }
+      ],
+      "all_alternating": true
+    }
+  ],
+  "finite_fuel_controls": [
+    {
+      "stages": 1,
+      "initial_black_count": 3,
+      "initial_black": [
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -2
+        ]
+      ],
+      "matched_steps": 10,
+      "first_mismatch": {
+        "next_stage_offset": 4,
+        "position": [
+          -1,
+          -1
+        ],
+        "expected": "L",
+        "actual": "R"
+      }
+    },
+    {
+      "stages": 2,
+      "initial_black_count": 4,
+      "initial_black": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -2
+        ]
+      ],
+      "matched_steps": 20,
+      "first_mismatch": {
+        "next_stage_offset": 4,
+        "position": [
+          -2,
+          0
+        ],
+        "expected": "L",
+        "actual": "R"
+      }
+    },
+    {
+      "stages": 3,
+      "initial_black_count": 5,
+      "initial_black": [
+        [
+          -2,
+          0
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -2
+        ]
+      ],
+      "matched_steps": 30,
+      "first_mismatch": {
+        "next_stage_offset": 4,
+        "position": [
+          -3,
+          1
+        ],
+        "expected": "L",
+        "actual": "R"
+      }
+    },
+    {
+      "stages": 10,
+      "initial_black_count": 12,
+      "initial_black": [
+        [
+          -9,
+          7
+        ],
+        [
+          -8,
+          6
+        ],
+        [
+          -7,
+          5
+        ],
+        [
+          -6,
+          4
+        ],
+        [
+          -5,
+          3
+        ],
+        [
+          -4,
+          2
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -2
+        ]
+      ],
+      "matched_steps": 100,
+      "first_mismatch": {
+        "next_stage_offset": 4,
+        "position": [
+          -10,
+          8
+        ],
+        "expected": "L",
+        "actual": "R"
+      }
+    },
+    {
+      "stages": 100,
+      "initial_black_count": 102,
+      "initial_black": [
+        [
+          -99,
+          97
+        ],
+        [
+          -98,
+          96
+        ],
+        [
+          -97,
+          95
+        ],
+        [
+          -96,
+          94
+        ],
+        [
+          -95,
+          93
+        ],
+        [
+          -94,
+          92
+        ],
+        [
+          -93,
+          91
+        ],
+        [
+          -92,
+          90
+        ],
+        [
+          -91,
+          89
+        ],
+        [
+          -90,
+          88
+        ],
+        [
+          -89,
+          87
+        ],
+        [
+          -88,
+          86
+        ],
+        [
+          -87,
+          85
+        ],
+        [
+          -86,
+          84
+        ],
+        [
+          -85,
+          83
+        ],
+        [
+          -84,
+          82
+        ],
+        [
+          -83,
+          81
+        ],
+        [
+          -82,
+          80
+        ],
+        [
+          -81,
+          79
+        ],
+        [
+          -80,
+          78
+        ],
+        [
+          -79,
+          77
+        ],
+        [
+          -78,
+          76
+        ],
+        [
+          -77,
+          75
+        ],
+        [
+          -76,
+          74
+        ],
+        [
+          -75,
+          73
+        ],
+        [
+          -74,
+          72
+        ],
+        [
+          -73,
+          71
+        ],
+        [
+          -72,
+          70
+        ],
+        [
+          -71,
+          69
+        ],
+        [
+          -70,
+          68
+        ],
+        [
+          -69,
+          67
+        ],
+        [
+          -68,
+          66
+        ],
+        [
+          -67,
+          65
+        ],
+        [
+          -66,
+          64
+        ],
+        [
+          -65,
+          63
+        ],
+        [
+          -64,
+          62
+        ],
+        [
+          -63,
+          61
+        ],
+        [
+          -62,
+          60
+        ],
+        [
+          -61,
+          59
+        ],
+        [
+          -60,
+          58
+        ],
+        [
+          -59,
+          57
+        ],
+        [
+          -58,
+          56
+        ],
+        [
+          -57,
+          55
+        ],
+        [
+          -56,
+          54
+        ],
+        [
+          -55,
+          53
+        ],
+        [
+          -54,
+          52
+        ],
+        [
+          -53,
+          51
+        ],
+        [
+          -52,
+          50
+        ],
+        [
+          -51,
+          49
+        ],
+        [
+          -50,
+          48
+        ],
+        [
+          -49,
+          47
+        ],
+        [
+          -48,
+          46
+        ],
+        [
+          -47,
+          45
+        ],
+        [
+          -46,
+          44
+        ],
+        [
+          -45,
+          43
+        ],
+        [
+          -44,
+          42
+        ],
+        [
+          -43,
+          41
+        ],
+        [
+          -42,
+          40
+        ],
+        [
+          -41,
+          39
+        ],
+        [
+          -40,
+          38
+        ],
+        [
+          -39,
+          37
+        ],
+        [
+          -38,
+          36
+        ],
+        [
+          -37,
+          35
+        ],
+        [
+          -36,
+          34
+        ],
+        [
+          -35,
+          33
+        ],
+        [
+          -34,
+          32
+        ],
+        [
+          -33,
+          31
+        ],
+        [
+          -32,
+          30
+        ],
+        [
+          -31,
+          29
+        ],
+        [
+          -30,
+          28
+        ],
+        [
+          -29,
+          27
+        ],
+        [
+          -28,
+          26
+        ],
+        [
+          -27,
+          25
+        ],
+        [
+          -26,
+          24
+        ],
+        [
+          -25,
+          23
+        ],
+        [
+          -24,
+          22
+        ],
+        [
+          -23,
+          21
+        ],
+        [
+          -22,
+          20
+        ],
+        [
+          -21,
+          19
+        ],
+        [
+          -20,
+          18
+        ],
+        [
+          -19,
+          17
+        ],
+        [
+          -18,
+          16
+        ],
+        [
+          -17,
+          15
+        ],
+        [
+          -16,
+          14
+        ],
+        [
+          -15,
+          13
+        ],
+        [
+          -14,
+          12
+        ],
+        [
+          -13,
+          11
+        ],
+        [
+          -12,
+          10
+        ],
+        [
+          -11,
+          9
+        ],
+        [
+          -10,
+          8
+        ],
+        [
+          -9,
+          7
+        ],
+        [
+          -8,
+          6
+        ],
+        [
+          -7,
+          5
+        ],
+        [
+          -6,
+          4
+        ],
+        [
+          -5,
+          3
+        ],
+        [
+          -4,
+          2
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -2
+        ]
+      ],
+      "matched_steps": 1000,
+      "first_mismatch": {
+        "next_stage_offset": 4,
+        "position": [
+          -100,
+          98
+        ],
+        "expected": "L",
+        "actual": "R"
+      }
+    }
+  ]
+}

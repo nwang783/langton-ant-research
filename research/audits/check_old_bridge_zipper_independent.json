@@ -1,0 +1,53 @@
+{
+  "status": "PASS arbitrary-word old-bridge zipper and global cycle-erasure bound",
+  "note_sha256": "bfd61ce9b6fd0a78a5fb14a495f11cc0b488b1c643e34682219ea2b45c670f30",
+  "counts": {
+    "zipper_prefixes": 1821,
+    "all_prefixes": 26591,
+    "three_or_four_R_unit_cycle_erasures": 3144,
+    "exceptional_blocks": 3564,
+    "exact_ordinary_inheritances": 7353,
+    "runs": 265,
+    "first_erasure_deadlines": 265,
+    "ordinary_blocks_with_w_cycle_birth": 16
+  },
+  "rods": [
+    {
+      "r": 1,
+      "first_erasure": 9
+    },
+    {
+      "r": 2,
+      "first_erasure": 13
+    },
+    {
+      "r": 3,
+      "first_erasure": 17
+    },
+    {
+      "r": 7,
+      "first_erasure": 33
+    },
+    {
+      "r": 16,
+      "first_erasure": 69
+    },
+    {
+      "r": 31,
+      "first_erasure": 129
+    },
+    {
+      "r": 64,
+      "first_erasure": 261
+    }
+  ],
+  "analytic": [
+    "At a block entry the stationary w cursor scans distinct ports for at most four R turns. For r<=3 the subsequent black departing edge is old. If it is still a bridge after the insertions, no new edge can reach its old far component, since all new edges originate at w and such a connection would bypass it. The post-L active edge set therefore equals the far component of the exact block-entry active component minus that edge, even when the R prefix created cycles on the departed side.",
+    "For r=3, three freshly inserted edges and the old departing fourth edge form a z unit cycle before L. For r=4 the departing edge is the first new edge of the freshly completed z unit cycle. Both L updates are genuine cycle erasures.",
+    "On an erasure-free interval every full block thus has r<=2 and a w-bridge L. Inductively the retained active component is an initial-component piece cut only along initial bridges. Original nonbridge cycles remain whole under these cuts, so each L consumes a distinct initial bridge. The w vertices form a simple path; every added edge remains behind and every R-created lifetime stays black through the interval.",
+    "With n<=m L steps, R<=2n+4, giving T<=3m+4 and mass<=2m+4. Each w crossing has L1 length2 and physical head is L1 distance1 from its w cursor at both endpoints, giving head displacement<=2m+2, including the terminal run. Consequently a cycle-erasing L occurs by update3m+5, also for m0.",
+    "For an arbitrary interval mark full blocks exceptional if r>=3 or L is a w nonbridge. Each such block ends in an erasure, so E<=D, where D counts physical L updates once even if both graphs lose a cycle. Ordinary blocks may erase a z cycle without being marked, which only reduces E. Exact ordinary inheritance gives n_j<=M_j; mass gain per ordinary block<=1 and exceptional<=3 give M_(j+1)<=2M_j+3 and M_j<=(m+3)2^j-3.",
+    "Summing E+1 epochs yields T<=3 sum n_j+5E+4<=3(m+3)(2^(E+1)-1)-4E-5<=6(m+3)2^D. Starting mid-run causes no issue: the departing edge is old at the interval block start whenever r<=3. No original black mass or current cycle-rank bound on total erasures is inferred."
+  ],
+  "scope": "All actual finite-support intervals, whole current graphs with all passive components retained. Recurrence and logarithmic lower bound for cycle erasures, not a defect bound, standard104 capture, positive density, finite-state quotient or monotone rank."
+}

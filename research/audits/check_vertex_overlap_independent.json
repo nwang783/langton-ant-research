@@ -1,0 +1,32 @@
+{
+  "status": "PASS independent endpoint correction and vertex-only power controls",
+  "endpoint_color_corrections": 8992,
+  "correction_types": {
+    "r_parity=0,epsilon=1": 7472,
+    "r_parity=1,epsilon=-1": 720,
+    "r_parity=1,epsilon=1": 720,
+    "r_parity=0,epsilon=-1": 80
+  },
+  "mixing_matrix": [
+    [
+      3,
+      2
+    ],
+    [
+      2,
+      5
+    ]
+  ],
+  "regenerated_domains": [
+    20,
+    4
+  ],
+  "halfturn_substitutions": 80,
+  "powers_checked": [
+    1,
+    2,
+    3
+  ],
+  "image_composition_checks": 960,
+  "theorem_note_sha256": "fcd812cdf722459a03eeae0a70661d8dea71b41629be826351642c8df47c73f0"
+}

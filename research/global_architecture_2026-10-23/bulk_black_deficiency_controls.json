@@ -1,0 +1,1573 @@
+{
+  "status": "PASS author physical interval-deficiency controls",
+  "supplied_profiles": [
+    {
+      "name": "H",
+      "heading": 0,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 0,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 0,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 1364,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-2-L-6*r_parallel-1364*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=0*(floor(n/1)-2-L-6*F_parallel-1364*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "H",
+      "heading": 1,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 0,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 0,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 1364,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-2-L-6*r_parallel-1364*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=0*(floor(n/1)-2-L-6*F_parallel-1364*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "H",
+      "heading": 2,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 0,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 0,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 1364,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-2-L-6*r_parallel-1364*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=0*(floor(n/1)-2-L-6*F_parallel-1364*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "H",
+      "heading": 3,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 0,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 0,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 1364,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-2-L-6*r_parallel-1364*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=0*(floor(n/1)-2-L-6*F_parallel-1364*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "H2",
+      "heading": 0,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 0,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 0,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            4,
+            4
+          ],
+          "standard_superperiods": 2,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 2,
+          "parallel_flight_loss": 108,
+          "nonparallel_flight_loss": 2728,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-2-L-108*r_parallel-2728*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=0*(floor(n/1)-2-L-108*F_parallel-2728*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "H2",
+      "heading": 1,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 0,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 0,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            4,
+            4
+          ],
+          "standard_superperiods": 2,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 2,
+          "parallel_flight_loss": 108,
+          "nonparallel_flight_loss": 2728,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-2-L-108*r_parallel-2728*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=0*(floor(n/1)-2-L-108*F_parallel-2728*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "H2",
+      "heading": 2,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 0,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 0,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            4,
+            4
+          ],
+          "standard_superperiods": 2,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 2,
+          "parallel_flight_loss": 108,
+          "nonparallel_flight_loss": 2728,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-2-L-108*r_parallel-2728*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=0*(floor(n/1)-2-L-108*F_parallel-2728*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "H2",
+      "heading": 3,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 0,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 0,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            4,
+            4
+          ],
+          "standard_superperiods": 2,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 2,
+          "parallel_flight_loss": 108,
+          "nonparallel_flight_loss": 2728,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-2-L-108*r_parallel-2728*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=0*(floor(n/1)-2-L-108*F_parallel-2728*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "reverse104",
+      "heading": 0,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 12,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 12,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 1364,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-2-L-6*r_parallel-1364*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=12*(floor(n/1)-2-L-6*F_parallel-1364*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "reverse104",
+      "heading": 1,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 12,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 12,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 1364,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-2-L-6*r_parallel-1364*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=12*(floor(n/1)-2-L-6*F_parallel-1364*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "reverse104",
+      "heading": 2,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 12,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 12,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 1364,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-2-L-6*r_parallel-1364*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=12*(floor(n/1)-2-L-6*F_parallel-1364*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "reverse104",
+      "heading": 3,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 12,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 12,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 1364,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-2-L-6*r_parallel-1364*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=12*(floor(n/1)-2-L-6*F_parallel-1364*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "P108",
+      "heading": 0,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 11,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 11,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 1408,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-2-L-6*r_parallel-1408*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=11*(floor(n/1)-2-L-6*F_parallel-1408*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "P108",
+      "heading": 1,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 11,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 11,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 1408,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-2-L-6*r_parallel-1408*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=11*(floor(n/1)-2-L-6*F_parallel-1408*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "P108",
+      "heading": 2,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 11,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 11,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 1408,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-2-L-6*r_parallel-1408*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=11*(floor(n/1)-2-L-6*F_parallel-1408*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "P108",
+      "heading": 3,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 11,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 11,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 1408,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-2-L-6*r_parallel-1408*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=11*(floor(n/1)-2-L-6*F_parallel-1408*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "forward108",
+      "heading": 0,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 3,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 3,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1,
+          2
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 1408,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-2-L-6*r_parallel-1408*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=3*(floor(n/1)-2-L-6*F_parallel-1408*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "forward108",
+      "heading": 1,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 3,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 3,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1,
+          2
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 1408,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-2-L-6*r_parallel-1408*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=3*(floor(n/1)-2-L-6*F_parallel-1408*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "forward108",
+      "heading": 2,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 3,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 3,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1,
+          2
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 1408,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-2-L-6*r_parallel-1408*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=3*(floor(n/1)-2-L-6*F_parallel-1408*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "forward108",
+      "heading": 3,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 3,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 3,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1,
+          2
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 1408,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-2-L-6*r_parallel-1408*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=3*(floor(n/1)-2-L-6*F_parallel-1408*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "reverse104x2",
+      "heading": 0,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 24,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 24,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            4,
+            4
+          ],
+          "standard_superperiods": 2,
+          "consumer_endpoint_loss": 1,
+          "standard_endpoint_width": 2,
+          "parallel_flight_loss": 108,
+          "nonparallel_flight_loss": 2728,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-1-L-108*r_parallel-2728*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=24*(floor(n/1)-1-L-108*F_parallel-2728*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "reverse104x2",
+      "heading": 1,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 24,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 24,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            4,
+            4
+          ],
+          "standard_superperiods": 2,
+          "consumer_endpoint_loss": 1,
+          "standard_endpoint_width": 2,
+          "parallel_flight_loss": 108,
+          "nonparallel_flight_loss": 2728,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-1-L-108*r_parallel-2728*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=24*(floor(n/1)-1-L-108*F_parallel-2728*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "reverse104x2",
+      "heading": 2,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 24,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 24,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            4,
+            4
+          ],
+          "standard_superperiods": 2,
+          "consumer_endpoint_loss": 1,
+          "standard_endpoint_width": 2,
+          "parallel_flight_loss": 108,
+          "nonparallel_flight_loss": 2728,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-1-L-108*r_parallel-2728*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=24*(floor(n/1)-1-L-108*F_parallel-2728*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "reverse104x2",
+      "heading": 3,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 24,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 24,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 1,
+          "common_drift": [
+            4,
+            4
+          ],
+          "standard_superperiods": 2,
+          "consumer_endpoint_loss": 1,
+          "standard_endpoint_width": 2,
+          "parallel_flight_loss": 108,
+          "nonparallel_flight_loss": 2728,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/1)-1-L-108*r_parallel-2728*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=24*(floor(n/1)-1-L-108*F_parallel-2728*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "D10",
+      "heading": 0,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 2,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 2,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 2,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 1056,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/2)-2-L-6*r_parallel-1056*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=2*(floor(n/2)-2-L-6*F_parallel-1056*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "D10",
+      "heading": 1,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 2,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 2,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 2,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 1056,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/2)-2-L-6*r_parallel-1056*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=2*(floor(n/2)-2-L-6*F_parallel-1056*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "D10",
+      "heading": 2,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 2,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 2,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 2,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 1056,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/2)-2-L-6*r_parallel-1056*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=2*(floor(n/2)-2-L-6*F_parallel-1056*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "D10",
+      "heading": 3,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 2,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 2,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 2,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 2,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 1056,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/2)-2-L-6*r_parallel-1056*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=2*(floor(n/2)-2-L-6*F_parallel-1056*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "odd_LR",
+      "heading": 0,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 2,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 2,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 2,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 1,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 968,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/2)-1-L-6*r_parallel-968*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=2*(floor(n/2)-1-L-6*F_parallel-968*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "odd_LR",
+      "heading": 1,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 2,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 2,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 2,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 1,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 968,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/2)-1-L-6*r_parallel-968*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=2*(floor(n/2)-1-L-6*F_parallel-968*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "odd_LR",
+      "heading": 2,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 2,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 2,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 2,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 1,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 968,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/2)-1-L-6*r_parallel-968*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=2*(floor(n/2)-1-L-6*F_parallel-968*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "odd_LR",
+      "heading": 3,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 2,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 2,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 2,
+          "common_drift": [
+            2,
+            2
+          ],
+          "standard_superperiods": 1,
+          "consumer_endpoint_loss": 1,
+          "standard_endpoint_width": 3,
+          "parallel_flight_loss": 6,
+          "nonparallel_flight_loss": 968,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/2)-1-L-6*r_parallel-968*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=2*(floor(n/2)-1-L-6*F_parallel-968*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "odd_LR3",
+      "heading": 0,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 6,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 6,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 2,
+          "common_drift": [
+            6,
+            6
+          ],
+          "standard_superperiods": 3,
+          "consumer_endpoint_loss": 1,
+          "standard_endpoint_width": 2,
+          "parallel_flight_loss": 212,
+          "nonparallel_flight_loss": 2904,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/2)-1-L-212*r_parallel-2904*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=6*(floor(n/2)-1-L-212*F_parallel-2904*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "odd_LR3",
+      "heading": 1,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 6,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 6,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 2,
+          "common_drift": [
+            6,
+            6
+          ],
+          "standard_superperiods": 3,
+          "consumer_endpoint_loss": 1,
+          "standard_endpoint_width": 2,
+          "parallel_flight_loss": 212,
+          "nonparallel_flight_loss": 2904,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/2)-1-L-212*r_parallel-2904*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=6*(floor(n/2)-1-L-212*F_parallel-2904*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "odd_LR3",
+      "heading": 2,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 6,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 6,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 2,
+          "common_drift": [
+            6,
+            6
+          ],
+          "standard_superperiods": 3,
+          "consumer_endpoint_loss": 1,
+          "standard_endpoint_width": 2,
+          "parallel_flight_loss": 212,
+          "nonparallel_flight_loss": 2904,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/2)-1-L-212*r_parallel-2904*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=6*(floor(n/2)-1-L-212*F_parallel-2904*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    },
+    {
+      "name": "odd_LR3",
+      "heading": 3,
+      "deficiency": {
+        "status": "EXACT_BLACK_DEFICIENCY",
+        "required_black_classes": 6,
+        "maximum_standard_covered": 0,
+        "black_deficiency": 6,
+        "selected_candidate_indices": [],
+        "covered_mask": 0,
+        "uncovered_black_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "interval_dp": {
+          "sorted_original_indices": [],
+          "previous_compatible": [],
+          "best_prefix_weight": [
+            0
+          ]
+        },
+        "constants": {
+          "superperiod_copies": 2,
+          "common_drift": [
+            6,
+            6
+          ],
+          "standard_superperiods": 3,
+          "consumer_endpoint_loss": 1,
+          "standard_endpoint_width": 2,
+          "parallel_flight_loss": 212,
+          "nonparallel_flight_loss": 2904,
+          "cap_loss_per_read": 1,
+          "lower_bound": "|B|>=floor(n/2)-1-L-212*r_parallel-2904*r_nonparallel"
+        },
+        "stronger_lower_bound": "|B|>=6*(floor(n/2)-1-L-212*F_parallel-2904*F_perpendicular)",
+        "scope": "Signed complete bulk-profile hypothesis and common-gauge physical lift; no launch or general rewriter search."
+      }
+    }
+  ],
+  "synthetic_exhaustive_maxima": 500,
+  "unphysical_masks_rejected": true,
+  "source_sha256": "fe2c418e60a947fc4a52118df3435568e5416e096aeed74361a848fafe4fb582",
+  "scope": "No consumer search. Independent implementation audit separate."
+}

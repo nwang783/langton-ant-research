@@ -1,0 +1,80 @@
+{
+  "status": "PASS both unrestricted top-read boundary lemmas; conditional two-quadruple single-used F-circle branch excluded",
+  "proofs": {
+    "DRIFT31_UNIFORM_TOP_ODD_GAP.md": "b74ec866e1908e4f1916bbb92f0e906916ecd202745eda0d71284c2617845dee",
+    "DRIFT31_ADJACENT_TOP_ODD_OBSTRUCTION.md": "83f09d715c13850fb2a5f694d0d4f77971d274f1947f457723c259151af4d61d"
+  },
+  "certificates": {
+    "drift31_top_odd_gap_certificate.json": "45dc88ddc519b0673fd2242f1ab5f6e286743570d6782b89e75b4804b71558ea",
+    "drift31_adjacent_top_odd_certificate.json": "fd32f8be6e74425036d1517ce4015016339f3e3e19adc759ea969cb650dae9e2"
+  },
+  "script_sha256": "c212520279cbdc1825cf18825a1a062b7a7e535c577f1aeb0b2709ed0a3928ce",
+  "top_gap_counts": {
+    "19": {
+      "open": 1
+    },
+    "18": {
+      "open": 1
+    },
+    "17": {
+      "open": 2
+    },
+    "16": {
+      "open": 3
+    },
+    "15": {
+      "skipped_rank": 3,
+      "open": 1,
+      "positive_rank_clock_cycle": 1
+    },
+    "14": {
+      "skipped_rank": 3,
+      "open": 2
+    },
+    "13": {
+      "skipped_rank": 10
+    }
+  },
+  "adjacent_even_histories": [
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "analytic_review": [
+    "Full actual read maximum, not field/odd-subset maximum. Sector normalized to vertical-even; even maximum translates to20 without changing it. Above20 classes empty, lower omitted classes UNKNOWN.",
+    "Every domain is exhaustive binary heading words within derived2(I+J)+1, with parity unrestricted atT13. All upper physical return paths, positive clock witnesses and ten eight-step rank0-to2 skips independently rebuilt.",
+    "At adjacent top odd, exact ports S1/W2 and physical firstW-to-firstS four-return force rankS=rankW+1. Even length2m implies m=1+2u,u0/1; both analytic cases contradict firstness. Four even words explicitly checked; odd NNS only local open control.",
+    "For signed exact full two-quad odd inventory, six-level theorem forcesa=c; then M-1odd and M-2,M-3,M-4even contradict adjacent theorem. All c>=3 and1<=b<c covered algebraically."
+  ],
+  "not_claimed": [
+    "all-quadruple circle branch excluded",
+    "single-used F-circle existence for arbitrary fronts",
+    "unconditional drift3,1 growth8 exclusion",
+    "global attraction"
+  ]
+}

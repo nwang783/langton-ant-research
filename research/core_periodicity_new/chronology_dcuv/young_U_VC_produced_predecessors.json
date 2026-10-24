@@ -1,0 +1,62 @@
+{
+  "status": "EXACT_STATE_EXHAUSTION_PENDING_AUDIT",
+  "scope": "Only fixed VC,VC,VC,V,D,U suffix; full initial activation I28/S28, exact partial-board constraints, genuine production+ages of5pre-VC identities. A cap is UNKNOWN, no general record exclusion.",
+  "I": 28,
+  "S": 28,
+  "suffix": [
+    5,
+    5,
+    5,
+    4,
+    0,
+    7
+  ],
+  "watch": [
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      2,
+      -1
+    ],
+    [
+      3,
+      -1
+    ]
+  ],
+  "minimum_pre_VC_ages": [
+    2,
+    3,
+    2,
+    2,
+    2
+  ],
+  "labels": 1,
+  "remaining_queue": 0,
+  "stats": {
+    "pops": 1,
+    "attempts": 8,
+    "record_cuts": 2,
+    "origin_cuts": 0,
+    "age_cuts": 0,
+    "color_cuts": 6,
+    "duplicates": 0
+  },
+  "seconds": 0.00013494491577148438,
+  "control": null,
+  "best_queued": [],
+  "dependencies": {
+    "chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "chronology_dcuv/delayed_height_probe/u1_residue_cegar/root_out.json": "52a20cfa26b60df57cb1ce58fefda880b93983600cb771b43dd3e6e6aafd26cb",
+    "probe_young_U_VC_produced_predecessors.py": "ba5e72f3c0601d0bc2cfd5506b783cc49c82ece1e3380d9c013ab3853d504584"
+  }
+}

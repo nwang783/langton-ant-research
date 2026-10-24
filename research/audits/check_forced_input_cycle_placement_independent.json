@@ -1,0 +1,106 @@
+{
+  "status": "PASS all-N forced exceptional input-lifetime placement, standard bounded-age self-feeding and184-family unbounded lifetime-age countercontrol",
+  "proof_sha256": "5f6eb7f5b57181fdf8de9bd2ddf3949b230801f2f20a443d385fd5c9eadce62e",
+  "certificate_sha256": "14f0fb95c47077e2c2b34d37b3a4dcf5f0b2c4487211507b5631609de5690b58",
+  "standard_certificate_sha256": "c4dce93447491c296ee3f0b387024942c9f833877b963b69bd161f358b88bcb9",
+  "184_source_manifest_sha256": "90fcf1a66046418c38d07f7e935ea80cf873751aefae69a4b07af89ba3bd8399",
+  "counts": {
+    "cycles": 167,
+    "cycle_edge_occurrences": 992,
+    "literal_reads": 41412,
+    "literal_certified_deletions": 1051
+  },
+  "waves": [
+    {
+      "word": 1564,
+      "fringes": [
+        [
+          0,
+          0,
+          40
+        ]
+      ],
+      "cycle_lengths": {
+        "4": 24,
+        "8": 6,
+        "6": 8,
+        "10": 1,
+        "12": 1
+      },
+      "controls": [
+        {
+          "N": 1,
+          "minimal_entry_mass": 198,
+          "certified_entry_black_w_erasures": 40
+        },
+        {
+          "N": 2,
+          "minimal_entry_mass": 395,
+          "certified_entry_black_w_erasures": 80
+        },
+        {
+          "N": 4,
+          "minimal_entry_mass": 789,
+          "certified_entry_black_w_erasures": 160
+        }
+      ]
+    },
+    {
+      "word": 4352,
+      "fringes": [
+        [
+          0,
+          0,
+          96
+        ],
+        [
+          1,
+          0,
+          5
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "cycle_lengths": {
+        "4": 66,
+        "8": 12,
+        "6": 33,
+        "12": 11,
+        "24": 1,
+        "18": 3,
+        "10": 1
+      },
+      "controls": [
+        {
+          "N": 1,
+          "minimal_entry_mass": 463,
+          "certified_entry_black_w_erasures": 121
+        },
+        {
+          "N": 2,
+          "minimal_entry_mass": 869,
+          "certified_entry_black_w_erasures": 223
+        },
+        {
+          "N": 4,
+          "minimal_entry_mass": 1681,
+          "certified_entry_black_w_erasures": 427
+        }
+      ]
+    }
+  ],
+  "standard_L_slots": 46,
+  "standard_max_R_to_L_age": 116,
+  "analytic": [
+    "Any actual literal finite word forces the complete entry board on READ exactly; all extra black cells lie outside READ and persist unchanged at every cut. A simple black cycle in the forced minimal field persists on adding those unread components, so its target L is genuinely w-nonbridge in every full realization. This monotonicity does not assert bridges survive extras.",
+    "Exact one-copy occurrence lists exhaust every possible read of a translated cycle cell. An eligible last-before R establishes its current black lifetime; when no earlier read exists, an eligible first-future L forces entry black. First-copy templates omit only negative-copy reads. Lower/upper copy inequalities retain every chosen witness, with no temporal cutoff.",
+    "Every target is its first eligible L, hence one entry-black lifetime. Core targets occupy distinct drift orbits; each startup overlap has offset strictly below its core first-copy eligibility. Thus target lifetimes are distinct, even if witness cycles overlap. The exact counts are40N and96N+6(N-1)+25=102N+19 for every N>=1.",
+    "All46 standard L slots have an immediately preceding R witness at copy offset0/-1 and age<=116. Thus after first104 updates every consumed lifetime is R-born inside the interval. Only13 first-period first-L cells can be entry-black, independent of unread archives.",
+    "For the signed184 original family and N>=5, the last five1564 copies consume200 distinct certified entry-black lifetimes at w erasures. At most184 can be unchanged original starting lifetimes, leaving at least16 genuinely R-born before wave entry. Each such death is at least1564(N-5) after entry and birth strictly earlier, so at least one exceptional R-to-L age is>=1564(N-5)+1. Original mass alone cannot bound exceptional consumed-lifetime age, even on this signed bi-standard family.",
+    "No equality for allN, classification of other words, bounded global renewal age, original-mass upper input budget or finite-seed noncapture follows. The large full-preparation controls are corroboration and were not duplicated."
+  ],
+  "scope": "The three supplied literal words and exact original184-family application. No generic nonstandard-word or capture theorem."
+}

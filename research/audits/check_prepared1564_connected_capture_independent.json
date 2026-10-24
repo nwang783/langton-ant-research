@@ -1,0 +1,91 @@
+{
+  "status": "PASS independent complete56-cell trajectory and all-future NW104 capture",
+  "source_hashes": {
+    "prepared1564_router_crossing.json": "850123ac1a65ae490a260364b218d146df7c2bee34a3e50c26f88da77e2ef76a",
+    "prepared1564_router_second_contact.json": "aff95decd1f42ee3a35e425197130df8f1eba86054c2a6a1517d64cb309c1e50"
+  },
+  "initial_pose": [
+    [
+      -15,
+      10
+    ],
+    3
+  ],
+  "initial_mass": 56,
+  "literal_updates": 276536,
+  "selected_events": {
+    "94896": {
+      "cell": [
+        383,
+        380
+      ],
+      "heading": 1,
+      "turn": "R",
+      "previous": null
+    },
+    "205680": {
+      "cell": [
+        383,
+        380
+      ],
+      "heading": 3,
+      "turn": "L",
+      "previous": [
+        94896,
+        "R"
+      ]
+    },
+    "260802": {
+      "cell": [
+        764,
+        803
+      ],
+      "heading": 1,
+      "turn": "L",
+      "previous": [
+        183818,
+        "R"
+      ]
+    }
+  },
+  "tail_checks": [
+    {
+      "time": 240864,
+      "pose": [
+        [
+          377,
+          418
+        ],
+        1
+      ],
+      "mass": 21110,
+      "drift": [
+        2,
+        2
+      ],
+      "next_mismatch": 19938,
+      "orbits": 22,
+      "critical_levels": 104
+    },
+    {
+      "time": 276536,
+      "pose": [
+        [
+          737,
+          838
+        ],
+        3
+      ],
+      "mass": 24256,
+      "drift": [
+        -2,
+        2
+      ],
+      "next_mismatch": null,
+      "orbits": 22,
+      "critical_levels": 74
+    }
+  ],
+  "far_flip_controls": 22,
+  "scope": "One supplied finite seed. First desired crossing fails at205680, later NE flight has an exact finite next contact at260802, and NW standard capture is certified from276536. No all-parameter itinerary or finite preparation of the1564 wave is inferred."
+}

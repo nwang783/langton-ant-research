@@ -1,0 +1,138 @@
+{
+  "status": "PASS exact finite chronological leaf-port matching and Hall obstructions; gross numerical bound remains OPEN",
+  "manifest": "6cbceb9fe823fc3004f1d5c61641136d17f44e09aba4d4d4ac49cb99f35cf32c",
+  "script": "8b4b324a96ba29dd85f20369d42eb67c09293870c5e16ed5d8cb61b471e380cc",
+  "full_replayed_reads": 115210,
+  "interval_counts": [
+    {
+      "interval": [
+        0,
+        1579
+      ],
+      "vertices": 322,
+      "leaves": 81,
+      "C": 0,
+      "O": 163
+    },
+    {
+      "interval": [
+        5710,
+        6042
+      ],
+      "vertices": 140,
+      "leaves": 27,
+      "C": 47,
+      "O": 67
+    },
+    {
+      "interval": [
+        40071,
+        109168
+      ],
+      "vertices": 9402,
+      "leaves": 2388,
+      "C": 1082,
+      "O": 4909
+    }
+  ],
+  "all_expanded_matching_checks": [
+    {
+      "interval": [
+        0,
+        1579
+      ],
+      "matched": 80,
+      "leaves": 81,
+      "Hall_leaves": [
+        [
+          3,
+          -8
+        ],
+        [
+          4,
+          -9
+        ]
+      ],
+      "Hall_ports": [
+        [
+          "O",
+          [
+            4,
+            -8
+          ]
+        ]
+      ],
+      "full_reachable_Hall_vertices": [
+        [
+          2,
+          -9
+        ],
+        [
+          2,
+          -8
+        ],
+        [
+          3,
+          -9
+        ],
+        [
+          3,
+          -8
+        ],
+        [
+          4,
+          -9
+        ],
+        [
+          4,
+          -8
+        ],
+        [
+          5,
+          -9
+        ],
+        [
+          5,
+          -8
+        ]
+      ]
+    },
+    {
+      "interval": [
+        5710,
+        6042
+      ],
+      "matched": 27,
+      "leaves": 27,
+      "Hall_leaves": [],
+      "Hall_ports": [],
+      "full_reachable_Hall_vertices": []
+    }
+  ],
+  "lifetime_axis": {
+    "paths": 82,
+    "cycles": 23,
+    "endpoints": 164,
+    "unpaid_cycle": [
+      1420,
+      1421,
+      1448,
+      1449
+    ]
+  },
+  "proper_patch_crossing_counts": {
+    "repaired_patch": 8,
+    "MT_square": 34,
+    "MT_subtree": 8,
+    "unpaid_axis_component": 18
+  },
+  "analytic_review": [
+    "All literalEMPTY andMT100 originalseeds are replayed fromtime0 for115210 certifiedprefixupdates, with whole endpointfields, everyintervalread, birth/deathIDs andlast-exittrees compared. Freshfinalroots are checked. C andO are distinctcapacity-one lifetimes evenwhenoccupyingoneBLACK-to-BLACK cell; no croppedpatch ororiginal-seed-only charge is substituted.",
+    "The blank5710..6042 repair uses C(0,7)=R2997/death5809 and O(0,7)=R5881 for two distinctleaves. All27 explicitassignments have actualf/treechild paths and27 distinctports; bothlocalassignments are preserved, not stolen fromthe rest. All properpatch crossings andexternalreads remain.",
+    "At EMPTY0..1579, three specifiedunmarkedleaves have exactlyone ancestorpath port O(10,1)=R1577. Their completepaths/visits reconstruct, so evenonefreeglobalroot leavesdeficit1. This disprovesancestor-only charging, not81<=163+1.",
+    "MT100first-markf chaining sendsfouractualleaves tooneoutputR71039 at197,232, withlasttimes71006/71021/71036/71039. ItsHall deficit is3withoutroot,2withroot. Theactualzeroportthree-vertexdescendantsubtree at234,169 has2leaves; noone-free-rootpersubtree rulecanignoreitsboundarychronology.",
+    "The entire1579-event trueR-nextL andone-axisadjacency matchings formdegree<=2 paths/cycles, withallC/O andpartialendpointsretained. Exactcomponent1420/1421/1448/1449 isclosed, hasnoport/partialendpoint, andcontainsa last-exitleaf. Its26 interveningreadsareoutside, so thisisnotanactualtimecycle,boundedantorbit orstandaloneclosedpatch.",
+    "The enlargedf+reversedtree-edge graph hasan explicit80-real-portmatching at1579 andexactHall2-to1 catchment{2,3,4,5}x{-9,-8}, disjointfrominitialhead. Thefullreachablevertexset ischecked. Onefreeglobalcapacity canrepair thisonefinitecase; no universal+1 Hall theorem is inferred.",
+    "All statements arefinite exactcontrols or elementarymatching identities. Earlierboundedno-counterdiagnostics remainUNKNOWN andarenotpremises. Thegrosswhole-intervalleaf<=C+O+1 inequality, recurringdroughtresourcebound, universalcapture andcanonicalclassification remainOPEN."
+  ]
+}

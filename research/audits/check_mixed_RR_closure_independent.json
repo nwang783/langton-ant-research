@@ -1,0 +1,132 @@
+{
+  "status": "PASS mixed RR boundary closure and conditional critical flat-RIGHT exit reservation",
+  "proof": "f008184db7e904542e3a674c0225248cc70a0b572578a440a963fb290c14e4a9",
+  "author_checker": "1aa09de25fed8610600fbb95710acf6dbcf5df3c772ee94bf8e7b040a0ac505b",
+  "author_certificate": "148baa287237c94471599c1656d04864b789e8361bd41d128d574f013b0623b3",
+  "independent_alphabets": {
+    "Z": [
+      "NNS",
+      "NSS",
+      "NNSN",
+      "NNSS",
+      "NSSN",
+      "NSSS"
+    ],
+    "Y": [
+      "EEW",
+      "EWW",
+      "EEWE",
+      "EEWW",
+      "EWWE",
+      "EWWW"
+    ],
+    "A": [
+      "E",
+      "EE",
+      "EW",
+      "EEE",
+      "EEW",
+      "EWE",
+      "EWW",
+      "EEEE",
+      "EEEW",
+      "EEWE",
+      "EEWW",
+      "EWEE",
+      "EWEW",
+      "EWWE",
+      "EWWW"
+    ],
+    "B": [
+      "S",
+      "SN",
+      "SS",
+      "SNN",
+      "SNS",
+      "SSN",
+      "SSS",
+      "SNNN",
+      "SNNS",
+      "SNSN",
+      "SNSS",
+      "SSNN",
+      "SSNS",
+      "SSSN",
+      "SSSS"
+    ]
+  },
+  "all8100_counts": {
+    "necessary first-ordinal survivors": 36,
+    "port mismatch": 7992,
+    "positive first-ordinal clock": 55,
+    "Z first-to-rank3 gap forced4": 17
+  },
+  "necessary_endpoint_pairs": [
+    [
+      "NNS",
+      "EEW"
+    ],
+    [
+      "NNS",
+      "EEWW"
+    ],
+    [
+      "NNSN",
+      "EEWE"
+    ],
+    [
+      "NNSS",
+      "EEW"
+    ],
+    [
+      "NNSS",
+      "EEWW"
+    ]
+  ],
+  "no_one_use_RIGHT_pairs": [
+    [
+      "EEWW",
+      "SNNS",
+      2
+    ],
+    [
+      "EEWW",
+      "SSNN",
+      2
+    ],
+    [
+      "EWE",
+      "SSS",
+      3
+    ],
+    [
+      "EWEW",
+      "SSSS",
+      4
+    ],
+    [
+      "EWWE",
+      "SNNS",
+      2
+    ],
+    [
+      "EWWE",
+      "SSNN",
+      2
+    ]
+  ],
+  "analytic_review": [
+    "The closing physical N edge Y->Z is NOT another b edge. All its copies are nevertheless fixed by complete endpoint histories. Unit-square first ordinal gives T_inY=T_outY+4. O/U/flow3 would have L1 before R2 and forces positive4+Delta=0. Flow1/V instead have R2 arrival and L1 departure, fixing Delta12Y=4.",
+    "The first2 N departures at Y are L1/R2, so first2 N arrivals at Z are4apart. Their first is R0 and second cannot be L3 across3same-cell gaps>=12. Independent full8100 product leaves exactly5endpoint pairs, none O/U/flow3. No exterior profile/period bound is imposed.",
+    "On an embedded essential actual b-circle,3consecutiveRIGHT turns repeat the prior physical vertex and are impossible. Thus anyRRrun hasLEFTneighbors. Every longer maximal3 template RLRR/RRLR/RRLRR has such an actual LRRL window with an INTERNAL flow3 LEFT endpoint, contradicting the local gate. The external LEFT may have flow1, fully retained in the6-profile cover. Maximum-level dependency only enters the earlier5-template list.",
+    "At GLOBALM, maximal3 is consequently RR or RLR; with nooneuse both are exact source/sink transparent actual second-lane macros. Isolated4 and flow2LEFTV are transparent too. Remaining exits are flat2RIGHT toLEFT or flow2LEFT O/U R2 toRIGHT.",
+    "At criticalM=c_right+1 every flow2 O/U root L1, whether singleton or LL-first, launches that actual second lane. Wrong physical RIGHT endpoint and full negative lap are forbidden. First hit is a flatRIGHT exit; no through path contains another rootL1. Full-P permutation backward uniqueness injects these root classes into flatRIGHT exit events. If no roots and noflat, the closed negative lane itself contradicts actualtime.",
+    "A flat2RIGHT junction is mandatory, not impossible. Its exterior continuation, old stock, odd roots and arbitrary numbers of such junctions remain OPEN; no general oneuse/front/capture or fuel theorem follows."
+  ],
+  "dependencies": {
+    "audits/check_flow3_double_LEFT_independent.json": "76b575526fd39003fab1e538ebcbfc65522807e614daee274754f0aa758e0876",
+    "audits/check_mixed_second_lane_independent.json": "6f2f242c5b65ec123f66598921032e17f8c687053a7fbb29e39604b97c7b9f2a",
+    "audits/check_mixed_LL_gate_independent.json": "441ffa775b9fe212ddcc2312533c0b7feb0c01e4aeac95b89bf229c34edca119",
+    "audits/check_critical_mixed_LL_exits_independent.json": "14fb30c0de65a01c50000c5e827c309ba1c64ff681ee000c06a4975cfea2dab7"
+  }
+}

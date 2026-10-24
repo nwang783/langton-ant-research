@@ -1,0 +1,1 @@
+These exploratory version-1 generalized files inherited a target-relative-heading bug: intermediate-to-target pair checks used -h instead of th-h. All nonzero-target-heading conclusions are withdrawn. Use ../dcv_anchored_transfer_v2 and its corrected generator. The original chronology-analysis heading-zero control is unaffected. The stage summary here is not certified.

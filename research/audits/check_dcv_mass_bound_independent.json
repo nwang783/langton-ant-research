@@ -1,0 +1,93 @@
+{
+  "status": "PASS literal activation and active-box constants; analytic scope is context-complete recurrent packet factors",
+  "core_cells": 5,
+  "core_offsets": [
+    2,
+    52,
+    54,
+    -8
+  ],
+  "input_weight": 60,
+  "minimum_output_weight": -60,
+  "activation_bound": 76,
+  "activation_attainers": [
+    [
+      4,
+      0,
+      [
+        0,
+        3
+      ]
+    ],
+    [
+      5,
+      0,
+      [
+        0,
+        3
+      ]
+    ],
+    [
+      6,
+      0,
+      [
+        0,
+        3
+      ]
+    ]
+  ],
+  "prefix_maximum": 36,
+  "prefix_attainers": [
+    [
+      6,
+      0,
+      41
+    ]
+  ],
+  "core_maximum": 14,
+  "packet_checks": [
+    {
+      "packet": "D",
+      "length": 10,
+      "mass_change": 0,
+      "inputs": 1,
+      "outputs": 1
+    },
+    {
+      "packet": "DC",
+      "length": 25,
+      "mass_change": 3,
+      "inputs": 1,
+      "outputs": 4
+    },
+    {
+      "packet": "V",
+      "length": 18,
+      "mass_change": 4,
+      "inputs": 2,
+      "outputs": 6
+    },
+    {
+      "packet": "VC",
+      "length": 33,
+      "mass_change": 7,
+      "inputs": 2,
+      "outputs": 9
+    },
+    {
+      "packet": "VCC",
+      "length": 48,
+      "mass_change": 10,
+      "inputs": 2,
+      "outputs": 12
+    }
+  ],
+  "produced_strip": "57+38(m-5)",
+  "head_strip": "45+38(m-5)",
+  "core_strip": "34+38(m-5)",
+  "radius": "ceil((114+76(m-5))/5)",
+  "area": "(2R+1)^2",
+  "non_D_macro_bound": "floor(A/3)",
+  "fine_step_bound": "20R(t+1)+18t",
+  "note_sha256": "bfa7824afd921467175440609841a5b239ec6b361bda306b8fe0035cf4483153"
+}

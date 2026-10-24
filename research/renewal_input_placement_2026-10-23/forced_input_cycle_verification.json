@@ -1,0 +1,95 @@
+{
+  "status": "all translated-cycle/read-chronology/fringe/disjoint-target certificates PASS",
+  "cycles_checked": 167,
+  "cycle_edges_checked": 992,
+  "standard_L_slots": 46,
+  "standard_max_lifetime_age_after_first_period": 116,
+  "waves": {
+    "1564": {
+      "core": 40,
+      "startup_extra": 0,
+      "startup_overrides": 0,
+      "fringe_hist": {
+        "(0, 0)": 40
+      },
+      "cycle_edge_hist": {
+        "4": 24,
+        "8": 6,
+        "6": 8,
+        "10": 1,
+        "12": 1
+      },
+      "finite_controls": [
+        {
+          "N": 1,
+          "initial_mass": 198,
+          "certified_old_input_w_erasures": 40,
+          "actual_minimal_old_input_exceptionals": 40
+        },
+        {
+          "N": 2,
+          "initial_mass": 395,
+          "certified_old_input_w_erasures": 80,
+          "actual_minimal_old_input_exceptionals": 80
+        },
+        {
+          "N": 3,
+          "initial_mass": 592,
+          "certified_old_input_w_erasures": 120,
+          "actual_minimal_old_input_exceptionals": 120
+        },
+        {
+          "N": 5,
+          "initial_mass": 986,
+          "certified_old_input_w_erasures": 200,
+          "actual_minimal_old_input_exceptionals": 200
+        }
+      ]
+    },
+    "4352": {
+      "core": 102,
+      "startup_extra": 21,
+      "startup_overrides": 4,
+      "fringe_hist": {
+        "(0, 0)": 96,
+        "(0, 1)": 1,
+        "(1, 0)": 5
+      },
+      "cycle_edge_hist": {
+        "4": 66,
+        "8": 12,
+        "6": 33,
+        "12": 11,
+        "24": 1,
+        "18": 3,
+        "10": 1
+      },
+      "finite_controls": [
+        {
+          "N": 1,
+          "initial_mass": 463,
+          "certified_old_input_w_erasures": 121,
+          "actual_minimal_old_input_exceptionals": 121
+        },
+        {
+          "N": 2,
+          "initial_mass": 869,
+          "certified_old_input_w_erasures": 223,
+          "actual_minimal_old_input_exceptionals": 223
+        },
+        {
+          "N": 3,
+          "initial_mass": 1275,
+          "certified_old_input_w_erasures": 325,
+          "actual_minimal_old_input_exceptionals": 325
+        },
+        {
+          "N": 5,
+          "initial_mass": 2087,
+          "certified_old_input_w_erasures": 529,
+          "actual_minimal_old_input_exceptionals": 529
+        }
+      ]
+    }
+  }
+}

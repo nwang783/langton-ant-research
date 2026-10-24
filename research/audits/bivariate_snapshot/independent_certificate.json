@@ -1,0 +1,45 @@
+{
+  "status": "PASS: independent all-parameter complete-field replay",
+  "domain": "m>=100, n>=m+100",
+  "capture_time": [
+    728,
+    416,
+    312104
+  ],
+  "capture_pose": [
+    [
+      [
+        -2,
+        0,
+        -228
+      ],
+      [
+        2,
+        0,
+        268
+      ]
+    ],
+    0
+  ],
+  "tail": {
+    "drift": [
+      -2,
+      2
+    ],
+    "heading": 0,
+    "required_cells": 44,
+    "odd_cells": 36
+  },
+  "never_read": [
+    "a",
+    "d"
+  ],
+  "statistics": {
+    "finite_read_constraints": 21118,
+    "periodic_read_constraints": 292,
+    "affine_guards": 19605,
+    "excluded_isolated_equalities": 82677325
+  },
+  "negative_control": "10^60-period future blocker rejected",
+  "template_sha256": "05c5fca0529ffb365a499a92ece844fd6cb4520cc8465f4d2027c049b66f222f"
+}

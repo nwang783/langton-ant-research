@@ -1,0 +1,642 @@
+{
+  "scope": "Author-only port-type controls, not independent audit.",
+  "complete_white": [
+    {
+      "period": 104,
+      "drift": [
+        -2,
+        2
+      ],
+      "types": {
+        "singleton": 4,
+        "odd_opposite": 4,
+        "odd_same": 4,
+        "even_same": 5,
+        "even_opposite": 5
+      },
+      "edges": 5,
+      "cycles": []
+    },
+    {
+      "period": 104,
+      "drift": [
+        2,
+        2
+      ],
+      "types": {
+        "singleton": 4,
+        "odd_opposite": 4,
+        "odd_same": 4,
+        "even_same": 5,
+        "even_opposite": 5
+      },
+      "edges": 5,
+      "cycles": []
+    },
+    {
+      "period": 104,
+      "drift": [
+        2,
+        -2
+      ],
+      "types": {
+        "singleton": 4,
+        "odd_opposite": 4,
+        "odd_same": 4,
+        "even_same": 5,
+        "even_opposite": 5
+      },
+      "edges": 5,
+      "cycles": []
+    },
+    {
+      "period": 104,
+      "drift": [
+        -2,
+        -2
+      ],
+      "types": {
+        "singleton": 4,
+        "odd_opposite": 4,
+        "odd_same": 4,
+        "even_same": 5,
+        "even_opposite": 5
+      },
+      "edges": 5,
+      "cycles": []
+    },
+    {
+      "period": 208,
+      "drift": [
+        -4,
+        4
+      ],
+      "types": {
+        "singleton": 8,
+        "odd_opposite": 8,
+        "odd_same": 8,
+        "even_same": 10,
+        "even_opposite": 10
+      },
+      "edges": 10,
+      "cycles": []
+    },
+    {
+      "period": 208,
+      "drift": [
+        4,
+        4
+      ],
+      "types": {
+        "singleton": 8,
+        "odd_opposite": 8,
+        "odd_same": 8,
+        "even_same": 10,
+        "even_opposite": 10
+      },
+      "edges": 10,
+      "cycles": []
+    },
+    {
+      "period": 208,
+      "drift": [
+        4,
+        -4
+      ],
+      "types": {
+        "singleton": 8,
+        "odd_opposite": 8,
+        "odd_same": 8,
+        "even_same": 10,
+        "even_opposite": 10
+      },
+      "edges": 10,
+      "cycles": []
+    },
+    {
+      "period": 208,
+      "drift": [
+        -4,
+        -4
+      ],
+      "types": {
+        "singleton": 8,
+        "odd_opposite": 8,
+        "odd_same": 8,
+        "even_same": 10,
+        "even_opposite": 10
+      },
+      "edges": 10,
+      "cycles": []
+    },
+    {
+      "period": 312,
+      "drift": [
+        -6,
+        6
+      ],
+      "types": {
+        "singleton": 12,
+        "odd_opposite": 12,
+        "odd_same": 12,
+        "even_same": 15,
+        "even_opposite": 15
+      },
+      "edges": 15,
+      "cycles": []
+    },
+    {
+      "period": 312,
+      "drift": [
+        6,
+        6
+      ],
+      "types": {
+        "singleton": 12,
+        "odd_opposite": 12,
+        "odd_same": 12,
+        "even_same": 15,
+        "even_opposite": 15
+      },
+      "edges": 15,
+      "cycles": []
+    },
+    {
+      "period": 312,
+      "drift": [
+        6,
+        -6
+      ],
+      "types": {
+        "singleton": 12,
+        "odd_opposite": 12,
+        "odd_same": 12,
+        "even_same": 15,
+        "even_opposite": 15
+      },
+      "edges": 15,
+      "cycles": []
+    },
+    {
+      "period": 312,
+      "drift": [
+        -6,
+        -6
+      ],
+      "types": {
+        "singleton": 12,
+        "odd_opposite": 12,
+        "odd_same": 12,
+        "even_same": 15,
+        "even_opposite": 15
+      },
+      "edges": 15,
+      "cycles": []
+    }
+  ],
+  "finite_factors": 120,
+  "marked_finite_edges_checked": 15018,
+  "boundary_exceptions": [
+    [
+      "source_final",
+      0,
+      [
+        -6,
+        1
+      ],
+      [
+        -6,
+        2
+      ]
+    ],
+    [
+      "source_final",
+      19,
+      [
+        -21,
+        10
+      ],
+      [
+        -20,
+        10
+      ]
+    ],
+    [
+      "source_final",
+      22,
+      [
+        -14,
+        -15
+      ],
+      [
+        -14,
+        -16
+      ]
+    ],
+    [
+      "source_final",
+      23,
+      [
+        -19,
+        6
+      ],
+      [
+        -20,
+        6
+      ]
+    ],
+    [
+      "source_final",
+      31,
+      [
+        -49,
+        50
+      ],
+      [
+        -48,
+        50
+      ]
+    ],
+    [
+      "source_final",
+      36,
+      [
+        -6,
+        1
+      ],
+      [
+        -6,
+        2
+      ]
+    ],
+    [
+      "target_initial",
+      40,
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    [
+      "source_final",
+      41,
+      [
+        55,
+        56
+      ],
+      [
+        54,
+        56
+      ]
+    ],
+    [
+      "source_final",
+      42,
+      [
+        48,
+        49
+      ],
+      [
+        48,
+        50
+      ]
+    ],
+    [
+      "source_final",
+      44,
+      [
+        -38,
+        -29
+      ],
+      [
+        -38,
+        -28
+      ]
+    ],
+    [
+      "source_final",
+      45,
+      [
+        17,
+        -20
+      ],
+      [
+        18,
+        -20
+      ]
+    ],
+    [
+      "target_initial",
+      51,
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    [
+      "source_final",
+      53,
+      [
+        -43,
+        54
+      ],
+      [
+        -42,
+        54
+      ]
+    ],
+    [
+      "source_final",
+      55,
+      [
+        -1,
+        -6
+      ],
+      [
+        -2,
+        -6
+      ]
+    ],
+    [
+      "source_final",
+      60,
+      [
+        58,
+        53
+      ],
+      [
+        58,
+        52
+      ]
+    ],
+    [
+      "source_final",
+      64,
+      [
+        -60,
+        59
+      ],
+      [
+        -60,
+        60
+      ]
+    ],
+    [
+      "source_final",
+      69,
+      [
+        17,
+        -14
+      ],
+      [
+        18,
+        -14
+      ]
+    ],
+    [
+      "source_final",
+      77,
+      [
+        -55,
+        -48
+      ],
+      [
+        -56,
+        -48
+      ]
+    ],
+    [
+      "source_final",
+      83,
+      [
+        43,
+        -50
+      ],
+      [
+        42,
+        -50
+      ]
+    ],
+    [
+      "source_final",
+      85,
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    [
+      "source_final",
+      87,
+      [
+        53,
+        50
+      ],
+      [
+        54,
+        50
+      ]
+    ],
+    [
+      "source_final",
+      88,
+      [
+        4,
+        17
+      ],
+      [
+        4,
+        18
+      ]
+    ],
+    [
+      "source_final",
+      97,
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    [
+      "source_final",
+      104,
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    [
+      "source_final",
+      106,
+      [
+        36,
+        33
+      ],
+      [
+        36,
+        32
+      ]
+    ],
+    [
+      "source_final",
+      108,
+      [
+        -12,
+        9
+      ],
+      [
+        -12,
+        10
+      ]
+    ],
+    [
+      "source_final",
+      114,
+      [
+        48,
+        -49
+      ],
+      [
+        48,
+        -50
+      ]
+    ]
+  ],
+  "sharp_origin_age8": {
+    "word": "RRRRLRRRR",
+    "seed": [],
+    "trace": [
+      [
+        0,
+        [
+          0,
+          0
+        ],
+        0,
+        "R"
+      ],
+      [
+        1,
+        [
+          1,
+          0
+        ],
+        1,
+        "R"
+      ],
+      [
+        2,
+        [
+          1,
+          -1
+        ],
+        2,
+        "R"
+      ],
+      [
+        3,
+        [
+          0,
+          -1
+        ],
+        3,
+        "R"
+      ],
+      [
+        4,
+        [
+          0,
+          0
+        ],
+        0,
+        "L"
+      ],
+      [
+        5,
+        [
+          -1,
+          0
+        ],
+        3,
+        "R"
+      ],
+      [
+        6,
+        [
+          -1,
+          1
+        ],
+        0,
+        "R"
+      ],
+      [
+        7,
+        [
+          0,
+          1
+        ],
+        1,
+        "R"
+      ],
+      [
+        8,
+        [
+          0,
+          0
+        ],
+        2,
+        "R"
+      ]
+    ],
+    "final_black": [
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  }
+}

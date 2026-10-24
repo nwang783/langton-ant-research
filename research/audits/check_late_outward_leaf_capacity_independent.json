@@ -1,0 +1,94 @@
+{
+  "status": "PASS outward late-Q1 terminal leaf, physical injections, flag capacity and conditional zero-output one-step activation",
+  "notes": {
+    "late_D4_outward_Q1_terminal_leaf_and_injection.md": "6d7d60d41e9c872fb21a7b267b173f4fe0ce5ded52d093f61b152c225478e9b9",
+    "late_D4_outward_extra_leaf_output_capacity.md": "64041a32b17468a717cb1cc7683be1d05b1534de7e0a7288c8db1139bbc3bcf6",
+    "zero_output_duplicator_leaf_saturation_and_one_step_activation.md": "56b5112176cf4fd8e6dd3a9dafd6bd2db5190b3658c009e4a2e35d7924e14e4b"
+  },
+  "independent_canonical_face_profiles": 110,
+  "Q1_profiles": [
+    [
+      "NSSS",
+      "EWEE",
+      "EEWE",
+      "NNNS",
+      3,
+      []
+    ],
+    [
+      "NSSS",
+      "EWEE",
+      "W",
+      "SSNS",
+      2,
+      []
+    ],
+    [
+      "SSNS",
+      "EEEW",
+      "EEWE",
+      "NNNS",
+      3,
+      [
+        [
+          -2,
+          0
+        ]
+      ]
+    ],
+    [
+      "SSNS",
+      "EEEW",
+      "W",
+      "SSNS",
+      2,
+      [
+        [
+          -2,
+          0
+        ]
+      ]
+    ]
+  ],
+  "opposite_leaf_overlap": [
+    {
+      "g": "NSSS",
+      "k": "EEWE",
+      "source_D_positions": [
+        [
+          -2,
+          0
+        ]
+      ]
+    },
+    {
+      "g": "NSSS",
+      "k": "W",
+      "source_D_positions": [
+        [
+          -2,
+          0
+        ]
+      ]
+    },
+    {
+      "g": "SSNS",
+      "k": "EEWE",
+      "source_D_positions": []
+    },
+    {
+      "g": "SSNS",
+      "k": "W",
+      "source_D_positions": []
+    }
+  ],
+  "analytic": [
+    "The complete independently rebuilt110 canonical-face inventory matched to the actual two right corners leaves exactly four Q1 profiles. Every incoming flag is1. NSSS rows have no potential child; SSNS rows only potentially target P0, whose genuine parent J is already fixed. Hence every Q1 is an actual leaf, not merely a potential leaf.",
+    "Normalizing whole histories and the actual canonical entry fixes D uniquely, even after rotations and full-drift translation. The SSNS/EEEW profiles contain no mandatory positive-flat NSSS corner and cannot equal any signed D-associated I. Exact whole-square matching gives Q1(D)=I(D prime) only in NSSS/EWEE, with D prime=P0(D).",
+    "For selected-Gamma sources, actual canonical child descent through off-Gamma J cannot reenter Gamma by unique parent ancestry. Thus each outward Q1 is disjoint from all selected-Gamma I leaves. This does not exclude coincidence with an off-Gamma I.",
+    "Global SSNS extra leaves are disjoint from every D-associated I and from early I leaves. The flag identity and signed odd-output partition imply Nodd>=nT+max(0,nA-D4)+nSanc; combine overlapping rise/fall reservations only by maximum. On Gamma, distinct early/late I leaves and extra Q1 leaves imply Nodd+(D4-nL)>=nA+nLout+nSanc. Uncounted off-Gamma D4 capacity remains.",
+    "Under Nodd0, all O/DC/DH/DS vanish, so positive flag units are exactly D4. Their distinct terminal I leaves already exhaust all negative units. Every flag1 leaf therefore equals I of a unique ACTUAL positive D4. For an outward late route this excludes SSNS and singleton NSSS modes; the surviving all-four NSSS overlap forces P0 to be an actual positive duplicator, including its formerly only possible LEFT child.",
+    "This is only one-step activation. It does not establish the parent relation needed to repeat the late package. In K1 on Gamma the strict-pit alternative gives18D, while the outward alternative activates an off-Gamma duplicator; neither is a capture proof."
+  ],
+  "scope": "Complete WHITE cap4 front and actual canonical quotient, with selected-Gamma/K1 hypotheses only where stated. Output capacity, not original fuel, recursive ancestry, or realized front."
+}

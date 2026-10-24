@@ -1,0 +1,86 @@
+{
+  "status": "PASS moving physical-capacity correction and literal canonical positive regression",
+  "manifest": "e982c78710874aa009286582660c5a4dc4f7362ccd29ae0ed2bbd73a8dc5a6f5",
+  "proof": "ce404851b265d2de0b6f598b9cc2021d531963d0e8a5a4bcf7af376ef4a34087",
+  "all_future_source_parity_tests": 170,
+  "full_source182_mass": 36,
+  "drift": [
+    2,
+    2
+  ],
+  "marked_birth250_death366": [
+    7,
+    7
+  ],
+  "all_period_return_age": 116,
+  "permanent_phase_slots": 12,
+  "return_permanent_support": [
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      8,
+      11
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      10,
+      3
+    ],
+    [
+      10,
+      4
+    ],
+    [
+      11,
+      4
+    ]
+  ],
+  "only_translate_overlap_shifts": [
+    -1,
+    0,
+    1
+  ],
+  "support_union_K": "12K+1",
+  "entire_relevant_cap22_by_pruned_period_closure": true,
+  "rectangle_controls": 15,
+  "analytic_review": [
+    "The signed per-return linewise lower cost is charged to ACTUAL permanent physical cells. At each permanent birth at mostM marked lifetimes are simultaneously relevant, giving4N(w-M)<=M|union_i(S+z_i)|. Disjoint lifetime intervals removeM. Per-episode normalization cannot merge distinct physical births.",
+    "Each new translated set adds at most its difference from the immediately preceding translate, because the prior union contains that set. Rectangle overlap is max(0,w-|dx|)max(0,H-|dy|), bounded new area byH|dx|+w|dy|. No bound on actual frame travel is supplied.",
+    "Fresh full four-cell trajectory, complete36-black182state and exact all-future ray parity establish the canonical positive. R250+104j at(7,7)+j(2,2) nextreadsL366+104j. All13permanent births per return and all-integer translate overlaps independently match. One shared cell in adjacent intervals is one permanent birth, not rebirth.",
+    "The complete future-relevant field at286 is the translated182field, and the fullprefix/period relevant maximum22 is independently recovered. Whole old archive is retained for future parity; only the retrospective relevance projection repeats.",
+    "This captured bounded-age example does NOT meet unbounded-age, guard-avoidance, or positive w>M debt hypotheses. It falsifies only conserving normalized finite capacity under moving frames, not the proposed nontranslating localization theorem. The reverse-return strip aside is an attributed signed dependency, not evidence of migrated old cohorts."
+  ]
+}

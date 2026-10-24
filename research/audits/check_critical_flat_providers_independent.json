@@ -1,0 +1,31 @@
+{
+  "status": "PASS dependent two-ended flat provider localization and exact full-drift voltage",
+  "proof": "6d8ef66c19610fd4038e58ef0989fc39b71c4ad259bbdff41c9b5262d6e805ff",
+  "flat_ports": {
+    "X": {
+      "history": "EEWW",
+      "exit_rank": 1,
+      "entry_rank": 3,
+      "external_duration": "P+A"
+    },
+    "Y": {
+      "history": "EWWE",
+      "exit_rank": 3,
+      "entry_rank": 1,
+      "external_duration": "P-A"
+    }
+  },
+  "dependencies": {
+    "audits/check_mixed_RR_closure_independent.json": "6a5571ed9cd4a804868b7378ecd3a4f675592e4b200e944cc4c62ff97a8883ac",
+    "audits/check_critical_mixed_LL_exits_independent.json": "14fb30c0de65a01c50000c5e827c309ba1c64ff681ee000c06a4975cfea2dab7",
+    "audits/check_mixed_first_track_pipeline_independent.json": "8ff4e2b77138f10372b4074fe93d9e0a7d28b4af32d29137f16cf4df8add9bab"
+  },
+  "analytic_review": [
+    "The signed critical first-track identity P=sum RIGHTfactorlengths+sum crossing spans implies each SAME-PHYSICAL L1->R2 span<P. This is derived, not a global cap4 age assumption.",
+    "Forward and backward selected actual second-lane prefixes are unique/invertible through RR/RLR3,isolated4 andLEFTV, with all other channels retained. Backward stop is either a flat outgoing-second event or a rootL1. The latter at another physical cell would violate the same-contact excursion; a complete backward lap reaches u+d, not u. Thus both flat providers exist before a full lap.",
+    "Every flat stops the selected lane, and every other flow2 crossing would be a forbidden wrong physical endpoint. Hence the providers are nearest flats along the lifted b direction and each cyclic gap has at most1flow2root. Passive/exterior contacts after departure remain unrestricted.",
+    "Write v_(k+ell)=v_k-d, rootv0, forwardF=v_j with0<j<ell, backwardG=v_i with-ell<i<0. Same FULL quotient class forces j-i=ell, hence G=F+d. No representative/time modP reduction is used.",
+    "X has exitL1/entryL3, so actual connector duration P+(T3F-T1F)>P is impossible. Y has exitL3/entryL1, duration P-A>0. The two literal boundary paths contain j-i=ell steps, giving rootspan=P+ell-A. Rootspan<P forces ell<A, so ell<A<P.",
+    "If exactly1flat class and at least1flow2root, the first-hit injection gives exactly1root, the flat mustY, and the unresolved physical connector is F.L3->(F+d).L1. This is not a reversed same-cell clock, not a constructed exterior, and not a fuel or general oneuse/front exclusion."
+  ]
+}

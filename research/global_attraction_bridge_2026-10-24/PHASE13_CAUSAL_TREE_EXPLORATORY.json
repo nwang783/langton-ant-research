@@ -1,0 +1,2001 @@
+{
+  "status": "EXPLORATORY, universal closure UNKNOWN",
+  "limits": {
+    "node_cap": 32,
+    "per_node_reads": 100000,
+    "southern_guard": -150
+  },
+  "root_fixed_inputs": [
+    0,
+    1
+  ],
+  "mature_kernel_black_count": 922,
+  "unprocessed_queue": 21,
+  "results": [
+    {
+      "index": 0,
+      "black_indices": [
+        0,
+        1
+      ],
+      "fixed_white_indices": [],
+      "last_branch_read": -1,
+      "status": "finite complete comparison",
+      "checked_reads": 5928,
+      "prefix_word_sha256": "587f0dcf74877cf252c801c6c89bdcdc25e6a93751e12659f7e576faea76dba1",
+      "current_pose": [
+        [
+          -18,
+          14
+        ],
+        2
+      ],
+      "post_bbox": [
+        -20,
+        36,
+        -12,
+        18
+      ],
+      "new_queries": [
+        [
+          632,
+          2
+        ],
+        [
+          672,
+          3
+        ],
+        [
+          844,
+          4
+        ],
+        [
+          1248,
+          5
+        ],
+        [
+          1272,
+          6
+        ]
+      ],
+      "tail": {
+        "word": "LLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLR",
+        "drift": [
+          -2,
+          2
+        ],
+        "pose": [
+          [
+            -18,
+            14
+          ],
+          2
+        ],
+        "tests": 197
+      }
+    },
+    {
+      "index": 1,
+      "black_indices": [
+        0,
+        1,
+        2
+      ],
+      "fixed_white_indices": [],
+      "last_branch_read": 632,
+      "status": "finite complete comparison",
+      "checked_reads": 13416,
+      "prefix_word_sha256": "c0233a7c294b2b2c14e1b6e500d616c68100bfa985e4e77f09858e5a9d1003ad",
+      "current_pose": [
+        [
+          -18,
+          24
+        ],
+        0
+      ],
+      "post_bbox": [
+        -50,
+        11,
+        -53,
+        26
+      ],
+      "new_queries": [
+        [
+          2280,
+          3
+        ],
+        [
+          12740,
+          4
+        ]
+      ],
+      "tail": {
+        "word": "LRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLL",
+        "drift": [
+          -2,
+          2
+        ],
+        "pose": [
+          [
+            -18,
+            24
+          ],
+          0
+        ],
+        "tests": 157
+      }
+    },
+    {
+      "index": 2,
+      "black_indices": [
+        0,
+        1,
+        3
+      ],
+      "fixed_white_indices": [
+        2
+      ],
+      "last_branch_read": 672,
+      "status": "finite complete comparison",
+      "checked_reads": 15288,
+      "prefix_word_sha256": "c065405984a8ae03411ebf54f470d429aa0057c6c66a1091ff22c6eb1ea40b6c",
+      "current_pose": [
+        [
+          24,
+          36
+        ],
+        0
+      ],
+      "post_bbox": [
+        -31,
+        25,
+        -23,
+        36
+      ],
+      "new_queries": [
+        [
+          4028,
+          4
+        ],
+        [
+          5984,
+          5
+        ],
+        [
+          7412,
+          6
+        ],
+        [
+          14032,
+          7
+        ]
+      ],
+      "tail": {
+        "word": "LRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRR",
+        "drift": [
+          2,
+          2
+        ],
+        "pose": [
+          [
+            24,
+            36
+          ],
+          0
+        ],
+        "tests": 185
+      }
+    },
+    {
+      "index": 3,
+      "black_indices": [
+        0,
+        1,
+        4
+      ],
+      "fixed_white_indices": [
+        2,
+        3
+      ],
+      "last_branch_read": 844,
+      "status": "finite complete comparison",
+      "checked_reads": 5616,
+      "prefix_word_sha256": "6bfbb648479ef31a26560d872921e5a3ce0c373def8fbcbe9ad2e33aa3f725c8",
+      "current_pose": [
+        [
+          -18,
+          14
+        ],
+        2
+      ],
+      "post_bbox": [
+        -20,
+        20,
+        -11,
+        22
+      ],
+      "new_queries": [
+        [
+          1016,
+          5
+        ],
+        [
+          3228,
+          6
+        ],
+        [
+          3348,
+          7
+        ],
+        [
+          3780,
+          8
+        ]
+      ],
+      "tail": {
+        "word": "LLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLR",
+        "drift": [
+          -2,
+          2
+        ],
+        "pose": [
+          [
+            -18,
+            14
+          ],
+          2
+        ],
+        "tests": 197
+      }
+    },
+    {
+      "index": 4,
+      "black_indices": [
+        0,
+        1,
+        5
+      ],
+      "fixed_white_indices": [
+        2,
+        3,
+        4
+      ],
+      "last_branch_read": 1248,
+      "status": "finite complete comparison",
+      "checked_reads": 2912,
+      "prefix_word_sha256": "3bfd96f6d7dbccf39c2bacd639a7b0d0c6e3b5a62c7d8a04f3522aeb8b718ac5",
+      "current_pose": [
+        [
+          -16,
+          16
+        ],
+        0
+      ],
+      "post_bbox": [
+        -18,
+        16,
+        -11,
+        18
+      ],
+      "new_queries": [
+        [
+          1260,
+          6
+        ]
+      ],
+      "tail": {
+        "word": "LRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRR",
+        "drift": [
+          -2,
+          2
+        ],
+        "pose": [
+          [
+            -16,
+            16
+          ],
+          0
+        ],
+        "tests": 155
+      }
+    },
+    {
+      "index": 5,
+      "black_indices": [
+        0,
+        1,
+        6
+      ],
+      "fixed_white_indices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "last_branch_read": 1272,
+      "status": "finite complete comparison",
+      "checked_reads": 15808,
+      "prefix_word_sha256": "0b99d42e481cdccc5f4faaf6e037b7d9d631f6cf4d4755244f7d861dd514c15d",
+      "current_pose": [
+        [
+          32,
+          22
+        ],
+        2
+      ],
+      "post_bbox": [
+        -23,
+        34,
+        -23,
+        43
+      ],
+      "new_queries": [
+        [
+          1696,
+          7
+        ],
+        [
+          5028,
+          8
+        ]
+      ],
+      "tail": {
+        "word": "LLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRR",
+        "drift": [
+          2,
+          2
+        ],
+        "pose": [
+          [
+            32,
+            22
+          ],
+          2
+        ],
+        "tests": 154
+      }
+    },
+    {
+      "index": 6,
+      "black_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fixed_white_indices": [],
+      "last_branch_read": 2280,
+      "status": "finite complete comparison",
+      "checked_reads": 5096,
+      "prefix_word_sha256": "03e337ac8e6d65fb24eff470950a8d3c6b438e46ba2b9b44170ab16516a23515",
+      "current_pose": [
+        [
+          -20,
+          20
+        ],
+        0
+      ],
+      "post_bbox": [
+        -26,
+        14,
+        -15,
+        21
+      ],
+      "new_queries": [
+        [
+          3212,
+          4
+        ],
+        [
+          3516,
+          5
+        ]
+      ],
+      "tail": {
+        "word": "LRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRL",
+        "drift": [
+          -2,
+          2
+        ],
+        "pose": [
+          [
+            -20,
+            20
+          ],
+          0
+        ],
+        "tests": 153
+      }
+    },
+    {
+      "index": 7,
+      "black_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "fixed_white_indices": [
+        3
+      ],
+      "last_branch_read": 12740,
+      "status": "finite complete comparison",
+      "checked_reads": 13416,
+      "prefix_word_sha256": "6fdabc621924a4afa7a41663a4c8b21e31a10942dd9dda18402fa6484a4fe755",
+      "current_pose": [
+        [
+          0,
+          22
+        ],
+        0
+      ],
+      "post_bbox": [
+        -50,
+        15,
+        -53,
+        24
+      ],
+      "new_queries": [
+        [
+          12820,
+          5
+        ],
+        [
+          12900,
+          6
+        ],
+        [
+          13016,
+          7
+        ]
+      ],
+      "tail": {
+        "word": "LRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRR",
+        "drift": [
+          -2,
+          2
+        ],
+        "pose": [
+          [
+            0,
+            22
+          ],
+          0
+        ],
+        "tests": 155
+      }
+    },
+    {
+      "index": 8,
+      "black_indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "fixed_white_indices": [
+        2
+      ],
+      "last_branch_read": 4028,
+      "status": "UNRESOLVED infinite next-ray family",
+      "checked_reads": 8008,
+      "prefix_word_sha256": "c5b6c4564554aaf5520b493df18118501e7fa80eab8488506b43f5526f42bda0",
+      "current_pose": [
+        [
+          20,
+          20
+        ],
+        2
+      ],
+      "post_bbox": [
+        -28,
+        25,
+        -15,
+        26
+      ],
+      "new_queries": [
+        [
+          5976,
+          5
+        ],
+        [
+          6084,
+          6
+        ],
+        [
+          6964,
+          7
+        ],
+        [
+          7536,
+          8
+        ],
+        [
+          7648,
+          9
+        ],
+        [
+          7756,
+          10
+        ],
+        [
+          7860,
+          11
+        ],
+        [
+          7964,
+          12
+        ]
+      ],
+      "tail": {
+        "word": "LRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRL",
+        "drift": [
+          2,
+          2
+        ],
+        "pose": [
+          [
+            20,
+            20
+          ],
+          2
+        ],
+        "tests": 175,
+        "infinite_ray_classes": [
+          [
+            10,
+            0
+          ],
+          [
+            12,
+            48
+          ],
+          [
+            12,
+            56
+          ],
+          [
+            13,
+            60
+          ],
+          [
+            13,
+            64
+          ],
+          [
+            13,
+            68
+          ],
+          [
+            13,
+            72
+          ],
+          [
+            12,
+            84
+          ],
+          [
+            12,
+            88
+          ],
+          [
+            12,
+            100
+          ]
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "black_indices": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "fixed_white_indices": [
+        2,
+        4
+      ],
+      "last_branch_read": 5984,
+      "status": "finite complete comparison",
+      "checked_reads": 15080,
+      "prefix_word_sha256": "d6f22433247afa60cf86bf5974be6f2412fcbbb29b5e33149828c8b57cfb2566",
+      "current_pose": [
+        [
+          -16,
+          34
+        ],
+        0
+      ],
+      "post_bbox": [
+        -33,
+        19,
+        -19,
+        38
+      ],
+      "new_queries": [
+        [
+          6000,
+          6
+        ],
+        [
+          6208,
+          7
+        ],
+        [
+          13436,
+          8
+        ],
+        [
+          13844,
+          9
+        ]
+      ],
+      "tail": {
+        "word": "RLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLL",
+        "drift": [
+          -2,
+          2
+        ],
+        "pose": [
+          [
+            -16,
+            34
+          ],
+          0
+        ],
+        "tests": 174
+      }
+    },
+    {
+      "index": 10,
+      "black_indices": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "fixed_white_indices": [
+        2,
+        4,
+        5
+      ],
+      "last_branch_read": 7412,
+      "status": "UNRESOLVED infinite next-ray family",
+      "checked_reads": 11440,
+      "prefix_word_sha256": "67455873e530d3caf4d1247d2d62ba4ab90a3a8a31a75de7ea4d9e62c391d0dc",
+      "current_pose": [
+        [
+          24,
+          28
+        ],
+        0
+      ],
+      "post_bbox": [
+        -30,
+        27,
+        -19,
+        27
+      ],
+      "new_queries": [
+        [
+          7428,
+          7
+        ],
+        [
+          10544,
+          8
+        ],
+        [
+          10984,
+          9
+        ],
+        [
+          11112,
+          10
+        ],
+        [
+          11216,
+          11
+        ],
+        [
+          11320,
+          12
+        ],
+        [
+          11424,
+          13
+        ]
+      ],
+      "tail": {
+        "word": "RRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLR",
+        "drift": [
+          2,
+          2
+        ],
+        "pose": [
+          [
+            24,
+            28
+          ],
+          0
+        ],
+        "tests": 194,
+        "infinite_ray_classes": [
+          [
+            12,
+            8
+          ],
+          [
+            12,
+            12
+          ],
+          [
+            12,
+            24
+          ],
+          [
+            11,
+            28
+          ],
+          [
+            13,
+            76
+          ],
+          [
+            13,
+            84
+          ],
+          [
+            14,
+            88
+          ],
+          [
+            14,
+            92
+          ],
+          [
+            14,
+            96
+          ],
+          [
+            14,
+            100
+          ]
+        ]
+      }
+    },
+    {
+      "index": 11,
+      "black_indices": [
+        0,
+        1,
+        3,
+        7
+      ],
+      "fixed_white_indices": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "last_branch_read": 14032,
+      "status": "EXPORTED tail crosses southern guard",
+      "checked_reads": 37024,
+      "prefix_word_sha256": "1689f675013f7895b54f2bb1b026fa2ff0ecf64972e3450d29d9bfd41a25c174",
+      "current_pose": [
+        [
+          40,
+          2
+        ],
+        2
+      ],
+      "post_bbox": [
+        -50,
+        41,
+        -31,
+        44
+      ],
+      "new_queries": [
+        [
+          14048,
+          8
+        ],
+        [
+          14928,
+          9
+        ],
+        [
+          15048,
+          10
+        ],
+        [
+          24964,
+          11
+        ],
+        [
+          24968,
+          12
+        ],
+        [
+          27188,
+          13
+        ],
+        [
+          27320,
+          14
+        ],
+        [
+          27344,
+          15
+        ]
+      ],
+      "tail": {
+        "word": "RRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRR",
+        "drift": [
+          2,
+          -2
+        ],
+        "pose": [
+          [
+            40,
+            2
+          ],
+          2
+        ],
+        "tests": 184
+      }
+    },
+    {
+      "index": 12,
+      "black_indices": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "fixed_white_indices": [
+        2,
+        3
+      ],
+      "last_branch_read": 1016,
+      "status": "finite complete comparison",
+      "checked_reads": 6656,
+      "prefix_word_sha256": "88f89e8c5b309176eb2dbf5327b66b9bf2f7240dd3b5dd8c2cbcc85a7630ad77",
+      "current_pose": [
+        [
+          -14,
+          16
+        ],
+        2
+      ],
+      "post_bbox": [
+        -18,
+        22,
+        -16,
+        23
+      ],
+      "new_queries": [
+        [
+          1060,
+          6
+        ],
+        [
+          1244,
+          7
+        ],
+        [
+          3804,
+          8
+        ],
+        [
+          4456,
+          9
+        ],
+        [
+          4976,
+          10
+        ]
+      ],
+      "tail": {
+        "word": "RLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRR",
+        "drift": [
+          -2,
+          2
+        ],
+        "pose": [
+          [
+            -14,
+            16
+          ],
+          2
+        ],
+        "tests": 159
+      }
+    },
+    {
+      "index": 13,
+      "black_indices": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "fixed_white_indices": [
+        2,
+        3,
+        5
+      ],
+      "last_branch_read": 3228,
+      "status": "finite complete comparison",
+      "checked_reads": 6032,
+      "prefix_word_sha256": "5110cc7ec136bfbf853fdf50a671eda4b3dc6c4c56ca5d8d1bac7ce0f679d9d7",
+      "current_pose": [
+        [
+          -12,
+          16
+        ],
+        0
+      ],
+      "post_bbox": [
+        -18,
+        20,
+        -11,
+        18
+      ],
+      "new_queries": [
+        [
+          3244,
+          7
+        ],
+        [
+          3384,
+          8
+        ]
+      ],
+      "tail": {
+        "word": "LRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRL",
+        "drift": [
+          -2,
+          2
+        ],
+        "pose": [
+          [
+            -12,
+            16
+          ],
+          0
+        ],
+        "tests": 158
+      }
+    },
+    {
+      "index": 14,
+      "black_indices": [
+        0,
+        1,
+        4,
+        7
+      ],
+      "fixed_white_indices": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "last_branch_read": 3348,
+      "status": "finite complete comparison",
+      "checked_reads": 5616,
+      "prefix_word_sha256": "34e4133a197e7c851383240b440b929e882dfbb4b6aa1ee9a6997bdd505d20fb",
+      "current_pose": [
+        [
+          -14,
+          16
+        ],
+        2
+      ],
+      "post_bbox": [
+        -18,
+        23,
+        -11,
+        21
+      ],
+      "new_queries": [
+        [
+          3364,
+          8
+        ],
+        [
+          3716,
+          9
+        ]
+      ],
+      "tail": {
+        "word": "RLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRR",
+        "drift": [
+          -2,
+          2
+        ],
+        "pose": [
+          [
+            -14,
+            16
+          ],
+          2
+        ],
+        "tests": 159
+      }
+    },
+    {
+      "index": 15,
+      "black_indices": [
+        0,
+        1,
+        4,
+        8
+      ],
+      "fixed_white_indices": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "last_branch_read": 3780,
+      "status": "finite complete comparison",
+      "checked_reads": 5824,
+      "prefix_word_sha256": "7ef3dab7c75d9de38fc1e8ff216c51cc2a1932d19cb3e3d183ab5e19b5a04776",
+      "current_pose": [
+        [
+          -18,
+          16
+        ],
+        2
+      ],
+      "post_bbox": [
+        -18,
+        20,
+        -11,
+        30
+      ],
+      "new_queries": [
+        [
+          4992,
+          9
+        ]
+      ],
+      "tail": {
+        "word": "RRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRL",
+        "drift": [
+          -2,
+          2
+        ],
+        "pose": [
+          [
+            -18,
+            16
+          ],
+          2
+        ],
+        "tests": 184
+      }
+    },
+    {
+      "index": 16,
+      "black_indices": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "fixed_white_indices": [
+        2,
+        3,
+        4
+      ],
+      "last_branch_read": 1260,
+      "status": "finite complete comparison",
+      "checked_reads": 5200,
+      "prefix_word_sha256": "15f2914d81969cb54474a41a13861c6d909215d1f5399fdf466bc020c36092e3",
+      "current_pose": [
+        [
+          -14,
+          28
+        ],
+        2
+      ],
+      "post_bbox": [
+        -16,
+        23,
+        -11,
+        31
+      ],
+      "new_queries": [
+        [
+          1484,
+          7
+        ]
+      ],
+      "tail": {
+        "word": "RRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRL",
+        "drift": [
+          -2,
+          2
+        ],
+        "pose": [
+          [
+            -14,
+            28
+          ],
+          2
+        ],
+        "tests": 192
+      }
+    },
+    {
+      "index": 17,
+      "black_indices": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "fixed_white_indices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "last_branch_read": 1696,
+      "status": "finite complete comparison",
+      "checked_reads": 3952,
+      "prefix_word_sha256": "87039666b24fc8ec028266e6962b9f772573d5ee43655df83e1167f2aefa5ecc",
+      "current_pose": [
+        [
+          24,
+          10
+        ],
+        2
+      ],
+      "post_bbox": [
+        -16,
+        27,
+        -11,
+        20
+      ],
+      "new_queries": [
+        [
+          1740,
+          8
+        ],
+        [
+          1916,
+          9
+        ]
+      ],
+      "tail": {
+        "word": "RLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRR",
+        "drift": [
+          2,
+          2
+        ],
+        "pose": [
+          [
+            24,
+            10
+          ],
+          2
+        ],
+        "tests": 183
+      }
+    },
+    {
+      "index": 18,
+      "black_indices": [
+        0,
+        1,
+        6,
+        8
+      ],
+      "fixed_white_indices": [
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "last_branch_read": 5028,
+      "status": "UNRESOLVED infinite next-ray family",
+      "checked_reads": 10712,
+      "prefix_word_sha256": "7a88402703c7fbc5778bda9df36665d600e858f115286bf1af5d418541034f38",
+      "current_pose": [
+        [
+          26,
+          28
+        ],
+        0
+      ],
+      "post_bbox": [
+        -23,
+        28,
+        -23,
+        31
+      ],
+      "new_queries": [
+        [
+          8900,
+          9
+        ],
+        [
+          10372,
+          10
+        ],
+        [
+          10476,
+          11
+        ],
+        [
+          10580,
+          12
+        ],
+        [
+          10684,
+          13
+        ]
+      ],
+      "tail": {
+        "word": "LRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRR",
+        "drift": [
+          2,
+          2
+        ],
+        "pose": [
+          [
+            26,
+            28
+          ],
+          0
+        ],
+        "tests": 158,
+        "infinite_ray_classes": [
+          [
+            14,
+            76
+          ],
+          [
+            14,
+            80
+          ],
+          [
+            14,
+            88
+          ]
+        ]
+      }
+    },
+    {
+      "index": 19,
+      "black_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fixed_white_indices": [],
+      "last_branch_read": 3212,
+      "status": "EXPORTED tail crosses southern guard",
+      "checked_reads": 22256,
+      "prefix_word_sha256": "d0e38a9907eccfff4789fe55e3e482ecc04ff6d64f05291a7bb28130cb043fcf",
+      "current_pose": [
+        [
+          -4,
+          -42
+        ],
+        0
+      ],
+      "post_bbox": [
+        -36,
+        20,
+        -44,
+        28
+      ],
+      "new_queries": [
+        [
+          3540,
+          5
+        ],
+        [
+          6020,
+          6
+        ],
+        [
+          10976,
+          7
+        ],
+        [
+          11096,
+          8
+        ]
+      ],
+      "tail": {
+        "word": "RRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRL",
+        "drift": [
+          2,
+          -2
+        ],
+        "pose": [
+          [
+            -4,
+            -42
+          ],
+          0
+        ],
+        "tests": 184
+      }
+    },
+    {
+      "index": 20,
+      "black_indices": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "fixed_white_indices": [
+        4
+      ],
+      "last_branch_read": 3516,
+      "status": "EXPORTED tail crosses southern guard",
+      "checked_reads": 5512,
+      "prefix_word_sha256": "d3d02c5fb8fd26eea0485ec368b6aa4d5cd813de4db17149a97ebc7b5aee8a13",
+      "current_pose": [
+        [
+          6,
+          -22
+        ],
+        0
+      ],
+      "post_bbox": [
+        -20,
+        17,
+        -23,
+        17
+      ],
+      "new_queries": [
+        [
+          3860,
+          6
+        ],
+        [
+          4040,
+          7
+        ]
+      ],
+      "tail": {
+        "word": "RLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRR",
+        "drift": [
+          2,
+          -2
+        ],
+        "pose": [
+          [
+            6,
+            -22
+          ],
+          0
+        ],
+        "tests": 158
+      }
+    },
+    {
+      "index": 21,
+      "black_indices": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "fixed_white_indices": [
+        3
+      ],
+      "last_branch_read": 12820,
+      "status": "EXPORTED tail crosses southern guard",
+      "checked_reads": 16432,
+      "prefix_word_sha256": "8db38b4588d1004c4ac127952b89289b93a21fd1ca2367b09c7df2f947070e79",
+      "current_pose": [
+        [
+          26,
+          -22
+        ],
+        2
+      ],
+      "post_bbox": [
+        -50,
+        31,
+        -53,
+        18
+      ],
+      "new_queries": [
+        [
+          13672,
+          6
+        ]
+      ],
+      "tail": {
+        "word": "LLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLL",
+        "drift": [
+          2,
+          -2
+        ],
+        "pose": [
+          [
+            26,
+            -22
+          ],
+          2
+        ],
+        "tests": 191
+      }
+    },
+    {
+      "index": 22,
+      "black_indices": [
+        0,
+        1,
+        2,
+        4,
+        6
+      ],
+      "fixed_white_indices": [
+        3,
+        5
+      ],
+      "last_branch_read": 12900,
+      "status": "finite complete comparison",
+      "checked_reads": 29016,
+      "prefix_word_sha256": "9176a167157a36de156c7742ba35d854d50a8d08298ff05709c4e3aa4fa878f1",
+      "current_pose": [
+        [
+          -18,
+          26
+        ],
+        0
+      ],
+      "post_bbox": [
+        -53,
+        23,
+        -55,
+        26
+      ],
+      "new_queries": [
+        [
+          12916,
+          7
+        ]
+      ],
+      "tail": {
+        "word": "LRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRL",
+        "drift": [
+          -2,
+          2
+        ],
+        "pose": [
+          [
+            -18,
+            26
+          ],
+          0
+        ],
+        "tests": 158
+      }
+    },
+    {
+      "index": 23,
+      "black_indices": [
+        0,
+        1,
+        2,
+        4,
+        7
+      ],
+      "fixed_white_indices": [
+        3,
+        5,
+        6
+      ],
+      "last_branch_read": 13016,
+      "status": "finite complete comparison",
+      "checked_reads": 14040,
+      "prefix_word_sha256": "7119772c0e1cd5698d70e9fcb5f1a46b2f637a7ba1627b826308c7230d28c172",
+      "current_pose": [
+        [
+          -22,
+          22
+        ],
+        2
+      ],
+      "post_bbox": [
+        -50,
+        17,
+        -53,
+        26
+      ],
+      "new_queries": [
+        [
+          13032,
+          8
+        ]
+      ],
+      "tail": {
+        "word": "LLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRR",
+        "drift": [
+          -2,
+          2
+        ],
+        "pose": [
+          [
+            -22,
+            22
+          ],
+          2
+        ],
+        "tests": 182
+      }
+    },
+    {
+      "index": 24,
+      "black_indices": [
+        0,
+        1,
+        3,
+        5,
+        6
+      ],
+      "fixed_white_indices": [
+        2,
+        4
+      ],
+      "last_branch_read": 6000,
+      "status": "EXPORTED tail crosses southern guard",
+      "checked_reads": 11232,
+      "prefix_word_sha256": "469e7a439436d9b53cebe7e02b79b81bf6981aaf6b3624694f153ee71fa9532e",
+      "current_pose": [
+        [
+          -36,
+          -10
+        ],
+        0
+      ],
+      "post_bbox": [
+        -38,
+        20,
+        -15,
+        33
+      ],
+      "new_queries": [
+        [
+          6044,
+          7
+        ],
+        [
+          6188,
+          8
+        ],
+        [
+          6496,
+          9
+        ]
+      ],
+      "tail": {
+        "word": "LLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRL",
+        "drift": [
+          -2,
+          -2
+        ],
+        "pose": [
+          [
+            -36,
+            -10
+          ],
+          0
+        ],
+        "tests": 197
+      }
+    },
+    {
+      "index": 25,
+      "black_indices": [
+        0,
+        1,
+        3,
+        5,
+        7
+      ],
+      "fixed_white_indices": [
+        2,
+        4,
+        6
+      ],
+      "last_branch_read": 6208,
+      "status": "finite complete comparison",
+      "checked_reads": 15704,
+      "prefix_word_sha256": "62470accf46a08c4eb25f791df983c6580ed2615ec11714b9b3e3e826e1ba030",
+      "current_pose": [
+        [
+          -28,
+          32
+        ],
+        2
+      ],
+      "post_bbox": [
+        -33,
+        25,
+        -19,
+        34
+      ],
+      "new_queries": [
+        [
+          6252,
+          8
+        ],
+        [
+          14136,
+          9
+        ],
+        [
+          14200,
+          10
+        ]
+      ],
+      "tail": {
+        "word": "RLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLL",
+        "drift": [
+          -2,
+          2
+        ],
+        "pose": [
+          [
+            -28,
+            32
+          ],
+          2
+        ],
+        "tests": 194
+      }
+    },
+    {
+      "index": 26,
+      "black_indices": [
+        0,
+        1,
+        3,
+        5,
+        8
+      ],
+      "fixed_white_indices": [
+        2,
+        4,
+        6,
+        7
+      ],
+      "last_branch_read": 13436,
+      "status": "finite complete comparison",
+      "checked_reads": 15912,
+      "prefix_word_sha256": "045f91b48eead3e38cde27d395eb7f7b47afe7c8bb508c314827fbb2270d3735",
+      "current_pose": [
+        [
+          -28,
+          32
+        ],
+        2
+      ],
+      "post_bbox": [
+        -33,
+        24,
+        -19,
+        34
+      ],
+      "new_queries": [
+        [
+          13480,
+          9
+        ],
+        [
+          14240,
+          10
+        ]
+      ],
+      "tail": {
+        "word": "LLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRR",
+        "drift": [
+          -2,
+          2
+        ],
+        "pose": [
+          [
+            -28,
+            32
+          ],
+          2
+        ],
+        "tests": 198
+      }
+    },
+    {
+      "index": 27,
+      "black_indices": [
+        0,
+        1,
+        3,
+        5,
+        9
+      ],
+      "fixed_white_indices": [
+        2,
+        4,
+        6,
+        7,
+        8
+      ],
+      "last_branch_read": 13844,
+      "status": "finite complete comparison",
+      "checked_reads": 15184,
+      "prefix_word_sha256": "7d75558aeedb882ccc5e745636e54fac94c9a2e8ea2c84f020856a2c802197ca",
+      "current_pose": [
+        [
+          -16,
+          38
+        ],
+        2
+      ],
+      "post_bbox": [
+        -33,
+        21,
+        -19,
+        39
+      ],
+      "new_queries": [
+        [
+          13888,
+          10
+        ]
+      ],
+      "tail": {
+        "word": "RLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRR",
+        "drift": [
+          -2,
+          2
+        ],
+        "pose": [
+          [
+            -16,
+            38
+          ],
+          2
+        ],
+        "tests": 161
+      }
+    },
+    {
+      "index": 28,
+      "black_indices": [
+        0,
+        1,
+        4,
+        5,
+        6
+      ],
+      "fixed_white_indices": [
+        2,
+        3
+      ],
+      "last_branch_read": 1060,
+      "status": "finite complete comparison",
+      "checked_reads": 5304,
+      "prefix_word_sha256": "5476d4d7c024e52505502842821304b354ef9fdd0119a369d32163b59efdb8f3",
+      "current_pose": [
+        [
+          26,
+          4
+        ],
+        0
+      ],
+      "post_bbox": [
+        -16,
+        28,
+        -16,
+        19
+      ],
+      "new_queries": [
+        [
+          1280,
+          7
+        ],
+        [
+          1440,
+          8
+        ]
+      ],
+      "tail": {
+        "word": "LLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLR",
+        "drift": [
+          2,
+          2
+        ],
+        "pose": [
+          [
+            26,
+            4
+          ],
+          0
+        ],
+        "tests": 160
+      }
+    },
+    {
+      "index": 29,
+      "black_indices": [
+        0,
+        1,
+        4,
+        5,
+        7
+      ],
+      "fixed_white_indices": [
+        2,
+        3,
+        6
+      ],
+      "last_branch_read": 1244,
+      "status": "EXPORTED tail crosses southern guard",
+      "checked_reads": 1976,
+      "prefix_word_sha256": "3a8a9a1a168299d2ee811ee062d2bfc489b20ae8c72842ce609d61a29cf9af39",
+      "current_pose": [
+        [
+          24,
+          0
+        ],
+        2
+      ],
+      "post_bbox": [
+        -10,
+        26,
+        -4,
+        18
+      ],
+      "new_queries": [
+        [
+          1288,
+          8
+        ]
+      ],
+      "tail": {
+        "word": "LRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLL",
+        "drift": [
+          2,
+          -2
+        ],
+        "pose": [
+          [
+            24,
+            0
+          ],
+          2
+        ],
+        "tests": 167
+      }
+    },
+    {
+      "index": 30,
+      "black_indices": [
+        0,
+        1,
+        4,
+        5,
+        8
+      ],
+      "fixed_white_indices": [
+        2,
+        3,
+        6,
+        7
+      ],
+      "last_branch_read": 3804,
+      "status": "finite complete comparison",
+      "checked_reads": 6032,
+      "prefix_word_sha256": "71156698e34f46e70c1b0697353027d473868279ca1e54d662ce7d2426dbcf52",
+      "current_pose": [
+        [
+          -20,
+          16
+        ],
+        0
+      ],
+      "post_bbox": [
+        -20,
+        22,
+        -13,
+        27
+      ],
+      "new_queries": [
+        [
+          3848,
+          9
+        ],
+        [
+          4092,
+          10
+        ]
+      ],
+      "tail": {
+        "word": "RRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRR",
+        "drift": [
+          -2,
+          2
+        ],
+        "pose": [
+          [
+            -20,
+            16
+          ],
+          0
+        ],
+        "tests": 194
+      }
+    },
+    {
+      "index": 31,
+      "black_indices": [
+        0,
+        1,
+        4,
+        5,
+        9
+      ],
+      "fixed_white_indices": [
+        2,
+        3,
+        6,
+        7,
+        8
+      ],
+      "last_branch_read": 4456,
+      "status": "finite complete comparison",
+      "checked_reads": 6552,
+      "prefix_word_sha256": "41a67a0b9db92340c86d2d858844b7f676aff3e26d3e251e815cd1305ab4b2b0",
+      "current_pose": [
+        [
+          -14,
+          16
+        ],
+        0
+      ],
+      "post_bbox": [
+        -18,
+        22,
+        -16,
+        22
+      ],
+      "new_queries": [],
+      "tail": {
+        "word": "LRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLL",
+        "drift": [
+          -2,
+          2
+        ],
+        "pose": [
+          [
+            -14,
+            16
+          ],
+          0
+        ],
+        "tests": 157
+      }
+    }
+  ]
+}

@@ -1,0 +1,748 @@
+{
+  "status": "AUTHOR_PENDING_INDEPENDENT_AUDIT",
+  "scope": "Plain genuine U creator0N followed immediately by a full V/VC/VCC at0,4N, then any complete8 prefix up to FIRST FOREIGN at true source age<=4. PREFOREIGN tagged disjunction only; no later atom count/mask assumption.",
+  "preFOREIGN_branches": [
+    {
+      "condition": "originalq is CURRENT at FOREIGN entry",
+      "guarantee": "same original first-V r0,4 is CURRENT there"
+    },
+    {
+      "condition": "originalq has lost CURRENT before FOREIGN entry",
+      "guarantee": "genuine q-cleanup V/VC A at(-1,4) is CURRENT there; q may be physically dead or aliveCORE, not conflated"
+    }
+  ],
+  "physical_current": "Same fine R-born identity BLACK outside actual FOREIGN entryK. Original or replacement CORE labels are kept separately.",
+  "first_V_A_cleanup_continuation_reused_from_signed_nine": {
+    "plainV_all8": [
+      {
+        "next_full": "D",
+        "entry": [
+          -1,
+          5,
+          2
+        ],
+        "classification": "deleted_g_requires_produced_D_input_age3_but_all_after_L29_births_have_age_at_most2",
+        "guard": {
+          "cell": [
+            -1,
+            4
+          ],
+          "input_slot": [
+            0,
+            1
+          ],
+          "first_input_L": {
+            "packet": "D",
+            "context_tick0": 11,
+            "context_read_number1": 12,
+            "RAW_length": 10,
+            "owner": "next actual word RAW",
+            "owner_tick0": 1,
+            "owner_read_number1": 2,
+            "turn": "L",
+            "next_word_tick0": 1,
+            "next_word_read_number1": 2,
+            "label": "context tick 11 (zero-based), RAW length 10; next actual word RAW tick 1 (zero-based), read 2 (one-based), L"
+          },
+          "consumer_entry_clock": 2,
+          "earliest_possible_new_full_producer_entry_clock": 0,
+          "maximum_produced_age": 2,
+          "certified_minimum": 3
+        }
+      },
+      {
+        "next_full": "DC",
+        "entry": [
+          -1,
+          5,
+          2
+        ],
+        "classification": "deleted_g_requires_produced_D_input_age3_but_all_after_L29_births_have_age_at_most2",
+        "guard": {
+          "cell": [
+            -1,
+            4
+          ],
+          "input_slot": [
+            0,
+            1
+          ],
+          "first_input_L": {
+            "packet": "DC",
+            "context_tick0": 11,
+            "context_read_number1": 12,
+            "RAW_length": 25,
+            "owner": "own C-tail 1 RAW",
+            "owner_tick0": 1,
+            "owner_read_number1": 2,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 11 (zero-based), RAW length 25; own C-tail 1 RAW tick 1 (zero-based), read 2 (one-based), L"
+          },
+          "consumer_entry_clock": 2,
+          "earliest_possible_new_full_producer_entry_clock": 0,
+          "maximum_produced_age": 2,
+          "certified_minimum": 3
+        }
+      },
+      {
+        "next_full": "V",
+        "entry": [
+          -1,
+          5,
+          2
+        ],
+        "classification": "consumes_FORCED_HELD_same_original_q_before_FOREIGN",
+        "guard": {
+          "cell": [
+            -1,
+            2
+          ],
+          "input_slot": [
+            0,
+            3
+          ],
+          "first_q_L": {
+            "packet": "V",
+            "context_tick0": 19,
+            "context_read_number1": 20,
+            "RAW_length": 18,
+            "owner": "next actual word RAW",
+            "owner_tick0": 1,
+            "owner_read_number1": 2,
+            "turn": "L",
+            "next_word_tick0": 1,
+            "next_word_read_number1": 2,
+            "label": "context tick 19 (zero-based), RAW length 18; next actual word RAW tick 1 (zero-based), read 2 (one-based), L"
+          }
+        }
+      },
+      {
+        "next_full": "VC",
+        "entry": [
+          -1,
+          5,
+          2
+        ],
+        "classification": "consumes_FORCED_HELD_same_original_q_before_FOREIGN",
+        "guard": {
+          "cell": [
+            -1,
+            2
+          ],
+          "input_slot": [
+            0,
+            3
+          ],
+          "first_q_L": {
+            "packet": "VC",
+            "context_tick0": 19,
+            "context_read_number1": 20,
+            "RAW_length": 33,
+            "owner": "own C-tail 1 RAW",
+            "owner_tick0": 1,
+            "owner_read_number1": 2,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 19 (zero-based), RAW length 33; own C-tail 1 RAW tick 1 (zero-based), read 2 (one-based), L"
+          }
+        }
+      },
+      {
+        "next_full": "VCC",
+        "entry": [
+          -1,
+          5,
+          2
+        ],
+        "classification": "consumes_FORCED_HELD_same_original_q_before_FOREIGN",
+        "guard": {
+          "cell": [
+            -1,
+            2
+          ],
+          "input_slot": [
+            0,
+            3
+          ],
+          "first_q_L": {
+            "packet": "VCC",
+            "context_tick0": 19,
+            "context_read_number1": 20,
+            "RAW_length": 48,
+            "owner": "own C-tail 1 RAW",
+            "owner_tick0": 1,
+            "owner_read_number1": 2,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 19 (zero-based), RAW length 48; own C-tail 1 RAW tick 1 (zero-based), read 2 (one-based), L"
+          }
+        }
+      },
+      {
+        "next_full": "U",
+        "entry": [
+          -1,
+          5,
+          2
+        ],
+        "classification": "consumes_FORCED_HELD_same_original_q_before_FOREIGN",
+        "guard": {
+          "cell": [
+            -1,
+            2
+          ],
+          "input_slot": [
+            0,
+            3
+          ],
+          "first_q_L": {
+            "packet": "U",
+            "context_tick0": 23,
+            "context_read_number1": 24,
+            "RAW_length": 28,
+            "owner": "own U-base RAW",
+            "owner_tick0": 23,
+            "owner_read_number1": 24,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 23 (zero-based), RAW length 28; own U-base RAW tick 23 (zero-based), read 24 (one-based), L"
+          }
+        }
+      },
+      {
+        "next_full": "UC",
+        "entry": [
+          -1,
+          5,
+          2
+        ],
+        "classification": "consumes_FORCED_HELD_same_original_q_before_FOREIGN",
+        "guard": {
+          "cell": [
+            -1,
+            2
+          ],
+          "input_slot": [
+            0,
+            3
+          ],
+          "first_q_L": {
+            "packet": "UC",
+            "context_tick0": 23,
+            "context_read_number1": 24,
+            "RAW_length": 43,
+            "owner": "own U-base RAW",
+            "owner_tick0": 23,
+            "owner_read_number1": 24,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 23 (zero-based), RAW length 43; own U-base RAW tick 23 (zero-based), read 24 (one-based), L"
+          }
+        }
+      },
+      {
+        "next_full": "UCC",
+        "entry": [
+          -1,
+          5,
+          2
+        ],
+        "classification": "consumes_FORCED_HELD_same_original_q_before_FOREIGN",
+        "guard": {
+          "cell": [
+            -1,
+            2
+          ],
+          "input_slot": [
+            0,
+            3
+          ],
+          "first_q_L": {
+            "packet": "UCC",
+            "context_tick0": 23,
+            "context_read_number1": 24,
+            "RAW_length": 58,
+            "owner": "own U-base RAW",
+            "owner_tick0": 23,
+            "owner_read_number1": 24,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 23 (zero-based), RAW length 58; own U-base RAW tick 23 (zero-based), read 24 (one-based), L"
+          }
+        }
+      }
+    ],
+    "VC_all8": [
+      {
+        "next_full": "D",
+        "entry": [
+          -1,
+          4,
+          1
+        ],
+        "held_original_q_cell": [
+          -1,
+          2
+        ],
+        "q_local": [
+          2,
+          0
+        ],
+        "first_q_read": {
+          "packet": "D",
+          "context_tick0": 8,
+          "context_read_number1": 9,
+          "RAW_length": 10,
+          "owner": "own D-base RAW",
+          "owner_tick0": 8,
+          "owner_read_number1": 9,
+          "turn": "R",
+          "next_word_tick0": null,
+          "next_word_read_number1": null,
+          "label": "context tick 8 (zero-based), RAW length 10; own D-base RAW tick 8 (zero-based), read 9 (one-based), R"
+        },
+        "classification": "common_R8_requires_WHITE_but_originalq_stays_BLACK"
+      },
+      {
+        "next_full": "DC",
+        "entry": [
+          -1,
+          4,
+          1
+        ],
+        "held_original_q_cell": [
+          -1,
+          2
+        ],
+        "q_local": [
+          2,
+          0
+        ],
+        "first_q_read": {
+          "packet": "DC",
+          "context_tick0": 8,
+          "context_read_number1": 9,
+          "RAW_length": 25,
+          "owner": "own D-base RAW",
+          "owner_tick0": 8,
+          "owner_read_number1": 9,
+          "turn": "R",
+          "next_word_tick0": null,
+          "next_word_read_number1": null,
+          "label": "context tick 8 (zero-based), RAW length 25; own D-base RAW tick 8 (zero-based), read 9 (one-based), R"
+        },
+        "classification": "common_R8_requires_WHITE_but_originalq_stays_BLACK"
+      },
+      {
+        "next_full": "V",
+        "entry": [
+          -1,
+          4,
+          1
+        ],
+        "held_original_q_cell": [
+          -1,
+          2
+        ],
+        "q_local": [
+          2,
+          0
+        ],
+        "first_q_read": {
+          "packet": "V",
+          "context_tick0": 8,
+          "context_read_number1": 9,
+          "RAW_length": 18,
+          "owner": "own V-base RAW",
+          "owner_tick0": 8,
+          "owner_read_number1": 9,
+          "turn": "R",
+          "next_word_tick0": null,
+          "next_word_read_number1": null,
+          "label": "context tick 8 (zero-based), RAW length 18; own V-base RAW tick 8 (zero-based), read 9 (one-based), R"
+        },
+        "classification": "common_R8_requires_WHITE_but_originalq_stays_BLACK"
+      },
+      {
+        "next_full": "VC",
+        "entry": [
+          -1,
+          4,
+          1
+        ],
+        "held_original_q_cell": [
+          -1,
+          2
+        ],
+        "q_local": [
+          2,
+          0
+        ],
+        "first_q_read": {
+          "packet": "VC",
+          "context_tick0": 8,
+          "context_read_number1": 9,
+          "RAW_length": 33,
+          "owner": "own V-base RAW",
+          "owner_tick0": 8,
+          "owner_read_number1": 9,
+          "turn": "R",
+          "next_word_tick0": null,
+          "next_word_read_number1": null,
+          "label": "context tick 8 (zero-based), RAW length 33; own V-base RAW tick 8 (zero-based), read 9 (one-based), R"
+        },
+        "classification": "common_R8_requires_WHITE_but_originalq_stays_BLACK"
+      },
+      {
+        "next_full": "VCC",
+        "entry": [
+          -1,
+          4,
+          1
+        ],
+        "held_original_q_cell": [
+          -1,
+          2
+        ],
+        "q_local": [
+          2,
+          0
+        ],
+        "first_q_read": {
+          "packet": "VCC",
+          "context_tick0": 8,
+          "context_read_number1": 9,
+          "RAW_length": 48,
+          "owner": "own V-base RAW",
+          "owner_tick0": 8,
+          "owner_read_number1": 9,
+          "turn": "R",
+          "next_word_tick0": null,
+          "next_word_read_number1": null,
+          "label": "context tick 8 (zero-based), RAW length 48; own V-base RAW tick 8 (zero-based), read 9 (one-based), R"
+        },
+        "classification": "common_R8_requires_WHITE_but_originalq_stays_BLACK"
+      },
+      {
+        "next_full": "U",
+        "entry": [
+          -1,
+          4,
+          1
+        ],
+        "held_original_q_cell": [
+          -1,
+          2
+        ],
+        "q_local": [
+          2,
+          0
+        ],
+        "first_q_read": {
+          "packet": "U",
+          "context_tick0": 8,
+          "context_read_number1": 9,
+          "RAW_length": 28,
+          "owner": "own U-base RAW",
+          "owner_tick0": 8,
+          "owner_read_number1": 9,
+          "turn": "R",
+          "next_word_tick0": null,
+          "next_word_read_number1": null,
+          "label": "context tick 8 (zero-based), RAW length 28; own U-base RAW tick 8 (zero-based), read 9 (one-based), R"
+        },
+        "classification": "common_R8_requires_WHITE_but_originalq_stays_BLACK"
+      },
+      {
+        "next_full": "UC",
+        "entry": [
+          -1,
+          4,
+          1
+        ],
+        "held_original_q_cell": [
+          -1,
+          2
+        ],
+        "q_local": [
+          2,
+          0
+        ],
+        "first_q_read": {
+          "packet": "UC",
+          "context_tick0": 8,
+          "context_read_number1": 9,
+          "RAW_length": 43,
+          "owner": "own U-base RAW",
+          "owner_tick0": 8,
+          "owner_read_number1": 9,
+          "turn": "R",
+          "next_word_tick0": null,
+          "next_word_read_number1": null,
+          "label": "context tick 8 (zero-based), RAW length 43; own U-base RAW tick 8 (zero-based), read 9 (one-based), R"
+        },
+        "classification": "common_R8_requires_WHITE_but_originalq_stays_BLACK"
+      },
+      {
+        "next_full": "UCC",
+        "entry": [
+          -1,
+          4,
+          1
+        ],
+        "held_original_q_cell": [
+          -1,
+          2
+        ],
+        "q_local": [
+          2,
+          0
+        ],
+        "first_q_read": {
+          "packet": "UCC",
+          "context_tick0": 8,
+          "context_read_number1": 9,
+          "RAW_length": 58,
+          "owner": "own U-base RAW",
+          "owner_tick0": 8,
+          "owner_read_number1": 9,
+          "turn": "R",
+          "next_word_tick0": null,
+          "next_word_read_number1": null,
+          "label": "context tick 8 (zero-based), RAW length 58; own U-base RAW tick 8 (zero-based), read 9 (one-based), R"
+        },
+        "classification": "common_R8_requires_WHITE_but_originalq_stays_BLACK"
+      }
+    ],
+    "why_independent_of_nine_masks": "Only qCURRENT, old packet ownership, first-V g deletion atclock0 and producedDmin3 are used. Direct foreign after plainV is NOT discarded; retained explicitly below."
+  },
+  "plain_V_cleanup_immediate_FOREIGN_exception": {
+    "actual_FOREIGN_entry": [
+      -1,
+      5,
+      2
+    ],
+    "actual_C_clock": 2,
+    "first_V_A_has_lost_CURRENT_but_may_be_aliveCORE": true,
+    "original_first_V_B_cannot_retire_before_clock4": true,
+    "r_lock_still_forces_r_CURRENT": true,
+    "q_r_B_all_outside_this_FOREIGN_entryK": true
+  },
+  "VC_cleanup_no_direct_FOREIGN": [
+    {
+      "old_last_full": "VC",
+      "FOREIGN": "F",
+      "literal_conflict": {
+        "feasible": false,
+        "tick": 70,
+        "cell": [
+          -1,
+          -1
+        ],
+        "first_read": [
+          2,
+          "L"
+        ],
+        "required_initial": false,
+        "original_initial": true
+      }
+    },
+    {
+      "old_last_full": "VC",
+      "FOREIGN": "Q",
+      "literal_conflict": {
+        "feasible": false,
+        "tick": 70,
+        "cell": [
+          -1,
+          -1
+        ],
+        "first_read": [
+          2,
+          "L"
+        ],
+        "required_initial": false,
+        "original_initial": true
+      }
+    },
+    {
+      "old_last_full": "VC",
+      "FOREIGN": "B",
+      "literal_conflict": {
+        "feasible": false,
+        "tick": 70,
+        "cell": [
+          -1,
+          -1
+        ],
+        "first_read": [
+          2,
+          "L"
+        ],
+        "required_initial": false,
+        "original_initial": true
+      }
+    }
+  ],
+  "q_lost_branch": {
+    "forced_first_q_loss": "Genuine V/VC(-1,5,S), clock2, signed1954/2027.",
+    "genuine_shadow_cell": [
+      -1,
+      4
+    ],
+    "shadow_birth_own_V_tick0": 11,
+    "shadow_producer_full_entry_clock": 2,
+    "only_possible_shadow_first_consumer": [
+      -1,
+      1,
+      0
+    ],
+    "consumer_clock": 4,
+    "forbidden_preFOREIGN_contact": "helper V ends at genuine creating U EXIT(-1,7), nonadjacent in old simple factor",
+    "same_shadow_CURRENT_through_FOREIGN_clock4": true
+  },
+  "FOREIGN_F4_5N_corollary": {
+    "pose": [
+      4,
+      5,
+      0
+    ],
+    "true_FOREIGN_clock": 4,
+    "effect_rows": [
+      {
+        "port": "q",
+        "cell": [
+          -1,
+          2
+        ],
+        "FOREIGN_local": [
+          -5,
+          -3
+        ],
+        "before_BLACK": false,
+        "all_combined_reads": [
+          [
+            62,
+            "R"
+          ],
+          [
+            66,
+            "L"
+          ]
+        ]
+      },
+      {
+        "port": "r",
+        "cell": [
+          0,
+          4
+        ],
+        "FOREIGN_local": [
+          -4,
+          -1
+        ],
+        "before_BLACK": true,
+        "all_combined_reads": [
+          [
+            51,
+            "L"
+          ],
+          [
+            55,
+            "R"
+          ],
+          [
+            59,
+            "L"
+          ]
+        ]
+      },
+      {
+        "port": "q_cleanup_shadow_A",
+        "cell": [
+          -1,
+          4
+        ],
+        "FOREIGN_local": [
+          -5,
+          -1
+        ],
+        "before_BLACK": false,
+        "all_combined_reads": [
+          [
+            54,
+            "R"
+          ]
+        ]
+      },
+      {
+        "port": "first_V_A",
+        "cell": [
+          0,
+          5
+        ],
+        "FOREIGN_local": [
+          -4,
+          0
+        ],
+        "before_BLACK": true,
+        "all_combined_reads": [
+          [
+            40,
+            "L"
+          ]
+        ]
+      },
+      {
+        "port": "first_V_B",
+        "cell": [
+          1,
+          4
+        ],
+        "FOREIGN_local": [
+          -3,
+          -1
+        ],
+        "before_BLACK": true,
+        "all_combined_reads": [
+          [
+            42,
+            "L"
+          ],
+          [
+            50,
+            "R"
+          ],
+          [
+            58,
+            "L"
+          ]
+        ]
+      }
+    ],
+    "first_q_WHITE_read": "F context62 = next actual word tick6/read7; NOT executed in F RAW",
+    "shadow_WHITE_read": "own F RAW54/read55",
+    "conclusion": "Impossible with this genuine preforeign cohort: qCURRENT branch conflicts q-beforeWHITE; q-lost branch conflicts shadow-beforeWHITE. Independent of later tail length; needs only actual followingM11.",
+    "r_rewrite_if_ancestry_ignored": "L51 deletes r, R55 installs replacement in EXITCORE, next-word L3 deletes that replacement. This apparently local reset is rejected by q/shadow boundary, not by pretending r survives."
+  },
+  "postFOREIGN_interface_still_missing": "A general foreign can firstL-consume a guaranteed port or recolor it with a new R birth, possibly EXITCORE. The preforeign disjunction supplies no postforeign current tag by itself. A scaling proof must propagate physical alive/dead/CORE and identity birth data through actual A RAW and later real reads; old8 ages/r-lock are not valid after A.",
+  "dependencies": {
+    "U_star_one_foreign_return_transfer_2026-10-24/check_U_star_corner_transfer.py": "fa390462928ee52330465e62b2ead5cca1f214fae58344bc689518b89da2b946",
+    "U_second_V_first_helper_cohort_closure_2026-10-24/first_helper_cohort_closure.json": "29f22c30baed32562f4c13c6188ce7cf1e2c17eafbbcdea9453ac0ef989268b1",
+    "U_second_V_first_helper_cohort_closure_2026-10-24/manifest.json": "1be7fb2eb1418a230bb16641411d2734eefef052256095d34ecf54377470ab47",
+    "U_second_V_original_q_frontier_2026-10-24/manifest.json": "d9ab9c0dd926bf27f9563a849f6d3e21016d45f3f1849c43335108835879cfcc",
+    "core_periodicity_new/U_recycled_q_consumer_frozen_20261023_1954/manifest.json": "c89b741d36a304c6bc3b8e181a2514b133cf4d2698d738917a43d4d65ab5e9f9",
+    "core_periodicity_new/U_q_source_history_frozen_20261023_2027/manifest.json": "25239deb8d71fa0e713cccba81757fc9fb712cf84b6a4269551c89b926388524",
+    "core_periodicity_new/V_parallel_reproductive_supply_frozen_20261023_2036/manifest.json": "b8db4c0e5a98ee490f37860cc61aef44b785b780dd942e7cd4e873a09d0a093d",
+    "core_periodicity_new/V_C_same_heading_exclusion_frozen_20261023_2043/manifest.json": "17dfc8217174d5a6160d0040f29675e722200e8f51eb23c252e5f9905f4ef70f",
+    "seven_word_spatial_return_2026-10-23/complete8_foreign_adjacency_manifest.json": "735023bebfa154bd936e9546023367b541006ea1d9f57bb2eb7240bf040017ea",
+    "U_first_V_preforeign_shadow_ports_2026-10-24/check_preforeign_shadow_ports.py": "23c47db1798d80420faa89b3efe983118e49d235a639b465281d2c1035c140a3"
+  }
+}

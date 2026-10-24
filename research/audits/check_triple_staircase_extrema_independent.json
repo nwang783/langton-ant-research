@@ -1,0 +1,96 @@
+{
+  "status": "PASS staircase terminal chains and local-extrema axis/singleton implications",
+  "notes": {
+    "staircase_triple_cycles_have_finite_singleton_output_chains.md": "9190569aa32c2299bedaeed4fbf156068d60775c8450ad880ccd78767c999f11",
+    "triple_circle_local_extrema_force_axis_or_singleton_ports.md": "2b33fcceaa79d33e70dde88d0b3812eca81fef25b9cc454ede44516334496909"
+  },
+  "A": [
+    "NNNS",
+    "NSNN"
+  ],
+  "B": [
+    "EEWE",
+    "WEEE"
+  ],
+  "U": {
+    "S": {
+      "NW": 0,
+      "NE": -1,
+      "SW": -1,
+      "SE": -1
+    },
+    "NNNS": {
+      "NW": 0,
+      "NE": -1,
+      "SW": -1,
+      "SE": 2
+    },
+    "NSNN": {
+      "NW": 0,
+      "NE": -1,
+      "SW": -1,
+      "SE": 2
+    }
+  },
+  "W": {
+    "EEW": {
+      "NW": -1,
+      "NE": 1,
+      "SW": 1,
+      "SE": 0
+    },
+    "WEE": {
+      "NW": -1,
+      "NE": 1,
+      "SW": 1,
+      "SE": 0
+    },
+    "EEWE": {
+      "NW": -2,
+      "NE": 1,
+      "SW": 1,
+      "SE": 0
+    },
+    "WEEE": {
+      "NW": -2,
+      "NE": 1,
+      "SW": 1,
+      "SE": 0
+    }
+  },
+  "rotated_local_controls": 28,
+  "cyclic_turn_controls": {
+    "4": 4,
+    "6": 0,
+    "8": 4,
+    "10": 0,
+    "12": 4,
+    "14": 0,
+    "16": 4
+  },
+  "RRLL_displacements": [
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      -2
+    ],
+    [
+      -2,
+      0
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "analytic_review": [
+    "All one-to-four WHITE histories were rebuilt from literal R/L turns, and face heights independently solved from full directed port flow. An LRL unit-square gap has shared NW C=c and opposite SE C=c-1 for singleton S, c+2 for either four-read mode; both L=c-1. A RLR gap shares SE L=m=c-3 and has opposite NW L=m-1 or m-2 for every allowed complete WHITE history, including the odd triples.",
+    "For a whole NE staircase, every B has exactly one S departure and W arrival, hence each outer U is singleton S or one of the original A modes. If none is singleton, both three-use ports force every V to one of the original B modes. Thus the ENTIRE next row and its unchanged full drift and orientation persist, not merely a height or one port. It raises C by2 and shifts spatially by(1,-1). Normal x-y changes by2 while full diagonal drift preserves it; no quotient row recycling. Finite global C maximum forces a terminal singleton within floor((M-c)/2)+1 outward checks.",
+    "A row has at most one full geometric successor and predecessor, with signs allowed to change freely at each row. A terminal singleton heading fixes the rotated frame; its physical class, shared C face, and position recover its unique immediate inner row modulo full drift. Therefore only distinct maximal row-chain components inject into singleton classes. Different starting rows on one chain share payment; no addition to previous singleton reservations, initial-fuel charge, or recurrence bound follows.",
+    "At a locally maximal C component the higher-C alternative is impossible, hence every LRL triple gives its actual singleton output. At a locally minimal low-L component the strictly lower diagonal neighbor forbids RLR even if other Q corners are odd. These are same-component adjacent faces, not unrelated global heights.",
+    "A simple essential unit-edge physical circle cannot have three equal consecutive turns, as the four involved edges return to their initial physical vertex. Its total signed turn is zero. No RLR forces every L run length2; equal L/R totals and equal numbers of runs force all R runs length2 as well. Thus RRLL repeats, ell=4a, full drift is an axis vector of infinity norm2a, with sign handled by actual winding. This applies only to G3 cycles beside local L minima. General G3 paths, arbitrary minima, mixed fronts, and global attraction remain open."
+  ]
+}

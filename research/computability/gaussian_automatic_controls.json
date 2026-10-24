@@ -1,0 +1,206 @@
+{
+  "status": "PASS",
+  "gaussian_encode_decode_controls": 3721,
+  "small_norm_termination_codes": [
+    {
+      "point": [
+        -2,
+        -1
+      ],
+      "code": 235
+    },
+    {
+      "point": [
+        -2,
+        0
+      ],
+      "code": 28
+    },
+    {
+      "point": [
+        -2,
+        1
+      ],
+      "code": 31
+    },
+    {
+      "point": [
+        -1,
+        -2
+      ],
+      "code": 233
+    },
+    {
+      "point": [
+        -1,
+        -1
+      ],
+      "code": 6
+    },
+    {
+      "point": [
+        -1,
+        0
+      ],
+      "code": 29
+    },
+    {
+      "point": [
+        -1,
+        1
+      ],
+      "code": 2
+    },
+    {
+      "point": [
+        -1,
+        2
+      ],
+      "code": 25
+    },
+    {
+      "point": [
+        0,
+        -2
+      ],
+      "code": 4
+    },
+    {
+      "point": [
+        0,
+        -1
+      ],
+      "code": 7
+    },
+    {
+      "point": [
+        0,
+        0
+      ],
+      "code": 0
+    },
+    {
+      "point": [
+        0,
+        1
+      ],
+      "code": 3
+    },
+    {
+      "point": [
+        0,
+        2
+      ],
+      "code": 116
+    },
+    {
+      "point": [
+        1,
+        -2
+      ],
+      "code": 5
+    },
+    {
+      "point": [
+        1,
+        -1
+      ],
+      "code": 58
+    },
+    {
+      "point": [
+        1,
+        0
+      ],
+      "code": 1
+    },
+    {
+      "point": [
+        1,
+        1
+      ],
+      "code": 14
+    },
+    {
+      "point": [
+        1,
+        2
+      ],
+      "code": 117
+    },
+    {
+      "point": [
+        2,
+        -1
+      ],
+      "code": 59
+    },
+    {
+      "point": [
+        2,
+        0
+      ],
+      "code": 12
+    },
+    {
+      "point": [
+        2,
+        1
+      ],
+      "code": 15
+    }
+  ],
+  "unit_neighbor_automata": [
+    {
+      "delta": [
+        1,
+        0
+      ],
+      "states": 8,
+      "checks": 1250
+    },
+    {
+      "delta": [
+        0,
+        1
+      ],
+      "states": 8,
+      "checks": 1250
+    },
+    {
+      "delta": [
+        -1,
+        0
+      ],
+      "states": 8,
+      "checks": 1250
+    },
+    {
+      "delta": [
+        0,
+        -1
+      ],
+      "states": 8,
+      "checks": 1250
+    }
+  ],
+  "dragon_graph": {
+    "nfa_states": 220,
+    "unminimized_dfa_states": 194,
+    "minimal_dfa_states": 101,
+    "point_and_nonpoint_controls": 4096
+  },
+  "dragon_first_alternation_failure": {
+    "time": 11,
+    "point": [
+      -2,
+      1
+    ],
+    "turn": "R",
+    "previous": [
+      7,
+      "R"
+    ]
+  },
+  "scope": "Exact automatic geometric model; the dragon path is NOT an ant trajectory on any coloring."
+}

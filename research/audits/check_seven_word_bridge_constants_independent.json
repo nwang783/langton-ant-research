@@ -1,0 +1,106 @@
+{
+  "status": "PASS literal constants and independently reviewed seven-word bridge-reset cubic proof",
+  "records": [
+    {
+      "macro": "D",
+      "length": 10,
+      "mass_change": 0,
+      "displacement": [
+        1,
+        1
+      ],
+      "heading": [
+        0,
+        1
+      ]
+    },
+    {
+      "macro": "C",
+      "length": 15,
+      "mass_change": 3,
+      "displacement": [
+        0,
+        1
+      ],
+      "heading": [
+        -1,
+        0
+      ]
+    },
+    {
+      "macro": "V",
+      "length": 18,
+      "mass_change": 4,
+      "displacement": [
+        1,
+        3
+      ],
+      "heading": [
+        0,
+        1
+      ]
+    },
+    {
+      "macro": "U",
+      "length": 28,
+      "mass_change": 4,
+      "displacement": [
+        0,
+        4
+      ],
+      "heading": [
+        0,
+        1
+      ]
+    },
+    {
+      "macro": "F",
+      "length": 56,
+      "mass_change": 2,
+      "displacement": [
+        -4,
+        -2
+      ],
+      "heading": [
+        0,
+        -1
+      ]
+    },
+    {
+      "macro": "Q",
+      "length": 64,
+      "mass_change": 6,
+      "displacement": [
+        -4,
+        -4
+      ],
+      "heading": [
+        0,
+        -1
+      ]
+    },
+    {
+      "macro": "B",
+      "length": 74,
+      "mass_change": 6,
+      "displacement": [
+        -3,
+        -5
+      ],
+      "heading": [
+        0,
+        -1
+      ]
+    }
+  ],
+  "reset_cost": 120,
+  "old_core_residual_cost": 74,
+  "new_touched_offset": 68,
+  "new_core_offset": 62,
+  "G": "193+267k",
+  "B": "57+38(m+G)+3G+60k",
+  "R": "ceil(2B/5)+G+1",
+  "t": "floor((2R+1)^2/2)",
+  "duration": "G+20R(t+1)+74t",
+  "scope": "Arbitrary feasible finite DCVUFQB factor; bound depends on initial mass m and count k of U/F/Q/B. Does not bound k or prove capture."
+}

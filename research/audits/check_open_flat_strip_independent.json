@@ -1,0 +1,54 @@
+{
+  "status": "PASS symbolic all-k OPEN literal-channel/rank/injective-clock strip; not a physical factor",
+  "proof": "c4faa17c0de16470ff073d0a25f2b7f6b277fdd5902f1d561eb186a67e815888",
+  "certificate": "c496d657573aa2a7608f988de2d2f01e378cfb207b64de5f1d5afd7972359323",
+  "script": "9c0b9082f0bf8c767fcecf8be2a4473eae19e63449da3b6a7aa0a8161b5bec1f",
+  "controls": [
+    {
+      "k": 1,
+      "events": 28,
+      "channels": 12,
+      "internal_ordinal_edges": 16,
+      "open_in_and_out_ports": 12,
+      "distinct_phased_clock": true
+    },
+    {
+      "k": 2,
+      "events": 44,
+      "channels": 16,
+      "internal_ordinal_edges": 28,
+      "open_in_and_out_ports": 16,
+      "distinct_phased_clock": true
+    },
+    {
+      "k": 3,
+      "events": 60,
+      "channels": 20,
+      "internal_ordinal_edges": 40,
+      "open_in_and_out_ports": 20,
+      "distinct_phased_clock": true
+    },
+    {
+      "k": 7,
+      "events": 124,
+      "channels": 36,
+      "internal_ordinal_edges": 88,
+      "open_in_and_out_ports": 36,
+      "distinct_phased_clock": true
+    }
+  ],
+  "symbolic_rank_order": {
+    "a_j": "rank0 in A_j; rank1 in P_j; ranks2/3 in C_(j-1) at offsets0/4, or the left endpoint pair. Decreasing-j schedule puts P_j before C_(j-1).",
+    "b_j": "rank0 in A_j; ranks1/2 in C_j at offsets1/5, or separate right C/Z-final blocks; rank3 in P_j, after C_j.",
+    "u_j": "ranks0/1 in A_j at offsets1/5; rank2 in D_(j-1) after A_j, or left D; rank3 in later C_(j-1), or left final.",
+    "v_j": "rank0 in D_j before A_j, or initial right D; ranks1/2 in A_j at offsets0/4; rank3 in later C_j, or right C.",
+    "end_cells": "L ranks0/1/2 are leftD/leftmiddle/leftfinal; W ranks0/1/2 leftfirst/Wmiddle/leftfinal; S ranks0/1/2 rightD/rightmiddle/rightC; Z ranks0/1/2 rightC/Zmiddle/Zfinal."
+  },
+  "analytic_review": [
+    "For all integerk>=1 the four local histories have the exact successor formulas implemented in the symbolic table. Only j=0 and j=k-1 need endpoint substitutions, fully listed. Every named event occurs exactly once in the indexed channels; the four-type rank-location formulas establish order for every j, not by a finite length extrapolation.",
+    "All internal directed ports including zero counts match exactly. The channels are the complete connected components of the internal event graph, each with one incoming and one outgoing UNKNOWN exterior port. There are16k+12 events,12k+4 internal edges and4k+8 open channels.",
+    "Within a channel, consecutive same-cell ranks occur four steps apart. Across channels the displayed order is strictly increasing; gaps4k+20 rounded upward to the start cell residue are at least4. All internal steps preserve the fixed mod4 phase table: even/even0, odd/even1, even/odd3, odd/odd2. Thus events are distinct, every physical edge duration1 and every rank gap>=4. An overall multiple-of-four shift can make all times nonnegative.",
+    "The selected boundary word RR(LLRR)^(k-1) has exactly2k RIGHT and2(k-1) LEFT contacts, so curvature+2 for allk. Exactlyfour complete three-read END classes are odd; interior cells are four-read even. This is formal local output inventory only.",
+    "No exterior paths, full-drift quotient, critical same-contact conditions, global single-event orbit, actual board or full front are provided. It refutes a per-unit odd/fuel bound deduced from these LOCAL constraints alone, not an actual physical-ant fuel theorem. All k have necessary locally consistent injective clocks, not attained physical factors."
+  ]
+}

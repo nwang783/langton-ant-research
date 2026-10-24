@@ -1,0 +1,443 @@
+{
+  "cycle_index": 4895,
+  "indices": [
+    11,
+    3075,
+    4411,
+    6379,
+    9106,
+    3014,
+    3235,
+    2089,
+    2526
+  ],
+  "word": "RRRRLRLRL",
+  "length": 9,
+  "displacement": [
+    -3,
+    2
+  ],
+  "heading": 3,
+  "imports": 1,
+  "emissions": 3,
+  "transitions": [
+    {
+      "source": 0,
+      "target": 23,
+      "consume": 2,
+      "emit": null,
+      "turn": "R",
+      "input_component": [],
+      "imported_component": [
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "output_active": [
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "emitted_component": [],
+      "output_pose": [
+        [
+          1,
+          0
+        ],
+        1
+      ]
+    },
+    {
+      "source": 23,
+      "target": 368,
+      "consume": null,
+      "emit": null,
+      "turn": "R",
+      "input_component": [
+        [
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "imported_component": [],
+      "output_active": [
+        [
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "emitted_component": [],
+      "output_pose": [
+        [
+          1,
+          0
+        ],
+        1
+      ]
+    },
+    {
+      "source": 368,
+      "target": 1977,
+      "consume": null,
+      "emit": null,
+      "turn": "R",
+      "input_component": [
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          3,
+          -3
+        ]
+      ],
+      "imported_component": [],
+      "output_active": [
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          3,
+          -3
+        ]
+      ],
+      "emitted_component": [],
+      "output_pose": [
+        [
+          1,
+          0
+        ],
+        1
+      ]
+    },
+    {
+      "source": 1977,
+      "target": 6237,
+      "consume": null,
+      "emit": null,
+      "turn": "R",
+      "input_component": [
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "imported_component": [],
+      "output_active": [
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "emitted_component": [],
+      "output_pose": [
+        [
+          1,
+          0
+        ],
+        1
+      ]
+    },
+    {
+      "source": 6237,
+      "target": 22,
+      "consume": null,
+      "emit": 4,
+      "turn": "L",
+      "input_component": [
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "imported_component": [],
+      "output_active": [
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "emitted_component": [
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "output_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "source": 22,
+      "target": 49,
+      "consume": null,
+      "emit": null,
+      "turn": "R",
+      "input_component": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "imported_component": [],
+      "output_active": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "emitted_component": [],
+      "output_pose": [
+        [
+          1,
+          0
+        ],
+        1
+      ]
+    },
+    {
+      "source": 49,
+      "target": 4,
+      "consume": null,
+      "emit": 0,
+      "turn": "L",
+      "input_component": [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "imported_component": [],
+      "output_active": [
+        [
+          -1,
+          1
+        ]
+      ],
+      "emitted_component": [
+        [
+          0,
+          -1
+        ]
+      ],
+      "output_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "source": 4,
+      "target": 10,
+      "consume": null,
+      "emit": null,
+      "turn": "R",
+      "input_component": [
+        [
+          1,
+          0
+        ]
+      ],
+      "imported_component": [],
+      "output_active": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "emitted_component": [],
+      "output_pose": [
+        [
+          1,
+          0
+        ],
+        1
+      ]
+    },
+    {
+      "source": 10,
+      "target": 0,
+      "consume": null,
+      "emit": 0,
+      "turn": "L",
+      "input_component": [
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "imported_component": [],
+      "output_active": [],
+      "emitted_component": [
+        [
+          0,
+          -1
+        ]
+      ],
+      "output_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    }
+  ]
+}

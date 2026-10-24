@@ -1,0 +1,33 @@
+{
+  "status": "PASS exact passive-packet no-V exit gate in signed main boundary scope",
+  "proof": "706a916f0be00d442284696cb4a5dcfa7193282658cd9c36b8687dfed1fd97c6",
+  "certificate": "f2554705b3b607af0a400113c0e14174751e0e2e22069f2e8b2acb13ee7e53ab",
+  "script": "f8e5d05995b363a52c01ee2d9e33de7ec62af9377e497f263ea982e5d9195390",
+  "signed_dependencies": {
+    "check_passive_LL_flat_cap_independent.json": "aa479215fa36356079086f0c179d069fdd283cad2a6dd520663e8fd2a8b98cbb",
+    "check_LL_RR_matching_independent.json": "96b2f1851f33f1ec9b46ec4f29468c754dbcc296fb2d100a0776ce91ed40498c",
+    "check_mixed_LL_gate_independent.json": "441ffa775b9fe212ddcc2312533c0b7feb0c01e4aeac95b89bf229c34edca119",
+    "check_mixed_macro_backbone_independent.json": "411496ebc817fcdb58df7b007cd418339bd787252547bbfd7a3ecc640c9f9f65"
+  },
+  "ordinal_cases": [
+    {
+      "C": "EEWW",
+      "second_E_rank": 1,
+      "second_N_rank": 2,
+      "forced_second_E_minus_second_N": 4
+    },
+    {
+      "C": "EWWE",
+      "second_E_rank": 3,
+      "second_N_rank": 3,
+      "forced_second_E_minus_second_N": 4
+    }
+  ],
+  "analytic_review": [
+    "The unique already signed CYCLIC flat-passive inventory gives A=EWWE,R=NNSS and actual firstW edgeR.L1->A.L1. Actual A south ports0,1 feed the hypothesized passiveE S arrivals2,3, giving A.L1->E.L3, not the previously corrected wrongN ordinal.",
+    "If nextC wereLEFT, secondLEFT gate makes passiveVV. The complete mixedLL table with precedingflatA has flat followingend, so the mandatory FLAT-ended passivecap theorem applies and requires a RIGHT predecessor forA. Its actual precedingZ isLEFT, contradiction. High-high passiveVV is not used or erased.",
+    "Thus C isRIGHT. Complete capfour in-axisE histories with exactlytwo Einputs supplied by the completeE cell, two northoutputs and at leasttwo selectedsouthoutputs are exactlyEEWW/EWWE. The high targetEEEE has four Einputs and is explicitly rejected by this exact E2 count, not a claimed one-use property. Every source/sink alternative is excluded by physical counts or nooneuse, not an arbitrary chosenmode.",
+    "Exact secondE edgeE.L3->C and secondN edgeC->R.L1->A.L1 force CsecondE=A.L1+2 and CsecondN=A.L1-2. Both completeflat histories require secondE<=secondN, impossible even with arbitrary otherclockdelays or quotientvoltages; all four equalities are physical local lifts.",
+    "The packetendpointY cannot go toV, so it exits by RR, genuineLL, or singletonO. Saturated matching makes anRR atY the startof anotherpassiveP, not genuineX-start. Highgap requires passiveV, hence directP->H and P-V->P are excluded. ArbitraryPstrips, actualO exits and all olderstock/exterior completion remain open."
+  ]
+}

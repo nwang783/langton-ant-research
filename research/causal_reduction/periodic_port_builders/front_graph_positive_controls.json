@@ -1,0 +1,40 @@
+{
+  "H": 2,
+  "W": 2,
+  "input_masks": [
+    1,
+    1
+  ],
+  "states": 512,
+  "status": "COMPLETE_FINITE_INTERFACE_GRAPH",
+  "cycles": [
+    {
+      "period": 4,
+      "drift": 2,
+      "word": "RLLR",
+      "entry": {
+        "board": 6,
+        "x": 1,
+        "y": 1,
+        "h": 1,
+        "front_parity": 1
+      },
+      "sector": 1
+    },
+    {
+      "period": 4,
+      "drift": 2,
+      "word": "RLLR",
+      "entry": {
+        "board": 6,
+        "x": 1,
+        "y": 1,
+        "h": 1,
+        "front_parity": 0
+      },
+      "sector": 0
+    }
+  ],
+  "max_transient_path": 7,
+  "seconds": 0.0004591941833496094
+}

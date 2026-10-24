@@ -1,0 +1,64 @@
+{
+  "status": "PASS corrected arbitrary D/C/V finite-factor trim",
+  "legal_factors_through_9_macros": 17938,
+  "by_length": {
+    "1": 3,
+    "2": 9,
+    "3": 27,
+    "4": 77,
+    "5": 212,
+    "6": 578,
+    "7": 1571,
+    "8": 4209,
+    "9": 11252
+  },
+  "standalone_D_exceptions": 273,
+  "largest_observed_total_trim": 118,
+  "terminal_controls": [
+    {
+      "packet": "D",
+      "DCC_predecessor_raw_feasible": true
+    },
+    {
+      "packet": "DC",
+      "DCC_predecessor_raw_feasible": false
+    },
+    {
+      "packet": "DCC",
+      "DCC_predecessor_raw_feasible": false
+    },
+    {
+      "packet": "DCCC",
+      "DCC_predecessor_raw_feasible": false
+    },
+    {
+      "packet": "DCCCC",
+      "DCC_predecessor_raw_feasible": false
+    },
+    {
+      "packet": "V",
+      "DCC_predecessor_raw_feasible": false
+    },
+    {
+      "packet": "VC",
+      "DCC_predecessor_raw_feasible": false
+    },
+    {
+      "packet": "VCC",
+      "DCC_predecessor_raw_feasible": false
+    },
+    {
+      "packet": "VCCC",
+      "DCC_predecessor_raw_feasible": false
+    },
+    {
+      "packet": "VCCCC",
+      "DCC_predecessor_raw_feasible": false
+    }
+  ],
+  "uniform_trim_steps": 193,
+  "entry_mass_extra": 21,
+  "bound": "193+f(m+21), with the signed recurrent cubic f",
+  "note_sha256": "dc105c57cef21b085a838ba554fff91225232061f416a160fec6ac625dc1705a",
+  "scope": "Literal boundary identities give the all-length proof; bounded factor enumeration is a control only."
+}

@@ -1,0 +1,51 @@
+{
+  "scope": "Complete WHITE port inventories for one staircase G3 row and its next row.\nFixed local configurations only, no front or period search.\n",
+  "A_profiles": [
+    "NNNS",
+    "NSNN"
+  ],
+  "B_profiles": [
+    "EEWE",
+    "WEEE"
+  ],
+  "U_profiles": [
+    "S",
+    "NNNS",
+    "NSNN"
+  ],
+  "U_face_levels_at_inner_c_zero": {
+    "S": {
+      "C": {
+        "NW": 0,
+        "SE": -1
+      },
+      "L": {
+        "SW": -1,
+        "NE": -1
+      }
+    },
+    "NNNS": {
+      "C": {
+        "NW": 0,
+        "SE": 2
+      },
+      "L": {
+        "SW": -1,
+        "NE": -1
+      }
+    },
+    "NSNN": {
+      "C": {
+        "NW": 0,
+        "SE": 2
+      },
+      "L": {
+        "SW": -1,
+        "NE": -1
+      }
+    }
+  },
+  "forced_extension": "If every U is four-read, U becomes the next A row at c+2 and both neighboring triple ports force V to become the next B row.",
+  "terminal": "U=S is an actual singleton-R odd-output class, not prepared BLACK input.",
+  "warning": "Only row-chain components, not arbitrary repeated renewals or all G3 circles, may be injected into terminal output classes."
+}

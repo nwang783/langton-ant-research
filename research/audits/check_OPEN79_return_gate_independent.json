@@ -1,0 +1,77 @@
+{
+  "status": "PASS conditional OPEN79 two-return >=20 and earlier preparation span >=64",
+  "proof_sha256": "fa387e763a9b2c27fe7648d5fa1b9b4a7ad3d79d1fd1a98acf2747e572a79633",
+  "certificate_sha256": "0d604fb6fb2b53c19d3f031993d9515fe6c28763d91da0ff15868461b94f026b",
+  "script_sha256": "ef8450705426e1736d3e80b891f910af169b97c6f8b921efabe0139f608a5110",
+  "palettes": {
+    "(4, 'R')": 1,
+    "(4, 'L')": 1,
+    "(8, 'R')": 5,
+    "(8, 'L')": 5,
+    "(12, 'R')": 44,
+    "(12, 'L')": 44
+  },
+  "cases": 124,
+  "outcomes": {
+    "color": 123,
+    "complete_history_mismatch": 1
+  },
+  "full_prepared_positive": {
+    "initial_position": [
+      2,
+      1
+    ],
+    "initial_heading": 2,
+    "initial_black": [
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "complete_final_black": [
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "final_position": [
+      -2,
+      0
+    ],
+    "final_heading": 3,
+    "warning": "Genuine arbitrary-input finite factor, but incompatible with complete T12 rank1. Not a full interface or controller."
+  },
+  "analytic_review": [
+    "The two target returns are consecutive reads at the same physical C with incoming S. Alternating move axes imply any return has even numbers of horizontal and vertical steps, hence positive length divisible by4. Total below20 has exactly the six enumerated layouts; no unknown trajectory cutoff is imposed.",
+    "The inherited six-step RLRRLL preparation is actual and retains prepared BLACK helper lifetimes. 123 words fail literal alternation against arbitrary input. The unique genuine23-read factor is not discarded: its next X read is N/L at16, contradicting the supplied COMPLETE X=T12 rank1 S after actual FIRST R rank0.",
+    "Same-cell rank10->11 costs >=4. Exact previously signed ages P+6 and P-34 subtract to t12,3-t12,0=40+(t12,11-t12,8)>=64. This uses no exterior cap, period upper bound, WHITE helper shortcut, or assertion that total20 is attained. Other outer gaps and longer continuations remain open."
+  ]
+}

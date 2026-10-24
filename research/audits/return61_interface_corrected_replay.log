@@ -1,0 +1,44 @@
+{
+  "status": "exact all-age complete-history interface for phase61",
+  "domain": "m>=100,n>=100; recurrence conclusion takes m fixed then remote coordinates divergent",
+  "source_future": {
+    "u_lower": -108,
+    "z_upper": 65
+  },
+  "actual_future": {
+    "u_upper": 40,
+    "z_upper_m_constant": [
+      -4,
+      103
+    ]
+  },
+  "capture_time_m_n_constant": [
+    104,
+    520,
+    273239
+  ],
+  "capture_pose_x_m_n_constant": [
+    -2,
+    -2,
+    -88
+  ],
+  "capture_pose_y_m_n_constant": [
+    -2,
+    2,
+    27
+  ],
+  "capture_heading": 3,
+  "capture_phase": 0,
+  "capture_drift": [
+    -2,
+    -2
+  ],
+  "old_two_bit_archive_z_lower": -109,
+  "omitted_deposit_u_upper": -163,
+  "old_E_u_upper_at_m100": -384,
+  "remaining_corner_guards": {
+    "NW_source": "with yq=-2n-41 and gap=y-yq -> +infinity, u=-gap-13 -> -infinity",
+    "NE_source": "with yq=-2n-41 and gap=y-yq -> +infinity, z=gap-46 -> +infinity"
+  },
+  "certificate_sha256": "7e90f8167d69092fc3066a321e332c5479b9cd488528b9f1c3dfcf8d0effd1c8"
+}

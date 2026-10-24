@@ -1,0 +1,284 @@
+{
+  "status": "awaiting independent review; separate singleton claims only",
+  "canonical_W104": "LLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRR",
+  "canonical_W_sha256": "3472549ae2b1d6be48b2afa779c265dee76edf00d06fe986d177049bf6e541d1",
+  "claims": [
+    {
+      "label": "LRRLRRRRLRL",
+      "snapshot_prefix": "staged_two_cell_snapshots/lrrlrrrrlrl",
+      "stages": [
+        {
+          "prefix": "direct_mono_lrrlrrrrlrl_history4_scc0_context2",
+          "certificate": "direct_mono_lrrlrrrrlrl_history4_scc0_context2_patch2_cone.tsv",
+          "marks": "direct_mono_lrrlrrrrlrl_history4_scc0_context2_selected_marks.tsv",
+          "marked_types": [
+            4,
+            5,
+            6,
+            22,
+            24,
+            25,
+            26,
+            31,
+            32,
+            33,
+            38,
+            39,
+            40,
+            56,
+            57,
+            58,
+            59,
+            65,
+            66,
+            67,
+            92,
+            99,
+            100
+          ],
+          "recurrent_components_after_selected_marks": [
+            [
+              0,
+              1,
+              11,
+              12,
+              13,
+              14,
+              21,
+              23,
+              27,
+              28,
+              34,
+              35,
+              51,
+              52,
+              53,
+              54,
+              55,
+              60,
+              61,
+              62,
+              63,
+              64,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98
+            ]
+          ]
+        },
+        {
+          "prefix": "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0",
+          "certificate": "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_patch2_kernel.tsv",
+          "marks": "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_raw_marks.tsv",
+          "marked_types": [
+            2,
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "recurrent_components_after_selected_marks": [
+            [
+              1,
+              5,
+              12,
+              13,
+              22,
+              23,
+              27
+            ]
+          ]
+        },
+        {
+          "prefix": "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_residual0",
+          "certificate": "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_residual0_patch2_kernel.tsv",
+          "marks": "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_residual0_raw_marks.tsv",
+          "marked_types": [
+            2,
+            3
+          ],
+          "recurrent_components_after_selected_marks": [
+            [
+              1,
+              5,
+              6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "label": "RRRLRLLRRRR",
+      "snapshot_prefix": "staged_two_cell_snapshots/rrrlrllrrrr",
+      "stages": [
+        {
+          "prefix": "direct_mono_rrrlrllrrrr_history4_scc0_context2",
+          "certificate": "direct_mono_rrrlrllrrrr_history4_scc0_context2_patch2_cone.tsv",
+          "marks": "direct_mono_rrrlrllrrrr_history4_scc0_context2_selected_marks.tsv",
+          "marked_types": [
+            5,
+            7,
+            9,
+            10,
+            12,
+            31,
+            36,
+            37,
+            38,
+            40,
+            43,
+            45,
+            52,
+            53,
+            55,
+            57,
+            58,
+            60,
+            61,
+            64,
+            82,
+            83,
+            84,
+            85,
+            88
+          ],
+          "recurrent_components_after_selected_marks": [
+            [
+              1,
+              6,
+              13,
+              16,
+              26,
+              46,
+              47,
+              49,
+              67,
+              68,
+              70,
+              72,
+              73,
+              75,
+              78,
+              80,
+              81
+            ],
+            [
+              33
+            ],
+            [
+              39
+            ]
+          ]
+        },
+        {
+          "prefix": "direct_mono_rrrlrllrrrr_history4_scc0_context2_residual0",
+          "certificate": "direct_mono_rrrlrllrrrr_history4_scc0_context2_residual0_patch2_kernel.tsv",
+          "marks": "direct_mono_rrrlrllrrrr_history4_scc0_context2_residual0_raw_marks.tsv",
+          "marked_types": [
+            0,
+            2,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "recurrent_components_after_selected_marks": [
+            [
+              3,
+              14,
+              16
+            ],
+            [
+              7
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "files": {
+    "/workspace/shared/langton/word_stabilization/freeze_staged_two_cell_singletons.py": "053d1769c657f0841fbd85a6e2932313968ff43ddd1b4da2a767a70b5509ec7f",
+    "analyze_direct_macro_histories.py": "4c0699a1805d260415c4f99c0a9ea38effdb78e156d78acb97be48006b07502f",
+    "build_marker_context_quotient.py": "4fd355ab73a9e059cb177292cdc1aef9df2986e94e002edf85d7731547f08c8d",
+    "build_pruned_context_component.py": "f1cffbd477c003e013cb62c0ad5605593f6494ea2d1058945ffe386a97b1b417",
+    "certify_staged_periodic_tails.py": "cb33cb404c6294b82c18b2780b024dc2521b4ffcdb85339558ebffce7a30ecc7",
+    "direct_mono_lrrlrrrrlrl.returns.tsv": "c01e2879126dd47fe9b664a19be15e6bbdf2fe8844e033c4cc1527b0601d5ee2",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_grammar.json": "252ce9823fd9ee0c03dc6a7f9c65b8d1024249a9ba68cf7a0ce425b01deb7233",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_kernel.input": "17ad58d17929ae1cf224281322d9149504155f12b11ebd61a0b703d889bc650e",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_patch2_cone.tsv": "a37e5d578155f5251d23206320ba63c7fd1c7e3695a1ae996b57678a3f66df5f",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_patch2_kernel.fresh.tsv": "994c5f17d8eead986296a8ad6a67b68078a39d62d005abd4f5e8d516dfa7bfb9",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_patch2_kernel.summary.json": "ea437df8a19ea289501f205388152aed5a1a697b1c9d40aa3184b18d5f446964",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_patch2_pruned_graph.json": "0d9ceb85f23dde1db0a964c3f2348f21294e47697cbc36eb2acafa79769b2921",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_port_quotient.json": "a7aa2d2d1dd760cba9a42327ddcb8fe8e5197eaeb185b610b873a20bda3630a2",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_grammar.json": "3ca77d603260991071f82d0a08d8e06ae161cf44f286eb737f6e80d63ed16b3a",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_kernel.input": "9d7def848f86a2b53068c634d20890ab120da64eaf1c1c000c384fabcf135dc1",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_patch2_kernel.fresh.tsv": "365f730d3d6ab81163e949063dff9423a6c73a6f053257c2565656ed1f91cc32",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_patch2_kernel.summary.json": "dbefe7c398970f3ebc27f39167c74f0bc2e18635ea87172b420156b31fecdbc3",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_patch2_kernel.tsv": "ae69391c529e2400455592874e9ce3d5e96ac97a3b12f312c625c2ed1cbc91ec",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_patch2_pruned_graph.json": "c481ead06d24fcefbb3a9c9fa8485f7775cca2fd68c75d3f8748a1f86a437b81",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_port_quotient.json": "47fdda6854f34bc9eb7dfa05808180eb678b18bd867710712160ad07d546300e",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_raw_marks.tsv": "8c6b3c1ff05a9d7241175397a4f935da268de582bb134a98a16125e629a91d80",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_residual0_grammar.json": "a8c5f2b50b0fc3c3e6c947be393b08570b76b1abe48d1887faf31e55271ed358",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_residual0_kernel.input": "880e66544edbfc921565da9af288c497ef8c293183bbbd56585759bebcbb6c6c",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_residual0_patch2_kernel.fresh.tsv": "2675bb8932bca12a1f9f0d717c38a6d748624608b14134750333f2fdcf528759",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_residual0_patch2_kernel.summary.json": "4697aec130846684e8f6e89bd66b687b3d224b79b14471aef9f7ab5aa1c300f8",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_residual0_patch2_kernel.tsv": "838f2459a47ea3c88511b65aa2d1155fefc9e0f439dca0b0a11efa54093ed3f3",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_residual0_patch2_pruned_graph.json": "a6f420e65a3b85443379a7e8c111322f2e51ffafb917422703b5c81302545da4",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_residual0_port_quotient.json": "9e5cc6e588fc4e37c6af939a965a176606d165644518da6bdc5bb4e191c1195a",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_residual0_residual0_raw_marks.tsv": "2906860850978f986528a40b81299f3901940c157d7247dba98769b89823f25e",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_selected_charges.json": "236c1eb1e71de9412c12f31ebc7210e73881a6b2cb474b19d446e457e100e2b6",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_context2_selected_marks.tsv": "7c9484f2fa3cec644822ded6bab1f0009c8e258539dfb1efe63c9d989f50b246",
+    "direct_mono_lrrlrrrrlrl_history4_scc0_port_quotient.json": "df97f92101cd040043a3747b60e1842d727157064e6864e0ede8c326b196c4db",
+    "direct_mono_rrrlrllrrrr.returns.tsv": "a1c829f98e7765916aa36f96b21d47ccd44d8b5c635bf070a348e8547a10ab95",
+    "direct_mono_rrrlrllrrrr_history4_scc0_context2_grammar.json": "607e63a69ca9fa98577ff849b892efae467aa27d736dad6348310ecfb4ad4704",
+    "direct_mono_rrrlrllrrrr_history4_scc0_context2_kernel.input": "a009478da5ba352704e07adaa930e346a01f9aac50c338cf8510504ba7e53eba",
+    "direct_mono_rrrlrllrrrr_history4_scc0_context2_patch2_cone.tsv": "71967632862102fb5105c6c251768dbdd928f359d764c9d20205b4e12a24cb8b",
+    "direct_mono_rrrlrllrrrr_history4_scc0_context2_patch2_kernel.fresh.tsv": "64befbc05b6e2675b4bc5ad497770424b042c97234d2bd8d6d82e6fc503f184a",
+    "direct_mono_rrrlrllrrrr_history4_scc0_context2_patch2_kernel.summary.json": "3164a74dfb064dc71d207eaaaf868a76c219f92f6d9df35e3fc1f168607581fa",
+    "direct_mono_rrrlrllrrrr_history4_scc0_context2_patch2_pruned_graph.json": "32148be67b3928bc5deee1b7c64439b92a68eae21c1edfd8224968a185b7afa2",
+    "direct_mono_rrrlrllrrrr_history4_scc0_context2_port_quotient.json": "586025fc221929642f018af2e802470aff67bc3046fbc7a715e1215996e2c77f",
+    "direct_mono_rrrlrllrrrr_history4_scc0_context2_residual0_grammar.json": "303a82096b2738f1086455f78aacc0808412f22dd0f6a19e5d6f651c927e5589",
+    "direct_mono_rrrlrllrrrr_history4_scc0_context2_residual0_kernel.input": "c7f31a3bd77122b1b903c8afcf72a223616f440c441cab395f77700d809ec649",
+    "direct_mono_rrrlrllrrrr_history4_scc0_context2_residual0_patch2_kernel.fresh.tsv": "f0a09efab761db2c7a26aba4ee832bec4b8b8eaa0caaeb440ca9b3e563471a42",
+    "direct_mono_rrrlrllrrrr_history4_scc0_context2_residual0_patch2_kernel.summary.json": "039d717f234c3f6ba665acda4d48560a26c635fe5accd4f42a7e62481d1e2e70",
+    "direct_mono_rrrlrllrrrr_history4_scc0_context2_residual0_patch2_kernel.tsv": "09745a740fb561d31724c76cfbf88030cc8cce2ced3a7ad8a6b2a79859c63143",
+    "direct_mono_rrrlrllrrrr_history4_scc0_context2_residual0_patch2_pruned_graph.json": "a8c281f9b7706bed27b1452d5eee1eec48f9d78671ff56bfea22c66b6b1140ab",
+    "direct_mono_rrrlrllrrrr_history4_scc0_context2_residual0_port_quotient.json": "44d0883fb31c6e7f1c46fbfac2d2e70d58a937edf1336047524fe53f12b35764",
+    "direct_mono_rrrlrllrrrr_history4_scc0_context2_residual0_raw_marks.tsv": "8966b4b41f64043f51bf2de8fa8234ee6993eed5d9936f9cac90f960094b78c5",
+    "direct_mono_rrrlrllrrrr_history4_scc0_context2_selected_charges.json": "31eda5efb470dcb572c50b504cc830f5d14e4030bff8628b076d89b4acb00c97",
+    "direct_mono_rrrlrllrrrr_history4_scc0_context2_selected_marks.tsv": "a46ce226b5997400a54c20c7a0330797cb1058b7664b9d171df6534eb521d293",
+    "direct_mono_rrrlrllrrrr_history4_scc0_port_quotient.json": "03cad5369b747ee87eea2e6959f6253a5709a1b8fcd81257b8e8e0a658b1b248",
+    "direct_monochromatic_returns.cpp": "91ce0439422c4c83280be54ef02ee57a308a9bc40c0044a5c321ba3349ba967d",
+    "extract_patch2_dependency_cone.cpp": "213282ccb3ed95d59fa1beecb8eade242603bfc1f959921aadd561ce954e751b",
+    "generic_patch2_spatial_kernel.cpp": "aa7f7b28c123a9b5a6ed9fc11802819c40614a905e40b240d97227295d258769",
+    "minimize_charged_contexts.py": "0bca6b87c3002762a782195f061ffc43a688fb432b3c2b271c0952cb06d2a576",
+    "multi_cell_spatial_inference.md": "31d648c60e7b9f0c1ed7c06f22ad3749e17e135b0de6a35a0ea93e1e95ed0a9f",
+    "prepare_marker_quotient_kernel.py": "829ea97025ad4ed996b75cae5ea9cb0b367f5cdf9c09a3f7ab2e8f7c4a14143c",
+    "prune_charged_context_graph.py": "fabb3cb238b38408f29911307bc84e97d735c6a87f44535262de8a598745ecaa",
+    "staged_two_cell_periodic_certificates.json": "87c67a96bb8687225ba905d4add7c87bb45bcbcbe89da8277d9e6b8b0e1592b0",
+    "staged_two_cell_singletons.md": "5bb0c345d13fffa6dd1d29dcf10c8f2e3412c9fd897b77c72b109f7589ea76f4",
+    "staged_two_cell_snapshots/lrrlrrrrlrl.log": "ba549ab4d1c684886785f3df5911b95b768d86c7298f89f3232c9d6728854093",
+    "staged_two_cell_snapshots/lrrlrrrrlrl.returns.tsv": "c01e2879126dd47fe9b664a19be15e6bbdf2fe8844e033c4cc1527b0601d5ee2",
+    "staged_two_cell_snapshots/lrrlrrrrlrl_history4_scc0_port_quotient.json": "63f84ade019861f7a0e72b15a2f6a4b59fca673caa97fc20e3c86011299b0077",
+    "staged_two_cell_snapshots/lrrlrrrrlrl_history4_summary.json": "6bbe19d78d24ad556317f11f17073d05ff6488920d6fc717e8ae094fa61fa57a",
+    "staged_two_cell_snapshots/lrrlrrrrlrl_history4_words.json": "9b65c3c380a8f9bcc49eddb119f9dff40f98f9c16be0347a0e0177db687257b6",
+    "staged_two_cell_snapshots/rrrlrllrrrr.log": "5fd7cbd890b6850f527c443931b1dd6ed93dac9c14dba726497c3e24c266ec96",
+    "staged_two_cell_snapshots/rrrlrllrrrr.returns.tsv": "a1c829f98e7765916aa36f96b21d47ccd44d8b5c635bf070a348e8547a10ab95",
+    "staged_two_cell_snapshots/rrrlrllrrrr_history4_scc0_port_quotient.json": "6427df9f8e021b72d0e6ea99fd8bcdfbf7efde0cd6306180ee31e4be099bb9e4",
+    "staged_two_cell_snapshots/rrrlrllrrrr_history4_summary.json": "0fc9be7fd12091a29da9ff44b76eca3e4dfe243eec0b32fb34068972109d96c8",
+    "staged_two_cell_snapshots/rrrlrllrrrr_history4_words.json": "76ca180ccaadb7e361078c3ac2b2a725d53523166aea862180a36032b97970c3"
+  }
+}

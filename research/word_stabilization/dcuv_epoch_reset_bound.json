@@ -1,0 +1,49 @@
+{
+  "status": "Exact arithmetic controls; epoch-reset proof pending independent review",
+  "core_offsets": [
+    2,
+    52,
+    54,
+    -8
+  ],
+  "baseline_weight": 60,
+  "minimum_typed_weight": -60,
+  "reset_cost": 120,
+  "U_core_output_cost": 100,
+  "U_prefix_maximum": 40,
+  "DCV_prefix_maximum": 36,
+  "initial_activation_cost": 76,
+  "U_cost_attainers": [
+    [
+      100,
+      9,
+      0,
+      [
+        0,
+        7
+      ]
+    ]
+  ],
+  "prefix_attainers": [
+    [
+      40,
+      9,
+      51,
+      0,
+      [
+        0,
+        7
+      ]
+    ]
+  ],
+  "B": "57+38(m-5)+60u",
+  "R": "ceil(2B/5)",
+  "t": "floor((2R+1)^2/3)",
+  "duration": "20R(t+1)+28t",
+  "hashes": {
+    "word_stabilization/dcv_free_direction_family102.json": "838a458a906b214d19888d92c3fbba6b5440387fe3cbb064005155753125d24d",
+    "word_stabilization/dcv_producer_closed_family.tsv": "c4585979213b8f6bdec63aee6daec119ab16226bce6a9d5401a3ae5968d994e4",
+    "core_periodicity_new/chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "audits/check_dcuv_boundary_pruning_independent.json": "dad9fdf4687f588f9985902c242c2dc6b5d2f62947c8132a0a613a20fbe0a132"
+  }
+}

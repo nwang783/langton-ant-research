@@ -1,0 +1,184 @@
+{
+  "status": "PASS conditional contact-or-SAME-LEFT persistence after a star-MISS first foreign",
+  "manifest": "bf1018d69a9ee2f963227dc04d49f045fea4ee2febdd11c2c6613913e92458a5",
+  "LEFT_universe": 174,
+  "LEFT_filters": {
+    "LEFT_original_in_entry_core": 60,
+    "wrong_active_sector": 87,
+    "atom_chord_contacts_creating_U_chord": 10,
+    "LEFT_BLACK_vs_before_WHITE": 16,
+    "sole_no_old_U_contact_LEFT_loss": 1
+  },
+  "first_other_original_loss_universe": 112,
+  "other_filters": {
+    "wrong_active_sector": 56,
+    "genuine_held_original_in_entry_core": 42,
+    "possible_first_a_loss_port": 4,
+    "does_not_MISS_both_held_LEFT_originals": 10
+  },
+  "four_ports": [
+    {
+      "atom": "D",
+      "entry": [
+        1,
+        -1,
+        0
+      ],
+      "exit": [
+        2,
+        0,
+        0
+      ],
+      "first_L_tick0": 11,
+      "RAW_length": 10,
+      "owner": "next actual RAW",
+      "owner_tick0": 1
+    },
+    {
+      "atom": "U",
+      "entry": [
+        2,
+        -4,
+        0
+      ],
+      "exit": [
+        2,
+        0,
+        0
+      ],
+      "first_L_tick0": 29,
+      "RAW_length": 28,
+      "owner": "next actual RAW",
+      "owner_tick0": 1
+    },
+    {
+      "atom": "U",
+      "entry": [
+        2,
+        -2,
+        0
+      ],
+      "exit": [
+        2,
+        2,
+        0
+      ],
+      "first_L_tick0": 13,
+      "RAW_length": 28,
+      "owner": "own RAW",
+      "owner_tick0": 13
+    },
+    {
+      "atom": "V",
+      "entry": [
+        1,
+        -3,
+        0
+      ],
+      "exit": [
+        2,
+        0,
+        0
+      ],
+      "first_L_tick0": 19,
+      "RAW_length": 18,
+      "owner": "next actual RAW",
+      "owner_tick0": 1
+    }
+  ],
+  "source_tail_interfaces": [
+    {
+      "type": "U",
+      "w_reads": [
+        [
+          11,
+          "R"
+        ],
+        [
+          15,
+          "L"
+        ],
+        [
+          19,
+          "R"
+        ]
+      ],
+      "tail_chords": []
+    },
+    {
+      "type": "UC",
+      "w_reads": [
+        [
+          11,
+          "R"
+        ],
+        [
+          15,
+          "L"
+        ],
+        [
+          19,
+          "R"
+        ]
+      ],
+      "tail_chords": [
+        [
+          [
+            -1,
+            7
+          ],
+          [
+            1,
+            9
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "UCC",
+      "w_reads": [
+        [
+          11,
+          "R"
+        ],
+        [
+          15,
+          "L"
+        ],
+        [
+          19,
+          "R"
+        ]
+      ],
+      "tail_chords": [
+        [
+          [
+            -1,
+            7
+          ],
+          [
+            1,
+            9
+          ]
+        ],
+        [
+          [
+            1,
+            9
+          ],
+          [
+            -1,
+            11
+          ]
+        ]
+      ]
+    }
+  ],
+  "analytic_review": [
+    "Before the first ordered LEFT loss, the two SAME source-R identities are current at each actual cut. An old BLACK cell outside entry K either has no context read or first-L input; first-R conflicts. A marker-first-L means exit-core capture at the earlier atom, not a postponed hidden loss. Every ordinary K cell is physically visited in its first six RAW reads, so an alive original cannot pass unnoticed through an intermediate core.",
+    "The fresh complete role universe leaves only U(1,-1,N) without contact with the old creating-U chord. It physically reads both LEFT originals and requires original position(1,0) WHITE. Its strict midpoint and the source-U strict midpoint are joined by the SAME held w edge. The source remainder, genuine UC/UCC tails, and final consuming-U first half meet this edge only at their designated endpoints. All intermediate ordinary and repaired foreign pieces avoid it by current-ID barrier and the foreign complete-context MISS premise.",
+    "Under assumed simple expanded proxy the B-to-E subarc plus that held physical edge is a Jordan curve. Tangent lift includes all source C tails and all later actual Cs. Exactly one foreign contributes +pi; the only possible -2pi correction is a preceding C, excluded by actual complete-eight-to-foreign adjacency. Both endpoint tangents are N; bridge joins +pi/4 and -pi/4 cancel. Thus n+2=+/-4, n>=0 forces n2, not a sampled age range.",
+    "Original(1,0) is still current after A by genuine old-eight U-star permanence and A complete-context MISS. Before its eventual required WHITE state it has a first ordinary ordered loss while LEFT remains held. The four exhaustively reconstructed ports are all N, no C, ending at x>=2,y>=0. Their postforeign N heading forces clock m2 within0..2, leaving no later C. Following zero-C N atoms D,V,U have increments(1,1),(1,3),(0,4), so they cannot reach target(1,-1). Later replacement R at the same cell does not evade this head obstruction.",
+    "The theorem is conditional on whole-proxy simplicity and foreign star-MISS, and its contrapositive permits ANY earlier/within-atom proxy contact. It is not unconditional persistence, second-return simplicity, a postforeign maturity law, or an exclusion of foreign star erosion. The first-contact ENTRY conclusion stops before executing that atom. The age<=4 corollary only supplies the preforeign MISS premise."
+  ]
+}

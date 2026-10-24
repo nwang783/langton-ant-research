@@ -1,0 +1,108 @@
+{
+  "records": [
+    {
+      "offset_sign": -1,
+      "mismatch_states": 23,
+      "bounded_repair_parameter_states": 1,
+      "any_constant_parameter_offset_with_bounded_repair": false,
+      "witness": null,
+      "source": "G",
+      "target": "G"
+    },
+    {
+      "offset_sign": 1,
+      "mismatch_states": 36,
+      "bounded_repair_parameter_states": 1,
+      "any_constant_parameter_offset_with_bounded_repair": false,
+      "witness": null,
+      "source": "G",
+      "target": "G"
+    },
+    {
+      "offset_sign": -1,
+      "mismatch_states": 18,
+      "bounded_repair_parameter_states": 1,
+      "any_constant_parameter_offset_with_bounded_repair": false,
+      "witness": null,
+      "source": "G",
+      "target": "H"
+    },
+    {
+      "offset_sign": 1,
+      "mismatch_states": 26,
+      "bounded_repair_parameter_states": 1,
+      "any_constant_parameter_offset_with_bounded_repair": false,
+      "witness": null,
+      "source": "G",
+      "target": "H"
+    },
+    {
+      "offset_sign": -1,
+      "mismatch_states": 17,
+      "bounded_repair_parameter_states": 1,
+      "any_constant_parameter_offset_with_bounded_repair": false,
+      "witness": null,
+      "source": "H",
+      "target": "G"
+    },
+    {
+      "offset_sign": 1,
+      "mismatch_states": 42,
+      "bounded_repair_parameter_states": 1,
+      "any_constant_parameter_offset_with_bounded_repair": false,
+      "witness": null,
+      "source": "H",
+      "target": "G"
+    },
+    {
+      "offset_sign": -1,
+      "mismatch_states": 12,
+      "bounded_repair_parameter_states": 1,
+      "any_constant_parameter_offset_with_bounded_repair": false,
+      "witness": null,
+      "source": "H",
+      "target": "H"
+    },
+    {
+      "offset_sign": 1,
+      "mismatch_states": 30,
+      "bounded_repair_parameter_states": 1,
+      "any_constant_parameter_offset_with_bounded_repair": false,
+      "witness": null,
+      "source": "H",
+      "target": "H"
+    }
+  ],
+  "arbitrary_depth_checks": [
+    {
+      "mismatch_states": 13,
+      "far_witness_relation_states": 1,
+      "all_source_r_and_target_s_at_least_one_have_far_mismatch": true,
+      "source": "G",
+      "target": "G"
+    },
+    {
+      "mismatch_states": 16,
+      "far_witness_relation_states": 1,
+      "all_source_r_and_target_s_at_least_one_have_far_mismatch": true,
+      "source": "G",
+      "target": "H"
+    },
+    {
+      "mismatch_states": 17,
+      "far_witness_relation_states": 1,
+      "all_source_r_and_target_s_at_least_one_have_far_mismatch": true,
+      "source": "H",
+      "target": "G"
+    },
+    {
+      "mismatch_states": 21,
+      "far_witness_relation_states": 1,
+      "all_source_r_and_target_s_at_least_one_have_far_mismatch": true,
+      "source": "H",
+      "target": "H"
+    }
+  ],
+  "seconds": 0.5491158929944504,
+  "scope": "Every G/H output at any source r>=0 mismatches every G/H target s>=1 on its required read set, at a listed cell x>=2s. Thus no direct renewal by any parameter update, even allowing repairs in one fixed finite controller as target s grows. Exact same physical pose, minimal prepared input families. Not a ban on other phases, moving controllers, new remote work, or arbitrary ambient backgrounds."
+}

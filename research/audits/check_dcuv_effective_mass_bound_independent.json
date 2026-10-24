@@ -1,0 +1,32 @@
+{
+  "status": "PASS independent raw lift, computable restricted mass-only lifetime and foreign-count recurrence",
+  "note_sha256": "4234c2a3d4c5fcef518e4ed3d9e42cbca05677d00157c2c931e7970ac1fe825f",
+  "author_manifest_sha256": "50664f91cce11a73443850ca8de824e789c32c1d87b1f1d88bb3ad5d25073b74",
+  "all8_manifest_sha256": "da766cab53d45efb5ea75167b176ad851ce3c85212ce9a544d75dcb474a47c93",
+  "foreign": [
+    {
+      "index": 4,
+      "length": 56,
+      "net_black": 2
+    },
+    {
+      "index": 5,
+      "length": 64,
+      "net_black": 6
+    },
+    {
+      "index": 6,
+      "length": 74,
+      "net_black": 6
+    }
+  ],
+  "analytically_checked": [
+    "Macro-prefix tree is decidable, prefix-closed and finitely branching.",
+    "An infinite branch with first-L budget m has a single finite union black seed of size at most m; no far-coordinate cropping.",
+    "Raw DCUV termination therefore makes the whole tree finite, so exhaustive traversal defines total monotone L(m).",
+    "a_(i+1)=a_i+L(a_i)+6 bounds actual masses across a raw block and one foreign macro.",
+    "G(m,k)=74*k+sum L(a_i) is total and bounds complete raw duration, not foreign-event count."
+  ],
+  "numerical_mass_tree_evaluated": false,
+  "scope": "Restricted literal DCUV and conditional seven-word factors only; not a global mass-only defect budget or capture theorem."
+}

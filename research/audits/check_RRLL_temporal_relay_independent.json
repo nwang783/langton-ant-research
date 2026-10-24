@@ -1,0 +1,46 @@
+{
+  "status": "PASS all-index all-Y temporal relay; not physical strip deletion",
+  "files": {
+    "RRLL_flat_strip_is_one_exact_temporal_archive_interval.md": "a8422e3e30c8e5a3bad234f3817385f5805a32513387ca5eed0900ee1a423324",
+    "check_RRLL_strip_temporal_relay.py": "9a7629526811bc8ae08b3561fb752eeb22efd2439dbb53c768a4a939f828c81a",
+    "check_RRLL_strip_temporal_relay.json": "8ce9bb6f84b203bd715a2ea7db6b12a56d15fc38d997451de6cd0aebb382989a"
+  },
+  "script": "f1b9728f99403c69fc544283345d6e015f23a570d118f9a5dc2c9d6efe017e4b",
+  "dependency": "c60807ab27a7fa005bb0b547849f7e6653b5999e47613d025ed7caee42d81abc",
+  "controls": [
+    {
+      "k": 1,
+      "flat_intervals": 2,
+      "selected_internal_edges": 1,
+      "effective_length": 159,
+      "integrated_age": 160
+    },
+    {
+      "k": 2,
+      "flat_intervals": 4,
+      "selected_internal_edges": 5,
+      "effective_length": 251,
+      "integrated_age": 256
+    },
+    {
+      "k": 3,
+      "flat_intervals": 6,
+      "selected_internal_edges": 9,
+      "effective_length": 359,
+      "integrated_age": 368
+    },
+    {
+      "k": 7,
+      "flat_intervals": 14,
+      "selected_internal_edges": 25,
+      "effective_length": 951,
+      "integrated_age": 976
+    }
+  ],
+  "analytic_review": [
+    "For every index the signed complete ordinal table gives a_j.L1 -> b_j.L3 and the full six-event LL chain a_(j+1).R2,b_j.L1,v_j.L3,u_(j+1).L3,a_(j+1).L3,b_j.R2. These formulas include every internal bridge; k=1 has only the RR edge.",
+    "Rank gaps>=4 imply strict reverse-spatial start/end order. Adjacent overlaps alternate1 and3; two-apart gaps are>=4. Specifically end(b_j)=start(a_j)+1 and start(b_(j-1))=T2(a_j)+1>=start(a_j)+5. Also end(a_j)=start(b_(j-1))+3, while start(a_(j-1))>=start(b_(j-1))+7. This proves absence of third overlap for ALL k, not sample extrapolation.",
+    "The consecutive union is exactly U, and double coverage is exactly the4k-3 selected actual boundary edge intervals. Thus the pointwise identity and integrated age identity hold for ANY clocks satisfying the complete ordinal/rank constraints, not only the supplied open schedule. Summing all P-translates preserves equality and every old copy.",
+    "Cancellation against signed5671 is a temporal-cochain substitution only, conditional on a proper full boundary embedding with distinct quotient event classes. Spatial displacement2k-1, curvature+2, every exterior connector, full voltages and physical read constraints remain. No ant splice, fresh output payment, bounded age, complete front or period inference follows. End-X changes are explicitly outside the positive relay theorem."
+  ]
+}

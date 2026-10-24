@@ -1,0 +1,58 @@
+{
+  "scope": "eight independent heading-turn images, identity or legal charge-preserving unit length9; growing fixed root only",
+  "state_order": [
+    "N-R",
+    "N-L",
+    "E-R",
+    "E-L",
+    "S-R",
+    "S-L",
+    "W-R",
+    "W-L"
+  ],
+  "domains": [
+    [
+      "R",
+      "RRRRLLLLR",
+      "RLRRRRLLL",
+      "RLLRRRRLL",
+      "RLLLLRRRR",
+      "LLRRRRLLR",
+      "LLLRRRRLR"
+    ],
+    [
+      "L",
+      "RRRLLLLRL",
+      "RRLLLLRRL",
+      "LRRRRLLLL",
+      "LRRLLLLRR",
+      "LRLLLLRRR",
+      "LLLLRRRRL"
+    ]
+  ],
+  "prefix_cap": 10000,
+  "results": [
+    {
+      "root": 0,
+      "nodes": 194,
+      "latest_conflict": 43,
+      "max_coarse_reads": 7,
+      "covered_rooted_controllers": 3294172,
+      "expected_rooted_controllers": 3294172,
+      "conflict_branches": 166,
+      "survivors": []
+    },
+    {
+      "root": 1,
+      "nodes": 194,
+      "latest_conflict": 43,
+      "max_coarse_reads": 7,
+      "covered_rooted_controllers": 3294172,
+      "expected_rooted_controllers": 3294172,
+      "conflict_branches": 166,
+      "survivors": []
+    }
+  ],
+  "seconds": 0.002376675001869444,
+  "records_sha256": "9520b496ad2c3a1156564fc68c043883091b6e66f9d28176a01d72226805b88c"
+}

@@ -1,0 +1,312 @@
+{
+  "status": "complete finite five-cell cycle with eternal standard tail",
+  "phase": 60,
+  "domain": "m>=100,n-m>=100",
+  "variables": "u=m-100>=0,v=n-m-100>=0",
+  "forced_c_x_offset": -52,
+  "first_c_read_time": [
+    520,
+    520,
+    239220
+  ],
+  "first_c_phase": 72,
+  "source_capture_time": [
+    416,
+    312,
+    161609
+  ],
+  "total_capture_time": [
+    728,
+    728,
+    356785
+  ],
+  "total_capture_pose": [
+    [
+      [
+        -2,
+        -2,
+        -465
+      ],
+      [
+        2,
+        2,
+        404
+      ]
+    ],
+    3
+  ],
+  "tail": {
+    "drift": [
+      -2,
+      -2
+    ],
+    "heading": 3,
+    "required_cells": 40,
+    "odd_cells": 32
+  },
+  "tail_phase": 0,
+  "remote_d_never_read": true,
+  "statistics": {
+    "finite_read_constraints": 12264,
+    "periodic_read_constraints": 248,
+    "affine_guards": 26791,
+    "excluded_isolated_equalities": 94709386
+  },
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        0,
+        2357
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -3
+          ],
+          [
+            0,
+            0,
+            -8
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 1,
+      "time": [
+        104,
+        0,
+        13277
+      ],
+      "pose": [
+        [
+          [
+            2,
+            0,
+            207
+          ],
+          [
+            -2,
+            0,
+            -218
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 2,
+      "time": [
+        104,
+        0,
+        16413
+      ],
+      "pose": [
+        [
+          [
+            2,
+            0,
+            223
+          ],
+          [
+            -2,
+            0,
+            -238
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 3,
+      "time": [
+        104,
+        0,
+        17245
+      ],
+      "pose": [
+        [
+          [
+            2,
+            0,
+            239
+          ],
+          [
+            -2,
+            0,
+            -254
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 4,
+      "time": [
+        104,
+        0,
+        26292
+      ],
+      "pose": [
+        [
+          [
+            2,
+            0,
+            262
+          ],
+          [
+            -2,
+            0,
+            -274
+          ]
+        ],
+        2
+      ]
+    },
+    {
+      "segment": 5,
+      "time": [
+        208,
+        104,
+        43972
+      ],
+      "pose": [
+        [
+          [
+            4,
+            2,
+            602
+          ],
+          [
+            -4,
+            -2,
+            -614
+          ]
+        ],
+        2
+      ]
+    },
+    {
+      "segment": 6,
+      "time": [
+        208,
+        104,
+        95090
+      ],
+      "pose": [
+        [
+          [
+            4,
+            2,
+            639
+          ],
+          [
+            -4,
+            -2,
+            -577
+          ]
+        ],
+        0
+      ]
+    },
+    {
+      "segment": 7,
+      "time": [
+        312,
+        208,
+        112978
+      ],
+      "pose": [
+        [
+          [
+            2,
+            0,
+            295
+          ],
+          [
+            -2,
+            0,
+            -233
+          ]
+        ],
+        0
+      ]
+    },
+    {
+      "segment": 8,
+      "time": [
+        312,
+        208,
+        139990
+      ],
+      "pose": [
+        [
+          [
+            2,
+            0,
+            223
+          ],
+          [
+            -2,
+            0,
+            -181
+          ]
+        ],
+        0
+      ]
+    },
+    {
+      "segment": 9,
+      "time": [
+        416,
+        312,
+        159646
+      ],
+      "pose": [
+        [
+          [
+            0,
+            -2,
+            -155
+          ],
+          [
+            0,
+            2,
+            197
+          ]
+        ],
+        0
+      ]
+    },
+    {
+      "segment": 10,
+      "time": [
+        416,
+        312,
+        161609
+      ],
+      "pose": [
+        [
+          [
+            0,
+            -2,
+            -203
+          ],
+          [
+            0,
+            2,
+            202
+          ]
+        ],
+        3
+      ]
+    }
+  ],
+  "template_sha256": "f30d0965fc8a47aa481a392cfebbabb445a499f5e2ad7059040f8e51b3fde6cf",
+  "parent_certificate_sha256": "72a5bc77928f241b65b0d5dde1f70772cfffeb5c41000366cb98889d4247ceff"
+}

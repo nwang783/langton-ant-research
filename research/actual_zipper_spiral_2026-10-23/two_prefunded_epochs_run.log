@@ -1,0 +1,466 @@
+[
+  {
+    "q1": 2,
+    "q2": 2,
+    "M": 73,
+    "first_path_edges": 17,
+    "collector_edges": 19,
+    "connector_edges": 3,
+    "prefunded_branch_edges": 34,
+    "second_path_edges": 35,
+    "first_gain": -1,
+    "second_gain": -1,
+    "segments": [
+      {
+        "name": "first_ordinary_epoch",
+        "T": 33,
+        "entry_mass": 73,
+        "exit_mass": 72,
+        "gain": -1,
+        "entry_active_mass": 73,
+        "exit_active_mass": 0,
+        "blocks": 17,
+        "births": [
+          0,
+          0
+        ],
+        "erasures": [
+          0,
+          0
+        ],
+        "ranks": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "R4_reset",
+        "T": 5,
+        "entry_mass": 72,
+        "exit_mass": 75,
+        "gain": 3,
+        "entry_active_mass": 0,
+        "exit_active_mass": 72,
+        "blocks": 1,
+        "births": [
+          0,
+          1
+        ],
+        "erasures": [
+          0,
+          1
+        ],
+        "ranks": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "second_ordinary_epoch",
+        "T": 69,
+        "entry_mass": 75,
+        "exit_mass": 74,
+        "gain": -1,
+        "entry_active_mass": 72,
+        "exit_active_mass": 0,
+        "blocks": 35,
+        "births": [
+          0,
+          0
+        ],
+        "erasures": [
+          0,
+          0
+        ],
+        "ranks": [
+          0,
+          0
+        ]
+      }
+    ],
+    "first_following_ordinary_blocks": [
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 0,
+        "active_after": 34
+      },
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 1,
+        "active_after": 33
+      },
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 1,
+        "active_after": 32
+      },
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 0,
+        "active_after": 31
+      },
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 1,
+        "active_after": 30
+      },
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 1,
+        "active_after": 29
+      }
+    ],
+    "initial_ranks": [
+      0,
+      0
+    ]
+  },
+  {
+    "q1": 6,
+    "q2": 6,
+    "M": 329,
+    "first_path_edges": 97,
+    "collector_edges": 115,
+    "connector_edges": 3,
+    "prefunded_branch_edges": 114,
+    "second_path_edges": 115,
+    "first_gain": 3,
+    "second_gain": 3,
+    "segments": [
+      {
+        "name": "first_ordinary_epoch",
+        "T": 197,
+        "entry_mass": 329,
+        "exit_mass": 332,
+        "gain": 3,
+        "entry_active_mass": 329,
+        "exit_active_mass": 0,
+        "blocks": 97,
+        "births": [
+          0,
+          0
+        ],
+        "erasures": [
+          0,
+          0
+        ],
+        "ranks": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "R4_reset",
+        "T": 5,
+        "entry_mass": 332,
+        "exit_mass": 335,
+        "gain": 3,
+        "entry_active_mass": 0,
+        "exit_active_mass": 332,
+        "blocks": 1,
+        "births": [
+          0,
+          1
+        ],
+        "erasures": [
+          0,
+          1
+        ],
+        "ranks": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "second_ordinary_epoch",
+        "T": 233,
+        "entry_mass": 335,
+        "exit_mass": 338,
+        "gain": 3,
+        "entry_active_mass": 332,
+        "exit_active_mass": 0,
+        "blocks": 115,
+        "births": [
+          0,
+          0
+        ],
+        "erasures": [
+          0,
+          0
+        ],
+        "ranks": [
+          0,
+          0
+        ]
+      }
+    ],
+    "first_following_ordinary_blocks": [
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 0,
+        "active_after": 114
+      },
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 1,
+        "active_after": 113
+      },
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 1,
+        "active_after": 112
+      },
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 0,
+        "active_after": 111
+      },
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 1,
+        "active_after": 110
+      },
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 1,
+        "active_after": 109
+      }
+    ],
+    "initial_ranks": [
+      0,
+      0
+    ]
+  },
+  {
+    "q1": 10,
+    "q2": 10,
+    "M": 777,
+    "first_path_edges": 241,
+    "collector_edges": 275,
+    "connector_edges": 3,
+    "prefunded_branch_edges": 258,
+    "second_path_edges": 259,
+    "first_gain": 7,
+    "second_gain": 7,
+    "segments": [
+      {
+        "name": "first_ordinary_epoch",
+        "T": 489,
+        "entry_mass": 777,
+        "exit_mass": 784,
+        "gain": 7,
+        "entry_active_mass": 777,
+        "exit_active_mass": 0,
+        "blocks": 241,
+        "births": [
+          0,
+          0
+        ],
+        "erasures": [
+          0,
+          0
+        ],
+        "ranks": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "R4_reset",
+        "T": 5,
+        "entry_mass": 784,
+        "exit_mass": 787,
+        "gain": 3,
+        "entry_active_mass": 0,
+        "exit_active_mass": 784,
+        "blocks": 1,
+        "births": [
+          0,
+          1
+        ],
+        "erasures": [
+          0,
+          1
+        ],
+        "ranks": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "second_ordinary_epoch",
+        "T": 525,
+        "entry_mass": 787,
+        "exit_mass": 794,
+        "gain": 7,
+        "entry_active_mass": 784,
+        "exit_active_mass": 0,
+        "blocks": 259,
+        "births": [
+          0,
+          0
+        ],
+        "erasures": [
+          0,
+          0
+        ],
+        "ranks": [
+          0,
+          0
+        ]
+      }
+    ],
+    "first_following_ordinary_blocks": [
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 0,
+        "active_after": 258
+      },
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 1,
+        "active_after": 257
+      },
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 1,
+        "active_after": 256
+      },
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 0,
+        "active_after": 255
+      },
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 1,
+        "active_after": 254
+      },
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 1,
+        "active_after": 253
+      }
+    ],
+    "initial_ranks": [
+      0,
+      0
+    ]
+  },
+  {
+    "q1": 14,
+    "q2": 14,
+    "M": 1417,
+    "first_path_edges": 449,
+    "collector_edges": 499,
+    "connector_edges": 3,
+    "prefunded_branch_edges": 466,
+    "second_path_edges": 467,
+    "first_gain": 11,
+    "second_gain": 11,
+    "segments": [
+      {
+        "name": "first_ordinary_epoch",
+        "T": 909,
+        "entry_mass": 1417,
+        "exit_mass": 1428,
+        "gain": 11,
+        "entry_active_mass": 1417,
+        "exit_active_mass": 0,
+        "blocks": 449,
+        "births": [
+          0,
+          0
+        ],
+        "erasures": [
+          0,
+          0
+        ],
+        "ranks": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "R4_reset",
+        "T": 5,
+        "entry_mass": 1428,
+        "exit_mass": 1431,
+        "gain": 3,
+        "entry_active_mass": 0,
+        "exit_active_mass": 1428,
+        "blocks": 1,
+        "births": [
+          0,
+          1
+        ],
+        "erasures": [
+          0,
+          1
+        ],
+        "ranks": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "second_ordinary_epoch",
+        "T": 945,
+        "entry_mass": 1431,
+        "exit_mass": 1442,
+        "gain": 11,
+        "entry_active_mass": 1428,
+        "exit_active_mass": 0,
+        "blocks": 467,
+        "births": [
+          0,
+          0
+        ],
+        "erasures": [
+          0,
+          0
+        ],
+        "ranks": [
+          0,
+          0
+        ]
+      }
+    ],
+    "first_following_ordinary_blocks": [
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 0,
+        "active_after": 466
+      },
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 1,
+        "active_after": 465
+      },
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 1,
+        "active_after": 464
+      },
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 0,
+        "active_after": 463
+      },
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 1,
+        "active_after": 462
+      },
+      {
+        "segment": "second_ordinary_epoch",
+        "r": 1,
+        "active_after": 461
+      }
+    ],
+    "initial_ranks": [
+      0,
+      0
+    ]
+  }
+]

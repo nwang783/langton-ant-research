@@ -1,0 +1,638 @@
+{
+  "scope": "Literal finite prepared controls for the nested reader words only.\nThese omit every earlier/future complete-WHITE supplier obligation and are\nNOT complete reader inventories, fronts, regenerative factors or controllers.\n",
+  "cases": [
+    {
+      "name": "eight",
+      "word": "LLRRRRLL",
+      "initial_black": [
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "final_black": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "start": [
+        [
+          2,
+          -1
+        ],
+        "E"
+      ],
+      "end": [
+        [
+          2,
+          -1
+        ],
+        "E"
+      ],
+      "mass": [
+        3,
+        3
+      ],
+      "trace": [
+        {
+          "t": 0,
+          "cell": [
+            2,
+            -1
+          ],
+          "incoming": "E",
+          "turn": "L",
+          "black_before": [
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              -1
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "t": 1,
+          "cell": [
+            2,
+            0
+          ],
+          "incoming": "N",
+          "turn": "L",
+          "black_before": [
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "t": 2,
+          "cell": [
+            1,
+            0
+          ],
+          "incoming": "W",
+          "turn": "R",
+          "black_before": [
+            [
+              1,
+              -1
+            ]
+          ]
+        },
+        {
+          "t": 3,
+          "cell": [
+            1,
+            1
+          ],
+          "incoming": "N",
+          "turn": "R",
+          "black_before": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "t": 4,
+          "cell": [
+            2,
+            1
+          ],
+          "incoming": "E",
+          "turn": "R",
+          "black_before": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "t": 5,
+          "cell": [
+            2,
+            0
+          ],
+          "incoming": "S",
+          "turn": "R",
+          "black_before": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "t": 6,
+          "cell": [
+            1,
+            0
+          ],
+          "incoming": "W",
+          "turn": "L",
+          "black_before": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "t": 7,
+          "cell": [
+            1,
+            -1
+          ],
+          "incoming": "S",
+          "turn": "L",
+          "black_before": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        }
+      ],
+      "max_factor_cell_reads": 2,
+      "returned_root_white": true
+    },
+    {
+      "name": "twelve",
+      "word": "LLRRLLLLRRLL",
+      "initial_black": [
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "final_black": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "start": [
+        [
+          2,
+          -1
+        ],
+        "E"
+      ],
+      "end": [
+        [
+          2,
+          -1
+        ],
+        "E"
+      ],
+      "mass": [
+        6,
+        2
+      ],
+      "trace": [
+        {
+          "t": 0,
+          "cell": [
+            2,
+            -1
+          ],
+          "incoming": "E",
+          "turn": "L",
+          "black_before": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              -1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "t": 1,
+          "cell": [
+            2,
+            0
+          ],
+          "incoming": "N",
+          "turn": "L",
+          "black_before": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "t": 2,
+          "cell": [
+            1,
+            0
+          ],
+          "incoming": "W",
+          "turn": "R",
+          "black_before": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "t": 3,
+          "cell": [
+            1,
+            1
+          ],
+          "incoming": "N",
+          "turn": "R",
+          "black_before": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "t": 4,
+          "cell": [
+            2,
+            1
+          ],
+          "incoming": "E",
+          "turn": "L",
+          "black_before": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "t": 5,
+          "cell": [
+            2,
+            2
+          ],
+          "incoming": "N",
+          "turn": "L",
+          "black_before": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "t": 6,
+          "cell": [
+            1,
+            2
+          ],
+          "incoming": "W",
+          "turn": "L",
+          "black_before": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "t": 7,
+          "cell": [
+            1,
+            1
+          ],
+          "incoming": "S",
+          "turn": "L",
+          "black_before": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "t": 8,
+          "cell": [
+            2,
+            1
+          ],
+          "incoming": "E",
+          "turn": "R",
+          "black_before": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "t": 9,
+          "cell": [
+            2,
+            0
+          ],
+          "incoming": "S",
+          "turn": "R",
+          "black_before": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "t": 10,
+          "cell": [
+            1,
+            0
+          ],
+          "incoming": "W",
+          "turn": "L",
+          "black_before": [
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "t": 11,
+          "cell": [
+            1,
+            -1
+          ],
+          "incoming": "S",
+          "turn": "L",
+          "black_before": [
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        }
+      ],
+      "max_factor_cell_reads": 2,
+      "returned_root_white": true
+    }
+  ],
+  "warning": "Root is WHITE on return; neither word can immediately repeat. No full-WHITE earlier R0 histories or open future L3 field is supplied."
+}

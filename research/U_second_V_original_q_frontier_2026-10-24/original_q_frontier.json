@@ -1,0 +1,1516 @@
+{
+  "status": "AUTHOR_PENDING_INDEPENDENT_AUDIT",
+  "scope": "Remaining12 old-U secondV(0,4,S) typed states: one actual preforeign east-pair/core exclusion; all others need SAME original q and creator U/UC, not UCC. Exact selected-q/core reset conditional on attainment. No global second-step simplicity or genuine positive control.",
+  "all8_literal_UCC_next_full_contexts": [
+    {
+      "source": "UCC",
+      "next_full": "D",
+      "feasible": false,
+      "conflict": {
+        "feasible": false,
+        "tick": 69,
+        "cell": [
+          -1,
+          4
+        ],
+        "first_read": [
+          29,
+          "L"
+        ],
+        "required_initial": false,
+        "original_initial": true
+      }
+    },
+    {
+      "source": "UCC",
+      "next_full": "DC",
+      "feasible": false,
+      "conflict": {
+        "feasible": false,
+        "tick": 69,
+        "cell": [
+          -1,
+          4
+        ],
+        "first_read": [
+          29,
+          "L"
+        ],
+        "required_initial": false,
+        "original_initial": true
+      }
+    },
+    {
+      "source": "UCC",
+      "next_full": "V",
+      "feasible": true,
+      "conflict": null
+    },
+    {
+      "source": "UCC",
+      "next_full": "VC",
+      "feasible": true,
+      "conflict": null
+    },
+    {
+      "source": "UCC",
+      "next_full": "VCC",
+      "feasible": false,
+      "conflict": {
+        "feasible": false,
+        "tick": 103,
+        "cell": [
+          0,
+          1
+        ],
+        "first_read": [
+          11,
+          "R"
+        ],
+        "required_initial": true,
+        "original_initial": false
+      }
+    },
+    {
+      "source": "UCC",
+      "next_full": "U",
+      "feasible": false,
+      "conflict": {
+        "feasible": false,
+        "tick": 70,
+        "cell": [
+          -1,
+          3
+        ],
+        "first_read": [
+          22,
+          "R"
+        ],
+        "required_initial": true,
+        "original_initial": false
+      }
+    },
+    {
+      "source": "UCC",
+      "next_full": "UC",
+      "feasible": false,
+      "conflict": {
+        "feasible": false,
+        "tick": 70,
+        "cell": [
+          -1,
+          3
+        ],
+        "first_read": [
+          22,
+          "R"
+        ],
+        "required_initial": true,
+        "original_initial": false
+      }
+    },
+    {
+      "source": "UCC",
+      "next_full": "UCC",
+      "feasible": false,
+      "conflict": {
+        "feasible": false,
+        "tick": 70,
+        "cell": [
+          -1,
+          3
+        ],
+        "first_read": [
+          22,
+          "R"
+        ],
+        "required_initial": true,
+        "original_initial": false
+      }
+    }
+  ],
+  "q_cleanup_companion_guard": {
+    "q_first_preforeign_cleanup": "Signed1954/2027: genuine V/VC(-1,5,S) at source clock2.",
+    "new_A_cell": [
+      -1,
+      4
+    ],
+    "new_A_actual_V_birth_tick0": 11,
+    "new_A_source_entry_clock": 2,
+    "only_A_first_consumer": "Signed2043: V/VC at relative(0,4,S), source-age2, global source clock4.",
+    "mapped_consumer_pose": [
+      -1,
+      1,
+      0
+    ],
+    "actual_consumer_V_chord": [
+      [
+        -3,
+        1
+      ],
+      [
+        -1,
+        7
+      ]
+    ],
+    "old_creating_U_chord": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        7
+      ]
+    ],
+    "contact_source_parameter": "1",
+    "contact_consumer_parameter": "1",
+    "contact_is_not_true_adjacency": "Old creating U base lies before twoCs and the genuine cleanupV; helper is later atclock4.",
+    "conclusion": "A cannot retire before these clock3/4 foreign entries in a simple old complete8 prefix. All12 combined contexts require A WHITE before foreign. Therefore q cannot have retired/recolored preforeign; it is SAME original CURRENT.",
+    "no_postforeign_A_age": true
+  },
+  "all12_cases": [
+    {
+      "foreign": "F",
+      "first": "D",
+      "second": "V",
+      "foreign_pose": [
+        5,
+        7,
+        0
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 4,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 63,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "foreign": "Q",
+      "first": "D",
+      "second": "V",
+      "foreign_pose": [
+        5,
+        9,
+        0
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 4,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 71,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "foreign": "B",
+      "first": "D",
+      "second": "V",
+      "foreign_pose": [
+        4,
+        10,
+        0
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 4,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 81,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "foreign": "F",
+      "first": "C",
+      "second": "V",
+      "foreign_pose": [
+        3,
+        0,
+        1
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 3,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 68,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "excluded_before_foreign_by_original_east_pair_in_entry_core",
+      "east_pair_in_actual_FOREIGN_entryK": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "earliest_possible_east_pair_retirement_clock": 4
+    },
+    {
+      "foreign": "Q",
+      "first": "C",
+      "second": "V",
+      "foreign_pose": [
+        5,
+        0,
+        1
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 3,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 76,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "foreign": "B",
+      "first": "C",
+      "second": "V",
+      "foreign_pose": [
+        6,
+        1,
+        1
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 3,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 86,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "foreign": "F",
+      "first": "V",
+      "second": "V",
+      "foreign_pose": [
+        5,
+        9,
+        0
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 4,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 71,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "foreign": "Q",
+      "first": "V",
+      "second": "V",
+      "foreign_pose": [
+        5,
+        11,
+        0
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 4,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 79,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "foreign": "B",
+      "first": "V",
+      "second": "V",
+      "foreign_pose": [
+        4,
+        12,
+        0
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 4,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 89,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "foreign": "F",
+      "first": "U",
+      "second": "V",
+      "foreign_pose": [
+        4,
+        10,
+        0
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 4,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 81,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "foreign": "Q",
+      "first": "U",
+      "second": "V",
+      "foreign_pose": [
+        4,
+        12,
+        0
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 4,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 89,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "foreign": "B",
+      "first": "U",
+      "second": "V",
+      "foreign_pose": [
+        3,
+        13,
+        0
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 4,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 99,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  ],
+  "one_coarse_state_excluded": [
+    {
+      "foreign": "F",
+      "first": "C",
+      "second": "V",
+      "foreign_pose": [
+        3,
+        0,
+        1
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 3,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 68,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "excluded_before_foreign_by_original_east_pair_in_entry_core",
+      "east_pair_in_actual_FOREIGN_entryK": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "earliest_possible_east_pair_retirement_clock": 4
+    }
+  ],
+  "remaining11_necessary_states": [
+    {
+      "foreign": "F",
+      "first": "D",
+      "second": "V",
+      "foreign_pose": [
+        5,
+        7,
+        0
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 4,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 63,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "foreign": "Q",
+      "first": "D",
+      "second": "V",
+      "foreign_pose": [
+        5,
+        9,
+        0
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 4,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 71,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "foreign": "B",
+      "first": "D",
+      "second": "V",
+      "foreign_pose": [
+        4,
+        10,
+        0
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 4,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 81,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "foreign": "Q",
+      "first": "C",
+      "second": "V",
+      "foreign_pose": [
+        5,
+        0,
+        1
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 3,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 76,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "foreign": "B",
+      "first": "C",
+      "second": "V",
+      "foreign_pose": [
+        6,
+        1,
+        1
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 3,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 86,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "foreign": "F",
+      "first": "V",
+      "second": "V",
+      "foreign_pose": [
+        5,
+        9,
+        0
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 4,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 71,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "foreign": "Q",
+      "first": "V",
+      "second": "V",
+      "foreign_pose": [
+        5,
+        11,
+        0
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 4,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 79,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "foreign": "B",
+      "first": "V",
+      "second": "V",
+      "foreign_pose": [
+        4,
+        12,
+        0
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 4,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 89,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "foreign": "F",
+      "first": "U",
+      "second": "V",
+      "foreign_pose": [
+        4,
+        10,
+        0
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 4,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 81,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "foreign": "Q",
+      "first": "U",
+      "second": "V",
+      "foreign_pose": [
+        4,
+        12,
+        0
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 4,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 89,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "foreign": "B",
+      "first": "U",
+      "second": "V",
+      "foreign_pose": [
+        3,
+        13,
+        0
+      ],
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "true_preforeign_clock": 4,
+      "cleanup_A_required_before_WHITE": true,
+      "cleanup_A_cell": [
+        -1,
+        4
+      ],
+      "cleanup_A_first_combined_R_tick0": 99,
+      "q_must_be_SAME_original_at_foreign_entry": true,
+      "q_cannot_have_had_preforeign_cleanup": true,
+      "creating_full_type_UCC_excluded": true,
+      "allowed_creating_full_types": [
+        "U",
+        "UC"
+      ],
+      "classification": "necessary_only_remaining_with_original_q_and_creator_U_or_UC",
+      "CUT2_same_original_CURRENT_ids": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  ],
+  "conditional_genuine_original_q_second_V_core_transfer": {
+    "actual_second_V_entry": [
+      0,
+      4,
+      2
+    ],
+    "actual_RAW_exit": [
+      -1,
+      1,
+      2
+    ],
+    "q_cell": [
+      -1,
+      2
+    ],
+    "q_selected_local": [
+      1,
+      2
+    ],
+    "q_old_original_death": {
+      "packet": "V",
+      "context_tick0": 13,
+      "context_read_number1": 14,
+      "RAW_length": 18,
+      "owner": "own V-base RAW",
+      "owner_tick0": 13,
+      "owner_read_number1": 14,
+      "turn": "L",
+      "next_word_tick0": null,
+      "next_word_read_number1": null,
+      "label": "context tick 13 (zero-based), RAW length 18; own V-base RAW tick 13 (zero-based), read 14 (one-based), L"
+    },
+    "q_new_fine_R_into_EXIT_CORE": {
+      "packet": "V",
+      "context_tick0": 17,
+      "context_read_number1": 18,
+      "RAW_length": 18,
+      "owner": "own V-base RAW",
+      "owner_tick0": 17,
+      "owner_read_number1": 18,
+      "turn": "R",
+      "next_word_tick0": null,
+      "next_word_read_number1": null,
+      "label": "context tick 17 (zero-based), RAW length 18; own V-base RAW tick 17 (zero-based), read 18 (one-based), R"
+    },
+    "q_replacement_next_actual_word_death": {
+      "packet": "V",
+      "context_tick0": 21,
+      "context_read_number1": 22,
+      "RAW_length": 18,
+      "owner": "next actual word RAW",
+      "owner_tick0": 3,
+      "owner_read_number1": 4,
+      "turn": "L",
+      "next_word_tick0": 3,
+      "next_word_read_number1": 4,
+      "label": "context tick 21 (zero-based), RAW length 18; next actual word RAW tick 3 (zero-based), read 4 (one-based), L"
+    },
+    "w_cell": [
+      0,
+      1
+    ],
+    "w_old_original_still_physically_alive_at_RAW_exit": true,
+    "w_alive_but_EXIT_CORE_not_CURRENT": true,
+    "w_actual_next_word_death": {
+      "packet": "V",
+      "context_tick0": 19,
+      "context_read_number1": 20,
+      "RAW_length": 18,
+      "owner": "next actual word RAW",
+      "owner_tick0": 1,
+      "owner_read_number1": 2,
+      "turn": "L",
+      "next_word_tick0": 1,
+      "next_word_read_number1": 2,
+      "label": "context tick 19 (zero-based), RAW length 18; next actual word RAW tick 1 (zero-based), read 2 (one-based), L"
+    },
+    "same_original_star_CURRENT_after_SECOND_RAW": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "scope": "Conditional on one of the11 genuine histories existing. Exact physical local transfer, not attained ancestry and not a postforeign age law."
+  },
+  "not_claimed": [
+    "The11 states are not attained.",
+    "No assumption that original q lower/upper old8 rules continue after foreign.",
+    "The new q R17 is EXITCORE, not a fresh residual output at that cut.",
+    "Originalw is aliveCORE at RAW exit; physical deletion is only next-word read2."
+  ],
+  "dependencies": {
+    "U_star_one_foreign_return_transfer_2026-10-24/check_U_star_corner_transfer.py": "fa390462928ee52330465e62b2ead5cca1f214fae58344bc689518b89da2b946",
+    "literal_ownership_conventions_2026-10-24/canonical_read_ownership.py": "041b40e04a0f71a6b9511abf1d15b1d86c548e74f4f99281477c115b72036ea2",
+    "U_second_contact_creator_bud_guards_2026-10-24/creator_bud_guards.json": "65cecca6f2c02f66248c73a330139f6fa7bb4ad601cad600b74ad59dc2b6f194",
+    "U_second_contact_creator_bud_guards_2026-10-24/manifest.json": "48646d833e63863b1538abe37d45e8a206f2373d4a751ae4ad1f63cbd54b3894",
+    "core_periodicity_new/U_recycled_q_consumer_frozen_20261023_1954/manifest.json": "c89b741d36a304c6bc3b8e181a2514b133cf4d2698d738917a43d4d65ab5e9f9",
+    "core_periodicity_new/U_q_source_history_frozen_20261023_2027/manifest.json": "25239deb8d71fa0e713cccba81757fc9fb712cf84b6a4269551c89b926388524",
+    "core_periodicity_new/V_C_same_heading_exclusion_frozen_20261023_2043/manifest.json": "17dfc8217174d5a6160d0040f29675e722200e8f51eb23c252e5f9905f4ef70f",
+    "core_periodicity_new/causal_cycle_renewal_20261023_1841/manifest.json": "27db0bc457534074587a988c16bbf57c994464656df7c9aa06427ab23203d7d4",
+    "core_periodicity_new/U_renewal_exact_clock_frozen_20261023_1902/manifest.json": "91f5cb870b1dacd19c793820cef537c1410bca05c8b71294d80a2ccc823b7fd6",
+    "core_periodicity_new/U_entry_simplicity_frozen_20261023_1616/manifest.json": "127a00884b4a06af35a807ab76f6f6499b9427d56350a931c03cc0e8de65524d",
+    "U_second_V_original_q_frontier_2026-10-24/check_original_q_frontier.py": "1ec6879494388dbdc6957a3a52b565ccf25011b90744b3ff689e8cf153a19275"
+  }
+}

@@ -1,0 +1,709 @@
+{
+  "scope": "Exact physical edge-three incidence at all30 white cap-four local histories.\nIncoming axis E/W; rotations cover the other axis. No front or period scan.\n",
+  "count": 30,
+  "types": {
+    "absent": 18,
+    "sink": 2,
+    "source": 2,
+    "internal": 8
+  },
+  "degree_histogram": {
+    "0": 18,
+    "1": 4,
+    "2": 8
+  },
+  "rows": [
+    {
+      "headings": "E",
+      "length": 1,
+      "C": {
+        "NE": -1,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -1
+      },
+      "port_flows": {
+        "W": 1,
+        "E": 0,
+        "N": 0,
+        "S": 1
+      },
+      "triple_ports": [],
+      "triple_indegree": 0,
+      "triple_outdegree": 0,
+      "type": "absent"
+    },
+    {
+      "headings": "W",
+      "length": 1,
+      "C": {
+        "NE": 0,
+        "SW": -1
+      },
+      "L": {
+        "NW": -1,
+        "SE": -1
+      },
+      "port_flows": {
+        "W": 0,
+        "E": 1,
+        "N": 1,
+        "S": 0
+      },
+      "triple_ports": [],
+      "triple_indegree": 0,
+      "triple_outdegree": 0,
+      "type": "absent"
+    },
+    {
+      "headings": "EE",
+      "length": 2,
+      "C": {
+        "NE": -1,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      },
+      "port_flows": {
+        "W": 2,
+        "E": 0,
+        "N": 1,
+        "S": 1
+      },
+      "triple_ports": [],
+      "triple_indegree": 0,
+      "triple_outdegree": 0,
+      "type": "absent"
+    },
+    {
+      "headings": "EW",
+      "length": 2,
+      "C": {
+        "NE": -1,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      },
+      "port_flows": {
+        "W": 1,
+        "E": 1,
+        "N": 0,
+        "S": 2
+      },
+      "triple_ports": [],
+      "triple_indegree": 0,
+      "triple_outdegree": 0,
+      "type": "absent"
+    },
+    {
+      "headings": "WE",
+      "length": 2,
+      "C": {
+        "NE": 0,
+        "SW": -1
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      },
+      "port_flows": {
+        "W": 1,
+        "E": 1,
+        "N": 2,
+        "S": 0
+      },
+      "triple_ports": [],
+      "triple_indegree": 0,
+      "triple_outdegree": 0,
+      "type": "absent"
+    },
+    {
+      "headings": "WW",
+      "length": 2,
+      "C": {
+        "NE": 0,
+        "SW": -1
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      },
+      "port_flows": {
+        "W": 0,
+        "E": 2,
+        "N": 1,
+        "S": 1
+      },
+      "triple_ports": [],
+      "triple_indegree": 0,
+      "triple_outdegree": 0,
+      "type": "absent"
+    },
+    {
+      "headings": "EEE",
+      "length": 3,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -2
+      },
+      "port_flows": {
+        "W": 3,
+        "E": 0,
+        "N": 1,
+        "S": 2
+      },
+      "triple_ports": [
+        "W"
+      ],
+      "triple_indegree": 1,
+      "triple_outdegree": 0,
+      "type": "sink"
+    },
+    {
+      "headings": "EEW",
+      "length": 3,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      },
+      "port_flows": {
+        "W": 2,
+        "E": 1,
+        "N": 2,
+        "S": 1
+      },
+      "triple_ports": [],
+      "triple_indegree": 0,
+      "triple_outdegree": 0,
+      "type": "absent"
+    },
+    {
+      "headings": "EWE",
+      "length": 3,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      },
+      "port_flows": {
+        "W": 2,
+        "E": 1,
+        "N": 0,
+        "S": 3
+      },
+      "triple_ports": [
+        "S"
+      ],
+      "triple_indegree": 0,
+      "triple_outdegree": 1,
+      "type": "source"
+    },
+    {
+      "headings": "EWW",
+      "length": 3,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      },
+      "port_flows": {
+        "W": 1,
+        "E": 2,
+        "N": 1,
+        "S": 2
+      },
+      "triple_ports": [],
+      "triple_indegree": 0,
+      "triple_outdegree": 0,
+      "type": "absent"
+    },
+    {
+      "headings": "WEE",
+      "length": 3,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      },
+      "port_flows": {
+        "W": 2,
+        "E": 1,
+        "N": 2,
+        "S": 1
+      },
+      "triple_ports": [],
+      "triple_indegree": 0,
+      "triple_outdegree": 0,
+      "type": "absent"
+    },
+    {
+      "headings": "WEW",
+      "length": 3,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -2
+      },
+      "port_flows": {
+        "W": 1,
+        "E": 2,
+        "N": 3,
+        "S": 0
+      },
+      "triple_ports": [
+        "N"
+      ],
+      "triple_indegree": 0,
+      "triple_outdegree": 1,
+      "type": "source"
+    },
+    {
+      "headings": "WWE",
+      "length": 3,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      },
+      "port_flows": {
+        "W": 1,
+        "E": 2,
+        "N": 1,
+        "S": 2
+      },
+      "triple_ports": [],
+      "triple_indegree": 0,
+      "triple_outdegree": 0,
+      "type": "absent"
+    },
+    {
+      "headings": "WWW",
+      "length": 3,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      },
+      "port_flows": {
+        "W": 0,
+        "E": 3,
+        "N": 2,
+        "S": 1
+      },
+      "triple_ports": [
+        "E"
+      ],
+      "triple_indegree": 1,
+      "triple_outdegree": 0,
+      "type": "sink"
+    },
+    {
+      "headings": "EEEE",
+      "length": 4,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      },
+      "port_flows": {
+        "W": 4,
+        "E": 0,
+        "N": 2,
+        "S": 2
+      },
+      "triple_ports": [],
+      "triple_indegree": 0,
+      "triple_outdegree": 0,
+      "type": "absent"
+    },
+    {
+      "headings": "EEEW",
+      "length": 4,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "port_flows": {
+        "W": 3,
+        "E": 1,
+        "N": 1,
+        "S": 3
+      },
+      "triple_ports": [
+        "W",
+        "S"
+      ],
+      "triple_indegree": 1,
+      "triple_outdegree": 1,
+      "type": "internal"
+    },
+    {
+      "headings": "EEWE",
+      "length": 4,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -1
+      },
+      "port_flows": {
+        "W": 3,
+        "E": 1,
+        "N": 3,
+        "S": 1
+      },
+      "triple_ports": [
+        "W",
+        "N"
+      ],
+      "triple_indegree": 1,
+      "triple_outdegree": 1,
+      "type": "internal"
+    },
+    {
+      "headings": "EEWW",
+      "length": 4,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      },
+      "port_flows": {
+        "W": 2,
+        "E": 2,
+        "N": 2,
+        "S": 2
+      },
+      "triple_ports": [],
+      "triple_indegree": 0,
+      "triple_outdegree": 0,
+      "type": "absent"
+    },
+    {
+      "headings": "EWEE",
+      "length": 4,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "port_flows": {
+        "W": 3,
+        "E": 1,
+        "N": 1,
+        "S": 3
+      },
+      "triple_ports": [
+        "W",
+        "S"
+      ],
+      "triple_indegree": 1,
+      "triple_outdegree": 1,
+      "type": "internal"
+    },
+    {
+      "headings": "EWEW",
+      "length": 4,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      },
+      "port_flows": {
+        "W": 2,
+        "E": 2,
+        "N": 0,
+        "S": 4
+      },
+      "triple_ports": [],
+      "triple_indegree": 0,
+      "triple_outdegree": 0,
+      "type": "absent"
+    },
+    {
+      "headings": "EWWE",
+      "length": 4,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      },
+      "port_flows": {
+        "W": 2,
+        "E": 2,
+        "N": 2,
+        "S": 2
+      },
+      "triple_ports": [],
+      "triple_indegree": 0,
+      "triple_outdegree": 0,
+      "type": "absent"
+    },
+    {
+      "headings": "EWWW",
+      "length": 4,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -3
+      },
+      "port_flows": {
+        "W": 1,
+        "E": 3,
+        "N": 1,
+        "S": 3
+      },
+      "triple_ports": [
+        "E",
+        "S"
+      ],
+      "triple_indegree": 1,
+      "triple_outdegree": 1,
+      "type": "internal"
+    },
+    {
+      "headings": "WEEE",
+      "length": 4,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -1
+      },
+      "port_flows": {
+        "W": 3,
+        "E": 1,
+        "N": 3,
+        "S": 1
+      },
+      "triple_ports": [
+        "W",
+        "N"
+      ],
+      "triple_indegree": 1,
+      "triple_outdegree": 1,
+      "type": "internal"
+    },
+    {
+      "headings": "WEEW",
+      "length": 4,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      },
+      "port_flows": {
+        "W": 2,
+        "E": 2,
+        "N": 2,
+        "S": 2
+      },
+      "triple_ports": [],
+      "triple_indegree": 0,
+      "triple_outdegree": 0,
+      "type": "absent"
+    },
+    {
+      "headings": "WEWE",
+      "length": 4,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      },
+      "port_flows": {
+        "W": 2,
+        "E": 2,
+        "N": 4,
+        "S": 0
+      },
+      "triple_ports": [],
+      "triple_indegree": 0,
+      "triple_outdegree": 0,
+      "type": "absent"
+    },
+    {
+      "headings": "WEWW",
+      "length": 4,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "port_flows": {
+        "W": 1,
+        "E": 3,
+        "N": 3,
+        "S": 1
+      },
+      "triple_ports": [
+        "E",
+        "N"
+      ],
+      "triple_indegree": 1,
+      "triple_outdegree": 1,
+      "type": "internal"
+    },
+    {
+      "headings": "WWEE",
+      "length": 4,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      },
+      "port_flows": {
+        "W": 2,
+        "E": 2,
+        "N": 2,
+        "S": 2
+      },
+      "triple_ports": [],
+      "triple_indegree": 0,
+      "triple_outdegree": 0,
+      "type": "absent"
+    },
+    {
+      "headings": "WWEW",
+      "length": 4,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -3
+      },
+      "port_flows": {
+        "W": 1,
+        "E": 3,
+        "N": 1,
+        "S": 3
+      },
+      "triple_ports": [
+        "E",
+        "S"
+      ],
+      "triple_indegree": 1,
+      "triple_outdegree": 1,
+      "type": "internal"
+    },
+    {
+      "headings": "WWWE",
+      "length": 4,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "port_flows": {
+        "W": 1,
+        "E": 3,
+        "N": 3,
+        "S": 1
+      },
+      "triple_ports": [
+        "E",
+        "N"
+      ],
+      "triple_indegree": 1,
+      "triple_outdegree": 1,
+      "type": "internal"
+    },
+    {
+      "headings": "WWWW",
+      "length": 4,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      },
+      "port_flows": {
+        "W": 0,
+        "E": 4,
+        "N": 2,
+        "S": 2
+      },
+      "triple_ports": [],
+      "triple_indegree": 0,
+      "triple_outdegree": 0,
+      "type": "absent"
+    }
+  ]
+}

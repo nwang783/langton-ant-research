@@ -1,0 +1,531 @@
+{
+  "status": "PASS portable SAME U-arm zero-C W contact-or-persistence and scoped THIRD V/U0,3W application",
+  "manifest": "bb6eb6b56ff4e153a949b2193bf495a0bd3ee8d14c14ec3eb73cadf2025af27c",
+  "young_queries": 276,
+  "plain_W_roles": [
+    {
+      "atom": "D",
+      "input": [
+        0,
+        1
+      ],
+      "head": [
+        2,
+        2,
+        3
+      ],
+      "exit": [
+        1,
+        3,
+        3
+      ],
+      "sector": true,
+      "contact": null,
+      "input_first_tick": 11
+    },
+    {
+      "atom": "V",
+      "input": [
+        0,
+        3
+      ],
+      "head": [
+        4,
+        2,
+        3
+      ],
+      "exit": [
+        1,
+        3,
+        3
+      ],
+      "sector": true,
+      "contact": null,
+      "input_first_tick": 19
+    },
+    {
+      "atom": "V",
+      "input": [
+        1,
+        2
+      ],
+      "head": [
+        3,
+        1,
+        3
+      ],
+      "exit": [
+        0,
+        2,
+        3
+      ],
+      "sector": true,
+      "contact": null,
+      "input_first_tick": 13
+    },
+    {
+      "atom": "U",
+      "input": [
+        -1,
+        1
+      ],
+      "head": [
+        2,
+        3,
+        3
+      ],
+      "exit": [
+        -2,
+        3,
+        3
+      ],
+      "sector": false,
+      "contact": [
+        "3/4",
+        "3/4"
+      ],
+      "input_first_tick": 14
+    },
+    {
+      "atom": "U",
+      "input": [
+        -1,
+        2
+      ],
+      "head": [
+        3,
+        3,
+        3
+      ],
+      "exit": [
+        -1,
+        3,
+        3
+      ],
+      "sector": true,
+      "contact": null,
+      "input_first_tick": 13
+    },
+    {
+      "atom": "U",
+      "input": [
+        -1,
+        4
+      ],
+      "head": [
+        5,
+        3,
+        3
+      ],
+      "exit": [
+        1,
+        3,
+        3
+      ],
+      "sector": true,
+      "contact": null,
+      "input_first_tick": 29
+    },
+    {
+      "atom": "U",
+      "input": [
+        0,
+        2
+      ],
+      "head": [
+        3,
+        2,
+        3
+      ],
+      "exit": [
+        -1,
+        2,
+        3
+      ],
+      "sector": false,
+      "contact": [
+        "1/2",
+        "1"
+      ],
+      "input_first_tick": 12
+    },
+    {
+      "atom": "U",
+      "input": [
+        0,
+        3
+      ],
+      "head": [
+        4,
+        2,
+        3
+      ],
+      "exit": [
+        0,
+        2,
+        3
+      ],
+      "sector": true,
+      "contact": null,
+      "input_first_tick": 23
+    }
+  ],
+  "plain_N_exits": [
+    [
+      "D",
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        2,
+        2,
+        0
+      ]
+    ],
+    [
+      "V",
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        -1,
+        0
+      ],
+      [
+        2,
+        2,
+        0
+      ]
+    ],
+    [
+      "V",
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        3,
+        0
+      ]
+    ],
+    [
+      "U",
+      [
+        -1,
+        1
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        5,
+        0
+      ]
+    ],
+    [
+      "U",
+      [
+        -1,
+        2
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        4,
+        0
+      ]
+    ],
+    [
+      "U",
+      [
+        -1,
+        4
+      ],
+      [
+        2,
+        -2,
+        0
+      ],
+      [
+        2,
+        2,
+        0
+      ]
+    ],
+    [
+      "U",
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        4,
+        0
+      ]
+    ],
+    [
+      "U",
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        -1,
+        0
+      ],
+      [
+        1,
+        3,
+        0
+      ]
+    ]
+  ],
+  "third_inverse_count": 96,
+  "class_counts": {
+    "first_R": 12,
+    "W_W": 48,
+    "C_W": 18,
+    "C_C": 6,
+    "N_C": 12
+  },
+  "actual_marker_reads": [
+    [
+      [
+        "F",
+        "D",
+        "D",
+        "V",
+        [
+          4,
+          -3,
+          1
+        ],
+        3
+      ],
+      62,
+      6,
+      7
+    ],
+    [
+      [
+        "Q",
+        "D",
+        "D",
+        "V",
+        [
+          6,
+          -3,
+          1
+        ],
+        3
+      ],
+      70,
+      6,
+      7
+    ],
+    [
+      [
+        "B",
+        "D",
+        "D",
+        "V",
+        [
+          7,
+          -2,
+          1
+        ],
+        3
+      ],
+      80,
+      6,
+      7
+    ],
+    [
+      [
+        "F",
+        "D",
+        "C",
+        "V",
+        [
+          -5,
+          -1,
+          2
+        ],
+        2
+      ],
+      63,
+      7,
+      8
+    ],
+    [
+      [
+        "Q",
+        "D",
+        "C",
+        "V",
+        [
+          -5,
+          -3,
+          2
+        ],
+        2
+      ],
+      71,
+      7,
+      8
+    ],
+    [
+      [
+        "B",
+        "D",
+        "C",
+        "V",
+        [
+          -4,
+          -4,
+          2
+        ],
+        2
+      ],
+      81,
+      7,
+      8
+    ],
+    [
+      [
+        "F",
+        "D",
+        "D",
+        "U",
+        [
+          4,
+          -3,
+          1
+        ],
+        3
+      ],
+      62,
+      6,
+      7
+    ],
+    [
+      [
+        "Q",
+        "D",
+        "D",
+        "U",
+        [
+          6,
+          -3,
+          1
+        ],
+        3
+      ],
+      70,
+      6,
+      7
+    ],
+    [
+      [
+        "B",
+        "D",
+        "D",
+        "U",
+        [
+          7,
+          -2,
+          1
+        ],
+        3
+      ],
+      80,
+      6,
+      7
+    ],
+    [
+      [
+        "F",
+        "D",
+        "C",
+        "U",
+        [
+          -5,
+          -1,
+          2
+        ],
+        2
+      ],
+      63,
+      7,
+      8
+    ],
+    [
+      [
+        "Q",
+        "D",
+        "C",
+        "U",
+        [
+          -5,
+          -3,
+          2
+        ],
+        2
+      ],
+      71,
+      7,
+      8
+    ],
+    [
+      [
+        "B",
+        "D",
+        "C",
+        "U",
+        [
+          -4,
+          -4,
+          2
+        ],
+        2
+      ],
+      81,
+      7,
+      8
+    ]
+  ],
+  "analytic_scope": [
+    "The complete ordinary input interface includes marker-owned CURRENT-to-CORE capture; first CURRENT loss is not identified with physical death. The two legal W-loss atoms contact the creating U chord by their own RAW completion, so only preceding contact-free atoms preserve the arm.",
+    "All genuine U/UC/UCC R17 identities survive own tails and the signed age0..3 full-input query excludes loss before a completed FIRST-foreign boundary; no source age law is used after that boundary.",
+    "Twelve first-R contradictions occur in actual b1 D at zero-based ticks6/7, human reads7/8, not foreign RAW. Remaining84 foreign complete contexts MISS. C has no residual input and no old residual export to its exit core; N-pre-C exit0,2N is incompatible with all8 arm-loss alignments. SAME arm therefore opposes THIRD entryK.",
+    "Only old-U global-FIRST THIRD targets V/U0,3W; no full third simplicity, arbitrary-tail persistence through contact, or postforeign age."
+  ]
+}

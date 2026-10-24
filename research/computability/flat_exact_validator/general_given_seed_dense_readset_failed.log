@@ -1,0 +1,18 @@
+BEGIN identity_R_empty seed []
+READ 0 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+FRAME 0 4
+RESULT {"possible": true, "frame_checks": 4, "nested_root": true, "growing_root": false, "accepted_growing_model": false, "seed": [], "name": "identity_R_empty", "read_set_certificates": {"0": {"isl_relation": "{ [r, x = 0, y = 0] : r >= 0 }", "automaton_states": [2, 2, 2, 2], "edge_types": 1}}}
+BEGIN identity_L_empty seed []
+READ 1 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+RESULT {"possible": false, "reason": "canonical zero-depth turn", "state": 1, "frame_checks": 0, "name": "identity_L_empty", "seed": [], "read_set_certificates": {"1": {"isl_relation": "{ [r, x = 0, y = 0] : r >= 0 }", "automaton_states": [2, 2, 2, 2], "edge_types": 1}}}
+BEGIN identity_L_origin seed [(0, 0)]
+READ 1 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+FRAME 1 4
+RESULT {"possible": true, "frame_checks": 4, "nested_root": true, "growing_root": false, "accepted_growing_model": false, "seed": [[0, 0]], "name": "identity_L_origin", "read_set_certificates": {"1": {"isl_relation": "{ [r, x = 0, y = 0] : r >= 0 }", "automaton_states": [2, 2, 2, 2], "edge_types": 1}}}
+BEGIN branching_R5 seed []
+READ 0 [4, 2, 4, 4] { [r, x, y] : 0 <= x <= 1 and x <= r and y >= -1 and -r <= y <= 0 }
+READ 2 [4, 4, 4, 2] { [r, x, y] : x >= -1 and -r <= x <= 0 and y >= -1 and -r + x <= y <= 0 }
+READ 4 [4, 4, 2, 4] { [r, x, y] : x >= -1 and -r <= x <= 0 and 0 <= y <= 1 and y <= r - x }
+READ 6 [2, 4, 4, 4] { [r, x, y] : 0 <= x <= 1 and x <= r and 0 <= y <= 1 and y <= r }
+RESULT {"possible": false, "reason": "all-depth frame disagreement", "state": 0, "child_index": 4, "witness": {"r": 0, "x": 0, "y": 0}, "frame_checks": 5, "name": "branching_R5", "seed": [], "read_set_certificates": {"0": {"isl_relation": "{ [r, x, y] : 0 <= x <= 1 and x <= r and y >= -1 and -r <= y <= 0 }", "automaton_states": [4, 2, 4, 4], "edge_types": 16}, "2": {"isl_relation": "{ [r, x, y] : x >= -1 and -r <= x <= 0 and y >= -1 and -r + x <= y <= 0 }", "automaton_states": [4, 4, 4, 2], "edge_types": 16}, "4": {"isl_relation": "{ [r, x, y] : x >= -1 and -r <= x <= 0 and 0 <= y <= 1 and y <= r - x }", "automaton_states": [4, 4, 2, 4], "edge_types": 16}, "6": {"isl_relation": "{ [r, x, y] : 0 <= x <= 1 and x <= r and 0 <= y <= 1 and y <= r }", "automaton_states": [2, 4, 4, 4], "edge_types": 16}}}
+BEGIN branching_nine seed [(0, 1), (1, 0), (1, 1)]

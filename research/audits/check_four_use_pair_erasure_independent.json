@@ -1,0 +1,101 @@
+{
+  "status": "PASS all-four-use-pair erasure preserves canonical graph connectivity and beta>=2F4",
+  "author_note": "7d357e694664155236e6aabc53328c46cfea7ab605dde27f1ca66351cfc7bd9e",
+  "dependency_reports": {
+    "check_nonleaf_max_RIGHT_tradeoff_independent": "8ef38a1145eca1dcf92ade21e071ef371d3466c77ef801965ce1aa9b25e6a503",
+    "check_deep_rootfree_valley_ladder_independent": "6af25f3ef4b8a4235bf972d6c4945a03a4fd1b730d5d80b338ccb59822150af7",
+    "check_simultaneous_scalar_canonical_embedding_independent": "5ba417cbfc6e9db91fdb6c6f37372fb26ad076b99f293842a819830088108703"
+  },
+  "literal_rotated_ports": [
+    [
+      [
+        3,
+        1,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        3,
+        1,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        2,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        2,
+        0,
+        2,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        3,
+        1,
+        3
+      ],
+      [
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        3,
+        1,
+        3,
+        1
+      ]
+    ],
+    [
+      [
+        2,
+        0,
+        2,
+        0
+      ],
+      [
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        0,
+        2,
+        0,
+        2
+      ]
+    ]
+  ],
+  "small_abstract_graph_controls": 420,
+  "analytic_review": [
+    "Cap4 and a physical port used FOUR times force all source departures and all target arrivals on that port. Complete WHITE histories are RLRL. Source has alternating opposite incoming headings, target one fixed incoming heading; neither cell can simultaneously have a four-use incoming AND outgoing port. Each source/target thus belongs to only one F4 edge class.",
+    "Actual ordinal matching gives targetrankr exactly one physical update after sourcerankr. In outgoing occurrence labels, target L1/R2 is the exact sigma-image of source L1/R2, so t=sigma*s*sigma^-1. The four occurrence classes are distinct: actual full drift preserves checker parity so opposite-neighbor cells cannot alias; same-cell different ranks cannot differ by a full period with zero displacement and nonzero drift.",
+    "Different F4 edges have disjoint source/target cell classes and hence disjoint transposition supports, including in short full-drift quotients. Their source productS is an involution, target productT=sigma*S*sigma^-1, and allF4 repairs ST*sigma=S*sigma*S, a one-cycle conjugate. Temporal interval interleaving is irrelevant.",
+    "All other local repair transpositionsU are disjoint from those supports. Fullcanonical sigma0=U*sigmaF4. A union of components of G_minus is invariant under sigma0 and eachU transposition because every remaining edge has both endpoints there; thus invariant under sigmaF4=U*sigma0. One-cycle transitivity forbids a nonempty proper union. This proof also allows graph loops and multiple edges.",
+    "With unchanged canonical nodesV and remaining edgesE-2F4, connectivity gives beta_minus=beta-2F4>=0. Permutation sign (-1)^(P-V)=(-1)^(E-2F4)*(-1)^(P-1) makes beta_minus even. This is a stronger lower bound, not an upper bound.",
+    "The alternative clock proof uses exact equal Delta at the source and target with opposite exchange signs. These cancel across every node-union cut, leaving a putative proper component length=P*integer winding, impossible strictly between0 andP. No Delta reduction moduloP and no extra additive charge.",
+    "Any two essential nodes still have a path using NON-F4 exchanges after all such pairs are removed. The direct deep ladder needs such an alternate assembly route, but its possible face patches, ordinary essential contacts or odd-root exceptional nodes are not excluded. This is graph/permutation manipulation only, not a legal ant splice or controller."
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "status": "No counterexample in targeted finite replay; not a proof",
+  "input": "ant_continuation2/fold_geometry/maxplus_last_port_candidate.json",
+  "input_records": 20125,
+  "distinct_fields_replayed": 20125,
+  "literal_steps": 1233412,
+  "maximum_completed_macros": 4,
+  "maximum_gap": 3,
+  "best": {
+    "macros": "VCC",
+    "macro_count": 3,
+    "steps": 48,
+    "first_L_seed": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "first_L_box": [
+      -1,
+      -1,
+      1,
+      3
+    ],
+    "read_box": [
+      -1,
+      -1,
+      3,
+      6
+    ],
+    "gaps": [
+      0,
+      0,
+      2,
+      3
+    ],
+    "maximum_gap": 3,
+    "end_pose": [
+      0,
+      4,
+      2
+    ],
+    "source_record": 2
+  },
+  "violations": [],
+  "elapsed_seconds": 2.239795684814453
+}

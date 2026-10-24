@@ -1,0 +1,646 @@
+[
+  {
+    "q": 3,
+    "window": [
+      [
+        -9,
+        -11
+      ],
+      [
+        11,
+        4
+      ]
+    ],
+    "stop": "first spatial-window exit",
+    "post_first_updates": 75,
+    "w_exceptional_blocks": 2,
+    "total_first_R": 34,
+    "first_R_consumed": 17,
+    "gate_arms_consumed": 2,
+    "total_gate_arms": 4,
+    "gates": [
+      {
+        "stitch": [
+          9,
+          -9
+        ],
+        "arms": [
+          [
+            8,
+            -9
+          ],
+          [
+            9,
+            -8
+          ]
+        ],
+        "deaths": [
+          {
+            "time_after_first": 37,
+            "E_so_far": 2,
+            "w_exceptional": true,
+            "r": 2,
+            "cell": [
+              8,
+              -9
+            ]
+          },
+          {
+            "time_after_first": 39,
+            "E_so_far": 2,
+            "w_exceptional": false,
+            "r": 0,
+            "cell": [
+              9,
+              -8
+            ]
+          }
+        ]
+      },
+      {
+        "stitch": [
+          9,
+          2
+        ],
+        "arms": [
+          [
+            8,
+            2
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "deaths": []
+      }
+    ],
+    "exception_events": [
+      {
+        "time_after_first": 5,
+        "r": 4,
+        "nonbridge": false,
+        "cell": [
+          -8,
+          -9
+        ],
+        "pose_heading": 2,
+        "life_class": "later_R"
+      },
+      {
+        "time_after_first": 37,
+        "r": 2,
+        "nonbridge": true,
+        "cell": [
+          8,
+          -9
+        ],
+        "pose_heading": 2,
+        "life_class": "first_R"
+      }
+    ],
+    "word": "RRRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLR",
+    "exit_pose": [
+      [
+        -10,
+        -10
+      ],
+      3
+    ],
+    "final_mass": 37
+  },
+  {
+    "q": 5,
+    "window": [
+      [
+        -10,
+        -11
+      ],
+      [
+        18,
+        12
+      ]
+    ],
+    "stop": "first spatial-window exit",
+    "post_first_updates": 107,
+    "w_exceptional_blocks": 2,
+    "total_first_R": 76,
+    "first_R_consumed": 25,
+    "gate_arms_consumed": 2,
+    "total_gate_arms": 8,
+    "gates": [
+      {
+        "stitch": [
+          -8,
+          -9
+        ],
+        "arms": [
+          [
+            -8,
+            -8
+          ],
+          [
+            -7,
+            -9
+          ]
+        ],
+        "deaths": []
+      },
+      {
+        "stitch": [
+          -8,
+          10
+        ],
+        "arms": [
+          [
+            -8,
+            9
+          ],
+          [
+            -7,
+            10
+          ]
+        ],
+        "deaths": [
+          {
+            "time_after_first": 53,
+            "E_so_far": 2,
+            "w_exceptional": true,
+            "r": 2,
+            "cell": [
+              -7,
+              10
+            ]
+          },
+          {
+            "time_after_first": 55,
+            "E_so_far": 2,
+            "w_exceptional": false,
+            "r": 0,
+            "cell": [
+              -8,
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "stitch": [
+          9,
+          -9
+        ],
+        "arms": [
+          [
+            8,
+            -9
+          ],
+          [
+            9,
+            -8
+          ]
+        ],
+        "deaths": []
+      },
+      {
+        "stitch": [
+          9,
+          2
+        ],
+        "arms": [
+          [
+            8,
+            2
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "deaths": []
+      }
+    ],
+    "exception_events": [
+      {
+        "time_after_first": 5,
+        "r": 4,
+        "nonbridge": false,
+        "cell": [
+          17,
+          10
+        ],
+        "pose_heading": 0,
+        "life_class": "later_R"
+      },
+      {
+        "time_after_first": 53,
+        "r": 2,
+        "nonbridge": true,
+        "cell": [
+          -7,
+          10
+        ],
+        "pose_heading": 0,
+        "life_class": "first_R"
+      }
+    ],
+    "word": "RRRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLR",
+    "exit_pose": [
+      [
+        19,
+        11
+      ],
+      1
+    ],
+    "final_mass": 81
+  },
+  {
+    "q": 7,
+    "window": [
+      [
+        -17,
+        -19
+      ],
+      [
+        19,
+        12
+      ]
+    ],
+    "stop": "first spatial-window exit",
+    "post_first_updates": 139,
+    "w_exceptional_blocks": 2,
+    "total_first_R": 134,
+    "first_R_consumed": 33,
+    "gate_arms_consumed": 2,
+    "total_gate_arms": 12,
+    "gates": [
+      {
+        "stitch": [
+          -8,
+          -9
+        ],
+        "arms": [
+          [
+            -8,
+            -8
+          ],
+          [
+            -7,
+            -9
+          ]
+        ],
+        "deaths": []
+      },
+      {
+        "stitch": [
+          -8,
+          10
+        ],
+        "arms": [
+          [
+            -8,
+            9
+          ],
+          [
+            -7,
+            10
+          ]
+        ],
+        "deaths": []
+      },
+      {
+        "stitch": [
+          9,
+          -9
+        ],
+        "arms": [
+          [
+            8,
+            -9
+          ],
+          [
+            9,
+            -8
+          ]
+        ],
+        "deaths": []
+      },
+      {
+        "stitch": [
+          9,
+          2
+        ],
+        "arms": [
+          [
+            8,
+            2
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "deaths": []
+      },
+      {
+        "stitch": [
+          17,
+          -17
+        ],
+        "arms": [
+          [
+            16,
+            -17
+          ],
+          [
+            17,
+            -16
+          ]
+        ],
+        "deaths": [
+          {
+            "time_after_first": 69,
+            "E_so_far": 2,
+            "w_exceptional": true,
+            "r": 2,
+            "cell": [
+              16,
+              -17
+            ]
+          },
+          {
+            "time_after_first": 71,
+            "E_so_far": 2,
+            "w_exceptional": false,
+            "r": 0,
+            "cell": [
+              17,
+              -16
+            ]
+          }
+        ]
+      },
+      {
+        "stitch": [
+          17,
+          10
+        ],
+        "arms": [
+          [
+            16,
+            10
+          ],
+          [
+            17,
+            9
+          ]
+        ],
+        "deaths": []
+      }
+    ],
+    "exception_events": [
+      {
+        "time_after_first": 5,
+        "r": 4,
+        "nonbridge": false,
+        "cell": [
+          -16,
+          -17
+        ],
+        "pose_heading": 2,
+        "life_class": "later_R"
+      },
+      {
+        "time_after_first": 69,
+        "r": 2,
+        "nonbridge": true,
+        "cell": [
+          16,
+          -17
+        ],
+        "pose_heading": 2,
+        "life_class": "first_R"
+      }
+    ],
+    "word": "RRRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLR",
+    "exit_pose": [
+      [
+        -18,
+        -18
+      ],
+      3
+    ],
+    "final_mass": 141
+  },
+  {
+    "q": 9,
+    "window": [
+      [
+        -18,
+        -19
+      ],
+      [
+        26,
+        20
+      ]
+    ],
+    "stop": "first spatial-window exit",
+    "post_first_updates": 171,
+    "w_exceptional_blocks": 2,
+    "total_first_R": 208,
+    "first_R_consumed": 41,
+    "gate_arms_consumed": 2,
+    "total_gate_arms": 16,
+    "gates": [
+      {
+        "stitch": [
+          -16,
+          -17
+        ],
+        "arms": [
+          [
+            -16,
+            -16
+          ],
+          [
+            -15,
+            -17
+          ]
+        ],
+        "deaths": []
+      },
+      {
+        "stitch": [
+          -16,
+          18
+        ],
+        "arms": [
+          [
+            -16,
+            17
+          ],
+          [
+            -15,
+            18
+          ]
+        ],
+        "deaths": [
+          {
+            "time_after_first": 85,
+            "E_so_far": 2,
+            "w_exceptional": true,
+            "r": 2,
+            "cell": [
+              -15,
+              18
+            ]
+          },
+          {
+            "time_after_first": 87,
+            "E_so_far": 2,
+            "w_exceptional": false,
+            "r": 0,
+            "cell": [
+              -16,
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "stitch": [
+          -8,
+          -9
+        ],
+        "arms": [
+          [
+            -8,
+            -8
+          ],
+          [
+            -7,
+            -9
+          ]
+        ],
+        "deaths": []
+      },
+      {
+        "stitch": [
+          -8,
+          10
+        ],
+        "arms": [
+          [
+            -8,
+            9
+          ],
+          [
+            -7,
+            10
+          ]
+        ],
+        "deaths": []
+      },
+      {
+        "stitch": [
+          9,
+          -9
+        ],
+        "arms": [
+          [
+            8,
+            -9
+          ],
+          [
+            9,
+            -8
+          ]
+        ],
+        "deaths": []
+      },
+      {
+        "stitch": [
+          9,
+          2
+        ],
+        "arms": [
+          [
+            8,
+            2
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "deaths": []
+      },
+      {
+        "stitch": [
+          17,
+          -17
+        ],
+        "arms": [
+          [
+            16,
+            -17
+          ],
+          [
+            17,
+            -16
+          ]
+        ],
+        "deaths": []
+      },
+      {
+        "stitch": [
+          17,
+          10
+        ],
+        "arms": [
+          [
+            16,
+            10
+          ],
+          [
+            17,
+            9
+          ]
+        ],
+        "deaths": []
+      }
+    ],
+    "exception_events": [
+      {
+        "time_after_first": 5,
+        "r": 4,
+        "nonbridge": false,
+        "cell": [
+          25,
+          18
+        ],
+        "pose_heading": 0,
+        "life_class": "later_R"
+      },
+      {
+        "time_after_first": 85,
+        "r": 2,
+        "nonbridge": true,
+        "cell": [
+          -15,
+          18
+        ],
+        "pose_heading": 0,
+        "life_class": "first_R"
+      }
+    ],
+    "word": "RRRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLR",
+    "exit_pose": [
+      [
+        27,
+        19
+      ],
+      1
+    ],
+    "final_mass": 217
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "status": "PASS all-n southwest archive-import, whole-field capture and exact rho increase",
+  "manifest": "bbd355881af85e24445f23d7d99d1eba88d5519ec5487c920b07f39892c5cf66",
+  "script": "ffefe87749b533e9232bf3cf04ef7d736272d6d15af446940fdb9e5756f82b7e",
+  "return_intersections": 384,
+  "T_kernel": 117,
+  "T_pruning": 99,
+  "remote_pruning": 786,
+  "all_n_difference_min_x": 392,
+  "all_future_max_x": 240,
+  "controls": [
+    {
+      "n": 100,
+      "full_reads": 101070,
+      "old_age": 32440,
+      "T_relevant": 885,
+      "M_relevant": 259,
+      "radii": [
+        240,
+        272
+      ],
+      "parity_checks": 195
+    },
+    {
+      "n": 137,
+      "full_reads": 108766,
+      "old_age": 40136,
+      "T_relevant": 885,
+      "M_relevant": 259,
+      "radii": [
+        314,
+        346
+      ],
+      "parity_checks": 195
+    },
+    {
+      "n": 500,
+      "full_reads": 184270,
+      "old_age": 115640,
+      "T_relevant": 885,
+      "M_relevant": 259,
+      "radii": [
+        1040,
+        1072
+      ],
+      "parity_checks": 195
+    }
+  ],
+  "pure_controls": [
+    {
+      "n": 11,
+      "reads": 12389,
+      "parity_checks": 197
+    },
+    {
+      "n": 100,
+      "reads": 21645,
+      "parity_checks": 197
+    },
+    {
+      "n": 500,
+      "reads": 63245,
+      "parity_checks": 197
+    }
+  ],
+  "analytic_review": [
+    "All-n prefix transfer is an ENTIRE southern-half-plane equality. Every pre-flight actual M/source or omitted synthetic phase41 cell has bounded y<=qM.y+31, while T guard is qM.y+2n+13. Fresh phase13 ray ordering prevents earlier paid-marker reads. No discarded archive is assumed WHITE.",
+    "Outside the incoming standard strip the complete actual fixed source output equals the M719 comparison. The SW strip is disjoint from the incoming standard strip. All384 exact ray encounters are compared; the unique first is real M R9752 at phase100,k=n-7, reference R versus actual L. Reference-never-read does NOT mean actual permanent.",
+    "The complete XOR formula is derived by parity of every executed read, retaining source, moving paid T bits, incoming train and partial phase, finite T recovery, backward train and partial phase. Reindexing the SW train gives fixed lower endpoint qm+22d and new high endpoints qt100+(r+1)d. Its final partial mask has fixed origin qm+21d. Thus the exact parameter difference is C XOR translatedC XOR forwardDtrain, with all support x>=392. The complete n100 postcollision future has x<=240 including its infinite NW rays. First-difference induction transfers the literal48464 word and full infinite tail to EVERY n>=100, not just the three finite replays.",
+    "At T entry all varying incoming-strip cells can be read only by the finite local prefix, which consumes exactly99. The returning strip cannot consume remaining incoming-strip current cells; its extra high periods for larger n are beyond the fixed M output. The pre-T board in x<=240 is parameter-independent, and the entire postcollision future is fixed there. Therefore all786 other future-consumed current cells are the same physical set, not a sampled extrapolation. At M entry the finite fixed board is below every T guard; only the five paid T inputs move. The same finite/reference/return/postfuture partition proves the fixed254+5 input decomposition.",
+    "Exact full C* radii are2n+40 then2n+72, an increase32 even across an outward paid packet step. All nine original packet bits are actually first-read and all full fields retained. This defeats extending the specific NE S/M sampled clipped-radius potential over this T exit, not arbitrary mode-dependent potentials or eventual compact recurrence.",
+    "Three complete22-cell controls and three pure18-cell controls pass fresh vector-heading simulation and independent all-ray parity certificates. All-n capture is sufficient at80270+208n, not asserted earliest. No arbitrary archive closure, autonomous regeneration, global occurrence or attraction conclusion."
+  ]
+}

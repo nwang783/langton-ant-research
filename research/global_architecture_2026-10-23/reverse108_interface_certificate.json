@@ -1,0 +1,1748 @@
+{
+  "status": "PASS exact all-translation interface exclusion",
+  "architecture": "H^n C P108^n, H starts E, C ends W, arbitrary fixed finite literal C; n unbounded",
+  "scope": "Excludes a bounded-initial-fuel flat return pump, not P108 on its own prepared rail or universal capture.",
+  "H_word": "LRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLR",
+  "P_word": "LRRLRRLRLLRRLLLLRRLLRRRRLLRRLRLLRRRRLLRLRRRRLLLLRLLLLRLRRRRLLLLRLLRLLLLRRRRLRLLLLRLRRLLLLRRLLLLRRLRRLLLLRRLR",
+  "H_heading": 1,
+  "P_heading": 3,
+  "H_drift": [
+    2,
+    2
+  ],
+  "P_drift": [
+    -2,
+    -2
+  ],
+  "cyclic_K": 49,
+  "H_read_classes": 22,
+  "H_mature_black": [
+    [
+      -7,
+      0
+    ],
+    [
+      -7,
+      1
+    ],
+    [
+      -6,
+      1
+    ],
+    [
+      -5,
+      1
+    ],
+    [
+      -3,
+      0
+    ],
+    [
+      -2,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "P_read_classes": 23,
+  "P_required_black": [
+    [
+      -6,
+      1
+    ],
+    [
+      -5,
+      0
+    ],
+    [
+      -4,
+      0
+    ],
+    [
+      -2,
+      1
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ]
+  ],
+  "P_output_black": [
+    [
+      -7,
+      0
+    ],
+    [
+      -6,
+      1
+    ],
+    [
+      -5,
+      1
+    ]
+  ],
+  "intersecting_sector_allowed_transverses": [
+    -10,
+    -8,
+    -6,
+    -4,
+    -2,
+    0,
+    2,
+    4,
+    6,
+    8,
+    10
+  ],
+  "cases": [
+    {
+      "cap_transverse": -10,
+      "cap_x_parity": 0,
+      "overlapping_classes": 4,
+      "conflicting_classes": 2,
+      "exterior_required_black_classes": 8,
+      "one_conflict": {
+        "P_class": [
+          3,
+          1
+        ],
+        "H_class": [
+          -7,
+          1
+        ],
+        "P_required_black": false,
+        "H_output_black": true,
+        "P_rows": [
+          [
+            83,
+            83,
+            0,
+            "R"
+          ],
+          [
+            91,
+            91,
+            0,
+            "L"
+          ],
+          [
+            95,
+            95,
+            0,
+            "R"
+          ],
+          [
+            187,
+            79,
+            -1,
+            "L"
+          ]
+        ],
+        "H_rows": [
+          [
+            71,
+            71,
+            0,
+            "R"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": -10,
+      "cap_x_parity": 1,
+      "overlapping_classes": 4,
+      "conflicting_classes": 2,
+      "exterior_required_black_classes": 8,
+      "one_conflict": {
+        "P_class": [
+          4,
+          1
+        ],
+        "H_class": [
+          -6,
+          0
+        ],
+        "P_required_black": true,
+        "H_output_black": false,
+        "P_rows": [
+          [
+            186,
+            78,
+            -1,
+            "L"
+          ]
+        ],
+        "H_rows": [
+          [
+            -32,
+            72,
+            1,
+            "R"
+          ],
+          [
+            76,
+            76,
+            0,
+            "L"
+          ],
+          [
+            88,
+            88,
+            0,
+            "R"
+          ],
+          [
+            92,
+            92,
+            0,
+            "L"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": -8,
+      "cap_x_parity": 0,
+      "overlapping_classes": 8,
+      "conflicting_classes": 5,
+      "exterior_required_black_classes": 6,
+      "one_conflict": {
+        "P_class": [
+          1,
+          0
+        ],
+        "H_class": [
+          -7,
+          0
+        ],
+        "P_required_black": false,
+        "H_output_black": true,
+        "P_rows": [
+          [
+            1,
+            1,
+            0,
+            "R"
+          ],
+          [
+            85,
+            85,
+            0,
+            "L"
+          ],
+          [
+            89,
+            89,
+            0,
+            "R"
+          ],
+          [
+            97,
+            97,
+            0,
+            "L"
+          ],
+          [
+            105,
+            105,
+            0,
+            "R"
+          ],
+          [
+            177,
+            69,
+            -1,
+            "L"
+          ]
+        ],
+        "H_rows": [
+          [
+            89,
+            89,
+            0,
+            "R"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": -8,
+      "cap_x_parity": 1,
+      "overlapping_classes": 8,
+      "conflicting_classes": 5,
+      "exterior_required_black_classes": 6,
+      "one_conflict": {
+        "P_class": [
+          1,
+          0
+        ],
+        "H_class": [
+          -7,
+          1
+        ],
+        "P_required_black": false,
+        "H_output_black": true,
+        "P_rows": [
+          [
+            1,
+            1,
+            0,
+            "R"
+          ],
+          [
+            85,
+            85,
+            0,
+            "L"
+          ],
+          [
+            89,
+            89,
+            0,
+            "R"
+          ],
+          [
+            97,
+            97,
+            0,
+            "L"
+          ],
+          [
+            105,
+            105,
+            0,
+            "R"
+          ],
+          [
+            177,
+            69,
+            -1,
+            "L"
+          ]
+        ],
+        "H_rows": [
+          [
+            71,
+            71,
+            0,
+            "R"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": -6,
+      "cap_x_parity": 0,
+      "overlapping_classes": 12,
+      "conflicting_classes": 5,
+      "exterior_required_black_classes": 4,
+      "one_conflict": {
+        "P_class": [
+          0,
+          0
+        ],
+        "H_class": [
+          -6,
+          0
+        ],
+        "P_required_black": true,
+        "H_output_black": false,
+        "P_rows": [
+          [
+            0,
+            0,
+            0,
+            "L"
+          ],
+          [
+            72,
+            72,
+            0,
+            "R"
+          ],
+          [
+            100,
+            100,
+            0,
+            "L"
+          ],
+          [
+            104,
+            104,
+            0,
+            "R"
+          ],
+          [
+            168,
+            60,
+            -1,
+            "L"
+          ]
+        ],
+        "H_rows": [
+          [
+            -32,
+            72,
+            1,
+            "R"
+          ],
+          [
+            76,
+            76,
+            0,
+            "L"
+          ],
+          [
+            88,
+            88,
+            0,
+            "R"
+          ],
+          [
+            92,
+            92,
+            0,
+            "L"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": -6,
+      "cap_x_parity": 1,
+      "overlapping_classes": 12,
+      "conflicting_classes": 7,
+      "exterior_required_black_classes": 4,
+      "one_conflict": {
+        "P_class": [
+          1,
+          0
+        ],
+        "H_class": [
+          -5,
+          1
+        ],
+        "P_required_black": false,
+        "H_output_black": true,
+        "P_rows": [
+          [
+            1,
+            1,
+            0,
+            "R"
+          ],
+          [
+            85,
+            85,
+            0,
+            "L"
+          ],
+          [
+            89,
+            89,
+            0,
+            "R"
+          ],
+          [
+            97,
+            97,
+            0,
+            "L"
+          ],
+          [
+            105,
+            105,
+            0,
+            "R"
+          ],
+          [
+            177,
+            69,
+            -1,
+            "L"
+          ]
+        ],
+        "H_rows": [
+          [
+            75,
+            75,
+            0,
+            "R"
+          ],
+          [
+            87,
+            87,
+            0,
+            "L"
+          ],
+          [
+            91,
+            91,
+            0,
+            "R"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": -4,
+      "cap_x_parity": 0,
+      "overlapping_classes": 16,
+      "conflicting_classes": 10,
+      "exterior_required_black_classes": 3,
+      "one_conflict": {
+        "P_class": [
+          0,
+          0
+        ],
+        "H_class": [
+          -4,
+          0
+        ],
+        "P_required_black": true,
+        "H_output_black": false,
+        "P_rows": [
+          [
+            0,
+            0,
+            0,
+            "L"
+          ],
+          [
+            72,
+            72,
+            0,
+            "R"
+          ],
+          [
+            100,
+            100,
+            0,
+            "L"
+          ],
+          [
+            104,
+            104,
+            0,
+            "R"
+          ],
+          [
+            168,
+            60,
+            -1,
+            "L"
+          ]
+        ],
+        "H_rows": [
+          [
+            -44,
+            60,
+            1,
+            "R"
+          ],
+          [
+            -40,
+            64,
+            1,
+            "L"
+          ],
+          [
+            -36,
+            68,
+            1,
+            "R"
+          ],
+          [
+            80,
+            80,
+            0,
+            "L"
+          ],
+          [
+            84,
+            84,
+            0,
+            "R"
+          ],
+          [
+            96,
+            96,
+            0,
+            "L"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": -4,
+      "cap_x_parity": 1,
+      "overlapping_classes": 16,
+      "conflicting_classes": 8,
+      "exterior_required_black_classes": 3,
+      "one_conflict": {
+        "P_class": [
+          0,
+          0
+        ],
+        "H_class": [
+          -4,
+          1
+        ],
+        "P_required_black": true,
+        "H_output_black": false,
+        "P_rows": [
+          [
+            0,
+            0,
+            0,
+            "L"
+          ],
+          [
+            72,
+            72,
+            0,
+            "R"
+          ],
+          [
+            100,
+            100,
+            0,
+            "L"
+          ],
+          [
+            104,
+            104,
+            0,
+            "R"
+          ],
+          [
+            168,
+            60,
+            -1,
+            "L"
+          ]
+        ],
+        "H_rows": [
+          [
+            -42,
+            62,
+            1,
+            "R"
+          ],
+          [
+            50,
+            50,
+            0,
+            "L"
+          ],
+          [
+            78,
+            78,
+            0,
+            "R"
+          ],
+          [
+            86,
+            86,
+            0,
+            "L"
+          ],
+          [
+            94,
+            94,
+            0,
+            "R"
+          ],
+          [
+            202,
+            98,
+            -1,
+            "L"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": -2,
+      "cap_x_parity": 0,
+      "overlapping_classes": 20,
+      "conflicting_classes": 10,
+      "exterior_required_black_classes": 1,
+      "one_conflict": {
+        "P_class": [
+          -1,
+          1
+        ],
+        "H_class": [
+          -3,
+          1
+        ],
+        "P_required_black": true,
+        "H_output_black": false,
+        "P_rows": [
+          [
+            -105,
+            3,
+            1,
+            "L"
+          ],
+          [
+            -9,
+            99,
+            1,
+            "R"
+          ],
+          [
+            -5,
+            103,
+            1,
+            "L"
+          ],
+          [
+            55,
+            55,
+            0,
+            "R"
+          ],
+          [
+            59,
+            59,
+            0,
+            "L"
+          ],
+          [
+            63,
+            63,
+            0,
+            "R"
+          ],
+          [
+            159,
+            51,
+            -1,
+            "L"
+          ]
+        ],
+        "H_rows": [
+          [
+            -49,
+            55,
+            1,
+            "R"
+          ],
+          [
+            -45,
+            59,
+            1,
+            "L"
+          ],
+          [
+            -41,
+            63,
+            1,
+            "R"
+          ],
+          [
+            -37,
+            67,
+            1,
+            "L"
+          ],
+          [
+            43,
+            43,
+            0,
+            "R"
+          ],
+          [
+            51,
+            51,
+            0,
+            "L"
+          ],
+          [
+            79,
+            79,
+            0,
+            "R"
+          ],
+          [
+            83,
+            83,
+            0,
+            "L"
+          ],
+          [
+            95,
+            95,
+            0,
+            "R"
+          ],
+          [
+            203,
+            99,
+            -1,
+            "L"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": -2,
+      "cap_x_parity": 1,
+      "overlapping_classes": 20,
+      "conflicting_classes": 10,
+      "exterior_required_black_classes": 1,
+      "one_conflict": {
+        "P_class": [
+          0,
+          0
+        ],
+        "H_class": [
+          -2,
+          1
+        ],
+        "P_required_black": true,
+        "H_output_black": false,
+        "P_rows": [
+          [
+            0,
+            0,
+            0,
+            "L"
+          ],
+          [
+            72,
+            72,
+            0,
+            "R"
+          ],
+          [
+            100,
+            100,
+            0,
+            "L"
+          ],
+          [
+            104,
+            104,
+            0,
+            "R"
+          ],
+          [
+            168,
+            60,
+            -1,
+            "L"
+          ]
+        ],
+        "H_rows": [
+          [
+            -58,
+            46,
+            1,
+            "R"
+          ],
+          [
+            -50,
+            54,
+            1,
+            "L"
+          ],
+          [
+            -46,
+            58,
+            1,
+            "R"
+          ],
+          [
+            -38,
+            66,
+            1,
+            "L"
+          ],
+          [
+            6,
+            6,
+            0,
+            "R"
+          ],
+          [
+            34,
+            34,
+            0,
+            "L"
+          ],
+          [
+            42,
+            42,
+            0,
+            "R"
+          ],
+          [
+            82,
+            82,
+            0,
+            "L"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": 0,
+      "cap_x_parity": 0,
+      "overlapping_classes": 21,
+      "conflicting_classes": 10,
+      "exterior_required_black_classes": 2,
+      "one_conflict": {
+        "P_class": [
+          1,
+          0
+        ],
+        "H_class": [
+          1,
+          0
+        ],
+        "P_required_black": false,
+        "H_output_black": true,
+        "P_rows": [
+          [
+            1,
+            1,
+            0,
+            "R"
+          ],
+          [
+            85,
+            85,
+            0,
+            "L"
+          ],
+          [
+            89,
+            89,
+            0,
+            "R"
+          ],
+          [
+            97,
+            97,
+            0,
+            "L"
+          ],
+          [
+            105,
+            105,
+            0,
+            "R"
+          ],
+          [
+            177,
+            69,
+            -1,
+            "L"
+          ]
+        ],
+        "H_rows": [
+          [
+            -91,
+            13,
+            1,
+            "R"
+          ],
+          [
+            -87,
+            17,
+            1,
+            "L"
+          ],
+          [
+            -79,
+            25,
+            1,
+            "R"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": 0,
+      "cap_x_parity": 1,
+      "overlapping_classes": 21,
+      "conflicting_classes": 12,
+      "exterior_required_black_classes": 2,
+      "one_conflict": {
+        "P_class": [
+          0,
+          0
+        ],
+        "H_class": [
+          0,
+          1
+        ],
+        "P_required_black": true,
+        "H_output_black": false,
+        "P_rows": [
+          [
+            0,
+            0,
+            0,
+            "L"
+          ],
+          [
+            72,
+            72,
+            0,
+            "R"
+          ],
+          [
+            100,
+            100,
+            0,
+            "L"
+          ],
+          [
+            104,
+            104,
+            0,
+            "R"
+          ],
+          [
+            168,
+            60,
+            -1,
+            "L"
+          ]
+        ],
+        "H_rows": [
+          [
+            -66,
+            38,
+            1,
+            "R"
+          ],
+          [
+            2,
+            2,
+            0,
+            "L"
+          ],
+          [
+            10,
+            10,
+            0,
+            "R"
+          ],
+          [
+            18,
+            18,
+            0,
+            "L"
+          ],
+          [
+            22,
+            22,
+            0,
+            "R"
+          ],
+          [
+            102,
+            102,
+            0,
+            "L"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": 2,
+      "cap_x_parity": 0,
+      "overlapping_classes": 17,
+      "conflicting_classes": 9,
+      "exterior_required_black_classes": 4,
+      "one_conflict": {
+        "P_class": [
+          0,
+          0
+        ],
+        "H_class": [
+          2,
+          0
+        ],
+        "P_required_black": true,
+        "H_output_black": false,
+        "P_rows": [
+          [
+            0,
+            0,
+            0,
+            "L"
+          ],
+          [
+            72,
+            72,
+            0,
+            "R"
+          ],
+          [
+            100,
+            100,
+            0,
+            "L"
+          ],
+          [
+            104,
+            104,
+            0,
+            "R"
+          ],
+          [
+            168,
+            60,
+            -1,
+            "L"
+          ]
+        ],
+        "H_rows": [
+          [
+            -180,
+            28,
+            2,
+            "R"
+          ],
+          [
+            -92,
+            12,
+            1,
+            "L"
+          ],
+          [
+            -88,
+            16,
+            1,
+            "R"
+          ],
+          [
+            -80,
+            24,
+            1,
+            "L"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": 2,
+      "cap_x_parity": 1,
+      "overlapping_classes": 17,
+      "conflicting_classes": 8,
+      "exterior_required_black_classes": 4,
+      "one_conflict": {
+        "P_class": [
+          1,
+          0
+        ],
+        "H_class": [
+          3,
+          1
+        ],
+        "P_required_black": false,
+        "H_output_black": true,
+        "P_rows": [
+          [
+            1,
+            1,
+            0,
+            "R"
+          ],
+          [
+            85,
+            85,
+            0,
+            "L"
+          ],
+          [
+            89,
+            89,
+            0,
+            "R"
+          ],
+          [
+            97,
+            97,
+            0,
+            "L"
+          ],
+          [
+            105,
+            105,
+            0,
+            "R"
+          ],
+          [
+            177,
+            69,
+            -1,
+            "L"
+          ]
+        ],
+        "H_rows": [
+          [
+            -89,
+            15,
+            1,
+            "R"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": 4,
+      "cap_x_parity": 0,
+      "overlapping_classes": 13,
+      "conflicting_classes": 7,
+      "exterior_required_black_classes": 6,
+      "one_conflict": {
+        "P_class": [
+          -3,
+          0
+        ],
+        "H_class": [
+          1,
+          0
+        ],
+        "P_required_black": false,
+        "H_output_black": true,
+        "P_rows": [
+          [
+            -103,
+            5,
+            1,
+            "R"
+          ],
+          [
+            9,
+            9,
+            0,
+            "L"
+          ],
+          [
+            17,
+            17,
+            0,
+            "R"
+          ],
+          [
+            25,
+            25,
+            0,
+            "L"
+          ],
+          [
+            57,
+            57,
+            0,
+            "R"
+          ],
+          [
+            153,
+            45,
+            -1,
+            "L"
+          ]
+        ],
+        "H_rows": [
+          [
+            -91,
+            13,
+            1,
+            "R"
+          ],
+          [
+            -87,
+            17,
+            1,
+            "L"
+          ],
+          [
+            -79,
+            25,
+            1,
+            "R"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": 4,
+      "cap_x_parity": 1,
+      "overlapping_classes": 13,
+      "conflicting_classes": 6,
+      "exterior_required_black_classes": 6,
+      "one_conflict": {
+        "P_class": [
+          -2,
+          0
+        ],
+        "H_class": [
+          2,
+          1
+        ],
+        "P_required_black": false,
+        "H_output_black": true,
+        "P_rows": [
+          [
+            -104,
+            4,
+            1,
+            "R"
+          ],
+          [
+            8,
+            8,
+            0,
+            "L"
+          ],
+          [
+            20,
+            20,
+            0,
+            "R"
+          ],
+          [
+            24,
+            24,
+            0,
+            "L"
+          ],
+          [
+            56,
+            56,
+            0,
+            "R"
+          ],
+          [
+            64,
+            64,
+            0,
+            "L"
+          ],
+          [
+            148,
+            40,
+            -1,
+            "R"
+          ],
+          [
+            152,
+            44,
+            -1,
+            "L"
+          ],
+          [
+            156,
+            48,
+            -1,
+            "R"
+          ],
+          [
+            160,
+            52,
+            -1,
+            "L"
+          ]
+        ],
+        "H_rows": [
+          [
+            -90,
+            14,
+            1,
+            "R"
+          ],
+          [
+            -78,
+            26,
+            1,
+            "L"
+          ],
+          [
+            -74,
+            30,
+            1,
+            "R"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": 6,
+      "cap_x_parity": 0,
+      "overlapping_classes": 9,
+      "conflicting_classes": 6,
+      "exterior_required_black_classes": 8,
+      "one_conflict": {
+        "P_class": [
+          -3,
+          0
+        ],
+        "H_class": [
+          3,
+          0
+        ],
+        "P_required_black": false,
+        "H_output_black": true,
+        "P_rows": [
+          [
+            -103,
+            5,
+            1,
+            "R"
+          ],
+          [
+            9,
+            9,
+            0,
+            "L"
+          ],
+          [
+            17,
+            17,
+            0,
+            "R"
+          ],
+          [
+            25,
+            25,
+            0,
+            "L"
+          ],
+          [
+            57,
+            57,
+            0,
+            "R"
+          ],
+          [
+            153,
+            45,
+            -1,
+            "L"
+          ]
+        ],
+        "H_rows": [
+          [
+            -179,
+            29,
+            2,
+            "R"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": 6,
+      "cap_x_parity": 1,
+      "overlapping_classes": 9,
+      "conflicting_classes": 5,
+      "exterior_required_black_classes": 8,
+      "one_conflict": {
+        "P_class": [
+          -3,
+          0
+        ],
+        "H_class": [
+          3,
+          1
+        ],
+        "P_required_black": false,
+        "H_output_black": true,
+        "P_rows": [
+          [
+            -103,
+            5,
+            1,
+            "R"
+          ],
+          [
+            9,
+            9,
+            0,
+            "L"
+          ],
+          [
+            17,
+            17,
+            0,
+            "R"
+          ],
+          [
+            25,
+            25,
+            0,
+            "L"
+          ],
+          [
+            57,
+            57,
+            0,
+            "R"
+          ],
+          [
+            153,
+            45,
+            -1,
+            "L"
+          ]
+        ],
+        "H_rows": [
+          [
+            -89,
+            15,
+            1,
+            "R"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": 8,
+      "cap_x_parity": 0,
+      "overlapping_classes": 5,
+      "conflicting_classes": 2,
+      "exterior_required_black_classes": 9,
+      "one_conflict": {
+        "P_class": [
+          -5,
+          1
+        ],
+        "H_class": [
+          3,
+          1
+        ],
+        "P_required_black": false,
+        "H_output_black": true,
+        "P_rows": [
+          [
+            -97,
+            11,
+            1,
+            "R"
+          ],
+          [
+            -93,
+            15,
+            1,
+            "L"
+          ],
+          [
+            -81,
+            27,
+            1,
+            "R"
+          ],
+          [
+            31,
+            31,
+            0,
+            "L"
+          ],
+          [
+            35,
+            35,
+            0,
+            "R"
+          ]
+        ],
+        "H_rows": [
+          [
+            -89,
+            15,
+            1,
+            "R"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": 8,
+      "cap_x_parity": 1,
+      "overlapping_classes": 5,
+      "conflicting_classes": 3,
+      "exterior_required_black_classes": 9,
+      "one_conflict": {
+        "P_class": [
+          -5,
+          1
+        ],
+        "H_class": [
+          3,
+          0
+        ],
+        "P_required_black": false,
+        "H_output_black": true,
+        "P_rows": [
+          [
+            -97,
+            11,
+            1,
+            "R"
+          ],
+          [
+            -93,
+            15,
+            1,
+            "L"
+          ],
+          [
+            -81,
+            27,
+            1,
+            "R"
+          ],
+          [
+            31,
+            31,
+            0,
+            "L"
+          ],
+          [
+            35,
+            35,
+            0,
+            "R"
+          ]
+        ],
+        "H_rows": [
+          [
+            -179,
+            29,
+            2,
+            "R"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": 10,
+      "cap_x_parity": 0,
+      "overlapping_classes": 1,
+      "conflicting_classes": 1,
+      "exterior_required_black_classes": 11,
+      "one_conflict": {
+        "P_class": [
+          -7,
+          0
+        ],
+        "H_class": [
+          3,
+          0
+        ],
+        "P_required_black": false,
+        "H_output_black": true,
+        "P_rows": [
+          [
+            33,
+            33,
+            0,
+            "R"
+          ]
+        ],
+        "H_rows": [
+          [
+            -179,
+            29,
+            2,
+            "R"
+          ]
+        ]
+      }
+    },
+    {
+      "cap_transverse": 10,
+      "cap_x_parity": 1,
+      "overlapping_classes": 1,
+      "conflicting_classes": 1,
+      "exterior_required_black_classes": 11,
+      "one_conflict": {
+        "P_class": [
+          -7,
+          0
+        ],
+        "H_class": [
+          3,
+          1
+        ],
+        "P_required_black": false,
+        "H_output_black": true,
+        "P_rows": [
+          [
+            33,
+            33,
+            0,
+            "R"
+          ]
+        ],
+        "H_rows": [
+          [
+            -89,
+            15,
+            1,
+            "R"
+          ]
+        ]
+      }
+    }
+  ],
+  "offstrip_lower_bound": "initial mass >= 11*n - 6 - |C|",
+  "offstrip_boundary_loss": 6,
+  "source_sha256": {
+    "causal_reduction/unit_scale/reverse108_prepared_control.json": "c528b4f02e5c96b818bbe1fa2c68b61a2ae8d9c0f53099aa11ab64d01734a4a0"
+  }
+}

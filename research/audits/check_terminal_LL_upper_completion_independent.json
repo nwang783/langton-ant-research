@@ -1,0 +1,610 @@
+{
+  "status": "PASS scoped terminal LL even-portal upper-side physical completion obstruction",
+  "bindings": {
+    "terminal_LL_portal_upper_side_has_a_physical_completion_collision.md": "65df766ad347da82d569f873d715394f864da4a5403a1c8495f2ed590f1dab38",
+    "check_terminal_LL_upper_side_collision.py": "3de0f206cc1fd18528eb8c0547081978e78a46636bb9c6cc1105e403739ce3f6",
+    "check_terminal_LL_upper_side_collision.json": "b91b04927db71a44ca64e7d8455320773633df4985345d7f0fa9a2dfbec16d84"
+  },
+  "Q_square_counts": {
+    "port": 1869,
+    "rank": 43,
+    "clock": 1,
+    "higher_C": 4,
+    "open": 5
+  },
+  "five_modes": [
+    [
+      "SNN",
+      "SSNN",
+      "EE"
+    ],
+    [
+      "SNN",
+      "SSNN",
+      "EEW"
+    ],
+    [
+      "SNNS",
+      "SNN",
+      "WWE"
+    ],
+    [
+      "SNNS",
+      "SNNS",
+      "WWEE"
+    ],
+    [
+      "SNNS",
+      "SSNN",
+      "EEWW"
+    ]
+  ],
+  "independent_higher_C_witnesses": [
+    [
+      [
+        "SNN",
+        "SNN",
+        "WWWE"
+      ],
+      [
+        [
+          3,
+          1
+        ],
+        2
+      ]
+    ],
+    [
+      [
+        "SNN",
+        "SNSN",
+        "WW"
+      ],
+      [
+        [
+          -1,
+          1
+        ],
+        2
+      ]
+    ],
+    [
+      [
+        "SNN",
+        "SNSN",
+        "WWW"
+      ],
+      [
+        [
+          -1,
+          1
+        ],
+        2
+      ]
+    ],
+    [
+      [
+        "SNNS",
+        "SNSN",
+        "WWWW"
+      ],
+      [
+        [
+          -1,
+          1
+        ],
+        2
+      ]
+    ]
+  ],
+  "upper_eight_counts": {
+    "port": 4695,
+    "rank": 100,
+    "clock": 10
+  },
+  "physical_rank_path_lengths": {
+    "4": 88,
+    "8": 12
+  },
+  "positive_clock_weights": {
+    "12": 6,
+    "20": 2,
+    "16": 2
+  },
+  "all_mode_count_domains": {
+    "('SNN', 'SSNN', 'EE')": {
+      "counts": {
+        "port": 939,
+        "rank": 22
+      },
+      "complete_count_pairs": [
+        [
+          "EWW",
+          "NN"
+        ],
+        [
+          "EWW",
+          "NNS"
+        ],
+        [
+          "EWW",
+          "SNN"
+        ],
+        [
+          "WWE",
+          "NN"
+        ],
+        [
+          "WWE",
+          "NNS"
+        ],
+        [
+          "WWE",
+          "SNN"
+        ],
+        [
+          "EEWW",
+          "NNSS"
+        ],
+        [
+          "EEWW",
+          "NSSN"
+        ],
+        [
+          "EEWW",
+          "SNNS"
+        ],
+        [
+          "EEWW",
+          "SSNN"
+        ],
+        [
+          "EWWE",
+          "NNSS"
+        ],
+        [
+          "EWWE",
+          "NSSN"
+        ],
+        [
+          "EWWE",
+          "SNNS"
+        ],
+        [
+          "EWWE",
+          "SSNN"
+        ],
+        [
+          "WEEW",
+          "NNSS"
+        ],
+        [
+          "WEEW",
+          "NSSN"
+        ],
+        [
+          "WEEW",
+          "SNNS"
+        ],
+        [
+          "WEEW",
+          "SSNN"
+        ],
+        [
+          "WWEE",
+          "NNSS"
+        ],
+        [
+          "WWEE",
+          "NSSN"
+        ],
+        [
+          "WWEE",
+          "SNNS"
+        ],
+        [
+          "WWEE",
+          "SSNN"
+        ]
+      ]
+    },
+    "('SNN', 'SSNN', 'EEW')": {
+      "counts": {
+        "port": 939,
+        "rank": 22
+      },
+      "complete_count_pairs": [
+        [
+          "EWW",
+          "NN"
+        ],
+        [
+          "EWW",
+          "NNS"
+        ],
+        [
+          "EWW",
+          "SNN"
+        ],
+        [
+          "WWE",
+          "NN"
+        ],
+        [
+          "WWE",
+          "NNS"
+        ],
+        [
+          "WWE",
+          "SNN"
+        ],
+        [
+          "EEWW",
+          "NNSS"
+        ],
+        [
+          "EEWW",
+          "NSSN"
+        ],
+        [
+          "EEWW",
+          "SNNS"
+        ],
+        [
+          "EEWW",
+          "SSNN"
+        ],
+        [
+          "EWWE",
+          "NNSS"
+        ],
+        [
+          "EWWE",
+          "NSSN"
+        ],
+        [
+          "EWWE",
+          "SNNS"
+        ],
+        [
+          "EWWE",
+          "SSNN"
+        ],
+        [
+          "WEEW",
+          "NNSS"
+        ],
+        [
+          "WEEW",
+          "NSSN"
+        ],
+        [
+          "WEEW",
+          "SNNS"
+        ],
+        [
+          "WEEW",
+          "SSNN"
+        ],
+        [
+          "WWEE",
+          "NNSS"
+        ],
+        [
+          "WWEE",
+          "NSSN"
+        ],
+        [
+          "WWEE",
+          "SNNS"
+        ],
+        [
+          "WWEE",
+          "SSNN"
+        ]
+      ]
+    },
+    "('SNNS', 'SNN', 'WWE')": {
+      "counts": {
+        "port": 939,
+        "rank": 17,
+        "clock": 5
+      },
+      "complete_count_pairs": [
+        [
+          "EWW",
+          "NN"
+        ],
+        [
+          "EWW",
+          "NNS"
+        ],
+        [
+          "EWW",
+          "SNN"
+        ],
+        [
+          "WWE",
+          "NN"
+        ],
+        [
+          "WWE",
+          "NNS"
+        ],
+        [
+          "WWE",
+          "SNN"
+        ],
+        [
+          "EEWW",
+          "NNSS"
+        ],
+        [
+          "EEWW",
+          "NSSN"
+        ],
+        [
+          "EEWW",
+          "SNNS"
+        ],
+        [
+          "EEWW",
+          "SSNN"
+        ],
+        [
+          "EWWE",
+          "NNSS"
+        ],
+        [
+          "EWWE",
+          "NSSN"
+        ],
+        [
+          "EWWE",
+          "SNNS"
+        ],
+        [
+          "EWWE",
+          "SSNN"
+        ],
+        [
+          "WEEW",
+          "NNSS"
+        ],
+        [
+          "WEEW",
+          "NSSN"
+        ],
+        [
+          "WEEW",
+          "SNNS"
+        ],
+        [
+          "WEEW",
+          "SSNN"
+        ],
+        [
+          "WWEE",
+          "NNSS"
+        ],
+        [
+          "WWEE",
+          "NSSN"
+        ],
+        [
+          "WWEE",
+          "SNNS"
+        ],
+        [
+          "WWEE",
+          "SSNN"
+        ]
+      ]
+    },
+    "('SNNS', 'SNNS', 'WWEE')": {
+      "counts": {
+        "port": 939,
+        "rank": 17,
+        "clock": 5
+      },
+      "complete_count_pairs": [
+        [
+          "EWW",
+          "NN"
+        ],
+        [
+          "EWW",
+          "NNS"
+        ],
+        [
+          "EWW",
+          "SNN"
+        ],
+        [
+          "WWE",
+          "NN"
+        ],
+        [
+          "WWE",
+          "NNS"
+        ],
+        [
+          "WWE",
+          "SNN"
+        ],
+        [
+          "EEWW",
+          "NNSS"
+        ],
+        [
+          "EEWW",
+          "NSSN"
+        ],
+        [
+          "EEWW",
+          "SNNS"
+        ],
+        [
+          "EEWW",
+          "SSNN"
+        ],
+        [
+          "EWWE",
+          "NNSS"
+        ],
+        [
+          "EWWE",
+          "NSSN"
+        ],
+        [
+          "EWWE",
+          "SNNS"
+        ],
+        [
+          "EWWE",
+          "SSNN"
+        ],
+        [
+          "WEEW",
+          "NNSS"
+        ],
+        [
+          "WEEW",
+          "NSSN"
+        ],
+        [
+          "WEEW",
+          "SNNS"
+        ],
+        [
+          "WEEW",
+          "SSNN"
+        ],
+        [
+          "WWEE",
+          "NNSS"
+        ],
+        [
+          "WWEE",
+          "NSSN"
+        ],
+        [
+          "WWEE",
+          "SNNS"
+        ],
+        [
+          "WWEE",
+          "SSNN"
+        ]
+      ]
+    },
+    "('SNNS', 'SSNN', 'EEWW')": {
+      "counts": {
+        "port": 939,
+        "rank": 22
+      },
+      "complete_count_pairs": [
+        [
+          "EWW",
+          "NN"
+        ],
+        [
+          "EWW",
+          "NNS"
+        ],
+        [
+          "EWW",
+          "SNN"
+        ],
+        [
+          "WWE",
+          "NN"
+        ],
+        [
+          "WWE",
+          "NNS"
+        ],
+        [
+          "WWE",
+          "SNN"
+        ],
+        [
+          "EEWW",
+          "NNSS"
+        ],
+        [
+          "EEWW",
+          "NSSN"
+        ],
+        [
+          "EEWW",
+          "SNNS"
+        ],
+        [
+          "EEWW",
+          "SSNN"
+        ],
+        [
+          "EWWE",
+          "NNSS"
+        ],
+        [
+          "EWWE",
+          "NSSN"
+        ],
+        [
+          "EWWE",
+          "SNNS"
+        ],
+        [
+          "EWWE",
+          "SSNN"
+        ],
+        [
+          "WEEW",
+          "NNSS"
+        ],
+        [
+          "WEEW",
+          "NSSN"
+        ],
+        [
+          "WEEW",
+          "SNNS"
+        ],
+        [
+          "WEEW",
+          "SSNN"
+        ],
+        [
+          "WWEE",
+          "NNSS"
+        ],
+        [
+          "WWEE",
+          "NSSN"
+        ],
+        [
+          "WWEE",
+          "SNNS"
+        ],
+        [
+          "WWEE",
+          "SSNN"
+        ]
+      ]
+    }
+  },
+  "bound_prior_open_profiles": 18,
+  "analytic_review": [
+    "Each missing reader ranges over EVERY complete WHITE empty or1..4-read history in its actual incoming axis. The1922 and4805 products are count-derived finite local domains, not word-depth or period scans. Used and zero port counts are retained.",
+    "The physical shift(-1,-3) preserves axis parity and places maximal Q at the independently solved face anchor(0,-1). In the terminal portal application, C=WWEE has balanced R_W/R_E, transporting the known opposite portal M sector to Q. No unknown reader first-R maximum is presumed.",
+    "All53 first-square non-port products independently classify as43 literal same-physical next-rank failures,1 positive clock,4 higher-C,5 necessary modes. Every stored rank/clock witness is separately replayed against actual ordinal successor/equality edges, not just matched counts.",
+    "Each of the five modes has exactly22 complete L/K count-compatible pairs. All110 have a physical rejection:100 same-cell wrong-next-rank paths of4/8edges or10 exact positive cycles with actual +/-1 equalities and same-cell >=4. No further global height or chronology bound is used in this final stage.",
+    "Any full-drift quotient realization supplies these physical eight-cell histories, so identification of translated classes cannot remove a same-PHYSICAL-cell return or positive actual-time cycle. Older stock and optionalL3 remain within the complete histories.",
+    "Only the specified complete-WHITE cap4 terminal LL entry into this even-root portal is excluded. The prior18 local networks remain valid weaker data without these four completed readers; prepared F84/F85 and changed-role/higher-multiplicity joins are not excluded. No whole-front or general one-use classification follows."
+  ],
+  "dependencies": {
+    "prior_independent_report": "d4215314370d4e0948974ef03c8f30021d15f393556163c6e44e0478a9a2271e"
+  }
+}

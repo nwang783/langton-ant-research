@@ -1,0 +1,172 @@
+{
+  "status": "exact complete-field half-plane stabilization and independent-age transfer",
+  "domain": "independent integers m,n>=200",
+  "source_boundary": {
+    "time_for_q_index_i": [
+      208,
+      70733
+    ],
+    "pose": [
+      [
+        -15,
+        26
+      ],
+      1
+    ]
+  },
+  "comparison_halfplane_z_lower": -250,
+  "restricted_field_size": 2442,
+  "restricted_field_sha256": "d1f2c5f07bedead9c64e1ee407df2ba9053aa76d2c05b8662df05ba0f0403852",
+  "pre_boundary_u_lower": -82,
+  "pre_boundary_u_upper": 58,
+  "two_bit_future_z_lower": -93,
+  "two_bit_future_z_upper": 71,
+  "two_bit_prefix_and_archive_u_upper": 98,
+  "initial_seed": {
+    "q_m": [
+      [
+        -2,
+        -33
+      ],
+      [
+        -2,
+        -14
+      ]
+    ],
+    "a_n": [
+      [
+        -2,
+        -33
+      ],
+      [
+        2,
+        41
+      ]
+    ]
+  },
+  "capture_time_m_n_constant": [
+    208,
+    208,
+    146040
+  ],
+  "capture_pose": [
+    [
+      40,
+      -50
+    ],
+    2
+  ],
+  "tail_phase": 100,
+  "drift": [
+    2,
+    -2
+  ],
+  "source_template_sha256": "16246ec40cbdd4ad94c35698992582b27a942dc7d539683f1b3684892cd5687d",
+  "scope": "Analytic first-difference transfer between previously color-certified parent families. The two source ages are independent; this is not a general finite-history theorem."
+}
+{
+  "status": "exact entire live-half-plane reset for four distinct ordinary packets",
+  "domain": "independent m,k>=100",
+  "region": "z>=-250",
+  "restricted_field_size": 2442,
+  "restricted_field_sha256": "d1f2c5f07bedead9c64e1ee407df2ba9053aa76d2c05b8662df05ba0f0403852",
+  "rows": [
+    {
+      "phase": 13,
+      "reset_time_m_k_constant": [
+        208,
+        208,
+        69505
+      ],
+      "reset_pose": [
+        [
+          -15,
+          26
+        ],
+        1
+      ],
+      "complete_prefix_and_archive_u_bounds": [
+        -82,
+        58
+      ],
+      "complete_prefix_z_upper": 39,
+      "first_remote_parity": [
+        1,
+        0
+      ]
+    },
+    {
+      "phase": 14,
+      "reset_time_m_k_constant": [
+        208,
+        208,
+        69605
+      ],
+      "reset_pose": [
+        [
+          -15,
+          26
+        ],
+        1
+      ],
+      "complete_prefix_and_archive_u_bounds": [
+        -82,
+        58
+      ],
+      "complete_prefix_z_upper": 39,
+      "first_remote_parity": [
+        1,
+        0
+      ]
+    },
+    {
+      "phase": 27,
+      "reset_time_m_k_constant": [
+        208,
+        208,
+        69825
+      ],
+      "reset_pose": [
+        [
+          -15,
+          26
+        ],
+        1
+      ],
+      "complete_prefix_and_archive_u_bounds": [
+        -82,
+        58
+      ],
+      "complete_prefix_z_upper": 39,
+      "first_remote_parity": [
+        1,
+        0
+      ]
+    },
+    {
+      "phase": 89,
+      "reset_time_m_k_constant": [
+        208,
+        208,
+        69517
+      ],
+      "reset_pose": [
+        [
+          -15,
+          26
+        ],
+        1
+      ],
+      "complete_prefix_and_archive_u_bounds": [
+        -82,
+        58
+      ],
+      "complete_prefix_z_upper": 39,
+      "first_remote_parity": [
+        1,
+        0
+      ]
+    }
+  ],
+  "scope": "All old information below the region is retained, not erased. The coupled reference futures must remain inside the region."
+}

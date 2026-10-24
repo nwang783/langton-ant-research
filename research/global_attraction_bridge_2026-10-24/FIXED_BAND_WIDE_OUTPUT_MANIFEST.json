@@ -1,0 +1,19 @@
+{
+  "status": "FROZEN; independent audit requested",
+  "files": {
+    "FIXED_BAND_WIDE_PERMANENT_OUTPUT.md": "2f178941fa7d86c8636d8dfc1637655516b2dcfdba2ec7bd0125505736a209dd",
+    "check_fixed_band_wide_output.py": "561d5993219e0d2d0480c48a0ecfa82260e81937a53749cb4fd0d70a5d9dd5c0",
+    "FIXED_BAND_WIDE_OUTPUT_CHECKED.json": "88c62910969fa2ce86c41f4ec2c3b872f668916a35d0be93579cda66f124067d",
+    "TWENTY_RELEVANT_STOCK_MANIFEST.json": "0727f6d758e43ccb6c7585545f9b46c5512f5db137348eaeb0e16c8055137d18",
+    "RETURN_BAND_PACKING_MANIFEST.json": "b9542f203723455971cdd733f1af4816f218788c4dfee4ed82f4c33611a3d213",
+    "OUTWARD_STANDARD_RECORD_GUARDS.md": "f707ab6b347687834fae055c61ce7f7b19b296c6f5ee24ee8efc8935aab83689",
+    "CONDITIONAL_NO_REENTRY_SEPARATOR.md": "8017e6990fa9ae9e674cd241f208fbecb1f6da6be5e3d03b5a8845680955ae79",
+    "ELEVEN_CELL_TERMINAL_TRAP.md": "b9aaf051b8511430bb9011a1751e75083ef5bfa30e7965b6f2be486c9b636397"
+  },
+  "retained_dependencies": {
+    "../sources/kehao95-core/memory_feedback/proof/scalable-feedback-circuit.md": "1b2b1cffedd2115c3201b9582e374a18726337be7a7e28a84364b5fa902e0608",
+    "../audits/twenty_relevant_stock_independent.json": "5e4aa39a54bd2a2d8b11e24f3220a7a039654a03b426c3c756a3316f76d3751a",
+    "../audits/check_twenty_cell_sustained_cap_independent.json": "3e9990a980226c8785a71915cbdfe3fbf0a86aeb013706bf037ac8bd73a52df9"
+  },
+  "claim": "Even n>=210: true permanent output in fixed column-200 has span>=2n+402 while C*<=132 and all currently certified bounded-delay capture guards are avoided through e. Fixed-band read count nevertheless<=40188. Uniform-family obstruction only."
+}

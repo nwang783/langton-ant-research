@@ -1,0 +1,1222 @@
+{
+  "status": "AUTHOR_FROZEN_PENDING_INDEPENDENT_REVIEW",
+  "scope": "Only21 prescribed immediate next COMPLETE seven-atom RAW+actualM ports of the three actual twoforeign controls. No continuation tree or arbitrary-depth claim.",
+  "all21_prescribed_next_ports": [
+    {
+      "base_control": "UQUF",
+      "actual_next_atom": "D",
+      "feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 187,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      },
+      "actual_next_owner": {
+        "packet": "D",
+        "context_tick0": 11,
+        "context_read_number1": 12,
+        "RAW_length": 10,
+        "owner": "next actual word RAW",
+        "owner_tick0": 1,
+        "owner_read_number1": 2,
+        "turn": "L",
+        "next_word_tick0": 1,
+        "next_word_read_number1": 2,
+        "label": "context tick 11 (zero-based), RAW length 10; next actual word RAW tick 1 (zero-based), read 2 (one-based), L"
+      },
+      "original_U_source_last_read": {
+        "cell": [
+          0,
+          -1
+        ],
+        "own_tick0": 3,
+        "own_read_number1": 4,
+        "turn": "L",
+        "state": "WHITE hole after actual L"
+      },
+      "no_intermediate_visit_since_initial_U": true
+    },
+    {
+      "base_control": "UQUF",
+      "actual_next_atom": "C",
+      "feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 188,
+        "previous_read": 4,
+        "cell": [
+          0,
+          0
+        ],
+        "turn": "R"
+      },
+      "actual_next_owner": {
+        "packet": "C",
+        "context_tick0": 12,
+        "context_read_number1": 13,
+        "RAW_length": 15,
+        "owner": "own C-tail 1 RAW",
+        "owner_tick0": 12,
+        "owner_read_number1": 13,
+        "turn": "R",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 12 (zero-based), RAW length 15; own C-tail 1 RAW tick 12 (zero-based), read 13 (one-based), R"
+      },
+      "original_U_source_last_read": {
+        "cell": [
+          0,
+          0
+        ],
+        "own_tick0": 4,
+        "own_read_number1": 5,
+        "turn": "R",
+        "state": "SAME BLACK source-R identity"
+      },
+      "no_intermediate_visit_since_initial_U": true
+    },
+    {
+      "base_control": "UQUF",
+      "actual_next_atom": "V",
+      "feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 188,
+        "previous_read": 4,
+        "cell": [
+          0,
+          0
+        ],
+        "turn": "R"
+      },
+      "actual_next_owner": {
+        "packet": "V",
+        "context_tick0": 12,
+        "context_read_number1": 13,
+        "RAW_length": 18,
+        "owner": "own V-base RAW",
+        "owner_tick0": 12,
+        "owner_read_number1": 13,
+        "turn": "R",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 12 (zero-based), RAW length 18; own V-base RAW tick 12 (zero-based), read 13 (one-based), R"
+      },
+      "original_U_source_last_read": {
+        "cell": [
+          0,
+          0
+        ],
+        "own_tick0": 4,
+        "own_read_number1": 5,
+        "turn": "R",
+        "state": "SAME BLACK source-R identity"
+      },
+      "no_intermediate_visit_since_initial_U": true
+    },
+    {
+      "base_control": "UQUF",
+      "actual_next_atom": "U",
+      "feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 189,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      },
+      "actual_next_owner": {
+        "packet": "U",
+        "context_tick0": 13,
+        "context_read_number1": 14,
+        "RAW_length": 28,
+        "owner": "own U-base RAW",
+        "owner_tick0": 13,
+        "owner_read_number1": 14,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 13 (zero-based), RAW length 28; own U-base RAW tick 13 (zero-based), read 14 (one-based), L"
+      },
+      "original_U_source_last_read": {
+        "cell": [
+          -1,
+          0
+        ],
+        "own_tick0": 1,
+        "own_read_number1": 2,
+        "turn": "L",
+        "state": "WHITE hole after actual L"
+      },
+      "no_intermediate_visit_since_initial_U": true
+    },
+    {
+      "base_control": "UQUF",
+      "actual_next_atom": "F",
+      "feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 189,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      },
+      "actual_next_owner": {
+        "packet": "F",
+        "context_tick0": 13,
+        "context_read_number1": 14,
+        "RAW_length": 56,
+        "owner": "own F-base RAW",
+        "owner_tick0": 13,
+        "owner_read_number1": 14,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 13 (zero-based), RAW length 56; own F-base RAW tick 13 (zero-based), read 14 (one-based), L"
+      },
+      "original_U_source_last_read": {
+        "cell": [
+          -1,
+          0
+        ],
+        "own_tick0": 1,
+        "own_read_number1": 2,
+        "turn": "L",
+        "state": "WHITE hole after actual L"
+      },
+      "no_intermediate_visit_since_initial_U": true
+    },
+    {
+      "base_control": "UQUF",
+      "actual_next_atom": "Q",
+      "feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 189,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      },
+      "actual_next_owner": {
+        "packet": "Q",
+        "context_tick0": 13,
+        "context_read_number1": 14,
+        "RAW_length": 64,
+        "owner": "own Q-base RAW",
+        "owner_tick0": 13,
+        "owner_read_number1": 14,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 13 (zero-based), RAW length 64; own Q-base RAW tick 13 (zero-based), read 14 (one-based), L"
+      },
+      "original_U_source_last_read": {
+        "cell": [
+          -1,
+          0
+        ],
+        "own_tick0": 1,
+        "own_read_number1": 2,
+        "turn": "L",
+        "state": "WHITE hole after actual L"
+      },
+      "no_intermediate_visit_since_initial_U": true
+    },
+    {
+      "base_control": "UQUF",
+      "actual_next_atom": "B",
+      "feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 189,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      },
+      "actual_next_owner": {
+        "packet": "B",
+        "context_tick0": 13,
+        "context_read_number1": 14,
+        "RAW_length": 74,
+        "owner": "own B-base RAW",
+        "owner_tick0": 13,
+        "owner_read_number1": 14,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 13 (zero-based), RAW length 74; own B-base RAW tick 13 (zero-based), read 14 (one-based), L"
+      },
+      "original_U_source_last_read": {
+        "cell": [
+          -1,
+          0
+        ],
+        "own_tick0": 1,
+        "own_read_number1": 2,
+        "turn": "L",
+        "state": "WHITE hole after actual L"
+      },
+      "no_intermediate_visit_since_initial_U": true
+    },
+    {
+      "base_control": "UBVF",
+      "actual_next_atom": "D",
+      "feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 187,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      },
+      "actual_next_owner": {
+        "packet": "D",
+        "context_tick0": 11,
+        "context_read_number1": 12,
+        "RAW_length": 10,
+        "owner": "next actual word RAW",
+        "owner_tick0": 1,
+        "owner_read_number1": 2,
+        "turn": "L",
+        "next_word_tick0": 1,
+        "next_word_read_number1": 2,
+        "label": "context tick 11 (zero-based), RAW length 10; next actual word RAW tick 1 (zero-based), read 2 (one-based), L"
+      },
+      "original_U_source_last_read": {
+        "cell": [
+          0,
+          -1
+        ],
+        "own_tick0": 3,
+        "own_read_number1": 4,
+        "turn": "L",
+        "state": "WHITE hole after actual L"
+      },
+      "no_intermediate_visit_since_initial_U": true
+    },
+    {
+      "base_control": "UBVF",
+      "actual_next_atom": "C",
+      "feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 188,
+        "previous_read": 4,
+        "cell": [
+          0,
+          0
+        ],
+        "turn": "R"
+      },
+      "actual_next_owner": {
+        "packet": "C",
+        "context_tick0": 12,
+        "context_read_number1": 13,
+        "RAW_length": 15,
+        "owner": "own C-tail 1 RAW",
+        "owner_tick0": 12,
+        "owner_read_number1": 13,
+        "turn": "R",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 12 (zero-based), RAW length 15; own C-tail 1 RAW tick 12 (zero-based), read 13 (one-based), R"
+      },
+      "original_U_source_last_read": {
+        "cell": [
+          0,
+          0
+        ],
+        "own_tick0": 4,
+        "own_read_number1": 5,
+        "turn": "R",
+        "state": "SAME BLACK source-R identity"
+      },
+      "no_intermediate_visit_since_initial_U": true
+    },
+    {
+      "base_control": "UBVF",
+      "actual_next_atom": "V",
+      "feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 188,
+        "previous_read": 4,
+        "cell": [
+          0,
+          0
+        ],
+        "turn": "R"
+      },
+      "actual_next_owner": {
+        "packet": "V",
+        "context_tick0": 12,
+        "context_read_number1": 13,
+        "RAW_length": 18,
+        "owner": "own V-base RAW",
+        "owner_tick0": 12,
+        "owner_read_number1": 13,
+        "turn": "R",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 12 (zero-based), RAW length 18; own V-base RAW tick 12 (zero-based), read 13 (one-based), R"
+      },
+      "original_U_source_last_read": {
+        "cell": [
+          0,
+          0
+        ],
+        "own_tick0": 4,
+        "own_read_number1": 5,
+        "turn": "R",
+        "state": "SAME BLACK source-R identity"
+      },
+      "no_intermediate_visit_since_initial_U": true
+    },
+    {
+      "base_control": "UBVF",
+      "actual_next_atom": "U",
+      "feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 189,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      },
+      "actual_next_owner": {
+        "packet": "U",
+        "context_tick0": 13,
+        "context_read_number1": 14,
+        "RAW_length": 28,
+        "owner": "own U-base RAW",
+        "owner_tick0": 13,
+        "owner_read_number1": 14,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 13 (zero-based), RAW length 28; own U-base RAW tick 13 (zero-based), read 14 (one-based), L"
+      },
+      "original_U_source_last_read": {
+        "cell": [
+          -1,
+          0
+        ],
+        "own_tick0": 1,
+        "own_read_number1": 2,
+        "turn": "L",
+        "state": "WHITE hole after actual L"
+      },
+      "no_intermediate_visit_since_initial_U": true
+    },
+    {
+      "base_control": "UBVF",
+      "actual_next_atom": "F",
+      "feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 189,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      },
+      "actual_next_owner": {
+        "packet": "F",
+        "context_tick0": 13,
+        "context_read_number1": 14,
+        "RAW_length": 56,
+        "owner": "own F-base RAW",
+        "owner_tick0": 13,
+        "owner_read_number1": 14,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 13 (zero-based), RAW length 56; own F-base RAW tick 13 (zero-based), read 14 (one-based), L"
+      },
+      "original_U_source_last_read": {
+        "cell": [
+          -1,
+          0
+        ],
+        "own_tick0": 1,
+        "own_read_number1": 2,
+        "turn": "L",
+        "state": "WHITE hole after actual L"
+      },
+      "no_intermediate_visit_since_initial_U": true
+    },
+    {
+      "base_control": "UBVF",
+      "actual_next_atom": "Q",
+      "feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 189,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      },
+      "actual_next_owner": {
+        "packet": "Q",
+        "context_tick0": 13,
+        "context_read_number1": 14,
+        "RAW_length": 64,
+        "owner": "own Q-base RAW",
+        "owner_tick0": 13,
+        "owner_read_number1": 14,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 13 (zero-based), RAW length 64; own Q-base RAW tick 13 (zero-based), read 14 (one-based), L"
+      },
+      "original_U_source_last_read": {
+        "cell": [
+          -1,
+          0
+        ],
+        "own_tick0": 1,
+        "own_read_number1": 2,
+        "turn": "L",
+        "state": "WHITE hole after actual L"
+      },
+      "no_intermediate_visit_since_initial_U": true
+    },
+    {
+      "base_control": "UBVF",
+      "actual_next_atom": "B",
+      "feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 189,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      },
+      "actual_next_owner": {
+        "packet": "B",
+        "context_tick0": 13,
+        "context_read_number1": 14,
+        "RAW_length": 74,
+        "owner": "own B-base RAW",
+        "owner_tick0": 13,
+        "owner_read_number1": 14,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 13 (zero-based), RAW length 74; own B-base RAW tick 13 (zero-based), read 14 (one-based), L"
+      },
+      "original_U_source_last_read": {
+        "cell": [
+          -1,
+          0
+        ],
+        "own_tick0": 1,
+        "own_read_number1": 2,
+        "turn": "L",
+        "state": "WHITE hole after actual L"
+      },
+      "no_intermediate_visit_since_initial_U": true
+    },
+    {
+      "base_control": "UBUF",
+      "actual_next_atom": "D",
+      "feasible": true,
+      "complete_seed": [
+        [
+          -5,
+          5
+        ],
+        [
+          -5,
+          6
+        ],
+        [
+          -4,
+          3
+        ],
+        [
+          -4,
+          4
+        ],
+        [
+          -4,
+          7
+        ],
+        [
+          -3,
+          -7
+        ],
+        [
+          -3,
+          -4
+        ],
+        [
+          -3,
+          -3
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -3,
+          5
+        ],
+        [
+          -3,
+          6
+        ],
+        [
+          -3,
+          7
+        ],
+        [
+          -2,
+          -7
+        ],
+        [
+          -2,
+          -5
+        ],
+        [
+          -2,
+          -3
+        ],
+        [
+          -2,
+          -2
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -2,
+          6
+        ],
+        [
+          -1,
+          -7
+        ],
+        [
+          -1,
+          -4
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          -1,
+          6
+        ],
+        [
+          0,
+          -8
+        ],
+        [
+          0,
+          -7
+        ],
+        [
+          0,
+          -6
+        ],
+        [
+          0,
+          -4
+        ],
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          -8
+        ],
+        [
+          1,
+          -5
+        ],
+        [
+          1,
+          -4
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -7
+        ],
+        [
+          2,
+          -6
+        ]
+      ],
+      "seed_mass": 48,
+      "all_physical_reads": 207,
+      "extra_initial_unread_BLACK_for_this_extension": [
+        1,
+        -2
+      ],
+      "extra_cell_first_actual_read": [
+        "L",
+        197
+      ],
+      "same47_board_not_claimed_to_continue": true,
+      "statement": "This48-cell complete field executes UBUFD+actualM. It differs from the47-cell base control by one cell genuinely unread through that base plus its suppliedM. No retcon to an already-executed47-cell board is asserted."
+    },
+    {
+      "base_control": "UBUF",
+      "actual_next_atom": "C",
+      "feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 208,
+        "previous_read": 4,
+        "cell": [
+          0,
+          0
+        ],
+        "turn": "R"
+      },
+      "actual_next_owner": {
+        "packet": "C",
+        "context_tick0": 22,
+        "context_read_number1": 23,
+        "RAW_length": 15,
+        "owner": "next actual word RAW",
+        "owner_tick0": 7,
+        "owner_read_number1": 8,
+        "turn": "R",
+        "next_word_tick0": 7,
+        "next_word_read_number1": 8,
+        "label": "context tick 22 (zero-based), RAW length 15; next actual word RAW tick 7 (zero-based), read 8 (one-based), R"
+      },
+      "original_U_source_last_read": {
+        "cell": [
+          0,
+          0
+        ],
+        "own_tick0": 4,
+        "own_read_number1": 5,
+        "turn": "R",
+        "state": "SAME BLACK source-R identity"
+      },
+      "no_intermediate_visit_since_initial_U": true
+    },
+    {
+      "base_control": "UBUF",
+      "actual_next_atom": "V",
+      "feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 200,
+        "previous_read": 8,
+        "cell": [
+          2,
+          0
+        ],
+        "turn": "R"
+      },
+      "actual_next_owner": {
+        "packet": "V",
+        "context_tick0": 14,
+        "context_read_number1": 15,
+        "RAW_length": 18,
+        "owner": "own V-base RAW",
+        "owner_tick0": 14,
+        "owner_read_number1": 15,
+        "turn": "R",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 14 (zero-based), RAW length 18; own V-base RAW tick 14 (zero-based), read 15 (one-based), R"
+      },
+      "original_U_source_last_read": {
+        "cell": [
+          2,
+          0
+        ],
+        "own_tick0": 8,
+        "own_read_number1": 9,
+        "turn": "R",
+        "state": "SAME BLACK source-R identity"
+      },
+      "no_intermediate_visit_since_initial_U": true
+    },
+    {
+      "base_control": "UBUF",
+      "actual_next_atom": "U",
+      "feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 199,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      },
+      "actual_next_owner": {
+        "packet": "U",
+        "context_tick0": 13,
+        "context_read_number1": 14,
+        "RAW_length": 28,
+        "owner": "own U-base RAW",
+        "owner_tick0": 13,
+        "owner_read_number1": 14,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 13 (zero-based), RAW length 28; own U-base RAW tick 13 (zero-based), read 14 (one-based), L"
+      },
+      "original_U_source_last_read": {
+        "cell": [
+          0,
+          -1
+        ],
+        "own_tick0": 3,
+        "own_read_number1": 4,
+        "turn": "L",
+        "state": "WHITE hole after actual L"
+      },
+      "no_intermediate_visit_since_initial_U": true
+    },
+    {
+      "base_control": "UBUF",
+      "actual_next_atom": "F",
+      "feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 199,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      },
+      "actual_next_owner": {
+        "packet": "F",
+        "context_tick0": 13,
+        "context_read_number1": 14,
+        "RAW_length": 56,
+        "owner": "own F-base RAW",
+        "owner_tick0": 13,
+        "owner_read_number1": 14,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 13 (zero-based), RAW length 56; own F-base RAW tick 13 (zero-based), read 14 (one-based), L"
+      },
+      "original_U_source_last_read": {
+        "cell": [
+          0,
+          -1
+        ],
+        "own_tick0": 3,
+        "own_read_number1": 4,
+        "turn": "L",
+        "state": "WHITE hole after actual L"
+      },
+      "no_intermediate_visit_since_initial_U": true
+    },
+    {
+      "base_control": "UBUF",
+      "actual_next_atom": "Q",
+      "feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 199,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      },
+      "actual_next_owner": {
+        "packet": "Q",
+        "context_tick0": 13,
+        "context_read_number1": 14,
+        "RAW_length": 64,
+        "owner": "own Q-base RAW",
+        "owner_tick0": 13,
+        "owner_read_number1": 14,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 13 (zero-based), RAW length 64; own Q-base RAW tick 13 (zero-based), read 14 (one-based), L"
+      },
+      "original_U_source_last_read": {
+        "cell": [
+          0,
+          -1
+        ],
+        "own_tick0": 3,
+        "own_read_number1": 4,
+        "turn": "L",
+        "state": "WHITE hole after actual L"
+      },
+      "no_intermediate_visit_since_initial_U": true
+    },
+    {
+      "base_control": "UBUF",
+      "actual_next_atom": "B",
+      "feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 199,
+        "previous_read": 3,
+        "cell": [
+          0,
+          -1
+        ],
+        "turn": "L"
+      },
+      "actual_next_owner": {
+        "packet": "B",
+        "context_tick0": 13,
+        "context_read_number1": 14,
+        "RAW_length": 74,
+        "owner": "own B-base RAW",
+        "owner_tick0": 13,
+        "owner_read_number1": 14,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 13 (zero-based), RAW length 74; own B-base RAW tick 13 (zero-based), read 14 (one-based), L"
+      },
+      "original_U_source_last_read": {
+        "cell": [
+          0,
+          -1
+        ],
+        "own_tick0": 3,
+        "own_read_number1": 4,
+        "turn": "L",
+        "state": "WHITE hole after actual L"
+      },
+      "no_intermediate_visit_since_initial_U": true
+    }
+  ],
+  "exact_port_obligation": "UQUF andUBVF have unchanged initial-U holes(0,-1)L3 and(-1,0)L1 plus SAME r(0,0)R4. NextD needs firstholeBLACK at marker-owned read2; nextC/V need rWHITE at ownR12; nextU/F/Q/B need secondholeBLACK at ownL13. Every target fails with no intermediatevisit.",
+  "marker_qualification": "The source control already has11 actual continuation readsM. They do not constitute a complete NEXT7 RAW+itsOWN M. In particular D10 may be physically executed inside those11 reads, then its own marker read2 fails. Maximal retained7 factor is not physical ant termination.",
+  "one_real_48_cell_extension": {
+    "base_control": "UBUF",
+    "actual_next_atom": "D",
+    "feasible": true,
+    "complete_seed": [
+      [
+        -5,
+        5
+      ],
+      [
+        -5,
+        6
+      ],
+      [
+        -4,
+        3
+      ],
+      [
+        -4,
+        4
+      ],
+      [
+        -4,
+        7
+      ],
+      [
+        -3,
+        -7
+      ],
+      [
+        -3,
+        -4
+      ],
+      [
+        -3,
+        -3
+      ],
+      [
+        -3,
+        0
+      ],
+      [
+        -3,
+        1
+      ],
+      [
+        -3,
+        3
+      ],
+      [
+        -3,
+        5
+      ],
+      [
+        -3,
+        6
+      ],
+      [
+        -3,
+        7
+      ],
+      [
+        -2,
+        -7
+      ],
+      [
+        -2,
+        -5
+      ],
+      [
+        -2,
+        -3
+      ],
+      [
+        -2,
+        -2
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -2,
+        3
+      ],
+      [
+        -2,
+        6
+      ],
+      [
+        -1,
+        -7
+      ],
+      [
+        -1,
+        -4
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        -1,
+        4
+      ],
+      [
+        -1,
+        6
+      ],
+      [
+        0,
+        -8
+      ],
+      [
+        0,
+        -7
+      ],
+      [
+        0,
+        -6
+      ],
+      [
+        0,
+        -4
+      ],
+      [
+        0,
+        -3
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        -8
+      ],
+      [
+        1,
+        -5
+      ],
+      [
+        1,
+        -4
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        -7
+      ],
+      [
+        2,
+        -6
+      ]
+    ],
+    "seed_mass": 48,
+    "all_physical_reads": 207,
+    "extra_initial_unread_BLACK_for_this_extension": [
+      1,
+      -2
+    ],
+    "extra_cell_first_actual_read": [
+      "L",
+      197
+    ],
+    "same47_board_not_claimed_to_continue": true,
+    "statement": "This48-cell complete field executes UBUFD+actualM. It differs from the47-cell base control by one cell genuinely unread through that base plus its suppliedM. No retcon to an already-executed47-cell board is asserted."
+  },
+  "not_claimed": [
+    "No arbitrary twoforeign reserve or repeatable return state.",
+    "No48-cell behavior attributed to the original47-cell seed.",
+    "No physical trajectory termination or global attraction.",
+    "No other histories at the same pose are excluded."
+  ],
+  "dependencies": {
+    "second_foreign_short_clock_transfer_2026-10-24/manifest.json": "edb2b9cb824041498035756583408e31b773a2142797cf8ce901b667a3a85087",
+    "audits/check_second_foreign_short_clock_independent.json": "008d53848d718c6d76e25cb8502c8cd3700bf7cd720ca80497ae91f05426a907",
+    "word_stabilization/check_foreign_return_interfaces.py": "249f89213a96c8daad9d0ecde65e877d5e254af033092adb81b4bbaca0cc729c",
+    "literal_ownership_conventions_2026-10-24/canonical_read_ownership.py": "041b40e04a0f71a6b9511abf1d15b1d86c548e74f4f99281477c115b72036ea2"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS independent entire-prefix strict-record abstraction",
+  "target": 5,
+  "phase": 0,
+  "threshold": 20,
+  "initial_weight": 28,
+  "variables": 48,
+  "patch_cells": 24,
+  "watched_cells": 24,
+  "near_poses": 265,
+  "initial_near_branches": 113,
+  "packet_groups": 618,
+  "guard_cubes": 2040,
+  "reentry_poses": 108,
+  "scope": "Fixed target/phase strict UNFUNDED record only; no complete event-family or global confinement claim.",
+  "hashes": {
+    "core_periodicity_new/chronology_dcuv/global_record_v_vc_0329/target5_phase0.json": "86bdcec81ffca1cac2998d27242de66558a2ff98153207ffa8c103a9ada581ae",
+    "core_periodicity_new/chronology_dcuv/global_record_v_vc_0329/target5_phase0.dat": "155c61cd2f0bf7f50e188126dd72e78a366b2221434edf2d77548e2e0945408e",
+    "core_periodicity_new/chronology_dcuv/record_head_offset_search/head_1_1.json": "1d143a86a3505e5fdd50668119446e990a7643811c1fb3cb5032ae1f52c96c78",
+    "core_periodicity_new/chronology_dcuv/global_record_v_vc_0329/target5_phase0.bdd": "5545b32f8066427eff95c284372d555706a98d0120e2d285e051ebdaf9277d23"
+  },
+  "invariant": {
+    "status": "PASS independent canonical restriction/XOR/reset invariant check",
+    "variables": 48,
+    "positions": 267,
+    "certificate_nodes": 133352,
+    "invariant_states": 29665168148,
+    "checks": 2263,
+    "canonical_nodes": 153676
+  }
+}

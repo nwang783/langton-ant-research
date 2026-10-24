@@ -1,0 +1,31 @@
+{
+  "status": "PASS independent literal abstraction reconstruction",
+  "source": 1,
+  "target": 6,
+  "target_pose": [
+    4,
+    -1,
+    3
+  ],
+  "protected_q": [
+    2,
+    0
+  ],
+  "frozen_bad_list_index_zero_based": null,
+  "patch_cells": 18,
+  "near_poses": 196,
+  "abstract_states": 51642368,
+  "transitions": 653,
+  "reentry_poses": 76,
+  "start": [
+    104,
+    262143,
+    259840
+  ],
+  "dependency_hashes": {
+    "word_stabilization/seven_sub_dcv_star4_kernel.tsv": "51979b66632b81c04b1dd9dbcfa85bf6a6f759db953252e32040ba4605d80146",
+    "word_stabilization/dcv_protected_patch2_kernel.tsv": "395d31eb25954760bbf42520398eb18f510ab97fbee085da683fc9d6374f71ce",
+    "audits/mutual_source_flag_replays/candidate076_base.json": "725f6af47657d9c89e05e3ce05b9f03a3b2bbb7f298a393874f67e5e49c7de59",
+    "audits/mutual_source_flag_replays/candidate076_base.dat": "b41db33c2b85eb96c376b3f71fe86aeb42ebc92dbe8dc952b4fd1d97c9a43dfe"
+  }
+}

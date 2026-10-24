@@ -1,0 +1,33 @@
+{
+  "H": 10,
+  "W": 2,
+  "T": 12,
+  "input_masks": [
+    12,
+    831
+  ],
+  "results": [
+    {
+      "period": 4,
+      "status": "unsat",
+      "seconds": 0.08764863014221191
+    },
+    {
+      "period": 8,
+      "status": "unsat",
+      "seconds": 0.07832741737365723
+    },
+    {
+      "period": 12,
+      "status": "sat",
+      "seconds": 0.06598830223083496,
+      "word": "RLRRLLLLRRLR",
+      "drift": 2,
+      "initial": [
+        851012,
+        65,
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "status": "PASS heading-count kernel and five all-n neutral same-cell obstructions",
+  "proof": "6a144e153c821ea7f36a00a448ce95fe1f97bd05037e3f7f126f511fb4c32320",
+  "certificate": "9f427efe09e882dbbf0de8166f69081975ff531e2e549585e0cf155ff46263f6",
+  "script": "27241025f6fc2ca4740b88e0901690968269205267b1b83f2c38cf62ecc1ca8c",
+  "matrix": [
+    [
+      1,
+      1,
+      -1
+    ],
+    [
+      1,
+      -1,
+      1
+    ],
+    [
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      1,
+      1
+    ]
+  ],
+  "kernel": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "complete_affine_history_pieces": 9,
+  "analytic_review": [
+    "Every move toggles checker parity and incoming axis, so with initialN at0 all vertical arrivals are checker-even and horizontal arrivals checker-odd. Literal M restores heading and contributes exactly the four displayed columns. Rational elimination has rank3 and kernel span(1,1,1,1).",
+    "For a fixed heading-restoring router template, fullWHITE residue bounds |X|,|Y|<=g0/2 and0<=q<=g0 give finitely many integer triples. If one heading is absent, its total0 fixes the common kernel parameter; every individual nonnegative run count is bounded by its fixed heading total. If allfour occur, the common mode is algebraically invisible. No physical realizability is inferred from this nullspace.",
+    "All event templates are rebuilt from literal geometry with exact affine starts/times and module-instance indices. Two coordinate equations and both index inequalities independently reproduce EVERY matching physical-cell event and its full integern domain. Nine complete-history pieces cover allfive cuts for alln>=1, with exact affine strict ordering and consecutive identical-turn witnesses. The exceptional earlierL atcut13,n2 is retained, not treated as a fresh cell.",
+    "This is a finite-factor impossibility for these five supplied neutral extensions, independent of quotient, firstcolor, exterior field or WHITE premise. It does not exclude general four-heading templates, other insertions, changed routers or WHITE lifetime winding."
+  ]
+}

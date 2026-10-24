@@ -1,0 +1,41 @@
+{
+  "status": "PASS derived uncapped local reader domain leaves only four higher-C necessary shields",
+  "proof": "17e8d2fd81c4bcebe8d167717e4b44d55a684d96e6a528ba2eee5b9e405c0be5",
+  "script": "923ad37102928717cf491705a8fc9d400b293f0f9107ced8328bb298ff5b65c9",
+  "author_checker": "590d534a24ac4f54b215a35a7f600a9b81ce3248ae4b3a0682b68c41cc3e4ea3",
+  "author_certificate": "e254dc4e675001d0462507db5388372eddd098c28d641b350ced02ea50d04a66",
+  "derived_domain": 1014,
+  "literal_rank_collisions": 1010,
+  "necessary_controls": [
+    {
+      "L0": "EEEE",
+      "L2": "WEW",
+      "Q": "SSSSSSNNSN",
+      "C_raise": 3
+    },
+    {
+      "L0": "EEEE",
+      "L2": "WEW",
+      "Q": "SSSSSSNNSNS",
+      "C_raise": 4
+    },
+    {
+      "L0": "EEEE",
+      "L2": "WEWE",
+      "Q": "SSSSSSNNSNSN",
+      "C_raise": 4
+    },
+    {
+      "L0": "EEEE",
+      "L2": "WEWE",
+      "Q": "SSSSSSNNSNSNS",
+      "C_raise": 5
+    }
+  ],
+  "analytic_review": [
+    "NinI=RN+LN and EoutJ=RN+LS give I+J=2RN+floor(n/2), hence n<=2(I+J)+1<=17 without an imposed visit cap. Independent even/odd N-position generation exhausts the same1014 complete histories. L0/L2 short domains were already uncapped count-derived.",
+    "All physical internal edge counts and actual ordinal successors are independently reconstructed; every one of1010 recorded collision paths is an actual contiguous read sequence that skips/backtracks the first return rank or closes a positive finite actual event cycle. The four remaining profiles have no such local collision, not an asserted complete realization.",
+    "At Q, shared C_SE minus L_SW equals Nin, while opposite C_NW minus the SAME L_SW equals Wout. Therefore opposite-minus-shared=RS-RN=3/4/4/5, with the physical square face shared with F. F RN=RS makes both F incident C equalc. No all-cap firstR maximization theorem or zero-port omission is used.",
+    "Thus GLOBAL-C-maximal c excludes this exact rail even with unbounded auxiliary multiplicity/old stock. At nonmaximal height, four ten-to-thirteen-read shields remain necessary local interfaces, not board factors/fronts. Whole-boundary scope still needs its independently stated geometric assumptions."
+  ]
+}

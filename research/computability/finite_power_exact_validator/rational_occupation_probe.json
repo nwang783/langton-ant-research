@@ -1,0 +1,116 @@
+{
+  "images": [
+    "RLLLLRRRR",
+    "LRRRRLLLL",
+    "RLLLLRRRR",
+    "LRRRRLLLL",
+    "RLLLLRRRR",
+    "LRRRRLLLL",
+    "RLLLLRRRR",
+    "LRRRRLLLL"
+  ],
+  "linear_shift": [
+    1,
+    1
+  ],
+  "records": [
+    {
+      "state": 0,
+      "integer_numerator": "x**2*y**2*z - x**2*y*z - x**2*z + 5*x*y*z - 2*x*z - y*z - 1",
+      "integer_denominator": "x**3*y**2*z**2 + x**2*y**3*z**2 - 5*x**2*y**2*z**2 + x**2*y*z**2 - x**2*y*z + x*y**2*z**2 - x*y**2*z + 6*x*y*z - x*z - y*z - 1",
+      "parity_numerator": "x**2*y**2*z + x**2*y*z + x**2*z + x*y*z + y*z + 1",
+      "parity_denominator": "x**3*y**2*z**2 + x**2*y**3*z**2 + x**2*y**2*z**2 + x**2*y*z**2 + x**2*y*z + x*y**2*z**2 + x*y**2*z + x*z + y*z + 1",
+      "integer_denominator_factors": "(x*y*z - 1)*(x**2*y*z + x*y**2*z - 5*x*y*z + x*z + y*z + 1)",
+      "parity_terms": [
+        6,
+        10
+      ]
+    },
+    {
+      "state": 1,
+      "integer_numerator": "x**2*y*z - 5*x*y*z + 2*x*z - y**2*z + y*z + z + 1",
+      "integer_denominator": "x**3*y**2*z**2 + x**2*y**3*z**2 - 5*x**2*y**2*z**2 + x**2*y*z**2 - x**2*y*z + x*y**2*z**2 - x*y**2*z + 6*x*y*z - x*z - y*z - 1",
+      "parity_numerator": "x**2*y*z + x*y*z + y**2*z + y*z + z + 1",
+      "parity_denominator": "x**3*y**2*z**2 + x**2*y**3*z**2 + x**2*y**2*z**2 + x**2*y*z**2 + x**2*y*z + x*y**2*z**2 + x*y**2*z + x*z + y*z + 1",
+      "integer_denominator_factors": "(x*y*z - 1)*(x**2*y*z + x*y**2*z - 5*x*y*z + x*z + y*z + 1)",
+      "parity_terms": [
+        6,
+        10
+      ]
+    },
+    {
+      "state": 2,
+      "integer_numerator": "x**2*z - x*y**2*z + 5*x*y*z - x*z - 2*y*z - z - 1",
+      "integer_denominator": "x**3*y**2*z**2 + x**2*y**3*z**2 - 5*x**2*y**2*z**2 + x**2*y*z**2 - x**2*y*z + x*y**2*z**2 - x*y**2*z + 6*x*y*z - x*z - y*z - 1",
+      "parity_numerator": "x**2*z + x*y**2*z + x*y*z + x*z + z + 1",
+      "parity_denominator": "x**3*y**2*z**2 + x**2*y**3*z**2 + x**2*y**2*z**2 + x**2*y*z**2 + x**2*y*z + x*y**2*z**2 + x*y**2*z + x*z + y*z + 1",
+      "integer_denominator_factors": "(x*y*z - 1)*(x**2*y*z + x*y**2*z - 5*x*y*z + x*z + y*z + 1)",
+      "parity_terms": [
+        6,
+        10
+      ]
+    },
+    {
+      "state": 3,
+      "integer_numerator": "-x**2*y**2*z + x*y**2*z - 5*x*y*z + x*z + y**2*z + 2*y*z + 1",
+      "integer_denominator": "x**3*y**2*z**2 + x**2*y**3*z**2 - 5*x**2*y**2*z**2 + x**2*y*z**2 - x**2*y*z + x*y**2*z**2 - x*y**2*z + 6*x*y*z - x*z - y*z - 1",
+      "parity_numerator": "x**2*y**2*z + x*y**2*z + x*y*z + x*z + y**2*z + 1",
+      "parity_denominator": "x**3*y**2*z**2 + x**2*y**3*z**2 + x**2*y**2*z**2 + x**2*y*z**2 + x**2*y*z + x*y**2*z**2 + x*y**2*z + x*z + y*z + 1",
+      "integer_denominator_factors": "(x*y*z - 1)*(x**2*y*z + x*y**2*z - 5*x*y*z + x*z + y*z + 1)",
+      "parity_terms": [
+        6,
+        10
+      ]
+    },
+    {
+      "state": 4,
+      "integer_numerator": "-x**2*y*z - 2*x*y**2*z + 5*x*y*z - y**2*z - y*z + z - 1",
+      "integer_denominator": "x**3*y**2*z**2 + x**2*y**3*z**2 - 5*x**2*y**2*z**2 + x**2*y*z**2 - x**2*y*z + x*y**2*z**2 - x*y**2*z + 6*x*y*z - x*z - y*z - 1",
+      "parity_numerator": "x**2*y*z + x*y*z + y**2*z + y*z + z + 1",
+      "parity_denominator": "x**3*y**2*z**2 + x**2*y**3*z**2 + x**2*y**2*z**2 + x**2*y*z**2 + x**2*y*z + x*y**2*z**2 + x*y**2*z + x*z + y*z + 1",
+      "integer_denominator_factors": "(x*y*z - 1)*(x**2*y*z + x*y**2*z - 5*x*y*z + x*z + y*z + 1)",
+      "parity_terms": [
+        6,
+        10
+      ]
+    },
+    {
+      "state": 5,
+      "integer_numerator": "x**2*y**2*z + x**2*y*z - x**2*z + 2*x*y**2*z - 5*x*y*z + y*z + 1",
+      "integer_denominator": "x**3*y**2*z**2 + x**2*y**3*z**2 - 5*x**2*y**2*z**2 + x**2*y*z**2 - x**2*y*z + x*y**2*z**2 - x*y**2*z + 6*x*y*z - x*z - y*z - 1",
+      "parity_numerator": "x**2*y**2*z + x**2*y*z + x**2*z + x*y*z + y*z + 1",
+      "parity_denominator": "x**3*y**2*z**2 + x**2*y**3*z**2 + x**2*y**2*z**2 + x**2*y*z**2 + x**2*y*z + x*y**2*z**2 + x*y**2*z + x*z + y*z + 1",
+      "integer_denominator_factors": "(x*y*z - 1)*(x**2*y*z + x*y**2*z - 5*x*y*z + x*z + y*z + 1)",
+      "parity_terms": [
+        6,
+        10
+      ]
+    },
+    {
+      "state": 6,
+      "integer_numerator": "-x**2*y**2*z - 2*x**2*y*z - x*y**2*z + 5*x*y*z - x*z + y**2*z - 1",
+      "integer_denominator": "x**3*y**2*z**2 + x**2*y**3*z**2 - 5*x**2*y**2*z**2 + x**2*y*z**2 - x**2*y*z + x*y**2*z**2 - x*y**2*z + 6*x*y*z - x*z - y*z - 1",
+      "parity_numerator": "x**2*y**2*z + x*y**2*z + x*y*z + x*z + y**2*z + 1",
+      "parity_denominator": "x**3*y**2*z**2 + x**2*y**3*z**2 + x**2*y**2*z**2 + x**2*y*z**2 + x**2*y*z + x*y**2*z**2 + x*y**2*z + x*z + y*z + 1",
+      "integer_denominator_factors": "(x*y*z - 1)*(x**2*y*z + x*y**2*z - 5*x*y*z + x*z + y*z + 1)",
+      "parity_terms": [
+        6,
+        10
+      ]
+    },
+    {
+      "state": 7,
+      "integer_numerator": "2*x**2*y*z + x**2*z + x*y**2*z - 5*x*y*z + x*z - z + 1",
+      "integer_denominator": "x**3*y**2*z**2 + x**2*y**3*z**2 - 5*x**2*y**2*z**2 + x**2*y*z**2 - x**2*y*z + x*y**2*z**2 - x*y**2*z + 6*x*y*z - x*z - y*z - 1",
+      "parity_numerator": "x**2*z + x*y**2*z + x*y*z + x*z + z + 1",
+      "parity_denominator": "x**3*y**2*z**2 + x**2*y**3*z**2 + x**2*y**2*z**2 + x**2*y*z**2 + x**2*y*z + x*y**2*z**2 + x*y**2*z + x*z + y*z + 1",
+      "integer_denominator_factors": "(x*y*z - 1)*(x**2*y*z + x*y**2*z - 5*x*y*z + x*z + y*z + 1)",
+      "parity_terms": [
+        6,
+        10
+      ]
+    }
+  ],
+  "seconds": 0.6821900909999385,
+  "scope": "Actual typed geometry rational occupation extraction only; no ant legality or finite seed claimed."
+}

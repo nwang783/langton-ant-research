@@ -1,0 +1,23 @@
+{
+  "status": "Independently signed audit LO, 2026-10-23 10:25 UTC",
+  "files": [
+    {
+      "file": "two_sided_quadrant_completion.md",
+      "sha256": "f60c2b55ceaf193ea6900a94e0f25bce8fc95bfba083410e60a6ee26e465ec52",
+      "bytes": 12193
+    },
+    {
+      "file": "check_two_sided_quadrant_completion.py",
+      "sha256": "729531fab2f5742b57e36e39c6f17fa67f6ff3e1f1fd2b90ad1867b1c4b8487b",
+      "bytes": 7382
+    },
+    {
+      "file": "check_two_sided_quadrant_completion.json",
+      "sha256": "526c461adc10dea100ade99c3af8f2b913a835a4fc9dd8d85f898ae70ba6fa86",
+      "bytes": 685
+    }
+  ],
+  "audit_checker": "../audits/check_two_sided_completion_independent.py",
+  "audit_report": "../audits/check_two_sided_completion_independent.json",
+  "scope": "At most twelve remote black additions force standard104 in both virtual forward directions while preserving any finite two-sided observations; conditional fixed-mass bistandard defect budgets would imply HC. Neither unchanged-seed capture nor budget finiteness is proved."
+}

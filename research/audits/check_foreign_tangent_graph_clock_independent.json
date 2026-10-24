@@ -1,0 +1,25 @@
+{
+  "status": "PASS exact inherited graph no-negative/foreign-zero-cycle and path-rate certificates",
+  "manifest_sha256": "c4d33c7752eaeccf9cb4e8675c45c4610d75661ce8f1b8559a10ad19d34a5bd6",
+  "states": 428,
+  "edges": 1986,
+  "tight_edges": 746,
+  "potential_histogram": {
+    "0": 222,
+    "-1": 70,
+    "-2": 136
+  },
+  "path_rate_multiplier": 428,
+  "path_fringe": 857,
+  "positive_cycle": [
+    21,
+    232,
+    866,
+    21,
+    232,
+    866
+  ],
+  "analytic": "Nonnegative reduced costs exclude negative cycles. Independent all-vertex reachability reconstructs the entire tight SCC equivalence and excludes every foreign tight edge from a cycle. The second potential sums on every finite walk to T_foreign<=428W+857. Infinite foreign count therefore forces unbounded positive W without a periodic-orbit assumption.",
+  "scope": "Inherited214 graph only, not all physical seven-word factors. No physical realization, simple proxy or capture inference. A nonzero initial previous-C bit accounts for an incoming-boundary wrap; geometric finite-subpath tangent formulas must retain that endpoint convention.",
+  "reproduction": "Frozen checker uses original two-level relative-root layout; replay original word_stabilization/check_foreign_tangent_graph_clock.py or this independent checker, rather than directly executing the deeper frozen copy."
+}

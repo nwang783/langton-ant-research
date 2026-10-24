@@ -1,0 +1,149 @@
+{
+  "method": "Independent feasible-prefix DFS and literal repeated substitution, not a base-k letter oracle",
+  "results": [
+    {
+      "length": 3,
+      "pairs": 2,
+      "mass": 2,
+      "finite_conflicts": 0,
+      "latest_failure": -1,
+      "example": null,
+      "record_digest": "389b6a80f2b18cb2fc29491d11e00f29371c3895dde5130099403542433040da"
+    },
+    {
+      "length": 5,
+      "pairs": 10,
+      "mass": 9,
+      "finite_conflicts": 1,
+      "latest_failure": 7,
+      "example": {
+        "u": "RLLRR",
+        "v": "RRRLR",
+        "conflict": [
+          7,
+          3,
+          0,
+          1,
+          "R"
+        ]
+      },
+      "record_digest": "66da93422e17c19d558d23fde3a1b8f3d7e3bf26107ea996888564f544d09bb2"
+    },
+    {
+      "length": 7,
+      "pairs": 48,
+      "mass": 39,
+      "finite_conflicts": 9,
+      "latest_failure": 63,
+      "example": {
+        "u": "RLLRRLR",
+        "v": "RRRLRLR",
+        "conflict": [
+          63,
+          35,
+          -4,
+          7,
+          "R"
+        ]
+      },
+      "record_digest": "5ba4ad7daedb6ca3d0f173fa59c4695f899cec691fc4bffa145d14a059202c36"
+    },
+    {
+      "length": 9,
+      "pairs": 363,
+      "mass": 191,
+      "finite_conflicts": 172,
+      "latest_failure": 99,
+      "example": {
+        "u": "RLLRRLRLR",
+        "v": "RRRLRLRLR",
+        "conflict": [
+          99,
+          63,
+          -6,
+          17,
+          "R"
+        ]
+      },
+      "record_digest": "fba32b92888a7d17e701313f797927b66a03ad349ed05040fccae47d166b06d9"
+    },
+    {
+      "length": 11,
+      "pairs": 2287,
+      "mass": 1016,
+      "finite_conflicts": 1271,
+      "latest_failure": 192,
+      "example": {
+        "u": "RLLRRLRRLRL",
+        "v": "LRLRRRRLRLR",
+        "conflict": [
+          192,
+          140,
+          16,
+          14,
+          "L"
+        ]
+      },
+      "record_digest": "c72567bbda27d4975f83cca3c0b8fe9715421444e626a37eb9769a3a678da6ae"
+    },
+    {
+      "length": 13,
+      "pairs": 15680,
+      "mass": 6299,
+      "finite_conflicts": 9381,
+      "latest_failure": 481,
+      "example": {
+        "u": "RRLRRLRRLLRLL",
+        "v": "RLRLLRRLRRRRL",
+        "conflict": [
+          481,
+          429,
+          -17,
+          34,
+          "R"
+        ]
+      },
+      "record_digest": "c92ed4e31e0a5a1fca4679617260d0a20e8c53f8d258b9ef4a6341f0eff39243"
+    },
+    {
+      "length": 15,
+      "pairs": 102267,
+      "mass": 38412,
+      "finite_conflicts": 63855,
+      "latest_failure": 4722,
+      "example": {
+        "u": "RLLRRLRRLLRLRRL",
+        "v": "LRLRRRRLRLRLRLR",
+        "conflict": [
+          4722,
+          3830,
+          47,
+          361,
+          "R"
+        ]
+      },
+      "record_digest": "0a147bb695659869f90d4becfb11d501d6f81f681f59d08cd184f156c70a86a8"
+    },
+    {
+      "length": 17,
+      "pairs": 684488,
+      "mass": 237499,
+      "finite_conflicts": 446989,
+      "latest_failure": 8379,
+      "example": {
+        "u": "RLLRRLRRLRLLRLRRL",
+        "v": "LRLLRLRRLRRRRLRLR",
+        "conflict": [
+          8379,
+          7227,
+          148,
+          467,
+          "L"
+        ]
+      },
+      "record_digest": "0fa029acfda7cfff70039471f26247416141554d0c66e61bca2337cc951c2b9a"
+    }
+  ],
+  "elapsed": 5.985425233840942,
+  "status": "Every enumerated candidate rejected analytically or by explicit finite alternation conflict"
+}

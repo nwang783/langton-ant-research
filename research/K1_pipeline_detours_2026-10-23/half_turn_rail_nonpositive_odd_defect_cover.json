@@ -1,0 +1,519 @@
+{
+  "scope": "Full canonical upper/lower half-turn rail profiles and nonpositive odd cover.\nNo front search: complete110 profiles, four rotations and physical port counts.\n",
+  "upper_count": 5,
+  "lower_count": 9,
+  "upper": [
+    {
+      "physical": {
+        "(-1, 1)": "EEW",
+        "(-1, 2)": "NNSS",
+        "(0, 2)": "EWE",
+        "(0, 1)": "SSNS"
+      },
+      "entry": [
+        -1,
+        1
+      ],
+      "rotation": 3,
+      "canonical_profile": {
+        "A": "NNS",
+        "Z": "WWEE",
+        "Y": "NSN",
+        "B": "EEWE"
+      },
+      "odd": [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "nonpositive_cover": [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "physical": {
+        "(-1, 1)": "EEWE",
+        "(-1, 2)": "NNN",
+        "(0, 2)": "EWE",
+        "(0, 1)": "SSNS"
+      },
+      "entry": [
+        -1,
+        1
+      ],
+      "rotation": 3,
+      "canonical_profile": {
+        "A": "NNSN",
+        "Z": "WWW",
+        "Y": "NSN",
+        "B": "EEWE"
+      },
+      "odd": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "nonpositive_cover": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "physical": {
+        "(-1, 1)": "EEWE",
+        "(-1, 2)": "NNNS",
+        "(0, 2)": "EEEW",
+        "(0, 1)": "SSNS"
+      },
+      "entry": [
+        -1,
+        1
+      ],
+      "rotation": 3,
+      "canonical_profile": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NNNS",
+        "B": "EEWE"
+      },
+      "odd": [],
+      "nonpositive_cover": []
+    },
+    {
+      "physical": {
+        "(-1, 1)": "EEWE",
+        "(-1, 2)": "NNNS",
+        "(0, 2)": "EWEE",
+        "(0, 1)": "SSNS"
+      },
+      "entry": [
+        -1,
+        1
+      ],
+      "rotation": 3,
+      "canonical_profile": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NSNN",
+        "B": "EEWE"
+      },
+      "odd": [],
+      "nonpositive_cover": []
+    },
+    {
+      "physical": {
+        "(-1, 2)": "SSNS",
+        "(0, 2)": "EEEW",
+        "(0, 1)": "SSNS",
+        "(-1, 1)": "W"
+      },
+      "entry": [
+        -1,
+        2
+      ],
+      "rotation": 2,
+      "canonical_profile": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NNSN",
+        "B": "E"
+      },
+      "odd": [
+        [
+          -1,
+          1
+        ]
+      ],
+      "nonpositive_cover": [
+        [
+          -1,
+          1
+        ]
+      ]
+    }
+  ],
+  "lower": [
+    {
+      "physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSS",
+        "(-1, -1)": "WEW",
+        "(-1, 0)": "NNSN"
+      },
+      "entry": [
+        0,
+        0
+      ],
+      "rotation": 1,
+      "canonical_profile": {
+        "A": "NNSN",
+        "Z": "WWW",
+        "Y": "NSN",
+        "B": "EEWE"
+      },
+      "odd": [
+        [
+          0,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "nonpositive_cover": [
+        [
+          0,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ]
+    },
+    {
+      "physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSS",
+        "(-1, -1)": "WEW",
+        "(-1, 0)": "SNNN"
+      },
+      "entry": [
+        0,
+        0
+      ],
+      "rotation": 1,
+      "canonical_profile": {
+        "A": "NNSN",
+        "Z": "WWW",
+        "Y": "NSN",
+        "B": "WEEE"
+      },
+      "odd": [
+        [
+          0,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "nonpositive_cover": [
+        [
+          0,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ]
+    },
+    {
+      "physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSS",
+        "(-1, -1)": "WWEE",
+        "(-1, 0)": "NNS"
+      },
+      "entry": [
+        0,
+        0
+      ],
+      "rotation": 1,
+      "canonical_profile": {
+        "A": "NNSN",
+        "Z": "WWW",
+        "Y": "NNSS",
+        "B": "EEW"
+      },
+      "odd": [
+        [
+          0,
+          -1
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "nonpositive_cover": [
+        [
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSS",
+        "(-1, -1)": "WEEW",
+        "(-1, 0)": "NNS"
+      },
+      "entry": [
+        0,
+        0
+      ],
+      "rotation": 1,
+      "canonical_profile": {
+        "A": "NNSN",
+        "Z": "WWW",
+        "Y": "NSSN",
+        "B": "EEW"
+      },
+      "odd": [
+        [
+          0,
+          -1
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "nonpositive_cover": [
+        [
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSS",
+        "(-1, -1)": "WEEW",
+        "(-1, 0)": "SNN"
+      },
+      "entry": [
+        0,
+        0
+      ],
+      "rotation": 1,
+      "canonical_profile": {
+        "A": "NNSN",
+        "Z": "WWW",
+        "Y": "NSSN",
+        "B": "WEE"
+      },
+      "odd": [
+        [
+          0,
+          -1
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "nonpositive_cover": [
+        [
+          0,
+          -1
+        ]
+      ]
+    },
+    {
+      "physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSSN",
+        "(-1, -1)": "WWW",
+        "(-1, 0)": "NNS"
+      },
+      "entry": [
+        0,
+        0
+      ],
+      "rotation": 1,
+      "canonical_profile": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NNN",
+        "B": "EEW"
+      },
+      "odd": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "nonpositive_cover": [
+        [
+          -1,
+          -1
+        ]
+      ]
+    },
+    {
+      "physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSSN",
+        "(-1, -1)": "WWWE",
+        "(-1, 0)": "NNSN"
+      },
+      "entry": [
+        0,
+        0
+      ],
+      "rotation": 1,
+      "canonical_profile": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NNNS",
+        "B": "EEWE"
+      },
+      "odd": [],
+      "nonpositive_cover": []
+    },
+    {
+      "physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSSN",
+        "(-1, -1)": "WEWW",
+        "(-1, 0)": "NNSN"
+      },
+      "entry": [
+        0,
+        0
+      ],
+      "rotation": 1,
+      "canonical_profile": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NSNN",
+        "B": "EEWE"
+      },
+      "odd": [],
+      "nonpositive_cover": []
+    },
+    {
+      "physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSSN",
+        "(-1, -1)": "WEWW",
+        "(-1, 0)": "SNNN"
+      },
+      "entry": [
+        0,
+        0
+      ],
+      "rotation": 1,
+      "canonical_profile": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NSNN",
+        "B": "WEEE"
+      },
+      "odd": [],
+      "nonpositive_cover": []
+    }
+  ],
+  "normalized_cover": [
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "four_rotation_union": [
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      -1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "union_count": 12,
+  "checker_counts": [
+    6,
+    6
+  ],
+  "capacity": "H <= 6*(Nodd-Npos)+|U| <= 7*(Nodd-Npos)-nSanc"
+}

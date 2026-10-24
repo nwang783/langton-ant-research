@@ -1,0 +1,18 @@
+{
+  "status": "FROZEN; independent audit requested",
+  "files": {
+    "CONDITIONAL_NO_REENTRY_SEPARATOR.md": "8017e6990fa9ae9e674cd241f208fbecb1f6da6be5e3d03b5a8845680955ae79",
+    "check_conditional_port_separator.py": "3a49ad016ad4fd95ac436b7a81ef4418de8ef257dc4ee0a9e9d7f90b9676a994",
+    "CONDITIONAL_PORT_SEPARATOR_CHECKED.json": "0928d6a8821aa862d29760ae7f28af1f4bd0aaec288f8085893fb62e6183ed94",
+    "MINIMAL_COHORT_RESTART_CHECKED.json": "019ed6ed81344cfbc886be70457718709cd1a73381483dea411dbb1db2720065",
+    "OUTWARD_RECORD_GUARDS_CHECKED.json": "8ac275fff134362c3ec4f605f110e410861093e49e3c71790d6aecfaeba6bb12",
+    "FRESH_RECORD_TRAP_BRIDGE.md": "95f5c2bf9254b1600780b25970eb2ef19cd0c4164cd53f98ad7c0df8ca84da84",
+    "TANGENTIAL_CAP_CAPTURE.md": "c29ebf3d6ab2b90c0d85c3dedc0a745147bb0d8bb4085f7d54299dbd21577ede"
+  },
+  "independent_dependencies": {
+    "minimal_cohort_restart_independent.json": "4c9a50a351b66d4cda33b6910ae9acffb7e2e4d8a857add03cfbaa3aae13450d",
+    "check_fresh_and_outward_record_guards_independent.json": "b286b57ae82dd38f729c59fde0ae07041e909307390ac3d42482c57d2703e8a4",
+    "relevant_spatial_pair_independent.json": "4e5e37e76f216c0cb0d9845d2ea0c63e829085df00a4f85a4beb7334692cfc9e"
+  },
+  "claim": "Strictly weaker sufficient conditional capture class than the complete phase45 guard, with exact finite exposure and no old-side read at/after262; no unconditional18-bit or universal occurrence claim."
+}

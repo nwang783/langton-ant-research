@@ -1,0 +1,9 @@
+{
+  "status": "AUTHOR_OWNERSHIP_ERRATUM_PENDING_REVIEW",
+  "original_manifest_SHA256": "bd9bb22d83028aad7aa2b137ee801db8b203f389458a0d45d3083ec6b4cf2662",
+  "prior_arithmetic_erratum_SHA256": "61a7309a1c97c75224057bb1f634bf0d4c2e80e9deb5dc6f1ef4a657a6d88cf7",
+  "correction": "All returned U/UC old-star gates first read phase29, not25: plainU following-word phase1/exit-core absorption; UC own C-tail RAW phase1. Frozen checker/JSON already correct; ancestry/clock bounds unchanged.",
+  "files": {
+    "ownership_erratum_20261023_2300.md": "63c1f7286474169facfa00083607260b72d422423c2c88a6b72200cce8050a12"
+  }
+}

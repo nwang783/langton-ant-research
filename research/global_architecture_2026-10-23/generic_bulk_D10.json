@@ -1,0 +1,554 @@
+{
+  "word": "LLLLRLRRRR",
+  "heading": 0,
+  "length": 10,
+  "drift": [
+    1,
+    1
+  ],
+  "word_sha256": "1cefc70f0c9e837e74c3ab30afd5633f36495b21f3fec3fb0421abffd3f0384c",
+  "parallel_standard_direction": true,
+  "normalized_heading": 2,
+  "normalization_quarter_turns": 2,
+  "diagonal_scale": 1,
+  "read_classes": [
+    [
+      -2,
+      0
+    ],
+    [
+      -2,
+      1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "required_black_classes": [
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "constants": {
+    "superperiod_copies": 2,
+    "common_drift": [
+      2,
+      2
+    ],
+    "standard_superperiods": 1,
+    "consumer_endpoint_loss": 2,
+    "standard_endpoint_width": 3,
+    "parallel_flight_loss": 6,
+    "nonparallel_flight_loss": 1056,
+    "cap_loss_per_read": 1,
+    "lower_bound": "|B|>=floor(n/2)-2-L-6*r_parallel-1056*r_nonparallel"
+  },
+  "status": "INCOMPATIBLE",
+  "candidates": [
+    {
+      "orientation": "NE",
+      "normal": -1,
+      "x_parity": 0,
+      "band": [
+        -8,
+        2
+      ],
+      "covered_black": [
+        [
+          1,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "cover_mask": 2
+    },
+    {
+      "orientation": "NE",
+      "normal": -1,
+      "x_parity": 1,
+      "band": [
+        -8,
+        2
+      ],
+      "covered_black": [
+        [
+          1,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -2,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cover_mask": 1
+    },
+    {
+      "orientation": "NE",
+      "normal": 1,
+      "x_parity": 0,
+      "band": [
+        -6,
+        4
+      ],
+      "covered_black": [
+        [
+          1,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -2,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cover_mask": 1
+    },
+    {
+      "orientation": "NE",
+      "normal": 1,
+      "x_parity": 1,
+      "band": [
+        -6,
+        4
+      ],
+      "covered_black": [
+        [
+          1,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "cover_mask": 2
+    },
+    {
+      "orientation": "NE",
+      "normal": 3,
+      "x_parity": 0,
+      "band": [
+        -4,
+        6
+      ],
+      "covered_black": [
+        [
+          1,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -2,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "cover_mask": 1
+    },
+    {
+      "orientation": "NE",
+      "normal": 3,
+      "x_parity": 1,
+      "band": [
+        -4,
+        6
+      ],
+      "covered_black": [
+        [
+          1,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          -2,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cover_mask": 2
+    },
+    {
+      "orientation": "NE",
+      "normal": 7,
+      "x_parity": 0,
+      "band": [
+        0,
+        10
+      ],
+      "covered_black": [
+        [
+          1,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cover_mask": 2
+    },
+    {
+      "orientation": "NE",
+      "normal": 7,
+      "x_parity": 1,
+      "band": [
+        0,
+        10
+      ],
+      "covered_black": [
+        [
+          1,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cover_mask": 1
+    },
+    {
+      "orientation": "SW",
+      "normal": -5,
+      "x_parity": 0,
+      "band": [
+        -8,
+        2
+      ],
+      "covered_black": [
+        [
+          1,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          -2,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cover_mask": 2
+    },
+    {
+      "orientation": "SW",
+      "normal": -5,
+      "x_parity": 1,
+      "band": [
+        -8,
+        2
+      ],
+      "covered_black": [
+        [
+          1,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -2,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "cover_mask": 1
+    },
+    {
+      "orientation": "SW",
+      "normal": -1,
+      "x_parity": 0,
+      "band": [
+        -4,
+        6
+      ],
+      "covered_black": [
+        [
+          1,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -2,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cover_mask": 1
+    },
+    {
+      "orientation": "SW",
+      "normal": -1,
+      "x_parity": 1,
+      "band": [
+        -4,
+        6
+      ],
+      "covered_black": [
+        [
+          1,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "cover_mask": 2
+    },
+    {
+      "orientation": "SW",
+      "normal": 1,
+      "x_parity": 0,
+      "band": [
+        -2,
+        8
+      ],
+      "covered_black": [
+        [
+          1,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -2,
+          0
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "cover_mask": 1
+    },
+    {
+      "orientation": "SW",
+      "normal": 1,
+      "x_parity": 1,
+      "band": [
+        -2,
+        8
+      ],
+      "covered_black": [
+        [
+          1,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          -2,
+          0
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cover_mask": 2
+    },
+    {
+      "orientation": "SW",
+      "normal": 3,
+      "x_parity": 0,
+      "band": [
+        0,
+        10
+      ],
+      "covered_black": [
+        [
+          1,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cover_mask": 2
+    },
+    {
+      "orientation": "SW",
+      "normal": 3,
+      "x_parity": 1,
+      "band": [
+        0,
+        10
+      ],
+      "covered_black": [
+        [
+          1,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cover_mask": 1
+    }
+  ],
+  "selector_variables": 16,
+  "selector_clauses": 138,
+  "selector_search": {
+    "nodes": 1,
+    "memo_states": 1
+  },
+  "matching_rail_indices": null,
+  "matching_rails": null,
+  "cnf_certificate": {
+    "cnf": "/workspace/shared/langton/global_architecture_2026-10-23/generic_bulk_D10.cnf",
+    "proof": "/workspace/shared/langton/global_architecture_2026-10-23/generic_bulk_D10.rup",
+    "checker": {
+      "valid": true,
+      "input_clauses": 138,
+      "additions": 1,
+      "deletions": 0,
+      "RUP": 1,
+      "RAT": 0,
+      "propagation_checks": 1
+    },
+    "cnf_sha256": "89fbc83d0f0c64a6b2b378b31bc73b95a3c313ad1410445fd36a5fe3b2be3cbd",
+    "proof_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  }
+}

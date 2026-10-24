@@ -1,0 +1,92 @@
+{
+  "status": "PASS all-r complete first-epoch-output recycling after one actual reset",
+  "note_sha256": "f98a45b0c5b500c631d3e0fa2462b664d39de4e29821b1b39c0aaf080c6834d5",
+  "controls": [
+    {
+      "r": 1,
+      "initial_mass": 3,
+      "first_reads": 5,
+      "reset_reads": 5,
+      "second_reads": 4,
+      "recycled_first_epoch_lifetimes": 2,
+      "final_mass": 5,
+      "first_second_age": 8,
+      "last_second_age": 12
+    },
+    {
+      "r": 2,
+      "initial_mass": 5,
+      "first_reads": 9,
+      "reset_reads": 5,
+      "second_reads": 8,
+      "recycled_first_epoch_lifetimes": 4,
+      "final_mass": 7,
+      "first_second_age": 8,
+      "last_second_age": 20
+    },
+    {
+      "r": 3,
+      "initial_mass": 7,
+      "first_reads": 13,
+      "reset_reads": 5,
+      "second_reads": 12,
+      "recycled_first_epoch_lifetimes": 6,
+      "final_mass": 9,
+      "first_second_age": 8,
+      "last_second_age": 28
+    },
+    {
+      "r": 7,
+      "initial_mass": 15,
+      "first_reads": 29,
+      "reset_reads": 5,
+      "second_reads": 28,
+      "recycled_first_epoch_lifetimes": 14,
+      "final_mass": 17,
+      "first_second_age": 8,
+      "last_second_age": 60
+    },
+    {
+      "r": 19,
+      "initial_mass": 39,
+      "first_reads": 77,
+      "reset_reads": 5,
+      "second_reads": 76,
+      "recycled_first_epoch_lifetimes": 38,
+      "final_mass": 41,
+      "first_second_age": 8,
+      "last_second_age": 156
+    },
+    {
+      "r": 50,
+      "initial_mass": 101,
+      "first_reads": 201,
+      "reset_reads": 5,
+      "second_reads": 200,
+      "recycled_first_epoch_lifetimes": 100,
+      "final_mass": 103,
+      "first_second_age": 8,
+      "last_second_age": 404
+    },
+    {
+      "r": 101,
+      "initial_mass": 203,
+      "first_reads": 405,
+      "reset_reads": 5,
+      "second_reads": 404,
+      "recycled_first_epoch_lifetimes": 202,
+      "final_mass": 205,
+      "first_second_age": 8,
+      "last_second_age": 812
+    }
+  ],
+  "literal_reads": 1506,
+  "analytic": [
+    "The known LRRL rod local four-read pattern transports the exact bottom row to top row. The extra odd terminal black is unread until the final L, giving the displayed exact first state. The reset writes four cells and deletes its first, leaving exactly three charged turnaround cells and headingW at the old upper-row endpoint. Their coordinates are outside every second-transport read, so the rotated LRRL pattern consumes precisely all first-output cells.",
+    "Both two-row transport graphs are forests by the ordered frontier local rod geometry. During the second transport the retained turnaround w star has only its one possible lower-row endpoint contact, and its z path has only its one possible right endpoint contact with the whole moving-row vertex union; all other vertices are farther right. Thus no bridge is bypassed and no full graph cycle is omitted.",
+    "The reset has stationary isolated w cursor, four bridge arms and a final bridge deletion. Its four z arms close one unit cycle on the fourth R and the next L erases it. The reset is exceptional by r4 despite no w cycle event; it is not part of either ordinary epoch.",
+    "Actual birth/death matching pairs every second-epoch L with a unique first-epoch R, and no reset or original lifetime. The consumed ages are8j+8 and8j+12, ranging8 to8r+4. All turnaround writes remain on the complete final board.",
+    "The entry is a literal proper post-L cut, both long epochs end at an isolated w cursor, and the next block is therefore exceptional RRRRL. First gain-1, second gain0, total gain2 includingreset; this demonstrates100% fuel recycling but not positive square-root regenerative gain or a repeatable growing construction."
+  ],
+  "scope": "All finite r>=1, exact complete seed2r+1. No infinite growth, capture failure or global cubic sharpness."
+}

@@ -1,0 +1,56 @@
+{
+  "common_initial_four": [
+    [
+      -1,
+      -1
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "fresh_U": [
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "fresh_V": [
+    [
+      -1,
+      0
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "all_four_junctions_feasible": true,
+  "exact_minimum_seed_mass": "4 + 5 * number_of_U + 2 * number_of_V",
+  "length_bound": "28 * number_of_U + 18 * number_of_V <= 9 * (mass - 4)",
+  "all_length_argument": "Each block advances y by at least 3; its reads range from start_y-1 to end_y. Nonadjacent footprints are disjoint. Four explicit junction checks and the fresh-site top-row check therefore apply inductively."
+}

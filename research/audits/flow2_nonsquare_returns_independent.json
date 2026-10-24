@@ -1,0 +1,56 @@
+{
+  "status": "PASS with auxiliary-corner clarification; critical global-max constant-flow2 circle requires singleton LEFT return at least8",
+  "proof_sha256": {
+    "global_max_singleton_LEFT_even_resets_need_longer_returns.md": "84e543c3c20f6d7c26df542829d490c469fe1e9d4635a3dbeea305ca01e131f7",
+    "single_LEFT_four_L_auxiliary_corner_scope_clarification.md": "0a2bb57a9c3d501f578eb4755af9b6acacd6ca719f0ca041f5bde3fd823e017c",
+    "critical_global_max_flow2_circles_need_nonsquare_LEFT_returns.md": "728ad41f050840e9723fd80ea33625985d9239b9bb14970bd8c9bae810537f50"
+  },
+  "script_sha256": "de9a115caf87967bca637875493a815765617d8e5503af1c10a6c3353637f952",
+  "complete_local_counts": {
+    "port": 192,
+    "skipped rank": 20,
+    "not the prescribed four-L return": 12,
+    "positive clock cycle": 12,
+    "open": 4
+  },
+  "open_profiles": [
+    {
+      "Y": "WEE",
+      "A": "NSSN",
+      "B": "WWE",
+      "C": "NSSN"
+    },
+    {
+      "Y": "WEE",
+      "A": "NSSN",
+      "B": "WWEE",
+      "C": "NSSN"
+    },
+    {
+      "Y": "WEEW",
+      "A": "NSSN",
+      "B": "WWE",
+      "C": "NSSN"
+    },
+    {
+      "Y": "WEEW",
+      "A": "NSSN",
+      "B": "WWEE",
+      "C": "NSSN"
+    }
+  ],
+  "analytic_checks": [
+    "All auxiliary B membership unconstrained, so local cover is a necessary overapproximation even with distant gamma aliases. No off-curve claim is needed.",
+    "Each prescribed four-L square uses exactly two gamma second occurrences: Y->A and C->Y. The other physical ports contradict their source first-R departure, which remains true under any full-drift identification.",
+    "Global-M signed five-contact cover gives U following RIGHT X while four-L needs Y, so U length4 impossible. O length4 requires V,Y,O,Y,V.",
+    "Signed critical actual LEFT-return partition covers each gamma second occurrence once. If all returns short, ell=3q+2p whereas zero turning and disjoint LL pairs implyell>=4q+2p. Thusq=0 and all geometric LEFT are singletonO, contrary to required V caps.",
+    "A same-cell same-incoming-heading return has positive length divisibleby4. All doubleLL resets are fixed fourL, so the necessary long return is singletonO/U, length>=8. Long returns reserve remainingell-3q-2p4>=q+2p_long gamma occurrences, not original fuel."
+  ],
+  "not_claimed": [
+    "long-return exterior impossible",
+    "general one-use",
+    "global cap4 front exclusion",
+    "fuel or age bound",
+    "non-global or noncritical extension"
+  ]
+}

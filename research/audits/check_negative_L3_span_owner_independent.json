@@ -1,0 +1,249 @@
+{
+  "status": "PASS exact negative-supplier span transport and conditional physical owner>=12 / fused>=16 gate",
+  "script": "fd9069c7c5bca86b15e953e3805a6c40090700c411dd21a32fdb45d738e0ee01",
+  "bindings": {
+    "negative_L3_transport_has_a_quotient_safe_span_and_owner_gate.md": "4c6aeac8ca663c6d4e5a22e712776f6321d23f86955e63c07dc5ca75303499a9",
+    "check_negative_L3_span_owner_gate.py": "54284d8d4c3f3a7e7ebdc68804b5a0972e947790af7cc2fa269350864dc3295a",
+    "check_negative_L3_span_owner_gate.json": "39d73c17533fb56aeb957f134066a4987b4106bc1c441ca12cecc2c1eaecc65f"
+  },
+  "dependencies": {
+    "check_mixed_first_track_pipeline_independent.json": "8ff4e2b77138f10372b4074fe93d9e0a7d28b4af32d29137f16cf4df8add9bab",
+    "check_mixed_LL_gate_independent.json": "441ffa775b9fe212ddcc2312533c0b7feb0c01e4aeac95b89bf229c34edca119",
+    "check_mixed_flow2_flat_islands_independent.json": "c4fabac9c366e6536b760af2a52f23d6d24bd5eb53f16f8e1d788b9a8680defe"
+  },
+  "short_returns": {
+    "4": [
+      "LLLL"
+    ],
+    "8": [
+      "LLLRLLLR",
+      "LLLRRRRL",
+      "LLRLLLRL",
+      "LLRRRRLL",
+      "LRLLLRLL"
+    ]
+  },
+  "twelve_frames": [
+    {
+      "root": [
+        2,
+        -1
+      ],
+      "incoming": "E",
+      "prefix": "L",
+      "word": "LLRRLLLLRRLL",
+      "trace": [
+        [
+          [
+            2,
+            -1
+          ],
+          "E",
+          "L"
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          "N",
+          "L"
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          "W",
+          "R"
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          "N",
+          "R"
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          "E",
+          "L"
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          "N",
+          "L"
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          "W",
+          "L"
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          "S",
+          "L"
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          "E",
+          "R"
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          "S",
+          "R"
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          "W",
+          "L"
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          "S",
+          "L"
+        ]
+      ]
+    },
+    {
+      "root": [
+        1,
+        -1
+      ],
+      "incoming": "S",
+      "prefix": "LL",
+      "word": "LLLRRLLLLRRL",
+      "trace": [
+        [
+          [
+            1,
+            -1
+          ],
+          "S",
+          "L"
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          "E",
+          "L"
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          "N",
+          "L"
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          "W",
+          "R"
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          "N",
+          "R"
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          "E",
+          "L"
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          "N",
+          "L"
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          "W",
+          "L"
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          "S",
+          "L"
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          "E",
+          "R"
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          "S",
+          "R"
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          "W",
+          "L"
+        ]
+      ]
+    }
+  ],
+  "analytic_review": [
+    "Both complete matched supplier alternatives WEE/NNS and WEEW/NNSS, for both real LL-rootO/U histories, retain all internal count/ordinal edges. They force two actual LRRL channels, T2Y=T2X+1 and T3X=T3Y+3, hence A23X=A23Y+4. A23 is invariant under every full-drift translate; a genuinely closed quotient cycle of positive increment is impossible, but no recurrence/coverage of these transport edges is proved.",
+    "D cannot be a LEFTGamma contact because its required b-predecessorY firstR pointsW, notE. R cannot be LEFTGamma because the required D firstR pointsN, notS. RIGHTGamma L1/R2 ports are LEFT; an offGamma vertex cannot cross the embeddedboundary. Both displayed channels therefore stayLEFT and belong to physical critical same-contact returns. Exhaustive4/8 firstreturns with initialL contain no LRRL, yielding owner span>=12. Owners may coincide or be different translates; no budgets are added.",
+    "If actual A23Y=4, exact four-step return with incomingN toincomingS is uniquelyRLLL through D,T,U. Those two intermediate visits are actualL, independent of their unspecified complete histories. Since exitLEFT->RIGHT requires an R2 event, they cannot split the enclosing LEFT excursion. The fused ten-read actual channel has a single owner; this uses critical same-contact topology, not a repaired or hypothetical word.",
+    "R is not a crossing root, so a span12 owner has1or2 turns before the ten-read channel and0or1 after. Full pose and firstreturn reconstruction leaves exactly LL extra turns in the two recorded physical frames. Root(2,-1)E is secondLEFT after X->(1,-1), excluded by mixed lastLEFTgate. Root(1,-1)S receives exactly two physical uses from flatX, so is a flow2O/U crossing afterX, excluded by signed GLOBALM flat-island theorem. No guessed T/U full history, canonical sheet, exterior period or age upperbound is used.",
+    "CompleteWHITE/cap4, criticalGLOBALM and no-one-use hypotheses remain for owner/gate conclusions. Fixed8a0f controls are not reinstated onGamma. No actual fullfactor/front, iteratedspanincrease, ownerinjection, fuelbound or globalexclusion is claimed."
+  ]
+}

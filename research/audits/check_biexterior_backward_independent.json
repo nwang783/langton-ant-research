@@ -1,0 +1,20 @@
+{
+  "status": "PASS: backward section recurrence, complete-state bijection and topology-free outside-hull writer step",
+  "note_sha256": "6c69dc044317f07cc2a4a8d843a0aeda76477909185ddf033421324c3787cd9b",
+  "counts": {
+    "starts": 18452,
+    "no_new_cycle": 18672,
+    "exterior_writer_steps": 37344,
+    "non_biexterior": 1100,
+    "inverse_steps": 1248
+  },
+  "maximum_backward_delay": 12,
+  "analytic_review": [
+    "A newly closed black cycle minus the outside edge would be an old black path. Adjacent old edge midpoints are Chebyshev-near, so the path is in one separated rectangle. The outward endpoint of the new edge lies strictly beyond every old endpoint, impossible.",
+    "Planar duality makes both white edges nonbridges. Existing black cycles remain inside the old rectangles; neither active opposite-lattice vertex based at an outside integer head can be enclosed, including the extreme-line equality case.",
+    "The inverse map toggles the previous head q=p-dir(h). Current black implies undone R and h-1; current white implies undone L and h+1. Pre-return heads stay in the same old rectangle. Only the final inverse update may add one outside black.",
+    "Exactly tau_minus-1 internal inverse transitions fit the same strict-clock range. Displacement<=a+b-1<=2m-1 and mass<=m-k+ab+1<=m^2+1. Initial section states use tau0; m0/m1 are already section states.",
+    "Invertibility and finite-support recurrence in both directions make first positive and first negative returns mutual inverses on the full section. This is not a finite quotient or a capture theorem.",
+    "Any section R step outside the current rectangle union removes two nonbridge white edges. Both active vertices retain their infinite component, so the step stays on the section and births no black cycle. A nontrivial trapped excursion must begin at an interior white cell."
+  ]
+}

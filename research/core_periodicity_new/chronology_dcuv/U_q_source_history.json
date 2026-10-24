@@ -1,0 +1,90 @@
+{
+  "status": "AUTHOR_Q_SOURCE_HISTORY_PENDING_AUDIT",
+  "scope": "Genuine UC recycled-q output(-1,2) never retires inside retained factor: its only signed V/VC consumer would be at(-1,5,S), age2, but UC exit(0,5,W) atclock1 cannot reach it with exactlyone remaining C. Every UCC recycled-q consumer must be the IMMEDIATELY following V/VC, at actual UCC exit(-1,5,S), clock2. No statement of plain-U q permanence or all UCC-output permanence.",
+  "UC_exit": [
+    0,
+    5,
+    3
+  ],
+  "UCC_exit": [
+    -1,
+    5,
+    2
+  ],
+  "only_q_consumer_pose": [
+    -1,
+    5,
+    2
+  ],
+  "forced_age": 2,
+  "UC_required_strict_displacement": [
+    -1,
+    0
+  ],
+  "UC_remaining_C": 1,
+  "zero_C_cones": [
+    {
+      "type": 0,
+      "W_endpoint": [
+        -1,
+        1
+      ],
+      "S_endpoint": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "type": 4,
+      "W_endpoint": [
+        -3,
+        1
+      ],
+      "S_endpoint": [
+        -1,
+        -3
+      ]
+    },
+    {
+      "type": 7,
+      "W_endpoint": [
+        -4,
+        0
+      ],
+      "S_endpoint": [
+        0,
+        -4
+      ]
+    }
+  ],
+  "one_C_turns": [
+    {
+      "type": 1,
+      "W_to_S_endpoint": [
+        -2,
+        1
+      ]
+    },
+    {
+      "type": 5,
+      "W_to_S_endpoint": [
+        -4,
+        1
+      ]
+    },
+    {
+      "type": 8,
+      "W_to_S_endpoint": [
+        -5,
+        0
+      ]
+    }
+  ],
+  "UC_actual_max_possible_x_displacement": -2,
+  "UCC_empty_S_zero_run_necessary": true,
+  "dependencies": {
+    "chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "check_U_q_source_history.py": "f0efa69fd7fac3b35810b7a7d23d511792280358303b8b91fcf47b6247b73b44",
+    "U_recycled_q_consumer_frozen_20261023_1954/manifest.json": "c89b741d36a304c6bc3b8e181a2514b133cf4d2698d738917a43d4d65ab5e9f9"
+  }
+}

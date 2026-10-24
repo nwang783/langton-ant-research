@@ -1,0 +1,13 @@
+// Discovery abstract interpretation by per-control 2-CNF relations.
+#include <bits/stdc++.h>
+using namespace std; using U=uint64_t; using B=__uint128_t;
+struct F { bool live=false; vector<B> r; };
+struct T {int from,to;U k,v,f,c,r;int goal,a;};
+int n,L;B ALL;
+F top(){F z;z.live=true;z.r.resize(L);for(int i=0;i<L;i++)z.r[i]=B(1)<<i;return z;}
+bool closure(F&z){if(!z.live)return false;for(int k=0;k<L;k++)for(int i=0;i<L;i++)if((z.r[i]>>k)&1)z.r[i]|=z.r[k];for(int i=0;i<L;i+=2)if(((z.r[i]>>(i^1))&1)&&((z.r[i^1]>>i)&1)){z.live=false;z.r.clear();return false;} B impossible=0,forced=0;for(int i=0;i<L;i++)if((z.r[i]>>(i^1))&1){impossible|=B(1)<<i;forced|=B(1)<<(i^1);}for(int i=0;i<L;i++)z.r[i]=((impossible>>i)&1)?ALL:z.r[i]|forced;return true;}
+F image(F z,T t){if(!z.live)return z;for(int i=0;i<n;i++)if((t.k>>i)&1){int lit=2*i+((t.v>>i)&1);z.r[lit^1]|=B(1)<<lit;}if(!closure(z))return z;F y=top();for(int i=0;i<L;i++)if(!((t.c>>(i/2))&1)){int ii=i^((t.f>>(i/2))&1);for(int j=0;j<L;j++)if(!((t.c>>(j/2))&1)&&((z.r[i]>>j)&1)){int jj=j^((t.f>>(j/2))&1);y.r[ii]|=B(1)<<jj;}}for(int i=0;i<n;i++)if((t.c>>i)&1){int lit=2*i+((t.r>>i)&1);y.r[lit^1]|=B(1)<<lit;}closure(y);return y;}
+bool join(F&z,F const&y){if(!y.live)return false;if(!z.live){z=y;return true;}bool change=false;for(int i=0;i<L;i++){B q=z.r[i]&y.r[i];if(q!=z.r[i])change=true;z.r[i]=q;}return change;}
+int main(int argc,char**argv){try{ifstream in(argv[1]);int np,nt,nr;in>>n>>np>>nt>>nr;assert(n<=50);L=2*n;ALL=(B(1)<<L)-1;int sp;U sk,sv;in>>sp>>sk>>sv;vector<vector<T>>out(np);for(int i=0;i<nt;i++){T t;in>>t.from>>t.to>>t.k>>t.v>>t.f>>t.c>>t.r>>t.goal>>t.a;out[t.from].push_back(t);}vector<int>re(nr);for(int&i:re)in>>i;vector<F>seen(np);F seed=top();for(int i=0;i<n;i++)if((sk>>i)&1){int lit=2*i+((sv>>i)&1);seed.r[lit^1]|=B(1)<<lit;}closure(seed);seen[sp]=seed;deque<int>q={sp};vector<bool>queued(np);queued[sp]=true;size_t steps=0,cap=argc>2?stoull(argv[2]):1000000;bool hit=false;while(!q.empty()&&steps<cap&&!hit){int p=q.front();q.pop_front();queued[p]=false;steps++;auto add=[&](int z,F const&f){if(join(seen[z],f)&&!queued[z]){q.push_back(z);queued[z]=true;}};if(p==np-1){for(int z:re)add(z,seen[p]);}else for(T t:out[p]){F img=image(seen[p],t);if(t.goal&&img.live){hit=true;break;}if(!t.goal)add(t.to,img);}}
+cout<<"status "<<(hit?"ABSTRACT_HIT":q.empty()?"CLOSED_NO_HIT":"CAP")<<" worklist_steps "<<steps<<" positions "<<np<<" bits "<<n<<'\n';if(argc>3&&!hit&&q.empty()){ofstream f(argv[3]);f<<n<<' '<<np<<'\n';for(F const&z:seen){f<<z.live;if(z.live)for(B row:z.r)f<<' '<<U(row)<<' '<<U(row>>64);f<<'\n';}}
+}catch(exception&e){cerr<<e.what()<<'\n';return 2;}}

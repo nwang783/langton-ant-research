@@ -1,0 +1,1996 @@
+{
+  "status": "PASS universal63-cell/pristine-half-plane sufficient capture criterion and all-future capture of FOUR supplied third-pass boards",
+  "bindings": {
+    "status": "AUTHOR frozen, independent audit requested",
+    "dependencies": {
+      "THREE_PASS_AUTHOR_MANIFEST.json": "ddd51125eb183809aa880a1613918a61e606e7ec2a6c5a3f11846f59b33bbddb",
+      "REGENERATION_BOUNDARY_CHECKED.json": "556f989532cf0d46c8e7bb6f74643f02eb181fd104c0ed3e1eea6ae65d89f89d"
+    },
+    "files": {
+      "ELEVEN_CELL_TERMINAL_TRAP.md": "b9aaf051b8511430bb9011a1751e75083ef5bfa30e7965b6f2be486c9b636397",
+      "TERMINAL_TRAP_CERTIFICATE.json": "27e506cddc988554024a8985ca670f7a2762ef988cf288733aa9b944bf4eb07c",
+      "check_terminal_trap.py": "658b4295e0938f4a07877ec190c2cf2eb9c0594aaffcb311ea8396bcae9a6ac2",
+      "TERMINAL_TRAP_CHECKED.json": "ea89b4aa9251f98cc5bb5799a96e4f6b30d8986c933a0a0d1331513f7b8fc46d"
+    }
+  },
+  "source_seed": [
+    [
+      -9,
+      0
+    ],
+    [
+      -8,
+      -1
+    ],
+    [
+      -7,
+      -2
+    ],
+    [
+      -6,
+      -2
+    ],
+    [
+      -5,
+      -1
+    ],
+    [
+      -4,
+      -2
+    ],
+    [
+      -4,
+      -1
+    ],
+    [
+      -3,
+      -2
+    ],
+    [
+      -3,
+      0
+    ],
+    [
+      -2,
+      1
+    ],
+    [
+      -1,
+      1
+    ]
+  ],
+  "canonical_H_phase_in_retained_word": 0,
+  "guard_size": 63,
+  "black_guard_size": 11,
+  "white_guard_size": 52,
+  "source_all104_exact_infinite_thresholds": [
+    {
+      "phase": 0,
+      "earlier_occurrence_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 1,
+      "earlier_occurrence_thresholds": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "initial_black_epochs": [
+        1
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 2,
+      "earlier_occurrence_thresholds": [
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 3,
+      "earlier_occurrence_thresholds": [
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 4,
+      "earlier_occurrence_thresholds": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "initial_black_epochs": [
+        1
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 5,
+      "earlier_occurrence_thresholds": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 6,
+      "earlier_occurrence_thresholds": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 7,
+      "earlier_occurrence_thresholds": [
+        0,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 8,
+      "earlier_occurrence_thresholds": [
+        0,
+        1,
+        1,
+        1,
+        2
+      ],
+      "initial_black_epochs": [
+        1
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 9,
+      "earlier_occurrence_thresholds": [
+        0,
+        1,
+        1,
+        1,
+        2
+      ],
+      "initial_black_epochs": [
+        1
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 10,
+      "earlier_occurrence_thresholds": [
+        0,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 11,
+      "earlier_occurrence_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 12,
+      "earlier_occurrence_thresholds": [
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 13,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 14,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 15,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 16,
+      "earlier_occurrence_thresholds": [
+        0,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 17,
+      "earlier_occurrence_thresholds": [
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 18,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 19,
+      "earlier_occurrence_thresholds": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 20,
+      "earlier_occurrence_thresholds": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 21,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        2
+      ],
+      "initial_black_epochs": [
+        1
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 22,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 23,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 24,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 25,
+      "earlier_occurrence_thresholds": [
+        0,
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 26,
+      "earlier_occurrence_thresholds": [
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 27,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 28,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 29,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 30,
+      "earlier_occurrence_thresholds": [
+        0,
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 31,
+      "earlier_occurrence_thresholds": [
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 32,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 33,
+      "earlier_occurrence_thresholds": [
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 34,
+      "earlier_occurrence_thresholds": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 35,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 36,
+      "earlier_occurrence_thresholds": [
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 37,
+      "earlier_occurrence_thresholds": [
+        0,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 38,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 39,
+      "earlier_occurrence_thresholds": [
+        0,
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 40,
+      "earlier_occurrence_thresholds": [
+        0,
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 41,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 42,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 43,
+      "earlier_occurrence_thresholds": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 44,
+      "earlier_occurrence_thresholds": [
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 45,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 46,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 47,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 48,
+      "earlier_occurrence_thresholds": [
+        0,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 49,
+      "earlier_occurrence_thresholds": [
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 50,
+      "earlier_occurrence_thresholds": [
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 51,
+      "earlier_occurrence_thresholds": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 52,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 53,
+      "earlier_occurrence_thresholds": [
+        0,
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 54,
+      "earlier_occurrence_thresholds": [
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 55,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 56,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 57,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 58,
+      "earlier_occurrence_thresholds": [
+        0,
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 59,
+      "earlier_occurrence_thresholds": [
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 60,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 61,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 62,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 63,
+      "earlier_occurrence_thresholds": [
+        0,
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 64,
+      "earlier_occurrence_thresholds": [
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 65,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 66,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 67,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 68,
+      "earlier_occurrence_thresholds": [
+        0,
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 69,
+      "earlier_occurrence_thresholds": [
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 70,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 71,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 72,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 73,
+      "earlier_occurrence_thresholds": [
+        0,
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 74,
+      "earlier_occurrence_thresholds": [
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 75,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 76,
+      "earlier_occurrence_thresholds": [
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 77,
+      "earlier_occurrence_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 78,
+      "earlier_occurrence_thresholds": [
+        0,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 79,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 80,
+      "earlier_occurrence_thresholds": [
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 81,
+      "earlier_occurrence_thresholds": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 82,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 83,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 84,
+      "earlier_occurrence_thresholds": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 85,
+      "earlier_occurrence_thresholds": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 86,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 87,
+      "earlier_occurrence_thresholds": [
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 88,
+      "earlier_occurrence_thresholds": [
+        0,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 89,
+      "earlier_occurrence_thresholds": [],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 90,
+      "earlier_occurrence_thresholds": [
+        0,
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 91,
+      "earlier_occurrence_thresholds": [
+        0,
+        0
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 92,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 93,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 94,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 95,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 96,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 97,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "initial_black_epochs": [],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 98,
+      "earlier_occurrence_thresholds": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "initial_black_epochs": [
+        0,
+        1
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 99,
+      "earlier_occurrence_thresholds": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 100,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        2
+      ],
+      "initial_black_epochs": [
+        1
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "phase": 101,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2
+      ],
+      "initial_black_epochs": [
+        1
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 102,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "phase": 103,
+      "earlier_occurrence_thresholds": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "initial_black_epochs": [
+        0
+      ],
+      "all_change_point_tests": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    }
+  ],
+  "four_complete_board_results": [
+    {
+      "q": 3,
+      "total_standard_tail_time": 1357,
+      "tail_pose": [
+        [
+          -29,
+          -32
+        ],
+        2
+      ],
+      "tail_drift": [
+        2,
+        -2
+      ],
+      "ignored_black_archive_mass": 339,
+      "entire_third_R_output_unread_forever": 101,
+      "exact_finite_guard_match": true,
+      "phase_threshold_test_count": 170
+    },
+    {
+      "q": 5,
+      "total_standard_tail_time": 2599,
+      "tail_pose": [
+        [
+          54,
+          33
+        ],
+        0
+      ],
+      "tail_drift": [
+        -2,
+        2
+      ],
+      "ignored_black_archive_mass": 713,
+      "entire_third_R_output_unread_forever": 231,
+      "exact_finite_guard_match": true,
+      "phase_threshold_test_count": 170
+    },
+    {
+      "q": 7,
+      "total_standard_tail_time": 4321,
+      "tail_pose": [
+        [
+          -53,
+          -56
+        ],
+        2
+      ],
+      "tail_drift": [
+        2,
+        -2
+      ],
+      "ignored_black_archive_mass": 1231,
+      "entire_third_R_output_unread_forever": 409,
+      "exact_finite_guard_match": true,
+      "phase_threshold_test_count": 170
+    },
+    {
+      "q": 9,
+      "total_standard_tail_time": 6523,
+      "tail_pose": [
+        [
+          78,
+          57
+        ],
+        0
+      ],
+      "tail_drift": [
+        -2,
+        2
+      ],
+      "ignored_black_archive_mass": 1893,
+      "entire_third_R_output_unread_forever": 635,
+      "exact_finite_guard_match": true,
+      "phase_threshold_test_count": 170
+    }
+  ],
+  "analytic_review": [
+    "The eleven-cell finite seed executes the actual278-read prefix, consumes all eleven original identities, and enters the retained canonical104 cyclic word with headingS and drift(2,-2). Exact tail verification enumerates every physical phase-pair translation threshold and every initial-board ray intersection. Parity is constant between these finitely many change points and after the last one; no observed finite-repeat inference is used.",
+    "G contains exactly all prefix/first-tail read cells withy>=-4. First-tail footprint hasy<=-4, and every later copy translates down by2, hence liesy<=-6. Every future read outsideG is therefore in initially white half-plane y<-4. ANY board B contained in y>=-4 and agreeing withI onG has exactly the same entire future read field by first-difference induction, even if B has infinite mass in the unread half-plane. This is a sufficient boundary condition, not attraction to that condition.",
+    "All four full third-endpoint boards were normalized by proper rotation/translation, not cropped. They satisfy the entire half-plane condition and all63 guard bits. Independently replayed the prefix on those complete fields and verified all future ray parities again. Capture times1357/2599/4321/6523 are certified sufficient starts, not claimed minimal.",
+    "Only eleven currently black cells of each full endpoint ever enter the future read set. ALL third-R lifetimes101/231/409/635 and every missing next direct stitch are unread forever. Two of the five second-R boundary identities are consumed; the other three persist unread. The three old added-cycle survivors are genuinely consumed in the prefix. None of the archived material is deleted from the board.",
+    "The universal boundary criterion is analytic, but reachability by the guide/spiral family is certified ONLY for q3/5/7/9. No all-q construction, arbitrary architecture termination, regenerative loop, global finite-seed capture, or unbounded-gain theorem is inferred."
+  ]
+}

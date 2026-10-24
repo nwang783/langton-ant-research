@@ -1,0 +1,208 @@
+{
+  "scope": "Literal entire-field five-flight/four-router4352 producer.\nThe supplied289-cell launch and all earlier writes are retained. No all-N\ninference follows from this finite control; a separate affine proof is needed.\n",
+  "R": 252,
+  "N": 1,
+  "initial_pose": [
+    [
+      139,
+      114
+    ],
+    3
+  ],
+  "initial_mass": 394,
+  "status": "literal PASS",
+  "conflict": null,
+  "segments": [
+    {
+      "kind": "H",
+      "index": null,
+      "count": 189,
+      "start_time": 0,
+      "end_time": 19656,
+      "end_pose": [
+        [
+          -239,
+          -264
+        ],
+        3
+      ],
+      "mass": 2662
+    },
+    {
+      "kind": "router",
+      "index": 1,
+      "count": null,
+      "start_time": 19656,
+      "end_time": 21062,
+      "end_pose": [
+        [
+          -208,
+          -297
+        ],
+        1
+      ],
+      "mass": 2828
+    },
+    {
+      "kind": "H",
+      "index": null,
+      "count": 379,
+      "start_time": 21062,
+      "end_time": 60478,
+      "end_pose": [
+        [
+          550,
+          461
+        ],
+        1
+      ],
+      "mass": 7376
+    },
+    {
+      "kind": "router",
+      "index": 2,
+      "count": null,
+      "start_time": 60478,
+      "end_time": 62282,
+      "end_pose": [
+        [
+          512,
+          503
+        ],
+        3
+      ],
+      "mass": 7590
+    },
+    {
+      "kind": "H",
+      "index": null,
+      "count": 505,
+      "start_time": 62282,
+      "end_time": 114802,
+      "end_pose": [
+        [
+          -498,
+          -507
+        ],
+        3
+      ],
+      "mass": 13650
+    },
+    {
+      "kind": "router",
+      "index": 3,
+      "count": null,
+      "start_time": 114802,
+      "end_time": 116510,
+      "end_pose": [
+        [
+          -534,
+          -477
+        ],
+        1
+      ],
+      "mass": 13848
+    },
+    {
+      "kind": "H",
+      "index": null,
+      "count": 379,
+      "start_time": 116510,
+      "end_time": 155926,
+      "end_pose": [
+        [
+          224,
+          281
+        ],
+        1
+      ],
+      "mass": 18396
+    },
+    {
+      "kind": "router",
+      "index": 4,
+      "count": null,
+      "start_time": 155926,
+      "end_time": 157218,
+      "end_pose": [
+        [
+          252,
+          257
+        ],
+        3
+      ],
+      "mass": 18546
+    },
+    {
+      "kind": "H",
+      "index": null,
+      "count": 136,
+      "start_time": 157218,
+      "end_time": 171362,
+      "end_pose": [
+        [
+          -20,
+          -15
+        ],
+        3
+      ],
+      "mass": 20178
+    },
+    {
+      "kind": "H-prefix",
+      "index": null,
+      "count": null,
+      "start_time": 171362,
+      "end_time": 171390,
+      "end_pose": [
+        [
+          -24,
+          -17
+        ],
+        3
+      ],
+      "mass": 20182
+    },
+    {
+      "kind": "launch",
+      "index": null,
+      "count": null,
+      "start_time": 171390,
+      "end_time": 178202,
+      "end_pose": [
+        [
+          -2,
+          3
+        ],
+        3
+      ],
+      "mass": 20554
+    },
+    {
+      "kind": "wave",
+      "index": null,
+      "count": 1,
+      "start_time": 178202,
+      "end_time": 182554,
+      "end_pose": [
+        [
+          24,
+          29
+        ],
+        3
+      ],
+      "mass": 20738
+    }
+  ],
+  "read_count": 182554,
+  "final_pose": [
+    [
+      24,
+      29
+    ],
+    3
+  ],
+  "final_black_mass": 20738,
+  "minimal_first_L_input": 394,
+  "final_field_sha256": "1912d22a10cab4d1997170460361968e9f7705ff25afe576315a4f440e4562c0"
+}

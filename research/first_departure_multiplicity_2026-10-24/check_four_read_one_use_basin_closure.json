@@ -1,0 +1,132 @@
+{
+  "scope": "Physical first-R predecessor exhaustion for the even-reader whole staircase.\nIndex controls corroborate algebraic formulas; they do not construct a front.\n",
+  "physical_predecessor_rows": [
+    {
+      "target_family": "A",
+      "input_direction": "E",
+      "complete_arrival_ranks": [
+        2
+      ],
+      "physical_source": [
+        0,
+        0
+      ],
+      "source_family_index": [
+        "R",
+        -1
+      ],
+      "first_destination": [
+        1,
+        0
+      ],
+      "is_first_R_predecessor": true
+    },
+    {
+      "target_family": "A",
+      "input_direction": "W",
+      "complete_arrival_ranks": [
+        0,
+        1,
+        3
+      ],
+      "physical_source": [
+        2,
+        0
+      ],
+      "source_family_index": [
+        "D",
+        0
+      ],
+      "first_destination": [
+        1,
+        0
+      ],
+      "is_first_R_predecessor": true
+    },
+    {
+      "target_family": "R",
+      "input_direction": "N",
+      "complete_arrival_ranks": [
+        0
+      ],
+      "physical_source": [
+        1,
+        0
+      ],
+      "source_family_index": [
+        "A",
+        0
+      ],
+      "first_destination": [
+        1,
+        1
+      ],
+      "is_first_R_predecessor": true
+    },
+    {
+      "target_family": "D",
+      "input_direction": "N",
+      "complete_arrival_ranks": [
+        3
+      ],
+      "physical_source": [
+        2,
+        -1
+      ],
+      "source_family_index": [
+        "E",
+        0
+      ],
+      "first_destination": [
+        2,
+        -2
+      ],
+      "is_first_R_predecessor": false
+    },
+    {
+      "target_family": "D",
+      "input_direction": "S",
+      "complete_arrival_ranks": [
+        0,
+        1,
+        2
+      ],
+      "physical_source": [
+        2,
+        1
+      ],
+      "source_family_index": [
+        "A",
+        1
+      ],
+      "first_destination": [
+        2,
+        2
+      ],
+      "is_first_R_predecessor": false
+    }
+  ],
+  "all_index_formulas": {
+    "predecessors_A": [
+      "R_(i-1)",
+      "D_i"
+    ],
+    "predecessors_R": [
+      "A_i"
+    ],
+    "predecessors_D": [],
+    "basin": "Gamma union D",
+    "outside_E": "not in basin, on geometric RIGHT"
+  },
+  "full_quotient_controls": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "warning": "No exterior successor completion or controller is supplied. The second-cycle conclusion uses a genuine finite full quotient and complete WHITE b-map."
+}

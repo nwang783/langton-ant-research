@@ -1,0 +1,89 @@
+{
+  "macro_words": [
+    {
+      "start_marker": "LLLLRLRRRRLR",
+      "end_marker": "LLLLRLRRRRLR",
+      "word": "LLLLRLRRRRLRRRR"
+    },
+    {
+      "start_marker": "RRRLLRLLRRRR",
+      "end_marker": "LLLLRLRRRRLR",
+      "word": "RRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRR"
+    },
+    {
+      "start_marker": "LLLLRLRRRRLR",
+      "end_marker": "RRRLLRLLRRRR",
+      "word": "LLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLR"
+    }
+  ],
+  "quotient_edges": [
+    [
+      0,
+      0,
+      2
+    ],
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      2,
+      2,
+      1
+    ]
+  ],
+  "classes": 3,
+  "source_return_ids": [
+    9,
+    25,
+    26
+  ],
+  "history_depth": 6,
+  "history_states": [
+    [
+      9,
+      26,
+      25,
+      9,
+      26
+    ],
+    [
+      25,
+      9,
+      26,
+      25,
+      9
+    ],
+    [
+      26,
+      25,
+      9,
+      26,
+      25
+    ]
+  ],
+  "history_state_classes": [
+    1,
+    2,
+    0
+  ],
+  "history_edges": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      1,
+      2,
+      0
+    ],
+    [
+      2,
+      0,
+      1
+    ]
+  ],
+  "scope": "finite physical macro-history overapproximation; no claimed149-history equivalence"
+}

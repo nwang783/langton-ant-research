@@ -1,0 +1,1676 @@
+{
+  "status": "PASS global-max constant-flow2 staircase all-length core and closed-cycle exclusion",
+  "bindings": {
+    "global_max_flow2_staircase_segments_have_one_core_and_cannot_close.md": "e597889e756ec21b6f4c6db01de2ea8e56d2e85fdb6851439673db39c7eb1b21",
+    "flat_flow2_symbolic_row_with_odd_left.py": "c0a9381e05a84660ee04f56fcf6c11414473d06c4a392c34173c10cfc4fe6862",
+    "flat_flow2_symbolic_row_with_odd_left.json": "893472cd41c3fd71e78d81730a02fc4d69dc9a04df420c46e6d5ca0cc0182562"
+  },
+  "primary_words": 108,
+  "completions": 5700,
+  "rejections": {
+    "skipped": 5428,
+    "clock": 214,
+    "global_max": 26,
+    "open": 32
+  },
+  "independently_extracted_positive_clock_cycles": 214,
+  "open_words": [
+    {
+      "word": [
+        "O",
+        "X",
+        "O",
+        "X",
+        "O"
+      ],
+      "counts": {
+        "skipped": 3,
+        "clock": 5,
+        "global_max": 1
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "X",
+        "O",
+        "X",
+        "U"
+      ],
+      "counts": {
+        "skipped": 17
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "X",
+        "O",
+        "X",
+        "V"
+      ],
+      "counts": {
+        "skipped": 11,
+        "global_max": 3,
+        "clock": 3
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "X",
+        "O",
+        "Y",
+        "O"
+      ],
+      "counts": {
+        "skipped": 3,
+        "clock": 6
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "X",
+        "O",
+        "Y",
+        "U"
+      ],
+      "counts": {
+        "skipped": 17
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "X",
+        "O",
+        "Y",
+        "V"
+      ],
+      "counts": {
+        "skipped": 11,
+        "global_max": 3,
+        "clock": 3
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "X",
+        "U",
+        "X",
+        "O"
+      ],
+      "counts": {
+        "skipped": 32
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "X",
+        "U",
+        "X",
+        "U"
+      ],
+      "counts": {
+        "skipped": 52
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "X",
+        "U",
+        "X",
+        "V"
+      ],
+      "counts": {
+        "skipped": 52
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "X",
+        "U",
+        "Y",
+        "O"
+      ],
+      "counts": {
+        "skipped": 32
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "X",
+        "U",
+        "Y",
+        "U"
+      ],
+      "counts": {
+        "skipped": 52
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "X",
+        "U",
+        "Y",
+        "V"
+      ],
+      "counts": {
+        "skipped": 52
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "X",
+        "V",
+        "X",
+        "O"
+      ],
+      "counts": {
+        "skipped": 28,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "X",
+        "V",
+        "X",
+        "U"
+      ],
+      "counts": {
+        "skipped": 48,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "X",
+        "V",
+        "X",
+        "V"
+      ],
+      "counts": {
+        "skipped": 52
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "X",
+        "V",
+        "Y",
+        "O"
+      ],
+      "counts": {
+        "skipped": 28,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "X",
+        "V",
+        "Y",
+        "U"
+      ],
+      "counts": {
+        "skipped": 48,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "X",
+        "V",
+        "Y",
+        "V"
+      ],
+      "counts": {
+        "skipped": 52
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "Y",
+        "O",
+        "X",
+        "O"
+      ],
+      "counts": {
+        "skipped": 3,
+        "clock": 5,
+        "global_max": 1
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "Y",
+        "O",
+        "X",
+        "U"
+      ],
+      "counts": {
+        "skipped": 17
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "Y",
+        "O",
+        "X",
+        "V"
+      ],
+      "counts": {
+        "skipped": 11,
+        "global_max": 3,
+        "clock": 3
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "Y",
+        "O",
+        "Y",
+        "O"
+      ],
+      "counts": {
+        "skipped": 3,
+        "clock": 6
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "Y",
+        "O",
+        "Y",
+        "U"
+      ],
+      "counts": {
+        "skipped": 17
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "Y",
+        "O",
+        "Y",
+        "V"
+      ],
+      "counts": {
+        "skipped": 11,
+        "global_max": 3,
+        "clock": 3
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "Y",
+        "U",
+        "X",
+        "O"
+      ],
+      "counts": {
+        "skipped": 32
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "Y",
+        "U",
+        "X",
+        "U"
+      ],
+      "counts": {
+        "skipped": 52
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "Y",
+        "U",
+        "X",
+        "V"
+      ],
+      "counts": {
+        "skipped": 52
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "Y",
+        "U",
+        "Y",
+        "O"
+      ],
+      "counts": {
+        "skipped": 32
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "Y",
+        "U",
+        "Y",
+        "U"
+      ],
+      "counts": {
+        "skipped": 52
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "Y",
+        "U",
+        "Y",
+        "V"
+      ],
+      "counts": {
+        "skipped": 52
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "Y",
+        "V",
+        "X",
+        "O"
+      ],
+      "counts": {
+        "skipped": 28,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "Y",
+        "V",
+        "X",
+        "U"
+      ],
+      "counts": {
+        "skipped": 48,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "Y",
+        "V",
+        "X",
+        "V"
+      ],
+      "counts": {
+        "skipped": 52
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "Y",
+        "V",
+        "Y",
+        "O"
+      ],
+      "counts": {
+        "skipped": 28,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "Y",
+        "V",
+        "Y",
+        "U"
+      ],
+      "counts": {
+        "skipped": 48,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "O",
+        "Y",
+        "V",
+        "Y",
+        "V"
+      ],
+      "counts": {
+        "skipped": 52
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "X",
+        "O",
+        "X",
+        "O"
+      ],
+      "counts": {
+        "skipped": 11,
+        "global_max": 3,
+        "clock": 3
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "X",
+        "O",
+        "X",
+        "U"
+      ],
+      "counts": {
+        "skipped": 25
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "X",
+        "O",
+        "X",
+        "V"
+      ],
+      "counts": {
+        "skipped": 19,
+        "open": 6
+      },
+      "open": [
+        {
+          "D0": "NNS",
+          "D1": "SS",
+          "E": "E"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SS",
+          "E": "EW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "EWW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "WWE"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "EWWW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "WWEW"
+        }
+      ]
+    },
+    {
+      "word": [
+        "U",
+        "X",
+        "O",
+        "Y",
+        "O"
+      ],
+      "counts": {
+        "skipped": 11,
+        "global_max": 3,
+        "clock": 3
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "X",
+        "O",
+        "Y",
+        "U"
+      ],
+      "counts": {
+        "skipped": 25
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "X",
+        "O",
+        "Y",
+        "V"
+      ],
+      "counts": {
+        "skipped": 19,
+        "open": 6
+      },
+      "open": [
+        {
+          "D0": "NNS",
+          "D1": "SS",
+          "E": "E"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SS",
+          "E": "EW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "EWW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "WWE"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "EWWW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "WWEW"
+        }
+      ]
+    },
+    {
+      "word": [
+        "U",
+        "X",
+        "U",
+        "X",
+        "O"
+      ],
+      "counts": {
+        "skipped": 50,
+        "open": 2
+      },
+      "open": [
+        {
+          "D0": "NNSS",
+          "D1": "NNS",
+          "E": "WEE"
+        },
+        {
+          "D0": "NNSS",
+          "D1": "NNS",
+          "E": "WEEW"
+        }
+      ]
+    },
+    {
+      "word": [
+        "U",
+        "X",
+        "U",
+        "X",
+        "U"
+      ],
+      "counts": {
+        "skipped": 94,
+        "open": 2
+      },
+      "open": [
+        {
+          "D0": "NNSS",
+          "D1": "NNSS",
+          "E": "WEE"
+        },
+        {
+          "D0": "NNSS",
+          "D1": "NNSS",
+          "E": "WEEW"
+        }
+      ]
+    },
+    {
+      "word": [
+        "U",
+        "X",
+        "U",
+        "X",
+        "V"
+      ],
+      "counts": {
+        "skipped": 96
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "X",
+        "U",
+        "Y",
+        "O"
+      ],
+      "counts": {
+        "skipped": 50,
+        "clock": 2
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "X",
+        "U",
+        "Y",
+        "U"
+      ],
+      "counts": {
+        "skipped": 94,
+        "clock": 2
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "X",
+        "U",
+        "Y",
+        "V"
+      ],
+      "counts": {
+        "skipped": 96
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "X",
+        "V",
+        "X",
+        "O"
+      ],
+      "counts": {
+        "skipped": 48,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "X",
+        "V",
+        "X",
+        "U"
+      ],
+      "counts": {
+        "skipped": 92,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "X",
+        "V",
+        "X",
+        "V"
+      ],
+      "counts": {
+        "skipped": 96
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "X",
+        "V",
+        "Y",
+        "O"
+      ],
+      "counts": {
+        "skipped": 48,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "X",
+        "V",
+        "Y",
+        "U"
+      ],
+      "counts": {
+        "skipped": 92,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "X",
+        "V",
+        "Y",
+        "V"
+      ],
+      "counts": {
+        "skipped": 96
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "Y",
+        "O",
+        "X",
+        "O"
+      ],
+      "counts": {
+        "skipped": 11,
+        "clock": 6
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "Y",
+        "O",
+        "X",
+        "U"
+      ],
+      "counts": {
+        "skipped": 25
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "Y",
+        "O",
+        "X",
+        "V"
+      ],
+      "counts": {
+        "skipped": 19,
+        "clock": 6
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "Y",
+        "O",
+        "Y",
+        "O"
+      ],
+      "counts": {
+        "skipped": 11,
+        "clock": 6
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "Y",
+        "O",
+        "Y",
+        "U"
+      ],
+      "counts": {
+        "skipped": 25
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "Y",
+        "O",
+        "Y",
+        "V"
+      ],
+      "counts": {
+        "skipped": 19,
+        "clock": 6
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "Y",
+        "U",
+        "X",
+        "O"
+      ],
+      "counts": {
+        "skipped": 50,
+        "clock": 2
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "Y",
+        "U",
+        "X",
+        "U"
+      ],
+      "counts": {
+        "skipped": 94,
+        "clock": 2
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "Y",
+        "U",
+        "X",
+        "V"
+      ],
+      "counts": {
+        "skipped": 96
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "Y",
+        "U",
+        "Y",
+        "O"
+      ],
+      "counts": {
+        "skipped": 50,
+        "clock": 2
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "Y",
+        "U",
+        "Y",
+        "U"
+      ],
+      "counts": {
+        "skipped": 94,
+        "clock": 2
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "Y",
+        "U",
+        "Y",
+        "V"
+      ],
+      "counts": {
+        "skipped": 96
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "Y",
+        "V",
+        "X",
+        "O"
+      ],
+      "counts": {
+        "skipped": 48,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "Y",
+        "V",
+        "X",
+        "U"
+      ],
+      "counts": {
+        "skipped": 92,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "Y",
+        "V",
+        "X",
+        "V"
+      ],
+      "counts": {
+        "skipped": 96
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "Y",
+        "V",
+        "Y",
+        "O"
+      ],
+      "counts": {
+        "skipped": 48,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "Y",
+        "V",
+        "Y",
+        "U"
+      ],
+      "counts": {
+        "skipped": 92,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "U",
+        "Y",
+        "V",
+        "Y",
+        "V"
+      ],
+      "counts": {
+        "skipped": 96
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "X",
+        "O",
+        "X",
+        "O"
+      ],
+      "counts": {
+        "skipped": 11,
+        "clock": 6
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "X",
+        "O",
+        "X",
+        "U"
+      ],
+      "counts": {
+        "skipped": 25
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "X",
+        "O",
+        "X",
+        "V"
+      ],
+      "counts": {
+        "skipped": 19,
+        "clock": 6
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "X",
+        "O",
+        "Y",
+        "O"
+      ],
+      "counts": {
+        "skipped": 11,
+        "clock": 6
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "X",
+        "O",
+        "Y",
+        "U"
+      ],
+      "counts": {
+        "skipped": 25
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "X",
+        "O",
+        "Y",
+        "V"
+      ],
+      "counts": {
+        "skipped": 19,
+        "clock": 6
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "X",
+        "U",
+        "X",
+        "O"
+      ],
+      "counts": {
+        "skipped": 50,
+        "clock": 2
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "X",
+        "U",
+        "X",
+        "U"
+      ],
+      "counts": {
+        "skipped": 94,
+        "clock": 2
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "X",
+        "U",
+        "X",
+        "V"
+      ],
+      "counts": {
+        "skipped": 96
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "X",
+        "U",
+        "Y",
+        "O"
+      ],
+      "counts": {
+        "skipped": 50,
+        "clock": 2
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "X",
+        "U",
+        "Y",
+        "U"
+      ],
+      "counts": {
+        "skipped": 94,
+        "clock": 2
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "X",
+        "U",
+        "Y",
+        "V"
+      ],
+      "counts": {
+        "skipped": 96
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "X",
+        "V",
+        "X",
+        "O"
+      ],
+      "counts": {
+        "skipped": 48,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "X",
+        "V",
+        "X",
+        "U"
+      ],
+      "counts": {
+        "skipped": 92,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "X",
+        "V",
+        "X",
+        "V"
+      ],
+      "counts": {
+        "skipped": 96
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "X",
+        "V",
+        "Y",
+        "O"
+      ],
+      "counts": {
+        "skipped": 48,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "X",
+        "V",
+        "Y",
+        "U"
+      ],
+      "counts": {
+        "skipped": 92,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "X",
+        "V",
+        "Y",
+        "V"
+      ],
+      "counts": {
+        "skipped": 96
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "Y",
+        "O",
+        "X",
+        "O"
+      ],
+      "counts": {
+        "skipped": 11,
+        "global_max": 3,
+        "clock": 3
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "Y",
+        "O",
+        "X",
+        "U"
+      ],
+      "counts": {
+        "skipped": 25
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "Y",
+        "O",
+        "X",
+        "V"
+      ],
+      "counts": {
+        "skipped": 19,
+        "open": 6
+      },
+      "open": [
+        {
+          "D0": "NNS",
+          "D1": "SS",
+          "E": "E"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SS",
+          "E": "EW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "EWW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "WWE"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "EWWW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "WWEW"
+        }
+      ]
+    },
+    {
+      "word": [
+        "V",
+        "Y",
+        "O",
+        "Y",
+        "O"
+      ],
+      "counts": {
+        "skipped": 11,
+        "global_max": 3,
+        "clock": 3
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "Y",
+        "O",
+        "Y",
+        "U"
+      ],
+      "counts": {
+        "skipped": 25
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "Y",
+        "O",
+        "Y",
+        "V"
+      ],
+      "counts": {
+        "skipped": 19,
+        "open": 6
+      },
+      "open": [
+        {
+          "D0": "NNS",
+          "D1": "SS",
+          "E": "E"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SS",
+          "E": "EW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "EWW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "WWE"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "EWWW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "WWEW"
+        }
+      ]
+    },
+    {
+      "word": [
+        "V",
+        "Y",
+        "U",
+        "X",
+        "O"
+      ],
+      "counts": {
+        "skipped": 50,
+        "open": 2
+      },
+      "open": [
+        {
+          "D0": "NNSS",
+          "D1": "NNS",
+          "E": "WEE"
+        },
+        {
+          "D0": "NNSS",
+          "D1": "NNS",
+          "E": "WEEW"
+        }
+      ]
+    },
+    {
+      "word": [
+        "V",
+        "Y",
+        "U",
+        "X",
+        "U"
+      ],
+      "counts": {
+        "skipped": 94,
+        "open": 2
+      },
+      "open": [
+        {
+          "D0": "NNSS",
+          "D1": "NNSS",
+          "E": "WEE"
+        },
+        {
+          "D0": "NNSS",
+          "D1": "NNSS",
+          "E": "WEEW"
+        }
+      ]
+    },
+    {
+      "word": [
+        "V",
+        "Y",
+        "U",
+        "X",
+        "V"
+      ],
+      "counts": {
+        "skipped": 96
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "Y",
+        "U",
+        "Y",
+        "O"
+      ],
+      "counts": {
+        "skipped": 50,
+        "clock": 2
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "Y",
+        "U",
+        "Y",
+        "U"
+      ],
+      "counts": {
+        "skipped": 94,
+        "clock": 2
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "Y",
+        "U",
+        "Y",
+        "V"
+      ],
+      "counts": {
+        "skipped": 96
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "Y",
+        "V",
+        "X",
+        "O"
+      ],
+      "counts": {
+        "skipped": 48,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "Y",
+        "V",
+        "X",
+        "U"
+      ],
+      "counts": {
+        "skipped": 92,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "Y",
+        "V",
+        "X",
+        "V"
+      ],
+      "counts": {
+        "skipped": 96
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "Y",
+        "V",
+        "Y",
+        "O"
+      ],
+      "counts": {
+        "skipped": 48,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "Y",
+        "V",
+        "Y",
+        "U"
+      ],
+      "counts": {
+        "skipped": 92,
+        "clock": 4
+      },
+      "open": []
+    },
+    {
+      "word": [
+        "V",
+        "Y",
+        "V",
+        "Y",
+        "V"
+      ],
+      "counts": {
+        "skipped": 96
+      },
+      "open": []
+    }
+  ],
+  "core_D": [
+    "NNSS"
+  ],
+  "analytic_review": [
+    "All two RIGHT and three LEFT flow2 modes, including odd WEE, are signed complete alphabets only on constant-selected-C first-R cycle segments. The fixed8-physical-cell stencil independently includes every complete WHITE0..4 exterior history allowed by mandatory ports, all zero uses and all physical outgoing/incoming ordinals. Treating possible short full-quotient aliases as independent physical lifts relaxes conditions, so cannot lose an actual completion.",
+    "Every5700 completion is reconstructed. Literal forced first returns reject skipped physical ranks; max-plus rejection independently extracts a genuinely positive inequality cycle; all dual-face equations are independently solved from net radial flow including unused ports. The selected SE face of A is M=0, and every C face in the stencil is required<=0. This GLOBAL maximum premise is essential and is not merely local maximum.",
+    "Exactly eight primary words survive as necessary OPEN rows. In overlapping windows, a B appearing as both current and previous lies in {O,U} intersect {U,V}={U}; with previous U, A=X. Hence closed full-quotient staircase words are entirely NNSS/WEEW, with finite segment caps explicitly retained. No bounded period or length search is used.",
+    "For that full core, first-W departure at D occurs A.R0-2, while first-S arrival is B.R2+1>A.R0+2. The complete S2/W2 inventory therefore forces D=NNSS. Its literal second ports give B_k.R2 -> D_k.R2 -> B_(k-1).L3. Thus T3(B_(k-1))=T2(B_k)+2<=T3(B_k)-2.",
+    "Actual first-R b-cycle winding is-1. Geometric NE staircase length2a gives actual full d=(-a,-a), so B_(k-a)=B_k+d has T3 increased byP. Iterating verified core transfer a times instead decreases by>=2a. This closes the true full quotient even for short aliasing; no bare spatial infinite descent.",
+    "Only closed constant-flow2 DIAGONAL STAIRCASE cycles at GLOBAL M are excluded. Finite core length can be absorbed by endpoint age, nonstaircase turns or multiplicity changes. No general one-use edge/all-one-use, front exclusion or fuel bound follows."
+  ]
+}

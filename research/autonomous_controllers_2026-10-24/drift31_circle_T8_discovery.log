@@ -1,0 +1,9 @@
+mode 3 NNN EEEW domain 4 {'open': 4} open ['NNSSSS', 'SNSSNS', 'NNSSSSS', 'SNSSNSS']
+mode 4 NNNS EEEW domain 13 {'open': 13} open ['NNNS', 'NNNSS', 'NNSSN', 'NNSNSSSS', 'NNSSSNSS', 'NNSSSSSN', 'SNSSNNSS', 'SNSSNSSN', 'NNSNSSSSS', 'NNSSSNSSS', 'NNSSSSSNS', 'SNSSNNSSS', 'SNSSNSSNS']
+mode 4 NNNSS EEEWW domain 13 {'open': 13} open ['NNNS', 'NNNSS', 'NNSSN', 'NNSNSSSS', 'NNSSSNSS', 'NNSSSSSN', 'SNSSNNSS', 'SNSSNSSN', 'NNSNSSSSS', 'NNSSSNSSS', 'NNSSSSSNS', 'SNSSNNSSS', 'SNSSNSSNS']
+mode 4 NNNSS EEEWWE domain 20 {'open': 14, 'positive_rank_clock_cycle': 6} open ['NNNSSS', 'NNSSNS', 'NNNSSSS', 'NNSSNSS', 'NNSNSSSSSS', 'NNSSSNSSSS', 'NNSSSSSNSS', 'SNSSNNSSSS', 'SNSSNSSNSS', 'NNSNSSSSSSS', 'NNSSSNSSSSS', 'NNSSSSSNSSS', 'SNSSNNSSSSS', 'SNSSNSSNSSS']
+mode 4 SNSSNSSN EWWEWWW domain 7 {'open': 5, 'skipped_rank': 2} open ['NNN', 'NNSNSS', 'NNSSSN', 'NNSNSSS', 'NNSSSNS']
+mode 4 SNSSNSSN EWWEWWWE domain 13 {'open': 6, 'positive_rank_clock_cycle': 3, 'skipped_rank': 4} open ['NNNS', 'NNNSS', 'NNSNSSSS', 'NNSSSNSS', 'NNSNSSSSS', 'NNSSSNSSS']
+mode 4 SNSSNSSNS EWWEWWWEW domain 13 {'open': 6, 'positive_rank_clock_cycle': 3, 'skipped_rank': 4} open ['NNNS', 'NNNSS', 'NNSNSSSS', 'NNSSSNSS', 'NNSNSSSSS', 'NNSSSNSSS']
+mode 4 SNSSNSSNS EWWEWWWEWE domain 20 {'open': 6, 'positive_rank_clock_cycle': 7, 'skipped_rank': 7} open ['NNNSSS', 'NNNSSSS', 'NNSNSSSSSS', 'NNSSSNSSSS', 'NNSNSSSSSSS', 'NNSSSNSSSSS']
+TOTAL {'open': 67, 'positive_rank_clock_cycle': 19, 'skipped_rank': 17} seconds 0.2574615478515625

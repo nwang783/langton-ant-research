@@ -1,0 +1,23 @@
+{
+  "status": "PASS controller-free occurrence-dependent bounded-delay unit self-embedding exclusion",
+  "results": [
+    {
+      "root": "R",
+      "complete_macro_nodes": 238,
+      "fine_search_nodes": 19806,
+      "last_macro_boundary": 39,
+      "largest_coarse_index": 7,
+      "accepted_macro_history_sha256": "6f685695ebfe9e5f31231a46876deddff5bff29c91b16f612b321cc88d7c736d"
+    },
+    {
+      "root": "L",
+      "complete_macro_nodes": 238,
+      "fine_search_nodes": 19806,
+      "last_macro_boundary": 39,
+      "largest_coarse_index": 7,
+      "accepted_macro_history_sha256": "319c099f5fca7cd329247caee05155911baf0258d98a80f1c78342c4034ab44d"
+    }
+  ],
+  "scope": "Equal actual coarse/fine positions AND incoming headings, each macro length at most9, at least one nonidentity. Geometry and heading imply lengths1,5,9. Normalize at the first nonidentity; arbitrary initial coloring. No eventual offsets, unit rotations, other lengths, or heading-free extension.",
+  "note": "The DFS branches only on genuinely unknown current cell colors and directly tests endpoints/headings; no precomputed image palette or controller consistency is assumed."
+}

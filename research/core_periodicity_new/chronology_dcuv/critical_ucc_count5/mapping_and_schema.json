@@ -1,0 +1,61 @@
+{
+  "new_to_original": [
+    0,
+    1,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "names": [
+    "D",
+    "DC",
+    "V",
+    "VC",
+    "VCC",
+    "U",
+    "UC",
+    "UCC"
+  ],
+  "C_counts": [
+    0,
+    1,
+    0,
+    1,
+    2,
+    0,
+    1,
+    2
+  ],
+  "count_semantics": {
+    "0": "exact0",
+    "1": "exact1",
+    "2": "exact2",
+    "3": "exact3",
+    "4": "exact4",
+    "5": "at least5"
+  },
+  "proof_schema": "Unchanged signed protected counted least-gap induction: complete gap1/gap2 controls, neighbor factorization with synchronized clipped additive counts, odd last-reader and two-cell color-path barriers. Candidate greatest fixed point clauses must all reconstruct independently; counts saturate only at5.",
+  "query": {
+    "new_source": 7,
+    "new_target": 7,
+    "target_pose": [
+      0,
+      4,
+      0
+    ],
+    "protected_source_output": [
+      0,
+      7
+    ],
+    "target_input": [
+      0,
+      3
+    ],
+    "C_count": 4,
+    "C_count_exact": true
+  },
+  "scope": "One exact-age protected transfer exclusion, not all-count freshness, U1 closure, or capture."
+}

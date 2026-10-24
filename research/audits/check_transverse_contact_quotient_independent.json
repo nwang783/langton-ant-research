@@ -1,0 +1,231 @@
+{
+  "status": "PASS four pure clockwise first-transverse comparison classes and eight full finite causal realizations",
+  "manifest": "6ebce42eb42e960f9471c9ac4c46c4b7ed9c0645d9adf36a4e6bb30c7efc4388",
+  "script": "547ce896d96e841f393da7241ea7367d7b206210371a64d79857174ac3fd6c88",
+  "source_independent_wake_report": "ec6784ff396227339210063b9d39bb7321bcf6cba8e4a16ac72f1dba6e6e32d2",
+  "controls": [
+    {
+      "joins": [
+        61,
+        61,
+        61
+      ],
+      "residue": [
+        3,
+        1
+      ],
+      "actual_reads": 23672,
+      "contact_time": 14383,
+      "old_R_birth": 3183,
+      "old_R_cell": [
+        61,
+        64
+      ],
+      "incoming_phase": 56,
+      "delay": 9081,
+      "onset": 23464,
+      "drift": [
+        2,
+        -2
+      ],
+      "finite_checks": 175,
+      "ideal_ray_breakpoint_checks": 175
+    },
+    {
+      "joins": [
+        61,
+        61,
+        71
+      ],
+      "residue": [
+        3,
+        3
+      ],
+      "actual_reads": 33789,
+      "contact_time": 14383,
+      "old_R_birth": 3183,
+      "old_R_cell": [
+        61,
+        64
+      ],
+      "incoming_phase": 46,
+      "delay": 19198,
+      "onset": 33581,
+      "drift": [
+        -2,
+        2
+      ],
+      "finite_checks": 174,
+      "ideal_ray_breakpoint_checks": 174
+    },
+    {
+      "joins": [
+        61,
+        71,
+        61
+      ],
+      "residue": [
+        1,
+        1
+      ],
+      "actual_reads": 23587,
+      "contact_time": 14393,
+      "old_R_birth": 3061,
+      "old_R_cell": [
+        60,
+        63
+      ],
+      "incoming_phase": 56,
+      "delay": 8986,
+      "onset": 23379,
+      "drift": [
+        2,
+        -2
+      ],
+      "finite_checks": 170,
+      "ideal_ray_breakpoint_checks": 170
+    },
+    {
+      "joins": [
+        61,
+        71,
+        71
+      ],
+      "residue": [
+        1,
+        3
+      ],
+      "actual_reads": 16737,
+      "contact_time": 14393,
+      "old_R_birth": 3061,
+      "old_R_cell": [
+        60,
+        63
+      ],
+      "incoming_phase": 46,
+      "delay": 2136,
+      "onset": 16529,
+      "drift": [
+        2,
+        -2
+      ],
+      "finite_checks": 170,
+      "ideal_ray_breakpoint_checks": 170
+    },
+    {
+      "joins": [
+        71,
+        61,
+        61
+      ],
+      "residue": [
+        3,
+        3
+      ],
+      "actual_reads": 33893,
+      "contact_time": 14487,
+      "old_R_birth": 3183,
+      "old_R_cell": [
+        61,
+        64
+      ],
+      "incoming_phase": 46,
+      "delay": 19198,
+      "onset": 33685,
+      "drift": [
+        -2,
+        2
+      ],
+      "finite_checks": 174,
+      "ideal_ray_breakpoint_checks": 174
+    },
+    {
+      "joins": [
+        71,
+        61,
+        71
+      ],
+      "residue": [
+        3,
+        1
+      ],
+      "actual_reads": 23692,
+      "contact_time": 14403,
+      "old_R_birth": 3183,
+      "old_R_cell": [
+        61,
+        64
+      ],
+      "incoming_phase": 56,
+      "delay": 9081,
+      "onset": 23484,
+      "drift": [
+        2,
+        -2
+      ],
+      "finite_checks": 175,
+      "ideal_ray_breakpoint_checks": 175
+    },
+    {
+      "joins": [
+        71,
+        71,
+        61
+      ],
+      "residue": [
+        1,
+        3
+      ],
+      "actual_reads": 16841,
+      "contact_time": 14497,
+      "old_R_birth": 3061,
+      "old_R_cell": [
+        60,
+        63
+      ],
+      "incoming_phase": 46,
+      "delay": 2136,
+      "onset": 16633,
+      "drift": [
+        2,
+        -2
+      ],
+      "finite_checks": 170,
+      "ideal_ray_breakpoint_checks": 170
+    },
+    {
+      "joins": [
+        71,
+        71,
+        71
+      ],
+      "residue": [
+        1,
+        1
+      ],
+      "actual_reads": 23607,
+      "contact_time": 14413,
+      "old_R_birth": 3061,
+      "old_R_cell": [
+        60,
+        63
+      ],
+      "incoming_phase": 56,
+      "delay": 8986,
+      "onset": 23399,
+      "drift": [
+        2,
+        -2
+      ],
+      "finite_checks": 170,
+      "ideal_ray_breakpoint_checks": 170
+    }
+  ],
+  "analytic_review": [
+    "Full d=(2,2) and e=(2,-2) generate an index8 lattice; Smod4,Tmod4 with same parity are its exact cosets. Same orbit invariant h+x+y modulo2 leaves precisely the four odd/odd cosets for the clockwise incomingS origin. Translations by d move the whole interface; by e merely relabel the incoming period. Opposite approach is not included.",
+    "For each oldW class and incomingphase the T equation uniquely fixes the incoming integerperiod. All104x12 possibilities over ALL integers, not a finite past scan, are generated. Their globalminimum is unperturbedR versus oldBLACK actualL. No earlier incoming read touches oldwake, so all prior incoming-written bits are genuinely preserved in the XOR comparison field.",
+    "All12 bi-infinite oldrays,12 backward incoming half-rays and finite phasecorrection are retained. Independent normal-coordinate intersection algebra and parity flip-breakpoints certify every infinite finalphase, including drift opposite to incoming. No infinite archive is cropped or mistaken for a finite seed.",
+    "Eight literal16cell boards independently replay every pre/postcontact read, all originalport first-read times, same oldR3061/3183 lifetime and entire contact/terminalfields. Both realizations perclass agree on postcontact word/relativepose, not globally on their boards. Independent full finite-field tail parity proves observational equivalence on the ENTIRE future. This supplies no all-n extrapolation.",
+    "Primitive104 cyclic words and the immediate preceding-letter mismatch certify exact onset delays. Every actual postcontact start, including all104 infinite-tail phases, avoids Gprefix33; this does not rule out unused static motifs. Extra archive, finite wake endpoints not discharged by these controls, altered wakes, another approach/protocol and globalattraction remainOPEN."
+  ]
+}

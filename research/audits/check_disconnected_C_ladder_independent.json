@@ -1,0 +1,86 @@
+{
+  "status": "PASS geometric disconnected-union countermodel and complete color exclusion of ONE fixed17-C-step realization family; NOT an actual ant counterexample",
+  "proof": "bfca6d57f60529bf02e3668435eff4bb1bf54e4ffbca012fcf51efaceef460d7",
+  "certificate": "b5beb093dd99d317bb2c73386bf6bcc3b07b58d29d88d721ef2f6e626974a505",
+  "script": "13429e486ee14d9928cc4d521fc0c9897bf76605981905f6b6481de4d977400c",
+  "abstract_components": [
+    [
+      -1,
+      0
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "minimal_R_counts": [
+    0,
+    2,
+    2,
+    2,
+    1,
+    2,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    2
+  ],
+  "optional_laps": [
+    0,
+    6,
+    7,
+    8,
+    10,
+    11,
+    13,
+    14,
+    15
+  ],
+  "complete_choices": 512,
+  "six_prefixes": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1
+    ]
+  ],
+  "analytic_review": [
+    "The embedded four-row C-lattice walk and seam are nearest-neighbor/nonbacktracking. Exact FULL drift(1,1) first/last occurrence arrays reconstruct two disconnected extremal-forest components. These times are C-transition indices, not ant clocks; pureR stays preserve vertex order but change the period.",
+    "The specified incoming C edge uniquely fixes the actual head/heading after its L, including the seam. R stays cycle four corners; each desired next C move therefore allows a fixed R count modulo4. Five consecutiveR are impossible on any board because the fourth restores headpose after flipping its initialcellBLACK. Hence each positive minimal count1/2 is forced and each zero permits only0/4. This exhausts exactly512 expansions of this one geometry, with periods30+4b, not a bounded arbitrary-word search.",
+    "Fresh independent replay confirms all512 kinematic words and their exact first immutable same-cell repeated-turn failures, covered by six disjoint prefix leaves. Every leaf legalprefix has its complete finite minimal seed and entire field at failure reconstructed; unread outside bits cannot repair a repeated read. Thus no expansion is even an actual finite ant factor.",
+    "Planarity, nonbacktracking and cursor geometry alone do not force unionconnectivity. Actual ant colors reject this particular attempt, not every disconnected pattern. No actual disconnected-front counterexample, general connectivity theorem, controller module forcing, WHITE lifetimeS1 or capture follows."
+  ]
+}

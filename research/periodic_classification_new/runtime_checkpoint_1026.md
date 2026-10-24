@@ -1,0 +1,64 @@
+# Classification checkpoint, 23 October 2026 10:26 UTC
+
+Builds on1008. FullHC/openallcapaxis4/openunrestrictedcap4unchanged.
+SIGNEDglobalP28, ALLCAPWHITE speedP>=6D+4ceil(D/3), suppliedaxis4P40,
+cap4full-driftManhattan>=8/norm²>=40. Currentall_cap_period_bounds.md/README.
+
+New UNPROMOTED globalcoupledrun-speedcandidate:
+white_front_coupled_run_speed.md
+SHA8237331f8e40b3ee4a29f94d711e2d0bf6de0836781fad9794c95d7032e8165d.
+Usesalreadysigned8-returntable,NOnewpalette/scans. AtLrunstartafter>=2R,
+q2,j1wouldone8returnA=RRRLLLLRorB=RRLLLLRR; withpriorRverticesfirstR
+att−2,−1, A repeatspriorpR at+2,BrepeatsuR at+7=>contrad.
+Thusqstart2=>jstart2R; ifLrunhassecondq1,RRRRreturnforcesselectedstartL,
+contrad. EverypairedR/Lrunbothlength>=2paysextraq. Q>=m+s+t,
+2m<=4s+2t=>P=ell+4Q>=4ell>=8D,roundedP2Dmod4.
+AuditorhasnotequeuedbutGLOBALtwo-sidedcompletioncandidatehaspriority.
+DO NOTpromotethisnewspeedbounduntilsignoff.
+
+NewUNSIGNEDimplementationmethodcontrolACTIVEhandle5338:
+python probe_general_first_read_backbone_adaptive.py 6 4 0 3 40 120 240 2 120000
+Usesreverse-dependencyACTUALedgefirstCELLgraph(indegree1,branchingoutdegree).
+Trackroot/cycliccomponent,seammod3(onlyw+1accepted), saturatedpositive
+rootdepthcost1+4j(firstsourceoutport rank). Whenitssolecyclecloses, safe
+cappedPlowerdebtfeedsmax(N,Texposed,Ccycle). Branchesaftercycleretained,
+multipleessentialcomponentsretained. Geometrysimplecycle=>wind0±1.
+Modulefirst_read_backbone_frontier.py
+SHAa8299c23ab42543500e76d217cfbc5bfcc5e804ee37e32cf159f12cf7686940f.
+Notefirst_read_backbone_frontier.md
+SHA1a653c577e9d9bec014bd8d58fac480acde8b09b6a96a43bc30fe5025f828378.
+ProducerSHA21768ccf66476a6b0d76e782f47fe1969fad465d25118129e1e25fb494826bc7.
+Auditorsemanticsroot/mod3/depthlooksoundoninspection,butindependentCODE
+replaynotdone. Noimplementation/proofpromoted. Author24standardpositives
+104/208/312,bothdiags,sectorscorrect,4saturationspass. SyntheticGRAPHONLY
+contractible/negativecyclefail,+1cycleandpostclosurebranchpass(notfronts).
+5338latest3112states/3112edges,1713queue,4.62mattempts245s.
+
+ONGOINGsoundoldhandlesretain(POLLbeforeanyrestart,nops):
+24540fixedcap6axis4N32/M64,q2,k3,max120k.
+ latest31,737states/38,634edges,847queue,157mattempts5489s. Queuefellto239
+ thenregrew; notcompleteandnoproofofclosureyet. DoNOTclaimcap6excluded.
+59585adaptiveNmin32/S128/M256,q2,k3,max120k latest0954 22,210/22,272,
+2811queue,68.4mattempts3703s(notpolledsince).
+62581adaptiveNmin40/S120/M240,q2,k3,max120k latest0954 9,923/9,923,
+2872queue,24.2mattempts1318s(notpolledsince).
+Noadditionaldriftradius/localpalette/nearbyperiodequalityscanplanned.
+
+CONTROLQUALITYCORRECTION independentlysigned10:19:
+Oldcheck_general_literal_window_positive.py hadSEstart(0,1),Ewrongsector:
+Geometryrequiresx+y+h odd; oldnegativecontrols couldacceptvacuously.
+Thislimitationalsopresentinolderindependentcontrolcomparison(itsphysical
+referencewasnonvacuousbutGeometrycouldvacuouslyaccept). NECESSARYexclusion
+graphsindependentlyconstructedandUNCHANGED,notdependentonthathelper.
+Oldevidencepreserved. Separatecorrecthelper
+check_general_windows_positive_corrected.py
+SHAedfdeec54f9bd25850e85a910366b46ea77e9cc5380a10618ecc0b48977f71d2;
+outputgeneral_windows_positive_corrected.json (remove spaceinfilename)
+SHAa056e4dccc85b88f0e3fca63ba215363eec6a0e7754b6dd1c4b59b427235977f.
+SErepairedstart(0,0),E (oddspatialtranslateafterquarterrotation).
+Everyreadaxischecked,everyinternalphysicaledgeordinalANDexacttimechecked.
+All27windowsper6controlsNONEMPTY;580/1160/1740eventsuccessorspersign.
+Auditorindependentphysicalgeometryreconstructionpassesallandrecordsissue.
+
+The retained bounds include P28/P40/norm40 and the older cap-four speed bound; fullALLCAPspeed
+updatecanbeforwardedifneeded. Fullfiniteblackseed104conjectureOPEN.

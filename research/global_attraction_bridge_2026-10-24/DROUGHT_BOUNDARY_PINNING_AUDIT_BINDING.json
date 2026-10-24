@@ -1,0 +1,12 @@
+{
+  "status": "Independent PASS with mandatory orientation clarification",
+  "files": {
+    "DROUGHT_BOUNDARY_PINNING_MANIFEST.json": "f0d24e49e0ceef9fef4e887a1941ab3c7a094470d77930d1991604c9a876d824",
+    "DROUGHT_BOUNDARY_ORIENTATION_ADDENDUM.json": "9a2524e996f887b54e7780e682790918f336af7ba9ff485c3f40209d8da4c728",
+    "../audits/check_drought_boundary_pinning_independent.json": "02f628cb43a3aa464c17a5c5e9acfaa3ea6f2dc955b70d2ea037094885678d08"
+  },
+  "proved": "For a W-by-H confined interval with strict-interior endpoint heads, boundary reads<=2W\u00b2+2H\u00b2+2W+2H\u221212. A selected strict-inner head interval has length>=ceil((D\u22122B)/(B+1)); arbitrary endpoints first trim<=6.",
+  "actual_obstruction": "All n>=100 actual22-cell MT holds exactly the same complete current BLACK hull for47837+104n updates after original retirement,807 relevant at entry, with3 permanent R pins.",
+  "scope": "Head-region peeling is valid; BLACK-hull/relevant-hull descent is not inferred. Arbitrarily many reset subwindows are within ONE global drought, not many separate completed global record gaps.",
+  "next_unresolved": "No proof that recurring long global droughts force a bounded-clock window; no fixed-cardinality construction of unboundedly many distinct completed global droughts."
+}

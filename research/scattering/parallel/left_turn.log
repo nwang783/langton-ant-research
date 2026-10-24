@@ -1,0 +1,44 @@
+{
+  "status": "exact left-turn finite kernel and uniform finite transfer certified",
+  "reference": {
+    "a": 0,
+    "z": -6,
+    "n": 20,
+    "rotation": 2,
+    "sector": "same"
+  },
+  "first_contact": 1797,
+  "recovery": 5201,
+  "capture_time": [
+    104,
+    6998
+  ],
+  "capture_pose_constant": [
+    [
+      -19,
+      -41
+    ],
+    3
+  ],
+  "capture_pose_k_coefficient": [
+    -2,
+    -2
+  ],
+  "outgoing_drift": [
+    2,
+    -2
+  ],
+  "canonical_incoming_drift": [
+    -2,
+    -2
+  ],
+  "kernel_mass": 135,
+  "uniform_parameter_domain": {
+    "integer_gap_k_at_least": 0,
+    "integer_old_period_count_M_at_least": 11
+  },
+  "least_input_mass": 165,
+  "word_sha256": "49d050a5d48a125e090eb679c9df137b4734c9b31d808c9222c7ca68529e8438",
+  "finite_prefix_reads": 6998,
+  "infinite_phase_rays_checked": 104
+}

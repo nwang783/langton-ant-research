@@ -1,0 +1,271 @@
+{
+  "status": "AUTHOR_PARALLEL_WIDTH_TO_LENGTH_TRANSPORT",
+  "rows": [
+    {
+      "packet": 0,
+      "name": "D",
+      "odd_output_slots": [],
+      "odd_count": 0,
+      "U_permanent_odd_subtraction": 0,
+      "usable_odd_upper_bound": 0,
+      "V_base": 0,
+      "U_base": 0,
+      "half_normal_sweep": 0,
+      "C_tails": 0,
+      "tail_odd_increment": 0
+    },
+    {
+      "packet": 1,
+      "name": "DC",
+      "odd_output_slots": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "odd_count": 2,
+      "U_permanent_odd_subtraction": 0,
+      "usable_odd_upper_bound": 2,
+      "V_base": 0,
+      "U_base": 0,
+      "half_normal_sweep": 0,
+      "C_tails": 1,
+      "tail_odd_increment": 2
+    },
+    {
+      "packet": 4,
+      "name": "V",
+      "odd_output_slots": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "odd_count": 3,
+      "U_permanent_odd_subtraction": 0,
+      "usable_odd_upper_bound": 3,
+      "V_base": 1,
+      "U_base": 0,
+      "half_normal_sweep": 1,
+      "C_tails": 0,
+      "tail_odd_increment": 0
+    },
+    {
+      "packet": 5,
+      "name": "VC",
+      "odd_output_slots": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "odd_count": 5,
+      "U_permanent_odd_subtraction": 0,
+      "usable_odd_upper_bound": 5,
+      "V_base": 1,
+      "U_base": 0,
+      "half_normal_sweep": 1,
+      "C_tails": 1,
+      "tail_odd_increment": 2
+    },
+    {
+      "packet": 6,
+      "name": "VCC",
+      "odd_output_slots": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "odd_count": 6,
+      "U_permanent_odd_subtraction": 0,
+      "usable_odd_upper_bound": 6,
+      "V_base": 1,
+      "U_base": 0,
+      "half_normal_sweep": 1,
+      "C_tails": 2,
+      "tail_odd_increment": 3
+    },
+    {
+      "packet": 7,
+      "name": "U",
+      "odd_output_slots": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "odd_count": 5,
+      "U_permanent_odd_subtraction": 2,
+      "usable_odd_upper_bound": 3,
+      "V_base": 0,
+      "U_base": 1,
+      "half_normal_sweep": 2,
+      "C_tails": 0,
+      "tail_odd_increment": 0
+    },
+    {
+      "packet": 8,
+      "name": "UC",
+      "odd_output_slots": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "odd_count": 7,
+      "U_permanent_odd_subtraction": 2,
+      "usable_odd_upper_bound": 5,
+      "V_base": 0,
+      "U_base": 1,
+      "half_normal_sweep": 2,
+      "C_tails": 1,
+      "tail_odd_increment": 2
+    },
+    {
+      "packet": 9,
+      "name": "UCC",
+      "odd_output_slots": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "odd_count": 8,
+      "U_permanent_odd_subtraction": 2,
+      "usable_odd_upper_bound": 6,
+      "V_base": 0,
+      "U_base": 1,
+      "half_normal_sweep": 2,
+      "C_tails": 2,
+      "tail_odd_increment": 3
+    }
+  ],
+  "base_normal_changes": {
+    "D": 0,
+    "V": -2,
+    "U": -4
+  },
+  "parallel_source_cohorts": 147,
+  "transverse_packet_exceptions": 4851,
+  "post_entry_inequality": "N_j<=5292+3*sum_a w_a",
+  "bounded_width_inequality": "N_j<=5292+441*floor(W/2)",
+  "optional_U_star_refinement": "N_j<=5292+3*sum_a(v_a+u_a)",
+  "scope": "Actual causal width capacity, not a decreasing resource or arbitrary-profile clock."
+}

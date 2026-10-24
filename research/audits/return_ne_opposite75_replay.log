@@ -1,0 +1,272 @@
+{"segment": 0, "time": [0, 0, 2600], "pose": [[[0, 0, 24], [0, 0, -29]], 1]}
+{"segment": 1, "time": [0, 0, 50123], "pose": [[[0, 0, 37], [0, 0, -5]], 2]}
+{"segment": 2, "time": [104, 0, 60835], "pose": [[[2, 0, 243], [2, 0, 201]], 2]}
+{"segment": 3, "time": [104, 0, 111958], "pose": [[[2, 0, 209], [2, 0, 238]], 3]}
+{"segment": 4, "time": [208, 0, 121942], "pose": [[[0, 0, 17], [0, 0, 46]], 3]}
+{"segment": 5, "time": [208, 0, 175890], "pose": [[[0, 0, 57], [0, 0, -8]], 1]}
+{"segment": 6, "time": [312, 0, 185354], "pose": [[[2, 0, 239], [2, 0, 174]], 1]}
+{"segment": 7, "time": [312, 0, 187771], "pose": [[[2, 0, 211], [2, 0, 241]], 0]}
+{
+  "status": "exact all-k finite cap-kernel capture; every infinite future read remains in z>=-125",
+  "phase": 75,
+  "domain": "k=U+100,U>=0",
+  "initial_marker": [
+    [
+      2,
+      0,
+      248
+    ],
+    [
+      2,
+      0,
+      209
+    ]
+  ],
+  "first_contact": [
+    104,
+    0,
+    60912
+  ],
+  "capture_time": [
+    312,
+    0,
+    187771
+  ],
+  "capture_pose": [
+    [
+      [
+        2,
+        0,
+        211
+      ],
+      [
+        2,
+        0,
+        241
+      ]
+    ],
+    0
+  ],
+  "tail_phase": 0,
+  "tail": {
+    "drift": [
+      -2,
+      2
+    ],
+    "heading": 0,
+    "required_cells": 40,
+    "odd_cells": 32
+  },
+  "finite_prefix_u_bounds": [
+    -50,
+    142
+  ],
+  "whole_future_u_upper": 142,
+  "whole_future_z_lower": -105,
+  "tail_z_bounds": [
+    [
+      4,
+      0,
+      445
+    ],
+    [
+      4,
+      0,
+      455
+    ]
+  ],
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        0,
+        2600
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            24
+          ],
+          [
+            0,
+            0,
+            -29
+          ]
+        ],
+        1
+      ]
+    },
+    {
+      "segment": 1,
+      "time": [
+        0,
+        0,
+        50123
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            37
+          ],
+          [
+            0,
+            0,
+            -5
+          ]
+        ],
+        2
+      ]
+    },
+    {
+      "segment": 2,
+      "time": [
+        104,
+        0,
+        60835
+      ],
+      "pose": [
+        [
+          [
+            2,
+            0,
+            243
+          ],
+          [
+            2,
+            0,
+            201
+          ]
+        ],
+        2
+      ]
+    },
+    {
+      "segment": 3,
+      "time": [
+        104,
+        0,
+        111958
+      ],
+      "pose": [
+        [
+          [
+            2,
+            0,
+            209
+          ],
+          [
+            2,
+            0,
+            238
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 4,
+      "time": [
+        208,
+        0,
+        121942
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            17
+          ],
+          [
+            0,
+            0,
+            46
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 5,
+      "time": [
+        208,
+        0,
+        175890
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            57
+          ],
+          [
+            0,
+            0,
+            -8
+          ]
+        ],
+        1
+      ]
+    },
+    {
+      "segment": 6,
+      "time": [
+        312,
+        0,
+        185354
+      ],
+      "pose": [
+        [
+          [
+            2,
+            0,
+            239
+          ],
+          [
+            2,
+            0,
+            174
+          ]
+        ],
+        1
+      ]
+    },
+    {
+      "segment": 7,
+      "time": [
+        312,
+        0,
+        187771
+      ],
+      "pose": [
+        [
+          [
+            2,
+            0,
+            211
+          ],
+          [
+            2,
+            0,
+            241
+          ]
+        ],
+        0
+      ]
+    }
+  ],
+  "statistics": {
+    "finite_read_constraints": 18755,
+    "periodic_read_constraints": 204,
+    "affine_guards": 18016,
+    "excluded_isolated_equalities": 65464268
+  },
+  "template_sha256": "695e8bc2c5378e63c6ee0423810ed60a87abf4d6345d0f6a2c0b2795b78f0fd9",
+  "cap_certificate_sha256": "2d3dcf595ab74507f6d6edbec7a6827b24023d14fa94877c9db73670e7ceac59"
+}

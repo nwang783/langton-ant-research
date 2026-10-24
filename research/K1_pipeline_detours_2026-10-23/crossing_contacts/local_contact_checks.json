@@ -1,0 +1,203 @@
+{
+  "scope": "All-cap local overlap only, not a global crossing or payment theorem.",
+  "ordinal_rows": [
+    {
+      "first_in": 0,
+      "first_turn": "L",
+      "second_in": 0,
+      "second_turn": "R",
+      "first_out": 3,
+      "second_out": 1,
+      "shared": "incoming"
+    },
+    {
+      "first_in": 0,
+      "first_turn": "L",
+      "second_in": 2,
+      "second_turn": "R",
+      "first_out": 3,
+      "second_out": 3,
+      "shared": "outgoing"
+    },
+    {
+      "first_in": 0,
+      "first_turn": "R",
+      "second_in": 0,
+      "second_turn": "L",
+      "first_out": 1,
+      "second_out": 3,
+      "shared": "incoming"
+    },
+    {
+      "first_in": 0,
+      "first_turn": "R",
+      "second_in": 2,
+      "second_turn": "L",
+      "first_out": 1,
+      "second_out": 1,
+      "shared": "outgoing"
+    },
+    {
+      "first_in": 1,
+      "first_turn": "L",
+      "second_in": 1,
+      "second_turn": "R",
+      "first_out": 0,
+      "second_out": 2,
+      "shared": "incoming"
+    },
+    {
+      "first_in": 1,
+      "first_turn": "L",
+      "second_in": 3,
+      "second_turn": "R",
+      "first_out": 0,
+      "second_out": 0,
+      "shared": "outgoing"
+    },
+    {
+      "first_in": 1,
+      "first_turn": "R",
+      "second_in": 1,
+      "second_turn": "L",
+      "first_out": 2,
+      "second_out": 0,
+      "shared": "incoming"
+    },
+    {
+      "first_in": 1,
+      "first_turn": "R",
+      "second_in": 3,
+      "second_turn": "L",
+      "first_out": 2,
+      "second_out": 2,
+      "shared": "outgoing"
+    },
+    {
+      "first_in": 2,
+      "first_turn": "L",
+      "second_in": 2,
+      "second_turn": "R",
+      "first_out": 1,
+      "second_out": 3,
+      "shared": "incoming"
+    },
+    {
+      "first_in": 2,
+      "first_turn": "L",
+      "second_in": 0,
+      "second_turn": "R",
+      "first_out": 1,
+      "second_out": 1,
+      "shared": "outgoing"
+    },
+    {
+      "first_in": 2,
+      "first_turn": "R",
+      "second_in": 2,
+      "second_turn": "L",
+      "first_out": 3,
+      "second_out": 1,
+      "shared": "incoming"
+    },
+    {
+      "first_in": 2,
+      "first_turn": "R",
+      "second_in": 0,
+      "second_turn": "L",
+      "first_out": 3,
+      "second_out": 3,
+      "shared": "outgoing"
+    },
+    {
+      "first_in": 3,
+      "first_turn": "L",
+      "second_in": 3,
+      "second_turn": "R",
+      "first_out": 2,
+      "second_out": 0,
+      "shared": "incoming"
+    },
+    {
+      "first_in": 3,
+      "first_turn": "L",
+      "second_in": 1,
+      "second_turn": "R",
+      "first_out": 2,
+      "second_out": 2,
+      "shared": "outgoing"
+    },
+    {
+      "first_in": 3,
+      "first_turn": "R",
+      "second_in": 3,
+      "second_turn": "L",
+      "first_out": 0,
+      "second_out": 2,
+      "shared": "incoming"
+    },
+    {
+      "first_in": 3,
+      "first_turn": "R",
+      "second_in": 1,
+      "second_turn": "L",
+      "first_out": 0,
+      "second_out": 0,
+      "shared": "outgoing"
+    }
+  ],
+  "existing_certificate_checks": [
+    {
+      "previous": {
+        "stage": "router1",
+        "within": 1034,
+        "time": 94896,
+        "cell": [
+          383,
+          380
+        ],
+        "heading": 1,
+        "turn": "R"
+      },
+      "current": {
+        "stage": "B_incoming",
+        "within": 20752,
+        "time": 205680,
+        "cell": [
+          383,
+          380
+        ],
+        "heading": 3,
+        "turn": "R"
+      },
+      "actual_second_turn": "L",
+      "shared_outgoing_heading": 2
+    },
+    {
+      "previous": {
+        "stage": "A_incoming",
+        "within": 20295,
+        "time": 157767,
+        "cell": [
+          766,
+          806
+        ],
+        "heading": 0,
+        "turn": "R"
+      },
+      "current": {
+        "stage": "router2",
+        "within": 561,
+        "time": 266931,
+        "cell": [
+          766,
+          806
+        ],
+        "heading": 2,
+        "turn": "R"
+      },
+      "actual_second_turn": "L",
+      "shared_outgoing_heading": 1
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "status": "PASS exact pointwise signed temporal cover under critical global-M no-one-use hypotheses",
+  "proof": "5671be0280f61b97c2936a95b1e960fb59a8237f8731aefb380e746d010bd042",
+  "algebra_certificate": "cc272e2334ea2c7d2e99c060bbba8a017e7ece9020ae39c8820db13bc14abffe",
+  "script": "3534891d94360d507e3368fa2e7daf63ac7c0c5c26a023b3781883e8843a3a1c",
+  "all_rotated_selected_ports": [
+    {
+      "mode": "X",
+      "rotation": 0,
+      "history": "EEWW",
+      "in_flow": 2,
+      "out_flow": 2,
+      "selected_in_rank": 1,
+      "selected_out_rank": 3
+    },
+    {
+      "mode": "X",
+      "rotation": 1,
+      "history": "SSNN",
+      "in_flow": 2,
+      "out_flow": 2,
+      "selected_in_rank": 1,
+      "selected_out_rank": 3
+    },
+    {
+      "mode": "X",
+      "rotation": 2,
+      "history": "WWEE",
+      "in_flow": 2,
+      "out_flow": 2,
+      "selected_in_rank": 1,
+      "selected_out_rank": 3
+    },
+    {
+      "mode": "X",
+      "rotation": 3,
+      "history": "NNSS",
+      "in_flow": 2,
+      "out_flow": 2,
+      "selected_in_rank": 1,
+      "selected_out_rank": 3
+    },
+    {
+      "mode": "Y",
+      "rotation": 0,
+      "history": "EWWE",
+      "in_flow": 2,
+      "out_flow": 2,
+      "selected_in_rank": 3,
+      "selected_out_rank": 1
+    },
+    {
+      "mode": "Y",
+      "rotation": 1,
+      "history": "SNNS",
+      "in_flow": 2,
+      "out_flow": 2,
+      "selected_in_rank": 3,
+      "selected_out_rank": 1
+    },
+    {
+      "mode": "Y",
+      "rotation": 2,
+      "history": "WEEW",
+      "in_flow": 2,
+      "out_flow": 2,
+      "selected_in_rank": 3,
+      "selected_out_rank": 1
+    },
+    {
+      "mode": "Y",
+      "rotation": 3,
+      "history": "NSSN",
+      "in_flow": 2,
+      "out_flow": 2,
+      "selected_in_rank": 3,
+      "selected_out_rank": 1
+    },
+    {
+      "mode": "source3",
+      "rotation": 0,
+      "history": "EWE",
+      "in_flow": 2,
+      "out_flow": 3,
+      "selected_in_rank": 2,
+      "selected_out_rank": 2
+    },
+    {
+      "mode": "source3",
+      "rotation": 1,
+      "history": "SNS",
+      "in_flow": 2,
+      "out_flow": 3,
+      "selected_in_rank": 2,
+      "selected_out_rank": 2
+    },
+    {
+      "mode": "source3",
+      "rotation": 2,
+      "history": "WEW",
+      "in_flow": 2,
+      "out_flow": 3,
+      "selected_in_rank": 2,
+      "selected_out_rank": 2
+    },
+    {
+      "mode": "source3",
+      "rotation": 3,
+      "history": "NSN",
+      "in_flow": 2,
+      "out_flow": 3,
+      "selected_in_rank": 2,
+      "selected_out_rank": 2
+    },
+    {
+      "mode": "sink3",
+      "rotation": 0,
+      "history": "EEE",
+      "in_flow": 3,
+      "out_flow": 2,
+      "selected_in_rank": 2,
+      "selected_out_rank": 2
+    },
+    {
+      "mode": "sink3",
+      "rotation": 1,
+      "history": "SSS",
+      "in_flow": 3,
+      "out_flow": 2,
+      "selected_in_rank": 2,
+      "selected_out_rank": 2
+    },
+    {
+      "mode": "sink3",
+      "rotation": 2,
+      "history": "WWW",
+      "in_flow": 3,
+      "out_flow": 2,
+      "selected_in_rank": 2,
+      "selected_out_rank": 2
+    },
+    {
+      "mode": "sink3",
+      "rotation": 3,
+      "history": "NNN",
+      "in_flow": 3,
+      "out_flow": 2,
+      "selected_in_rank": 2,
+      "selected_out_rank": 2
+    },
+    {
+      "mode": "source4",
+      "rotation": 0,
+      "history": "EWEW",
+      "in_flow": 2,
+      "out_flow": 4,
+      "selected_in_rank": 2,
+      "selected_out_rank": 2
+    },
+    {
+      "mode": "source4",
+      "rotation": 1,
+      "history": "SNSN",
+      "in_flow": 2,
+      "out_flow": 4,
+      "selected_in_rank": 2,
+      "selected_out_rank": 2
+    },
+    {
+      "mode": "source4",
+      "rotation": 2,
+      "history": "WEWE",
+      "in_flow": 2,
+      "out_flow": 4,
+      "selected_in_rank": 2,
+      "selected_out_rank": 2
+    },
+    {
+      "mode": "source4",
+      "rotation": 3,
+      "history": "NSNS",
+      "in_flow": 2,
+      "out_flow": 4,
+      "selected_in_rank": 2,
+      "selected_out_rank": 2
+    },
+    {
+      "mode": "sink4",
+      "rotation": 0,
+      "history": "EEEE",
+      "in_flow": 4,
+      "out_flow": 2,
+      "selected_in_rank": 2,
+      "selected_out_rank": 2
+    },
+    {
+      "mode": "sink4",
+      "rotation": 1,
+      "history": "SSSS",
+      "in_flow": 4,
+      "out_flow": 2,
+      "selected_in_rank": 2,
+      "selected_out_rank": 2
+    },
+    {
+      "mode": "sink4",
+      "rotation": 2,
+      "history": "WWWW",
+      "in_flow": 4,
+      "out_flow": 2,
+      "selected_in_rank": 2,
+      "selected_out_rank": 2
+    },
+    {
+      "mode": "sink4",
+      "rotation": 3,
+      "history": "NNNN",
+      "in_flow": 4,
+      "out_flow": 2,
+      "selected_in_rank": 2,
+      "selected_out_rank": 2
+    },
+    {
+      "mode": "O",
+      "rotation": 0,
+      "history": "WEE",
+      "in_flow": 2,
+      "out_flow": 2,
+      "selected_in_rank": 2,
+      "selected_out_rank": 1
+    },
+    {
+      "mode": "O",
+      "rotation": 1,
+      "history": "NSS",
+      "in_flow": 2,
+      "out_flow": 2,
+      "selected_in_rank": 2,
+      "selected_out_rank": 1
+    },
+    {
+      "mode": "O",
+      "rotation": 2,
+      "history": "EWW",
+      "in_flow": 2,
+      "out_flow": 2,
+      "selected_in_rank": 2,
+      "selected_out_rank": 1
+    },
+    {
+      "mode": "O",
+      "rotation": 3,
+      "history": "SNN",
+      "in_flow": 2,
+      "out_flow": 2,
+      "selected_in_rank": 2,
+      "selected_out_rank": 1
+    },
+    {
+      "mode": "U",
+      "rotation": 0,
+      "history": "WEEW",
+      "in_flow": 2,
+      "out_flow": 2,
+      "selected_in_rank": 2,
+      "selected_out_rank": 1
+    },
+    {
+      "mode": "U",
+      "rotation": 1,
+      "history": "NSSN",
+      "in_flow": 2,
+      "out_flow": 2,
+      "selected_in_rank": 2,
+      "selected_out_rank": 1
+    },
+    {
+      "mode": "U",
+      "rotation": 2,
+      "history": "EWWE",
+      "in_flow": 2,
+      "out_flow": 2,
+      "selected_in_rank": 2,
+      "selected_out_rank": 1
+    },
+    {
+      "mode": "U",
+      "rotation": 3,
+      "history": "SNNS",
+      "in_flow": 2,
+      "out_flow": 2,
+      "selected_in_rank": 2,
+      "selected_out_rank": 1
+    },
+    {
+      "mode": "V",
+      "rotation": 0,
+      "history": "WWEE",
+      "in_flow": 2,
+      "out_flow": 2,
+      "selected_in_rank": 3,
+      "selected_out_rank": 3
+    },
+    {
+      "mode": "V",
+      "rotation": 1,
+      "history": "NNSS",
+      "in_flow": 2,
+      "out_flow": 2,
+      "selected_in_rank": 3,
+      "selected_out_rank": 3
+    },
+    {
+      "mode": "V",
+      "rotation": 2,
+      "history": "EEWW",
+      "in_flow": 2,
+      "out_flow": 2,
+      "selected_in_rank": 3,
+      "selected_out_rank": 3
+    },
+    {
+      "mode": "V",
+      "rotation": 3,
+      "history": "SSNN",
+      "in_flow": 2,
+      "out_flow": 2,
+      "selected_in_rank": 3,
+      "selected_out_rank": 3
+    },
+    {
+      "mode": "left3",
+      "rotation": 0,
+      "history": "WEEE",
+      "in_flow": 3,
+      "out_flow": 3,
+      "selected_in_rank": 3,
+      "selected_out_rank": 3
+    },
+    {
+      "mode": "left3",
+      "rotation": 1,
+      "history": "NSSS",
+      "in_flow": 3,
+      "out_flow": 3,
+      "selected_in_rank": 3,
+      "selected_out_rank": 3
+    },
+    {
+      "mode": "left3",
+      "rotation": 2,
+      "history": "EWWW",
+      "in_flow": 3,
+      "out_flow": 3,
+      "selected_in_rank": 3,
+      "selected_out_rank": 3
+    },
+    {
+      "mode": "left3",
+      "rotation": 3,
+      "history": "SNNN",
+      "in_flow": 3,
+      "out_flow": 3,
+      "selected_in_rank": 3,
+      "selected_out_rank": 3
+    }
+  ],
+  "algebra_controls": 225,
+  "regular_cut_checks": 4153,
+  "analytic_review": [
+    "The signed exhaustive global-M no-one-use macro cover leaves exactly the ten rotated boundary roles reconstructed here. Every gamma edge selects ordinal2 ifflow2 and ordinal3 ifflow3/4. At all through roles the same actual rank is selected; only X1->3,Y3->1,O/U2->1 are temporal jumps. No other full rank or third/fourth copy is erased.",
+    "Each selected outgoing event is at a different embedded gamma vertex class, hence has a distinct phase in the ONE actual P-event orbit. Its physical edge occurrence is notfirst, so strictly LEFT in the signed first-track split. Thus B is an indicator and B*R=0. These geometric/chronological premises are analytic; the225 cochains are only arithmetic controls, some deliberately lack distinct phases.",
+    "For a regular cut t, oriented all-translate multiplicity of[a,b] is floor((t-a)/P)-floor((t-b)/P). Summing around the lifted selected polygon telescopes fromT toT-P and equals-1 exactly. This proves B+nX-nY-I2=-1 pointwise, retaining every translated physical age even aboveP, rather than inferring it from its average.",
+    "Critical first-track chronology partitions every actual unit edge into RIGHT or one disjoint physical flow2/flow3 L1->R2 excursion. Thus R+I2+I3=1 and nY-nX=B+R+I3. The exact signed DIFFERENCE is0..2; neither nX nor nY separately is bounded.",
+    "An interval after leaving the selected lane and before its next actual entry contains no selected unit edge. Every flatL1/L3 is a selected incoming or outgoing endpoint, so no such endpoint lies strictly inside this interval; the signed potential is constant. It may contain other complete flow3 excursions and RIGHT factors, and no fixed exterior root owner or embeddedness is inferred.",
+    "Integrating gives sumYage-sumXage=P+ell-sumflow2Delta. The unique RIGHT circuit clock substitutesP=L_RIGHT+sumflow2Delta+sumflow3Delta, yielding ell+L_RIGHT+sumflow3Delta. Flow2 waits cancel exactly and must not be charged again. Yexists, but no initial fuel, individual lifespan, number of old copies, K>=2 exclusion or completed exterior is proved."
+  ]
+}

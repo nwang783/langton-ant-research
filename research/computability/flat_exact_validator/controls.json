@@ -1,0 +1,353 @@
+{
+  "records": [
+    {
+      "status": "decided",
+      "possible": true,
+      "nested_root": true,
+      "growing_root": false,
+      "accepted_growing_model": false,
+      "finite_black_requirement": true,
+      "conflict_cells": {},
+      "seed": [],
+      "schemes": 1,
+      "rational_parity": {
+        "0": {
+          "numerator": "1",
+          "denominator": "z + 1",
+          "states": 2
+        }
+      },
+      "requirement_state_counts": {
+        "(-1, -1)": [
+          1,
+          2
+        ],
+        "(-1, 1)": [
+          1,
+          2
+        ],
+        "(1, -1)": [
+          1,
+          2
+        ],
+        "(1, 1)": [
+          1,
+          2
+        ]
+      },
+      "seconds": 0.038879722997080535,
+      "name": "identity_R",
+      "literal_requirement_memberships": 6,
+      "literal_parity_checks": 54
+    },
+    {
+      "status": "decided",
+      "possible": true,
+      "nested_root": true,
+      "growing_root": false,
+      "accepted_growing_model": false,
+      "finite_black_requirement": true,
+      "conflict_cells": {},
+      "seed": [
+        [
+          0,
+          0
+        ]
+      ],
+      "schemes": 1,
+      "rational_parity": {
+        "1": {
+          "numerator": "1",
+          "denominator": "z + 1",
+          "states": 2
+        }
+      },
+      "requirement_state_counts": {
+        "(-1, -1)": [
+          2,
+          1
+        ],
+        "(-1, 1)": [
+          2,
+          1
+        ],
+        "(1, -1)": [
+          2,
+          1
+        ],
+        "(1, 1)": [
+          2,
+          1
+        ]
+      },
+      "seconds": 0.002617656995425932,
+      "name": "identity_L",
+      "literal_requirement_memberships": 6,
+      "literal_parity_checks": 54
+    },
+    {
+      "status": "decided",
+      "possible": false,
+      "nested_root": true,
+      "growing_root": true,
+      "accepted_growing_model": false,
+      "finite_black_requirement": true,
+      "conflict_cells": {
+        "(-1, -1)": {
+          "x": 0,
+          "y": 0
+        },
+        "(-1, 1)": {
+          "x": 0,
+          "y": 0
+        },
+        "(1, -1)": {
+          "x": 0,
+          "y": 0
+        },
+        "(1, 1)": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "seed": null,
+      "schemes": 5,
+      "rational_parity": {
+        "0": {
+          "numerator": "1",
+          "denominator": "y*z + 1",
+          "states": 2
+        },
+        "2": {
+          "numerator": "1",
+          "denominator": "y*z + 1",
+          "states": 2
+        },
+        "4": {
+          "numerator": "1",
+          "denominator": "y*z + 1",
+          "states": 2
+        },
+        "6": {
+          "numerator": "1",
+          "denominator": "y*z + 1",
+          "states": 2
+        },
+        "8": {
+          "numerator": "x*y*z + x*z + z + 1",
+          "denominator": "y**2*z**2 + 1",
+          "states": 3
+        }
+      },
+      "requirement_state_counts": {
+        "(-1, -1)": [
+          3,
+          3
+        ],
+        "(-1, 1)": [
+          2,
+          2
+        ],
+        "(1, -1)": [
+          3,
+          3
+        ],
+        "(1, 1)": [
+          3,
+          3
+        ]
+      },
+      "seconds": 0.037019480994786136,
+      "name": "right_five_flat",
+      "literal_requirement_memberships": 66,
+      "literal_parity_checks": 291
+    },
+    {
+      "status": "decided",
+      "possible": false,
+      "nested_root": false,
+      "growing_root": false,
+      "accepted_growing_model": false,
+      "finite_black_requirement": false,
+      "conflict_cells": {
+        "(-1, -1)": {
+          "x": 0,
+          "y": 0
+        },
+        "(-1, 1)": {
+          "x": 0,
+          "y": 0
+        },
+        "(1, -1)": {
+          "x": 0,
+          "y": 0
+        },
+        "(1, 1)": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "seed": null,
+      "schemes": 21,
+      "rational_parity": {
+        "0": {
+          "numerator": "1",
+          "denominator": "x**2*z + 1",
+          "states": 3
+        },
+        "1": {
+          "numerator": "1",
+          "denominator": "x**2*z + 1",
+          "states": 3
+        },
+        "2": {
+          "numerator": "1",
+          "denominator": "x**2*z + 1",
+          "states": 3
+        },
+        "3": {
+          "numerator": "1",
+          "denominator": "x**2*z + 1",
+          "states": 3
+        },
+        "4": {
+          "numerator": "1",
+          "denominator": "x**2*z + 1",
+          "states": 3
+        },
+        "5": {
+          "numerator": "1",
+          "denominator": "x**2*z + 1",
+          "states": 3
+        },
+        "6": {
+          "numerator": "1",
+          "denominator": "x**2*z + 1",
+          "states": 3
+        },
+        "7": {
+          "numerator": "1",
+          "denominator": "x**2*z + 1",
+          "states": 3
+        },
+        "8": {
+          "numerator": "x**3*y**2*z + x**3*y*z + x**2*y**3*z + x**2*y**2*z + x*y**2*z + x*y*z + x*z + y**2*z + z + 1",
+          "denominator": "x**3*y**3*z**2 + x**2*z + x*y**3*z + 1",
+          "states": 71
+        }
+      },
+      "requirement_state_counts": {
+        "(-1, -1)": [
+          4,
+          3
+        ],
+        "(-1, 1)": [
+          17,
+          18
+        ],
+        "(1, -1)": [
+          2,
+          2
+        ],
+        "(1, 1)": [
+          4,
+          7
+        ]
+      },
+      "seconds": 0.36238002599566244,
+      "name": "oblique_hairpin",
+      "literal_requirement_memberships": 306,
+      "literal_parity_checks": 951
+    },
+    {
+      "status": "decided",
+      "possible": false,
+      "nested_root": false,
+      "growing_root": false,
+      "accepted_growing_model": false,
+      "finite_black_requirement": false,
+      "conflict_cells": {
+        "(1, -1)": {
+          "x": 3,
+          "y": 0
+        },
+        "(1, 1)": {
+          "x": 3,
+          "y": 0
+        }
+      },
+      "seed": null,
+      "schemes": 17,
+      "rational_parity": {
+        "0": {
+          "numerator": "1",
+          "denominator": "y**2*z + 1",
+          "states": 3
+        },
+        "1": {
+          "numerator": "1",
+          "denominator": "y**2*z + 1",
+          "states": 3
+        },
+        "2": {
+          "numerator": "1",
+          "denominator": "y**2*z + 1",
+          "states": 3
+        },
+        "3": {
+          "numerator": "1",
+          "denominator": "y**2*z + 1",
+          "states": 3
+        },
+        "4": {
+          "numerator": "1",
+          "denominator": "y**2*z + 1",
+          "states": 3
+        },
+        "5": {
+          "numerator": "1",
+          "denominator": "y**2*z + 1",
+          "states": 3
+        },
+        "6": {
+          "numerator": "1",
+          "denominator": "y**2*z + 1",
+          "states": 3
+        },
+        "7": {
+          "numerator": "1",
+          "denominator": "y**2*z + 1",
+          "states": 3
+        },
+        "8": {
+          "numerator": "x**3*y**3*z + x**3*y**2*z + x**2*y**4*z + x**2*y**3*z + x**2*z + x*y**4*z + x*y**3*z + x*y**2*z + x*z + y**3*z + y**2*z + 1",
+          "denominator": "x**2*y**4*z**2 + x**2*y**2*z + y**2*z + 1",
+          "states": 35
+        }
+      },
+      "requirement_state_counts": {
+        "(-1, -1)": [
+          1,
+          2
+        ],
+        "(-1, 1)": [
+          3,
+          2
+        ],
+        "(1, -1)": [
+          4,
+          6
+        ],
+        "(1, 1)": [
+          6,
+          4
+        ]
+      },
+      "seconds": 0.24760446899745148,
+      "name": "axial_hairpin",
+      "literal_requirement_memberships": 246,
+      "literal_parity_checks": 791
+    }
+  ],
+  "scope": "Integrated exact all-depth realization decision for flat decorated additive-I typed refinement families, arbitrary finite seed mass/radius. Root-growing legality is a special case. No accepted growing model or global highway theorem."
+}

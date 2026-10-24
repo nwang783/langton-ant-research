@@ -1,0 +1,53 @@
+{
+  "status": "PASS fixed-axis bounded-record-gap compactness bridge and all-n nonclosedness control only",
+  "manifest": "f9336d6755b0de327381255365b0275d92222b6bb379159309e013c0c34bd968",
+  "script": "c55a62d1d65a9553816eec7d3764d646d03ad9771672632fe983c6c44746026d",
+  "limit_relevant_count": 296,
+  "limit_relevant_radius": 48,
+  "infinite_limit_critical_ray_tests": 104,
+  "all_n_full_difference_upper_y": "-2n-30",
+  "old_field_and_synthetic_max_y": 232,
+  "controls": [
+    {
+      "n": 100,
+      "reads": 113801,
+      "last": 40071,
+      "next": 113801,
+      "gap": 73730,
+      "rho": 300.0,
+      "next_relevance": 13,
+      "next_rho": 5
+    },
+    {
+      "n": 137,
+      "reads": 125345,
+      "last": 43919,
+      "next": 125345,
+      "gap": 81426,
+      "rho": 374.0,
+      "next_relevance": 13,
+      "next_rho": 5
+    },
+    {
+      "n": 500,
+      "reads": 238601,
+      "last": 81671,
+      "next": 238601,
+      "gap": 156930,
+      "rho": 1100.0,
+      "next_relevance": 13,
+      "next_rho": 5
+    }
+  ],
+  "full_reads": 477747,
+  "analytic_review": [
+    "For infinitely many records in one fixed signed axis, unit steps give consecutive record levels. If every sufficiently late gap is<=H, choose tau_k<=b<tau_(k+1),tau_j<=d<tau_(j+1) for the same-cell R birth/L death. At death the head has retreated at most H-1 from j; birth coordinate<=k, so j<=k+H-1 and d<b+H^2. This uses actual integer cuts and no nesting/resource hypothesis.",
+    "Choose the threshold record beyond the finite original black hull. Every current old bit then has axis coordinate<k0. At every cut after tau_(k0+H), the head coordinate is>=k0+1, so no old-at-threshold bit is ever read again. Entire C* thereafter consists of late-born bounded-age lifetimes and rho<H^2. The onset bound tau_k0+H^2 is valid. Finite normalized relevant-state recurrence forces a translator; infinite positive-axis records force positive drift, not zero or opposite drift. The state count bounds recurrence after this onset, not a uniform initial waiting time or an effective C* computation.",
+    "The converse can be seen directly: in a late actual translator, p_(tau_k+P)=p_(tau_k)+d with positive axis projection, hence tau_(k+1)<=tau_k+P. Directions with only finitely many records are excluded. Nontranslation therefore forces unbounded consecutive record gaps in each infinite-record direction; no canonical104 uniqueness follows.",
+    "Normalized genuine pristine record states have head0 and incoming heading equal to the signed axis, with the whole forward closed half-plane WHITE. Finite-time crossing domains are clopen in the compact old-side product space. A compact accumulation set entirely in the open next-record domain has one finite uniform crossing horizon, and eventually all sequence points share it. Conversely unbounded gaps supply a never-crossing accumulation point. Its support may be infinite and its future may capture inward or tangentially; it is not an attraction counterexample.",
+    "An outward translating limit reads only finitely many old-side sites: each tail ray has positive axis speed and contributes the stated finite ceiling count. Agreement on those initial colors and the pristine forward half-plane forces the whole future, and deleting all other initiallyBLACK sites produces a finite realizing board. Thus the outward-translator basin is open relative to record states. Infinite old-side exposure conversely prevents any finite initial spatial cylinder from forcing that exact whole word, since one uninspected first-read bit can be flipped.",
+    "The complete all-n MT control is rebuilt from its signed full source. At T+8470 the north record is genuine and all originals already died by T+6000. True relevant set is296 local+786 fixed remote, rho2n+100. Pure local lifetimes die before the earliest remote collision; other local bits lie east of the whole postreturn quadrant, while all786 old inputs remain unread until feedback. Next record is exactly phase43/periodn+22 of the fixed NW tail, giving gap52930+208n, then trueC13/radius5 and canonical phase14.",
+    "The full infinite local-limit field is reconstructed as104 backward rays XOR the exact finite mask. Crucially, both actual complete preflight field and phase41 synthetic past have max absolutey232. Cancelling the common arbitrary free flight and T prefix yields the ENTIRE difference support normalizedy<=-2n-30. Independently checked all finite future reads and every infinite tail-ray critical parity against the finite296 pruning; the infinite limit truly has the same nonreturning SW future, not merely the same bounded initial box.",
+    "Three full histories477747 reads retain complete boards, all lifetime owners, first-next-record chronology and exact infinite futures. Across-family diverging waits and the nonclosed next-record domain do not yield a single nontranslating finite orbit, a universal record-gap bound, or canonical translating-front uniqueness."
+  ]
+}

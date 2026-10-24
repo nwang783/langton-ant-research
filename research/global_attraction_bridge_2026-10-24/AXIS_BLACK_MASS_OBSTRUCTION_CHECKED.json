@@ -1,0 +1,262 @@
+{
+  "status": "AUTHOR CHECKED; independent audit required",
+  "controls": [
+    {
+      "initial_board": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "initial_pose": [
+        [
+          0,
+          0
+        ],
+        1
+      ],
+      "word": "RRRL",
+      "reads": [
+        {
+          "t": 0,
+          "p": [
+            0,
+            0
+          ],
+          "h": 1,
+          "read": "R",
+          "board": [
+            [
+              -1,
+              0
+            ]
+          ]
+        },
+        {
+          "t": 1,
+          "p": [
+            0,
+            -1
+          ],
+          "h": 2,
+          "read": "R",
+          "board": [
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "t": 2,
+          "p": [
+            -1,
+            -1
+          ],
+          "h": 3,
+          "read": "R",
+          "board": [
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "t": 3,
+          "p": [
+            -1,
+            0
+          ],
+          "h": 0,
+          "read": "L",
+          "board": [
+            [
+              -1,
+              -1
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      ],
+      "final_board": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "final_pose": [
+        [
+          -2,
+          0
+        ],
+        3
+      ],
+      "first_old_contact_time": 3,
+      "initial_and_final_exact_standard": false
+    },
+    {
+      "initial_board": [
+        [
+          1,
+          0
+        ]
+      ],
+      "initial_pose": [
+        [
+          0,
+          0
+        ],
+        3
+      ],
+      "word": "RRRL",
+      "reads": [
+        {
+          "t": 0,
+          "p": [
+            0,
+            0
+          ],
+          "h": 3,
+          "read": "R",
+          "board": [
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "t": 1,
+          "p": [
+            0,
+            1
+          ],
+          "h": 0,
+          "read": "R",
+          "board": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "t": 2,
+          "p": [
+            1,
+            1
+          ],
+          "h": 1,
+          "read": "R",
+          "board": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "t": 3,
+          "p": [
+            1,
+            0
+          ],
+          "h": 2,
+          "read": "L",
+          "board": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "final_board": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "final_pose": [
+        [
+          2,
+          0
+        ],
+        1
+      ],
+      "first_old_contact_time": 3,
+      "initial_and_final_exact_standard": false
+    }
+  ],
+  "potential": "sum_{(x,y) in B} f(y) + C_h(p_y), with f(-1)+f(1)>0",
+  "changes": [
+    "2 f(-1) + C_W(0) - C_E(0)",
+    "2 f(1) + C_E(0) - C_W(0)"
+  ],
+  "contradiction": "The sum of two required nonpositive changes is 2(f(-1)+f(1)) > 0.",
+  "scope": "Fixed absolute axis layers and tangentially translation-invariant heading correction only; no diagonal, recentered, guard-defect, or record-to-record claim."
+}

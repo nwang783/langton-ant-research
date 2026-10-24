@@ -1,0 +1,931 @@
+{
+  "status": "PASS unconditional all-cap full drift(3,1) read-minimum interface:25 necessary open histories",
+  "bindings_sha256": "0e2c711fd5737f138018a4dd6ca353da4a4377e875b58ed3f4b7166497231a6b",
+  "dependencies": {
+    "DRIFT31_UNCONDITIONAL_READ_MINIMUM_INTERFACE.md": "92b5092a879681fc6ff673ea7d3cb8614075562419e4d7b2c38019993004b432",
+    "certify_drift31_read_minimum.py": "602f36bb1a8731df051e2318744e22dfa5ad146935225e87e0d9322288a81d70",
+    "drift31_read_minimum_certificate.json": "2b0e8cd1343c0e483659f823bcc41b4799f5cfe2316eadb3bb98befe0b043088",
+    "partial_drift31_graph.py": "bbb25dd3ff7b1185ea50fb7b46e63cc885d3b938895c4af479a0dcc9b6582eac",
+    "check_extremal_read_coupling.py": "2310020506000d946b122887b15d47b3d45f99f6ffe3f2f74f529f4e4ab338f0",
+    "../periodic_classification_new/general_drift_frontier_geometry.md": "5bd19f80024f61586d99898e6b3c13d858ab0100e927ca7c61820e0de3073b06",
+    "../sources/kehao95-core/wake_synthesis/verification/general_wake_parity/PROOF.md": "c4071d919bba2641e03037a9828269b9512c729c26947f2d059df24634b0998d"
+  },
+  "lower_counts": {
+    "open": 14,
+    "positive_rank_clock_cycle": 3
+  },
+  "V4_counts": {
+    "open": 25,
+    "positive_rank_clock_cycle": 5
+  },
+  "derived_H3_max": 6,
+  "derived_V4_max": 13,
+  "physical_four_step_returns": 14,
+  "positive_cycles": 8,
+  "open_interfaces": [
+    {
+      "lower_index": 1,
+      "V4_index": 0,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          0
+        ]
+      ],
+      "first_N_rank": 2
+    },
+    {
+      "lower_index": 2,
+      "V4_index": 0,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          0
+        ]
+      ],
+      "first_N_rank": 2
+    },
+    {
+      "lower_index": 4,
+      "V4_index": 0,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ],
+        [
+          1,
+          1,
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          0,
+          2
+        ]
+      ],
+      "first_N_rank": 2
+    },
+    {
+      "lower_index": 4,
+      "V4_index": 1,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ],
+        [
+          1,
+          1,
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          0,
+          2,
+          2
+        ]
+      ],
+      "first_N_rank": 2
+    },
+    {
+      "lower_index": 5,
+      "V4_index": 0,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          2,
+          2,
+          0
+        ]
+      ],
+      "first_N_rank": 4
+    },
+    {
+      "lower_index": 6,
+      "V4_index": 0,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          0,
+          0
+        ]
+      ],
+      "first_N_rank": 2
+    },
+    {
+      "lower_index": 6,
+      "V4_index": 1,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          0,
+          0,
+          2
+        ]
+      ],
+      "first_N_rank": 2
+    },
+    {
+      "lower_index": 8,
+      "V4_index": 0,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          0,
+          0,
+          2,
+          2
+        ]
+      ],
+      "first_N_rank": 2
+    },
+    {
+      "lower_index": 8,
+      "V4_index": 1,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          0,
+          2,
+          2,
+          0
+        ]
+      ],
+      "first_N_rank": 2
+    },
+    {
+      "lower_index": 8,
+      "V4_index": 2,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          0,
+          0,
+          2,
+          2,
+          2
+        ]
+      ],
+      "first_N_rank": 2
+    },
+    {
+      "lower_index": 8,
+      "V4_index": 3,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          0,
+          2,
+          2,
+          0,
+          2
+        ]
+      ],
+      "first_N_rank": 2
+    },
+    {
+      "lower_index": 9,
+      "V4_index": 0,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          2,
+          2,
+          0,
+          0
+        ]
+      ],
+      "first_N_rank": 4
+    },
+    {
+      "lower_index": 9,
+      "V4_index": 1,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          2,
+          2,
+          0,
+          0,
+          2
+        ]
+      ],
+      "first_N_rank": 4
+    },
+    {
+      "lower_index": 11,
+      "V4_index": 0,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          3,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          0,
+          0,
+          2,
+          2
+        ]
+      ],
+      "first_N_rank": 2
+    },
+    {
+      "lower_index": 11,
+      "V4_index": 1,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          3,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          0,
+          2,
+          2,
+          0
+        ]
+      ],
+      "first_N_rank": 2
+    },
+    {
+      "lower_index": 11,
+      "V4_index": 2,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          3,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          0,
+          0,
+          2,
+          2,
+          2
+        ]
+      ],
+      "first_N_rank": 2
+    },
+    {
+      "lower_index": 11,
+      "V4_index": 3,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          3,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          0,
+          2,
+          2,
+          0,
+          2
+        ]
+      ],
+      "first_N_rank": 2
+    },
+    {
+      "lower_index": 12,
+      "V4_index": 0,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          3,
+          1,
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          2,
+          2,
+          0,
+          0
+        ]
+      ],
+      "first_N_rank": 4
+    },
+    {
+      "lower_index": 12,
+      "V4_index": 1,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          3,
+          1,
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          2,
+          2,
+          0,
+          0,
+          2
+        ]
+      ],
+      "first_N_rank": 4
+    },
+    {
+      "lower_index": 14,
+      "V4_index": 1,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          3,
+          1,
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          0,
+          0,
+          2,
+          2,
+          2,
+          2
+        ]
+      ],
+      "first_N_rank": 2
+    },
+    {
+      "lower_index": 14,
+      "V4_index": 2,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          3,
+          1,
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          0,
+          2,
+          2,
+          0,
+          2,
+          2
+        ]
+      ],
+      "first_N_rank": 2
+    },
+    {
+      "lower_index": 14,
+      "V4_index": 4,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          3,
+          1,
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      ],
+      "first_N_rank": 2
+    },
+    {
+      "lower_index": 14,
+      "V4_index": 5,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          1,
+          1,
+          3,
+          1,
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          0,
+          2,
+          2,
+          0,
+          2,
+          2,
+          2
+        ]
+      ],
+      "first_N_rank": 2
+    },
+    {
+      "lower_index": 15,
+      "V4_index": 0,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          3,
+          1,
+          1,
+          1,
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          2,
+          2,
+          0,
+          0,
+          2,
+          2
+        ]
+      ],
+      "first_N_rank": 4
+    },
+    {
+      "lower_index": 15,
+      "V4_index": 2,
+      "complete_histories": [
+        [],
+        [],
+        [],
+        [
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          3,
+          1,
+          1,
+          1,
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          2,
+          2,
+          0,
+          0,
+          2,
+          2,
+          2
+        ]
+      ],
+      "first_N_rank": 4
+    }
+  ],
+  "analytic_review": [
+    "The full d=(3,1) quotient is exactly T=3y-x, representative(-T,0), voltagey. N/E/S/W steps changeT by3/-1/-3/1. Complete finite read-footprint minimum exists; incoming-axis invariance leaves only S singleton at minimum. Negative levels are UNREAD, not assigned field colors.",
+    "H1 all exitsN and oneW input forceW orWE; V2 allS with E departure counts forceempty/S orSS/SSS. H3 exact mandatory ports derive length<=6, not an imposed global cap. All17 lower complete words regenerated,3 explicit positive clock-cycle sums verified from actual rank edges for every admissible P.",
+    "Each of14 survivors has exactly one physical four-step E-departure to FIRST N-arrival return throughH3,V0-d,H1-d with no intermediate physical visit toV4. Thus consecutive local read ranks are necessary. All next-cell complete histories up to derived2(I+J)+1<=13 regenerated, including three empty domains:30 choices,5 explicit positive cycles,25open. Omitted higher levels remain UNKNOWN; no all-cap bound is inferred.",
+    "All supplied positive cycles verified by independent full-voltage ordinal graph/inequality edges;8 witnesses have nonnegative P coefficient and positive value at local event-count lower bound. Every surviving firstN is R2 orR4. Open does not assert phase-distinct globally completable clocks for all25.",
+    "The one explicit7-event P202 model satisfies every internal actual ordinal edge, local gap4, modulo4 coordinate parity and distinct phases. Its195missing phases are not a completion. Literal blank10read fullboard factor independently replayed, without claiming its local LAST histories persist.",
+    "Only full drift(3,1) up to proper rotation/translation is covered, not reflected chirality3,-1, arbitrary growth8 exclusion, controller existence, or capture. Corrected single-use charge is separate conditional theory and is not used as an unconditional premise here."
+  ]
+}

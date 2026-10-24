@@ -1,0 +1,25 @@
+{
+  "status": "FROZEN author explicit record-clock bound; independent audit pending",
+  "files": {
+    "EXPLICIT_FINITE_RECORD_CLOCK_BOUND.md": "e35f87eca83e3da24e512e3b45174c5441acfa27b1515ac595a5488fc0c7aed9",
+    "check_explicit_record_clock.py": "917a2329b46b04aa7b34723638fb5882119732d778565d0868c902f0d44e433a",
+    "EXPLICIT_RECORD_CLOCK_CHECKED.json": "007c42862c2a9eb104c7b55a7cc58c35f21e3172ffb1a7bbf0c14950774d4bd1",
+    "EXPLICIT_RECORD_CLOCK_RUN.log": "71508506b0be3d077989a351a3bcdca3b9fc04cfacaba6848f1d08295fa65918"
+  },
+  "dependencies": {
+    "FINITE_RECORD_CLOCK_MANIFEST.json": "09b1ee22b19b6231f05cb3ddca593b49ec8e779391131c4a032a08584c9b8b04",
+    "../audits/check_finite_record_clock_independent.json": "0310e0c438cebf30ab23af1eaa21dce8e32b10f9f11970286ad701e637788b80",
+    "JOINT_RECORD_DROUGHT_MANIFEST.json": "279631813c510c23d6939b3ef97d417f72b727e6820e243846e06cbc135adf80",
+    "../audits/check_joint_record_drought_independent.json": "ec64937c772a579f208342675e40d8f81390dd36455d3e95b29585cb1f2a7412",
+    "JOINT_RECORD_DROUGHT_CHECKED.json": "0d10bae3a0997a65a2a2ce9691ca875ae33c37fec0f496f330f8170ad91d9706"
+  },
+  "formula": "G=H(H+1)^4; S=4*2^G; F_star=G+1+2*S^2+(H+3)*S",
+  "claim": "An actual pristine augmented-hull union clock through F_star forces a full-field translating future with period<=S beginning byG+1+S",
+  "verification": "No huge F window run; three whole MT tails98592 updates and4800 small predictor updates",
+  "not_claimed": [
+    "No canonical104 uniqueness",
+    "No universal forcing-window occurrence",
+    "No practical numerical scan",
+    "No whole-board finite-state reduction"
+  ]
+}

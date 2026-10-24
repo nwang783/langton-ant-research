@@ -1,0 +1,268 @@
+{
+  "n": 100,
+  "T": [
+    200,
+    400,
+    600
+  ],
+  "status": "CONFLICT",
+  "at": {
+    "stage": "B_incoming",
+    "within": 20752,
+    "time": 205572,
+    "cell": [
+      383,
+      380
+    ],
+    "heading": 3,
+    "turn": "R"
+  },
+  "previous": {
+    "stage": "router1",
+    "within": 1022,
+    "time": 94884,
+    "cell": [
+      383,
+      380
+    ],
+    "heading": 1,
+    "turn": "R"
+  },
+  "inferred_seed_mass": 63,
+  "stages": [
+    {
+      "stage": "initial_H",
+      "time": 0,
+      "pose": [
+        [
+          -15,
+          10
+        ],
+        3
+      ],
+      "length": 10400
+    },
+    {
+      "stage": "pristine_exception",
+      "time": 10400,
+      "pose": [
+        [
+          -215,
+          -190
+        ],
+        3
+      ],
+      "length": 52262
+    },
+    {
+      "stage": "initial_return",
+      "time": 62662,
+      "pose": [
+        [
+          -200,
+          -249
+        ],
+        1
+      ],
+      "length": 31200
+    },
+    {
+      "stage": "router1",
+      "time": 93862,
+      "pose": [
+        [
+          400,
+          351
+        ],
+        1
+      ],
+      "length": 1902
+    },
+    {
+      "stage": "A_incoming",
+      "time": 95764,
+      "pose": [
+        [
+          359,
+          396
+        ],
+        3
+      ],
+      "length": 30024
+    },
+    {
+      "stage": "A_response",
+      "time": 125788,
+      "pose": [
+        [
+          -219,
+          -188
+        ],
+        3
+      ],
+      "length": 5616
+    },
+    {
+      "stage": "A_to_phase0",
+      "time": 131404,
+      "pose": [
+        [
+          -241,
+          -178
+        ],
+        3
+      ],
+      "length": 74
+    },
+    {
+      "stage": "A_return",
+      "time": 131478,
+      "pose": [
+        [
+          -242,
+          -177
+        ],
+        1
+      ],
+      "length": 51584
+    },
+    {
+      "stage": "router2",
+      "time": 183062,
+      "pose": [
+        [
+          750,
+          815
+        ],
+        1
+      ],
+      "length": 1758
+    },
+    {
+      "stage": "B_incoming",
+      "time": 184820,
+      "pose": [
+        [
+          785,
+          784
+        ],
+        3
+      ],
+      "length": 51333
+    }
+  ],
+  "scope": "One derived middle-rail phase flip, same exact A endpoint; complete supplied itinerary, finite control only",
+  "local_input_mass": 40,
+  "local_bad": null,
+  "new_router_word": "LRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRL",
+  "extra_relative_router": [
+    [
+      -43,
+      41
+    ],
+    [
+      -43,
+      42
+    ],
+    [
+      -43,
+      45
+    ],
+    [
+      -42,
+      40
+    ],
+    [
+      -42,
+      43
+    ],
+    [
+      -42,
+      44
+    ],
+    [
+      -42,
+      45
+    ],
+    [
+      -41,
+      39
+    ],
+    [
+      -41,
+      40
+    ],
+    [
+      -41,
+      41
+    ],
+    [
+      -41,
+      45
+    ],
+    [
+      -40,
+      42
+    ],
+    [
+      -40,
+      43
+    ],
+    [
+      -40,
+      45
+    ],
+    [
+      -5,
+      8
+    ],
+    [
+      -4,
+      8
+    ],
+    [
+      -4,
+      9
+    ],
+    [
+      -3,
+      8
+    ],
+    [
+      -3,
+      10
+    ],
+    [
+      -2,
+      7
+    ],
+    [
+      -2,
+      10
+    ],
+    [
+      -1,
+      7
+    ],
+    [
+      -1,
+      9
+    ],
+    [
+      0,
+      9
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      1,
+      10
+    ]
+  ]
+}

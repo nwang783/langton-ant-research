@@ -1,0 +1,27 @@
+{
+  "status": "FROZEN_FOR_INDEPENDENT_REVIEW",
+  "scope": "Actual 9-black-cell DC,VCC,V,V factor with single-initial-residual-root-component incidence reconvergence; exact low-entry-mass prefix-tree closure. Not fresh-root-free physical helpers, repeated-cycle or capture claim.",
+  "files": [
+    {
+      "source": "all_input_single_root_reconvergence.md",
+      "file": "00_all_input_single_root_reconvergence.md",
+      "sha256": "d648a493b6a9be5be40b1c5a880616c2e9b424149931a27ffc615f3602dd0288"
+    },
+    {
+      "source": "check_single_root_reconvergence.py",
+      "file": "01_check_single_root_reconvergence.py",
+      "sha256": "e0a302039529f837922d4993296c5660476225ab7172ea6e8ccbfcf746f2152f"
+    },
+    {
+      "source": "all_input_literal_probe/single_root_reconvergence_certificate.json",
+      "file": "02_single_root_reconvergence_certificate.json",
+      "sha256": "825666eafdb1ab536e43d4d4bd013aa151a1a525d121fc92991c8f73632886e6"
+    }
+  ],
+  "dependencies": [
+    {
+      "file": "chronology_dcuv/literal_residual_geometry.json",
+      "sha256": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd"
+    }
+  ]
+}

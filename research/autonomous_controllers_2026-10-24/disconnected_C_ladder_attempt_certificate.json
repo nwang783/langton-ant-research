@@ -1,0 +1,2031 @@
+{
+  "status": "AUTHOR checked, independent audit pending",
+  "scope": "The C walk is planar/nonbacktracking but NOT an actual ant control. All local-lap expansions of this one specified geometry fail finite color compatibility. No general connectivity theorem or controller exclusion.",
+  "C_lattice_path": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "physical_C_faces": [
+    [
+      0,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      -1
+    ],
+    [
+      1,
+      -2
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      -2,
+      1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      -2,
+      1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "C_transition_period": 17,
+  "ant_periods_are_not_17": [
+    30,
+    34,
+    38,
+    42,
+    46,
+    50,
+    54,
+    58,
+    62,
+    66
+  ],
+  "full_spatial_drift": [
+    1,
+    1
+  ],
+  "initial_head": [
+    1,
+    0
+  ],
+  "initial_heading": 1,
+  "minimal_R_exponents": [
+    0,
+    2,
+    2,
+    2,
+    1,
+    2,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    2
+  ],
+  "optional_four_R_blocks": [
+    0,
+    6,
+    7,
+    8,
+    10,
+    11,
+    13,
+    14,
+    15
+  ],
+  "abstract_first_last_forests": [
+    {
+      "row": -1,
+      "first_C_index": -15,
+      "last_C_index": 3,
+      "first_occurrence_phase": 2,
+      "last_occurrence_phase": 3,
+      "first_parent_row": 0,
+      "first_parent_voltage": 0,
+      "last_successor_row": 0,
+      "last_successor_voltage": 0
+    },
+    {
+      "row": 0,
+      "first_C_index": -16,
+      "last_C_index": 10,
+      "first_occurrence_phase": 1,
+      "last_occurrence_phase": 10,
+      "first_parent_row": 0,
+      "first_parent_voltage": -1,
+      "last_successor_row": 0,
+      "last_successor_voltage": 1
+    },
+    {
+      "row": 1,
+      "first_C_index": -11,
+      "last_C_index": 15,
+      "first_occurrence_phase": 6,
+      "last_occurrence_phase": 15,
+      "first_parent_row": 1,
+      "first_parent_voltage": -1,
+      "last_successor_row": 1,
+      "last_successor_voltage": 1
+    },
+    {
+      "row": 2,
+      "first_C_index": -10,
+      "last_C_index": 14,
+      "first_occurrence_phase": 7,
+      "last_occurrence_phase": 14,
+      "first_parent_row": 1,
+      "first_parent_voltage": 0,
+      "last_successor_row": 1,
+      "last_successor_voltage": 0
+    }
+  ],
+  "abstract_union_components": [
+    [
+      -1,
+      0
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "six_leaf_complete_color_cover": [
+    {
+      "bit_prefix": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "block_of_failure": 9,
+      "covered_full_choices": 32,
+      "all_legal_prefix_reads": [
+        {
+          "time": 0,
+          "position": [
+            1,
+            0
+          ],
+          "heading": 1,
+          "turn": "L",
+          "C_step_block": 0
+        },
+        {
+          "time": 1,
+          "position": [
+            1,
+            1
+          ],
+          "heading": 0,
+          "turn": "R",
+          "C_step_block": 1
+        },
+        {
+          "time": 2,
+          "position": [
+            2,
+            1
+          ],
+          "heading": 1,
+          "turn": "R",
+          "C_step_block": 1
+        },
+        {
+          "time": 3,
+          "position": [
+            2,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "C_step_block": 1
+        },
+        {
+          "time": 4,
+          "position": [
+            3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "C_step_block": 2
+        },
+        {
+          "time": 5,
+          "position": [
+            3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "C_step_block": 2
+        },
+        {
+          "time": 6,
+          "position": [
+            2,
+            -1
+          ],
+          "heading": 3,
+          "turn": "L",
+          "C_step_block": 2
+        },
+        {
+          "time": 7,
+          "position": [
+            2,
+            -2
+          ],
+          "heading": 2,
+          "turn": "R",
+          "C_step_block": 3
+        },
+        {
+          "time": 8,
+          "position": [
+            1,
+            -2
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 3
+        },
+        {
+          "time": 9,
+          "position": [
+            1,
+            -1
+          ],
+          "heading": 0,
+          "turn": "L",
+          "C_step_block": 3
+        },
+        {
+          "time": 10,
+          "position": [
+            0,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 4
+        },
+        {
+          "time": 11,
+          "position": [
+            0,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "C_step_block": 4
+        },
+        {
+          "time": 12,
+          "position": [
+            -1,
+            0
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 5
+        },
+        {
+          "time": 13,
+          "position": [
+            -1,
+            1
+          ],
+          "heading": 0,
+          "turn": "R",
+          "C_step_block": 5
+        },
+        {
+          "time": 14,
+          "position": [
+            0,
+            1
+          ],
+          "heading": 1,
+          "turn": "L",
+          "C_step_block": 5
+        },
+        {
+          "time": 15,
+          "position": [
+            0,
+            2
+          ],
+          "heading": 0,
+          "turn": "L",
+          "C_step_block": 6
+        },
+        {
+          "time": 16,
+          "position": [
+            -1,
+            2
+          ],
+          "heading": 3,
+          "turn": "L",
+          "C_step_block": 7
+        },
+        {
+          "time": 17,
+          "position": [
+            -1,
+            1
+          ],
+          "heading": 2,
+          "turn": "L",
+          "C_step_block": 8
+        },
+        {
+          "time": 18,
+          "position": [
+            0,
+            1
+          ],
+          "heading": 1,
+          "turn": "R",
+          "C_step_block": 9
+        }
+      ],
+      "consecutive_same_turn_witness": [
+        {
+          "time": 11,
+          "position": [
+            0,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "C_step_block": 4
+        },
+        {
+          "time": 19,
+          "position": [
+            0,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "C_step_block": 9
+        }
+      ],
+      "full_minimal_initial_BLACK": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "full_BLACK_at_failure": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "head_at_failure": [
+        0,
+        0
+      ],
+      "heading_at_failure": 2,
+      "actual_required_turn": "R"
+    },
+    {
+      "bit_prefix": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "block_of_failure": 8,
+      "covered_full_choices": 32,
+      "all_legal_prefix_reads": [
+        {
+          "time": 0,
+          "position": [
+            1,
+            0
+          ],
+          "heading": 1,
+          "turn": "L",
+          "C_step_block": 0
+        },
+        {
+          "time": 1,
+          "position": [
+            1,
+            1
+          ],
+          "heading": 0,
+          "turn": "R",
+          "C_step_block": 1
+        },
+        {
+          "time": 2,
+          "position": [
+            2,
+            1
+          ],
+          "heading": 1,
+          "turn": "R",
+          "C_step_block": 1
+        },
+        {
+          "time": 3,
+          "position": [
+            2,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "C_step_block": 1
+        },
+        {
+          "time": 4,
+          "position": [
+            3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "C_step_block": 2
+        },
+        {
+          "time": 5,
+          "position": [
+            3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "C_step_block": 2
+        },
+        {
+          "time": 6,
+          "position": [
+            2,
+            -1
+          ],
+          "heading": 3,
+          "turn": "L",
+          "C_step_block": 2
+        },
+        {
+          "time": 7,
+          "position": [
+            2,
+            -2
+          ],
+          "heading": 2,
+          "turn": "R",
+          "C_step_block": 3
+        },
+        {
+          "time": 8,
+          "position": [
+            1,
+            -2
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 3
+        },
+        {
+          "time": 9,
+          "position": [
+            1,
+            -1
+          ],
+          "heading": 0,
+          "turn": "L",
+          "C_step_block": 3
+        },
+        {
+          "time": 10,
+          "position": [
+            0,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 4
+        },
+        {
+          "time": 11,
+          "position": [
+            0,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "C_step_block": 4
+        },
+        {
+          "time": 12,
+          "position": [
+            -1,
+            0
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 5
+        },
+        {
+          "time": 13,
+          "position": [
+            -1,
+            1
+          ],
+          "heading": 0,
+          "turn": "R",
+          "C_step_block": 5
+        },
+        {
+          "time": 14,
+          "position": [
+            0,
+            1
+          ],
+          "heading": 1,
+          "turn": "L",
+          "C_step_block": 5
+        },
+        {
+          "time": 15,
+          "position": [
+            0,
+            2
+          ],
+          "heading": 0,
+          "turn": "L",
+          "C_step_block": 6
+        },
+        {
+          "time": 16,
+          "position": [
+            -1,
+            2
+          ],
+          "heading": 3,
+          "turn": "L",
+          "C_step_block": 7
+        }
+      ],
+      "consecutive_same_turn_witness": [
+        {
+          "time": 13,
+          "position": [
+            -1,
+            1
+          ],
+          "heading": 0,
+          "turn": "R",
+          "C_step_block": 5
+        },
+        {
+          "time": 17,
+          "position": [
+            -1,
+            1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "C_step_block": 8
+        }
+      ],
+      "full_minimal_initial_BLACK": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "full_BLACK_at_failure": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "head_at_failure": [
+        -1,
+        1
+      ],
+      "heading_at_failure": 2,
+      "actual_required_turn": "L"
+    },
+    {
+      "bit_prefix": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "block_of_failure": 9,
+      "covered_full_choices": 32,
+      "all_legal_prefix_reads": [
+        {
+          "time": 0,
+          "position": [
+            1,
+            0
+          ],
+          "heading": 1,
+          "turn": "L",
+          "C_step_block": 0
+        },
+        {
+          "time": 1,
+          "position": [
+            1,
+            1
+          ],
+          "heading": 0,
+          "turn": "R",
+          "C_step_block": 1
+        },
+        {
+          "time": 2,
+          "position": [
+            2,
+            1
+          ],
+          "heading": 1,
+          "turn": "R",
+          "C_step_block": 1
+        },
+        {
+          "time": 3,
+          "position": [
+            2,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "C_step_block": 1
+        },
+        {
+          "time": 4,
+          "position": [
+            3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "C_step_block": 2
+        },
+        {
+          "time": 5,
+          "position": [
+            3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "C_step_block": 2
+        },
+        {
+          "time": 6,
+          "position": [
+            2,
+            -1
+          ],
+          "heading": 3,
+          "turn": "L",
+          "C_step_block": 2
+        },
+        {
+          "time": 7,
+          "position": [
+            2,
+            -2
+          ],
+          "heading": 2,
+          "turn": "R",
+          "C_step_block": 3
+        },
+        {
+          "time": 8,
+          "position": [
+            1,
+            -2
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 3
+        },
+        {
+          "time": 9,
+          "position": [
+            1,
+            -1
+          ],
+          "heading": 0,
+          "turn": "L",
+          "C_step_block": 3
+        },
+        {
+          "time": 10,
+          "position": [
+            0,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 4
+        },
+        {
+          "time": 11,
+          "position": [
+            0,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "C_step_block": 4
+        },
+        {
+          "time": 12,
+          "position": [
+            -1,
+            0
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 5
+        },
+        {
+          "time": 13,
+          "position": [
+            -1,
+            1
+          ],
+          "heading": 0,
+          "turn": "R",
+          "C_step_block": 5
+        },
+        {
+          "time": 14,
+          "position": [
+            0,
+            1
+          ],
+          "heading": 1,
+          "turn": "L",
+          "C_step_block": 5
+        },
+        {
+          "time": 15,
+          "position": [
+            0,
+            2
+          ],
+          "heading": 0,
+          "turn": "L",
+          "C_step_block": 6
+        },
+        {
+          "time": 16,
+          "position": [
+            -1,
+            2
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 7
+        },
+        {
+          "time": 17,
+          "position": [
+            -1,
+            3
+          ],
+          "heading": 0,
+          "turn": "R",
+          "C_step_block": 7
+        },
+        {
+          "time": 18,
+          "position": [
+            0,
+            3
+          ],
+          "heading": 1,
+          "turn": "R",
+          "C_step_block": 7
+        },
+        {
+          "time": 19,
+          "position": [
+            0,
+            2
+          ],
+          "heading": 2,
+          "turn": "R",
+          "C_step_block": 7
+        },
+        {
+          "time": 20,
+          "position": [
+            -1,
+            2
+          ],
+          "heading": 3,
+          "turn": "L",
+          "C_step_block": 7
+        },
+        {
+          "time": 21,
+          "position": [
+            -1,
+            1
+          ],
+          "heading": 2,
+          "turn": "L",
+          "C_step_block": 8
+        },
+        {
+          "time": 22,
+          "position": [
+            0,
+            1
+          ],
+          "heading": 1,
+          "turn": "R",
+          "C_step_block": 9
+        }
+      ],
+      "consecutive_same_turn_witness": [
+        {
+          "time": 11,
+          "position": [
+            0,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "C_step_block": 4
+        },
+        {
+          "time": 23,
+          "position": [
+            0,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "C_step_block": 9
+        }
+      ],
+      "full_minimal_initial_BLACK": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "full_BLACK_at_failure": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "head_at_failure": [
+        0,
+        0
+      ],
+      "heading_at_failure": 2,
+      "actual_required_turn": "R"
+    },
+    {
+      "bit_prefix": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "block_of_failure": 8,
+      "covered_full_choices": 32,
+      "all_legal_prefix_reads": [
+        {
+          "time": 0,
+          "position": [
+            1,
+            0
+          ],
+          "heading": 1,
+          "turn": "L",
+          "C_step_block": 0
+        },
+        {
+          "time": 1,
+          "position": [
+            1,
+            1
+          ],
+          "heading": 0,
+          "turn": "R",
+          "C_step_block": 1
+        },
+        {
+          "time": 2,
+          "position": [
+            2,
+            1
+          ],
+          "heading": 1,
+          "turn": "R",
+          "C_step_block": 1
+        },
+        {
+          "time": 3,
+          "position": [
+            2,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "C_step_block": 1
+        },
+        {
+          "time": 4,
+          "position": [
+            3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "C_step_block": 2
+        },
+        {
+          "time": 5,
+          "position": [
+            3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "C_step_block": 2
+        },
+        {
+          "time": 6,
+          "position": [
+            2,
+            -1
+          ],
+          "heading": 3,
+          "turn": "L",
+          "C_step_block": 2
+        },
+        {
+          "time": 7,
+          "position": [
+            2,
+            -2
+          ],
+          "heading": 2,
+          "turn": "R",
+          "C_step_block": 3
+        },
+        {
+          "time": 8,
+          "position": [
+            1,
+            -2
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 3
+        },
+        {
+          "time": 9,
+          "position": [
+            1,
+            -1
+          ],
+          "heading": 0,
+          "turn": "L",
+          "C_step_block": 3
+        },
+        {
+          "time": 10,
+          "position": [
+            0,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 4
+        },
+        {
+          "time": 11,
+          "position": [
+            0,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "C_step_block": 4
+        },
+        {
+          "time": 12,
+          "position": [
+            -1,
+            0
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 5
+        },
+        {
+          "time": 13,
+          "position": [
+            -1,
+            1
+          ],
+          "heading": 0,
+          "turn": "R",
+          "C_step_block": 5
+        },
+        {
+          "time": 14,
+          "position": [
+            0,
+            1
+          ],
+          "heading": 1,
+          "turn": "L",
+          "C_step_block": 5
+        },
+        {
+          "time": 15,
+          "position": [
+            0,
+            2
+          ],
+          "heading": 0,
+          "turn": "L",
+          "C_step_block": 6
+        },
+        {
+          "time": 16,
+          "position": [
+            -1,
+            2
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 7
+        },
+        {
+          "time": 17,
+          "position": [
+            -1,
+            3
+          ],
+          "heading": 0,
+          "turn": "R",
+          "C_step_block": 7
+        },
+        {
+          "time": 18,
+          "position": [
+            0,
+            3
+          ],
+          "heading": 1,
+          "turn": "R",
+          "C_step_block": 7
+        },
+        {
+          "time": 19,
+          "position": [
+            0,
+            2
+          ],
+          "heading": 2,
+          "turn": "R",
+          "C_step_block": 7
+        },
+        {
+          "time": 20,
+          "position": [
+            -1,
+            2
+          ],
+          "heading": 3,
+          "turn": "L",
+          "C_step_block": 7
+        }
+      ],
+      "consecutive_same_turn_witness": [
+        {
+          "time": 13,
+          "position": [
+            -1,
+            1
+          ],
+          "heading": 0,
+          "turn": "R",
+          "C_step_block": 5
+        },
+        {
+          "time": 21,
+          "position": [
+            -1,
+            1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "C_step_block": 8
+        }
+      ],
+      "full_minimal_initial_BLACK": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "full_BLACK_at_failure": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "head_at_failure": [
+        -1,
+        1
+      ],
+      "heading_at_failure": 2,
+      "actual_required_turn": "L"
+    },
+    {
+      "bit_prefix": [
+        0,
+        1
+      ],
+      "block_of_failure": 6,
+      "covered_full_choices": 128,
+      "all_legal_prefix_reads": [
+        {
+          "time": 0,
+          "position": [
+            1,
+            0
+          ],
+          "heading": 1,
+          "turn": "L",
+          "C_step_block": 0
+        },
+        {
+          "time": 1,
+          "position": [
+            1,
+            1
+          ],
+          "heading": 0,
+          "turn": "R",
+          "C_step_block": 1
+        },
+        {
+          "time": 2,
+          "position": [
+            2,
+            1
+          ],
+          "heading": 1,
+          "turn": "R",
+          "C_step_block": 1
+        },
+        {
+          "time": 3,
+          "position": [
+            2,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "C_step_block": 1
+        },
+        {
+          "time": 4,
+          "position": [
+            3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "C_step_block": 2
+        },
+        {
+          "time": 5,
+          "position": [
+            3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "C_step_block": 2
+        },
+        {
+          "time": 6,
+          "position": [
+            2,
+            -1
+          ],
+          "heading": 3,
+          "turn": "L",
+          "C_step_block": 2
+        },
+        {
+          "time": 7,
+          "position": [
+            2,
+            -2
+          ],
+          "heading": 2,
+          "turn": "R",
+          "C_step_block": 3
+        },
+        {
+          "time": 8,
+          "position": [
+            1,
+            -2
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 3
+        },
+        {
+          "time": 9,
+          "position": [
+            1,
+            -1
+          ],
+          "heading": 0,
+          "turn": "L",
+          "C_step_block": 3
+        },
+        {
+          "time": 10,
+          "position": [
+            0,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 4
+        },
+        {
+          "time": 11,
+          "position": [
+            0,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "C_step_block": 4
+        },
+        {
+          "time": 12,
+          "position": [
+            -1,
+            0
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 5
+        },
+        {
+          "time": 13,
+          "position": [
+            -1,
+            1
+          ],
+          "heading": 0,
+          "turn": "R",
+          "C_step_block": 5
+        },
+        {
+          "time": 14,
+          "position": [
+            0,
+            1
+          ],
+          "heading": 1,
+          "turn": "L",
+          "C_step_block": 5
+        },
+        {
+          "time": 15,
+          "position": [
+            0,
+            2
+          ],
+          "heading": 0,
+          "turn": "R",
+          "C_step_block": 6
+        },
+        {
+          "time": 16,
+          "position": [
+            1,
+            2
+          ],
+          "heading": 1,
+          "turn": "R",
+          "C_step_block": 6
+        }
+      ],
+      "consecutive_same_turn_witness": [
+        {
+          "time": 1,
+          "position": [
+            1,
+            1
+          ],
+          "heading": 0,
+          "turn": "R",
+          "C_step_block": 1
+        },
+        {
+          "time": 17,
+          "position": [
+            1,
+            1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "C_step_block": 6
+        }
+      ],
+      "full_minimal_initial_BLACK": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "full_BLACK_at_failure": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "head_at_failure": [
+        1,
+        1
+      ],
+      "heading_at_failure": 2,
+      "actual_required_turn": "L"
+    },
+    {
+      "bit_prefix": [
+        1
+      ],
+      "block_of_failure": 4,
+      "covered_full_choices": 256,
+      "all_legal_prefix_reads": [
+        {
+          "time": 0,
+          "position": [
+            1,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "C_step_block": 0
+        },
+        {
+          "time": 1,
+          "position": [
+            1,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "C_step_block": 0
+        },
+        {
+          "time": 2,
+          "position": [
+            0,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 0
+        },
+        {
+          "time": 3,
+          "position": [
+            0,
+            0
+          ],
+          "heading": 0,
+          "turn": "R",
+          "C_step_block": 0
+        },
+        {
+          "time": 4,
+          "position": [
+            1,
+            0
+          ],
+          "heading": 1,
+          "turn": "L",
+          "C_step_block": 0
+        },
+        {
+          "time": 5,
+          "position": [
+            1,
+            1
+          ],
+          "heading": 0,
+          "turn": "R",
+          "C_step_block": 1
+        },
+        {
+          "time": 6,
+          "position": [
+            2,
+            1
+          ],
+          "heading": 1,
+          "turn": "R",
+          "C_step_block": 1
+        },
+        {
+          "time": 7,
+          "position": [
+            2,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "C_step_block": 1
+        },
+        {
+          "time": 8,
+          "position": [
+            3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "C_step_block": 2
+        },
+        {
+          "time": 9,
+          "position": [
+            3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "C_step_block": 2
+        },
+        {
+          "time": 10,
+          "position": [
+            2,
+            -1
+          ],
+          "heading": 3,
+          "turn": "L",
+          "C_step_block": 2
+        },
+        {
+          "time": 11,
+          "position": [
+            2,
+            -2
+          ],
+          "heading": 2,
+          "turn": "R",
+          "C_step_block": 3
+        },
+        {
+          "time": 12,
+          "position": [
+            1,
+            -2
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 3
+        },
+        {
+          "time": 13,
+          "position": [
+            1,
+            -1
+          ],
+          "heading": 0,
+          "turn": "L",
+          "C_step_block": 3
+        }
+      ],
+      "consecutive_same_turn_witness": [
+        {
+          "time": 2,
+          "position": [
+            0,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 0
+        },
+        {
+          "time": 14,
+          "position": [
+            0,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "C_step_block": 4
+        }
+      ],
+      "full_minimal_initial_BLACK": [
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "full_BLACK_at_failure": [
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "head_at_failure": [
+        0,
+        -1
+      ],
+      "heading_at_failure": 3,
+      "actual_required_turn": "L"
+    }
+  ],
+  "dependency_hashes": {
+    "certify_active_C_entry_exit_forests.py": "a82f1fb55686f420c8c6e81548333d74c1bd8feafcc1d3ec88966cf49d69c1a3",
+    "check_extremal_read_coupling.py": "2310020506000d946b122887b15d47b3d45f99f6ffe3f2f74f529f4e4ab338f0"
+  }
+}

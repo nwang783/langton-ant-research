@@ -1,0 +1,72 @@
+{
+  "status": "PASS ALL N>=1 exact affine physical chronology of394-cell4352 producer",
+  "manifest_sha256": "e3f1940d073741ad8bf48a4a8f6b33942569c4a20bc23c2809bf885ae9f0f6d4",
+  "domain": "N>=1,R=200+52N",
+  "initial_mass": 394,
+  "read_count_affine": [
+    38152,
+    144402
+  ],
+  "wave_entry_time_affine": [
+    33800,
+    144402
+  ],
+  "final_pose_affine": {
+    "x": [
+      26,
+      -2
+    ],
+    "y": [
+      26,
+      3
+    ],
+    "heading": 3
+  },
+  "final_mass_affine": [
+    4084,
+    16654
+  ],
+  "K_count_affine": [
+    1972,
+    3003
+  ],
+  "true_previous_ten": "LRLRRRRLLL",
+  "affine_inverse_seed_exclusions": 3810,
+  "physical_classes": 3259,
+  "parameter_regions": 3363,
+  "spatial_slabs": 7911,
+  "read_obligations": 38535,
+  "global_partition_starts": [
+    1,
+    2
+  ],
+  "exact_first_L_count": [
+    0,
+    394
+  ],
+  "obligation_digest": "8ae1fdb54c66e55b2447877c60fd1a2b4b470c15103fc031d235b59ab3a2ed0d",
+  "literal_controls": [
+    {
+      "N": 1,
+      "reads": 182554,
+      "final_mass": 20738,
+      "K": 4975,
+      "final_field_sha256": "1912d22a10cab4d1997170460361968e9f7705ff25afe576315a4f440e4562c0"
+    },
+    {
+      "N": 2,
+      "reads": 220706,
+      "final_mass": 24822,
+      "K": 6947,
+      "final_field_sha256": "8baae2c1cbada9d83e7a5c9400262fadaf6ef87c8fb373072d419f9b23393aa3"
+    },
+    {
+      "N": 5,
+      "reads": 335162,
+      "final_mass": 37074,
+      "K": 12863,
+      "final_field_sha256": "00b4ce9b81ed612f59b00b2a95604d6ccd6335cfa10ef372cb189ca25e3c5edf"
+    }
+  ],
+  "scope": "Every finite supplied prefix on the original394-cell board, ALLN. Five ordinary flights and four routers, causal289-cell launch, N4352 periods. No subsequent capture or one fixed finite infinite-wave orbit inferred."
+}

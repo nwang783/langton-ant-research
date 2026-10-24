@@ -1,0 +1,293 @@
+{
+  "status": "PASS independent local rotation table and complete-flow subset controls",
+  "note_sha256": "0929ac725f878787a042a24f8b072301d0e687eea97bf12394c2de00121984b2",
+  "local_cases": [
+    {
+      "first_in": [
+        0,
+        1
+      ],
+      "turns": "RR",
+      "shared": [
+        true,
+        true
+      ]
+    },
+    {
+      "first_in": [
+        0,
+        1
+      ],
+      "turns": "RL",
+      "shared": [
+        false,
+        true
+      ]
+    },
+    {
+      "first_in": [
+        0,
+        1
+      ],
+      "turns": "LR",
+      "shared": [
+        true,
+        false
+      ]
+    },
+    {
+      "first_in": [
+        0,
+        1
+      ],
+      "turns": "LL",
+      "shared": [
+        false,
+        false
+      ]
+    },
+    {
+      "first_in": [
+        1,
+        0
+      ],
+      "turns": "RR",
+      "shared": [
+        true,
+        true
+      ]
+    },
+    {
+      "first_in": [
+        1,
+        0
+      ],
+      "turns": "RL",
+      "shared": [
+        false,
+        true
+      ]
+    },
+    {
+      "first_in": [
+        1,
+        0
+      ],
+      "turns": "LR",
+      "shared": [
+        true,
+        false
+      ]
+    },
+    {
+      "first_in": [
+        1,
+        0
+      ],
+      "turns": "LL",
+      "shared": [
+        false,
+        false
+      ]
+    },
+    {
+      "first_in": [
+        0,
+        -1
+      ],
+      "turns": "RR",
+      "shared": [
+        true,
+        true
+      ]
+    },
+    {
+      "first_in": [
+        0,
+        -1
+      ],
+      "turns": "RL",
+      "shared": [
+        false,
+        true
+      ]
+    },
+    {
+      "first_in": [
+        0,
+        -1
+      ],
+      "turns": "LR",
+      "shared": [
+        true,
+        false
+      ]
+    },
+    {
+      "first_in": [
+        0,
+        -1
+      ],
+      "turns": "LL",
+      "shared": [
+        false,
+        false
+      ]
+    },
+    {
+      "first_in": [
+        -1,
+        0
+      ],
+      "turns": "RR",
+      "shared": [
+        true,
+        true
+      ]
+    },
+    {
+      "first_in": [
+        -1,
+        0
+      ],
+      "turns": "RL",
+      "shared": [
+        false,
+        true
+      ]
+    },
+    {
+      "first_in": [
+        -1,
+        0
+      ],
+      "turns": "LR",
+      "shared": [
+        true,
+        false
+      ]
+    },
+    {
+      "first_in": [
+        -1,
+        0
+      ],
+      "turns": "LL",
+      "shared": [
+        false,
+        false
+      ]
+    }
+  ],
+  "actual_controls": [
+    {
+      "period": 104,
+      "drift": [
+        2,
+        2
+      ],
+      "arrival_lengths": [
+        4,
+        4
+      ],
+      "departure_lengths": [
+        4,
+        4
+      ],
+      "shared_edges": 0,
+      "shared_LL_vertices": 4,
+      "subset_flow_checks": 16
+    },
+    {
+      "period": 104,
+      "drift": [
+        2,
+        -2
+      ],
+      "arrival_lengths": [
+        4,
+        4
+      ],
+      "departure_lengths": [
+        4,
+        4
+      ],
+      "shared_edges": 0,
+      "shared_LL_vertices": 4,
+      "subset_flow_checks": 16
+    },
+    {
+      "period": 208,
+      "drift": [
+        4,
+        4
+      ],
+      "arrival_lengths": [
+        8,
+        8
+      ],
+      "departure_lengths": [
+        8,
+        8
+      ],
+      "shared_edges": 0,
+      "shared_LL_vertices": 8,
+      "subset_flow_checks": 16
+    },
+    {
+      "period": 208,
+      "drift": [
+        4,
+        -4
+      ],
+      "arrival_lengths": [
+        8,
+        8
+      ],
+      "departure_lengths": [
+        8,
+        8
+      ],
+      "shared_edges": 0,
+      "shared_LL_vertices": 8,
+      "subset_flow_checks": 16
+    },
+    {
+      "period": 312,
+      "drift": [
+        6,
+        6
+      ],
+      "arrival_lengths": [
+        12,
+        12
+      ],
+      "departure_lengths": [
+        12,
+        12
+      ],
+      "shared_edges": 0,
+      "shared_LL_vertices": 12,
+      "subset_flow_checks": 16
+    },
+    {
+      "period": 312,
+      "drift": [
+        6,
+        -6
+      ],
+      "arrival_lengths": [
+        12,
+        12
+      ],
+      "departure_lengths": [
+        12,
+        12
+      ],
+      "shared_edges": 0,
+      "shared_LL_vertices": 12,
+      "subset_flow_checks": 16
+    }
+  ],
+  "scope": "Analytic essential-circle side-change proof supplies universal edge separation; controls are not that proof. No changed monitor or exclusion."
+}

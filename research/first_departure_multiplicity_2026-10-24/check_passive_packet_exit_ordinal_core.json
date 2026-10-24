@@ -1,0 +1,69 @@
+{
+  "scope": "Correct physical four-edge ordinal collision at a proposed passive\nsingleton immediately after the unique flat-passive LL packet.\n",
+  "rows": [
+    {
+      "C": "EEWW",
+      "edges": [
+        [
+          "A",
+          1,
+          "E",
+          3
+        ],
+        [
+          "E",
+          3,
+          "C",
+          1
+        ],
+        [
+          "C",
+          2,
+          "R",
+          1
+        ],
+        [
+          "R",
+          1,
+          "A",
+          1
+        ]
+      ],
+      "forced_cycle_duration": 4,
+      "contradiction": "C.secondE<=C.secondN but secondE=A1+2 and secondN=A1-2"
+    },
+    {
+      "C": "EWWE",
+      "edges": [
+        [
+          "A",
+          1,
+          "E",
+          3
+        ],
+        [
+          "E",
+          3,
+          "C",
+          3
+        ],
+        [
+          "C",
+          3,
+          "R",
+          1
+        ],
+        [
+          "R",
+          1,
+          "A",
+          1
+        ]
+      ],
+      "forced_cycle_duration": 4,
+      "contradiction": "C.secondE<=C.secondN but secondE=A1+2 and secondN=A1-2"
+    }
+  ],
+  "all_physical_directions_checked": true,
+  "warning": "Cyclic role reductions are separate signed human dependencies; no actual factor or whole front is constructed."
+}

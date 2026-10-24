@@ -1,0 +1,405 @@
+{
+  "status": "PASS exact affine geometry identities; color validity is separate audited dependency",
+  "parameter_range": "all integers n>=200",
+  "template_sha256": "16246ec40cbdd4ad94c35698992582b27a942dc7d539683f1b3684892cd5687d",
+  "statement": "Every read of each one-, two-, and three-bit exceptional parent lies in |x+y|<=82 or |x-y|<=82.",
+  "parents": [
+    {
+      "input_bits": 1,
+      "checkpoint_time": [
+        208,
+        70733
+      ],
+      "prefix_width": 82,
+      "infinite_tail_width": 17,
+      "full_width": 82
+    },
+    {
+      "input_bits": 2,
+      "checkpoint_time": [
+        416,
+        146040
+      ],
+      "prefix_width": 82,
+      "infinite_tail_width": 15,
+      "full_width": 82
+    },
+    {
+      "input_bits": 3,
+      "checkpoint_time": [
+        728,
+        200304
+      ],
+      "prefix_width": 82,
+      "infinite_tail_width": 45,
+      "full_width": 82
+    }
+  ],
+  "segments": [
+    {
+      "segment": 0,
+      "type": "finite",
+      "start": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "end": [
+        [
+          0,
+          -15
+        ],
+        [
+          0,
+          10
+        ]
+      ],
+      "strip_width": 27,
+      "read_identities": 9977
+    },
+    {
+      "segment": 1,
+      "type": "periods",
+      "start": [
+        [
+          0,
+          -15
+        ],
+        [
+          0,
+          10
+        ]
+      ],
+      "end": [
+        [
+          -2,
+          -31
+        ],
+        [
+          -2,
+          -6
+        ]
+      ],
+      "strip_width": 28,
+      "read_identities": 104
+    },
+    {
+      "segment": 2,
+      "type": "finite",
+      "start": [
+        [
+          -2,
+          -31
+        ],
+        [
+          -2,
+          -6
+        ]
+      ],
+      "end": [
+        [
+          -2,
+          6
+        ],
+        [
+          -2,
+          -43
+        ]
+      ],
+      "strip_width": 82,
+      "read_identities": 51118
+    },
+    {
+      "segment": 3,
+      "type": "periods",
+      "start": [
+        [
+          -2,
+          6
+        ],
+        [
+          -2,
+          -43
+        ]
+      ],
+      "end": [
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          -29
+        ]
+      ],
+      "strip_width": 52,
+      "read_identities": 104
+    },
+    {
+      "segment": 4,
+      "type": "finite",
+      "start": [
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          -29
+        ]
+      ],
+      "end": [
+        [
+          0,
+          -15
+        ],
+        [
+          0,
+          26
+        ]
+      ],
+      "strip_width": 30,
+      "read_identities": 8078
+    },
+    {
+      "segment": 5,
+      "type": "periods",
+      "start": [
+        [
+          0,
+          -15
+        ],
+        [
+          0,
+          26
+        ]
+      ],
+      "end": [
+        [
+          -2,
+          -25
+        ],
+        [
+          2,
+          36
+        ]
+      ],
+      "strip_width": 17,
+      "read_identities": 104
+    },
+    {
+      "segment": 6,
+      "type": "finite",
+      "start": [
+        [
+          -2,
+          -25
+        ],
+        [
+          2,
+          36
+        ]
+      ],
+      "end": [
+        [
+          -2,
+          -62
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "strip_width": 71,
+      "read_identities": 51123
+    },
+    {
+      "segment": 7,
+      "type": "periods",
+      "start": [
+        [
+          -2,
+          -62
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "end": [
+        [
+          0,
+          -48
+        ],
+        [
+          0,
+          -12
+        ]
+      ],
+      "strip_width": 63,
+      "read_identities": 104
+    },
+    {
+      "segment": 8,
+      "type": "finite",
+      "start": [
+        [
+          0,
+          -48
+        ],
+        [
+          0,
+          -12
+        ]
+      ],
+      "end": [
+        [
+          0,
+          40
+        ],
+        [
+          0,
+          -50
+        ]
+      ],
+      "strip_width": 62,
+      "read_identities": 22936
+    },
+    {
+      "segment": 9,
+      "type": "periods",
+      "start": [
+        [
+          0,
+          40
+        ],
+        [
+          0,
+          -50
+        ]
+      ],
+      "end": [
+        [
+          2,
+          0
+        ],
+        [
+          -2,
+          -10
+        ]
+      ],
+      "strip_width": 15,
+      "read_identities": 104
+    },
+    {
+      "segment": 10,
+      "type": "finite",
+      "start": [
+        [
+          2,
+          0
+        ],
+        [
+          -2,
+          -10
+        ]
+      ],
+      "end": [
+        [
+          2,
+          37
+        ],
+        [
+          -2,
+          25
+        ]
+      ],
+      "strip_width": 69,
+      "read_identities": 51122
+    },
+    {
+      "segment": 11,
+      "type": "periods",
+      "start": [
+        [
+          2,
+          37
+        ],
+        [
+          -2,
+          25
+        ]
+      ],
+      "end": [
+        [
+          -2,
+          7
+        ],
+        [
+          2,
+          55
+        ]
+      ],
+      "strip_width": 65,
+      "read_identities": 104
+    },
+    {
+      "segment": 12,
+      "type": "finite",
+      "start": [
+        [
+          -2,
+          7
+        ],
+        [
+          2,
+          55
+        ]
+      ],
+      "end": [
+        [
+          -2,
+          -32
+        ],
+        [
+          2,
+          72
+        ]
+      ],
+      "strip_width": 75,
+      "read_identities": 2310
+    },
+    {
+      "segment": 13,
+      "type": "periods",
+      "start": [
+        [
+          -2,
+          -32
+        ],
+        [
+          2,
+          72
+        ]
+      ],
+      "end": [
+        [
+          -2,
+          -58
+        ],
+        [
+          2,
+          98
+        ]
+      ],
+      "strip_width": 45,
+      "read_identities": 104
+    }
+  ],
+  "all_read_identities": 197496
+}

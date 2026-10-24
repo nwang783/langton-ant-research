@@ -1,0 +1,278 @@
+{
+  "status": "all exact executables passed; independent audit pending",
+  "domain": "each fixed retained core with u>=502; parameter n sufficiently large depending on that core",
+  "first_frontier": {
+    "easy": [
+      15,
+      28,
+      29,
+      32,
+      38,
+      45,
+      55,
+      56,
+      60,
+      61,
+      62,
+      71
+    ],
+    "scars": [
+      13,
+      14,
+      27,
+      89
+    ],
+    "full_history": [
+      {
+        "phase": 46,
+        "capture_nm": [
+          624,
+          312,
+          215346
+        ],
+        "tail_phase": 99
+      },
+      {
+        "phase": 47,
+        "capture_nm": [
+          624,
+          312,
+          215390
+        ],
+        "tail_phase": 99
+      },
+      {
+        "phase": 57,
+        "capture_nm": [
+          624,
+          312,
+          215658
+        ],
+        "tail_phase": 99
+      },
+      {
+        "phase": 70,
+        "capture_nm": [
+          624,
+          0,
+          212085
+        ],
+        "tail_phase": 24
+      },
+      {
+        "phase": 72,
+        "capture_nm": [
+          520,
+          208,
+          203112
+        ],
+        "tail_phase": 100
+      },
+      {
+        "phase": 75,
+        "capture_nm": [
+          728,
+          0,
+          199716
+        ],
+        "tail_phase": 100
+      }
+    ]
+  },
+  "last_frontier": {
+    "permanent": [
+      15,
+      29,
+      32,
+      38,
+      45,
+      46,
+      47,
+      55,
+      56,
+      57,
+      62,
+      71,
+      72
+    ],
+    "scars": [
+      13,
+      14,
+      27,
+      89
+    ],
+    "full_history": [
+      {
+        "phase": 28,
+        "capture_nm": [
+          728,
+          0,
+          203308
+        ],
+        "tail_phase": 100
+      },
+      {
+        "phase": 60,
+        "capture_nm": [
+          728,
+          0,
+          210340
+        ],
+        "tail_phase": 100
+      },
+      {
+        "phase": 61,
+        "capture_nm": [
+          624,
+          -104,
+          227540
+        ],
+        "tail_phase": 0
+      },
+      {
+        "phase": 70,
+        "capture_nm": [
+          728,
+          0,
+          212536
+        ],
+        "tail_phase": 99
+      },
+      {
+        "phase": 75,
+        "capture_nm": [
+          728,
+          0,
+          200172
+        ],
+        "tail_phase": 100
+      }
+    ]
+  },
+  "artifact_sha256": {
+    "PROOF.md": "dbfd21fd8a413e51fff46b9fa00484937cea58f291bfe6fd10682cd010cb06c2",
+    "UPPER_Z_PROOF.md": "ea5881f458e49b75d6173d0a1ba0b1560c35ace98745a44a6d1c587daa7f9b42",
+    "certify_manifest.py": "1caed3ca15de8bd0ca96a1f53839052634ad662c9e40f8aec5398abef0bf4c2f",
+    "certify_upper_z.py": "6071c7e138da8d13e3d9e59fbc4e221add563a254c7c9854c1897a635ba3f3bc",
+    "classify_pristine_se_bands.py": "1c075fc40effb4fc714e22c4d6602a8c0277b736f4d4bd653c07a2bcf1017ad8",
+    "first_frontier/PROOF.md": "276885653acbb197b4dc6b0323e05d545f9b8656824e370e6d4f579d35c052f1",
+    "first_frontier/certify_clean_interface.py": "ee6e4547684a563d2481d696f262b10cbe20c8015defd14dd8977b444c6b8378",
+    "first_frontier/certify_corner_sectors.py": "d66f391be3a78a1deee7679c290064dc7316c78cf587af125b1f4add880567ba",
+    "first_frontier/certify_ordinary_interfaces.py": "39c323acd88a63a994ea51650142b7b21a7ebc8b11991ceec76a6001412c661f",
+    "first_frontier/certify_remaining.py": "57bc857cb0e553ebd08036f0e1abf7d4bb11aa8dea669146d3a840f7f160b877",
+    "first_frontier/certify_scars.py": "619add344a6c13f13367f254586b88ea0cacd3be2afd7ae0f7eab07bfe92f324",
+    "first_frontier/clean_interface.json": "1ed7f375db61ed8d2c8dd6f17cc676a11206e17d62d18ed6490e7cdc00ee1462",
+    "first_frontier/corner_sectors.json": "cf4960a52d09b11ae5132c7f5faaf400b9332c1f0eb51619f9585fcbc4029aa4",
+    "first_frontier/discover_remaining.py": "ff6e0b54b06a50df6ed71b9b4d48880a16a81c868f2cf8f6ba55e0d5906a27c7",
+    "first_frontier/extract_remaining.py": "d7682801fed713844e0909015701a41ce50753dc9953ea76318c5dba9f6a2c01",
+    "first_frontier/full_field.py": "58749c106ffa57d5c25a9bc3375710e04cf336a3a77125c406f60f29461b91d4",
+    "first_frontier/full_remaining_discovery.json": "6a2fcaac41f8535ea8ddb6484be1d587e1b3bc307fdbceecec3221bdfdc6ac37",
+    "first_frontier/full_remaining_r46_m100_n400.txt.gz": "2a8c5a7e8edad3fd90a0b18230eafd0a668c47414a095b28e61a0d1fa3ccf96d",
+    "first_frontier/full_remaining_r46_m100_n401.txt.gz": "c408e9ed9979ecb2f1c90c70c2f2ac24c2f704ead5ebd962dbdf2897d0f76226",
+    "first_frontier/full_remaining_r46_m101_n400.txt.gz": "af2aa14cd106e39913f69f741b1ed525b972b9d263c3a08dc08e34e6431e8824",
+    "first_frontier/full_remaining_r46_m101_n401.txt.gz": "0170d1e659f5e61122e5474a0a7ecf9a4277d17ca3c369a9247ece530deb666a",
+    "first_frontier/full_remaining_r47_m100_n400.txt.gz": "da0965154f4d1593e1f4e3c4d75f4400bc81d70787f3352974ec9801897bc598",
+    "first_frontier/full_remaining_r47_m100_n401.txt.gz": "cdebddfa423e9a66fa661f072bbb40e5604a23a6b3a037a910ffabe528d5ce0c",
+    "first_frontier/full_remaining_r47_m101_n400.txt.gz": "026274a74be14c8a76b068c733b19b892c6c9b80d304c1e496ee5ab8a60a5eda",
+    "first_frontier/full_remaining_r47_m101_n401.txt.gz": "fe7a4e77983b5f699c3c5076b5b991f09bf553e800645b5f721acb4d4c53d482",
+    "first_frontier/full_remaining_r57_m100_n400.txt.gz": "5016d77b10c661ac244dfea4339172c7293057a46b14de0fd26c066af9efd863",
+    "first_frontier/full_remaining_r57_m100_n401.txt.gz": "6e238417b98b22c7bf0ec3ee1e3ce28dab00171d3d6a61d9579a957d53049cde",
+    "first_frontier/full_remaining_r57_m101_n400.txt.gz": "7304c63ca2d56be4a8fb2a4a55bbe2ecae83eb4576482f87dcbdd434f5034180",
+    "first_frontier/full_remaining_r57_m101_n401.txt.gz": "b3642c5fac98c7a28514ef9f5379baf5869dbd687829db9aae4fb3d9420cfcbc",
+    "first_frontier/full_remaining_r70_m100_n400.txt.gz": "735ce399b711ac753de7640227639b9b79af92e718cd5debc454fb07fdeaa918",
+    "first_frontier/full_remaining_r70_m100_n401.txt.gz": "bbdced9534e0b69da10658c4a73e7dd82af6fb6fe150cb341722f288af2a7186",
+    "first_frontier/full_remaining_r70_m101_n400.txt.gz": "aa205fb70a6b7ba850f817a01a38084bd5c90be11fb53cd53039fbe535de47b6",
+    "first_frontier/full_remaining_r70_m101_n401.txt.gz": "b57a5b38cc0e761657ad05307be17cbd81bf3feb351f9dadc3856a573bdae3b4",
+    "first_frontier/full_remaining_r72_m100_n400.txt.gz": "96e84696944b06afa9c75df367aa418396b20c57cf4fe0fb35dcbc38af38df03",
+    "first_frontier/full_remaining_r72_m100_n401.txt.gz": "9cd34fbdb07bee0378f52b7e44b7c64a805eb101034ed835f4032ae67f07116c",
+    "first_frontier/full_remaining_r72_m101_n400.txt.gz": "8c9bf3aab2d179e63e07e42886454a41a36d511c515f21ac932c613c7ea8b0da",
+    "first_frontier/full_remaining_r72_m101_n401.txt.gz": "4e9d8105784f4ed44ca420a96e6e75e8a9cea18551c99eca145d64f0120f78d6",
+    "first_frontier/full_remaining_r75_m100_n400.txt.gz": "8adbfdf63951d34dc396a2b843a28826726cb5fafe74f8aceab2aa5145ae42a0",
+    "first_frontier/full_remaining_r75_m100_n401.txt.gz": "b5bcc27c31fff7b22c82f5aeada08e8933032527131de507e3af1abeb537bd8e",
+    "first_frontier/full_remaining_r75_m101_n400.txt.gz": "852befed5b83a140b653c848d24f4f1032cc529e9e0e1ba88e9784486003c4cf",
+    "first_frontier/full_remaining_r75_m101_n401.txt.gz": "7d29a15ea3d64c4c74c432307c4f2e6a9264704e70dc3b576ad87f119cea58ff",
+    "first_frontier/full_remaining_template_r46.json": "ca606aca0a5884752b91f74461f98d1315c7c4fc6ed2cfd95d22ab9fc9c9f55a",
+    "first_frontier/full_remaining_template_r47.json": "ccdc22fa227e9bdc24fa055a4e110a3130a3e7a674698024426ca80e639c4123",
+    "first_frontier/full_remaining_template_r57.json": "57fd5d7008695f8579223f2401336b3f9320fb00c540714e9aca60e321eb2137",
+    "first_frontier/full_remaining_template_r70.json": "1fcdd354ddded0034eb223db3a7ab7458e72f07a0976f2106df91cae5925ccb9",
+    "first_frontier/full_remaining_template_r72.json": "04d599a9cfc71629bedf9fd324473edcfe709f4970358bf9471f657b002f6b52",
+    "first_frontier/full_remaining_template_r75.json": "db9b22ee546e6b2945018f7754766f17e513b3418ab478f5bd97019f3cdea0ae",
+    "first_frontier/ordinary_interfaces.json": "e23fee9764927ef7c99e81320d2acad50ae75bdcfec9263b09298b9860d23aea",
+    "first_frontier/remaining_certificate_r46.json": "8eb8c5b3f558a60111bdec87044e3f92a770f7df1a96632a61721a58c2894e17",
+    "first_frontier/remaining_certificate_r47.json": "b07b65a6a7dd1910050dda603bd321d59166c9f9a21e03b9608fbe5fcee19612",
+    "first_frontier/remaining_certificate_r57.json": "060b537704b91f8a45e13e60d8d1bdf0919ad56b9177e4faeb3249776acc4f5f",
+    "first_frontier/remaining_certificate_r70.json": "bcad17ed613012c467e5ab53d503ffe6efdcba310d67c92786324402f1b82f3e",
+    "first_frontier/remaining_certificate_r72.json": "6fb21f63844f859fcc5c617551dbcb3df004a1772d9d356a7fcb1b574342e401",
+    "first_frontier/remaining_certificate_r75.json": "a0af949b364a56459d3bc2d545ba09cb464fb220c4d16561e8cbfda3d4a8f0c3",
+    "first_frontier/scar_certificate.json": "557f349206fb9230787832a0b3998319a2eb5924e8d55ea60d8e32b2046c73c1",
+    "last_frontier/PROOF.md": "afa8204684fd1f6e6feee076bfc0af651db83544912b9654e916e3bcf46a102b",
+    "last_frontier/certify_full_return.py": "49d74ae43d83d5e829e2905b45f9042364217451864ee87325a7abbefe11d96b",
+    "last_frontier/certify_localized_scars.py": "d8efbe2ff1a0249b7f2f92f85e8f1f0055d2a85819a938f67501a190d32d9d10",
+    "last_frontier/certify_parallel_model.py": "01e1f73ca96d05b6fcdde2eec637cd6bc06abe779f00b9b2e2e98b4462ed650b",
+    "last_frontier/certify_strip_interface.py": "95d9c5c22dc0506358a79bbe1cdc4906062de240354370d7dad14ccbf0c1db67",
+    "last_frontier/discover_full_return.py": "1b008fcb1926cc7bfefbe5194a54ccea0929b812593006470b33d0c72a025cd0",
+    "last_frontier/discover_parallel_model.py": "03031e05bb80c2e96bd862a238a077df2ba3ec3f02c0ff4e627e69569742da8e",
+    "last_frontier/extract_full_return.py": "31bd306132b271c920c9a549670965ac968e16db3cb12683e20ae65299f35a10",
+    "last_frontier/full_field.py": "e394619e5f9c015ee7288957689e66f4b6805c1868bc3b1c5d2f101642d1bd10",
+    "last_frontier/full_return_certificate_r28.json": "9ed5806b1e83e3345c234bdd7dc354761bb6fa714f16c0122a5c7c7067d4951d",
+    "last_frontier/full_return_certificate_r60.json": "8aaa7fde4f3b636fd7567e29ff62e3aca5465e1b062a74d02dffedd7007a6cbf",
+    "last_frontier/full_return_certificate_r61.json": "1c8640f47dc572d0375737817b42a17f99e69a170d36ed672277e2a5b8d9f707",
+    "last_frontier/full_return_certificate_r70.json": "d4ce83d51d5396783ff415973abf348b0806a0f5a9f3533425d535140a4b7176",
+    "last_frontier/full_return_certificate_r75.json": "4845403437408bebc05647238bfc102c12b16df3481b4690977a41c8e9089563",
+    "last_frontier/full_return_discovery.json": "5d78225f351725a3f1681dac6e08bf99cbda46d696f63d5ddd686f20ce9fb382",
+    "last_frontier/full_return_r28_m100_n400.txt.gz": "9ceac29d5314f04ca467c85f000563f2477b5064e31b565104d23325f724cb8b",
+    "last_frontier/full_return_r28_m100_n401.txt.gz": "ceef6015ae4a6703f5f351d96a97871d91a94b8cf016ea4bf5aae138cf9ff2df",
+    "last_frontier/full_return_r28_m101_n400.txt.gz": "5681445628ce94217c1d6a15d77ce46c531a31c1b52a00a6ae991ee79d7e21ba",
+    "last_frontier/full_return_r28_m101_n401.txt.gz": "d5f6546eaa7e0a1bcc5c9c74c21d0bb735669ff678088002fe029049d147a39f",
+    "last_frontier/full_return_r60_m100_n400.txt.gz": "8ab9d5ac322dcebe4c7b2c2cb84747ee0ded3ac370155abfe6e1f4dca9db265a",
+    "last_frontier/full_return_r60_m100_n401.txt.gz": "aff1e444bf625641cc6574552555e8b2e16c9a058b6437de607cef7cbd6e513d",
+    "last_frontier/full_return_r60_m101_n400.txt.gz": "30ef056b774131809ad80e92bd4cdcf675bac90a32075c7fa497cf8527e6a5f5",
+    "last_frontier/full_return_r60_m101_n401.txt.gz": "17b381c477f0b3a900aa9330749801d9d6907dbd9a59f7ac80237f6aae4b33b8",
+    "last_frontier/full_return_r61_m100_n400.txt.gz": "a6f87498326373bfae738dedb6c30cd60e310849a540398e1f29735efb77a218",
+    "last_frontier/full_return_r61_m100_n401.txt.gz": "f4f22fccd62e117e55bce236c2a2c0de14bddc224aa9333b1d044f10f30481fa",
+    "last_frontier/full_return_r61_m101_n400.txt.gz": "14b64d02efb9caf361ed758aac250925806bb75b0147dfdba42c0d9fd2199b16",
+    "last_frontier/full_return_r61_m101_n401.txt.gz": "bb718c5f8b1d65847e58a57d3317ca65cc546a03791e53270ff12b0a13286875",
+    "last_frontier/full_return_r70_m100_n400.txt.gz": "f304c8e2598c33d8dadc63ec661669cf52b8a92ba3262220a927dd3297e26a53",
+    "last_frontier/full_return_r70_m100_n401.txt.gz": "9fb5c384a6bb38bdf1164ebe9ce01119dcbf6013811fa3ab0aa0aa9f195a0869",
+    "last_frontier/full_return_r70_m101_n400.txt.gz": "89182f4a76c4840f3646f1bff2b445a89804b0256f3c1e83e6d088ae94422269",
+    "last_frontier/full_return_r70_m101_n401.txt.gz": "fb051e3e89b072dc07f910025cfc2ca80af755d34da1cb5f0c1f83ae39dfa765",
+    "last_frontier/full_return_r75_m100_n400.txt.gz": "7337f122beda685c6a450844cc416b3ae94a94024e18fe1da7e481442342a7ef",
+    "last_frontier/full_return_r75_m100_n401.txt.gz": "a6fd5b97a9ee52e3f88de9a4e02a437d2a166b1ffb59147194b7defa82c78615",
+    "last_frontier/full_return_r75_m101_n400.txt.gz": "228d8eaa447720476fdb0ce6e04d314c3eec21b7945273a381c1d213246b9026",
+    "last_frontier/full_return_r75_m101_n401.txt.gz": "999f24f0d6238f2d677ca8197ed6325ea3ba40da344f0bfac01469ff45923dcd",
+    "last_frontier/full_return_template_r28.json": "145c97d3a0f9b24cf929736a9c4cc5e0cbcc9421ed1597066a3b046b87d1f0e9",
+    "last_frontier/full_return_template_r60.json": "1a8a74f9ad3c69fcbce7abd375ad074a78bf886c43a9ee0514ad9243fda04542",
+    "last_frontier/full_return_template_r61.json": "99e8c66f36efa279ab1acbdaa16c7eb63ac69e88976182ef849f98263e368ef7",
+    "last_frontier/full_return_template_r70.json": "b84bc0e71b016b52c45faa470c8e0c3476aac3c7e8e67dad164b8b81b031ab2b",
+    "last_frontier/full_return_template_r75.json": "c0f4ad5d81f98e83d8c50eb7a56ccc7b822c1a56f1f0c323c4374a76c284a844",
+    "last_frontier/localized_scars_certificate.json": "1d1b2d66bb8f62d63404626389fe9c31227b2dd81929fa4a7fd9f0a7cf83ba7a",
+    "last_frontier/parallel_model_certificate.json": "6567c62a4b67a42d66d40c34bada6d468d1dd4e0ccca3101be1b1093b587455f",
+    "last_frontier/parallel_model_discovery.json": "2a3ee549a6950429021cfa108ffe1e1b394129ca160db528e3ca05e39288a2c5",
+    "last_frontier/strip_interface.json": "4f8e017b269dec4a7903dbc8ed36d3c853d50e7fb7d435b8e170f01fd4bc7570",
+    "last_frontier/word_r13_mature1.txt.gz": "f5c36f78bedcd107ceabc198260f14926f6edfb5daaf5dcbae9ec4959ef66f35",
+    "last_frontier/word_r14_mature1.txt.gz": "6798af8e27b225d5041de841c3d4da0c5a28e6a62113894ae383a8c24558155b",
+    "last_frontier/word_r15_mature1.txt.gz": "d4bd7b2686b010f6a8d86430d6bbe845ea45ce640fd238950667d102a627ac0e",
+    "last_frontier/word_r27_mature1.txt.gz": "8dd17ba4b1d7a43ea51670d6deeef4883eaae6c0d4d4ce057532d65de3861170",
+    "last_frontier/word_r28_mature1.txt.gz": "ca55fdf77846943357a605f58ddb0ddc3aeb9aac11432dfd31a326f377074bc1",
+    "last_frontier/word_r29_mature1.txt.gz": "a9e248f8c40cf6f33a07f1bfa40a4b88412f82e173b1d59f69e926442bdf0aa6",
+    "last_frontier/word_r32_mature1.txt.gz": "4f712a07f51cf8a763322695610d86285887b877f2c84e434389a41034b7057f",
+    "last_frontier/word_r38_mature1.txt.gz": "bfd735fb41c8abaecf3f6c354c2733bdb3e9d751872c21556f38aabb50401f55",
+    "last_frontier/word_r45_mature1.txt.gz": "b49b5e210350c1995d8c393cb5b9ffd14feb7a9c5d2ee84b085601f530935d1e",
+    "last_frontier/word_r46_mature1.txt.gz": "0b71e19f92471e5618a902a6786c54d267387e1a78be0906c2a1b2276c3846f7",
+    "last_frontier/word_r47_mature1.txt.gz": "6e6a0fbe99e03bf3c2ed68e834e420b044fb1a40d1dc767c15b4ec09c02841fe",
+    "last_frontier/word_r55_mature1.txt.gz": "4f51c958027a6d96068134682c60b0544aebb7fc7a893c9034ac3a53bcf922ac",
+    "last_frontier/word_r56_mature1.txt.gz": "ea88b0fb199da4304512446cbbb47ff03bdfa722621c59cb04780c1744c0c713",
+    "last_frontier/word_r57_mature1.txt.gz": "eedc92a03769cc2651972db26960928c297f314eaabbb948c472fb543587fcaf",
+    "last_frontier/word_r60_mature1.txt.gz": "3b93a39a6413aa7562654dd39a3be2dc98655d1b59e9bc744f501bc63e07d8c2",
+    "last_frontier/word_r61_mature1.txt.gz": "cf11e186d5c73b4dce23e9d5e7584c71a7d027421a64d057140d2ec63bbf40b4",
+    "last_frontier/word_r62_mature1.txt.gz": "351dfaca699434691d8eefcee62d5e36233eab6647e8d76bb8fa78fb31e6484b",
+    "last_frontier/word_r70_mature1.txt.gz": "50259b7231a8f518bba803d542d5c5b449ede930223c247c61d07721296d497a",
+    "last_frontier/word_r71_mature1.txt.gz": "8a1d3fa09d938437dc9bd4ced1449cb292d6c42d55c6044552ca6a7f7718a9f6",
+    "last_frontier/word_r72_mature1.txt.gz": "54d27a51c69792967301e5a76279b35e9d761afb9fd01e5ac01ee16e672eba48",
+    "last_frontier/word_r75_mature1.txt.gz": "ee9cfd539c289362d18846dba5419f0face919d72eff8cfd7fe4848213779899",
+    "last_frontier/word_r89_mature1.txt.gz": "c5671d0ce051332368558d071437a30a8de8b847607bca3655f6ae2f748b8844",
+    "pristine_se_bands.json": "dbe641634210424020bdffc423f03ba29ed147da6d56a6f4371841aa97b964d3",
+    "upper_z_certificate.json": "ce6c15d5d55901d5945826465a7174662315dbbe0d57bff271cb779ca559cc8c"
+  },
+  "scope": "Mass-five recurrence exclusion under the established incidence and ordinary-channel lemmas; not a universal highway theorem or a mass-six theorem."
+}

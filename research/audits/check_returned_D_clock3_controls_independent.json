@@ -1,0 +1,870 @@
+{
+  "status": "PASS two complete finite D-entry clock3 controls and complete56-query no-U-entry fixed-word predecessor closure",
+  "manifest_sha256": "e117d854a0d158e67e0ed04859d43ca28aa3fdfb15487238c8c8d0903710e47e",
+  "controls": [
+    {
+      "word": "DCDDCVVCDDUFCD",
+      "seed_mass": 34,
+      "updates": 251,
+      "final_mass": 59,
+      "foreign_pose": [
+        [
+          2,
+          -5
+        ],
+        1
+      ],
+      "returned_pose": [
+        [
+          0,
+          -1
+        ],
+        3
+      ],
+      "old_source_contact_parameters": [
+        "0",
+        "1"
+      ],
+      "actual_source_bud_lifetime_reads": [
+        [
+          8,
+          "R",
+          "None"
+        ]
+      ],
+      "complete_reverse_tree": {
+        "()": [
+          "D"
+        ],
+        "('D',)": [
+          "DC",
+          "V"
+        ],
+        "('DC', 'D')": [
+          "D"
+        ],
+        "('V', 'D')": [],
+        "('D', 'DC', 'D')": []
+      }
+    },
+    {
+      "word": "DCDDCDDDCDDDDUFVC",
+      "seed_mass": 35,
+      "updates": 273,
+      "final_mass": 56,
+      "foreign_pose": [
+        [
+          3,
+          -4
+        ],
+        1
+      ],
+      "returned_pose": [
+        [
+          1,
+          0
+        ],
+        3
+      ],
+      "old_source_contact_parameters": [
+        "1/2",
+        "1/2"
+      ],
+      "actual_source_bud_lifetime_reads": [
+        [
+          8,
+          "R",
+          "None"
+        ],
+        [
+          224,
+          "L",
+          "('R', 8)"
+        ],
+        [
+          228,
+          "R",
+          "None"
+        ],
+        [
+          232,
+          "L",
+          "('R', 228)"
+        ]
+      ],
+      "complete_reverse_tree": {
+        "()": [
+          "V"
+        ],
+        "('V',)": []
+      }
+    }
+  ],
+  "all56_predecessor_queries": [
+    {
+      "control": 0,
+      "prefix": [],
+      "prepend": "D",
+      "legal": true,
+      "mass": 33
+    },
+    {
+      "control": 0,
+      "prefix": [],
+      "prepend": "DC",
+      "legal": false,
+      "tick0": 98,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick0": 2
+    },
+    {
+      "control": 0,
+      "prefix": [],
+      "prepend": "V",
+      "legal": false,
+      "tick0": 150,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick0": 2
+    },
+    {
+      "control": 0,
+      "prefix": [],
+      "prepend": "VC",
+      "legal": false,
+      "tick0": 107,
+      "cell": [
+        0,
+        1
+      ],
+      "first_tick0": 11
+    },
+    {
+      "control": 0,
+      "prefix": [],
+      "prepend": "VCC",
+      "legal": false,
+      "tick0": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick0": 19
+    },
+    {
+      "control": 0,
+      "prefix": [],
+      "prepend": "U",
+      "legal": false,
+      "tick0": 171,
+      "cell": [
+        0,
+        -1
+      ],
+      "first_tick0": 3
+    },
+    {
+      "control": 0,
+      "prefix": [],
+      "prepend": "UC",
+      "legal": false,
+      "tick0": 117,
+      "cell": [
+        -1,
+        2
+      ],
+      "first_tick0": 13
+    },
+    {
+      "control": 0,
+      "prefix": [],
+      "prepend": "UCC",
+      "legal": false,
+      "tick0": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick0": 29
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "D"
+      ],
+      "prepend": "D",
+      "legal": false,
+      "tick0": 117,
+      "cell": [
+        -1,
+        0
+      ],
+      "first_tick0": 1
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "D"
+      ],
+      "prepend": "DC",
+      "legal": true,
+      "mass": 32
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "D"
+      ],
+      "prepend": "V",
+      "legal": true,
+      "mass": 31
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "D"
+      ],
+      "prepend": "VC",
+      "legal": false,
+      "tick0": 127,
+      "cell": [
+        0,
+        1
+      ],
+      "first_tick0": 11
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "D"
+      ],
+      "prepend": "VCC",
+      "legal": false,
+      "tick0": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick0": 19
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "D"
+      ],
+      "prepend": "U",
+      "legal": false,
+      "tick0": 170,
+      "cell": [
+        -1,
+        1
+      ],
+      "first_tick0": 14
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "D"
+      ],
+      "prepend": "UC",
+      "legal": false,
+      "tick0": 137,
+      "cell": [
+        -1,
+        2
+      ],
+      "first_tick0": 13
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "D"
+      ],
+      "prepend": "UCC",
+      "legal": false,
+      "tick0": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick0": 29
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "DC",
+        "D"
+      ],
+      "prepend": "D",
+      "legal": true,
+      "mass": 32
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "DC",
+        "D"
+      ],
+      "prepend": "DC",
+      "legal": false,
+      "tick0": 106,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick0": 2
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "DC",
+        "D"
+      ],
+      "prepend": "V",
+      "legal": false,
+      "tick0": 139,
+      "cell": [
+        0,
+        1
+      ],
+      "first_tick0": 11
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "DC",
+        "D"
+      ],
+      "prepend": "VC",
+      "legal": false,
+      "tick0": 124,
+      "cell": [
+        0,
+        0
+      ],
+      "first_tick0": 0
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "DC",
+        "D"
+      ],
+      "prepend": "VCC",
+      "legal": false,
+      "tick0": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick0": 19
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "DC",
+        "D"
+      ],
+      "prepend": "U",
+      "legal": false,
+      "tick0": 149,
+      "cell": [
+        -1,
+        2
+      ],
+      "first_tick0": 13
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "DC",
+        "D"
+      ],
+      "prepend": "UC",
+      "legal": false,
+      "tick0": 135,
+      "cell": [
+        0,
+        1
+      ],
+      "first_tick0": 11
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "DC",
+        "D"
+      ],
+      "prepend": "UCC",
+      "legal": false,
+      "tick0": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick0": 29
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "V",
+        "D"
+      ],
+      "prepend": "D",
+      "legal": false,
+      "tick0": 180,
+      "cell": [
+        2,
+        0
+      ],
+      "first_tick0": 8
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "V",
+        "D"
+      ],
+      "prepend": "DC",
+      "legal": false,
+      "tick0": 172,
+      "cell": [
+        2,
+        0
+      ],
+      "first_tick0": 8
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "V",
+        "D"
+      ],
+      "prepend": "V",
+      "legal": false,
+      "tick0": 175,
+      "cell": [
+        0,
+        1
+      ],
+      "first_tick0": 11
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "V",
+        "D"
+      ],
+      "prepend": "VC",
+      "legal": false,
+      "tick0": 163,
+      "cell": [
+        0,
+        1
+      ],
+      "first_tick0": 11
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "V",
+        "D"
+      ],
+      "prepend": "VCC",
+      "legal": false,
+      "tick0": 77,
+      "cell": [
+        -1,
+        0
+      ],
+      "first_tick0": 1
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "V",
+        "D"
+      ],
+      "prepend": "U",
+      "legal": false,
+      "tick0": 185,
+      "cell": [
+        -1,
+        2
+      ],
+      "first_tick0": 13
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "V",
+        "D"
+      ],
+      "prepend": "UC",
+      "legal": false,
+      "tick0": 173,
+      "cell": [
+        -1,
+        2
+      ],
+      "first_tick0": 13
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "V",
+        "D"
+      ],
+      "prepend": "UCC",
+      "legal": false,
+      "tick0": 159,
+      "cell": [
+        0,
+        -1
+      ],
+      "first_tick0": 3
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "D",
+        "DC",
+        "D"
+      ],
+      "prepend": "D",
+      "legal": false,
+      "tick0": 140,
+      "cell": [
+        2,
+        0
+      ],
+      "first_tick0": 8
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "D",
+        "DC",
+        "D"
+      ],
+      "prepend": "DC",
+      "legal": false,
+      "tick0": 143,
+      "cell": [
+        0,
+        1
+      ],
+      "first_tick0": 11
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "D",
+        "DC",
+        "D"
+      ],
+      "prepend": "V",
+      "legal": false,
+      "tick0": 148,
+      "cell": [
+        2,
+        2
+      ],
+      "first_tick0": 16
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "D",
+        "DC",
+        "D"
+      ],
+      "prepend": "VC",
+      "legal": false,
+      "tick0": 135,
+      "cell": [
+        0,
+        1
+      ],
+      "first_tick0": 11
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "D",
+        "DC",
+        "D"
+      ],
+      "prepend": "VCC",
+      "legal": false,
+      "tick0": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick0": 19
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "D",
+        "DC",
+        "D"
+      ],
+      "prepend": "U",
+      "legal": false,
+      "tick0": 158,
+      "cell": [
+        1,
+        3
+      ],
+      "first_tick0": 26
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "D",
+        "DC",
+        "D"
+      ],
+      "prepend": "UC",
+      "legal": false,
+      "tick0": 145,
+      "cell": [
+        -1,
+        2
+      ],
+      "first_tick0": 13
+    },
+    {
+      "control": 0,
+      "prefix": [
+        "D",
+        "DC",
+        "D"
+      ],
+      "prepend": "UCC",
+      "legal": false,
+      "tick0": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick0": 29
+    },
+    {
+      "control": 1,
+      "prefix": [],
+      "prepend": "D",
+      "legal": false,
+      "tick0": 146,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick0": 2
+    },
+    {
+      "control": 1,
+      "prefix": [],
+      "prepend": "DC",
+      "legal": false,
+      "tick0": 106,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick0": 2
+    },
+    {
+      "control": 1,
+      "prefix": [],
+      "prepend": "V",
+      "legal": true,
+      "mass": 33
+    },
+    {
+      "control": 1,
+      "prefix": [],
+      "prepend": "VC",
+      "legal": false,
+      "tick0": 144,
+      "cell": [
+        2,
+        0
+      ],
+      "first_tick0": 8
+    },
+    {
+      "control": 1,
+      "prefix": [],
+      "prepend": "VCC",
+      "legal": false,
+      "tick0": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick0": 19
+    },
+    {
+      "control": 1,
+      "prefix": [],
+      "prepend": "U",
+      "legal": false,
+      "tick0": 174,
+      "cell": [
+        -1,
+        1
+      ],
+      "first_tick0": 14
+    },
+    {
+      "control": 1,
+      "prefix": [],
+      "prepend": "UC",
+      "legal": false,
+      "tick0": 134,
+      "cell": [
+        -1,
+        1
+      ],
+      "first_tick0": 14
+    },
+    {
+      "control": 1,
+      "prefix": [],
+      "prepend": "UCC",
+      "legal": false,
+      "tick0": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick0": 29
+    },
+    {
+      "control": 1,
+      "prefix": [
+        "V"
+      ],
+      "prepend": "D",
+      "legal": false,
+      "tick0": 184,
+      "cell": [
+        2,
+        0
+      ],
+      "first_tick0": 8
+    },
+    {
+      "control": 1,
+      "prefix": [
+        "V"
+      ],
+      "prepend": "DC",
+      "legal": false,
+      "tick0": 169,
+      "cell": [
+        -1,
+        0
+      ],
+      "first_tick0": 1
+    },
+    {
+      "control": 1,
+      "prefix": [
+        "V"
+      ],
+      "prepend": "V",
+      "legal": false,
+      "tick0": 179,
+      "cell": [
+        0,
+        1
+      ],
+      "first_tick0": 11
+    },
+    {
+      "control": 1,
+      "prefix": [
+        "V"
+      ],
+      "prepend": "VC",
+      "legal": false,
+      "tick0": 163,
+      "cell": [
+        0,
+        1
+      ],
+      "first_tick0": 11
+    },
+    {
+      "control": 1,
+      "prefix": [
+        "V"
+      ],
+      "prepend": "VCC",
+      "legal": false,
+      "tick0": 77,
+      "cell": [
+        -1,
+        0
+      ],
+      "first_tick0": 1
+    },
+    {
+      "control": 1,
+      "prefix": [
+        "V"
+      ],
+      "prepend": "U",
+      "legal": false,
+      "tick0": 189,
+      "cell": [
+        -1,
+        2
+      ],
+      "first_tick0": 13
+    },
+    {
+      "control": 1,
+      "prefix": [
+        "V"
+      ],
+      "prepend": "UC",
+      "legal": false,
+      "tick0": 173,
+      "cell": [
+        -1,
+        2
+      ],
+      "first_tick0": 13
+    },
+    {
+      "control": 1,
+      "prefix": [
+        "V"
+      ],
+      "prepend": "UCC",
+      "legal": false,
+      "tick0": 122,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick0": 2
+    }
+  ],
+  "scope": [
+    "Complete boards34/35 execute every prescribed fine read, including actual following D or own returned VC tail and actual M11 prefix. Old+F proxy is simple; returned rawC hits oldD start, returnedV crosses its midpoint.",
+    "Original D bud identity is tracked through actual reads, not inherited after replacement. In control2 F consumes the original token, writes a replacement, and returnedV reads that replacement.",
+    "Reverse predecessor BFS exhausts every feasible node using shortest necessary returned-atom+M11 suffix, with no depth limit and no U-family node. These FIXED words cannot have an earlier uninterrupted U-entry eight prefix.",
+    "The two target geometries are physically attained from D-entry. This does not prove U-entry attainment or exclude different histories reaching the same poses. No returned simplicity or global capture inference."
+  ]
+}

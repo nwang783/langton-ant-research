@@ -1,0 +1,1087 @@
+{
+  "scope": "Exact stream/voltage telescoping and an ACTUAL standard local sign control.",
+  "stream_formulas": {
+    "N_t": "h_t-h_(t+1)",
+    "S_t": "h_(t-2)-h_(t-3)",
+    "W_t": "h_(t+1)-h_(t-2)",
+    "E_t": "h_(t-3)-h_t",
+    "K_internal_even_cut": "c_right-h_(t-2)",
+    "K_next": "K+n-s",
+    "potential": "B=2K+w; B_next-B=4(eta-lambda)"
+  },
+  "algebra_controls": [
+    {
+      "cut": -4,
+      "lower_exterior_height": 1,
+      "K": 4,
+      "L_face_height": -3,
+      "cut_counts_signed_algebra": [
+        12,
+        5,
+        4,
+        13
+      ]
+    },
+    {
+      "cut": -4,
+      "lower_exterior_height": 3,
+      "K": 11,
+      "L_face_height": -8,
+      "cut_counts_signed_algebra": [
+        15,
+        16,
+        17,
+        14
+      ]
+    },
+    {
+      "cut": -4,
+      "lower_exterior_height": -4,
+      "K": -1,
+      "L_face_height": -3,
+      "cut_counts_signed_algebra": [
+        10,
+        -1,
+        -6,
+        15
+      ]
+    },
+    {
+      "cut": -4,
+      "lower_exterior_height": -3,
+      "K": 0,
+      "L_face_height": -3,
+      "cut_counts_signed_algebra": [
+        13,
+        2,
+        -4,
+        19
+      ]
+    },
+    {
+      "cut": -4,
+      "lower_exterior_height": -4,
+      "K": 3,
+      "L_face_height": -7,
+      "cut_counts_signed_algebra": [
+        13,
+        1,
+        5,
+        9
+      ]
+    },
+    {
+      "cut": -4,
+      "lower_exterior_height": 2,
+      "K": 11,
+      "L_face_height": -9,
+      "cut_counts_signed_algebra": [
+        3,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "cut": -4,
+      "lower_exterior_height": -2,
+      "K": -12,
+      "L_face_height": 10,
+      "cut_counts_signed_algebra": [
+        -1,
+        -17,
+        -20,
+        2
+      ]
+    },
+    {
+      "cut": -4,
+      "lower_exterior_height": 0,
+      "K": 4,
+      "L_face_height": -4,
+      "cut_counts_signed_algebra": [
+        14,
+        -3,
+        4,
+        7
+      ]
+    },
+    {
+      "cut": -4,
+      "lower_exterior_height": -1,
+      "K": 7,
+      "L_face_height": -8,
+      "cut_counts_signed_algebra": [
+        9,
+        3,
+        2,
+        10
+      ]
+    },
+    {
+      "cut": -4,
+      "lower_exterior_height": 4,
+      "K": 4,
+      "L_face_height": 0,
+      "cut_counts_signed_algebra": [
+        -9,
+        -4,
+        4,
+        -17
+      ]
+    },
+    {
+      "cut": -2,
+      "lower_exterior_height": 3,
+      "K": -3,
+      "L_face_height": 6,
+      "cut_counts_signed_algebra": [
+        2,
+        0,
+        -10,
+        12
+      ]
+    },
+    {
+      "cut": -2,
+      "lower_exterior_height": 4,
+      "K": 8,
+      "L_face_height": -4,
+      "cut_counts_signed_algebra": [
+        3,
+        9,
+        8,
+        4
+      ]
+    },
+    {
+      "cut": -2,
+      "lower_exterior_height": 3,
+      "K": 1,
+      "L_face_height": 2,
+      "cut_counts_signed_algebra": [
+        -2,
+        7,
+        8,
+        -3
+      ]
+    },
+    {
+      "cut": -2,
+      "lower_exterior_height": -2,
+      "K": -10,
+      "L_face_height": 8,
+      "cut_counts_signed_algebra": [
+        -7,
+        -2,
+        -9,
+        0
+      ]
+    },
+    {
+      "cut": -2,
+      "lower_exterior_height": 0,
+      "K": 3,
+      "L_face_height": -3,
+      "cut_counts_signed_algebra": [
+        -2,
+        5,
+        11,
+        -8
+      ]
+    },
+    {
+      "cut": -2,
+      "lower_exterior_height": 4,
+      "K": 2,
+      "L_face_height": 2,
+      "cut_counts_signed_algebra": [
+        -7,
+        -1,
+        -11,
+        3
+      ]
+    },
+    {
+      "cut": -2,
+      "lower_exterior_height": 1,
+      "K": 9,
+      "L_face_height": -8,
+      "cut_counts_signed_algebra": [
+        13,
+        -4,
+        12,
+        -3
+      ]
+    },
+    {
+      "cut": -2,
+      "lower_exterior_height": 2,
+      "K": 11,
+      "L_face_height": -9,
+      "cut_counts_signed_algebra": [
+        6,
+        -1,
+        10,
+        -5
+      ]
+    },
+    {
+      "cut": -2,
+      "lower_exterior_height": 3,
+      "K": -7,
+      "L_face_height": 10,
+      "cut_counts_signed_algebra": [
+        -4,
+        6,
+        -2,
+        4
+      ]
+    },
+    {
+      "cut": -2,
+      "lower_exterior_height": -3,
+      "K": -10,
+      "L_face_height": 7,
+      "cut_counts_signed_algebra": [
+        -6,
+        -12,
+        -13,
+        -5
+      ]
+    },
+    {
+      "cut": 0,
+      "lower_exterior_height": -1,
+      "K": -3,
+      "L_face_height": 2,
+      "cut_counts_signed_algebra": [
+        -11,
+        0,
+        5,
+        -16
+      ]
+    },
+    {
+      "cut": 0,
+      "lower_exterior_height": 1,
+      "K": 5,
+      "L_face_height": -4,
+      "cut_counts_signed_algebra": [
+        6,
+        2,
+        9,
+        -1
+      ]
+    },
+    {
+      "cut": 0,
+      "lower_exterior_height": -2,
+      "K": -1,
+      "L_face_height": -1,
+      "cut_counts_signed_algebra": [
+        4,
+        12,
+        8,
+        8
+      ]
+    },
+    {
+      "cut": 0,
+      "lower_exterior_height": 2,
+      "K": -3,
+      "L_face_height": 5,
+      "cut_counts_signed_algebra": [
+        -13,
+        18,
+        3,
+        2
+      ]
+    },
+    {
+      "cut": 0,
+      "lower_exterior_height": 0,
+      "K": 9,
+      "L_face_height": -9,
+      "cut_counts_signed_algebra": [
+        -1,
+        -8,
+        8,
+        -17
+      ]
+    },
+    {
+      "cut": 0,
+      "lower_exterior_height": -3,
+      "K": -7,
+      "L_face_height": 4,
+      "cut_counts_signed_algebra": [
+        5,
+        6,
+        3,
+        8
+      ]
+    },
+    {
+      "cut": 0,
+      "lower_exterior_height": -2,
+      "K": -8,
+      "L_face_height": 6,
+      "cut_counts_signed_algebra": [
+        -6,
+        12,
+        -1,
+        7
+      ]
+    },
+    {
+      "cut": 0,
+      "lower_exterior_height": -2,
+      "K": -12,
+      "L_face_height": 10,
+      "cut_counts_signed_algebra": [
+        -7,
+        -12,
+        -17,
+        -2
+      ]
+    },
+    {
+      "cut": 0,
+      "lower_exterior_height": 4,
+      "K": 7,
+      "L_face_height": -3,
+      "cut_counts_signed_algebra": [
+        -4,
+        -6,
+        -4,
+        -6
+      ]
+    },
+    {
+      "cut": 0,
+      "lower_exterior_height": -2,
+      "K": 3,
+      "L_face_height": -5,
+      "cut_counts_signed_algebra": [
+        0,
+        -9,
+        -4,
+        -5
+      ]
+    },
+    {
+      "cut": 2,
+      "lower_exterior_height": -3,
+      "K": 6,
+      "L_face_height": -9,
+      "cut_counts_signed_algebra": [
+        8,
+        15,
+        18,
+        5
+      ]
+    },
+    {
+      "cut": 2,
+      "lower_exterior_height": 2,
+      "K": 7,
+      "L_face_height": -5,
+      "cut_counts_signed_algebra": [
+        6,
+        8,
+        15,
+        -1
+      ]
+    },
+    {
+      "cut": 2,
+      "lower_exterior_height": 3,
+      "K": 3,
+      "L_face_height": 0,
+      "cut_counts_signed_algebra": [
+        -10,
+        -14,
+        -6,
+        -18
+      ]
+    },
+    {
+      "cut": 2,
+      "lower_exterior_height": 2,
+      "K": -5,
+      "L_face_height": 7,
+      "cut_counts_signed_algebra": [
+        -3,
+        -8,
+        -13,
+        2
+      ]
+    },
+    {
+      "cut": 2,
+      "lower_exterior_height": 0,
+      "K": -8,
+      "L_face_height": 8,
+      "cut_counts_signed_algebra": [
+        -15,
+        5,
+        -5,
+        -5
+      ]
+    },
+    {
+      "cut": 2,
+      "lower_exterior_height": -3,
+      "K": -10,
+      "L_face_height": 7,
+      "cut_counts_signed_algebra": [
+        -12,
+        2,
+        -12,
+        2
+      ]
+    },
+    {
+      "cut": 2,
+      "lower_exterior_height": 0,
+      "K": -2,
+      "L_face_height": 2,
+      "cut_counts_signed_algebra": [
+        -4,
+        -14,
+        -12,
+        -6
+      ]
+    },
+    {
+      "cut": 2,
+      "lower_exterior_height": 1,
+      "K": -2,
+      "L_face_height": 3,
+      "cut_counts_signed_algebra": [
+        -7,
+        -8,
+        -7,
+        -8
+      ]
+    },
+    {
+      "cut": 2,
+      "lower_exterior_height": 2,
+      "K": 11,
+      "L_face_height": -9,
+      "cut_counts_signed_algebra": [
+        13,
+        -1,
+        7,
+        5
+      ]
+    },
+    {
+      "cut": 2,
+      "lower_exterior_height": -4,
+      "K": -9,
+      "L_face_height": 5,
+      "cut_counts_signed_algebra": [
+        -15,
+        -10,
+        -5,
+        -20
+      ]
+    },
+    {
+      "cut": 4,
+      "lower_exterior_height": 1,
+      "K": 4,
+      "L_face_height": -3,
+      "cut_counts_signed_algebra": [
+        10,
+        12,
+        7,
+        15
+      ]
+    },
+    {
+      "cut": 4,
+      "lower_exterior_height": -3,
+      "K": -13,
+      "L_face_height": 10,
+      "cut_counts_signed_algebra": [
+        -19,
+        -1,
+        -2,
+        -18
+      ]
+    },
+    {
+      "cut": 4,
+      "lower_exterior_height": -4,
+      "K": -9,
+      "L_face_height": 5,
+      "cut_counts_signed_algebra": [
+        -11,
+        -4,
+        -15,
+        0
+      ]
+    },
+    {
+      "cut": 4,
+      "lower_exterior_height": 1,
+      "K": -3,
+      "L_face_height": 4,
+      "cut_counts_signed_algebra": [
+        -10,
+        -6,
+        -3,
+        -13
+      ]
+    },
+    {
+      "cut": 4,
+      "lower_exterior_height": -4,
+      "K": 2,
+      "L_face_height": -6,
+      "cut_counts_signed_algebra": [
+        6,
+        0,
+        7,
+        -1
+      ]
+    },
+    {
+      "cut": 4,
+      "lower_exterior_height": 1,
+      "K": 10,
+      "L_face_height": -9,
+      "cut_counts_signed_algebra": [
+        14,
+        3,
+        9,
+        8
+      ]
+    },
+    {
+      "cut": 4,
+      "lower_exterior_height": 4,
+      "K": 14,
+      "L_face_height": -10,
+      "cut_counts_signed_algebra": [
+        14,
+        -6,
+        1,
+        7
+      ]
+    },
+    {
+      "cut": 4,
+      "lower_exterior_height": -1,
+      "K": -11,
+      "L_face_height": 10,
+      "cut_counts_signed_algebra": [
+        -17,
+        -7,
+        -7,
+        -17
+      ]
+    },
+    {
+      "cut": 4,
+      "lower_exterior_height": -4,
+      "K": 6,
+      "L_face_height": -10,
+      "cut_counts_signed_algebra": [
+        18,
+        0,
+        18,
+        0
+      ]
+    },
+    {
+      "cut": 4,
+      "lower_exterior_height": 4,
+      "K": -4,
+      "L_face_height": 8,
+      "cut_counts_signed_algebra": [
+        -10,
+        -9,
+        -12,
+        -7
+      ]
+    },
+    {
+      "cut": 6,
+      "lower_exterior_height": 1,
+      "K": -4,
+      "L_face_height": 5,
+      "cut_counts_signed_algebra": [
+        5,
+        -14,
+        -14,
+        5
+      ]
+    },
+    {
+      "cut": 6,
+      "lower_exterior_height": -1,
+      "K": 6,
+      "L_face_height": -7,
+      "cut_counts_signed_algebra": [
+        0,
+        4,
+        9,
+        -5
+      ]
+    },
+    {
+      "cut": 6,
+      "lower_exterior_height": -2,
+      "K": 0,
+      "L_face_height": -2,
+      "cut_counts_signed_algebra": [
+        -1,
+        7,
+        -1,
+        7
+      ]
+    },
+    {
+      "cut": 6,
+      "lower_exterior_height": 2,
+      "K": -6,
+      "L_face_height": 8,
+      "cut_counts_signed_algebra": [
+        -17,
+        1,
+        -11,
+        -5
+      ]
+    },
+    {
+      "cut": 6,
+      "lower_exterior_height": -4,
+      "K": -13,
+      "L_face_height": 9,
+      "cut_counts_signed_algebra": [
+        -17,
+        -11,
+        -14,
+        -14
+      ]
+    },
+    {
+      "cut": 6,
+      "lower_exterior_height": 3,
+      "K": 8,
+      "L_face_height": -5,
+      "cut_counts_signed_algebra": [
+        5,
+        -4,
+        -4,
+        5
+      ]
+    },
+    {
+      "cut": 6,
+      "lower_exterior_height": -4,
+      "K": -4,
+      "L_face_height": 0,
+      "cut_counts_signed_algebra": [
+        -2,
+        -9,
+        -4,
+        -7
+      ]
+    },
+    {
+      "cut": 6,
+      "lower_exterior_height": 1,
+      "K": -7,
+      "L_face_height": 8,
+      "cut_counts_signed_algebra": [
+        -4,
+        -2,
+        -9,
+        3
+      ]
+    },
+    {
+      "cut": 6,
+      "lower_exterior_height": 2,
+      "K": 2,
+      "L_face_height": 0,
+      "cut_counts_signed_algebra": [
+        -4,
+        9,
+        8,
+        -3
+      ]
+    },
+    {
+      "cut": 6,
+      "lower_exterior_height": 3,
+      "K": 4,
+      "L_face_height": -1,
+      "cut_counts_signed_algebra": [
+        10,
+        -5,
+        -6,
+        11
+      ]
+    },
+    {
+      "cut": 8,
+      "lower_exterior_height": 4,
+      "K": 2,
+      "L_face_height": 2,
+      "cut_counts_signed_algebra": [
+        7,
+        7,
+        5,
+        9
+      ]
+    },
+    {
+      "cut": 8,
+      "lower_exterior_height": 4,
+      "K": 1,
+      "L_face_height": 3,
+      "cut_counts_signed_algebra": [
+        -8,
+        -12,
+        -9,
+        -11
+      ]
+    },
+    {
+      "cut": 8,
+      "lower_exterior_height": -4,
+      "K": 3,
+      "L_face_height": -7,
+      "cut_counts_signed_algebra": [
+        2,
+        -4,
+        4,
+        -6
+      ]
+    },
+    {
+      "cut": 8,
+      "lower_exterior_height": 1,
+      "K": 7,
+      "L_face_height": -6,
+      "cut_counts_signed_algebra": [
+        13,
+        -13,
+        1,
+        -1
+      ]
+    },
+    {
+      "cut": 8,
+      "lower_exterior_height": 3,
+      "K": -7,
+      "L_face_height": 10,
+      "cut_counts_signed_algebra": [
+        -20,
+        1,
+        -12,
+        -7
+      ]
+    },
+    {
+      "cut": 8,
+      "lower_exterior_height": 3,
+      "K": -6,
+      "L_face_height": 9,
+      "cut_counts_signed_algebra": [
+        0,
+        -10,
+        -14,
+        4
+      ]
+    },
+    {
+      "cut": 8,
+      "lower_exterior_height": -1,
+      "K": -8,
+      "L_face_height": 7,
+      "cut_counts_signed_algebra": [
+        3,
+        -8,
+        -15,
+        10
+      ]
+    },
+    {
+      "cut": 8,
+      "lower_exterior_height": 0,
+      "K": -3,
+      "L_face_height": 3,
+      "cut_counts_signed_algebra": [
+        -5,
+        -1,
+        3,
+        -9
+      ]
+    },
+    {
+      "cut": 8,
+      "lower_exterior_height": 3,
+      "K": -6,
+      "L_face_height": 9,
+      "cut_counts_signed_algebra": [
+        -15,
+        -10,
+        -10,
+        -15
+      ]
+    },
+    {
+      "cut": 8,
+      "lower_exterior_height": 1,
+      "K": 6,
+      "L_face_height": -5,
+      "cut_counts_signed_algebra": [
+        11,
+        -8,
+        -5,
+        8
+      ]
+    }
+  ],
+  "actual_standard_control": {
+    "source_sha256": "8083f7a1235db179c62ae12d85ba31a903a4f9f99bd0e72dfe5285c5422610a6",
+    "word": "LRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLR",
+    "heading": 3,
+    "full_drift": [
+      -2,
+      -2
+    ],
+    "H_position": [
+      1,
+      -1
+    ],
+    "V_position": [
+      0,
+      -1
+    ],
+    "H_stable_complete_events": [
+      [
+        -162,
+        {
+          "t": 46,
+          "p": [
+            -3,
+            -5
+          ],
+          "hi": 3,
+          "ho": 0,
+          "c": "R"
+        }
+      ],
+      [
+        -154,
+        {
+          "t": 54,
+          "p": [
+            -3,
+            -5
+          ],
+          "hi": 3,
+          "ho": 2,
+          "c": "L"
+        }
+      ],
+      [
+        -150,
+        {
+          "t": 58,
+          "p": [
+            -3,
+            -5
+          ],
+          "hi": 1,
+          "ho": 2,
+          "c": "R"
+        }
+      ],
+      [
+        -142,
+        {
+          "t": 66,
+          "p": [
+            -3,
+            -5
+          ],
+          "hi": 3,
+          "ho": 2,
+          "c": "L"
+        }
+      ],
+      [
+        -98,
+        {
+          "t": 6,
+          "p": [
+            -1,
+            -3
+          ],
+          "hi": 3,
+          "ho": 0,
+          "c": "R"
+        }
+      ],
+      [
+        -70,
+        {
+          "t": 34,
+          "p": [
+            -1,
+            -3
+          ],
+          "hi": 1,
+          "ho": 0,
+          "c": "L"
+        }
+      ],
+      [
+        -62,
+        {
+          "t": 42,
+          "p": [
+            -1,
+            -3
+          ],
+          "hi": 1,
+          "ho": 2,
+          "c": "R"
+        }
+      ],
+      [
+        -22,
+        {
+          "t": 82,
+          "p": [
+            -1,
+            -3
+          ],
+          "hi": 3,
+          "ho": 2,
+          "c": "L"
+        }
+      ]
+    ],
+    "V_stable_complete_events": [
+      [
+        -151,
+        {
+          "t": 57,
+          "p": [
+            -4,
+            -5
+          ],
+          "hi": 0,
+          "ho": 1,
+          "c": "R"
+        }
+      ],
+      [
+        -71,
+        {
+          "t": 33,
+          "p": [
+            -2,
+            -3
+          ],
+          "hi": 2,
+          "ho": 1,
+          "c": "L"
+        }
+      ],
+      [
+        -67,
+        {
+          "t": 37,
+          "p": [
+            -2,
+            -3
+          ],
+          "hi": 2,
+          "ho": 3,
+          "c": "R"
+        }
+      ],
+      [
+        -63,
+        {
+          "t": 41,
+          "p": [
+            -2,
+            -3
+          ],
+          "hi": 2,
+          "ho": 1,
+          "c": "L"
+        }
+      ],
+      [
+        1,
+        {
+          "t": 1,
+          "p": [
+            0,
+            -1
+          ],
+          "hi": 2,
+          "ho": 3,
+          "c": "R"
+        }
+      ],
+      [
+        9,
+        {
+          "t": 9,
+          "p": [
+            0,
+            -1
+          ],
+          "hi": 0,
+          "ho": 3,
+          "c": "L"
+        }
+      ],
+      [
+        21,
+        {
+          "t": 21,
+          "p": [
+            0,
+            -1
+          ],
+          "hi": 2,
+          "ho": 3,
+          "c": "R"
+        }
+      ],
+      [
+        101,
+        {
+          "t": 101,
+          "p": [
+            0,
+            -1
+          ],
+          "hi": 0,
+          "ho": 3,
+          "c": "L"
+        }
+      ]
+    ],
+    "lambda_W_at_L": 3,
+    "eta_N_at_L": 2,
+    "warning": "Actual complete WHITE standard104, but NOT drift(3,1) or growth8. It refutes a universal LOCAL eta>=lambda inference only."
+  },
+  "limits": "No global bound on K, monotonicity in the particular middle-short reachable family, or controller is established."
+}

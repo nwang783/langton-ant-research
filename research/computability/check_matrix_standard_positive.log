@@ -1,0 +1,111 @@
+BUILD
+CARRY {'raw_difference_states': 143063, 'lyapunov_P': ['4/3', '0', '4/3'], 'inverse_contraction_upper': '1/2', 'offset_difference_norm_ceiling': 22, 'carry_radius': 22} seconds 3.889466768996499
+EQ 5357 seconds 4.459141888000886
+INVERSE {'first_left_times_finite': True, 'first_left_dfa_states': 24, 'bad_alternation_witness': None, 'bad_alternation_dfa_states': 1, 'repeated_cell_witness': {'s': 7, 't': 3}} seconds 10.879428485000972
+{
+  "status": "PASS genuine finite-support standard104 positive control",
+  "source": "ant_global/root/standard.json",
+  "matrix": [
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "radix": 2,
+  "states": 104,
+  "raw_difference_states": 143063,
+  "lyapunov_P": [
+    "4/3",
+    "0",
+    "4/3"
+  ],
+  "inverse_contraction_upper": "1/2",
+  "offset_difference_norm_ceiling": 22,
+  "carry_radius": 22,
+  "equal_cell_states": 5357,
+  "first_left_times_finite": true,
+  "first_left_dfa_states": 24,
+  "bad_alternation_witness": null,
+  "bad_alternation_dfa_states": 1,
+  "repeated_cell_witness": {
+    "s": 7,
+    "t": 3
+  },
+  "first_L_bound_witness": 112,
+  "first_L_times": [
+    0,
+    2,
+    3,
+    11,
+    12,
+    33,
+    44,
+    50,
+    76,
+    77,
+    80,
+    98,
+    99
+  ],
+  "minimal_seed": [
+    [
+      -6,
+      0
+    ],
+    [
+      -5,
+      0
+    ],
+    [
+      -5,
+      1
+    ],
+    [
+      -4,
+      0
+    ],
+    [
+      -4,
+      2
+    ],
+    [
+      -3,
+      -1
+    ],
+    [
+      -3,
+      2
+    ],
+    [
+      -2,
+      -1
+    ],
+    [
+      -2,
+      1
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "minimal_seed_size": 13,
+  "literal_pair_checks": 160000,
+  "elapsed_seconds": 12.550038055996993
+}

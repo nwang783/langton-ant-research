@@ -1,0 +1,68 @@
+{
+  "status": "PASS genuine opposed whole-board S-row transformations, same sector and true-history endpoint K",
+  "note_sha256": "494a0303568756ac7d2dd0e7a19259a25b4a55c93037651e4b68b55e0bf65e52",
+  "literal_controls": [
+    [
+      3,
+      0,
+      12,
+      11
+    ],
+    [
+      3,
+      2,
+      12,
+      11
+    ],
+    [
+      4,
+      0,
+      16,
+      15
+    ],
+    [
+      4,
+      2,
+      16,
+      15
+    ],
+    [
+      5,
+      0,
+      20,
+      19
+    ],
+    [
+      5,
+      2,
+      20,
+      19
+    ],
+    [
+      10,
+      0,
+      40,
+      39
+    ],
+    [
+      10,
+      2,
+      40,
+      39
+    ],
+    [
+      31,
+      0,
+      124,
+      123
+    ],
+    [
+      31,
+      2,
+      124,
+      123
+    ]
+  ],
+  "all_n_proof": "S at(0,0,N) reads0R,1L,1+i L,i R and ends2i,N; translations by2i concatenate disjoint four-cell strips. Proper180 rotation gives exact opposite whole-board map. All four periodic10 factors are bad; last read isK for n>=3.",
+  "scope": "Excludes universal strictly decreasing natural-valued exact-K-renewal ranks using current board, heading AND conserved sector while forgetting cursor position. Opposed S factors give board-only cycle; alternating S/T gives infinite same-heading/sector projected descent. Different ant poses do not concatenate into a physical cycle. Full-state ranks and initial spatial upper bounds remain open."
+}

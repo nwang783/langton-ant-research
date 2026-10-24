@@ -1,0 +1,71 @@
+{
+  "pre_core_read_upper": {
+    "u": 56,
+    "z": 35
+  },
+  "negative_control": "future marker at NE depth10^60 rejected",
+  "status": "complete finite q history, after counterclockwise rotation, equals the audited NW plus old-SE-rail model on the entire strip",
+  "domain": "m>=100,k=n-m>=100",
+  "model_strip_u": [
+    -200,
+    200
+  ],
+  "actual_source_strip_z": [
+    -200,
+    200
+  ],
+  "actual_to_model_rotation": "(x,y)->(-y,x)",
+  "source_origin": [
+    [
+      -2,
+      0,
+      -194
+    ],
+    [
+      -2,
+      0,
+      -243
+    ]
+  ],
+  "source_time": [
+    104,
+    208,
+    93127
+  ],
+  "old_SE_rail_offset": [
+    3,
+    -77
+  ],
+  "fresh_phases": [
+    13,
+    14,
+    15,
+    27,
+    28,
+    29,
+    32,
+    38,
+    45,
+    46,
+    47,
+    55,
+    56,
+    57,
+    60,
+    61,
+    62,
+    70,
+    71,
+    72,
+    75,
+    89
+  ],
+  "pre_core_nonincidences": 126720,
+  "strip_translation_classes": 42,
+  "included_terms": 101,
+  "discarded_terms": {
+    "point": 2924
+  },
+  "source_template_sha256": "16246ec40cbdd4ad94c35698992582b27a942dc7d539683f1b3684892cd5687d",
+  "scope": "This proves exact initial-field equality only inside the strip. A future trajectory transfers only if every one of its reads remains inside, or until its first exit."
+}

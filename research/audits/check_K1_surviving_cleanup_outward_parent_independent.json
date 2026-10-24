@@ -1,0 +1,21 @@
+{
+  "status": "PASS surviving cleanup earlier Q1 boundary and both outward parent alternatives",
+  "note_sha256": "74d7dfec6ad1399805696b84f9130e9bb190e59015d059fe96720565550e5428",
+  "rows": 54,
+  "parent_choices": [
+    [
+      -4,
+      0
+    ],
+    [
+      -4,
+      2
+    ]
+  ],
+  "chain_turns": [
+    "RIGHT",
+    "STRAIGHT"
+  ],
+  "analytic": "The actual complete R0s at g(S) and f(E) both traverse a Q1 input edge before its output, excluding both right birth corners. Port equality fR0=gR0-1 means the Q1 input edge is traversed at gamma-2. gR0<=gL1-4=delta-6 and delta<=alpha-4 give B(Q1)<=alpha-12; canonical parent gap5 gives B(p(Q1))<=alpha-17. Only one of the two left faces must be the max parent.",
+  "scope": "Finite same-component canonical supplier chain in physical lifts. Either parent may alias an earlier quotient class; no distinct resource, iterative pattern, extra overlapping clock or global K1 exclusion."
+}

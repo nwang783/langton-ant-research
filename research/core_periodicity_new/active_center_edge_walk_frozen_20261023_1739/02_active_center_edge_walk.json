@@ -1,0 +1,2261 @@
+{
+  "status": "AUTHOR_EXACT_ACTIVE_VERTEX_EDGE_TOGGLE_FORMULATION",
+  "scope": "Physical fine-step coordinate equivalence and explicit marked-core ports only. No residual incidence embedding or fine-walk simplicity.",
+  "local_eight_cases": [
+    {
+      "heading": 0,
+      "turn": "L",
+      "center_displacement": [
+        0,
+        0
+      ],
+      "pointer_displacement": [
+        -1,
+        1
+      ]
+    },
+    {
+      "heading": 0,
+      "turn": "R",
+      "center_displacement": [
+        1,
+        1
+      ],
+      "pointer_displacement": [
+        1,
+        -1
+      ]
+    },
+    {
+      "heading": 1,
+      "turn": "L",
+      "center_displacement": [
+        0,
+        0
+      ],
+      "pointer_displacement": [
+        1,
+        1
+      ]
+    },
+    {
+      "heading": 1,
+      "turn": "R",
+      "center_displacement": [
+        1,
+        -1
+      ],
+      "pointer_displacement": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "heading": 2,
+      "turn": "L",
+      "center_displacement": [
+        0,
+        0
+      ],
+      "pointer_displacement": [
+        1,
+        -1
+      ]
+    },
+    {
+      "heading": 2,
+      "turn": "R",
+      "center_displacement": [
+        -1,
+        -1
+      ],
+      "pointer_displacement": [
+        -1,
+        1
+      ]
+    },
+    {
+      "heading": 3,
+      "turn": "L",
+      "center_displacement": [
+        0,
+        0
+      ],
+      "pointer_displacement": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "heading": 3,
+      "turn": "R",
+      "center_displacement": [
+        -1,
+        1
+      ],
+      "pointer_displacement": [
+        1,
+        1
+      ]
+    }
+  ],
+  "atomic_traces": {
+    "D": {
+      "raw_length": 10,
+      "R_traversals": 5,
+      "L_deletions": 5,
+      "exit_pose": [
+        1,
+        1,
+        0
+      ],
+      "R_walk_relative_to_entry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "all_reads": [
+        {
+          "tick": 0,
+          "turn": "L",
+          "head": [
+            0,
+            0
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "-1/2",
+              "-1/2"
+            ],
+            [
+              "1/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "-1/2"
+          ]
+        },
+        {
+          "tick": 1,
+          "turn": "L",
+          "head": [
+            -1,
+            0
+          ],
+          "entry_heading": 3,
+          "edge": [
+            [
+              "-3/2",
+              "1/2"
+            ],
+            [
+              "-1/2",
+              "-1/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "-1/2"
+          ]
+        },
+        {
+          "tick": 2,
+          "turn": "L",
+          "head": [
+            -1,
+            -1
+          ],
+          "entry_heading": 2,
+          "edge": [
+            [
+              "-3/2",
+              "-3/2"
+            ],
+            [
+              "-1/2",
+              "-1/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "-1/2"
+          ]
+        },
+        {
+          "tick": 3,
+          "turn": "L",
+          "head": [
+            0,
+            -1
+          ],
+          "entry_heading": 1,
+          "edge": [
+            [
+              "-1/2",
+              "-1/2"
+            ],
+            [
+              "1/2",
+              "-3/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "-1/2"
+          ]
+        },
+        {
+          "tick": 4,
+          "turn": "R",
+          "head": [
+            0,
+            0
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "-1/2",
+              "-1/2"
+            ],
+            [
+              "1/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "1/2",
+            "1/2"
+          ]
+        },
+        {
+          "tick": 5,
+          "turn": "L",
+          "head": [
+            1,
+            0
+          ],
+          "entry_heading": 1,
+          "edge": [
+            [
+              "1/2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "-1/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "1/2"
+          ],
+          "center_after": [
+            "1/2",
+            "1/2"
+          ]
+        },
+        {
+          "tick": 6,
+          "turn": "R",
+          "head": [
+            1,
+            1
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "1/2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "3/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "1/2"
+          ],
+          "center_after": [
+            "3/2",
+            "3/2"
+          ]
+        },
+        {
+          "tick": 7,
+          "turn": "R",
+          "head": [
+            2,
+            1
+          ],
+          "entry_heading": 1,
+          "edge": [
+            [
+              "3/2",
+              "3/2"
+            ],
+            [
+              "5/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "3/2",
+            "3/2"
+          ],
+          "center_after": [
+            "5/2",
+            "1/2"
+          ]
+        },
+        {
+          "tick": 8,
+          "turn": "R",
+          "head": [
+            2,
+            0
+          ],
+          "entry_heading": 2,
+          "edge": [
+            [
+              "3/2",
+              "-1/2"
+            ],
+            [
+              "5/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "5/2",
+            "1/2"
+          ],
+          "center_after": [
+            "3/2",
+            "-1/2"
+          ]
+        },
+        {
+          "tick": 9,
+          "turn": "R",
+          "head": [
+            1,
+            0
+          ],
+          "entry_heading": 3,
+          "edge": [
+            [
+              "1/2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "-1/2"
+            ]
+          ],
+          "center_before": [
+            "3/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "1/2",
+            "1/2"
+          ]
+        }
+      ]
+    },
+    "V": {
+      "raw_length": 18,
+      "R_traversals": 11,
+      "L_deletions": 7,
+      "exit_pose": [
+        1,
+        3,
+        0
+      ],
+      "R_walk_relative_to_entry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "all_reads": [
+        {
+          "tick": 0,
+          "turn": "L",
+          "head": [
+            0,
+            0
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "-1/2",
+              "-1/2"
+            ],
+            [
+              "1/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "-1/2"
+          ]
+        },
+        {
+          "tick": 1,
+          "turn": "L",
+          "head": [
+            -1,
+            0
+          ],
+          "entry_heading": 3,
+          "edge": [
+            [
+              "-3/2",
+              "1/2"
+            ],
+            [
+              "-1/2",
+              "-1/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "-1/2"
+          ]
+        },
+        {
+          "tick": 2,
+          "turn": "L",
+          "head": [
+            -1,
+            -1
+          ],
+          "entry_heading": 2,
+          "edge": [
+            [
+              "-3/2",
+              "-3/2"
+            ],
+            [
+              "-1/2",
+              "-1/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "-1/2"
+          ]
+        },
+        {
+          "tick": 3,
+          "turn": "L",
+          "head": [
+            0,
+            -1
+          ],
+          "entry_heading": 1,
+          "edge": [
+            [
+              "-1/2",
+              "-1/2"
+            ],
+            [
+              "1/2",
+              "-3/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "-1/2"
+          ]
+        },
+        {
+          "tick": 4,
+          "turn": "R",
+          "head": [
+            0,
+            0
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "-1/2",
+              "-1/2"
+            ],
+            [
+              "1/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "1/2",
+            "1/2"
+          ]
+        },
+        {
+          "tick": 5,
+          "turn": "L",
+          "head": [
+            1,
+            0
+          ],
+          "entry_heading": 1,
+          "edge": [
+            [
+              "1/2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "-1/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "1/2"
+          ],
+          "center_after": [
+            "1/2",
+            "1/2"
+          ]
+        },
+        {
+          "tick": 6,
+          "turn": "R",
+          "head": [
+            1,
+            1
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "1/2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "3/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "1/2"
+          ],
+          "center_after": [
+            "3/2",
+            "3/2"
+          ]
+        },
+        {
+          "tick": 7,
+          "turn": "R",
+          "head": [
+            2,
+            1
+          ],
+          "entry_heading": 1,
+          "edge": [
+            [
+              "3/2",
+              "3/2"
+            ],
+            [
+              "5/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "3/2",
+            "3/2"
+          ],
+          "center_after": [
+            "5/2",
+            "1/2"
+          ]
+        },
+        {
+          "tick": 8,
+          "turn": "R",
+          "head": [
+            2,
+            0
+          ],
+          "entry_heading": 2,
+          "edge": [
+            [
+              "3/2",
+              "-1/2"
+            ],
+            [
+              "5/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "5/2",
+            "1/2"
+          ],
+          "center_after": [
+            "3/2",
+            "-1/2"
+          ]
+        },
+        {
+          "tick": 9,
+          "turn": "R",
+          "head": [
+            1,
+            0
+          ],
+          "entry_heading": 3,
+          "edge": [
+            [
+              "1/2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "-1/2"
+            ]
+          ],
+          "center_before": [
+            "3/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "1/2",
+            "1/2"
+          ]
+        },
+        {
+          "tick": 10,
+          "turn": "L",
+          "head": [
+            1,
+            1
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "1/2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "3/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "1/2"
+          ],
+          "center_after": [
+            "1/2",
+            "1/2"
+          ]
+        },
+        {
+          "tick": 11,
+          "turn": "R",
+          "head": [
+            0,
+            1
+          ],
+          "entry_heading": 3,
+          "edge": [
+            [
+              "-1/2",
+              "3/2"
+            ],
+            [
+              "1/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "1/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "3/2"
+          ]
+        },
+        {
+          "tick": 12,
+          "turn": "R",
+          "head": [
+            0,
+            2
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "-1/2",
+              "3/2"
+            ],
+            [
+              "1/2",
+              "5/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "3/2"
+          ],
+          "center_after": [
+            "1/2",
+            "5/2"
+          ]
+        },
+        {
+          "tick": 13,
+          "turn": "L",
+          "head": [
+            1,
+            2
+          ],
+          "entry_heading": 1,
+          "edge": [
+            [
+              "1/2",
+              "5/2"
+            ],
+            [
+              "3/2",
+              "3/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "5/2"
+          ],
+          "center_after": [
+            "1/2",
+            "5/2"
+          ]
+        },
+        {
+          "tick": 14,
+          "turn": "R",
+          "head": [
+            1,
+            3
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "1/2",
+              "5/2"
+            ],
+            [
+              "3/2",
+              "7/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "5/2"
+          ],
+          "center_after": [
+            "3/2",
+            "7/2"
+          ]
+        },
+        {
+          "tick": 15,
+          "turn": "R",
+          "head": [
+            2,
+            3
+          ],
+          "entry_heading": 1,
+          "edge": [
+            [
+              "3/2",
+              "7/2"
+            ],
+            [
+              "5/2",
+              "5/2"
+            ]
+          ],
+          "center_before": [
+            "3/2",
+            "7/2"
+          ],
+          "center_after": [
+            "5/2",
+            "5/2"
+          ]
+        },
+        {
+          "tick": 16,
+          "turn": "R",
+          "head": [
+            2,
+            2
+          ],
+          "entry_heading": 2,
+          "edge": [
+            [
+              "3/2",
+              "3/2"
+            ],
+            [
+              "5/2",
+              "5/2"
+            ]
+          ],
+          "center_before": [
+            "5/2",
+            "5/2"
+          ],
+          "center_after": [
+            "3/2",
+            "3/2"
+          ]
+        },
+        {
+          "tick": 17,
+          "turn": "R",
+          "head": [
+            1,
+            2
+          ],
+          "entry_heading": 3,
+          "edge": [
+            [
+              "1/2",
+              "5/2"
+            ],
+            [
+              "3/2",
+              "3/2"
+            ]
+          ],
+          "center_before": [
+            "3/2",
+            "3/2"
+          ],
+          "center_after": [
+            "1/2",
+            "5/2"
+          ]
+        }
+      ]
+    },
+    "U": {
+      "raw_length": 28,
+      "R_traversals": 16,
+      "L_deletions": 12,
+      "exit_pose": [
+        0,
+        4,
+        0
+      ],
+      "R_walk_relative_to_entry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "all_reads": [
+        {
+          "tick": 0,
+          "turn": "L",
+          "head": [
+            0,
+            0
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "-1/2",
+              "-1/2"
+            ],
+            [
+              "1/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "-1/2"
+          ]
+        },
+        {
+          "tick": 1,
+          "turn": "L",
+          "head": [
+            -1,
+            0
+          ],
+          "entry_heading": 3,
+          "edge": [
+            [
+              "-3/2",
+              "1/2"
+            ],
+            [
+              "-1/2",
+              "-1/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "-1/2"
+          ]
+        },
+        {
+          "tick": 2,
+          "turn": "L",
+          "head": [
+            -1,
+            -1
+          ],
+          "entry_heading": 2,
+          "edge": [
+            [
+              "-3/2",
+              "-3/2"
+            ],
+            [
+              "-1/2",
+              "-1/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "-1/2"
+          ]
+        },
+        {
+          "tick": 3,
+          "turn": "L",
+          "head": [
+            0,
+            -1
+          ],
+          "entry_heading": 1,
+          "edge": [
+            [
+              "-1/2",
+              "-1/2"
+            ],
+            [
+              "1/2",
+              "-3/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "-1/2"
+          ]
+        },
+        {
+          "tick": 4,
+          "turn": "R",
+          "head": [
+            0,
+            0
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "-1/2",
+              "-1/2"
+            ],
+            [
+              "1/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "1/2",
+            "1/2"
+          ]
+        },
+        {
+          "tick": 5,
+          "turn": "L",
+          "head": [
+            1,
+            0
+          ],
+          "entry_heading": 1,
+          "edge": [
+            [
+              "1/2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "-1/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "1/2"
+          ],
+          "center_after": [
+            "1/2",
+            "1/2"
+          ]
+        },
+        {
+          "tick": 6,
+          "turn": "R",
+          "head": [
+            1,
+            1
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "1/2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "3/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "1/2"
+          ],
+          "center_after": [
+            "3/2",
+            "3/2"
+          ]
+        },
+        {
+          "tick": 7,
+          "turn": "R",
+          "head": [
+            2,
+            1
+          ],
+          "entry_heading": 1,
+          "edge": [
+            [
+              "3/2",
+              "3/2"
+            ],
+            [
+              "5/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "3/2",
+            "3/2"
+          ],
+          "center_after": [
+            "5/2",
+            "1/2"
+          ]
+        },
+        {
+          "tick": 8,
+          "turn": "R",
+          "head": [
+            2,
+            0
+          ],
+          "entry_heading": 2,
+          "edge": [
+            [
+              "3/2",
+              "-1/2"
+            ],
+            [
+              "5/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "5/2",
+            "1/2"
+          ],
+          "center_after": [
+            "3/2",
+            "-1/2"
+          ]
+        },
+        {
+          "tick": 9,
+          "turn": "R",
+          "head": [
+            1,
+            0
+          ],
+          "entry_heading": 3,
+          "edge": [
+            [
+              "1/2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "-1/2"
+            ]
+          ],
+          "center_before": [
+            "3/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "1/2",
+            "1/2"
+          ]
+        },
+        {
+          "tick": 10,
+          "turn": "L",
+          "head": [
+            1,
+            1
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "1/2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "3/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "1/2"
+          ],
+          "center_after": [
+            "1/2",
+            "1/2"
+          ]
+        },
+        {
+          "tick": 11,
+          "turn": "R",
+          "head": [
+            0,
+            1
+          ],
+          "entry_heading": 3,
+          "edge": [
+            [
+              "-1/2",
+              "3/2"
+            ],
+            [
+              "1/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "1/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "3/2"
+          ]
+        },
+        {
+          "tick": 12,
+          "turn": "L",
+          "head": [
+            0,
+            2
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "-1/2",
+              "3/2"
+            ],
+            [
+              "1/2",
+              "5/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "3/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "3/2"
+          ]
+        },
+        {
+          "tick": 13,
+          "turn": "L",
+          "head": [
+            -1,
+            2
+          ],
+          "entry_heading": 3,
+          "edge": [
+            [
+              "-3/2",
+              "5/2"
+            ],
+            [
+              "-1/2",
+              "3/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "3/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "3/2"
+          ]
+        },
+        {
+          "tick": 14,
+          "turn": "L",
+          "head": [
+            -1,
+            1
+          ],
+          "entry_heading": 2,
+          "edge": [
+            [
+              "-3/2",
+              "1/2"
+            ],
+            [
+              "-1/2",
+              "3/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "3/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "3/2"
+          ]
+        },
+        {
+          "tick": 15,
+          "turn": "L",
+          "head": [
+            0,
+            1
+          ],
+          "entry_heading": 1,
+          "edge": [
+            [
+              "-1/2",
+              "3/2"
+            ],
+            [
+              "1/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "3/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "3/2"
+          ]
+        },
+        {
+          "tick": 16,
+          "turn": "R",
+          "head": [
+            0,
+            2
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "-1/2",
+              "3/2"
+            ],
+            [
+              "1/2",
+              "5/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "3/2"
+          ],
+          "center_after": [
+            "1/2",
+            "5/2"
+          ]
+        },
+        {
+          "tick": 17,
+          "turn": "R",
+          "head": [
+            1,
+            2
+          ],
+          "entry_heading": 1,
+          "edge": [
+            [
+              "1/2",
+              "5/2"
+            ],
+            [
+              "3/2",
+              "3/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "5/2"
+          ],
+          "center_after": [
+            "3/2",
+            "3/2"
+          ]
+        },
+        {
+          "tick": 18,
+          "turn": "R",
+          "head": [
+            1,
+            1
+          ],
+          "entry_heading": 2,
+          "edge": [
+            [
+              "1/2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "3/2"
+            ]
+          ],
+          "center_before": [
+            "3/2",
+            "3/2"
+          ],
+          "center_after": [
+            "1/2",
+            "1/2"
+          ]
+        },
+        {
+          "tick": 19,
+          "turn": "R",
+          "head": [
+            0,
+            1
+          ],
+          "entry_heading": 3,
+          "edge": [
+            [
+              "-1/2",
+              "3/2"
+            ],
+            [
+              "1/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "1/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "3/2"
+          ]
+        },
+        {
+          "tick": 20,
+          "turn": "L",
+          "head": [
+            0,
+            2
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "-1/2",
+              "3/2"
+            ],
+            [
+              "1/2",
+              "5/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "3/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "3/2"
+          ]
+        },
+        {
+          "tick": 21,
+          "turn": "R",
+          "head": [
+            -1,
+            2
+          ],
+          "entry_heading": 3,
+          "edge": [
+            [
+              "-3/2",
+              "5/2"
+            ],
+            [
+              "-1/2",
+              "3/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "3/2"
+          ],
+          "center_after": [
+            "-3/2",
+            "5/2"
+          ]
+        },
+        {
+          "tick": 22,
+          "turn": "R",
+          "head": [
+            -1,
+            3
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "-3/2",
+              "5/2"
+            ],
+            [
+              "-1/2",
+              "7/2"
+            ]
+          ],
+          "center_before": [
+            "-3/2",
+            "5/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "7/2"
+          ]
+        },
+        {
+          "tick": 23,
+          "turn": "L",
+          "head": [
+            0,
+            3
+          ],
+          "entry_heading": 1,
+          "edge": [
+            [
+              "-1/2",
+              "7/2"
+            ],
+            [
+              "1/2",
+              "5/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "7/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "7/2"
+          ]
+        },
+        {
+          "tick": 24,
+          "turn": "R",
+          "head": [
+            0,
+            4
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "-1/2",
+              "7/2"
+            ],
+            [
+              "1/2",
+              "9/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "7/2"
+          ],
+          "center_after": [
+            "1/2",
+            "9/2"
+          ]
+        },
+        {
+          "tick": 25,
+          "turn": "R",
+          "head": [
+            1,
+            4
+          ],
+          "entry_heading": 1,
+          "edge": [
+            [
+              "1/2",
+              "9/2"
+            ],
+            [
+              "3/2",
+              "7/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "9/2"
+          ],
+          "center_after": [
+            "3/2",
+            "7/2"
+          ]
+        },
+        {
+          "tick": 26,
+          "turn": "R",
+          "head": [
+            1,
+            3
+          ],
+          "entry_heading": 2,
+          "edge": [
+            [
+              "1/2",
+              "5/2"
+            ],
+            [
+              "3/2",
+              "7/2"
+            ]
+          ],
+          "center_before": [
+            "3/2",
+            "7/2"
+          ],
+          "center_after": [
+            "1/2",
+            "5/2"
+          ]
+        },
+        {
+          "tick": 27,
+          "turn": "R",
+          "head": [
+            0,
+            3
+          ],
+          "entry_heading": 3,
+          "edge": [
+            [
+              "-1/2",
+              "7/2"
+            ],
+            [
+              "1/2",
+              "5/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "5/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "7/2"
+          ]
+        }
+      ]
+    },
+    "C": {
+      "raw_length": 15,
+      "R_traversals": 9,
+      "L_deletions": 6,
+      "exit_pose": [
+        0,
+        1,
+        3
+      ],
+      "R_walk_relative_to_entry": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "all_reads": [
+        {
+          "tick": 0,
+          "turn": "L",
+          "head": [
+            0,
+            0
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "-1/2",
+              "-1/2"
+            ],
+            [
+              "1/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "-1/2"
+          ]
+        },
+        {
+          "tick": 1,
+          "turn": "L",
+          "head": [
+            -1,
+            0
+          ],
+          "entry_heading": 3,
+          "edge": [
+            [
+              "-3/2",
+              "1/2"
+            ],
+            [
+              "-1/2",
+              "-1/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "-1/2"
+          ]
+        },
+        {
+          "tick": 2,
+          "turn": "L",
+          "head": [
+            -1,
+            -1
+          ],
+          "entry_heading": 2,
+          "edge": [
+            [
+              "-3/2",
+              "-3/2"
+            ],
+            [
+              "-1/2",
+              "-1/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "-1/2"
+          ]
+        },
+        {
+          "tick": 3,
+          "turn": "L",
+          "head": [
+            0,
+            -1
+          ],
+          "entry_heading": 1,
+          "edge": [
+            [
+              "-1/2",
+              "-1/2"
+            ],
+            [
+              "1/2",
+              "-3/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "-1/2"
+          ]
+        },
+        {
+          "tick": 4,
+          "turn": "R",
+          "head": [
+            0,
+            0
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "-1/2",
+              "-1/2"
+            ],
+            [
+              "1/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "1/2",
+            "1/2"
+          ]
+        },
+        {
+          "tick": 5,
+          "turn": "L",
+          "head": [
+            1,
+            0
+          ],
+          "entry_heading": 1,
+          "edge": [
+            [
+              "1/2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "-1/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "1/2"
+          ],
+          "center_after": [
+            "1/2",
+            "1/2"
+          ]
+        },
+        {
+          "tick": 6,
+          "turn": "R",
+          "head": [
+            1,
+            1
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "1/2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "3/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "1/2"
+          ],
+          "center_after": [
+            "3/2",
+            "3/2"
+          ]
+        },
+        {
+          "tick": 7,
+          "turn": "R",
+          "head": [
+            2,
+            1
+          ],
+          "entry_heading": 1,
+          "edge": [
+            [
+              "3/2",
+              "3/2"
+            ],
+            [
+              "5/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "3/2",
+            "3/2"
+          ],
+          "center_after": [
+            "5/2",
+            "1/2"
+          ]
+        },
+        {
+          "tick": 8,
+          "turn": "R",
+          "head": [
+            2,
+            0
+          ],
+          "entry_heading": 2,
+          "edge": [
+            [
+              "3/2",
+              "-1/2"
+            ],
+            [
+              "5/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "5/2",
+            "1/2"
+          ],
+          "center_after": [
+            "3/2",
+            "-1/2"
+          ]
+        },
+        {
+          "tick": 9,
+          "turn": "R",
+          "head": [
+            1,
+            0
+          ],
+          "entry_heading": 3,
+          "edge": [
+            [
+              "1/2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "-1/2"
+            ]
+          ],
+          "center_before": [
+            "3/2",
+            "-1/2"
+          ],
+          "center_after": [
+            "1/2",
+            "1/2"
+          ]
+        },
+        {
+          "tick": 10,
+          "turn": "L",
+          "head": [
+            1,
+            1
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "1/2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "3/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "1/2"
+          ],
+          "center_after": [
+            "1/2",
+            "1/2"
+          ]
+        },
+        {
+          "tick": 11,
+          "turn": "R",
+          "head": [
+            0,
+            1
+          ],
+          "entry_heading": 3,
+          "edge": [
+            [
+              "-1/2",
+              "3/2"
+            ],
+            [
+              "1/2",
+              "1/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "1/2"
+          ],
+          "center_after": [
+            "-1/2",
+            "3/2"
+          ]
+        },
+        {
+          "tick": 12,
+          "turn": "R",
+          "head": [
+            0,
+            2
+          ],
+          "entry_heading": 0,
+          "edge": [
+            [
+              "-1/2",
+              "3/2"
+            ],
+            [
+              "1/2",
+              "5/2"
+            ]
+          ],
+          "center_before": [
+            "-1/2",
+            "3/2"
+          ],
+          "center_after": [
+            "1/2",
+            "5/2"
+          ]
+        },
+        {
+          "tick": 13,
+          "turn": "R",
+          "head": [
+            1,
+            2
+          ],
+          "entry_heading": 1,
+          "edge": [
+            [
+              "1/2",
+              "5/2"
+            ],
+            [
+              "3/2",
+              "3/2"
+            ]
+          ],
+          "center_before": [
+            "1/2",
+            "5/2"
+          ],
+          "center_after": [
+            "3/2",
+            "3/2"
+          ]
+        },
+        {
+          "tick": 14,
+          "turn": "R",
+          "head": [
+            1,
+            1
+          ],
+          "entry_heading": 2,
+          "edge": [
+            [
+              "1/2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "3/2"
+            ]
+          ],
+          "center_before": [
+            "3/2",
+            "3/2"
+          ],
+          "center_after": [
+            "1/2",
+            "1/2"
+          ]
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "check_active_center_edge_walk.py": "49fab6ced55fd944ecb01bf2b14db02f7df0efec3ec9773bad0d9275de9e87c2"
+  }
+}

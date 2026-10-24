@@ -1,0 +1,61 @@
+{
+  "status": "PASS independent finite-table extraction and reviewed decomposition count consequence",
+  "tables": {
+    "prefixTimes": {
+      "count": 1376,
+      "maximum": 106258
+    },
+    "actualActiveTimes": {
+      "count": 27,
+      "maximum": 15209
+    },
+    "actualLaneTimes": {
+      "count": 179,
+      "maximum": 62345
+    },
+    "pristineLaneTimes": {
+      "count": 152,
+      "maximum": 64978,
+      "stable_last_entries": [
+        228,
+        432,
+        4289,
+        444,
+        7690,
+        14281,
+        8567,
+        6459,
+        2881,
+        1039,
+        1083,
+        7675,
+        8189,
+        831,
+        3298,
+        33914,
+        8573,
+        8840,
+        16483,
+        52262,
+        4156,
+        240
+      ]
+    }
+  },
+  "budgets": {
+    "prefix": 106268,
+    "inert": 9987,
+    "active": 25196,
+    "shallow": 72332,
+    "ordinary_deep": 74975,
+    "exceptional_deep": 82979
+  },
+  "uniform_mass_at_most_one_K_bound": 106268,
+  "sources": {
+    "PrefixData.lean": "d04adbb326535dc9d41c7159990e97f2f5a949c6ea27954973aa9f0344ff78f5",
+    "EntryData.lean": "81c74b030fcfed585e4a962a32a40183da8f251e1dcbfc4c13f0203bafc9d7b4",
+    "PristineChecks.lean": "490c91d1a18e003a834212c89c452c1efec845ac04fece86941bf1b876b59722",
+    "PhaseChecks.lean": "a570322d8a35e122640338417d4a24ab44488a4d52b6e02fde745ee6e6859a69"
+  },
+  "scope": "Uses retained all-position one-black capture/same-read/exceptional archive theorem, not a new replay or theorem build. Count arbitrary pieces by length plus ten per genuine standard piece, including all true-history joins. Distance-uniform defect count only, not capture-time, optimality or higher-mass induction."
+}

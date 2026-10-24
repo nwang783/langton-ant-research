@@ -1,0 +1,41 @@
+{
+  "status": "PASS exact relevant-radius evolution, non-ant interval distinction and all-n uniform cohort-renewal obstruction",
+  "manifest": "94daca63d0aed44a707378a9fea86625f5f50b015aa1efaf0c5872a10676775b",
+  "script": "7fac4ac66047ab7059ae43e375853ab8b19a1e54bd9e88dd9fb9266f1b838587",
+  "controls": [
+    {
+      "n": 20,
+      "reads": 23587,
+      "renewal_cut": 12758,
+      "full_radius": 76,
+      "relevant": 254,
+      "marker_lower_bound": 36,
+      "tail_tests": 170
+    },
+    {
+      "n": 40,
+      "reads": 39187,
+      "renewal_cut": 26278,
+      "full_radius": 116,
+      "relevant": 254,
+      "marker_lower_bound": 76,
+      "tail_tests": 170
+    },
+    {
+      "n": 80,
+      "reads": 70387,
+      "renewal_cut": 53318,
+      "full_radius": 196,
+      "relevant": 254,
+      "marker_lower_bound": 156,
+      "tail_tests": 170
+    }
+  ],
+  "analytic_review": [
+    "At any actual update, C* changes only by removing the BLACK head lifetime or adding a future-consumed newly born R at the head. Its old-head radius remains unchanged, including empty/head-only radius0; the unit move changes maximum L-infinity distance by at most1. This is retrospective and not a future-fate algorithm.",
+    "Once finitely many relevant original lifetimes retire, every radius witness is R-born. Unit-speed birth-to-cut and cut-to-death paths give elapsed and remaining times at least rho. Nontranslation therefore forces two-sided lifetime clearance at every late cut via signed compact-recurrence criterion, not merely isolated long intervals.",
+    "NON-ANT intervals b_n=n^2,d_n=(n+2)^2-1 have overlap at most2 and strict endpoint order/no containment. At t=n^2+r use n-1 for r<=n, n otherwise, proving clearance>=n. This refutes a temporal nesting deduction only, not any ant/geometric theorem.",
+    "All-even-n>=20 signed full16-cell family gives fourth source entry676n-821 and last original first-read offset58. Therefore complete original-cohort retirement cut676n-762 has true pose(n+7,5n-1),W from literalG59. Original marker(3n,3n+3) still survives to780n-1207, giving rho>=2n-4 under entire all-future relevant cap432. No interpolation from controls used.",
+    "Full n20/40/80 histories, original lifetimes, all finite C* radius updates, complete renewal fields and infinite tail parity independently replayed. Measured radii76/116/196 are controls only. The result defeats a uniform radius bound based only on initial cohort size16 and population cap432 at cohort completion. Each orbit eventually captures, so orbit-dependent eventual compact recurrence, persistent single-orbit rho escape and universal attraction remain unresolved."
+  ]
+}

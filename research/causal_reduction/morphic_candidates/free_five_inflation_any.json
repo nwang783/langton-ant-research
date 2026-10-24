@@ -1,0 +1,78 @@
+{
+  "status": "EXHAUSTED",
+  "node_cap": 1000000,
+  "depth_cap": 1024,
+  "fuel_cap": null,
+  "nodes": 3,
+  "maxdepth": 1,
+  "counts": {
+    "alternation_conflict": 4
+  },
+  "levelcounts": {
+    "0": 1,
+    "1": 2
+  },
+  "best": {
+    "macros": 1,
+    "choices": "A",
+    "turns": "RLLRR",
+    "seed": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "pose": [
+      1,
+      2,
+      1
+    ]
+  },
+  "example_conflicts": [
+    {
+      "choices": "AC",
+      "time": 7,
+      "earlier": 3,
+      "cell": [
+        0,
+        1
+      ],
+      "turn": "R"
+    },
+    {
+      "choices": "AD",
+      "time": 8,
+      "earlier": 4,
+      "cell": [
+        0,
+        2
+      ],
+      "turn": "R"
+    },
+    {
+      "choices": "DC",
+      "time": 7,
+      "earlier": 3,
+      "cell": [
+        0,
+        -1
+      ],
+      "turn": "R"
+    },
+    {
+      "choices": "DD",
+      "time": 8,
+      "earlier": 4,
+      "cell": [
+        0,
+        -2
+      ],
+      "turn": "R"
+    }
+  ],
+  "seconds": 9.202957153320312e-05
+}

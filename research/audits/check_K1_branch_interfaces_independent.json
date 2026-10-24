@@ -1,0 +1,28 @@
+{
+  "status": "PASS K1 output-defect activation, conditional early positive branch-return exclusion and ordered-band currents",
+  "notes": {
+    "canonical_leaf_output_defects_force_actual_outward_duplicators.md": "f02b22760bdd3b1074241d082abd8fde8611d726f6dcd61fa7adc7d6a9347af6",
+    "K1_canonical_branch_no_early_positive_return.md": "aa2bd87e09077e6804d92014e520681e96c1d15d69c39e54f4f52b23449fdaa5",
+    "ordered_max_curves_lower_barrier_and_four_band_currents.md": "6376fdc569d0398df515aeab710f9fd0e25aaaccfa1a5a2d190f5970318f1b72",
+    "half_turn_same_Gamma_ear_scope_clarification.md": "d31800e4a61c7abcf2767dde5a353b05a3c41915d20dabad26822fb56022f4d5"
+  },
+  "analytic": {
+    "output_defect": [
+      "Signed canonical q values are -1/0/+1. Finite sum q=0 gives negative-face count NO+ND. The distinct actual D4-associated I leaves form a subset of that negative set; removing them leaves exactly |U|=NO+ND-D4=NO+DC+DH+DS. Signed disjoint output partition bounds this by Nodd-nSanc, without assigning individual output cells to U.",
+      "An outward Q1 outside U must equal I of a genuine actual positive D4. The signed complete overlap theorem then excludes both SSNS profiles and singleton NSSS, leaving only all-four NSSS with recovered source P0. Distinct Q1 classes force distinct P0. Thus every failed activation injects into U and every activation into actual D4, not merely potential child ports. On selected Gamma, P0 is an off-cycle descendant, leaving D4-nL unpaid capacity. No iteration follows."
+    ],
+    "generic_ear": [
+      "A finite canonical branch has strictly increasing physical births and therefore no repeated physical face. Its C-contact edges are embedded and cannot cross another such edge except at a shared face/contact. Under the stated LEFT off-Gamma branch and unused positive return hypotheses, it is a disjoint chord; the equivalent explicit embedded-chord hypothesis is safe for other applications.",
+      "For H=F_j,j<=i-2 the forward Gamma arc to D=F_i contains two distinct physical contacts. The bounded LEFT ear has all canonical branch and Gamma R0 exits/R2 entries, while the positive closing contact has R0 entry/R2 exit. Every L rank stays on one side, and open face joins have no physical cursor crossing.",
+      "K1 orders both early Gamma R0 exits before its first R2 and before B(D); genuine branch child births place every branch R2 later than B(D). Only the single positive-return R0 can enter beforehand. Nonzero drift puts the actual cursor outside the fixed ear at sufficiently negative times, contradiction. No zero-output or same-component exclusion is used. Immediate-predecessor/later/cross-Gamma returns remain open."
+    ],
+    "ordered_bands": [
+      "At every selected max contact one incident L height is >=M-2. Hence an L-contact path with both faces <=M-3 cannot cross that C curve. Signed branchful constant-zero exclusion applies to every K1 curve, not only leftmost, and supplies a flag-one LEFT L face at M-3.",
+      "For consecutive disjoint essential C curves, that LEFT face of the right curve lies wholly in their band. Its sublevel component stays there; finite quotient gives a minimum plateau that is locally minimal in the whole L lattice. Either it touches odd output or the signed prepared reverse plateau theorem supplies an essential reverse L cut in the band. The latter has m<=M-3.",
+      "Any chosen odd corner of this minimum is strictly inside the band: an odd selected RLR contact has L heights only M-1,M-2, while selected contacts incident to <=M-3 are even. Thus roots from distinct drift-invariant bands have distinct full-quotient odd classes.",
+      "The four displayed stream potentials agree on constant-height cut faces and sum h-M. Every physical edge belongs wholly to exactly one band current, including an edge between different cut faces. Therefore all currents are nonnegative balanced integer flows, not merely formal signed streams. Their homologies are2,-(M-m),M-m,-1, giving P>=2D[3+2(M-m)]>=18D.",
+      "With r ordered C curves and u unrooted bands, the two exterior homologies remain2,-1; each inserted reverse cut contributes disjoint middle magnitudes2(M-mi)>=6. Since u>=max(0,r-1-Nodd), P>=6D+12D max(0,r-1-Nodd). Rooted bands are not assigned absent reverse cuts. These spatial budgets combine with overlapping chronological bounds only by maximum."
+    ]
+  },
+  "scope": "Conditional complete WHITE cap4 K1 geometry and finite canonical flag accounting. No proof of another curve, cross-Gamma impossibility, global K1 exclusion, source fuel, ancestry regress or capture."
+}

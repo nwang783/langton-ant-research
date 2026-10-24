@@ -1,0 +1,206 @@
+{
+  "status": "AUTHOR_FROZEN_ACTUAL_PORTAL_COMPLEMENTARY_INDEX_REFINEMENT_PENDING_REVIEW",
+  "scope": "Same three first-foreign old-C returned-RAW-C residues and actual portal IDs as signed23f62a2c. Arbitrary W/S/E lengths; source N/W/S runs retained. Annotation of actual partial matching, not a new global positive clock.",
+  "all3_actual_base_steps": [
+    {
+      "actual_plain_base": "D",
+      "E_step": [
+        1,
+        -1
+      ],
+      "W_step": [
+        -1,
+        1
+      ],
+      "weight": 0,
+      "E_x_plus_y_increment": 0,
+      "W_x_plus_y_increment": 0
+    },
+    {
+      "actual_plain_base": "V",
+      "E_step": [
+        3,
+        -1
+      ],
+      "W_step": [
+        -3,
+        1
+      ],
+      "weight": 1,
+      "E_x_plus_y_increment": 2,
+      "W_x_plus_y_increment": -2
+    },
+    {
+      "actual_plain_base": "U",
+      "E_step": [
+        4,
+        0
+      ],
+      "W_step": [
+        -4,
+        0
+      ],
+      "weight": 2,
+      "E_x_plus_y_increment": 4,
+      "W_x_plus_y_increment": -4
+    }
+  ],
+  "all6_portal_type_foreign_index_identities": [
+    {
+      "W_source_base": "V",
+      "source_base_weight": 1,
+      "W_portal_offset": [
+        -1,
+        0
+      ],
+      "portal_consumer": "E V input(0,3)",
+      "source_index_formula": "T=(A-B)/2+source_base_weight",
+      "consumer_V_exit_normal_formula": "x+y=1-2T",
+      "foreign": "F",
+      "foreign_entry": [
+        2,
+        -5
+      ],
+      "foreign_entry_normal": -3,
+      "delta": 2,
+      "remaining_E_weight_formula": "Q=T-2",
+      "matched_index_formula": "J+T=T_E+2",
+      "actual_remaining_last_packet_requirement": "V_or_U",
+      "minimum_remaining_E_weight": 1,
+      "minimum_source_weighted_index": 3
+    },
+    {
+      "W_source_base": "V",
+      "source_base_weight": 1,
+      "W_portal_offset": [
+        -1,
+        0
+      ],
+      "portal_consumer": "E V input(0,3)",
+      "source_index_formula": "T=(A-B)/2+source_base_weight",
+      "consumer_V_exit_normal_formula": "x+y=1-2T",
+      "foreign": "Q",
+      "foreign_entry": [
+        4,
+        -5
+      ],
+      "foreign_entry_normal": -1,
+      "delta": 1,
+      "remaining_E_weight_formula": "Q=T-1",
+      "matched_index_formula": "J+T=T_E+1",
+      "actual_remaining_last_packet_requirement": "V_or_U",
+      "minimum_remaining_E_weight": 1,
+      "minimum_source_weighted_index": 2
+    },
+    {
+      "W_source_base": "V",
+      "source_base_weight": 1,
+      "W_portal_offset": [
+        -1,
+        0
+      ],
+      "portal_consumer": "E V input(0,3)",
+      "source_index_formula": "T=(A-B)/2+source_base_weight",
+      "consumer_V_exit_normal_formula": "x+y=1-2T",
+      "foreign": "B",
+      "foreign_entry": [
+        5,
+        -4
+      ],
+      "foreign_entry_normal": 1,
+      "delta": 0,
+      "remaining_E_weight_formula": "Q=T-0",
+      "matched_index_formula": "J+T=T_E+0",
+      "actual_remaining_last_packet_requirement": "U",
+      "minimum_remaining_E_weight": 2,
+      "minimum_source_weighted_index": 2
+    },
+    {
+      "W_source_base": "U",
+      "source_base_weight": 2,
+      "W_portal_offset": [
+        -2,
+        -1
+      ],
+      "portal_consumer": "E V input(0,3)",
+      "source_index_formula": "T=(A-B)/2+source_base_weight",
+      "consumer_V_exit_normal_formula": "x+y=1-2T",
+      "foreign": "F",
+      "foreign_entry": [
+        2,
+        -5
+      ],
+      "foreign_entry_normal": -3,
+      "delta": 2,
+      "remaining_E_weight_formula": "Q=T-2",
+      "matched_index_formula": "J+T=T_E+2",
+      "actual_remaining_last_packet_requirement": "V_or_U",
+      "minimum_remaining_E_weight": 1,
+      "minimum_source_weighted_index": 3
+    },
+    {
+      "W_source_base": "U",
+      "source_base_weight": 2,
+      "W_portal_offset": [
+        -2,
+        -1
+      ],
+      "portal_consumer": "E V input(0,3)",
+      "source_index_formula": "T=(A-B)/2+source_base_weight",
+      "consumer_V_exit_normal_formula": "x+y=1-2T",
+      "foreign": "Q",
+      "foreign_entry": [
+        4,
+        -5
+      ],
+      "foreign_entry_normal": -1,
+      "delta": 1,
+      "remaining_E_weight_formula": "Q=T-1",
+      "matched_index_formula": "J+T=T_E+1",
+      "actual_remaining_last_packet_requirement": "V_or_U",
+      "minimum_remaining_E_weight": 1,
+      "minimum_source_weighted_index": 2
+    },
+    {
+      "W_source_base": "U",
+      "source_base_weight": 2,
+      "W_portal_offset": [
+        -2,
+        -1
+      ],
+      "portal_consumer": "E V input(0,3)",
+      "source_index_formula": "T=(A-B)/2+source_base_weight",
+      "consumer_V_exit_normal_formula": "x+y=1-2T",
+      "foreign": "B",
+      "foreign_entry": [
+        5,
+        -4
+      ],
+      "foreign_entry_normal": 1,
+      "delta": 0,
+      "remaining_E_weight_formula": "Q=T-0",
+      "matched_index_formula": "J+T=T_E+0",
+      "actual_remaining_last_packet_requirement": "U",
+      "minimum_remaining_E_weight": 2,
+      "minimum_source_weighted_index": 2
+    }
+  ],
+  "definitions": {
+    "T": "Cumulative W base weight through this actual portal source; V=1,U=2,D=0.",
+    "J": "Cumulative E base weight through its actual consuming plain V.",
+    "T_E": "Total E base weight before the first foreign.",
+    "Q": "Remaining E base weight strictly after the consuming V."
+  },
+  "extra_ownership_fact": "Consuming V exits x<=-2, whereas foreign entry x>=2, so at least one E packet remains and next-word RAWphase2 retirement occurs before foreign.",
+  "consequences": [
+    "Every actual match has complementary indices J+T=T_E+delta_foreign, delta_F=2,delta_Q=1,delta_B=0.",
+    "The earliest possible V portal at T=1 cannot be spent in any of the three residues.",
+    "The earliest possible U portal at T=2 cannot be spent in the F residue; Q/B are not excluded.",
+    "D gaps have zero weight and remain unbounded. Skipped or dormant boundary ports are not deleted."
+  ],
+  "dependencies": {
+    "seven_word_spatial_return_2026-10-23/ordered_W_portal_submatching_manifest.json": "23f62a2c925b627cc2fa5e3efa244390c5ba5ddd18a2ef810b8f2ff485940a13",
+    "seven_word_spatial_return_2026-10-23/complete8_foreign_adjacency_manifest.json": "735023bebfa154bd936e9546023367b541006ea1d9f57bb2eb7240bf040017ea",
+    "core_periodicity_new/chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd"
+  }
+}

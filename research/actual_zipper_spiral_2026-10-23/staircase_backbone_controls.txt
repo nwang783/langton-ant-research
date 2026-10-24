@@ -1,0 +1,485 @@
+[
+  {
+    "q": 1,
+    "initial_mass": 9,
+    "input_path_edges": 9,
+    "charged_stitches": 0,
+    "initial_ranks": [
+      0,
+      0
+    ],
+    "first": {
+      "L": 9,
+      "R": 8,
+      "gain": -1,
+      "T": 17,
+      "births": [
+        0,
+        0
+      ],
+      "erasures": [
+        0,
+        0
+      ],
+      "output_mass": 8,
+      "output_is_one_path": true,
+      "R_output_edges": 8,
+      "old_stitch_edges": 0
+    },
+    "reset": "RRRRL",
+    "second": {
+      "L": 8,
+      "R": 8,
+      "gain": 0,
+      "consumed": {
+        "first_R": 8,
+        "seed": 0,
+        "reset_R": 0,
+        "second_R": 0
+      },
+      "fraction_first_R_recycled": 1.0,
+      "ordinary_word": "LRRLLRRLLRRLLRRL",
+      "terminal_exception_r": 4,
+      "terminal_exception_word": "RRRRL",
+      "terminal_events": [
+        [
+          "R",
+          [
+            false,
+            false
+          ]
+        ],
+        [
+          "R",
+          [
+            false,
+            false
+          ]
+        ],
+        [
+          "R",
+          [
+            false,
+            false
+          ]
+        ],
+        [
+          "R",
+          [
+            false,
+            true
+          ]
+        ],
+        [
+          "L",
+          [
+            false,
+            true
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "q": 3,
+    "initial_mass": 35,
+    "input_path_edges": 33,
+    "charged_stitches": 2,
+    "initial_ranks": [
+      0,
+      0
+    ],
+    "first": {
+      "L": 33,
+      "R": 34,
+      "gain": 1,
+      "T": 67,
+      "births": [
+        0,
+        0
+      ],
+      "erasures": [
+        0,
+        0
+      ],
+      "output_mass": 36,
+      "output_is_one_path": true,
+      "R_output_edges": 34,
+      "old_stitch_edges": 2
+    },
+    "reset": "RRRRL",
+    "second": {
+      "L": 15,
+      "R": 14,
+      "gain": -1,
+      "consumed": {
+        "first_R": 15,
+        "seed": 0,
+        "reset_R": 0,
+        "second_R": 0
+      },
+      "fraction_first_R_recycled": 0.4411764705882353,
+      "ordinary_word": "LRRLLRRLLRRLLRRLLRRLLRRLLRRLL",
+      "terminal_exception_r": 2,
+      "terminal_exception_word": "RRL",
+      "terminal_events": [
+        [
+          "R",
+          [
+            false,
+            false
+          ]
+        ],
+        [
+          "R",
+          [
+            true,
+            false
+          ]
+        ],
+        [
+          "L",
+          [
+            true,
+            false
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "q": 5,
+    "initial_mass": 77,
+    "input_path_edges": 73,
+    "charged_stitches": 4,
+    "initial_ranks": [
+      0,
+      0
+    ],
+    "first": {
+      "L": 73,
+      "R": 76,
+      "gain": 3,
+      "T": 149,
+      "births": [
+        0,
+        0
+      ],
+      "erasures": [
+        0,
+        0
+      ],
+      "output_mass": 80,
+      "output_is_one_path": true,
+      "R_output_edges": 76,
+      "old_stitch_edges": 4
+    },
+    "reset": "RRRRL",
+    "second": {
+      "L": 23,
+      "R": 22,
+      "gain": -1,
+      "consumed": {
+        "first_R": 23,
+        "seed": 0,
+        "reset_R": 0,
+        "second_R": 0
+      },
+      "fraction_first_R_recycled": 0.3026315789473684,
+      "ordinary_word": "LRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLL",
+      "terminal_exception_r": 2,
+      "terminal_exception_word": "RRL",
+      "terminal_events": [
+        [
+          "R",
+          [
+            false,
+            false
+          ]
+        ],
+        [
+          "R",
+          [
+            true,
+            false
+          ]
+        ],
+        [
+          "L",
+          [
+            true,
+            false
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "q": 7,
+    "initial_mass": 135,
+    "input_path_edges": 129,
+    "charged_stitches": 6,
+    "initial_ranks": [
+      0,
+      0
+    ],
+    "first": {
+      "L": 129,
+      "R": 134,
+      "gain": 5,
+      "T": 263,
+      "births": [
+        0,
+        0
+      ],
+      "erasures": [
+        0,
+        0
+      ],
+      "output_mass": 140,
+      "output_is_one_path": true,
+      "R_output_edges": 134,
+      "old_stitch_edges": 6
+    },
+    "reset": "RRRRL",
+    "second": {
+      "L": 31,
+      "R": 30,
+      "gain": -1,
+      "consumed": {
+        "first_R": 31,
+        "seed": 0,
+        "reset_R": 0,
+        "second_R": 0
+      },
+      "fraction_first_R_recycled": 0.23134328358208955,
+      "ordinary_word": "LRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLL",
+      "terminal_exception_r": 2,
+      "terminal_exception_word": "RRL",
+      "terminal_events": [
+        [
+          "R",
+          [
+            false,
+            false
+          ]
+        ],
+        [
+          "R",
+          [
+            true,
+            false
+          ]
+        ],
+        [
+          "L",
+          [
+            true,
+            false
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "q": 9,
+    "initial_mass": 209,
+    "input_path_edges": 201,
+    "charged_stitches": 8,
+    "initial_ranks": [
+      0,
+      0
+    ],
+    "first": {
+      "L": 201,
+      "R": 208,
+      "gain": 7,
+      "T": 409,
+      "births": [
+        0,
+        0
+      ],
+      "erasures": [
+        0,
+        0
+      ],
+      "output_mass": 216,
+      "output_is_one_path": true,
+      "R_output_edges": 208,
+      "old_stitch_edges": 8
+    },
+    "reset": "RRRRL",
+    "second": {
+      "L": 39,
+      "R": 38,
+      "gain": -1,
+      "consumed": {
+        "first_R": 39,
+        "seed": 0,
+        "reset_R": 0,
+        "second_R": 0
+      },
+      "fraction_first_R_recycled": 0.1875,
+      "ordinary_word": "LRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLL",
+      "terminal_exception_r": 2,
+      "terminal_exception_word": "RRL",
+      "terminal_events": [
+        [
+          "R",
+          [
+            false,
+            false
+          ]
+        ],
+        [
+          "R",
+          [
+            true,
+            false
+          ]
+        ],
+        [
+          "L",
+          [
+            true,
+            false
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "q": 15,
+    "initial_mass": 527,
+    "input_path_edges": 513,
+    "charged_stitches": 14,
+    "initial_ranks": [
+      0,
+      0
+    ],
+    "first": {
+      "L": 513,
+      "R": 526,
+      "gain": 13,
+      "T": 1039,
+      "births": [
+        0,
+        0
+      ],
+      "erasures": [
+        0,
+        0
+      ],
+      "output_mass": 540,
+      "output_is_one_path": true,
+      "R_output_edges": 526,
+      "old_stitch_edges": 14
+    },
+    "reset": "RRRRL",
+    "second": {
+      "L": 63,
+      "R": 62,
+      "gain": -1,
+      "consumed": {
+        "first_R": 63,
+        "seed": 0,
+        "reset_R": 0,
+        "second_R": 0
+      },
+      "fraction_first_R_recycled": 0.11977186311787072,
+      "ordinary_word": "LRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLL",
+      "terminal_exception_r": 2,
+      "terminal_exception_word": "RRL",
+      "terminal_events": [
+        [
+          "R",
+          [
+            false,
+            false
+          ]
+        ],
+        [
+          "R",
+          [
+            true,
+            false
+          ]
+        ],
+        [
+          "L",
+          [
+            true,
+            false
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "q": 25,
+    "initial_mass": 1377,
+    "input_path_edges": 1353,
+    "charged_stitches": 24,
+    "initial_ranks": [
+      0,
+      0
+    ],
+    "first": {
+      "L": 1353,
+      "R": 1376,
+      "gain": 23,
+      "T": 2729,
+      "births": [
+        0,
+        0
+      ],
+      "erasures": [
+        0,
+        0
+      ],
+      "output_mass": 1400,
+      "output_is_one_path": true,
+      "R_output_edges": 1376,
+      "old_stitch_edges": 24
+    },
+    "reset": "RRRRL",
+    "second": {
+      "L": 103,
+      "R": 102,
+      "gain": -1,
+      "consumed": {
+        "first_R": 103,
+        "seed": 0,
+        "reset_R": 0,
+        "second_R": 0
+      },
+      "fraction_first_R_recycled": 0.07485465116279069,
+      "ordinary_word": "LRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLL",
+      "terminal_exception_r": 2,
+      "terminal_exception_word": "RRL",
+      "terminal_events": [
+        [
+          "R",
+          [
+            false,
+            false
+          ]
+        ],
+        [
+          "R",
+          [
+            true,
+            false
+          ]
+        ],
+        [
+          "L",
+          [
+            true,
+            false
+          ]
+        ]
+      ]
+    }
+  }
+]

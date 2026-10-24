@@ -1,0 +1,2000 @@
+{
+  "status": "AUTHOR_FROZEN_ALL_ORDER_TWO_TRACK_DV_CORE_GUARD_PENDING_REVIEW",
+  "scope": "Only UCC, X_S, F, Y_N, attempted U(0,-2,N), with X,Y arbitrary finite plain D/V words, correct actual endpoint and final context. No other foreign, rail U, C connector, old source, or arbitrary-tail simplicity conclusion.",
+  "actual_source_g_deletion": {
+    "cell": [
+      -1,
+      0
+    ],
+    "last_source_UCC_read_tick0": 1,
+    "owner": {
+      "packet": "UCC",
+      "context_tick0": 1,
+      "context_read_number1": 2,
+      "RAW_length": 58,
+      "owner": "own U-base RAW",
+      "owner_tick0": 1,
+      "owner_read_number1": 2,
+      "turn": "L",
+      "next_word_tick0": null,
+      "next_word_read_number1": null,
+      "label": "context tick 1 (zero-based), RAW length 58; own U-base RAW tick 1 (zero-based), read 2 (one-based), L"
+    },
+    "source_full_exit": [
+      -1,
+      5,
+      2
+    ],
+    "absent_from_source_full_O_and_exit_K": true
+  },
+  "exact_plain_full_geometries": {
+    "D": {
+      "word": "LLLLRLRRRR",
+      "raw_length": 10,
+      "endpoint": [
+        1,
+        1,
+        0
+      ],
+      "requirements": [
+        [
+          -1,
+          -1,
+          true,
+          2
+        ],
+        [
+          -1,
+          0,
+          true,
+          1
+        ],
+        [
+          0,
+          -1,
+          true,
+          3
+        ],
+        [
+          0,
+          0,
+          true,
+          0
+        ],
+        [
+          0,
+          1,
+          true,
+          11
+        ],
+        [
+          1,
+          0,
+          true,
+          5
+        ],
+        [
+          1,
+          1,
+          false,
+          6
+        ],
+        [
+          2,
+          0,
+          false,
+          8
+        ],
+        [
+          2,
+          1,
+          false,
+          7
+        ],
+        [
+          2,
+          2,
+          false,
+          16
+        ],
+        [
+          3,
+          1,
+          false,
+          18
+        ],
+        [
+          3,
+          2,
+          false,
+          17
+        ]
+      ],
+      "inputs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "outputs": [
+        [
+          2,
+          0
+        ]
+      ],
+      "recycled": [],
+      "marker_only_inputs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "net_mass": 0,
+      "raw_radius": 2,
+      "complete_context_radius": 3
+    },
+    "V": {
+      "word": "LLLLRLRRRRLRRLRRRR",
+      "raw_length": 18,
+      "endpoint": [
+        1,
+        3,
+        0
+      ],
+      "requirements": [
+        [
+          -1,
+          -1,
+          true,
+          2
+        ],
+        [
+          -1,
+          0,
+          true,
+          1
+        ],
+        [
+          0,
+          -1,
+          true,
+          3
+        ],
+        [
+          0,
+          0,
+          true,
+          0
+        ],
+        [
+          0,
+          1,
+          false,
+          11
+        ],
+        [
+          0,
+          2,
+          false,
+          12
+        ],
+        [
+          0,
+          3,
+          true,
+          19
+        ],
+        [
+          1,
+          0,
+          true,
+          5
+        ],
+        [
+          1,
+          1,
+          false,
+          6
+        ],
+        [
+          1,
+          2,
+          true,
+          13
+        ],
+        [
+          1,
+          3,
+          false,
+          14
+        ],
+        [
+          2,
+          0,
+          false,
+          8
+        ],
+        [
+          2,
+          1,
+          false,
+          7
+        ],
+        [
+          2,
+          2,
+          false,
+          16
+        ],
+        [
+          2,
+          3,
+          false,
+          15
+        ],
+        [
+          2,
+          4,
+          false,
+          24
+        ],
+        [
+          3,
+          3,
+          false,
+          26
+        ],
+        [
+          3,
+          4,
+          false,
+          25
+        ]
+      ],
+      "inputs": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "outputs": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "recycled": [],
+      "marker_only_inputs": [
+        [
+          0,
+          3
+        ]
+      ],
+      "net_mass": 4,
+      "raw_radius": 3,
+      "complete_context_radius": 4
+    },
+    "F": {
+      "word": "LLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLRLRLLRRRRLLRLRRRR",
+      "raw_length": 56,
+      "endpoint": [
+        -4,
+        -2,
+        2
+      ],
+      "requirements": [
+        [
+          -6,
+          -3,
+          false,
+          63
+        ],
+        [
+          -6,
+          -2,
+          false,
+          64
+        ],
+        [
+          -5,
+          -3,
+          false,
+          62
+        ],
+        [
+          -5,
+          -2,
+          false,
+          53
+        ],
+        [
+          -5,
+          -1,
+          false,
+          54
+        ],
+        [
+          -5,
+          1,
+          true,
+          38
+        ],
+        [
+          -5,
+          2,
+          true,
+          37
+        ],
+        [
+          -4,
+          -2,
+          false,
+          52
+        ],
+        [
+          -4,
+          -1,
+          true,
+          51
+        ],
+        [
+          -4,
+          0,
+          true,
+          40
+        ],
+        [
+          -4,
+          1,
+          false,
+          39
+        ],
+        [
+          -4,
+          2,
+          false,
+          36
+        ],
+        [
+          -4,
+          3,
+          true,
+          35
+        ],
+        [
+          -3,
+          -2,
+          true,
+          57
+        ],
+        [
+          -3,
+          -1,
+          true,
+          42
+        ],
+        [
+          -3,
+          0,
+          false,
+          41
+        ],
+        [
+          -3,
+          1,
+          true,
+          18
+        ],
+        [
+          -3,
+          2,
+          true,
+          17
+        ],
+        [
+          -3,
+          3,
+          true,
+          34
+        ],
+        [
+          -2,
+          -1,
+          true,
+          43
+        ],
+        [
+          -2,
+          0,
+          false,
+          44
+        ],
+        [
+          -2,
+          1,
+          false,
+          15
+        ],
+        [
+          -2,
+          2,
+          true,
+          16
+        ],
+        [
+          -1,
+          -1,
+          true,
+          2
+        ],
+        [
+          -1,
+          0,
+          true,
+          1
+        ],
+        [
+          -1,
+          1,
+          false,
+          14
+        ],
+        [
+          -1,
+          2,
+          true,
+          13
+        ],
+        [
+          0,
+          -1,
+          true,
+          3
+        ],
+        [
+          0,
+          0,
+          true,
+          0
+        ],
+        [
+          0,
+          1,
+          false,
+          11
+        ],
+        [
+          0,
+          2,
+          true,
+          12
+        ],
+        [
+          1,
+          0,
+          true,
+          5
+        ],
+        [
+          1,
+          1,
+          false,
+          6
+        ],
+        [
+          1,
+          2,
+          false,
+          25
+        ],
+        [
+          2,
+          0,
+          false,
+          8
+        ],
+        [
+          2,
+          1,
+          false,
+          7
+        ]
+      ],
+      "inputs": [
+        [
+          -5,
+          1
+        ],
+        [
+          -5,
+          2
+        ],
+        [
+          -4,
+          -1
+        ],
+        [
+          -4,
+          0
+        ],
+        [
+          -4,
+          3
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "outputs": [
+        [
+          -5,
+          -1
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          -4,
+          2
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "recycled": [
+        [
+          -3,
+          2
+        ],
+        [
+          -2,
+          -1
+        ]
+      ],
+      "marker_only_inputs": [
+        [
+          -3,
+          -2
+        ]
+      ],
+      "net_mass": 2,
+      "raw_radius": 5,
+      "complete_context_radius": 6
+    }
+  },
+  "all7_S_rail_residual_birth_origins_excluded": [
+    {
+      "full_plain_source": "D",
+      "fresh_output_slot": [
+        2,
+        0
+      ],
+      "required_S_entry": [
+        1,
+        0
+      ],
+      "exclusion": "strictly_right_of_all_S_rail_heads"
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_output_slot": [
+        0,
+        0
+      ],
+      "required_S_entry": [
+        -1,
+        0
+      ],
+      "exclusion": "x_equal_minus1_forces_first_rail_entry_y5_not_required_y0_or1"
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_output_slot": [
+        0,
+        1
+      ],
+      "required_S_entry": [
+        -1,
+        1
+      ],
+      "exclusion": "x_equal_minus1_forces_first_rail_entry_y5_not_required_y0_or1"
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_output_slot": [
+        1,
+        0
+      ],
+      "required_S_entry": [
+        0,
+        0
+      ],
+      "exclusion": "strictly_right_of_all_S_rail_heads"
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_output_slot": [
+        2,
+        0
+      ],
+      "required_S_entry": [
+        1,
+        0
+      ],
+      "exclusion": "strictly_right_of_all_S_rail_heads"
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_output_slot": [
+        2,
+        1
+      ],
+      "required_S_entry": [
+        1,
+        1
+      ],
+      "exclusion": "strictly_right_of_all_S_rail_heads"
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_output_slot": [
+        2,
+        2
+      ],
+      "required_S_entry": [
+        1,
+        2
+      ],
+      "exclusion": "strictly_right_of_all_S_rail_heads"
+    }
+  ],
+  "all7_N_rail_residual_birth_origins_too_far_north": [
+    {
+      "full_plain_source": "D",
+      "fresh_output_slot": [
+        2,
+        0
+      ],
+      "required_N_entry": [
+        -3,
+        0
+      ],
+      "actual_full_exit": [
+        -2,
+        1,
+        0
+      ],
+      "cannot_reach_final_target_y": -2
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_output_slot": [
+        0,
+        0
+      ],
+      "required_N_entry": [
+        -1,
+        0
+      ],
+      "actual_full_exit": [
+        0,
+        3,
+        0
+      ],
+      "cannot_reach_final_target_y": -2
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_output_slot": [
+        0,
+        1
+      ],
+      "required_N_entry": [
+        -1,
+        -1
+      ],
+      "actual_full_exit": [
+        0,
+        2,
+        0
+      ],
+      "cannot_reach_final_target_y": -2
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_output_slot": [
+        1,
+        0
+      ],
+      "required_N_entry": [
+        -2,
+        0
+      ],
+      "actual_full_exit": [
+        -1,
+        3,
+        0
+      ],
+      "cannot_reach_final_target_y": -2
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_output_slot": [
+        2,
+        0
+      ],
+      "required_N_entry": [
+        -3,
+        0
+      ],
+      "actual_full_exit": [
+        -2,
+        3,
+        0
+      ],
+      "cannot_reach_final_target_y": -2
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_output_slot": [
+        2,
+        1
+      ],
+      "required_N_entry": [
+        -3,
+        -1
+      ],
+      "actual_full_exit": [
+        -2,
+        2,
+        0
+      ],
+      "cannot_reach_final_target_y": -2
+    },
+    {
+      "full_plain_source": "V",
+      "fresh_output_slot": [
+        2,
+        2
+      ],
+      "required_N_entry": [
+        -3,
+        -2
+      ],
+      "actual_full_exit": [
+        -2,
+        1,
+        0
+      ],
+      "cannot_reach_final_target_y": -2
+    }
+  ],
+  "all_length_endpoint_identities": {
+    "foreign_entry": "(-1-dX-vX,5-dX-3vX,S)",
+    "target_entry": "(3-dX-vX+dY+vY,7-dX-3vX+dY+3vY,N)",
+    "forced_target": "(0,-2,N)",
+    "equivalent_count_constraints": "dY=dX, vY=vX-3, vX>=3",
+    "two_unbounded_tracks": "S and N; fixed UCC source and F connector; one residual transverse endpoint relation after sweep synchronization"
+  },
+  "exact_FOREIGN_hole_miss_inequality": "G local to F is(-dX-vX,5-dX-3vX), whose y<=-4; actual F RAW min local y=-2. It is outside entryK and exitK; G exit-relative y=dX+3vX-7>=2.",
+  "residual_to_physical_interface": "After source deletion and absence of later full O at G, G cannot be BLACK outside the actual current K. A core-to-residual export must itself be a genuine later full O with its actual last R. At Fentry and targetUentry G is outside K. No physical-WHITE permanence at intermediate cores is asserted.",
+  "final_actual_U_requirement": {
+    "cell": [
+      -1,
+      0
+    ],
+    "target_local_input": [
+      -1,
+      2
+    ],
+    "first_required_BLACK_owner": {
+      "packet": "U",
+      "context_tick0": 13,
+      "context_read_number1": 14,
+      "RAW_length": 28,
+      "owner": "own U-base RAW",
+      "owner_tick0": 13,
+      "owner_read_number1": 14,
+      "turn": "L",
+      "next_word_tick0": null,
+      "next_word_read_number1": null,
+      "label": "context tick 13 (zero-based), RAW length 28; own U-base RAW tick 13 (zero-based), read 14 (one-based), L"
+    }
+  },
+  "genuine_complete_finite_prefix_controls": [
+    {
+      "X": "VVV",
+      "Y": "",
+      "exact_tokens_before_target": [
+        "U",
+        "C",
+        "C",
+        "V",
+        "V",
+        "V",
+        "F"
+      ],
+      "complete_initial_black": [
+        [
+          -4,
+          -6
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          -3,
+          -6
+        ],
+        [
+          -3,
+          -4
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -2,
+          -6
+        ],
+        [
+          -2,
+          -3
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -1,
+          -7
+        ],
+        [
+          -1,
+          -6
+        ],
+        [
+          -1,
+          -5
+        ],
+        [
+          -1,
+          -3
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          -7
+        ],
+        [
+          0,
+          -4
+        ],
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          -6
+        ],
+        [
+          1,
+          -5
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "all_unlisted_initial_cells_WHITE": true,
+      "initial_mass": 29,
+      "all_successful_physical_reads": 181,
+      "successful_prefix_RAWs_complete": true,
+      "target_U_successful_RAW_ticks0": [
+        0,
+        12
+      ],
+      "actual_next_read_pose": [
+        -1,
+        0,
+        3
+      ],
+      "actual_next_cell_WHITE": true,
+      "intended_U13_L_conflict": {
+        "feasible": false,
+        "conflict_read": 181,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      },
+      "intended_read_owner": {
+        "packet": "U",
+        "context_tick0": 13,
+        "context_read_number1": 14,
+        "RAW_length": 28,
+        "owner": "own U-base RAW",
+        "owner_tick0": 13,
+        "owner_read_number1": 14,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 13 (zero-based), RAW length 28; own U-base RAW tick 13 (zero-based), read 14 (one-based), L"
+      },
+      "actual_next_turn": "R",
+      "all7_impossible_at_current_marker_by_actual_prefix": {
+        "D": 11,
+        "C": 12,
+        "V": 12,
+        "U": 13,
+        "F": 13,
+        "Q": 13,
+        "B": 13
+      },
+      "no_completed_target_U_or_proxy_contact_claimed": true
+    },
+    {
+      "X": "VVVV",
+      "Y": "V",
+      "exact_tokens_before_target": [
+        "U",
+        "C",
+        "C",
+        "V",
+        "V",
+        "V",
+        "V",
+        "F",
+        "V"
+      ],
+      "complete_initial_black": [
+        [
+          -5,
+          -9
+        ],
+        [
+          -5,
+          -6
+        ],
+        [
+          -4,
+          -9
+        ],
+        [
+          -4,
+          -7
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          -3,
+          -9
+        ],
+        [
+          -3,
+          -6
+        ],
+        [
+          -3,
+          -4
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -2,
+          -10
+        ],
+        [
+          -2,
+          -9
+        ],
+        [
+          -2,
+          -8
+        ],
+        [
+          -2,
+          -6
+        ],
+        [
+          -2,
+          -5
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -1,
+          -10
+        ],
+        [
+          -1,
+          -7
+        ],
+        [
+          -1,
+          -6
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          -9
+        ],
+        [
+          0,
+          -8
+        ],
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "all_unlisted_initial_cells_WHITE": true,
+      "initial_mass": 33,
+      "all_successful_physical_reads": 217,
+      "successful_prefix_RAWs_complete": true,
+      "target_U_successful_RAW_ticks0": [
+        0,
+        12
+      ],
+      "actual_next_read_pose": [
+        -1,
+        0,
+        3
+      ],
+      "actual_next_cell_WHITE": true,
+      "intended_U13_L_conflict": {
+        "feasible": false,
+        "conflict_read": 217,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      },
+      "intended_read_owner": {
+        "packet": "U",
+        "context_tick0": 13,
+        "context_read_number1": 14,
+        "RAW_length": 28,
+        "owner": "own U-base RAW",
+        "owner_tick0": 13,
+        "owner_read_number1": 14,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 13 (zero-based), RAW length 28; own U-base RAW tick 13 (zero-based), read 14 (one-based), L"
+      },
+      "actual_next_turn": "R",
+      "all7_impossible_at_current_marker_by_actual_prefix": {
+        "D": 11,
+        "C": 12,
+        "V": 12,
+        "U": 13,
+        "F": 13,
+        "Q": 13,
+        "B": 13
+      },
+      "no_completed_target_U_or_proxy_contact_claimed": true
+    },
+    {
+      "X": "VVVVVVVVVV",
+      "Y": "VVVVVVV",
+      "exact_tokens_before_target": [
+        "U",
+        "C",
+        "C",
+        "V",
+        "V",
+        "V",
+        "V",
+        "V",
+        "V",
+        "V",
+        "V",
+        "V",
+        "V",
+        "F",
+        "V",
+        "V",
+        "V",
+        "V",
+        "V",
+        "V",
+        "V"
+      ],
+      "complete_initial_black": [
+        [
+          -11,
+          -27
+        ],
+        [
+          -11,
+          -24
+        ],
+        [
+          -10,
+          -27
+        ],
+        [
+          -10,
+          -25
+        ],
+        [
+          -10,
+          -21
+        ],
+        [
+          -9,
+          -27
+        ],
+        [
+          -9,
+          -24
+        ],
+        [
+          -9,
+          -22
+        ],
+        [
+          -9,
+          -18
+        ],
+        [
+          -8,
+          -28
+        ],
+        [
+          -8,
+          -27
+        ],
+        [
+          -8,
+          -26
+        ],
+        [
+          -8,
+          -24
+        ],
+        [
+          -8,
+          -23
+        ],
+        [
+          -8,
+          -19
+        ],
+        [
+          -8,
+          -15
+        ],
+        [
+          -7,
+          -28
+        ],
+        [
+          -7,
+          -25
+        ],
+        [
+          -7,
+          -24
+        ],
+        [
+          -7,
+          -20
+        ],
+        [
+          -7,
+          -16
+        ],
+        [
+          -7,
+          -12
+        ],
+        [
+          -6,
+          -27
+        ],
+        [
+          -6,
+          -26
+        ],
+        [
+          -6,
+          -21
+        ],
+        [
+          -6,
+          -17
+        ],
+        [
+          -6,
+          -13
+        ],
+        [
+          -6,
+          -9
+        ],
+        [
+          -5,
+          -18
+        ],
+        [
+          -5,
+          -14
+        ],
+        [
+          -5,
+          -10
+        ],
+        [
+          -5,
+          -6
+        ],
+        [
+          -4,
+          -15
+        ],
+        [
+          -4,
+          -11
+        ],
+        [
+          -4,
+          -7
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          -3,
+          -12
+        ],
+        [
+          -3,
+          -8
+        ],
+        [
+          -3,
+          -4
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -2,
+          -9
+        ],
+        [
+          -2,
+          -5
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -1,
+          -6
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "all_unlisted_initial_cells_WHITE": true,
+      "initial_mass": 57,
+      "all_successful_physical_reads": 433,
+      "successful_prefix_RAWs_complete": true,
+      "target_U_successful_RAW_ticks0": [
+        0,
+        12
+      ],
+      "actual_next_read_pose": [
+        -1,
+        0,
+        3
+      ],
+      "actual_next_cell_WHITE": true,
+      "intended_U13_L_conflict": {
+        "feasible": false,
+        "conflict_read": 433,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      },
+      "intended_read_owner": {
+        "packet": "U",
+        "context_tick0": 13,
+        "context_read_number1": 14,
+        "RAW_length": 28,
+        "owner": "own U-base RAW",
+        "owner_tick0": 13,
+        "owner_read_number1": 14,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 13 (zero-based), RAW length 28; own U-base RAW tick 13 (zero-based), read 14 (one-based), L"
+      },
+      "actual_next_turn": "R",
+      "all7_impossible_at_current_marker_by_actual_prefix": {
+        "D": 11,
+        "C": 12,
+        "V": 12,
+        "U": 13,
+        "F": 13,
+        "Q": 13,
+        "B": 13
+      },
+      "no_completed_target_U_or_proxy_contact_claimed": true
+    },
+    {
+      "X": "VDVV",
+      "Y": "D",
+      "exact_tokens_before_target": [
+        "U",
+        "C",
+        "C",
+        "V",
+        "D",
+        "V",
+        "V",
+        "F",
+        "D"
+      ],
+      "complete_initial_black": [
+        [
+          -5,
+          -7
+        ],
+        [
+          -5,
+          -4
+        ],
+        [
+          -4,
+          -7
+        ],
+        [
+          -4,
+          -5
+        ],
+        [
+          -4,
+          -1
+        ],
+        [
+          -3,
+          -7
+        ],
+        [
+          -3,
+          -4
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          -2,
+          -8
+        ],
+        [
+          -2,
+          -7
+        ],
+        [
+          -2,
+          -6
+        ],
+        [
+          -2,
+          -4
+        ],
+        [
+          -2,
+          -3
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -1,
+          -8
+        ],
+        [
+          -1,
+          -5
+        ],
+        [
+          -1,
+          -4
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          -7
+        ],
+        [
+          0,
+          -6
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "all_unlisted_initial_cells_WHITE": true,
+      "initial_mass": 31,
+      "all_successful_physical_reads": 201,
+      "successful_prefix_RAWs_complete": true,
+      "target_U_successful_RAW_ticks0": [
+        0,
+        12
+      ],
+      "actual_next_read_pose": [
+        -1,
+        0,
+        3
+      ],
+      "actual_next_cell_WHITE": true,
+      "intended_U13_L_conflict": {
+        "feasible": false,
+        "conflict_read": 201,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      },
+      "intended_read_owner": {
+        "packet": "U",
+        "context_tick0": 13,
+        "context_read_number1": 14,
+        "RAW_length": 28,
+        "owner": "own U-base RAW",
+        "owner_tick0": 13,
+        "owner_read_number1": 14,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 13 (zero-based), RAW length 28; own U-base RAW tick 13 (zero-based), read 14 (one-based), L"
+      },
+      "actual_next_turn": "R",
+      "all7_impossible_at_current_marker_by_actual_prefix": {
+        "D": 11,
+        "C": 12,
+        "V": 12,
+        "U": 13,
+        "F": 13,
+        "Q": 13,
+        "B": 13
+      },
+      "no_completed_target_U_or_proxy_contact_claimed": true
+    },
+    {
+      "X": "VVDVV",
+      "Y": "DV",
+      "exact_tokens_before_target": [
+        "U",
+        "C",
+        "C",
+        "V",
+        "V",
+        "D",
+        "V",
+        "V",
+        "F",
+        "D",
+        "V"
+      ],
+      "complete_initial_black": [
+        [
+          -6,
+          -10
+        ],
+        [
+          -6,
+          -7
+        ],
+        [
+          -5,
+          -10
+        ],
+        [
+          -5,
+          -8
+        ],
+        [
+          -5,
+          -4
+        ],
+        [
+          -4,
+          -10
+        ],
+        [
+          -4,
+          -7
+        ],
+        [
+          -4,
+          -5
+        ],
+        [
+          -3,
+          -11
+        ],
+        [
+          -3,
+          -10
+        ],
+        [
+          -3,
+          -9
+        ],
+        [
+          -3,
+          -7
+        ],
+        [
+          -3,
+          -6
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -2,
+          -11
+        ],
+        [
+          -2,
+          -8
+        ],
+        [
+          -2,
+          -7
+        ],
+        [
+          -2,
+          -5
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -1,
+          -10
+        ],
+        [
+          -1,
+          -9
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "all_unlisted_initial_cells_WHITE": true,
+      "initial_mass": 35,
+      "all_successful_physical_reads": 237,
+      "successful_prefix_RAWs_complete": true,
+      "target_U_successful_RAW_ticks0": [
+        0,
+        12
+      ],
+      "actual_next_read_pose": [
+        -1,
+        0,
+        3
+      ],
+      "actual_next_cell_WHITE": true,
+      "intended_U13_L_conflict": {
+        "feasible": false,
+        "conflict_read": 237,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      },
+      "intended_read_owner": {
+        "packet": "U",
+        "context_tick0": 13,
+        "context_read_number1": 14,
+        "RAW_length": 28,
+        "owner": "own U-base RAW",
+        "owner_tick0": 13,
+        "owner_read_number1": 14,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 13 (zero-based), RAW length 28; own U-base RAW tick 13 (zero-based), read 14 (one-based), L"
+      },
+      "actual_next_turn": "R",
+      "all7_impossible_at_current_marker_by_actual_prefix": {
+        "D": 11,
+        "C": 12,
+        "V": 12,
+        "U": 13,
+        "F": 13,
+        "Q": 13,
+        "B": 13
+      },
+      "no_completed_target_U_or_proxy_contact_claimed": true
+    }
+  ],
+  "pure_V_all_n_specialization": "X=V^n,Y=V^(n-3),n>=3; intended U first fails at global36n+73 against sourceL1 on G. Samples are not the all-n proof; the count/last-full-output argument covers every n and all D/V orders.",
+  "conclusion": "No complete finite board realizes this all-length two-track template through target U RAW. Five actual partial-prefix controls instead force R at its tick13 and thereby leave the seven-atom language at that attempted marker.",
+  "no_full_target_U_or_actual_proxy_contact_countercontrol": true,
+  "no_postforeign_maturity": true,
+  "dependencies": {
+    "literal_ownership_conventions_2026-10-24/canonical_read_ownership.py": "041b40e04a0f71a6b9511abf1d15b1d86c548e74f4f99281477c115b72036ea2",
+    "word_stabilization/shifted1_llrlrrrrlll_fold_coalesced_port_quotient.json": "216ef5edde9404799744b5d9ab3d1fe62f55846cbe97e88f82395b195765ec35",
+    "old_U_contact_sweep_frontier_2026-10-24/manifest.json": "5f3d0c902293d8a67c6660150f3ae704d6d06b81adaad4ac4cb34c28210230fd",
+    "one_foreign_first_contact_compression_2026-10-24/manifest.json": "94bea2fc176865c14d0c45b7cd42b4f3e03638048a22b552006862c12bcae018"
+  }
+}

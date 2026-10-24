@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "side": "left",
+      "arm_excess": 2,
+      "alternating_x_charge": [
+        2,
+        1,
+        -1,
+        0
+      ],
+      "finite_boundary_columns": [
+        -3,
+        4
+      ]
+    },
+    {
+      "side": "right",
+      "arm_excess": -2,
+      "alternating_x_charge": [
+        -2,
+        -1,
+        1,
+        0
+      ],
+      "finite_boundary_columns": [
+        -5,
+        2
+      ]
+    }
+  ],
+  "local_charge_basis_cases": 48,
+  "scope": "conditional all-period gluing and cap budgets only; no valid cap supplied"
+}

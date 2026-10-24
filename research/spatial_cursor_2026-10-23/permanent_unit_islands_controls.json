@@ -1,0 +1,106 @@
+{
+  "status": "PASS exact all-parameter permanent unit-island countercontrol",
+  "original_seed_mass": 184,
+  "domain": "N>=6",
+  "permanent_island_lower_bound": "N-5",
+  "square_SW_base": [
+    1,
+    18
+  ],
+  "square_drift": [
+    14,
+    14
+  ],
+  "copy_range": "0<=j<=N-6",
+  "all_copy_slot_alignments": {
+    "(1, 18)": [
+      [
+        0,
+        1497,
+        "R"
+      ]
+    ],
+    "(1, 19)": [
+      [
+        0,
+        1490,
+        "L"
+      ],
+      [
+        0,
+        1498,
+        "R"
+      ]
+    ],
+    "(2, 18)": [
+      [
+        0,
+        1492,
+        "L"
+      ],
+      [
+        0,
+        1496,
+        "R"
+      ],
+      [
+        0,
+        1500,
+        "L"
+      ],
+      [
+        0,
+        1504,
+        "R"
+      ]
+    ],
+    "(2, 19)": [
+      [
+        0,
+        1491,
+        "R"
+      ],
+      [
+        0,
+        1495,
+        "L"
+      ],
+      [
+        0,
+        1499,
+        "R"
+      ]
+    ]
+  },
+  "complete_black_after_phase": 1504,
+  "pose_after_phase1504": [
+    [
+      3,
+      18
+    ],
+    1
+  ],
+  "doubled_w_after_phase1504": [
+    5,
+    35
+  ],
+  "fixed_continuation_length": 56504,
+  "continuation_min_u_normalized": -137,
+  "square_max_u_at_last_safe_copy": "28N-147",
+  "infinite_tail_read_normal_hull": [
+    -86,
+    -76
+  ],
+  "square_read_normals": [
+    -18,
+    -17,
+    -16
+  ],
+  "standard_profile_forest": true,
+  "scope": "Generic physical permanent islands, not genuine complete-eight U-producer cycles.",
+  "source_sha256": {
+    "causal_reduction/unit_scale/prepared1564_uniform_support_manifest.json": "90fcf1a66046418c38d07f7e935ea80cf873751aefae69a4b07af89ba3bd8399",
+    "causal_reduction/unit_scale/prepared1564_source_endpoint_family.json": "8634fc78d3c2d4e21dad6fb95cf88aa94cf7fbd729f88e5bfe5150a47c32b022",
+    "nonlinear_global_budget_2026-10-23/prepared_wave_five_band_normal_form.json": "13f7b3c64f558d149816e5ffdf75102fff98309491034b75463f251c7c668f7b"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "status": "PASS independent exhaustive physical interval-union optimum controls",
+  "source_sha256": "fe2c418e60a947fc4a52118df3435568e5416e096aeed74361a848fafe4fb582",
+  "note_sha256": "3992fd5795dc38aab64586cd7e571a835293d479f8f3fb6a777ade5a60564cc6",
+  "exhaustive_cases": 1000,
+  "malformed_rejections": 3,
+  "retained_instances": [
+    [
+      "generic_bulk_P108",
+      "EXACT_BLACK_DEFICIENCY",
+      11
+    ],
+    [
+      "forward108_bulk_author",
+      "EXACT_BLACK_DEFICIENCY",
+      3
+    ],
+    [
+      "generic_bulk_standard",
+      "EXACT_BLACK_DEFICIENCY",
+      0
+    ],
+    [
+      "generic_bulk_odd_LR",
+      "EXACT_BLACK_DEFICIENCY",
+      2
+    ],
+    [
+      "generic_bulk_odd_scale3",
+      "EXACT_BLACK_DEFICIENCY",
+      6
+    ],
+    [
+      "generic_bulk_reverse_scale4",
+      "EXACT_BLACK_DEFICIENCY",
+      24
+    ],
+    [
+      "generic_bulk_standard_scale4",
+      "EXACT_BLACK_DEFICIENCY",
+      0
+    ]
+  ],
+  "scope": "Exact relaxed white-clean standard-bundle coverage deficit, not attained minimum fuel. Multiplying the signed good-level count by delta is a necessary preparation bound only; no general nonstandard preparation or global budget."
+}

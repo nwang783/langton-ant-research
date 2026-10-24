@@ -1,0 +1,28 @@
+{
+  "status": "PASS independent complete zero-flux multirow fixed-real frontier closure with durable per-source validation",
+  "seconds": 0.0008987259934656322,
+  "cap": 0,
+  "full_drift": [
+    4,
+    0
+  ],
+  "window": 3,
+  "clock_scale": 32,
+  "bound": 64,
+  "modulus": 2,
+  "unpruned_histories": 2,
+  "internally_matched_rows": 2,
+  "states": 2,
+  "edges": 2,
+  "attempted_extensions": 2,
+  "shortest_path_closures": 0,
+  "largest_transition_nodes": 0,
+  "bindings": {
+    "certificate_sha256": "0b218645f257b0e5686a339e2d219866d76bc03624daecf4c06a3492be218363",
+    "checker_sha256": "551465d91122cfe3b381ad1394826e8b07b7618118689a3625b9a4b438676666",
+    "physical_reference_sha256": "d7af1b2c3ebf5404d30c0b53cf90d394f831fa97998e27c99b0d64155cc6a0ae"
+  },
+  "checkpoint": "/workspace/shared/langton/audits/replay_checkpoints/resumable_empty_control_sources_551465d91122.json",
+  "completed_source_chain": "57db8616b5a9f234f5063fcfb4abf54c8133698e6ed827aeed1047d263de1219",
+  "scope": "Every listed source has its COMPLETE possible outgoing set independently reconstructed; initial reachability is separately verified. Same physical first-return and Bellman-Ford engines as original checker. Specified full drift and cap only; no primitive quotient or general capture inference."
+}

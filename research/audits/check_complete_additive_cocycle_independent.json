@@ -1,0 +1,19 @@
+{
+  "status": "PASS complete universal additive Z4 position/signed-turn cocycle ansatz on full(3,1) quotient",
+  "proof": "3f8a2a32350be902d822dc1c9a0469bad9fe2cd0be009a530e33db2c165134ee",
+  "producer": "58f42d644c14c1718ef21497f759b5b64d17851848d7f787cd1cf637d736608a",
+  "certificate": "f56008b01ee46c1969705dd97c2d6957110292a6ee8e5d59085ec198c7b47467",
+  "potential_models": 1024,
+  "weight_winding_pairs": 256,
+  "checked_transitions": 49152,
+  "constant_gauge_multiplicity": 4,
+  "full_inventory_residual_coefficients": "[0,0,0,0,2*(c+1)] in x0,x1,x2,y0,rho",
+  "analytic_review": [
+    "Full(3,1) is primitive and equalT means exact integer multiple of(3,1), so arbitrary invariant position functions really are functions of T. The specified sector is preserved by every allowed move.",
+    "Four move equations give B-A=2w and even/odd neighbor equations with rho vertical signs. Eliminating B gives both displayed infinite-index equations. Substituting one into the other modulo4 yields dy_j=2(x_j+x_(j-1)+rho), without dividing by2.",
+    "Every dy_j is even, hence2(y_j-y_(j-2))=0. Thus x_(j+2)=x_(j-1) on all integers. Summing3increments gives y_(j+3)-y_j=2rho. This forces Tperiod12; no finite spatial period was assumed. Four free initial potentials plusrho determine all integerindices in both directions.",
+    "Independent closed coefficient forms recover all1024 potentials and49152 moves, agreeing with complete certificate. Each(w,rho) has exactly4 constant-gauge potentials. Sufficiency holds at every integerT by forcedperiodicity.",
+    "CompleteWHITE full-class signed turn sums are1 for odd and0 for even histories. On the full owned middle-short eight-class set, all four potential parameters and all a terms cancel, leaving2rho(c+1). Thus c odd passes EVERY stated cocycle; no wider invariant or controller classification is asserted.",
+    "BLACK-first odd classes require negative weights. The count-only296-read aside is not a proof premise or a physical transfer realization. Chronology,rank,board/nonlinear and additional multiplicity terms remain outside this exhausted ansatz."
+  ]
+}

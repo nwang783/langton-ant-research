@@ -1,0 +1,144 @@
+{
+  "status": "PASS pruning/reachability oracle equivalence and corrected v2 total Prune2 interface; named budgeted controls checked",
+  "manifest": "5908e37dde521eb5b10ccf942196ae837e2db4b51c364aaeaa5e8183ddc98f93",
+  "script": "1ca77d378ef7192f31149faa26c1d17266f65378c9074d7a27826be7fa999e56",
+  "signed_at_most_two_black_completion": "892862a6fe5569a739671cb0e56c1f2432738ebff48a2bdad29cbc93ca765a62",
+  "comparisons_replayed": 8,
+  "physical_comparison_reads": 77792,
+  "controls": [
+    {
+      "name": "empty",
+      "kind": "EXACT whole original pruning <=2",
+      "contacts": [],
+      "comparisons": 1
+    },
+    {
+      "name": "one_hit_plus_unread",
+      "kind": "EXACT whole original pruning <=2",
+      "contacts": [
+        {
+          "time": 0,
+          "cell": [
+            0,
+            0
+          ]
+        }
+      ],
+      "comparisons": 2
+    },
+    {
+      "name": "two_black",
+      "kind": "EXACT whole original pruning <=2",
+      "contacts": [
+        {
+          "time": 0,
+          "cell": [
+            0,
+            0
+          ]
+        },
+        {
+          "time": 41,
+          "cell": [
+            1,
+            0
+          ]
+        }
+      ],
+      "comparisons": 3
+    },
+    {
+      "name": "three_black",
+      "kind": "AT LEAST THREE original inputs",
+      "contacts": [
+        {
+          "time": 0,
+          "cell": [
+            0,
+            0
+          ]
+        },
+        {
+          "time": 3,
+          "cell": [
+            0,
+            1
+          ]
+        },
+        {
+          "time": 113,
+          "cell": [
+            1,
+            0
+          ]
+        }
+      ],
+      "comparisons": 3
+    },
+    {
+      "name": "four_G",
+      "kind": "AT LEAST THREE original inputs",
+      "contacts": [
+        {
+          "time": 3,
+          "cell": [
+            0,
+            -1
+          ]
+        },
+        {
+          "time": 152,
+          "cell": [
+            2,
+            2
+          ]
+        },
+        {
+          "time": 154,
+          "cell": [
+            1,
+            3
+          ]
+        }
+      ],
+      "comparisons": 3
+    },
+    {
+      "name": "defect14",
+      "kind": "AT LEAST THREE original inputs",
+      "contacts": [
+        {
+          "time": 6,
+          "cell": [
+            -1,
+            1
+          ]
+        },
+        {
+          "time": 7,
+          "cell": [
+            -2,
+            1
+          ]
+        },
+        {
+          "time": 9,
+          "cell": [
+            -3,
+            0
+          ]
+        }
+      ],
+      "comparisons": 3
+    }
+  ],
+  "analytic_review": [
+    "Only corrected v2 executable867e61d7 is signed. Frozen v1 was never signed: its unjustified assertion equating a past repeated phase with the freshly certified future phase could abort generic search. v2 validates the freshly certified word is canonical, uses it to construct every future read ray, and leaves the past repetition as a filter only. Supplied controls are unchanged; no actual interruption-boundary witness is asserted.",
+    "Prune(X) follows from finitely many reachability queries on original BLACK cells. Conversely forcing a target q BLACK changes no read before first q, so Hit(X,q) iff q belongs to Prune(B union{q},pose). This is a uniform oracle reduction, not an undecidability or computability claim.",
+    "rho>R is c.e. by first reading any ORIGINAL outside-box black cell; rho<=R is co-c.e. No equivalence between scalar rho and full pruning is asserted. Compact recurrence is c.e. only as a whole-input property equivalent to finite-certificate eventual translation; this does not decide individual-cut pruning.",
+    "Prune2 always compares from the ORIGINAL cut. S consists of the first k<=2 distinct actual original consumptions. First omitted-original hit in the certified comparison future is also the next actual one, by first-difference coupling. Repeated visits and R-born replacements never count as additional original inputs.",
+    "All three comparison boards have mass<=2, so signed all-position canonical capture gives mathematical termination of simulate-plus-exact-ray-certificate search. Fixed checking times104 do not miss an eventual104 tail. The implementation budget200000 is only an execution limit returning UNKNOWN on exhaustion, not the totality premise. Canonical drifts have nonzero x coordinate, so its integer first-hit division is valid.",
+    "On no-hit branch all omitted BLACK cells remain physically present and unread; replay/full-board parity certifies the unchanged complete future. Every selected cell is actually consumed, so S is exact C*. Third-hit branch supplies only three actual inputs, not capture/noncapture or a global renewal budget.",
+    "For sparse-radius testing the premise is CURRENT BLACK interior size<=2, not presumed relevant interior size. Certified comparison either never reads any omitted outside bit, proving rho<=R, or its first outside hit is an actual original BLACK consumption, provingrho>R. Six full named controls, three radius tests and force-BLACK/no-hit controls independently checked."
+  ]
+}

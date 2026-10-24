@@ -1,0 +1,57 @@
+{
+  "status": "PASS independent four-direction incidence/curvature controls, without half-turn enforcement",
+  "families": [
+    {
+      "radix": 7,
+      "matrix": [
+        [
+          1,
+          -2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "axis_eigenvalue": -1,
+      "controllers": 12,
+      "depth": 4
+    },
+    {
+      "radix": 9,
+      "matrix": [
+        [
+          1,
+          -2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "axis_eigenvalue": 1,
+      "controllers": 12,
+      "depth": 4
+    },
+    {
+      "radix": 6,
+      "matrix": [
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "axis_eigenvalue": 0,
+      "controllers": 12,
+      "depth": 4
+    }
+  ],
+  "word_checks": 576,
+  "literal_letters": 563232,
+  "note_sha256": "fa825788856d494a7e5a75678e4957d9e9c541c2111c6c4035a32f8c29c997bc",
+  "scope": "Finite controls supplement the separate analytic spectral-cone proof."
+}

@@ -1,0 +1,160 @@
+{
+  "status": "PASS exact adjacent even one-use portal obstruction",
+  "files": {
+    "even_one_use_LL_portals_cannot_be_adjacent.md": "a0095ea6320e4daae4775edc5cd93606abab38fb3802e513dc3051ff4e69ab0e",
+    "check_adjacent_even_one_use_portals.py": "b91c05364f60362b42883d77dc8e56c5dd0361a8ba9fa0a4ce393ace0d0512ca",
+    "check_adjacent_even_one_use_portals.json": "fb0d686ebcd35fb5ebe17b6962ff4237af57f531ddd42fc1515af44e86968384"
+  },
+  "script": "143d923b5b2f1f220e304d7c6658ced595e2d88829daaae39fb39b96e1efb94e",
+  "rows": [
+    {
+      "upper": "EWW",
+      "lower": "EWW",
+      "reason": "one north output versus two arrivals"
+    },
+    {
+      "upper": "EWW",
+      "lower": "EWWE",
+      "actual_same_event_cycle": [
+        [
+          [
+            1,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            -2
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            -1
+          ],
+          2
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          0
+        ]
+      ]
+    },
+    {
+      "upper": "EWWE",
+      "lower": "EWW",
+      "reason": "one north output versus two arrivals"
+    },
+    {
+      "upper": "EWWE",
+      "lower": "EWWE",
+      "actual_same_event_cycle": [
+        [
+          [
+            1,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            -2
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            -2
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          1
+        ],
+        [
+          [
+            0,
+            -1
+          ],
+          2
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          0
+        ]
+      ]
+    }
+  ],
+  "scope": "Exactly two displayed complete physical portals with immediate one-use Aupper\u2192Blower. LowerO fails counts; lowerU closes an8-step ACTUAL successor cycle at the SAME physicalR0. No temporal voltage/exterior stock can repair that exact cycle. Single preparedF48/F49 and altered/spaced joins remain allowed; no global/critical or exterior cap premise needed after histories are fixed."
+}

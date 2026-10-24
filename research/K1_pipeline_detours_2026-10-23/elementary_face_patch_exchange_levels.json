@@ -1,0 +1,847 @@
+{
+  "scope": "All 24 two-R local exchanges: top-C and bottom-L endpoint directions.\nNecessary local geometry only, not a complete front or an assumed splice.\n",
+  "exchange_rows": 24,
+  "elementary_pair_rows": 8,
+  "rows": [
+    {
+      "headings": "EEE",
+      "center": -2,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -2
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": -1,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": false,
+          "bottom_L_possible": false
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": -2,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -3,
+          "top_C_possible": false,
+          "bottom_L_possible": true
+        }
+      ],
+      "elementary_pair_possible": false
+    },
+    {
+      "headings": "EEW",
+      "center": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": -1,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -2,
+          "top_C_possible": false,
+          "bottom_L_possible": true
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": 0,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": true,
+          "bottom_L_possible": false
+        }
+      ],
+      "elementary_pair_possible": true
+    },
+    {
+      "headings": "EWE",
+      "center": -2,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": -2,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -3,
+          "top_C_possible": false,
+          "bottom_L_possible": true
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": -1,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": false,
+          "bottom_L_possible": false
+        }
+      ],
+      "elementary_pair_possible": false
+    },
+    {
+      "headings": "EWW",
+      "center": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": 0,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": true,
+          "bottom_L_possible": false
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": -1,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -2,
+          "top_C_possible": false,
+          "bottom_L_possible": true
+        }
+      ],
+      "elementary_pair_possible": true
+    },
+    {
+      "headings": "WEE",
+      "center": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": 0,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": true,
+          "bottom_L_possible": false
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": -1,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -2,
+          "top_C_possible": false,
+          "bottom_L_possible": true
+        }
+      ],
+      "elementary_pair_possible": true
+    },
+    {
+      "headings": "WEW",
+      "center": -2,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -2
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": -2,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -3,
+          "top_C_possible": false,
+          "bottom_L_possible": true
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": -1,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": false,
+          "bottom_L_possible": false
+        }
+      ],
+      "elementary_pair_possible": false
+    },
+    {
+      "headings": "WWE",
+      "center": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": -1,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -2,
+          "top_C_possible": false,
+          "bottom_L_possible": true
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": 0,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": true,
+          "bottom_L_possible": false
+        }
+      ],
+      "elementary_pair_possible": true
+    },
+    {
+      "headings": "WWW",
+      "center": -2,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": -1,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": false,
+          "bottom_L_possible": false
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": -2,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -3,
+          "top_C_possible": false,
+          "bottom_L_possible": true
+        }
+      ],
+      "elementary_pair_possible": false
+    },
+    {
+      "headings": "EEEE",
+      "center": -2,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": -1,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": false,
+          "bottom_L_possible": false
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": -2,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -4,
+          "top_C_possible": false,
+          "bottom_L_possible": false
+        }
+      ],
+      "elementary_pair_possible": false
+    },
+    {
+      "headings": "EEEW",
+      "center": -2,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": -1,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": false,
+          "bottom_L_possible": false
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": -2,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -3,
+          "top_C_possible": false,
+          "bottom_L_possible": true
+        }
+      ],
+      "elementary_pair_possible": false
+    },
+    {
+      "headings": "EEWE",
+      "center": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -1
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": -1,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -3,
+          "top_C_possible": false,
+          "bottom_L_possible": false
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": 0,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": true,
+          "bottom_L_possible": false
+        }
+      ],
+      "elementary_pair_possible": false
+    },
+    {
+      "headings": "EEWW",
+      "center": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": -1,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -2,
+          "top_C_possible": false,
+          "bottom_L_possible": true
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": 0,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": true,
+          "bottom_L_possible": false
+        }
+      ],
+      "elementary_pair_possible": true
+    },
+    {
+      "headings": "EWEE",
+      "center": -2,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": -2,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -3,
+          "top_C_possible": false,
+          "bottom_L_possible": true
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": -1,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": false,
+          "bottom_L_possible": false
+        }
+      ],
+      "elementary_pair_possible": false
+    },
+    {
+      "headings": "EWEW",
+      "center": -2,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": -2,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -4,
+          "top_C_possible": false,
+          "bottom_L_possible": false
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": -1,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": false,
+          "bottom_L_possible": false
+        }
+      ],
+      "elementary_pair_possible": false
+    },
+    {
+      "headings": "EWWE",
+      "center": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": 0,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": true,
+          "bottom_L_possible": false
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": -1,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -2,
+          "top_C_possible": false,
+          "bottom_L_possible": true
+        }
+      ],
+      "elementary_pair_possible": true
+    },
+    {
+      "headings": "EWWW",
+      "center": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -3
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": 0,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": true,
+          "bottom_L_possible": false
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": -1,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -3,
+          "top_C_possible": false,
+          "bottom_L_possible": false
+        }
+      ],
+      "elementary_pair_possible": false
+    },
+    {
+      "headings": "WEEE",
+      "center": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -1
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": 0,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": true,
+          "bottom_L_possible": false
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": -1,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -3,
+          "top_C_possible": false,
+          "bottom_L_possible": false
+        }
+      ],
+      "elementary_pair_possible": false
+    },
+    {
+      "headings": "WEEW",
+      "center": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": 0,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": true,
+          "bottom_L_possible": false
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": -1,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -2,
+          "top_C_possible": false,
+          "bottom_L_possible": true
+        }
+      ],
+      "elementary_pair_possible": true
+    },
+    {
+      "headings": "WEWE",
+      "center": -2,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": -2,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -4,
+          "top_C_possible": false,
+          "bottom_L_possible": false
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": -1,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": false,
+          "bottom_L_possible": false
+        }
+      ],
+      "elementary_pair_possible": false
+    },
+    {
+      "headings": "WEWW",
+      "center": -2,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": -2,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -3,
+          "top_C_possible": false,
+          "bottom_L_possible": true
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": -1,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": false,
+          "bottom_L_possible": false
+        }
+      ],
+      "elementary_pair_possible": false
+    },
+    {
+      "headings": "WWEE",
+      "center": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": -1,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -2,
+          "top_C_possible": false,
+          "bottom_L_possible": true
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": 0,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": true,
+          "bottom_L_possible": false
+        }
+      ],
+      "elementary_pair_possible": true
+    },
+    {
+      "headings": "WWEW",
+      "center": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -3
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": -1,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -3,
+          "top_C_possible": false,
+          "bottom_L_possible": false
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": 0,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": true,
+          "bottom_L_possible": false
+        }
+      ],
+      "elementary_pair_possible": false
+    },
+    {
+      "headings": "WWWE",
+      "center": -2,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": -1,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": false,
+          "bottom_L_possible": false
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": -2,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -3,
+          "top_C_possible": false,
+          "bottom_L_possible": true
+        }
+      ],
+      "elementary_pair_possible": false
+    },
+    {
+      "headings": "WWWW",
+      "center": -2,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      },
+      "pairs": [
+        {
+          "in_rank": 1,
+          "out_rank": 2,
+          "j": -1,
+          "turn": "R",
+          "selected_C": 0,
+          "selected_L": null,
+          "top_C_possible": false,
+          "bottom_L_possible": false
+        },
+        {
+          "in_rank": 2,
+          "out_rank": 1,
+          "j": -2,
+          "turn": "L",
+          "selected_C": null,
+          "selected_L": -4,
+          "top_C_possible": false,
+          "bottom_L_possible": false
+        }
+      ],
+      "elementary_pair_possible": false
+    }
+  ]
+}

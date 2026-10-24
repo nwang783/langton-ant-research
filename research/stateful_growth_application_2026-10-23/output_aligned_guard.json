@@ -1,0 +1,103 @@
+{
+  "status": "EXACT OUTPUT-ALIGNED CARRIED-FRAME CLOSING-GUARD EXCLUSION",
+  "candidate": {
+    "W6": "RRLRRRRLLLLRLLLLRLRR",
+    "M": "3n+50",
+    "r": "3n+51=M+1",
+    "k": "n+10",
+    "word": "W6^M K(r,k) S^M J(r) H104^(n+1)",
+    "A": [
+      1,
+      1
+    ],
+    "B": [
+      1,
+      5
+    ],
+    "lap_length": [
+      408,
+      5344
+    ],
+    "lap_mass_delta": [
+      12,
+      56
+    ],
+    "quadratic_shared_cell": [
+      1,
+      1
+    ],
+    "linear_shared_cell": [
+      -5,
+      5
+    ],
+    "constant_shared_cell": [
+      -101,
+      0
+    ],
+    "source_event": [
+      "n",
+      0,
+      "3n+49",
+      19
+    ],
+    "target_event": [
+      "n",
+      12,
+      0,
+      0
+    ],
+    "source_time": "60n+999",
+    "target_time": "116n+1899",
+    "frame_guard_touches": "{ [n, b = 12, j = 0, r = 0] : n >= 0 }",
+    "finite_prefix_control": {
+      "reads": 1899,
+      "minimal_seed_mass": 450,
+      "final_mass": 453,
+      "head": [
+        -101,
+        0
+      ],
+      "heading": 0,
+      "guarded_cell_is_black": true,
+      "first_prohibited_read": {
+        "index": 1899,
+        "current": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "previous": [
+          0,
+          0,
+          49,
+          19
+        ],
+        "previous_index": 999,
+        "cell": [
+          -101,
+          0
+        ],
+        "turn": "R"
+      }
+    }
+  },
+  "all_parameter_theorem": {
+    "domain": "M>=1,r>=10,k>=10",
+    "incoming": "phase6 cyclic cut W6^M from E",
+    "source": "last W6 copy final R at(-2M-1,0)",
+    "consumer": "final R of first F(r,k) at(-2M-1,0)",
+    "protection": "F is self-avoiding and this is its last read; no intervening event touches the source cell.",
+    "scope": "Impossible on any initial coloring, finite or infinite, regardless of all retained caps, passives and past history."
+  },
+  "separate_rail_reach": {
+    "necessary": "r>M",
+    "reason": "If1<=r<=M, the first R after T^r hits a still-current even-parity W6 output R.",
+    "motivated_choice": "r=M+1 is the minimal integer avoiding that earlier obstruction; no parameter scan."
+  },
+  "source_sha256": "3186e8698bbd946b9ddbe6d1f074766435e0d7cf59d4d38af1b4ce7e613afaf1",
+  "geometry_validator_sha256": "aacac03e02ecf0d332ed1bfe1f46ee9e813901194b9a71e217c8e31768e7a337",
+  "application_checker_sha256": "3652cbcf0395ac12927fc61479072511301e77f4dd899a8c42f49c56c4c31c50",
+  "signed_frame_self_avoidance_binding": "b6260dbea6b3200599a921241a12c5c7d4ebfbda8d97a1da01bf7085e0c88e8c",
+  "scope": "One output-aligned/reach-corrected carried-frame candidate, not a phase scan."
+}

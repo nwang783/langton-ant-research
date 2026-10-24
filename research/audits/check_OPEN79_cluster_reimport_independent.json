@@ -1,0 +1,209 @@
+{
+  "status": "PASS all-length two-port cluster reimport conditional on supplied OPEN79 gap3 history",
+  "proof": "9287061e1444cbcee14fbaafaaaa6d50069b37da26326027b1c686a83208514d",
+  "certificate": "fd01e7c72045321f6496e338d10d255ad2e702db7da17a4ce829d9dd9f9b74db",
+  "script": "0d44431a7b2bb948960830e5f5efdabf2804f0d0f49ba3f7314d0a47367f0cb3",
+  "controls": [
+    {
+      "word": "RLRRLLRRLRRLRRLRR",
+      "initial_black": [
+        [
+          -2,
+          1
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "complete_final_black": [
+        [
+          -3,
+          1
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "first_cluster_read": {
+        "time": 16,
+        "position": [
+          0,
+          1
+        ],
+        "incoming_heading": 2,
+        "turn": "R"
+      },
+      "specific_seed_failure": {
+        "time": 142,
+        "cell": [
+          -1,
+          0
+        ],
+        "actual_incoming": "N",
+        "required_next_incoming": "S",
+        "owned_rank": 9
+      }
+    },
+    {
+      "word": "RLRRLLRRLRRLRRLLRRLRL",
+      "initial_black": [
+        [
+          -2,
+          1
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "complete_final_black": [
+        [
+          -3,
+          1
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "first_cluster_read": {
+        "time": 20,
+        "position": [
+          2,
+          1
+        ],
+        "incoming_heading": 2,
+        "turn": "L"
+      },
+      "specific_seed_failure": {
+        "time": 32,
+        "cell": [
+          2,
+          1
+        ],
+        "actual_incoming": "S",
+        "required_next_incoming": "N",
+        "owned_rank": 3
+      }
+    }
+  ],
+  "analytic_review": [
+    "Complete named T9/T10/T11/T12 histories are independently bound. B next E arrival necessarily comes from C, so B cannot be read during the open first C excursion. Assuming noK contact fixes U/Q WHITE and A/X BLACK; after C L the literal forced tail C,B,U,Q,A,Z,X reaches X fromN instead of owned rank1S. An earlier Z E/L use only makes the contradiction earlier; no unknown Z turn is allowed.",
+    "At firstK contact, Q horizontal arrivals both require earlierU orX; A ownedS requires earlierQ. U invariant vertical axis leavesN fromforbiddenB orS fromnorth. X owned nextS comesfromnorth. Actual colors giveU R restoration versusX L consumption. This is actual first physical contact, not canonical clock/phase ordering.",
+    "Both prepared17/21 branches replay on complete6/8-black finite inputs with full final fields. They stop at firstreimport, not a completedC return or OPEN79/controller. Their exact-seed later heading failures do not exclude arbitrary exterior completions. No finite length bound, stock monotonicity or recursive debt amplification is inferred."
+  ]
+}

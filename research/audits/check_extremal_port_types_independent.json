@@ -1,0 +1,177 @@
+{
+  "status": "PASS exact all-cap extremal source/sink types and refined capacities",
+  "author_note": "fdde77939e853ddeeba708e300a44b668224f3c80ea0fbbdc7979869801f0eef",
+  "prior_independent_report": "06c1e414e9cab256cf70b984ecfda2804cb76a1f5916f2e5c4f081d74c7f09e9",
+  "standard_controls": [
+    {
+      "P": 104,
+      "h": 0,
+      "types": {
+        "odd_same": 4,
+        "even_same": 5,
+        "odd_opposite": 4,
+        "even_opposite": 5,
+        "single": 4
+      },
+      "E": 5
+    },
+    {
+      "P": 104,
+      "h": 1,
+      "types": {
+        "odd_same": 4,
+        "even_same": 5,
+        "odd_opposite": 4,
+        "even_opposite": 5,
+        "single": 4
+      },
+      "E": 5
+    },
+    {
+      "P": 104,
+      "h": 2,
+      "types": {
+        "odd_same": 4,
+        "even_same": 5,
+        "odd_opposite": 4,
+        "even_opposite": 5,
+        "single": 4
+      },
+      "E": 5
+    },
+    {
+      "P": 104,
+      "h": 3,
+      "types": {
+        "odd_same": 4,
+        "even_same": 5,
+        "odd_opposite": 4,
+        "even_opposite": 5,
+        "single": 4
+      },
+      "E": 5
+    },
+    {
+      "P": 208,
+      "h": 0,
+      "types": {
+        "odd_same": 8,
+        "even_same": 10,
+        "odd_opposite": 8,
+        "even_opposite": 10,
+        "single": 8
+      },
+      "E": 10
+    },
+    {
+      "P": 208,
+      "h": 1,
+      "types": {
+        "odd_same": 8,
+        "even_same": 10,
+        "odd_opposite": 8,
+        "even_opposite": 10,
+        "single": 8
+      },
+      "E": 10
+    },
+    {
+      "P": 208,
+      "h": 2,
+      "types": {
+        "odd_same": 8,
+        "even_same": 10,
+        "odd_opposite": 8,
+        "even_opposite": 10,
+        "single": 8
+      },
+      "E": 10
+    },
+    {
+      "P": 208,
+      "h": 3,
+      "types": {
+        "odd_same": 8,
+        "even_same": 10,
+        "odd_opposite": 8,
+        "even_opposite": 10,
+        "single": 8
+      },
+      "E": 10
+    },
+    {
+      "P": 312,
+      "h": 0,
+      "types": {
+        "odd_same": 12,
+        "even_same": 15,
+        "odd_opposite": 12,
+        "even_opposite": 15,
+        "single": 12
+      },
+      "E": 15
+    },
+    {
+      "P": 312,
+      "h": 1,
+      "types": {
+        "odd_same": 12,
+        "even_same": 15,
+        "odd_opposite": 12,
+        "even_opposite": 15,
+        "single": 12
+      },
+      "E": 15
+    },
+    {
+      "P": 312,
+      "h": 2,
+      "types": {
+        "odd_same": 12,
+        "even_same": 15,
+        "odd_opposite": 12,
+        "even_opposite": 15,
+        "single": 12
+      },
+      "E": 15
+    },
+    {
+      "P": 312,
+      "h": 3,
+      "types": {
+        "odd_same": 12,
+        "even_same": 15,
+        "odd_opposite": 12,
+        "even_opposite": 15,
+        "single": 12
+      },
+      "E": 15
+    }
+  ],
+  "marked_actual_finite_edges": 15018,
+  "boundary_exceptions_retained": 27,
+  "blank_origin_age8": [
+    [
+      0,
+      0,
+      "R"
+    ],
+    [
+      4,
+      0,
+      "L"
+    ],
+    [
+      8,
+      2,
+      "R"
+    ]
+  ],
+  "analytic_review": [
+    "A nonsingleton target cannot have equal first/last incoming heading: its earlier arrival would require the same source neighbor before that source firstR. A nonsingleton source cannot use its first outgoing edge again on its last departure, because the neighbor already had its last read. With the two invariant-axis-compatible headings, lastL therefore forces SAME and lastR OPPOSITE. No cap or WHITE assumption off the two relevant complete histories is used.",
+    "Only singleton/odd-opposite vertices can be internal. Even-same vertices are source-only, even-opposite sink-only, odd-same isolated. Counting possible outgoing and incoming ends separately yields |E|<=A+min(e_same,e_opposite); it is not an assumption every allowable port is attained.",
+    "On an E cycle the incoming selected event is the target last read. At singletons it equals first incoming, giving geometricR; at odd-opposite it is opposite, giving geometricL. The signed embedded essential b-cycle has winding-1 and equal R/L counts, so exactly half each. Disjoint cycles give n1,no>=||d||infinity*cE.",
+    "The age identity P=sum(H-F)-length and at least two positive return gaps of length divisible by4 for each nonsingleton odd give P>=3*cycle length. The exact blank9-turn RRRRLRRRR control has originR0,L4,R8 with incomingN,N,S, so the local age8 lower bound is sharp; two returns do not imply restored heading.",
+    "Every overlap of a selected b cycle and reversed k cycle has BOTH endpoints even. The port rule places source in even-same and target in even-opposite, so C<=min(e_same,e_opposite). This bounds but does not erase the overlap correction and does not exclude reverse essential cycles or classify controllers."
+  ]
+}

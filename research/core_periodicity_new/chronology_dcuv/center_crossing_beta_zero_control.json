@@ -1,0 +1,325 @@
+{
+  "status": "AUTHOR_ACTUAL_CENTER_CROSSING_WITH_BETA_ZERO_PASS",
+  "scope": "A finite actual complete-eight factor, not a closed excursion or an unfunded record control.",
+  "word": [
+    1,
+    1,
+    1,
+    0,
+    4
+  ],
+  "names": [
+    "DC",
+    "DC",
+    "DC",
+    "D",
+    "V"
+  ],
+  "seed": [
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "entry_mass": 10,
+  "raw_length": 103,
+  "raw_plus_actual_marker_length": 114,
+  "raw_exit_pose": [
+    2,
+    -1,
+    1
+  ],
+  "C_count": 3,
+  "all_input_beta": 0,
+  "all_input_component_mergers": 1,
+  "history": [
+    {
+      "packet_index": 0,
+      "name": "DC",
+      "entry_pose": [
+        0,
+        0,
+        0
+      ],
+      "entry_C_clock": 0,
+      "input_cells": [
+        [
+          0,
+          1
+        ]
+      ],
+      "input_identities": [
+        {
+          "root": 2,
+          "birth_packet": null,
+          "birth_clock": null
+        }
+      ],
+      "input_component_count": 1,
+      "beta_increment": 0,
+      "component_mergers": 0
+    },
+    {
+      "packet_index": 1,
+      "name": "DC",
+      "entry_pose": [
+        1,
+        2,
+        3
+      ],
+      "entry_C_clock": 1,
+      "input_cells": [
+        [
+          0,
+          2
+        ]
+      ],
+      "input_identities": [
+        {
+          "root": 3,
+          "birth_packet": null,
+          "birth_clock": null
+        }
+      ],
+      "input_component_count": 1,
+      "beta_increment": 0,
+      "component_mergers": 0
+    },
+    {
+      "packet_index": 2,
+      "name": "DC",
+      "entry_pose": [
+        -1,
+        3,
+        2
+      ],
+      "entry_C_clock": 2,
+      "input_cells": [
+        [
+          -1,
+          2
+        ]
+      ],
+      "input_identities": [
+        {
+          "root": 1,
+          "birth_packet": null,
+          "birth_clock": null
+        }
+      ],
+      "input_component_count": 1,
+      "beta_increment": 0,
+      "component_mergers": 0
+    },
+    {
+      "packet_index": 3,
+      "name": "D",
+      "entry_pose": [
+        -2,
+        1,
+        1
+      ],
+      "entry_C_clock": 3,
+      "input_cells": [
+        [
+          -1,
+          1
+        ]
+      ],
+      "input_identities": [
+        {
+          "root": 0,
+          "birth_packet": null,
+          "birth_clock": null
+        }
+      ],
+      "input_component_count": 1,
+      "beta_increment": 0,
+      "component_mergers": 0
+    },
+    {
+      "packet_index": 4,
+      "name": "V",
+      "entry_pose": [
+        -1,
+        0,
+        1
+      ],
+      "entry_C_clock": 3,
+      "input_cells": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "input_identities": [
+        {
+          "root": 2,
+          "birth_packet": 0,
+          "birth_clock": 0
+        },
+        {
+          "root": 4,
+          "birth_packet": null,
+          "birth_clock": null
+        }
+      ],
+      "input_component_count": 2,
+      "beta_increment": 0,
+      "component_mergers": 1
+    }
+  ],
+  "atomic_center_chords": [
+    {
+      "packet_index": 0,
+      "atom": "D",
+      "start": [
+        "-1/2",
+        "-1/2"
+      ],
+      "end": [
+        "1/2",
+        "1/2"
+      ]
+    },
+    {
+      "packet_index": 0,
+      "atom": "C",
+      "start": [
+        "1/2",
+        "1/2"
+      ],
+      "end": [
+        "3/2",
+        "3/2"
+      ]
+    },
+    {
+      "packet_index": 1,
+      "atom": "D",
+      "start": [
+        "3/2",
+        "3/2"
+      ],
+      "end": [
+        "1/2",
+        "5/2"
+      ]
+    },
+    {
+      "packet_index": 1,
+      "atom": "C",
+      "start": [
+        "1/2",
+        "5/2"
+      ],
+      "end": [
+        "-1/2",
+        "7/2"
+      ]
+    },
+    {
+      "packet_index": 2,
+      "atom": "D",
+      "start": [
+        "-1/2",
+        "7/2"
+      ],
+      "end": [
+        "-3/2",
+        "5/2"
+      ]
+    },
+    {
+      "packet_index": 2,
+      "atom": "C",
+      "start": [
+        "-3/2",
+        "5/2"
+      ],
+      "end": [
+        "-5/2",
+        "3/2"
+      ]
+    },
+    {
+      "packet_index": 3,
+      "atom": "D",
+      "start": [
+        "-5/2",
+        "3/2"
+      ],
+      "end": [
+        "-3/2",
+        "1/2"
+      ]
+    },
+    {
+      "packet_index": 4,
+      "atom": "V",
+      "start": [
+        "-3/2",
+        "1/2"
+      ],
+      "end": [
+        "3/2",
+        "-1/2"
+      ]
+    }
+  ],
+  "proper_crossing": {
+    "first_edge_index": 0,
+    "second_edge_index": 7,
+    "point": [
+      0,
+      0
+    ],
+    "both_segment_parameters": "1/2",
+    "cross_product": -4
+  },
+  "limitation": "The final V uses one descendant of the first DC and one different entry component. Thus a proper crossing need not raise beta, but this control does use a component merger. No theorem says all crossings require one.",
+  "dependency_hashes": {
+    "chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "check_center_crossing_beta_zero_control.py": "3b995982842a644068a57a08dffbc1f8657c3ae86ba3de79c5747e6d8d18fc3c"
+  }
+}

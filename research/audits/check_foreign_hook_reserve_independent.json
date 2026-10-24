@@ -1,0 +1,88 @@
+{
+  "status": "PASS four SAME Q/B hook identities persist CURRENT until the first atom contacting the actual foreign proxy",
+  "manifest_sha256": "715bdcf34f862e357bfb0a46ad8415635fd998b9dbb36d072455e76e7a1ed720",
+  "script_sha256": "5562c3c2d7c9ab63da6ded8ee71a8125a63817236ec577024363fef16d9af715",
+  "input_roles": {
+    "D": [
+      [
+        0,
+        1
+      ]
+    ],
+    "C": [],
+    "V": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "U": [
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        -1,
+        4
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  "cases": [
+    {
+      "foreign": "Q",
+      "counts": {
+        "held_CURRENT_in_entry_CORE": 13,
+        "held_BLACK_first_required_WHITE": 39,
+        "sector": 64,
+        "ordinary_consumer_chord_contacts_actual_FOREIGN_proxy": 12
+      },
+      "distinct_contact_poses": 8
+    },
+    {
+      "foreign": "B",
+      "counts": {
+        "sector": 64,
+        "held_BLACK_first_required_WHITE": 39,
+        "held_CURRENT_in_entry_CORE": 13,
+        "ordinary_consumer_chord_contacts_actual_FOREIGN_proxy": 12
+      },
+      "distinct_contact_poses": 8
+    }
+  ],
+  "complete_controls": [
+    {
+      "word": "UQVCCV",
+      "reads": 169,
+      "all_five_cuts_current": true
+    },
+    {
+      "word": "UBVCCV",
+      "reads": 179,
+      "all_five_cuts_current": true
+    }
+  ],
+  "analytic_review": [
+    "Each hook was reconstructed directly from actual foreign RAW last-R output, normalized at its actual exit. All four are external toK and survive the genuine following context. True Q/B geometry retains both F56 and tail pieces, never declaring the internal bend a marked core.",
+    "The independent ordinary input table uses actualRAW plus actualM first-L outsideentryK, including marker-owned CORE absorption. Every exitK-minus-entryK position is explicitly first-color constrained in that context; external BLACK enteringcore therefore appears in a true input or contradicts firstWHITE. C has zero externalBLACK input. This covers firstCURRENT loss even if physical death is delayed.",
+    "All128 alignments perforeign were recomputed from four heldIDs,fourheadings andeightD/V/Uinputroles.64sector,39firstWHITE,13entryCORE and12genuine-contact alternatives at8poses exhaust them. The contact branch remains possible; it is not mislabelled a color contradiction.",
+    "Closed endpoints and positive collinear overlaps are included. The implementation conservatively ignores even more oldterminal/newentry singleton adjacencies than the theorem permits; every surviving first-loss row nevertheless has another retained contact. Thus legitimate initial terminal adjacency causes no false rejection, while later repeated terminal already constitutes contact at the preceding atom exit.",
+    "Choose earliest ordinary atom whose completed cut loses a hook CURRENT identity. Its entry has all four, so the exact input table forces that atom to contact the specified foreign. This establishes persistence at every entry through the first-contact atom, not its exit, without assuming ordinary self-simplicity or a bounded C clock. All contexts are supplied by actual laterRAWs plus the actualterminalM, including D10spill.",
+    "Both complete genuine UQ/UB VCCV boards retain all four original R IDs at all five actual cuts. This is a fixed-subset reserve, not whole-output persistence, a proof that contacts are impossible, arbitrary-tail simplicity, another-foreign transfer or global capture."
+  ]
+}

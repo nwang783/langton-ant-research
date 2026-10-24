@@ -1,0 +1,22 @@
+{
+  "status": "PASS all-parameter original-board W6-to-J guard exchange and fixed-local-cap restart obstruction",
+  "note_sha256": "27d898092de97b28ae9bf9fbc722445b754429436abccd66d03a69603e7292de",
+  "families": 80,
+  "strict_prior_family_pairs": 6320,
+  "domain": "M>=1 and r>=10 and r>M",
+  "minimum_seed": "2r+5",
+  "duration": "20M+8r+52",
+  "complete_output": "Before-J complete rod and four markers, minus three listed cells plus fifteen listed cells; all other physical bits unchanged.",
+  "sample": {
+    "reads": 1460,
+    "input": 107,
+    "output": 119,
+    "pose": [
+      -100,
+      0,
+      1
+    ]
+  },
+  "analytic": "The exact prior-color test quantifies both copy indices directly and confirms all read colors on the entire two-parameter cone, including minimum first-L support. The last local RRRRLL writes the new near gate black; immediate LRRL requires the next read of that same cell R after only three off-cell reads. Changing arbitrary earlier remote behavior cannot repair that fixed-local-cap/immediate-T interface.",
+  "scope": "A positive finite supplied guard-clearing operation with complete endpoint changes, not a renewable cap. Different near caps, entry poses or outbound words remain unclassified."
+}

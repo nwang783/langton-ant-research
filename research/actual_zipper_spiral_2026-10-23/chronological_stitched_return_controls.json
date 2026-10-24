@@ -1,0 +1,2140 @@
+[
+  {
+    "q": 3,
+    "scale": 12,
+    "n_coarse": 48,
+    "initial_mass": 208,
+    "initial_partition": {
+      "input": 97,
+      "stitch": 2,
+      "guide": 109
+    },
+    "initial_ranks_w_z": [
+      1,
+      0
+    ],
+    "stages": [
+      {
+        "stage": "first_R",
+        "T": 195,
+        "L": 97,
+        "R": 98,
+        "gain": 1,
+        "mass_before": 208,
+        "mass_after": 209,
+        "births_w_z": [
+          0,
+          0
+        ],
+        "erasures_w_z": [
+          0,
+          0
+        ],
+        "w_exceptional_blocks": 0,
+        "exceptions": [],
+        "deaths_by_origin": {
+          "input": 97
+        },
+        "entry_pose": [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        "exit_pose": [
+          [
+            -24,
+            -25
+          ],
+          2
+        ],
+        "word": "LRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLL",
+        "ranks_after": [
+          1,
+          0
+        ]
+      },
+      {
+        "stage": "transport_R",
+        "T": 220,
+        "L": 107,
+        "R": 113,
+        "gain": 6,
+        "mass_before": 209,
+        "mass_after": 215,
+        "births_w_z": [
+          0,
+          2
+        ],
+        "erasures_w_z": [
+          1,
+          1
+        ],
+        "w_exceptional_blocks": 2,
+        "exceptions": [
+          {
+            "time_in_stage": 2,
+            "r": 1,
+            "w_nonbridge": true,
+            "life_class": "guide",
+            "cell": [
+              -25,
+              -25
+            ]
+          },
+          {
+            "time_in_stage": 220,
+            "r": 4,
+            "w_nonbridge": false,
+            "life_class": "transport_R",
+            "cell": [
+              0,
+              2
+            ]
+          }
+        ],
+        "deaths_by_origin": {
+          "guide": 106,
+          "transport_R": 1
+        },
+        "entry_pose": [
+          [
+            -24,
+            -25
+          ],
+          2
+        ],
+        "exit_pose": [
+          [
+            0,
+            3
+          ],
+          0
+        ],
+        "word": "RLLRRLRLRRLRLRLRLRLRRLRLRLRLRLRLRRLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLRRLRLRLRLRLRRLRLRLRLRRLRLRRRRL",
+        "ranks_after": [
+          0,
+          1
+        ]
+      },
+      {
+        "stage": "second_R",
+        "T": 205,
+        "L": 102,
+        "R": 103,
+        "gain": 1,
+        "mass_before": 215,
+        "mass_after": 216,
+        "births_w_z": [
+          0,
+          52
+        ],
+        "erasures_w_z": [
+          0,
+          53
+        ],
+        "w_exceptional_blocks": 0,
+        "exceptions": [],
+        "deaths_by_origin": {
+          "first_R": 98,
+          "stitch": 2,
+          "transport_R": 2
+        },
+        "entry_pose": [
+          [
+            0,
+            3
+          ],
+          0
+        ],
+        "exit_pose": [
+          [
+            -23,
+            -27
+          ],
+          1
+        ],
+        "word": "RRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLL",
+        "ranks_after": [
+          0,
+          0
+        ]
+      }
+    ],
+    "T": 620,
+    "max_mass": 219,
+    "final_mass": 216,
+    "final_origin_counts": {
+      "guide": 3,
+      "transport_R": 110,
+      "second_R": 103
+    },
+    "initial_cells_still_black": {
+      "input": 0,
+      "stitch": 0,
+      "guide": 4
+    },
+    "final_w_components": [
+      {
+        "mass": 53,
+        "origin_counts": {
+          "guide": 3,
+          "transport_R": 1,
+          "second_R": 49
+        }
+      },
+      {
+        "mass": 42,
+        "origin_counts": {
+          "transport_R": 42
+        }
+      },
+      {
+        "mass": 30,
+        "origin_counts": {
+          "transport_R": 4,
+          "second_R": 26
+        }
+      },
+      {
+        "mass": 28,
+        "origin_counts": {
+          "second_R": 28
+        }
+      },
+      {
+        "mass": 18,
+        "origin_counts": {
+          "transport_R": 18
+        }
+      },
+      {
+        "mass": 14,
+        "origin_counts": {
+          "transport_R": 14
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      }
+    ],
+    "first_R_lifetimes_all_preserved_until_second": true,
+    "first_R_lifetimes_all_consumed_in_second": true
+  },
+  {
+    "q": 5,
+    "scale": 12,
+    "n_coarse": 108,
+    "initial_mass": 430,
+    "initial_partition": {
+      "input": 217,
+      "stitch": 4,
+      "guide": 209
+    },
+    "initial_ranks_w_z": [
+      1,
+      0
+    ],
+    "stages": [
+      {
+        "stage": "first_R",
+        "T": 437,
+        "L": 217,
+        "R": 220,
+        "gain": 3,
+        "mass_before": 430,
+        "mass_after": 433,
+        "births_w_z": [
+          0,
+          0
+        ],
+        "erasures_w_z": [
+          0,
+          0
+        ],
+        "w_exceptional_blocks": 0,
+        "exceptions": [],
+        "deaths_by_origin": {
+          "input": 217
+        },
+        "entry_pose": [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        "exit_pose": [
+          [
+            49,
+            26
+          ],
+          0
+        ],
+        "word": "LRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLL",
+        "ranks_after": [
+          1,
+          0
+        ]
+      },
+      {
+        "stage": "transport_R",
+        "T": 418,
+        "L": 207,
+        "R": 211,
+        "gain": 4,
+        "mass_before": 433,
+        "mass_after": 437,
+        "births_w_z": [
+          0,
+          2
+        ],
+        "erasures_w_z": [
+          1,
+          1
+        ],
+        "w_exceptional_blocks": 2,
+        "exceptions": [
+          {
+            "time_in_stage": 2,
+            "r": 1,
+            "w_nonbridge": true,
+            "life_class": "guide",
+            "cell": [
+              50,
+              26
+            ]
+          },
+          {
+            "time_in_stage": 418,
+            "r": 4,
+            "w_nonbridge": false,
+            "life_class": "transport_R",
+            "cell": [
+              0,
+              2
+            ]
+          }
+        ],
+        "deaths_by_origin": {
+          "guide": 206,
+          "transport_R": 1
+        },
+        "entry_pose": [
+          [
+            49,
+            26
+          ],
+          0
+        ],
+        "exit_pose": [
+          [
+            0,
+            3
+          ],
+          0
+        ],
+        "word": "RLLRRLRLRRLRLRLRLRLRRLRLRLRLRLRLRRLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLRRLRLRLRLRLRRLRLRLRLRRLRLRRRRL",
+        "ranks_after": [
+          0,
+          1
+        ]
+      },
+      {
+        "stage": "second_R",
+        "T": 455,
+        "L": 226,
+        "R": 229,
+        "gain": 3,
+        "mass_before": 437,
+        "mass_after": 440,
+        "births_w_z": [
+          0,
+          115
+        ],
+        "erasures_w_z": [
+          0,
+          116
+        ],
+        "w_exceptional_blocks": 0,
+        "exceptions": [],
+        "deaths_by_origin": {
+          "first_R": 220,
+          "stitch": 4,
+          "transport_R": 2
+        },
+        "entry_pose": [
+          [
+            0,
+            3
+          ],
+          0
+        ],
+        "exit_pose": [
+          [
+            48,
+            28
+          ],
+          3
+        ],
+        "word": "RRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLL",
+        "ranks_after": [
+          0,
+          0
+        ]
+      }
+    ],
+    "T": 1310,
+    "max_mass": 443,
+    "final_mass": 440,
+    "final_origin_counts": {
+      "guide": 3,
+      "transport_R": 208,
+      "second_R": 229
+    },
+    "initial_cells_still_black": {
+      "input": 0,
+      "stitch": 0,
+      "guide": 4
+    },
+    "final_w_components": [
+      {
+        "mass": 77,
+        "origin_counts": {
+          "guide": 3,
+          "transport_R": 1,
+          "second_R": 73
+        }
+      },
+      {
+        "mass": 66,
+        "origin_counts": {
+          "transport_R": 66
+        }
+      },
+      {
+        "mass": 52,
+        "origin_counts": {
+          "second_R": 52
+        }
+      },
+      {
+        "mass": 50,
+        "origin_counts": {
+          "second_R": 50
+        }
+      },
+      {
+        "mass": 38,
+        "origin_counts": {
+          "transport_R": 38
+        }
+      },
+      {
+        "mass": 36,
+        "origin_counts": {
+          "transport_R": 36
+        }
+      },
+      {
+        "mass": 30,
+        "origin_counts": {
+          "transport_R": 4,
+          "second_R": 26
+        }
+      },
+      {
+        "mass": 28,
+        "origin_counts": {
+          "second_R": 28
+        }
+      },
+      {
+        "mass": 18,
+        "origin_counts": {
+          "transport_R": 18
+        }
+      },
+      {
+        "mass": 14,
+        "origin_counts": {
+          "transport_R": 14
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      }
+    ],
+    "first_R_lifetimes_all_preserved_until_second": true,
+    "first_R_lifetimes_all_consumed_in_second": true
+  },
+  {
+    "q": 7,
+    "scale": 12,
+    "n_coarse": 192,
+    "initial_mass": 748,
+    "initial_partition": {
+      "input": 385,
+      "stitch": 6,
+      "guide": 357
+    },
+    "initial_ranks_w_z": [
+      1,
+      0
+    ],
+    "stages": [
+      {
+        "stage": "first_R",
+        "T": 775,
+        "L": 385,
+        "R": 390,
+        "gain": 5,
+        "mass_before": 748,
+        "mass_after": 753,
+        "births_w_z": [
+          0,
+          0
+        ],
+        "erasures_w_z": [
+          0,
+          0
+        ],
+        "w_exceptional_blocks": 0,
+        "exceptions": [],
+        "deaths_by_origin": {
+          "input": 385
+        },
+        "entry_pose": [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        "exit_pose": [
+          [
+            -48,
+            -49
+          ],
+          2
+        ],
+        "word": "LRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLL",
+        "ranks_after": [
+          1,
+          0
+        ]
+      },
+      {
+        "stage": "transport_R",
+        "T": 712,
+        "L": 355,
+        "R": 357,
+        "gain": 2,
+        "mass_before": 753,
+        "mass_after": 755,
+        "births_w_z": [
+          0,
+          2
+        ],
+        "erasures_w_z": [
+          1,
+          1
+        ],
+        "w_exceptional_blocks": 2,
+        "exceptions": [
+          {
+            "time_in_stage": 2,
+            "r": 1,
+            "w_nonbridge": true,
+            "life_class": "guide",
+            "cell": [
+              -49,
+              -49
+            ]
+          },
+          {
+            "time_in_stage": 712,
+            "r": 4,
+            "w_nonbridge": false,
+            "life_class": "transport_R",
+            "cell": [
+              0,
+              2
+            ]
+          }
+        ],
+        "deaths_by_origin": {
+          "guide": 354,
+          "transport_R": 1
+        },
+        "entry_pose": [
+          [
+            -48,
+            -49
+          ],
+          2
+        ],
+        "exit_pose": [
+          [
+            0,
+            3
+          ],
+          0
+        ],
+        "word": "RLLRRLRLRRLRLRLRLRLRRLRLRLRLRLRLRRLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLRRLRLRLRLRLRRLRLRLRLRRLRLRRRRL",
+        "ranks_after": [
+          0,
+          1
+        ]
+      },
+      {
+        "stage": "second_R",
+        "T": 801,
+        "L": 398,
+        "R": 403,
+        "gain": 5,
+        "mass_before": 755,
+        "mass_after": 760,
+        "births_w_z": [
+          0,
+          202
+        ],
+        "erasures_w_z": [
+          0,
+          203
+        ],
+        "w_exceptional_blocks": 0,
+        "exceptions": [],
+        "deaths_by_origin": {
+          "first_R": 390,
+          "stitch": 6,
+          "transport_R": 2
+        },
+        "entry_pose": [
+          [
+            0,
+            3
+          ],
+          0
+        ],
+        "exit_pose": [
+          [
+            -47,
+            -51
+          ],
+          1
+        ],
+        "word": "RRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLL",
+        "ranks_after": [
+          0,
+          0
+        ]
+      }
+    ],
+    "T": 2288,
+    "max_mass": 763,
+    "final_mass": 760,
+    "final_origin_counts": {
+      "guide": 3,
+      "transport_R": 354,
+      "second_R": 403
+    },
+    "initial_cells_still_black": {
+      "input": 0,
+      "stitch": 0,
+      "guide": 4
+    },
+    "final_w_components": [
+      {
+        "mass": 101,
+        "origin_counts": {
+          "guide": 3,
+          "transport_R": 1,
+          "second_R": 97
+        }
+      },
+      {
+        "mass": 90,
+        "origin_counts": {
+          "transport_R": 90
+        }
+      },
+      {
+        "mass": 76,
+        "origin_counts": {
+          "second_R": 76
+        }
+      },
+      {
+        "mass": 74,
+        "origin_counts": {
+          "second_R": 74
+        }
+      },
+      {
+        "mass": 62,
+        "origin_counts": {
+          "transport_R": 62
+        }
+      },
+      {
+        "mass": 60,
+        "origin_counts": {
+          "transport_R": 60
+        }
+      },
+      {
+        "mass": 52,
+        "origin_counts": {
+          "second_R": 52
+        }
+      },
+      {
+        "mass": 50,
+        "origin_counts": {
+          "second_R": 50
+        }
+      },
+      {
+        "mass": 38,
+        "origin_counts": {
+          "transport_R": 38
+        }
+      },
+      {
+        "mass": 36,
+        "origin_counts": {
+          "transport_R": 36
+        }
+      },
+      {
+        "mass": 30,
+        "origin_counts": {
+          "transport_R": 4,
+          "second_R": 26
+        }
+      },
+      {
+        "mass": 28,
+        "origin_counts": {
+          "second_R": 28
+        }
+      },
+      {
+        "mass": 18,
+        "origin_counts": {
+          "transport_R": 18
+        }
+      },
+      {
+        "mass": 14,
+        "origin_counts": {
+          "transport_R": 14
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      }
+    ],
+    "first_R_lifetimes_all_preserved_until_second": true,
+    "first_R_lifetimes_all_consumed_in_second": true
+  },
+  {
+    "q": 9,
+    "scale": 12,
+    "n_coarse": 300,
+    "initial_mass": 1162,
+    "initial_partition": {
+      "input": 601,
+      "stitch": 8,
+      "guide": 553
+    },
+    "initial_ranks_w_z": [
+      1,
+      0
+    ],
+    "stages": [
+      {
+        "stage": "first_R",
+        "T": 1209,
+        "L": 601,
+        "R": 608,
+        "gain": 7,
+        "mass_before": 1162,
+        "mass_after": 1169,
+        "births_w_z": [
+          0,
+          0
+        ],
+        "erasures_w_z": [
+          0,
+          0
+        ],
+        "w_exceptional_blocks": 0,
+        "exceptions": [],
+        "deaths_by_origin": {
+          "input": 601
+        },
+        "entry_pose": [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        "exit_pose": [
+          [
+            73,
+            50
+          ],
+          0
+        ],
+        "word": "LRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLL",
+        "ranks_after": [
+          1,
+          0
+        ]
+      },
+      {
+        "stage": "transport_R",
+        "T": 1102,
+        "L": 551,
+        "R": 551,
+        "gain": 0,
+        "mass_before": 1169,
+        "mass_after": 1169,
+        "births_w_z": [
+          0,
+          2
+        ],
+        "erasures_w_z": [
+          1,
+          1
+        ],
+        "w_exceptional_blocks": 2,
+        "exceptions": [
+          {
+            "time_in_stage": 2,
+            "r": 1,
+            "w_nonbridge": true,
+            "life_class": "guide",
+            "cell": [
+              74,
+              50
+            ]
+          },
+          {
+            "time_in_stage": 1102,
+            "r": 4,
+            "w_nonbridge": false,
+            "life_class": "transport_R",
+            "cell": [
+              0,
+              2
+            ]
+          }
+        ],
+        "deaths_by_origin": {
+          "guide": 550,
+          "transport_R": 1
+        },
+        "entry_pose": [
+          [
+            73,
+            50
+          ],
+          0
+        ],
+        "exit_pose": [
+          [
+            0,
+            3
+          ],
+          0
+        ],
+        "word": "RLLRRLRLRRLRLRLRLRLRRLRLRLRLRLRLRRLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLRRLRLRLRLRLRRLRLRLRLRRLRLRRRRL",
+        "ranks_after": [
+          0,
+          1
+        ]
+      },
+      {
+        "stage": "second_R",
+        "T": 1243,
+        "L": 618,
+        "R": 625,
+        "gain": 7,
+        "mass_before": 1169,
+        "mass_after": 1176,
+        "births_w_z": [
+          0,
+          313
+        ],
+        "erasures_w_z": [
+          0,
+          314
+        ],
+        "w_exceptional_blocks": 0,
+        "exceptions": [],
+        "deaths_by_origin": {
+          "first_R": 608,
+          "stitch": 8,
+          "transport_R": 2
+        },
+        "entry_pose": [
+          [
+            0,
+            3
+          ],
+          0
+        ],
+        "exit_pose": [
+          [
+            72,
+            52
+          ],
+          3
+        ],
+        "word": "RRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLL",
+        "ranks_after": [
+          0,
+          0
+        ]
+      }
+    ],
+    "T": 3554,
+    "max_mass": 1179,
+    "final_mass": 1176,
+    "final_origin_counts": {
+      "guide": 3,
+      "transport_R": 548,
+      "second_R": 625
+    },
+    "initial_cells_still_black": {
+      "input": 0,
+      "stitch": 0,
+      "guide": 4
+    },
+    "final_w_components": [
+      {
+        "mass": 125,
+        "origin_counts": {
+          "guide": 3,
+          "transport_R": 1,
+          "second_R": 121
+        }
+      },
+      {
+        "mass": 114,
+        "origin_counts": {
+          "transport_R": 114
+        }
+      },
+      {
+        "mass": 100,
+        "origin_counts": {
+          "second_R": 100
+        }
+      },
+      {
+        "mass": 98,
+        "origin_counts": {
+          "second_R": 98
+        }
+      },
+      {
+        "mass": 86,
+        "origin_counts": {
+          "transport_R": 86
+        }
+      },
+      {
+        "mass": 84,
+        "origin_counts": {
+          "transport_R": 84
+        }
+      },
+      {
+        "mass": 76,
+        "origin_counts": {
+          "second_R": 76
+        }
+      },
+      {
+        "mass": 74,
+        "origin_counts": {
+          "second_R": 74
+        }
+      },
+      {
+        "mass": 62,
+        "origin_counts": {
+          "transport_R": 62
+        }
+      },
+      {
+        "mass": 60,
+        "origin_counts": {
+          "transport_R": 60
+        }
+      },
+      {
+        "mass": 52,
+        "origin_counts": {
+          "second_R": 52
+        }
+      },
+      {
+        "mass": 50,
+        "origin_counts": {
+          "second_R": 50
+        }
+      },
+      {
+        "mass": 38,
+        "origin_counts": {
+          "transport_R": 38
+        }
+      },
+      {
+        "mass": 36,
+        "origin_counts": {
+          "transport_R": 36
+        }
+      },
+      {
+        "mass": 30,
+        "origin_counts": {
+          "transport_R": 4,
+          "second_R": 26
+        }
+      },
+      {
+        "mass": 28,
+        "origin_counts": {
+          "second_R": 28
+        }
+      },
+      {
+        "mass": 18,
+        "origin_counts": {
+          "transport_R": 18
+        }
+      },
+      {
+        "mass": 14,
+        "origin_counts": {
+          "transport_R": 14
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      }
+    ],
+    "first_R_lifetimes_all_preserved_until_second": true,
+    "first_R_lifetimes_all_consumed_in_second": true
+  },
+  {
+    "q": 15,
+    "scale": 12,
+    "n_coarse": 768,
+    "initial_mass": 2980,
+    "initial_partition": {
+      "input": 1537,
+      "stitch": 14,
+      "guide": 1429
+    },
+    "initial_ranks_w_z": [
+      1,
+      0
+    ],
+    "stages": [
+      {
+        "stage": "first_R",
+        "T": 3087,
+        "L": 1537,
+        "R": 1550,
+        "gain": 13,
+        "mass_before": 2980,
+        "mass_after": 2993,
+        "births_w_z": [
+          0,
+          0
+        ],
+        "erasures_w_z": [
+          0,
+          0
+        ],
+        "w_exceptional_blocks": 0,
+        "exceptions": [],
+        "deaths_by_origin": {
+          "input": 1537
+        },
+        "entry_pose": [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        "exit_pose": [
+          [
+            -96,
+            -97
+          ],
+          2
+        ],
+        "word": "LRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLL",
+        "ranks_after": [
+          1,
+          0
+        ]
+      },
+      {
+        "stage": "transport_R",
+        "T": 2848,
+        "L": 1427,
+        "R": 1421,
+        "gain": -6,
+        "mass_before": 2993,
+        "mass_after": 2987,
+        "births_w_z": [
+          0,
+          2
+        ],
+        "erasures_w_z": [
+          1,
+          1
+        ],
+        "w_exceptional_blocks": 2,
+        "exceptions": [
+          {
+            "time_in_stage": 2,
+            "r": 1,
+            "w_nonbridge": true,
+            "life_class": "guide",
+            "cell": [
+              -97,
+              -97
+            ]
+          },
+          {
+            "time_in_stage": 2848,
+            "r": 4,
+            "w_nonbridge": false,
+            "life_class": "transport_R",
+            "cell": [
+              0,
+              2
+            ]
+          }
+        ],
+        "deaths_by_origin": {
+          "guide": 1426,
+          "transport_R": 1
+        },
+        "entry_pose": [
+          [
+            -96,
+            -97
+          ],
+          2
+        ],
+        "exit_pose": [
+          [
+            0,
+            3
+          ],
+          0
+        ],
+        "word": "RLLRRLRLRRLRLRLRLRLRRLRLRLRLRLRLRRLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLRLRRLRLRLRLRLRRLRLRLRLRRLRLRRRRL",
+        "ranks_after": [
+          0,
+          1
+        ]
+      },
+      {
+        "stage": "second_R",
+        "T": 3145,
+        "L": 1566,
+        "R": 1579,
+        "gain": 13,
+        "mass_before": 2987,
+        "mass_after": 3000,
+        "births_w_z": [
+          0,
+          790
+        ],
+        "erasures_w_z": [
+          0,
+          791
+        ],
+        "w_exceptional_blocks": 0,
+        "exceptions": [],
+        "deaths_by_origin": {
+          "first_R": 1550,
+          "stitch": 14,
+          "transport_R": 2
+        },
+        "entry_pose": [
+          [
+            0,
+            3
+          ],
+          0
+        ],
+        "exit_pose": [
+          [
+            -95,
+            -99
+          ],
+          1
+        ],
+        "word": "RRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRLL",
+        "ranks_after": [
+          0,
+          0
+        ]
+      }
+    ],
+    "T": 9080,
+    "max_mass": 3003,
+    "final_mass": 3000,
+    "final_origin_counts": {
+      "guide": 3,
+      "transport_R": 1418,
+      "second_R": 1579
+    },
+    "initial_cells_still_black": {
+      "input": 0,
+      "stitch": 0,
+      "guide": 4
+    },
+    "final_w_components": [
+      {
+        "mass": 197,
+        "origin_counts": {
+          "guide": 3,
+          "transport_R": 1,
+          "second_R": 193
+        }
+      },
+      {
+        "mass": 186,
+        "origin_counts": {
+          "transport_R": 186
+        }
+      },
+      {
+        "mass": 172,
+        "origin_counts": {
+          "second_R": 172
+        }
+      },
+      {
+        "mass": 170,
+        "origin_counts": {
+          "second_R": 170
+        }
+      },
+      {
+        "mass": 158,
+        "origin_counts": {
+          "transport_R": 158
+        }
+      },
+      {
+        "mass": 156,
+        "origin_counts": {
+          "transport_R": 156
+        }
+      },
+      {
+        "mass": 148,
+        "origin_counts": {
+          "second_R": 148
+        }
+      },
+      {
+        "mass": 146,
+        "origin_counts": {
+          "second_R": 146
+        }
+      },
+      {
+        "mass": 134,
+        "origin_counts": {
+          "transport_R": 134
+        }
+      },
+      {
+        "mass": 132,
+        "origin_counts": {
+          "transport_R": 132
+        }
+      },
+      {
+        "mass": 124,
+        "origin_counts": {
+          "second_R": 124
+        }
+      },
+      {
+        "mass": 122,
+        "origin_counts": {
+          "second_R": 122
+        }
+      },
+      {
+        "mass": 110,
+        "origin_counts": {
+          "transport_R": 110
+        }
+      },
+      {
+        "mass": 108,
+        "origin_counts": {
+          "transport_R": 108
+        }
+      },
+      {
+        "mass": 100,
+        "origin_counts": {
+          "second_R": 100
+        }
+      },
+      {
+        "mass": 98,
+        "origin_counts": {
+          "second_R": 98
+        }
+      },
+      {
+        "mass": 86,
+        "origin_counts": {
+          "transport_R": 86
+        }
+      },
+      {
+        "mass": 84,
+        "origin_counts": {
+          "transport_R": 84
+        }
+      },
+      {
+        "mass": 76,
+        "origin_counts": {
+          "second_R": 76
+        }
+      },
+      {
+        "mass": 74,
+        "origin_counts": {
+          "second_R": 74
+        }
+      },
+      {
+        "mass": 62,
+        "origin_counts": {
+          "transport_R": 62
+        }
+      },
+      {
+        "mass": 60,
+        "origin_counts": {
+          "transport_R": 60
+        }
+      },
+      {
+        "mass": 52,
+        "origin_counts": {
+          "second_R": 52
+        }
+      },
+      {
+        "mass": 50,
+        "origin_counts": {
+          "second_R": 50
+        }
+      },
+      {
+        "mass": 38,
+        "origin_counts": {
+          "transport_R": 38
+        }
+      },
+      {
+        "mass": 36,
+        "origin_counts": {
+          "transport_R": 36
+        }
+      },
+      {
+        "mass": 30,
+        "origin_counts": {
+          "transport_R": 4,
+          "second_R": 26
+        }
+      },
+      {
+        "mass": 28,
+        "origin_counts": {
+          "second_R": 28
+        }
+      },
+      {
+        "mass": 18,
+        "origin_counts": {
+          "transport_R": 18
+        }
+      },
+      {
+        "mass": 14,
+        "origin_counts": {
+          "transport_R": 14
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 2,
+        "origin_counts": {
+          "transport_R": 2
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      },
+      {
+        "mass": 1,
+        "origin_counts": {
+          "transport_R": 1
+        }
+      }
+    ],
+    "first_R_lifetimes_all_preserved_until_second": true,
+    "first_R_lifetimes_all_consumed_in_second": true
+  }
+]

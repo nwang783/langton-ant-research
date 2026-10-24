@@ -1,0 +1,537 @@
+{
+  "status": "PASS",
+  "scope": "Nine ordinary channels excluded by exact all-future guards; phase72 remains.",
+  "source_certificate_sha256": "9caee109537263d06036894c52a954b33f88cee68c2d36c3b1d86f01976baca8",
+  "frontier": {
+    "entry_time": 9977,
+    "entry_head": [
+      -15,
+      10
+    ],
+    "entry_heading": 3,
+    "blank_tail_certificate": {
+      "period": 104,
+      "drift": [
+        -2,
+        -2
+      ],
+      "breakpoints": 170
+    },
+    "prefix_history_black_count": 702,
+    "prefix_history_z_range": [
+      -21,
+      35
+    ],
+    "prefix_history_sha256": "ecc5b9a9234707923c4a834c32a4729c8b719cc449e874416415f50c6b3f788a",
+    "stable_first_read_depth": 2,
+    "frontier": [
+      {
+        "phase": 13,
+        "offset": [
+          -2,
+          -1
+        ],
+        "heading": 2,
+        "checkerboard": 1
+      },
+      {
+        "phase": 14,
+        "offset": [
+          -3,
+          -1
+        ],
+        "heading": 3,
+        "checkerboard": -1
+      },
+      {
+        "phase": 15,
+        "offset": [
+          -3,
+          0
+        ],
+        "heading": 0,
+        "checkerboard": 1
+      },
+      {
+        "phase": 27,
+        "offset": [
+          -3,
+          -2
+        ],
+        "heading": 2,
+        "checkerboard": 1
+      },
+      {
+        "phase": 28,
+        "offset": [
+          -4,
+          -2
+        ],
+        "heading": 3,
+        "checkerboard": -1
+      },
+      {
+        "phase": 29,
+        "offset": [
+          -4,
+          -1
+        ],
+        "heading": 0,
+        "checkerboard": 1
+      },
+      {
+        "phase": 32,
+        "offset": [
+          -2,
+          -2
+        ],
+        "heading": 1,
+        "checkerboard": -1
+      },
+      {
+        "phase": 38,
+        "offset": [
+          -3,
+          -3
+        ],
+        "heading": 3,
+        "checkerboard": -1
+      },
+      {
+        "phase": 45,
+        "offset": [
+          -2,
+          -5
+        ],
+        "heading": 2,
+        "checkerboard": 1
+      },
+      {
+        "phase": 46,
+        "offset": [
+          -3,
+          -5
+        ],
+        "heading": 3,
+        "checkerboard": -1
+      },
+      {
+        "phase": 47,
+        "offset": [
+          -3,
+          -4
+        ],
+        "heading": 0,
+        "checkerboard": 1
+      },
+      {
+        "phase": 55,
+        "offset": [
+          -3,
+          -6
+        ],
+        "heading": 2,
+        "checkerboard": 1
+      },
+      {
+        "phase": 56,
+        "offset": [
+          -4,
+          -6
+        ],
+        "heading": 3,
+        "checkerboard": -1
+      },
+      {
+        "phase": 57,
+        "offset": [
+          -4,
+          -5
+        ],
+        "heading": 0,
+        "checkerboard": 1
+      },
+      {
+        "phase": 60,
+        "offset": [
+          -2,
+          -6
+        ],
+        "heading": 1,
+        "checkerboard": -1
+      },
+      {
+        "phase": 61,
+        "offset": [
+          -2,
+          -7
+        ],
+        "heading": 2,
+        "checkerboard": 1
+      },
+      {
+        "phase": 62,
+        "offset": [
+          -3,
+          -7
+        ],
+        "heading": 3,
+        "checkerboard": -1
+      },
+      {
+        "phase": 70,
+        "offset": [
+          -1,
+          -7
+        ],
+        "heading": 1,
+        "checkerboard": -1
+      },
+      {
+        "phase": 71,
+        "offset": [
+          -1,
+          -8
+        ],
+        "heading": 2,
+        "checkerboard": 1
+      },
+      {
+        "phase": 72,
+        "offset": [
+          -2,
+          -8
+        ],
+        "heading": 3,
+        "checkerboard": -1
+      },
+      {
+        "phase": 75,
+        "offset": [
+          -1,
+          -6
+        ],
+        "heading": 0,
+        "checkerboard": 1
+      },
+      {
+        "phase": 89,
+        "offset": [
+          0,
+          -7
+        ],
+        "heading": 2,
+        "checkerboard": 1
+      }
+    ],
+    "horizontal_phases": [
+      14,
+      28,
+      32,
+      38,
+      46,
+      56,
+      60,
+      62,
+      70,
+      72
+    ]
+  },
+  "channels": [
+    {
+      "phase": 14,
+      "canonical_age_threshold": 2,
+      "recovery_updates": 312,
+      "recovery_radius": 11,
+      "end_offset_from_impact": [
+        0,
+        -2
+      ],
+      "end_heading": 3,
+      "tail_phase": 102,
+      "outgoing_drift": [
+        -2,
+        -2
+      ],
+      "complete_field_tail_certificate": {
+        "period": 104,
+        "drift": [
+          2,
+          -2
+        ],
+        "breakpoints": 172
+      },
+      "all_age_old_tail_guard": true,
+      "postimpact_z_upper_offset": 6,
+      "horizontal_axis_max_abs_displacement": 4,
+      "vertical_axis_max_abs_displacement": 9,
+      "status": "ordinary_guarded_exclusion"
+    },
+    {
+      "phase": 28,
+      "canonical_age_threshold": 13,
+      "recovery_updates": 6448,
+      "recovery_radius": 33,
+      "end_offset_from_impact": [
+        -6,
+        -8
+      ],
+      "end_heading": 1,
+      "tail_phase": 34,
+      "outgoing_drift": [
+        -2,
+        -2
+      ],
+      "complete_field_tail_certificate": {
+        "period": 104,
+        "drift": [
+          2,
+          -2
+        ],
+        "breakpoints": 159
+      },
+      "all_age_old_tail_guard": true,
+      "postimpact_z_upper_offset": 52,
+      "horizontal_axis_max_abs_displacement": 31,
+      "vertical_axis_max_abs_displacement": 16,
+      "status": "ordinary_guarded_exclusion"
+    },
+    {
+      "phase": 32,
+      "canonical_age_threshold": 3,
+      "recovery_updates": 8424,
+      "recovery_radius": 34,
+      "end_offset_from_impact": [
+        -20,
+        30
+      ],
+      "end_heading": 1,
+      "tail_phase": 97,
+      "outgoing_drift": [
+        -2,
+        2
+      ],
+      "complete_field_tail_certificate": {
+        "period": 104,
+        "drift": [
+          -2,
+          -2
+        ],
+        "breakpoints": 177
+      },
+      "all_age_old_tail_guard": true,
+      "postimpact_z_upper_offset": 28,
+      "horizontal_axis_max_abs_displacement": 26,
+      "vertical_axis_max_abs_displacement": 28,
+      "status": "ordinary_guarded_exclusion"
+    },
+    {
+      "phase": 38,
+      "canonical_age_threshold": 7,
+      "recovery_updates": 5824,
+      "recovery_radius": 30,
+      "end_offset_from_impact": [
+        0,
+        22
+      ],
+      "end_heading": 3,
+      "tail_phase": 27,
+      "outgoing_drift": [
+        -2,
+        2
+      ],
+      "complete_field_tail_certificate": {
+        "period": 104,
+        "drift": [
+          -2,
+          -2
+        ],
+        "breakpoints": 150
+      },
+      "all_age_old_tail_guard": true,
+      "postimpact_z_upper_offset": 34,
+      "horizontal_axis_max_abs_displacement": 23,
+      "vertical_axis_max_abs_displacement": 24,
+      "status": "ordinary_guarded_exclusion"
+    },
+    {
+      "phase": 46,
+      "canonical_age_threshold": 4,
+      "recovery_updates": 728,
+      "recovery_radius": 14,
+      "end_offset_from_impact": [
+        12,
+        -10
+      ],
+      "end_heading": 3,
+      "tail_phase": 47,
+      "outgoing_drift": [
+        2,
+        -2
+      ],
+      "complete_field_tail_certificate": {
+        "period": 104,
+        "drift": [
+          2,
+          2
+        ],
+        "breakpoints": 167
+      },
+      "all_age_old_tail_guard": true,
+      "postimpact_z_upper_offset": 17,
+      "horizontal_axis_max_abs_displacement": 9,
+      "vertical_axis_max_abs_displacement": 10,
+      "status": "ordinary_guarded_exclusion"
+    },
+    {
+      "phase": 56,
+      "canonical_age_threshold": 7,
+      "recovery_updates": 7592,
+      "recovery_radius": 25,
+      "end_offset_from_impact": [
+        -20,
+        22
+      ],
+      "end_heading": 3,
+      "tail_phase": 83,
+      "outgoing_drift": [
+        -2,
+        2
+      ],
+      "complete_field_tail_certificate": {
+        "period": 104,
+        "drift": [
+          -2,
+          -2
+        ],
+        "breakpoints": 190
+      },
+      "all_age_old_tail_guard": true,
+      "postimpact_z_upper_offset": 38,
+      "horizontal_axis_max_abs_displacement": 22,
+      "vertical_axis_max_abs_displacement": 18,
+      "status": "ordinary_guarded_exclusion"
+    },
+    {
+      "phase": 60,
+      "canonical_age_threshold": 9,
+      "recovery_updates": 2496,
+      "recovery_radius": 26,
+      "end_offset_from_impact": [
+        -12,
+        0
+      ],
+      "end_heading": 3,
+      "tail_phase": 90,
+      "outgoing_drift": [
+        -2,
+        -2
+      ],
+      "complete_field_tail_certificate": {
+        "period": 104,
+        "drift": [
+          2,
+          -2
+        ],
+        "breakpoints": 184
+      },
+      "all_age_old_tail_guard": true,
+      "postimpact_z_upper_offset": 44,
+      "horizontal_axis_max_abs_displacement": 21,
+      "vertical_axis_max_abs_displacement": 16,
+      "status": "ordinary_guarded_exclusion"
+    },
+    {
+      "phase": 62,
+      "canonical_age_threshold": 12,
+      "recovery_updates": 7384,
+      "recovery_radius": 33,
+      "end_offset_from_impact": [
+        -6,
+        24
+      ],
+      "end_heading": 3,
+      "tail_phase": 17,
+      "outgoing_drift": [
+        -2,
+        2
+      ],
+      "complete_field_tail_certificate": {
+        "period": 104,
+        "drift": [
+          -2,
+          -2
+        ],
+        "breakpoints": 160
+      },
+      "all_age_old_tail_guard": true,
+      "postimpact_z_upper_offset": 58,
+      "horizontal_axis_max_abs_displacement": 30,
+      "vertical_axis_max_abs_displacement": 23,
+      "status": "ordinary_guarded_exclusion"
+    },
+    {
+      "phase": 70,
+      "canonical_age_threshold": 4,
+      "recovery_updates": 8528,
+      "recovery_radius": 36,
+      "end_offset_from_impact": [
+        -28,
+        -12
+      ],
+      "end_heading": 1,
+      "tail_phase": 70,
+      "outgoing_drift": [
+        -2,
+        -2
+      ],
+      "complete_field_tail_certificate": {
+        "period": 104,
+        "drift": [
+          2,
+          -2
+        ],
+        "breakpoints": 192
+      },
+      "all_age_old_tail_guard": true,
+      "postimpact_z_upper_offset": 18,
+      "horizontal_axis_max_abs_displacement": 25,
+      "vertical_axis_max_abs_displacement": 34,
+      "status": "ordinary_guarded_exclusion"
+    },
+    {
+      "phase": 72,
+      "canonical_age_threshold": 11,
+      "recovery_updates": 51168,
+      "recovery_radius": 44,
+      "end_offset_from_impact": [
+        42,
+        -26
+      ],
+      "end_heading": 3,
+      "tail_phase": 18,
+      "outgoing_drift": [
+        2,
+        2
+      ],
+      "complete_field_tail_certificate": {
+        "period": 104,
+        "drift": [
+          -2,
+          2
+        ],
+        "breakpoints": 159
+      },
+      "all_age_old_tail_guard": true,
+      "postimpact_z_upper_offset": null,
+      "horizontal_axis_max_abs_displacement": 71,
+      "vertical_axis_max_abs_displacement": 28,
+      "status": "exceptional_origin_return"
+    }
+  ],
+  "uniform_ordinary_guards": {
+    "z_upper_offset": 58,
+    "horizontal_axis_max_abs_displacement": 31,
+    "vertical_axis_max_abs_displacement": 34
+  }
+}

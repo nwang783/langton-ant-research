@@ -1,0 +1,57 @@
+{
+  "status": "PASS necessary locked-RIGHT to branched-RIGHT old-stock connector",
+  "note_sha256": "b9f4b64f05d7680c431086a6d0deb3cbfea3c149681c4db127f0b05d694965b0",
+  "independent_branched11_profiles": [
+    [
+      "equal",
+      "equal",
+      "NNSN",
+      "EWWW"
+    ],
+    [
+      "equal",
+      "equal",
+      "SNNN",
+      "WWEW"
+    ]
+  ],
+  "surviving_rows": [
+    {
+      "A": "NNSN",
+      "Z": "WWWE",
+      "Y": "NNNS",
+      "B": "EEWE",
+      "n": "NNSN",
+      "p": "EWWW",
+      "C": "SSNS",
+      "m": "WWW"
+    },
+    {
+      "A": "NNSN",
+      "Z": "WWWE",
+      "Y": "NNNS",
+      "B": "EEWE",
+      "n": "NNSN",
+      "p": "EWWW",
+      "C": "SSNS",
+      "m": "WWWE"
+    }
+  ],
+  "forced_clock_offsets": {
+    "nR0": 1,
+    "pR0": 2,
+    "CR0": 3,
+    "BR2": 4,
+    "nL1": 5
+  },
+  "consecutive_route": [
+    "nR2",
+    "mL1",
+    "YL3",
+    "BL3",
+    "nL3",
+    "mR2"
+  ],
+  "birth_alternative": "J lower-left m R0 choosesJ, upper-right s would need two S outputs but n has exactlyone S input. Thus negative birth is n atB(G)+5 or upper-left t, with maxparentQ(-1,3) born<=B(G).",
+  "scope": "Complete WHITE cap4 K1, fixed locked row4 then RIGHT bit11 with a max branch. Two necessary m variants only, not continuous exterior realization, renewable fuel or a strictly older parent in every case."
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "negative_and_positive_controls": [
+    "canonical exact infinite tail accepted",
+    "all n >= 200 canonical finite repetitions accepted",
+    "wrong current bit rejected",
+    "blocker 10^60 periods ahead rejected",
+    "off-ray remote marker accepted",
+    "isolated affine point collision at 10^60 rejected",
+    "isolated affine ray incidence at 10^60 rejected",
+    "range membership crossing at 10^60 rejected",
+    "nonintegral parameter residue rejected"
+  ],
+  "ray_interval_random_cases_accepted": 553,
+  "conservative_refusals": 447,
+  "literal_interval_comparisons": 2212,
+  "scope": "Implementation controls only; all-parameter proof uses the audited exact algebra."
+}

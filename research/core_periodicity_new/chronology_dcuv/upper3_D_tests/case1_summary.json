@@ -1,0 +1,180 @@
+{
+  "scope": "Conditional discovery only; H is not a signed relation",
+  "args": {
+    "profile": "chronology_dcuv/profile.json",
+    "hypotheses": "chronology_dcuv/hypothesis_U_upper3.tsv",
+    "signed": "chronology_dcuv/empty.tsv",
+    "row": [
+      0,
+      7,
+      -2,
+      -1,
+      1,
+      2,
+      0
+    ],
+    "prefix": "chronology_dcuv/upper3_D_tests/case1",
+    "rounds": 8,
+    "cap": 1500000,
+    "mode": "source",
+    "watch": "",
+    "scope": null,
+    "expand": true
+  },
+  "results": [
+    {
+      "round": 0,
+      "extra_points": [],
+      "watched": [
+        [
+          2,
+          0
+        ]
+      ],
+      "variables": 14,
+      "result": "status ABSTRACT_WITNESS states 62630 depth 11 nodes 31547",
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_D_tests/case1_r00_quotient",
+      "seconds": 3.09,
+      "events": [
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "step": 4,
+          "source_step": 3,
+          "row": [
+            6,
+            7,
+            0,
+            4,
+            2,
+            1,
+            0
+          ],
+          "signed": false,
+          "kind": "lineage"
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "step": 10,
+          "source_step": 7,
+          "row": [
+            6,
+            7,
+            1,
+            4,
+            1,
+            3,
+            4
+          ],
+          "signed": false,
+          "kind": "lineage"
+        }
+      ],
+      "chosen": {
+        "cell": [
+          -1,
+          0
+        ],
+        "step": 4,
+        "source_step": 3,
+        "row": [
+          6,
+          7,
+          0,
+          4,
+          2,
+          1,
+          0
+        ],
+        "signed": false,
+        "kind": "lineage"
+      }
+    },
+    {
+      "round": 1,
+      "extra_points": [],
+      "watched": [
+        [
+          2,
+          0
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "variables": 17,
+      "result": "status ABSTRACT_WITNESS states 61638 depth 11 nodes 32002",
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_D_tests/case1_r01_quotient",
+      "seconds": 3.151,
+      "events": [
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "step": 10,
+          "source_step": 7,
+          "row": [
+            6,
+            7,
+            1,
+            4,
+            1,
+            3,
+            4
+          ],
+          "signed": false,
+          "kind": "lineage"
+        }
+      ],
+      "chosen": {
+        "cell": [
+          0,
+          -1
+        ],
+        "step": 10,
+        "source_step": 7,
+        "row": [
+          6,
+          7,
+          1,
+          4,
+          1,
+          3,
+          4
+        ],
+        "signed": false,
+        "kind": "lineage"
+      }
+    },
+    {
+      "round": 2,
+      "extra_points": [],
+      "watched": [
+        [
+          2,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "variables": 20,
+      "result": "status EXHAUSTED_NO_HIT states 296749 depth 43 nodes 75870",
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_D_tests/case1_r02_quotient",
+      "seconds": 6.934,
+      "verification": "{\"status\": \"VERIFIED_INDUCTIVE_NO_HIT\", \"variables\": 20, \"positions\": 189, \"nodes\": 75870, \"states\": 296749, \"checks\": 1492, \"memo_states\": 59855}"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "status": "PASS local high-junction cover and qualified critical global-M run normal form",
+  "proof": "20cb0cb139bce6d779945d02379780364f0e5bfa325b57a7492093ed1166c533",
+  "certificate": "0fc57c906b68939d60f3371b51e42c3e2343e0cb98233ff3cbc4e6309844a306",
+  "script": "52ed283bcd29eaffad49c56a42fdd60ca2f118eb604adcba6109b45be7e81341",
+  "summary": {
+    "skipped_rank": 3556,
+    "open": 28,
+    "clock_cycle": 232
+  },
+  "rows": [
+    {
+      "A": "RR3",
+      "B": "RR3",
+      "separator": 1,
+      "counts": {
+        "skipped_rank": 96
+      }
+    },
+    {
+      "A": "RR3",
+      "B": "RR3",
+      "separator": 2,
+      "counts": {
+        "open": 1,
+        "skipped_rank": 15
+      }
+    },
+    {
+      "A": "RR3",
+      "B": "RLR3",
+      "separator": 1,
+      "counts": {
+        "skipped_rank": 96,
+        "clock_cycle": 8
+      }
+    },
+    {
+      "A": "RR3",
+      "B": "RLR3",
+      "separator": 2,
+      "counts": {
+        "skipped_rank": 396,
+        "clock_cycle": 36
+      }
+    },
+    {
+      "A": "RR3",
+      "B": "RR4",
+      "separator": 1,
+      "counts": {
+        "skipped_rank": 96
+      }
+    },
+    {
+      "A": "RR3",
+      "B": "RR4",
+      "separator": 2,
+      "counts": {
+        "open": 1,
+        "skipped_rank": 15
+      }
+    },
+    {
+      "A": "RLR3",
+      "B": "RR3",
+      "separator": 1,
+      "counts": {
+        "skipped_rank": 104
+      }
+    },
+    {
+      "A": "RLR3",
+      "B": "RR3",
+      "separator": 2,
+      "counts": {
+        "open": 20,
+        "skipped_rank": 360,
+        "clock_cycle": 52
+      }
+    },
+    {
+      "A": "RLR3",
+      "B": "RLR3",
+      "separator": 1,
+      "counts": {
+        "skipped_rank": 672,
+        "clock_cycle": 96
+      }
+    },
+    {
+      "A": "RLR3",
+      "B": "RLR3",
+      "separator": 2,
+      "counts": {
+        "skipped_rank": 56,
+        "clock_cycle": 16
+      }
+    },
+    {
+      "A": "RLR3",
+      "B": "RR4",
+      "separator": 1,
+      "counts": {
+        "skipped_rank": 104
+      }
+    },
+    {
+      "A": "RLR3",
+      "B": "RR4",
+      "separator": 2,
+      "counts": {
+        "skipped_rank": 612,
+        "clock_cycle": 8,
+        "open": 4
+      }
+    },
+    {
+      "A": "RR4",
+      "B": "RR3",
+      "separator": 1,
+      "counts": {
+        "skipped_rank": 96
+      }
+    },
+    {
+      "A": "RR4",
+      "B": "RR3",
+      "separator": 2,
+      "counts": {
+        "open": 1,
+        "skipped_rank": 15
+      }
+    },
+    {
+      "A": "RR4",
+      "B": "RLR3",
+      "separator": 1,
+      "counts": {
+        "skipped_rank": 96,
+        "clock_cycle": 8
+      }
+    },
+    {
+      "A": "RR4",
+      "B": "RLR3",
+      "separator": 2,
+      "counts": {
+        "skipped_rank": 616,
+        "clock_cycle": 8
+      }
+    },
+    {
+      "A": "RR4",
+      "B": "RR4",
+      "separator": 1,
+      "counts": {
+        "skipped_rank": 96
+      }
+    },
+    {
+      "A": "RR4",
+      "B": "RR4",
+      "separator": 2,
+      "counts": {
+        "open": 1,
+        "skipped_rank": 15
+      }
+    }
+  ],
+  "zero_separator_control": [
+    {
+      "A": "RR3",
+      "B": "RR3",
+      "coincident_primary": false,
+      "counts": {
+        "skipped_rank": 1
+      }
+    },
+    {
+      "A": "RR3",
+      "B": "RLR3",
+      "coincident_primary": false,
+      "counts": {}
+    },
+    {
+      "A": "RR3",
+      "B": "RR4",
+      "coincident_primary": false,
+      "counts": {
+        "skipped_rank": 1
+      }
+    },
+    {
+      "A": "RLR3",
+      "B": "RR3",
+      "coincident_primary": false,
+      "counts": {}
+    },
+    {
+      "A": "RLR3",
+      "B": "RLR3",
+      "coincident_primary": false,
+      "counts": {
+        "skipped_rank": 16
+      }
+    },
+    {
+      "A": "RLR3",
+      "B": "RR4",
+      "coincident_primary": false,
+      "counts": {}
+    },
+    {
+      "A": "RR4",
+      "B": "RR3",
+      "coincident_primary": false,
+      "counts": {
+        "skipped_rank": 1
+      }
+    },
+    {
+      "A": "RR4",
+      "B": "RLR3",
+      "coincident_primary": false,
+      "counts": {}
+    },
+    {
+      "A": "RR4",
+      "B": "RR4",
+      "coincident_primary": false,
+      "counts": {
+        "skipped_rank": 1
+      }
+    }
+  ],
+  "analytic_review": [
+    "All18 physical source/macro/V-or-VV/macro stencils and finite count-closures are independently regenerated. Empty and every WHITE1..4 history on each true incoming axis are retained; exact port counts, literal ordinal return constraints and max-plus clocks alone reproduce all3816 complete patches. No height or critical-side filter is used.",
+    "All one-V and all joins targeting RLR3 fail. Exactly28 open VV joins target RR3 orRR4; these remain necessary exterior-port patches, not attained factors or assigned full clocks.",
+    "The separate global corollary retains complete WHITE cap4, actual essential b-circle at critical GLOBALM, no one-use edges, and the signed exhaustive high macro inventory. Three consecutive LEFT turns close a physical unit square. Zero-LEFT joins are ruled out by the general RR neighborhood restriction; allnine such adjacent macro controls are also rebuilt and have no open completion.",
+    "O/U cannot be the first separator contact because a flow2 crossing needs an immediately preceding flatRIGHT, not a high sink; it cannot be second by the signed critical last-LEFT gate. Thus every interior separator isV orVV, and the local cover makes itVV. At most the first macro of each flat-ended run isRLR3, with arbitrary RR3/RR4 rails thereafter.",
+    "The physical RR,VV step restores incoming heading and advances two units in the first outgoing direction. Neither this spatial monotonicity nor the finite triangular run language bounds rail length, full drift voltage, actual clock span, old stock or number of flats; no global exclusion or fuel follows."
+  ]
+}

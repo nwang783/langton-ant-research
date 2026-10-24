@@ -1,0 +1,3550 @@
+{
+  "status": "AUTHOR_EXACT_SIMPLE_CENTER_PATH_PHYSICAL_READ_CAP_104",
+  "scope": "Any finite atomic D/V/U/C raw path whose corrected-center polygon is injective has at most104 reads of any fixed physical cell. This standalone geometric footprint lemma does not assert injectivity for actual ant histories. A following actual M11 adds at most2 reads per cell. The sum104 is a conservative per-center bound, not a jointly attained word.",
+  "four_literal_atomic_read_paths": {
+    "D": {
+      "word": "LLLLRLRRRR",
+      "raw_length": 10,
+      "endpoint": [
+        1,
+        1,
+        0
+      ],
+      "read_trace": [
+        {
+          "tick": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "heading": 0,
+          "turn": "L"
+        },
+        {
+          "tick": 1,
+          "cell": [
+            -1,
+            0
+          ],
+          "heading": 3,
+          "turn": "L"
+        },
+        {
+          "tick": 2,
+          "cell": [
+            -1,
+            -1
+          ],
+          "heading": 2,
+          "turn": "L"
+        },
+        {
+          "tick": 3,
+          "cell": [
+            0,
+            -1
+          ],
+          "heading": 1,
+          "turn": "L"
+        },
+        {
+          "tick": 4,
+          "cell": [
+            0,
+            0
+          ],
+          "heading": 0,
+          "turn": "R"
+        },
+        {
+          "tick": 5,
+          "cell": [
+            1,
+            0
+          ],
+          "heading": 1,
+          "turn": "L"
+        },
+        {
+          "tick": 6,
+          "cell": [
+            1,
+            1
+          ],
+          "heading": 0,
+          "turn": "R"
+        },
+        {
+          "tick": 7,
+          "cell": [
+            2,
+            1
+          ],
+          "heading": 1,
+          "turn": "R"
+        },
+        {
+          "tick": 8,
+          "cell": [
+            2,
+            0
+          ],
+          "heading": 2,
+          "turn": "R"
+        },
+        {
+          "tick": 9,
+          "cell": [
+            1,
+            0
+          ],
+          "heading": 3,
+          "turn": "R"
+        }
+      ],
+      "footprint": [
+        {
+          "local_cell": [
+            -1,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            -1,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            0,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            0,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "local_cell": [
+            1,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "local_cell": [
+            1,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            2,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            2,
+            1
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    "V": {
+      "word": "LLLLRLRRRRLRRLRRRR",
+      "raw_length": 18,
+      "endpoint": [
+        1,
+        3,
+        0
+      ],
+      "read_trace": [
+        {
+          "tick": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "heading": 0,
+          "turn": "L"
+        },
+        {
+          "tick": 1,
+          "cell": [
+            -1,
+            0
+          ],
+          "heading": 3,
+          "turn": "L"
+        },
+        {
+          "tick": 2,
+          "cell": [
+            -1,
+            -1
+          ],
+          "heading": 2,
+          "turn": "L"
+        },
+        {
+          "tick": 3,
+          "cell": [
+            0,
+            -1
+          ],
+          "heading": 1,
+          "turn": "L"
+        },
+        {
+          "tick": 4,
+          "cell": [
+            0,
+            0
+          ],
+          "heading": 0,
+          "turn": "R"
+        },
+        {
+          "tick": 5,
+          "cell": [
+            1,
+            0
+          ],
+          "heading": 1,
+          "turn": "L"
+        },
+        {
+          "tick": 6,
+          "cell": [
+            1,
+            1
+          ],
+          "heading": 0,
+          "turn": "R"
+        },
+        {
+          "tick": 7,
+          "cell": [
+            2,
+            1
+          ],
+          "heading": 1,
+          "turn": "R"
+        },
+        {
+          "tick": 8,
+          "cell": [
+            2,
+            0
+          ],
+          "heading": 2,
+          "turn": "R"
+        },
+        {
+          "tick": 9,
+          "cell": [
+            1,
+            0
+          ],
+          "heading": 3,
+          "turn": "R"
+        },
+        {
+          "tick": 10,
+          "cell": [
+            1,
+            1
+          ],
+          "heading": 0,
+          "turn": "L"
+        },
+        {
+          "tick": 11,
+          "cell": [
+            0,
+            1
+          ],
+          "heading": 3,
+          "turn": "R"
+        },
+        {
+          "tick": 12,
+          "cell": [
+            0,
+            2
+          ],
+          "heading": 0,
+          "turn": "R"
+        },
+        {
+          "tick": 13,
+          "cell": [
+            1,
+            2
+          ],
+          "heading": 1,
+          "turn": "L"
+        },
+        {
+          "tick": 14,
+          "cell": [
+            1,
+            3
+          ],
+          "heading": 0,
+          "turn": "R"
+        },
+        {
+          "tick": 15,
+          "cell": [
+            2,
+            3
+          ],
+          "heading": 1,
+          "turn": "R"
+        },
+        {
+          "tick": 16,
+          "cell": [
+            2,
+            2
+          ],
+          "heading": 2,
+          "turn": "R"
+        },
+        {
+          "tick": 17,
+          "cell": [
+            1,
+            2
+          ],
+          "heading": 3,
+          "turn": "R"
+        }
+      ],
+      "footprint": [
+        {
+          "local_cell": [
+            -1,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            -1,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            0,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            0,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "local_cell": [
+            0,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            0,
+            2
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            1,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "local_cell": [
+            1,
+            1
+          ],
+          "multiplicity": 2
+        },
+        {
+          "local_cell": [
+            1,
+            2
+          ],
+          "multiplicity": 2
+        },
+        {
+          "local_cell": [
+            1,
+            3
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            2,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            2,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            2,
+            2
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            2,
+            3
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    "U": {
+      "word": "LLLLRLRRRRLRLLLLRRRRLRRLRRRR",
+      "raw_length": 28,
+      "endpoint": [
+        0,
+        4,
+        0
+      ],
+      "read_trace": [
+        {
+          "tick": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "heading": 0,
+          "turn": "L"
+        },
+        {
+          "tick": 1,
+          "cell": [
+            -1,
+            0
+          ],
+          "heading": 3,
+          "turn": "L"
+        },
+        {
+          "tick": 2,
+          "cell": [
+            -1,
+            -1
+          ],
+          "heading": 2,
+          "turn": "L"
+        },
+        {
+          "tick": 3,
+          "cell": [
+            0,
+            -1
+          ],
+          "heading": 1,
+          "turn": "L"
+        },
+        {
+          "tick": 4,
+          "cell": [
+            0,
+            0
+          ],
+          "heading": 0,
+          "turn": "R"
+        },
+        {
+          "tick": 5,
+          "cell": [
+            1,
+            0
+          ],
+          "heading": 1,
+          "turn": "L"
+        },
+        {
+          "tick": 6,
+          "cell": [
+            1,
+            1
+          ],
+          "heading": 0,
+          "turn": "R"
+        },
+        {
+          "tick": 7,
+          "cell": [
+            2,
+            1
+          ],
+          "heading": 1,
+          "turn": "R"
+        },
+        {
+          "tick": 8,
+          "cell": [
+            2,
+            0
+          ],
+          "heading": 2,
+          "turn": "R"
+        },
+        {
+          "tick": 9,
+          "cell": [
+            1,
+            0
+          ],
+          "heading": 3,
+          "turn": "R"
+        },
+        {
+          "tick": 10,
+          "cell": [
+            1,
+            1
+          ],
+          "heading": 0,
+          "turn": "L"
+        },
+        {
+          "tick": 11,
+          "cell": [
+            0,
+            1
+          ],
+          "heading": 3,
+          "turn": "R"
+        },
+        {
+          "tick": 12,
+          "cell": [
+            0,
+            2
+          ],
+          "heading": 0,
+          "turn": "L"
+        },
+        {
+          "tick": 13,
+          "cell": [
+            -1,
+            2
+          ],
+          "heading": 3,
+          "turn": "L"
+        },
+        {
+          "tick": 14,
+          "cell": [
+            -1,
+            1
+          ],
+          "heading": 2,
+          "turn": "L"
+        },
+        {
+          "tick": 15,
+          "cell": [
+            0,
+            1
+          ],
+          "heading": 1,
+          "turn": "L"
+        },
+        {
+          "tick": 16,
+          "cell": [
+            0,
+            2
+          ],
+          "heading": 0,
+          "turn": "R"
+        },
+        {
+          "tick": 17,
+          "cell": [
+            1,
+            2
+          ],
+          "heading": 1,
+          "turn": "R"
+        },
+        {
+          "tick": 18,
+          "cell": [
+            1,
+            1
+          ],
+          "heading": 2,
+          "turn": "R"
+        },
+        {
+          "tick": 19,
+          "cell": [
+            0,
+            1
+          ],
+          "heading": 3,
+          "turn": "R"
+        },
+        {
+          "tick": 20,
+          "cell": [
+            0,
+            2
+          ],
+          "heading": 0,
+          "turn": "L"
+        },
+        {
+          "tick": 21,
+          "cell": [
+            -1,
+            2
+          ],
+          "heading": 3,
+          "turn": "R"
+        },
+        {
+          "tick": 22,
+          "cell": [
+            -1,
+            3
+          ],
+          "heading": 0,
+          "turn": "R"
+        },
+        {
+          "tick": 23,
+          "cell": [
+            0,
+            3
+          ],
+          "heading": 1,
+          "turn": "L"
+        },
+        {
+          "tick": 24,
+          "cell": [
+            0,
+            4
+          ],
+          "heading": 0,
+          "turn": "R"
+        },
+        {
+          "tick": 25,
+          "cell": [
+            1,
+            4
+          ],
+          "heading": 1,
+          "turn": "R"
+        },
+        {
+          "tick": 26,
+          "cell": [
+            1,
+            3
+          ],
+          "heading": 2,
+          "turn": "R"
+        },
+        {
+          "tick": 27,
+          "cell": [
+            0,
+            3
+          ],
+          "heading": 3,
+          "turn": "R"
+        }
+      ],
+      "footprint": [
+        {
+          "local_cell": [
+            -1,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            -1,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            -1,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            -1,
+            2
+          ],
+          "multiplicity": 2
+        },
+        {
+          "local_cell": [
+            -1,
+            3
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            0,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            0,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "local_cell": [
+            0,
+            1
+          ],
+          "multiplicity": 3
+        },
+        {
+          "local_cell": [
+            0,
+            2
+          ],
+          "multiplicity": 3
+        },
+        {
+          "local_cell": [
+            0,
+            3
+          ],
+          "multiplicity": 2
+        },
+        {
+          "local_cell": [
+            0,
+            4
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            1,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "local_cell": [
+            1,
+            1
+          ],
+          "multiplicity": 3
+        },
+        {
+          "local_cell": [
+            1,
+            2
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            1,
+            3
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            1,
+            4
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            2,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            2,
+            1
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    "C": {
+      "word": "LLLLRLRRRRLRRRR",
+      "raw_length": 15,
+      "endpoint": [
+        0,
+        1,
+        3
+      ],
+      "read_trace": [
+        {
+          "tick": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "heading": 0,
+          "turn": "L"
+        },
+        {
+          "tick": 1,
+          "cell": [
+            -1,
+            0
+          ],
+          "heading": 3,
+          "turn": "L"
+        },
+        {
+          "tick": 2,
+          "cell": [
+            -1,
+            -1
+          ],
+          "heading": 2,
+          "turn": "L"
+        },
+        {
+          "tick": 3,
+          "cell": [
+            0,
+            -1
+          ],
+          "heading": 1,
+          "turn": "L"
+        },
+        {
+          "tick": 4,
+          "cell": [
+            0,
+            0
+          ],
+          "heading": 0,
+          "turn": "R"
+        },
+        {
+          "tick": 5,
+          "cell": [
+            1,
+            0
+          ],
+          "heading": 1,
+          "turn": "L"
+        },
+        {
+          "tick": 6,
+          "cell": [
+            1,
+            1
+          ],
+          "heading": 0,
+          "turn": "R"
+        },
+        {
+          "tick": 7,
+          "cell": [
+            2,
+            1
+          ],
+          "heading": 1,
+          "turn": "R"
+        },
+        {
+          "tick": 8,
+          "cell": [
+            2,
+            0
+          ],
+          "heading": 2,
+          "turn": "R"
+        },
+        {
+          "tick": 9,
+          "cell": [
+            1,
+            0
+          ],
+          "heading": 3,
+          "turn": "R"
+        },
+        {
+          "tick": 10,
+          "cell": [
+            1,
+            1
+          ],
+          "heading": 0,
+          "turn": "L"
+        },
+        {
+          "tick": 11,
+          "cell": [
+            0,
+            1
+          ],
+          "heading": 3,
+          "turn": "R"
+        },
+        {
+          "tick": 12,
+          "cell": [
+            0,
+            2
+          ],
+          "heading": 0,
+          "turn": "R"
+        },
+        {
+          "tick": 13,
+          "cell": [
+            1,
+            2
+          ],
+          "heading": 1,
+          "turn": "R"
+        },
+        {
+          "tick": 14,
+          "cell": [
+            1,
+            1
+          ],
+          "heading": 2,
+          "turn": "R"
+        }
+      ],
+      "footprint": [
+        {
+          "local_cell": [
+            -1,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            -1,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            0,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            0,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "local_cell": [
+            0,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            0,
+            2
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            1,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "local_cell": [
+            1,
+            1
+          ],
+          "multiplicity": 3
+        },
+        {
+          "local_cell": [
+            1,
+            2
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            2,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "local_cell": [
+            2,
+            1
+          ],
+          "multiplicity": 1
+        }
+      ]
+    }
+  },
+  "all_60_possible_entry_centers_and_maxima": [
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -9,
+        1
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "U",
+          "heading": 1,
+          "read_offset": [
+            0,
+            4
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -9,
+        3
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "U",
+          "heading": 1,
+          "read_offset": [
+            1,
+            4
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -7,
+        -1
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "U",
+          "heading": 1,
+          "read_offset": [
+            -1,
+            3
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -7,
+        1
+      ],
+      "maximum_multiplicity": 2,
+      "all_local_options": [
+        {
+          "atom": "U",
+          "heading": 1,
+          "read_offset": [
+            0,
+            3
+          ],
+          "multiplicity": 2
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -7,
+        3
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 1,
+          "read_offset": [
+            1,
+            3
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 1,
+          "read_offset": [
+            1,
+            3
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -7,
+        5
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 1,
+          "read_offset": [
+            2,
+            3
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -5,
+        -7
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 0,
+          "read_offset": [
+            2,
+            3
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -5,
+        -5
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 0,
+          "read_offset": [
+            2,
+            2
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -5,
+        -3
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "D",
+          "heading": 0,
+          "read_offset": [
+            2,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 0,
+          "read_offset": [
+            2,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 0,
+          "read_offset": [
+            2,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 0,
+          "read_offset": [
+            2,
+            1
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -5,
+        -1
+      ],
+      "maximum_multiplicity": 2,
+      "all_local_options": [
+        {
+          "atom": "D",
+          "heading": 0,
+          "read_offset": [
+            2,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 0,
+          "read_offset": [
+            2,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 0,
+          "read_offset": [
+            2,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 1,
+          "read_offset": [
+            -1,
+            2
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "C",
+          "heading": 0,
+          "read_offset": [
+            2,
+            0
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -5,
+        1
+      ],
+      "maximum_multiplicity": 3,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 1,
+          "read_offset": [
+            0,
+            2
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 1,
+          "read_offset": [
+            0,
+            2
+          ],
+          "multiplicity": 3
+        },
+        {
+          "atom": "C",
+          "heading": 1,
+          "read_offset": [
+            0,
+            2
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -5,
+        3
+      ],
+      "maximum_multiplicity": 2,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 1,
+          "read_offset": [
+            1,
+            2
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "U",
+          "heading": 1,
+          "read_offset": [
+            1,
+            2
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 1,
+          "read_offset": [
+            1,
+            2
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -5,
+        5
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 1,
+          "read_offset": [
+            2,
+            2
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -3,
+        -9
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "U",
+          "heading": 0,
+          "read_offset": [
+            1,
+            4
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -3,
+        -7
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 0,
+          "read_offset": [
+            1,
+            3
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 0,
+          "read_offset": [
+            1,
+            3
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -3,
+        -5
+      ],
+      "maximum_multiplicity": 2,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 0,
+          "read_offset": [
+            1,
+            2
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "U",
+          "heading": 0,
+          "read_offset": [
+            1,
+            2
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 0,
+          "read_offset": [
+            1,
+            2
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -3,
+        -3
+      ],
+      "maximum_multiplicity": 3,
+      "all_local_options": [
+        {
+          "atom": "D",
+          "heading": 0,
+          "read_offset": [
+            1,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 0,
+          "read_offset": [
+            1,
+            1
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "U",
+          "heading": 0,
+          "read_offset": [
+            1,
+            1
+          ],
+          "multiplicity": 3
+        },
+        {
+          "atom": "C",
+          "heading": 0,
+          "read_offset": [
+            1,
+            1
+          ],
+          "multiplicity": 3
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -3,
+        -1
+      ],
+      "maximum_multiplicity": 2,
+      "all_local_options": [
+        {
+          "atom": "D",
+          "heading": 0,
+          "read_offset": [
+            1,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "V",
+          "heading": 0,
+          "read_offset": [
+            1,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "U",
+          "heading": 0,
+          "read_offset": [
+            1,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "U",
+          "heading": 1,
+          "read_offset": [
+            -1,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 0,
+          "read_offset": [
+            1,
+            0
+          ],
+          "multiplicity": 2
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -3,
+        1
+      ],
+      "maximum_multiplicity": 3,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 1,
+          "read_offset": [
+            0,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 1,
+          "read_offset": [
+            0,
+            1
+          ],
+          "multiplicity": 3
+        },
+        {
+          "atom": "C",
+          "heading": 1,
+          "read_offset": [
+            0,
+            1
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -3,
+        3
+      ],
+      "maximum_multiplicity": 3,
+      "all_local_options": [
+        {
+          "atom": "D",
+          "heading": 1,
+          "read_offset": [
+            1,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 1,
+          "read_offset": [
+            1,
+            1
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "U",
+          "heading": 1,
+          "read_offset": [
+            1,
+            1
+          ],
+          "multiplicity": 3
+        },
+        {
+          "atom": "C",
+          "heading": 1,
+          "read_offset": [
+            1,
+            1
+          ],
+          "multiplicity": 3
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -3,
+        5
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "D",
+          "heading": 1,
+          "read_offset": [
+            2,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 1,
+          "read_offset": [
+            2,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 1,
+          "read_offset": [
+            2,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 1,
+          "read_offset": [
+            2,
+            1
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -1,
+        -9
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "U",
+          "heading": 0,
+          "read_offset": [
+            0,
+            4
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -1,
+        -7
+      ],
+      "maximum_multiplicity": 2,
+      "all_local_options": [
+        {
+          "atom": "U",
+          "heading": 0,
+          "read_offset": [
+            0,
+            3
+          ],
+          "multiplicity": 2
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -1,
+        -5
+      ],
+      "maximum_multiplicity": 3,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 0,
+          "read_offset": [
+            0,
+            2
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 0,
+          "read_offset": [
+            0,
+            2
+          ],
+          "multiplicity": 3
+        },
+        {
+          "atom": "C",
+          "heading": 0,
+          "read_offset": [
+            0,
+            2
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -1,
+        -3
+      ],
+      "maximum_multiplicity": 3,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 0,
+          "read_offset": [
+            0,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 0,
+          "read_offset": [
+            0,
+            1
+          ],
+          "multiplicity": 3
+        },
+        {
+          "atom": "C",
+          "heading": 0,
+          "read_offset": [
+            0,
+            1
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -1,
+        -1
+      ],
+      "maximum_multiplicity": 2,
+      "all_local_options": [
+        {
+          "atom": "D",
+          "heading": 0,
+          "read_offset": [
+            0,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "D",
+          "heading": 1,
+          "read_offset": [
+            -1,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "D",
+          "heading": 2,
+          "read_offset": [
+            -1,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "D",
+          "heading": 3,
+          "read_offset": [
+            0,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 0,
+          "read_offset": [
+            0,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "V",
+          "heading": 1,
+          "read_offset": [
+            -1,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 2,
+          "read_offset": [
+            -1,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 3,
+          "read_offset": [
+            0,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 0,
+          "read_offset": [
+            0,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "U",
+          "heading": 1,
+          "read_offset": [
+            -1,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 2,
+          "read_offset": [
+            -1,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 3,
+          "read_offset": [
+            0,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 0,
+          "read_offset": [
+            0,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "C",
+          "heading": 1,
+          "read_offset": [
+            -1,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 2,
+          "read_offset": [
+            -1,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 3,
+          "read_offset": [
+            0,
+            -1
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -1,
+        1
+      ],
+      "maximum_multiplicity": 2,
+      "all_local_options": [
+        {
+          "atom": "D",
+          "heading": 0,
+          "read_offset": [
+            0,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "D",
+          "heading": 1,
+          "read_offset": [
+            0,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "D",
+          "heading": 2,
+          "read_offset": [
+            -1,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "D",
+          "heading": 3,
+          "read_offset": [
+            -1,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 0,
+          "read_offset": [
+            0,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 1,
+          "read_offset": [
+            0,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "V",
+          "heading": 2,
+          "read_offset": [
+            -1,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 3,
+          "read_offset": [
+            -1,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 0,
+          "read_offset": [
+            0,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 1,
+          "read_offset": [
+            0,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "U",
+          "heading": 2,
+          "read_offset": [
+            -1,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 3,
+          "read_offset": [
+            -1,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 0,
+          "read_offset": [
+            0,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 1,
+          "read_offset": [
+            0,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "C",
+          "heading": 2,
+          "read_offset": [
+            -1,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 3,
+          "read_offset": [
+            -1,
+            -1
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -1,
+        3
+      ],
+      "maximum_multiplicity": 2,
+      "all_local_options": [
+        {
+          "atom": "D",
+          "heading": 1,
+          "read_offset": [
+            1,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "V",
+          "heading": 1,
+          "read_offset": [
+            1,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "U",
+          "heading": 1,
+          "read_offset": [
+            1,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "U",
+          "heading": 2,
+          "read_offset": [
+            -1,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 1,
+          "read_offset": [
+            1,
+            0
+          ],
+          "multiplicity": 2
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -1,
+        5
+      ],
+      "maximum_multiplicity": 2,
+      "all_local_options": [
+        {
+          "atom": "D",
+          "heading": 1,
+          "read_offset": [
+            2,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 1,
+          "read_offset": [
+            2,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 1,
+          "read_offset": [
+            2,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 2,
+          "read_offset": [
+            -1,
+            2
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "C",
+          "heading": 1,
+          "read_offset": [
+            2,
+            0
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        -1,
+        7
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "U",
+          "heading": 2,
+          "read_offset": [
+            -1,
+            3
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        1,
+        -7
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "U",
+          "heading": 0,
+          "read_offset": [
+            -1,
+            3
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        1,
+        -5
+      ],
+      "maximum_multiplicity": 2,
+      "all_local_options": [
+        {
+          "atom": "D",
+          "heading": 3,
+          "read_offset": [
+            2,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 3,
+          "read_offset": [
+            2,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 0,
+          "read_offset": [
+            -1,
+            2
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "U",
+          "heading": 3,
+          "read_offset": [
+            2,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 3,
+          "read_offset": [
+            2,
+            0
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        1,
+        -3
+      ],
+      "maximum_multiplicity": 2,
+      "all_local_options": [
+        {
+          "atom": "D",
+          "heading": 3,
+          "read_offset": [
+            1,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "V",
+          "heading": 3,
+          "read_offset": [
+            1,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "U",
+          "heading": 0,
+          "read_offset": [
+            -1,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 3,
+          "read_offset": [
+            1,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "C",
+          "heading": 3,
+          "read_offset": [
+            1,
+            0
+          ],
+          "multiplicity": 2
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        1,
+        -1
+      ],
+      "maximum_multiplicity": 2,
+      "all_local_options": [
+        {
+          "atom": "D",
+          "heading": 0,
+          "read_offset": [
+            -1,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "D",
+          "heading": 1,
+          "read_offset": [
+            -1,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "D",
+          "heading": 2,
+          "read_offset": [
+            0,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "D",
+          "heading": 3,
+          "read_offset": [
+            0,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "V",
+          "heading": 0,
+          "read_offset": [
+            -1,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 1,
+          "read_offset": [
+            -1,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 2,
+          "read_offset": [
+            0,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 3,
+          "read_offset": [
+            0,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "U",
+          "heading": 0,
+          "read_offset": [
+            -1,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 1,
+          "read_offset": [
+            -1,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 2,
+          "read_offset": [
+            0,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 3,
+          "read_offset": [
+            0,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "C",
+          "heading": 0,
+          "read_offset": [
+            -1,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 1,
+          "read_offset": [
+            -1,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 2,
+          "read_offset": [
+            0,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 3,
+          "read_offset": [
+            0,
+            0
+          ],
+          "multiplicity": 2
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        1,
+        1
+      ],
+      "maximum_multiplicity": 2,
+      "all_local_options": [
+        {
+          "atom": "D",
+          "heading": 0,
+          "read_offset": [
+            -1,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "D",
+          "heading": 1,
+          "read_offset": [
+            0,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "D",
+          "heading": 2,
+          "read_offset": [
+            0,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "D",
+          "heading": 3,
+          "read_offset": [
+            -1,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 0,
+          "read_offset": [
+            -1,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 1,
+          "read_offset": [
+            0,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 2,
+          "read_offset": [
+            0,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "V",
+          "heading": 3,
+          "read_offset": [
+            -1,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 0,
+          "read_offset": [
+            -1,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 1,
+          "read_offset": [
+            0,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 2,
+          "read_offset": [
+            0,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "U",
+          "heading": 3,
+          "read_offset": [
+            -1,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 0,
+          "read_offset": [
+            -1,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 1,
+          "read_offset": [
+            0,
+            -1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 2,
+          "read_offset": [
+            0,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "C",
+          "heading": 3,
+          "read_offset": [
+            -1,
+            0
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        1,
+        3
+      ],
+      "maximum_multiplicity": 3,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 2,
+          "read_offset": [
+            0,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 2,
+          "read_offset": [
+            0,
+            1
+          ],
+          "multiplicity": 3
+        },
+        {
+          "atom": "C",
+          "heading": 2,
+          "read_offset": [
+            0,
+            1
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        1,
+        5
+      ],
+      "maximum_multiplicity": 3,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 2,
+          "read_offset": [
+            0,
+            2
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 2,
+          "read_offset": [
+            0,
+            2
+          ],
+          "multiplicity": 3
+        },
+        {
+          "atom": "C",
+          "heading": 2,
+          "read_offset": [
+            0,
+            2
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        1,
+        7
+      ],
+      "maximum_multiplicity": 2,
+      "all_local_options": [
+        {
+          "atom": "U",
+          "heading": 2,
+          "read_offset": [
+            0,
+            3
+          ],
+          "multiplicity": 2
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        1,
+        9
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "U",
+          "heading": 2,
+          "read_offset": [
+            0,
+            4
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        3,
+        -5
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "D",
+          "heading": 3,
+          "read_offset": [
+            2,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 3,
+          "read_offset": [
+            2,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 3,
+          "read_offset": [
+            2,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 3,
+          "read_offset": [
+            2,
+            1
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        3,
+        -3
+      ],
+      "maximum_multiplicity": 3,
+      "all_local_options": [
+        {
+          "atom": "D",
+          "heading": 3,
+          "read_offset": [
+            1,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 3,
+          "read_offset": [
+            1,
+            1
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "U",
+          "heading": 3,
+          "read_offset": [
+            1,
+            1
+          ],
+          "multiplicity": 3
+        },
+        {
+          "atom": "C",
+          "heading": 3,
+          "read_offset": [
+            1,
+            1
+          ],
+          "multiplicity": 3
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        3,
+        -1
+      ],
+      "maximum_multiplicity": 3,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 3,
+          "read_offset": [
+            0,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 3,
+          "read_offset": [
+            0,
+            1
+          ],
+          "multiplicity": 3
+        },
+        {
+          "atom": "C",
+          "heading": 3,
+          "read_offset": [
+            0,
+            1
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        3,
+        1
+      ],
+      "maximum_multiplicity": 2,
+      "all_local_options": [
+        {
+          "atom": "D",
+          "heading": 2,
+          "read_offset": [
+            1,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "V",
+          "heading": 2,
+          "read_offset": [
+            1,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "U",
+          "heading": 2,
+          "read_offset": [
+            1,
+            0
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "U",
+          "heading": 3,
+          "read_offset": [
+            -1,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 2,
+          "read_offset": [
+            1,
+            0
+          ],
+          "multiplicity": 2
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        3,
+        3
+      ],
+      "maximum_multiplicity": 3,
+      "all_local_options": [
+        {
+          "atom": "D",
+          "heading": 2,
+          "read_offset": [
+            1,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 2,
+          "read_offset": [
+            1,
+            1
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "U",
+          "heading": 2,
+          "read_offset": [
+            1,
+            1
+          ],
+          "multiplicity": 3
+        },
+        {
+          "atom": "C",
+          "heading": 2,
+          "read_offset": [
+            1,
+            1
+          ],
+          "multiplicity": 3
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        3,
+        5
+      ],
+      "maximum_multiplicity": 2,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 2,
+          "read_offset": [
+            1,
+            2
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "U",
+          "heading": 2,
+          "read_offset": [
+            1,
+            2
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 2,
+          "read_offset": [
+            1,
+            2
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        3,
+        7
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 2,
+          "read_offset": [
+            1,
+            3
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 2,
+          "read_offset": [
+            1,
+            3
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        3,
+        9
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "U",
+          "heading": 2,
+          "read_offset": [
+            1,
+            4
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        5,
+        -5
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 3,
+          "read_offset": [
+            2,
+            2
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        5,
+        -3
+      ],
+      "maximum_multiplicity": 2,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 3,
+          "read_offset": [
+            1,
+            2
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "U",
+          "heading": 3,
+          "read_offset": [
+            1,
+            2
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 3,
+          "read_offset": [
+            1,
+            2
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        5,
+        -1
+      ],
+      "maximum_multiplicity": 3,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 3,
+          "read_offset": [
+            0,
+            2
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 3,
+          "read_offset": [
+            0,
+            2
+          ],
+          "multiplicity": 3
+        },
+        {
+          "atom": "C",
+          "heading": 3,
+          "read_offset": [
+            0,
+            2
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        5,
+        1
+      ],
+      "maximum_multiplicity": 2,
+      "all_local_options": [
+        {
+          "atom": "D",
+          "heading": 2,
+          "read_offset": [
+            2,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 2,
+          "read_offset": [
+            2,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 2,
+          "read_offset": [
+            2,
+            0
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 3,
+          "read_offset": [
+            -1,
+            2
+          ],
+          "multiplicity": 2
+        },
+        {
+          "atom": "C",
+          "heading": 2,
+          "read_offset": [
+            2,
+            0
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        5,
+        3
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "D",
+          "heading": 2,
+          "read_offset": [
+            2,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "V",
+          "heading": 2,
+          "read_offset": [
+            2,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 2,
+          "read_offset": [
+            2,
+            1
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "C",
+          "heading": 2,
+          "read_offset": [
+            2,
+            1
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        5,
+        5
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 2,
+          "read_offset": [
+            2,
+            2
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        5,
+        7
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 2,
+          "read_offset": [
+            2,
+            3
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        7,
+        -5
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 3,
+          "read_offset": [
+            2,
+            3
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        7,
+        -3
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "V",
+          "heading": 3,
+          "read_offset": [
+            1,
+            3
+          ],
+          "multiplicity": 1
+        },
+        {
+          "atom": "U",
+          "heading": 3,
+          "read_offset": [
+            1,
+            3
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        7,
+        -1
+      ],
+      "maximum_multiplicity": 2,
+      "all_local_options": [
+        {
+          "atom": "U",
+          "heading": 3,
+          "read_offset": [
+            0,
+            3
+          ],
+          "multiplicity": 2
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        7,
+        1
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "U",
+          "heading": 3,
+          "read_offset": [
+            -1,
+            3
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        9,
+        -3
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "U",
+          "heading": 3,
+          "read_offset": [
+            1,
+            4
+          ],
+          "multiplicity": 1
+        }
+      ]
+    },
+    {
+      "twice_center_relative_to_fixed_cell": [
+        9,
+        -1
+      ],
+      "maximum_multiplicity": 1,
+      "all_local_options": [
+        {
+          "atom": "U",
+          "heading": 3,
+          "read_offset": [
+            0,
+            4
+          ],
+          "multiplicity": 1
+        }
+      ]
+    }
+  ],
+  "maximum_multiplicity_histogram": {
+    "1": 28,
+    "2": 20,
+    "3": 12
+  },
+  "physical_read_cap_raw": 104,
+  "terminal_marker_trace": [
+    {
+      "tick": 0,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "tick": 1,
+      "cell": [
+        -1,
+        0
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "tick": 2,
+      "cell": [
+        -1,
+        -1
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "tick": 3,
+      "cell": [
+        0,
+        -1
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "tick": 4,
+      "cell": [
+        0,
+        0
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "tick": 5,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "tick": 6,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "tick": 7,
+      "cell": [
+        2,
+        1
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "tick": 8,
+      "cell": [
+        2,
+        0
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "tick": 9,
+      "cell": [
+        1,
+        0
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "tick": 10,
+      "cell": [
+        1,
+        1
+      ],
+      "heading": 0,
+      "turn": "L"
+    }
+  ],
+  "terminal_marker_endpoint": [
+    0,
+    1,
+    3
+  ],
+  "terminal_marker_per_cell_cap": 2,
+  "raw_plus_terminal_marker_per_cell_cap": 106,
+  "dependency_hashes": {
+    "chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "check_simple_center_physical_read_cap.py": "956a662a747a0658bc16a50332928409e502f1f435a55f0df28a93f58283a076"
+  }
+}

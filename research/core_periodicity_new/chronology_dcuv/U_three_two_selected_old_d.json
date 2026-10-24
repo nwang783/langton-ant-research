@@ -1,0 +1,1489 @@
+{
+  "status": "ONE_STATIC_COHORT_FIRST_CLEARER_QUERY_NOT_EXCLUSION",
+  "scope": "One fixed surviving static 3+2 support pattern; no path search.\nU(-1,1,N) old d=(0,3) must retire while a,q,c survive, before\nDC(-1,6,E) freshly installs its goal replacement. Exact finite clearers.\n",
+  "counts": {
+    "protected_context": 40,
+    "sector": 46,
+    "goal_contact": 6
+  },
+  "rows": [
+    {
+      "packet": 0,
+      "pose": [
+        0,
+        2,
+        0
+      ],
+      "input_slot": 0,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 0,
+      "pose": [
+        -1,
+        3,
+        1
+      ],
+      "input_slot": 0,
+      "reason": "sector"
+    },
+    {
+      "packet": 0,
+      "pose": [
+        0,
+        4,
+        2
+      ],
+      "input_slot": 0,
+      "source_contacts": [],
+      "goal_contacts": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Q_contacts": [
+        [
+          0,
+          1
+        ]
+      ],
+      "source_adjacent_possible": false,
+      "Q_adjacent_possible": false,
+      "reason": "goal_contact"
+    },
+    {
+      "packet": 0,
+      "pose": [
+        1,
+        3,
+        3
+      ],
+      "input_slot": 0,
+      "reason": "sector"
+    },
+    {
+      "packet": 1,
+      "pose": [
+        0,
+        2,
+        0
+      ],
+      "input_slot": 0,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 1,
+      "pose": [
+        -1,
+        3,
+        1
+      ],
+      "input_slot": 0,
+      "reason": "sector"
+    },
+    {
+      "packet": 1,
+      "pose": [
+        0,
+        4,
+        2
+      ],
+      "input_slot": 0,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 1,
+      "pose": [
+        1,
+        3,
+        3
+      ],
+      "input_slot": 0,
+      "reason": "sector"
+    },
+    {
+      "packet": 4,
+      "pose": [
+        0,
+        0,
+        0
+      ],
+      "input_slot": 0,
+      "reason": "protected_context",
+      "hits": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 4,
+      "pose": [
+        -1,
+        1,
+        0
+      ],
+      "input_slot": 1,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 4,
+      "pose": [
+        -3,
+        3,
+        1
+      ],
+      "input_slot": 0,
+      "reason": "sector"
+    },
+    {
+      "packet": 4,
+      "pose": [
+        -2,
+        4,
+        1
+      ],
+      "input_slot": 1,
+      "reason": "sector"
+    },
+    {
+      "packet": 4,
+      "pose": [
+        0,
+        6,
+        2
+      ],
+      "input_slot": 0,
+      "source_contacts": [],
+      "goal_contacts": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Q_contacts": [
+        [
+          0,
+          1
+        ]
+      ],
+      "source_adjacent_possible": false,
+      "Q_adjacent_possible": false,
+      "reason": "goal_contact"
+    },
+    {
+      "packet": 4,
+      "pose": [
+        1,
+        5,
+        2
+      ],
+      "input_slot": 1,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 4,
+      "pose": [
+        3,
+        3,
+        3
+      ],
+      "input_slot": 0,
+      "reason": "sector"
+    },
+    {
+      "packet": 4,
+      "pose": [
+        2,
+        2,
+        3
+      ],
+      "input_slot": 1,
+      "reason": "sector"
+    },
+    {
+      "packet": 5,
+      "pose": [
+        0,
+        0,
+        0
+      ],
+      "input_slot": 0,
+      "reason": "protected_context",
+      "hits": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 5,
+      "pose": [
+        -1,
+        1,
+        0
+      ],
+      "input_slot": 1,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 5,
+      "pose": [
+        -3,
+        3,
+        1
+      ],
+      "input_slot": 0,
+      "reason": "sector"
+    },
+    {
+      "packet": 5,
+      "pose": [
+        -2,
+        4,
+        1
+      ],
+      "input_slot": 1,
+      "reason": "sector"
+    },
+    {
+      "packet": 5,
+      "pose": [
+        0,
+        6,
+        2
+      ],
+      "input_slot": 0,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 5,
+      "pose": [
+        1,
+        5,
+        2
+      ],
+      "input_slot": 1,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 5,
+      "pose": [
+        3,
+        3,
+        3
+      ],
+      "input_slot": 0,
+      "reason": "sector"
+    },
+    {
+      "packet": 5,
+      "pose": [
+        2,
+        2,
+        3
+      ],
+      "input_slot": 1,
+      "reason": "sector"
+    },
+    {
+      "packet": 6,
+      "pose": [
+        0,
+        0,
+        0
+      ],
+      "input_slot": 0,
+      "reason": "protected_context",
+      "hits": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 6,
+      "pose": [
+        -1,
+        1,
+        0
+      ],
+      "input_slot": 1,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 6,
+      "pose": [
+        -3,
+        3,
+        1
+      ],
+      "input_slot": 0,
+      "reason": "sector"
+    },
+    {
+      "packet": 6,
+      "pose": [
+        -2,
+        4,
+        1
+      ],
+      "input_slot": 1,
+      "reason": "sector"
+    },
+    {
+      "packet": 6,
+      "pose": [
+        0,
+        6,
+        2
+      ],
+      "input_slot": 0,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 6,
+      "pose": [
+        1,
+        5,
+        2
+      ],
+      "input_slot": 1,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 6,
+      "pose": [
+        3,
+        3,
+        3
+      ],
+      "input_slot": 0,
+      "reason": "sector"
+    },
+    {
+      "packet": 6,
+      "pose": [
+        2,
+        2,
+        3
+      ],
+      "input_slot": 1,
+      "reason": "sector"
+    },
+    {
+      "packet": 7,
+      "pose": [
+        1,
+        2,
+        0
+      ],
+      "input_slot": 0,
+      "reason": "sector"
+    },
+    {
+      "packet": 7,
+      "pose": [
+        1,
+        1,
+        0
+      ],
+      "input_slot": 1,
+      "reason": "protected_context",
+      "hits": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 7,
+      "pose": [
+        1,
+        -1,
+        0
+      ],
+      "input_slot": 2,
+      "reason": "protected_context",
+      "hits": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 7,
+      "pose": [
+        0,
+        1,
+        0
+      ],
+      "input_slot": 3,
+      "reason": "sector"
+    },
+    {
+      "packet": 7,
+      "pose": [
+        0,
+        0,
+        0
+      ],
+      "input_slot": 4,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 7,
+      "pose": [
+        -1,
+        2,
+        1
+      ],
+      "input_slot": 0,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 7,
+      "pose": [
+        -2,
+        2,
+        1
+      ],
+      "input_slot": 1,
+      "reason": "sector"
+    },
+    {
+      "packet": 7,
+      "pose": [
+        -4,
+        2,
+        1
+      ],
+      "input_slot": 2,
+      "reason": "sector"
+    },
+    {
+      "packet": 7,
+      "pose": [
+        -2,
+        3,
+        1
+      ],
+      "input_slot": 3,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 7,
+      "pose": [
+        -3,
+        3,
+        1
+      ],
+      "input_slot": 4,
+      "reason": "sector"
+    },
+    {
+      "packet": 7,
+      "pose": [
+        -1,
+        4,
+        2
+      ],
+      "input_slot": 0,
+      "reason": "sector"
+    },
+    {
+      "packet": 7,
+      "pose": [
+        -1,
+        5,
+        2
+      ],
+      "input_slot": 1,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 7,
+      "pose": [
+        -1,
+        7,
+        2
+      ],
+      "input_slot": 2,
+      "source_contacts": [],
+      "goal_contacts": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Q_contacts": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "source_adjacent_possible": false,
+      "Q_adjacent_possible": false,
+      "reason": "goal_contact"
+    },
+    {
+      "packet": 7,
+      "pose": [
+        0,
+        5,
+        2
+      ],
+      "input_slot": 3,
+      "reason": "sector"
+    },
+    {
+      "packet": 7,
+      "pose": [
+        0,
+        6,
+        2
+      ],
+      "input_slot": 4,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 7,
+      "pose": [
+        1,
+        4,
+        3
+      ],
+      "input_slot": 0,
+      "source_contacts": [
+        [
+          0,
+          0
+        ]
+      ],
+      "goal_contacts": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Q_contacts": [],
+      "source_adjacent_possible": false,
+      "Q_adjacent_possible": false,
+      "reason": "goal_contact"
+    },
+    {
+      "packet": 7,
+      "pose": [
+        2,
+        4,
+        3
+      ],
+      "input_slot": 1,
+      "reason": "sector"
+    },
+    {
+      "packet": 7,
+      "pose": [
+        4,
+        4,
+        3
+      ],
+      "input_slot": 2,
+      "reason": "sector"
+    },
+    {
+      "packet": 7,
+      "pose": [
+        2,
+        3,
+        3
+      ],
+      "input_slot": 3,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 7,
+      "pose": [
+        3,
+        3,
+        3
+      ],
+      "input_slot": 4,
+      "reason": "sector"
+    },
+    {
+      "packet": 8,
+      "pose": [
+        1,
+        2,
+        0
+      ],
+      "input_slot": 0,
+      "reason": "sector"
+    },
+    {
+      "packet": 8,
+      "pose": [
+        1,
+        1,
+        0
+      ],
+      "input_slot": 1,
+      "reason": "protected_context",
+      "hits": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 8,
+      "pose": [
+        1,
+        -1,
+        0
+      ],
+      "input_slot": 2,
+      "reason": "protected_context",
+      "hits": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 8,
+      "pose": [
+        0,
+        1,
+        0
+      ],
+      "input_slot": 3,
+      "reason": "sector"
+    },
+    {
+      "packet": 8,
+      "pose": [
+        0,
+        0,
+        0
+      ],
+      "input_slot": 4,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 8,
+      "pose": [
+        -1,
+        2,
+        1
+      ],
+      "input_slot": 0,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 8,
+      "pose": [
+        -2,
+        2,
+        1
+      ],
+      "input_slot": 1,
+      "reason": "sector"
+    },
+    {
+      "packet": 8,
+      "pose": [
+        -4,
+        2,
+        1
+      ],
+      "input_slot": 2,
+      "reason": "sector"
+    },
+    {
+      "packet": 8,
+      "pose": [
+        -2,
+        3,
+        1
+      ],
+      "input_slot": 3,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 8,
+      "pose": [
+        -3,
+        3,
+        1
+      ],
+      "input_slot": 4,
+      "reason": "sector"
+    },
+    {
+      "packet": 8,
+      "pose": [
+        -1,
+        4,
+        2
+      ],
+      "input_slot": 0,
+      "reason": "sector"
+    },
+    {
+      "packet": 8,
+      "pose": [
+        -1,
+        5,
+        2
+      ],
+      "input_slot": 1,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 8,
+      "pose": [
+        -1,
+        7,
+        2
+      ],
+      "input_slot": 2,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 8,
+      "pose": [
+        0,
+        5,
+        2
+      ],
+      "input_slot": 3,
+      "reason": "sector"
+    },
+    {
+      "packet": 8,
+      "pose": [
+        0,
+        6,
+        2
+      ],
+      "input_slot": 4,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 8,
+      "pose": [
+        1,
+        4,
+        3
+      ],
+      "input_slot": 0,
+      "source_contacts": [
+        [
+          0,
+          0
+        ]
+      ],
+      "goal_contacts": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Q_contacts": [],
+      "source_adjacent_possible": false,
+      "Q_adjacent_possible": false,
+      "reason": "goal_contact"
+    },
+    {
+      "packet": 8,
+      "pose": [
+        2,
+        4,
+        3
+      ],
+      "input_slot": 1,
+      "reason": "sector"
+    },
+    {
+      "packet": 8,
+      "pose": [
+        4,
+        4,
+        3
+      ],
+      "input_slot": 2,
+      "reason": "sector"
+    },
+    {
+      "packet": 8,
+      "pose": [
+        2,
+        3,
+        3
+      ],
+      "input_slot": 3,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 8,
+      "pose": [
+        3,
+        3,
+        3
+      ],
+      "input_slot": 4,
+      "reason": "sector"
+    },
+    {
+      "packet": 9,
+      "pose": [
+        1,
+        2,
+        0
+      ],
+      "input_slot": 0,
+      "reason": "sector"
+    },
+    {
+      "packet": 9,
+      "pose": [
+        1,
+        1,
+        0
+      ],
+      "input_slot": 1,
+      "reason": "protected_context",
+      "hits": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 9,
+      "pose": [
+        1,
+        -1,
+        0
+      ],
+      "input_slot": 2,
+      "reason": "protected_context",
+      "hits": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 9,
+      "pose": [
+        0,
+        1,
+        0
+      ],
+      "input_slot": 3,
+      "reason": "sector"
+    },
+    {
+      "packet": 9,
+      "pose": [
+        0,
+        0,
+        0
+      ],
+      "input_slot": 4,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 9,
+      "pose": [
+        -1,
+        2,
+        1
+      ],
+      "input_slot": 0,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 9,
+      "pose": [
+        -2,
+        2,
+        1
+      ],
+      "input_slot": 1,
+      "reason": "sector"
+    },
+    {
+      "packet": 9,
+      "pose": [
+        -4,
+        2,
+        1
+      ],
+      "input_slot": 2,
+      "reason": "sector"
+    },
+    {
+      "packet": 9,
+      "pose": [
+        -2,
+        3,
+        1
+      ],
+      "input_slot": 3,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 9,
+      "pose": [
+        -3,
+        3,
+        1
+      ],
+      "input_slot": 4,
+      "reason": "sector"
+    },
+    {
+      "packet": 9,
+      "pose": [
+        -1,
+        4,
+        2
+      ],
+      "input_slot": 0,
+      "reason": "sector"
+    },
+    {
+      "packet": 9,
+      "pose": [
+        -1,
+        5,
+        2
+      ],
+      "input_slot": 1,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 9,
+      "pose": [
+        -1,
+        7,
+        2
+      ],
+      "input_slot": 2,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 9,
+      "pose": [
+        0,
+        5,
+        2
+      ],
+      "input_slot": 3,
+      "reason": "sector"
+    },
+    {
+      "packet": 9,
+      "pose": [
+        0,
+        6,
+        2
+      ],
+      "input_slot": 4,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 9,
+      "pose": [
+        1,
+        4,
+        3
+      ],
+      "input_slot": 0,
+      "source_contacts": [
+        [
+          0,
+          0
+        ]
+      ],
+      "goal_contacts": [
+        [
+          0,
+          0
+        ]
+      ],
+      "Q_contacts": [],
+      "source_adjacent_possible": false,
+      "Q_adjacent_possible": false,
+      "reason": "goal_contact"
+    },
+    {
+      "packet": 9,
+      "pose": [
+        2,
+        4,
+        3
+      ],
+      "input_slot": 1,
+      "reason": "sector"
+    },
+    {
+      "packet": 9,
+      "pose": [
+        4,
+        4,
+        3
+      ],
+      "input_slot": 2,
+      "reason": "sector"
+    },
+    {
+      "packet": 9,
+      "pose": [
+        2,
+        3,
+        3
+      ],
+      "input_slot": 3,
+      "reason": "protected_context",
+      "hits": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet": 9,
+      "pose": [
+        3,
+        3,
+        3
+      ],
+      "input_slot": 4,
+      "reason": "sector"
+    }
+  ]
+}

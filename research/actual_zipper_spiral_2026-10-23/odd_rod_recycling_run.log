@@ -1,0 +1,1912 @@
+{
+  "r": 100,
+  "initial_mass": 201,
+  "total_T": 806,
+  "first_R_recycled": 200,
+  "segments": [
+    {
+      "name": "first_ordinary",
+      "T": 401,
+      "entry_mass": 201,
+      "exit_mass": 200,
+      "gain": -1,
+      "entry_active": 201,
+      "exit_active": 0,
+      "L": 201,
+      "R": 200,
+      "births": [
+        0,
+        0
+      ],
+      "erasures": [
+        0,
+        0
+      ],
+      "consumed_lifetimes": {
+        "initial": 201,
+        "first_R": 0,
+        "reset_R": 0,
+        "second_R": 0
+      },
+      "position": [
+        200,
+        1
+      ],
+      "heading_NESW": 0,
+      "ranks": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "R4_reset",
+      "T": 5,
+      "entry_mass": 200,
+      "exit_mass": 203,
+      "gain": 3,
+      "entry_active": 0,
+      "exit_active": 200,
+      "L": 1,
+      "R": 4,
+      "births": [
+        0,
+        1
+      ],
+      "erasures": [
+        0,
+        1
+      ],
+      "consumed_lifetimes": {
+        "initial": 0,
+        "first_R": 0,
+        "reset_R": 1,
+        "second_R": 0
+      },
+      "position": [
+        199,
+        1
+      ],
+      "heading_NESW": 3,
+      "ranks": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "second_ordinary",
+      "T": 400,
+      "entry_mass": 203,
+      "exit_mass": 203,
+      "gain": 0,
+      "entry_active": 200,
+      "exit_active": 0,
+      "L": 200,
+      "R": 200,
+      "births": [
+        0,
+        0
+      ],
+      "erasures": [
+        0,
+        0
+      ],
+      "consumed_lifetimes": {
+        "initial": 0,
+        "first_R": 200,
+        "reset_R": 0,
+        "second_R": 0
+      },
+      "position": [
+        -1,
+        1
+      ],
+      "heading_NESW": 3,
+      "ranks": [
+        0,
+        0
+      ]
+    }
+  ],
+  "first_R_birth_death_pairing": [
+    {
+      "cell": [
+        199,
+        1
+      ],
+      "birth": 399,
+      "death": 407,
+      "age": 8
+    },
+    {
+      "cell": [
+        198,
+        1
+      ],
+      "birth": 398,
+      "death": 410,
+      "age": 12
+    },
+    {
+      "cell": [
+        197,
+        1
+      ],
+      "birth": 395,
+      "death": 411,
+      "age": 16
+    },
+    {
+      "cell": [
+        196,
+        1
+      ],
+      "birth": 394,
+      "death": 414,
+      "age": 20
+    },
+    {
+      "cell": [
+        195,
+        1
+      ],
+      "birth": 391,
+      "death": 415,
+      "age": 24
+    },
+    {
+      "cell": [
+        194,
+        1
+      ],
+      "birth": 390,
+      "death": 418,
+      "age": 28
+    },
+    {
+      "cell": [
+        193,
+        1
+      ],
+      "birth": 387,
+      "death": 419,
+      "age": 32
+    },
+    {
+      "cell": [
+        192,
+        1
+      ],
+      "birth": 386,
+      "death": 422,
+      "age": 36
+    },
+    {
+      "cell": [
+        191,
+        1
+      ],
+      "birth": 383,
+      "death": 423,
+      "age": 40
+    },
+    {
+      "cell": [
+        190,
+        1
+      ],
+      "birth": 382,
+      "death": 426,
+      "age": 44
+    },
+    {
+      "cell": [
+        189,
+        1
+      ],
+      "birth": 379,
+      "death": 427,
+      "age": 48
+    },
+    {
+      "cell": [
+        188,
+        1
+      ],
+      "birth": 378,
+      "death": 430,
+      "age": 52
+    },
+    {
+      "cell": [
+        187,
+        1
+      ],
+      "birth": 375,
+      "death": 431,
+      "age": 56
+    },
+    {
+      "cell": [
+        186,
+        1
+      ],
+      "birth": 374,
+      "death": 434,
+      "age": 60
+    },
+    {
+      "cell": [
+        185,
+        1
+      ],
+      "birth": 371,
+      "death": 435,
+      "age": 64
+    },
+    {
+      "cell": [
+        184,
+        1
+      ],
+      "birth": 370,
+      "death": 438,
+      "age": 68
+    },
+    {
+      "cell": [
+        183,
+        1
+      ],
+      "birth": 367,
+      "death": 439,
+      "age": 72
+    },
+    {
+      "cell": [
+        182,
+        1
+      ],
+      "birth": 366,
+      "death": 442,
+      "age": 76
+    },
+    {
+      "cell": [
+        181,
+        1
+      ],
+      "birth": 363,
+      "death": 443,
+      "age": 80
+    },
+    {
+      "cell": [
+        180,
+        1
+      ],
+      "birth": 362,
+      "death": 446,
+      "age": 84
+    },
+    {
+      "cell": [
+        179,
+        1
+      ],
+      "birth": 359,
+      "death": 447,
+      "age": 88
+    },
+    {
+      "cell": [
+        178,
+        1
+      ],
+      "birth": 358,
+      "death": 450,
+      "age": 92
+    },
+    {
+      "cell": [
+        177,
+        1
+      ],
+      "birth": 355,
+      "death": 451,
+      "age": 96
+    },
+    {
+      "cell": [
+        176,
+        1
+      ],
+      "birth": 354,
+      "death": 454,
+      "age": 100
+    },
+    {
+      "cell": [
+        175,
+        1
+      ],
+      "birth": 351,
+      "death": 455,
+      "age": 104
+    },
+    {
+      "cell": [
+        174,
+        1
+      ],
+      "birth": 350,
+      "death": 458,
+      "age": 108
+    },
+    {
+      "cell": [
+        173,
+        1
+      ],
+      "birth": 347,
+      "death": 459,
+      "age": 112
+    },
+    {
+      "cell": [
+        172,
+        1
+      ],
+      "birth": 346,
+      "death": 462,
+      "age": 116
+    },
+    {
+      "cell": [
+        171,
+        1
+      ],
+      "birth": 343,
+      "death": 463,
+      "age": 120
+    },
+    {
+      "cell": [
+        170,
+        1
+      ],
+      "birth": 342,
+      "death": 466,
+      "age": 124
+    },
+    {
+      "cell": [
+        169,
+        1
+      ],
+      "birth": 339,
+      "death": 467,
+      "age": 128
+    },
+    {
+      "cell": [
+        168,
+        1
+      ],
+      "birth": 338,
+      "death": 470,
+      "age": 132
+    },
+    {
+      "cell": [
+        167,
+        1
+      ],
+      "birth": 335,
+      "death": 471,
+      "age": 136
+    },
+    {
+      "cell": [
+        166,
+        1
+      ],
+      "birth": 334,
+      "death": 474,
+      "age": 140
+    },
+    {
+      "cell": [
+        165,
+        1
+      ],
+      "birth": 331,
+      "death": 475,
+      "age": 144
+    },
+    {
+      "cell": [
+        164,
+        1
+      ],
+      "birth": 330,
+      "death": 478,
+      "age": 148
+    },
+    {
+      "cell": [
+        163,
+        1
+      ],
+      "birth": 327,
+      "death": 479,
+      "age": 152
+    },
+    {
+      "cell": [
+        162,
+        1
+      ],
+      "birth": 326,
+      "death": 482,
+      "age": 156
+    },
+    {
+      "cell": [
+        161,
+        1
+      ],
+      "birth": 323,
+      "death": 483,
+      "age": 160
+    },
+    {
+      "cell": [
+        160,
+        1
+      ],
+      "birth": 322,
+      "death": 486,
+      "age": 164
+    },
+    {
+      "cell": [
+        159,
+        1
+      ],
+      "birth": 319,
+      "death": 487,
+      "age": 168
+    },
+    {
+      "cell": [
+        158,
+        1
+      ],
+      "birth": 318,
+      "death": 490,
+      "age": 172
+    },
+    {
+      "cell": [
+        157,
+        1
+      ],
+      "birth": 315,
+      "death": 491,
+      "age": 176
+    },
+    {
+      "cell": [
+        156,
+        1
+      ],
+      "birth": 314,
+      "death": 494,
+      "age": 180
+    },
+    {
+      "cell": [
+        155,
+        1
+      ],
+      "birth": 311,
+      "death": 495,
+      "age": 184
+    },
+    {
+      "cell": [
+        154,
+        1
+      ],
+      "birth": 310,
+      "death": 498,
+      "age": 188
+    },
+    {
+      "cell": [
+        153,
+        1
+      ],
+      "birth": 307,
+      "death": 499,
+      "age": 192
+    },
+    {
+      "cell": [
+        152,
+        1
+      ],
+      "birth": 306,
+      "death": 502,
+      "age": 196
+    },
+    {
+      "cell": [
+        151,
+        1
+      ],
+      "birth": 303,
+      "death": 503,
+      "age": 200
+    },
+    {
+      "cell": [
+        150,
+        1
+      ],
+      "birth": 302,
+      "death": 506,
+      "age": 204
+    },
+    {
+      "cell": [
+        149,
+        1
+      ],
+      "birth": 299,
+      "death": 507,
+      "age": 208
+    },
+    {
+      "cell": [
+        148,
+        1
+      ],
+      "birth": 298,
+      "death": 510,
+      "age": 212
+    },
+    {
+      "cell": [
+        147,
+        1
+      ],
+      "birth": 295,
+      "death": 511,
+      "age": 216
+    },
+    {
+      "cell": [
+        146,
+        1
+      ],
+      "birth": 294,
+      "death": 514,
+      "age": 220
+    },
+    {
+      "cell": [
+        145,
+        1
+      ],
+      "birth": 291,
+      "death": 515,
+      "age": 224
+    },
+    {
+      "cell": [
+        144,
+        1
+      ],
+      "birth": 290,
+      "death": 518,
+      "age": 228
+    },
+    {
+      "cell": [
+        143,
+        1
+      ],
+      "birth": 287,
+      "death": 519,
+      "age": 232
+    },
+    {
+      "cell": [
+        142,
+        1
+      ],
+      "birth": 286,
+      "death": 522,
+      "age": 236
+    },
+    {
+      "cell": [
+        141,
+        1
+      ],
+      "birth": 283,
+      "death": 523,
+      "age": 240
+    },
+    {
+      "cell": [
+        140,
+        1
+      ],
+      "birth": 282,
+      "death": 526,
+      "age": 244
+    },
+    {
+      "cell": [
+        139,
+        1
+      ],
+      "birth": 279,
+      "death": 527,
+      "age": 248
+    },
+    {
+      "cell": [
+        138,
+        1
+      ],
+      "birth": 278,
+      "death": 530,
+      "age": 252
+    },
+    {
+      "cell": [
+        137,
+        1
+      ],
+      "birth": 275,
+      "death": 531,
+      "age": 256
+    },
+    {
+      "cell": [
+        136,
+        1
+      ],
+      "birth": 274,
+      "death": 534,
+      "age": 260
+    },
+    {
+      "cell": [
+        135,
+        1
+      ],
+      "birth": 271,
+      "death": 535,
+      "age": 264
+    },
+    {
+      "cell": [
+        134,
+        1
+      ],
+      "birth": 270,
+      "death": 538,
+      "age": 268
+    },
+    {
+      "cell": [
+        133,
+        1
+      ],
+      "birth": 267,
+      "death": 539,
+      "age": 272
+    },
+    {
+      "cell": [
+        132,
+        1
+      ],
+      "birth": 266,
+      "death": 542,
+      "age": 276
+    },
+    {
+      "cell": [
+        131,
+        1
+      ],
+      "birth": 263,
+      "death": 543,
+      "age": 280
+    },
+    {
+      "cell": [
+        130,
+        1
+      ],
+      "birth": 262,
+      "death": 546,
+      "age": 284
+    },
+    {
+      "cell": [
+        129,
+        1
+      ],
+      "birth": 259,
+      "death": 547,
+      "age": 288
+    },
+    {
+      "cell": [
+        128,
+        1
+      ],
+      "birth": 258,
+      "death": 550,
+      "age": 292
+    },
+    {
+      "cell": [
+        127,
+        1
+      ],
+      "birth": 255,
+      "death": 551,
+      "age": 296
+    },
+    {
+      "cell": [
+        126,
+        1
+      ],
+      "birth": 254,
+      "death": 554,
+      "age": 300
+    },
+    {
+      "cell": [
+        125,
+        1
+      ],
+      "birth": 251,
+      "death": 555,
+      "age": 304
+    },
+    {
+      "cell": [
+        124,
+        1
+      ],
+      "birth": 250,
+      "death": 558,
+      "age": 308
+    },
+    {
+      "cell": [
+        123,
+        1
+      ],
+      "birth": 247,
+      "death": 559,
+      "age": 312
+    },
+    {
+      "cell": [
+        122,
+        1
+      ],
+      "birth": 246,
+      "death": 562,
+      "age": 316
+    },
+    {
+      "cell": [
+        121,
+        1
+      ],
+      "birth": 243,
+      "death": 563,
+      "age": 320
+    },
+    {
+      "cell": [
+        120,
+        1
+      ],
+      "birth": 242,
+      "death": 566,
+      "age": 324
+    },
+    {
+      "cell": [
+        119,
+        1
+      ],
+      "birth": 239,
+      "death": 567,
+      "age": 328
+    },
+    {
+      "cell": [
+        118,
+        1
+      ],
+      "birth": 238,
+      "death": 570,
+      "age": 332
+    },
+    {
+      "cell": [
+        117,
+        1
+      ],
+      "birth": 235,
+      "death": 571,
+      "age": 336
+    },
+    {
+      "cell": [
+        116,
+        1
+      ],
+      "birth": 234,
+      "death": 574,
+      "age": 340
+    },
+    {
+      "cell": [
+        115,
+        1
+      ],
+      "birth": 231,
+      "death": 575,
+      "age": 344
+    },
+    {
+      "cell": [
+        114,
+        1
+      ],
+      "birth": 230,
+      "death": 578,
+      "age": 348
+    },
+    {
+      "cell": [
+        113,
+        1
+      ],
+      "birth": 227,
+      "death": 579,
+      "age": 352
+    },
+    {
+      "cell": [
+        112,
+        1
+      ],
+      "birth": 226,
+      "death": 582,
+      "age": 356
+    },
+    {
+      "cell": [
+        111,
+        1
+      ],
+      "birth": 223,
+      "death": 583,
+      "age": 360
+    },
+    {
+      "cell": [
+        110,
+        1
+      ],
+      "birth": 222,
+      "death": 586,
+      "age": 364
+    },
+    {
+      "cell": [
+        109,
+        1
+      ],
+      "birth": 219,
+      "death": 587,
+      "age": 368
+    },
+    {
+      "cell": [
+        108,
+        1
+      ],
+      "birth": 218,
+      "death": 590,
+      "age": 372
+    },
+    {
+      "cell": [
+        107,
+        1
+      ],
+      "birth": 215,
+      "death": 591,
+      "age": 376
+    },
+    {
+      "cell": [
+        106,
+        1
+      ],
+      "birth": 214,
+      "death": 594,
+      "age": 380
+    },
+    {
+      "cell": [
+        105,
+        1
+      ],
+      "birth": 211,
+      "death": 595,
+      "age": 384
+    },
+    {
+      "cell": [
+        104,
+        1
+      ],
+      "birth": 210,
+      "death": 598,
+      "age": 388
+    },
+    {
+      "cell": [
+        103,
+        1
+      ],
+      "birth": 207,
+      "death": 599,
+      "age": 392
+    },
+    {
+      "cell": [
+        102,
+        1
+      ],
+      "birth": 206,
+      "death": 602,
+      "age": 396
+    },
+    {
+      "cell": [
+        101,
+        1
+      ],
+      "birth": 203,
+      "death": 603,
+      "age": 400
+    },
+    {
+      "cell": [
+        100,
+        1
+      ],
+      "birth": 202,
+      "death": 606,
+      "age": 404
+    },
+    {
+      "cell": [
+        99,
+        1
+      ],
+      "birth": 199,
+      "death": 607,
+      "age": 408
+    },
+    {
+      "cell": [
+        98,
+        1
+      ],
+      "birth": 198,
+      "death": 610,
+      "age": 412
+    },
+    {
+      "cell": [
+        97,
+        1
+      ],
+      "birth": 195,
+      "death": 611,
+      "age": 416
+    },
+    {
+      "cell": [
+        96,
+        1
+      ],
+      "birth": 194,
+      "death": 614,
+      "age": 420
+    },
+    {
+      "cell": [
+        95,
+        1
+      ],
+      "birth": 191,
+      "death": 615,
+      "age": 424
+    },
+    {
+      "cell": [
+        94,
+        1
+      ],
+      "birth": 190,
+      "death": 618,
+      "age": 428
+    },
+    {
+      "cell": [
+        93,
+        1
+      ],
+      "birth": 187,
+      "death": 619,
+      "age": 432
+    },
+    {
+      "cell": [
+        92,
+        1
+      ],
+      "birth": 186,
+      "death": 622,
+      "age": 436
+    },
+    {
+      "cell": [
+        91,
+        1
+      ],
+      "birth": 183,
+      "death": 623,
+      "age": 440
+    },
+    {
+      "cell": [
+        90,
+        1
+      ],
+      "birth": 182,
+      "death": 626,
+      "age": 444
+    },
+    {
+      "cell": [
+        89,
+        1
+      ],
+      "birth": 179,
+      "death": 627,
+      "age": 448
+    },
+    {
+      "cell": [
+        88,
+        1
+      ],
+      "birth": 178,
+      "death": 630,
+      "age": 452
+    },
+    {
+      "cell": [
+        87,
+        1
+      ],
+      "birth": 175,
+      "death": 631,
+      "age": 456
+    },
+    {
+      "cell": [
+        86,
+        1
+      ],
+      "birth": 174,
+      "death": 634,
+      "age": 460
+    },
+    {
+      "cell": [
+        85,
+        1
+      ],
+      "birth": 171,
+      "death": 635,
+      "age": 464
+    },
+    {
+      "cell": [
+        84,
+        1
+      ],
+      "birth": 170,
+      "death": 638,
+      "age": 468
+    },
+    {
+      "cell": [
+        83,
+        1
+      ],
+      "birth": 167,
+      "death": 639,
+      "age": 472
+    },
+    {
+      "cell": [
+        82,
+        1
+      ],
+      "birth": 166,
+      "death": 642,
+      "age": 476
+    },
+    {
+      "cell": [
+        81,
+        1
+      ],
+      "birth": 163,
+      "death": 643,
+      "age": 480
+    },
+    {
+      "cell": [
+        80,
+        1
+      ],
+      "birth": 162,
+      "death": 646,
+      "age": 484
+    },
+    {
+      "cell": [
+        79,
+        1
+      ],
+      "birth": 159,
+      "death": 647,
+      "age": 488
+    },
+    {
+      "cell": [
+        78,
+        1
+      ],
+      "birth": 158,
+      "death": 650,
+      "age": 492
+    },
+    {
+      "cell": [
+        77,
+        1
+      ],
+      "birth": 155,
+      "death": 651,
+      "age": 496
+    },
+    {
+      "cell": [
+        76,
+        1
+      ],
+      "birth": 154,
+      "death": 654,
+      "age": 500
+    },
+    {
+      "cell": [
+        75,
+        1
+      ],
+      "birth": 151,
+      "death": 655,
+      "age": 504
+    },
+    {
+      "cell": [
+        74,
+        1
+      ],
+      "birth": 150,
+      "death": 658,
+      "age": 508
+    },
+    {
+      "cell": [
+        73,
+        1
+      ],
+      "birth": 147,
+      "death": 659,
+      "age": 512
+    },
+    {
+      "cell": [
+        72,
+        1
+      ],
+      "birth": 146,
+      "death": 662,
+      "age": 516
+    },
+    {
+      "cell": [
+        71,
+        1
+      ],
+      "birth": 143,
+      "death": 663,
+      "age": 520
+    },
+    {
+      "cell": [
+        70,
+        1
+      ],
+      "birth": 142,
+      "death": 666,
+      "age": 524
+    },
+    {
+      "cell": [
+        69,
+        1
+      ],
+      "birth": 139,
+      "death": 667,
+      "age": 528
+    },
+    {
+      "cell": [
+        68,
+        1
+      ],
+      "birth": 138,
+      "death": 670,
+      "age": 532
+    },
+    {
+      "cell": [
+        67,
+        1
+      ],
+      "birth": 135,
+      "death": 671,
+      "age": 536
+    },
+    {
+      "cell": [
+        66,
+        1
+      ],
+      "birth": 134,
+      "death": 674,
+      "age": 540
+    },
+    {
+      "cell": [
+        65,
+        1
+      ],
+      "birth": 131,
+      "death": 675,
+      "age": 544
+    },
+    {
+      "cell": [
+        64,
+        1
+      ],
+      "birth": 130,
+      "death": 678,
+      "age": 548
+    },
+    {
+      "cell": [
+        63,
+        1
+      ],
+      "birth": 127,
+      "death": 679,
+      "age": 552
+    },
+    {
+      "cell": [
+        62,
+        1
+      ],
+      "birth": 126,
+      "death": 682,
+      "age": 556
+    },
+    {
+      "cell": [
+        61,
+        1
+      ],
+      "birth": 123,
+      "death": 683,
+      "age": 560
+    },
+    {
+      "cell": [
+        60,
+        1
+      ],
+      "birth": 122,
+      "death": 686,
+      "age": 564
+    },
+    {
+      "cell": [
+        59,
+        1
+      ],
+      "birth": 119,
+      "death": 687,
+      "age": 568
+    },
+    {
+      "cell": [
+        58,
+        1
+      ],
+      "birth": 118,
+      "death": 690,
+      "age": 572
+    },
+    {
+      "cell": [
+        57,
+        1
+      ],
+      "birth": 115,
+      "death": 691,
+      "age": 576
+    },
+    {
+      "cell": [
+        56,
+        1
+      ],
+      "birth": 114,
+      "death": 694,
+      "age": 580
+    },
+    {
+      "cell": [
+        55,
+        1
+      ],
+      "birth": 111,
+      "death": 695,
+      "age": 584
+    },
+    {
+      "cell": [
+        54,
+        1
+      ],
+      "birth": 110,
+      "death": 698,
+      "age": 588
+    },
+    {
+      "cell": [
+        53,
+        1
+      ],
+      "birth": 107,
+      "death": 699,
+      "age": 592
+    },
+    {
+      "cell": [
+        52,
+        1
+      ],
+      "birth": 106,
+      "death": 702,
+      "age": 596
+    },
+    {
+      "cell": [
+        51,
+        1
+      ],
+      "birth": 103,
+      "death": 703,
+      "age": 600
+    },
+    {
+      "cell": [
+        50,
+        1
+      ],
+      "birth": 102,
+      "death": 706,
+      "age": 604
+    },
+    {
+      "cell": [
+        49,
+        1
+      ],
+      "birth": 99,
+      "death": 707,
+      "age": 608
+    },
+    {
+      "cell": [
+        48,
+        1
+      ],
+      "birth": 98,
+      "death": 710,
+      "age": 612
+    },
+    {
+      "cell": [
+        47,
+        1
+      ],
+      "birth": 95,
+      "death": 711,
+      "age": 616
+    },
+    {
+      "cell": [
+        46,
+        1
+      ],
+      "birth": 94,
+      "death": 714,
+      "age": 620
+    },
+    {
+      "cell": [
+        45,
+        1
+      ],
+      "birth": 91,
+      "death": 715,
+      "age": 624
+    },
+    {
+      "cell": [
+        44,
+        1
+      ],
+      "birth": 90,
+      "death": 718,
+      "age": 628
+    },
+    {
+      "cell": [
+        43,
+        1
+      ],
+      "birth": 87,
+      "death": 719,
+      "age": 632
+    },
+    {
+      "cell": [
+        42,
+        1
+      ],
+      "birth": 86,
+      "death": 722,
+      "age": 636
+    },
+    {
+      "cell": [
+        41,
+        1
+      ],
+      "birth": 83,
+      "death": 723,
+      "age": 640
+    },
+    {
+      "cell": [
+        40,
+        1
+      ],
+      "birth": 82,
+      "death": 726,
+      "age": 644
+    },
+    {
+      "cell": [
+        39,
+        1
+      ],
+      "birth": 79,
+      "death": 727,
+      "age": 648
+    },
+    {
+      "cell": [
+        38,
+        1
+      ],
+      "birth": 78,
+      "death": 730,
+      "age": 652
+    },
+    {
+      "cell": [
+        37,
+        1
+      ],
+      "birth": 75,
+      "death": 731,
+      "age": 656
+    },
+    {
+      "cell": [
+        36,
+        1
+      ],
+      "birth": 74,
+      "death": 734,
+      "age": 660
+    },
+    {
+      "cell": [
+        35,
+        1
+      ],
+      "birth": 71,
+      "death": 735,
+      "age": 664
+    },
+    {
+      "cell": [
+        34,
+        1
+      ],
+      "birth": 70,
+      "death": 738,
+      "age": 668
+    },
+    {
+      "cell": [
+        33,
+        1
+      ],
+      "birth": 67,
+      "death": 739,
+      "age": 672
+    },
+    {
+      "cell": [
+        32,
+        1
+      ],
+      "birth": 66,
+      "death": 742,
+      "age": 676
+    },
+    {
+      "cell": [
+        31,
+        1
+      ],
+      "birth": 63,
+      "death": 743,
+      "age": 680
+    },
+    {
+      "cell": [
+        30,
+        1
+      ],
+      "birth": 62,
+      "death": 746,
+      "age": 684
+    },
+    {
+      "cell": [
+        29,
+        1
+      ],
+      "birth": 59,
+      "death": 747,
+      "age": 688
+    },
+    {
+      "cell": [
+        28,
+        1
+      ],
+      "birth": 58,
+      "death": 750,
+      "age": 692
+    },
+    {
+      "cell": [
+        27,
+        1
+      ],
+      "birth": 55,
+      "death": 751,
+      "age": 696
+    },
+    {
+      "cell": [
+        26,
+        1
+      ],
+      "birth": 54,
+      "death": 754,
+      "age": 700
+    },
+    {
+      "cell": [
+        25,
+        1
+      ],
+      "birth": 51,
+      "death": 755,
+      "age": 704
+    },
+    {
+      "cell": [
+        24,
+        1
+      ],
+      "birth": 50,
+      "death": 758,
+      "age": 708
+    },
+    {
+      "cell": [
+        23,
+        1
+      ],
+      "birth": 47,
+      "death": 759,
+      "age": 712
+    },
+    {
+      "cell": [
+        22,
+        1
+      ],
+      "birth": 46,
+      "death": 762,
+      "age": 716
+    },
+    {
+      "cell": [
+        21,
+        1
+      ],
+      "birth": 43,
+      "death": 763,
+      "age": 720
+    },
+    {
+      "cell": [
+        20,
+        1
+      ],
+      "birth": 42,
+      "death": 766,
+      "age": 724
+    },
+    {
+      "cell": [
+        19,
+        1
+      ],
+      "birth": 39,
+      "death": 767,
+      "age": 728
+    },
+    {
+      "cell": [
+        18,
+        1
+      ],
+      "birth": 38,
+      "death": 770,
+      "age": 732
+    },
+    {
+      "cell": [
+        17,
+        1
+      ],
+      "birth": 35,
+      "death": 771,
+      "age": 736
+    },
+    {
+      "cell": [
+        16,
+        1
+      ],
+      "birth": 34,
+      "death": 774,
+      "age": 740
+    },
+    {
+      "cell": [
+        15,
+        1
+      ],
+      "birth": 31,
+      "death": 775,
+      "age": 744
+    },
+    {
+      "cell": [
+        14,
+        1
+      ],
+      "birth": 30,
+      "death": 778,
+      "age": 748
+    },
+    {
+      "cell": [
+        13,
+        1
+      ],
+      "birth": 27,
+      "death": 779,
+      "age": 752
+    },
+    {
+      "cell": [
+        12,
+        1
+      ],
+      "birth": 26,
+      "death": 782,
+      "age": 756
+    },
+    {
+      "cell": [
+        11,
+        1
+      ],
+      "birth": 23,
+      "death": 783,
+      "age": 760
+    },
+    {
+      "cell": [
+        10,
+        1
+      ],
+      "birth": 22,
+      "death": 786,
+      "age": 764
+    },
+    {
+      "cell": [
+        9,
+        1
+      ],
+      "birth": 19,
+      "death": 787,
+      "age": 768
+    },
+    {
+      "cell": [
+        8,
+        1
+      ],
+      "birth": 18,
+      "death": 790,
+      "age": 772
+    },
+    {
+      "cell": [
+        7,
+        1
+      ],
+      "birth": 15,
+      "death": 791,
+      "age": 776
+    },
+    {
+      "cell": [
+        6,
+        1
+      ],
+      "birth": 14,
+      "death": 794,
+      "age": 780
+    },
+    {
+      "cell": [
+        5,
+        1
+      ],
+      "birth": 11,
+      "death": 795,
+      "age": 784
+    },
+    {
+      "cell": [
+        4,
+        1
+      ],
+      "birth": 10,
+      "death": 798,
+      "age": 788
+    },
+    {
+      "cell": [
+        3,
+        1
+      ],
+      "birth": 7,
+      "death": 799,
+      "age": 792
+    },
+    {
+      "cell": [
+        2,
+        1
+      ],
+      "birth": 6,
+      "death": 802,
+      "age": 796
+    },
+    {
+      "cell": [
+        1,
+        1
+      ],
+      "birth": 3,
+      "death": 803,
+      "age": 800
+    },
+    {
+      "cell": [
+        0,
+        1
+      ],
+      "birth": 2,
+      "death": 806,
+      "age": 804
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+checked segment 0 time (0, 0, 9977) pose ((0, 0, -15), (0, 0, 10)) 3
+checked segment 1 time (104, 104, 31609) pose ((-2, -2, -431), (-2, -2, -406)) 3
+checked segment 2 time (104, 104, 82727) pose ((-2, -2, -394), (-2, -2, -443)) 1
+checked segment 3 time (208, 208, 104255) pose ((0, 0, 20), (0, 0, -29)) 1
+checked segment 4 time (208, 208, 112333) pose ((0, 0, -15), (0, 0, 26)) 1
+checked segment 5 time (312, 208, 122733) pose ((-2, 0, -215), (2, 0, 226)) 1
+checked segment 6 time (312, 208, 173856) pose ((-2, 0, -252), (2, 0, 192)) 2
+checked segment 7 time (416, 208, 184464) pose ((0, 0, -48), (0, 0, -12)) 2
+checked segment 8 time (416, 208, 207400) pose ((0, 0, 40), (0, 0, -50)) 2
+checked segment 9 time (520, 312, 226120) pose ((2, 2, 400), (-2, -2, -410)) 2
+checked segment 10 time (520, 312, 277242) pose ((2, 2, 437), (-2, -2, -375)) 0
+checked segment 11 time (728, 416, 309482) pose ((-2, 0, -183), (2, 0, 245)) 0
+checked segment 12 time (728, 416, 312104) pose ((-2, 0, -228), (2, 0, 268)) 0
+{
+  "status": "PASS: independent all-parameter complete-field replay",
+  "domain": "m>=100, n>=m+100",
+  "capture_time": [
+    728,
+    416,
+    312104
+  ],
+  "capture_pose": [
+    [
+      [
+        -2,
+        0,
+        -228
+      ],
+      [
+        2,
+        0,
+        268
+      ]
+    ],
+    0
+  ],
+  "tail": {
+    "drift": [
+      -2,
+      2
+    ],
+    "heading": 0,
+    "required_cells": 44,
+    "odd_cells": 36
+  },
+  "never_read": [
+    "a",
+    "d"
+  ],
+  "statistics": {
+    "finite_read_constraints": 21118,
+    "periodic_read_constraints": 292,
+    "affine_guards": 19605,
+    "excluded_isolated_equalities": 82677325
+  },
+  "negative_control": "10^60-period future blocker rejected",
+  "template_sha256": "05c5fca0529ffb365a499a92ece844fd6cb4520cc8465f4d2027c049b66f222f"
+}

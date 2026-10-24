@@ -1,0 +1,99 @@
+BEGIN identity_R
+BASE 1 depth 0 bound 1
+BASE 2 depth 1 bound 1
+PARITY BEGIN
+PARITY COMPLETE
+READ 0 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+FRAME 0 4
+RESULT {"processed_schemes": 2, "last_base_length": 1, "theoretical_base_bound": 1, "requirement_states": {"(-1, -1)": [1, 1], "(-1, 1)": [1, 1], "(1, -1)": [1, 1], "(1, 1)": [1, 2]}, "status": "decided", "possible": true, "complete_generated_cover": true, "candidate_seed": [], "given_seed_validation": {"possible": true, "frame_checks": 4, "nested_root": true, "growing_root": false, "accepted_growing_model": false, "seed": []}, "seconds": 0.04909931700967718, "name": "identity_R"}
+BEGIN identity_L
+BASE 1 depth 0 bound 1
+BASE 2 depth 1 bound 1
+PARITY BEGIN
+PARITY COMPLETE
+READ 1 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+FRAME 1 4
+RESULT {"processed_schemes": 2, "last_base_length": 1, "theoretical_base_bound": 1, "requirement_states": {"(-1, -1)": [1, 1], "(-1, 1)": [1, 1], "(1, -1)": [1, 1], "(1, 1)": [2, 1]}, "status": "decided", "possible": true, "complete_generated_cover": true, "candidate_seed": [[0, 0]], "given_seed_validation": {"possible": true, "frame_checks": 4, "nested_root": true, "growing_root": false, "accepted_growing_model": false, "seed": [[0, 0]]}, "seconds": 0.00806756698875688, "name": "identity_L"}
+BEGIN two_state_cycle
+BASE 1 depth 0 bound 5
+BASE 2 depth 1 bound 5
+BASE 3 depth 2 bound 5
+BASE 4 depth 3 bound 5
+BASE 5 depth 4 bound 5
+BASE 6 depth 5 bound 5
+PARITY BEGIN
+PARITY COMPLETE
+READ 0 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+READ 1 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+FRAME 0 4
+FRAME 1 8
+RESULT {"processed_schemes": 6, "last_base_length": 5, "theoretical_base_bound": 5, "requirement_states": {"(-1, -1)": [1, 1], "(-1, 1)": [1, 1], "(1, -1)": [1, 1], "(1, 1)": [1, 2]}, "status": "decided", "possible": true, "complete_generated_cover": true, "candidate_seed": [], "given_seed_validation": {"possible": true, "frame_checks": 8, "nested_root": false, "growing_root": false, "accepted_growing_model": false, "seed": []}, "seconds": 0.022452402001363225, "name": "two_state_cycle"}
+BEGIN branching_R5
+BASE 1 depth 0 bound 83
+BASE 2 depth 1 bound 83
+BASE 3 depth 1 bound 83
+BASE 4 depth 1 bound 83
+BASE 5 depth 1 bound 83
+BASE 6 depth 1 bound 83
+RESULT {"processed_schemes": 6, "last_base_length": 1, "theoretical_base_bound": 83, "requirement_states": {"(-1, -1)": [1, 1], "(-1, 1)": [1, 1], "(1, -1)": [1, 3], "(1, 1)": [2, 3]}, "status": "decided", "possible": false, "early_certificate": {"reason": "conflicting genuine requirements", "signs": [1, 1], "witness": {"x": 0, "y": 0}}, "coverage_exhaustion_needed": false, "seconds": 0.04900037799961865, "name": "branching_R5"}
+BEGIN branching_nine
+BASE 1 depth 0 bound 583
+BASE 2 depth 1 bound 583
+BASE 3 depth 1 bound 583
+BASE 4 depth 1 bound 583
+BASE 5 depth 1 bound 583
+BASE 6 depth 1 bound 583
+BASE 7 depth 1 bound 583
+BASE 8 depth 1 bound 583
+BASE 9 depth 1 bound 583
+BASE 10 depth 1 bound 583
+BASE 11 depth 2 bound 583
+RESULT {"processed_schemes": 21, "last_base_length": 2, "theoretical_base_bound": 583, "requirement_states": {"(-1, -1)": [1, 1], "(-1, 1)": [1, 1], "(1, -1)": [1, 3], "(1, 1)": [9, 7]}, "status": "decided", "possible": false, "early_certificate": {"reason": "infinite genuine required-black set", "signs": [1, 1]}, "coverage_exhaustion_needed": false, "seconds": 0.657131854997715, "name": "branching_nine"}
+BEGIN transient_nine_positive
+BASE 1 depth 0 bound 161
+BASE 2 depth 1 bound 161
+BASE 3 depth 1 bound 161
+BASE 4 depth 1 bound 161
+BASE 5 depth 1 bound 161
+BASE 6 depth 1 bound 161
+BASE 7 depth 1 bound 161
+BASE 8 depth 1 bound 161
+BASE 9 depth 1 bound 161
+BASE 10 depth 1 bound 161
+BASE 11 depth 2 bound 161
+BASE 100 depth 11 bound 161
+BASE 200 depth 23 bound 161
+BASE 300 depth 34 bound 161
+BASE 400 depth 45 bound 161
+BASE 500 depth 56 bound 161
+BASE 600 depth 67 bound 161
+BASE 700 depth 78 bound 161
+BASE 800 depth 89 bound 161
+BASE 900 depth 100 bound 161
+BASE 1000 depth 111 bound 161
+BASE 1100 depth 123 bound 161
+BASE 1200 depth 134 bound 161
+BASE 1300 depth 145 bound 161
+BASE 1400 depth 156 bound 161
+PARITY BEGIN
+PARITY COMPLETE
+READ 0 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+READ 1 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+READ 2 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+READ 3 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+READ 4 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+READ 5 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+READ 6 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+READ 7 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+READ 8 [4, 4, 4, 4] { [r, x, y] : 0 <= x <= 1 and x <= r and y >= -1 and -r - x <= y <= 1 and y <= r }
+FRAME 0 4
+FRAME 1 8
+FRAME 2 12
+FRAME 3 16
+FRAME 4 20
+FRAME 5 24
+FRAME 6 28
+FRAME 7 32
+FRAME 8 68
+RESULT {"processed_schemes": 1450, "last_base_length": 161, "theoretical_base_bound": 161, "requirement_states": {"(-1, -1)": [1, 1], "(-1, 1)": [1, 1], "(1, -1)": [1, 3], "(1, 1)": [3, 2]}, "status": "decided", "possible": true, "complete_generated_cover": true, "candidate_seed": [[0, 1], [1, 0], [1, 1]], "given_seed_validation": {"possible": true, "frame_checks": 68, "nested_root": false, "growing_root": false, "accepted_growing_model": false, "seed": [[0, 1], [1, 0], [1, 1]]}, "seconds": 2.4088546309940284, "name": "transient_nine_positive"}
+DONE 3.2612203610042343

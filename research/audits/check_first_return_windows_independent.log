@@ -1,0 +1,60 @@
+{
+  "status": "PASS independent exact-coordinate first-return controls",
+  "random_compatible_windows": 4000,
+  "correctly_rejected": 3329,
+  "genuine_standard_controls": [
+    {
+      "period": 104,
+      "drift": [
+        2,
+        2
+      ],
+      "windows": 27
+    },
+    {
+      "period": 104,
+      "drift": [
+        2,
+        -2
+      ],
+      "windows": 27
+    },
+    {
+      "period": 208,
+      "drift": [
+        4,
+        4
+      ],
+      "windows": 27
+    },
+    {
+      "period": 208,
+      "drift": [
+        4,
+        -4
+      ],
+      "windows": 27
+    },
+    {
+      "period": 312,
+      "drift": [
+        6,
+        6
+      ],
+      "windows": 27
+    },
+    {
+      "period": 312,
+      "drift": [
+        6,
+        -6
+      ],
+      "windows": 27
+    }
+  ],
+  "scope": "Necessary local chronology implementation only, not a new whole-front exclusion.",
+  "hashes": {
+    "axis4_first_return_window.py": "a497eb626a879463865c06f4d5b9ec632bdf023f1be2d5281d4a816403b8de4c",
+    "general_first_return_window.py": "60bfad5b93ed8f3e2677f0a8c6cacac993e3abcd4b2ca3bec564e549c449e165"
+  }
+}

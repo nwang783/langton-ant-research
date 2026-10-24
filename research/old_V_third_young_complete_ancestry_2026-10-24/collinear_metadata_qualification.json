@@ -1,0 +1,3082 @@
+{
+  "status": "MANDATORY_COLLINEAR_JOIN_METADATA_QUALIFICATION",
+  "frozen_source_SHA256": "d530096754824e1b0c0c87b080779a48b8f8a13d1667d1b9073d842a25932cfa",
+  "exact_semantics": "Original all_proxy_pair_checks.true_adjacent_endpoint recognizes only nonparallel joins. A false value is NOT a statement that the contact is nonadjacent. Consecutive collinear point joins with old interval[1,1] and exact previous-end=next-start are legitimate true adjacent endpoints. The proof never uses this metadata flag to assert prepared-proxy simplicity; ancestry, masks, endpoint words and identities are unchanged.",
+  "all_corrected_legitimate_collinear_joins": [
+    {
+      "control_index0": 0,
+      "tokens": "VDCVUFDDD",
+      "old_piece": 1,
+      "new_piece": 2,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        3,
+        7
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 0,
+      "tokens": "VDCVUFDDD",
+      "old_piece": 6,
+      "new_piece": 7,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -5,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 0,
+      "tokens": "VDCVUFDDD",
+      "old_piece": 7,
+      "new_piece": 8,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 1,
+      "tokens": "DVDCVUFDDD",
+      "old_piece": 2,
+      "new_piece": 3,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        5,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 1,
+      "tokens": "DVDCVUFDDD",
+      "old_piece": 7,
+      "new_piece": 8,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 1,
+      "tokens": "DVDCVUFDDD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 2,
+      "tokens": "VCVVFDDD",
+      "old_piece": 2,
+      "new_piece": 3,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 2,
+      "tokens": "VCVVFDDD",
+      "old_piece": 5,
+      "new_piece": 6,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -5,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 2,
+      "tokens": "VCVVFDDD",
+      "old_piece": 6,
+      "new_piece": 7,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 3,
+      "tokens": "DVCVVFDDD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 3,
+      "tokens": "DVCVVFDDD",
+      "old_piece": 6,
+      "new_piece": 7,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 3,
+      "tokens": "DVCVVFDDD",
+      "old_piece": 7,
+      "new_piece": 8,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 4,
+      "tokens": "VCDDUFDDD",
+      "old_piece": 2,
+      "new_piece": 3,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        1,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 4,
+      "tokens": "VCDDUFDDD",
+      "old_piece": 6,
+      "new_piece": 7,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -5,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 4,
+      "tokens": "VCDDUFDDD",
+      "old_piece": 7,
+      "new_piece": 8,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 5,
+      "tokens": "DVCDDUFDDD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        3,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 5,
+      "tokens": "DVCDDUFDDD",
+      "old_piece": 7,
+      "new_piece": 8,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 5,
+      "tokens": "DVCDDUFDDD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 6,
+      "tokens": "VDCDUUQDDD",
+      "old_piece": 1,
+      "new_piece": 2,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        3,
+        7
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 6,
+      "tokens": "VDCDUUQDDD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -5,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 6,
+      "tokens": "VDCDUUQDDD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -5,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 6,
+      "tokens": "VDCDUUQDDD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 7,
+      "tokens": "DVDCDUUQDDD",
+      "old_piece": 2,
+      "new_piece": 3,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        5,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 7,
+      "tokens": "DVDCDUUQDDD",
+      "old_piece": 5,
+      "new_piece": 6,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        13
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 7,
+      "tokens": "DVDCDUUQDDD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 7,
+      "tokens": "DVDCDUUQDDD",
+      "old_piece": 10,
+      "new_piece": 11,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 8,
+      "tokens": "VCDUVQDDD",
+      "old_piece": 7,
+      "new_piece": 8,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -5,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 8,
+      "tokens": "VCDUVQDDD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 9,
+      "tokens": "DVCDUVQDDD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 9,
+      "tokens": "DVCDUVQDDD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 10,
+      "tokens": "VCDVUQDDD",
+      "old_piece": 7,
+      "new_piece": 8,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -5,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 10,
+      "tokens": "VCDVUQDDD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 11,
+      "tokens": "DVCDVUQDDD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 11,
+      "tokens": "DVCDVUQDDD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 12,
+      "tokens": "VCVDUQDDD",
+      "old_piece": 7,
+      "new_piece": 8,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -5,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 12,
+      "tokens": "VCVDUQDDD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 13,
+      "tokens": "DVCVDUQDDD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 13,
+      "tokens": "DVCVDUQDDD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 14,
+      "tokens": "VCDUUBDDD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 14,
+      "tokens": "VCDUUBDDD",
+      "old_piece": 7,
+      "new_piece": 8,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -5,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 14,
+      "tokens": "VCDUUBDDD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 15,
+      "tokens": "DVCDUUBDDD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -5,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 15,
+      "tokens": "DVCDUUBDDD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 15,
+      "tokens": "DVCDUUBDDD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 16,
+      "tokens": "VDCDUUFDVD",
+      "old_piece": 1,
+      "new_piece": 2,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        3,
+        7
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 16,
+      "tokens": "VDCDUUFDVD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -5,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 17,
+      "tokens": "DVDCDUUFDVD",
+      "old_piece": 2,
+      "new_piece": 3,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        5,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 17,
+      "tokens": "DVDCDUUFDVD",
+      "old_piece": 5,
+      "new_piece": 6,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        13
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 24,
+      "tokens": "VDCVUUQDVD",
+      "old_piece": 1,
+      "new_piece": 2,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        3,
+        7
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 24,
+      "tokens": "VDCVUUQDVD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 25,
+      "tokens": "DVDCVUUQDVD",
+      "old_piece": 2,
+      "new_piece": 3,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        5,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 25,
+      "tokens": "DVDCVUUQDVD",
+      "old_piece": 5,
+      "new_piece": 6,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        13
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 28,
+      "tokens": "VCVVUQDVD",
+      "old_piece": 2,
+      "new_piece": 3,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 29,
+      "tokens": "DVCVVUQDVD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 30,
+      "tokens": "VCDDUUQDVD",
+      "old_piece": 2,
+      "new_piece": 3,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        1,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 30,
+      "tokens": "VCDDUUQDVD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 31,
+      "tokens": "DVCDDUUQDVD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        3,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 31,
+      "tokens": "DVCDDUUQDVD",
+      "old_piece": 5,
+      "new_piece": 6,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        13
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 34,
+      "tokens": "VCVUUBDVD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -11,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 35,
+      "tokens": "DVCVUUBDVD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 36,
+      "tokens": "VCDUUFDUD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 37,
+      "tokens": "DVCDUUFDUD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -5,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 38,
+      "tokens": "VCVUUQDUD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -11,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 39,
+      "tokens": "DVCVUUQDUD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 40,
+      "tokens": "VVQCDD",
+      "old_piece": 0,
+      "new_piece": 1,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        1,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 40,
+      "tokens": "VVQCDD",
+      "old_piece": 5,
+      "new_piece": 6,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 41,
+      "tokens": "DVVQCDD",
+      "old_piece": 1,
+      "new_piece": 2,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        3,
+        7
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 41,
+      "tokens": "DVVQCDD",
+      "old_piece": 6,
+      "new_piece": 7,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 42,
+      "tokens": "VUBCDD",
+      "old_piece": 5,
+      "new_piece": 6,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 43,
+      "tokens": "DVUBCDD",
+      "old_piece": 6,
+      "new_piece": 7,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 44,
+      "tokens": "VDCDUUFVDD",
+      "old_piece": 1,
+      "new_piece": 2,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        3,
+        7
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 44,
+      "tokens": "VDCDUUFVDD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -5,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 44,
+      "tokens": "VDCDUUFVDD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 45,
+      "tokens": "DVDCDUUFVDD",
+      "old_piece": 2,
+      "new_piece": 3,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        5,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 45,
+      "tokens": "DVDCDUUFVDD",
+      "old_piece": 5,
+      "new_piece": 6,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        13
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 45,
+      "tokens": "DVDCDUUFVDD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 46,
+      "tokens": "VCDUVFVDD",
+      "old_piece": 7,
+      "new_piece": 8,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 47,
+      "tokens": "DVCDUVFVDD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 48,
+      "tokens": "VCDVUFVDD",
+      "old_piece": 7,
+      "new_piece": 8,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 49,
+      "tokens": "DVCDVUFVDD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 50,
+      "tokens": "VCVDUFVDD",
+      "old_piece": 7,
+      "new_piece": 8,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 51,
+      "tokens": "DVCVDUFVDD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 52,
+      "tokens": "VDCVUUQVDD",
+      "old_piece": 1,
+      "new_piece": 2,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        3,
+        7
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 52,
+      "tokens": "VDCVUUQVDD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 52,
+      "tokens": "VDCVUUQVDD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 53,
+      "tokens": "DVDCVUUQVDD",
+      "old_piece": 2,
+      "new_piece": 3,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        5,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 53,
+      "tokens": "DVDCVUUQVDD",
+      "old_piece": 5,
+      "new_piece": 6,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        13
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 53,
+      "tokens": "DVDCVUUQVDD",
+      "old_piece": 10,
+      "new_piece": 11,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 54,
+      "tokens": "VCVUVQVDD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 55,
+      "tokens": "DVCVUVQVDD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 56,
+      "tokens": "VCVVUQVDD",
+      "old_piece": 2,
+      "new_piece": 3,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 56,
+      "tokens": "VCVVUQVDD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 57,
+      "tokens": "DVCVVUQVDD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 57,
+      "tokens": "DVCVVUQVDD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 58,
+      "tokens": "VCDDUUQVDD",
+      "old_piece": 2,
+      "new_piece": 3,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        1,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 58,
+      "tokens": "VCDDUUQVDD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 58,
+      "tokens": "VCDDUUQVDD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 59,
+      "tokens": "DVCDDUUQVDD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        3,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 59,
+      "tokens": "DVCDDUUQVDD",
+      "old_piece": 5,
+      "new_piece": 6,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        13
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 59,
+      "tokens": "DVCDDUUQVDD",
+      "old_piece": 10,
+      "new_piece": 11,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 60,
+      "tokens": "VCDUDUQVDD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 61,
+      "tokens": "DVCDUDUQVDD",
+      "old_piece": 10,
+      "new_piece": 11,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 62,
+      "tokens": "VCVUUBVDD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -11,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 62,
+      "tokens": "VCVUUBVDD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 63,
+      "tokens": "DVCVUUBVDD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 63,
+      "tokens": "DVCVUUBVDD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 64,
+      "tokens": "VDCVUUFVVD",
+      "old_piece": 1,
+      "new_piece": 2,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        3,
+        7
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 64,
+      "tokens": "VDCVUUFVVD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 64,
+      "tokens": "VDCVUUFVVD",
+      "old_piece": 7,
+      "new_piece": 8,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 65,
+      "tokens": "DVDCVUUFVVD",
+      "old_piece": 2,
+      "new_piece": 3,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        5,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 65,
+      "tokens": "DVDCVUUFVVD",
+      "old_piece": 5,
+      "new_piece": 6,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        13
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 65,
+      "tokens": "DVDCVUUFVVD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 66,
+      "tokens": "VCVUVFVVD",
+      "old_piece": 6,
+      "new_piece": 7,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 67,
+      "tokens": "DVCVUVFVVD",
+      "old_piece": 7,
+      "new_piece": 8,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 68,
+      "tokens": "VCVVUFVVD",
+      "old_piece": 2,
+      "new_piece": 3,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 68,
+      "tokens": "VCVVUFVVD",
+      "old_piece": 6,
+      "new_piece": 7,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 69,
+      "tokens": "DVCVVUFVVD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 69,
+      "tokens": "DVCVVUFVVD",
+      "old_piece": 7,
+      "new_piece": 8,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 70,
+      "tokens": "VCDDUUFVVD",
+      "old_piece": 2,
+      "new_piece": 3,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        1,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 70,
+      "tokens": "VCDDUUFVVD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 70,
+      "tokens": "VCDDUUFVVD",
+      "old_piece": 7,
+      "new_piece": 8,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 71,
+      "tokens": "DVCDDUUFVVD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        3,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 71,
+      "tokens": "DVCDDUUFVVD",
+      "old_piece": 5,
+      "new_piece": 6,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        13
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 71,
+      "tokens": "DVCDDUUFVVD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 72,
+      "tokens": "VCDUDUFVVD",
+      "old_piece": 7,
+      "new_piece": 8,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 73,
+      "tokens": "DVCDUDUFVVD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 74,
+      "tokens": "VDCDUUUQVVD",
+      "old_piece": 1,
+      "new_piece": 2,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        3,
+        7
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 74,
+      "tokens": "VDCDUUUQVVD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -5,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 74,
+      "tokens": "VDCDUUUQVVD",
+      "old_piece": 5,
+      "new_piece": 6,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -13,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 74,
+      "tokens": "VDCDUUUQVVD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 75,
+      "tokens": "DVDCDUUUQVVD",
+      "old_piece": 2,
+      "new_piece": 3,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        5,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 75,
+      "tokens": "DVDCDUUUQVVD",
+      "old_piece": 5,
+      "new_piece": 6,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        13
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 75,
+      "tokens": "DVDCDUUUQVVD",
+      "old_piece": 6,
+      "new_piece": 7,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -11,
+        13
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 75,
+      "tokens": "DVDCDUUUQVVD",
+      "old_piece": 10,
+      "new_piece": 11,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 76,
+      "tokens": "VCDUUVQVVD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 76,
+      "tokens": "VCDUUVQVVD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 77,
+      "tokens": "DVCDUUVQVVD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -5,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 77,
+      "tokens": "DVCDUUVQVVD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 78,
+      "tokens": "VCDUVUQVVD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 79,
+      "tokens": "DVCDUVUQVVD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 80,
+      "tokens": "VCDVUUQVVD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -13,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 80,
+      "tokens": "VCDVUUQVVD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 81,
+      "tokens": "DVCDVUUQVVD",
+      "old_piece": 5,
+      "new_piece": 6,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -11,
+        13
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 81,
+      "tokens": "DVCDVUUQVVD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 82,
+      "tokens": "VCVDUUQVVD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -13,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 82,
+      "tokens": "VCVDUUQVVD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 83,
+      "tokens": "DVCVDUUQVVD",
+      "old_piece": 5,
+      "new_piece": 6,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -11,
+        13
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 83,
+      "tokens": "DVCVDUUQVVD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 84,
+      "tokens": "VCVUDUQVVD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 85,
+      "tokens": "DVCVUDUQVVD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 86,
+      "tokens": "VCDUUUBVVD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 86,
+      "tokens": "VCDUUUBVVD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -15,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 86,
+      "tokens": "VCDUUUBVVD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 87,
+      "tokens": "DVCDUUUBVVD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -5,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 87,
+      "tokens": "DVCDUUUBVVD",
+      "old_piece": 5,
+      "new_piece": 6,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -13,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 87,
+      "tokens": "DVCDUUUBVVD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 88,
+      "tokens": "VCVUUFVUD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -11,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 89,
+      "tokens": "DVCVUUFVUD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 90,
+      "tokens": "VCDUUUQVUD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 90,
+      "tokens": "VCDUUUQVUD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -15,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 91,
+      "tokens": "DVCDUUUQVUD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -5,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 91,
+      "tokens": "DVCDUUUQVUD",
+      "old_piece": 5,
+      "new_piece": 6,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -13,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 92,
+      "tokens": "VCDUUFUDD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 92,
+      "tokens": "VCDUUFUDD",
+      "old_piece": 7,
+      "new_piece": 8,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 93,
+      "tokens": "DVCDUUFUDD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -5,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 93,
+      "tokens": "DVCDUUFUDD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 94,
+      "tokens": "VCVUUQUDD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -11,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 94,
+      "tokens": "VCVUUQUDD",
+      "old_piece": 6,
+      "new_piece": 7,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -13,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 94,
+      "tokens": "VCVUUQUDD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -3,
+        1
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 95,
+      "tokens": "DVCVUUQUDD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 95,
+      "tokens": "DVCVUUQUDD",
+      "old_piece": 7,
+      "new_piece": 8,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -11,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 95,
+      "tokens": "DVCVUUQUDD",
+      "old_piece": 9,
+      "new_piece": 10,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -1,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 96,
+      "tokens": "VCVUUFUVD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -11,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 97,
+      "tokens": "DVCVUUFUVD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -9,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 98,
+      "tokens": "VCDUUUQUVD",
+      "old_piece": 3,
+      "new_piece": 4,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -7,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 98,
+      "tokens": "VCDUUUQUVD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -15,
+        9
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 98,
+      "tokens": "VCDUUUQUVD",
+      "old_piece": 7,
+      "new_piece": 8,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -17,
+        3
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 99,
+      "tokens": "DVCDUUUQUVD",
+      "old_piece": 4,
+      "new_piece": 5,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -5,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 99,
+      "tokens": "DVCDUUUQUVD",
+      "old_piece": 5,
+      "new_piece": 6,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -13,
+        11
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    },
+    {
+      "control_index0": 99,
+      "tokens": "DVCDUUUQUVD",
+      "old_piece": 8,
+      "new_piece": 9,
+      "contact": {
+        "collinear_old_interval": [
+          "1",
+          "1"
+        ]
+      },
+      "shared_vertex": [
+        -15,
+        5
+      ],
+      "mandatory_true_adjacent_endpoint": true
+    }
+  ],
+  "number_corrected": 180,
+  "actual_total_nonadjacent_contact_histogram": [
+    {
+      "prependedD_index0": 0,
+      "nonadjacent_contact_count_including_third": 1,
+      "number_controls": 50
+    },
+    {
+      "prependedD_index0": 1,
+      "nonadjacent_contact_count_including_third": 2,
+      "number_controls": 50
+    }
+  ],
+  "no_original_file_changed": true,
+  "no_new_simplicity_claim": true
+}

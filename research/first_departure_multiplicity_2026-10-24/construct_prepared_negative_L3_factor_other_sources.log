@@ -1,0 +1,28 @@
+PROGRESS 1 / 31 reads 1 nodes 1
+PROGRESS 3 / 31 reads 10 nodes 2
+PROGRESS 4 / 31 reads 15 nodes 3
+PROGRESS 5 / 31 reads 29 nodes 4
+PROGRESS 7 / 31 reads 33 nodes 5
+PROGRESS 9 / 31 reads 50 nodes 68
+PROGRESS 20 / 31 reads 80 nodes 69
+ATTEMPT {'initial': ((0, 2), 'S'), 'success': False, 'nodes': 267, 'best_known_reads': 20, 'failures': {'no_connector_or_forced_conflict': 708}}
+PROGRESS 1 / 31 reads 1 nodes 1
+PROGRESS 3 / 31 reads 5 nodes 2
+PROGRESS 4 / 31 reads 13 nodes 3
+PROGRESS 6 / 31 reads 22 nodes 4
+PROGRESS 7 / 31 reads 27 nodes 5
+PROGRESS 8 / 31 reads 38 nodes 19
+PROGRESS 9 / 31 reads 51 nodes 20
+PROGRESS 19 / 31 reads 74 nodes 21
+PROGRESS 20 / 31 reads 100 nodes 202
+ATTEMPT {'initial': ((2, 0), 'N'), 'success': False, 'nodes': 563, 'best_known_reads': 20, 'failures': {'no_connector_or_forced_conflict': 1228}}
+PROGRESS 2 / 31 reads 2 nodes 1
+PROGRESS 3 / 31 reads 7 nodes 2
+PROGRESS 4 / 31 reads 16 nodes 3
+PROGRESS 6 / 31 reads 29 nodes 4
+PROGRESS 7 / 31 reads 34 nodes 5
+PROGRESS 9 / 31 reads 39 nodes 6
+PROGRESS 10 / 31 reads 52 nodes 7
+PROGRESS 20 / 31 reads 75 nodes 8
+ATTEMPT {'initial': ((2, 1), 'W'), 'success': False, 'nodes': 1761, 'best_known_reads': 20, 'failures': {'no_connector_or_forced_conflict': 3172}}
+RESULT {'scope': 'Constructive router for ONE fixed nine-cell late-L3 target.\nNot a front/period/radius scan. Fresh connector paths are chosen around the\ncurrent finite obstacle hull; failure is a router restriction, not a theorem.\nAll board colors and known middle ranks are retained. Prepared input explicit.\n', 'success': False, 'all_attempts': [{'initial': ((0, 2), 'S'), 'success': False, 'nodes': 267, 'best_known_reads': 20, 'failures': {'no_connector_or_forced_conflict': 708}}, {'initial': ((2, 0), 'N'), 'success': False, 'nodes': 563, 'best_known_reads': 20, 'failures': {'no_connector_or_forced_conflict': 1228}}, {'initial': ((2, 1), 'W'), 'success': False, 'nodes': 1761, 'best_known_reads': 20, 'failures': {'no_connector_or_forced_conflict': 3172}}], 'planner_nodes': 1761, 'best_known_reads': 20, 'failures': {'no_connector_or_forced_conflict': 3172}, 'seconds': 3.1541173458099365}

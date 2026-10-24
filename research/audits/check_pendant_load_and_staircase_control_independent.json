@@ -1,0 +1,28 @@
+{
+  "status": "PASS general marked-path/pendant lemma, signed collector/pure-spiral applications, and exact q3 staircase countercontrol; mixed-rod application remains conditional on its pending construction",
+  "note_sha256": {
+    "pendant_output_one_renewal_obstruction.md": "656eda7bdc344d48a4ffc1032a52f7b2d9feb226c9b17a9b4b0b924ac3d72f24",
+    "staircase_backbone_countercontrol.md": "0b2c1da7cf22fe6580925936e90cacb2b205da60c8bbe25c3a980e61c0c75392"
+  },
+  "witness_sha256": "4d3a0332c695399263ccaef10c1096c67997819149af8ef4dc51f60a0bb0fd23",
+  "literal_control": {
+    "entry_mass": 35,
+    "first_updates": 67,
+    "first_L": 33,
+    "first_R": 34,
+    "first_output_mass": 36,
+    "first_complete_w_graph": "one simple path, all34 first-R plus2 charged stitches",
+    "second_ordinary_updates": 29,
+    "first_R_lifetimes_consumed": 15,
+    "second_gain": -1,
+    "following_RRL": "w-exceptional"
+  },
+  "analytic": [
+    "One actual complete R^rL block leaves at most three NEW surviving lifetimes. For r<=3 the departure L was an entry black edge; r4 returns to and deletes the first new edge. Retaining lifetimes, the next graph is contained in old G plus at most three new edges. If a physical old site is deleted and rewritten, it is a new lifetime and cannot be counted among surviving marked old edges.",
+    "The following ordinary zipper consumes a single vertex-simple path of its entry graph. Removing its at most three new-lifetime edges yields at most four vertex-simple old-G subpaths, each with marked load at most mu. Therefore at most4mu old marked lifetimes can be consumed. Additional passive components and arbitrary old deletions do not change this argument.",
+    "A tree with disjoint private pendant paths of length at most two has marked path load at most four, since a simple path can use pendants only at its two ends. This applies to the independently signed charged detoured collector and gives16. The independently signed pure spiral has disjoint1/2-edge stars, giving mu2 and bound8.",
+    "The q3 complete35-black control is a genuine positive ordinary gain with both graphs forests at every cut, yet ALL34 newborn edges lie on one complete36-edge simple path with two charged stitches. Thus a static rule placing positive-gain output necessarily off every backbone is false. The actual next ordinary epoch recycles only15 outputs and loses one mass; no positive-positive concatenation or all-q theorem is established."
+  ],
+  "qualification": "The frozen pendant note also mentions a mixed spiral+rod all-parameter application. Its graph-specific premise has not yet been independently audited; that application is signed only conditionally on the stated output graph. The general lemma and collector/pure applications do not depend on it.",
+  "scope": "Phase-local marked-current-lifetime load and one literal finite countercontrol. Not universal no-regeneration, all-q staircase validity, repeatable growth, global cubic sharpness or capture."
+}

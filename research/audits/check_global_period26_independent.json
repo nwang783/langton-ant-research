@@ -1,0 +1,43 @@
+{
+  "status": "PASS full three-family period26 equality replay; analytic reduction independently reviewed",
+  "cases": [
+    {
+      "full_drift": [
+        3,
+        1
+      ],
+      "counts": {
+        "all": 71808,
+        "heading": 35904,
+        "center": 1131
+      },
+      "accepted": []
+    },
+    {
+      "full_drift": [
+        3,
+        -1
+      ],
+      "counts": {
+        "all": 71808,
+        "heading": 35904,
+        "center": 1131
+      },
+      "accepted": []
+    },
+    {
+      "full_drift": [
+        3,
+        3
+      ],
+      "counts": {
+        "all": 20864,
+        "heading": 10432,
+        "center": 329
+      },
+      "accepted": []
+    }
+  ],
+  "candidate_sha256": "67da2e8bc5449f9f98d6f43e3fd686af5ff836928866d569a372a5a46472ed47",
+  "scope": "Complete nonzero WHITE translating fronts have period>=28, using prior unrestricted structural dependencies. No104 minimality, realized P28 front, general front exclusion or capture claim."
+}

@@ -1,0 +1,157 @@
+{
+  "status": "exact source-depth certificate and all-age half-plane transport passed",
+  "phase": 56,
+  "source_age": 100,
+  "depth_domain": "k>=200",
+  "source_all_future_u_bounds": [
+    -52,
+    86
+  ],
+  "extra_older_deposit_u_max": -395,
+  "source_capture_time": [
+    0,
+    104,
+    79958
+  ],
+  "source_capture_pose": [
+    [
+      [
+        0,
+        -2,
+        -371
+      ],
+      [
+        0,
+        -2,
+        -447
+      ]
+    ],
+    0
+  ],
+  "tail": {
+    "drift": [
+      2,
+      2
+    ],
+    "heading": 0,
+    "required_cells": 47,
+    "odd_cells": 40
+  },
+  "tail_phase": 59,
+  "actual_postcore_u_bounds": [
+    [
+      -4,
+      -130
+    ],
+    [
+      -4,
+      8
+    ]
+  ],
+  "actual_scope": "n>=200,m>=100,k>=200 for three-bit q+s+d; n>=m+100 additionally for full rectangular a,c",
+  "contacts": {
+    "core": [
+      0,
+      0,
+      56
+    ],
+    "opposite": [
+      0,
+      104,
+      28541
+    ]
+  },
+  "statistics": {
+    "finite_read_constraints": 5499,
+    "periodic_read_constraints": 89,
+    "affine_guards": 2263,
+    "excluded_isolated_equalities": 9015475
+  },
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        0,
+        7459
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -12
+          ],
+          [
+            0,
+            0,
+            -17
+          ]
+        ],
+        3
+      ],
+      "contacts": {
+        "core": [
+          0,
+          0,
+          56
+        ]
+      }
+    },
+    {
+      "segment": 1,
+      "time": [
+        0,
+        104,
+        28467
+      ],
+      "pose": [
+        [
+          [
+            0,
+            -2,
+            -416
+          ],
+          [
+            0,
+            -2,
+            -421
+          ]
+        ],
+        3
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 2,
+      "time": [
+        0,
+        104,
+        79958
+      ],
+      "pose": [
+        [
+          [
+            0,
+            -2,
+            -371
+          ],
+          [
+            0,
+            -2,
+            -447
+          ]
+        ],
+        0
+      ],
+      "contacts": {
+        "opposite": [
+          0,
+          104,
+          28541
+        ]
+      }
+    }
+  ],
+  "template_sha256": "42c9b292e8296b02496d4ed5a8202960536edc439f2e4f1dff8e84e42fac97e9"
+}

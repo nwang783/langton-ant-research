@@ -1,0 +1,46 @@
+{
+  "scope": "Conditional discovery only; H is not a signed relation",
+  "args": {
+    "profile": "chronology_dcuv/profile_post_dccc.json",
+    "hypotheses": "chronology_dcuv/hypothesis_U_upper3_post_dccc.tsv",
+    "signed": "chronology_dcuv/empty.tsv",
+    "row": [
+      0,
+      7,
+      5,
+      0,
+      3,
+      2,
+      0
+    ],
+    "prefix": "chronology_dcuv/upper3_post_D_tests/case6",
+    "rounds": 8,
+    "cap": 1500000,
+    "mode": "both",
+    "watch": "2,0;3,1",
+    "scope": null,
+    "expand": true
+  },
+  "results": [
+    {
+      "round": 0,
+      "extra_points": [],
+      "watched": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "variables": 32,
+      "result": "status CAP_OR_ERROR reason node cap",
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_post_D_tests/case6_r00_quotient",
+      "seconds": 14.918,
+      "closure_result": "status CAP_OR_ERROR reason node cap",
+      "stop": "no reconstructed witness"
+    }
+  ]
+}

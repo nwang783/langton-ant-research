@@ -1,0 +1,79 @@
+{
+  "records": [
+    {
+      "valid": true,
+      "semilinear_sets": [
+        "{ [x0, x1 = x0, x2 = 0] : x0 >= 0 }"
+      ],
+      "uniform_support_fibers": true,
+      "fiber_bound": 1,
+      "unbounded_witnesses": [],
+      "name": "glider"
+    },
+    {
+      "valid": true,
+      "semilinear_sets": [
+        "{ [x0, x1, x2 = x0 - x1] : 0 <= x1 <= x0 }"
+      ],
+      "uniform_support_fibers": false,
+      "fiber_bound": null,
+      "unbounded_witnesses": [
+        [
+          0,
+          "distinct period velocities"
+        ]
+      ],
+      "name": "expanding_fiber"
+    },
+    {
+      "valid": true,
+      "semilinear_sets": [
+        "{ [x0 = 0, x1, x2 = 0] : x1 >= 0 }"
+      ],
+      "uniform_support_fibers": false,
+      "fiber_bound": null,
+      "unbounded_witnesses": [
+        [
+          0,
+          "nonzero zero-time period"
+        ]
+      ],
+      "name": "zero_time_fiber"
+    },
+    {
+      "valid": true,
+      "semilinear_sets": [
+        "{ [x0, x1 = x0, x2 = 0] : x0 >= 0 }",
+        "{ [x0, x1 = 0, x2 = 1 + x0] : x0 >= 0 }"
+      ],
+      "uniform_support_fibers": true,
+      "fiber_bound": 2,
+      "unbounded_witnesses": [],
+      "name": "signed_two_tracks"
+    },
+    {
+      "valid": false,
+      "reason": "overlapping components",
+      "name": "duplicate_track"
+    },
+    {
+      "valid": false,
+      "reason": "dependent periods",
+      "name": "dependent_periods"
+    },
+    {
+      "valid": false,
+      "reason": "rational functions differ",
+      "name": "wrong_rational_identity"
+    },
+    {
+      "valid": false,
+      "reason": "unlisted zero coefficients",
+      "name": "missing_coverage"
+    }
+  ],
+  "positive_certificates": 4,
+  "negative_controls": 4,
+  "scope": "Exact supplied semisimple rational-certificate checker; no complete enumerator or ant model.",
+  "seconds": 0.03795926499878988
+}

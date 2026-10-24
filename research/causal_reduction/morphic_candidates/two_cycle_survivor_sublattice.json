@@ -1,0 +1,113 @@
+{
+  "claim": "Each survivor needs infinitely many initial black cells by exact coarse-vertex first-visit preservation for its squared substitution.",
+  "certificates": [
+    {
+      "u": "LRLRLRRLRLRLRLRRL",
+      "v": "RLRRLRRLRLRLRLRLR",
+      "scale": [
+        3,
+        6
+      ],
+      "squared_scale": [
+        -27,
+        36
+      ],
+      "squared_norm": 2025,
+      "images": [
+        {
+          "letter": "R",
+          "length": 289,
+          "internal_phases": 288,
+          "sublattice_hits": [],
+          "endpoint": [
+            -27,
+            36,
+            1
+          ]
+        },
+        {
+          "letter": "L",
+          "length": 289,
+          "internal_phases": 288,
+          "sublattice_hits": [],
+          "endpoint": [
+            27,
+            -36,
+            3
+          ]
+        }
+      ],
+      "explicit_first_L": {
+        "R_root": {
+          "time": 1,
+          "cell": [
+            1,
+            0
+          ]
+        },
+        "L_root": {
+          "time": 2,
+          "cell": [
+            -1,
+            1
+          ]
+        }
+      },
+      "infinite_first_L_family": "R root: times289^j, cells A^j; L root: times2*289^j, cells A^j*(-1+i), j>=0"
+    },
+    {
+      "u": "LRLRLRLRLRLRRLRRL",
+      "v": "RLRRLRLRLRLRRLRLR",
+      "scale": [
+        -3,
+        6
+      ],
+      "squared_scale": [
+        -27,
+        -36
+      ],
+      "squared_norm": 2025,
+      "images": [
+        {
+          "letter": "R",
+          "length": 289,
+          "internal_phases": 288,
+          "sublattice_hits": [],
+          "endpoint": [
+            -27,
+            -36,
+            1
+          ]
+        },
+        {
+          "letter": "L",
+          "length": 289,
+          "internal_phases": 288,
+          "sublattice_hits": [],
+          "endpoint": [
+            27,
+            36,
+            3
+          ]
+        }
+      ],
+      "explicit_first_L": {
+        "R_root": {
+          "time": 1,
+          "cell": [
+            1,
+            0
+          ]
+        },
+        "L_root": {
+          "time": 2,
+          "cell": [
+            -1,
+            1
+          ]
+        }
+      },
+      "infinite_first_L_family": "R root: times289^j, cells A^j; L root: times2*289^j, cells A^j*(-1+i), j>=0"
+    }
+  ]
+}

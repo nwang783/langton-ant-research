@@ -1,0 +1,135 @@
+{
+  "status": "PASS original394-cell N1 finite endpoint and complete all-future standard tail",
+  "source_sha256": "9867e130dddb49bc967505878cfab2666b094713cc95a1d34fc6be7b6ae7d190",
+  "initial_mass": 394,
+  "literal_reads": 376717,
+  "first_missing_fuel": {
+    "time": 197941,
+    "offset": 19739,
+    "phase": 2331,
+    "pose": [
+      [
+        139,
+        117
+      ],
+      2
+    ],
+    "wanted": "L",
+    "actual": "R",
+    "previous_read": null
+  },
+  "events": [
+    {
+      "time": 233619,
+      "pose": [
+        [
+          118,
+          146
+        ],
+        0
+      ],
+      "mass": 22387,
+      "next_mismatch": 464,
+      "drift": [
+        -2,
+        2
+      ],
+      "orbits": 22,
+      "critical_tests": 94
+    },
+    {
+      "time": 241239,
+      "pose": [
+        [
+          98,
+          122
+        ],
+        0
+      ],
+      "mass": 22743,
+      "next_mismatch": 568,
+      "drift": [
+        -2,
+        2
+      ],
+      "orbits": 22,
+      "critical_tests": 94
+    },
+    {
+      "time": 355773,
+      "pose": [
+        [
+          -9,
+          19
+        ],
+        0
+      ],
+      "mass": 25731,
+      "next_mismatch": 466,
+      "drift": [
+        -2,
+        2
+      ],
+      "orbits": 22,
+      "critical_tests": 96
+    },
+    {
+      "time": 363884,
+      "pose": [
+        [
+          -5,
+          -66
+        ],
+        3
+      ],
+      "mass": 26166,
+      "next_mismatch": 11056,
+      "drift": [
+        -2,
+        -2
+      ],
+      "orbits": 22,
+      "critical_tests": 92
+    },
+    {
+      "time": 376717,
+      "pose": [
+        [
+          -243,
+          -273
+        ],
+        0
+      ],
+      "mass": 27571,
+      "next_mismatch": null,
+      "drift": [
+        -2,
+        -2
+      ],
+      "orbits": 22,
+      "critical_tests": 71
+    }
+  ],
+  "capture_pose": [
+    [
+      -243,
+      -273
+    ],
+    0
+  ],
+  "capture_mass": 27571,
+  "final_field_sha256": "5a86867e09dcb4b2fd9b306883918565800e5b08990457e14683a363d1867e9e",
+  "total_future_K": 91325,
+  "far_flip_rejections": 22,
+  "next_canonical_phase0": {
+    "time": 376728,
+    "pose": [
+      [
+        -245,
+        -270
+      ],
+      3
+    ]
+  },
+  "scope": "Only N1,R252 original finite board. Four temporary highways retain exact next collisions. No family-wide capture, infinite finite-board4352 or renewal theorem."
+}

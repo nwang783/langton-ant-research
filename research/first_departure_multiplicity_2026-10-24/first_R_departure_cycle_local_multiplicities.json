@@ -1,0 +1,180 @@
+{
+  "scope": "Complete cap-four local first-R-departure corner multiplicities.\nNo front, period, drift or support scan.\n",
+  "RIGHT_rows": [
+    {
+      "headings": "E",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "S",
+      "incoming_first_rank": 0,
+      "incoming_uses": 1,
+      "outgoing_uses": 1
+    },
+    {
+      "headings": "EE",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "S",
+      "incoming_first_rank": 0,
+      "incoming_uses": 2,
+      "outgoing_uses": 1
+    },
+    {
+      "headings": "EW",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "S",
+      "incoming_first_rank": 0,
+      "incoming_uses": 1,
+      "outgoing_uses": 2
+    },
+    {
+      "headings": "EEE",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "S",
+      "incoming_first_rank": 0,
+      "incoming_uses": 3,
+      "outgoing_uses": 2
+    },
+    {
+      "headings": "EEW",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "S",
+      "incoming_first_rank": 0,
+      "incoming_uses": 2,
+      "outgoing_uses": 1
+    },
+    {
+      "headings": "EWE",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "S",
+      "incoming_first_rank": 0,
+      "incoming_uses": 2,
+      "outgoing_uses": 3
+    },
+    {
+      "headings": "EWW",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "S",
+      "incoming_first_rank": 0,
+      "incoming_uses": 1,
+      "outgoing_uses": 2
+    },
+    {
+      "headings": "EEEE",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "S",
+      "incoming_first_rank": 0,
+      "incoming_uses": 4,
+      "outgoing_uses": 2
+    },
+    {
+      "headings": "EEEW",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "S",
+      "incoming_first_rank": 0,
+      "incoming_uses": 3,
+      "outgoing_uses": 3
+    },
+    {
+      "headings": "EEWE",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "S",
+      "incoming_first_rank": 0,
+      "incoming_uses": 3,
+      "outgoing_uses": 1
+    },
+    {
+      "headings": "EEWW",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "S",
+      "incoming_first_rank": 0,
+      "incoming_uses": 2,
+      "outgoing_uses": 2
+    },
+    {
+      "headings": "EWEE",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "S",
+      "incoming_first_rank": 0,
+      "incoming_uses": 3,
+      "outgoing_uses": 3
+    },
+    {
+      "headings": "EWEW",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "S",
+      "incoming_first_rank": 0,
+      "incoming_uses": 2,
+      "outgoing_uses": 4
+    },
+    {
+      "headings": "EWWE",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "S",
+      "incoming_first_rank": 0,
+      "incoming_uses": 2,
+      "outgoing_uses": 2
+    },
+    {
+      "headings": "EWWW",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "S",
+      "incoming_first_rank": 0,
+      "incoming_uses": 1,
+      "outgoing_uses": 3
+    }
+  ],
+  "LEFT_rows": [
+    {
+      "headings": "WEE",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "N",
+      "incoming_first_rank": 1,
+      "incoming_uses": 2,
+      "outgoing_uses": 2
+    },
+    {
+      "headings": "WWE",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "N",
+      "incoming_first_rank": 2,
+      "incoming_uses": 1,
+      "outgoing_uses": 1
+    },
+    {
+      "headings": "WEEE",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "N",
+      "incoming_first_rank": 1,
+      "incoming_uses": 3,
+      "outgoing_uses": 3
+    },
+    {
+      "headings": "WEEW",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "N",
+      "incoming_first_rank": 1,
+      "incoming_uses": 2,
+      "outgoing_uses": 2
+    },
+    {
+      "headings": "WWEE",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "N",
+      "incoming_first_rank": 2,
+      "incoming_uses": 2,
+      "outgoing_uses": 2
+    },
+    {
+      "headings": "WWEW",
+      "incoming_cycle": "E",
+      "outgoing_cycle": "N",
+      "incoming_first_rank": 2,
+      "incoming_uses": 1,
+      "outgoing_uses": 1
+    }
+  ],
+  "counts": {
+    "RIGHT": 15,
+    "LEFT": 6
+  },
+  "warning": "LEFT flatness uses constancy of selected clockwise C height around an actual b-cycle. Locally allowed rows are not complete-front realizations or a refutation of a global one-use theorem."
+}

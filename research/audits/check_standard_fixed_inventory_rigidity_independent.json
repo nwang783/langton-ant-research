@@ -1,0 +1,54 @@
+{
+  "status": "PASS full fixed-standard-inventory WHITE causal-order rigidity by independently verified finite clock certificate",
+  "author_note": "bef4d9c4435b56cd9e0d3262ea3b3dee1033281492823bc7ebe2a935a9c18d46",
+  "tree": "c15a381dc9f4b338377297b194a0add92a91a3f0b4b80c09796dd219b7f3b96d",
+  "source_inventory_classes": 22,
+  "events": 104,
+  "domain_sizes": [
+    1,
+    2,
+    1,
+    1,
+    100,
+    18,
+    6,
+    1,
+    9,
+    2,
+    1,
+    1,
+    2,
+    9,
+    3,
+    12,
+    24,
+    24,
+    3,
+    1,
+    2,
+    1
+  ],
+  "raw_option_product": 870712934400,
+  "verified_tree_nodes": 9,
+  "explicit_positive_cycle_option_deletions": 265,
+  "infeasible_leaves": 4,
+  "unique_complete_leaf_is_standard": true,
+  "all_future_model_threshold_cases": 194,
+  "positive_model": {
+    "phase": 71,
+    "seed_mass": 19,
+    "position": [
+      0,
+      -7
+    ],
+    "heading": 3
+  },
+  "analytic_review": [
+    "WHITE firstness forces alternatingRLRL ranks in each COMPLETE physical-cell history. The preserved incoming-axis follows actual parity invariant; independently redistributing the fixed heading counts acrossR andL ranks exhausts all local orders. No visit cap beyond the supplied standard inventory, no primitive drift substitution, and no first-clock gauge removes a possibility.",
+    "Each directed physical edge has fixed crossing count. Its kth outgoing and kth incoming occurrences match in COMPLETE chronological order, with no cyclic rank offset. For incoming representative predecessor r+a*d, actual source time isX_in+aP and target read/departure timeX_out=X_in+1+aP. Both equality directions and consecutivephysicalreadgap>=4 are necessary; all seam signs were independently reconstructed.",
+    "For ANY complete option vector, local read pairing plus edgeordinal matching is a permutation of104 events. Summed exact clock equalities around a cycle giveell=-P*sum(a), so positiveell<=P impliesell=P and forward full-drift winding+1. Thus any feasible model has ONE physical event orbit. The selected history order inequalities prevent reordered visit ranks; the standard feasible option vector explicitly realizes the ordinary ant.",
+    "The verifier rebuilds every option inequality directly from the retained literal word. A common bound takes intersection of orderedpairs within each remaining cell domain and minimumweight, then strongest acrosscells. Every265 deletion has an explicit positive closedcycle whose edges are available common or tested-option implications. Allbranch options are covered, all9nodes reachable once, fourempty-domain leaves close, and the solecompleteleaf equalsstandard. No solver/timeout/generator UNSAT status is trusted.",
+    "The positive19-cell model is independently materialized at0,-7,W, phase71, with all104 eventpositions/headings/ranks/clocks checked, full3period replay and exact affine allfuture color-threshold test. Its full successor topology also directly confirms the winding sign and clock gauge interpretation.",
+    "Only period104, full drift(-2,2), these22 exact quotient classes and perclass(incomingheading,turn) counts are classified. Whole proper rotations/translations transport the theorem. Differentinventory, reflection, simultaneous changes ofcounts, otherperiod/drift and universalfinite-seed capture remain unclassified; unread debris is not removed."
+  ]
+}

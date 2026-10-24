@@ -1,0 +1,251 @@
+{
+  "status": "PASS genuine U-source F-prefix bud and q-cleanup cuts",
+  "manifest_sha256": "adf3dfa34019a3ff443b22b6ca664fe918f4a8ce755b358fc61e5db16f14c956",
+  "creator_bud_queries": {
+    "count": 138,
+    "reasons": {
+      "count": 69,
+      "sector": 69
+    }
+  },
+  "age4_port_cuts": [
+    [
+      "F",
+      [
+        1,
+        3
+      ],
+      "core",
+      [
+        0,
+        "L"
+      ]
+    ],
+    [
+      "Q",
+      [
+        1,
+        3
+      ],
+      "core",
+      [
+        0,
+        "L"
+      ]
+    ],
+    [
+      "B",
+      [
+        1,
+        3
+      ],
+      "core",
+      [
+        0,
+        "L"
+      ]
+    ],
+    [
+      "F",
+      [
+        2,
+        4
+      ],
+      "core",
+      [
+        2,
+        "L"
+      ]
+    ],
+    [
+      "Q",
+      [
+        2,
+        4
+      ],
+      "core",
+      [
+        2,
+        "L"
+      ]
+    ],
+    [
+      "F",
+      [
+        3,
+        3
+      ],
+      "white",
+      [
+        44,
+        "R"
+      ]
+    ]
+  ],
+  "cleanup_common_queries": {
+    "count": 138,
+    "reasons": {
+      "sector": 80,
+      "count": 58
+    }
+  },
+  "cleanup_age3_endpoints": [
+    [
+      "D",
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        -1
+      ]
+    ],
+    [
+      "V",
+      [
+        0,
+        3
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        2,
+        -1
+      ]
+    ],
+    [
+      "V",
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    [
+      "U",
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        5,
+        -1
+      ]
+    ],
+    [
+      "U",
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        4,
+        -1
+      ]
+    ],
+    [
+      "U",
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    [
+      "U",
+      [
+        0,
+        3
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    [
+      "U",
+      [
+        -1,
+        4
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        2,
+        -1
+      ]
+    ]
+  ],
+  "remaining_after_signed_predecessors": [
+    [
+      "F",
+      [
+        2,
+        4,
+        0
+      ],
+      8
+    ],
+    [
+      "F",
+      [
+        3,
+        3,
+        0
+      ],
+      8
+    ],
+    [
+      "Q",
+      [
+        2,
+        4,
+        0
+      ],
+      8
+    ]
+  ],
+  "analytic": [
+    "The U-base exit bud is freshly installed before any source C tail; full-source entry and atomic U start share clock0. Signed1325 covers ages0..2 and all literal COUNT5 queries cover3/4. No core absorption is omitted from full input alignments.",
+    "At age1 from U-base exit, N and W zero runs never decrease y and the one C adds1. Target y3 is impossible even with arbitrary zero-C lengths and source internal tails.",
+    "At west age5, original q must retire before foreign core entry. Signed1954/2027 restrict actual cleanup to V/VC at(-1,5,S), clock2, excluding UC creators. Its current common output cannot retire before relative age3.",
+    "A relative-age3 consumer before the full foreign entry must have no positive C tail. All eight zero-C E input roles exit at x>=2, and subsequent zero-C E motion cannot decrease x to foreign x1. Thus the common output survives to actual F RAW7, which requires it white.",
+    "Only the signed predecessor lemma removes the six remaining N age8 ports at(1,3,N), leaving the three displayed interfaces. No cycle renewal is inferred from a missing gate inventory."
+  ],
+  "scope": "Common F-prefix first contacts with a genuine U source only. No Q/B-tail closure, full proxy simplicity, arbitrary seven-word coverage or universal capture."
+}

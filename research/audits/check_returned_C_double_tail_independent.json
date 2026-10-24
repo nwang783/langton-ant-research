@@ -1,0 +1,1121 @@
+{
+  "status": "PASS C1 of actual VCC/UCC cannot supply the three returned raw-C residues",
+  "manifest_sha256": "5ca7b68cac3ff890706c6c500287478020e178ce5213f0e74d805e08538e6f03",
+  "families": [
+    {
+      "foreign": "F",
+      "counts": [
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          5,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "words": [
+        {
+          "source": "VCC",
+          "S": "U",
+          "E": "V",
+          "failure": 60,
+          "cell": [
+            0,
+            2
+          ],
+          "prior": 12
+        },
+        {
+          "source": "UCC",
+          "S": "U",
+          "E": "V",
+          "failure": 70,
+          "cell": [
+            -1,
+            3
+          ],
+          "prior": 22
+        },
+        {
+          "source": "VCC",
+          "S": "V",
+          "E": "DV",
+          "failure": 166,
+          "cell": [
+            1,
+            1
+          ],
+          "prior": 6
+        },
+        {
+          "source": "UCC",
+          "S": "V",
+          "E": "DV",
+          "failure": 102,
+          "cell": [
+            -1,
+            1
+          ],
+          "prior": 14
+        },
+        {
+          "source": "VCC",
+          "S": "DU",
+          "E": "U",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DU",
+          "E": "U",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "UD",
+          "E": "U",
+          "failure": 60,
+          "cell": [
+            0,
+            2
+          ],
+          "prior": 12
+        },
+        {
+          "source": "UCC",
+          "S": "UD",
+          "E": "U",
+          "failure": 70,
+          "cell": [
+            -1,
+            3
+          ],
+          "prior": 22
+        },
+        {
+          "source": "VCC",
+          "S": "DV",
+          "E": "DU",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DV",
+          "E": "DU",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "VD",
+          "E": "DU",
+          "failure": 77,
+          "cell": [
+            -1,
+            0
+          ],
+          "prior": 1
+        },
+        {
+          "source": "UCC",
+          "S": "VD",
+          "E": "DU",
+          "failure": 123,
+          "cell": [
+            0,
+            -1
+          ],
+          "prior": 3
+        },
+        {
+          "source": "VCC",
+          "S": "DD",
+          "E": "DDV",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DD",
+          "E": "DDV",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "DDD",
+          "E": "VV",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DDD",
+          "E": "VV",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "DDD",
+          "E": "DDU",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DDD",
+          "E": "DDU",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "DDDD",
+          "E": "VU",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DDDD",
+          "E": "VU",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "DDDD",
+          "E": "UV",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DDDD",
+          "E": "UV",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "DDDDD",
+          "E": "UU",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DDDDD",
+          "E": "UU",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        }
+      ]
+    },
+    {
+      "foreign": "Q",
+      "counts": [
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          3,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          3,
+          0,
+          1
+        ],
+        [
+          2,
+          1,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          3,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          4,
+          0,
+          0,
+          1,
+          0,
+          2
+        ]
+      ],
+      "words": [
+        {
+          "source": "VCC",
+          "S": "U",
+          "E": "DU",
+          "failure": 60,
+          "cell": [
+            0,
+            2
+          ],
+          "prior": 12
+        },
+        {
+          "source": "UCC",
+          "S": "U",
+          "E": "DU",
+          "failure": 70,
+          "cell": [
+            -1,
+            3
+          ],
+          "prior": 22
+        },
+        {
+          "source": "VCC",
+          "S": "V",
+          "E": "VV",
+          "failure": 92,
+          "cell": [
+            0,
+            0
+          ],
+          "prior": 0
+        },
+        {
+          "source": "UCC",
+          "S": "V",
+          "E": "VV",
+          "failure": 103,
+          "cell": [
+            0,
+            1
+          ],
+          "prior": 11
+        },
+        {
+          "source": "VCC",
+          "S": "V",
+          "E": "DDU",
+          "failure": 182,
+          "cell": [
+            3,
+            3
+          ],
+          "prior": 26
+        },
+        {
+          "source": "UCC",
+          "S": "V",
+          "E": "DDU",
+          "failure": 102,
+          "cell": [
+            -1,
+            1
+          ],
+          "prior": 14
+        },
+        {
+          "source": "VCC",
+          "S": "D",
+          "E": "DDDV",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "D",
+          "E": "DDDV",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "DV",
+          "E": "VU",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DV",
+          "E": "VU",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "DV",
+          "E": "UV",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DV",
+          "E": "UV",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "VD",
+          "E": "VU",
+          "failure": 77,
+          "cell": [
+            -1,
+            0
+          ],
+          "prior": 1
+        },
+        {
+          "source": "UCC",
+          "S": "VD",
+          "E": "VU",
+          "failure": 114,
+          "cell": [
+            -1,
+            -1
+          ],
+          "prior": 2
+        },
+        {
+          "source": "VCC",
+          "S": "VD",
+          "E": "UV",
+          "failure": 77,
+          "cell": [
+            -1,
+            0
+          ],
+          "prior": 1
+        },
+        {
+          "source": "UCC",
+          "S": "VD",
+          "E": "UV",
+          "failure": 113,
+          "cell": [
+            -1,
+            0
+          ],
+          "prior": 1
+        },
+        {
+          "source": "VCC",
+          "S": "DD",
+          "E": "DVV",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DD",
+          "E": "DVV",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "DD",
+          "E": "VDV",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DD",
+          "E": "VDV",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "DD",
+          "E": "DDDU",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DD",
+          "E": "DDDU",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "DDV",
+          "E": "UU",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DDV",
+          "E": "UU",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "DVD",
+          "E": "UU",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DVD",
+          "E": "UU",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "VDD",
+          "E": "UU",
+          "failure": 77,
+          "cell": [
+            -1,
+            0
+          ],
+          "prior": 1
+        },
+        {
+          "source": "UCC",
+          "S": "VDD",
+          "E": "UU",
+          "failure": 125,
+          "cell": [
+            -3,
+            0
+          ],
+          "prior": 97
+        },
+        {
+          "source": "VCC",
+          "S": "DDD",
+          "E": "DVU",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DDD",
+          "E": "DVU",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "DDD",
+          "E": "DUV",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DDD",
+          "E": "DUV",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "DDD",
+          "E": "VDU",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DDD",
+          "E": "VDU",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "DDD",
+          "E": "UDV",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DDD",
+          "E": "UDV",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "DDDD",
+          "E": "DUU",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DDDD",
+          "E": "DUU",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "DDDD",
+          "E": "UDU",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DDDD",
+          "E": "UDU",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        }
+      ]
+    },
+    {
+      "foreign": "B",
+      "counts": [
+        [
+          0,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          3,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          3,
+          0,
+          0,
+          1,
+          0,
+          2
+        ]
+      ],
+      "words": [
+        {
+          "source": "VCC",
+          "S": "V",
+          "E": "VU",
+          "failure": 92,
+          "cell": [
+            0,
+            0
+          ],
+          "prior": 0
+        },
+        {
+          "source": "UCC",
+          "S": "V",
+          "E": "VU",
+          "failure": 103,
+          "cell": [
+            0,
+            1
+          ],
+          "prior": 11
+        },
+        {
+          "source": "VCC",
+          "S": "D",
+          "E": "DDDU",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "D",
+          "E": "DDDU",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "DV",
+          "E": "UU",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DV",
+          "E": "UU",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "VD",
+          "E": "UU",
+          "failure": 77,
+          "cell": [
+            -1,
+            0
+          ],
+          "prior": 1
+        },
+        {
+          "source": "UCC",
+          "S": "VD",
+          "E": "UU",
+          "failure": 113,
+          "cell": [
+            -1,
+            0
+          ],
+          "prior": 1
+        },
+        {
+          "source": "VCC",
+          "S": "DD",
+          "E": "DVU",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DD",
+          "E": "DVU",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "DD",
+          "E": "VDU",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DD",
+          "E": "VDU",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "DDD",
+          "E": "DUU",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DDD",
+          "E": "DUU",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        },
+        {
+          "source": "VCC",
+          "S": "DDD",
+          "E": "UDU",
+          "failure": 59,
+          "cell": [
+            0,
+            3
+          ],
+          "prior": 19
+        },
+        {
+          "source": "UCC",
+          "S": "DDD",
+          "E": "UDU",
+          "failure": 69,
+          "cell": [
+            -1,
+            4
+          ],
+          "prior": 29
+        }
+      ]
+    }
+  ],
+  "analytic": [
+    "Mandatory second C in the same VCC/UCC fullpacket leaves pose(-1,1,S); the absent W stage is a literal parser fact ONLY for those two source roles. Exactly one further C must be attached to a real S base, and the E suffix must end in the signed allowed plain V/U predecessor.",
+    "The exact y budget e+3v+4u+k+l=-Y bounds every variable except E U count m, then x fixes m uniquely. All26 count tuples and80 whole literal words are reconstructed independently and fail immutable repeated-cell alternation. No spatial/path/horizon cutoff is used.",
+    "The actual full creating packet is included, the last old C is its genuine S-base tail, the returned C is its own raw15 word, and only the observed terminal M11 is appended."
+  ],
+  "scope": "Two of seven containing old-C roles only. C1 of DC/VC/UC and C2 of VCC/UCC with genuine W excursions are not excluded; no U-entry returned-C closure or capture."
+}

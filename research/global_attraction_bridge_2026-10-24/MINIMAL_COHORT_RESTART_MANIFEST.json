@@ -1,0 +1,18 @@
+{
+  "status": "FROZEN; independent audit requested",
+  "files": {
+    "MINIMAL_RELEVANT_COHORT_RESTART.md": "9fea9480f2093cd99e46532f18e08cacf6b739ccb742877d5f55f74a7fa3b227",
+    "check_minimal_cohort_restart.py": "b876dd0009653d4d6f49c4d25cee01b4796c102ac14e1dc2133c231d6e9c7e09",
+    "MINIMAL_COHORT_RESTART_CHECKED.json": "019ed6ed81344cfbc886be70457718709cd1a73381483dea411dbb1db2720065",
+    "SUCCESSIVE_RECORD_DEFECT_SPLIT_CHECKED.json": "86b5d1835cfaccae67fd52d8b890cad9e434a2bed70d2bddb1894eb9a80fbeff",
+    "OUTWARD_RECORD_GUARDS_CHECKED.json": "8ac275fff134362c3ec4f605f110e410861093e49e3c71790d6aecfaeba6bb12",
+    "DEFECT_SPLIT_TIMING_CLARIFICATION.md": "4a1411fd70a6c709decee0b4a7acc10a62b4e2ee2c8760fc7a9c99437e1a50ee",
+    "TWO_BLACK_CANONICAL_COMPLETION.md": "d943bbcc5100a27ed218340a4a1b79074d3f285115bcd07552d7da54e39b543f"
+  },
+  "independent_dependencies": {
+    "check_fresh_and_outward_record_guards_independent.json": "b286b57ae82dd38f729c59fde0ae07041e909307390ac3d42482c57d2703e8a4",
+    "check_successive_record_defects_independent.json": "6f06152b08c14062e0d1040d4481f2162b7e1e0fa0c84474901696330b8861f4",
+    "two_black_canonical_completion_independent.json": "892862a6fe5569a739671cb0e56c1f2432738ebff48a2bdad29cbc93ca765a62"
+  },
+  "claim": "Literal failure of strict or nonincreasing minimal-relevant-cohort size across greedy third-input pristine-record restarts; no global budget refutation."
+}

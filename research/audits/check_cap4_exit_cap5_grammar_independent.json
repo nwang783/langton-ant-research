@@ -1,0 +1,163 @@
+{
+  "status": "PASS cap4 universal exit within558 updates and exact cap5 first-return grammar",
+  "dependencies": {
+    "CAP_FOUR_EXIT_AND_FIVE_GRAMMAR.md": "46cc4cec6da8d84f367c9b74d8d729be93b627f5d7412b9d0d60666c65fc6632",
+    "kernel_scc_analysis.py": "c4846b01892e9a6449045080202ad97f6772adf138ab2700f382f769b61d7d47",
+    "kernel_M4_scc.json": "10d509ed35defa4ad71a098ea33fd9d34ac7d32d566f923632692b92b7f71df9",
+    "kernel_M5_scc.json": "ecc712cd97ecf0c3d234a9dca6fec800a5bd3a2685c763699f5960d68dce3bb3",
+    "kernel_M5_first_import_cycle.json": "bf551a503ed61c93d70de9c7a18b6190f0b20848bc24a8b05638132de31db91b",
+    "component_kernel_M5.json": "06682206da5d7c924393fdbf48d7dd6b1c7d33cbdce7ecd2ab927fcbae1f1161"
+  },
+  "kernels": {
+    "4": {
+      "states": 550,
+      "transitions": 432,
+      "scc_size": 5,
+      "scc_edges": 5,
+      "first_returns": 1,
+      "words": {
+        "RRRRL": 1
+      },
+      "nonempty_DAG_vertices": 549,
+      "max_first_return_length": 5
+    },
+    "5": {
+      "states": 2774,
+      "transitions": 2292,
+      "scc_size": 153,
+      "scc_edges": 262,
+      "first_returns": 110,
+      "words": {
+        "RRRRL": 10,
+        "RRRRLL": 1,
+        "RRRRLRRL": 37,
+        "RRRRLRL": 62
+      },
+      "nonempty_DAG_vertices": 2773,
+      "max_first_return_length": 8,
+      "path11_resource_identity": {
+        "imports": [
+          [
+            [
+              -1,
+              1
+            ]
+          ]
+        ],
+        "emissions": [
+          [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              -1
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  "empty_start_physical_prefix": [
+    {
+      "tick": 0,
+      "q": [
+        0,
+        0
+      ],
+      "turn": "R",
+      "active_mass_after": 1
+    },
+    {
+      "tick": 1,
+      "q": [
+        1,
+        0
+      ],
+      "turn": "R",
+      "active_mass_after": 2
+    },
+    {
+      "tick": 2,
+      "q": [
+        1,
+        -1
+      ],
+      "turn": "R",
+      "active_mass_after": 3
+    },
+    {
+      "tick": 3,
+      "q": [
+        0,
+        -1
+      ],
+      "turn": "R",
+      "active_mass_after": 4
+    },
+    {
+      "tick": 4,
+      "q": [
+        0,
+        0
+      ],
+      "turn": "L",
+      "active_mass_after": 0
+    },
+    {
+      "tick": 5,
+      "q": [
+        -1,
+        0
+      ],
+      "turn": "R",
+      "active_mass_after": 1
+    },
+    {
+      "tick": 6,
+      "q": [
+        -1,
+        1
+      ],
+      "turn": "R",
+      "active_mass_after": 2
+    },
+    {
+      "tick": 7,
+      "q": [
+        0,
+        1
+      ],
+      "turn": "R",
+      "active_mass_after": 3
+    },
+    {
+      "tick": 8,
+      "q": [
+        0,
+        0
+      ],
+      "turn": "R",
+      "active_mass_after": 7
+    }
+  ],
+  "cap4_cut_bound": 558,
+  "analytic": [
+    "The cap5 extension independently constructs all2224 mass5 rooted connected shapes by incident-edge growth, then every allowed import and unique L split. Complete states2774 and transitions2292 exactly match. The same coverage proof as signed cap3/4 applies, without assuming physical composability across edges.",
+    "Deleting empty active0 gives a DAG at both caps. Thus all recurrent SCCs contain0; independent reachability yields the unique5-state/5-edge cap4 and153-state/262-edge cap5 components. DFS of the full nonempty DAG exhausts all110 cap5 first returns, with the four recorded word multiplicities.",
+    "A cap4 physical state path has at most545 cuts outside the unique SCC. The cyclic interval is contiguous and all its internal edges are the forced no-import RRRRL loop. Within4 updates it reaches empty. Nine subsequent forced updates are impossible because the first emitted star is imported at update8, making mass7. Any extra archive causes an earlier departure from that SCC, not cancellation of this collision. Thus at most13 cuts in the cyclic interval and at most558 cap4 cuts total, so an exit occurs within558 updates from any cap4 start. This uses no finite support or eventual behavior premise.",
+    "Cap5 path11 consumes exactly one singleton and emits singleton plus3-star. A sum of any active-shape potential changes telescopes to zero on this return, and passive nonnegative type weights cannot strictly decrease. This is a local resource obstruction, not a physically composable infinite gadget."
+  ],
+  "scope": "Cap4 exits universally on any background. Cap5 graph and resource identities are necessary local options only; no sustained cap5 trajectory or standard capture theorem."
+}

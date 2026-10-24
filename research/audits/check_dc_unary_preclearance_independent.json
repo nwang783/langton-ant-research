@@ -1,0 +1,47 @@
+{
+  "status": "PASS complete independent conditional unary-D preclearance geometry",
+  "manifest_sha256": "c7e52d5647f65232777419718f4acd7773c81cc14058edd955b3ae106b8f7cd7",
+  "unique_order": [
+    1,
+    3,
+    2
+  ],
+  "poses": [
+    [
+      2,
+      4,
+      2
+    ],
+    [
+      3,
+      3,
+      2
+    ],
+    [
+      4,
+      1,
+      3
+    ]
+  ],
+  "replacement_outputs": [
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      4,
+      3
+    ]
+  ],
+  "required_clock_lower_bounds": [
+    6,
+    10,
+    13,
+    15
+  ],
+  "scope": "All three ORIGINAL DC spare identities retire by D packets before main A is consumed; arbitrary other support/replacements permitted. Lower bounds only, no equality realization, fresh fuel, arbitrary-chain or capture conclusion."
+}

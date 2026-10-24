@@ -1,0 +1,43 @@
+{
+  "name": "g8_one_singleton_case3_lower3_a1_1",
+  "full_drift": [
+    -2,
+    2
+  ],
+  "normal_read_height": 13,
+  "height_forced_exact": true,
+  "multiplicity_cap": 12,
+  "period_upper_bound": 312,
+  "growth": 8,
+  "fixed_complete_histories": {
+    "(0, 12)": [
+      1
+    ],
+    "(1, 11)": [],
+    "(0, 11)": [
+      2,
+      0
+    ],
+    "(1, 10)": [
+      0,
+      0
+    ],
+    "(0, 10)": [
+      1,
+      3,
+      1,
+      1
+    ],
+    "(1, 9)": [
+      1,
+      1,
+      3,
+      3,
+      1
+    ]
+  },
+  "timeout_ms": 30000,
+  "status": "UNSAT_BOUNDED_SOLVER_ONLY",
+  "seconds": 1.2051403522491455,
+  "smt2_sha256": "9616f0d026ec0d939663b790fcd0a9386c78eef6c5d70df27d2f4124c7168552"
+}

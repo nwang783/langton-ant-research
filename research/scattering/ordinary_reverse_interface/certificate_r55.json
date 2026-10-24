@@ -1,0 +1,122 @@
+{
+  "status": "exact all-k complete finite-kernel capture",
+  "phase": 55,
+  "domain": "integer k>=100",
+  "input_old_deposit_count": 42,
+  "second_marker_affine": [
+    [
+      -2,
+      -30
+    ],
+    [
+      -2,
+      -1
+    ]
+  ],
+  "second_first_hit": [
+    104,
+    6707
+  ],
+  "capture_time": [
+    104,
+    57753
+  ],
+  "capture_pose": [
+    [
+      [
+        -2,
+        9
+      ],
+      [
+        -2,
+        -30
+      ]
+    ],
+    1
+  ],
+  "tail": {
+    "distinct_required_cells": 40,
+    "odd_read_cells": 32,
+    "drift": [
+      2,
+      2
+    ],
+    "heading": 1
+  },
+  "tail_phase": 0,
+  "whole_future_forward_guard": true,
+  "prefix_u_lower": -92,
+  "full_future_u_lower": -92,
+  "tail_z_bounds": null,
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        6422
+      ],
+      "pose": [
+        [
+          [
+            0,
+            -21
+          ],
+          [
+            0,
+            11
+          ]
+        ],
+        0
+      ]
+    },
+    {
+      "segment": 1,
+      "time": [
+        104,
+        6630
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            -25
+          ],
+          [
+            -2,
+            7
+          ]
+        ],
+        0
+      ]
+    },
+    {
+      "segment": 2,
+      "time": [
+        104,
+        57753
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            9
+          ],
+          [
+            -2,
+            -30
+          ]
+        ],
+        1
+      ]
+    }
+  ],
+  "source_sha256": "9caee109537263d06036894c52a954b33f88cee68c2d36c3b1d86f01976baca8",
+  "template_sha256": "49f46cafe54ce14c806fe672fda84e5bd5762bc3b29dbba46a70e3e1e67e678f",
+  "statistics": {
+    "finite_read_constraints": 5535,
+    "periodic_read_constraints": 84,
+    "affine_guards": 3047,
+    "excluded_isolated_equalities": 2738243
+  },
+  "scope": "All older canonical deposits are avoided. Arbitrary finite history contained in u<-160 is protected iff whole_future_forward_guard is true; the other cases need a return/endcap condition."
+}

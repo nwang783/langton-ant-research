@@ -1,0 +1,133 @@
+{
+  "scope": "Six supplied H^m-router-H^infinity interfaces, uniformly m>=30.\nExact finite m30 all-future certificates plus explicit old-incoming-ray separation.\n",
+  "source_sha256": "06e518827e8ed3c93258f697e01ad743908abfdba2617187e412ac7996c64c20",
+  "plan_sha256": "e3d6af0700c933ddff96319415e0d59f5b7e0407c883b9f1d990d8d91d87deac",
+  "routers": [
+    {
+      "router": 1,
+      "status": "exact H30-router-H-infinity PASS",
+      "incoming_min_periods": 30,
+      "initial_mass": 37,
+      "extra_mass": 24,
+      "router_and_cap_u_bounds": [
+        -14,
+        0
+      ],
+      "strict_older_incoming_u_bound": 114,
+      "incoming_t_bounds": [
+        -3,
+        7
+      ],
+      "outgoing_t_bounds": [
+        -35,
+        -25
+      ],
+      "all_future_tail": true
+    },
+    {
+      "router": 2,
+      "status": "exact H30-router-H-infinity PASS",
+      "incoming_min_periods": 30,
+      "initial_mass": 37,
+      "extra_mass": 24,
+      "router_and_cap_u_bounds": [
+        0,
+        14
+      ],
+      "strict_older_incoming_u_bound": -114,
+      "incoming_t_bounds": [
+        -7,
+        3
+      ],
+      "outgoing_t_bounds": [
+        37,
+        47
+      ],
+      "all_future_tail": true
+    },
+    {
+      "router": 3,
+      "status": "exact H30-router-H-infinity PASS",
+      "incoming_min_periods": 30,
+      "initial_mass": 33,
+      "extra_mass": 20,
+      "router_and_cap_u_bounds": [
+        -12,
+        2
+      ],
+      "strict_older_incoming_u_bound": 114,
+      "incoming_t_bounds": [
+        -3,
+        7
+      ],
+      "outgoing_t_bounds": [
+        67,
+        77
+      ],
+      "all_future_tail": true
+    },
+    {
+      "router": 4,
+      "status": "exact H30-router-H-infinity PASS",
+      "incoming_min_periods": 30,
+      "initial_mass": 36,
+      "extra_mass": 23,
+      "router_and_cap_u_bounds": [
+        -4,
+        12
+      ],
+      "strict_older_incoming_u_bound": -114,
+      "incoming_t_bounds": [
+        -7,
+        3
+      ],
+      "outgoing_t_bounds": [
+        -65,
+        -55
+      ],
+      "all_future_tail": true
+    },
+    {
+      "router": 5,
+      "status": "exact H30-router-H-infinity PASS",
+      "incoming_min_periods": 30,
+      "initial_mass": 36,
+      "extra_mass": 23,
+      "router_and_cap_u_bounds": [
+        -12,
+        4
+      ],
+      "strict_older_incoming_u_bound": 114,
+      "incoming_t_bounds": [
+        -3,
+        7
+      ],
+      "outgoing_t_bounds": [
+        27,
+        37
+      ],
+      "all_future_tail": true
+    },
+    {
+      "router": 6,
+      "status": "exact H30-router-H-infinity PASS",
+      "incoming_min_periods": 30,
+      "initial_mass": 36,
+      "extra_mass": 23,
+      "router_and_cap_u_bounds": [
+        -4,
+        10
+      ],
+      "strict_older_incoming_u_bound": -114,
+      "incoming_t_bounds": [
+        -7,
+        3
+      ],
+      "outgoing_t_bounds": [
+        -23,
+        -13
+      ],
+      "all_future_tail": true
+    }
+  ]
+}

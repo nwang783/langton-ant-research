@@ -1,0 +1,37 @@
+{
+  "status": "PASS all-N young-token / indispensable old-cycle-support countercontrol",
+  "note_sha256": "195ea0ed9e56fafc9625973aa095cfa66792bb81ea8ac894d0f7dc06601099c7",
+  "source_manifest_sha256": "90fcf1a66046418c38d07f7e935ea80cf873751aefae69a4b07af89ba3bd8399",
+  "literal_stage_count": 16,
+  "query_cells": 42,
+  "exact_read_families": 226,
+  "closed_strict_young_component_edges": 11,
+  "complete_incident_ports": 31,
+  "simple_cycle_edges": 18,
+  "independent_full_seed_control_N": 2,
+  "independent_literal_reads": 139921,
+  "current_time_N_constant": [
+    24024,
+    91873
+  ],
+  "target_birth_N_constant": [
+    24024,
+    91857
+  ],
+  "exact_maximin_cycle_birth_N_constant": [
+    21112,
+    80557
+  ],
+  "deleted_age": 16,
+  "necessary_oldest_cycle_support_age_N_constant": [
+    2912,
+    11316
+  ],
+  "analytic": [
+    "Every stage word is reconstructed geometrically, with exact affine start/end pose and clock continuity. All standard flights have drift +/-2 and integral copy slopes, so no congruence class is silently removed. Each of226 possible read families is solved over its entire exact integer N domain; the chosen winner is eligible for all N>=1 and dominates every family on that family domain. The all-N claim does not come from the finite control.",
+    "The11 strict-young component edges are connected, omit the opposite target endpoint, and have exactly31 incident physical cell ports. Each other port is proven white or old at every N, except the deliberately removed target. Thus the ENTIRE strict-young graph has no bypass, regardless of remote archives. Unread original cells have birth-1 and cannot be strict-young.",
+    "The18-edge simple cycle is wholly black with every current birth>=beta, including an exact-beta edge. Combined with the strict-young no-bypass upper certificate, max over cycles through the target of minimum edge birth equals beta exactly. This accounts for every possible alternative cycle, not merely the displayed witness.",
+    "The consumed R-born lifetime always has age16, while every supporting cycle needs a current lifetime of age>=2912N+11316. Initial complete mass remains184 and the retained family is bi-standard. Hence no finite bound depending only on initial mass and consumed-token age can control required cycle-support age."
+  ],
+  "scope": "A genuine finite all-N family; no infinite anomalous orbit, capture counterexample, monotone support-age law or arbitrary-word classification."
+}

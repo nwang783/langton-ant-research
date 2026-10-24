@@ -1,0 +1,18 @@
+{
+  "status": "FROZEN exact WHITE-start local port ordering; independent audit pending",
+  "NOT_A_FINITE_SEED_CONSTRUCTION": true,
+  "files": {
+    "RADIAL_SQUARE_WHITE_START_ORDERED_PORT_MODEL.md": "f7578d7f4b50d1c5a9dbb93d7eb38f041918835776af038f6dc458bf86c5020b",
+    "check_radial_square_ordered_ports.py": "0f387f6249c96cd0ffb5d2daca63370c83b415becfe8fce427aacf7d3164b985",
+    "RADIAL_SQUARE_ORDERED_PORTS_CHECKED.json": "4467d4db70e8adebf460ddb61730b66c0eace611807ac4c5e2bb92198afed8c1",
+    "RADIAL_SQUARE_ORDERED_PORTS_RUN.log": "bc1afe1b16cd1c4e32c522c2b49709a5cf735bdc9aa87963c4016a8b54a2ec89"
+  },
+  "dependencies": {
+    "SUMMABLE_BALANCED_TURN_FLOW_MANIFEST.json": "28a356641c60aa440e20db3389928b556723eeaf77b5d5c525c6dbe65454d391",
+    "../audits/check_summable_turn_flow_independent.json": "621139d473bed9c39d0353f39285da6d1fb6663d8a4999e9de98ec5f36967a55",
+    "ORDERED_SQUARE_CIRCULATION_MANIFEST.json": "bf5e48255a91a5df4eef7d1a5da406cfb1e2d1b6b1a45fa002f04dd25260062f",
+    "../audits/check_ordered_square_circulation_independent.json": "742be6d302754520a949e70ab58b5740a12ed279aaee4a987c119a612bd3bb11"
+  },
+  "claim": "96 externally selected entries realize the full central radial r=1/2 turn inventory scaled32, with each site actual local word(RL)^36",
+  "scope": "Exact finite local chronology only. Exterior causal routing and full finite seed are not constructed."
+}

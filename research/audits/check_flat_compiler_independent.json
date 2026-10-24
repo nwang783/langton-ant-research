@@ -1,0 +1,34 @@
+{
+  "status": "PASS independent complete walk inventory and direct literal prefix parity on multistate/nested flat SCCs",
+  "controls": [
+    {
+      "name": "two_state_square_cycle",
+      "schemes": 10,
+      "exact_walks_through_depth6": 91,
+      "complete_prefix_parity_controls": 136
+    },
+    {
+      "name": "nested_square_cycles",
+      "schemes": 9,
+      "exact_walks_through_depth6": 231,
+      "complete_prefix_parity_controls": 324
+    },
+    {
+      "name": "two_state_drifting_cycle",
+      "schemes": 34,
+      "exact_walks_through_depth6": 343,
+      "complete_prefix_parity_controls": 520
+    },
+    {
+      "name": "transient_nested_cycles",
+      "schemes": 10,
+      "exact_walks_through_depth6": 147,
+      "complete_prefix_parity_controls": 325
+    }
+  ],
+  "scope": "Checks the new scheme and compiler formulas; uses previously audited automata primitives, and imports the implementation under test only as a black-box producer. No growing model is accepted.",
+  "hashes": {
+    "auditor": "8313faa91157235cb239b23a2afee911341cd3b9a4b2e47ff10ad47b9db7bd00",
+    "subject": "191ee141458172afc800aa626198d0cbf17dc2d8d0876a9963f35f63d3fb0754"
+  }
+}

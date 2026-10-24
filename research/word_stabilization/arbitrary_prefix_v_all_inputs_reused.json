@@ -1,0 +1,193 @@
+{
+  "status": "Exact negative control for arbitrary histories, NOT a five-macro counterexample",
+  "prefix": "RRLLLLRLRLLLLRRRRLRLLLLRLLRLLRRRRLLRLRRRRLLLLRLRLLRLLLLRLRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLRRRRLLRRLLRRRRLLRRLLRLRRRRLLLLRLLRRRRLLRLLLLRRRRLRRLLLLRRLRRLLRRLLLLRRLLRRLLLLRRLLRRLR",
+  "word": "RRLLLLRLRLLLLRRRRLRLLLLRLLRLLRRRRLLRLRRRRLLLLRLRLLRLLLLRLRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLRRRRLLRRLLRRRRLLRRLLRLRRRRLLLLRLLRRRRLLRLLLLRRRRLRRLLLLRRLRRLLRRLLLLRRLLRRLLLLRRLLRRLRLLLLRLRRRRLRRLRRRR",
+  "prefix_length": 182,
+  "initial_black": [
+    [
+      1,
+      -1
+    ],
+    [
+      2,
+      -1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      -1,
+      -2
+    ],
+    [
+      -1,
+      -3
+    ],
+    [
+      0,
+      -3
+    ],
+    [
+      -2,
+      -3
+    ],
+    [
+      -2,
+      -4
+    ],
+    [
+      -1,
+      -4
+    ],
+    [
+      -2,
+      -2
+    ],
+    [
+      -3,
+      -2
+    ],
+    [
+      -4,
+      -3
+    ],
+    [
+      -4,
+      -4
+    ],
+    [
+      -4,
+      -2
+    ],
+    [
+      -5,
+      -3
+    ],
+    [
+      -6,
+      0
+    ],
+    [
+      -7,
+      0
+    ],
+    [
+      -8,
+      -1
+    ],
+    [
+      -8,
+      -2
+    ],
+    [
+      -7,
+      -2
+    ],
+    [
+      -8,
+      0
+    ],
+    [
+      -9,
+      1
+    ],
+    [
+      -10,
+      0
+    ],
+    [
+      -11,
+      -1
+    ],
+    [
+      -10,
+      -1
+    ],
+    [
+      -9,
+      -1
+    ],
+    [
+      -8,
+      1
+    ],
+    [
+      -6,
+      2
+    ],
+    [
+      -5,
+      0
+    ],
+    [
+      -5,
+      1
+    ],
+    [
+      -6,
+      -2
+    ],
+    [
+      -4,
+      0
+    ],
+    [
+      -3,
+      0
+    ],
+    [
+      -2,
+      0
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -2,
+      -1
+    ]
+  ],
+  "black_count": 38,
+  "V_pose": [
+    -1,
+    -1,
+    2
+  ],
+  "old_reads": [
+    {
+      "cell": [
+        0,
+        -1
+      ],
+      "time": 15,
+      "letter": "R"
+    },
+    {
+      "cell": [
+        0,
+        0
+      ],
+      "time": 0,
+      "letter": "R"
+    },
+    {
+      "cell": [
+        -2,
+        -3
+      ],
+      "time": 23,
+      "letter": "R"
+    }
+  ],
+  "independent_literal_replay": "Passed: all 200 turns from the explicitly listed 38 black cells, exact V entry pose, and three old R/new L pairs."
+}

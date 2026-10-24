@@ -1,0 +1,33 @@
+{
+  "name": "DCUV-recurrent-eight",
+  "status": "Signed HB literal geometry and pair kernels; signed DCUV boundary pruning excludes DCC and DCCC from restarted infinite tails.",
+  "keep": [
+    0,
+    1,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "files": {
+    "macro_words": {
+      "path": "/workspace/shared/langton/word_stabilization/seven_sub_dcvu_port_quotient.json",
+      "sha256": "e5e44c59f20c81e45db81a3b8a9ee53279f0ad70534a9191f43441692c0bc9e8"
+    },
+    "geometry": {
+      "path": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/literal_residual_geometry.json",
+      "sha256": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd"
+    },
+    "ordinary": {
+      "path": "/workspace/shared/langton/word_stabilization/seven_sub_dcvu_patch2_kernel.tsv",
+      "sha256": "c17fe5c0480078446c66bfd7f8655cd69158fb3a70203e81032b3ed05e3e42d6"
+    },
+    "protected": {
+      "path": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/protected_patch2.tsv",
+      "sha256": "edd8d83e17ddaa220c17960315c235ca90fa2fde9045007efabf824d580f74fd"
+    }
+  },
+  "scope": "Infinite marked D/C/U/V tail after boundary restart. Literal complete-context DCC has no successor and DCCC has no predecessor. Raw finite terminal D is not an extra recurrent packet. Audit: audits/check_dcuv_boundary_pruning_independent.json."
+}

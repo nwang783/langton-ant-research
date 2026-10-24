@@ -1,0 +1,105 @@
+{
+  "status": "all exact controls passed",
+  "local_dual_coupling_cases": 392,
+  "stationary_K_costs": [
+    1973,
+    1972,
+    75515,
+    7358,
+    7353,
+    8418
+  ],
+  "direct_two_port_controls": [
+    {
+      "M": 1,
+      "initial_mass": 5925,
+      "duration": 221337,
+      "K_internal": 105096,
+      "boundary_events": [
+        [
+          0,
+          [
+            -2,
+            2
+          ],
+          0,
+          "R"
+        ],
+        [
+          221336,
+          [
+            10,
+            -10
+          ],
+          2,
+          "R"
+        ]
+      ],
+      "returned_exterior_black": [
+        [
+          -2,
+          2
+        ],
+        [
+          10,
+          -10
+        ]
+      ],
+      "exit_pose": [
+        [
+          9,
+          -10
+        ],
+        3
+      ]
+    },
+    {
+      "M": 2,
+      "initial_mass": 7266,
+      "duration": 249717,
+      "K_internal": 118365,
+      "boundary_events": [
+        [
+          0,
+          [
+            -2,
+            2
+          ],
+          0,
+          "R"
+        ],
+        [
+          249716,
+          [
+            10,
+            -10
+          ],
+          2,
+          "R"
+        ]
+      ],
+      "returned_exterior_black": [
+        [
+          -2,
+          2
+        ],
+        [
+          10,
+          -10
+        ]
+      ],
+      "exit_pose": [
+        [
+          9,
+          -10
+        ],
+        3
+      ]
+    }
+  ],
+  "scope": "Global dual-cursor gate algebra plus actual fixed-empty-exterior finite excursions; no fixed-mass claim.",
+  "source_sha256": {
+    "prepared4352_capture_manifest.json": "52d80fe06d739254a9d71615de67bfb6639d1f4d1301455b4f332d7110874f9b",
+    "prepared4352_two_phase_manifest.json": "ffd8a1393f96ad81b6d8515912b00304e5c4527b1a7b949644686e5c05d56715"
+  }
+}

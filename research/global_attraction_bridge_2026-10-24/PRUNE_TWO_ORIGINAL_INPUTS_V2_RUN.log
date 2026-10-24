@@ -1,0 +1,6 @@
+empty EXACT whole original pruning <=2 [] [10296]
+one_hit_plus_unread EXACT whole original pruning <=2 [{'time': 0, 'cell': (0, 0)}] [10296, 10296]
+two_black EXACT whole original pruning <=2 [{'time': 0, 'cell': (0, 0)}, {'time': 41, 'cell': (1, 0)}] [10296, 10296, 4472]
+three_black AT LEAST THREE original inputs [{'time': 0, 'cell': (0, 0)}, {'time': 3, 'cell': (0, 1)}, {'time': 113, 'cell': (1, 0)}] [10296, 10296, 19760]
+four_G AT LEAST THREE original inputs [{'time': 3, 'cell': (0, -1)}, {'time': 152, 'cell': (2, 2)}, {'time': 154, 'cell': (1, 3)}] [10296, 10296, 16848]
+defect14 AT LEAST THREE original inputs [{'time': 6, 'cell': (-1, 1)}, {'time': 7, 'cell': (-2, 1)}, {'time': 9, 'cell': (-3, 0)}] [10296, 1040, 4784]

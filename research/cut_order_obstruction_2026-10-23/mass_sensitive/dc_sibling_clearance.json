@@ -1,0 +1,328 @@
+{
+  "status": "PASS exact geometric necessary conditions only",
+  "source_sha256": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+  "labels": {
+    "A": [
+      2,
+      0
+    ],
+    "B": [
+      2,
+      3
+    ],
+    "C": [
+      3,
+      1
+    ],
+    "D": [
+      3,
+      2
+    ]
+  },
+  "records": [
+    {
+      "source_output": "A",
+      "source_cell": [
+        2,
+        0
+      ],
+      "target_heading": 1,
+      "target_head": [
+        1,
+        0
+      ],
+      "core_retire": [],
+      "white_retire": [],
+      "coinputs": [],
+      "outside_context": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "must_retire": []
+    },
+    {
+      "source_output": "A",
+      "source_cell": [
+        2,
+        0
+      ],
+      "target_heading": 3,
+      "target_head": [
+        3,
+        0
+      ],
+      "core_retire": [
+        [
+          3,
+          1
+        ]
+      ],
+      "white_retire": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "coinputs": [],
+      "outside_context": [],
+      "must_retire": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "source_output": "B",
+      "source_cell": [
+        2,
+        3
+      ],
+      "target_heading": 0,
+      "target_head": [
+        2,
+        2
+      ],
+      "core_retire": [
+        [
+          3,
+          2
+        ]
+      ],
+      "white_retire": [],
+      "coinputs": [],
+      "outside_context": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "must_retire": [
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "source_output": "B",
+      "source_cell": [
+        2,
+        3
+      ],
+      "target_heading": 2,
+      "target_head": [
+        2,
+        4
+      ],
+      "core_retire": [],
+      "white_retire": [
+        [
+          2,
+          0
+        ]
+      ],
+      "coinputs": [],
+      "outside_context": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "must_retire": [
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "source_output": "C",
+      "source_cell": [
+        3,
+        1
+      ],
+      "target_heading": 1,
+      "target_head": [
+        2,
+        1
+      ],
+      "core_retire": [
+        [
+          2,
+          0
+        ]
+      ],
+      "white_retire": [],
+      "coinputs": [],
+      "outside_context": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "must_retire": [
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "source_output": "C",
+      "source_cell": [
+        3,
+        1
+      ],
+      "target_heading": 3,
+      "target_head": [
+        4,
+        1
+      ],
+      "core_retire": [],
+      "white_retire": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "coinputs": [],
+      "outside_context": [
+        [
+          2,
+          0
+        ]
+      ],
+      "must_retire": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "source_output": "D",
+      "source_cell": [
+        3,
+        2
+      ],
+      "target_heading": 0,
+      "target_head": [
+        3,
+        1
+      ],
+      "core_retire": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "white_retire": [],
+      "coinputs": [],
+      "outside_context": [
+        [
+          2,
+          3
+        ]
+      ],
+      "must_retire": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "source_output": "D",
+      "source_cell": [
+        3,
+        2
+      ],
+      "target_heading": 2,
+      "target_head": [
+        3,
+        3
+      ],
+      "core_retire": [
+        [
+          2,
+          3
+        ]
+      ],
+      "white_retire": [
+        [
+          2,
+          0
+        ]
+      ],
+      "coinputs": [],
+      "outside_context": [
+        [
+          3,
+          1
+        ]
+      ],
+      "must_retire": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    }
+  ],
+  "scope": "No row is declared physically feasible; required retirement concerns ordered residual identities, not necessarily black erasure."
+}

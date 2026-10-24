@@ -1,0 +1,9 @@
+from pathlib import Path
+import json,hashlib
+SELF=Path(__file__).resolve();ROOT=SELF.parents[1];D=ROOT/'K1_pipeline_detours_2026-10-23';j=json.loads((SELF.parent/'check_K1_locked_RR_stock_independent.json').read_text())
+def rot(w):return ''.join('NESW'[('NESW'.index(c)-1)%4]for c in w)
+profiles={(rot(r[2]),rot(r[3]))for r in j['independent_branched11_profiles']};assert profiles=={('WWEW','NSSS'),('EWWW','SSNS')}
+lr=json.loads((SELF.parent/'check_K1_LRLR_lock_independent.json').read_text())
+p=D/'K1_bit11_max_RIGHT_branches_adjoin_strict_STRAIGHT.md';sha=hashlib.sha256(p.read_bytes()).hexdigest();assert sha=='c3d29c45ab3fc77b7b2c20784225ed0989427b446dffb2628d29157438d35fc9'
+out=dict(status='PASS bit11 branched-RIGHT strict-STRAIGHT adjacency and constant-one incidence bound',note_sha256=sha,independently_rotated_flat_profiles=sorted(profiles),analytic=['Signed LR11 requires strict row4, so neither flat profile can have LEFT predecessor.','If next face G1(1,1) is LEFT, its exitD(1,2) retains bit1. Following F2(0,2) cannot LEFT(noLL), RIGHT(shared q-prime=Y(0,1) requires NNNS but Y is NSSS/SSNS), or STRAIGHT(other-left H(-1,1) is M but inputbit1).','Both neighbors cannot be RIGHT because three RIGHT vertices close an elementary physical C-contact square. At least one neighbor is STRAIGHT and shared bit1 forces it strict.','Only under globally constant-one state, every left max branch is at such a RIGHT. Cyclic adjacency incidences give n_B<=2n_S, including small quotients with lifted incidence multiplicity; two max incidences per branched RIGHT gives <=4n_S incidences, not distinct suppliers.'],scope='Necessary local K1 geometry. No exterior realization, original-root payment, independent supplier count, global K1 exclusion or capture.')
+SELF.with_suffix('.json').write_text(json.dumps(out,indent=2)+'\n');print(out['status'])

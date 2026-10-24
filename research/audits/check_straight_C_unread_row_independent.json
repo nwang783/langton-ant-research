@@ -1,0 +1,100 @@
+{
+  "status": "PASS conditional all-cap straight WHITE C-entry plus truly unread outer-row bridge to a wholly single-used first-R map circle",
+  "proof": "dd75780f0f4901895d43b5dc8a17a9dfe33aff0f52107f55dbdbc5dcf53bbfa1",
+  "certificate": "f7b873c69630f8321456012454b1dfc07d5bf11a00b1aefa48e70e94a976ee19",
+  "script": "ad723e9d0db96c7d6eb392649dd2914ef25ee08aa9a69dd211147bb60e165720",
+  "controls": [
+    {
+      "name": "standard",
+      "power": 1,
+      "full_drift": [
+        -2,
+        2
+      ],
+      "input_count": 0,
+      "unread_row_cycles": 1
+    },
+    {
+      "name": "standard",
+      "power": 2,
+      "full_drift": [
+        -4,
+        4
+      ],
+      "input_count": 0,
+      "unread_row_cycles": 1
+    },
+    {
+      "name": "standard",
+      "power": 3,
+      "full_drift": [
+        -6,
+        6
+      ],
+      "input_count": 0,
+      "unread_row_cycles": 1
+    },
+    {
+      "name": "standard",
+      "power": 5,
+      "full_drift": [
+        -10,
+        10
+      ],
+      "input_count": 0,
+      "unread_row_cycles": 1
+    },
+    {
+      "name": "prepared10",
+      "power": 1,
+      "full_drift": [
+        -1,
+        1
+      ],
+      "input_count": 1,
+      "unread_row_cycles": 1
+    },
+    {
+      "name": "prepared10",
+      "power": 2,
+      "full_drift": [
+        -2,
+        2
+      ],
+      "input_count": 2,
+      "unread_row_cycles": 1
+    },
+    {
+      "name": "prepared10",
+      "power": 3,
+      "full_drift": [
+        -3,
+        3
+      ],
+      "input_count": 3,
+      "unread_row_cycles": 1
+    },
+    {
+      "name": "prepared10",
+      "power": 5,
+      "full_drift": [
+        -5,
+        5
+      ],
+      "input_count": 5,
+      "unread_row_cycles": 1
+    }
+  ],
+  "signed_dependencies": {
+    "check_active_C_entry_exit_independent.json": "317e4dce090daaf449531e38d597781380b7aef45fbadb13345bc8a06245316b",
+    "check_C_cycle_excursion_independent.json": "99d6b773c8a96576fa6d8450c5f96d88d37845eb2df24f400d67302fbbb331b9",
+    "check_C_stream_owned_energy_independent.json": "4cb1654083d1d361549a5dcd87fa2d86af2fdba68e1ded84d5865c9ab28de0c4"
+  },
+  "analytic_review": [
+    "Normalizeui=(-i,i-1),pi=(-i,i),qi=pi+(1,0). The selectedWHITEfirstentry gives firstRN andfirstLN atpi. Atqi incomingW alreadyactivatestheforbiddenouterCrow; E/L wouldenterthatrow. The onlyreadspossibleareE/R, soactualalternationallows exactlyone, suppliedbytheknownfirstRN atpi. This is a derivedWHITE singleton, not a freshrailassumption.",
+    "EveryRN orLS atpi wouldreadqi next. Firstreadpi isRN, so thereis exactlyoneRN andnoLS. TheuniqueE/R atq_(i+1) enterspi fromN withheadingS; thismustR, andeverySarrivalhasthissamephysicalpredecessor. ExactlyoneRS follows. CompleteWHITEalternationthereforeforcesNNS orNNSN, withnoexterior/interiorreadcap imposed.",
+    "ThefirstRmap ispi->qi->p_(i-1), an embedded2m-class FULL-d circleofwinding-1. Eachselectededge is physicallyusedonce. Itsq-to-p arrival isat targetlaterR2, notfirstR0, so thecircleisnot acontiguousactualeventcycle. Nonprimitivefullperiodpowers retainall2mclasses; no primitivecollapse.",
+    "Atpi theR imbalanceiszero, soCcycleheightconstant; qi singletonmakesboundaryC=unvisitedexteriorC+1. Unreadrowis anactualwholehistoryhypothesis, notinferredfromheight, extremality, WHITE alone orfinitefield. Theproofneedsimmediaterowonly; connectedactiveCwalk cannotjumpit.",
+    "Independently rebuiltallfullhistories, firstentrycycles, unread/active rows, selectedportsandvoltages ineightstandard/prepared10 powers. Standardouter14/90 qualifies; inner10/94hasactiveouterrow and7/8readselectedcells. Prepared10qualifieswithitsgenuineBLACKinput stillpresent. No finiteexcursionalphabet, all-frontoneuseexistence, WHITE S1 orstandardcapture follows."
+  ]
+}

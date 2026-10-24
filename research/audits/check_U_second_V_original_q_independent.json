@@ -1,0 +1,554 @@
+{
+  "status": "PASS12-to11 preforeign ancestry reduction and conditional tagged secondV reset",
+  "manifest": "d9ab9c0dd926bf27f9563a849f6d3e21016d45f3f1849c43335108835879cfcc",
+  "source_q_last_R_preservation": [
+    {
+      "source": "U",
+      "q_reads": [
+        [
+          13,
+          "L"
+        ],
+        [
+          21,
+          "R"
+        ]
+      ]
+    },
+    {
+      "source": "UC",
+      "q_reads": [
+        [
+          13,
+          "L"
+        ],
+        [
+          21,
+          "R"
+        ]
+      ]
+    },
+    {
+      "source": "UCC",
+      "q_reads": [
+        [
+          13,
+          "L"
+        ],
+        [
+          21,
+          "R"
+        ]
+      ]
+    }
+  ],
+  "complete_UCC_next_packets": [
+    [
+      "D",
+      false
+    ],
+    [
+      "DC",
+      false
+    ],
+    [
+      "V",
+      true
+    ],
+    [
+      "VC",
+      true
+    ],
+    [
+      "VCC",
+      false
+    ],
+    [
+      "U",
+      false
+    ],
+    [
+      "UC",
+      false
+    ],
+    [
+      "UCC",
+      false
+    ]
+  ],
+  "fresh_cleanup_A_birth_tick0": 11,
+  "only_cleanup_A_consumer_pose": [
+    -1,
+    1,
+    0
+  ],
+  "consumer_chord": [
+    [
+      -3,
+      1
+    ],
+    [
+      -1,
+      7
+    ]
+  ],
+  "all12_rows": [
+    {
+      "foreign": "F",
+      "first": "D",
+      "foreign_pose": [
+        5,
+        7,
+        0
+      ],
+      "true_age": 4,
+      "gA_first_required_R": [
+        63,
+        "R"
+      ],
+      "east_core_cut": false
+    },
+    {
+      "foreign": "Q",
+      "first": "D",
+      "foreign_pose": [
+        5,
+        9,
+        0
+      ],
+      "true_age": 4,
+      "gA_first_required_R": [
+        71,
+        "R"
+      ],
+      "east_core_cut": false
+    },
+    {
+      "foreign": "B",
+      "first": "D",
+      "foreign_pose": [
+        4,
+        10,
+        0
+      ],
+      "true_age": 4,
+      "gA_first_required_R": [
+        81,
+        "R"
+      ],
+      "east_core_cut": false
+    },
+    {
+      "foreign": "F",
+      "first": "C",
+      "foreign_pose": [
+        3,
+        0,
+        1
+      ],
+      "true_age": 3,
+      "gA_first_required_R": [
+        68,
+        "R"
+      ],
+      "east_core_cut": true
+    },
+    {
+      "foreign": "Q",
+      "first": "C",
+      "foreign_pose": [
+        5,
+        0,
+        1
+      ],
+      "true_age": 3,
+      "gA_first_required_R": [
+        76,
+        "R"
+      ],
+      "east_core_cut": false
+    },
+    {
+      "foreign": "B",
+      "first": "C",
+      "foreign_pose": [
+        6,
+        1,
+        1
+      ],
+      "true_age": 3,
+      "gA_first_required_R": [
+        86,
+        "R"
+      ],
+      "east_core_cut": false
+    },
+    {
+      "foreign": "F",
+      "first": "V",
+      "foreign_pose": [
+        5,
+        9,
+        0
+      ],
+      "true_age": 4,
+      "gA_first_required_R": [
+        71,
+        "R"
+      ],
+      "east_core_cut": false
+    },
+    {
+      "foreign": "Q",
+      "first": "V",
+      "foreign_pose": [
+        5,
+        11,
+        0
+      ],
+      "true_age": 4,
+      "gA_first_required_R": [
+        79,
+        "R"
+      ],
+      "east_core_cut": false
+    },
+    {
+      "foreign": "B",
+      "first": "V",
+      "foreign_pose": [
+        4,
+        12,
+        0
+      ],
+      "true_age": 4,
+      "gA_first_required_R": [
+        89,
+        "R"
+      ],
+      "east_core_cut": false
+    },
+    {
+      "foreign": "F",
+      "first": "U",
+      "foreign_pose": [
+        4,
+        10,
+        0
+      ],
+      "true_age": 4,
+      "gA_first_required_R": [
+        81,
+        "R"
+      ],
+      "east_core_cut": false
+    },
+    {
+      "foreign": "Q",
+      "first": "U",
+      "foreign_pose": [
+        4,
+        12,
+        0
+      ],
+      "true_age": 4,
+      "gA_first_required_R": [
+        89,
+        "R"
+      ],
+      "east_core_cut": false
+    },
+    {
+      "foreign": "B",
+      "first": "U",
+      "foreign_pose": [
+        3,
+        13,
+        0
+      ],
+      "true_age": 4,
+      "gA_first_required_R": [
+        99,
+        "R"
+      ],
+      "east_core_cut": false
+    }
+  ],
+  "remaining11": [
+    {
+      "second": "V",
+      "effective_N": 4,
+      "true_preforeign_age": 4,
+      "foreign": "F",
+      "foreign_pose": [
+        5,
+        7,
+        0
+      ],
+      "first": "D",
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "local_literal_context_feasible": true,
+      "local_context_conflict": null,
+      "FOREIGN_original_star_hits": [],
+      "prior_proxy_old_U_contacts": [],
+      "classification": "necessary_only_unresolved"
+    },
+    {
+      "second": "V",
+      "effective_N": 4,
+      "true_preforeign_age": 4,
+      "foreign": "Q",
+      "foreign_pose": [
+        5,
+        9,
+        0
+      ],
+      "first": "D",
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "local_literal_context_feasible": true,
+      "local_context_conflict": null,
+      "FOREIGN_original_star_hits": [],
+      "prior_proxy_old_U_contacts": [],
+      "classification": "necessary_only_unresolved"
+    },
+    {
+      "second": "V",
+      "effective_N": 4,
+      "true_preforeign_age": 4,
+      "foreign": "B",
+      "foreign_pose": [
+        4,
+        10,
+        0
+      ],
+      "first": "D",
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "local_literal_context_feasible": true,
+      "local_context_conflict": null,
+      "FOREIGN_original_star_hits": [],
+      "prior_proxy_old_U_contacts": [],
+      "classification": "necessary_only_unresolved"
+    },
+    {
+      "second": "V",
+      "effective_N": 4,
+      "true_preforeign_age": 3,
+      "foreign": "Q",
+      "foreign_pose": [
+        5,
+        0,
+        1
+      ],
+      "first": "C",
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "local_literal_context_feasible": true,
+      "local_context_conflict": null,
+      "FOREIGN_original_star_hits": [],
+      "prior_proxy_old_U_contacts": [],
+      "classification": "necessary_only_unresolved"
+    },
+    {
+      "second": "V",
+      "effective_N": 4,
+      "true_preforeign_age": 3,
+      "foreign": "B",
+      "foreign_pose": [
+        6,
+        1,
+        1
+      ],
+      "first": "C",
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "local_literal_context_feasible": true,
+      "local_context_conflict": null,
+      "FOREIGN_original_star_hits": [],
+      "prior_proxy_old_U_contacts": [],
+      "classification": "necessary_only_unresolved"
+    },
+    {
+      "second": "V",
+      "effective_N": 4,
+      "true_preforeign_age": 4,
+      "foreign": "F",
+      "foreign_pose": [
+        5,
+        9,
+        0
+      ],
+      "first": "V",
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "local_literal_context_feasible": true,
+      "local_context_conflict": null,
+      "FOREIGN_original_star_hits": [],
+      "prior_proxy_old_U_contacts": [],
+      "classification": "necessary_only_unresolved"
+    },
+    {
+      "second": "V",
+      "effective_N": 4,
+      "true_preforeign_age": 4,
+      "foreign": "Q",
+      "foreign_pose": [
+        5,
+        11,
+        0
+      ],
+      "first": "V",
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "local_literal_context_feasible": true,
+      "local_context_conflict": null,
+      "FOREIGN_original_star_hits": [],
+      "prior_proxy_old_U_contacts": [],
+      "classification": "necessary_only_unresolved"
+    },
+    {
+      "second": "V",
+      "effective_N": 4,
+      "true_preforeign_age": 4,
+      "foreign": "B",
+      "foreign_pose": [
+        4,
+        12,
+        0
+      ],
+      "first": "V",
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "local_literal_context_feasible": true,
+      "local_context_conflict": null,
+      "FOREIGN_original_star_hits": [],
+      "prior_proxy_old_U_contacts": [],
+      "classification": "necessary_only_unresolved"
+    },
+    {
+      "second": "V",
+      "effective_N": 4,
+      "true_preforeign_age": 4,
+      "foreign": "F",
+      "foreign_pose": [
+        4,
+        10,
+        0
+      ],
+      "first": "U",
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "local_literal_context_feasible": true,
+      "local_context_conflict": null,
+      "FOREIGN_original_star_hits": [],
+      "prior_proxy_old_U_contacts": [],
+      "classification": "necessary_only_unresolved"
+    },
+    {
+      "second": "V",
+      "effective_N": 4,
+      "true_preforeign_age": 4,
+      "foreign": "Q",
+      "foreign_pose": [
+        4,
+        12,
+        0
+      ],
+      "first": "U",
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "local_literal_context_feasible": true,
+      "local_context_conflict": null,
+      "FOREIGN_original_star_hits": [],
+      "prior_proxy_old_U_contacts": [],
+      "classification": "necessary_only_unresolved"
+    },
+    {
+      "second": "V",
+      "effective_N": 4,
+      "true_preforeign_age": 4,
+      "foreign": "B",
+      "foreign_pose": [
+        3,
+        13,
+        0
+      ],
+      "first": "U",
+      "second_pose": [
+        0,
+        4,
+        2
+      ],
+      "local_literal_context_feasible": true,
+      "local_context_conflict": null,
+      "FOREIGN_original_star_hits": [],
+      "prior_proxy_old_U_contacts": [],
+      "classification": "necessary_only_unresolved"
+    }
+  ],
+  "second_V_q_history": [
+    [
+      13,
+      "L"
+    ],
+    [
+      17,
+      "R"
+    ],
+    [
+      21,
+      "L"
+    ]
+  ],
+  "second_V_w_history": [
+    [
+      19,
+      "L"
+    ]
+  ],
+  "second_V_RAW_length": 18,
+  "actual_RAW_exit": [
+    -1,
+    1,
+    2
+  ],
+  "analytic_review": [
+    "The east-pair exclusion is strictly before foreign at true clock3, below the signed first genuine breaker clock4. Only F3,0E with firstC has both original east identities in foreignentryK. No east law crosses foreign.",
+    "All12 actual combined before-masks require gA=(-1,4) WHITE at foreignentry. If original recycledq had first retired earlier, signed1954/2027 forces genuine fullV/VC at(-1,5,S), clock2, creating fresh A=gA at its R11 and preserving it through its own tail. Signed2043 is an all-age SAME-original A channel, with held-r justification, not a selected-slot guessed minimum: first A consumer is V/VC relative(0,4,S), exact age2. Its creator-frame V base chord ends at the old creating U exit vertex after two intervening Cs and cleanup, forbidden by old U-entry simplicity. This law is used only inside the complete-eight prefix. Consequently no preforeign retirement/replacement/core absorption of originalq is possible.",
+    "All eight literal UCC full successors were rebuilt; onlyV/VC survive, and UCC actual full exit is precisely the required q-cleanup entry. A foreign at clocks3/4 cannot be immediate at the full UCC clock2 cut. Thus UCC is excluded, U/UC remain necessary. This does not assert any of the11 histories attained.",
+    "For each of11 remaining masks, executed A+firstRAW misses all five original identities and actual secondV entryK misses them. Foreign completecontext misses the star. Therefore the same five are CURRENT at CUT2 by read absence, not by a postforeign age law.",
+    "Originalq is physically L13/read14 then its cell R17/read18 into EXITCORE; replacementL21 belongs nextwordtick3/read4. Originalw is unread through V RAW18, alive but EXITCORE, and its physicalL19 belongs nextwordtick1/read2. Three other SAME-original star identities remain CURRENT at RAWexit. The q replacement is not a residual output and aliveCORE is not CURRENT. No second-contact closure, tail permanence or postforeign q-role rigidity is claimed."
+  ]
+}

@@ -1,0 +1,2084 @@
+{
+  "status": "PASS all-K seven-cell tangential cap family captures, with complete field/lifetime and family-only pristine bounds",
+  "manifest_sha256": "905e295f7041544379ca990a3480256f2cceddf9095a8d997379e24c8dd37ad0",
+  "dependencies": {
+    "TANGENTIAL_CAP_CAPTURE.md": "c29ebf3d6ab2b90c0d85c3dedc0a745147bb0d8bb4085f7d54299dbd21577ede",
+    "TANGENTIAL_CAP_CAPTURE_CERTIFICATE.json": "fe29ca88e58cdc6dc5dbf9832bfc5692c5b9fb7cc7414ea0b4ff678483f18463",
+    "check_tangential_cap_capture.py": "762e18316457e3990d16e3adacddb5b93830144b2f9da7dd52d3525207c46a1c",
+    "TANGENTIAL_CAP_CAPTURE_CHECKED.json": "0b36fb4465acf9218c0a8060d53aea6b68a44f7a8286072e7ff4ed3c511e59ad",
+    "FRESH_RECORD_TRAP_BRIDGE.md": "95f5c2bf9254b1600780b25970eb2ef19cd0c4164cd53f98ad7c0df8ca84da84",
+    "PRISTINE_ONE_INPUT_RECORD_BUDGET.md": "10f8313a9a7fca736c14c6fd94ef06a3f72d2775a59cc9ade8a310dc08f71464",
+    "PRISTINE_ONE_INPUT_BUDGET_CHECKED.json": "f58dc26988703ba20dbd09b735a3d8f9ceef7171e60822ca4699e2759bcaecf9"
+  },
+  "finite_full_controls": [
+    {
+      "K": 0,
+      "certificate_time": 903,
+      "delay": 624,
+      "mass": 128,
+      "tail_drift": [
+        -2,
+        -2
+      ],
+      "tail_tests": 155
+    },
+    {
+      "K": 1,
+      "certificate_time": 1735,
+      "delay": 1352,
+      "mass": 204,
+      "tail_drift": [
+        2,
+        -2
+      ],
+      "tail_tests": 199
+    },
+    {
+      "K": 2,
+      "certificate_time": 1111,
+      "delay": 624,
+      "mass": 150,
+      "tail_drift": [
+        -2,
+        -2
+      ],
+      "tail_tests": 161
+    },
+    {
+      "K": 3,
+      "certificate_time": 1527,
+      "delay": 936,
+      "mass": 170,
+      "tail_drift": [
+        2,
+        2
+      ],
+      "tail_tests": 158
+    },
+    {
+      "K": 4,
+      "certificate_time": 2671,
+      "delay": 1976,
+      "mass": 234,
+      "tail_drift": [
+        2,
+        2
+      ],
+      "tail_tests": 170
+    },
+    {
+      "K": 5,
+      "certificate_time": 2255,
+      "delay": 1456,
+      "mass": 252,
+      "tail_drift": [
+        2,
+        2
+      ],
+      "tail_tests": 162
+    },
+    {
+      "K": 6,
+      "certificate_time": 2359,
+      "delay": 1456,
+      "mass": 262,
+      "tail_drift": [
+        2,
+        2
+      ],
+      "tail_tests": 155
+    },
+    {
+      "K": 7,
+      "certificate_time": 2879,
+      "delay": 1872,
+      "mass": 282,
+      "tail_drift": [
+        2,
+        2
+      ],
+      "tail_tests": 155
+    },
+    {
+      "K": 8,
+      "certificate_time": 3295,
+      "delay": 2184,
+      "mass": 312,
+      "tail_drift": [
+        2,
+        2
+      ],
+      "tail_tests": 194
+    },
+    {
+      "K": 9,
+      "certificate_time": 3399,
+      "delay": 2184,
+      "mass": 332,
+      "tail_drift": [
+        2,
+        2
+      ],
+      "tail_tests": 197
+    },
+    {
+      "K": 10,
+      "certificate_time": 3503,
+      "delay": 2184,
+      "mass": 344,
+      "tail_drift": [
+        2,
+        2
+      ],
+      "tail_tests": 197
+    },
+    {
+      "K": 11,
+      "certificate_time": 3607,
+      "delay": 2184,
+      "mass": 356,
+      "tail_drift": [
+        2,
+        2
+      ],
+      "tail_tests": 197
+    }
+  ],
+  "unread_all_parameter_rays": [
+    {
+      "cohort": "source",
+      "base": [
+        -10,
+        0
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -10,
+        1
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -10,
+        4
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -10,
+        5
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -9,
+        -1
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -9,
+        2
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -9,
+        5
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -9,
+        6
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -8,
+        -2
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -8,
+        -1
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -8,
+        0
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -8,
+        4
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -8,
+        5
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -8,
+        7
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -7,
+        -2
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -7,
+        0
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -7,
+        1
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -7,
+        2
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -7,
+        3
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -7,
+        7
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -6,
+        3
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -6,
+        6
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -5,
+        0
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -5,
+        1
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -5,
+        2
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -5,
+        4
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -5,
+        6
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -5,
+        8
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -4,
+        1
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -4,
+        4
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -4,
+        5
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -4,
+        6
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -4,
+        7
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -4,
+        8
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -4,
+        9
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -3,
+        1
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -3,
+        3
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -3,
+        7
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -3,
+        8
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -3,
+        9
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -2,
+        0
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -2,
+        3
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -1,
+        0
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -1,
+        2
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -1,
+        3
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        -1,
+        5
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        0,
+        1
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        0,
+        2
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        1,
+        2
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "source",
+      "base": [
+        1,
+        3
+      ],
+      "backward_parameter_min": 11
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        -5,
+        -1
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        -5,
+        0
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        -5,
+        1
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        -4,
+        -2
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        -4,
+        -1
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        -4,
+        0
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        -4,
+        1
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        -3,
+        -2
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        -3,
+        -1
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        -3,
+        0
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        -3,
+        2
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        -3,
+        3
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        -2,
+        -1
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        -2,
+        0
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        -2,
+        2
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        -2,
+        3
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        -1,
+        -1
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        -1,
+        0
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        -1,
+        1
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        -1,
+        2
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        0,
+        -2
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        0,
+        2
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        1,
+        -2
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        1,
+        0
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        1,
+        1
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        1,
+        2
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        2,
+        -1
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        2,
+        0
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        2,
+        1
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        2,
+        2
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        3,
+        0
+      ],
+      "backward_parameter_min": 12
+    },
+    {
+      "cohort": "wake",
+      "base": [
+        3,
+        1
+      ],
+      "backward_parameter_min": 12
+    }
+  ],
+  "K11_contact_consumptions": [
+    [
+      0,
+      [
+        0,
+        0
+      ],
+      [
+        "initial",
+        [
+          27,
+          -26
+        ]
+      ]
+    ],
+    [
+      1,
+      [
+        0,
+        1
+      ],
+      [
+        "R",
+        1336
+      ]
+    ],
+    [
+      2,
+      [
+        -1,
+        1
+      ],
+      [
+        "R",
+        1421
+      ]
+    ],
+    [
+      5,
+      [
+        -2,
+        1
+      ],
+      [
+        "R",
+        1420
+      ]
+    ],
+    [
+      8,
+      [
+        -2,
+        2
+      ],
+      [
+        "R",
+        1383
+      ]
+    ],
+    [
+      9,
+      [
+        -2,
+        3
+      ],
+      [
+        "R",
+        1368
+      ]
+    ],
+    [
+      10,
+      [
+        -3,
+        3
+      ],
+      [
+        "R",
+        1369
+      ]
+    ],
+    [
+      15,
+      [
+        -3,
+        0
+      ],
+      [
+        "R",
+        1418
+      ]
+    ],
+    [
+      22,
+      [
+        -1,
+        3
+      ],
+      [
+        "R",
+        1365
+      ]
+    ],
+    [
+      24,
+      [
+        0,
+        4
+      ],
+      [
+        "R",
+        1363
+      ]
+    ],
+    [
+      30,
+      [
+        -1,
+        5
+      ],
+      [
+        "R",
+        1241
+      ]
+    ],
+    [
+      56,
+      [
+        -2,
+        6
+      ],
+      [
+        "R",
+        1259
+      ]
+    ],
+    [
+      57,
+      [
+        -2,
+        5
+      ],
+      [
+        "R",
+        1260
+      ]
+    ],
+    [
+      73,
+      [
+        0,
+        3
+      ],
+      [
+        "R",
+        1364
+      ]
+    ],
+    [
+      74,
+      [
+        1,
+        3
+      ],
+      [
+        "R",
+        1345
+      ]
+    ],
+    [
+      83,
+      [
+        1,
+        2
+      ],
+      [
+        "R",
+        1346
+      ]
+    ],
+    [
+      154,
+      [
+        -3,
+        7
+      ],
+      [
+        "R",
+        1137
+      ]
+    ],
+    [
+      157,
+      [
+        -4,
+        7
+      ],
+      [
+        "R",
+        1156
+      ]
+    ],
+    [
+      158,
+      [
+        -5,
+        7
+      ],
+      [
+        "R",
+        1157
+      ]
+    ],
+    [
+      160,
+      [
+        -6,
+        6
+      ],
+      [
+        "R",
+        1267
+      ]
+    ],
+    [
+      162,
+      [
+        -7,
+        5
+      ],
+      [
+        "R",
+        1273
+      ]
+    ],
+    [
+      163,
+      [
+        -7,
+        4
+      ],
+      [
+        "R",
+        1294
+      ]
+    ],
+    [
+      171,
+      [
+        -7,
+        6
+      ],
+      [
+        "R",
+        1270
+      ]
+    ],
+    [
+      179,
+      [
+        -9,
+        6
+      ],
+      [
+        "R",
+        1190
+      ]
+    ],
+    [
+      180,
+      [
+        -10,
+        6
+      ],
+      [
+        "R",
+        1091
+      ]
+    ],
+    [
+      181,
+      [
+        -10,
+        5
+      ],
+      [
+        "R",
+        1096
+      ]
+    ],
+    [
+      194,
+      [
+        -9,
+        7
+      ],
+      [
+        "R",
+        1169
+      ]
+    ],
+    [
+      195,
+      [
+        -9,
+        8
+      ],
+      [
+        "R",
+        1166
+      ]
+    ],
+    [
+      206,
+      [
+        -11,
+        5
+      ],
+      [
+        "R",
+        1081
+      ]
+    ],
+    [
+      212,
+      [
+        -10,
+        4
+      ],
+      [
+        "R",
+        1095
+      ]
+    ],
+    [
+      238,
+      [
+        -9,
+        3
+      ],
+      [
+        "R",
+        1185
+      ]
+    ],
+    [
+      240,
+      [
+        -8,
+        4
+      ],
+      [
+        "R",
+        1195
+      ]
+    ],
+    [
+      245,
+      [
+        -8,
+        3
+      ],
+      [
+        "R",
+        1200
+      ]
+    ],
+    [
+      256,
+      [
+        -8,
+        2
+      ],
+      [
+        "R",
+        1199
+      ]
+    ],
+    [
+      262,
+      [
+        -7,
+        1
+      ],
+      [
+        "R",
+        1289
+      ]
+    ],
+    [
+      296,
+      [
+        -6,
+        0
+      ],
+      [
+        "R",
+        1303
+      ]
+    ],
+    [
+      297,
+      [
+        -6,
+        1
+      ],
+      [
+        "R",
+        1304
+      ]
+    ],
+    [
+      300,
+      [
+        -6,
+        2
+      ],
+      [
+        "R",
+        1299
+      ]
+    ],
+    [
+      318,
+      [
+        -5,
+        3
+      ],
+      [
+        "R",
+        1377
+      ]
+    ],
+    [
+      319,
+      [
+        -5,
+        4
+      ],
+      [
+        "R",
+        1374
+      ]
+    ],
+    [
+      327,
+      [
+        -5,
+        2
+      ],
+      [
+        "R",
+        1398
+      ]
+    ],
+    [
+      328,
+      [
+        -4,
+        2
+      ],
+      [
+        "R",
+        1399
+      ]
+    ],
+    [
+      336,
+      [
+        -4,
+        0
+      ],
+      [
+        "R",
+        1403
+      ]
+    ],
+    [
+      337,
+      [
+        -4,
+        -1
+      ],
+      [
+        "R",
+        1408
+      ]
+    ],
+    [
+      338,
+      [
+        -3,
+        -1
+      ],
+      [
+        "R",
+        1417
+      ]
+    ],
+    [
+      341,
+      [
+        -4,
+        1
+      ],
+      [
+        "R",
+        1400
+      ]
+    ],
+    [
+      358,
+      [
+        -5,
+        -1
+      ],
+      [
+        "R",
+        1393
+      ]
+    ],
+    [
+      412,
+      [
+        -12,
+        6
+      ],
+      [
+        "R",
+        991
+      ]
+    ],
+    [
+      413,
+      [
+        -12,
+        7
+      ],
+      [
+        "R",
+        992
+      ]
+    ],
+    [
+      414,
+      [
+        -13,
+        7
+      ],
+      [
+        "R",
+        977
+      ]
+    ],
+    [
+      434,
+      [
+        -11,
+        9
+      ],
+      [
+        "R",
+        1065
+      ]
+    ],
+    [
+      435,
+      [
+        -11,
+        8
+      ],
+      [
+        "R",
+        1086
+      ]
+    ],
+    [
+      444,
+      [
+        -10,
+        10
+      ],
+      [
+        "R",
+        1059
+      ]
+    ],
+    [
+      449,
+      [
+        -8,
+        11
+      ],
+      [
+        "R",
+        948
+      ]
+    ],
+    [
+      450,
+      [
+        -9,
+        11
+      ],
+      [
+        "R",
+        949
+      ]
+    ],
+    [
+      454,
+      [
+        -7,
+        9
+      ],
+      [
+        "R",
+        1053
+      ]
+    ],
+    [
+      456,
+      [
+        -6,
+        10
+      ],
+      [
+        "R",
+        1051
+      ]
+    ],
+    [
+      462,
+      [
+        -7,
+        11
+      ],
+      [
+        "R",
+        929
+      ]
+    ],
+    [
+      488,
+      [
+        -8,
+        12
+      ],
+      [
+        "R",
+        947
+      ]
+    ],
+    [
+      504,
+      [
+        -8,
+        8
+      ],
+      [
+        "R",
+        1163
+      ]
+    ],
+    [
+      544,
+      [
+        -4,
+        4
+      ],
+      [
+        "R",
+        1371
+      ]
+    ],
+    [
+      546,
+      [
+        -3,
+        5
+      ],
+      [
+        "R",
+        1261
+      ]
+    ],
+    [
+      580,
+      [
+        -4,
+        8
+      ],
+      [
+        "R",
+        1155
+      ]
+    ],
+    [
+      793,
+      [
+        -6,
+        9
+      ],
+      [
+        "R",
+        1052
+      ]
+    ],
+    [
+      794,
+      [
+        -5,
+        9
+      ],
+      [
+        "R",
+        1033
+      ]
+    ],
+    [
+      826,
+      [
+        -9,
+        13
+      ],
+      [
+        "R",
+        825
+      ]
+    ],
+    [
+      860,
+      [
+        -10,
+        14
+      ],
+      [
+        "R",
+        843
+      ]
+    ],
+    [
+      861,
+      [
+        -10,
+        13
+      ],
+      [
+        "R",
+        844
+      ]
+    ],
+    [
+      886,
+      [
+        -11,
+        15
+      ],
+      [
+        "R",
+        721
+      ]
+    ],
+    [
+      889,
+      [
+        -12,
+        15
+      ],
+      [
+        "R",
+        740
+      ]
+    ],
+    [
+      890,
+      [
+        -13,
+        15
+      ],
+      [
+        "R",
+        741
+      ]
+    ],
+    [
+      892,
+      [
+        -14,
+        14
+      ],
+      [
+        "R",
+        851
+      ]
+    ],
+    [
+      894,
+      [
+        -15,
+        13
+      ],
+      [
+        "R",
+        857
+      ]
+    ],
+    [
+      895,
+      [
+        -15,
+        12
+      ],
+      [
+        "R",
+        878
+      ]
+    ],
+    [
+      903,
+      [
+        -15,
+        14
+      ],
+      [
+        "R",
+        854
+      ]
+    ],
+    [
+      911,
+      [
+        -17,
+        14
+      ],
+      [
+        "R",
+        774
+      ]
+    ],
+    [
+      912,
+      [
+        -18,
+        14
+      ],
+      [
+        "R",
+        675
+      ]
+    ],
+    [
+      913,
+      [
+        -18,
+        13
+      ],
+      [
+        "R",
+        680
+      ]
+    ],
+    [
+      926,
+      [
+        -17,
+        15
+      ],
+      [
+        "R",
+        753
+      ]
+    ],
+    [
+      927,
+      [
+        -17,
+        16
+      ],
+      [
+        "R",
+        750
+      ]
+    ],
+    [
+      938,
+      [
+        -19,
+        13
+      ],
+      [
+        "R",
+        665
+      ]
+    ],
+    [
+      944,
+      [
+        -18,
+        12
+      ],
+      [
+        "R",
+        679
+      ]
+    ],
+    [
+      970,
+      [
+        -17,
+        11
+      ],
+      [
+        "R",
+        769
+      ]
+    ],
+    [
+      972,
+      [
+        -16,
+        12
+      ],
+      [
+        "R",
+        779
+      ]
+    ],
+    [
+      977,
+      [
+        -16,
+        11
+      ],
+      [
+        "R",
+        784
+      ]
+    ],
+    [
+      988,
+      [
+        -16,
+        10
+      ],
+      [
+        "R",
+        783
+      ]
+    ],
+    [
+      994,
+      [
+        -15,
+        9
+      ],
+      [
+        "R",
+        873
+      ]
+    ],
+    [
+      1028,
+      [
+        -14,
+        8
+      ],
+      [
+        "R",
+        887
+      ]
+    ],
+    [
+      1029,
+      [
+        -14,
+        9
+      ],
+      [
+        "R",
+        888
+      ]
+    ],
+    [
+      1032,
+      [
+        -14,
+        10
+      ],
+      [
+        "R",
+        883
+      ]
+    ],
+    [
+      1050,
+      [
+        -13,
+        11
+      ],
+      [
+        "R",
+        961
+      ]
+    ],
+    [
+      1051,
+      [
+        -13,
+        12
+      ],
+      [
+        "R",
+        958
+      ]
+    ],
+    [
+      1059,
+      [
+        -13,
+        10
+      ],
+      [
+        "R",
+        982
+      ]
+    ],
+    [
+      1067,
+      [
+        -11,
+        10
+      ],
+      [
+        "R",
+        1062
+      ]
+    ],
+    [
+      1104,
+      [
+        -12,
+        16
+      ],
+      [
+        "R",
+        739
+      ]
+    ],
+    [
+      1134,
+      [
+        -13,
+        17
+      ],
+      [
+        "R",
+        617
+      ]
+    ],
+    [
+      1145,
+      [
+        -14,
+        17
+      ],
+      [
+        "R",
+        636
+      ]
+    ],
+    [
+      1146,
+      [
+        -15,
+        17
+      ],
+      [
+        "R",
+        637
+      ]
+    ],
+    [
+      1148,
+      [
+        -16,
+        16
+      ],
+      [
+        "R",
+        747
+      ]
+    ],
+    [
+      1170,
+      [
+        -19,
+        17
+      ],
+      [
+        "R",
+        649
+      ]
+    ],
+    [
+      1171,
+      [
+        -19,
+        16
+      ],
+      [
+        "R",
+        670
+      ]
+    ],
+    [
+      1180,
+      [
+        -14,
+        18
+      ],
+      [
+        "R",
+        635
+      ]
+    ],
+    [
+      1190,
+      [
+        -15,
+        19
+      ],
+      [
+        "R",
+        513
+      ]
+    ],
+    [
+      1220,
+      [
+        -12,
+        12
+      ],
+      [
+        "R",
+        955
+      ]
+    ],
+    [
+      1260,
+      [
+        -18,
+        18
+      ],
+      [
+        "R",
+        643
+      ]
+    ],
+    [
+      1388,
+      [
+        -20,
+        14
+      ],
+      [
+        "R",
+        575
+      ]
+    ],
+    [
+      1397,
+      [
+        -20,
+        15
+      ],
+      [
+        "R",
+        576
+      ]
+    ],
+    [
+      1398,
+      [
+        -21,
+        15
+      ],
+      [
+        "R",
+        561
+      ]
+    ],
+    [
+      1828,
+      [
+        -4,
+        -2
+      ],
+      [
+        "R",
+        1407
+      ]
+    ],
+    [
+      1831,
+      [
+        -3,
+        -2
+      ],
+      [
+        "R",
+        1406
+      ]
+    ],
+    [
+      1837,
+      [
+        -2,
+        -1
+      ],
+      [
+        "R",
+        1416
+      ]
+    ],
+    [
+      1871,
+      [
+        -1,
+        2
+      ],
+      [
+        "R",
+        1342
+      ]
+    ],
+    [
+      1872,
+      [
+        0,
+        2
+      ],
+      [
+        "R",
+        1347
+      ]
+    ]
+  ],
+  "record_levels": [
+    0,
+    -1,
+    -2,
+    -3,
+    -4,
+    -5,
+    -6,
+    -7,
+    -8,
+    -9,
+    -10,
+    -11,
+    -12,
+    -13,
+    -14,
+    -15,
+    -16,
+    -17,
+    -18,
+    -19
+  ],
+  "family_only_bad_pristine_timecuts": 3168,
+  "analytic_review": [
+    "The literal six-cell launch234,50-cell whole tail field and exact104 all-future parity are independently replayed. Every launch/cap-ray and tail/cap phase congruence is reconstructed, proving first unread initial cap at279+104K for ALL K>=0, not extrapolating finite tests.",
+    "At each of twelve anchor cuts the COMPLETE actual contact board equals {0} XOR shifted50-entry field XOR32 translated odd masks XOR the45-phase prefix. The formula follows directly by symmetric-difference evolution for every K. For K>=11 the difference from K11 is contained in50 rays with index>=11 and32 rays with index>=12; every one is independently disjoint from all2184 common reads AND all104 infinite final phase rays with exact nonnegative integer parameter signs.",
+    "Full future coupling uses only differences on never-read cells, retaining all old material. All K0..11 final fields/poses and infinite-tail parity checked. For K>=11 full postcontact word2184 and final drift2,2 transfer analytically; no minimal-onset claim.",
+    "The113 consumed contact identities are traced literally,112 genuinely wake-R-born and one original cap. Each consumed wake identity has an all-K last-prior-H R formula whose phase index remains nonnegative for K>=11; no earlier source/prefix birth can supersede it. Remaining cohort77 atK11 never touches the future tail, and parameter differences are unread, giving12K-55 unread forever and finalmass12K+224.",
+    "Tangential H preserves x+y; common final tail increases it. Complete launch/phase/common-prefix support gives minimum-19. Initial blacks all have level>=1 and cap at1 remains current before first lower crossing, so the20 levels0..-19 are genuine strict pristine SW records, not just head records. Every one fails all104 cyclic standard words by explicit finite differences.",
+    "All family histories consist of arbitrary pieces total<=234+2184 plus TWO standard-word pieces, so signed interior-record lemma gives3168 guard-avoiding pristine TIME cuts, or25344 directionmarked. This is only the exact seven-cell family, not arbitrary mass7 boards, a universal budget, noncapture or an attraction proof."
+  ]
+}

@@ -1,0 +1,52 @@
+checked 0 of 166
+checked 50 of 166
+checked 100 of 166
+checked 150 of 166
+{
+  "status": "AUTHOR EXACT ALL-r,k CHANGED-ENDPOINT EXCURSION",
+  "domain": "r>=10 and k>=10",
+  "initial_before_first_frame": "I(r,k) UNION [I(r,k+2)+(0,2)]",
+  "initial_mass": "16r+8k+8",
+  "initial_after_first_frame": "[I(r,k+1)+(0,1)] UNION [I(r,k+2)+(0,2)]",
+  "start_pose": [
+    [
+      0,
+      0
+    ],
+    1
+  ],
+  "continuation_time_coefficients": [
+    40,
+    8,
+    104
+  ],
+  "full_time_coefficients": [
+    56,
+    16,
+    108
+  ],
+  "endpoint": [
+    [
+      0,
+      2
+    ],
+    1
+  ],
+  "continuation_mass_delta_coefficients": [
+    0,
+    0,
+    16
+  ],
+  "returned_mass_coefficients": [
+    16,
+    8,
+    28
+  ],
+  "families": 166,
+  "ordered_pairs": 27390,
+  "nonempty_prior_relations": 212,
+  "failures": [],
+  "seconds": 0.73626716400031,
+  "source_sha256": "49366061a8bf0cc976abf71a59f0502e2f15c1d8811668a2726947eed9e01953",
+  "scope": "One two-layer changed-endpoint excursion, exact all-parameter chronology.\nThe word was selected from the ONE stored r=k=10 orbit, not a seed scan.\nAll initial and returned cells are retained. This is not a renewal claim.\n"
+}

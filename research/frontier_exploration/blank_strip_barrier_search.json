@@ -1,0 +1,762 @@
+[
+  {
+    "W": 1,
+    "H": 2,
+    "parity": 0,
+    "status": "barrier",
+    "states": 2
+  },
+  {
+    "W": 2,
+    "H": 2,
+    "parity": 0,
+    "status": "barrier",
+    "states": 2
+  },
+  {
+    "W": 3,
+    "H": 2,
+    "parity": 0,
+    "status": "barrier",
+    "states": 2
+  },
+  {
+    "W": 4,
+    "H": 2,
+    "parity": 0,
+    "status": "barrier",
+    "states": 2
+  },
+  {
+    "W": 5,
+    "H": 2,
+    "parity": 0,
+    "status": "barrier",
+    "states": 2
+  },
+  {
+    "W": 6,
+    "H": 2,
+    "parity": 0,
+    "status": "barrier",
+    "states": 2
+  },
+  {
+    "W": 1,
+    "H": 3,
+    "parity": 0,
+    "status": "transmits",
+    "states": 2,
+    "path": [
+      {
+        "entry": 1,
+        "exit": 0,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 1,
+        "exit": 2,
+        "word": "LR",
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "W": 2,
+    "H": 3,
+    "parity": 0,
+    "status": "barrier",
+    "states": 3
+  },
+  {
+    "W": 3,
+    "H": 3,
+    "parity": 0,
+    "status": "barrier",
+    "states": 3
+  },
+  {
+    "W": 4,
+    "H": 3,
+    "parity": 0,
+    "status": "barrier",
+    "states": 3
+  },
+  {
+    "W": 5,
+    "H": 3,
+    "parity": 0,
+    "status": "barrier",
+    "states": 3
+  },
+  {
+    "W": 6,
+    "H": 3,
+    "parity": 0,
+    "status": "barrier",
+    "states": 3
+  },
+  {
+    "W": 1,
+    "H": 4,
+    "parity": 0,
+    "status": "transmits",
+    "states": 3,
+    "path": [
+      {
+        "entry": 1,
+        "exit": 0,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 1,
+        "exit": 2,
+        "word": "LR",
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "W": 2,
+    "H": 4,
+    "parity": 0,
+    "status": "transmits",
+    "states": 5,
+    "path": [
+      {
+        "entry": 1,
+        "exit": 0,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 1,
+        "exit": 2,
+        "word": "LRRRRL",
+        "side": "left"
+      },
+      {
+        "entry": 1,
+        "exit": 3,
+        "word": "LRLR",
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "W": 3,
+    "H": 4,
+    "parity": 0,
+    "status": "barrier",
+    "states": 8
+  },
+  {
+    "W": 4,
+    "H": 4,
+    "parity": 0,
+    "status": "barrier",
+    "states": 8
+  },
+  {
+    "W": 5,
+    "H": 4,
+    "parity": 0,
+    "status": "barrier",
+    "states": 8
+  },
+  {
+    "W": 6,
+    "H": 4,
+    "parity": 0,
+    "status": "barrier",
+    "states": 8
+  },
+  {
+    "W": 1,
+    "H": 5,
+    "parity": 0,
+    "status": "transmits",
+    "states": 3,
+    "path": [
+      {
+        "entry": 1,
+        "exit": 0,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 1,
+        "exit": 2,
+        "word": "LR",
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "W": 2,
+    "H": 5,
+    "parity": 0,
+    "status": "transmits",
+    "states": 6,
+    "path": [
+      {
+        "entry": 1,
+        "exit": 0,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 1,
+        "exit": 2,
+        "word": "LRRRRL",
+        "side": "left"
+      },
+      {
+        "entry": 1,
+        "exit": 3,
+        "word": "LRLR",
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "W": 3,
+    "H": 5,
+    "parity": 0,
+    "status": "barrier",
+    "states": 14
+  },
+  {
+    "W": 4,
+    "H": 5,
+    "parity": 0,
+    "status": "barrier",
+    "states": 14
+  },
+  {
+    "W": 5,
+    "H": 5,
+    "parity": 0,
+    "status": "barrier",
+    "states": 14
+  },
+  {
+    "W": 6,
+    "H": 5,
+    "parity": 0,
+    "status": "barrier",
+    "states": 14
+  },
+  {
+    "W": 1,
+    "H": 6,
+    "parity": 0,
+    "status": "transmits",
+    "states": 4,
+    "path": [
+      {
+        "entry": 1,
+        "exit": 0,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 1,
+        "exit": 2,
+        "word": "LR",
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "W": 2,
+    "H": 6,
+    "parity": 0,
+    "status": "transmits",
+    "states": 9,
+    "path": [
+      {
+        "entry": 1,
+        "exit": 0,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 1,
+        "exit": 2,
+        "word": "LRRRRL",
+        "side": "left"
+      },
+      {
+        "entry": 1,
+        "exit": 3,
+        "word": "LRLR",
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "W": 3,
+    "H": 6,
+    "parity": 0,
+    "status": "transmits",
+    "states": 27,
+    "path": [
+      {
+        "entry": 3,
+        "exit": 2,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 5,
+        "exit": 4,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 4,
+        "word": "LL",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 4,
+        "word": "RLRRRRLRRRRLLLLRLR",
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "W": 4,
+    "H": 6,
+    "parity": 0,
+    "status": "transmits",
+    "states": 37,
+    "path": [
+      {
+        "entry": 3,
+        "exit": 2,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 4,
+        "word": "LRRRRL",
+        "side": "left"
+      },
+      {
+        "entry": 5,
+        "exit": 4,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 4,
+        "word": "LL",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 3,
+        "word": "RLRRRRLLLLRLRRRRLRRRRLLLLRLR",
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "W": 5,
+    "H": 6,
+    "parity": 0,
+    "status": "barrier",
+    "states": 77
+  },
+  {
+    "W": 6,
+    "H": 6,
+    "parity": 0,
+    "status": "barrier",
+    "states": 77
+  },
+  {
+    "W": 1,
+    "H": 7,
+    "parity": 0,
+    "status": "transmits",
+    "states": 4,
+    "path": [
+      {
+        "entry": 1,
+        "exit": 0,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 1,
+        "exit": 2,
+        "word": "LR",
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "W": 2,
+    "H": 7,
+    "parity": 0,
+    "status": "transmits",
+    "states": 10,
+    "path": [
+      {
+        "entry": 1,
+        "exit": 0,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 1,
+        "exit": 2,
+        "word": "LRRRRL",
+        "side": "left"
+      },
+      {
+        "entry": 1,
+        "exit": 3,
+        "word": "LRLR",
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "W": 3,
+    "H": 7,
+    "parity": 0,
+    "status": "transmits",
+    "states": 34,
+    "path": [
+      {
+        "entry": 3,
+        "exit": 2,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 4,
+        "word": "LRRRRL",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 6,
+        "word": "LRLRRRRLRRRRLLLLRL",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 2,
+        "word": "RLRRRRLLLLRLRRRRLR",
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "W": 4,
+    "H": 7,
+    "parity": 0,
+    "status": "transmits",
+    "states": 34,
+    "path": [
+      {
+        "entry": 3,
+        "exit": 2,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 4,
+        "word": "LRRRRL",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 6,
+        "word": "LRLRRRRLRRRRLLLLRL",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 3,
+        "word": "RLRRRRLLLLRLRRRRLRRRRLLLLRLR",
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "W": 5,
+    "H": 7,
+    "parity": 0,
+    "status": "transmits",
+    "states": 94,
+    "path": [
+      {
+        "entry": 1,
+        "exit": 0,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 2,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 1,
+        "exit": 2,
+        "word": "LL",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 4,
+        "word": "LRRRRL",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 6,
+        "word": "LRLRRRRLRRRRLLLLRL",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 2,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 4,
+        "word": "LRRLRRRRLLLLRLRRRRLRRRRLLLLRLR",
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "W": 6,
+    "H": 7,
+    "parity": 0,
+    "status": "barrier",
+    "states": 184
+  },
+  {
+    "W": 1,
+    "H": 8,
+    "parity": 0,
+    "status": "transmits",
+    "states": 5,
+    "path": [
+      {
+        "entry": 1,
+        "exit": 0,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 1,
+        "exit": 2,
+        "word": "LR",
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "W": 2,
+    "H": 8,
+    "parity": 0,
+    "status": "transmits",
+    "states": 14,
+    "path": [
+      {
+        "entry": 1,
+        "exit": 0,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 1,
+        "exit": 2,
+        "word": "LRRRRL",
+        "side": "left"
+      },
+      {
+        "entry": 1,
+        "exit": 3,
+        "word": "LRLR",
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "W": 3,
+    "H": 8,
+    "parity": 0,
+    "status": "transmits",
+    "states": 53,
+    "path": [
+      {
+        "entry": 3,
+        "exit": 2,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 4,
+        "word": "LRRRRL",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 6,
+        "word": "LRLRRRRLRRRRLLLLRL",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 2,
+        "word": "RLRRRRLLLLRLRRRRLR",
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "W": 4,
+    "H": 8,
+    "parity": 0,
+    "status": "transmits",
+    "states": 53,
+    "path": [
+      {
+        "entry": 3,
+        "exit": 2,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 4,
+        "word": "LRRRRL",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 6,
+        "word": "LRLRRRRLRRRRLLLLRL",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 3,
+        "word": "RLRRRRLLLLRLRRRRLRRRRLLLLRLR",
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "W": 5,
+    "H": 8,
+    "parity": 0,
+    "status": "transmits",
+    "states": 117,
+    "path": [
+      {
+        "entry": 5,
+        "exit": 4,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 7,
+        "exit": 6,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 5,
+        "exit": 6,
+        "word": "LL",
+        "side": "left"
+      },
+      {
+        "entry": 5,
+        "exit": 6,
+        "word": "RLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLLR",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 4,
+        "word": "LRRLRRRRLLLLRLRRRRLRRRRLLLLRLR",
+        "side": "right"
+      }
+    ]
+  },
+  {
+    "W": 6,
+    "H": 8,
+    "parity": 0,
+    "status": "transmits",
+    "states": 307,
+    "path": [
+      {
+        "entry": 3,
+        "exit": 2,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 5,
+        "exit": 4,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 7,
+        "exit": 6,
+        "word": "RR",
+        "side": "left"
+      },
+      {
+        "entry": 5,
+        "exit": 6,
+        "word": "LL",
+        "side": "left"
+      },
+      {
+        "entry": 5,
+        "exit": 6,
+        "word": "RLRRLLRRRRLLRRLRRRRLLLLRLRRRRLRRRRLLLLRLLR",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 4,
+        "word": "LRRRRL",
+        "side": "left"
+      },
+      {
+        "entry": 3,
+        "exit": 5,
+        "word": "LRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLR",
+        "side": "right"
+      }
+    ]
+  }
+]

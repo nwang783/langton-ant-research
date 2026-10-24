@@ -1,0 +1,47 @@
+{
+  "status": "Exact count controls; bridge-reset argument pending audit",
+  "macro_source": "/workspace/shared/langton/word_stabilization/shifted1_llrlrrrrlll_fold_coalesced_port_quotient.json",
+  "source_sha256": "216ef5edde9404799744b5d9ab3d1fe62f55846cbe97e88f82395b195765ec35",
+  "macro_counts": [
+    {
+      "macro": "D",
+      "length": 10,
+      "mass_change": 0
+    },
+    {
+      "macro": "C",
+      "length": 15,
+      "mass_change": 3
+    },
+    {
+      "macro": "V",
+      "length": 18,
+      "mass_change": 4
+    },
+    {
+      "macro": "U",
+      "length": 28,
+      "mass_change": 4
+    },
+    {
+      "macro": "F",
+      "length": 56,
+      "mass_change": 2
+    },
+    {
+      "macro": "Q",
+      "length": 64,
+      "mass_change": 6
+    },
+    {
+      "macro": "B",
+      "length": 74,
+      "mass_change": 6
+    }
+  ],
+  "G": "193+267k",
+  "B": "57+38(m+G)+3G+60k",
+  "R": "ceil(2B/5)+G+1",
+  "t": "floor((2R+1)^2/2)",
+  "duration": "G+20R(t+1)+74t"
+}

@@ -1,0 +1,68 @@
+geometry/base cases pass 42211 40510 47
+clauses 0 seconds 0.48
+clauses 5000 seconds 1.24
+clauses 10000 seconds 1.94
+clauses 15000 seconds 2.63
+clauses 20000 seconds 3.44
+clauses 25000 seconds 4.31
+clauses 30000 seconds 5.21
+clauses 35000 seconds 6.01
+clauses 40000 seconds 6.91
+{
+  "status": "Independent complete packet-pair certificate passed",
+  "packet_words": {
+    "a": "U",
+    "b": "UC",
+    "c": "UCC",
+    "d": "V",
+    "e": "VC",
+    "f": "VCC",
+    "g": "Q",
+    "h": "QC",
+    "i": "QCC",
+    "j": "B",
+    "k": "BC",
+    "l": "BCC"
+  },
+  "candidate_pairs": 42211,
+  "short_feasible_pairs": 55,
+  "forbidden_pairs": 40510,
+  "proof_kinds": {
+    "neighbors": 30792,
+    "equal-read": 9716,
+    "extended-equal-read": 2
+  },
+  "neighbor_options_checked": 303989,
+  "intermediate_reader_options_checked": 8085376,
+  "completed_C_marker_pair_types": 6656,
+  "certificate_sha256": "d2320c627f6a55ba063bda51aa12ec6e64e61a9ed4d3cc627b509716a8630965",
+  "complete_certificate_sha256": "8afa862882ab126901d2cefda894258d33e4c756feb707f8b444547f3ceddf49",
+  "extension_clauses": [
+    [
+      "a",
+      "e",
+      -1,
+      5,
+      2,
+      [
+        "extended-equal-read",
+        0,
+        1
+      ]
+    ],
+    [
+      "d",
+      "e",
+      0,
+      4,
+      2,
+      [
+        "extended-equal-read",
+        0,
+        0
+      ]
+    ]
+  ],
+  "seconds": 6.9403955936431885,
+  "scope": "Packet factors beginning non-C with required V continuation after every nonempty C suffix; each completed C-run first input is fresh relative to that cut. No global ant-to-five-language premise."
+}

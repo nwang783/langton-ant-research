@@ -1,0 +1,247 @@
+{
+  "scope": "Author controls for supplied finite palettes; no general ant reduction.",
+  "physical_transition_equalities": 25744,
+  "cycle_oracle_comparisons": 1744,
+  "infinite_witness_replays": 64,
+  "cases": [
+    {
+      "name": "specified_cap",
+      "cap": [],
+      "result": {
+        "state_count": 2,
+        "states_explored": 2,
+        "front_bits": 0,
+        "input_period": 2,
+        "mode": "specified_finite_extra_cap",
+        "prefix_blocks": 0,
+        "status": "INFINITE_SCHEDULE",
+        "cycle": [
+          {
+            "source": [
+              0,
+              0
+            ],
+            "label": 0,
+            "target": [
+              1,
+              0
+            ]
+          },
+          {
+            "source": [
+              1,
+              0
+            ],
+            "label": 0,
+            "target": [
+              0,
+              0
+            ]
+          }
+        ],
+        "cycle_word": "RLRL",
+        "graph_entry_path": [],
+        "graph_entry_state": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "specified_cap",
+      "cap": [
+        [
+          50,
+          50
+        ]
+      ],
+      "result": {
+        "status": "FINITE_PREFIX_IMPOSSIBLE",
+        "prefix_blocks": 51,
+        "states": []
+      }
+    },
+    {
+      "name": "specified_cap",
+      "cap": [
+        [
+          38,
+          37
+        ]
+      ],
+      "result": {
+        "status": "FINITE_PREFIX_IMPOSSIBLE",
+        "prefix_blocks": 38,
+        "states": []
+      }
+    },
+    {
+      "name": "specified_cap",
+      "cap": [
+        [
+          -5,
+          -5
+        ]
+      ],
+      "result": {
+        "state_count": 2,
+        "states_explored": 2,
+        "front_bits": 0,
+        "input_period": 2,
+        "mode": "specified_finite_extra_cap",
+        "prefix_blocks": 0,
+        "status": "INFINITE_SCHEDULE",
+        "cycle": [
+          {
+            "source": [
+              0,
+              0
+            ],
+            "label": 0,
+            "target": [
+              1,
+              0
+            ]
+          },
+          {
+            "source": [
+              1,
+              0
+            ],
+            "label": 0,
+            "target": [
+              0,
+              0
+            ]
+          }
+        ],
+        "cycle_word": "RLRL",
+        "graph_entry_path": [],
+        "graph_entry_state": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "retained_standard_white_input",
+      "front_bits": 18,
+      "result": {
+        "state_count": 262144,
+        "states_explored": 1,
+        "front_bits": 18,
+        "input_period": 1,
+        "mode": "specified_finite_extra_cap",
+        "prefix_blocks": 0,
+        "status": "INFINITE_SCHEDULE",
+        "cycle": [
+          {
+            "source": [
+              0,
+              257629
+            ],
+            "label": 0,
+            "target": [
+              0,
+              257629
+            ]
+          }
+        ],
+        "cycle_word": "LRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLR",
+        "graph_entry_path": [],
+        "graph_entry_state": [
+          0,
+          257629
+        ]
+      }
+    },
+    {
+      "name": "retained_prepared108_infinite_black_input",
+      "front_bits": 19,
+      "black_input_orbits": 11,
+      "extra_finite_color_flips": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "result": {
+        "state_count": 524288,
+        "states_explored": 1,
+        "front_bits": 19,
+        "input_period": 1,
+        "mode": "specified_finite_extra_cap",
+        "prefix_blocks": 0,
+        "status": "INFINITE_SCHEDULE",
+        "cycle": [
+          {
+            "source": [
+              0,
+              474007
+            ],
+            "label": 0,
+            "target": [
+              0,
+              474007
+            ]
+          }
+        ],
+        "cycle_word": "LRRLRRLRLLRRLLLLRRLLRRRRLLRRLRLLRRRRLLRLRRRRLLLLRLLLLRLRRRRLLLLRLLRLLLLRRRRLRLLLLRLRRLLLLRRLLLLRRLRRLLLLRRLR",
+        "graph_entry_path": [],
+        "graph_entry_state": [
+          0,
+          474007
+        ]
+      }
+    }
+  ],
+  "source_sha256": "595a5af07ee56e82181e86c8ba99fc6042f6589507223152b2a53817b49e9d71"
+}

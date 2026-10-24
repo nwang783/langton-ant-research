@@ -1,0 +1,182 @@
+{
+  "scope": "Literal first/last cycle-edge eligibility for all8 flow3 internal WHITE cells.\nUses physical ports and rank order, not an assumed chronological circuit.\n",
+  "count": 8,
+  "rows": [
+    {
+      "headings": "EEEW",
+      "triple_input": "E",
+      "triple_output": "S",
+      "turn": "RIGHT",
+      "triple_input_ranks": [
+        0,
+        1,
+        2
+      ],
+      "triple_output_ranks": [
+        0,
+        2,
+        3
+      ],
+      "single_input_rank": 3,
+      "single_output_rank": 1,
+      "single_port_side": "LEFT",
+      "eligible_first_edge_departure": [],
+      "eligible_last_edge_arrival": []
+    },
+    {
+      "headings": "EEWE",
+      "triple_input": "E",
+      "triple_output": "N",
+      "turn": "LEFT",
+      "triple_input_ranks": [
+        0,
+        1,
+        3
+      ],
+      "triple_output_ranks": [
+        1,
+        2,
+        3
+      ],
+      "single_input_rank": 2,
+      "single_output_rank": 0,
+      "single_port_side": "RIGHT",
+      "eligible_first_edge_departure": [],
+      "eligible_last_edge_arrival": []
+    },
+    {
+      "headings": "EWEE",
+      "triple_input": "E",
+      "triple_output": "S",
+      "turn": "RIGHT",
+      "triple_input_ranks": [
+        0,
+        2,
+        3
+      ],
+      "triple_output_ranks": [
+        0,
+        1,
+        2
+      ],
+      "single_input_rank": 1,
+      "single_output_rank": 3,
+      "single_port_side": "LEFT",
+      "eligible_first_edge_departure": [],
+      "eligible_last_edge_arrival": [
+        3
+      ]
+    },
+    {
+      "headings": "EWWW",
+      "triple_input": "W",
+      "triple_output": "S",
+      "turn": "LEFT",
+      "triple_input_ranks": [
+        1,
+        2,
+        3
+      ],
+      "triple_output_ranks": [
+        0,
+        1,
+        3
+      ],
+      "single_input_rank": 0,
+      "single_output_rank": 2,
+      "single_port_side": "RIGHT",
+      "eligible_first_edge_departure": [
+        0
+      ],
+      "eligible_last_edge_arrival": []
+    },
+    {
+      "headings": "WEEE",
+      "triple_input": "E",
+      "triple_output": "N",
+      "turn": "LEFT",
+      "triple_input_ranks": [
+        1,
+        2,
+        3
+      ],
+      "triple_output_ranks": [
+        0,
+        1,
+        3
+      ],
+      "single_input_rank": 0,
+      "single_output_rank": 2,
+      "single_port_side": "RIGHT",
+      "eligible_first_edge_departure": [
+        0
+      ],
+      "eligible_last_edge_arrival": []
+    },
+    {
+      "headings": "WEWW",
+      "triple_input": "W",
+      "triple_output": "N",
+      "turn": "RIGHT",
+      "triple_input_ranks": [
+        0,
+        2,
+        3
+      ],
+      "triple_output_ranks": [
+        0,
+        1,
+        2
+      ],
+      "single_input_rank": 1,
+      "single_output_rank": 3,
+      "single_port_side": "LEFT",
+      "eligible_first_edge_departure": [],
+      "eligible_last_edge_arrival": [
+        3
+      ]
+    },
+    {
+      "headings": "WWEW",
+      "triple_input": "W",
+      "triple_output": "S",
+      "turn": "LEFT",
+      "triple_input_ranks": [
+        0,
+        1,
+        3
+      ],
+      "triple_output_ranks": [
+        1,
+        2,
+        3
+      ],
+      "single_input_rank": 2,
+      "single_output_rank": 0,
+      "single_port_side": "RIGHT",
+      "eligible_first_edge_departure": [],
+      "eligible_last_edge_arrival": []
+    },
+    {
+      "headings": "WWWE",
+      "triple_input": "W",
+      "triple_output": "N",
+      "turn": "RIGHT",
+      "triple_input_ranks": [
+        0,
+        1,
+        2
+      ],
+      "triple_output_ranks": [
+        0,
+        2,
+        3
+      ],
+      "single_input_rank": 3,
+      "single_output_rank": 1,
+      "single_port_side": "LEFT",
+      "eligible_first_edge_departure": [],
+      "eligible_last_edge_arrival": []
+    }
+  ]
+}

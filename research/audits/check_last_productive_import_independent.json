@@ -1,0 +1,22 @@
+{
+  "status": "PASS last productive R-import placement under a sustained fine-cut active cap",
+  "note_sha256": "69700f75e3dec54b860b132279b4dd871b34ee7f988fd85d6092dac8e1286401",
+  "integer_index_checks": 1805,
+  "dependencies": {
+    "active_w_archive_itinerary_2026-10-23/LAST_IMPORT_OF_CONSUMED_OLD_MEMORY.md": "69700f75e3dec54b860b132279b4dd871b34ee7f988fd85d6092dac8e1286401",
+    "active_w_archive_itinerary_2026-10-23/ACTIVE_EPISODES.md": "ad3cb9f07e078bcbaaa02622004f56254b211de2ed238fa2bd031e7d5e3d5721",
+    "active_w_archive_itinerary_2026-10-23/BOUNDED_ACTIVE_FROZEN_EXCURSIONS_v2.md": "ad2834880ffc57b56ae8f98bea57b146cab4a33cc9c3aa9900c8ab4bae3e910b",
+    "audits/check_active_w_episodes_independent.json": "51e7e4e36ae4e7c7b678524f3af1febc7d59d2b23e987443520eea1695111aa3",
+    "audits/check_bounded_active_frozen_excursions_independent.json": "9070e9cb5857dac95cce0ec0d069b2391fcb816411321d0226889d11d14e8ac0",
+    "sources/kehao95-core/memory_feedback/proof/stale-memory.md": "5db0c3fb75fecdd7273297e96c3c33509818ce96537357ef7b23c260a56756cb",
+    "sources/kehao95-core/memory_feedback/proof/remote-stale-feedback.md": "7525eb161466e56ecb8d19444669a2e201d68a070ed27eca01b4e92afed54eb4"
+  },
+  "analytic": [
+    "A consumed R-born lifetime is active at cuts b+1 and d. If its age exceeds the continuous active-episode bound H, it has at least one dormant run. The last active episode therefore begins at cut r+1 immediately after a genuine nonempty R import, and contains exactly d-r cuts. Thus d-r<=H and r-b>=(d-b)-H.",
+    "Productivity is lifetime-specific: this chosen token is consumed before another dormant departure. Other imported edges may remain unconsumed or detach again and are not charged. The immediately previous complete archive is frozen and has size<=M-1; the last dormant run need not be the long excursion proved elsewhere.",
+    "The importing pre-update head is still within M of the token because w is unchanged by R. In the post-R connected component of at most M edges, the path from that same w to a token endpoint and two half-unit offsets give the same metric bound for the pre-R heading. No extra+1 is necessary.",
+    "A uniform bound on birth-to-last-productive-import age for all late actually consumed tokens, together with H, bounds consumed lifetime age after finitely many preexisting lifetimes die. The retained stale-memory theorem yields eventual nonzero translating periodicity, not104.",
+    "Retained remote-stale-feedback Theorem6 supplies infinitely many distinct unbounded late-born consumed cells with age>A+H on any nontranslating orbit. Applying the identity gives old productive imports at those cells and consumption within H. This is an attributed necessary mechanism and does not prove the active cap or constrain the old import ages."
+  ],
+  "scope": "Conditional on sustained active mass cap at EVERY fine cut. No all-n final-episode10 assertion, no unread-support charge, no fixed-state summary or universal attraction."
+}

@@ -1,0 +1,33 @@
+{
+  "status": "PASS complete role graph; no KY zero-margin directed cycle",
+  "roles": 272,
+  "raw_tight_edges": 1468,
+  "remaining_tight_edges": 944,
+  "blocked_tight_edges": 524,
+  "fundamental_edges": 35904,
+  "longest_tight_path": 2,
+  "eight_old_and_new_cycle_cuts_verified": 8,
+  "manifest_sha256": "a622da698363472e596cd6487bbfcd924d178354df72d01a98067ce3e794da5e",
+  "scope": "Produced-parent ancestry saturation only. Fundamental edges overapproximate arbitrarily long intervening actual packet words; no physical realization, ancestry-length bound or capture is inferred."
+}
+TIGHT 205 CYCLIC_COMPONENTS 1
+ROLES [(3, (0, (2, 0), 3)), (68, (5, (2, 5), 0)), (86, (6, (0, 0), 2))]
+EDGES [(3, 68, 3, 3), (68, 86, 6, 3), (86, 3, 3, 2)]
+{
+  "status": "PASS exact2/3 zero-margin graph and one-edge-memory acyclicity",
+  "zero_margin_edges": 205,
+  "cyclic_components": [
+    [
+      3,
+      68,
+      86
+    ]
+  ],
+  "forbidden_consecutive_roles": [
+    86,
+    3,
+    68
+  ],
+  "max_consecutive_tight_edges": 5,
+  "scope": "Uses independently signed LH joint history exclusion. Individual edges are not deleted. No all-ancestry bound or capture."
+}

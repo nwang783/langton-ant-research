@@ -1,0 +1,253 @@
+{
+  "scope": "Algebraic all-f one-use endpoint domains; finite controls only verify\nthe closed-form formulas, not infer them from a multiplicity cutoff.\n",
+  "all_f_proof": "Ein1 makes all postR0 W; Sout1 makes allL E and postR0 R W. CountingL gives floor(n/2)=f-1.",
+  "formula_controls": [
+    {
+      "f": 1,
+      "type": "source",
+      "word": "E",
+      "flows": [
+        1,
+        1
+      ],
+      "R_balance": 1,
+      "length": 1
+    },
+    {
+      "f": 1,
+      "type": "sink",
+      "word": "E",
+      "flows": [
+        1,
+        1
+      ],
+      "R_balance": 1,
+      "length": 1
+    },
+    {
+      "f": 2,
+      "type": "source",
+      "word": "EW",
+      "flows": [
+        1,
+        2
+      ],
+      "R_balance": 1,
+      "length": 2
+    },
+    {
+      "f": 2,
+      "type": "source",
+      "word": "EWW",
+      "flows": [
+        1,
+        2
+      ],
+      "R_balance": 0,
+      "length": 3
+    },
+    {
+      "f": 2,
+      "type": "sink",
+      "word": "EE",
+      "flows": [
+        2,
+        1
+      ],
+      "R_balance": 1,
+      "length": 2
+    },
+    {
+      "f": 2,
+      "type": "sink",
+      "word": "EEW",
+      "flows": [
+        2,
+        1
+      ],
+      "R_balance": 0,
+      "length": 3
+    },
+    {
+      "f": 3,
+      "type": "source",
+      "word": "EWWW",
+      "flows": [
+        1,
+        3
+      ],
+      "R_balance": 0,
+      "length": 4
+    },
+    {
+      "f": 3,
+      "type": "source",
+      "word": "EWWWW",
+      "flows": [
+        1,
+        3
+      ],
+      "R_balance": -1,
+      "length": 5
+    },
+    {
+      "f": 3,
+      "type": "sink",
+      "word": "EEWE",
+      "flows": [
+        3,
+        1
+      ],
+      "R_balance": 0,
+      "length": 4
+    },
+    {
+      "f": 3,
+      "type": "sink",
+      "word": "EEWEW",
+      "flows": [
+        3,
+        1
+      ],
+      "R_balance": -1,
+      "length": 5
+    },
+    {
+      "f": 4,
+      "type": "source",
+      "word": "EWWWWW",
+      "flows": [
+        1,
+        4
+      ],
+      "R_balance": -1,
+      "length": 6
+    },
+    {
+      "f": 4,
+      "type": "source",
+      "word": "EWWWWWW",
+      "flows": [
+        1,
+        4
+      ],
+      "R_balance": -2,
+      "length": 7
+    },
+    {
+      "f": 4,
+      "type": "sink",
+      "word": "EEWEWE",
+      "flows": [
+        4,
+        1
+      ],
+      "R_balance": -1,
+      "length": 6
+    },
+    {
+      "f": 4,
+      "type": "sink",
+      "word": "EEWEWEW",
+      "flows": [
+        4,
+        1
+      ],
+      "R_balance": -2,
+      "length": 7
+    },
+    {
+      "f": 7,
+      "type": "source",
+      "word": "EWWWWWWWWWWW",
+      "flows": [
+        1,
+        7
+      ],
+      "R_balance": -4,
+      "length": 12
+    },
+    {
+      "f": 7,
+      "type": "source",
+      "word": "EWWWWWWWWWWWW",
+      "flows": [
+        1,
+        7
+      ],
+      "R_balance": -5,
+      "length": 13
+    },
+    {
+      "f": 7,
+      "type": "sink",
+      "word": "EEWEWEWEWEWE",
+      "flows": [
+        7,
+        1
+      ],
+      "R_balance": -4,
+      "length": 12
+    },
+    {
+      "f": 7,
+      "type": "sink",
+      "word": "EEWEWEWEWEWEW",
+      "flows": [
+        7,
+        1
+      ],
+      "R_balance": -5,
+      "length": 13
+    },
+    {
+      "f": 13,
+      "type": "source",
+      "word": "EWWWWWWWWWWWWWWWWWWWWWWW",
+      "flows": [
+        1,
+        13
+      ],
+      "R_balance": -10,
+      "length": 24
+    },
+    {
+      "f": 13,
+      "type": "source",
+      "word": "EWWWWWWWWWWWWWWWWWWWWWWWW",
+      "flows": [
+        1,
+        13
+      ],
+      "R_balance": -11,
+      "length": 25
+    },
+    {
+      "f": 13,
+      "type": "sink",
+      "word": "EEWEWEWEWEWEWEWEWEWEWEWE",
+      "flows": [
+        13,
+        1
+      ],
+      "R_balance": -10,
+      "length": 24
+    },
+    {
+      "f": 13,
+      "type": "sink",
+      "word": "EEWEWEWEWEWEWEWEWEWEWEWEW",
+      "flows": [
+        13,
+        1
+      ],
+      "R_balance": -11,
+      "length": 25
+    }
+  ],
+  "LEFT_flow1_words": [
+    "WWE",
+    "WWEW"
+  ],
+  "warning": "No all-cap firstR maximum or cycle height constancy claimed; stream sign is an independent premise."
+}

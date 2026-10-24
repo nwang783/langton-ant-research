@@ -1,0 +1,332 @@
+{
+  "status": "PASS primitive positive last-parent cycles, zero effective turning, and scoped all-n interval-tree clock",
+  "manifest": "791d3c29af66f0f95c8c541f86beeccd71ca155653f7237d83a3867d8d48e517",
+  "dependencies": {
+    "CHRONOLOGICAL_SPINE_ORIENTATION_MANIFEST.json": "65a4b90707b05a417311fbb357e4f4f76eb0362265fc0cd6bdb87daa6614c997",
+    "../audits/check_chronological_spine_independent.json": "31de7066f655c5a3f0e693769927955609087793a92db8427804b149100b37e7",
+    "SOUTHWEST_ARCHIVE_IMPORT_MANIFEST.json": "bbd355881af85e24445f23d7d99d1eba88d5519ec5487c920b07f39892c5cf66",
+    "../audits/check_southwest_archive_import_independent.json": "600f91c4b51dc92dd08901233e290d345eb836e1ccc92750d4e9fdc9adbcb463"
+  },
+  "baseline_edges": 9402,
+  "maximum": [
+    29865,
+    [
+      210,
+      186
+    ],
+    [
+      210,
+      187
+    ],
+    29029,
+    58894
+  ],
+  "all22_bulk_clocks": [
+    {
+      "cell": [
+        364,
+        389
+      ],
+      "parent_class": [
+        363,
+        387
+      ],
+      "layer_shift": 1,
+      "jump": 1
+    },
+    {
+      "cell": [
+        363,
+        389
+      ],
+      "parent_class": [
+        363,
+        388
+      ],
+      "layer_shift": 0,
+      "jump": 121
+    },
+    {
+      "cell": [
+        363,
+        388
+      ],
+      "parent_class": [
+        364,
+        390
+      ],
+      "layer_shift": -1,
+      "jump": 1
+    },
+    {
+      "cell": [
+        364,
+        388
+      ],
+      "parent_class": [
+        364,
+        389
+      ],
+      "layer_shift": 0,
+      "jump": 1
+    },
+    {
+      "cell": [
+        364,
+        387
+      ],
+      "parent_class": [
+        363,
+        387
+      ],
+      "layer_shift": 0,
+      "jump": 109
+    },
+    {
+      "cell": [
+        363,
+        385
+      ],
+      "parent_class": [
+        363,
+        386
+      ],
+      "layer_shift": 0,
+      "jump": 1
+    },
+    {
+      "cell": [
+        363,
+        384
+      ],
+      "parent_class": [
+        364,
+        386
+      ],
+      "layer_shift": -1,
+      "jump": 125
+    },
+    {
+      "cell": [
+        364,
+        386
+      ],
+      "parent_class": [
+        364,
+        387
+      ],
+      "layer_shift": 0,
+      "jump": 1
+    },
+    {
+      "cell": [
+        363,
+        386
+      ],
+      "parent_class": [
+        364,
+        386
+      ],
+      "layer_shift": 0,
+      "jump": 1
+    },
+    {
+      "cell": [
+        363,
+        387
+      ],
+      "parent_class": [
+        363,
+        388
+      ],
+      "layer_shift": 0,
+      "jump": 1
+    },
+    {
+      "cell": [
+        364,
+        385
+      ],
+      "parent_class": [
+        363,
+        385
+      ],
+      "layer_shift": 0,
+      "jump": 1
+    },
+    {
+      "cell": [
+        364,
+        390
+      ],
+      "parent_class": [
+        364,
+        391
+      ],
+      "layer_shift": 0,
+      "jump": 1
+    },
+    {
+      "cell": [
+        364,
+        391
+      ],
+      "parent_class": [
+        363,
+        391
+      ],
+      "layer_shift": 0,
+      "jump": 1
+    },
+    {
+      "cell": [
+        363,
+        391
+      ],
+      "parent_class": [
+        363,
+        390
+      ],
+      "layer_shift": 0,
+      "jump": 1
+    },
+    {
+      "cell": [
+        363,
+        390
+      ],
+      "parent_class": [
+        364,
+        392
+      ],
+      "layer_shift": -1,
+      "jump": 21
+    },
+    {
+      "cell": [
+        364,
+        392
+      ],
+      "parent_class": [
+        364,
+        391
+      ],
+      "layer_shift": 0,
+      "jump": 81
+    },
+    {
+      "cell": [
+        363,
+        392
+      ],
+      "parent_class": [
+        364,
+        394
+      ],
+      "layer_shift": -1,
+      "jump": 1
+    },
+    {
+      "cell": [
+        364,
+        394
+      ],
+      "parent_class": [
+        364,
+        393
+      ],
+      "layer_shift": 0,
+      "jump": 1
+    },
+    {
+      "cell": [
+        364,
+        393
+      ],
+      "parent_class": [
+        363,
+        393
+      ],
+      "layer_shift": 0,
+      "jump": 5
+    },
+    {
+      "cell": [
+        363,
+        393
+      ],
+      "parent_class": [
+        363,
+        392
+      ],
+      "layer_shift": 0,
+      "jump": 97
+    },
+    {
+      "cell": [
+        363,
+        394
+      ],
+      "parent_class": [
+        364,
+        394
+      ],
+      "layer_shift": 0,
+      "jump": 9
+    },
+    {
+      "cell": [
+        364,
+        395
+      ],
+      "parent_class": [
+        363,
+        393
+      ],
+      "layer_shift": 1,
+      "jump": 1
+    }
+  ],
+  "inserted_spine_jumps": [
+    1,
+    1,
+    5,
+    97
+  ],
+  "all_time_labels": 37820,
+  "controls": [
+    {
+      "n": 100,
+      "labels": 9402,
+      "max_jump": 29865,
+      "old_birth": 20165,
+      "old_death": 52605,
+      "old_age": 32440
+    },
+    {
+      "n": 137,
+      "labels": 10216,
+      "max_jump": 29865,
+      "old_birth": 20165,
+      "old_death": 60301,
+      "old_age": 40136
+    },
+    {
+      "n": 500,
+      "labels": 18202,
+      "max_jump": 29865,
+      "old_birth": 20165,
+      "old_death": 135805,
+      "old_age": 115640
+    }
+  ],
+  "analytic": [
+    "The last-parent quotient cycle is an embedded curve in the full-drift cylinder: distinct quotient vertices, unit grid edges and integer deck translation exclude transverse crossings and overlapping edge interiors. The exceptional two-edge backtrack has zero displacement and is ruled out by independently proved positive last-time voltage.",
+    "A cycle of positive shift m lifts to m disjoint proper periodic lines, each bounded transversely and separating the two transverse ends. Translation by d preserves their transverse linear order yet permutes them cyclically. Thus m=1. This proof uses actual selected grid edges, not an abstract clock graph or black Tait graph.",
+    "A disjoint straight parallel essential curve and the embedded cycle bound a compact flat annulus. Finite triangle-angle counting with F=2Vi+Vb makes the total boundary turning zero. The straight component contributes zero, so the cycle turning is exactly zero. Sector alternation ensures every nondegenerate selected grid turn is a quarter turn.",
+    "The general component theorem therefore simplifies to the number of quotient cycles. No uniform bound on the number of cycles, or existence of a translating future, is inferred.",
+    "Every baseline cap time and parent is independently reconstructed from actual A/SW/F last hits by the prior checker prefix. Upper times have slope0, lower times slope104K; middle tau+104(K-k) agrees at both interfaces through tau(r)=time(r) and time(r+2diag)=tau(r)-104. Consequently every edge jump is exactly baseline or one of22 bulk constants for ALL integer n>=100, not a finite-fit inference.",
+    "The entire reset drought tree has exact maximum29865 on the fixed lower edge210,186 to210,187. The inserted spine jumps1,1,5,97 add104. All37820 named labels independently reconstruct. The simultaneously consumed R20165 has true lifetime age11640+208n, so bounded selected-edge latency is not bounded identity age.",
+    "This clock bound is for T_[s_n,t_n], not the historical T_[0,t_n]. All family members capture; no one-orbit infinite drought, global clock occurrence, lifetime-age bound or gross leaf theorem follows."
+  ]
+}

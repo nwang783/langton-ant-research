@@ -1,0 +1,1748 @@
+{
+  "word": "LRRLRRLRLLRRLLLLRRLLRRRRLLRRLRLLLLRLRRRRLLLLRLLLLRLRRRRLLLLRLLRLLLLRRRRLRLLLLRLRRLLLLRRLLLLRRLRRLLLLRRLR",
+  "heading": 3,
+  "length": 104,
+  "drift": [
+    -2,
+    -2
+  ],
+  "word_sha256": "f634325080079ffc1246b2014bca2c6fbc288e27b1144f2cce5b7822b01badc1",
+  "parallel_standard_direction": true,
+  "normalized_heading": 3,
+  "normalization_quarter_turns": 0,
+  "diagonal_scale": 2,
+  "read_classes": [
+    [
+      -6,
+      0
+    ],
+    [
+      -6,
+      1
+    ],
+    [
+      -5,
+      0
+    ],
+    [
+      -5,
+      1
+    ],
+    [
+      -4,
+      0
+    ],
+    [
+      -4,
+      1
+    ],
+    [
+      -3,
+      0
+    ],
+    [
+      -3,
+      1
+    ],
+    [
+      -2,
+      0
+    ],
+    [
+      -2,
+      1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ]
+  ],
+  "required_black_classes": [
+    [
+      -6,
+      0
+    ],
+    [
+      -6,
+      1
+    ],
+    [
+      -5,
+      0
+    ],
+    [
+      -4,
+      0
+    ],
+    [
+      -2,
+      1
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ]
+  ],
+  "constants": {
+    "superperiod_copies": 1,
+    "common_drift": [
+      2,
+      2
+    ],
+    "standard_superperiods": 1,
+    "consumer_endpoint_loss": 2,
+    "standard_endpoint_width": 3,
+    "parallel_flight_loss": 6,
+    "nonparallel_flight_loss": 1364,
+    "cap_loss_per_read": 1,
+    "lower_bound": "|B|>=floor(n/1)-2-L-6*r_parallel-1364*r_nonparallel"
+  },
+  "status": "INCOMPATIBLE",
+  "candidates": [
+    {
+      "orientation": "NE",
+      "normal": -8,
+      "x_parity": 0,
+      "band": [
+        -15,
+        -5
+      ],
+      "covered_black": [
+        [
+          -6,
+          1
+        ],
+        [
+          -5,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -5,
+          1
+        ]
+      ],
+      "cover_mask": 6
+    },
+    {
+      "orientation": "NE",
+      "normal": -8,
+      "x_parity": 1,
+      "band": [
+        -15,
+        -5
+      ],
+      "covered_black": [
+        [
+          -6,
+          0
+        ],
+        [
+          -5,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -5,
+          1
+        ]
+      ],
+      "cover_mask": 5
+    },
+    {
+      "orientation": "NE",
+      "normal": -6,
+      "x_parity": 0,
+      "band": [
+        -13,
+        -3
+      ],
+      "covered_black": [
+        [
+          -6,
+          0
+        ],
+        [
+          -5,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -4,
+          1
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -3,
+          1
+        ]
+      ],
+      "cover_mask": 5
+    },
+    {
+      "orientation": "NE",
+      "normal": -6,
+      "x_parity": 1,
+      "band": [
+        -13,
+        -3
+      ],
+      "covered_black": [
+        [
+          -6,
+          1
+        ],
+        [
+          -4,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -5,
+          1
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -3,
+          1
+        ]
+      ],
+      "cover_mask": 10
+    },
+    {
+      "orientation": "NE",
+      "normal": -4,
+      "x_parity": 0,
+      "band": [
+        -11,
+        -1
+      ],
+      "covered_black": [
+        [
+          -6,
+          0
+        ],
+        [
+          -4,
+          0
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          -5,
+          1
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "cover_mask": 57
+    },
+    {
+      "orientation": "NE",
+      "normal": -4,
+      "x_parity": 1,
+      "band": [
+        -11,
+        -1
+      ],
+      "covered_black": [
+        [
+          -6,
+          1
+        ],
+        [
+          -5,
+          0
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          -4,
+          1
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "cover_mask": 38
+    },
+    {
+      "orientation": "NE",
+      "normal": -2,
+      "x_parity": 0,
+      "band": [
+        -9,
+        1
+      ],
+      "covered_black": [
+        [
+          -5,
+          0
+        ],
+        [
+          -4,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          -3,
+          1
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "cover_mask": 140
+    },
+    {
+      "orientation": "NE",
+      "normal": -2,
+      "x_parity": 1,
+      "band": [
+        -9,
+        1
+      ],
+      "covered_black": [
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          -5,
+          1
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "cover_mask": 240
+    },
+    {
+      "orientation": "NE",
+      "normal": 0,
+      "x_parity": 0,
+      "band": [
+        -7,
+        3
+      ],
+      "covered_black": [
+        [
+          -6,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -5,
+          1
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "cover_mask": 866
+    },
+    {
+      "orientation": "NE",
+      "normal": 0,
+      "x_parity": 1,
+      "band": [
+        -7,
+        3
+      ],
+      "covered_black": [
+        [
+          -6,
+          0
+        ],
+        [
+          -5,
+          0
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -3,
+          1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "cover_mask": 661
+    },
+    {
+      "orientation": "NE",
+      "normal": 2,
+      "x_parity": 0,
+      "band": [
+        -5,
+        5
+      ],
+      "covered_black": [
+        [
+          -5,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          -5,
+          1
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "cover_mask": 2756
+    },
+    {
+      "orientation": "NE",
+      "normal": 2,
+      "x_parity": 1,
+      "band": [
+        -5,
+        5
+      ],
+      "covered_black": [
+        [
+          -5,
+          0
+        ],
+        [
+          -4,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -5,
+          1
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "cover_mask": 1324
+    },
+    {
+      "orientation": "NE",
+      "normal": 4,
+      "x_parity": 0,
+      "band": [
+        -3,
+        7
+      ],
+      "covered_black": [
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -3,
+          0
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "cover_mask": 1072
+    },
+    {
+      "orientation": "NE",
+      "normal": 4,
+      "x_parity": 1,
+      "band": [
+        -3,
+        7
+      ],
+      "covered_black": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          -3,
+          0
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "cover_mask": 2944
+    },
+    {
+      "orientation": "NE",
+      "normal": 6,
+      "x_parity": 0,
+      "band": [
+        -1,
+        9
+      ],
+      "covered_black": [
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cover_mask": 1696
+    },
+    {
+      "orientation": "NE",
+      "normal": 6,
+      "x_parity": 1,
+      "band": [
+        -1,
+        9
+      ],
+      "covered_black": [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          -1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "cover_mask": 2144
+    },
+    {
+      "orientation": "NE",
+      "normal": 8,
+      "x_parity": 0,
+      "band": [
+        1,
+        11
+      ],
+      "covered_black": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "cover_mask": 384
+    },
+    {
+      "orientation": "NE",
+      "normal": 8,
+      "x_parity": 1,
+      "band": [
+        1,
+        11
+      ],
+      "covered_black": [
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "cover_mask": 640
+    },
+    {
+      "orientation": "NE",
+      "normal": 10,
+      "x_parity": 0,
+      "band": [
+        3,
+        13
+      ],
+      "covered_black": [
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          3,
+          1
+        ]
+      ],
+      "cover_mask": 2560
+    },
+    {
+      "orientation": "NE",
+      "normal": 10,
+      "x_parity": 1,
+      "band": [
+        3,
+        13
+      ],
+      "covered_black": [
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          3,
+          1
+        ]
+      ],
+      "cover_mask": 1536
+    },
+    {
+      "orientation": "SW",
+      "normal": -12,
+      "x_parity": 0,
+      "band": [
+        -15,
+        -5
+      ],
+      "covered_black": [
+        [
+          -6,
+          1
+        ],
+        [
+          -5,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -5,
+          1
+        ]
+      ],
+      "cover_mask": 6
+    },
+    {
+      "orientation": "SW",
+      "normal": -12,
+      "x_parity": 1,
+      "band": [
+        -15,
+        -5
+      ],
+      "covered_black": [
+        [
+          -6,
+          0
+        ],
+        [
+          -5,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -5,
+          1
+        ]
+      ],
+      "cover_mask": 5
+    },
+    {
+      "orientation": "SW",
+      "normal": -10,
+      "x_parity": 1,
+      "band": [
+        -13,
+        -3
+      ],
+      "covered_black": [
+        [
+          -5,
+          0
+        ],
+        [
+          -4,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -3,
+          0
+        ],
+        [
+          -3,
+          1
+        ]
+      ],
+      "cover_mask": 12
+    },
+    {
+      "orientation": "SW",
+      "normal": -8,
+      "x_parity": 0,
+      "band": [
+        -11,
+        -1
+      ],
+      "covered_black": [
+        [
+          -6,
+          0
+        ],
+        [
+          -5,
+          0
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          -3,
+          1
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "cover_mask": 53
+    },
+    {
+      "orientation": "SW",
+      "normal": -8,
+      "x_parity": 1,
+      "band": [
+        -11,
+        -1
+      ],
+      "covered_black": [
+        [
+          -6,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          -5,
+          1
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "cover_mask": 34
+    },
+    {
+      "orientation": "SW",
+      "normal": -6,
+      "x_parity": 0,
+      "band": [
+        -9,
+        1
+      ],
+      "covered_black": [
+        [
+          -6,
+          0
+        ],
+        [
+          -4,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          -5,
+          1
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "cover_mask": 169
+    },
+    {
+      "orientation": "SW",
+      "normal": -6,
+      "x_parity": 1,
+      "band": [
+        -9,
+        1
+      ],
+      "covered_black": [
+        [
+          -6,
+          1
+        ],
+        [
+          -5,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          -4,
+          1
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "cover_mask": 198
+    },
+    {
+      "orientation": "SW",
+      "normal": -4,
+      "x_parity": 0,
+      "band": [
+        -7,
+        3
+      ],
+      "covered_black": [
+        [
+          -6,
+          1
+        ],
+        [
+          -5,
+          0
+        ],
+        [
+          -4,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -3,
+          1
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "cover_mask": 910
+    },
+    {
+      "orientation": "SW",
+      "normal": -4,
+      "x_parity": 1,
+      "band": [
+        -7,
+        3
+      ],
+      "covered_black": [
+        [
+          -6,
+          0
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -5,
+          1
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "cover_mask": 561
+    },
+    {
+      "orientation": "SW",
+      "normal": -2,
+      "x_parity": 0,
+      "band": [
+        -5,
+        5
+      ],
+      "covered_black": [
+        [
+          -5,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          -5,
+          1
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "cover_mask": 2148
+    },
+    {
+      "orientation": "SW",
+      "normal": -2,
+      "x_parity": 1,
+      "band": [
+        -5,
+        5
+      ],
+      "covered_black": [
+        [
+          -5,
+          0
+        ],
+        [
+          -4,
+          0
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -5,
+          1
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cover_mask": 1692
+    },
+    {
+      "orientation": "SW",
+      "normal": 0,
+      "x_parity": 0,
+      "band": [
+        -3,
+        7
+      ],
+      "covered_black": [
+        [
+          -2,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -3,
+          0
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "cover_mask": 720
+    },
+    {
+      "orientation": "SW",
+      "normal": 0,
+      "x_parity": 1,
+      "band": [
+        -3,
+        7
+      ],
+      "covered_black": [
+        [
+          -1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          -3,
+          0
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "cover_mask": 288
+    },
+    {
+      "orientation": "SW",
+      "normal": 2,
+      "x_parity": 0,
+      "band": [
+        -1,
+        9
+      ],
+      "covered_black": [
+        [
+          -1,
+          1
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "cover_mask": 1056
+    },
+    {
+      "orientation": "SW",
+      "normal": 2,
+      "x_parity": 1,
+      "band": [
+        -1,
+        9
+      ],
+      "covered_black": [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "cover_mask": 3040
+    },
+    {
+      "orientation": "SW",
+      "normal": 4,
+      "x_parity": 0,
+      "band": [
+        1,
+        11
+      ],
+      "covered_black": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          1,
+          0
+        ]
+      ],
+      "cover_mask": 1920
+    },
+    {
+      "orientation": "SW",
+      "normal": 4,
+      "x_parity": 1,
+      "band": [
+        1,
+        11
+      ],
+      "covered_black": [
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "cover_mask": 2176
+    },
+    {
+      "orientation": "SW",
+      "normal": 6,
+      "x_parity": 0,
+      "band": [
+        3,
+        13
+      ],
+      "covered_black": [
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          3,
+          1
+        ]
+      ],
+      "cover_mask": 2560
+    },
+    {
+      "orientation": "SW",
+      "normal": 6,
+      "x_parity": 1,
+      "band": [
+        3,
+        13
+      ],
+      "covered_black": [
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          3,
+          1
+        ]
+      ],
+      "cover_mask": 1536
+    }
+  ],
+  "selector_variables": 39,
+  "selector_clauses": 644,
+  "selector_search": {
+    "nodes": 1,
+    "memo_states": 1
+  },
+  "matching_rail_indices": null,
+  "matching_rails": null,
+  "cnf_certificate": {
+    "cnf": "/workspace/shared/langton/global_architecture_2026-10-23/generic_bulk_reverse104.cnf",
+    "proof": "/workspace/shared/langton/global_architecture_2026-10-23/generic_bulk_reverse104.rup",
+    "checker": {
+      "valid": true,
+      "input_clauses": 644,
+      "additions": 1,
+      "deletions": 0,
+      "RUP": 1,
+      "RAT": 0,
+      "propagation_checks": 1
+    },
+    "cnf_sha256": "efdbd779b524f08906da5184dd76fe4e799862d40319c7b2c6f0eac6e991fe3c",
+    "proof_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  }
+}

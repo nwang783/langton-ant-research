@@ -1,0 +1,81 @@
+{
+  "status": "PASS independent literal composition and complex turtle replay",
+  "cases": [
+    {
+      "R": "LRLRLRRLRLRLRLRRL",
+      "L": "RLRRLRRLRLRLRLRLR",
+      "scale": [
+        3,
+        6
+      ],
+      "squared_scale": [
+        -27,
+        36
+      ],
+      "roots": [
+        {
+          "root": "R",
+          "checked_internal_phases": 288,
+          "internal_ideal_hits": [],
+          "first_nonzero_L": [
+            1,
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "root": "L",
+          "checked_internal_phases": 288,
+          "internal_ideal_hits": [],
+          "first_nonzero_L": [
+            2,
+            [
+              -1,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "R": "LRLRLRLRLRLRRLRRL",
+      "L": "RLRRLRLRLRLRRLRLR",
+      "scale": [
+        -3,
+        6
+      ],
+      "squared_scale": [
+        -27,
+        -36
+      ],
+      "roots": [
+        {
+          "root": "R",
+          "checked_internal_phases": 288,
+          "internal_ideal_hits": [],
+          "first_nonzero_L": [
+            1,
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "root": "L",
+          "checked_internal_phases": 288,
+          "internal_ideal_hits": [],
+          "first_nonzero_L": [
+            2,
+            [
+              -1,
+              1
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

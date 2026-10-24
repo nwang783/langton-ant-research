@@ -1,0 +1,35 @@
+{
+  "status": "All three selected packages independently PASS; global attraction UNSOLVED",
+  "handoff": {
+    "path": "MULTI_DIRECTION_RECORD_RESEARCH_HANDOFF.md",
+    "sha256": "0b390d4482d1324026da59feb93fce79418353d8d771e9fd42f20fa3342ed5fa"
+  },
+  "packages": [
+    {
+      "name": "joint geometry",
+      "manifest": "JOINT_RECORD_DROUGHT_MANIFEST.json",
+      "manifest_sha256": "279631813c510c23d6939b3ef97d417f72b727e6820e243846e06cbc135adf80",
+      "audit": "../audits/check_joint_record_drought_independent.json",
+      "audit_sha256": "ec64937c772a579f208342675e40d8f81390dd36455d3e95b29585cb1f2a7412"
+    },
+    {
+      "name": "compact/effective finite window",
+      "manifest": "FINITE_RECORD_CLOCK_MANIFEST.json",
+      "manifest_sha256": "09b1ee22b19b6231f05cb3ddca593b49ec8e779391131c4a032a08584c9b8b04",
+      "audit": "../audits/check_finite_record_clock_independent.json",
+      "audit_sha256": "0310e0c438cebf30ab23af1eaa21dce8e32b10f9f11970286ad701e637788b80"
+    },
+    {
+      "name": "explicit finite window",
+      "manifest": "EXPLICIT_RECORD_CLOCK_MANIFEST.json",
+      "manifest_sha256": "1df0229443dc04764efa17f890339bbd8a085e4aecbee9f8a0f1cdf458dc6e8e",
+      "audit": "../audits/check_explicit_record_clock_independent.json",
+      "audit_sha256": "f98ef9fcf7fd61fe406f6886c3dcdb9e01b24cbcff2e24b2c7ef44bfea842ea6"
+    }
+  ],
+  "explicit_formula": "G=H(H+1)^4, S=4*2^G, F*=G+1+2S^2+(H+3)*S",
+  "unresolved": [
+    "Universal occurrence of a forcing window",
+    "Unrestricted finite-board translating-tail canonical104 uniqueness"
+  ]
+}

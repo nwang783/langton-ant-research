@@ -1,0 +1,380 @@
+{
+  "status": "POSITIVE_U_ENTRY_CONTROLS_AND_WITHDRAWAL_OF_PENDING_PLAIN_SOURCE_CUT",
+  "rejected_manifest": "6ea48d5dc26b7265ad55e83a99c5282a71fdbfc41f86f88b94934844306c3ac1",
+  "reason": "Its two plain-source endpoint equations omit the post-C2 S run. Both purported ownership contradictions have genuine U-entry eight countercontrols.",
+  "controls": [
+    {
+      "full_packet_sequence": [
+        "U",
+        "V",
+        "VCC",
+        "V",
+        "V"
+      ],
+      "complete_finite_seed": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          -1,
+          6
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      "entry_mass": 16,
+      "unlisted_cells_WHITE": true,
+      "full_packet_entries": [
+        {
+          "full_packet": "U",
+          "entry": [
+            0,
+            0,
+            0
+          ],
+          "tick": 0,
+          "C_clock": 0
+        },
+        {
+          "full_packet": "V",
+          "entry": [
+            0,
+            4,
+            0
+          ],
+          "tick": 28,
+          "C_clock": 0
+        },
+        {
+          "full_packet": "VCC",
+          "entry": [
+            1,
+            7,
+            0
+          ],
+          "tick": 46,
+          "C_clock": 0
+        },
+        {
+          "full_packet": "V",
+          "entry": [
+            1,
+            11,
+            2
+          ],
+          "tick": 94,
+          "C_clock": 2
+        },
+        {
+          "full_packet": "V",
+          "entry": [
+            0,
+            8,
+            2
+          ],
+          "tick": 112,
+          "C_clock": 2
+        }
+      ],
+      "source_index": 1,
+      "source_kind": "V",
+      "source_tag_physical_site": [
+        0,
+        5
+      ],
+      "source_tag_normalized_output": [
+        0,
+        1
+      ],
+      "source_tag_all_actual_reads": [
+        [
+          "R",
+          39
+        ],
+        [
+          "L",
+          131
+        ]
+      ],
+      "source_full_exit": {
+        "tick": 46,
+        "pose": [
+          1,
+          7,
+          0
+        ],
+        "tag_current": true
+      },
+      "consumer_V_pose_in_source_frame": [
+        0,
+        4,
+        2
+      ],
+      "consumer_input": [
+        0,
+        3
+      ],
+      "source_to_consumer_C_age": 2,
+      "consumer_input_physical_owner": "word_after_final_V_RAW_phase2; here the actual M11 phase2",
+      "actual_RAW_exit": {
+        "tick": 130,
+        "pose": [
+          -1,
+          5,
+          2
+        ],
+        "mass": 42,
+        "tag_current": true
+      },
+      "after_actual_M11": {
+        "pose": [
+          -1,
+          4,
+          1
+        ],
+        "mass": 41
+      },
+      "genuine_U_entry_eight_factor": true,
+      "foreign_or_three_C_residue_attainment_claimed": false
+    },
+    {
+      "full_packet_sequence": [
+        "U",
+        "VCC",
+        "V",
+        "V"
+      ],
+      "complete_finite_seed": [
+        [
+          -2,
+          3
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          -1,
+          6
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "entry_mass": 14,
+      "unlisted_cells_WHITE": true,
+      "full_packet_entries": [
+        {
+          "full_packet": "U",
+          "entry": [
+            0,
+            0,
+            0
+          ],
+          "tick": 0,
+          "C_clock": 0
+        },
+        {
+          "full_packet": "VCC",
+          "entry": [
+            0,
+            4,
+            0
+          ],
+          "tick": 28,
+          "C_clock": 0
+        },
+        {
+          "full_packet": "V",
+          "entry": [
+            0,
+            8,
+            2
+          ],
+          "tick": 76,
+          "C_clock": 2
+        },
+        {
+          "full_packet": "V",
+          "entry": [
+            -1,
+            5,
+            2
+          ],
+          "tick": 94,
+          "C_clock": 2
+        }
+      ],
+      "source_index": 0,
+      "source_kind": "U",
+      "source_tag_physical_site": [
+        -1,
+        2
+      ],
+      "source_tag_normalized_output": [
+        -1,
+        2
+      ],
+      "source_tag_all_actual_reads": [
+        [
+          "L",
+          13
+        ],
+        [
+          "R",
+          21
+        ],
+        [
+          "L",
+          113
+        ]
+      ],
+      "source_full_exit": {
+        "tick": 28,
+        "pose": [
+          0,
+          4,
+          0
+        ],
+        "tag_current": true
+      },
+      "consumer_V_pose_in_source_frame": [
+        -1,
+        5,
+        2
+      ],
+      "consumer_input": [
+        0,
+        3
+      ],
+      "source_to_consumer_C_age": 2,
+      "consumer_input_physical_owner": "word_after_final_V_RAW_phase2; here the actual M11 phase2",
+      "actual_RAW_exit": {
+        "tick": 112,
+        "pose": [
+          -2,
+          2,
+          2
+        ],
+        "mass": 36,
+        "tag_current": true
+      },
+      "after_actual_M11": {
+        "pose": [
+          -2,
+          1,
+          1
+        ],
+        "mass": 35
+      },
+      "genuine_U_entry_eight_factor": true,
+      "foreign_or_three_C_residue_attainment_claimed": false
+    }
+  ],
+  "valid_results_unchanged": [
+    "signed bf616fdc ordered matching/first-D/direct visibility",
+    "signed ef645520 older-entry reproductive cost with role-label erratum f2ff1b4d"
+  ],
+  "exact_three_C_residue_seal_proved": false,
+  "dependencies": {
+    "core_periodicity_new/chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "word_stabilization/check_foreign_return_interfaces.py": "249f89213a96c8daad9d0ecde65e877d5e254af033092adb81b4bbaca0cc729c",
+    "seven_word_spatial_return_2026-10-23/ordered_W_full_output_seal_manifest.json": "6ea48d5dc26b7265ad55e83a99c5282a71fdbfc41f86f88b94934844306c3ac1"
+  }
+}

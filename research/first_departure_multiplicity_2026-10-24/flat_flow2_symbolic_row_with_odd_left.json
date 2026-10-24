@@ -1,0 +1,1438 @@
+{
+  "scope": "Fixed five-corner symbolic flow2 row, retaining odd LEFT mode and all exterior gates.\nNo period, drift, width, segment-length or front search.\n",
+  "candidates": 5700,
+  "rows": [
+    {
+      "Bprev": "O",
+      "A": "X",
+      "B": "O",
+      "Anext": "X",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 3,
+        "clock_cycle": 5,
+        "global_C_max": 1
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "X",
+      "B": "O",
+      "Anext": "X",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 17
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "X",
+      "B": "O",
+      "Anext": "X",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 11,
+        "global_C_max": 3,
+        "clock_cycle": 3
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "X",
+      "B": "O",
+      "Anext": "Y",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 3,
+        "clock_cycle": 6
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "X",
+      "B": "O",
+      "Anext": "Y",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 17
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "X",
+      "B": "O",
+      "Anext": "Y",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 11,
+        "global_C_max": 3,
+        "clock_cycle": 3
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "X",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 32
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "X",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 52
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "X",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 52
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "X",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 32
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "X",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 52
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "X",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 52
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "X",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 28,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "X",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 48,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "X",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 52
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "X",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 28,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "X",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 48,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "X",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 52
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "Y",
+      "B": "O",
+      "Anext": "X",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 3,
+        "clock_cycle": 5,
+        "global_C_max": 1
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "Y",
+      "B": "O",
+      "Anext": "X",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 17
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "Y",
+      "B": "O",
+      "Anext": "X",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 11,
+        "global_C_max": 3,
+        "clock_cycle": 3
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "Y",
+      "B": "O",
+      "Anext": "Y",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 3,
+        "clock_cycle": 6
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "Y",
+      "B": "O",
+      "Anext": "Y",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 17
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "Y",
+      "B": "O",
+      "Anext": "Y",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 11,
+        "global_C_max": 3,
+        "clock_cycle": 3
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "Y",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 32
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "Y",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 52
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "Y",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 52
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "Y",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 32
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "Y",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 52
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "Y",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 52
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "Y",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 28,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "Y",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 48,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "Y",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 52
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "Y",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 28,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "Y",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 48,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "O",
+      "A": "Y",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 52
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "O",
+      "Anext": "X",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 11,
+        "global_C_max": 3,
+        "clock_cycle": 3
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "O",
+      "Anext": "X",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 25
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "O",
+      "Anext": "X",
+      "Bnext": "V",
+      "open_completions": [
+        {
+          "D0": "NNS",
+          "D1": "SS",
+          "E": "E"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SS",
+          "E": "EW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "EWW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "WWE"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "EWWW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "WWEW"
+        }
+      ],
+      "rejections": {
+        "skipped_rank": 19,
+        "open": 6
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "O",
+      "Anext": "Y",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 11,
+        "global_C_max": 3,
+        "clock_cycle": 3
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "O",
+      "Anext": "Y",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 25
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "O",
+      "Anext": "Y",
+      "Bnext": "V",
+      "open_completions": [
+        {
+          "D0": "NNS",
+          "D1": "SS",
+          "E": "E"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SS",
+          "E": "EW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "EWW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "WWE"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "EWWW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "WWEW"
+        }
+      ],
+      "rejections": {
+        "skipped_rank": 19,
+        "open": 6
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "O",
+      "open_completions": [
+        {
+          "D0": "NNSS",
+          "D1": "NNS",
+          "E": "WEE"
+        },
+        {
+          "D0": "NNSS",
+          "D1": "NNS",
+          "E": "WEEW"
+        }
+      ],
+      "rejections": {
+        "skipped_rank": 50,
+        "open": 2
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "U",
+      "open_completions": [
+        {
+          "D0": "NNSS",
+          "D1": "NNSS",
+          "E": "WEE"
+        },
+        {
+          "D0": "NNSS",
+          "D1": "NNSS",
+          "E": "WEEW"
+        }
+      ],
+      "rejections": {
+        "skipped_rank": 94,
+        "open": 2
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 96
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 50,
+        "clock_cycle": 2
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 94,
+        "clock_cycle": 2
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 96
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 48,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 92,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 96
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 48,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 92,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "X",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 96
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "O",
+      "Anext": "X",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 11,
+        "clock_cycle": 6
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "O",
+      "Anext": "X",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 25
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "O",
+      "Anext": "X",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 19,
+        "clock_cycle": 6
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "O",
+      "Anext": "Y",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 11,
+        "clock_cycle": 6
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "O",
+      "Anext": "Y",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 25
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "O",
+      "Anext": "Y",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 19,
+        "clock_cycle": 6
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 50,
+        "clock_cycle": 2
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 94,
+        "clock_cycle": 2
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 96
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 50,
+        "clock_cycle": 2
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 94,
+        "clock_cycle": 2
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 96
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 48,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 92,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 96
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 48,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 92,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "U",
+      "A": "Y",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 96
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "O",
+      "Anext": "X",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 11,
+        "clock_cycle": 6
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "O",
+      "Anext": "X",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 25
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "O",
+      "Anext": "X",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 19,
+        "clock_cycle": 6
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "O",
+      "Anext": "Y",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 11,
+        "clock_cycle": 6
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "O",
+      "Anext": "Y",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 25
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "O",
+      "Anext": "Y",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 19,
+        "clock_cycle": 6
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 50,
+        "clock_cycle": 2
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 94,
+        "clock_cycle": 2
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 96
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 50,
+        "clock_cycle": 2
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 94,
+        "clock_cycle": 2
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 96
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 48,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 92,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 96
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 48,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 92,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "X",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 96
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "O",
+      "Anext": "X",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 11,
+        "global_C_max": 3,
+        "clock_cycle": 3
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "O",
+      "Anext": "X",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 25
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "O",
+      "Anext": "X",
+      "Bnext": "V",
+      "open_completions": [
+        {
+          "D0": "NNS",
+          "D1": "SS",
+          "E": "E"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SS",
+          "E": "EW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "EWW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "WWE"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "EWWW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "WWEW"
+        }
+      ],
+      "rejections": {
+        "skipped_rank": 19,
+        "open": 6
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "O",
+      "Anext": "Y",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 11,
+        "global_C_max": 3,
+        "clock_cycle": 3
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "O",
+      "Anext": "Y",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 25
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "O",
+      "Anext": "Y",
+      "Bnext": "V",
+      "open_completions": [
+        {
+          "D0": "NNS",
+          "D1": "SS",
+          "E": "E"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SS",
+          "E": "EW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "EWW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "WWE"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "EWWW"
+        },
+        {
+          "D0": "NNS",
+          "D1": "SSN",
+          "E": "WWEW"
+        }
+      ],
+      "rejections": {
+        "skipped_rank": 19,
+        "open": 6
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "O",
+      "open_completions": [
+        {
+          "D0": "NNSS",
+          "D1": "NNS",
+          "E": "WEE"
+        },
+        {
+          "D0": "NNSS",
+          "D1": "NNS",
+          "E": "WEEW"
+        }
+      ],
+      "rejections": {
+        "skipped_rank": 50,
+        "open": 2
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "U",
+      "open_completions": [
+        {
+          "D0": "NNSS",
+          "D1": "NNSS",
+          "E": "WEE"
+        },
+        {
+          "D0": "NNSS",
+          "D1": "NNSS",
+          "E": "WEEW"
+        }
+      ],
+      "rejections": {
+        "skipped_rank": 94,
+        "open": 2
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "U",
+      "Anext": "X",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 96
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 50,
+        "clock_cycle": 2
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 94,
+        "clock_cycle": 2
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "U",
+      "Anext": "Y",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 96
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 48,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 92,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "V",
+      "Anext": "X",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 96
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "O",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 48,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "U",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 92,
+        "clock_cycle": 4
+      }
+    },
+    {
+      "Bprev": "V",
+      "A": "Y",
+      "B": "V",
+      "Anext": "Y",
+      "Bnext": "V",
+      "open_completions": [],
+      "rejections": {
+        "skipped_rank": 96
+      }
+    }
+  ],
+  "admissible_count": 8,
+  "warning": "Necessary fixed-window row language at global selected C height M. Open modes are not board factors or translating-front positives; global rank clocks and farther exterior ports remain open."
+}

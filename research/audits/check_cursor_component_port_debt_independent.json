@@ -1,0 +1,33 @@
+{
+  "status": "PASS exact actual eight-read component countercontrol and cursor port accounting",
+  "actual_interval": [
+    9,
+    17
+  ],
+  "same_pose": [
+    -1,
+    0,
+    3
+  ],
+  "word": "LRRRRLLL",
+  "component_norm_sum": 4,
+  "complete_XOR_norm": 12,
+  "duration": 8,
+  "port_debt": [
+    3,
+    1,
+    -1,
+    1,
+    -1,
+    1,
+    1,
+    -1
+  ],
+  "total_port_debt": 4,
+  "singleton_center_head_increment": 1,
+  "bindings": {
+    "causal_component_decomposition_countercontrol.md": "42c3be287e54819f64f3223c5fdd7d749068db6d101a9beb58f135b9e3ebc237",
+    "continuous_cursor_port_debt_lemma.md": "aaa670349840ca23f621cf29bf51f80b822de30f566dd7eccf0dc176378a448f"
+  },
+  "scope": "General read-edge connectedness and variable-center telescoping reviewed analytically. No amortized port-debt bound or historical component budget."
+}

@@ -1,0 +1,661 @@
+{
+  "status": "AUTHOR_U1_AGE4_PREDECESSOR_REDUCTION_PASS",
+  "scope": "Strict unfunded outer U1, produced q age4 only. Uses signed four full-record source templates. Producer cannot be factor-first by initial activations, and its immediate predecessor must be zero-C D/V/U. One-C sources additionally have forced following DC. Does not exclude q4 or prove older support descent.",
+  "rows": [
+    {
+      "source": 5,
+      "source_pose": [
+        -4,
+        -2,
+        0
+      ],
+      "predecessor": 0,
+      "predecessor_pose": [
+        -5,
+        -3,
+        0
+      ],
+      "predecessor_peak": 26,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET"
+    },
+    {
+      "source": 5,
+      "source_pose": [
+        -4,
+        -2,
+        0
+      ],
+      "predecessor": 1,
+      "predecessor_pose": [
+        -6,
+        -1,
+        1
+      ],
+      "predecessor_peak": 30,
+      "reason": "STRICT_RECORD_REJECTED"
+    },
+    {
+      "source": 5,
+      "source_pose": [
+        -4,
+        -2,
+        0
+      ],
+      "predecessor": 4,
+      "predecessor_pose": [
+        -5,
+        -5,
+        0
+      ],
+      "predecessor_peak": 26,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET"
+    },
+    {
+      "source": 5,
+      "source_pose": [
+        -4,
+        -2,
+        0
+      ],
+      "predecessor": 5,
+      "predecessor_pose": [
+        -8,
+        -1,
+        1
+      ],
+      "predecessor_peak": 34,
+      "reason": "STRICT_RECORD_REJECTED"
+    },
+    {
+      "source": 5,
+      "source_pose": [
+        -4,
+        -2,
+        0
+      ],
+      "predecessor": 6,
+      "predecessor_pose": [
+        -4,
+        2,
+        2
+      ],
+      "predecessor_peak": 26,
+      "reason": "FORCED_DC_THREE_PACKET_LITERAL_REJECTED",
+      "conflict": {
+        "packet_index": 2,
+        "packet": 1,
+        "cell": [
+          -6,
+          2
+        ],
+        "earlier_initial_bit": false,
+        "later_initial_bit": true
+      }
+    },
+    {
+      "source": 5,
+      "source_pose": [
+        -4,
+        -2,
+        0
+      ],
+      "predecessor": 7,
+      "predecessor_pose": [
+        -4,
+        -6,
+        0
+      ],
+      "predecessor_peak": 26,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET"
+    },
+    {
+      "source": 5,
+      "source_pose": [
+        -4,
+        -2,
+        0
+      ],
+      "predecessor": 8,
+      "predecessor_pose": [
+        -9,
+        -2,
+        1
+      ],
+      "predecessor_peak": 34,
+      "reason": "STRICT_RECORD_REJECTED"
+    },
+    {
+      "source": 5,
+      "source_pose": [
+        -4,
+        -2,
+        0
+      ],
+      "predecessor": 9,
+      "predecessor_pose": [
+        -5,
+        3,
+        2
+      ],
+      "predecessor_peak": 26,
+      "reason": "FORCED_DC_THREE_PACKET_LITERAL_REJECTED",
+      "conflict": {
+        "packet_index": 2,
+        "packet": 1,
+        "cell": [
+          -4,
+          2
+        ],
+        "earlier_initial_bit": true,
+        "later_initial_bit": false
+      }
+    },
+    {
+      "source": 6,
+      "source_pose": [
+        -4,
+        -2,
+        0
+      ],
+      "predecessor": 0,
+      "predecessor_pose": [
+        -5,
+        -3,
+        0
+      ],
+      "predecessor_peak": 26,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET"
+    },
+    {
+      "source": 6,
+      "source_pose": [
+        -4,
+        -2,
+        0
+      ],
+      "predecessor": 1,
+      "predecessor_pose": [
+        -6,
+        -1,
+        1
+      ],
+      "predecessor_peak": 30,
+      "reason": "STRICT_RECORD_REJECTED"
+    },
+    {
+      "source": 6,
+      "source_pose": [
+        -4,
+        -2,
+        0
+      ],
+      "predecessor": 4,
+      "predecessor_pose": [
+        -5,
+        -5,
+        0
+      ],
+      "predecessor_peak": 26,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET"
+    },
+    {
+      "source": 6,
+      "source_pose": [
+        -4,
+        -2,
+        0
+      ],
+      "predecessor": 5,
+      "predecessor_pose": [
+        -8,
+        -1,
+        1
+      ],
+      "predecessor_peak": 34,
+      "reason": "STRICT_RECORD_REJECTED"
+    },
+    {
+      "source": 6,
+      "source_pose": [
+        -4,
+        -2,
+        0
+      ],
+      "predecessor": 6,
+      "predecessor_pose": [
+        -4,
+        2,
+        2
+      ],
+      "predecessor_peak": 26,
+      "reason": "PAIR_LITERAL_REJECTED",
+      "conflict": {
+        "packet_index": 1,
+        "packet": 6,
+        "cell": [
+          -6,
+          1
+        ],
+        "earlier_initial_bit": false,
+        "later_initial_bit": true
+      }
+    },
+    {
+      "source": 6,
+      "source_pose": [
+        -4,
+        -2,
+        0
+      ],
+      "predecessor": 7,
+      "predecessor_pose": [
+        -4,
+        -6,
+        0
+      ],
+      "predecessor_peak": 26,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET"
+    },
+    {
+      "source": 6,
+      "source_pose": [
+        -4,
+        -2,
+        0
+      ],
+      "predecessor": 8,
+      "predecessor_pose": [
+        -9,
+        -2,
+        1
+      ],
+      "predecessor_peak": 34,
+      "reason": "STRICT_RECORD_REJECTED"
+    },
+    {
+      "source": 6,
+      "source_pose": [
+        -4,
+        -2,
+        0
+      ],
+      "predecessor": 9,
+      "predecessor_pose": [
+        -5,
+        3,
+        2
+      ],
+      "predecessor_peak": 26,
+      "reason": "PAIR_LITERAL_REJECTED",
+      "conflict": {
+        "packet_index": 1,
+        "packet": 6,
+        "cell": [
+          -6,
+          1
+        ],
+        "earlier_initial_bit": false,
+        "later_initial_bit": true
+      }
+    },
+    {
+      "source": 8,
+      "source_pose": [
+        -3,
+        -3,
+        0
+      ],
+      "predecessor": 0,
+      "predecessor_pose": [
+        -4,
+        -4,
+        0
+      ],
+      "predecessor_peak": 22,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET"
+    },
+    {
+      "source": 8,
+      "source_pose": [
+        -3,
+        -3,
+        0
+      ],
+      "predecessor": 1,
+      "predecessor_pose": [
+        -5,
+        -2,
+        1
+      ],
+      "predecessor_peak": 26,
+      "reason": "PAIR_LITERAL_REJECTED",
+      "conflict": {
+        "packet_index": 1,
+        "packet": 8,
+        "cell": [
+          -4,
+          -2
+        ],
+        "earlier_initial_bit": true,
+        "later_initial_bit": false
+      }
+    },
+    {
+      "source": 8,
+      "source_pose": [
+        -3,
+        -3,
+        0
+      ],
+      "predecessor": 4,
+      "predecessor_pose": [
+        -4,
+        -6,
+        0
+      ],
+      "predecessor_peak": 22,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET"
+    },
+    {
+      "source": 8,
+      "source_pose": [
+        -3,
+        -3,
+        0
+      ],
+      "predecessor": 5,
+      "predecessor_pose": [
+        -7,
+        -2,
+        1
+      ],
+      "predecessor_peak": 30,
+      "reason": "STRICT_RECORD_REJECTED"
+    },
+    {
+      "source": 8,
+      "source_pose": [
+        -3,
+        -3,
+        0
+      ],
+      "predecessor": 6,
+      "predecessor_pose": [
+        -3,
+        1,
+        2
+      ],
+      "predecessor_peak": 22,
+      "reason": "PAIR_LITERAL_REJECTED",
+      "conflict": {
+        "packet_index": 1,
+        "packet": 8,
+        "cell": [
+          -4,
+          -2
+        ],
+        "earlier_initial_bit": false,
+        "later_initial_bit": true
+      }
+    },
+    {
+      "source": 8,
+      "source_pose": [
+        -3,
+        -3,
+        0
+      ],
+      "predecessor": 7,
+      "predecessor_pose": [
+        -3,
+        -7,
+        0
+      ],
+      "predecessor_peak": 22,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET"
+    },
+    {
+      "source": 8,
+      "source_pose": [
+        -3,
+        -3,
+        0
+      ],
+      "predecessor": 8,
+      "predecessor_pose": [
+        -8,
+        -3,
+        1
+      ],
+      "predecessor_peak": 30,
+      "reason": "STRICT_RECORD_REJECTED"
+    },
+    {
+      "source": 8,
+      "source_pose": [
+        -3,
+        -3,
+        0
+      ],
+      "predecessor": 9,
+      "predecessor_pose": [
+        -4,
+        2,
+        2
+      ],
+      "predecessor_peak": 22,
+      "reason": "PAIR_LITERAL_REJECTED",
+      "conflict": {
+        "packet_index": 1,
+        "packet": 8,
+        "cell": [
+          -4,
+          -2
+        ],
+        "earlier_initial_bit": false,
+        "later_initial_bit": true
+      }
+    },
+    {
+      "source": 9,
+      "source_pose": [
+        -3,
+        -3,
+        0
+      ],
+      "predecessor": 0,
+      "predecessor_pose": [
+        -4,
+        -4,
+        0
+      ],
+      "predecessor_peak": 22,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET"
+    },
+    {
+      "source": 9,
+      "source_pose": [
+        -3,
+        -3,
+        0
+      ],
+      "predecessor": 1,
+      "predecessor_pose": [
+        -5,
+        -2,
+        1
+      ],
+      "predecessor_peak": 26,
+      "reason": "PAIR_LITERAL_REJECTED",
+      "conflict": {
+        "packet_index": 1,
+        "packet": 9,
+        "cell": [
+          -4,
+          -2
+        ],
+        "earlier_initial_bit": true,
+        "later_initial_bit": false
+      }
+    },
+    {
+      "source": 9,
+      "source_pose": [
+        -3,
+        -3,
+        0
+      ],
+      "predecessor": 4,
+      "predecessor_pose": [
+        -4,
+        -6,
+        0
+      ],
+      "predecessor_peak": 22,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET"
+    },
+    {
+      "source": 9,
+      "source_pose": [
+        -3,
+        -3,
+        0
+      ],
+      "predecessor": 5,
+      "predecessor_pose": [
+        -7,
+        -2,
+        1
+      ],
+      "predecessor_peak": 30,
+      "reason": "STRICT_RECORD_REJECTED"
+    },
+    {
+      "source": 9,
+      "source_pose": [
+        -3,
+        -3,
+        0
+      ],
+      "predecessor": 6,
+      "predecessor_pose": [
+        -3,
+        1,
+        2
+      ],
+      "predecessor_peak": 22,
+      "reason": "PAIR_LITERAL_REJECTED",
+      "conflict": {
+        "packet_index": 1,
+        "packet": 9,
+        "cell": [
+          -5,
+          1
+        ],
+        "earlier_initial_bit": false,
+        "later_initial_bit": true
+      }
+    },
+    {
+      "source": 9,
+      "source_pose": [
+        -3,
+        -3,
+        0
+      ],
+      "predecessor": 7,
+      "predecessor_pose": [
+        -3,
+        -7,
+        0
+      ],
+      "predecessor_peak": 22,
+      "reason": "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET"
+    },
+    {
+      "source": 9,
+      "source_pose": [
+        -3,
+        -3,
+        0
+      ],
+      "predecessor": 8,
+      "predecessor_pose": [
+        -8,
+        -3,
+        1
+      ],
+      "predecessor_peak": 30,
+      "reason": "STRICT_RECORD_REJECTED"
+    },
+    {
+      "source": 9,
+      "source_pose": [
+        -3,
+        -3,
+        0
+      ],
+      "predecessor": 9,
+      "predecessor_pose": [
+        -4,
+        2,
+        2
+      ],
+      "predecessor_peak": 22,
+      "reason": "PAIR_LITERAL_REJECTED",
+      "conflict": {
+        "packet_index": 1,
+        "packet": 9,
+        "cell": [
+          -6,
+          1
+        ],
+        "earlier_initial_bit": false,
+        "later_initial_bit": true
+      }
+    }
+  ],
+  "counts": {
+    "ZERO_C_PREDECESSOR_NECESSARY_SUPERSET": 12,
+    "STRICT_RECORD_REJECTED": 10,
+    "FORCED_DC_THREE_PACKET_LITERAL_REJECTED": 2,
+    "PAIR_LITERAL_REJECTED": 8
+  },
+  "W_zero_C_height_increments": [
+    2,
+    4,
+    4
+  ],
+  "W_positive_C_head_height_caps": {
+    "1": 6,
+    "5": 4,
+    "6": 0,
+    "8": 4,
+    "9": 0
+  },
+  "common_two_C_return_starts": [
+    [
+      [
+        -4,
+        2,
+        2
+      ],
+      2
+    ],
+    [
+      [
+        -5,
+        3,
+        2
+      ],
+      2
+    ]
+  ],
+  "dependencies": {
+    "chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "chronology_dcuv/delayed_height_probe/u1_residue_cegar/root_out.json": "52a20cfa26b60df57cb1ce58fefda880b93983600cb771b43dd3e6e6aafd26cb",
+    "u1_minclock_cohort_frozen_20261023_1118/manifest.json": "145ab13dbf212d8078478b2858647ec38dff3e5c89497381caddd05d32d0e40b",
+    "u_lower_pair_equivalence_frozen_20261023_1146/manifest.json": "a643933b1299c7f8016e24a10710528e5b8a0f53915c0c22c5a6352b549b6af5",
+    "check_U1_age4_predecessor_reduction.py": "63ff66808f1799031acc0089b68b194bdcdcd8064690a88ce65e92666572f4f4"
+  }
+}

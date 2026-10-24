@@ -1,0 +1,477 @@
+{
+  "status": "AUTHOR_FROZEN_PENDING_INDEPENDENT_REVIEW",
+  "scope": "Actual FIRST F then initial ordinary RAW C and ordinary-only suffix. A completed actual RAW U at postF-exit C4 cannot enter(-1,-1,N). This repairs ONLY the firstC\u2192U residue in rejected143d; sourceD\u2192V/U remains OPEN. No F-pair currentness at this head is claimed.",
+  "target_upper_input": {
+    "target_pose": [
+      -1,
+      -1,
+      0
+    ],
+    "cell": [
+      -1,
+      2
+    ],
+    "local": [
+      0,
+      3
+    ],
+    "first_physical_read": [
+      "L",
+      23
+    ],
+    "owner": {
+      "packet": "U",
+      "context_tick0": 23,
+      "context_read_number1": 24,
+      "RAW_length": 28,
+      "owner": "own U-base RAW",
+      "owner_tick0": 23,
+      "owner_read_number1": 24,
+      "turn": "L",
+      "next_word_tick0": null,
+      "next_word_read_number1": null,
+      "label": "context tick 23 (zero-based), RAW length 28; own U-base RAW tick 23 (zero-based), read 24 (one-based), L"
+    },
+    "actual_produced_age_minimum": 4,
+    "outside_actual_target_ENTRY_CORE": true
+  },
+  "actual_initial_C_run_at_most_two": {
+    "word": "FCCC",
+    "actual_conflict": {
+      "feasible": false,
+      "conflict_read": 99,
+      "previous_read": 47,
+      "cell": [
+        -2,
+        -1
+      ],
+      "turn": "R"
+    },
+    "original_F_R47_still_unread_until_third_C": true,
+    "third_C_own_RAW_tick0": 13,
+    "third_C_own_RAW_read1": 14,
+    "third_C_RAW_not_complete": true,
+    "not_a_terminal_C_or_DCC_grammar_claim": true
+  },
+  "all6_real_first_BASE_guard_branches": [
+    {
+      "initial_leading_C_count": 1,
+      "first_actual_BASE": "D",
+      "first_BASE_pose": [
+        0,
+        1,
+        3
+      ],
+      "actual_first_BASE_ENTRY_C_clock": 1,
+      "physical_guard_g": [
+        -1,
+        2
+      ],
+      "local": [
+        1,
+        1
+      ],
+      "actual_first": [
+        "R",
+        6
+      ],
+      "actual_owner": {
+        "packet": "D",
+        "context_tick0": 6,
+        "context_read_number1": 7,
+        "RAW_length": 10,
+        "owner": "own D-base RAW",
+        "owner_tick0": 6,
+        "owner_read_number1": 7,
+        "turn": "R",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 6 (zero-based), RAW length 10; own D-base RAW tick 6 (zero-based), read 7 (one-based), R"
+      },
+      "route": "physical_WHITE_at_first_BASE_ENTRY_by_own_first_R6",
+      "g_cannot_be_an_external_entry_residual_of_selected_BASE_factor": true,
+      "target_U_ENTRY_clock": 4,
+      "maximum_possible_produced_age": 3,
+      "produced_input_minimum": 4,
+      "strict_age_contradiction": true,
+      "actual_prior_RAW_to_first_BASE": "C",
+      "selected_BASE_to_actual_target_U_is_actual_G8_by_signed_BASE_cut_bridge": true,
+      "no_FOREIGN_inside_selected_factor": true
+    },
+    {
+      "initial_leading_C_count": 1,
+      "first_actual_BASE": "V",
+      "first_BASE_pose": [
+        0,
+        1,
+        3
+      ],
+      "actual_first_BASE_ENTRY_C_clock": 1,
+      "physical_guard_g": [
+        -1,
+        2
+      ],
+      "local": [
+        1,
+        1
+      ],
+      "actual_first": [
+        "R",
+        6
+      ],
+      "actual_owner": {
+        "packet": "V",
+        "context_tick0": 6,
+        "context_read_number1": 7,
+        "RAW_length": 18,
+        "owner": "own V-base RAW",
+        "owner_tick0": 6,
+        "owner_read_number1": 7,
+        "turn": "R",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 6 (zero-based), RAW length 18; own V-base RAW tick 6 (zero-based), read 7 (one-based), R"
+      },
+      "route": "physical_WHITE_at_first_BASE_ENTRY_by_own_first_R6",
+      "g_cannot_be_an_external_entry_residual_of_selected_BASE_factor": true,
+      "target_U_ENTRY_clock": 4,
+      "maximum_possible_produced_age": 3,
+      "produced_input_minimum": 4,
+      "strict_age_contradiction": true,
+      "actual_prior_RAW_to_first_BASE": "C",
+      "selected_BASE_to_actual_target_U_is_actual_G8_by_signed_BASE_cut_bridge": true,
+      "no_FOREIGN_inside_selected_factor": true
+    },
+    {
+      "initial_leading_C_count": 1,
+      "first_actual_BASE": "U",
+      "first_BASE_pose": [
+        0,
+        1,
+        3
+      ],
+      "actual_first_BASE_ENTRY_C_clock": 1,
+      "physical_guard_g": [
+        -1,
+        2
+      ],
+      "local": [
+        1,
+        1
+      ],
+      "actual_first": [
+        "R",
+        6
+      ],
+      "actual_owner": {
+        "packet": "U",
+        "context_tick0": 6,
+        "context_read_number1": 7,
+        "RAW_length": 28,
+        "owner": "own U-base RAW",
+        "owner_tick0": 6,
+        "owner_read_number1": 7,
+        "turn": "R",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 6 (zero-based), RAW length 28; own U-base RAW tick 6 (zero-based), read 7 (one-based), R"
+      },
+      "route": "physical_WHITE_at_first_BASE_ENTRY_by_own_first_R6",
+      "g_cannot_be_an_external_entry_residual_of_selected_BASE_factor": true,
+      "target_U_ENTRY_clock": 4,
+      "maximum_possible_produced_age": 3,
+      "produced_input_minimum": 4,
+      "strict_age_contradiction": true,
+      "actual_prior_RAW_to_first_BASE": "C",
+      "selected_BASE_to_actual_target_U_is_actual_G8_by_signed_BASE_cut_bridge": true,
+      "no_FOREIGN_inside_selected_factor": true
+    },
+    {
+      "initial_leading_C_count": 2,
+      "first_actual_BASE": "D",
+      "first_BASE_pose": [
+        -1,
+        1,
+        2
+      ],
+      "actual_first_BASE_ENTRY_C_clock": 2,
+      "physical_guard_g": [
+        -1,
+        2
+      ],
+      "local": [
+        0,
+        -1
+      ],
+      "actual_first": [
+        "L",
+        3
+      ],
+      "actual_owner": {
+        "packet": "D",
+        "context_tick0": 3,
+        "context_read_number1": 4,
+        "RAW_length": 10,
+        "owner": "own D-base RAW",
+        "owner_tick0": 3,
+        "owner_read_number1": 4,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 3 (zero-based), RAW length 10; own D-base RAW tick 3 (zero-based), read 4 (one-based), L"
+      },
+      "route": "real_CORE_g_physically_deleted_by_first_BASE_own_L3",
+      "g_cannot_be_an_external_entry_residual_of_selected_BASE_factor": true,
+      "target_U_ENTRY_clock": 4,
+      "maximum_possible_produced_age": 2,
+      "produced_input_minimum": 4,
+      "strict_age_contradiction": true,
+      "actual_prior_RAW_to_first_BASE": "C",
+      "selected_BASE_to_actual_target_U_is_actual_G8_by_signed_BASE_cut_bridge": true,
+      "no_FOREIGN_inside_selected_factor": true
+    },
+    {
+      "initial_leading_C_count": 2,
+      "first_actual_BASE": "V",
+      "first_BASE_pose": [
+        -1,
+        1,
+        2
+      ],
+      "actual_first_BASE_ENTRY_C_clock": 2,
+      "physical_guard_g": [
+        -1,
+        2
+      ],
+      "local": [
+        0,
+        -1
+      ],
+      "actual_first": [
+        "L",
+        3
+      ],
+      "actual_owner": {
+        "packet": "V",
+        "context_tick0": 3,
+        "context_read_number1": 4,
+        "RAW_length": 18,
+        "owner": "own V-base RAW",
+        "owner_tick0": 3,
+        "owner_read_number1": 4,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 3 (zero-based), RAW length 18; own V-base RAW tick 3 (zero-based), read 4 (one-based), L"
+      },
+      "route": "real_CORE_g_physically_deleted_by_first_BASE_own_L3",
+      "g_cannot_be_an_external_entry_residual_of_selected_BASE_factor": true,
+      "target_U_ENTRY_clock": 4,
+      "maximum_possible_produced_age": 2,
+      "produced_input_minimum": 4,
+      "strict_age_contradiction": true,
+      "actual_prior_RAW_to_first_BASE": "C",
+      "selected_BASE_to_actual_target_U_is_actual_G8_by_signed_BASE_cut_bridge": true,
+      "no_FOREIGN_inside_selected_factor": true
+    },
+    {
+      "initial_leading_C_count": 2,
+      "first_actual_BASE": "U",
+      "first_BASE_pose": [
+        -1,
+        1,
+        2
+      ],
+      "actual_first_BASE_ENTRY_C_clock": 2,
+      "physical_guard_g": [
+        -1,
+        2
+      ],
+      "local": [
+        0,
+        -1
+      ],
+      "actual_first": [
+        "L",
+        3
+      ],
+      "actual_owner": {
+        "packet": "U",
+        "context_tick0": 3,
+        "context_read_number1": 4,
+        "RAW_length": 28,
+        "owner": "own U-base RAW",
+        "owner_tick0": 3,
+        "owner_read_number1": 4,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 3 (zero-based), RAW length 28; own U-base RAW tick 3 (zero-based), read 4 (one-based), L"
+      },
+      "route": "real_CORE_g_physically_deleted_by_first_BASE_own_L3",
+      "g_cannot_be_an_external_entry_residual_of_selected_BASE_factor": true,
+      "target_U_ENTRY_clock": 4,
+      "maximum_possible_produced_age": 2,
+      "produced_input_minimum": 4,
+      "strict_age_contradiction": true,
+      "actual_prior_RAW_to_first_BASE": "C",
+      "selected_BASE_to_actual_target_U_is_actual_G8_by_signed_BASE_cut_bridge": true,
+      "no_FOREIGN_inside_selected_factor": true
+    }
+  ],
+  "first_BASE_exists": "TargetU is itself a BASE atclock4, while maximal initial C run<=2. Thus the first BASE enters atclock1 or2 and is strictly earlier, not a hypothetical predecessor.",
+  "fresh_ownership_argument": "Select the factor at that first genuine BASE and end at actual targetU, with SAME real finalM11. Signed RAW-to-G8 bridge applies; a firstD has its ACTUAL precedingC. For m1 g is initially physicallyWHITE by firstBASE ownR6. For m2 g is initialCORE and physically L3-deleted. No old external entry identity can fund the target. At target g is a TRUE upper input outside entryCORE, so its BLACK owner is a genuine fullO identity born in this factor; a prior EXITCORE R cannot silently export an untouched original CORE lifetime. Every producer fullENTRY clock>=m, hence age<=4-m<=3<minimum4. Actual CORE R repairs remain allowed but have the same fresh produced clock bound.",
+  "exact_original_residue_lift": {
+    "original_row": {
+      "first_post_RAW": "C",
+      "actor": "U",
+      "pose": [
+        -1,
+        -1,
+        0
+      ],
+      "old_F_parameter": "2/3",
+      "new_parameter": "1/6",
+      "K": 4,
+      "route": "CURRENT_source_outputs_and_coupled_F46_F47_CORE_or_WHITE",
+      "guards": [
+        {
+          "SAME_CURRENT_BLACK": [
+            -2,
+            -1
+          ],
+          "local": [
+            -1,
+            0
+          ],
+          "role": "ENTRY_CORE",
+          "actual_first": [
+            "L",
+            1
+          ],
+          "owner": {
+            "packet": "U",
+            "context_tick0": 1,
+            "context_read_number1": 2,
+            "RAW_length": 28,
+            "owner": "own U-base RAW",
+            "owner_tick0": 1,
+            "owner_read_number1": 2,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 1 (zero-based), RAW length 28; own U-base RAW tick 1 (zero-based), read 2 (one-based), L"
+          }
+        }
+      ]
+    },
+    "status": "OPEN_necessary_not_attained",
+    "reason": "The possible earlier F47 loss RAW exits exactly the actor ENTRY(-1,-1,N). Original F47 may be aliveCORE there. No independent source-output before-WHITE/core guard is present. D/V/U loss\u2192V/U actor local pairs are literal-consistent."
+  },
+  "original143d_full84_universal_pair_claim_still_NOT_PASSED": true,
+  "remaining_two_sourceD_N4_residues": [
+    {
+      "original_row": {
+        "first_post_RAW": "D",
+        "actor": "V",
+        "pose": [
+          -1,
+          -1,
+          0
+        ],
+        "old_F_parameter": "3/4",
+        "new_parameter": "1/4",
+        "K": 4,
+        "route": "CURRENT_source_outputs_and_coupled_F46_F47_CORE_or_WHITE",
+        "guards": [
+          {
+            "SAME_CURRENT_BLACK": [
+              -2,
+              -1
+            ],
+            "local": [
+              -1,
+              0
+            ],
+            "role": "ENTRY_CORE",
+            "actual_first": [
+              "L",
+              1
+            ],
+            "owner": {
+              "packet": "V",
+              "context_tick0": 1,
+              "context_read_number1": 2,
+              "RAW_length": 18,
+              "owner": "own V-base RAW",
+              "owner_tick0": 1,
+              "owner_read_number1": 2,
+              "turn": "L",
+              "next_word_tick0": null,
+              "next_word_read_number1": null,
+              "label": "context tick 1 (zero-based), RAW length 18; own V-base RAW tick 1 (zero-based), read 2 (one-based), L"
+            }
+          }
+        ]
+      },
+      "status": "OPEN_necessary_not_attained",
+      "reason": "The possible earlier F47 loss RAW exits exactly the actor ENTRY(-1,-1,N). Original F47 may be aliveCORE there. No independent source-output before-WHITE/core guard is present. D/V/U loss\u2192V/U actor local pairs are literal-consistent."
+    },
+    {
+      "original_row": {
+        "first_post_RAW": "D",
+        "actor": "U",
+        "pose": [
+          -1,
+          -1,
+          0
+        ],
+        "old_F_parameter": "2/3",
+        "new_parameter": "1/6",
+        "K": 4,
+        "route": "CURRENT_source_outputs_and_coupled_F46_F47_CORE_or_WHITE",
+        "guards": [
+          {
+            "SAME_CURRENT_BLACK": [
+              -2,
+              -1
+            ],
+            "local": [
+              -1,
+              0
+            ],
+            "role": "ENTRY_CORE",
+            "actual_first": [
+              "L",
+              1
+            ],
+            "owner": {
+              "packet": "U",
+              "context_tick0": 1,
+              "context_read_number1": 2,
+              "RAW_length": 28,
+              "owner": "own U-base RAW",
+              "owner_tick0": 1,
+              "owner_read_number1": 2,
+              "turn": "L",
+              "next_word_tick0": null,
+              "next_word_read_number1": null,
+              "label": "context tick 1 (zero-based), RAW length 28; own U-base RAW tick 1 (zero-based), read 2 (one-based), L"
+            }
+          }
+        ]
+      },
+      "status": "OPEN_necessary_not_attained",
+      "reason": "The possible earlier F47 loss RAW exits exactly the actor ENTRY(-1,-1,N). Original F47 may be aliveCORE there. No independent source-output before-WHITE/core guard is present. D/V/U loss\u2192V/U actor local pairs are literal-consistent."
+    }
+  ],
+  "dependencies": {
+    "word_stabilization/check_foreign_return_interfaces.py": "249f89213a96c8daad9d0ecde65e877d5e254af033092adb81b4bbaca0cc729c",
+    "literal_ownership_conventions_2026-10-24/canonical_read_ownership.py": "041b40e04a0f71a6b9511abf1d15b1d86c548e74f4f99281477c115b72036ea2",
+    "core_periodicity_new/chronology_dcuv/counted_input_age_rules_complete.json": "ce1d90d3887522fe5c71ad132eda9be3c32302d897a51ea38fbfabb0d08624bc",
+    "ordinary_RAW_G8_base_cut_bridge_2026-10-24/manifest.json": "8a311a4c67a3447c06ff6feddadacb4928a3ffba63f4b8e8088c4663e2a36704",
+    "audits/check_RAW_G8_base_cut_bridge_independent.json": "e2ff4f66ed0c660b80ad537ad9741a43fe9aef6799873c801e624ad232fb6e17",
+    "original_F_piece_firstpost_DC_2026-10-24/manifest.json": "143d03405324ce9d064042ecd0ecf3e4877b7bbf8a078d75d8c5cdd7adbbeff2",
+    "original_F_piece_firstpost_DC_2026-10-24/partial_scope_qualification_manifest.json": "45abc7fa94ad82eb0b96c9cd726a1cd8621d26dc0d53a2d824ff8af291e451c1"
+  }
+}

@@ -1,0 +1,662 @@
+{
+  "period": 104,
+  "drift": [
+    -2,
+    2
+  ],
+  "read_phase_count": 104,
+  "node_phase_count": 46,
+  "parent_cycles": [
+    {
+      "phases": [
+        27,
+        13
+      ],
+      "winding": 1,
+      "total_delay": 104
+    },
+    {
+      "phases": [
+        45,
+        55
+      ],
+      "winding": 1,
+      "total_delay": 104
+    }
+  ],
+  "cycle_records": {
+    "13": {
+      "parent_phase": 27,
+      "parent_delay": 90,
+      "child_r": 4,
+      "birth_slot": 2,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        1
+      ],
+      "birth_age": 88
+    },
+    "27": {
+      "parent_phase": 13,
+      "parent_delay": 14,
+      "child_r": 4,
+      "birth_slot": 2,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        1
+      ],
+      "birth_age": 12
+    },
+    "45": {
+      "parent_phase": 55,
+      "parent_delay": 94,
+      "child_r": 4,
+      "birth_slot": 2,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        1
+      ],
+      "birth_age": 92
+    },
+    "55": {
+      "parent_phase": 45,
+      "parent_delay": 10,
+      "child_r": 4,
+      "birth_slot": 2,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        1
+      ],
+      "birth_age": 8
+    }
+  },
+  "all_node_records": {
+    "1": {
+      "parent_phase": 37,
+      "parent_delay": 68,
+      "child_r": 1,
+      "birth_slot": 4,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 64
+    },
+    "3": {
+      "parent_phase": 37,
+      "parent_delay": 70,
+      "child_r": 0,
+      "birth_slot": 2,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        1
+      ],
+      "birth_age": 68
+    },
+    "4": {
+      "parent_phase": 45,
+      "parent_delay": 63,
+      "child_r": 4,
+      "birth_slot": 3,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 60
+    },
+    "9": {
+      "parent_phase": 4,
+      "parent_delay": 5,
+      "child_r": 0,
+      "birth_slot": 1,
+      "forward": true,
+      "spatial_step": [
+        1,
+        -1
+      ],
+      "birth_age": 4
+    },
+    "10": {
+      "parent_phase": 1,
+      "parent_delay": 9,
+      "child_r": 1,
+      "birth_slot": 1,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 8
+    },
+    "12": {
+      "parent_phase": 37,
+      "parent_delay": 79,
+      "child_r": 0,
+      "birth_slot": 3,
+      "forward": true,
+      "spatial_step": [
+        1,
+        1
+      ],
+      "birth_age": 76
+    },
+    "13": {
+      "parent_phase": 27,
+      "parent_delay": 90,
+      "child_r": 4,
+      "birth_slot": 2,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        1
+      ],
+      "birth_age": 88
+    },
+    "18": {
+      "parent_phase": 13,
+      "parent_delay": 5,
+      "child_r": 0,
+      "birth_slot": 1,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        -1
+      ],
+      "birth_age": 4
+    },
+    "19": {
+      "parent_phase": 10,
+      "parent_delay": 9,
+      "child_r": 4,
+      "birth_slot": 1,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 8
+    },
+    "24": {
+      "parent_phase": 19,
+      "parent_delay": 5,
+      "child_r": 0,
+      "birth_slot": 1,
+      "forward": true,
+      "spatial_step": [
+        1,
+        1
+      ],
+      "birth_age": 4
+    },
+    "25": {
+      "parent_phase": 13,
+      "parent_delay": 12,
+      "child_r": 1,
+      "birth_slot": 4,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 8
+    },
+    "27": {
+      "parent_phase": 13,
+      "parent_delay": 14,
+      "child_r": 4,
+      "birth_slot": 2,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        1
+      ],
+      "birth_age": 12
+    },
+    "32": {
+      "parent_phase": 27,
+      "parent_delay": 5,
+      "child_r": 1,
+      "birth_slot": 1,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        -1
+      ],
+      "birth_age": 4
+    },
+    "34": {
+      "parent_phase": 55,
+      "parent_delay": 83,
+      "child_r": 0,
+      "birth_slot": 3,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 80
+    },
+    "35": {
+      "parent_phase": 4,
+      "parent_delay": 31,
+      "child_r": 0,
+      "birth_slot": 3,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 28
+    },
+    "36": {
+      "parent_phase": 4,
+      "parent_delay": 32,
+      "child_r": 0,
+      "birth_slot": 4,
+      "forward": true,
+      "spatial_step": [
+        1,
+        1
+      ],
+      "birth_age": 28
+    },
+    "37": {
+      "parent_phase": 32,
+      "parent_delay": 5,
+      "child_r": 4,
+      "birth_slot": 1,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 4
+    },
+    "42": {
+      "parent_phase": 37,
+      "parent_delay": 5,
+      "child_r": 2,
+      "birth_slot": 1,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        -1
+      ],
+      "birth_age": 4
+    },
+    "45": {
+      "parent_phase": 55,
+      "parent_delay": 94,
+      "child_r": 4,
+      "birth_slot": 2,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        1
+      ],
+      "birth_age": 92
+    },
+    "50": {
+      "parent_phase": 45,
+      "parent_delay": 5,
+      "child_r": 0,
+      "birth_slot": 1,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        -1
+      ],
+      "birth_age": 4
+    },
+    "51": {
+      "parent_phase": 60,
+      "parent_delay": 95,
+      "child_r": 0,
+      "birth_slot": 3,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 92
+    },
+    "52": {
+      "parent_phase": 42,
+      "parent_delay": 10,
+      "child_r": 0,
+      "birth_slot": 2,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 8
+    },
+    "53": {
+      "parent_phase": 45,
+      "parent_delay": 8,
+      "child_r": 1,
+      "birth_slot": 4,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 4
+    },
+    "55": {
+      "parent_phase": 45,
+      "parent_delay": 10,
+      "child_r": 4,
+      "birth_slot": 2,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        1
+      ],
+      "birth_age": 8
+    },
+    "60": {
+      "parent_phase": 55,
+      "parent_delay": 5,
+      "child_r": 4,
+      "birth_slot": 1,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        -1
+      ],
+      "birth_age": 4
+    },
+    "65": {
+      "parent_phase": 60,
+      "parent_delay": 5,
+      "child_r": 0,
+      "birth_slot": 1,
+      "forward": true,
+      "spatial_step": [
+        1,
+        -1
+      ],
+      "birth_age": 4
+    },
+    "66": {
+      "parent_phase": 53,
+      "parent_delay": 13,
+      "child_r": 0,
+      "birth_slot": 1,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 12
+    },
+    "67": {
+      "parent_phase": 55,
+      "parent_delay": 12,
+      "child_r": 0,
+      "birth_slot": 4,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 8
+    },
+    "68": {
+      "parent_phase": 60,
+      "parent_delay": 8,
+      "child_r": 1,
+      "birth_slot": 4,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 4
+    },
+    "70": {
+      "parent_phase": 60,
+      "parent_delay": 10,
+      "child_r": 4,
+      "birth_slot": 2,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        -1
+      ],
+      "birth_age": 8
+    },
+    "75": {
+      "parent_phase": 70,
+      "parent_delay": 5,
+      "child_r": 1,
+      "birth_slot": 1,
+      "forward": true,
+      "spatial_step": [
+        1,
+        -1
+      ],
+      "birth_age": 4
+    },
+    "77": {
+      "parent_phase": 70,
+      "parent_delay": 111,
+      "child_r": 0,
+      "birth_slot": 3,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 108
+    },
+    "78": {
+      "parent_phase": 70,
+      "parent_delay": 112,
+      "child_r": 2,
+      "birth_slot": 4,
+      "forward": true,
+      "spatial_step": [
+        1,
+        1
+      ],
+      "birth_age": 108
+    },
+    "81": {
+      "parent_phase": 68,
+      "parent_delay": 117,
+      "child_r": 0,
+      "birth_slot": 1,
+      "forward": true,
+      "spatial_step": [
+        1,
+        -1
+      ],
+      "birth_age": 116
+    },
+    "82": {
+      "parent_phase": 4,
+      "parent_delay": 78,
+      "child_r": 0,
+      "birth_slot": 2,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 76
+    },
+    "83": {
+      "parent_phase": 42,
+      "parent_delay": 41,
+      "child_r": 0,
+      "birth_slot": 1,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 40
+    },
+    "84": {
+      "parent_phase": 78,
+      "parent_delay": 6,
+      "child_r": 2,
+      "birth_slot": 2,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 4
+    },
+    "87": {
+      "parent_phase": 78,
+      "parent_delay": 9,
+      "child_r": 0,
+      "birth_slot": 1,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        1
+      ],
+      "birth_age": 8
+    },
+    "88": {
+      "parent_phase": 75,
+      "parent_delay": 13,
+      "child_r": 4,
+      "birth_slot": 1,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 12
+    },
+    "93": {
+      "parent_phase": 88,
+      "parent_delay": 5,
+      "child_r": 0,
+      "birth_slot": 1,
+      "forward": true,
+      "spatial_step": [
+        1,
+        -1
+      ],
+      "birth_age": 4
+    },
+    "94": {
+      "parent_phase": 84,
+      "parent_delay": 10,
+      "child_r": 2,
+      "birth_slot": 2,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 8
+    },
+    "97": {
+      "parent_phase": 84,
+      "parent_delay": 13,
+      "child_r": 1,
+      "birth_slot": 1,
+      "forward": true,
+      "spatial_step": [
+        1,
+        -1
+      ],
+      "birth_age": 12
+    },
+    "99": {
+      "parent_phase": 94,
+      "parent_delay": 109,
+      "child_r": 0,
+      "birth_slot": 1,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 108
+    },
+    "100": {
+      "parent_phase": 94,
+      "parent_delay": 110,
+      "child_r": 1,
+      "birth_slot": 2,
+      "forward": true,
+      "spatial_step": [
+        1,
+        1
+      ],
+      "birth_age": 108
+    },
+    "102": {
+      "parent_phase": 19,
+      "parent_delay": 83,
+      "child_r": 0,
+      "birth_slot": 3,
+      "forward": false,
+      "spatial_step": [
+        0,
+        0
+      ],
+      "birth_age": 80
+    },
+    "103": {
+      "parent_phase": 19,
+      "parent_delay": 84,
+      "child_r": 1,
+      "birth_slot": 4,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        1
+      ],
+      "birth_age": 80
+    }
+  },
+  "max_black_lifetime_age": 116,
+  "max_parent_delay": 117,
+  "max_cursor_node_bush_depth": 6,
+  "max_bud_inclusive_bush_depth": 7,
+  "max_side_branch_delay": 253,
+  "module_node_counts": {
+    "27": 14,
+    "45": 9,
+    "13": 3,
+    "55": 20
+  },
+  "module_permanent_bud_counts": {
+    "13": 2,
+    "27": 4,
+    "55": 6
+  },
+  "permanent_bud_phases": [
+    15,
+    20,
+    25,
+    29,
+    30,
+    71,
+    89,
+    90,
+    91,
+    97,
+    100,
+    103
+  ],
+  "checks": "All integer translation-class equations and color alternations passed."
+}

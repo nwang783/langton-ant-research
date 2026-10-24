@@ -1,0 +1,114 @@
+{
+  "status": "PASS exact full-drift three-phase RIGHT rail forces some displayed helper to exceed four reads",
+  "proof_sha256": "5e59fc91558ad1427d7711ac1b7961017eb2bdbc304ee08de21ba9063153d9ae",
+  "checker_sha256": "b51564cf53d80fb023cf2699b50fab7084c7c77427b8f61d2791e45214446518",
+  "certificate_sha256": "fd45d36e45d2f0a8fd83de4f984369495c4b4b1357086704d9c269b092a07e21",
+  "helper_domains": {
+    "L0": [
+      "EEE",
+      "EEEE"
+    ],
+    "L2": [
+      "WEW",
+      "WEWE"
+    ]
+  },
+  "complete_next_helper_modes": [
+    {
+      "L0": "EEE",
+      "L2": "WEW",
+      "Q": "NNNS",
+      "N_in": 3,
+      "E_out": 3
+    },
+    {
+      "L0": "EEE",
+      "L2": "WEW",
+      "Q": "NSNN",
+      "N_in": 3,
+      "E_out": 3
+    }
+  ],
+  "physical_routes": [
+    [
+      [
+        [
+          0,
+          0
+        ],
+        2
+      ],
+      [
+        [
+          -1,
+          0
+        ],
+        0
+      ],
+      [
+        [
+          -1,
+          1
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        1
+      ]
+    ],
+    [
+      [
+        [
+          0,
+          0
+        ],
+        2
+      ],
+      [
+        [
+          -1,
+          0
+        ],
+        0
+      ],
+      [
+        [
+          -1,
+          1
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        1
+      ]
+    ]
+  ],
+  "analytic_review": [
+    "The crucial zero port is supplied by B+d=(-1,-1) using the stated FULL drift(-3,-3), not a primitive representative. All three named rail classes have complete histories, so no hidden edge arrivals are allowed.",
+    "If each displayed helper has at most four reads, its complete WHITE alternating inventory is exhaustively derived from physical incoming/outgoing counts. Odd and even helper endings are retained.",
+    "In both remaining Q modes every arrow is literal next-read first-edge ordinal, on the same physical unit square. F rank2 would reach F rank1 four updates later, contradicting actual chronological rank order without any period bound or exterior assumption.",
+    "Uncapped SNNSN satisfies the local counts but its firstN is L1, so the safe conclusion is that at least one of L0,L2,Q exceeds four. The five-read local counterprofile is not a completed rail/front. No general drift or one-flat exclusion follows."
+  ]
+}

@@ -1,0 +1,489 @@
+{
+  "scope": "Constructive guide routing for one SPECIFIED odd-root mixed incoming portal interface.\nNot a front, period, multiplicity or support-width scan. A failure is only a\nrouting failure and is not promoted as an impossibility statement.\n",
+  "core": {
+    "(-1, 0)": "",
+    "(-1, 1)": "SS",
+    "(-1, 2)": "EEWW",
+    "(-1, 3)": "NN",
+    "(0, 0)": "",
+    "(0, 1)": "WE",
+    "(0, 2)": "SNN",
+    "(0, 3)": "E",
+    "(1, 0)": "W",
+    "(1, 1)": "SSNS",
+    "(1, 2)": "WWEW",
+    "(1, 3)": "N",
+    "(2, 0)": "SS",
+    "(2, 1)": "EEE",
+    "(2, 2)": "SSSN",
+    "(2, 3)": "WWEW"
+  },
+  "word": "RRRRLRRRRLRLRRLRLRRLLRRLRLRRLRRRRLLLLRLRRRRLRLRRLRRLRLLRLRLRRLRRLRLLLLRRRRLRLRLRRLLLLRRLRRRRLLLLRL",
+  "initial_black": [
+    [
+      -3,
+      2
+    ],
+    [
+      -2,
+      0
+    ],
+    [
+      -2,
+      1
+    ],
+    [
+      -2,
+      4
+    ],
+    [
+      -2,
+      5
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      5
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      -1
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ]
+  ],
+  "start": [
+    [
+      2,
+      3
+    ],
+    "W"
+  ],
+  "end": [
+    [
+      3,
+      0
+    ],
+    "E"
+  ],
+  "final_black": [
+    [
+      -3,
+      0
+    ],
+    [
+      -3,
+      4
+    ],
+    [
+      -3,
+      5
+    ],
+    [
+      -2,
+      -1
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -2,
+      3
+    ],
+    [
+      -2,
+      6
+    ],
+    [
+      -1,
+      -2
+    ],
+    [
+      -1,
+      6
+    ],
+    [
+      0,
+      -2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      -2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      -2
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      -1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      6
+    ]
+  ],
+  "target_histories": {
+    "(-1, 0)": [],
+    "(-1, 1)": [
+      {
+        "t": 31,
+        "incoming": "S",
+        "turn": "R"
+      },
+      {
+        "t": 83,
+        "incoming": "S",
+        "turn": "L"
+      }
+    ],
+    "(-1, 2)": [
+      {
+        "t": 30,
+        "incoming": "E",
+        "turn": "R"
+      },
+      {
+        "t": 38,
+        "incoming": "E",
+        "turn": "L"
+      },
+      {
+        "t": 42,
+        "incoming": "W",
+        "turn": "R"
+      },
+      {
+        "t": 82,
+        "incoming": "W",
+        "turn": "L"
+      }
+    ],
+    "(-1, 3)": [
+      {
+        "t": 39,
+        "incoming": "N",
+        "turn": "R"
+      },
+      {
+        "t": 43,
+        "incoming": "N",
+        "turn": "L"
+      }
+    ],
+    "(0, 0)": [],
+    "(0, 1)": [
+      {
+        "t": 80,
+        "incoming": "W",
+        "turn": "R"
+      },
+      {
+        "t": 84,
+        "incoming": "E",
+        "turn": "L"
+      }
+    ],
+    "(0, 2)": [
+      {
+        "t": 41,
+        "incoming": "S",
+        "turn": "R"
+      },
+      {
+        "t": 81,
+        "incoming": "N",
+        "turn": "L"
+      },
+      {
+        "t": 85,
+        "incoming": "N",
+        "turn": "R"
+      }
+    ],
+    "(0, 3)": [
+      {
+        "t": 40,
+        "incoming": "E",
+        "turn": "R"
+      }
+    ],
+    "(1, 0)": [
+      {
+        "t": 90,
+        "incoming": "W",
+        "turn": "R"
+      }
+    ],
+    "(1, 1)": [
+      {
+        "t": 79,
+        "incoming": "S",
+        "turn": "R"
+      },
+      {
+        "t": 87,
+        "incoming": "S",
+        "turn": "L"
+      },
+      {
+        "t": 91,
+        "incoming": "N",
+        "turn": "R"
+      },
+      {
+        "t": 95,
+        "incoming": "S",
+        "turn": "L"
+      }
+    ],
+    "(1, 2)": [
+      {
+        "t": 6,
+        "incoming": "W",
+        "turn": "R"
+      },
+      {
+        "t": 78,
+        "incoming": "W",
+        "turn": "L"
+      },
+      {
+        "t": 86,
+        "incoming": "E",
+        "turn": "R"
+      },
+      {
+        "t": 94,
+        "incoming": "W",
+        "turn": "L"
+      }
+    ],
+    "(1, 3)": [
+      {
+        "t": 7,
+        "incoming": "N",
+        "turn": "R"
+      }
+    ],
+    "(2, 0)": [
+      {
+        "t": 89,
+        "incoming": "S",
+        "turn": "R"
+      },
+      {
+        "t": 97,
+        "incoming": "S",
+        "turn": "L"
+      }
+    ],
+    "(2, 1)": [
+      {
+        "t": 88,
+        "incoming": "E",
+        "turn": "R"
+      },
+      {
+        "t": 92,
+        "incoming": "E",
+        "turn": "L"
+      },
+      {
+        "t": 96,
+        "incoming": "E",
+        "turn": "R"
+      }
+    ],
+    "(2, 2)": [
+      {
+        "t": 5,
+        "incoming": "S",
+        "turn": "R"
+      },
+      {
+        "t": 9,
+        "incoming": "S",
+        "turn": "L"
+      },
+      {
+        "t": 77,
+        "incoming": "S",
+        "turn": "R"
+      },
+      {
+        "t": 93,
+        "incoming": "N",
+        "turn": "L"
+      }
+    ],
+    "(2, 3)": [
+      {
+        "t": 0,
+        "incoming": "W",
+        "turn": "R"
+      },
+      {
+        "t": 4,
+        "incoming": "W",
+        "turn": "L"
+      },
+      {
+        "t": 8,
+        "incoming": "E",
+        "turn": "R"
+      },
+      {
+        "t": 76,
+        "incoming": "W",
+        "turn": "L"
+      }
+    ]
+  },
+  "factor_max_reads": 4,
+  "route_log": [
+    {
+      "component": 3,
+      "guide_word": "RRR",
+      "seconds": 8.368492126464844e-05
+    },
+    {
+      "component": 0,
+      "guide_word": "RLRRLRLRRLLRRLRLRRLR",
+      "seconds": 0.10453557968139648
+    },
+    {
+      "component": 1,
+      "guide_word": "RLLLLR",
+      "seconds": 0.0001742839813232422
+    },
+    {
+      "component": 4,
+      "guide_word": "RLRRLRRLRLLRLRLRRLRRLRLLLLRRRRLR",
+      "seconds": 0.3388509750366211
+    }
+  ],
+  "warning": "Author discovery only until independently replayed from the complete prelaid seed. No complete WHITE/global-M/front/controller claim."
+}

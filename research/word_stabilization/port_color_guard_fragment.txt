@@ -1,0 +1,37 @@
+# For each exact port, its final marker begins at the current physical head.
+# Remove that marker and transport the post-read colors of its 137-turn past
+# to a frame whose final head is (0,0,N). A minimized class is a union, never
+# an intersection, over its exact ports. Outside-state colors stay unconstrained.
+def rot(x,y,h):
+ return ((x,y),(y,-x),(-x,-y),(-y,x))[h%4]
+TEMPLATES={c:[] for c in contexts}
+for word,c in port['port_classes']:
+ assert word.endswith('LLLLRLRRRRLR')
+ past=word[:-12];x=y=h=0;last={}
+ for letter in past:
+  last[x,y]=(letter=='R')
+  h=(h+(1 if letter=='R' else -1))%4;dx,dy=DIR[h];x+=dx;y+=dy
+ template={rot(px-x,py-y,-h):black for (px,py),black in last.items()}
+ TEMPLATES[c].append(template)
+G={}
+def color_guard(head,ctx):
+ if head[0]=='OUT':return 1
+ key=(head,ctx)
+ if key in G:return G[key]
+ x,y,h=pose(*head);root=0
+ for template in TEMPLATES[ctx]:
+  known=black=0
+  for (px,py),value in template.items():
+   dx,dy=rot(px,py,h);j=ix.get((x+dx,y+dy))
+   if j is not None:
+    bit=1<<j;known|=bit
+    if value:black|=bit
+  root=bb.union(root,bb.cube(known,black))
+  if root==1:break
+ G[key]=root
+ return root
+F={};initial={};T={};BOUND={(h,k):[] for h in range(4) for k in ALPHA}
+def put_initial(head,ctx,root):
+ root=bb.intersect(root,color_guard(head,ctx))
+ if root:
+  key=(head,ctx);initial[key]=bb.union(initial.get(key,0),root)

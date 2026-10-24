@@ -1,0 +1,22 @@
+{
+  "status": "PASS complete role graph; no KY zero-margin directed cycle",
+  "roles": 272,
+  "raw_tight_edges": 1468,
+  "remaining_tight_edges": 944,
+  "blocked_tight_edges": 524,
+  "fundamental_edges": 35904,
+  "longest_tight_path": 2,
+  "eight_old_and_new_cycle_cuts_verified": 8,
+  "manifest_sha256": "a622da698363472e596cd6487bbfcd924d178354df72d01a98067ce3e794da5e",
+  "scope": "Produced-parent ancestry saturation only. Fundamental edges overapproximate arbitrarily long intervening actual packet words; no physical realization, ancestry-length bound or capture is inferred."
+}
+{
+  "status": "PASS symbolic-index and literal guarded FREE-CORE-RELOCATION control",
+  "manifest_sha256": "10624d9f409e22ed3298764638389b42cde5a8b40e516fa7d83e6da3e7b1dbc4",
+  "checked_DC_events": 1500,
+  "checked_packets": 2993,
+  "current_residuals": 4512,
+  "DC_to_D_age": 7,
+  "D_to_DC_age": 5,
+  "scope": "Every packet individually obeys full raw+marker guards and exact XOR, both core boundaries avoid all current residuals. All junctions deliberately violate actual endpoint continuity. NOT a physical word, full trajectory, DCV counterexample, or global seed construction."
+}

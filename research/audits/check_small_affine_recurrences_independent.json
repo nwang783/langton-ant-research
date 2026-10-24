@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "scope": "Binary time; common scale a in{+-1+-i}; <=4 accessible stable-leading-zero states; arbitrary Gaussian integer offsets; no possible ant trajectory, irrespective of seed size.",
+  "results": [
+    {
+      "states": 1,
+      "graphs": 1,
+      "legal_prefixes": 2,
+      "recurrences": 8,
+      "rejections": {
+        "nonunit": 8
+      },
+      "latest_failure": 3,
+      "elapsed_seconds": 0.00022562099911738187
+    },
+    {
+      "states": 2,
+      "graphs": 4,
+      "legal_prefixes": 8,
+      "recurrences": 128,
+      "rejections": {
+        "nonunit": 124,
+        "equal consecutive reads": 4
+      },
+      "latest_failure": 11,
+      "elapsed_seconds": 0.003276114999607671
+    },
+    {
+      "states": 3,
+      "graphs": 45,
+      "legal_prefixes": 88,
+      "recurrences": 1512,
+      "rejections": {
+        "equal consecutive reads": 90,
+        "nonunit": 1422
+      },
+      "latest_failure": 18,
+      "elapsed_seconds": 0.03857261099983589
+    },
+    {
+      "states": 4,
+      "graphs": 816,
+      "legal_prefixes": 6192,
+      "recurrences": 3924,
+      "rejections": {
+        "nonunit": 3136,
+        "equal consecutive reads": 788
+      },
+      "latest_failure": 19,
+      "elapsed_seconds": 0.3217926319994149
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "status": "PASS complete literal affine mask and conditional age/funding cut reconstruction",
+  "manifest_sha256": "4e06fe0f108dd793434208fb30634974e4a85f7de0f742e57b35243af28df487",
+  "helper_inputs": [
+    {
+      "slot": [
+        -1,
+        1
+      ],
+      "point_at_g0": [
+        -3,
+        2
+      ],
+      "coefficient": [
+        -1,
+        1
+      ],
+      "height": -1,
+      "helper_age": 4,
+      "pre_DC_age": 1,
+      "I28_entry_forbidden": false,
+      "I30_entry_forbidden": true
+    },
+    {
+      "slot": [
+        -1,
+        2
+      ],
+      "point_at_g0": [
+        -2,
+        2
+      ],
+      "coefficient": [
+        -1,
+        1
+      ],
+      "height": 0,
+      "helper_age": 4,
+      "pre_DC_age": 1,
+      "I28_entry_forbidden": true,
+      "I30_entry_forbidden": true
+    },
+    {
+      "slot": [
+        -1,
+        4
+      ],
+      "point_at_g0": [
+        0,
+        2
+      ],
+      "coefficient": [
+        -1,
+        1
+      ],
+      "height": 2,
+      "helper_age": 5,
+      "pre_DC_age": 2,
+      "I28_entry_forbidden": true,
+      "I30_entry_forbidden": true
+    },
+    {
+      "slot": [
+        0,
+        2
+      ],
+      "point_at_g0": [
+        -2,
+        1
+      ],
+      "coefficient": [
+        -1,
+        1
+      ],
+      "height": -1,
+      "helper_age": 5,
+      "pre_DC_age": 2,
+      "I28_entry_forbidden": false,
+      "I30_entry_forbidden": true
+    },
+    {
+      "slot": [
+        0,
+        3
+      ],
+      "point_at_g0": [
+        -1,
+        1
+      ],
+      "coefficient": [
+        -1,
+        1
+      ],
+      "height": 0,
+      "helper_age": 5,
+      "pre_DC_age": 2,
+      "I28_entry_forbidden": true,
+      "I30_entry_forbidden": true
+    }
+  ],
+  "pre_DC_residual_count": 6,
+  "post_DC_residual_count": 9,
+  "I28_produced_counts": [
+    4,
+    7
+  ],
+  "I30_produced_counts": [
+    6,
+    9
+  ],
+  "scope": "Only outer unfunded V1 exact DC-age3 role with last U helper. Uses signed1230 boundary and lower-pair equivalence, no iteration to V-helper, root/component import, fresh fuel, V1 closure or capture."
+}

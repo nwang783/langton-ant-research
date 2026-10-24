@@ -1,0 +1,316 @@
+{
+  "status": "PASS exact complete all-cap diagonal-two read-minimum20/444 necessary cover; 218 open ordered interfaces atg8, no exclusion",
+  "bindings": {
+    "DIAGONAL_READ_MINIMUM_COMPLETE_INTERFACE.md": "77fde6d49196db1c3074c9db7adfa1abda3a80500213f0c0d712bdeb0505b274",
+    "certify_diagonal_read_minimum.py": "3a370e8eccb2493caa1cdf42bf210decd20ae7e78d2788a6e48ac43c85cbb1a6",
+    "certify_diagonal_read_minimum.json": "a4de122acffd766aee76c6676bb247f02c8754fc9ecfd5949cd20c5478929c7f"
+  },
+  "minimum_actual_read_modes": {
+    "0": [
+      [
+        "S",
+        "L",
+        "E"
+      ]
+    ],
+    "1": [
+      [
+        "W",
+        "R",
+        "N"
+      ]
+    ]
+  },
+  "lower_outcomes": {
+    "open": 16,
+    "positive_rank_clock_cycle": 4
+  },
+  "paired_domain": 444,
+  "paired_outcomes": {
+    "open": 227,
+    "positive_rank_clock_cycle": 214,
+    "closed_component": 3
+  },
+  "all16_open_lower_case_domains": [
+    {
+      "case": 0,
+      "lower": [
+        "W",
+        "",
+        "N",
+        "S"
+      ],
+      "filtered_domains": [
+        2,
+        0
+      ],
+      "outcomes": {}
+    },
+    {
+      "case": 1,
+      "lower": [
+        "W",
+        "",
+        "N",
+        "SS"
+      ],
+      "filtered_domains": [
+        2,
+        1
+      ],
+      "outcomes": {
+        "open": 2
+      }
+    },
+    {
+      "case": 2,
+      "lower": [
+        "W",
+        "",
+        "NS",
+        "S"
+      ],
+      "filtered_domains": [
+        2,
+        0
+      ],
+      "outcomes": {}
+    },
+    {
+      "case": 3,
+      "lower": [
+        "W",
+        "",
+        "NS",
+        "SS"
+      ],
+      "filtered_domains": [
+        5,
+        2
+      ],
+      "outcomes": {
+        "positive_rank_clock_cycle": 6,
+        "open": 4
+      }
+    },
+    {
+      "case": 4,
+      "lower": [
+        "W",
+        "W",
+        "SSN",
+        "SSN"
+      ],
+      "filtered_domains": [
+        3,
+        3
+      ],
+      "outcomes": {
+        "open": 9
+      }
+    },
+    {
+      "case": 5,
+      "lower": [
+        "W",
+        "W",
+        "SSN",
+        "SSNS"
+      ],
+      "filtered_domains": [
+        7,
+        4
+      ],
+      "outcomes": {
+        "open": 28
+      }
+    },
+    {
+      "case": 6,
+      "lower": [
+        "W",
+        "W",
+        "SSN",
+        "NSS"
+      ],
+      "filtered_domains": [
+        2,
+        2
+      ],
+      "outcomes": {
+        "positive_rank_clock_cycle": 4
+      }
+    },
+    {
+      "case": 7,
+      "lower": [
+        "W",
+        "W",
+        "SSN",
+        "NSSS"
+      ],
+      "filtered_domains": [
+        2,
+        5
+      ],
+      "outcomes": {
+        "positive_rank_clock_cycle": 8,
+        "open": 2
+      }
+    },
+    {
+      "case": 8,
+      "lower": [
+        "W",
+        "W",
+        "SSNS",
+        "SSN"
+      ],
+      "filtered_domains": [
+        4,
+        7
+      ],
+      "outcomes": {
+        "open": 28
+      }
+    },
+    {
+      "case": 9,
+      "lower": [
+        "W",
+        "W",
+        "SSNS",
+        "SSNS"
+      ],
+      "filtered_domains": [
+        13,
+        13
+      ],
+      "outcomes": {
+        "closed_component": 1,
+        "positive_rank_clock_cycle": 24,
+        "open": 144
+      }
+    },
+    {
+      "case": 10,
+      "lower": [
+        "W",
+        "W",
+        "SSNS",
+        "NSS"
+      ],
+      "filtered_domains": [
+        4,
+        2
+      ],
+      "outcomes": {
+        "positive_rank_clock_cycle": 8
+      }
+    },
+    {
+      "case": 11,
+      "lower": [
+        "W",
+        "W",
+        "SSNS",
+        "NSSS"
+      ],
+      "filtered_domains": [
+        7,
+        11
+      ],
+      "outcomes": {
+        "positive_rank_clock_cycle": 72,
+        "closed_component": 1,
+        "open": 4
+      }
+    },
+    {
+      "case": 12,
+      "lower": [
+        "W",
+        "W",
+        "NSS",
+        "SSN"
+      ],
+      "filtered_domains": [
+        2,
+        2
+      ],
+      "outcomes": {
+        "positive_rank_clock_cycle": 4
+      }
+    },
+    {
+      "case": 13,
+      "lower": [
+        "W",
+        "W",
+        "NSS",
+        "SSNS"
+      ],
+      "filtered_domains": [
+        2,
+        4
+      ],
+      "outcomes": {
+        "positive_rank_clock_cycle": 8
+      }
+    },
+    {
+      "case": 16,
+      "lower": [
+        "W",
+        "W",
+        "NSSS",
+        "SSN"
+      ],
+      "filtered_domains": [
+        5,
+        2
+      ],
+      "outcomes": {
+        "positive_rank_clock_cycle": 8,
+        "open": 2
+      }
+    },
+    {
+      "case": 17,
+      "lower": [
+        "W",
+        "W",
+        "NSSS",
+        "SSNS"
+      ],
+      "filtered_domains": [
+        11,
+        7
+      ],
+      "outcomes": {
+        "positive_rank_clock_cycle": 72,
+        "closed_component": 1,
+        "open": 4
+      }
+    }
+  ],
+  "open_boundary_classes": {
+    "('SSN', 'SSN')": 9,
+    "('SSN', 'SSNS')": 28,
+    "('SSN', 'NSSS')": 2,
+    "('SSNS', 'SSN')": 28,
+    "('SSNS', 'SSNS')": 144,
+    "('SSNS', 'NSSS')": 4,
+    "('NSSS', 'SSN')": 2,
+    "('NSSS', 'SSNS')": 4
+  },
+  "remaining_g8_count": 218,
+  "analytic_review": [
+    "For full d=(2,-2), the actual finite-period read footprint has a finite normal minimum. At an even minimum every visit would beS-toE/L, impossible from WHITE; odd minimum every visitW-toN/R, hence singleton by alternation. Genuine translations fix sector and level, and translation(1,-1) exchanges lanes. There are exactly two full-drift classes per level. One or two nonempty W singleton classes exhaust the minimum, without primitive-drift replacement or arbitrary occupancy upstairs.",
+    "Exact lower incoming-N/outgoing-W counts imply ceil(n/2)<=I+J and hence derive all4 one-singleton or16 two-singleton complete B profiles. Empty upper classes are included whenever counts permit; no minimum future width or visit cap is imposed.",
+    "All20 lower configurations and all444 next-row pairs were independently rebuilt from complete position-subset histories and literal lower-chain first-return rank relations. The whole stored paired domain is partitioned duplicate-free into explicit rejections and open cases. These relations only apply at the SAME physical top cell, with full voltage accumulation and no intervening return.",
+    "Every one of4 lower and214 paired rank-clock contradictions is checked by independently reconstructed chains, exact representative offsets, actual consecutive-rank inequality>=4, complete edge membership and directed-cycle sum. Each has K>=0 and C+K*N>0, so contradicts any full P>=N. Bellman-Ford discovery and its selected testP are not proof premises; no extra chain-separation constraint is used.",
+    "All3 closed-component witnesses have4 events, winding+1,16 OTHER named events and4 open chains. Their internal successor/predecessor ports are fully fixed and cannot splice to the rest of the unique actual event orbit. Winding+1 by itself is not rejected.",
+    "The227 surviving interfaces are necessary OPEN cases only:6 one-singleton,12 mixed N-first/S-first,9 two-triple S-first,56 one-quadruple S-first and144 two-quadruple S-first. Only the9 two-triple cases use the separately signed cyclic-E g8 exclusion, leaving218 atg8. Higher region, period and visit counts outside the derived patch remain unbounded. Other drifts and all remaining cases remain open; no physical completion, growth>=12, controller classification or attraction follows."
+  ]
+}

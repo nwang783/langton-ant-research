@@ -1,0 +1,22 @@
+{
+  "status": "PASS all-word exact-two-C obstruction for the three prescribed foreign return gates",
+  "manifest_sha256": "b6b6ac61e7dd234efd0752a2329046fceb9d46c0ec2542d303b97e4d7913a24f",
+  "note_sha256": "ae14bb8042b39d521eb2c3e51b9d7b05d1ee099e3dfc2b2a20668db3480e15cc",
+  "active_S_output_alignments": 8,
+  "zero_C_N_W_H_increments": {
+    "D": [
+      0,
+      2
+    ],
+    "V": [
+      2,
+      4
+    ],
+    "U": [
+      4,
+      4
+    ]
+  },
+  "analytic_review": "The creator deletes q at read3. Before first C every atomic output has y>=4. Between first and second C every output has H=y-x>=5. After second C every parity-valid zero-C producer of q places a held original star in its entry core. This exhausts all atomic residual-emission times, including internal C tails, without bounding zero-C lengths. At the foreign entry q is outside core; foreign raw never reads it and actual successor phase1 requires black.",
+  "scope": "Only the fixed F(-3,-3,S),Q(-3,-5,S),B(-2,-6,S) gates after exactly2C. No6C exclusion, Jordan assumption, attained ancestry or global seven-word termination."
+}

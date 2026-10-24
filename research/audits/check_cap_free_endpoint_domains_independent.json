@@ -1,0 +1,26 @@
+{
+  "status": "PASS cap-free exact one-use endpoint and internal word-domain algebra",
+  "files": {
+    "cap_free_one_use_RIGHT_endpoint_word_domains.md": "61ab75961e5482192bdee08e701a10e44cf5d4bcd703052cbe1a48e64f741046",
+    "check_cap_free_one_use_endpoint_domains.py": "e40f48808c44259f7fe4102726761ac97202552e749b3a807578e639ca18e706",
+    "check_cap_free_one_use_endpoint_domains.json": "d0311e4e40c8584b3032d343015892e222e573de348dcfaf2c1b933a59f30eca"
+  },
+  "script": "9f16e0afd4a8fb80dfff674e45ff925b39177b72de92170d94cf0824b326320f",
+  "finite_formula_controls": 22,
+  "bounded_differential_max_length": 12,
+  "bounded_counts": {
+    "source": 12,
+    "sink": 12
+  },
+  "LEFT_exact": [
+    "WWE",
+    "WWEW"
+  ],
+  "analytic_review": [
+    "WHITE complete chronology startsR and alternates, with fixed incoming E/W axis. At a RIGHT corner R0 arrivesE. Ein1 therefore fixes every later letterW, with south departures exactlyR0 plus allL, so f=1+floor(n/2) gives the two formulas for every integerf>=2 and singletonf1.",
+    "Sout1 fixes R0 as the only south departure. Therefore every later even R arrivesW and every odd L arrivesE. Ein count is1+floor(n/2); solving exactly gives EE(WE)^(f-2) and its optional finalW, again singletonf1. This is all-length position algebra, not a cutoff inference.",
+    "At the clockwise directed stream, C_R0 is southwest and C_opposite northeast in the normalized E/S corner. Thus C_R0-C_opposite=Sout-Win=(R_E+L_W)-(R_W+L_W)=R_E-R_W. Both formulas give3-f for even length and2-f for odd length. ONLY an independent R0-incident-max premise makes this nonnegative, forcing evenf<=3 or oddf<=2 and hence at most4 reads. No all-cap firstR maximum or cycle-level constancy is imported.",
+    "At LEFT incomingE/outN, R0 arrivesW. Nout1 prohibits every laterR_W and everyL_E. Ein1 must consequently be the soleR2E, so noR4 exists, giving exactlyWWE/WWEW. RIGHT1to1 remains singleton. Both constant-one internal alphabets are cap-free, while arbitrary endpointflow can still have arbitrarily long history without the independent height premise.",
+    "The conditions concern actual COMPLETE physical port totals and WHITE-first history. Prepared BLACK-first inputs, unknown exterior suppliers, physical event gluing and full-quotient closure are not solved. Nothing proves a general visit cap, odd-payment rule, unread exterior or global attraction."
+  ]
+}

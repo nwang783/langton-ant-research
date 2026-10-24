@@ -1,0 +1,148 @@
+{
+  "status": "PASS finite-board pointwise mirror winding/surgery identities and named pre-capture drought-monotonicity falsifier",
+  "manifest": "266ea46614a7c088065ea82276f82991958175d64fc95e1274bd1808ab120dde",
+  "script": "66f8ebf12c85109bd85a0e780800d4939a7c8373b7ac82e0a473c366ed89f348",
+  "small_boards": 512,
+  "small_surgeries": 4608,
+  "small_types": [
+    [
+      [
+        "merge",
+        false
+      ],
+      272
+    ],
+    [
+      [
+        "merge",
+        true
+      ],
+      2032
+    ],
+    [
+      [
+        "split",
+        false
+      ],
+      272
+    ],
+    [
+      [
+        "split",
+        true
+      ],
+      2032
+    ]
+  ],
+  "complete_controls": [
+    {
+      "name": "blank",
+      "whole_reads": 10081,
+      "cut_mass_area": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          6,
+          0
+        ],
+        [
+          52,
+          12,
+          0
+        ],
+        [
+          355,
+          59,
+          2
+        ],
+        [
+          509,
+          61,
+          0
+        ],
+        [
+          9977,
+          715,
+          220
+        ],
+        [
+          10081,
+          727,
+          222
+        ]
+      ],
+      "tail_drift": [
+        -2,
+        2
+      ],
+      "tail_tests": 170,
+      "created": 0,
+      "cancelled": 0
+    },
+    {
+      "name": "MT100",
+      "whole_reads": 109168,
+      "cut_mass_area": [
+        [
+          0,
+          22,
+          0
+        ],
+        [
+          33345,
+          3101,
+          137
+        ],
+        [
+          33639,
+          3125,
+          139
+        ],
+        [
+          40071,
+          3537,
+          170
+        ],
+        [
+          52605,
+          4815,
+          226
+        ],
+        [
+          109168,
+          7364,
+          504
+        ]
+      ],
+      "tail_drift": [
+        -2,
+        2
+      ],
+      "tail_tests": 189,
+      "created": 99,
+      "cancelled": 97
+    }
+  ],
+  "analytic_review": [
+    "For a finite BLACK set, the union of empty-board four-cycles through both admissible states at each changed cell is closed under every changed pairing; all other baseline cycles remain unchanged. Thus the affected oriented circuit family is finite without cropping the plane or assuming the cursor component contains all relevant cells.",
+    "The checkerboard sector has exactly one allowed direction on each physical unit edge. Both mirror pairings are noncrossing and preserve the complete oriented edge1-chain. Rounding in disjoint small vertex disks gives embedded Jordan circles and changes no plaquette-center index. Additivity gives pointwise total winding equal to the empty baseline, minus1 on even plaquettes and0 on odd.",
+    "A nonempty oriented circuit cannot have zero index on every unit face: the difference of neighboring face winding coefficients is its directed edge-chain coefficient, so all-zero faces would imply zero chain. Every physical edge has one allowed orientation, hence no reverse cancellation can annihilate a nonempty circuit. Its Jordan winding therefore has one nonzero sign and nonempty discrete domain.",
+    "On the two-circuit side of a transposition, equal signs must have disjoint plaquette domains to avoid index2. Opposite signs must be strictly nested, since nonnested domains would yield both signs and equal domains would yield the excluded zero chain. These are discrete plaquette sets, not claims of unchanged microscopic rounded interiors or chronological LIFO.",
+    "P is finite total positive signed grid area, counting multiplicity, and the exact area identities follow from the same pointwise chain invariant. Equal-sign surgery is neutral; opposite merge/split loses/gains the smaller absolute domain. This is compensated winding bookkeeping, not a monotone fuel or an injective stock charge.",
+    "Independent geometry implementation checks512 whole finite boards and4608 surgeries, then every complete selected field and all294 actual MT surgeries. Full119249 physical updates begin at the genuine empty or22-cell seeds. Hull records include the entire original seed and all past head positions. The first MT>104 completed pristine gap33345..33639 has masses3101/3125 and P137/139, with99 created and97 cancelled.",
+    "At cut33639 every canonical cyclic104 turn phase disagrees within22 actual reads; if canonical all-future motion had begun earlier in the gap, that later cut would retain a canonical phase, contradiction. Thus the294-gap increase is genuinely pre-capture. The longer40071..109168 gap and blank9977..10081 area increment are only named finite comparisons, never extrapolated to all parameters or all future periods.",
+    "Complete terminal BLACK fields independently pass all-ray parity and explicit canonical membership. No unread archive is removed for the geometry. Arbitrary infinite backgrounds, all-n area laws, completed-drought count bounds, renewal control and global attraction remain outside the theorem."
+  ],
+  "dependencies": {
+    "ROTOR_EXCURSION_TRANSFER_AUDIT_BINDING.json": "3e9feb4aebd42a315105d1999cf962e47ca3d5c54048f940e07aaeb372255b4b",
+    "SOUTHWEST_ARCHIVE_IMPORT_MANIFEST.json": "bbd355881af85e24445f23d7d99d1eba88d5519ec5487c920b07f39892c5cf66",
+    "../audits/check_southwest_archive_import_independent.json": "600f91c4b51dc92dd08901233e290d345eb836e1ccc92750d4e9fdc9adbcb463",
+    "MT_COMPLETED_DROUGHT_INVENTORY_MANIFEST.json": "ccf51906abe736062477ec93e694f7e3b17ab625e5b141f7f42be90bf880599c",
+    "../audits/check_MT_completed_drought_inventory_independent.json": "07204abd5827a0cee4d6ceac00a18e57a772cef6247d4fde8c9d72970abc1d40",
+    "../../langton/first_principles_2026-10-21/ant_rethink/switching_geometry/tait_cursor_and_loop_surgery.md": "d28c45cbe3a1df59d0bc930c9ec96521e4dbc75f1ae116fc7418b9710234f8d7"
+  }
+}

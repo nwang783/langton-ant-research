@@ -1,0 +1,29 @@
+{
+  "status": "PASS: exact automata negative control",
+  "geometry": {
+    "total": true,
+    "nonunique_witness": null,
+    "bad_move_witnesses": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "position_dfa_states": 101,
+  "first_left_set_dfa_states": 153,
+  "first_left_set_finite": false,
+  "consecutive_equal_turn_relation_states": 341,
+  "alternation_violation": {
+    "t": 21,
+    "u": 25,
+    "z": 21,
+    "physical_cell": [
+      -3,
+      -2
+    ]
+  },
+  "turn_stream_eventually_periodic": false,
+  "elapsed_seconds": 0.2649063599965302,
+  "scope": "This dragon walk is geometrically valid and aperiodic, but is not an ant trajectory on any coloring and also has infinitely many first-L cells. No highway counterexample."
+}

@@ -1,0 +1,47 @@
+{
+  "k": 2,
+  "results": [
+    {
+      "scale": [
+        1,
+        -1
+      ],
+      "status": "EXHAUSTED",
+      "nodes": 11,
+      "max_macros": 5,
+      "latest_conflict": 11,
+      "conflicts": 2,
+      "best": {
+        "choices": [
+          "RR",
+          "RL",
+          "RR",
+          "LL",
+          "RR"
+        ],
+        "word": "RRRLRRLLRR"
+      }
+    },
+    {
+      "scale": [
+        1,
+        1
+      ],
+      "status": "EXHAUSTED",
+      "nodes": 11,
+      "max_macros": 5,
+      "latest_conflict": 11,
+      "conflicts": 2,
+      "best": {
+        "choices": [
+          "RL",
+          "LR",
+          "LL",
+          "RR",
+          "LL"
+        ],
+        "word": "RLLRLLRRLL"
+      }
+    }
+  ]
+}

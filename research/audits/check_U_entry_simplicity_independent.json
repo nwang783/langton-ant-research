@@ -1,0 +1,183 @@
+{
+  "status": "PASS independent complete129-case U-family-entry center-simplicity assembly",
+  "manifest_sha256": "127a00884b4a06af35a807ab76f6f6499b9427d56350a931c03cc0e8de65524d",
+  "geometry_counts": {
+    "4": 23,
+    "5": 45,
+    "3": 45,
+    "6": 8,
+    "2": 8
+  },
+  "proper_counts": {
+    "5": 21,
+    "3": 21
+  },
+  "signed_dependency_bindings": [
+    {
+      "module": "horizon",
+      "manifest_sha256": "6a26c0aa735f513a0f47032e9356d62cbb54853672b2d4ad9e123f67d9363e37",
+      "independent_evidence": "check_center_contact_independent.json"
+    },
+    {
+      "module": "proper_catalogue",
+      "manifest_sha256": "d4b48e7e6cec0ba207373e30efa4014a77adde094451c38a0567fa69f8710f63",
+      "independent_evidence": "check_atomic_crossing_contexts_independent.json"
+    },
+    {
+      "module": "proper_VU",
+      "manifest_sha256": "e2ffd79d7a4f06d80a4fe8bd57ce441f81481079f1efab48f42fb49502476844",
+      "independent_evidence": "check_VU_crossing_retirement_independent.json"
+    },
+    {
+      "module": "two",
+      "manifest_sha256": "d77f3054710cce95517c147805f80f7a95a3bbe85dc23e8c56542abf7c0a79f1",
+      "independent_evidence": "check_two_C_first_contact_independent.json"
+    },
+    {
+      "module": "three_nonproper",
+      "manifest_sha256": "7ac88bb1541363159735f6171e8381f847c40840489b37c83b70bc61b57c1d43",
+      "independent_evidence": "check_three_C_center_touch_independent.json"
+    },
+    {
+      "module": "atomic_left_pose",
+      "manifest_sha256": "8aa13303cf8c860b31b952a403dfd8aefcc5886af6869ae6df8e3111fe2e118d",
+      "independent_evidence": "check_atomic_three_C_pose_boundary_independent.json"
+    },
+    {
+      "module": "four",
+      "manifest_sha256": "507fd9dbb99e8e05759c05711160be5f70d1e1ac8224d41b12c0109c44bce773",
+      "independent_evidence": "check_four_C_contact_independent.json"
+    },
+    {
+      "module": "four_boundary",
+      "manifest_sha256": "6720040b5dd80ad1e7d5aa9d2cec9fa0d10ea942820f992ae0d562b94f80af5b",
+      "independent_evidence": "check_atomic_predecessor_halfplanes_independent.json"
+    },
+    {
+      "module": "C_W5",
+      "manifest_sha256": "e5d9da2f857b4613acdf90a06da7f48e7b617e90ced13975f503720fce644070",
+      "independent_evidence": "check_C_first_W_contact_independent.json"
+    },
+    {
+      "module": "D_W5_gate",
+      "manifest_sha256": "94949884e62ee43862b54448e4015035175782ee9d95088aaf117fa3e0bc31f8",
+      "independent_evidence": "check_D_first_W5_gate_independent.json"
+    },
+    {
+      "module": "D_W5_helpers",
+      "manifest_sha256": "0f14e0b00d826356e0b9bec21abd1933a06fcb3c9d4b53d3dd43c0aeecf03e9c",
+      "independent_evidence": "check_D_W5_helper_history_independent.json"
+    },
+    {
+      "module": "five_nonproper",
+      "manifest_sha256": "da34c50cb9d0933b115f7226b4e7ff63967cca6e44a5389b5145ea760f69e9aa",
+      "independent_evidence": "check_five_C_center_touch_independent.json"
+    },
+    {
+      "module": "five_boundary",
+      "manifest_sha256": "85a63236d995251ee7c42e726f29a773593b97ec28469ab7088064b8835c1050",
+      "independent_evidence": "check_five_C_endpoint_boundary_independent.json"
+    },
+    {
+      "module": "six",
+      "manifest_sha256": "e25f3973891acc3eb0f908c641c50086d217c87273e10c61dd4e6b46c3c6067f",
+      "independent_evidence": "check_six_C_contact_independent.json"
+    },
+    {
+      "module": "six_successor_geometry",
+      "manifest_sha256": "0772e815d7349cdb44c90f9ad0cecf6457b00ac81e77fa7a2bc2d7a1f9ccbcf5",
+      "independent_evidence": "check_six_C_successor_independent.json"
+    },
+    {
+      "module": "six_successor_cohort",
+      "manifest_sha256": "efcd142923c78ebcb7693b68a927380a6db921a86b0b3aebbef1220c08e4870a",
+      "independent_evidence": "check_six_C_successor_cohort_independent.json"
+    },
+    {
+      "module": "read_cap",
+      "manifest_sha256": "40c6c3aaada1bd21e66238a34c5803dcfb7d95a3c20ffc3a99802cea7488f939",
+      "independent_evidence": "check_simple_center_read_cap_independent.json"
+    }
+  ],
+  "boundary_rows": [
+    {
+      "geometry": [
+        3,
+        "D",
+        "V",
+        -1,
+        0,
+        1
+      ],
+      "possible_first_packet_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "geometry": [
+        3,
+        "C",
+        "V",
+        -1,
+        0,
+        1
+      ],
+      "possible_first_packet_ids": [
+        1
+      ]
+    },
+    {
+      "geometry": [
+        3,
+        "V",
+        "D",
+        -1,
+        0,
+        1
+      ],
+      "possible_first_packet_ids": [
+        0,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "geometry": [
+        4,
+        "D",
+        "C",
+        -1,
+        -1,
+        0
+      ],
+      "possible_first_packet_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "geometry": [
+        5,
+        "D",
+        "C",
+        0,
+        -1,
+        3
+      ],
+      "possible_first_packet_ids": [
+        0,
+        1
+      ]
+    }
+  ],
+  "U_first_packet_ids": [
+    7,
+    8,
+    9
+  ],
+  "raw_physical_read_cap": 104,
+  "with_terminal_marker_cap": 106,
+  "scope": "Any actual complete recurrent-eight factor beginning U/UC/UCC has an injective corrected-center path; every cell is read at most104 raw times,106 with its actual final marker. Infinite such factors leave every fixed finite cell set. Not microscopic self-avoidance, beta0, finite C, renewal, standard capture or a global arbitrary-ant statement."
+}

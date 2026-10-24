@@ -1,0 +1,140 @@
+{
+  "status": "PASS global cubic w-exceptional renewal and dual cycle-erasure count law",
+  "note_sha256": "9bcf5c2a045fcedb1a5d6d7182df5bdb75ddc2d7a71f03fac2374019bda2eb16",
+  "geometric_dependency_sha256": "8647be7a9158e11985f60a7643c64411d0cd396e73449ed02032c084f7e7303f",
+  "counts": {
+    "ordinary_blocks": 1679,
+    "prefixes": 5480,
+    "exceptional_blocks": 748
+  },
+  "controls": [
+    {
+      "T": 520,
+      "m": 13,
+      "E": 87,
+      "D": 165,
+      "final_mass": 73
+    },
+    {
+      "T": 400,
+      "m": 0,
+      "E": 58,
+      "D": 87,
+      "final_mass": 62
+    },
+    {
+      "T": 400,
+      "m": 1,
+      "E": 58,
+      "D": 87,
+      "final_mass": 63
+    },
+    {
+      "T": 400,
+      "m": 2,
+      "E": 58,
+      "D": 88,
+      "final_mass": 62
+    },
+    {
+      "T": 400,
+      "m": 3,
+      "E": 59,
+      "D": 89,
+      "final_mass": 61
+    },
+    {
+      "T": 400,
+      "m": 4,
+      "E": 59,
+      "D": 89,
+      "final_mass": 60
+    },
+    {
+      "T": 400,
+      "m": 5,
+      "E": 58,
+      "D": 88,
+      "final_mass": 61
+    },
+    {
+      "T": 400,
+      "m": 7,
+      "E": 59,
+      "D": 87,
+      "final_mass": 59
+    },
+    {
+      "T": 400,
+      "m": 14,
+      "E": 59,
+      "D": 86,
+      "final_mass": 60
+    },
+    {
+      "T": 400,
+      "m": 21,
+      "E": 61,
+      "D": 89,
+      "final_mass": 61
+    },
+    {
+      "T": 400,
+      "m": 49,
+      "E": 56,
+      "D": 77,
+      "final_mass": 81
+    },
+    {
+      "T": 400,
+      "m": 93,
+      "E": 71,
+      "D": 113,
+      "final_mass": 135
+    },
+    {
+      "T": 4,
+      "m": 12,
+      "E": 1,
+      "D": 1,
+      "final_mass": 12
+    },
+    {
+      "T": 8,
+      "m": 16,
+      "E": 1,
+      "D": 1,
+      "final_mass": 16
+    },
+    {
+      "T": 28,
+      "m": 36,
+      "E": 1,
+      "D": 1,
+      "final_mass": 36
+    },
+    {
+      "T": 120,
+      "m": 128,
+      "E": 1,
+      "D": 1,
+      "final_mass": 128
+    },
+    {
+      "T": 400,
+      "m": 408,
+      "E": 1,
+      "D": 1,
+      "final_mass": 408
+    }
+  ],
+  "analytic": [
+    "Partition any actual interval into complete R^r L blocks plus <=4 final Rs. A complete block is exceptional exactly when r>=3 or its L is a w nonbridge; each such L erases a cycle in at least one graph, so E<=D when D counts physical updates once. An initial partial r3 block is retained as exceptional.",
+    "Every ordinary epoch has r<=2 and w-bridge departures. Exact far-side inheritance holds even when R writes create cycles behind or ordinary L erases z cycles. The w cursor traverses distinct bridges of ONE initial active component; its unit-square-coordinate path is vertex-simple and n<=M, where M is complete epoch-entry mass.",
+    "For every ordinary block after the first, r0/1/2 is exactly left/straight/right turning of the w path, so mass change r-1 equals signed internal right-minus-left quarter turning. The first block contributes at most1, even at an arbitrary initial cut. Therefore total ordinary mass gain <=8sqrt(M)+3. No terminal R fringe is hidden in this completed-epoch mass.",
+    "A following exceptional block adds at most3 black cells, giving Mnext<=M+8sqrt(M)+6<=(sqrt(M)+4)^2. Thus M_j<=(sqrt(m)+4j)^2 independently of initial positions, passive components and diameter.",
+    "Each ordinary block costs<=3, each exceptional block<=5 and the final R-only fringe<=4. Therefore T<=3(E+1)m+12sqrt(m)E(E+1)+8E(E+1)(2E+1)+5E+4<=16(E+sqrt(m)/4+1)^3. The exact nonnegative polynomial difference is independently reconstructed.",
+    "Consequently E and D are at least (T/16)^(1/3)-sqrt(m)/4-1. This is a true all-interval global recurrence bound, not only a prepared-profile or retained-language theorem."
+  ],
+  "scope": "Arbitrary actual finite-complete-support trajectory interval, including m0 and arbitrary starting cuts. No positive density, mass divergence, nonstandard-renewal budget, finite summary, highway classification or universal capture."
+}

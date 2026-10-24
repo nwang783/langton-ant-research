@@ -1,0 +1,190 @@
+{
+  "scope": "One finite prepared connected-control search for one fixed D4 local inventory.\nKnown cells start white. All exterior first-read colors are explicitly prepared.\nNo translating-front, global-WHITE or unbounded negative conclusion is possible.\n",
+  "inventory": {
+    "(1, 0)": "NNSN",
+    "(0, 0)": "WWEW",
+    "(0, 1)": "NSSS",
+    "(1, 1)": "EEWE",
+    "(0, -1)": "SSSN",
+    "(-1, -1)": "WEWW",
+    "(-1, 0)": "NNSN",
+    "(-2, 0)": "WWWE",
+    "(-2, 1)": "NSNN",
+    "(-1, 1)": "EEWE",
+    "(-1, 2)": "NNNS",
+    "(0, 2)": "EWEE",
+    "(1, 2)": "NNNS",
+    "(2, 2)": "EEEW",
+    "(2, 1)": "SSNS",
+    "(-2, 2)": "EEWE"
+  },
+  "target_known_reads": 64,
+  "completed_known_reads": 15,
+  "found": false,
+  "raw_length": 19,
+  "prepared_black": [],
+  "expanded": 250000,
+  "elapsed_seconds": 4.158398902989575,
+  "box": [
+    -6,
+    5,
+    -4,
+    6
+  ],
+  "maximum_raw_length": 256,
+  "word": "RRRRLRRRRLRRRRLLLLR",
+  "trace": [
+    {
+      "p": [
+        1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "p": [
+        2,
+        0
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "p": [
+        2,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "p": [
+        1,
+        -1
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "p": [
+        0,
+        0
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "p": [
+        1,
+        1
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "p": [
+        0,
+        0
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "p": [
+        0,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "p": [
+        -1,
+        -1
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "p": [
+        -1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "p": [
+        0,
+        0
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "p": [
+        0,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "p": [
+        1,
+        -1
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "p": [
+        0,
+        0
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "p": [
+        0,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "R"
+    }
+  ]
+}

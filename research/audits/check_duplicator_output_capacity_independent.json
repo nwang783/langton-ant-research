@@ -1,0 +1,178 @@
+{
+  "status": "PASS actual-duplicator odd-output class disjointness and retained all-four leaf capacity",
+  "note_sha256": "bf0785e8803b6b4fb03e1daaddce0f93efc8400dd65956a5ad2af3f58179a30b",
+  "partition_of_14_necessary_rows": {
+    "C": 4,
+    "S": 2,
+    "H": 6,
+    "4": 2
+  },
+  "reservations": [
+    [
+      [
+        "W",
+        "SSN",
+        "EWE",
+        "NNN",
+        "t"
+      ],
+      "C",
+      "SSN"
+    ],
+    [
+      [
+        "W",
+        "SSN",
+        "EWE",
+        "NNNS",
+        "t"
+      ],
+      "C",
+      "SSN"
+    ],
+    [
+      [
+        "W",
+        "SSNS",
+        "EWEE",
+        "NNN",
+        "t"
+      ],
+      "S",
+      "W"
+    ],
+    [
+      [
+        "W",
+        "SSNS",
+        "EWEE",
+        "NNNS",
+        "t"
+      ],
+      "S",
+      "W"
+    ],
+    [
+      [
+        "WE",
+        "SSNN",
+        "EWE",
+        "NNN",
+        "t"
+      ],
+      "H",
+      "EWE"
+    ],
+    [
+      [
+        "WE",
+        "SSNN",
+        "EWE",
+        "NNNS",
+        "t"
+      ],
+      "H",
+      "EWE"
+    ],
+    [
+      [
+        "WEE",
+        "SSNN",
+        "EWE",
+        "NNN",
+        "t"
+      ],
+      "H",
+      "EWE"
+    ],
+    [
+      [
+        "WEE",
+        "SSNN",
+        "EWE",
+        "NNNS",
+        "t"
+      ],
+      "H",
+      "EWE"
+    ],
+    [
+      [
+        "EEW",
+        "NNSS",
+        "EWE",
+        "NNN",
+        "u"
+      ],
+      "C",
+      "EEW"
+    ],
+    [
+      [
+        "EEW",
+        "NNSS",
+        "EWE",
+        "NNNS",
+        "u"
+      ],
+      "C",
+      "EEW"
+    ],
+    [
+      [
+        "EEWE",
+        "NNN",
+        "EWE",
+        "NNN",
+        "u"
+      ],
+      "H",
+      "EWE"
+    ],
+    [
+      [
+        "EEWE",
+        "NNN",
+        "EWE",
+        "NNNS",
+        "u"
+      ],
+      "H",
+      "EWE"
+    ],
+    [
+      [
+        "EEWE",
+        "NNNS",
+        "EWEE",
+        "NNN",
+        "u"
+      ],
+      "4",
+      null
+    ],
+    [
+      [
+        "EEWE",
+        "NNNS",
+        "EWEE",
+        "NNNS",
+        "u"
+      ],
+      "4",
+      null
+    ]
+  ],
+  "analytic_review": [
+    "D-to-I injection makes C canonical-entry reservations distinct. A canonical incoming contact determines its unique actual child; C has q(I)=0, so it cannot be the q=1 O entry even though the heading pattern agrees.",
+    "Every H same-R EWE cell chooses its unique high M face I, opposite height M-2. This makes H injective across actual rotations. Same-R H cannot equal opposite-R C/O. H may equal a prior strict-straight-branch reservation, so only max(D_H,n_SB) is charged.",
+    "Every S singleton chooses its unique high face I, a canonical leaf. Prior singleton ancestors choose Q1 of outdegree1. Coincidence would equate these faces, contradicting their actual outdegrees. Multiplicity excludes all three-read overlap.",
+    "The complete actual flag balance gives N_O+N_D equal to total negative flag units, at least n_A. Thus N_odd+D_4>=n_A+n_Sanc. No additional v=NNN output is charged in D_4.",
+    "All uniqueness arguments are physical and survive full-drift class alignment; no independent-component, time-disjoint supplier or no-merging assumption is used."
+  ],
+  "bounds": [
+    "N_odd >= N_O + D_C + max(D_H,n_SB) + D_S + n_Sanc",
+    "N_odd + D_4 >= n_A + n_Sanc"
+  ],
+  "scope": "Output lower bounds only. The all-four leaf escape remains; no original fuel, global front exclusion or iterative old-parent claim."
+}

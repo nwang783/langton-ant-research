@@ -1,0 +1,71 @@
+{
+  "status": "PASS independent literal masks and actual sharp identity control; all-word balance proof separately reviewed",
+  "manifest_sha256": "3383ad508ed43ac40e8d64b721ef7e626fd22d68084c5b2393af04a5d0294f6c",
+  "base_height_table": {
+    "3": {
+      "0": 0,
+      "4": -2,
+      "7": -4
+    },
+    "2": {
+      "0": -2,
+      "4": -4,
+      "7": -4
+    },
+    "1": {
+      "0": 0,
+      "4": 2,
+      "7": 4
+    }
+  },
+  "helper_masks": [
+    {
+      "packet": 4,
+      "offset": -2,
+      "input_heights": [
+        -1,
+        1
+      ],
+      "output_heights": [
+        -4,
+        -3,
+        -3,
+        -2,
+        -2,
+        -1
+      ],
+      "critical_age": 2,
+      "score_minus_2H": 22
+    },
+    {
+      "packet": 7,
+      "offset": -4,
+      "input_heights": [
+        -2,
+        -2,
+        -1,
+        -1,
+        1
+      ],
+      "output_heights": [
+        -6,
+        -5,
+        -5,
+        -4,
+        -4,
+        -3,
+        -3,
+        -2,
+        -1
+      ],
+      "critical_age": 5,
+      "score_minus_2H": 22
+    }
+  ],
+  "sharp_prehelper_ages": {
+    "(2, 0)": 3,
+    "(0, 2)": 2,
+    "(3, 1)": 3
+  },
+  "scope": "Exact DC-output(3,1) to V-input(0,3), age3 branch. Requires simultaneous prehelper resources, not new roots or a funding contradiction."
+}

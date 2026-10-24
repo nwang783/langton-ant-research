@@ -1,0 +1,280 @@
+{
+  "status": "AUTHOR exact prescribed-strand inventory; independent audit pending",
+  "periodic_output_anchor_count": 12,
+  "rows": [
+    {
+      "outgoing_phase": 15,
+      "outgoing_cell": [
+        8,
+        1
+      ],
+      "return_alignments": [],
+      "first": null
+    },
+    {
+      "outgoing_phase": 20,
+      "outgoing_cell": [
+        5,
+        1
+      ],
+      "return_alignments": [],
+      "first": null
+    },
+    {
+      "outgoing_phase": 25,
+      "outgoing_cell": [
+        7,
+        2
+      ],
+      "return_alignments": [],
+      "first": null
+    },
+    {
+      "outgoing_phase": 29,
+      "outgoing_cell": [
+        9,
+        2
+      ],
+      "return_alignments": [],
+      "first": null
+    },
+    {
+      "outgoing_phase": 30,
+      "outgoing_cell": [
+        8,
+        2
+      ],
+      "return_alignments": [],
+      "first": null
+    },
+    {
+      "outgoing_phase": 71,
+      "outgoing_cell": [
+        6,
+        9
+      ],
+      "return_alignments": [
+        {
+          "copy_offset": 4,
+          "phase": 11,
+          "time_constant": 413,
+          "turn": "L"
+        },
+        {
+          "copy_offset": 4,
+          "phase": 19,
+          "time_constant": 421,
+          "turn": "R"
+        },
+        {
+          "copy_offset": 4,
+          "phase": 23,
+          "time_constant": 425,
+          "turn": "L"
+        },
+        {
+          "copy_offset": 3,
+          "phase": 27,
+          "time_constant": 325,
+          "turn": "R"
+        },
+        {
+          "copy_offset": 3,
+          "phase": 31,
+          "time_constant": 329,
+          "turn": "L"
+        },
+        {
+          "copy_offset": 3,
+          "phase": 39,
+          "time_constant": 337,
+          "turn": "R"
+        }
+      ],
+      "first": {
+        "copy_offset": 3,
+        "phase": 27,
+        "time_constant": 325,
+        "turn": "R"
+      }
+    },
+    {
+      "outgoing_phase": 89,
+      "outgoing_cell": [
+        5,
+        8
+      ],
+      "return_alignments": [
+        {
+          "copy_offset": 3,
+          "phase": 13,
+          "time_constant": 311,
+          "turn": "R"
+        },
+        {
+          "copy_offset": 3,
+          "phase": 17,
+          "time_constant": 315,
+          "turn": "L"
+        },
+        {
+          "copy_offset": 3,
+          "phase": 25,
+          "time_constant": 323,
+          "turn": "R"
+        }
+      ],
+      "first": {
+        "copy_offset": 3,
+        "phase": 13,
+        "time_constant": 311,
+        "turn": "R"
+      }
+    },
+    {
+      "outgoing_phase": 90,
+      "outgoing_cell": [
+        6,
+        8
+      ],
+      "return_alignments": [
+        {
+          "copy_offset": 3,
+          "phase": 14,
+          "time_constant": 312,
+          "turn": "R"
+        },
+        {
+          "copy_offset": 3,
+          "phase": 26,
+          "time_constant": 324,
+          "turn": "L"
+        },
+        {
+          "copy_offset": 3,
+          "phase": 30,
+          "time_constant": 328,
+          "turn": "R"
+        }
+      ],
+      "first": {
+        "copy_offset": 3,
+        "phase": 14,
+        "time_constant": 312,
+        "turn": "R"
+      }
+    },
+    {
+      "outgoing_phase": 91,
+      "outgoing_cell": [
+        6,
+        7
+      ],
+      "return_alignments": [
+        {
+          "copy_offset": 3,
+          "phase": 15,
+          "time_constant": 313,
+          "turn": "R"
+        }
+      ],
+      "first": {
+        "copy_offset": 3,
+        "phase": 15,
+        "time_constant": 313,
+        "turn": "R"
+      }
+    },
+    {
+      "outgoing_phase": 97,
+      "outgoing_cell": [
+        5,
+        4
+      ],
+      "return_alignments": [],
+      "first": null
+    },
+    {
+      "outgoing_phase": 100,
+      "outgoing_cell": [
+        5,
+        3
+      ],
+      "return_alignments": [],
+      "first": null
+    },
+    {
+      "outgoing_phase": 103,
+      "outgoing_cell": [
+        6,
+        3
+      ],
+      "return_alignments": [],
+      "first": null
+    }
+  ],
+  "parameter_tests": [
+    {
+      "K": 3,
+      "anchor_counts": {
+        "(6, 9)": 0,
+        "(5, 8)": 1,
+        "(6, 8)": 0,
+        "(6, 7)": 0
+      },
+      "periodic_output_contacts_before_nominal_marker": 1
+    },
+    {
+      "K": 4,
+      "anchor_counts": {
+        "(6, 9)": 1,
+        "(5, 8)": 2,
+        "(6, 8)": 1,
+        "(6, 7)": 1
+      },
+      "periodic_output_contacts_before_nominal_marker": 5
+    },
+    {
+      "K": 10,
+      "anchor_counts": {
+        "(6, 9)": 7,
+        "(5, 8)": 8,
+        "(6, 8)": 7,
+        "(6, 7)": 7
+      },
+      "periodic_output_contacts_before_nominal_marker": 29
+    },
+    {
+      "K": 80,
+      "anchor_counts": {
+        "(6, 9)": 77,
+        "(5, 8)": 78,
+        "(6, 8)": 77,
+        "(6, 7)": 77
+      },
+      "periodic_output_contacts_before_nominal_marker": 309
+    },
+    {
+      "K": 1000000000,
+      "anchor_counts": {
+        "(6, 9)": 999999997,
+        "(5, 8)": 999999998,
+        "(6, 8)": 999999997,
+        "(6, 7)": 999999997
+      },
+      "periodic_output_contacts_before_nominal_marker": 3999999989
+    }
+  ],
+  "count_formula": "4K-11 for K>=3, excluding the launch-cap cohort and excluding the destination read",
+  "earliest_bulk_obstruction": {
+    "offset_after_original_return": 311,
+    "cell": [
+      5,
+      8
+    ],
+    "birth": 271,
+    "wanted": "R",
+    "actual_if_still_black": "L"
+  },
+  "scope": "Required clearing/contact inventory for the specified nominal104 return strand. Not a lower bound on contacts of an arbitrary rerouted continuation."
+}

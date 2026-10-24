@@ -1,0 +1,96 @@
+{
+  "status": "EXACT_ALL_PARAMETER_ALL_FUTURE_LEGAL",
+  "scope": "One specified seed family J_r for every integer r>=20, seven finite counted arms followed by the stated infinite104 word.",
+  "minimum_r": 20,
+  "families": 973,
+  "candidate_pairs": 211034,
+  "nonempty_prior_relations": 2493,
+  "failures": [],
+  "stages": [
+    {
+      "word": "LRRL",
+      "count_r": 1,
+      "count_constant": 0
+    },
+    {
+      "word": "LRRR",
+      "count_r": 0,
+      "count_constant": 1
+    },
+    {
+      "word": "RLLR",
+      "count_r": 1,
+      "count_constant": 1
+    },
+    {
+      "word": "RRRL",
+      "count_r": 0,
+      "count_constant": 1
+    },
+    {
+      "word": "LRRL",
+      "count_r": 1,
+      "count_constant": 0
+    },
+    {
+      "word": "LRLRRRRLRRRRLLLLRLRRRRLR",
+      "count_r": 0,
+      "count_constant": 1
+    },
+    {
+      "word": "RRRLLLLRLLLLRLRRRRLR",
+      "count_r": 1,
+      "count_constant": 1
+    },
+    {
+      "word": "RRRLLLLRLRRRRLRRRRLLLLRLLRRRRLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLLRRRRLLRLRRRRLRRRRLLLLRLRLLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLRRLLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLRRLLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLRRLLRRLRRRRLLLLRLLLLRL",
+      "count_r": 0,
+      "count_constant": 1
+    },
+    {
+      "word": "RRRRLRRRRLLLLRLLLLRL",
+      "count_r": 1,
+      "count_constant": -2
+    },
+    {
+      "word": "RRRRLRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRLLRLRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLLRRRRLLRLRRRRLRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLRRLLRLLLLRLRLR",
+      "count_r": 0,
+      "count_constant": 1
+    },
+    {
+      "word": "RLLR",
+      "count_r": 1,
+      "count_constant": -2
+    },
+    {
+      "word": "RRRL",
+      "count_r": 0,
+      "count_constant": 1
+    },
+    {
+      "word": "LRRL",
+      "count_r": 1,
+      "count_constant": -2
+    },
+    {
+      "word": "RRRRLLLLRLLRRRRLLRLRRRRLRRRRLLLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLRRLLLLRRLRRRRLLLLRLRRLRRLRRLRLRLLRLRRRRLRRRRLLLLRLLRLRRRRLLLLRLLRRLRRLLLLRRLLLLRRLRLLLLRLRRRRLLLLRLLRLLLLRLLRRLRRRRLLLLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRRLRRRRLLL",
+      "count_r": 0,
+      "count_constant": 1
+    }
+  ],
+  "infinite_tail_word": "LRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLR",
+  "tail_start_time": "60*r+777",
+  "tail_start_pose": [
+    "2*r+2",
+    7,
+    "N"
+  ],
+  "tail_period": 104,
+  "tail_drift": [
+    -2,
+    2
+  ],
+  "seconds": 2.5661521430010907,
+  "isl_version": "isl-0.27-GMP",
+  "checker_sha256": "9f20970b01a2629458d2d556299ddf044178202751d9297197f701893a78cf03"
+}

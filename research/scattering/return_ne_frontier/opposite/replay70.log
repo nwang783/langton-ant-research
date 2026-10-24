@@ -1,0 +1,176 @@
+{"segment": 0, "time": [104, 0, 10816], "pose": [[[2, 0, 188], [2, 0, 123]], 1]}
+{"segment": 1, "time": [104, 0, 61934], "pose": [[[2, 0, 151], [2, 0, 160]], 3]}
+{"segment": 2, "time": [208, 0, 68902], "pose": [[[0, 0, 17], [0, 0, 26]], 3]}
+{"segment": 3, "time": [208, 0, 80808], "pose": [[[0, 0, -14], [0, 0, 29]], 3]}
+{
+  "status": "exact all-k finite cap-kernel capture; every infinite future read remains in z>=-125",
+  "phase": 70,
+  "domain": "k=U+100,U>=0",
+  "initial_marker": [
+    [
+      2,
+      0,
+      190
+    ],
+    [
+      2,
+      0,
+      131
+    ]
+  ],
+  "first_contact": [
+    104,
+    0,
+    10888
+  ],
+  "capture_time": [
+    208,
+    0,
+    80808
+  ],
+  "capture_pose": [
+    [
+      [
+        0,
+        0,
+        -14
+      ],
+      [
+        0,
+        0,
+        29
+      ]
+    ],
+    3
+  ],
+  "tail_phase": 103,
+  "tail": {
+    "drift": [
+      -2,
+      2
+    ],
+    "heading": 3,
+    "required_cells": 41,
+    "odd_cells": 34
+  },
+  "finite_prefix_u_bounds": [
+    -54,
+    122
+  ],
+  "whole_future_u_upper": 122,
+  "whole_future_z_lower": -105,
+  "tail_z_bounds": [
+    [
+      0,
+      0,
+      9
+    ],
+    [
+      0,
+      0,
+      19
+    ]
+  ],
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        104,
+        0,
+        10816
+      ],
+      "pose": [
+        [
+          [
+            2,
+            0,
+            188
+          ],
+          [
+            2,
+            0,
+            123
+          ]
+        ],
+        1
+      ]
+    },
+    {
+      "segment": 1,
+      "time": [
+        104,
+        0,
+        61934
+      ],
+      "pose": [
+        [
+          [
+            2,
+            0,
+            151
+          ],
+          [
+            2,
+            0,
+            160
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 2,
+      "time": [
+        208,
+        0,
+        68902
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            17
+          ],
+          [
+            0,
+            0,
+            26
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 3,
+      "time": [
+        208,
+        0,
+        80808
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -14
+          ],
+          [
+            0,
+            0,
+            29
+          ]
+        ],
+        3
+      ]
+    }
+  ],
+  "statistics": {
+    "finite_read_constraints": 6562,
+    "periodic_read_constraints": 121,
+    "affine_guards": 5575,
+    "excluded_isolated_equalities": 9646408
+  },
+  "template_sha256": "df89fcf9b9d12ac3ce6a35e7d198f6285e4cef46e0b3270b60b34940a45cf5cb",
+  "cap_certificate_sha256": "2d3dcf595ab74507f6d6edbec7a6827b24023d14fa94877c9db73670e7ceac59"
+}

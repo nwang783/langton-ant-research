@@ -1,0 +1,167 @@
+{
+  "status": "PASS independent literal clauses, short controls and first-L mark queries",
+  "mode": "dcu",
+  "packets": 7,
+  "pairs": 18,
+  "triples": 54,
+  "candidates": 8111,
+  "shorts": 47,
+  "forbidden": 7510,
+  "clause_types": {
+    "2": 707,
+    "1": 6801,
+    "3": 2
+  },
+  "reader_options": 62146,
+  "neighbor_options": 27420,
+  "special_two_cell_clauses": [
+    {
+      "pair": [
+        1,
+        4,
+        3,
+        -1,
+        0
+      ],
+      "cells": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "start": 3,
+      "goal": 1,
+      "all_readers": 363,
+      "retained_readers": 2,
+      "graph": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [
+          0
+        ]
+      },
+      "reachable": [
+        0,
+        3
+      ]
+    },
+    {
+      "pair": [
+        1,
+        5,
+        3,
+        -1,
+        0
+      ],
+      "cells": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "start": 3,
+      "goal": 1,
+      "all_readers": 363,
+      "retained_readers": 2,
+      "graph": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [
+          0
+        ]
+      },
+      "reachable": [
+        0,
+        3
+      ]
+    }
+  ],
+  "marks": [
+    [
+      [
+        0,
+        1,
+        11
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        11
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        11
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        11
+      ]
+    ],
+    [
+      [
+        0,
+        2,
+        12
+      ],
+      [
+        0,
+        3,
+        23
+      ]
+    ],
+    [
+      [
+        0,
+        2,
+        12
+      ],
+      [
+        0,
+        3,
+        23
+      ],
+      [
+        -1,
+        4,
+        29
+      ]
+    ],
+    [
+      [
+        0,
+        2,
+        12
+      ],
+      [
+        0,
+        3,
+        23
+      ],
+      [
+        -1,
+        4,
+        29
+      ]
+    ]
+  ],
+  "mark_overlap_queries": 3408,
+  "certificate_sha256": "a59f4b2a06c01bef1b6af3c9e5522a6b6fc93e6858635ae36a418beed4cfae48"
+}

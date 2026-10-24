@@ -1,0 +1,82 @@
+{
+  "status": "PASS conditional middle-short FULL odd inventory reduces to {0,1,2,6,7,6c+1,6a+2,6a+4},2<=c<=a",
+  "proof_sha256": "52f05a4cdbd26ea3c7f5d96c48c04cff7c10763c9cf552dd96f7060e338b20ac",
+  "certificate_sha256": "a2b53c33fb06df354925456bf836d04cd4c3026369f38437768ca3b60b0ec101",
+  "script_sha256": "5a28b390d978e08396ff9d54fe858d09ca2b08c6d05124fd6cbe5d041e0ff7f3",
+  "residual_signed_allocations": [
+    [
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    [
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        -1
+      ]
+    ],
+    [
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ]
+  ],
+  "order_cases": 15,
+  "integer_tree_nodes": 41,
+  "integer_tree_leaves": 28,
+  "verified_affine_comparisons": 23088,
+  "analytic_checks": [
+    "Actual complete middle-shortprefix fixes5oddclasses0,1,2,6,7; g8 leavesEXACT3actualfullclassesT>=8. All signedresidue allocations exhaustively checked; allnegative hasodd fullreadmaxandfails. No partialwake subtraction.",
+    "15 strictpositionorders parametrizedbijectively bynonnegativegaps withtrue lowerbounds andr2P<Q;41node domain trees exhaustallintegerparameters. Affinehorizontal/verticalruns independentlyrebuilt; everyvalidleaf hasnonnegativelengths, exact overlapcount parity andchecker/windingterms.",
+    "r2q1always; r0/r1q0onlyNPQorQPN. QPNnegativeoddmaxfailsactualREADextreme.",
+    "r0NPQ givesa<=b-1,c<=a-1; a<=b-2 violates6gap, a=b-1 leavesonlyM-4oddnearmaxandviolatesrefined5positiongap. r1NPQ givesc<=a<=b; a<b violates6gap, hencea=b and2<=c<=a.",
+    "Both c=a andc<a remainOPEN; supplieda=c=2separateexclusion doesnotextendtoallparameters. Conditionalonspecificmiddleallquadmode, fullgrowth8anddrift3,1."
+  ],
+  "not_claimed": [
+    "middlemodeclosed",
+    "other2shortmodesclassified",
+    "passinginventoryrealization",
+    "singleusedcircleexistence",
+    "globalattraction"
+  ]
+}

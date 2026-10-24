@@ -1,0 +1,948 @@
+{
+  "status": "AUTHOR_FROZEN_FOREIGN_COVARIANCE_PENDING_REVIEW",
+  "scope": "Only UCC, X_S, A, Y_N, attempted U(0,-2,N), where A is exactly one F/Q/B and X,Y are arbitrary finite plain D/V/U rails. No additional C or foreign, no other target.",
+  "signed_S_N_hole_proof_unchanged": true,
+  "all_three_literal_foreign_covariance_rows": [
+    {
+      "foreign": "F",
+      "actual_RAW_endpoint": [
+        -4,
+        -2,
+        2
+      ],
+      "actual_RAW_min_y": -2,
+      "endpoint_required": [
+        0,
+        -2,
+        0
+      ],
+      "delta_D_constant": 0,
+      "delta_D_delta_U_coefficient": 2,
+      "delta_V_constant": -3,
+      "delta_V_delta_U_coefficient": -2,
+      "drop_X_equals_drop_Y_plus": 9,
+      "source_hole_local_to_foreign": "(-dX-vX, 5-dropX)",
+      "maximum_possible_hole_local_y": -4,
+      "strict_RAW_miss_margin": 2,
+      "hole_relative_to_actual_N_exit_core_y": "dropX-b-5 = dropY+2 >= 2",
+      "source_hole_outside_actual_exit_K": true,
+      "same_sixteen_S_and_N_origin_exclusions_as_signed_extension": true
+    },
+    {
+      "foreign": "Q",
+      "actual_RAW_endpoint": [
+        -4,
+        -4,
+        2
+      ],
+      "actual_RAW_min_y": -4,
+      "endpoint_required": [
+        0,
+        -2,
+        0
+      ],
+      "delta_D_constant": 1,
+      "delta_D_delta_U_coefficient": 2,
+      "delta_V_constant": -4,
+      "delta_V_delta_U_coefficient": -2,
+      "drop_X_equals_drop_Y_plus": 11,
+      "source_hole_local_to_foreign": "(-dX-vX, 5-dropX)",
+      "maximum_possible_hole_local_y": -6,
+      "strict_RAW_miss_margin": 2,
+      "hole_relative_to_actual_N_exit_core_y": "dropX-b-5 = dropY+2 >= 2",
+      "source_hole_outside_actual_exit_K": true,
+      "same_sixteen_S_and_N_origin_exclusions_as_signed_extension": true
+    },
+    {
+      "foreign": "B",
+      "actual_RAW_endpoint": [
+        -3,
+        -5,
+        2
+      ],
+      "actual_RAW_min_y": -5,
+      "endpoint_required": [
+        0,
+        -2,
+        0
+      ],
+      "delta_D_constant": 3,
+      "delta_D_delta_U_coefficient": 2,
+      "delta_V_constant": -5,
+      "delta_V_delta_U_coefficient": -2,
+      "drop_X_equals_drop_Y_plus": 12,
+      "source_hole_local_to_foreign": "(-dX-vX, 5-dropX)",
+      "maximum_possible_hole_local_y": -7,
+      "strict_RAW_miss_margin": 2,
+      "hole_relative_to_actual_N_exit_core_y": "dropX-b-5 = dropY+2 >= 2",
+      "source_hole_outside_actual_exit_K": true,
+      "same_sixteen_S_and_N_origin_exclusions_as_signed_extension": true
+    }
+  ],
+  "actual_complete_finite_partial_prefix_controls": [
+    {
+      "foreign": "F",
+      "S_rail": "VVVU",
+      "N_rail": "U",
+      "exact_tokens_before_target": [
+        "U",
+        "C",
+        "C",
+        "V",
+        "V",
+        "V",
+        "U",
+        "F",
+        "U"
+      ],
+      "complete_initial_BLACK": [
+        [
+          -4,
+          -10
+        ],
+        [
+          -4,
+          -7
+        ],
+        [
+          -4,
+          -6
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          -3,
+          -10
+        ],
+        [
+          -3,
+          -8
+        ],
+        [
+          -3,
+          -6
+        ],
+        [
+          -3,
+          -5
+        ],
+        [
+          -3,
+          -4
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -2,
+          -10
+        ],
+        [
+          -2,
+          -7
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -1,
+          -11
+        ],
+        [
+          -1,
+          -10
+        ],
+        [
+          -1,
+          -9
+        ],
+        [
+          -1,
+          -7
+        ],
+        [
+          -1,
+          -6
+        ],
+        [
+          -1,
+          -5
+        ],
+        [
+          -1,
+          -4
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          -11
+        ],
+        [
+          0,
+          -8
+        ],
+        [
+          0,
+          -7
+        ],
+        [
+          0,
+          -4
+        ],
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          -10
+        ],
+        [
+          1,
+          -9
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "all_unlisted_initial_cells_WHITE": true,
+      "successful_actual_reads": 237,
+      "actual_next_pose": [
+        -1,
+        0,
+        3
+      ],
+      "actual_next_turn": "R",
+      "attempted_U_requires_L_at_tick0": 13,
+      "exact_conflict": {
+        "feasible": false,
+        "conflict_read": 237,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      },
+      "all_seven_current_marker_mismatch_ticks0": {
+        "D": 11,
+        "C": 12,
+        "V": 12,
+        "U": 13,
+        "F": 13,
+        "Q": 13,
+        "B": 13
+      },
+      "completed_target_or_contact_claimed": false
+    },
+    {
+      "foreign": "Q",
+      "S_rail": "VVVV",
+      "N_rail": "D",
+      "exact_tokens_before_target": [
+        "U",
+        "C",
+        "C",
+        "V",
+        "V",
+        "V",
+        "V",
+        "Q",
+        "D"
+      ],
+      "complete_initial_BLACK": [
+        [
+          -5,
+          -9
+        ],
+        [
+          -5,
+          -6
+        ],
+        [
+          -4,
+          -9
+        ],
+        [
+          -4,
+          -7
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          -3,
+          -9
+        ],
+        [
+          -3,
+          -6
+        ],
+        [
+          -3,
+          -4
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -2,
+          -10
+        ],
+        [
+          -2,
+          -9
+        ],
+        [
+          -2,
+          -8
+        ],
+        [
+          -2,
+          -6
+        ],
+        [
+          -2,
+          -3
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -1,
+          -10
+        ],
+        [
+          -1,
+          -7
+        ],
+        [
+          -1,
+          -6
+        ],
+        [
+          -1,
+          -4
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          -9
+        ],
+        [
+          0,
+          -8
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "all_unlisted_initial_cells_WHITE": true,
+      "successful_actual_reads": 217,
+      "actual_next_pose": [
+        -1,
+        0,
+        3
+      ],
+      "actual_next_turn": "R",
+      "attempted_U_requires_L_at_tick0": 13,
+      "exact_conflict": {
+        "feasible": false,
+        "conflict_read": 217,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      },
+      "all_seven_current_marker_mismatch_ticks0": {
+        "D": 11,
+        "C": 12,
+        "V": 12,
+        "U": 13,
+        "F": 13,
+        "Q": 13,
+        "B": 13
+      },
+      "completed_target_or_contact_claimed": false
+    },
+    {
+      "foreign": "Q",
+      "S_rail": "VVVVU",
+      "N_rail": "DU",
+      "exact_tokens_before_target": [
+        "U",
+        "C",
+        "C",
+        "V",
+        "V",
+        "V",
+        "V",
+        "U",
+        "Q",
+        "D",
+        "U"
+      ],
+      "complete_initial_BLACK": [
+        [
+          -5,
+          -13
+        ],
+        [
+          -5,
+          -10
+        ],
+        [
+          -5,
+          -9
+        ],
+        [
+          -5,
+          -6
+        ],
+        [
+          -4,
+          -13
+        ],
+        [
+          -4,
+          -11
+        ],
+        [
+          -4,
+          -9
+        ],
+        [
+          -4,
+          -8
+        ],
+        [
+          -4,
+          -7
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          -3,
+          -13
+        ],
+        [
+          -3,
+          -10
+        ],
+        [
+          -3,
+          -4
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -2,
+          -14
+        ],
+        [
+          -2,
+          -13
+        ],
+        [
+          -2,
+          -12
+        ],
+        [
+          -2,
+          -10
+        ],
+        [
+          -2,
+          -7
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -1,
+          -14
+        ],
+        [
+          -1,
+          -11
+        ],
+        [
+          -1,
+          -10
+        ],
+        [
+          -1,
+          -8
+        ],
+        [
+          -1,
+          -6
+        ],
+        [
+          -1,
+          -5
+        ],
+        [
+          -1,
+          -4
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          -13
+        ],
+        [
+          0,
+          -12
+        ],
+        [
+          0,
+          -4
+        ],
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "all_unlisted_initial_cells_WHITE": true,
+      "successful_actual_reads": 273,
+      "actual_next_pose": [
+        -1,
+        0,
+        3
+      ],
+      "actual_next_turn": "R",
+      "attempted_U_requires_L_at_tick0": 13,
+      "exact_conflict": {
+        "feasible": false,
+        "conflict_read": 273,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      },
+      "all_seven_current_marker_mismatch_ticks0": {
+        "D": 11,
+        "C": 12,
+        "V": 12,
+        "U": 13,
+        "F": 13,
+        "Q": 13,
+        "B": 13
+      },
+      "completed_target_or_contact_claimed": false
+    },
+    {
+      "foreign": "B",
+      "S_rail": "VVVVVU",
+      "N_rail": "DDDU",
+      "exact_tokens_before_target": [
+        "U",
+        "C",
+        "C",
+        "V",
+        "V",
+        "V",
+        "V",
+        "V",
+        "U",
+        "B",
+        "D",
+        "D",
+        "D",
+        "U"
+      ],
+      "complete_initial_BLACK": [
+        [
+          -6,
+          -16
+        ],
+        [
+          -6,
+          -13
+        ],
+        [
+          -6,
+          -12
+        ],
+        [
+          -6,
+          -9
+        ],
+        [
+          -5,
+          -16
+        ],
+        [
+          -5,
+          -14
+        ],
+        [
+          -5,
+          -12
+        ],
+        [
+          -5,
+          -11
+        ],
+        [
+          -5,
+          -10
+        ],
+        [
+          -5,
+          -6
+        ],
+        [
+          -4,
+          -16
+        ],
+        [
+          -4,
+          -13
+        ],
+        [
+          -4,
+          -12
+        ],
+        [
+          -4,
+          -11
+        ],
+        [
+          -4,
+          -9
+        ],
+        [
+          -4,
+          -7
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          -3,
+          -17
+        ],
+        [
+          -3,
+          -16
+        ],
+        [
+          -3,
+          -15
+        ],
+        [
+          -3,
+          -13
+        ],
+        [
+          -3,
+          -11
+        ],
+        [
+          -3,
+          -10
+        ],
+        [
+          -3,
+          -8
+        ],
+        [
+          -3,
+          -4
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -2,
+          -17
+        ],
+        [
+          -2,
+          -14
+        ],
+        [
+          -2,
+          -13
+        ],
+        [
+          -2,
+          -7
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -1,
+          -16
+        ],
+        [
+          -1,
+          -15
+        ],
+        [
+          -1,
+          -6
+        ],
+        [
+          -1,
+          -5
+        ],
+        [
+          -1,
+          -4
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          -4
+        ],
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "all_unlisted_initial_cells_WHITE": true,
+      "successful_actual_reads": 321,
+      "actual_next_pose": [
+        -1,
+        0,
+        3
+      ],
+      "actual_next_turn": "R",
+      "attempted_U_requires_L_at_tick0": 13,
+      "exact_conflict": {
+        "feasible": false,
+        "conflict_read": 321,
+        "previous_read": 1,
+        "cell": [
+          -1,
+          0
+        ],
+        "turn": "L"
+      },
+      "all_seven_current_marker_mismatch_ticks0": {
+        "D": 11,
+        "C": 12,
+        "V": 12,
+        "U": 13,
+        "F": 13,
+        "Q": 13,
+        "B": 13
+      },
+      "completed_target_or_contact_claimed": false
+    }
+  ],
+  "proof": "The signed source deletion and all sixteen S/N full-O origin exclusions are independent of A. Endpoint identities force g below every actual foreign RAW read and outside its actual exit K. Hence no valid later full-O, including core export, supplies g before the attempted U input at tick13/read14.",
+  "actual_next_read_for_controls": "R on WHITE g, not required L; no seven-atom continuation from that marker.",
+  "no_completed_target_or_proxy_contact_counterexample": true,
+  "no_postforeign_maturity_or_general_DFA": true,
+  "dependencies": {
+    "two_track_UCC_F_return_2026-10-24/plain_rail_extension_manifest.json": "6d9a85d89ffbf04d4b6c10441a1d2304a5fd663686f05eff8a6d970fd18b3b7d",
+    "audits/check_two_track_plain_DVU_independent.json": "563dc6f0e7a4f116d25d83bdecb7708453d380d60a9318e1545fd1a62fceb1da",
+    "literal_ownership_conventions_2026-10-24/canonical_read_ownership.py": "041b40e04a0f71a6b9511abf1d15b1d86c548e74f4f99281477c115b72036ea2"
+  }
+}

@@ -1,0 +1,458 @@
+{
+  "status": "PASS finite F49 internal color production with TWO distinct BLACK-root C-entry basins",
+  "files": {
+    "prepared_F49_leaf_has_two_distinct_BLACK_root_basins.md": "b180a12c99c2811c90b6c0e616dddcca113e95dfde6c04663551e8963e8e6085",
+    "check_prepared_F49_C_entry_basins.py": "56e34a1f2f214a3667edf76729cdf845f4b698de061af239224f6e2235b817ee",
+    "check_prepared_F49_C_entry_basins.json": "a8e48fb1492f6c8005e6e9be1842903414087c7318f1260c6be305a6324fd436",
+    "check_prepared_F49_portal_external_entry.json": "a8533d944a3cc1088af46b09472636343d8793f85ad3c21df68a163363afafd4"
+  },
+  "dependency": "50a7bcd50504d916bfd85fad31f7f112f9ae6712a676e30139a748dba81340ae",
+  "all_first_entries": [
+    [
+      [
+        0,
+        -1
+      ],
+      {
+        "time": 0,
+        "cell": [
+          0,
+          -1
+        ],
+        "rank": 0,
+        "type": "BLACK",
+        "parent": null,
+        "basin": [
+          0,
+          -1
+        ]
+      }
+    ],
+    [
+      [
+        -1,
+        0
+      ],
+      {
+        "time": 5,
+        "cell": [
+          0,
+          0
+        ],
+        "rank": 1,
+        "type": "WHITE",
+        "parent": [
+          0,
+          -1
+        ],
+        "basin": [
+          0,
+          -1
+        ]
+      }
+    ],
+    [
+      [
+        -2,
+        -1
+      ],
+      {
+        "time": 10,
+        "cell": [
+          -1,
+          0
+        ],
+        "rank": 1,
+        "type": "WHITE",
+        "parent": [
+          -1,
+          0
+        ],
+        "basin": [
+          0,
+          -1
+        ]
+      }
+    ],
+    [
+      [
+        -3,
+        0
+      ],
+      {
+        "time": 13,
+        "cell": [
+          -2,
+          0
+        ],
+        "rank": 0,
+        "type": "BLACK",
+        "parent": null,
+        "basin": [
+          -3,
+          0
+        ]
+      }
+    ],
+    [
+      [
+        -2,
+        1
+      ],
+      {
+        "time": 16,
+        "cell": [
+          -2,
+          1
+        ],
+        "rank": 0,
+        "type": "BLACK",
+        "parent": null,
+        "basin": [
+          -2,
+          1
+        ]
+      }
+    ],
+    [
+      [
+        -1,
+        2
+      ],
+      {
+        "time": 18,
+        "cell": [
+          -1,
+          2
+        ],
+        "rank": 0,
+        "type": "BLACK",
+        "parent": null,
+        "basin": [
+          -1,
+          2
+        ]
+      }
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      {
+        "time": 21,
+        "cell": [
+          0,
+          2
+        ],
+        "rank": 0,
+        "type": "BLACK",
+        "parent": null,
+        "basin": [
+          0,
+          1
+        ]
+      }
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      {
+        "time": 26,
+        "cell": [
+          1,
+          0
+        ],
+        "rank": 1,
+        "type": "WHITE",
+        "parent": [
+          0,
+          -1
+        ],
+        "basin": [
+          0,
+          -1
+        ]
+      }
+    ],
+    [
+      [
+        1,
+        2
+      ],
+      {
+        "time": 30,
+        "cell": [
+          1,
+          2
+        ],
+        "rank": 1,
+        "type": "WHITE",
+        "parent": [
+          0,
+          1
+        ],
+        "basin": [
+          0,
+          1
+        ]
+      }
+    ],
+    [
+      [
+        2,
+        3
+      ],
+      {
+        "time": 32,
+        "cell": [
+          2,
+          3
+        ],
+        "rank": 0,
+        "type": "BLACK",
+        "parent": null,
+        "basin": [
+          2,
+          3
+        ]
+      }
+    ],
+    [
+      [
+        1,
+        4
+      ],
+      {
+        "time": 33,
+        "cell": [
+          2,
+          4
+        ],
+        "rank": 0,
+        "type": "BLACK",
+        "parent": null,
+        "basin": [
+          1,
+          4
+        ]
+      }
+    ],
+    [
+      [
+        0,
+        5
+      ],
+      {
+        "time": 35,
+        "cell": [
+          1,
+          5
+        ],
+        "rank": 0,
+        "type": "BLACK",
+        "parent": null,
+        "basin": [
+          0,
+          5
+        ]
+      }
+    ],
+    [
+      [
+        -1,
+        4
+      ],
+      {
+        "time": 36,
+        "cell": [
+          0,
+          5
+        ],
+        "rank": 0,
+        "type": "BLACK",
+        "parent": null,
+        "basin": [
+          -1,
+          4
+        ]
+      }
+    ],
+    [
+      [
+        -2,
+        5
+      ],
+      {
+        "time": 39,
+        "cell": [
+          -1,
+          5
+        ],
+        "rank": 0,
+        "type": "BLACK",
+        "parent": null,
+        "basin": [
+          -2,
+          5
+        ]
+      }
+    ],
+    [
+      [
+        -3,
+        4
+      ],
+      {
+        "time": 40,
+        "cell": [
+          -2,
+          5
+        ],
+        "rank": 0,
+        "type": "BLACK",
+        "parent": null,
+        "basin": [
+          -3,
+          4
+        ]
+      }
+    ],
+    [
+      [
+        -4,
+        3
+      ],
+      {
+        "time": 42,
+        "cell": [
+          -3,
+          4
+        ],
+        "rank": 0,
+        "type": "BLACK",
+        "parent": null,
+        "basin": [
+          -4,
+          3
+        ]
+      }
+    ],
+    [
+      [
+        -3,
+        2
+      ],
+      {
+        "time": 43,
+        "cell": [
+          -3,
+          3
+        ],
+        "rank": 0,
+        "type": "BLACK",
+        "parent": null,
+        "basin": [
+          -3,
+          2
+        ]
+      }
+    ]
+  ],
+  "selected_lifetimes": {
+    "26": [
+      [
+        1,
+        0
+      ],
+      [
+        "R",
+        2
+      ]
+    ],
+    "27": [
+      [
+        1,
+        1
+      ],
+      [
+        "R",
+        23
+      ]
+    ]
+  },
+  "leaf_active_cut": 27,
+  "final_black": [
+    [
+      -3,
+      0
+    ],
+    [
+      -3,
+      1
+    ],
+    [
+      -2,
+      -1
+    ],
+    [
+      -2,
+      3
+    ],
+    [
+      -2,
+      4
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      -1,
+      3
+    ],
+    [
+      -1,
+      4
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "review": [
+    "Fresh full-field49 replay and activeC=p+heading_offset independently reconstruct every first-entry parent and basin. G is a WHITE first-entry leaf at update26, active only at cut27. Its two L colors were born at actual internalR2 andR23, not initial BLACK.",
+    "A has SAME EE headings and parent faceF; B has OPPOSITE SN headings and its R0 faceH is a different BLACK-root basin. Their finite roots activate at actualBLACK-firstL0 andL21. No full-quotient ancestry or merger interpretation is substituted.",
+    "The result is a scope qualifier, not a one-basin counterexample or a proof of a component-payment theorem. Prepared external BLACK fuel and unknown later visits remain."
+  ]
+}

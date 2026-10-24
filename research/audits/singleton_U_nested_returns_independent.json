@@ -1,0 +1,48 @@
+{
+  "status": "PASS critical global-max singleton U reset impossible by two-contact interval nesting",
+  "proof_sha256": "ee51c399c689937786a7067ddcff0097f60da5da4f0d3af736c8da7d89b93a7c",
+  "ordinal_control_sha256": "604b55d52e5c106c88dcc1a41a39a801bbf85d8953cea1a8c31e7dae1f1471d3",
+  "script_sha256": "a63f758a6e06704787b855492e36dfc3926acaa77bf7f9fe959d695e99d1edf2",
+  "four_second_window_profiles": [
+    [
+      "U",
+      "X",
+      "O",
+      "X",
+      "V"
+    ],
+    [
+      "U",
+      "X",
+      "O",
+      "Y",
+      "V"
+    ],
+    [
+      "U",
+      "X",
+      "U",
+      "X",
+      "O"
+    ],
+    [
+      "U",
+      "X",
+      "U",
+      "X",
+      "U"
+    ]
+  ],
+  "analytic_checks": [
+    "First globalM staircase window forces singletonU followedRIGHTX,nextLEFT O/U. The next LEFT cannot startLL because exhaustive LLfirstreset inventory requires precedingRIGHTY; it cannot be LLsecond afterRIGHT. Thus second alternatingwindow genuinely exists, includingmixedcase.",
+    "All four signed second-window completions force helperNNS orNNSS; freshphysicalport-ordinal matching gives uR0->aR0->vL1 andvR2->dR2->uL3. OddhelperNNS isretained.",
+    "Actualsamecellgaps>=4 yield T1v=T0u+2<=T1u-2 andT2v=T3u-2>=T2u+2. Therefore v interval strictlycontainsu, contradicting signedcriticalpairwisedisjointphysicalLEFTreturns. Everytranslate covered; no globaltimebound or infinite descent.",
+    "Together signed728ad all-shortexclusion nowforces singletonO=WEE oddRLR root with actualsamecontactreturn>=8. LL-firstU fourLcleanup remainspossible, and unknownolderstock/longoddcompletion remainsopen."
+  ],
+  "not_claimed": [
+    "allflow2circlesexcluded",
+    "noncritical or nonglobalextension",
+    "newdisjointoutputpayment",
+    "fuel orattraction"
+  ]
+}

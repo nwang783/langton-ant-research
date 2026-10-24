@@ -1,0 +1,157 @@
+{
+  "status": "PASS independent literal model reconstruction and explicit-state closure, without using BDD results as premises",
+  "new_exclusions_one_based": [
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    69
+  ],
+  "new_exclusions": 13,
+  "total_exclusions": 35,
+  "remaining_unproved": 34,
+  "total_explicitly_exhausted_states": 1999527,
+  "results": [
+    {
+      "case_index_one_based": 45,
+      "status": "PASS explicit independent sparse no-goal closure",
+      "reachable_states": 154755,
+      "packet_edge_checks": 608347,
+      "out_reentry_checks": 100928,
+      "visited_checksum": 15687143561768185498
+    },
+    {
+      "case_index_one_based": 46,
+      "status": "PASS explicit independent sparse no-goal closure",
+      "reachable_states": 154755,
+      "packet_edge_checks": 643907,
+      "out_reentry_checks": 100928,
+      "visited_checksum": 15687143561768185498
+    },
+    {
+      "case_index_one_based": 47,
+      "status": "PASS explicit independent sparse no-goal closure",
+      "reachable_states": 152323,
+      "packet_edge_checks": 631847,
+      "out_reentry_checks": 100928,
+      "visited_checksum": 10406172873374087689
+    },
+    {
+      "case_index_one_based": 48,
+      "status": "PASS explicit independent sparse no-goal closure",
+      "reachable_states": 154755,
+      "packet_edge_checks": 615435,
+      "out_reentry_checks": 100928,
+      "visited_checksum": 15687143561768185498
+    },
+    {
+      "case_index_one_based": 49,
+      "status": "PASS explicit independent sparse no-goal closure",
+      "reachable_states": 154755,
+      "packet_edge_checks": 613187,
+      "out_reentry_checks": 100928,
+      "visited_checksum": 15687143561768185498
+    },
+    {
+      "case_index_one_based": 50,
+      "status": "PASS explicit independent sparse no-goal closure",
+      "reachable_states": 152323,
+      "packet_edge_checks": 599687,
+      "out_reentry_checks": 100928,
+      "visited_checksum": 10406172873374087689
+    },
+    {
+      "case_index_one_based": 51,
+      "status": "PASS explicit independent sparse no-goal closure",
+      "reachable_states": 152323,
+      "packet_edge_checks": 587951,
+      "out_reentry_checks": 100928,
+      "visited_checksum": 10406172873374087689
+    },
+    {
+      "case_index_one_based": 52,
+      "status": "PASS explicit independent sparse no-goal closure",
+      "reachable_states": 153539,
+      "packet_edge_checks": 659023,
+      "out_reentry_checks": 100928,
+      "visited_checksum": 10558077834197432622
+    },
+    {
+      "case_index_one_based": 53,
+      "status": "PASS explicit independent sparse no-goal closure",
+      "reachable_states": 154755,
+      "packet_edge_checks": 646851,
+      "out_reentry_checks": 100928,
+      "visited_checksum": 15687143561768185498
+    },
+    {
+      "case_index_one_based": 54,
+      "status": "PASS explicit independent sparse no-goal closure",
+      "reachable_states": 153539,
+      "packet_edge_checks": 631023,
+      "out_reentry_checks": 100928,
+      "visited_checksum": 10558077834197432622
+    },
+    {
+      "case_index_one_based": 55,
+      "status": "PASS explicit independent sparse no-goal closure",
+      "reachable_states": 154755,
+      "packet_edge_checks": 607886,
+      "out_reentry_checks": 100928,
+      "visited_checksum": 15687143561768185498
+    },
+    {
+      "case_index_one_based": 56,
+      "status": "PASS explicit independent sparse no-goal closure",
+      "reachable_states": 152323,
+      "packet_edge_checks": 600551,
+      "out_reentry_checks": 100928,
+      "visited_checksum": 10406172873374087689
+    },
+    {
+      "case_index_one_based": 69,
+      "status": "PASS explicit independent sparse no-goal closure",
+      "reachable_states": 154627,
+      "packet_edge_checks": 518846,
+      "out_reentry_checks": 100928,
+      "visited_checksum": 14202480591190123545
+    }
+  ],
+  "source_hashes": {
+    "core_periodicity_new/protected_vc24_case45.json": "aeb76d043226a096532fc0074da45a6ee636b6d24a30c9b0fb3021356d0b62e8",
+    "core_periodicity_new/protected_vc24_case45.dat": "19465bc40addfcb934d50e38f748f9f63691adaddf9ca09e2e6e5ecc56c60804",
+    "core_periodicity_new/protected_vc24_case46.json": "845ef38f9e764c5b7f76dc03a6d2cc92d4387be278fc10f649f361d309122bc2",
+    "core_periodicity_new/protected_vc24_case46.dat": "6428aeac1a782d1cab5fb989f6dc13b31fb8cb4a966510fe8faefd5f7b8bbc64",
+    "core_periodicity_new/protected_vc24_case47.json": "b98bc57bc3a6fc78d57e813899e36feb0ce180add8aa114947992903e24b6f78",
+    "core_periodicity_new/protected_vc24_case47.dat": "2f1eecfa5118904c4fe9cb14b79432643fa2332c4b101f64d10f02f8f4f4163a",
+    "core_periodicity_new/protected_vc24_case48.json": "b11547a24f2de2aa16a49f51a4e9304da062632fade36e801fac05b01141f09d",
+    "core_periodicity_new/protected_vc24_case48.dat": "fe7876489820967302e32858d801bb5bdea45c800bb3f3f1c5f14a1374ba80e9",
+    "core_periodicity_new/protected_vc24_case49.json": "1b2b7f41786908f13e8a532b0df9652347c5d357a28dd2539ea1f1cbb26cd226",
+    "core_periodicity_new/protected_vc24_case49.dat": "16725bdfa1505fd37f2fcbbfacce1dd252d5c1d214b3009f76038fd9e0c1b459",
+    "core_periodicity_new/protected_vc24_case50.json": "95324967a2a6df53bd23d57ab6e24e0590d58a83ddbfa89cd9a5554ce05654a5",
+    "core_periodicity_new/protected_vc24_case50.dat": "9b4a194bc3d2344beca1d48e65127e67232f1cb78f9f9ee6e8678c10a31f3278",
+    "core_periodicity_new/protected_vc24_case51.json": "e494e3a8a10adc79b6abfdc378ec4c3e0caeb106b8b23f3b0029d72af12c678e",
+    "core_periodicity_new/protected_vc24_case51.dat": "a65da45c98f94c60a2134059d82c605e6de7b9b432654f0b6d73c4216b61f70b",
+    "core_periodicity_new/protected_vc24_case52.json": "72a2314766b000bf49ed601a6ea974bebcce836bd0702e19dd430f49b50f3566",
+    "core_periodicity_new/protected_vc24_case52.dat": "a7d762c3e268c7ca841799e5b55a501eb193c064b00d45328824c2089c9af390",
+    "core_periodicity_new/protected_vc24_case53.json": "68a23c532de6a5965754bcde991c8466bd35e100c5444ecc9c00dbd429216de2",
+    "core_periodicity_new/protected_vc24_case53.dat": "f4b579bed29a587b0e28efc0e7d1abcaa292f786e4057608360c12c20263d72d",
+    "core_periodicity_new/protected_vc24_case54.json": "5b3b449b38baaf894b9e180bcf6a510746645bea4141087b2afa0f0ff8049e25",
+    "core_periodicity_new/protected_vc24_case54.dat": "d5786537a0a009d0e564bdb5d76437eb1708033d0aecc4d54c69d380701e61e6",
+    "core_periodicity_new/protected_vc24_case55.json": "5075fbeae3b766cf8588ffa1869f3cb4c38fcbd1a5d11caeb4874ce00cab458c",
+    "core_periodicity_new/protected_vc24_case55.dat": "e7cca3188a422bfaa076bdfdd14956156c116516aff27ac7342f526285a939e6",
+    "core_periodicity_new/protected_vc24_case56.json": "0389101994738622f60c85dbe8baf05e049be7685ed429344a5bdb3e31ae6ea2",
+    "core_periodicity_new/protected_vc24_case56.dat": "ae153c483e43724534174062d4f568f7045d3a8bbd0e68c9065f0de8340ef667",
+    "core_periodicity_new/protected_vc24_case69.json": "a5725177052671c7df6df428310b348402b1a7de937503fa1bd045ee189635d1",
+    "core_periodicity_new/protected_vc24_case69.dat": "c29072b0263198e58ba3aab7161d6443e5929676ac5e95ada4a7ff5005003ec2"
+  },
+  "scope": "These are finite-state all-length transfer exclusions, not physical witnesses for remaining cases and not a DCV tail theorem."
+}

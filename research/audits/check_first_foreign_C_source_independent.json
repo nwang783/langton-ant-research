@@ -1,0 +1,256 @@
+{
+  "status": "PASS actual C-source chronological first-foreign contact exclusion",
+  "manifest_sha256": "37e71e6bd55f1bd9ea748e2fb9221bf474309e494ba788f35e56419ca2bdd384",
+  "full_producer_roles": [
+    [
+      "DC",
+      1,
+      [
+        1,
+        1
+      ],
+      0,
+      0,
+      0,
+      {
+        "C_common": [
+          3,
+          1
+        ],
+        "C_exit_bud": [
+          2,
+          3
+        ],
+        "incoming_exit_bud": [
+          2,
+          0
+        ]
+      }
+    ],
+    [
+      "VC",
+      1,
+      [
+        1,
+        3
+      ],
+      0,
+      0,
+      0,
+      {
+        "C_common": [
+          3,
+          3
+        ],
+        "C_exit_bud": [
+          2,
+          5
+        ],
+        "incoming_exit_bud": [
+          2,
+          2
+        ]
+      }
+    ],
+    [
+      "VCC",
+      1,
+      [
+        1,
+        3
+      ],
+      0,
+      0,
+      1,
+      {
+        "C_common": [
+          3,
+          3
+        ],
+        "C_exit_bud": [
+          2,
+          5
+        ],
+        "incoming_exit_bud": [
+          2,
+          2
+        ]
+      }
+    ],
+    [
+      "VCC",
+      2,
+      [
+        1,
+        4
+      ],
+      3,
+      1,
+      0,
+      {
+        "C_common": [
+          1,
+          6
+        ],
+        "C_exit_bud": [
+          -1,
+          5
+        ],
+        "incoming_exit_bud": [
+          2,
+          5
+        ]
+      }
+    ],
+    [
+      "UC",
+      1,
+      [
+        0,
+        4
+      ],
+      0,
+      0,
+      0,
+      {
+        "C_common": [
+          2,
+          4
+        ],
+        "C_exit_bud": [
+          1,
+          6
+        ],
+        "incoming_exit_bud": [
+          1,
+          3
+        ]
+      }
+    ],
+    [
+      "UCC",
+      1,
+      [
+        0,
+        4
+      ],
+      0,
+      0,
+      1,
+      {
+        "C_common": [
+          2,
+          4
+        ],
+        "C_exit_bud": [
+          1,
+          6
+        ],
+        "incoming_exit_bud": [
+          1,
+          3
+        ]
+      }
+    ],
+    [
+      "UCC",
+      2,
+      [
+        0,
+        5
+      ],
+      3,
+      1,
+      0,
+      {
+        "C_common": [
+          0,
+          7
+        ],
+        "C_exit_bud": [
+          -2,
+          6
+        ],
+        "incoming_exit_bud": [
+          1,
+          6
+        ]
+      }
+    ]
+  ],
+  "clock_labels": 53,
+  "b0_geometries": 25,
+  "completion_records": 175,
+  "impossible_early_completions": 16,
+  "first_filters": {
+    "protected_old_predecessor_context": 11,
+    "target_protected_guard": 8,
+    "remaining": 21
+  },
+  "remaining_exclusions": {
+    "age2": 1,
+    "age3_prefix": 10,
+    "age4_prefix": 5,
+    "age1": 2,
+    "age3_tail": 3
+  },
+  "forced_word_conflicts": [
+    [
+      "CDVQ",
+      [
+        "Q",
+        59,
+        102,
+        [
+          -1,
+          -1
+        ]
+      ]
+    ],
+    [
+      "CDUB",
+      [
+        "B",
+        69,
+        122,
+        [
+          -1,
+          -1
+        ]
+      ]
+    ],
+    [
+      "CDDCDUB",
+      [
+        "B",
+        42,
+        130,
+        [
+          -1,
+          -1
+        ]
+      ]
+    ],
+    [
+      "CVCUB",
+      [
+        "U",
+        14,
+        62,
+        [
+          -3,
+          1
+        ]
+      ]
+    ]
+  ],
+  "analytic": [
+    "Every source C is one of seven actual full-producer tail roles. Its actual entry and exit M11 are present in full RAW+marker. Atomic age n maps to full-source age n+j-1. In particular the second-C common maps to full VCC(1,6) or UCC(0,7). No source identity is reset at an internal C cut.",
+    "Signed common1344 gives atomic common first consumption>=3, including shifted second C. Signed exit-bud1325 gives C exitbud first consumption>=4 because C exits at1, and the genuine incoming predecessor bud first consumption>=3 from C entry. C has no external residual inputs; every full input set is the corresponding base input set, so core/marker-only retirement is covered.",
+    "The complete8 adjacency law removes preceding-C labels only in this actual first-foreign scope. The remaining25 geometries have40 real V/U predecessors. Eight foreign core/white conflicts and11 old predecessor complete-context conflicts are legitimate; a foreign black INPUT is not rejected merely by an old-eight maturity law.",
+    "At age1 the actual W cone forces one D before the fixed V/Q or U/B pair. At age2 exact count equations force two words. All four fail by immutable RAW read parity. Nonfinal first-C roles that cannot complete their source in time are independently retained as impossible timing records, not treated as standalone producers.",
+    "Age3 prefix retirement endpoints have E x>=2 versus foreign x1. Age3 tail first clearers can reach the target only by exactly two subsequent plain D bases, forbidden immediately before foreign. This uses the genuine incoming guardian for Q and C-common for B, not an unproved foreign permanence.",
+    "At age4 the E age3 equality endpoint(2,-1) must use the sole C to(3,-1,N). Remaining zero-x N motion is only U and raises y by4, never to1. All eight N age4 endpoints fail the exact zero-C cone. Full consumers may contain the remaining C but must complete by actual foreign entry; two tails cannot fit."
+  ],
+  "scope": "Outgoing actual C source only at chronological FIRST new contact of FIRST foreign after an actual U-entry complete8 path. No avoidance of later contacts after an earlier new contact, global kinked proxy simplicity, generic seven-word cover or capture."
+}

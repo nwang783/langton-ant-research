@@ -1,0 +1,465 @@
+{"segment": 0, "time": [0, 0, 5726], "pose": [[[0, 0, -11], [0, 0, 1]], 0], "contacts": {}}
+{"segment": 1, "time": [104, 0, 16230], "pose": [[[-2, 0, -213], [-2, 0, -201]], 0], "contacts": {}}
+{"segment": 2, "time": [104, 0, 67353], "pose": [[[-2, 0, -179], [-2, 0, -238]], 1], "contacts": {"q2": [104, 0, 16307]}}
+{"segment": 3, "time": [208, 104, 88153], "pose": [[[0, 2, 221], [0, 2, 162]], 1], "contacts": {}}
+{"segment": 4, "time": [208, 104, 139271], "pose": [[[0, 2, 184], [0, 2, 199]], 3], "contacts": {"q3": [208, 104, 88225]}}
+{"segment": 5, "time": [208, 208, 148007], "pose": [[[0, 0, 16], [0, 0, 31]], 3], "contacts": {}}
+{"segment": 6, "time": [208, 208, 165017], "pose": [[[0, 0, 49], [0, 0, 30]], 3], "contacts": {}}
+{"segment": 7, "time": [208, 208, 165537], "pose": [[[0, 0, 59], [0, 0, 20]], 3], "contacts": {}}
+{"segment": 8, "time": [208, 208, 184309], "pose": [[[0, 0, -21], [0, 0, 30]], 1], "contacts": {}}
+{"segment": 9, "time": [208, 208, 185245], "pose": [[[0, 0, -3], [0, 0, 48]], 1], "contacts": {}}
+{"segment": 10, "time": [208, 208, 193039], "pose": [[[0, 0, -36], [0, 0, 27]], 3], "contacts": {}}
+{"segment": 11, "time": [312, 208, 203231], "pose": [[[-2, 0, -232], [-2, 0, -169]], 3], "contacts": {}}
+{"segment": 12, "time": [312, 208, 205541], "pose": [[[-2, 0, -249], [-2, 0, -208]], 3], "contacts": {}}
+{
+  "status": "exact complete finite-kernel three-marker cycle for all independent n,p>=100",
+  "phase": 38,
+  "domain": "n=U+100,p=V+100; U,V independent nonnegative integers",
+  "initial": [
+    [
+      [
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        -3
+      ]
+    ],
+    [
+      [
+        -2,
+        0,
+        -218
+      ],
+      [
+        -2,
+        0,
+        -209
+      ]
+    ],
+    [
+      [
+        0,
+        2,
+        223
+      ],
+      [
+        0,
+        2,
+        170
+      ]
+    ]
+  ],
+  "first_contacts": {
+    "q2": [
+      104,
+      0,
+      16307
+    ],
+    "q3": [
+      208,
+      104,
+      88225
+    ]
+  },
+  "capture_time": [
+    312,
+    208,
+    205541
+  ],
+  "capture_pose": [
+    [
+      [
+        -2,
+        0,
+        -249
+      ],
+      [
+        -2,
+        0,
+        -208
+      ]
+    ],
+    3
+  ],
+  "tail": {
+    "drift": [
+      -2,
+      -2
+    ],
+    "heading": 3,
+    "required_cells": 44,
+    "odd_cells": 36
+  },
+  "tail_phase": 100,
+  "prefix_u_bounds": [
+    -94,
+    116
+  ],
+  "whole_future_u_lower": -94,
+  "unused_opposite_corners": {
+    "NW": [
+      [
+        -2,
+        0,
+        -218
+      ],
+      [
+        0,
+        2,
+        170
+      ]
+    ],
+    "SE": [
+      [
+        0,
+        2,
+        223
+      ],
+      [
+        -2,
+        0,
+        -209
+      ]
+    ]
+  },
+  "unused_corners_never_read": true,
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        0,
+        5726
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -11
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        0
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 1,
+      "time": [
+        104,
+        0,
+        16230
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            0,
+            -213
+          ],
+          [
+            -2,
+            0,
+            -201
+          ]
+        ],
+        0
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 2,
+      "time": [
+        104,
+        0,
+        67353
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            0,
+            -179
+          ],
+          [
+            -2,
+            0,
+            -238
+          ]
+        ],
+        1
+      ],
+      "contacts": {
+        "q2": [
+          104,
+          0,
+          16307
+        ]
+      }
+    },
+    {
+      "segment": 3,
+      "time": [
+        208,
+        104,
+        88153
+      ],
+      "pose": [
+        [
+          [
+            0,
+            2,
+            221
+          ],
+          [
+            0,
+            2,
+            162
+          ]
+        ],
+        1
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 4,
+      "time": [
+        208,
+        104,
+        139271
+      ],
+      "pose": [
+        [
+          [
+            0,
+            2,
+            184
+          ],
+          [
+            0,
+            2,
+            199
+          ]
+        ],
+        3
+      ],
+      "contacts": {
+        "q3": [
+          208,
+          104,
+          88225
+        ]
+      }
+    },
+    {
+      "segment": 5,
+      "time": [
+        208,
+        208,
+        148007
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            16
+          ],
+          [
+            0,
+            0,
+            31
+          ]
+        ],
+        3
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 6,
+      "time": [
+        208,
+        208,
+        165017
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            49
+          ],
+          [
+            0,
+            0,
+            30
+          ]
+        ],
+        3
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 7,
+      "time": [
+        208,
+        208,
+        165537
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            59
+          ],
+          [
+            0,
+            0,
+            20
+          ]
+        ],
+        3
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 8,
+      "time": [
+        208,
+        208,
+        184309
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -21
+          ],
+          [
+            0,
+            0,
+            30
+          ]
+        ],
+        1
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 9,
+      "time": [
+        208,
+        208,
+        185245
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -3
+          ],
+          [
+            0,
+            0,
+            48
+          ]
+        ],
+        1
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 10,
+      "time": [
+        208,
+        208,
+        193039
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -36
+          ],
+          [
+            0,
+            0,
+            27
+          ]
+        ],
+        3
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 11,
+      "time": [
+        312,
+        208,
+        203231
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            0,
+            -232
+          ],
+          [
+            -2,
+            0,
+            -169
+          ]
+        ],
+        3
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 12,
+      "time": [
+        312,
+        208,
+        205541
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            0,
+            -249
+          ],
+          [
+            -2,
+            0,
+            -208
+          ]
+        ],
+        3
+      ],
+      "contacts": {}
+    }
+  ],
+  "statistics": {
+    "finite_read_constraints": 19489,
+    "periodic_read_constraints": 292,
+    "affine_guards": 22512,
+    "excluded_isolated_equalities": 73819248
+  },
+  "template_sha256": "776238aa4a3ce991637b4ac9410057044a5756c9f66b9a1d228c750356b84b1a",
+  "source_certificate_sha256": "dc1ec13ae59483ab5b7c11e9b8895b190d9e5809dbf34f6012a432775d3ccc26",
+  "scope": "Arbitrary finite history belowu=-160 is protected, including the blank old history at fixed m>=100. Recurrence coupling is separately justified."
+}

@@ -1,0 +1,450 @@
+{
+  "word": "LR",
+  "heading": 3,
+  "length": 2,
+  "drift": [
+    -1,
+    -1
+  ],
+  "word_sha256": "096d92ee9c796a7c2419a6ff814b2c0322f13c2eae282894002f99e433ec5641",
+  "parallel_standard_direction": true,
+  "normalized_heading": 3,
+  "normalization_quarter_turns": 0,
+  "diagonal_scale": 1,
+  "read_classes": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "required_black_classes": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "constants": {
+    "superperiod_copies": 2,
+    "common_drift": [
+      2,
+      2
+    ],
+    "standard_superperiods": 1,
+    "consumer_endpoint_loss": 1,
+    "standard_endpoint_width": 3,
+    "parallel_flight_loss": 6,
+    "nonparallel_flight_loss": 968,
+    "cap_loss_per_read": 1,
+    "lower_bound": "|B|>=floor(n/2)-1-L-6*r_parallel-968*r_nonparallel"
+  },
+  "status": "INCOMPATIBLE",
+  "candidates": [
+    {
+      "orientation": "NE",
+      "normal": -2,
+      "x_parity": 0,
+      "band": [
+        -9,
+        1
+      ],
+      "covered_black": [
+        [
+          0,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "cover_mask": 2
+    },
+    {
+      "orientation": "NE",
+      "normal": -2,
+      "x_parity": 1,
+      "band": [
+        -9,
+        1
+      ],
+      "covered_black": [
+        [
+          0,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "cover_mask": 1
+    },
+    {
+      "orientation": "NE",
+      "normal": 0,
+      "x_parity": 0,
+      "band": [
+        -7,
+        3
+      ],
+      "covered_black": [
+        [
+          0,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          1,
+          0
+        ]
+      ],
+      "cover_mask": 1
+    },
+    {
+      "orientation": "NE",
+      "normal": 0,
+      "x_parity": 1,
+      "band": [
+        -7,
+        3
+      ],
+      "covered_black": [
+        [
+          0,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          1,
+          1
+        ]
+      ],
+      "cover_mask": 2
+    },
+    {
+      "orientation": "NE",
+      "normal": 2,
+      "x_parity": 0,
+      "band": [
+        -5,
+        5
+      ],
+      "covered_black": [
+        [
+          0,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          1,
+          1
+        ]
+      ],
+      "cover_mask": 1
+    },
+    {
+      "orientation": "NE",
+      "normal": 2,
+      "x_parity": 1,
+      "band": [
+        -5,
+        5
+      ],
+      "covered_black": [
+        [
+          0,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          1,
+          0
+        ]
+      ],
+      "cover_mask": 2
+    },
+    {
+      "orientation": "NE",
+      "normal": 6,
+      "x_parity": 0,
+      "band": [
+        -1,
+        9
+      ],
+      "covered_black": [
+        [
+          0,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          1,
+          1
+        ]
+      ],
+      "cover_mask": 2
+    },
+    {
+      "orientation": "NE",
+      "normal": 6,
+      "x_parity": 1,
+      "band": [
+        -1,
+        9
+      ],
+      "covered_black": [
+        [
+          0,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          1,
+          0
+        ]
+      ],
+      "cover_mask": 1
+    },
+    {
+      "orientation": "SW",
+      "normal": -6,
+      "x_parity": 0,
+      "band": [
+        -9,
+        1
+      ],
+      "covered_black": [
+        [
+          0,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "cover_mask": 2
+    },
+    {
+      "orientation": "SW",
+      "normal": -6,
+      "x_parity": 1,
+      "band": [
+        -9,
+        1
+      ],
+      "covered_black": [
+        [
+          0,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "cover_mask": 1
+    },
+    {
+      "orientation": "SW",
+      "normal": -2,
+      "x_parity": 0,
+      "band": [
+        -5,
+        5
+      ],
+      "covered_black": [
+        [
+          0,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          1,
+          0
+        ]
+      ],
+      "cover_mask": 1
+    },
+    {
+      "orientation": "SW",
+      "normal": -2,
+      "x_parity": 1,
+      "band": [
+        -5,
+        5
+      ],
+      "covered_black": [
+        [
+          0,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          1,
+          1
+        ]
+      ],
+      "cover_mask": 2
+    },
+    {
+      "orientation": "SW",
+      "normal": 0,
+      "x_parity": 0,
+      "band": [
+        -3,
+        7
+      ],
+      "covered_black": [
+        [
+          0,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          1,
+          1
+        ]
+      ],
+      "cover_mask": 1
+    },
+    {
+      "orientation": "SW",
+      "normal": 0,
+      "x_parity": 1,
+      "band": [
+        -3,
+        7
+      ],
+      "covered_black": [
+        [
+          0,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          1,
+          0
+        ]
+      ],
+      "cover_mask": 2
+    },
+    {
+      "orientation": "SW",
+      "normal": 2,
+      "x_parity": 0,
+      "band": [
+        -1,
+        9
+      ],
+      "covered_black": [
+        [
+          0,
+          1
+        ]
+      ],
+      "polluted_white": [
+        [
+          1,
+          0
+        ]
+      ],
+      "cover_mask": 2
+    },
+    {
+      "orientation": "SW",
+      "normal": 2,
+      "x_parity": 1,
+      "band": [
+        -1,
+        9
+      ],
+      "covered_black": [
+        [
+          0,
+          0
+        ]
+      ],
+      "polluted_white": [
+        [
+          1,
+          1
+        ]
+      ],
+      "cover_mask": 1
+    }
+  ],
+  "selector_variables": 16,
+  "selector_clauses": 138,
+  "selector_search": {
+    "nodes": 1,
+    "memo_states": 1
+  },
+  "matching_rail_indices": null,
+  "matching_rails": null,
+  "cnf_certificate": {
+    "cnf": "/workspace/shared/langton/global_architecture_2026-10-23/generic_bulk_odd_LR.cnf",
+    "proof": "/workspace/shared/langton/global_architecture_2026-10-23/generic_bulk_odd_LR.rup",
+    "checker": {
+      "valid": true,
+      "input_clauses": 138,
+      "additions": 1,
+      "deletions": 0,
+      "RUP": 1,
+      "RAT": 0,
+      "propagation_checks": 1
+    },
+    "cnf_sha256": "89fbc83d0f0c64a6b2b378b31bc73b95a3c313ad1410445fd36a5fe3b2be3cbd",
+    "proof_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  }
+}

@@ -1,0 +1,3047 @@
+{
+  "status": "AUTHOR exact ordered port-model realization; independent audit pending",
+  "NOT_A_FINITE_SEED_CONSTRUCTION": true,
+  "initial_patch_black": [],
+  "final_patch_black": [],
+  "entry_ports": [
+    0,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    0
+  ],
+  "episodes": [
+    {
+      "entry": 0,
+      "label": "prepare RR",
+      "before": 0,
+      "after": 3,
+      "reads": [
+        [
+          0,
+          "R",
+          "entry_R"
+        ],
+        [
+          1,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "remove first prepared bit",
+      "before": 3,
+      "after": 2,
+      "reads": [
+        [
+          0,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "inner circulation 0",
+      "before": 2,
+      "after": 11,
+      "reads": [
+        [
+          3,
+          "R",
+          "entry_R"
+        ],
+        [
+          0,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "inner circulation 0",
+      "before": 11,
+      "after": 8,
+      "reads": [
+        [
+          2,
+          "R",
+          "entry_R"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "inner circulation 0",
+      "before": 8,
+      "after": 14,
+      "reads": [
+        [
+          1,
+          "R",
+          "entry_R"
+        ],
+        [
+          2,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "inner circulation 0",
+      "before": 14,
+      "after": 2,
+      "reads": [
+        [
+          0,
+          "R",
+          "entry_R"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "inner circulation 1",
+      "before": 2,
+      "after": 11,
+      "reads": [
+        [
+          3,
+          "R",
+          "entry_R"
+        ],
+        [
+          0,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "inner circulation 1",
+      "before": 11,
+      "after": 8,
+      "reads": [
+        [
+          2,
+          "R",
+          "entry_R"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "inner circulation 1",
+      "before": 8,
+      "after": 14,
+      "reads": [
+        [
+          1,
+          "R",
+          "entry_R"
+        ],
+        [
+          2,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "inner circulation 1",
+      "before": 14,
+      "after": 2,
+      "reads": [
+        [
+          0,
+          "R",
+          "entry_R"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "inner circulation 2",
+      "before": 2,
+      "after": 11,
+      "reads": [
+        [
+          3,
+          "R",
+          "entry_R"
+        ],
+        [
+          0,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "inner circulation 2",
+      "before": 11,
+      "after": 8,
+      "reads": [
+        [
+          2,
+          "R",
+          "entry_R"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "inner circulation 2",
+      "before": 8,
+      "after": 14,
+      "reads": [
+        [
+          1,
+          "R",
+          "entry_R"
+        ],
+        [
+          2,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "inner circulation 2",
+      "before": 14,
+      "after": 2,
+      "reads": [
+        [
+          0,
+          "R",
+          "entry_R"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "inner circulation 3",
+      "before": 2,
+      "after": 11,
+      "reads": [
+        [
+          3,
+          "R",
+          "entry_R"
+        ],
+        [
+          0,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "inner circulation 3",
+      "before": 11,
+      "after": 8,
+      "reads": [
+        [
+          2,
+          "R",
+          "entry_R"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "inner circulation 3",
+      "before": 8,
+      "after": 14,
+      "reads": [
+        [
+          1,
+          "R",
+          "entry_R"
+        ],
+        [
+          2,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "inner circulation 3",
+      "before": 14,
+      "after": 2,
+      "reads": [
+        [
+          0,
+          "R",
+          "entry_R"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "inner circulation 4",
+      "before": 2,
+      "after": 11,
+      "reads": [
+        [
+          3,
+          "R",
+          "entry_R"
+        ],
+        [
+          0,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "inner circulation 4",
+      "before": 11,
+      "after": 8,
+      "reads": [
+        [
+          2,
+          "R",
+          "entry_R"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "inner circulation 4",
+      "before": 8,
+      "after": 14,
+      "reads": [
+        [
+          1,
+          "R",
+          "entry_R"
+        ],
+        [
+          2,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "inner circulation 4",
+      "before": 14,
+      "after": 2,
+      "reads": [
+        [
+          0,
+          "R",
+          "entry_R"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "inner circulation 5",
+      "before": 2,
+      "after": 11,
+      "reads": [
+        [
+          3,
+          "R",
+          "entry_R"
+        ],
+        [
+          0,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "inner circulation 5",
+      "before": 11,
+      "after": 8,
+      "reads": [
+        [
+          2,
+          "R",
+          "entry_R"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "inner circulation 5",
+      "before": 8,
+      "after": 14,
+      "reads": [
+        [
+          1,
+          "R",
+          "entry_R"
+        ],
+        [
+          2,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "inner circulation 5",
+      "before": 14,
+      "after": 2,
+      "reads": [
+        [
+          0,
+          "R",
+          "entry_R"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "inner circulation 6",
+      "before": 2,
+      "after": 11,
+      "reads": [
+        [
+          3,
+          "R",
+          "entry_R"
+        ],
+        [
+          0,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "inner circulation 6",
+      "before": 11,
+      "after": 8,
+      "reads": [
+        [
+          2,
+          "R",
+          "entry_R"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "inner circulation 6",
+      "before": 8,
+      "after": 14,
+      "reads": [
+        [
+          1,
+          "R",
+          "entry_R"
+        ],
+        [
+          2,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "inner circulation 6",
+      "before": 14,
+      "after": 2,
+      "reads": [
+        [
+          0,
+          "R",
+          "entry_R"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "inner circulation 7",
+      "before": 2,
+      "after": 11,
+      "reads": [
+        [
+          3,
+          "R",
+          "entry_R"
+        ],
+        [
+          0,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "inner circulation 7",
+      "before": 11,
+      "after": 8,
+      "reads": [
+        [
+          2,
+          "R",
+          "entry_R"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "inner circulation 7",
+      "before": 8,
+      "after": 14,
+      "reads": [
+        [
+          1,
+          "R",
+          "entry_R"
+        ],
+        [
+          2,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "inner circulation 7",
+      "before": 14,
+      "after": 2,
+      "reads": [
+        [
+          0,
+          "R",
+          "entry_R"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "inner circulation 8",
+      "before": 2,
+      "after": 11,
+      "reads": [
+        [
+          3,
+          "R",
+          "entry_R"
+        ],
+        [
+          0,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "inner circulation 8",
+      "before": 11,
+      "after": 8,
+      "reads": [
+        [
+          2,
+          "R",
+          "entry_R"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "inner circulation 8",
+      "before": 8,
+      "after": 14,
+      "reads": [
+        [
+          1,
+          "R",
+          "entry_R"
+        ],
+        [
+          2,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "inner circulation 8",
+      "before": 14,
+      "after": 2,
+      "reads": [
+        [
+          0,
+          "R",
+          "entry_R"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "inner circulation 9",
+      "before": 2,
+      "after": 11,
+      "reads": [
+        [
+          3,
+          "R",
+          "entry_R"
+        ],
+        [
+          0,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "inner circulation 9",
+      "before": 11,
+      "after": 8,
+      "reads": [
+        [
+          2,
+          "R",
+          "entry_R"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "inner circulation 9",
+      "before": 8,
+      "after": 14,
+      "reads": [
+        [
+          1,
+          "R",
+          "entry_R"
+        ],
+        [
+          2,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "inner circulation 9",
+      "before": 14,
+      "after": 2,
+      "reads": [
+        [
+          0,
+          "R",
+          "entry_R"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "inner circulation 10",
+      "before": 2,
+      "after": 11,
+      "reads": [
+        [
+          3,
+          "R",
+          "entry_R"
+        ],
+        [
+          0,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "inner circulation 10",
+      "before": 11,
+      "after": 8,
+      "reads": [
+        [
+          2,
+          "R",
+          "entry_R"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "inner circulation 10",
+      "before": 8,
+      "after": 14,
+      "reads": [
+        [
+          1,
+          "R",
+          "entry_R"
+        ],
+        [
+          2,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "inner circulation 10",
+      "before": 14,
+      "after": 2,
+      "reads": [
+        [
+          0,
+          "R",
+          "entry_R"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "inner circulation 11",
+      "before": 2,
+      "after": 11,
+      "reads": [
+        [
+          3,
+          "R",
+          "entry_R"
+        ],
+        [
+          0,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "inner circulation 11",
+      "before": 11,
+      "after": 8,
+      "reads": [
+        [
+          2,
+          "R",
+          "entry_R"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "inner circulation 11",
+      "before": 8,
+      "after": 14,
+      "reads": [
+        [
+          1,
+          "R",
+          "entry_R"
+        ],
+        [
+          2,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "inner circulation 11",
+      "before": 14,
+      "after": 2,
+      "reads": [
+        [
+          0,
+          "R",
+          "entry_R"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "inner circulation 12",
+      "before": 2,
+      "after": 11,
+      "reads": [
+        [
+          3,
+          "R",
+          "entry_R"
+        ],
+        [
+          0,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "inner circulation 12",
+      "before": 11,
+      "after": 8,
+      "reads": [
+        [
+          2,
+          "R",
+          "entry_R"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "inner circulation 12",
+      "before": 8,
+      "after": 14,
+      "reads": [
+        [
+          1,
+          "R",
+          "entry_R"
+        ],
+        [
+          2,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "inner circulation 12",
+      "before": 14,
+      "after": 2,
+      "reads": [
+        [
+          0,
+          "R",
+          "entry_R"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "inner circulation 13",
+      "before": 2,
+      "after": 11,
+      "reads": [
+        [
+          3,
+          "R",
+          "entry_R"
+        ],
+        [
+          0,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "inner circulation 13",
+      "before": 11,
+      "after": 8,
+      "reads": [
+        [
+          2,
+          "R",
+          "entry_R"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "inner circulation 13",
+      "before": 8,
+      "after": 14,
+      "reads": [
+        [
+          1,
+          "R",
+          "entry_R"
+        ],
+        [
+          2,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "inner circulation 13",
+      "before": 14,
+      "after": 2,
+      "reads": [
+        [
+          0,
+          "R",
+          "entry_R"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "inner circulation 14",
+      "before": 2,
+      "after": 11,
+      "reads": [
+        [
+          3,
+          "R",
+          "entry_R"
+        ],
+        [
+          0,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "inner circulation 14",
+      "before": 11,
+      "after": 8,
+      "reads": [
+        [
+          2,
+          "R",
+          "entry_R"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "inner circulation 14",
+      "before": 8,
+      "after": 14,
+      "reads": [
+        [
+          1,
+          "R",
+          "entry_R"
+        ],
+        [
+          2,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "inner circulation 14",
+      "before": 14,
+      "after": 2,
+      "reads": [
+        [
+          0,
+          "R",
+          "entry_R"
+        ],
+        [
+          1,
+          "L",
+          "inner_L"
+        ],
+        [
+          2,
+          "L",
+          "inner_L"
+        ],
+        [
+          3,
+          "L",
+          "inner_L"
+        ],
+        [
+          0,
+          "L",
+          "inner_L"
+        ],
+        [
+          1,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "remove root",
+      "before": 2,
+      "after": 0,
+      "reads": [
+        [
+          1,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "prepare RR",
+      "before": 0,
+      "after": 6,
+      "reads": [
+        [
+          1,
+          "R",
+          "entry_R"
+        ],
+        [
+          2,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "remove first prepared bit",
+      "before": 6,
+      "after": 4,
+      "reads": [
+        [
+          1,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "remove root",
+      "before": 4,
+      "after": 0,
+      "reads": [
+        [
+          2,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "prepare RR",
+      "before": 0,
+      "after": 12,
+      "reads": [
+        [
+          2,
+          "R",
+          "entry_R"
+        ],
+        [
+          3,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "remove first prepared bit",
+      "before": 12,
+      "after": 8,
+      "reads": [
+        [
+          2,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "remove root",
+      "before": 8,
+      "after": 0,
+      "reads": [
+        [
+          3,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "prepare RR",
+      "before": 0,
+      "after": 9,
+      "reads": [
+        [
+          3,
+          "R",
+          "entry_R"
+        ],
+        [
+          0,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "remove first prepared bit",
+      "before": 9,
+      "after": 1,
+      "reads": [
+        [
+          3,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "remove root",
+      "before": 1,
+      "after": 0,
+      "reads": [
+        [
+          0,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "prepare RR",
+      "before": 0,
+      "after": 3,
+      "reads": [
+        [
+          0,
+          "R",
+          "entry_R"
+        ],
+        [
+          1,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "remove first prepared bit",
+      "before": 3,
+      "after": 2,
+      "reads": [
+        [
+          0,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "remove root",
+      "before": 2,
+      "after": 0,
+      "reads": [
+        [
+          1,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "prepare RR",
+      "before": 0,
+      "after": 6,
+      "reads": [
+        [
+          1,
+          "R",
+          "entry_R"
+        ],
+        [
+          2,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "remove first prepared bit",
+      "before": 6,
+      "after": 4,
+      "reads": [
+        [
+          1,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "remove root",
+      "before": 4,
+      "after": 0,
+      "reads": [
+        [
+          2,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "prepare RR",
+      "before": 0,
+      "after": 12,
+      "reads": [
+        [
+          2,
+          "R",
+          "entry_R"
+        ],
+        [
+          3,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "remove first prepared bit",
+      "before": 12,
+      "after": 8,
+      "reads": [
+        [
+          2,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "remove root",
+      "before": 8,
+      "after": 0,
+      "reads": [
+        [
+          3,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "prepare RR",
+      "before": 0,
+      "after": 9,
+      "reads": [
+        [
+          3,
+          "R",
+          "entry_R"
+        ],
+        [
+          0,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "remove first prepared bit",
+      "before": 9,
+      "after": 1,
+      "reads": [
+        [
+          3,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "remove root",
+      "before": 1,
+      "after": 0,
+      "reads": [
+        [
+          0,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "prepare RR",
+      "before": 0,
+      "after": 3,
+      "reads": [
+        [
+          0,
+          "R",
+          "entry_R"
+        ],
+        [
+          1,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "remove first prepared bit",
+      "before": 3,
+      "after": 2,
+      "reads": [
+        [
+          0,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "remove root",
+      "before": 2,
+      "after": 0,
+      "reads": [
+        [
+          1,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "prepare RR",
+      "before": 0,
+      "after": 6,
+      "reads": [
+        [
+          1,
+          "R",
+          "entry_R"
+        ],
+        [
+          2,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 1,
+      "label": "remove first prepared bit",
+      "before": 6,
+      "after": 4,
+      "reads": [
+        [
+          1,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          1,
+          -1
+        ],
+        2
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "remove root",
+      "before": 4,
+      "after": 0,
+      "reads": [
+        [
+          2,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "prepare RR",
+      "before": 0,
+      "after": 12,
+      "reads": [
+        [
+          2,
+          "R",
+          "entry_R"
+        ],
+        [
+          3,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 2,
+      "label": "remove first prepared bit",
+      "before": 12,
+      "after": 8,
+      "reads": [
+        [
+          2,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          2,
+          1
+        ],
+        1
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "remove root",
+      "before": 8,
+      "after": 0,
+      "reads": [
+        [
+          3,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "prepare RR",
+      "before": 0,
+      "after": 9,
+      "reads": [
+        [
+          3,
+          "R",
+          "entry_R"
+        ],
+        [
+          0,
+          "R",
+          "exit_R"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    },
+    {
+      "entry": 3,
+      "label": "remove first prepared bit",
+      "before": 9,
+      "after": 1,
+      "reads": [
+        [
+          3,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ]
+    },
+    {
+      "entry": 0,
+      "label": "remove root",
+      "before": 1,
+      "after": 0,
+      "reads": [
+        [
+          0,
+          "L",
+          "outer_L"
+        ]
+      ],
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    }
+  ],
+  "per_cell_counts": [
+    {
+      "cell": [
+        0,
+        0
+      ],
+      "counts": {
+        "inner_L": 30,
+        "outer_L": 6,
+        "entry_R": 18,
+        "exit_R": 18
+      }
+    },
+    {
+      "cell": [
+        1,
+        0
+      ],
+      "counts": {
+        "inner_L": 30,
+        "outer_L": 6,
+        "entry_R": 18,
+        "exit_R": 18
+      }
+    },
+    {
+      "cell": [
+        1,
+        1
+      ],
+      "counts": {
+        "inner_L": 30,
+        "outer_L": 6,
+        "entry_R": 18,
+        "exit_R": 18
+      }
+    },
+    {
+      "cell": [
+        0,
+        1
+      ],
+      "counts": {
+        "inner_L": 30,
+        "outer_L": 6,
+        "entry_R": 18,
+        "exit_R": 18
+      }
+    }
+  ],
+  "patch_reads": 288,
+  "external_entries": 96,
+  "each_site_word": "(RL)^36",
+  "radial_scale": 32,
+  "dependencies": {
+    "SUMMABLE_BALANCED_TURN_FLOW_MANIFEST.json": "28a356641c60aa440e20db3389928b556723eeaf77b5d5c525c6dbe65454d391",
+    "../audits/check_summable_turn_flow_independent.json": "621139d473bed9c39d0353f39285da6d1fb6663d8a4999e9de98ec5f36967a55",
+    "ORDERED_SQUARE_CIRCULATION_MANIFEST.json": "bf5e48255a91a5df4eef7d1a5da406cfb1e2d1b6b1a45fa002f04dd25260062f",
+    "../audits/check_ordered_square_circulation_independent.json": "742be6d302754520a949e70ab58b5740a12ed279aaee4a987c119a612bd3bb11"
+  },
+  "scope": "Complete central2x2 radial flow projection has an exact WHITE-start ordered local realization under externally chosen entries. Exterior routes, colors, time, seed cost and causal full-board reachability are not supplied."
+}

@@ -1,0 +1,165 @@
+{
+  "scope": "all raw binary words of even length<=16, stable class alternation, non-axis drift; arbitrary incoming periodic colors",
+  "counts": [
+    {
+      "period": 2,
+      "legal_periodic_input_words": 2,
+      "nonwhite_input": 2,
+      "nonzero_correction": 1
+    },
+    {
+      "period": 4,
+      "legal_periodic_input_words": 2,
+      "nonwhite_input": 2,
+      "nonzero_correction": 0
+    },
+    {
+      "period": 6,
+      "legal_periodic_input_words": 14,
+      "nonwhite_input": 14,
+      "nonzero_correction": 7
+    },
+    {
+      "period": 8,
+      "legal_periodic_input_words": 18,
+      "nonwhite_input": 18,
+      "nonzero_correction": 16
+    },
+    {
+      "period": 10,
+      "legal_periodic_input_words": 132,
+      "nonwhite_input": 132,
+      "nonzero_correction": 66
+    },
+    {
+      "period": 12,
+      "legal_periodic_input_words": 206,
+      "nonwhite_input": 206,
+      "nonzero_correction": 120
+    },
+    {
+      "period": 14,
+      "legal_periodic_input_words": 842,
+      "nonwhite_input": 842,
+      "nonzero_correction": 421
+    },
+    {
+      "period": 16,
+      "legal_periodic_input_words": 1650,
+      "nonwhite_input": 1650,
+      "nonzero_correction": 800
+    }
+  ],
+  "examples": [
+    {
+      "word": "LR",
+      "drift": [
+        1,
+        -1
+      ],
+      "input_black_classes": 1,
+      "odd_classes": 2,
+      "q": 1,
+      "correction": 1
+    },
+    {
+      "word": "RRLLRL",
+      "drift": [
+        3,
+        1
+      ],
+      "input_black_classes": 3,
+      "odd_classes": 6,
+      "q": 1,
+      "correction": 1
+    },
+    {
+      "word": "RLRRLL",
+      "drift": [
+        3,
+        1
+      ],
+      "input_black_classes": 3,
+      "odd_classes": 6,
+      "q": 1,
+      "correction": 1
+    },
+    {
+      "word": "RLRLLR",
+      "drift": [
+        1,
+        3
+      ],
+      "input_black_classes": 3,
+      "odd_classes": 6,
+      "q": 1,
+      "correction": 1
+    },
+    {
+      "word": "RLLRRL",
+      "drift": [
+        1,
+        3
+      ],
+      "input_black_classes": 3,
+      "odd_classes": 6,
+      "q": 1,
+      "correction": 1
+    },
+    {
+      "word": "LRRLRL",
+      "drift": [
+        1,
+        3
+      ],
+      "input_black_classes": 3,
+      "odd_classes": 6,
+      "q": 1,
+      "correction": 1
+    },
+    {
+      "word": "LRLRLR",
+      "drift": [
+        3,
+        -3
+      ],
+      "input_black_classes": 3,
+      "odd_classes": 6,
+      "q": 1,
+      "correction": 1
+    },
+    {
+      "word": "LLRLRR",
+      "drift": [
+        3,
+        1
+      ],
+      "input_black_classes": 3,
+      "odd_classes": 6,
+      "q": 1,
+      "correction": 1
+    },
+    {
+      "word": "LLLLRLRRRR",
+      "drift": [
+        1,
+        1
+      ],
+      "input_black_classes": 1,
+      "odd_classes": 2,
+      "q": 0,
+      "correction": 0
+    },
+    {
+      "word": "RLRL",
+      "drift": [
+        2,
+        2
+      ],
+      "input_black_classes": 2,
+      "odd_classes": 4,
+      "q": 1,
+      "correction": 0
+    }
+  ]
+}

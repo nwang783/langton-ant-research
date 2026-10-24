@@ -1,0 +1,92 @@
+{
+  "status": "PASS exact causal two-cell all-N reverse-return perturbation captures with all archives retained",
+  "manifest_sha256": "fc5873695799264ba221bfa93f95bb1356f48834a05cdc7f29567fa96ef134d3",
+  "dependencies": {
+    "status": "FROZEN; independent audit requested",
+    "files": {
+      "REVERSE_RETURN_INTERFACE.md": "8606dbcd9057c60c322b9dbcea29d20bcae6205e28c3381c809d1da0323a8ab2",
+      "REVERSE_RETURN_INTERFACE_CERTIFICATE.json": "54fac4909696179a44fbe59773cba39d9d04604c4b0a22be87198b42de11fd20",
+      "check_reverse_return_interface.py": "74697366891fc8e6a9eb2c355ee2bc83d1c23bb8afdfe823c804fa92b7383ca6",
+      "REVERSE_RETURN_INTERFACE_CHECKED.json": "4818d112a0776e22c88aa056d0661b7dcea60d6598e3b0a4f3efc8268e54ab67",
+      "PRISTINE_ONE_INPUT_RECORD_BUDGET.md": "10f8313a9a7fca736c14c6fd94ef06a3f72d2775a59cc9ade8a310dc08f71464"
+    },
+    "retained_sources": {
+      "sources/kehao95-core/one_black/PROOF.md": "fd63947ab636a63bd0640074e2d94624823dc21cd40fb67a49c2135f2102b28e",
+      "sources/kehao95-core/one_black/lean/OneBlack/PhaseChecks.lean": "a570322d8a35e122640338417d4a24ab44488a4d52b6e02fde745ee6e6859a69",
+      "sources/kehao95-core/one_black/lean/OneBlack/PhasePreHit.lean": "b76e7d735729d2b3921af8171ccff820e4b27a485a14516300f54ae26cf8de40",
+      "sources/kehao95-core/one_black/lean/OneBlack/PhaseHitNormal.lean": "20d8f2f71171a3e0797cf7115e81c4fea06f86e8554d73445b9877cd0380a9fd",
+      "sources/kehao95-core/one_black/lean/OneBlack/PristineChecks.lean": "490c91d1a18e003a834212c89c452c1efec845ac04fece86941bf1b876b59722",
+      "sources/kehao95-core/one_black/lean/OneBlack/HighwayData.lean": "988a5b0d15ece0654534a7b131b0783d58c28140248fe08b7d2512ad5807f256"
+    }
+  },
+  "anchors": [
+    {
+      "N": 0,
+      "hit_mass": 3145,
+      "far_mass": 2966,
+      "far_time": 62655
+    },
+    {
+      "N": 1,
+      "hit_mass": 3169,
+      "far_mass": 2978,
+      "far_time": 62759
+    }
+  ],
+  "large_independent_full_replays": [
+    {
+      "N": 16,
+      "full_replayed_updates": 80020,
+      "hit_mass": 3530,
+      "final_mass": 4058
+    },
+    {
+      "N": 64,
+      "full_replayed_updates": 90004,
+      "hit_mass": 4682,
+      "final_mass": 5210
+    },
+    {
+      "N": 256,
+      "full_replayed_updates": 129940,
+      "hit_mass": 9290,
+      "final_mass": 9818
+    }
+  ],
+  "clean_wake_size": 12,
+  "reverse_wake_size": 2436,
+  "affine_layer_size": 2438,
+  "reverse_first_read_possible_ray_indices": [],
+  "new_continuation_length": 12492,
+  "actual_extra_first_read_offset": 12,
+  "final_pose": [
+    [
+      -24,
+      34
+    ],
+    0
+  ],
+  "tail_drift": [
+    -2,
+    2
+  ],
+  "tail_exact_parity_tests": 180,
+  "mass_identity": {
+    "base": 3674,
+    "per_parameter": 24
+  },
+  "all_future_unread_layer_rays": 2438,
+  "uniform_transversal_range": [
+    -82,
+    72
+  ],
+  "family_only_bad_pristine_timecuts": 75856,
+  "analytic_review": [
+    "Retained exceptional one-black theorem is an explicit premise: phaseHead=base(-15,10)+(-2,-8)=(-17,2), actual depth15+N, pristine depth11, lag4, localTime52262, hitCycles10, hitPhase89. Its pre_hit_exact and hit_normal concern true FORWARD ant dynamics and full XOR fields, not time reversal or an arbitrary unproved two-black classification. Sources and formulas were inspected directly.",
+    "The pristine13-field A replay and actual N0/N1 whole boards independently reconstruct cleanWake12, reverseWake2436 and L=(cleanWake XOR(reverseWake+d))+4d, exactly the formal source layer. Actual far endpoint fields are checked against the full initial-obstacle/E/M_H/M_A XOR expression, not active-support cropping. Historical-hit formula is the retained all-N theorem, with two independent anchor checks of orientation and layer.",
+    "Extra x is absent from blankC, every H phase ray with nonnegative copy, every A+Nd footprint and the ENTIRE reverse domain k<14 or k=14,phase<89, including arbitrarily negative k. Hence adding it at timezero preserves the full pre-hit orbit for everyN. Actual x read12 later is headingS/L; no late field edit.",
+    "Fresh12492 full physical continuation from B_hit XOR{x} and exact canonical104 infinite future are verified. All2438 L rays with nonnegative copy avoid every finite read and every nonnegative future phase ray. Thus all accumulated layers, including overlaps/cancellations, remain unread and the complete final field transfers. N16/64/256 supplied whole boards are additionally physically replayed, not used as all-N proof.",
+    "The all-N mass3674+24N follows directly from two extra standard blocks each R-L=12, after full word validity is established. Precertificate transverse range[-82,72] is invariant under parameter shifts along(-2,-2); final drift changes that normal and its later records are standard, not nonstandard progress.",
+    "Arbitrary pieces9977+52262+12492 plus THREE canonical standard pieces give75856 bad pristine TIME cuts only for this exact two-cell family. No earliest onset, arbitrary two-cell uniform bound, recurring amplifier, or universal attraction claim."
+  ]
+}

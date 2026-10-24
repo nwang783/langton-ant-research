@@ -1,0 +1,60 @@
+{
+  "status": "PASS conditional single-used F-circle g8/full d(3,1) finite shape and port cover",
+  "script_sha256": "c0a6e4d482ea4750bfbfeea55cb4c358e882eff7687bf1576f0f3a905c010528",
+  "proof_sha256": "102da4e380e1f87b5f0b017d79083ff8a1f539f3c2a2ef7eb5500706b298064f",
+  "raw_counts": {
+    "(6, 'raw')": 6,
+    "(10, 'raw')": 100,
+    "(14, 'raw')": 1470
+  },
+  "simple_paths": 6,
+  "repeated_full_class_paths": 1570,
+  "sole_normalized_circle": "WNWSWS",
+  "placements": [
+    {
+      "Q": [
+        4,
+        5
+      ],
+      "outcome": "internal_port_mismatch"
+    },
+    {
+      "Q": [
+        3,
+        4
+      ],
+      "outcome": "OPEN_circle_interface"
+    },
+    {
+      "Q": [
+        3,
+        5
+      ],
+      "outcome": "internal_port_mismatch"
+    },
+    {
+      "Q": [
+        3,
+        4,
+        5
+      ],
+      "outcome": "OPEN_circle_interface"
+    }
+  ],
+  "next_cell_domains": [
+    7,
+    13
+  ],
+  "scope": [
+    "Signed single-use charge bounds ONLY circle lengths6/10/14 and at most one triple; no unknown period or exterior bound",
+    "T=3y-x is the full quotient invariant, not a primitive replacement; all translations and two axis phases enumerated",
+    "All omitted classes UNKNOWN including below the selected circle; complete-known internal ports alone reject two placements",
+    "Physical four-step return to the same T6 cell gives consecutive ranks; all20 complete next histories derive from exact mandatory port counts"
+  ],
+  "not_claimed": [
+    "existence of any single-used F circle for arbitrary drift(3,1) fronts",
+    "completion of either open interface",
+    "growth8 exclusion",
+    "universal capture"
+  ]
+}

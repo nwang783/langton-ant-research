@@ -1,0 +1,25 @@
+literal unit graph 5 4300 5712
+balanced exact 5 815243 939427 9186159 seconds 18.765578648992232
+ports 5 0 512 cache CacheInfo(hits=23, misses=40, maxsize=20000, currsize=40) seconds 21.81503871300083
+ports 5 100 512 cache CacheInfo(hits=5270, misses=1093, maxsize=20000, currsize=1093) seconds 27.770653564002714
+ports 5 200 512 cache CacheInfo(hits=10593, misses=2070, maxsize=20000, currsize=2070) seconds 36.81155563199718
+ports 5 300 512 cache CacheInfo(hits=16295, misses=2668, maxsize=20000, currsize=2668) seconds 46.42504862399073
+ports 5 400 512 cache CacheInfo(hits=22136, misses=3127, maxsize=20000, currsize=3127) seconds 56.18142237099528
+ports 5 500 512 cache CacheInfo(hits=27490, misses=4073, maxsize=20000, currsize=4073) seconds 62.80753149399243
+{
+  "status": "PASS independent literal unit geometry, finite derivations, every residue grammar closure and every port profile",
+  "window": 5,
+  "vertices": 4300,
+  "unit_edges": 5712,
+  "packet_transitions": 1924,
+  "balanced_residue_pairs": 815243,
+  "finite_proofs": 939427,
+  "grammar_checks": 9186159,
+  "ports": 2048,
+  "all_port_profiles": 16777216,
+  "residue_edges": 2836493,
+  "initial_low_ports": 1301,
+  "seconds": 67.13063072299701,
+  "manifest_sha256": "03c71de559d639f20f3ba4d8b683ff2d7632bf2271f419543461e1e21716efa9",
+  "scope": "Exact low-counter packet-DFA relaxation with transverse modulo4 and saturated C ages. No low color legality, integrated record exclusion or capture theorem."
+}

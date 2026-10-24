@@ -1,0 +1,161 @@
+{
+  "status": "PASS independent strict-fall supplier closure and exact stock loops",
+  "note_sha256": "730d9bb19a41dfbdd490b835f3c67679c5d54bc842739c7b62ca9eb2522a6536",
+  "all_W_supplier_histories": [
+    [
+      3,
+      3,
+      3
+    ],
+    [
+      1,
+      3,
+      3,
+      3
+    ],
+    [
+      3,
+      1,
+      3,
+      3
+    ],
+    [
+      3,
+      3,
+      1,
+      3
+    ],
+    [
+      3,
+      3,
+      3,
+      1
+    ],
+    [
+      3,
+      3,
+      3,
+      3
+    ]
+  ],
+  "necessary_rows": [
+    {
+      "A": "NNS",
+      "B": "EEW",
+      "w": "EWW",
+      "y": "SSN",
+      "e": "NSS",
+      "z": "WWEE",
+      "U": "NNS",
+      "q": "SNS",
+      "u": "EWWW"
+    },
+    {
+      "A": "NNS",
+      "B": "EEW",
+      "w": "EWW",
+      "y": "SSN",
+      "e": "NSS",
+      "z": "WWEE",
+      "U": "NNSS",
+      "q": "SNS",
+      "u": "EWWW"
+    },
+    {
+      "A": "NNS",
+      "B": "EEW",
+      "w": "EWWE",
+      "y": "SSNN",
+      "e": "NSS",
+      "z": "WWEE",
+      "U": "NNS",
+      "q": "SNS",
+      "u": "EWWW"
+    },
+    {
+      "A": "NNS",
+      "B": "EEW",
+      "w": "EWWE",
+      "y": "SSNN",
+      "e": "NSS",
+      "z": "WWEE",
+      "U": "NNSS",
+      "q": "SNS",
+      "u": "EWWW"
+    },
+    {
+      "A": "NNS",
+      "B": "EEWE",
+      "w": "EWW",
+      "y": "SSNS",
+      "e": "NSS",
+      "z": "WWEE",
+      "U": "NNS",
+      "q": "SNS",
+      "u": "EWWW"
+    },
+    {
+      "A": "NNS",
+      "B": "EEWE",
+      "w": "EWW",
+      "y": "SSNS",
+      "e": "NSS",
+      "z": "WWEE",
+      "U": "NNSS",
+      "q": "SNS",
+      "u": "EWWW"
+    },
+    {
+      "A": "NNSS",
+      "B": "EEWW",
+      "w": "EWW",
+      "y": "SSN",
+      "e": "NSS",
+      "z": "WWEE",
+      "U": "NNS",
+      "q": "SNS",
+      "u": "EWWW"
+    },
+    {
+      "A": "NNSS",
+      "B": "EEWW",
+      "w": "EWW",
+      "y": "SSN",
+      "e": "NSS",
+      "z": "WWEE",
+      "U": "NNSS",
+      "q": "SNS",
+      "u": "EWWW"
+    },
+    {
+      "A": "NNSS",
+      "B": "EEWW",
+      "w": "EWWE",
+      "y": "SSNN",
+      "e": "NSS",
+      "z": "WWEE",
+      "U": "NNS",
+      "q": "SNS",
+      "u": "EWWW"
+    },
+    {
+      "A": "NNSS",
+      "B": "EEWW",
+      "w": "EWWE",
+      "y": "SSNN",
+      "e": "NSS",
+      "z": "WWEE",
+      "U": "NNSS",
+      "q": "SNS",
+      "u": "EWWW"
+    }
+  ],
+  "clock_bound": "u.L1=beta+2;u.R2=gamma-2; actual same-cell spacing>=4 implies gamma-beta>=8.",
+  "birth_results": [
+    "J unique negative corner z, so parent(J)=F and B(J)=beta.",
+    "u.R0 chooses lowerQ; B(Q)<=beta-3. Q top-right R0 and top-left one-occurrence port cannot birth; bottom parent has B<=beta-8.",
+    "When w=EWW only, H upper-left one-occurrence port cannot birth, forcing lower-left parent."
+  ],
+  "output_reservation": "Each strict-fall branch owns distinct odd same-R q class; disjoint from all opposite-R selected rise entries. Nodd>=n_up+n_f, only OUTPUT, not original fuel.",
+  "scope": "Exact local branchful complete-WHITE cap4 K1 necessary history, not exterior realization, iterative regress, additive stock budget or exclusion."
+}

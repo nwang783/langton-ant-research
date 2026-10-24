@@ -1,0 +1,41 @@
+{
+  "status": "INDEPENDENT_PASS_THIN_CHORD_SPATIAL_LIFETIME",
+  "date_utc": "2026-10-23T19:33:00Z",
+  "theorems": [
+    "Every simple actual corrected-center subarc has C_count<=4*M(endpoint_delta)+11 and hence <=20*Linf(endpoint_delta)+111.",
+    "Every produced residual input with source and consumer inside one simple complete-eight factor has source-included C age<=294.",
+    "A same-factor produced identity still current after age294 cannot appear in later complete contexts; entry identities and source-before-factor identities exempt."
+  ],
+  "scope": "Quantitative causal spatial/lifetime refinement only. No C/U count, archive count, original-mass defect budget or universal capture assertion.",
+  "files": [
+    {
+      "path": "thin_chord_spatial_lifetime.md",
+      "sha256": "8132579601c0a460950f566cddfe812cc2a96f14ecb7ba2189c414d50f2ba2f0"
+    },
+    {
+      "path": "check_thin_chord_lifetime.py",
+      "sha256": "973fce6d2817006ffaeaa6b3e7fd8f97045896d802c63ad41a4a810ec974567f"
+    },
+    {
+      "path": "thin_chord_lifetime_controls.json",
+      "sha256": "8e31f3e467308b7ba6b76c90be58269bbd137cef47a104d527c7ba2ae3f7f89c"
+    }
+  ],
+  "independent_audit": [
+    {
+      "path": "audits/check_thin_chord_lifetime_independent.py",
+      "sha256": "e067db08a2ee317d2bc87adbd83e1e7e1e784a04fe0b526ea7da12754d583f17"
+    },
+    {
+      "path": "audits/check_thin_chord_lifetime_independent.json",
+      "sha256": "5d917365a24d148039efabc24a5ecd4cc98345f9ef819fa080eae5299a7b89a5"
+    }
+  ],
+  "dependencies": {
+    "core_periodicity_new/chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "core_periodicity_new/atomic_center_turning_frozen_20261023_1400/manifest.json": "8b2e2c132d6dd857e5acee596167d5ac6b169eb1795998f00ea14864d2a2ad84",
+    "core_periodicity_new/U_entry_simplicity_frozen_20261023_1616/manifest.json": "127a00884b4a06af35a807ab76f6f6499b9427d56350a931c03cc0e8de65524d",
+    "core_periodicity_new/simple_center_C_lifetime_frozen_20261023_1719/manifest.json": "0924bfbe3d153d155786f8c5b4a8a52237b13627c028d08fc75a05926f3f51f1",
+    "spatial_cursor_2026-10-23/coupled_dual_cursors_and_gate_memory.md": "45d44d39ab2680c41617dcd5e8bbe524f35f605bf61a71bfd8940d56404ce5df"
+  }
+}

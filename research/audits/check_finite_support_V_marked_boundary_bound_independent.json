@@ -1,0 +1,215 @@
+{
+  "status": "PASS finite-support U-entry complete-eight infinite-factor exclusion",
+  "note_sha256": "a2c4a8d5eae4cdbda2e9ce3697c1e11aab1e653b465ffca3edade663c1b63d1f",
+  "dependencies": {
+    "check_V_C_same_heading_exclusion_independent.json": "509edaf0c660e5dcee6ee659d8e05ea046f832d9ff3873c76e3eb2bae8925008",
+    "check_V_parallel_reproductive_supply_independent.json": "c0d1779d5c4c6e8047c1745f9f35559aedd66878ff40a2c1b8ec6b878fb396ad",
+    "check_U_parallel_selected_supply_independent.json": "8fb147d9f41f6b4b7e3626ea186e2637cd2b04eeffccd9cf551559b0264d1536",
+    "check_V_nonbranching_parallel_renewal_independent.json": "76e4fc8811e5860776cb3cd626af9147a39dfb5a1fd801dc79aadc178bf9f7e7",
+    "check_full_context_horizon_independent.json": "1923c21d12cbfcbde2e70beeb71ae111e13cb94cfc90322450d6ef50237c47df",
+    "check_parallel_width_and_infinite_epoch_independent.json": "92cc9f841767cc5382396654924b77c20b28384cb014caacb9ee1b309d2f896f",
+    "check_perpendicular_epoch_interface_independent.json": "a0705f02b1766e7602ee82791ad82c79be629c76d3ad9a1d3459a1b2ac5c4716"
+  },
+  "constant_A": 5292,
+  "all_epoch_V_bound": "r0+783364",
+  "entry_input_horizon": "20R+211",
+  "eventual_V_bound": 783364,
+  "eventual_V_start": "C>20R+211+294",
+  "eventual_N_bound": 231102964,
+  "eventual_N_start": "C>20R+211+594",
+  "optional_phase_refinement_V": 396975,
+  "optional_phase_refinement_N": 117118209,
+  "node_class_cases": [
+    [
+      "V_root",
+      "V_root",
+      "self"
+    ],
+    [
+      "V_root",
+      "V_nonroot",
+      "self"
+    ],
+    [
+      "V_root",
+      "VC_root",
+      "self"
+    ],
+    [
+      "V_root",
+      "VC_nonroot",
+      "self"
+    ],
+    [
+      "V_root",
+      "VCC_root",
+      "self"
+    ],
+    [
+      "V_root",
+      "VCC_nonroot",
+      "self"
+    ],
+    [
+      "V_nonroot",
+      "V_root",
+      "parent"
+    ],
+    [
+      "V_nonroot",
+      "V_nonroot",
+      "impossible_two_consecutive_ordinary_target_edges"
+    ],
+    [
+      "V_nonroot",
+      "VC_root",
+      "parent"
+    ],
+    [
+      "V_nonroot",
+      "VC_nonroot",
+      "parent"
+    ],
+    [
+      "V_nonroot",
+      "VCC_root",
+      "parent"
+    ],
+    [
+      "V_nonroot",
+      "VCC_nonroot",
+      "parent"
+    ],
+    [
+      "VC_root",
+      "V_root",
+      "self"
+    ],
+    [
+      "VC_root",
+      "V_nonroot",
+      "self"
+    ],
+    [
+      "VC_root",
+      "VC_root",
+      "self"
+    ],
+    [
+      "VC_root",
+      "VC_nonroot",
+      "self"
+    ],
+    [
+      "VC_root",
+      "VCC_root",
+      "self"
+    ],
+    [
+      "VC_root",
+      "VCC_nonroot",
+      "self"
+    ],
+    [
+      "VC_nonroot",
+      "V_root",
+      "self"
+    ],
+    [
+      "VC_nonroot",
+      "V_nonroot",
+      "self"
+    ],
+    [
+      "VC_nonroot",
+      "VC_root",
+      "self"
+    ],
+    [
+      "VC_nonroot",
+      "VC_nonroot",
+      "self"
+    ],
+    [
+      "VC_nonroot",
+      "VCC_root",
+      "self"
+    ],
+    [
+      "VC_nonroot",
+      "VCC_nonroot",
+      "self"
+    ],
+    [
+      "VCC_root",
+      "V_root",
+      "self"
+    ],
+    [
+      "VCC_root",
+      "V_nonroot",
+      "self"
+    ],
+    [
+      "VCC_root",
+      "VC_root",
+      "self"
+    ],
+    [
+      "VCC_root",
+      "VC_nonroot",
+      "self"
+    ],
+    [
+      "VCC_root",
+      "VCC_root",
+      "self"
+    ],
+    [
+      "VCC_root",
+      "VCC_nonroot",
+      "self"
+    ],
+    [
+      "VCC_nonroot",
+      "V_root",
+      "self"
+    ],
+    [
+      "VCC_nonroot",
+      "V_nonroot",
+      "self"
+    ],
+    [
+      "VCC_nonroot",
+      "VC_root",
+      "self"
+    ],
+    [
+      "VCC_nonroot",
+      "VC_nonroot",
+      "self"
+    ],
+    [
+      "VCC_nonroot",
+      "VCC_root",
+      "self"
+    ],
+    [
+      "VCC_nonroot",
+      "VCC_nonroot",
+      "self"
+    ]
+  ],
+  "proof": [
+    "Finite complete black support at U-family factor entry makes residual identity count r0 and radius R finite. All roots prior to the factor are entry identities; initial core bits are handled by the exact residual remove-before-install model, not an uncounted input class.",
+    "Each V-family node has at most one parallel selected C parent and one child, because its selected input is unique and its own original C identity is spent once. Every such edge has positive even full-source-entry C age2..294. No physical wire, field reset or historical-component disjointness is assumed.",
+    "A node with no C parent has selected input either untouched entry, perpendicular-produced, or parallel C-tail-produced. D-base odd selected supply is zero; U-base reproductive supply is zero; V-base A/B reproductive supply is zero. Thus produced external roots are at most4851+147*3=5292 per clock, and all entry-selected roots together at most r0.",
+    "Mark external roots plus every VC/VCC boundary node. There is at most one positive-C full packet per source ENTRY clock, including skipped clocks. Any unmarked node is plain V. If its parent is unmarked, that parent is also a nonroot plain V and has a parent, giving two consecutive edges with ordinary V/VC targets. Their two(3,3,S) flips repeat the first source center, contrary to the independently signed simple-factor exclusion.",
+    "Therefore each node is a mark or a single child of one. At a fixed clock the assignment is injective: outdegree<=1 prevents two children, and positive edge lag prevents mark and child both at that clock. Assigned marks lie on148 clock labels j,j-2,...,j-294. Count entry marks only once globally. This yields v_j<=r0+783364. VCC-to-VCC or earlier ancestry is not excluded; those edges are simply cut at marks.",
+    "Untouched entry input consumption stops after H=20R+211. For j>H+294 all assigned marks are beyond that horizon, so v_j<=783364. For j>H+594 all direct and nested source clocks used by N_j<=A+sum_even v+v_(j-4)+u_(j-6) and u_(j-6)<=A+sum_even v are beyond H+294. Thus N_j<=231102964.",
+    "In a hypothetical infinite factor C tends to infinity, since every finite-C prefix has finite duration. The finite startup expires. The resulting eventual uniform epoch bound contradicts the independently signed exact330 finite-state argument: old cells miss ALL candidate contexts at each already-actual cut; an assumed reachable normalized-state cycle lifts inductively on the unchanged real exterior. Zero C contradicts zero-C fuel, zero drift contradicts center injectivity, and nonzero drift with positive C contradicts unbounded tangent turning of a simple translating curve via a uniformly bounded-crossing closing bridge.",
+    "There is therefore NO infinite actual complete-eight factor beginning with U/UC/UCC on a finite-support physical board. No statement is made for infinite prepared backgrounds, for ant behavior after language exit, for eventual entry to the language, for original strict V1/U1 funding, or for universal standard104 capture."
+  ],
+  "scope": "FINITE complete black support at factor entry, actual valid complete-eight U-entry factors only. No arbitrary prepared infinite board, universal capture, post-language behavior or funding closure."
+}

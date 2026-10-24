@@ -1,0 +1,328 @@
+{
+  "status": "PASS two universal sufficient record-guard constructions, all-K constant-mass tangent obstruction, eight exact H record guards; no universal attraction",
+  "bindings": {
+    "FRESH_RECORD_TRAP_BRIDGE_MANIFEST.json": {
+      "FRESH_RECORD_TRAP_BRIDGE.md": "95f5c2bf9254b1600780b25970eb2ef19cd0c4164cd53f98ad7c0df8ca84da84",
+      "check_fresh_record_trap_bridge.py": "485c28233d8f1631ec26042f736291a669aeb71154b38fac8493253aa4122524",
+      "FRESH_RECORD_TRAP_BRIDGE_CHECKED.json": "628358a1028d22d163f6a6c2b17cefb18b52634542257485fc547e64fa7cfddb",
+      "TERMINAL_TRAP_CERTIFICATE.json": "27e506cddc988554024a8985ca670f7a2762ef988cf288733aa9b944bf4eb07c"
+    },
+    "OUTWARD_RECORD_GUARDS_MANIFEST.json": {
+      "OUTWARD_STANDARD_RECORD_GUARDS.md": "f707ab6b347687834fae055c61ce7f7b19b296c6f5ee24ee8efc8935aab83689",
+      "check_outward_record_guards.py": "64ff765c8b1bcc2e931763fe32da2340cf950be0a7b20c757207cc21264cac55",
+      "OUTWARD_RECORD_GUARDS_CHECKED.json": "8ac275fff134362c3ec4f605f110e410861093e49e3c71790d6aecfaeba6bb12",
+      "check_fresh_record_trap_bridge.py": "485c28233d8f1631ec26042f736291a669aeb71154b38fac8493253aa4122524",
+      "TERMINAL_TRAP_CERTIFICATE.json": "27e506cddc988554024a8985ca670f7a2762ef988cf288733aa9b944bf4eb07c"
+    }
+  },
+  "source46_actual_strict_record": {
+    "head": [
+      -9,
+      -3
+    ],
+    "heading": 2,
+    "full_normalized_black": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        9,
+        3
+      ]
+    ],
+    "six_guard_black": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ]
+  },
+  "six_black_guard": {
+    "size": 29,
+    "black": 6,
+    "white": 23,
+    "unconstrained_after_sharp_two_record_prefix": 26,
+    "black_unconstrained": 5,
+    "white_unconstrained": 21
+  },
+  "all_K_tangent_proof": {
+    "prefix_ray_parameters": [
+      -3,
+      -2,
+      -1
+    ],
+    "all_tail_phase_epoch_time_offsets": [
+      [
+        5,
+        1,
+        109
+      ],
+      [
+        45,
+        0,
+        45
+      ],
+      [
+        49,
+        0,
+        49
+      ],
+      [
+        53,
+        0,
+        53
+      ],
+      [
+        65,
+        0,
+        65
+      ],
+      [
+        81,
+        1,
+        185
+      ],
+      [
+        97,
+        1,
+        201
+      ]
+    ],
+    "minimum_time_offset": 45,
+    "tail_entry": 234,
+    "formula": "279+104K for every integer K>=0",
+    "literal_additional_controls": [
+      {
+        "K": 0,
+        "cell": [
+          5,
+          -4
+        ],
+        "first_actual_R_to_L_disagreement": 279
+      },
+      {
+        "K": 1,
+        "cell": [
+          7,
+          -6
+        ],
+        "first_actual_R_to_L_disagreement": 383
+      },
+      {
+        "K": 2,
+        "cell": [
+          9,
+          -8
+        ],
+        "first_actual_R_to_L_disagreement": 487
+      },
+      {
+        "K": 11,
+        "cell": [
+          27,
+          -26
+        ],
+        "first_actual_R_to_L_disagreement": 1423
+      },
+      {
+        "K": 40,
+        "cell": [
+          85,
+          -84
+        ],
+        "first_actual_R_to_L_disagreement": 4439
+      }
+    ]
+  },
+  "outward_record_catalogue": [
+    {
+      "normal": [
+        1,
+        0
+      ],
+      "phase": 61,
+      "guard": 44,
+      "black": 19,
+      "white": 25,
+      "last_old_first_read": 266,
+      "full_actual_board_mass": 73,
+      "all_infinite_ray_tests": 189
+    },
+    {
+      "normal": [
+        1,
+        0
+      ],
+      "phase": 71,
+      "guard": 55,
+      "black": 19,
+      "white": 36,
+      "last_old_first_read": 270,
+      "full_actual_board_mass": 73,
+      "all_infinite_ray_tests": 194
+    },
+    {
+      "normal": [
+        0,
+        -1
+      ],
+      "phase": 14,
+      "guard": 29,
+      "black": 13,
+      "white": 16,
+      "last_old_first_read": 179,
+      "full_actual_board_mass": 62,
+      "all_infinite_ray_tests": 159
+    },
+    {
+      "normal": [
+        0,
+        -1
+      ],
+      "phase": 28,
+      "guard": 35,
+      "black": 14,
+      "white": 21,
+      "last_old_first_read": 165,
+      "full_actual_board_mass": 66,
+      "all_infinite_ray_tests": 155
+    },
+    {
+      "normal": [
+        1,
+        -1
+      ],
+      "phase": 45,
+      "guard": 19,
+      "black": 15,
+      "white": 4,
+      "last_old_first_read": 71,
+      "full_actual_board_mass": 69,
+      "all_infinite_ray_tests": 154,
+      "literal_unchanged_first_return_flip_controls": 16
+    },
+    {
+      "normal": [
+        1,
+        -1
+      ],
+      "phase": 46,
+      "guard": 25,
+      "black": 16,
+      "white": 9,
+      "last_old_first_read": 73,
+      "full_actual_board_mass": 70,
+      "all_infinite_ray_tests": 160
+    },
+    {
+      "normal": [
+        1,
+        -1
+      ],
+      "phase": 55,
+      "guard": 30,
+      "black": 15,
+      "white": 15,
+      "last_old_first_read": 81,
+      "full_actual_board_mass": 69,
+      "all_infinite_ray_tests": 164,
+      "literal_unchanged_first_return_flip_controls": 27
+    },
+    {
+      "normal": [
+        1,
+        -1
+      ],
+      "phase": 56,
+      "guard": 36,
+      "black": 16,
+      "white": 20,
+      "last_old_first_read": 80,
+      "full_actual_board_mass": 70,
+      "all_infinite_ray_tests": 173
+    }
+  ],
+  "unchanged_true_record_return_flip_controls": 43,
+  "analytic_review": [
+    "The actual11-cell source reaches strict new south record at time46 with15 actual black cells after translation, six matching guard blacks and nine unread exterior cells, all at y>=1. Its232-step prefix and infinite H tail are verified by all phase-pair/initial-bit change points. All29 old-side queried cells occur in the finite prefix; later H footprints remainy<=-1 and translate outward. First-difference induction proves the sufficient guard for arbitrary unread old-side background, and first queried bit proves necessity only for this EXACT proposed future.",
+    "The sharp FG16 prefix fixes only three old bits. All26 independent flips retain that actual prefix, strict crossings and an explicit preceding-L sponsor, then disagree at the exact first query. This refutes inferring this guard from that itinerary, not eventual capture of the perturbed seeds.",
+    "The diagonal six-cell seed realizes actual sponsor and two-top first-return geometry. One extra old-boundary cell gives a seven-cell ALL-K family. Prefix intersections with its drift line have only negative indices; the exhaustive7 tail phase-ray offsets have minimum45 and nonnegative epoch shifts. Therefore first disagreement occurs EXACTLY279+104K for allK, not merely in the five fresh finite controls. Drift is tangent to the pristine diagonal cap, which cannot clear old-side rays. No noncapture is asserted.",
+    "For any fixed legal future C H-infinity and arbitrary finite old-side extensions, an initial finite-bit guard forces that EXACT future iff the old-side future read set is finite. If infinite, a cell outside any finite guard/seed is queried and one added black bit changes its first turn. Strict outward drift gives finite intersection; tangent drift works only if all tail rays lie on the pristine side.",
+    "All strict record phases for the THREE NAMED normals are obtained from the exact preceding-period maximum and all earlier same-period phases. Not a catalogue of every normal. Eight actual complete finite-board cuts, including all older unread wake, are independently replayed and verified strict against entire seed plus read history.",
+    "Each old-side guard is derived from every ray and the integer bound k<=floor((-1-n.v)/(n.d)). Every first-read bit, exact infinite tail, and normalized complete actual field is verified. The smallest phase45 guard has19 bits15black4white. Its one-top return leaves16 free guard bits; phase55 two-top return leaves27. All43 flips preserve the actual full first return then force a first discrepancy. Their component connectivity is not assumed preserved.",
+    "These are explicit sufficient outward record patterns and precise noncoverage controls. No finite-seed trajectory is shown to reach such a pattern merely from unboundedness, record costs, component bounds, or ancestry. No global capture, all-q family extension, or noncapture theorem is inferred."
+  ]
+}

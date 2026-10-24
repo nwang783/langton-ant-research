@@ -1,0 +1,691 @@
+{
+  "status": "AUTHOR_FROZEN_NARROW_PREDECESSOR_GUARD_PENDING_REVIEW",
+  "scope": "Actual U-entry eight history before its first foreign, at the five remaining first-returned-contact targets. This excludes only an immediately preceding plain U for the two F target poses, not generic earlier U ancestry, UC predecessors, Q/B targets, or returned-path contact.",
+  "all16_exact_D_family_predecessor_pairs": [
+    {
+      "predecessor": "D",
+      "next_source": "D",
+      "predecessor_pose_in_next_source_frame": [
+        -1,
+        -1,
+        0
+      ],
+      "complete_actual_pair_feasible": true
+    },
+    {
+      "predecessor": "D",
+      "next_source": "DC",
+      "predecessor_pose_in_next_source_frame": [
+        -1,
+        -1,
+        0
+      ],
+      "complete_actual_pair_feasible": true
+    },
+    {
+      "predecessor": "DC",
+      "next_source": "D",
+      "predecessor_pose_in_next_source_frame": [
+        -2,
+        1,
+        1
+      ],
+      "complete_actual_pair_feasible": true
+    },
+    {
+      "predecessor": "DC",
+      "next_source": "DC",
+      "predecessor_pose_in_next_source_frame": [
+        -2,
+        1,
+        1
+      ],
+      "complete_actual_pair_feasible": true
+    },
+    {
+      "predecessor": "V",
+      "next_source": "D",
+      "predecessor_pose_in_next_source_frame": [
+        -1,
+        -3,
+        0
+      ],
+      "complete_actual_pair_feasible": true
+    },
+    {
+      "predecessor": "V",
+      "next_source": "DC",
+      "predecessor_pose_in_next_source_frame": [
+        -1,
+        -3,
+        0
+      ],
+      "complete_actual_pair_feasible": true
+    },
+    {
+      "predecessor": "VC",
+      "next_source": "D",
+      "predecessor_pose_in_next_source_frame": [
+        -4,
+        1,
+        1
+      ],
+      "complete_actual_pair_feasible": true
+    },
+    {
+      "predecessor": "VC",
+      "next_source": "DC",
+      "predecessor_pose_in_next_source_frame": [
+        -4,
+        1,
+        1
+      ],
+      "complete_actual_pair_feasible": true
+    },
+    {
+      "predecessor": "VCC",
+      "next_source": "D",
+      "predecessor_pose_in_next_source_frame": [
+        0,
+        4,
+        2
+      ],
+      "complete_actual_pair_feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 59,
+        "previous_read": 19,
+        "cell": [
+          0,
+          3
+        ],
+        "turn": "L"
+      },
+      "physical_read_ownership": {
+        "packet": "D",
+        "context_tick0": 11,
+        "context_read_number1": 12,
+        "RAW_length": 10,
+        "owner": "next actual word RAW",
+        "owner_tick0": 1,
+        "owner_read_number1": 2,
+        "turn": "L",
+        "next_word_tick0": 1,
+        "next_word_read_number1": 2,
+        "label": "context tick 11 (zero-based), RAW length 10; next actual word RAW tick 1 (zero-based), read 2 (one-based), L"
+      }
+    },
+    {
+      "predecessor": "VCC",
+      "next_source": "DC",
+      "predecessor_pose_in_next_source_frame": [
+        0,
+        4,
+        2
+      ],
+      "complete_actual_pair_feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 59,
+        "previous_read": 19,
+        "cell": [
+          0,
+          3
+        ],
+        "turn": "L"
+      },
+      "physical_read_ownership": {
+        "packet": "DC",
+        "context_tick0": 11,
+        "context_read_number1": 12,
+        "RAW_length": 25,
+        "owner": "own C-tail 1 RAW",
+        "owner_tick0": 1,
+        "owner_read_number1": 2,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 11 (zero-based), RAW length 25; own C-tail 1 RAW tick 1 (zero-based), read 2 (one-based), L"
+      }
+    },
+    {
+      "predecessor": "U",
+      "next_source": "D",
+      "predecessor_pose_in_next_source_frame": [
+        0,
+        -4,
+        0
+      ],
+      "complete_actual_pair_feasible": true
+    },
+    {
+      "predecessor": "U",
+      "next_source": "DC",
+      "predecessor_pose_in_next_source_frame": [
+        0,
+        -4,
+        0
+      ],
+      "complete_actual_pair_feasible": true
+    },
+    {
+      "predecessor": "UC",
+      "next_source": "D",
+      "predecessor_pose_in_next_source_frame": [
+        -5,
+        0,
+        1
+      ],
+      "complete_actual_pair_feasible": true
+    },
+    {
+      "predecessor": "UC",
+      "next_source": "DC",
+      "predecessor_pose_in_next_source_frame": [
+        -5,
+        0,
+        1
+      ],
+      "complete_actual_pair_feasible": true
+    },
+    {
+      "predecessor": "UCC",
+      "next_source": "D",
+      "predecessor_pose_in_next_source_frame": [
+        -1,
+        5,
+        2
+      ],
+      "complete_actual_pair_feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 69,
+        "previous_read": 29,
+        "cell": [
+          -1,
+          4
+        ],
+        "turn": "L"
+      },
+      "physical_read_ownership": {
+        "packet": "D",
+        "context_tick0": 11,
+        "context_read_number1": 12,
+        "RAW_length": 10,
+        "owner": "next actual word RAW",
+        "owner_tick0": 1,
+        "owner_read_number1": 2,
+        "turn": "L",
+        "next_word_tick0": 1,
+        "next_word_read_number1": 2,
+        "label": "context tick 11 (zero-based), RAW length 10; next actual word RAW tick 1 (zero-based), read 2 (one-based), L"
+      }
+    },
+    {
+      "predecessor": "UCC",
+      "next_source": "DC",
+      "predecessor_pose_in_next_source_frame": [
+        -1,
+        5,
+        2
+      ],
+      "complete_actual_pair_feasible": false,
+      "immutable_conflict": {
+        "feasible": false,
+        "conflict_read": 69,
+        "previous_read": 29,
+        "cell": [
+          -1,
+          4
+        ],
+        "turn": "L"
+      },
+      "physical_read_ownership": {
+        "packet": "DC",
+        "context_tick0": 11,
+        "context_read_number1": 12,
+        "RAW_length": 25,
+        "owner": "own C-tail 1 RAW",
+        "owner_tick0": 1,
+        "owner_read_number1": 2,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 11 (zero-based), RAW length 25; own C-tail 1 RAW tick 1 (zero-based), read 2 (one-based), L"
+      }
+    }
+  ],
+  "five_immediate_plain_U_before_D_family_F_exclusions": [
+    {
+      "catalogue_id": 15,
+      "actual_selected_full_source": "D",
+      "source_entry": [
+        0,
+        0,
+        0
+      ],
+      "immediately_previous_full_packet": "U",
+      "previous_U_entry": [
+        0,
+        -4,
+        0
+      ],
+      "foreign": "F",
+      "foreign_entry": [
+        2,
+        -5,
+        1
+      ],
+      "returned_atom": [
+        "C",
+        [
+          0,
+          -1,
+          3
+        ]
+      ],
+      "actual_U_entry_to_F_entry_C_age": 3,
+      "first_U_cycle_break_C_age": 4,
+      "original_U_east_cycle_IDs_current_before_F": true,
+      "residual_cycle_IDs_in_actual_F_entry_core": [
+        {
+          "physical_cell": [
+            2,
+            -4
+          ],
+          "F_local_cell": [
+            -1,
+            0
+          ],
+          "actual_first_read": [
+            "L",
+            1
+          ],
+          "physical_read_ownership": {
+            "packet": "F",
+            "context_tick0": 1,
+            "context_read_number1": 2,
+            "RAW_length": 56,
+            "owner": "own F-base RAW",
+            "owner_tick0": 1,
+            "owner_read_number1": 2,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 1 (zero-based), RAW length 56; own F-base RAW tick 1 (zero-based), read 2 (one-based), L"
+          }
+        }
+      ],
+      "contradiction": "A current residual identity cannot lie in the actual entry K core."
+    },
+    {
+      "catalogue_id": 15,
+      "actual_selected_full_source": "DC",
+      "source_entry": [
+        0,
+        0,
+        0
+      ],
+      "immediately_previous_full_packet": "U",
+      "previous_U_entry": [
+        0,
+        -4,
+        0
+      ],
+      "foreign": "F",
+      "foreign_entry": [
+        2,
+        -5,
+        1
+      ],
+      "returned_atom": [
+        "C",
+        [
+          0,
+          -1,
+          3
+        ]
+      ],
+      "actual_U_entry_to_F_entry_C_age": 3,
+      "first_U_cycle_break_C_age": 4,
+      "original_U_east_cycle_IDs_current_before_F": true,
+      "residual_cycle_IDs_in_actual_F_entry_core": [
+        {
+          "physical_cell": [
+            2,
+            -4
+          ],
+          "F_local_cell": [
+            -1,
+            0
+          ],
+          "actual_first_read": [
+            "L",
+            1
+          ],
+          "physical_read_ownership": {
+            "packet": "F",
+            "context_tick0": 1,
+            "context_read_number1": 2,
+            "RAW_length": 56,
+            "owner": "own F-base RAW",
+            "owner_tick0": 1,
+            "owner_read_number1": 2,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 1 (zero-based), RAW length 56; own F-base RAW tick 1 (zero-based), read 2 (one-based), L"
+          }
+        }
+      ],
+      "contradiction": "A current residual identity cannot lie in the actual entry K core."
+    },
+    {
+      "catalogue_id": 30,
+      "actual_selected_full_source": "D",
+      "source_entry": [
+        0,
+        0,
+        0
+      ],
+      "immediately_previous_full_packet": "U",
+      "previous_U_entry": [
+        0,
+        -4,
+        0
+      ],
+      "foreign": "F",
+      "foreign_entry": [
+        3,
+        -4,
+        1
+      ],
+      "returned_atom": [
+        "V",
+        [
+          1,
+          0,
+          3
+        ]
+      ],
+      "actual_U_entry_to_F_entry_C_age": 3,
+      "first_U_cycle_break_C_age": 4,
+      "original_U_east_cycle_IDs_current_before_F": true,
+      "residual_cycle_IDs_in_actual_F_entry_core": [
+        {
+          "physical_cell": [
+            2,
+            -4
+          ],
+          "F_local_cell": [
+            0,
+            -1
+          ],
+          "actual_first_read": [
+            "L",
+            3
+          ],
+          "physical_read_ownership": {
+            "packet": "F",
+            "context_tick0": 3,
+            "context_read_number1": 4,
+            "RAW_length": 56,
+            "owner": "own F-base RAW",
+            "owner_tick0": 3,
+            "owner_read_number1": 4,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 3 (zero-based), RAW length 56; own F-base RAW tick 3 (zero-based), read 4 (one-based), L"
+          }
+        },
+        {
+          "physical_cell": [
+            2,
+            -3
+          ],
+          "F_local_cell": [
+            -1,
+            -1
+          ],
+          "actual_first_read": [
+            "L",
+            2
+          ],
+          "physical_read_ownership": {
+            "packet": "F",
+            "context_tick0": 2,
+            "context_read_number1": 3,
+            "RAW_length": 56,
+            "owner": "own F-base RAW",
+            "owner_tick0": 2,
+            "owner_read_number1": 3,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 2 (zero-based), RAW length 56; own F-base RAW tick 2 (zero-based), read 3 (one-based), L"
+          }
+        }
+      ],
+      "contradiction": "A current residual identity cannot lie in the actual entry K core."
+    },
+    {
+      "catalogue_id": 30,
+      "actual_selected_full_source": "DC",
+      "source_entry": [
+        0,
+        0,
+        0
+      ],
+      "immediately_previous_full_packet": "U",
+      "previous_U_entry": [
+        0,
+        -4,
+        0
+      ],
+      "foreign": "F",
+      "foreign_entry": [
+        3,
+        -4,
+        1
+      ],
+      "returned_atom": [
+        "V",
+        [
+          1,
+          0,
+          3
+        ]
+      ],
+      "actual_U_entry_to_F_entry_C_age": 3,
+      "first_U_cycle_break_C_age": 4,
+      "original_U_east_cycle_IDs_current_before_F": true,
+      "residual_cycle_IDs_in_actual_F_entry_core": [
+        {
+          "physical_cell": [
+            2,
+            -4
+          ],
+          "F_local_cell": [
+            0,
+            -1
+          ],
+          "actual_first_read": [
+            "L",
+            3
+          ],
+          "physical_read_ownership": {
+            "packet": "F",
+            "context_tick0": 3,
+            "context_read_number1": 4,
+            "RAW_length": 56,
+            "owner": "own F-base RAW",
+            "owner_tick0": 3,
+            "owner_read_number1": 4,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 3 (zero-based), RAW length 56; own F-base RAW tick 3 (zero-based), read 4 (one-based), L"
+          }
+        },
+        {
+          "physical_cell": [
+            2,
+            -3
+          ],
+          "F_local_cell": [
+            -1,
+            -1
+          ],
+          "actual_first_read": [
+            "L",
+            2
+          ],
+          "physical_read_ownership": {
+            "packet": "F",
+            "context_tick0": 2,
+            "context_read_number1": 3,
+            "RAW_length": 56,
+            "owner": "own F-base RAW",
+            "owner_tick0": 2,
+            "owner_read_number1": 3,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 2 (zero-based), RAW length 56; own F-base RAW tick 2 (zero-based), read 3 (one-based), L"
+          }
+        }
+      ],
+      "contradiction": "A current residual identity cannot lie in the actual entry K core."
+    },
+    {
+      "catalogue_id": 75,
+      "actual_selected_full_source": "DC",
+      "source_entry": [
+        0,
+        0,
+        0
+      ],
+      "immediately_previous_full_packet": "U",
+      "previous_U_entry": [
+        0,
+        -4,
+        0
+      ],
+      "foreign": "F",
+      "foreign_entry": [
+        3,
+        -4,
+        1
+      ],
+      "returned_atom": [
+        "C",
+        [
+          1,
+          0,
+          3
+        ]
+      ],
+      "actual_U_entry_to_F_entry_C_age": 3,
+      "first_U_cycle_break_C_age": 4,
+      "original_U_east_cycle_IDs_current_before_F": true,
+      "residual_cycle_IDs_in_actual_F_entry_core": [
+        {
+          "physical_cell": [
+            2,
+            -4
+          ],
+          "F_local_cell": [
+            0,
+            -1
+          ],
+          "actual_first_read": [
+            "L",
+            3
+          ],
+          "physical_read_ownership": {
+            "packet": "F",
+            "context_tick0": 3,
+            "context_read_number1": 4,
+            "RAW_length": 56,
+            "owner": "own F-base RAW",
+            "owner_tick0": 3,
+            "owner_read_number1": 4,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 3 (zero-based), RAW length 56; own F-base RAW tick 3 (zero-based), read 4 (one-based), L"
+          }
+        },
+        {
+          "physical_cell": [
+            2,
+            -3
+          ],
+          "F_local_cell": [
+            -1,
+            -1
+          ],
+          "actual_first_read": [
+            "L",
+            2
+          ],
+          "physical_read_ownership": {
+            "packet": "F",
+            "context_tick0": 2,
+            "context_read_number1": 3,
+            "RAW_length": 56,
+            "owner": "own F-base RAW",
+            "owner_tick0": 2,
+            "owner_read_number1": 3,
+            "turn": "L",
+            "next_word_tick0": null,
+            "next_word_read_number1": null,
+            "label": "context tick 2 (zero-based), RAW length 56; own F-base RAW tick 2 (zero-based), read 3 (one-based), L"
+          }
+        }
+      ],
+      "contradiction": "A current residual identity cannot lie in the actual entry K core."
+    }
+  ],
+  "Q_B_plain_U_predecessor_core_controls": [
+    {
+      "foreign": "Q",
+      "foreign_entry_in_D_frame": [
+        5,
+        -4,
+        1
+      ],
+      "old_east_cycle_core_hit": false,
+      "ancestry_status": "OPEN; absence of this obstruction is not attainment."
+    },
+    {
+      "foreign": "B",
+      "foreign_entry_in_D_frame": [
+        6,
+        -3,
+        1
+      ],
+      "old_east_cycle_core_hit": false,
+      "ancestry_status": "OPEN; absence of this obstruction is not attainment."
+    }
+  ],
+  "retained_old_beta_port": {
+    "physical_cell_in_D_frame": [
+      1,
+      -1
+    ],
+    "DC_RAW_never_reads": true,
+    "foreign_RAW_never_reads": true,
+    "returned_C_input_tick0": 1,
+    "returned_C_input_read_number1": 2,
+    "possible_origin": "Older surviving entry identity; no forced rebirth follows."
+  },
+  "dependencies": {
+    "core_periodicity_new/chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "core_periodicity_new/U_renewal_exact_clock_frozen_20261023_1902/manifest.json": "91f5cb870b1dacd19c793820cef537c1410bca05c8b71294d80a2ccc823b7fd6",
+    "core_periodicity_new/U_entry_simplicity_frozen_20261023_1616/manifest.json": "127a00884b4a06af35a807ab76f6f6499b9427d56350a931c03cc0e8de65524d",
+    "seven_word_spatial_return_2026-10-23/first_returned_five_label_frontier_manifest.json": "2ca70c9c1d92e1d1b70de7b845b70119d3057d7ad27b884a891ee4a16e11520a",
+    "literal_ownership_conventions_2026-10-24/canonical_read_ownership.py": "041b40e04a0f71a6b9511abf1d15b1d86c548e74f4f99281477c115b72036ea2"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "status": "PASS all-cap physical active-C first-entry/last-exit ownership scaffold ONLY",
+  "proof": "1ae8a8e53950486de7e244829b42dc1fce55ac67552d28c2e253c79d23999d87",
+  "certificate": "e192b487062e8b0a837c22005d6df371038a48b308008727188cbd1992875118",
+  "script": "c2573debd993582c7350483bcd5f44c8ae970193d86413ac7f8280e8016275ee",
+  "summaries": {
+    "S104": [
+      10,
+      0,
+      12,
+      0,
+      2,
+      2,
+      2
+    ],
+    "P1564": [
+      292,
+      197,
+      301,
+      168,
+      1,
+      0,
+      1
+    ],
+    "Q4352": [
+      592,
+      406,
+      590,
+      319,
+      1,
+      0,
+      1
+    ],
+    "M10": [
+      2,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "F80": [
+      14,
+      2,
+      14,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  "representation_controls": 105,
+  "analytic_review": [
+    "Every physicalCface has finitelymany activecuts under nonzerodrift, and there are finitelymany FULLd classes. Its earliestcut has a precedingL; everyL atthat readcell activatesboth incidentCfaces, so thismustbethe firstL. WHITE firstL isrank1 with R0 atsameheading, otherwiseR0alreadyactivatedthe newface. BLACK firstL isrank0 andremainsan explicitinputedge. The clockgap is1+ownedage+idle>=5 or>=1.",
+    "At the lastactivecut the stepmustL, anditis the lastL ofits physicalreadcell. An endingR isthen the immediatelynextcellread and mustbeoppositeheading, oritwouldreactivatethe oldface. Thus its actualRownerliesinthe targetCface and suppliesgap>=age>=4; endingL suppliesgap>=1. No cap or initialWHITE restriction isneeded here.",
+    "Both physical selected-edge graphs lie on ONE checkerparity rotatedsquarelattice. Diagonal edges canonlycross an edgeof the oppositeparity lattice, absenthere. A readcell has onlyonefirstL/lastL, so its physicaledgeorbit cannotbe selectedtwice within eithergraph. This rulesout doubled/reversed edgealiasing even for loop/parallel-edge quotients. A functionalcycle usesdistinctfaceclasses and isthereforean embedded cylinder curve, not merelya projected lifetimepath.",
+    "Positive canonical gaps telescope to -Psumvoltage forfirstentry and +Psumvoltage forlastexit. Contractiblecyclesare impossible. Embeddedessentialcircles onthe FULLd cylinder have primitivewinding, hence exactly-1/+1, retaining nonprimitive physicaldrifts and shortquotients. This topological argument isseparatefrom finitecontrols.",
+    "Removing onlyBLACK-first discoveryedges leavesa partialfunctionalgraph with rootedtrees andpossibly intactWHITE-ownedcycles. CompleteWHITE removesnone, so finitefunctionalgraph forcesatleastone sameheadingR0/L1 essentialcycle, but imposesno readcap or singleusededge. Allcycleclockboundsfollowfromthe exact gaps.",
+    "Independently rebuilt allcomplete readandCface histories, everyphysicalowner, seams, arrowsandcycles forfive suppliedwords, thenall105 rotation/power/phasecontrols. Prepared10 hasgenuineBLACK inputL5 but noBLACK discoveryedge, so WHITE-owneddiscoverycycle isnot equivalentto aWHITE front orunit lifetimewinding. Standardhas two cyclesandactualhighreadhistories. No rootbudget, WHITE S1, controllerclassification, noveltyclaim oruniversalcapture follows."
+  ]
+}

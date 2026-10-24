@@ -1,0 +1,1257 @@
+{
+  "status": "PASS exact all-k>=10 bounded cross-family output-tree contacts",
+  "parameter": "n=2k, all integers k>=10",
+  "tree_edges": 12,
+  "tree_vertices": 13,
+  "family_count": 6,
+  "finite_caps_edge_bound": 3205,
+  "cross_family_contact_pair_bound": 1521,
+  "uniform_all_black_w_component_bound": 501229,
+  "families": [
+    {
+      "name": "stage0",
+      "alpha": [
+        0,
+        0
+      ],
+      "base_vertices": [
+        [
+          1,
+          9
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          11,
+          -1
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          13,
+          -3
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          15,
+          -1
+        ]
+      ],
+      "drift": [
+        4,
+        4
+      ],
+      "lo": [
+        0,
+        2
+      ],
+      "hi": [
+        1,
+        -5
+      ],
+      "base_cells": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          -1
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "stage1",
+      "alpha": [
+        4,
+        4
+      ],
+      "base_vertices": [
+        [
+          -13,
+          3
+        ],
+        [
+          -11,
+          1
+        ],
+        [
+          -11,
+          5
+        ],
+        [
+          -9,
+          3
+        ],
+        [
+          -7,
+          5
+        ],
+        [
+          -5,
+          7
+        ],
+        [
+          -5,
+          11
+        ],
+        [
+          -3,
+          5
+        ],
+        [
+          -3,
+          9
+        ],
+        [
+          -3,
+          13
+        ],
+        [
+          -1,
+          11
+        ],
+        [
+          -1,
+          15
+        ],
+        [
+          1,
+          13
+        ]
+      ],
+      "drift": [
+        -4,
+        4
+      ],
+      "lo": [
+        0,
+        2
+      ],
+      "hi": [
+        2,
+        -6
+      ],
+      "base_cells": [
+        [
+          -6,
+          2
+        ],
+        [
+          -5,
+          1
+        ],
+        [
+          -5,
+          2
+        ],
+        [
+          -4,
+          2
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -2,
+          4
+        ],
+        [
+          -2,
+          5
+        ],
+        [
+          -1,
+          5
+        ],
+        [
+          -1,
+          6
+        ],
+        [
+          -1,
+          7
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "name": "stage2",
+      "alpha": [
+        -4,
+        12
+      ],
+      "base_vertices": [
+        [
+          -15,
+          -7
+        ],
+        [
+          -13,
+          -9
+        ],
+        [
+          -13,
+          -5
+        ],
+        [
+          -11,
+          -11
+        ],
+        [
+          -11,
+          -7
+        ],
+        [
+          -9,
+          -9
+        ],
+        [
+          -7,
+          -11
+        ],
+        [
+          -5,
+          -17
+        ],
+        [
+          -5,
+          -13
+        ],
+        [
+          -5,
+          -9
+        ],
+        [
+          -3,
+          -19
+        ],
+        [
+          -3,
+          -15
+        ],
+        [
+          -1,
+          -17
+        ]
+      ],
+      "drift": [
+        -4,
+        -4
+      ],
+      "lo": [
+        0,
+        2
+      ],
+      "hi": [
+        4,
+        -7
+      ],
+      "base_cells": [
+        [
+          -7,
+          -4
+        ],
+        [
+          -6,
+          -4
+        ],
+        [
+          -6,
+          -3
+        ],
+        [
+          -5,
+          -5
+        ],
+        [
+          -5,
+          -4
+        ],
+        [
+          -4,
+          -5
+        ],
+        [
+          -3,
+          -6
+        ],
+        [
+          -3,
+          -5
+        ],
+        [
+          -2,
+          -9
+        ],
+        [
+          -2,
+          -8
+        ],
+        [
+          -2,
+          -7
+        ],
+        [
+          -1,
+          -8
+        ]
+      ]
+    },
+    {
+      "name": "stage3",
+      "alpha": [
+        -20,
+        -4
+      ],
+      "base_vertices": [
+        [
+          7,
+          -13
+        ],
+        [
+          9,
+          -15
+        ],
+        [
+          9,
+          -11
+        ],
+        [
+          11,
+          -13
+        ],
+        [
+          11,
+          -9
+        ],
+        [
+          11,
+          -5
+        ],
+        [
+          13,
+          -11
+        ],
+        [
+          13,
+          -7
+        ],
+        [
+          15,
+          -5
+        ],
+        [
+          17,
+          -3
+        ],
+        [
+          19,
+          -5
+        ],
+        [
+          19,
+          -1
+        ],
+        [
+          21,
+          -3
+        ]
+      ],
+      "drift": [
+        4,
+        -4
+      ],
+      "lo": [
+        0,
+        2
+      ],
+      "hi": [
+        2,
+        -8
+      ],
+      "base_cells": [
+        [
+          4,
+          -6
+        ],
+        [
+          5,
+          -7
+        ],
+        [
+          5,
+          -6
+        ],
+        [
+          5,
+          -5
+        ],
+        [
+          6,
+          -5
+        ],
+        [
+          6,
+          -4
+        ],
+        [
+          6,
+          -3
+        ],
+        [
+          7,
+          -3
+        ],
+        [
+          8,
+          -2
+        ],
+        [
+          9,
+          -2
+        ],
+        [
+          9,
+          -1
+        ],
+        [
+          10,
+          -2
+        ]
+      ]
+    },
+    {
+      "name": "stage4",
+      "alpha": [
+        -12,
+        -12
+      ],
+      "base_vertices": [
+        [
+          1,
+          25
+        ],
+        [
+          3,
+          23
+        ],
+        [
+          3,
+          27
+        ],
+        [
+          5,
+          17
+        ],
+        [
+          5,
+          21
+        ],
+        [
+          5,
+          25
+        ],
+        [
+          7,
+          19
+        ],
+        [
+          9,
+          17
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          11,
+          19
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          13,
+          17
+        ],
+        [
+          15,
+          15
+        ]
+      ],
+      "drift": [
+        4,
+        4
+      ],
+      "lo": [
+        0,
+        2
+      ],
+      "hi": [
+        3,
+        -5
+      ],
+      "base_cells": [
+        [
+          1,
+          12
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ]
+    },
+    {
+      "name": "final_tail",
+      "alpha": [
+        0,
+        0
+      ],
+      "base_vertices": [
+        [
+          5,
+          -11
+        ],
+        [
+          7,
+          -13
+        ],
+        [
+          7,
+          -9
+        ],
+        [
+          9,
+          -11
+        ],
+        [
+          9,
+          -7
+        ],
+        [
+          9,
+          -3
+        ],
+        [
+          11,
+          -9
+        ],
+        [
+          11,
+          -5
+        ],
+        [
+          13,
+          -3
+        ],
+        [
+          15,
+          -1
+        ],
+        [
+          17,
+          -3
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          19,
+          -1
+        ]
+      ],
+      "drift": [
+        4,
+        -4
+      ],
+      "lo": [
+        0,
+        2
+      ],
+      "hi": null,
+      "base_cells": [
+        [
+          3,
+          -5
+        ],
+        [
+          4,
+          -6
+        ],
+        [
+          4,
+          -5
+        ],
+        [
+          4,
+          -4
+        ],
+        [
+          5,
+          -4
+        ],
+        [
+          5,
+          -3
+        ],
+        [
+          5,
+          -2
+        ],
+        [
+          6,
+          -2
+        ],
+        [
+          7,
+          -1
+        ],
+        [
+          8,
+          -1
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          -1
+        ]
+      ]
+    }
+  ],
+  "pair_bounds": [
+    {
+      "families": [
+        "stage0",
+        "stage1"
+      ],
+      "kind": "nonparallel: each vertex pair determines at most one copy pair at each k",
+      "uniform_contacting_copy_pair_upper_bound": 169,
+      "parallel_certificates": []
+    },
+    {
+      "families": [
+        "stage0",
+        "stage2"
+      ],
+      "kind": "parallel: exact perpendicular domains or uniformly bounded longitudinal overlap",
+      "uniform_contacting_copy_pair_upper_bound": 0,
+      "parallel_certificates": []
+    },
+    {
+      "families": [
+        "stage0",
+        "stage3"
+      ],
+      "kind": "nonparallel: each vertex pair determines at most one copy pair at each k",
+      "uniform_contacting_copy_pair_upper_bound": 169,
+      "parallel_certificates": []
+    },
+    {
+      "families": [
+        "stage0",
+        "stage4"
+      ],
+      "kind": "parallel: exact perpendicular domains or uniformly bounded longitudinal overlap",
+      "uniform_contacting_copy_pair_upper_bound": 0,
+      "parallel_certificates": [
+        {
+          "vertices": [
+            [
+              1,
+              9
+            ],
+            [
+              9,
+              17
+            ]
+          ],
+          "all_k_perpendicular_identity": true,
+          "copy_relation_sgn": 1,
+          "copy_relation_offset": [
+            [
+              3,
+              1
+            ],
+            [
+              -2,
+              1
+            ]
+          ],
+          "nonincreasing_width_bounds": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                -5,
+                1
+              ]
+            ]
+          ],
+          "copy_pair_upper_bound": 0
+        },
+        {
+          "vertices": [
+            [
+              1,
+              9
+            ],
+            [
+              11,
+              19
+            ]
+          ],
+          "all_k_perpendicular_identity": true,
+          "copy_relation_sgn": 1,
+          "copy_relation_offset": [
+            [
+              3,
+              1
+            ],
+            [
+              -5,
+              2
+            ]
+          ],
+          "nonincreasing_width_bounds": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                -9,
+                2
+              ]
+            ]
+          ],
+          "copy_pair_upper_bound": 0
+        },
+        {
+          "vertices": [
+            [
+              3,
+              7
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "all_k_perpendicular_identity": true,
+          "copy_relation_sgn": 1,
+          "copy_relation_offset": [
+            [
+              3,
+              1
+            ],
+            [
+              -2,
+              1
+            ]
+          ],
+          "nonincreasing_width_bounds": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                -5,
+                1
+              ]
+            ]
+          ],
+          "copy_pair_upper_bound": 0
+        },
+        {
+          "vertices": [
+            [
+              3,
+              7
+            ],
+            [
+              13,
+              17
+            ]
+          ],
+          "all_k_perpendicular_identity": true,
+          "copy_relation_sgn": 1,
+          "copy_relation_offset": [
+            [
+              3,
+              1
+            ],
+            [
+              -5,
+              2
+            ]
+          ],
+          "nonincreasing_width_bounds": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                -9,
+                2
+              ]
+            ]
+          ],
+          "copy_pair_upper_bound": 0
+        },
+        {
+          "vertices": [
+            [
+              3,
+              11
+            ],
+            [
+              9,
+              17
+            ]
+          ],
+          "all_k_perpendicular_identity": true,
+          "copy_relation_sgn": 1,
+          "copy_relation_offset": [
+            [
+              3,
+              1
+            ],
+            [
+              -3,
+              2
+            ]
+          ],
+          "nonincreasing_width_bounds": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                -11,
+                2
+              ]
+            ]
+          ],
+          "copy_pair_upper_bound": 0
+        },
+        {
+          "vertices": [
+            [
+              3,
+              11
+            ],
+            [
+              11,
+              19
+            ]
+          ],
+          "all_k_perpendicular_identity": true,
+          "copy_relation_sgn": 1,
+          "copy_relation_offset": [
+            [
+              3,
+              1
+            ],
+            [
+              -2,
+              1
+            ]
+          ],
+          "nonincreasing_width_bounds": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                -5,
+                1
+              ]
+            ]
+          ],
+          "copy_pair_upper_bound": 0
+        },
+        {
+          "vertices": [
+            [
+              5,
+              5
+            ],
+            [
+              13,
+              13
+            ]
+          ],
+          "all_k_perpendicular_identity": true,
+          "copy_relation_sgn": 1,
+          "copy_relation_offset": [
+            [
+              3,
+              1
+            ],
+            [
+              -2,
+              1
+            ]
+          ],
+          "nonincreasing_width_bounds": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                -5,
+                1
+              ]
+            ]
+          ],
+          "copy_pair_upper_bound": 0
+        },
+        {
+          "vertices": [
+            [
+              5,
+              5
+            ],
+            [
+              15,
+              15
+            ]
+          ],
+          "all_k_perpendicular_identity": true,
+          "copy_relation_sgn": 1,
+          "copy_relation_offset": [
+            [
+              3,
+              1
+            ],
+            [
+              -5,
+              2
+            ]
+          ],
+          "nonincreasing_width_bounds": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                -9,
+                2
+              ]
+            ]
+          ],
+          "copy_pair_upper_bound": 0
+        },
+        {
+          "vertices": [
+            [
+              5,
+              9
+            ],
+            [
+              11,
+              15
+            ]
+          ],
+          "all_k_perpendicular_identity": true,
+          "copy_relation_sgn": 1,
+          "copy_relation_offset": [
+            [
+              3,
+              1
+            ],
+            [
+              -3,
+              2
+            ]
+          ],
+          "nonincreasing_width_bounds": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                -11,
+                2
+              ]
+            ]
+          ],
+          "copy_pair_upper_bound": 0
+        },
+        {
+          "vertices": [
+            [
+              5,
+              9
+            ],
+            [
+              13,
+              17
+            ]
+          ],
+          "all_k_perpendicular_identity": true,
+          "copy_relation_sgn": 1,
+          "copy_relation_offset": [
+            [
+              3,
+              1
+            ],
+            [
+              -2,
+              1
+            ]
+          ],
+          "nonincreasing_width_bounds": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                -5,
+                1
+              ]
+            ]
+          ],
+          "copy_pair_upper_bound": 0
+        }
+      ]
+    },
+    {
+      "families": [
+        "stage0",
+        "final_tail"
+      ],
+      "kind": "nonparallel: each vertex pair determines at most one copy pair at each k",
+      "uniform_contacting_copy_pair_upper_bound": 169,
+      "parallel_certificates": []
+    },
+    {
+      "families": [
+        "stage1",
+        "stage2"
+      ],
+      "kind": "nonparallel: each vertex pair determines at most one copy pair at each k",
+      "uniform_contacting_copy_pair_upper_bound": 169,
+      "parallel_certificates": []
+    },
+    {
+      "families": [
+        "stage1",
+        "stage3"
+      ],
+      "kind": "parallel: exact perpendicular domains or uniformly bounded longitudinal overlap",
+      "uniform_contacting_copy_pair_upper_bound": 0,
+      "parallel_certificates": []
+    },
+    {
+      "families": [
+        "stage1",
+        "stage4"
+      ],
+      "kind": "nonparallel: each vertex pair determines at most one copy pair at each k",
+      "uniform_contacting_copy_pair_upper_bound": 169,
+      "parallel_certificates": []
+    },
+    {
+      "families": [
+        "stage1",
+        "final_tail"
+      ],
+      "kind": "parallel: exact perpendicular domains or uniformly bounded longitudinal overlap",
+      "uniform_contacting_copy_pair_upper_bound": 0,
+      "parallel_certificates": []
+    },
+    {
+      "families": [
+        "stage2",
+        "stage3"
+      ],
+      "kind": "nonparallel: each vertex pair determines at most one copy pair at each k",
+      "uniform_contacting_copy_pair_upper_bound": 169,
+      "parallel_certificates": []
+    },
+    {
+      "families": [
+        "stage2",
+        "stage4"
+      ],
+      "kind": "parallel: exact perpendicular domains or uniformly bounded longitudinal overlap",
+      "uniform_contacting_copy_pair_upper_bound": 0,
+      "parallel_certificates": []
+    },
+    {
+      "families": [
+        "stage2",
+        "final_tail"
+      ],
+      "kind": "nonparallel: each vertex pair determines at most one copy pair at each k",
+      "uniform_contacting_copy_pair_upper_bound": 169,
+      "parallel_certificates": []
+    },
+    {
+      "families": [
+        "stage3",
+        "stage4"
+      ],
+      "kind": "nonparallel: each vertex pair determines at most one copy pair at each k",
+      "uniform_contacting_copy_pair_upper_bound": 169,
+      "parallel_certificates": []
+    },
+    {
+      "families": [
+        "stage3",
+        "final_tail"
+      ],
+      "kind": "parallel: exact perpendicular domains or uniformly bounded longitudinal overlap",
+      "uniform_contacting_copy_pair_upper_bound": 0,
+      "parallel_certificates": []
+    },
+    {
+      "families": [
+        "stage4",
+        "final_tail"
+      ],
+      "kind": "nonparallel: each vertex pair determines at most one copy pair at each k",
+      "uniform_contacting_copy_pair_upper_bound": 169,
+      "parallel_certificates": []
+    }
+  ],
+  "counting_argument": "Each cap vertex touches at most one tree per family, <=12S trees total. Every non-isolated remaining tree touches another family, <=2P trees total. Every component has at most S+12(12S+2P) edges.",
+  "scope": "Geometric contact certificate. All-parameter five-stage legality, fixed774 recovery and final phase0 H at(5,-4),S are retained execution dependencies; proof note separately establishes complete envelope."
+}

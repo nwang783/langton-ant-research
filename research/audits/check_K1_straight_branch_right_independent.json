@@ -1,0 +1,127 @@
+{
+  "status": "PASS branchful straight-to-LEFT contradiction and forced RIGHT successor",
+  "note_sha256": "0d058388dbe1608810b7fdbc04b4bbe4a3bb1a5216396b18e3b207b8f374300a",
+  "flat_histories": [
+    {
+      "h": [
+        0,
+        0,
+        2
+      ],
+      "first_S_rank": 2,
+      "E_before_first_S": 1
+    },
+    {
+      "h": [
+        0,
+        2,
+        2
+      ],
+      "first_S_rank": 1,
+      "E_before_first_S": 1
+    },
+    {
+      "h": [
+        2,
+        0,
+        0
+      ],
+      "first_S_rank": 0,
+      "E_before_first_S": 0
+    },
+    {
+      "h": [
+        2,
+        2,
+        0
+      ],
+      "first_S_rank": 0,
+      "E_before_first_S": 0
+    },
+    {
+      "h": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "first_S_rank": 2,
+      "E_before_first_S": 1
+    },
+    {
+      "h": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "first_S_rank": 2,
+      "E_before_first_S": 1
+    },
+    {
+      "h": [
+        0,
+        2,
+        2,
+        0
+      ],
+      "first_S_rank": 1,
+      "E_before_first_S": 1
+    },
+    {
+      "h": [
+        0,
+        2,
+        2,
+        2
+      ],
+      "first_S_rank": 1,
+      "E_before_first_S": 1
+    },
+    {
+      "h": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "first_S_rank": 0,
+      "E_before_first_S": 0
+    },
+    {
+      "h": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "first_S_rank": 0,
+      "E_before_first_S": 0
+    },
+    {
+      "h": [
+        2,
+        2,
+        0,
+        0
+      ],
+      "first_S_rank": 0,
+      "E_before_first_S": 0
+    },
+    {
+      "h": [
+        2,
+        2,
+        0,
+        2
+      ],
+      "first_S_rank": 0,
+      "E_before_first_S": 0
+    }
+  ],
+  "clock_equalities": [
+    "second_E(e)=T3(z)-1=T1(B)-2",
+    "first_S(e)=T1(O)+1=T2(B)+2"
+  ],
+  "scope": "Complete WHITE cap4 K1, straight face with equal-M unused LEFT neighbor; no leftmost or branch-free premise. Uses signed no-following-S to conclude RIGHT, not global exclusion."
+}

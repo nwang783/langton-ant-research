@@ -1,0 +1,279 @@
+{
+  "scope": "Exact all-r internal chronology and first-read black requirements for nine supplied hairpin families, not a common finite seed or prolongable growing model.",
+  "records": [
+    {
+      "source": "R21",
+      "recursive_read": 6,
+      "drift": [
+        -1,
+        1
+      ],
+      "all_depths_internally_legal": false,
+      "bad_depths": "[r] -> {  : r >= 2 }",
+      "counterexample_depth": [
+        2
+      ],
+      "required_initial_black": "[r] -> { [x, y] : -1 - r <= x <= -2 and -2 - x <= y < -x; [x, y = 1 + r] : r > 0 and -r <= x <= 1 - r; [x, y = -x] : r > 0 and -r <= x <= 0 }",
+      "position_cosets": 6,
+      "maximum_reads_per_cell": 7,
+      "final_minimal_black": "[r] -> { [x, y] : y >= 3 and 2 - x <= y <= 3 - x and y <= 2 + r; [x = 1, y] : r > 0 and 0 < y <= 2; [x, y = -x] : -1 - r <= x <= -2; [x, y = -1 - x] : r > 0 and -1 - r <= x < 0; [x = 0, y = 0] : r = 0 }",
+      "read_support": "[r] -> { [x, y] : r > 0 and x <= 1 and -2 - x <= y <= 3 - x and y <= 2 + r and (y >= 2 - x or (-1 - r <= x <= 0 and 0 <= y <= 1 - x and y <= 1 + r)); [x = -r, y = r] : r >= 0 }"
+    },
+    {
+      "source": "R21",
+      "recursive_read": 12,
+      "drift": [
+        -2,
+        2
+      ],
+      "all_depths_internally_legal": false,
+      "bad_depths": "[r] -> {  : r >= 2 }",
+      "counterexample_depth": [
+        2
+      ],
+      "required_initial_black": "[r] -> { [x, y] : y >= -2 - x and ((y >= -x and -r < floor((1 + x)/2) <= 0 and 2*floor((1 + x)/2) >= 2x + y) or ((x) mod 2 = 0 and -2r <= x <= -2 and y < -x)); [x, y = 2 - x] : (x) mod 2 = 0 and 2 - 2r <= x <= 0 }",
+      "position_cosets": 11,
+      "maximum_reads_per_cell": 4,
+      "final_minimal_black": "[r] -> { [x, y] : x <= 1 and y <= 3 - x and y <= 1 + 2r and floor((1 + x)/2) <= -2 + x + y and 2*floor((1 + x)/2) >= 3 - y; [x, y = -1 - x] : -2r <= x < 0; [x = 1, y = 1] : r > 0; [x = -2r, y = 2r] : r >= 0 }",
+      "read_support": "[r] -> { [x, y] : ((x) mod 2 = 1 and r > 0 and -2r < x <= 1 and -x < y <= 3 - x and 3 - x <= 2y <= 3 + 2r - x) or (-r <= floor((x)/2) < 0 and -2 - y <= 2*floor((x)/2) < -y) or ((x) mod 2 = 0 and 2 - 2r <= x <= 0 and -x <= y <= 3 - x); [x = -2r, y = 2r] : r >= 0 }"
+    },
+    {
+      "source": "R21",
+      "recursive_read": 14,
+      "drift": [
+        -1,
+        3
+      ],
+      "all_depths_internally_legal": true,
+      "bad_depths": "[r] -> {  : false }",
+      "counterexample_depth": null,
+      "required_initial_black": "[r] -> { [x, y] : -1 - r <= x < 0 and -6 - 3x <= y < -3x and ((x >= -r and y >= -2 - 3x) or (x <= -2 and y <= -5 - 3x)); [x, y = -3x] : -r < x <= 0; [x, y = 2 - 3x] : -r < x <= 0 }",
+      "position_cosets": 12,
+      "maximum_reads_per_cell": 4,
+      "final_minimal_black": "[r] -> { [x, y] : -5 - 3x <= y <= 4 - 3x and ((y >= 3 - 2x and 3 - 3x <= y <= 2 + r - 2x) or (-1 - r <= x <= -2 and y <= -4 - 3x)); [x = -r, y = 3r] : r >= 0; [x, y = 5 - 3x] : 2 - r <= x <= 1; [x, y = -3 - 3x] : -r <= x < 0 }",
+      "read_support": "[r] -> { [x, y] : x >= -1 - r and -6 - 3x <= y <= 5 - 3x and ((2 - r <= x <= 1 and y >= 4 - 3x) or (-r < x <= 0 and 2 - 3x <= y <= 3 - 3x) or (x <= -2 and y <= -4 - 3x) or (x >= -r and y >= 0 and -3 - 3x <= y <= 1 - 3x and y <= r - 2x)) }"
+    },
+    {
+      "source": "R29",
+      "recursive_read": 4,
+      "drift": [
+        2,
+        0
+      ],
+      "all_depths_internally_legal": false,
+      "bad_depths": "[r] -> {  : r >= 2 }",
+      "counterexample_depth": [
+        2
+      ],
+      "required_initial_black": "[r] -> { [x, y] : (x) mod 2 = 1 and -1 <= x <= -3 + 2r and 0 < y <= 2; [x, y = 3] : 0 <= x < 2r; [x, y = -1] : 0 < x <= 2r; [x = 1 + 2r, y = 0] : r > 0 }",
+      "position_cosets": 10,
+      "maximum_reads_per_cell": 5,
+      "final_minimal_black": "[r] -> { [x, y] : (x) mod 2 = 0 and 4 <= x <= 2 + 2r and 0 <= y <= 1; [x, y = 3 - x] : r > 0 and 0 < x <= 2; [x, y = 2] : (x) mod 2 = 1 and 3 <= x <= 1 + 2r; [x, y = 1 - x] : r > 0 and 0 <= x <= 1; [x = 0, y = 2] : r > 0; [x = 0, y = 0] : r = 0 }",
+      "read_support": "[r] -> { [x, y] : r > 0 and -1 <= y <= 3 and (((x) mod 2 = 1 and y >= 2 and 2y <= 5 + x and 2y <= 5 + 2r - x) or ((x) mod 2 = 0 and x >= 0 and 2y >= -x and -2 - 2r + x <= 2y <= 4 + 2r - x) or ((x) mod 2 = 1 and 0 < x <= 1 + 2r and y <= 1 and -1 - 2r + x <= 2y < x)); [x, y = 1] : (x) mod 2 = 1 and -1 <= x <= -3 + 2r; [x = 2r, y = 0] : r >= 0 }"
+    },
+    {
+      "source": "R29",
+      "recursive_read": 6,
+      "drift": [
+        3,
+        1
+      ],
+      "all_depths_internally_legal": false,
+      "bad_depths": "[r] -> {  : r >= 2 }",
+      "counterexample_depth": [
+        2
+      ],
+      "required_initial_black": "[r] -> { [x, y] : (3y = 9 + x and 0 <= x <= -3 + 3r) or (6 - r + x <= 2y <= 5 + x and 7 + x <= 3y <= 8 + x) or (-1 <= y <= -2 + r and -5 + x <= 3y <= -4 + x) or (3y = 4 + x and -1 <= x <= -4 + 3r) or (3y = -3 + x and 3 <= x <= 3r) }",
+      "position_cosets": 14,
+      "maximum_reads_per_cell": 6,
+      "final_minimal_black": "[r] -> { [x, y] : (2 <= y <= 1 + r and 5 + x <= 3y <= 6 + x) or (3y = 3 + x and 3 <= x <= 3r) or (3y = 1 + x and 2 <= x < 3r) or (3y = -1 + x and 4 <= x <= 1 + 3r) or (3y = -4 + x and 4 <= x <= 1 + 3r); [x, y = 1 - x] : r > 0 and 0 <= x <= 1; [x = 0, y = 0] : r = 0 }",
+      "read_support": "[r] -> { [x, y] : -1 <= y <= 2 + r and -5 + x <= 3y <= 9 + x and ((y >= 3 and 3y >= 8 + x) or (2 <= y <= 1 + r and 6 + x <= 3y <= 7 + x) or (r > 0 and 0 < y <= 1 + r and 2y <= 3 + x and 3 + x <= 3y <= 5 + x) or (r > 0 and 0 <= y <= r and -1 - r + x <= 2y <= x and -2 + x <= 3y <= 1 + x) or (r > 0 and y < r and -3 - r + x <= 2y <= -3 + x and 3y <= -3 + x)); [x = 3r, y = r] : r >= 0 }"
+    },
+    {
+      "source": "R29",
+      "recursive_read": 12,
+      "drift": [
+        2,
+        2
+      ],
+      "all_depths_internally_legal": false,
+      "bad_depths": "[r] -> {  : r >= 2 }",
+      "counterexample_depth": [
+        2
+      ],
+      "required_initial_black": "[r] -> { [x, y] : y <= 3 + x and 0 <= floor((1 + x)/2) < r and 2*floor((1 + x)/2) >= 3 + 2x - y; [x, y = -1] : r > 0 and 0 < x <= 2; [x, y = -3 + x] : (1 + x) mod 2 = 0 and 3 <= x <= 1 + 2r; [x = -1 + 2r, y = 1 + 2r] : r > 0 }",
+      "position_cosets": 14,
+      "maximum_reads_per_cell": 5,
+      "final_minimal_black": "[r] -> { [x, y] : y > x and 0 <= floor((x)/2) < r and 2*floor((x)/2) >= -2 + y; [x, y = -1 + x] : r > 0 and 0 < x <= 1 + 2r; [x, y = -4 + x] : (x) mod 2 = 0 and 4 <= x <= 2 + 2r; [x = 0, y = 0] : r = 0; [x = 2 + 2r, y = -1 + 2r] : r > 0 }",
+      "read_support": "[r] -> { [x, y] : ((x) mod 2 = 0 and x >= 0 and -1 + x <= y <= 1 + x and y <= 2r and 2y >= x) or (r > 0 and floor((x)/2) > 0 and 2 - r + y <= floor((x)/2) <= 2 + y and floor((x)/2) <= 1 + r and 2*floor((x)/2) >= -4 + 2x - y and 2*floor((x)/2) >= 2 + y) or (r > 0 and y <= 3 + x and -2 - r + y <= floor((x)/2) <= -2 + y and floor((x)/2) <= x and floor((x)/2) < r and 2*floor((x)/2) <= -2 + y) or ((x) mod 2 = 1 and r > 0 and 0 < x <= 1 + 2r and -2 + x <= y < x) }"
+    },
+    {
+      "source": "L29",
+      "recursive_read": 2,
+      "drift": [
+        1,
+        1
+      ],
+      "all_depths_internally_legal": false,
+      "bad_depths": "[r] -> {  : r >= 2 }",
+      "counterexample_depth": [
+        2
+      ],
+      "required_initial_black": "[r] -> { [x, y] : -3 <= x <= -4 + r and 2 + x <= y <= 3 + x; [x, y = x] : -2 <= x < 0 and x <= -3 + r; [x, y = -1 + x] : r > 0 and -1 <= x <= r; [x = -1 + r, y = 1 + r] : r > 0; [x = r, y = r] : r >= 0 }",
+      "position_cosets": 6,
+      "maximum_reads_per_cell": 8,
+      "final_minimal_black": "[r] -> { [x, y] : y >= 3 + x and 3 <= y <= 4 + x and y <= 2 + r; [x, y = 1 + x] : -2 <= x < 0 and x <= -3 + r; [x, y = -x] : r > 0 and -2 <= x < 0; [x, y = -2 - x] : r > 0 and -2 <= x < 0 }",
+      "read_support": "[r] -> { [x, y] : r > 0 and -1 + x <= y <= 3 + x and ((-3 <= x < r and y >= 2 + x) or (-2 <= y <= x and y < r)); [x = r, y = r] : r >= 0; [x, y = 4 + x] : r > 0 and -2 <= x <= -2 + r; [x, y = 1 + x] : -2 <= x < r and (x <= -3 + r or x >= 0) }"
+    },
+    {
+      "source": "L29",
+      "recursive_read": 4,
+      "drift": [
+        0,
+        2
+      ],
+      "all_depths_internally_legal": false,
+      "bad_depths": "[r] -> {  : r >= 2 }",
+      "counterexample_depth": [
+        2
+      ],
+      "required_initial_black": "[r] -> { [x, y] : x >= -3 and -4 - x <= y <= -2 + 2r and floor((y)/2) <= -4 + r - x and 2*floor((y)/2) >= 2 + x + y; [x = 1, y] : 0 <= y < 2r; [x = -1, y] : (y) mod 2 = 0 and -2 <= y <= -4 + 2r; [x = 0, y = 2r] : r >= 0; [x = 0, y = -1] : r > 0 }",
+      "position_cosets": 10,
+      "maximum_reads_per_cell": 5,
+      "final_minimal_black": "[r] -> { [x, y] : x >= -2 and ((r > 0 and -1 <= y <= -2 - x) or ((2 + y) mod 2 = 2 + x and x < 0 and 4 + x <= y <= 2 + 2r + x)); [x = -1, y = 1] : r > 0; [x = 0, y] : (2 + y) mod 2 = 1 and 3 <= y <= 1 + 2r }",
+      "read_support": "[r] -> { [x, y] : x >= -3 and (((y) mod 2 = 0 and -1 <= x <= 1 and y >= 0 and -2x <= y <= 2r - 2x and y <= 2r) or (r > 0 and -4 - x <= y <= 4 + 2r + 2x and floor((y)/2) <= -4 + r - 2x and 2*floor((y)/2) > x + y) or ((y) mod 2 = 1 and r > 0 and -1 <= x <= 1 and y >= -1 + 2x and -1 <= y <= 1 + 2r - 2x and y <= 1 + 2r)) }"
+    },
+    {
+      "source": "L29",
+      "recursive_read": 16,
+      "drift": [
+        0,
+        2
+      ],
+      "all_depths_internally_legal": false,
+      "bad_depths": "[r] -> {  : r >= 2 }",
+      "counterexample_depth": [
+        2
+      ],
+      "required_initial_black": "[r] -> { [x, y] : (y) mod 2 = 0 and -2 <= x < 0 and -2 <= y <= 0 and y <= -4 + 2r; [x = 1, y] : 0 <= y < 2r; [x = 0, y] : (y) mod 2 = 0 and 2 <= y <= 2r; [x = -3, y] : -1 <= y <= -2 + 2r; [x = 0, y = 0] : r = 0; [x = 0, y = -1] : r > 0 }",
+      "position_cosets": 10,
+      "maximum_reads_per_cell": 5,
+      "final_minimal_black": "[r] -> { [x, y] : (y) mod 2 = 2 + x and -2 <= x < 0 and 2 + x <= y <= 2r + x; [x, y = 2 + 2r + x] : r > 0 and -2 <= x < 0; [x, y = -1] : r > 0 and -2 <= x < 0; [x = 0, y = 1 + 2r] : r > 0 }",
+      "read_support": "[r] -> { [x, y] : x >= -3 and (((y) mod 2 = 0 and -1 <= x <= 1 and y >= 0 and -2x <= y <= 2r - 2x and y <= 2r) or (r > 0 and -4 - x <= y <= 4 + 2r + 2x and floor((y)/2) <= -4 + r - 2x and 2*floor((y)/2) > x + y) or ((y) mod 2 = 1 and r > 0 and -1 <= x <= 1 and y >= -1 + 2x and -1 <= y <= 1 + 2r - 2x and y <= 1 + 2r)) }"
+    }
+  ],
+  "positive_tile_control": {
+    "drift": [
+      -1,
+      3
+    ],
+    "input_tile": [
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "output_tile": [
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "read_tile": [
+      [
+        -2,
+        0
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "all_depth_input_equality": true,
+    "all_depth_output_equality": true,
+    "all_depth_read_support_equality": true
+  },
+  "literal_depth_controls": 225,
+  "seconds": 2.552250462002121,
+  "isl_version": "isl-0.27-GMP"
+}

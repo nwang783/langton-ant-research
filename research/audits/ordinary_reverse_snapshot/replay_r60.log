@@ -1,0 +1,128 @@
+{"segment": 0, "time": [0, 2357], "pose": [[[0, -3], [0, -8]], 3]}
+{"segment": 1, "time": [104, 2565], "pose": [[[2, 1], [-2, -12]], 3]}
+{"segment": 2, "time": [104, 53688], "pose": [[[2, 38], [-2, 22]], 0]}
+{
+  "status": "exact all-k complete finite-kernel capture",
+  "phase": 60,
+  "domain": "integer k>=100",
+  "input_old_deposit_count": 42,
+  "second_marker_affine": [
+    [
+      2,
+      9
+    ],
+    [
+      -2,
+      -17
+    ]
+  ],
+  "second_first_hit": [
+    104,
+    2642
+  ],
+  "capture_time": [
+    104,
+    53688
+  ],
+  "capture_pose": [
+    [
+      [
+        2,
+        38
+      ],
+      [
+        -2,
+        22
+      ]
+    ],
+    0
+  ],
+  "tail": {
+    "distinct_required_cells": 40,
+    "odd_read_cells": 32,
+    "drift": [
+      -2,
+      2
+    ],
+    "heading": 0
+  },
+  "tail_phase": 0,
+  "whole_future_forward_guard": false,
+  "prefix_u_lower": -36,
+  "full_future_u_lower": null,
+  "tail_z_bounds": [
+    53,
+    63
+  ],
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        2357
+      ],
+      "pose": [
+        [
+          [
+            0,
+            -3
+          ],
+          [
+            0,
+            -8
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 1,
+      "time": [
+        104,
+        2565
+      ],
+      "pose": [
+        [
+          [
+            2,
+            1
+          ],
+          [
+            -2,
+            -12
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 2,
+      "time": [
+        104,
+        53688
+      ],
+      "pose": [
+        [
+          [
+            2,
+            38
+          ],
+          [
+            -2,
+            22
+          ]
+        ],
+        0
+      ]
+    }
+  ],
+  "source_sha256": "9caee109537263d06036894c52a954b33f88cee68c2d36c3b1d86f01976baca8",
+  "template_sha256": "f54f23db6ded93017ee2d452e909e9ec56341be03267fba9ee2d252df4ef6b74",
+  "statistics": {
+    "finite_read_constraints": 4881,
+    "periodic_read_constraints": 84,
+    "affine_guards": 3315,
+    "excluded_isolated_equalities": 1451576
+  },
+  "scope": "All older canonical deposits are avoided. Arbitrary finite history contained in u<-160 is protected iff whole_future_forward_guard is true; the other cases need a return/endcap condition."
+}

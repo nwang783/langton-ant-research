@@ -1,0 +1,17 @@
+{
+  "status": "PASS universal active-episode metric/gates and conditional eventual-translation criterion",
+  "note_sha256": "ad3cb9f07e078bcbaaa02622004f56254b211de2ed238fa2bd031e7d5e3d5721",
+  "retained_stale_memory_source_sha256": "5db0c3fb75fecdd7273297e96c3c33509818ce96537357ef7b23c260a56756cb",
+  "fine_cut_control_updates": 1000,
+  "all_active_edge_metric_checks": 13035,
+  "completed_R_lifetimes": 441,
+  "analytic": [
+    "An edge in an M-edge active component has an endpoint reachable from the cursor without using that edge, along at most M-1 diagonal edges. Two half-unit midpoint/cursor offsets give the exact infinity bound M, valid at every fine cut including consecutive R writes.",
+    "A continuous active lifetime with active mass at most M pins every head to one fixed integer square of side2M+1. The exterior field is unchanged between those cuts. More than4n^2*2^(n^2) cuts repeat the COMPLETE state, producing a bounded orbit forbidden by the retained extremal-cell escape argument. Thus H(M)=Q(2M+1) is a valid uniform episode cut bound.",
+    "R keeps w fixed and only joins the complete other-end component. L moves w across its deleted edge; all surviving old-active edges stay active unless that edge is a bridge, in which case exactly the arrival component remains. Therefore every completed dormant interval is a genuine bridge departure followed by whole-component R import.",
+    "An R lifetime born at b and consumed at d occupies exactly d-b cuts b+1 through d, active at both ends. At most J dormant episodes of at most A cuts and at most J+1 active episodes give age <=(J+1)H(M)+JA. This counts physical cuts, not compressed blocks.",
+    "At a finite-support cut T only finitely many current lifetimes exist. After their last eventual consumption, every L obeys the asserted age bound. The exact suffix predictor is then autonomous on at most2^D words; a zero-drift/rotating periodic word would be bounded and is excluded. Eventual nonzero translation follows, not a classification as104.",
+    "Contraposition yields the stated consumed-lifetime trilemma for any non-eventually-translating finite-support orbit. Arbitrarily old never-consumed passive support is irrelevant. None of the sustained bounds M,A,J is proved here."
+  ],
+  "scope": "Global finite-support dynamics. Conditional sufficient criterion and exact decomposition only; no sustained boundedness, capture, finite-summary replacement or original-mass age bound."
+}

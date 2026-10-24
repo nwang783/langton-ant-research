@@ -1,0 +1,882 @@
+{
+  "status": "AUTHOR_U1_3C_EIGHT_PORT_BARRIER_PASS",
+  "scope": "Full unfundedU1 I>=28; markedA exactly3C before Ugoal. The8 listed earlierAposes impossible. Applies if such marked clockexists;2C packets can skip it. Not allU1, no finitebox/capture.",
+  "target_goal": [
+    0,
+    0,
+    0
+  ],
+  "target_score": 30,
+  "record_phase": 1,
+  "goal_input_cases": [
+    {
+      "U_input": [
+        -1,
+        2
+      ],
+      "B_pose": [
+        -1,
+        -2,
+        1
+      ],
+      "U_goal_score": 24,
+      "predecessor_cases": [
+        {
+          "predecessor": 0,
+          "pose": [
+            -1,
+            -1,
+            0
+          ],
+          "age": 3,
+          "query": [
+            0,
+            5,
+            0,
+            -1,
+            1,
+            2,
+            0,
+            3
+          ],
+          "reason": "EXACT_COUNTED_EXCLUDED"
+        },
+        {
+          "predecessor": 1,
+          "pose": [
+            -2,
+            1,
+            1
+          ],
+          "age": 4,
+          "query": [
+            1,
+            5,
+            3,
+            1,
+            0,
+            2,
+            3,
+            4
+          ],
+          "reason": "EXACT_COUNTED_EXCLUDED"
+        },
+        {
+          "predecessor": 4,
+          "pose": [
+            -1,
+            -3,
+            0
+          ],
+          "age": 3,
+          "query": [
+            2,
+            5,
+            0,
+            1,
+            1,
+            2,
+            2,
+            3
+          ],
+          "reason": "EXACT_COUNTED_EXCLUDED"
+        },
+        {
+          "predecessor": 5,
+          "pose": [
+            -4,
+            1,
+            1
+          ],
+          "age": 4,
+          "query": [
+            3,
+            5,
+            3,
+            3,
+            0,
+            2,
+            5,
+            4
+          ],
+          "reason": "EXACT_COUNTED_EXCLUDED"
+        },
+        {
+          "predecessor": 6,
+          "pose": [
+            0,
+            4,
+            2
+          ],
+          "age": 5,
+          "entry_core": 28,
+          "reason": "EARLIER_CORE_FUNDS"
+        },
+        {
+          "predecessor": 7,
+          "pose": [
+            0,
+            -4,
+            0
+          ],
+          "age": 3,
+          "query": [
+            5,
+            5,
+            -1,
+            2,
+            1,
+            1,
+            3,
+            3
+          ],
+          "reason": "EXACT_COUNTED_EXCLUDED"
+        },
+        {
+          "predecessor": 8,
+          "pose": [
+            -5,
+            0,
+            1
+          ],
+          "age": 4,
+          "query": [
+            6,
+            5,
+            2,
+            4,
+            0,
+            1,
+            6,
+            4
+          ],
+          "reason": "EXACT_COUNTED_EXCLUDED"
+        },
+        {
+          "predecessor": 9,
+          "pose": [
+            -1,
+            5,
+            2
+          ],
+          "age": 5,
+          "entry_core": 28,
+          "reason": "EARLIER_CORE_FUNDS"
+        }
+      ],
+      "source_if_first": [
+        {
+          "source": 0,
+          "first_source_max_activation": 30
+        },
+        {
+          "source": 1,
+          "first_source_max_activation": 30
+        },
+        {
+          "source": 4,
+          "first_source_max_activation": 34
+        },
+        {
+          "source": 5,
+          "first_source_max_activation": 34
+        },
+        {
+          "source": 6,
+          "first_source_max_activation": 34
+        },
+        {
+          "source": 7,
+          "first_source_max_activation": 34
+        },
+        {
+          "source": 8,
+          "first_source_max_activation": 34
+        },
+        {
+          "source": 9,
+          "first_source_max_activation": 34
+        }
+      ]
+    },
+    {
+      "U_input": [
+        -1,
+        4
+      ],
+      "B_pose": [
+        -3,
+        -2,
+        1
+      ],
+      "U_goal_score": 20,
+      "predecessor_cases": [
+        {
+          "predecessor": 0,
+          "pose": [
+            -1,
+            -1,
+            0
+          ],
+          "age": 3,
+          "query": [
+            0,
+            5,
+            -2,
+            -1,
+            1,
+            2,
+            0,
+            3
+          ],
+          "reason": "EXACT_COUNTED_EXCLUDED"
+        },
+        {
+          "predecessor": 1,
+          "pose": [
+            -2,
+            1,
+            1
+          ],
+          "age": 4,
+          "query": [
+            1,
+            5,
+            3,
+            -1,
+            0,
+            2,
+            3,
+            4
+          ],
+          "reason": "EXACT_COUNTED_EXCLUDED"
+        },
+        {
+          "predecessor": 4,
+          "pose": [
+            -1,
+            -3,
+            0
+          ],
+          "age": 3,
+          "query": [
+            2,
+            5,
+            -2,
+            1,
+            1,
+            2,
+            2,
+            3
+          ],
+          "reason": "EXACT_COUNTED_EXCLUDED"
+        },
+        {
+          "predecessor": 5,
+          "pose": [
+            -4,
+            1,
+            1
+          ],
+          "age": 4,
+          "query": [
+            3,
+            5,
+            3,
+            1,
+            0,
+            2,
+            5,
+            4
+          ],
+          "reason": "EXACT_COUNTED_EXCLUDED"
+        },
+        {
+          "predecessor": 6,
+          "pose": [
+            0,
+            4,
+            2
+          ],
+          "age": 5,
+          "entry_core": 28,
+          "reason": "EARLIER_CORE_FUNDS"
+        },
+        {
+          "predecessor": 7,
+          "pose": [
+            0,
+            -4,
+            0
+          ],
+          "age": 3,
+          "query": [
+            5,
+            5,
+            -3,
+            2,
+            1,
+            1,
+            3,
+            3
+          ],
+          "reason": "EXACT_COUNTED_EXCLUDED"
+        },
+        {
+          "predecessor": 8,
+          "pose": [
+            -5,
+            0,
+            1
+          ],
+          "age": 4,
+          "query": [
+            6,
+            5,
+            2,
+            2,
+            0,
+            1,
+            6,
+            4
+          ],
+          "reason": "EXACT_COUNTED_EXCLUDED"
+        },
+        {
+          "predecessor": 9,
+          "pose": [
+            -1,
+            5,
+            2
+          ],
+          "age": 5,
+          "entry_core": 28,
+          "reason": "EARLIER_CORE_FUNDS"
+        }
+      ],
+      "source_if_first": [
+        {
+          "source": 0,
+          "first_source_max_activation": 30
+        },
+        {
+          "source": 1,
+          "first_source_max_activation": 30
+        },
+        {
+          "source": 4,
+          "first_source_max_activation": 34
+        },
+        {
+          "source": 5,
+          "first_source_max_activation": 34
+        },
+        {
+          "source": 6,
+          "first_source_max_activation": 34
+        },
+        {
+          "source": 7,
+          "first_source_max_activation": 34
+        },
+        {
+          "source": 8,
+          "first_source_max_activation": 34
+        },
+        {
+          "source": 9,
+          "first_source_max_activation": 34
+        }
+      ]
+    },
+    {
+      "U_input": [
+        0,
+        3
+      ],
+      "B_pose": [
+        -2,
+        -1,
+        1
+      ],
+      "U_goal_score": 24,
+      "predecessor_cases": [
+        {
+          "predecessor": 0,
+          "pose": [
+            -1,
+            -1,
+            0
+          ],
+          "age": 3,
+          "query": [
+            0,
+            5,
+            -1,
+            0,
+            1,
+            2,
+            0,
+            3
+          ],
+          "reason": "EXACT_COUNTED_EXCLUDED"
+        },
+        {
+          "predecessor": 1,
+          "pose": [
+            -2,
+            1,
+            1
+          ],
+          "age": 4,
+          "query": [
+            1,
+            5,
+            2,
+            0,
+            0,
+            2,
+            3,
+            4
+          ],
+          "reason": "EXACT_COUNTED_EXCLUDED"
+        },
+        {
+          "predecessor": 4,
+          "pose": [
+            -1,
+            -3,
+            0
+          ],
+          "age": 3,
+          "query": [
+            2,
+            5,
+            -1,
+            2,
+            1,
+            2,
+            2,
+            3
+          ],
+          "reason": "EXACT_COUNTED_EXCLUDED"
+        },
+        {
+          "predecessor": 5,
+          "pose": [
+            -4,
+            1,
+            1
+          ],
+          "age": 4,
+          "query": [
+            3,
+            5,
+            2,
+            2,
+            0,
+            2,
+            5,
+            4
+          ],
+          "reason": "EXACT_COUNTED_EXCLUDED"
+        },
+        {
+          "predecessor": 6,
+          "pose": [
+            0,
+            4,
+            2
+          ],
+          "age": 5,
+          "entry_core": 28,
+          "reason": "EARLIER_CORE_FUNDS"
+        },
+        {
+          "predecessor": 7,
+          "pose": [
+            0,
+            -4,
+            0
+          ],
+          "age": 3,
+          "query": [
+            5,
+            5,
+            -2,
+            3,
+            1,
+            1,
+            3,
+            3
+          ],
+          "reason": "EXACT_COUNTED_EXCLUDED"
+        },
+        {
+          "predecessor": 8,
+          "pose": [
+            -5,
+            0,
+            1
+          ],
+          "age": 4,
+          "query": [
+            6,
+            5,
+            1,
+            3,
+            0,
+            1,
+            6,
+            4
+          ],
+          "reason": "EXACT_COUNTED_EXCLUDED"
+        },
+        {
+          "predecessor": 9,
+          "pose": [
+            -1,
+            5,
+            2
+          ],
+          "age": 5,
+          "entry_core": 28,
+          "reason": "EARLIER_CORE_FUNDS"
+        }
+      ],
+      "source_if_first": [
+        {
+          "source": 0,
+          "first_source_max_activation": 30
+        },
+        {
+          "source": 1,
+          "first_source_max_activation": 30
+        },
+        {
+          "source": 4,
+          "first_source_max_activation": 34
+        },
+        {
+          "source": 5,
+          "first_source_max_activation": 34
+        },
+        {
+          "source": 6,
+          "first_source_max_activation": 34
+        },
+        {
+          "source": 7,
+          "first_source_max_activation": 34
+        },
+        {
+          "source": 8,
+          "first_source_max_activation": 34
+        },
+        {
+          "source": 9,
+          "first_source_max_activation": 34
+        }
+      ]
+    }
+  ],
+  "white_cases": [
+    {
+      "local_white_cell": [
+        0,
+        1
+      ],
+      "B_pose": [
+        0,
+        -1,
+        1
+      ],
+      "U_goal_score": 28,
+      "if_Afirst_goal_Cclock": 3,
+      "upper_produced_min_age": 5,
+      "forced_entry_upper_activations": [
+        36,
+        30,
+        32
+      ]
+    },
+    {
+      "local_white_cell": [
+        1,
+        2
+      ],
+      "B_pose": [
+        -1,
+        0,
+        1
+      ],
+      "U_goal_score": 28,
+      "if_Afirst_goal_Cclock": 3,
+      "upper_produced_min_age": 5,
+      "forced_entry_upper_activations": [
+        36,
+        30,
+        32
+      ]
+    },
+    {
+      "local_white_cell": [
+        1,
+        4
+      ],
+      "B_pose": [
+        -3,
+        0,
+        1
+      ],
+      "U_goal_score": 24,
+      "if_Afirst_goal_Cclock": 3,
+      "upper_produced_min_age": 5,
+      "forced_entry_upper_activations": [
+        32,
+        26,
+        28
+      ]
+    },
+    {
+      "local_white_cell": [
+        2,
+        1
+      ],
+      "B_pose": [
+        0,
+        1,
+        1
+      ],
+      "U_goal_score": 32,
+      "if_Afirst_goal_Cclock": 3,
+      "upper_produced_min_age": 5,
+      "forced_entry_upper_activations": [
+        40,
+        34,
+        36
+      ]
+    },
+    {
+      "local_white_cell": [
+        2,
+        5
+      ],
+      "B_pose": [
+        -4,
+        1,
+        1
+      ],
+      "U_goal_score": 24,
+      "if_Afirst_goal_Cclock": 3,
+      "upper_produced_min_age": 5,
+      "forced_entry_upper_activations": [
+        32,
+        26,
+        28
+      ]
+    }
+  ],
+  "sector_impossible_geometry": [
+    {
+      "local_cell": [
+        -1,
+        1
+      ],
+      "B_pose": [
+        0,
+        -2,
+        1
+      ]
+    },
+    {
+      "local_cell": [
+        -1,
+        3
+      ],
+      "B_pose": [
+        -2,
+        -2,
+        1
+      ]
+    },
+    {
+      "local_cell": [
+        0,
+        2
+      ],
+      "B_pose": [
+        -1,
+        -1,
+        1
+      ]
+    },
+    {
+      "local_cell": [
+        0,
+        4
+      ],
+      "B_pose": [
+        -3,
+        -1,
+        1
+      ]
+    },
+    {
+      "local_cell": [
+        1,
+        1
+      ],
+      "B_pose": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "local_cell": [
+        1,
+        3
+      ],
+      "B_pose": [
+        -2,
+        0,
+        1
+      ]
+    },
+    {
+      "local_cell": [
+        1,
+        5
+      ],
+      "B_pose": [
+        -4,
+        0,
+        1
+      ]
+    },
+    {
+      "local_cell": [
+        2,
+        4
+      ],
+      "B_pose": [
+        -3,
+        1,
+        1
+      ]
+    }
+  ],
+  "all8_forbidden_A_ports": [
+    {
+      "earlier_A_pose": [
+        -2,
+        1,
+        3
+      ],
+      "bud_goal_cell": [
+        -1,
+        2
+      ],
+      "before_black": true,
+      "reason": "FORCED_BUD_ORIGIN_COUNTED_OR_CORE_FUNDS"
+    },
+    {
+      "earlier_A_pose": [
+        -2,
+        3,
+        3
+      ],
+      "bud_goal_cell": [
+        -1,
+        4
+      ],
+      "before_black": true,
+      "reason": "FORCED_BUD_ORIGIN_COUNTED_OR_CORE_FUNDS"
+    },
+    {
+      "earlier_A_pose": [
+        -1,
+        0,
+        3
+      ],
+      "bud_goal_cell": [
+        0,
+        1
+      ],
+      "before_black": false,
+      "reason": "SIGNED_HALFPLANE_WHITE_CONTRADICTION"
+    },
+    {
+      "earlier_A_pose": [
+        -1,
+        2,
+        3
+      ],
+      "bud_goal_cell": [
+        0,
+        3
+      ],
+      "before_black": true,
+      "reason": "FORCED_BUD_ORIGIN_COUNTED_OR_CORE_FUNDS"
+    },
+    {
+      "earlier_A_pose": [
+        0,
+        1,
+        3
+      ],
+      "bud_goal_cell": [
+        1,
+        2
+      ],
+      "before_black": false,
+      "reason": "SIGNED_HALFPLANE_WHITE_CONTRADICTION"
+    },
+    {
+      "earlier_A_pose": [
+        0,
+        3,
+        3
+      ],
+      "bud_goal_cell": [
+        1,
+        4
+      ],
+      "before_black": false,
+      "reason": "SIGNED_HALFPLANE_WHITE_CONTRADICTION"
+    },
+    {
+      "earlier_A_pose": [
+        1,
+        0,
+        3
+      ],
+      "bud_goal_cell": [
+        2,
+        1
+      ],
+      "before_black": false,
+      "reason": "SIGNED_HALFPLANE_WHITE_CONTRADICTION"
+    },
+    {
+      "earlier_A_pose": [
+        1,
+        4,
+        3
+      ],
+      "bud_goal_cell": [
+        2,
+        5
+      ],
+      "before_black": false,
+      "reason": "SIGNED_HALFPLANE_WHITE_CONTRADICTION"
+    }
+  ],
+  "dependencies": {
+    "chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "chronology_dcuv/delayed_height_probe/u1_residue_cegar/root_out.json": "52a20cfa26b60df57cb1ce58fefda880b93983600cb771b43dd3e6e6aafd26cb",
+    "chronology_dcuv/critical_ucc_count5/frozen_20261023_0813/01_closure.tsv": "f68f23f8189dc750489ed3aabd48741fde629d1263503ac9cff94fb703163f58",
+    "check_U1_three_C_shadow_port_cut.py": "b33c0633ef08e7c50745b8101bae8795f2dc88c178c3e01589fe13dd0f05db2a"
+  }
+}

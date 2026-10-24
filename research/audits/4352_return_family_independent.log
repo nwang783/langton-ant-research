@@ -1,0 +1,60 @@
+{
+  "status": "PASS ALL M>=1 original394-cell connected opposite return-wave family",
+  "domain": "M>=1, original producer N=3M+4",
+  "original_mass": 394,
+  "stage_count": 14,
+  "read_count_affine": [
+    129780,
+    455161
+  ],
+  "end_pose": [
+    117,
+    111,
+    0
+  ],
+  "end_mass_affine": [
+    12660,
+    37419
+  ],
+  "K_count_affine": [
+    13269,
+    86411
+  ],
+  "physical_classes": 12302,
+  "parameter_regions": 12523,
+  "spatial_slabs": 35181,
+  "read_obligations": 306669,
+  "global_partition_starts": [
+    1,
+    2
+  ],
+  "exact_first_L_count": [
+    0,
+    394
+  ],
+  "obligation_digest": "f21982da9751678e58c09852d52aaccde2cbd82051b4595dfcb8ca1b276b4e7d",
+  "literal_controls": [
+    {
+      "M": 1,
+      "producer_N": 7,
+      "reads": 584941,
+      "final_mass": 50079,
+      "K": 99680,
+      "final_field_sha256": "93f369a214848e074ea96a228445a55fbbff2f41e9484a2eded8e25f87174c5a"
+    },
+    {
+      "M": 2,
+      "producer_N": 10,
+      "reads": 714721,
+      "final_mass": 62739,
+      "K": 112949,
+      "final_field_sha256": "b18a449a3a89df99fcc0ee04c710c1ae13d3d799965b3b626e0c28839eff7d89"
+    }
+  ],
+  "source_hashes": {
+    "prepared4352_uniform_support_manifest.json": "e3f1940d073741ad8bf48a4a8f6b33942569c4a20bc23c2809bf885ae9f0f6d4",
+    "prepared4352_finite_return_supply.json": "8b5dacb4db5ac04ea0b2d3bf4796eceb7061bc77014d668f887a880197167543",
+    "prepared4352_output_return_wave.json": "5c9a8da268b5a90d3c76ed3fe6b341866783094af45832210c048748a7e58e28"
+  },
+  "scope": "One original finite394-cell trajectory executes ordinary producer, growing4352 forward wave, fixed actual response and M15324 reverse waves. Positions depend on M. No further renewal, all-family capture or infinite noncapturing finite seed inferred."
+}

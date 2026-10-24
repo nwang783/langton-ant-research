@@ -1,0 +1,64 @@
+{
+  "status": "PASS independent all-depth equal-coordinate chronology relations for nine hairpins",
+  "records": [
+    {
+      "source": "R21",
+      "recursive_read": 6,
+      "bad_depths": "[r] -> {  : r >= 2 }",
+      "potential_same_turn_pairs": 15
+    },
+    {
+      "source": "R21",
+      "recursive_read": 12,
+      "bad_depths": "[r] -> {  : r >= 2 }",
+      "potential_same_turn_pairs": 4
+    },
+    {
+      "source": "R21",
+      "recursive_read": 14,
+      "bad_depths": "[r] -> {  : false }",
+      "potential_same_turn_pairs": 3
+    },
+    {
+      "source": "R29",
+      "recursive_read": 4,
+      "bad_depths": "[r] -> {  : r >= 2 }",
+      "potential_same_turn_pairs": 17
+    },
+    {
+      "source": "R29",
+      "recursive_read": 6,
+      "bad_depths": "[r] -> {  : r >= 2 }",
+      "potential_same_turn_pairs": 10
+    },
+    {
+      "source": "R29",
+      "recursive_read": 12,
+      "bad_depths": "[r] -> {  : r >= 2 }",
+      "potential_same_turn_pairs": 9
+    },
+    {
+      "source": "L29",
+      "recursive_read": 2,
+      "bad_depths": "[r] -> {  : r >= 2 }",
+      "potential_same_turn_pairs": 31
+    },
+    {
+      "source": "L29",
+      "recursive_read": 4,
+      "bad_depths": "[r] -> {  : r >= 2 }",
+      "potential_same_turn_pairs": 17
+    },
+    {
+      "source": "L29",
+      "recursive_read": 16,
+      "bad_depths": "[r] -> {  : r >= 2 }",
+      "potential_same_turn_pairs": 17
+    }
+  ],
+  "method": "Separate occurrence indices and two coordinate equations, removing every intermediate-read existential. No author coset construction or implementation imported.",
+  "hashes": {
+    "auditor": "3a30cfb62a39c3f2d3bf81737ecebbd6454fff79d2d8fd3a70c5f41dbec10bd4",
+    "inventory": "49bf411a154e958132796e7d89cbf31f20ecfbcc0a6888e0477e6622bba6570f"
+  }
+}

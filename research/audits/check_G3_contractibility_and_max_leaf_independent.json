@@ -1,0 +1,314 @@
+{
+  "status": "PASS no finite physical G3 cycle and independent restricted max-RIGHT penultimate graph-leaf obstruction",
+  "source_hashes": {
+    "triple_use_cycles_cannot_be_contractible.md": "5036e7c2a06f291cd6ccada4c73ff7079521cd8641a9bc6444f805e8cd0966e2",
+    "triple_use_cycle_first_last_crossing_table.py": "150472fd5f919651df7c735a794d3c1a18f3672943301e8e38481d180126af79",
+    "triple_use_cycle_first_last_crossing_table.json": "88c3837887f78b2f754cf2bf57554c123cf1e56417be40c267c01c329e544da7",
+    "max_RIGHT_penultimate_graph_leaves_are_impossible.md": "b1ae9995011bf8b048714664c60c040c194909ec5a35db3ae30caa0a258702f2",
+    "max_RIGHT_penultimate_leaf_second_exchange.py": "0ab4f39ca798d6d7c0f987ad0b70a022d981ccea993a75a0686d9bee4166fed6",
+    "max_RIGHT_penultimate_leaf_second_exchange.json": "74b4b2cc2b3389c2b37f88f6374c41bbd71b155a3518855a9f7898fceb3febd5",
+    "triple_use_current_pairs_top_same_R_outputs.md": "3ffd2f42af3fe147dcc9b13f207343cc1ac82ea06174a9a73a79c25e9507aba6",
+    "max_turn_leaf_stock_balance.md": "5e1794e79ae8bf226af2c4ff6e693ffc233128f2bb4e8132cf9cc82e90aaad2b",
+    "penultimate_leaf_top_R0_supplier_capacity.md": "9cb47d19f412fd29690f2e2d4f54c027e73861648614a99c1f15cfb2938613e4"
+  },
+  "fresh_eight_G3_internal_histories": [
+    {
+      "headings": "EEEW",
+      "triple_input": "E",
+      "triple_output": "S",
+      "turn": "RIGHT",
+      "input_ranks": [
+        0,
+        1,
+        2
+      ],
+      "output_ranks": [
+        0,
+        2,
+        3
+      ],
+      "single_input": [
+        3
+      ],
+      "single_output": [
+        1
+      ],
+      "single_side": "LEFT",
+      "eligible_first": [],
+      "eligible_last": []
+    },
+    {
+      "headings": "EEWE",
+      "triple_input": "E",
+      "triple_output": "N",
+      "turn": "LEFT",
+      "input_ranks": [
+        0,
+        1,
+        3
+      ],
+      "output_ranks": [
+        1,
+        2,
+        3
+      ],
+      "single_input": [
+        2
+      ],
+      "single_output": [
+        0
+      ],
+      "single_side": "RIGHT",
+      "eligible_first": [],
+      "eligible_last": []
+    },
+    {
+      "headings": "EWEE",
+      "triple_input": "E",
+      "triple_output": "S",
+      "turn": "RIGHT",
+      "input_ranks": [
+        0,
+        2,
+        3
+      ],
+      "output_ranks": [
+        0,
+        1,
+        2
+      ],
+      "single_input": [
+        1
+      ],
+      "single_output": [
+        3
+      ],
+      "single_side": "LEFT",
+      "eligible_first": [],
+      "eligible_last": [
+        3
+      ]
+    },
+    {
+      "headings": "EWWW",
+      "triple_input": "W",
+      "triple_output": "S",
+      "turn": "LEFT",
+      "input_ranks": [
+        1,
+        2,
+        3
+      ],
+      "output_ranks": [
+        0,
+        1,
+        3
+      ],
+      "single_input": [
+        0
+      ],
+      "single_output": [
+        2
+      ],
+      "single_side": "RIGHT",
+      "eligible_first": [
+        0
+      ],
+      "eligible_last": []
+    },
+    {
+      "headings": "WEEE",
+      "triple_input": "E",
+      "triple_output": "N",
+      "turn": "LEFT",
+      "input_ranks": [
+        1,
+        2,
+        3
+      ],
+      "output_ranks": [
+        0,
+        1,
+        3
+      ],
+      "single_input": [
+        0
+      ],
+      "single_output": [
+        2
+      ],
+      "single_side": "RIGHT",
+      "eligible_first": [
+        0
+      ],
+      "eligible_last": []
+    },
+    {
+      "headings": "WEWW",
+      "triple_input": "W",
+      "triple_output": "N",
+      "turn": "RIGHT",
+      "input_ranks": [
+        0,
+        2,
+        3
+      ],
+      "output_ranks": [
+        0,
+        1,
+        2
+      ],
+      "single_input": [
+        1
+      ],
+      "single_output": [
+        3
+      ],
+      "single_side": "LEFT",
+      "eligible_first": [],
+      "eligible_last": [
+        3
+      ]
+    },
+    {
+      "headings": "WWEW",
+      "triple_input": "W",
+      "triple_output": "S",
+      "turn": "LEFT",
+      "input_ranks": [
+        0,
+        1,
+        3
+      ],
+      "output_ranks": [
+        1,
+        2,
+        3
+      ],
+      "single_input": [
+        2
+      ],
+      "single_output": [
+        0
+      ],
+      "single_side": "RIGHT",
+      "eligible_first": [],
+      "eligible_last": []
+    },
+    {
+      "headings": "WWWE",
+      "triple_input": "W",
+      "triple_output": "N",
+      "turn": "RIGHT",
+      "input_ranks": [
+        0,
+        1,
+        2
+      ],
+      "output_ranks": [
+        0,
+        2,
+        3
+      ],
+      "single_input": [
+        3
+      ],
+      "single_output": [
+        1
+      ],
+      "single_side": "LEFT",
+      "eligible_first": [],
+      "eligible_last": []
+    }
+  ],
+  "six_root_histories": [
+    {
+      "headings": "EWE",
+      "L1_output": "S",
+      "ordinal": 2,
+      "port_count": 3,
+      "sheet_relative_M": -1
+    },
+    {
+      "headings": "WEW",
+      "L1_output": "N",
+      "ordinal": 2,
+      "port_count": 3,
+      "sheet_relative_M": -1
+    },
+    {
+      "headings": "EWEE",
+      "L1_output": "S",
+      "ordinal": 2,
+      "port_count": 3,
+      "sheet_relative_M": -1
+    },
+    {
+      "headings": "EWEW",
+      "L1_output": "S",
+      "ordinal": 2,
+      "port_count": 4,
+      "sheet_relative_M": -1
+    },
+    {
+      "headings": "WEWE",
+      "L1_output": "N",
+      "ordinal": 2,
+      "port_count": 4,
+      "sheet_relative_M": -1
+    },
+    {
+      "headings": "WEWW",
+      "L1_output": "N",
+      "ordinal": 2,
+      "port_count": 3,
+      "sheet_relative_M": -1
+    }
+  ],
+  "six_target_histories": [
+    {
+      "headings": "EEE",
+      "port_count": 3,
+      "second_rank": 1
+    },
+    {
+      "headings": "EEEE",
+      "port_count": 4,
+      "second_rank": 1
+    },
+    {
+      "headings": "EEEW",
+      "port_count": 3,
+      "second_rank": 1
+    },
+    {
+      "headings": "EEWE",
+      "port_count": 3,
+      "second_rank": 1
+    },
+    {
+      "headings": "EWEE",
+      "port_count": 3,
+      "second_rank": 2
+    },
+    {
+      "headings": "WEEE",
+      "port_count": 3,
+      "second_rank": 2
+    }
+  ],
+  "G3_analytic": [
+    "Complete WHITE cap4 at each cell gives one fixed incoming axis; physical edges have one possible traversal direction by the checker/heading-axis invariant. Each internal G3 vertex has two distinct adjacent ports, one triple input and one triple output. A finite directed component cycle is a simple embedded unit-square-lattice Jordan curve, not a chronological itinerary.",
+    "At the earliest cycle-edge departure the source read must use the single input and have no earlier triple output. Fresh full inventory leaves only LEFT WEEE R0 (and rotations), arriving from the open RIGHT side. Every boundary R0 uses a cycle edge, so there can be no strictly earlier boundary read, including at the other end of an unused chord. The past path cannot cross a unit edge interior.",
+    "At the last cycle-edge arrival the target read must use the single output and have no later triple input. Only RIGHT EWEE L3 survives; it departs into the open LEFT side. Every boundary L3 uses a cycle edge, so no later boundary read is possible; unused chords cannot escape the condition. The actual arrival read is one update after the latest edge departure, and the subsequent single-edge departure is not mislabeled as a cycle traversal.",
+    "A clockwise finite cycle would force the complete past to remain in its bounded RIGHT interior; a counterclockwise cycle would trap the complete future in its bounded LEFT interior. Bi-infinite nonzero translation excludes both. Essential quotient cycles have infinite lifts and no global first/last traversal, so are retained."
+  ],
+  "leaf_analytic": [
+    "The old restricted premise is a CONTRACTIBLE repaired sheet M-1 GRAPH LEAF, with multiedge incidence retained, sole root a max-C RIGHT corner with same R headings. The independently signed bridge clock ell\u00b1Delta=0 forces the outgoing-L1 side; no generic leaf or nonleaf stock hole is included.",
+    "Fresh same-R local sheet labels show every outgoing L1 at M-1 is the second departure on a physical port used three or four times. Literal chronological matching makes its arrival at the neighbor the second use of that input port. With at most four complete WHITE reads and at least three same-heading inputs, this is rank1 or2, never rank0 or3.",
+    "The repaired cycle containing that incoming occurrence is genuinely incident to the neighbor L1/R2 transposition: both ranks are precisely the two exchanged arrivals; their canonical outputs lie on adjacent distinct sheets. It is not an unchanged R0/L3 corner or an exchange self-loop.",
+    "The root and neighbor are physical nearest neighbors of opposite checker parity. Full heading-restoring period has even P, hence drift parity even; they cannot represent the same full-quotient cell class. Their exchange edges are distinct even if they connect the same pair of canonical cycles. Thus degree at least2 contradicts the graph-leaf premise.",
+    "This leaf proof is independent of the G3 contractibility result and needs no K1 or zero-output assumption. Earlier restricted leaf capacity bounds remain true but vacuous. It does not remove general contractible sheet cycles or nonleaf stock holes."
+  ],
+  "scope": "Complete WHITE cap4 translating fronts with actual full period/drift. No initial-fuel charge, new period cost, whole-front exclusion, standard classification or universal capture."
+}

@@ -1,0 +1,333 @@
+{
+  "status": "PASS exact old-input record-shadow lemma and three supplied-word specializations",
+  "manifest": "029c300d106719586071096ff8b3b383d18390187cf573c1c71e357a144bf7b1",
+  "word_proofs": [
+    {
+      "word": "1564",
+      "period": 1564,
+      "heading": 0,
+      "drift": [
+        14,
+        14
+      ],
+      "selected_phase": 1455,
+      "selected_cell": [
+        4,
+        35
+      ],
+      "all_selected_orbit_reads": [
+        [
+          1455,
+          0,
+          "L"
+        ]
+      ],
+      "leading_L_classes": 197,
+      "positive_bounds": {
+        "0": {
+          "delta": 14,
+          "maximum": 40,
+          "input_projection": 35,
+          "fringe": 1,
+          "slack": 9
+        },
+        "1": {
+          "delta": 14,
+          "maximum": 18,
+          "input_projection": 4,
+          "fringe": 1,
+          "slack": 0
+        }
+      }
+    },
+    {
+      "word": "4352",
+      "period": 4352,
+      "heading": 3,
+      "drift": [
+        26,
+        26
+      ],
+      "selected_phase": 1687,
+      "selected_cell": [
+        29,
+        10
+      ],
+      "all_selected_orbit_reads": [
+        [
+          1687,
+          0,
+          "L"
+        ],
+        [
+          1695,
+          0,
+          "R"
+        ],
+        [
+          3163,
+          0,
+          "L"
+        ]
+      ],
+      "leading_L_classes": 406,
+      "positive_bounds": {
+        "0": {
+          "delta": 26,
+          "maximum": 36,
+          "input_projection": 10,
+          "fringe": 1,
+          "slack": 0
+        },
+        "1": {
+          "delta": 26,
+          "maximum": 55,
+          "input_projection": 29,
+          "fringe": 1,
+          "slack": 0
+        }
+      }
+    },
+    {
+      "word": "15324",
+      "period": 15324,
+      "heading": 0,
+      "drift": [
+        -78,
+        -78
+      ],
+      "selected_phase": 4264,
+      "selected_cell": [
+        -32,
+        -28
+      ],
+      "all_selected_orbit_reads": [
+        [
+          4264,
+          0,
+          "L"
+        ]
+      ],
+      "leading_L_classes": 1439,
+      "positive_bounds": {
+        "2": {
+          "delta": 78,
+          "maximum": 106,
+          "input_projection": 28,
+          "fringe": 1,
+          "slack": 0
+        },
+        "3": {
+          "delta": 78,
+          "maximum": 108,
+          "input_projection": 32,
+          "fringe": 1,
+          "slack": 2
+        }
+      }
+    }
+  ],
+  "controls": [
+    {
+      "family": "184",
+      "parameter": 4,
+      "reads": 250603,
+      "selected_actual_old_lifetimes": [
+        {
+          "stage": "15:wave",
+          "copies": 4,
+          "block_start": 187843,
+          "block_pose": [
+            [
+              -6,
+              -6
+            ],
+            0
+          ],
+          "input_cell": [
+            40,
+            71
+          ],
+          "input_owner": 2586,
+          "first_block_read": 193990,
+          "full_entry_black_mass": 21893,
+          "full_entry_sha256": "0fe863f4bb59acdf071e99bf2061138f9e8301a03a52cd8d51bc696ae4e4b50a",
+          "prior_R_birth": [
+            40,
+            71
+          ]
+        }
+      ],
+      "full_terminal_mass": 24641,
+      "infinite_parity_tests": 175
+    },
+    {
+      "family": "184",
+      "parameter": 10,
+      "reads": 404131,
+      "selected_actual_old_lifetimes": [
+        {
+          "stage": "15:wave",
+          "copies": 10,
+          "block_start": 331987,
+          "block_pose": [
+            [
+              -6,
+              -6
+            ],
+            0
+          ],
+          "input_cell": [
+            124,
+            155
+          ],
+          "input_owner": 2586,
+          "first_block_read": 347518,
+          "full_entry_black_mass": 38525,
+          "full_entry_sha256": "ffb4269c9c9b8af3e6e86e03e597f91ead97d72884f9af842f3daa9476540106",
+          "prior_R_birth": [
+            124,
+            155
+          ]
+        }
+      ],
+      "full_terminal_mass": 41897,
+      "infinite_parity_tests": 175
+    },
+    {
+      "family": "394",
+      "parameter": 1,
+      "reads": 652501,
+      "selected_actual_old_lifetimes": [
+        {
+          "stage": "11:wave",
+          "copies": 7,
+          "block_start": 381002,
+          "block_pose": [
+            [
+              -2,
+              3
+            ],
+            3
+          ],
+          "input_cell": [
+            183,
+            169
+          ],
+          "input_owner": 184885,
+          "first_block_read": 408801,
+          "full_entry_black_mass": 43954,
+          "full_entry_sha256": "c6634e8ed320091e59828df512e8f8daf7039da1770ad1984146cdaba904d16c",
+          "prior_R_birth": [
+            183,
+            169
+          ]
+        },
+        {
+          "stage": "13:return-wave",
+          "copies": 1,
+          "block_start": 569617,
+          "block_pose": [
+            [
+              195,
+              189
+            ],
+            0
+          ],
+          "input_cell": [
+            163,
+            161
+          ],
+          "input_owner": 407901,
+          "first_block_read": 573881,
+          "full_entry_black_mass": 49671,
+          "full_entry_sha256": "fff49ae1eb91e9098cf07aa1c5b17070aed6e53ef56adbf7edfee226842a0563",
+          "prior_R_birth": [
+            163,
+            161
+          ]
+        }
+      ],
+      "full_terminal_mass": 54763,
+      "infinite_parity_tests": 181
+    },
+    {
+      "family": "394",
+      "parameter": 3,
+      "reads": 928285,
+      "selected_actual_old_lifetimes": [
+        {
+          "stage": "11:wave",
+          "copies": 13,
+          "block_start": 583802,
+          "block_pose": [
+            [
+              -2,
+              3
+            ],
+            3
+          ],
+          "input_cell": [
+            339,
+            325
+          ],
+          "input_owner": 282229,
+          "first_block_read": 637713,
+          "full_entry_black_mass": 67354,
+          "full_entry_sha256": "dd043184d0df05b4b818d1993598f9e6aa6c1909fac0b44c1c33c5b70d579009",
+          "prior_R_birth": [
+            339,
+            325
+          ]
+        },
+        {
+          "stage": "13:return-wave",
+          "copies": 3,
+          "block_start": 798529,
+          "block_pose": [
+            [
+              351,
+              345
+            ],
+            0
+          ],
+          "input_cell": [
+            163,
+            161
+          ],
+          "input_owner": 610701,
+          "first_block_read": 833441,
+          "full_entry_black_mass": 74175,
+          "full_entry_sha256": "a4d186e01d68e5900f4c4882b8f00d93c48c1b5710349eb0c84a0e31cf1dd439",
+          "prior_R_birth": [
+            163,
+            161
+          ]
+        }
+      ],
+      "full_terminal_mass": 81955,
+      "infinite_parity_tests": 181
+    }
+  ],
+  "total_full_literal_reads": 2235520,
+  "analytic_review": [
+    "For X=q_i+(N-1)d, any occurrence q_j+kd=X has k=N-1-m, with m<=0. No k<N-1 is possible, and the earliest same-cell phase is L. Thus X is actual BLACK at block entry, not a recolored or hypothetical prepared input.",
+    "Every current BLACK cell in a finite-seed causal orbit belongs to original support or a previously read head position. Therefore X belongs to the augmented ENTIRE initial-support/head-history hull, independently of old archive or producer, not merely the current active hull.",
+    "For positive delta, k<=N-1-ceil((max projection-q_i projection)/delta) implies every read cut in copy k is at or behind X. Nonpositive delta copies are dominated by the same-phase copy-zero read. The statement uses half-open read cuts; the final endpoint is deliberately excluded.",
+    "The three entire-word exact Zd orbit inventories have fringe1 on both positive axes, so every actual legal N-copy occurrence has records only in its first/final copies. No supplied-source specificity enters this implication.",
+    "For INTEGER H>=0, each endpoint window spansP-1 and contains at mostfloor((P-1)/(H+1)) completed long gaps, plus at most one between windows. N1 uses one window. At most two global boundary-crossing gaps are separate and cannot be summed independently across empty/overlapping blocks.",
+    "The same selected orbit argument for each j=0..N-1 gives N distinct old-at-entry consumed lifetimes per stable first-L class. Counts197/406/1439 are old-cohort requirements, not original-seed fuel; fresh production and reuse between blocks are not excluded.",
+    "All2235520 full literal reads, selected actual prior owners, entire entry hashes, final fields and infinite canonical parity are independently reconstructed. General block generation counts, universal record-window occurrence and canonical attraction remain open."
+  ],
+  "source_hashes": {
+    "COMPLETED_DROUGHT_COUNTS_MANIFEST.json": "6ef8a4682c7e9f6908b9653385c58d366d630d6153af2432b17ecd4962826a17",
+    "record_event_projection.py": "7c2819295aaa2a5c1b64cc83746d017ceb351258232bd430556ad14e5f38f2e7",
+    "../causal_reduction/unit_scale/prepared1564_uniform_support_manifest.json": "90fcf1a66046418c38d07f7e935ea80cf873751aefae69a4b07af89ba3bd8399",
+    "../causal_reduction/unit_scale/prepared1564_source_endpoint_family.json": "8634fc78d3c2d4e21dad6fb95cf88aa94cf7fbd729f88e5bfe5150a47c32b022",
+    "../causal_reduction/unit_scale/prepared4352_capture_manifest.json": "52d80fe06d739254a9d71615de67bfb6639d1f4d1301455b4f332d7110874f9b",
+    "../audits/check_1564_constant_mass_family_independent.json": "2ff4c700c14f5fdfeb803acdd8184a6fb73ba1dc89e7895c996766c314fecde0",
+    "../audits/check_1564_family_endpoint_capture_independent.json": "55531c9b795e42dcaf751c220d2d0199f4a595a9b7b0f2728a6eb1634b87c36c",
+    "../audits/check_4352_allM_capture_independent.json": "4ad42f00ce8168820a3c6c8d6283ed213600eafa9bc93f337a85d4a3e5b963f6"
+  },
+  "integer_threshold_binding": "1b66499b023efb33a5289cadcabd41b3cb49ed2792613aaa777bbbcba0e23e5a"
+}

@@ -1,0 +1,53 @@
+{
+  "status": "finite controls passed; no positive ant model",
+  "cases": [
+    {
+      "root": "R",
+      "R": "RRL",
+      "L": "LRL",
+      "raw_difference_states": 729,
+      "carry_radius": 4,
+      "first_left_times_finite": false,
+      "first_left_dfa_states": 3,
+      "bad_alternation_witness": null,
+      "bad_alternation_dfa_states": 1,
+      "repeated_cell_witness": null,
+      "literal_points": 150,
+      "literal_cell_pairs": 22500
+    },
+    {
+      "root": "L",
+      "R": "RRL",
+      "L": "LRL",
+      "raw_difference_states": 729,
+      "carry_radius": 4,
+      "first_left_times_finite": false,
+      "first_left_dfa_states": 3,
+      "bad_alternation_witness": null,
+      "bad_alternation_dfa_states": 1,
+      "repeated_cell_witness": null,
+      "literal_points": 150,
+      "literal_cell_pairs": 22500
+    },
+    {
+      "root": "L",
+      "R": "RRRLL",
+      "L": "LRRLL",
+      "raw_difference_states": 1553,
+      "carry_radius": 4,
+      "first_left_times_finite": false,
+      "first_left_dfa_states": 4,
+      "bad_alternation_witness": {
+        "t": 12,
+        "u": 16
+      },
+      "bad_alternation_dfa_states": 7,
+      "repeated_cell_witness": {
+        "s": 12,
+        "t": 16
+      },
+      "literal_points": 150,
+      "literal_cell_pairs": 22500
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "status": "PASS strictly broader conditional finite no-reentry capture class, not universal guard occurrence",
+  "manifest_sha256": "ecccb2270c835df0fa330d8819eecea68716dfb3a76f444e3e0a86573476c090",
+  "script_sha256": "8a50e4944a6cb153692a3b864ab5288e97711c33a46c5c311c11f58594743ed8",
+  "whitebranch_prefix_length": 262,
+  "whitebranch_terminal_complete_mass": 46,
+  "whitebranch_infinite_parity_tests": 171,
+  "black_white_oldside_exposure_sizes": [
+    19,
+    38
+  ],
+  "black_white_last_oldside_reads": [
+    161,
+    261
+  ],
+  "conditional_white_ports": 19,
+  "analytic_checks": [
+    "Actualpose0,E and ENTIRE CURRENT x-y>=0WHITE required. Common18bits AND(hBLACK OR19portsWHITE); blackbranch addsNOnewportconditions. Strictweakeningwitness isliteral14blackdefect.",
+    "Whitebranch complete262prefix/46blackstate andall171infinitephase-rayparitytests verified; everyfuturephaseprojection>=0 anddriftprojection4. Alloldsideexposureexact38 finitecells.",
+    "Arbitraryfiniteoldarchiveoutsidethe actualbranch exposure ispreserved byfirst-differenceinduction. No componentseparation, connectedwall orfinitehorizon assumption. Allfuturefreshsidereads agreefrominitialWHITEnessandthe sameactual toggles.",
+    "All19singleport flips causeexactfirstR-toL disagreementandhugearchiveregressions retaincompletefields. These ports are necessaryforTHISword,notnecessaryfor eventualcapturevia anotherroute.",
+    "Two-readRLpreparationusesfixedcommonblack(-1,1)andwhite(-1,0), restoringfulladmittedboard andstrictrecordagainstearlierheadprojections.",
+    "Tangentialtailcountercontrol isnotexcludedbyfreshness;its infiniteoldsideexposureviolates this finitecut mechanism. No universalrecordcover inferred."
+  ],
+  "not_claimed": [
+    "unconditional18-bitguard",
+    "everyseedhitsguard",
+    "globalcapture",
+    "connectedphysicalwall",
+    "permanentwakecreditbeforecertifiedcut"
+  ]
+}

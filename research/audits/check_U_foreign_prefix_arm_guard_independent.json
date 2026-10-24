@@ -1,0 +1,257 @@
+{
+  "status": "PASS last two genuine U-source common-F-prefix contacts excluded by arm retirement and one-C cone",
+  "manifest_sha256": "50563fd304a2a84cd68bbefc194e6459466a90ef563b1036111c78b05c79b312",
+  "counts": {
+    "signed_count5": 189,
+    "sector": 276,
+    "earlier_closed_source_U_chord_contact": 9,
+    "permanent_left_star_complete_context": 69,
+    "endpoint_obligation": 9
+  },
+  "closed_source_contacts": [
+    [
+      "U",
+      "U",
+      5,
+      [
+        2,
+        3
+      ],
+      3,
+      "(Fraction(3, 4), Fraction(3, 4), (Fraction(-1, 1), Fraction(5, 1)))"
+    ],
+    [
+      "U",
+      "UC",
+      5,
+      [
+        2,
+        3
+      ],
+      3,
+      "(Fraction(3, 4), Fraction(3, 4), (Fraction(-1, 1), Fraction(5, 1)))"
+    ],
+    [
+      "U",
+      "UCC",
+      5,
+      [
+        2,
+        3
+      ],
+      3,
+      "(Fraction(3, 4), Fraction(3, 4), (Fraction(-1, 1), Fraction(5, 1)))"
+    ],
+    [
+      "UC",
+      "U",
+      5,
+      [
+        2,
+        3
+      ],
+      3,
+      "(Fraction(3, 4), Fraction(3, 4), (Fraction(-1, 1), Fraction(5, 1)))"
+    ],
+    [
+      "UC",
+      "UC",
+      5,
+      [
+        2,
+        3
+      ],
+      3,
+      "(Fraction(3, 4), Fraction(3, 4), (Fraction(-1, 1), Fraction(5, 1)))"
+    ],
+    [
+      "UC",
+      "UCC",
+      5,
+      [
+        2,
+        3
+      ],
+      3,
+      "(Fraction(3, 4), Fraction(3, 4), (Fraction(-1, 1), Fraction(5, 1)))"
+    ],
+    [
+      "UCC",
+      "U",
+      5,
+      [
+        2,
+        3
+      ],
+      3,
+      "(Fraction(3, 4), Fraction(3, 4), (Fraction(-1, 1), Fraction(5, 1)))"
+    ],
+    [
+      "UCC",
+      "UC",
+      5,
+      [
+        2,
+        3
+      ],
+      3,
+      "(Fraction(3, 4), Fraction(3, 4), (Fraction(-1, 1), Fraction(5, 1)))"
+    ],
+    [
+      "UCC",
+      "UCC",
+      5,
+      [
+        2,
+        3
+      ],
+      3,
+      "(Fraction(3, 4), Fraction(3, 4), (Fraction(-1, 1), Fraction(5, 1)))"
+    ]
+  ],
+  "surviving_endpoint_obligations": [
+    [
+      "U",
+      "D",
+      6,
+      [
+        1,
+        3
+      ],
+      2,
+      [
+        0,
+        2
+      ],
+      2
+    ],
+    [
+      "U",
+      "V",
+      6,
+      [
+        1,
+        5
+      ],
+      2,
+      [
+        0,
+        2
+      ],
+      2
+    ],
+    [
+      "U",
+      "U",
+      6,
+      [
+        0,
+        6
+      ],
+      2,
+      [
+        0,
+        2
+      ],
+      2
+    ],
+    [
+      "UC",
+      "D",
+      6,
+      [
+        1,
+        3
+      ],
+      2,
+      [
+        0,
+        2
+      ],
+      2
+    ],
+    [
+      "UC",
+      "V",
+      6,
+      [
+        1,
+        5
+      ],
+      2,
+      [
+        0,
+        2
+      ],
+      2
+    ],
+    [
+      "UC",
+      "U",
+      6,
+      [
+        0,
+        6
+      ],
+      2,
+      [
+        0,
+        2
+      ],
+      2
+    ],
+    [
+      "UCC",
+      "D",
+      6,
+      [
+        1,
+        3
+      ],
+      2,
+      [
+        0,
+        2
+      ],
+      2
+    ],
+    [
+      "UCC",
+      "V",
+      6,
+      [
+        1,
+        5
+      ],
+      2,
+      [
+        0,
+        2
+      ],
+      2
+    ],
+    [
+      "UCC",
+      "U",
+      6,
+      [
+        0,
+        6
+      ],
+      2,
+      [
+        0,
+        2
+      ],
+      2
+    ]
+  ],
+  "analytic": [
+    "A required before-white arm at the actual last C must have retired in some earlier full packet whose entry clock is0..7. The full retiring packet may itself contain that last C; only completion by foreign clock8 is imposed.",
+    "The complete literal input inventory covers core exchange and marker-owned input roles. Signed COUNT5 overflow is applied at min(age,5) with the actual heading and placement retained. Permanent-star COMPLETE-context hits are invalid even when a tag would be an ordinary black input.",
+    "Each of the nine geometric cuts is a closed contact with the earlier creating U chord. Its consumer starts strictly after source full completion, excluding the true adjacent-endpoint exception.",
+    "All nine remaining cases are plain D/V/U at age6 with full exit(0,2,S). Exactly one C precedes last-C entry(1,4,E): S zero-run,C_S,E zero-run has y<=1, so cannot reach y4 at any zero-run length.",
+    "Together with the signed predecessor, bud and renewal-return assembly this closes the U-source common-F-prefix chronological first-contact class, respecting outgoing-source endpoint assignment."
+  ],
+  "scope": "No Q/B-tail or D/C/V-source closure, later foreign permanence, generic seven-word coverage or capture."
+}

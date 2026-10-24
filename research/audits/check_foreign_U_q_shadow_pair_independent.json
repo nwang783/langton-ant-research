@@ -1,0 +1,87 @@
+{
+  "status": "PASS bounded 69-gate all-age original-q / BOTH-shadow reserve intersection",
+  "manifest_sha256": "6a4c8f23688ba5efe031edc9749a096420c8bc0b9d73e21ae3fd6eae6962271e",
+  "dependencies": {
+    "U_star_one_foreign_return_transfer_2026-10-24/check_U_star_corner_transfer.py": "fa390462928ee52330465e62b2ead5cca1f214fae58344bc689518b89da2b946",
+    "foreign_U_port_interfaces_2026-10-23/foreign_U_ports.json": "98d28dbef197dcbd5071bf58d26a72ceeae4fd5fdf2fd614e1a27b025a3ba514",
+    "foreign_U_port_interfaces_2026-10-23/manifest.json": "4d3582544f2178b8005f3e87472d67e35d13709b4d9fa15db8f4269eaa27a31f",
+    "U_q_shadow_reserve_budget_2026-10-24/manifest.json": "e19a8e32efefab3970ad9f2d2394b3cbc849b8378605c3c2fecd9124ef323c37",
+    "core_periodicity_new/U_q_source_history_frozen_20261023_2027/manifest.json": "25239deb8d71fa0e713cccba81757fc9fb712cf84b6a4269551c89b926388524",
+    "U_second_V_original_q_frontier_2026-10-24/manifest.json": "d9ab9c0dd926bf27f9563a849f6d3e21016d45f3f1849c43335108835879cfcc",
+    "foreign_U_star_q_shadow_pair_cuts_2026-10-24/check_q_shadow_pair_cuts.py": "19e18ae641d972fcb84b0585e6b522c65dd1dbd31daaaa40587a0b55f37312f6"
+  },
+  "counts": [
+    {
+      "source": "U",
+      "classification": "all_age_genuine_reserve_conflict",
+      "count": 3
+    },
+    {
+      "source": "U",
+      "classification": "necessary_only_not_cut_by_this_reserve",
+      "count": 66
+    },
+    {
+      "source": "UC",
+      "classification": "all_age_genuine_reserve_conflict",
+      "count": 10
+    },
+    {
+      "source": "UC",
+      "classification": "necessary_only_not_cut_by_this_reserve",
+      "count": 59
+    },
+    {
+      "source": "UCC",
+      "classification": "all_age_genuine_reserve_conflict",
+      "count": 13
+    },
+    {
+      "source": "UCC",
+      "classification": "necessary_only_not_cut_by_this_reserve",
+      "count": 56
+    }
+  ],
+  "plain_U_branch_counts": {
+    "both_genuine_ancestry_branches_necessary_only": 49,
+    "must_have_had_age2_qcleanup_and_hold_SAME_r_A_shadows": 7,
+    "impossible_for_ALL_source_tail_types": 3,
+    "must_retain_SAME_original_q_before_FOREIGN": 10
+  },
+  "all_source_obstructions": [
+    [
+      "F",
+      [
+        -5,
+        3,
+        2
+      ]
+    ],
+    [
+      "Q",
+      [
+        -5,
+        3,
+        2
+      ]
+    ],
+    [
+      "B",
+      [
+        -5,
+        3,
+        2
+      ]
+    ]
+  ],
+  "UCC_only_successors": [
+    "V",
+    "VC"
+  ],
+  "analytic_review": [
+    "This is an intersection of signed existing69 actual firstforeign star gates, not an independently new geometric catalogue. Each complete RAW plus genuine followingM11 mask and every physical read owner is freshly reconstructed. TRUE outsideK or MISS is allowed, not mistaken for permanence.",
+    "Signed all-age e19a yields q CURRENT or both exact cleanup r/A CURRENT beforeFOREIGN; UC forcesq, and all8+3 actual UCC successors leave only V/VC at(-1,5,S), forcing the genuine cleanup branch. CORE incompatibility concerns the preforeign external CURRENT definition; it does not declare an alive core cell physically dead.",
+    "Exactly3U/10UC/13UCC cuts,181 necessary states. The universal F/Q/B(-5,3,S) cut uses originalq firstR39 or shadowr firstR52 in actual commonF56 RAW. ShadowA firstL51 does not rescue r: no earlier read of r occurs, so its original BLACK funding state contradictsR52. No r-lock is imported across foreign.",
+    "The all-age guarantee is only within the preceding uninterrupted U-entry complete-eight factor; completion of the named foreign is excluded, not every arbitrary ant continuation or partial fine prefix. No novelty count, attainment, cycle-fuel, or capture conclusion."
+  ]
+}

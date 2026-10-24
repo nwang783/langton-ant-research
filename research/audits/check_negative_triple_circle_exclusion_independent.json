@@ -1,0 +1,184 @@
+{
+  "status": "PASS no homogeneous negative G3 circle in a complete WHITE cap-four front",
+  "author_note": "a31d409eaaf37749631754c44adf39e1d9b07b4480d2415380f1de8f31d98cef",
+  "signed_diagonal_dependency": "19bc0a1cdbc702ab488f1c06c5097a7fa5566be8d69fcf39663f4695feab35fc",
+  "main_full_ports": [
+    {
+      "source": "A_k",
+      "target": "B_k",
+      "heading": "E",
+      "source_ranks": [
+        0,
+        1,
+        2
+      ],
+      "target_ranks": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "source": "B_(k-1)",
+      "target": "A_k",
+      "heading": "N",
+      "source_ranks": [
+        0,
+        1,
+        3
+      ],
+      "target_ranks": [
+        0,
+        2,
+        3
+      ]
+    }
+  ],
+  "all_U_possibilities": [
+    {
+      "word": "S",
+      "incoming_S_rank": 0,
+      "outgoing_W_rank": 0
+    },
+    {
+      "word": "NNNS",
+      "incoming_S_rank": 3,
+      "outgoing_W_rank": 1
+    },
+    {
+      "word": "NSNN",
+      "incoming_S_rank": 1,
+      "outgoing_W_rank": 3
+    }
+  ],
+  "clock_survivor": "NNNS",
+  "both_V_modes": [
+    {
+      "word": "EEWE",
+      "incoming_E": [
+        0,
+        1,
+        3
+      ],
+      "outgoing_N": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "word": "WEEE",
+      "incoming_E": [
+        1,
+        2,
+        3
+      ],
+      "outgoing_N": [
+        0,
+        1,
+        3
+      ]
+    }
+  ],
+  "literal_geometry_controls": [
+    {
+      "k": -2,
+      "A": [
+        -2,
+        -2
+      ],
+      "B": [
+        -1,
+        -2
+      ],
+      "U": [
+        -1,
+        -3
+      ],
+      "V": [
+        0,
+        -3
+      ],
+      "U_next": [
+        0,
+        -2
+      ]
+    },
+    {
+      "k": 0,
+      "A": [
+        0,
+        0
+      ],
+      "B": [
+        1,
+        0
+      ],
+      "U": [
+        1,
+        -1
+      ],
+      "V": [
+        2,
+        -1
+      ],
+      "U_next": [
+        2,
+        0
+      ]
+    },
+    {
+      "k": 1,
+      "A": [
+        1,
+        1
+      ],
+      "B": [
+        2,
+        1
+      ],
+      "U": [
+        2,
+        0
+      ],
+      "V": [
+        3,
+        0
+      ],
+      "U_next": [
+        3,
+        1
+      ]
+    },
+    {
+      "k": 7,
+      "A": [
+        7,
+        7
+      ],
+      "B": [
+        8,
+        7
+      ],
+      "U": [
+        8,
+        6
+      ],
+      "V": [
+        9,
+        6
+      ],
+      "U_next": [
+        9,
+        7
+      ]
+    }
+  ],
+  "analytic_review": [
+    "Signed homogeneous-negative rigidity permits only an alternating NE staircase after proper quarter rotation, with exact A_k NSNN and B_k WEEE and full d=(-a,-a), ell2a. The displayed main port ordinal lists were rebuilt from literal RLRL turns. They give T0(A_k)=alpha-1 and T0(B_(k-1))=alpha-2, not merely necessary inequalities.",
+    "Physical B_k rank2 is the sole S output into U_k; B_(k-1) rank0 is the sole W input from U_k. Thus U incomingS occurs beta+1 and outgoingW alpha-3. Fresh complete1..4 WHITE N/S enumeration leaves S,NNNS,NSNN only. Since beta-alpha>=4, the output is earlier than the input. Singleton equality and NSNN reverse order are impossible; NNNS alone survives with T1=alpha-3 and T3=beta+1.",
+    "The forced U has E outputs ranks0,2,3 and N inputs0,1,2. Its east neighbor V has exactly3 E inputs and3 N outputs; fresh complete inventory retains BOTH EEWE and WEEE. In either mode the third incoming and outgoing occurrences are the SAME L3 read. Exact ordinal edges therefore give literal U_k.L3 -> V_k.L3 -> U_(k+1).R2 and T2next=T3U+2>=T2U+6.",
+    "Iterating only a full quotient period gives T2(U_(k+a))>=T2(U_k)+6a. But U_(k+a)=U_k-d is the SAME full-drift history translated backward, so exact equivariance gives T2(U_(k+a))=T2(U_k)-P. This contradicts P>0. Spatial monotonicity alone is not used; all four rails have different x-y and cannot alias under diagonal drift.",
+    "The argument uses WHITE complete cap4 histories and actual full clocks only. No global maximum, K1, root-free valley, zero-output assumption or chosen V mode is needed. Homogeneous positive circles have winding+1; hence any negative-winding G3 circle must now be mixed-sign. No whole-front or all-cap exclusion, beta upper bound, or capture follows."
+  ]
+}

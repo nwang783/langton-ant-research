@@ -1,0 +1,21 @@
+{
+  "status": "PASS independent slab ownership and exact interval boundary constants; universal lift analytically reviewed",
+  "slab_architecture_sha256": "99a7af165aa85ff62385d61455aff99700cb0e0e6fce89bb381abea3b811548b",
+  "note_sha256": "c67a7ad79bfdc88407121d85f24aacd93ed0334b58263e621f9dd47c6cd982e2",
+  "new_cells_per_block": 150,
+  "new_blocks_disjoint": true,
+  "full_level_window": [
+    -6,
+    2
+  ],
+  "maximum_blocks_per_bad_level": 2,
+  "standard_endpoint_widths": [
+    2,
+    3
+  ],
+  "parallel_bad_levels_per_flight": 6,
+  "perpendicular_bad_levels_per_flight": 1540,
+  "exact_interval_controls": 26125,
+  "bound": "|B|+12 F_parallel+2 L+3080 F_perpendicular >= floor(N/5)",
+  "scope": "Fixed inverse104 coarse path, independent1/5/9 choices at every occurrence after finite standard-flight preparation. No general nonstandard preparation or capture claim."
+}

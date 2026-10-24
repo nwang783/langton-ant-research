@@ -1,0 +1,71 @@
+{
+  "status": "SIGNED audit JV; complete recurrent-eight factors only; no arbitrary-factor extension",
+  "packet_rows": [
+    {
+      "packet": 0,
+      "name": "D",
+      "selected_inputs": 1,
+      "C_count": 0,
+      "raw_length": 10,
+      "mass_change": 0
+    },
+    {
+      "packet": 1,
+      "name": "DC",
+      "selected_inputs": 1,
+      "C_count": 1,
+      "raw_length": 25,
+      "mass_change": 3
+    },
+    {
+      "packet": 4,
+      "name": "V",
+      "selected_inputs": 1,
+      "C_count": 0,
+      "raw_length": 18,
+      "mass_change": 4
+    },
+    {
+      "packet": 5,
+      "name": "VC",
+      "selected_inputs": 1,
+      "C_count": 1,
+      "raw_length": 33,
+      "mass_change": 7
+    },
+    {
+      "packet": 6,
+      "name": "VCC",
+      "selected_inputs": 2,
+      "C_count": 2,
+      "raw_length": 48,
+      "mass_change": 10
+    },
+    {
+      "packet": 7,
+      "name": "U",
+      "selected_inputs": 5,
+      "C_count": 0,
+      "raw_length": 28,
+      "mass_change": 4
+    },
+    {
+      "packet": 8,
+      "name": "UC",
+      "selected_inputs": 5,
+      "C_count": 1,
+      "raw_length": 43,
+      "mass_change": 7
+    },
+    {
+      "packet": 9,
+      "name": "UCC",
+      "selected_inputs": 5,
+      "C_count": 2,
+      "raw_length": 58,
+      "mass_change": 10
+    }
+  ],
+  "theorem_sha256": "af2ce82986ddae0dbd0e1158520f98ba4d98698b07c57a6796bb2d6ea1891c69",
+  "independent_arithmetic": "audits/check_three_c_slab_arithmetic_independent.json"
+}

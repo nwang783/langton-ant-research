@@ -1,0 +1,269 @@
+{
+  "status": "AUTHOR_ALL_WORD_ROW_GAP_INVARIANT_PASS",
+  "scope": "VC0,N; arbitrary word A over{D,V}; one VCC; arbitrary B over{D,V}; Ugoal(0,-1,E). No U/UC/UCC intermediate and no two separate1C packets. All such literal factors impossible, any seed/fuel.",
+  "source_exit": [
+    1,
+    4,
+    3
+  ],
+  "goal_pose": [
+    0,
+    -1,
+    1
+  ],
+  "outgoing_steps": {
+    "D": [
+      -1,
+      1
+    ],
+    "V": [
+      -3,
+      1
+    ]
+  },
+  "far_VCC_step": [
+    -4,
+    0
+  ],
+  "incoming_steps": {
+    "D": [
+      1,
+      -1
+    ],
+    "V": [
+      3,
+      -1
+    ]
+  },
+  "gap_invariant": "Delta>=-4; if Delta=-4 current outgoing packet is V or topVCC (not D)",
+  "retirement_reuse_cut": {
+    "gap": -4,
+    "current_outgoing": "V or VCC",
+    "incoming": "D",
+    "cell_relative_to_outgoing_head": [
+      -3,
+      0
+    ],
+    "pre_C_minus_source_birth": 1,
+    "post_C_minus_source_birth": 3,
+    "max_replacement_age": 2,
+    "D_minimum": 3
+  },
+  "transition_rows": [
+    {
+      "gap": -4,
+      "current_outgoing_kind": "V",
+      "incoming_width": 3,
+      "outgoing_previous_width": 1,
+      "next_gap": -2,
+      "next_outgoing_kind": "D"
+    },
+    {
+      "gap": -4,
+      "current_outgoing_kind": "V",
+      "incoming_width": 3,
+      "outgoing_previous_width": 3,
+      "next_gap": -4,
+      "next_outgoing_kind": "V"
+    },
+    {
+      "gap": -2,
+      "current_outgoing_kind": "D",
+      "incoming_width": 1,
+      "outgoing_previous_width": 1,
+      "next_gap": -2,
+      "next_outgoing_kind": "D"
+    },
+    {
+      "gap": -2,
+      "current_outgoing_kind": "D",
+      "incoming_width": 1,
+      "outgoing_previous_width": 3,
+      "next_gap": -4,
+      "next_outgoing_kind": "V"
+    },
+    {
+      "gap": -2,
+      "current_outgoing_kind": "D",
+      "incoming_width": 3,
+      "outgoing_previous_width": 1,
+      "next_gap": 0,
+      "next_outgoing_kind": "D"
+    },
+    {
+      "gap": -2,
+      "current_outgoing_kind": "D",
+      "incoming_width": 3,
+      "outgoing_previous_width": 3,
+      "next_gap": -2,
+      "next_outgoing_kind": "V"
+    },
+    {
+      "gap": -2,
+      "current_outgoing_kind": "V",
+      "incoming_width": 1,
+      "outgoing_previous_width": 1,
+      "next_gap": -2,
+      "next_outgoing_kind": "D"
+    },
+    {
+      "gap": -2,
+      "current_outgoing_kind": "V",
+      "incoming_width": 1,
+      "outgoing_previous_width": 3,
+      "next_gap": -4,
+      "next_outgoing_kind": "V"
+    },
+    {
+      "gap": -2,
+      "current_outgoing_kind": "V",
+      "incoming_width": 3,
+      "outgoing_previous_width": 1,
+      "next_gap": 0,
+      "next_outgoing_kind": "D"
+    },
+    {
+      "gap": -2,
+      "current_outgoing_kind": "V",
+      "incoming_width": 3,
+      "outgoing_previous_width": 3,
+      "next_gap": -2,
+      "next_outgoing_kind": "V"
+    },
+    {
+      "gap": 0,
+      "current_outgoing_kind": "D",
+      "incoming_width": 1,
+      "outgoing_previous_width": 1,
+      "next_gap": 0,
+      "next_outgoing_kind": "D"
+    },
+    {
+      "gap": 0,
+      "current_outgoing_kind": "D",
+      "incoming_width": 1,
+      "outgoing_previous_width": 3,
+      "next_gap": -2,
+      "next_outgoing_kind": "V"
+    },
+    {
+      "gap": 0,
+      "current_outgoing_kind": "D",
+      "incoming_width": 3,
+      "outgoing_previous_width": 1,
+      "next_gap": 2,
+      "next_outgoing_kind": "D"
+    },
+    {
+      "gap": 0,
+      "current_outgoing_kind": "D",
+      "incoming_width": 3,
+      "outgoing_previous_width": 3,
+      "next_gap": 0,
+      "next_outgoing_kind": "V"
+    },
+    {
+      "gap": 0,
+      "current_outgoing_kind": "V",
+      "incoming_width": 1,
+      "outgoing_previous_width": 1,
+      "next_gap": 0,
+      "next_outgoing_kind": "D"
+    },
+    {
+      "gap": 0,
+      "current_outgoing_kind": "V",
+      "incoming_width": 1,
+      "outgoing_previous_width": 3,
+      "next_gap": -2,
+      "next_outgoing_kind": "V"
+    },
+    {
+      "gap": 0,
+      "current_outgoing_kind": "V",
+      "incoming_width": 3,
+      "outgoing_previous_width": 1,
+      "next_gap": 2,
+      "next_outgoing_kind": "D"
+    },
+    {
+      "gap": 0,
+      "current_outgoing_kind": "V",
+      "incoming_width": 3,
+      "outgoing_previous_width": 3,
+      "next_gap": 0,
+      "next_outgoing_kind": "V"
+    },
+    {
+      "gap": 2,
+      "current_outgoing_kind": "D",
+      "incoming_width": 1,
+      "outgoing_previous_width": 1,
+      "next_gap": 2,
+      "next_outgoing_kind": "D"
+    },
+    {
+      "gap": 2,
+      "current_outgoing_kind": "D",
+      "incoming_width": 1,
+      "outgoing_previous_width": 3,
+      "next_gap": 0,
+      "next_outgoing_kind": "V"
+    },
+    {
+      "gap": 2,
+      "current_outgoing_kind": "D",
+      "incoming_width": 3,
+      "outgoing_previous_width": 1,
+      "next_gap": 4,
+      "next_outgoing_kind": "D"
+    },
+    {
+      "gap": 2,
+      "current_outgoing_kind": "D",
+      "incoming_width": 3,
+      "outgoing_previous_width": 3,
+      "next_gap": 2,
+      "next_outgoing_kind": "V"
+    },
+    {
+      "gap": 2,
+      "current_outgoing_kind": "V",
+      "incoming_width": 1,
+      "outgoing_previous_width": 1,
+      "next_gap": 2,
+      "next_outgoing_kind": "D"
+    },
+    {
+      "gap": 2,
+      "current_outgoing_kind": "V",
+      "incoming_width": 1,
+      "outgoing_previous_width": 3,
+      "next_gap": 0,
+      "next_outgoing_kind": "V"
+    },
+    {
+      "gap": 2,
+      "current_outgoing_kind": "V",
+      "incoming_width": 3,
+      "outgoing_previous_width": 1,
+      "next_gap": 4,
+      "next_outgoing_kind": "D"
+    },
+    {
+      "gap": 2,
+      "current_outgoing_kind": "V",
+      "incoming_width": 3,
+      "outgoing_previous_width": 3,
+      "next_gap": 2,
+      "next_outgoing_kind": "V"
+    }
+  ],
+  "unbounded_ray_argument": "For evenDelta>=2, every successor hasDelta>=0; all lower breakpoints -4,-2,0 checked explicitly.",
+  "bottom_contradiction": "Outgoing bottom head(1,4); incoming needs5 positive-x steps to Ugoal(0,-1), so its bottom x<=-5 and Delta<=-6, contrary invariant.",
+  "dependencies": {
+    "chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "chronology_dcuv/counted_input_age_rules_complete.json": "ce1d90d3887522fe5c71ad132eda9be3c32302d897a51ea38fbfabb0d08624bc",
+    "check_VC_young3_one_VCC_crossing.py": "acc8b7a920a56a377dc00cd0b8716cc971c156211a0395b6d29003a1ba5d8735"
+  }
+}

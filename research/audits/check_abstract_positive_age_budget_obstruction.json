@@ -1,0 +1,611 @@
+{
+  "status": "VERIFIED ABSTRACT COUNTERMODEL ONLY: not an ant factor/front/controller",
+  "period": 20,
+  "output_roots": [
+    4,
+    17,
+    14,
+    7
+  ],
+  "input_roots": [],
+  "pairs": [
+    {
+      "R": 8,
+      "L": 0,
+      "voltage": 1,
+      "age": 12
+    },
+    {
+      "R": 12,
+      "L": 16,
+      "voltage": 0,
+      "age": 4
+    },
+    {
+      "R": 1,
+      "L": 13,
+      "voltage": 0,
+      "age": 12
+    },
+    {
+      "R": 5,
+      "L": 9,
+      "voltage": 0,
+      "age": 4
+    },
+    {
+      "R": 6,
+      "L": 10,
+      "voltage": 0,
+      "age": 4
+    },
+    {
+      "R": 18,
+      "L": 2,
+      "voltage": 1,
+      "age": 4
+    },
+    {
+      "R": 19,
+      "L": 3,
+      "voltage": 1,
+      "age": 4
+    },
+    {
+      "R": 11,
+      "L": 15,
+      "voltage": 0,
+      "age": 4
+    }
+  ],
+  "edges": [
+    {
+      "a": 8,
+      "b": 0,
+      "voltage": 1,
+      "kind": "alpha",
+      "owner": 0
+    },
+    {
+      "a": 9,
+      "b": 1,
+      "voltage": 1,
+      "kind": "beta",
+      "owner": 0
+    },
+    {
+      "a": 12,
+      "b": 16,
+      "voltage": 0,
+      "kind": "alpha",
+      "owner": 1
+    },
+    {
+      "a": 13,
+      "b": 17,
+      "voltage": 0,
+      "kind": "beta",
+      "owner": 1
+    },
+    {
+      "a": 1,
+      "b": 13,
+      "voltage": 0,
+      "kind": "alpha",
+      "owner": 2
+    },
+    {
+      "a": 2,
+      "b": 14,
+      "voltage": 0,
+      "kind": "beta",
+      "owner": 2
+    },
+    {
+      "a": 5,
+      "b": 9,
+      "voltage": 0,
+      "kind": "alpha",
+      "owner": 3
+    },
+    {
+      "a": 6,
+      "b": 10,
+      "voltage": 0,
+      "kind": "beta",
+      "owner": 3
+    },
+    {
+      "a": 6,
+      "b": 10,
+      "voltage": 0,
+      "kind": "alpha",
+      "owner": 4
+    },
+    {
+      "a": 7,
+      "b": 11,
+      "voltage": 0,
+      "kind": "beta",
+      "owner": 4
+    },
+    {
+      "a": 18,
+      "b": 2,
+      "voltage": 1,
+      "kind": "alpha",
+      "owner": 5
+    },
+    {
+      "a": 19,
+      "b": 3,
+      "voltage": 1,
+      "kind": "beta",
+      "owner": 5
+    },
+    {
+      "a": 19,
+      "b": 3,
+      "voltage": 1,
+      "kind": "alpha",
+      "owner": 6
+    },
+    {
+      "a": 0,
+      "b": 4,
+      "voltage": 0,
+      "kind": "beta",
+      "owner": 6
+    },
+    {
+      "a": 11,
+      "b": 15,
+      "voltage": 0,
+      "kind": "alpha",
+      "owner": 7
+    },
+    {
+      "a": 12,
+      "b": 16,
+      "voltage": 0,
+      "kind": "beta",
+      "owner": 7
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "voltage": 0,
+      "kind": "root",
+      "owner": 4
+    },
+    {
+      "a": 17,
+      "b": 18,
+      "voltage": 0,
+      "kind": "root",
+      "owner": 17
+    },
+    {
+      "a": 14,
+      "b": 15,
+      "voltage": 0,
+      "kind": "root",
+      "owner": 14
+    },
+    {
+      "a": 7,
+      "b": 8,
+      "voltage": 0,
+      "kind": "root",
+      "owner": 7
+    }
+  ],
+  "fibres": [
+    {
+      "events": [
+        0,
+        4,
+        8
+      ],
+      "lifts": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "events": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ],
+      "lifts": [
+        0,
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "events": [
+        2,
+        14,
+        18
+      ],
+      "lifts": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "events": [
+        3,
+        19
+      ],
+      "lifts": [
+        0,
+        -1
+      ]
+    },
+    {
+      "events": [
+        6,
+        10
+      ],
+      "lifts": [
+        0,
+        0
+      ]
+    },
+    {
+      "events": [
+        7,
+        11,
+        15
+      ],
+      "lifts": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "events": [
+        12,
+        16
+      ],
+      "lifts": [
+        0,
+        0
+      ]
+    }
+  ],
+  "circuits": [
+    {
+      "winding": -3,
+      "root_sigma_sum": -4,
+      "lifetime_age_sum": -56,
+      "owner_coefficients": [
+        -2,
+        -1,
+        -2,
+        -1,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "steps": [
+        {
+          "a": 0,
+          "b": 8,
+          "voltage": -1,
+          "edge": 0,
+          "sign": -1,
+          "elapsed": -12
+        },
+        {
+          "a": 8,
+          "b": 7,
+          "voltage": 0,
+          "edge": 19,
+          "sign": -1,
+          "elapsed": -1
+        },
+        {
+          "a": 7,
+          "b": 11,
+          "voltage": 0,
+          "edge": 9,
+          "sign": 1,
+          "elapsed": 4
+        },
+        {
+          "a": 11,
+          "b": 15,
+          "voltage": 0,
+          "edge": 14,
+          "sign": 1,
+          "elapsed": 4
+        },
+        {
+          "a": 15,
+          "b": 14,
+          "voltage": 0,
+          "edge": 18,
+          "sign": -1,
+          "elapsed": -1
+        },
+        {
+          "a": 14,
+          "b": 2,
+          "voltage": 0,
+          "edge": 5,
+          "sign": -1,
+          "elapsed": -12
+        },
+        {
+          "a": 2,
+          "b": 18,
+          "voltage": -1,
+          "edge": 10,
+          "sign": -1,
+          "elapsed": -4
+        },
+        {
+          "a": 18,
+          "b": 17,
+          "voltage": 0,
+          "edge": 17,
+          "sign": -1,
+          "elapsed": -1
+        },
+        {
+          "a": 17,
+          "b": 13,
+          "voltage": 0,
+          "edge": 3,
+          "sign": -1,
+          "elapsed": -4
+        },
+        {
+          "a": 13,
+          "b": 1,
+          "voltage": 0,
+          "edge": 4,
+          "sign": -1,
+          "elapsed": -12
+        },
+        {
+          "a": 1,
+          "b": 9,
+          "voltage": -1,
+          "edge": 1,
+          "sign": -1,
+          "elapsed": -12
+        },
+        {
+          "a": 9,
+          "b": 5,
+          "voltage": 0,
+          "edge": 6,
+          "sign": -1,
+          "elapsed": -4
+        },
+        {
+          "a": 5,
+          "b": 4,
+          "voltage": 0,
+          "edge": 16,
+          "sign": -1,
+          "elapsed": -1
+        },
+        {
+          "a": 4,
+          "b": 0,
+          "voltage": 0,
+          "edge": 13,
+          "sign": -1,
+          "elapsed": -4
+        }
+      ]
+    },
+    {
+      "winding": 0,
+      "root_sigma_sum": 0,
+      "lifetime_age_sum": 0,
+      "owner_coefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        1,
+        0
+      ],
+      "steps": [
+        {
+          "a": 3,
+          "b": 19,
+          "voltage": -1,
+          "edge": 11,
+          "sign": -1,
+          "elapsed": -4
+        },
+        {
+          "a": 19,
+          "b": 3,
+          "voltage": 1,
+          "edge": 12,
+          "sign": 1,
+          "elapsed": 4
+        }
+      ]
+    },
+    {
+      "winding": 0,
+      "root_sigma_sum": 0,
+      "lifetime_age_sum": 0,
+      "owner_coefficients": [
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "steps": [
+        {
+          "a": 6,
+          "b": 10,
+          "voltage": 0,
+          "edge": 7,
+          "sign": 1,
+          "elapsed": 4
+        },
+        {
+          "a": 10,
+          "b": 6,
+          "voltage": 0,
+          "edge": 8,
+          "sign": -1,
+          "elapsed": -4
+        }
+      ]
+    },
+    {
+      "winding": 0,
+      "root_sigma_sum": 0,
+      "lifetime_age_sum": 0,
+      "owner_coefficients": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "steps": [
+        {
+          "a": 12,
+          "b": 16,
+          "voltage": 0,
+          "edge": 2,
+          "sign": 1,
+          "elapsed": 4
+        },
+        {
+          "a": 16,
+          "b": 12,
+          "voltage": 0,
+          "edge": 15,
+          "sign": -1,
+          "elapsed": -4
+        }
+      ]
+    }
+  ],
+  "S": 3,
+  "actual_turn_word": "LRLLRRRRRLLRRLRLLRRR",
+  "actual_word_drift": [
+    -4,
+    -4
+  ],
+  "actual_word_heading_restored": true,
+  "physical_pairing_failures": [
+    {
+      "owner": 0,
+      "R": 8,
+      "L": 0,
+      "voltage": 1,
+      "physical_displacement": [
+        -2,
+        -4
+      ]
+    },
+    {
+      "owner": 1,
+      "R": 12,
+      "L": 16,
+      "voltage": 0,
+      "physical_displacement": [
+        -2,
+        -2
+      ]
+    },
+    {
+      "owner": 2,
+      "R": 1,
+      "L": 13,
+      "voltage": 0,
+      "physical_displacement": [
+        -2,
+        -2
+      ]
+    },
+    {
+      "owner": 4,
+      "R": 6,
+      "L": 10,
+      "voltage": 0,
+      "physical_displacement": [
+        0,
+        -2
+      ]
+    },
+    {
+      "owner": 5,
+      "R": 18,
+      "L": 2,
+      "voltage": 1,
+      "physical_displacement": [
+        -2,
+        2
+      ]
+    },
+    {
+      "owner": 6,
+      "R": 19,
+      "L": 3,
+      "voltage": 1,
+      "physical_displacement": [
+        -2,
+        2
+      ]
+    },
+    {
+      "owner": 7,
+      "R": 11,
+      "L": 15,
+      "voltage": 0,
+      "physical_displacement": [
+        -2,
+        -2
+      ]
+    }
+  ],
+  "finite_word_repeated_color_failure": {
+    "earlier": 4,
+    "later": 8,
+    "cell": [
+      -2,
+      0
+    ],
+    "same_turn": "R"
+  },
+  "scope": [
+    "Positive lifetime ages divisible4 and smaller than the period, exact beta conjugacy, zero-voltage internal circuits, all-output unmatched roots, complete event/edge coverage and the expanded clock identity do NOT imply S<=1.",
+    "All declared inputs are absent only in this ABSTRACT owner matching. It does not provide a physically WHITE front. Seven of eight declared same-cell lifetime pairings fail actual R/L kinematics, so it is NOT a counterexample to the normalized winding budget for actual ant histories.",
+    "This precisely identifies an indispensable spatial/actual-read ownership condition beyond the signed clock representation. It adds no front exclusion, no abstract-to-physical realization and no global-attraction result."
+  ],
+  "script_sha256": "1a5229d21fe3b71cab91f37bc3f038cbced939df112b02fcd7010ee778dabe21"
+}

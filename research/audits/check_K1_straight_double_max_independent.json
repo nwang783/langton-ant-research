@@ -1,0 +1,97 @@
+{
+  "status": "PASS independent complete corner inventories, equality components and clock feasibility",
+  "note_sha256": "fdb4444ddd0593fdb361cc0e734fb408038339a1b40ddb9e986ff6362e60d8eb",
+  "candidate_rows": 23814,
+  "necessary_rows": [
+    {
+      "A": "NNS",
+      "B": "EEW",
+      "w": "EWW",
+      "y": "SSN",
+      "e": "NSS",
+      "z": "WWEE"
+    },
+    {
+      "A": "NNS",
+      "B": "EEW",
+      "w": "EWW",
+      "y": "SSN",
+      "e": "NSSN",
+      "z": "WWEE"
+    },
+    {
+      "A": "NNS",
+      "B": "EEW",
+      "w": "EWWE",
+      "y": "SSNN",
+      "e": "NSS",
+      "z": "WWEE"
+    },
+    {
+      "A": "NNS",
+      "B": "EEW",
+      "w": "EWWE",
+      "y": "SSNN",
+      "e": "NSSN",
+      "z": "WWEE"
+    },
+    {
+      "A": "NNS",
+      "B": "EEWE",
+      "w": "EWW",
+      "y": "SSNS",
+      "e": "NSS",
+      "z": "WWEE"
+    },
+    {
+      "A": "NNS",
+      "B": "EEWE",
+      "w": "EWW",
+      "y": "SSNS",
+      "e": "NSSN",
+      "z": "WWEE"
+    },
+    {
+      "A": "NNSS",
+      "B": "EEWW",
+      "w": "EWW",
+      "y": "SSN",
+      "e": "NSS",
+      "z": "WWEE"
+    },
+    {
+      "A": "NNSS",
+      "B": "EEWW",
+      "w": "EWW",
+      "y": "SSN",
+      "e": "NSSN",
+      "z": "WWEE"
+    },
+    {
+      "A": "NNSS",
+      "B": "EEWW",
+      "w": "EWWE",
+      "y": "SSNN",
+      "e": "NSS",
+      "z": "WWEE"
+    },
+    {
+      "A": "NNSS",
+      "B": "EEWW",
+      "w": "EWWE",
+      "y": "SSNN",
+      "e": "NSSN",
+      "z": "WWEE"
+    }
+  ],
+  "forced_clocks": {
+    "wR0": -3,
+    "eL1": -2,
+    "zL3": -1,
+    "AL1": 0,
+    "wL1": 1,
+    "eR2": 2
+  },
+  "analytic_birth": "w.R0 chooses H; therefore B(H)<=T0(w)-1=B(G)-4.",
+  "scope": "Branchful complete-WHITE cap4 K1 straight equal-M branch and its signed forced RIGHT successor. Both LEFT neighbors M, actual old-stock LLLL; no realization, regress or initial-fuel charge."
+}

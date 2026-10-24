@@ -1,0 +1,100 @@
+{
+  "status": "PASS fixed24-cell standard orbit with recurrent indispensable original z-cycle support",
+  "note_sha256": "3337fa1adc69e63c2394ac1b704363fde65e755aeff140d7fa5d07ca93b940b3",
+  "initial_mass": 24,
+  "permanent_output_cells": 12,
+  "unread_cap_cells": 11,
+  "all_parameter_cross_component_collision_exclusions": 11,
+  "growth_patch_component_sizes": [
+    4,
+    4
+  ],
+  "full_board_control_reads": 1248,
+  "controls": [
+    {
+      "n": 1,
+      "time": 122,
+      "age": 8,
+      "support_age": 123,
+      "mass": 38
+    },
+    {
+      "n": 2,
+      "time": 226,
+      "age": 8,
+      "support_age": 227,
+      "mass": 50
+    },
+    {
+      "n": 3,
+      "time": 330,
+      "age": 8,
+      "support_age": 331,
+      "mass": 62
+    },
+    {
+      "n": 4,
+      "time": 434,
+      "age": 8,
+      "support_age": 435,
+      "mass": 74
+    },
+    {
+      "n": 5,
+      "time": 538,
+      "age": 8,
+      "support_age": 539,
+      "mass": 86
+    },
+    {
+      "n": 6,
+      "time": 642,
+      "age": 8,
+      "support_age": 643,
+      "mass": 98
+    },
+    {
+      "n": 7,
+      "time": 746,
+      "age": 8,
+      "support_age": 747,
+      "mass": 110
+    },
+    {
+      "n": 8,
+      "time": 850,
+      "age": 8,
+      "support_age": 851,
+      "mass": 122
+    },
+    {
+      "n": 9,
+      "time": 954,
+      "age": 8,
+      "support_age": 955,
+      "mass": 134
+    },
+    {
+      "n": 10,
+      "time": 1058,
+      "age": 8,
+      "support_age": 1059,
+      "mass": 146
+    },
+    {
+      "n": 11,
+      "time": 1162,
+      "age": 8,
+      "support_age": 1163,
+      "mass": 158
+    }
+  ],
+  "analytic": [
+    "One complete104 replay leaves exactly translated13-cell input plus12-cell output. Every output has no future-period geometric read, and every cap cell has no read at any nonnegative period. These exact104-slot integer equations prove full-board H forever by induction, including all permanent output and all11 cap cells.",
+    "At phase18, subtracting the current edge gives the exact algebraic partition into two growing rails plus isolated S0. Local growth patches prove both rails connected. Every possible cross-family vertex-collision offset is solved against its full affine index intervals; all integer n>=1 domains are empty. Thus the components are complete and no remote younger bypass is omitted.",
+    "The unread original11-edge cap is a simple z path joining P0 and Q0, so it connects the two rails after deleting q. Removing all cap edges disconnects them. Therefore every z cycle through q contains an original cap lifetime, and all lifetimes have birth>=-1; the intrinsic maximin support birth is exactly-1, not merely bounded by an unnecessary old witness.",
+    "The four w ports at the designated endpoint have exact current-period last reads R10,L11,L9,L0. Hence q is a full-graph w leaf/bridge, its token age is8, and phase17 L makes phase18 a proper r0 ordinary block. These are z-only erasures, not w-exceptional renewals.",
+    "For every n>=1 in ONE fixed24-cell seed, the support age is104n+19 while the token age stays8 and the trajectory is standard from time0. This refutes a necessary bounded-age support condition for all dual erasures lumped together, not the oriented w-renewal theorem or standard capture."
+  ],
+  "scope": "Exact standard104 phase18 z-only mechanism with one fixed unread cap. No classification of arbitrary standard phases, w-exceptional self-feeding or arbitrary seeds."
+}

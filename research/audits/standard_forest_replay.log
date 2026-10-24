@@ -1,0 +1,108 @@
+{
+  "period": 104,
+  "drift": [
+    -2,
+    2
+  ],
+  "read_phase_count": 104,
+  "node_phase_count": 46,
+  "parent_cycles": [
+    {
+      "phases": [
+        27,
+        13
+      ],
+      "winding": 1,
+      "total_delay": 104
+    },
+    {
+      "phases": [
+        45,
+        55
+      ],
+      "winding": 1,
+      "total_delay": 104
+    }
+  ],
+  "cycle_records": {
+    "13": {
+      "parent_phase": 27,
+      "parent_delay": 90,
+      "child_r": 4,
+      "birth_slot": 2,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        1
+      ],
+      "birth_age": 88
+    },
+    "27": {
+      "parent_phase": 13,
+      "parent_delay": 14,
+      "child_r": 4,
+      "birth_slot": 2,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        1
+      ],
+      "birth_age": 12
+    },
+    "45": {
+      "parent_phase": 55,
+      "parent_delay": 94,
+      "child_r": 4,
+      "birth_slot": 2,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        1
+      ],
+      "birth_age": 92
+    },
+    "55": {
+      "parent_phase": 45,
+      "parent_delay": 10,
+      "child_r": 4,
+      "birth_slot": 2,
+      "forward": true,
+      "spatial_step": [
+        -1,
+        1
+      ],
+      "birth_age": 8
+    }
+  },
+  "max_black_lifetime_age": 116,
+  "max_parent_delay": 117,
+  "max_cursor_node_bush_depth": 6,
+  "max_bud_inclusive_bush_depth": 7,
+  "max_side_branch_delay": 253,
+  "module_node_counts": {
+    "27": 14,
+    "45": 9,
+    "13": 3,
+    "55": 20
+  },
+  "module_permanent_bud_counts": {
+    "13": 2,
+    "27": 4,
+    "55": 6
+  },
+  "permanent_bud_phases": [
+    15,
+    20,
+    25,
+    29,
+    30,
+    71,
+    89,
+    90,
+    91,
+    97,
+    100,
+    103
+  ],
+  "checks": "All integer translation-class equations and color alternations passed."
+}

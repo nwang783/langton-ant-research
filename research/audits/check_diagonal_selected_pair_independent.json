@@ -1,0 +1,1927 @@
+{
+  "status": "PASS specified43 growth8 complete helper covers; necessary diagonal remainder100 OPEN",
+  "bindings": {
+    "DIAGONAL_SELECTED_PAIR_G8_EXCLUSIONS.md": "e2e81e31f57b715452227e34f221a54937465fa4cf931440dca002c75d6413a7",
+    "certify_diagonal_selected_pair_exclusions.py": "596947bb1d80a111d14b21f909458f088ec7d780597d092b07542272b75df3be",
+    "diagonal_selected_pair_exclusions_certificate.json": "85fab3456d7f7285e67171f88852fa3e5b5e7281fa2feaa91f63988b3a5e3cad"
+  },
+  "mixed_audit": "7573760d0256aa1f0b443f55f8226e36d71e9cf328002d46f045fd9ffcde830e",
+  "signed_residue_source": "bd3e74c5a2a87c4431fe4c777b9eeaa7010e42600ab9eb9bea6198e9ca249db7",
+  "all_ten_full_odd_vectors": [
+    [
+      0,
+      2,
+      2,
+      4
+    ],
+    [
+      0,
+      2,
+      6,
+      0
+    ],
+    [
+      0,
+      6,
+      2,
+      0
+    ],
+    [
+      1,
+      3,
+      3,
+      1
+    ],
+    [
+      2,
+      0,
+      0,
+      6
+    ],
+    [
+      2,
+      0,
+      4,
+      2
+    ],
+    [
+      2,
+      4,
+      0,
+      2
+    ],
+    [
+      3,
+      1,
+      1,
+      3
+    ],
+    [
+      4,
+      2,
+      2,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      2
+    ]
+  ],
+  "cases": [
+    {
+      "id": [
+        5,
+        [
+          3,
+          1
+        ]
+      ],
+      "ports": [
+        [
+          4,
+          4
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        2
+      ],
+      "outcomes": {
+        "skipped_rank": 4
+      }
+    },
+    {
+      "id": [
+        5,
+        [
+          6,
+          0
+        ]
+      ],
+      "ports": [
+        [
+          5,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        2
+      ],
+      "outcomes": {
+        "full_g8_signed_residue_budget": 1,
+        "skipped_rank": 3
+      }
+    },
+    {
+      "id": [
+        5,
+        [
+          6,
+          1
+        ]
+      ],
+      "ports": [
+        [
+          5,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        13
+      ],
+      "outcomes": {
+        "full_g8_signed_residue_budget": 6,
+        "skipped_rank": 20
+      }
+    },
+    {
+      "id": [
+        5,
+        [
+          6,
+          2
+        ]
+      ],
+      "ports": [
+        [
+          5,
+          5
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "domain_sizes": [
+        15,
+        2
+      ],
+      "outcomes": {
+        "full_g8_signed_residue_budget": 7,
+        "skipped_rank": 23
+      }
+    },
+    {
+      "id": [
+        8,
+        [
+          0,
+          6
+        ]
+      ],
+      "ports": [
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        2
+      ],
+      "outcomes": {
+        "full_g8_signed_residue_budget": 1,
+        "skipped_rank": 3
+      }
+    },
+    {
+      "id": [
+        8,
+        [
+          1,
+          3
+        ]
+      ],
+      "ports": [
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        2
+      ],
+      "outcomes": {
+        "skipped_rank": 4
+      }
+    },
+    {
+      "id": [
+        8,
+        [
+          1,
+          6
+        ]
+      ],
+      "ports": [
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "domain_sizes": [
+        13,
+        2
+      ],
+      "outcomes": {
+        "full_g8_signed_residue_budget": 6,
+        "skipped_rank": 20
+      }
+    },
+    {
+      "id": [
+        8,
+        [
+          2,
+          6
+        ]
+      ],
+      "ports": [
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        15
+      ],
+      "outcomes": {
+        "full_g8_signed_residue_budget": 7,
+        "skipped_rank": 23
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          0,
+          6
+        ]
+      ],
+      "ports": [
+        [
+          1,
+          5
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        2
+      ],
+      "outcomes": {
+        "skipped_rank": 4
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          0,
+          11
+        ]
+      ],
+      "ports": [
+        [
+          1,
+          6
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        2
+      ],
+      "outcomes": {
+        "skipped_rank": 4
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          1,
+          6
+        ]
+      ],
+      "ports": [
+        [
+          2,
+          5
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "domain_sizes": [
+        4,
+        7
+      ],
+      "outcomes": {
+        "skipped_rank": 28
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          1,
+          11
+        ]
+      ],
+      "ports": [
+        [
+          2,
+          6
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "domain_sizes": [
+        7,
+        11
+      ],
+      "outcomes": {
+        "skipped_rank": 76,
+        "closed_component": 1
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          2,
+          6
+        ]
+      ],
+      "ports": [
+        [
+          2,
+          5
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "domain_sizes": [
+        4,
+        2
+      ],
+      "outcomes": {
+        "skipped_rank": 8
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          2,
+          11
+        ]
+      ],
+      "ports": [
+        [
+          2,
+          6
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "domain_sizes": [
+        7,
+        2
+      ],
+      "outcomes": {
+        "skipped_rank": 14
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          3,
+          11
+        ]
+      ],
+      "ports": [
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        2
+      ],
+      "outcomes": {
+        "skipped_rank": 4
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          4,
+          6
+        ]
+      ],
+      "ports": [
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        6
+      ],
+      "outcomes": {
+        "skipped_rank": 12
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          4,
+          11
+        ]
+      ],
+      "ports": [
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "domain_sizes": [
+        7,
+        6
+      ],
+      "outcomes": {
+        "skipped_rank": 42
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          5,
+          6
+        ]
+      ],
+      "ports": [
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        15
+      ],
+      "outcomes": {
+        "skipped_rank": 30
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          5,
+          11
+        ]
+      ],
+      "ports": [
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "domain_sizes": [
+        3,
+        19
+      ],
+      "outcomes": {
+        "skipped_rank": 57
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          6,
+          0
+        ]
+      ],
+      "ports": [
+        [
+          5,
+          1
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        2
+      ],
+      "outcomes": {
+        "skipped_rank": 4
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          6,
+          1
+        ]
+      ],
+      "ports": [
+        [
+          5,
+          2
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "domain_sizes": [
+        7,
+        4
+      ],
+      "outcomes": {
+        "skipped_rank": 28
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          6,
+          2
+        ]
+      ],
+      "ports": [
+        [
+          5,
+          2
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        4
+      ],
+      "outcomes": {
+        "skipped_rank": 8
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          6,
+          4
+        ]
+      ],
+      "ports": [
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "domain_sizes": [
+        6,
+        2
+      ],
+      "outcomes": {
+        "skipped_rank": 12
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          6,
+          5
+        ]
+      ],
+      "ports": [
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "domain_sizes": [
+        15,
+        2
+      ],
+      "outcomes": {
+        "skipped_rank": 30
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          6,
+          6
+        ]
+      ],
+      "ports": [
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        2
+      ],
+      "outcomes": {
+        "skipped_rank": 4
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          6,
+          9
+        ]
+      ],
+      "ports": [
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "domain_sizes": [
+        33,
+        2
+      ],
+      "outcomes": {
+        "skipped_rank": 66
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          6,
+          10
+        ]
+      ],
+      "ports": [
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "domain_sizes": [
+        29,
+        2
+      ],
+      "outcomes": {
+        "skipped_rank": 58
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          6,
+          11
+        ]
+      ],
+      "ports": [
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "domain_sizes": [
+        19,
+        2
+      ],
+      "outcomes": {
+        "skipped_rank": 38
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          8,
+          11
+        ]
+      ],
+      "ports": [
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        23
+      ],
+      "outcomes": {
+        "skipped_rank": 46
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          9,
+          6
+        ]
+      ],
+      "ports": [
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        33
+      ],
+      "outcomes": {
+        "skipped_rank": 66
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          9,
+          11
+        ]
+      ],
+      "ports": [
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "domain_sizes": [
+        11,
+        45
+      ],
+      "outcomes": {
+        "skipped_rank": 492,
+        "closed_component": 3
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          10,
+          6
+        ]
+      ],
+      "ports": [
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        29
+      ],
+      "outcomes": {
+        "skipped_rank": 58
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          10,
+          11
+        ]
+      ],
+      "ports": [
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "domain_sizes": [
+        7,
+        57
+      ],
+      "outcomes": {
+        "closed_component": 7,
+        "skipped_rank": 392
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          11,
+          0
+        ]
+      ],
+      "ports": [
+        [
+          6,
+          1
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        2
+      ],
+      "outcomes": {
+        "skipped_rank": 4
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          11,
+          1
+        ]
+      ],
+      "ports": [
+        [
+          6,
+          2
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "domain_sizes": [
+        11,
+        7
+      ],
+      "outcomes": {
+        "skipped_rank": 76,
+        "closed_component": 1
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          11,
+          2
+        ]
+      ],
+      "ports": [
+        [
+          6,
+          2
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        7
+      ],
+      "outcomes": {
+        "skipped_rank": 14
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          11,
+          3
+        ]
+      ],
+      "ports": [
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        2
+      ],
+      "outcomes": {
+        "skipped_rank": 4
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          11,
+          4
+        ]
+      ],
+      "ports": [
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "domain_sizes": [
+        6,
+        7
+      ],
+      "outcomes": {
+        "skipped_rank": 42
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          11,
+          5
+        ]
+      ],
+      "ports": [
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "domain_sizes": [
+        19,
+        3
+      ],
+      "outcomes": {
+        "skipped_rank": 57
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          11,
+          6
+        ]
+      ],
+      "ports": [
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "domain_sizes": [
+        2,
+        19
+      ],
+      "outcomes": {
+        "skipped_rank": 38
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          11,
+          8
+        ]
+      ],
+      "ports": [
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "domain_sizes": [
+        23,
+        2
+      ],
+      "outcomes": {
+        "skipped_rank": 46
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          11,
+          9
+        ]
+      ],
+      "ports": [
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "domain_sizes": [
+        45,
+        11
+      ],
+      "outcomes": {
+        "skipped_rank": 492,
+        "closed_component": 3
+      }
+    },
+    {
+      "id": [
+        9,
+        [
+          11,
+          10
+        ]
+      ],
+      "ports": [
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "domain_sizes": [
+        57,
+        7
+      ],
+      "outcomes": {
+        "closed_component": 7,
+        "skipped_rank": 392
+      }
+    }
+  ],
+  "outcomes": {
+    "skipped_rank": 2846,
+    "full_g8_signed_residue_budget": 28,
+    "closed_component": 22
+  },
+  "skipped_first_return_lengths": {
+    "4": 1544,
+    "8": 1302
+  },
+  "remaining_ids": [
+    [
+      1,
+      [
+        0,
+        0
+      ]
+    ],
+    [
+      1,
+      [
+        1,
+        0
+      ]
+    ],
+    [
+      3,
+      [
+        3,
+        0
+      ]
+    ],
+    [
+      3,
+      [
+        3,
+        1
+      ]
+    ],
+    [
+      5,
+      [
+        0,
+        0
+      ]
+    ],
+    [
+      5,
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      5,
+      [
+        0,
+        2
+      ]
+    ],
+    [
+      5,
+      [
+        0,
+        3
+      ]
+    ],
+    [
+      5,
+      [
+        2,
+        0
+      ]
+    ],
+    [
+      5,
+      [
+        2,
+        2
+      ]
+    ],
+    [
+      5,
+      [
+        3,
+        3
+      ]
+    ],
+    [
+      5,
+      [
+        4,
+        2
+      ]
+    ],
+    [
+      5,
+      [
+        5,
+        0
+      ]
+    ],
+    [
+      5,
+      [
+        5,
+        2
+      ]
+    ],
+    [
+      5,
+      [
+        6,
+        3
+      ]
+    ],
+    [
+      8,
+      [
+        0,
+        0
+      ]
+    ],
+    [
+      8,
+      [
+        0,
+        2
+      ]
+    ],
+    [
+      8,
+      [
+        0,
+        5
+      ]
+    ],
+    [
+      8,
+      [
+        1,
+        0
+      ]
+    ],
+    [
+      8,
+      [
+        2,
+        0
+      ]
+    ],
+    [
+      8,
+      [
+        2,
+        2
+      ]
+    ],
+    [
+      8,
+      [
+        2,
+        4
+      ]
+    ],
+    [
+      8,
+      [
+        2,
+        5
+      ]
+    ],
+    [
+      8,
+      [
+        3,
+        0
+      ]
+    ],
+    [
+      8,
+      [
+        3,
+        3
+      ]
+    ],
+    [
+      8,
+      [
+        3,
+        6
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        0
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        3
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        4
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        5
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        7
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        8
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        9
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        10
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        12
+      ]
+    ],
+    [
+      9,
+      [
+        1,
+        0
+      ]
+    ],
+    [
+      9,
+      [
+        1,
+        1
+      ]
+    ],
+    [
+      9,
+      [
+        1,
+        3
+      ]
+    ],
+    [
+      9,
+      [
+        1,
+        4
+      ]
+    ],
+    [
+      9,
+      [
+        1,
+        5
+      ]
+    ],
+    [
+      9,
+      [
+        1,
+        7
+      ]
+    ],
+    [
+      9,
+      [
+        1,
+        8
+      ]
+    ],
+    [
+      9,
+      [
+        1,
+        9
+      ]
+    ],
+    [
+      9,
+      [
+        1,
+        10
+      ]
+    ],
+    [
+      9,
+      [
+        1,
+        12
+      ]
+    ],
+    [
+      9,
+      [
+        3,
+        0
+      ]
+    ],
+    [
+      9,
+      [
+        3,
+        1
+      ]
+    ],
+    [
+      9,
+      [
+        3,
+        4
+      ]
+    ],
+    [
+      9,
+      [
+        3,
+        5
+      ]
+    ],
+    [
+      9,
+      [
+        3,
+        9
+      ]
+    ],
+    [
+      9,
+      [
+        3,
+        10
+      ]
+    ],
+    [
+      9,
+      [
+        4,
+        0
+      ]
+    ],
+    [
+      9,
+      [
+        4,
+        1
+      ]
+    ],
+    [
+      9,
+      [
+        4,
+        3
+      ]
+    ],
+    [
+      9,
+      [
+        4,
+        4
+      ]
+    ],
+    [
+      9,
+      [
+        4,
+        5
+      ]
+    ],
+    [
+      9,
+      [
+        4,
+        8
+      ]
+    ],
+    [
+      9,
+      [
+        4,
+        9
+      ]
+    ],
+    [
+      9,
+      [
+        4,
+        10
+      ]
+    ],
+    [
+      9,
+      [
+        5,
+        0
+      ]
+    ],
+    [
+      9,
+      [
+        5,
+        1
+      ]
+    ],
+    [
+      9,
+      [
+        5,
+        3
+      ]
+    ],
+    [
+      9,
+      [
+        5,
+        4
+      ]
+    ],
+    [
+      9,
+      [
+        5,
+        8
+      ]
+    ],
+    [
+      9,
+      [
+        5,
+        9
+      ]
+    ],
+    [
+      9,
+      [
+        6,
+        7
+      ]
+    ],
+    [
+      9,
+      [
+        6,
+        12
+      ]
+    ],
+    [
+      9,
+      [
+        7,
+        0
+      ]
+    ],
+    [
+      9,
+      [
+        7,
+        1
+      ]
+    ],
+    [
+      9,
+      [
+        7,
+        6
+      ]
+    ],
+    [
+      9,
+      [
+        7,
+        11
+      ]
+    ],
+    [
+      9,
+      [
+        8,
+        0
+      ]
+    ],
+    [
+      9,
+      [
+        8,
+        1
+      ]
+    ],
+    [
+      9,
+      [
+        8,
+        4
+      ]
+    ],
+    [
+      9,
+      [
+        8,
+        5
+      ]
+    ],
+    [
+      9,
+      [
+        8,
+        8
+      ]
+    ],
+    [
+      9,
+      [
+        8,
+        9
+      ]
+    ],
+    [
+      9,
+      [
+        8,
+        10
+      ]
+    ],
+    [
+      9,
+      [
+        9,
+        0
+      ]
+    ],
+    [
+      9,
+      [
+        9,
+        1
+      ]
+    ],
+    [
+      9,
+      [
+        9,
+        3
+      ]
+    ],
+    [
+      9,
+      [
+        9,
+        4
+      ]
+    ],
+    [
+      9,
+      [
+        9,
+        5
+      ]
+    ],
+    [
+      9,
+      [
+        9,
+        8
+      ]
+    ],
+    [
+      9,
+      [
+        9,
+        9
+      ]
+    ],
+    [
+      9,
+      [
+        9,
+        10
+      ]
+    ],
+    [
+      9,
+      [
+        10,
+        0
+      ]
+    ],
+    [
+      9,
+      [
+        10,
+        1
+      ]
+    ],
+    [
+      9,
+      [
+        10,
+        3
+      ]
+    ],
+    [
+      9,
+      [
+        10,
+        4
+      ]
+    ],
+    [
+      9,
+      [
+        10,
+        8
+      ]
+    ],
+    [
+      9,
+      [
+        10,
+        9
+      ]
+    ],
+    [
+      9,
+      [
+        11,
+        7
+      ]
+    ],
+    [
+      9,
+      [
+        11,
+        11
+      ]
+    ],
+    [
+      9,
+      [
+        11,
+        12
+      ]
+    ],
+    [
+      9,
+      [
+        12,
+        0
+      ]
+    ],
+    [
+      9,
+      [
+        12,
+        1
+      ]
+    ],
+    [
+      9,
+      [
+        12,
+        6
+      ]
+    ],
+    [
+      9,
+      [
+        12,
+        11
+      ]
+    ]
+  ],
+  "remaining_types": {
+    "two_quadruple": 74,
+    "one_quadruple": 22,
+    "one_singleton": 4
+  },
+  "analytic_review": [
+    "All43 chosen IDs are exact members of prior143 and disjoint from mixed12. Derived local lengths come only from total physical N/W ports; every complete WHITE helper string is regenerated by incoming-N position subsets. Higher support and period remain unbounded.",
+    "Every actual lower first-return path is reconstructed in full drift. Every2896 Cartesian choice appears once. Literal 4/8-step SAME-physical-cell paths have no intermediate target visit and fail consecutive ranks. This is not an eight-step-versus-minimum-time argument.",
+    "Twenty-two internal directed cycles have negative winding, impossible by summed positive-duration clocks. Properness and exterior open chains also checked.",
+    "Residue test concerns the FULL eight odd classes: both x and y parity-bin balances equal2mod4. All ten possible full vectors retained. Named COMPLETE histories contribute a coordinatewise lower bound only; no subset balanced-wake assertion or maximum-field assumption.",
+    "The exact100 remaining IDs are4 one-singleton/22 one-quadruple/74 two-quadruple necessary interfaces, not100 completed fronts, no g8 exclusion or universal capture."
+  ]
+}

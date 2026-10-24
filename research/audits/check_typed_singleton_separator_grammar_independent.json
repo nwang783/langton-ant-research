@@ -1,0 +1,84 @@
+{
+  "status": "PASS dependent all-length genuine-staircase terminal types and singleton separator grammar",
+  "script": "806a563a673cccfc04dacdcb88073311635bd58b104e189677c8026872c7d748",
+  "proofs": {
+    "genuine_packet_staircases_need_a_passive_or_high_terminal.md": "661fa6f7f50446b7d88a700701a0b8a61a0158bd90e7871a5b95a7a8f9b0ad9e",
+    "singleton_gap_runs_have_three_step_typed_separators.md": "a45b6fa2df19efa537460555c8debdc31ea4ded1a36b52ecd73a0dc095a459a6"
+  },
+  "signed_dependencies": {
+    "check_mixed_macro_backbone_independent.json": "411496ebc817fcdb58df7b007cd418339bd787252547bbfd7a3ecc640c9f9f65",
+    "check_LL_RR_matching_independent.json": "96b2f1851f33f1ec9b46ec4f29468c754dbcc296fb2d100a0776ce91ed40498c",
+    "check_global_max_flow2_staircase_independent.json": "665b54d8645247b9f5960eb6a3fcb8d7cf4db65b84054a24d444669904266a37",
+    "check_mixed_flow2_flat_islands_independent.json": "c4fabac9c366e6536b760af2a52f23d6d24bd5eb53f16f8e1d788b9a8680defe",
+    "check_cyclic_LL_reactivation_independent.json": "fb74c8a00cfe84266ccbd0b30f8837d8e33eef7de1abf7093f4f56400771c817",
+    "check_mixed_first_track_pipeline_independent.json": "8ff4e2b77138f10372b4074fe93d9e0a7d28b4af32d29137f16cf4df8add9bab",
+    "check_mixed_RR_closure_independent.json": "6a5571ed9cd4a804868b7378ecd3a4f675592e4b200e944cc4c62ff97a8883ac",
+    "check_mixed_alternating_staircase_exclusion_independent.json": "8d1af566e6575c7e546162b3446d031f586a07c577c8cedd78f5ce0a556e45de"
+  },
+  "complete_local_open_rows": [
+    [
+      "U",
+      "X",
+      "O",
+      "X",
+      "V"
+    ],
+    [
+      "U",
+      "X",
+      "O",
+      "Y",
+      "V"
+    ],
+    [
+      "U",
+      "X",
+      "U",
+      "X",
+      "O"
+    ],
+    [
+      "U",
+      "X",
+      "U",
+      "X",
+      "U"
+    ],
+    [
+      "V",
+      "Y",
+      "O",
+      "X",
+      "V"
+    ],
+    [
+      "V",
+      "Y",
+      "O",
+      "Y",
+      "V"
+    ],
+    [
+      "V",
+      "Y",
+      "U",
+      "X",
+      "O"
+    ],
+    [
+      "V",
+      "Y",
+      "U",
+      "X",
+      "U"
+    ]
+  ],
+  "analytic_review": [
+    "Full main scope remains completeWHITEcap4, criticalGLOBALM actual negativeb circle without one-use edges, with actual full quotient. The saturated cyclic gap partition is already signed; no arbitrary curve or primitive quotient is substituted.",
+    "For consecutiveG packets separated only by singleton gaps, zero gaps places the genuine root immediately afterRR, forbidden by the generalRR passive endpoint condition. The first singleton isV. The last cannotO because its following outsideLEFT is the nextG first-rootO/U, contradicting the signedO island; it cannotU. If at least two gaps, the lastV has neither flankingflat inRR, and its genuine five-contact window includes the nextLL first-root. The complete e597 cover then forbids middleV. Exactly oneV remains. No assumption that the outsideLEFT is itself singleton is used by e597.",
+    "A closed circle containing onlyG and theseV separators has only four-L genuine crossing roots, no singletonO and no WEEE root. Critical same-physical-contact side decomposition assigns every actualLEFT event channel to a Gamma crossing excursion. The signed genuine postX channel needs owner>=12/16, so no available length4 root can own it. PassiveV has no crossing. This contradicts even oneG, without distinct-owner or fresh-fuel assumptions. Finitequotient traversal therefore reaches aP orH terminalTYPE; this is not injective ownership.",
+    "For an arbitrary singleton run bracketed byP/G/H, every interior gap has both flankingflats outsideRR. Its complete five-corner window forcesO after singletonU exclusion. Four or more gaps would have two adjacent interiorO, contradicting eachO outsideV rule. This is an all-length implication, not finite cutoff enumeration.",
+    "A length3 run isV,O,V. The endpointV gaps require outsideRR since otherwise the same full five-corner rule forbidsV; only precedingG ends atRR and only followingP startsRR. High-run endpoints retain their genuine passiveV and flow2 interfaces, and cannot substitute anRR-touching endpointflat. Hence length3 can only beG,V,O,V,P.",
+    "If there are noP/G/H brackets at all, the whole cyclicgapword is alternating and excluded by the signed mixed staircase theorem. Flat-only boundaries therefore requireP. Arbitrary repeatedP strips, highrailq, oldL3 stock, many-to-one owners and physical exterior connectors remain unrestricted; this is necessary grammar, not an attained factor, finite fuel or global front exclusion."
+  ]
+}

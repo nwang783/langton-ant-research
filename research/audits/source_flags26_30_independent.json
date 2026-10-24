@@ -1,0 +1,93 @@
+{
+  "status": "PASS signed-premise source flags; no mutual hypotheses needed",
+  "cases": [
+    {
+      "case": 26,
+      "status": "PASS independent literal base and source-output flag reconstruction",
+      "flags": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "variables": 23,
+      "invariant": {
+        "status": "PASS independent canonical restriction/XOR/clear invariant check",
+        "variables": 23,
+        "positions": 194,
+        "certificate_nodes": 109878,
+        "invariant_states": 2348401,
+        "checks": 657,
+        "canonical_nodes": 111026
+      },
+      "sha256": {
+        "word_stabilization/dcv_mutual_source_flags_69/case26_signed38.json": "b9cadb86c8fc6915d7be15ba3b42d5415450865b39841c0abedfffb0c2ae8b44",
+        "word_stabilization/dcv_mutual_source_flags_69/case26_signed38.dat": "5afc0613bc7176e9ef3c068c9e5fe6d846bded57b94839dbe2f9b37a348304b1",
+        "word_stabilization/dcv_mutual_source_flags_69/case26_signed38.bdd": "2379fa02ff9b831adf910ef3d214a6444d5c396707668bb7ea9490dcdacd39c2"
+      }
+    },
+    {
+      "case": 30,
+      "status": "PASS independent literal base and source-output flag reconstruction",
+      "flags": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "variables": 23,
+      "invariant": {
+        "status": "PASS independent canonical restriction/XOR/clear invariant check",
+        "variables": 23,
+        "positions": 194,
+        "certificate_nodes": 77676,
+        "invariant_states": 7874513,
+        "checks": 723,
+        "canonical_nodes": 80105
+      },
+      "sha256": {
+        "word_stabilization/dcv_mutual_source_flags_69/case30_signed38.json": "b400012e1d921d7b6594f3f18595db6030b84351fddf32670280007a3ec7fc28",
+        "word_stabilization/dcv_mutual_source_flags_69/case30_signed38.dat": "7f77c985c9d7dbe98d514b598e1e7bbdf95cd8f1c5ce3d9357650112f3b6ca53",
+        "word_stabilization/dcv_mutual_source_flags_69/case30_signed38.bdd": "ee3a226740cdd1797de033b33347c9d6f7c2c03765647dd522a8cdb5acf35c02"
+      }
+    }
+  ],
+  "controls": {
+    "status": "PASS",
+    "independent_explicit_graph_controls": 100,
+    "rejected_initial_cube_mutations": 100,
+    "positive_checks": 1800
+  }
+}

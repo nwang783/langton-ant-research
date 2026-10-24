@@ -1,0 +1,72 @@
+{
+  "status": "PASS two exact short-return bud exclusions only",
+  "manifest_sha256": "a5e3d631a2a923b2a4616e070eea39bca0ae5e8ad8feeea2dd0a6ebdc5ea9d9d",
+  "rows": [
+    {
+      "producer": 1,
+      "pose": [
+        -5,
+        1,
+        0
+      ],
+      "source_age": 4,
+      "exit": [
+        -4,
+        3,
+        3
+      ],
+      "post_exit_Cgap": 3,
+      "target_in_exit_frame": [
+        -3,
+        -4,
+        1
+      ],
+      "bud": [
+        -3,
+        4
+      ],
+      "true_source_output": [
+        2,
+        3
+      ],
+      "creator_first_read": [
+        "R",
+        65
+      ]
+    },
+    {
+      "producer": 5,
+      "pose": [
+        -4,
+        7,
+        1
+      ],
+      "source_age": 5,
+      "exit": [
+        0,
+        6,
+        0
+      ],
+      "post_exit_Cgap": 4,
+      "target_in_exit_frame": [
+        0,
+        -6,
+        0
+      ],
+      "bud": [
+        1,
+        5
+      ],
+      "true_source_output": [
+        2,
+        5
+      ],
+      "creator_first_read": [
+        "R",
+        34
+      ]
+    }
+  ],
+  "analytic": "Each actual source exit has an actual predecessor atom installing its true full-output bud. Signed1505 keeps that identity current at the creator entry for the corresponding3C E/X<=0 or4C N/X<=0 cut. The complete creator ledger has no such input and prescribes its initial color white, impossible while that residual identity persists.",
+  "scope": "DC exact age4 and VC exact age5 only; larger congruent8+/9+ remain unexcluded. No V1/U1 event closure or prefix attainment."
+}

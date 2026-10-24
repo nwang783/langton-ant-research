@@ -1,0 +1,17 @@
+{
+  "status": "PASS proper-prefix chain mass and exact source-clock/voltage weighted cut identities",
+  "bindings": {
+    "DRIFT31_EVEN_GAP_CHAIN_MASS_ADDENDUM.md": "29f1f154a3ede76e0681a9922d7694588ec03cbaa75e2c7c70639c8ec1885555",
+    "DRIFT31_WEIGHTED_CUT_IDENTITY.md": "89a36d9a4cc77cd19fea4d7670bc8219d0115a6e96a758f529d39fdf9d45250f"
+  },
+  "canonical_voltage_checks": 60,
+  "synthetic_algebra_checks": 864,
+  "ordered_span_checks": 1093,
+  "analytic_review": [
+    "Prefix includes COMPLETE histories of every class from genuine read minimum through even t below genuine read maximum. Any closed quotient event component would be a proper component of the actual single P-event orbit, so all named events partition into open chains. No phantom omission below minimum is allowed.",
+    "Normal-current conservation gives C=w+n=s+u. Each named chain has one incoming/outgoing boundary occurrence; sum named READ lengths=N. Encoding outside-read-to-outside-read steps changes each weight toell+1, givingN+C. Adding complete cells increases named mass by their exact read count unless an impossible proper closed component appears.",
+    "All incoming boundary edges are S, with target canonical clock=outside SOURCEclock+1+P because voltage=-1. Internal edges obey target=source+1-voltage*P. Summing chains gives W+Nc-S-U=N+P(C-K) with K sum INTERNAL voltages. Outgoing arrival +1 is not silently included. Whole footprint is instead one closed circuit, K1 andN=P.",
+    "Port source clocks refer to canonical physical representatives, not reduced phases in0..P-1. Their actual chronological gaps yield sum bounds qf+2q(q-1) andql-2q(q-1), sharpened by actual rank differences. Subtracting incoming upper/lower sums gives the displayed plusQ/minusQ total inequalities; common clock shifts cancel by current balance.",
+    "No bound on Z=C-K, integer port traffic, period, or chronological span is obtained. Chain mass growth rules out an unchanged exact weighted state while adding reads, not finite control graphs with unbounded counters or a hypothetical growing-period family. Prior OPEN arbitrary-k family is not a physical-factor counterexample."
+  ]
+}

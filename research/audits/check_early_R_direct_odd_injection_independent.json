@@ -1,0 +1,77 @@
+{
+  "status": "PASS direct distinct odd-output reservations Nodd>=n_A+n_R4 and N_O>=n_R4",
+  "note_sha256": "783b71a0ff3a6deed00279ff364417d4fcb4b2a62ff310424a9d730fd69a1241",
+  "fresh_canonical_rows": 110,
+  "R_ancestor_rows": 36,
+  "S_ancestor_rows": 36,
+  "R_modes": [
+    {
+      "profile": [
+        "EWWW",
+        "WEW",
+        "SNNN"
+      ],
+      "count": 12
+    },
+    {
+      "profile": [
+        "EWW",
+        "WEEW",
+        "SNN"
+      ],
+      "count": 12
+    },
+    {
+      "profile": [
+        "EWWW",
+        "WEWW",
+        "SNNN"
+      ],
+      "count": 12
+    }
+  ],
+  "lower_square_unique_profile": [
+    "NNSS",
+    "WWE",
+    "NSSS",
+    "EEE"
+  ],
+  "Q2_four_O_profiles": [
+    [
+      "NNS",
+      "WW",
+      "NSSS",
+      "EEWE"
+    ],
+    [
+      "NNS",
+      "WWE",
+      "NSSS",
+      "EEWE"
+    ],
+    [
+      "NNS",
+      "EWW",
+      "SSNS",
+      "EEWE"
+    ],
+    [
+      "NNS",
+      "WWEE",
+      "NSN",
+      "EEWE"
+    ]
+  ],
+  "analytic": [
+    "The full72 ancestor rows split36S and36R. R cases are exactly xEWW/rWEEW/eSNN or xEWWW/rWEW[W]/eSNNN. No evenness or zero-output restriction is imposed.",
+    "For EWWW, exact d.S input1,d.E output1,t.E output1 and all110 canonical profiles/all rotations give unique F: SW EEWW,NW NNS,NE EWWW,SE SSS. Canonical F birth is SW and its sole possible child contact is d. The actual Q2 has dNNS,jEEWE; its only four completions are the signed odd-entry O profiles, with unique possible flag1 child j, which is actual Q1. Hence Q2 is actual positive O and p(Q2)=F.",
+    "Signed early Q1 injectivity plus one flag1 child per O makes Q2 and its canonical d entry injective. Sole possible child Q2 then makes F injective. Same-R SSS chooses the unique higher incident C face F, so t is injective across all orientations.",
+    "For EWW, the directed L1 incoming edge has uniquely defined right C face P0. This recovers the distinct actual early P0, proving x injection across orientations.",
+    "The x class is three-read flat with L1=R2; d is three-read flat with L1=R0; t has same R headings. These rotation-invariant history types are pairwise disjoint and all disjoint from the one-read S-ancestor reservation. Aligning a full-drift translate before comparing preserves all histories/canonical identities, so every injection survives arbitrary quotient folding."
+  ],
+  "bounds": [
+    "Nodd>=n_Sanc+n_R3+2n_R4=n_A+n_R4",
+    "N_O>=n_R4"
+  ],
+  "scope": "Actual surviving early K1 sources only. OUTPUT capacity, no initial fuel, no addition to overlapping O/rise/helper counts, no actual-front construction or capture."
+}

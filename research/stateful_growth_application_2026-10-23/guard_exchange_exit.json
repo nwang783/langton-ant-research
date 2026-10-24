@@ -1,0 +1,258 @@
+{
+  "status": "EXACT NON-CLEAN TWO-GUARD EXIT, NOT A RENEWAL",
+  "domain": "M>=1 and r>=10 and r>=M+1",
+  "word": "W6^M J(r) V20",
+  "V20": "LLRLRRRRLRRRRLLLLRLR",
+  "retained_source_slice": [
+    960,
+    980
+  ],
+  "minimal_seed": "same complete2r+5-cell seed as guard_exchange.json",
+  "duration": "20M+8r+72",
+  "mass": "2r+19",
+  "endpoint": [
+    [
+      "-2M-4",
+      0
+    ],
+    3
+  ],
+  "complete_returned_relation": "[M, r] -> { [x, y] : M > 0 and r > M and r >= 10 and y <= 3 and ((y <= 2 - 2M - x and 2y >= 4 - 2M - x) or (y >= 2 + 2M - 2r + x and 2 <= y <= 3 + 2M - 2r + x) or (y >= 2M - 2r + x and 0 < y <= 2 and y <= 1 + 2M - 2r + x)); [x = 2 - 2M + 2r, y = -1] : M > 0 and r > M and r >= 10; [x = -1 - 2M + 2r, y = -1] : M > 0 and r > M and r >= 10; [x = 3 - 2M + 2r, y] : M > 0 and r > M and r >= 10 and 0 <= y <= 1; [x, y = 0] : M > 0 and r > M and r >= 10 and -2M < x < -2M + 2r; [x, y = -1 - 2M - x] : M > 0 and r > M and r >= 10 and -3 - 2M <= x <= -2 - 2M; [x, y = -2 - 2M - x] : M > 0 and r > M and r >= 10 and -1 - 2M <= x <= -2M; [x = -3 - 2M, y = 0] : M > 0 and r > M and r >= 10 }",
+  "complete_V20_change_relation": "[M, r] -> { [x, y] : M > 0 and r > M and r >= 10 and x < -2M and -2M - x < y <= 3; [x = -2M, y] : M > 0 and r > M and r >= 10 and 0 <= y <= 1; [x, y = -1 - 2M - x] : M > 0 and r > M and r >= 10 and -3 - 2M <= x <= -2 - 2M; [x = -3 - 2M, y = 0] : M > 0 and r > M and r >= 10 }",
+  "V20_clears_relative_to_p": [
+    [
+      -1,
+      2
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "V20_adds_relative_to_p": [
+    [
+      -3,
+      0
+    ],
+    [
+      -3,
+      2
+    ],
+    [
+      -2,
+      1
+    ],
+    [
+      -2,
+      3
+    ],
+    [
+      -1,
+      3
+    ]
+  ],
+  "reads": [
+    {
+      "phase": 0,
+      "relative": [
+        0,
+        0
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 1,
+      "relative": [
+        0,
+        1
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 2,
+      "relative": [
+        -1,
+        1
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 3,
+      "relative": [
+        -1,
+        2
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 4,
+      "relative": [
+        -2,
+        2
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 5,
+      "relative": [
+        -2,
+        3
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 6,
+      "relative": [
+        -1,
+        3
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 7,
+      "relative": [
+        -1,
+        2
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 8,
+      "relative": [
+        -2,
+        2
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 9,
+      "relative": [
+        -2,
+        1
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 10,
+      "relative": [
+        -3,
+        1
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 11,
+      "relative": [
+        -3,
+        2
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 12,
+      "relative": [
+        -2,
+        2
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 13,
+      "relative": [
+        -2,
+        1
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 14,
+      "relative": [
+        -1,
+        1
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 15,
+      "relative": [
+        -1,
+        2
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 16,
+      "relative": [
+        -2,
+        2
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 17,
+      "relative": [
+        -2,
+        1
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 18,
+      "relative": [
+        -3,
+        1
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 19,
+      "relative": [
+        -3,
+        0
+      ],
+      "heading": 2,
+      "turn": "R"
+    }
+  ],
+  "control": {
+    "M": 50,
+    "r": 51,
+    "reads": 1480,
+    "initial_mass": 107,
+    "returned_mass": 121,
+    "head": [
+      -104,
+      0
+    ],
+    "heading": 3
+  },
+  "source_sha256": "79ce98928489839ec9a8dedae89e0f475a834eeeae1a0d8fdcc86d89a47c7a6a",
+  "bindings": {
+    "guard_exchange.json": "ec66ffe38cc29a729f89de0ae225f74d21c06bc980b676048b6bdf73f0301f05",
+    "two_layer_gap_frame_r10_k10.word.txt": "24e9037ee2a4a39183c2359b65ad54072c364aa5b6bfeb7fefa48d491332fbcf"
+  },
+  "scope": "Exact retained V20 continuation: clear both local guards, retain garbage,\nand exit at a different physical pose. No scan and no claimed next interface.\n"
+}

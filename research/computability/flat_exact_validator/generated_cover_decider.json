@@ -1,0 +1,291 @@
+{
+  "records": [
+    {
+      "processed_schemes": 2,
+      "last_base_length": 1,
+      "theoretical_base_bound": 1,
+      "requirement_states": {
+        "(-1, -1)": [
+          1,
+          1
+        ],
+        "(-1, 1)": [
+          1,
+          1
+        ],
+        "(1, -1)": [
+          1,
+          1
+        ],
+        "(1, 1)": [
+          1,
+          2
+        ]
+      },
+      "status": "decided",
+      "possible": true,
+      "complete_generated_cover": true,
+      "candidate_seed": [],
+      "given_seed_validation": {
+        "possible": true,
+        "frame_checks": 4,
+        "nested_root": true,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "seed": []
+      },
+      "seconds": 0.04909931700967718,
+      "name": "identity_R"
+    },
+    {
+      "processed_schemes": 2,
+      "last_base_length": 1,
+      "theoretical_base_bound": 1,
+      "requirement_states": {
+        "(-1, -1)": [
+          1,
+          1
+        ],
+        "(-1, 1)": [
+          1,
+          1
+        ],
+        "(1, -1)": [
+          1,
+          1
+        ],
+        "(1, 1)": [
+          2,
+          1
+        ]
+      },
+      "status": "decided",
+      "possible": true,
+      "complete_generated_cover": true,
+      "candidate_seed": [
+        [
+          0,
+          0
+        ]
+      ],
+      "given_seed_validation": {
+        "possible": true,
+        "frame_checks": 4,
+        "nested_root": true,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "seed": [
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "seconds": 0.00806756698875688,
+      "name": "identity_L"
+    },
+    {
+      "processed_schemes": 6,
+      "last_base_length": 5,
+      "theoretical_base_bound": 5,
+      "requirement_states": {
+        "(-1, -1)": [
+          1,
+          1
+        ],
+        "(-1, 1)": [
+          1,
+          1
+        ],
+        "(1, -1)": [
+          1,
+          1
+        ],
+        "(1, 1)": [
+          1,
+          2
+        ]
+      },
+      "status": "decided",
+      "possible": true,
+      "complete_generated_cover": true,
+      "candidate_seed": [],
+      "given_seed_validation": {
+        "possible": true,
+        "frame_checks": 8,
+        "nested_root": false,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "seed": []
+      },
+      "seconds": 0.022452402001363225,
+      "name": "two_state_cycle"
+    },
+    {
+      "processed_schemes": 6,
+      "last_base_length": 1,
+      "theoretical_base_bound": 83,
+      "requirement_states": {
+        "(-1, -1)": [
+          1,
+          1
+        ],
+        "(-1, 1)": [
+          1,
+          1
+        ],
+        "(1, -1)": [
+          1,
+          3
+        ],
+        "(1, 1)": [
+          2,
+          3
+        ]
+      },
+      "status": "decided",
+      "possible": false,
+      "early_certificate": {
+        "reason": "conflicting genuine requirements",
+        "signs": [
+          1,
+          1
+        ],
+        "witness": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "coverage_exhaustion_needed": false,
+      "seconds": 0.04900037799961865,
+      "name": "branching_R5"
+    },
+    {
+      "processed_schemes": 21,
+      "last_base_length": 2,
+      "theoretical_base_bound": 583,
+      "requirement_states": {
+        "(-1, -1)": [
+          1,
+          1
+        ],
+        "(-1, 1)": [
+          1,
+          1
+        ],
+        "(1, -1)": [
+          1,
+          3
+        ],
+        "(1, 1)": [
+          9,
+          7
+        ]
+      },
+      "status": "decided",
+      "possible": false,
+      "early_certificate": {
+        "reason": "infinite genuine required-black set",
+        "signs": [
+          1,
+          1
+        ]
+      },
+      "coverage_exhaustion_needed": false,
+      "seconds": 0.657131854997715,
+      "name": "branching_nine"
+    },
+    {
+      "processed_schemes": 1450,
+      "last_base_length": 161,
+      "theoretical_base_bound": 161,
+      "requirement_states": {
+        "(-1, -1)": [
+          1,
+          1
+        ],
+        "(-1, 1)": [
+          1,
+          1
+        ],
+        "(1, -1)": [
+          1,
+          3
+        ],
+        "(1, 1)": [
+          3,
+          2
+        ]
+      },
+      "status": "decided",
+      "possible": true,
+      "complete_generated_cover": true,
+      "candidate_seed": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "given_seed_validation": {
+        "possible": true,
+        "frame_checks": 68,
+        "nested_root": false,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "seed": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "seconds": 2.4088546309940284,
+      "name": "transient_nine_positive"
+    },
+    {
+      "processed_schemes": 1,
+      "last_base_length": 0,
+      "theoretical_base_bound": 161,
+      "requirement_states": {
+        "(-1, -1)": [
+          1,
+          1
+        ],
+        "(-1, 1)": [
+          1,
+          1
+        ],
+        "(1, -1)": [
+          1,
+          1
+        ],
+        "(1, 1)": [
+          1,
+          2
+        ]
+      },
+      "status": "unknown: explicit cover-enumeration cap",
+      "possible": null,
+      "seconds": 0.06529125300585292,
+      "name": "explicit_cap_unknown"
+    }
+  ],
+  "seconds": 3.2612203610042343,
+  "scope": "Integrated generated-cover arbitrary-mass/radius same-board realization decision for arbitrary branching additive-I physical unit presentations, subject to explicit computation resources. Full finite-power matrices and finite macro bases are not in this implementation. No accepted growing model or general finite-seed capture theorem."
+}

@@ -1,0 +1,72 @@
+{
+  "status": "PASS ALL M>=1 original394-cell complete capture including infinite SW104 tail",
+  "domain": "M>=1, original producer N=3M+4",
+  "original_mass": 394,
+  "stage_count": 18,
+  "read_count_affine": [
+    137892,
+    514609
+  ],
+  "end_pose_affine": [
+    [
+      -156,
+      -399
+    ],
+    [
+      -156,
+      -429
+    ],
+    0
+  ],
+  "end_mass_affine": [
+    13596,
+    41167
+  ],
+  "K_count_affine": [
+    13269,
+    104594
+  ],
+  "tail_drift": [
+    -2,
+    -2
+  ],
+  "infinite_tail_orbit_intervals": 4056,
+  "physical_classes": 13293,
+  "parameter_regions": 13514,
+  "spatial_slabs": 69149,
+  "read_obligations": 367441,
+  "global_partition_starts": [
+    1,
+    2
+  ],
+  "exact_first_L_count": [
+    0,
+    394
+  ],
+  "obligation_digest": "f05828b314e18e48f49064dd9f09de892e9bb2b30cba198554469d02dacd4464",
+  "literal_controls": [
+    {
+      "M": 1,
+      "producer_N": 7,
+      "reads": 652501,
+      "final_mass": 54763,
+      "K": 117863,
+      "final_field_sha256": "4cbf1d3e4740fa78a4c651ab4f1491b98ce60f1bcb8f87cd89f4c21d7b7439c8"
+    },
+    {
+      "M": 2,
+      "producer_N": 10,
+      "reads": 790393,
+      "final_mass": 68359,
+      "K": 131132,
+      "final_field_sha256": "629bdc64031d2c5bda66a18afd0745c3f35fadd2711010072f016a62933f107d"
+    }
+  ],
+  "source_hashes": {
+    "prepared4352_uniform_support_manifest.json": "e3f1940d073741ad8bf48a4a8f6b33942569c4a20bc23c2809bf885ae9f0f6d4",
+    "prepared4352_finite_return_supply.json": "8b5dacb4db5ac04ea0b2d3bf4796eceb7061bc77014d668f887a880197167543",
+    "prepared4352_output_return_wave.json": "5c9a8da268b5a90d3c76ed3fe6b341866783094af45832210c048748a7e58e28",
+    "prepared4352_capture_manifest.json": "52d80fe06d739254a9d71615de67bfb6639d1f4d1301455b4f332d7110874f9b"
+  },
+  "scope": "Every original394-cell member N=3M+4, M>=1, executes both growing nonstandard phases and eventually captures SW104. All future tail reads are included as exact negative-infinite physical intervals. No claim for other original N or universal capture."
+}

@@ -1,0 +1,195 @@
+{
+  "status": "AUTHOR_COMPLETE_UNARY_PRECLEARANCE_GEOMETRY_AND_CLOCK_PASS",
+  "scope": "Conditional: main source output(2,0) stays current; each original source spare is retired by a D packet before the next DC continuation. Other helper packets and replacements are allowed. No physical realization or all-chain exclusion.",
+  "source_DC_outputs": [
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ]
+  ],
+  "all_six_sector_D_consumer_poses": [
+    {
+      "retired_index": 1,
+      "pose": [
+        2,
+        2,
+        0
+      ],
+      "blockers": [
+        {
+          "source_output_index": 3,
+          "reason": "core"
+        }
+      ]
+    },
+    {
+      "retired_index": 1,
+      "pose": [
+        2,
+        4,
+        2
+      ],
+      "blockers": []
+    },
+    {
+      "retired_index": 2,
+      "pose": [
+        2,
+        1,
+        1
+      ],
+      "blockers": [
+        {
+          "source_output_index": 0,
+          "reason": "core"
+        }
+      ]
+    },
+    {
+      "retired_index": 2,
+      "pose": [
+        4,
+        1,
+        3
+      ],
+      "blockers": [
+        {
+          "source_output_index": 1,
+          "reason": "white"
+        },
+        {
+          "source_output_index": 3,
+          "reason": "white"
+        }
+      ]
+    },
+    {
+      "retired_index": 3,
+      "pose": [
+        3,
+        1,
+        0
+      ],
+      "blockers": [
+        {
+          "source_output_index": 0,
+          "reason": "core"
+        },
+        {
+          "source_output_index": 2,
+          "reason": "core"
+        }
+      ]
+    },
+    {
+      "retired_index": 3,
+      "pose": [
+        3,
+        3,
+        2
+      ],
+      "blockers": [
+        {
+          "source_output_index": 1,
+          "reason": "core"
+        }
+      ]
+    }
+  ],
+  "unique_original_identity_clearance_order": [
+    {
+      "retired_index": 1,
+      "pose": [
+        2,
+        4,
+        2
+      ],
+      "blockers": []
+    },
+    {
+      "retired_index": 3,
+      "pose": [
+        3,
+        3,
+        2
+      ],
+      "blockers": [
+        {
+          "source_output_index": 1,
+          "reason": "core"
+        }
+      ]
+    },
+    {
+      "retired_index": 2,
+      "pose": [
+        4,
+        1,
+        3
+      ],
+      "blockers": [
+        {
+          "source_output_index": 1,
+          "reason": "white"
+        },
+        {
+          "source_output_index": 3,
+          "reason": "white"
+        }
+      ]
+    }
+  ],
+  "replacement_D_outputs": [
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      4,
+      3
+    ]
+  ],
+  "replacements_miss_later_cleanup_and_continuation_contexts": true,
+  "minimum_source_C_clocks": [
+    6,
+    10,
+    13
+  ],
+  "minimum_precleared_first_continuation_C_age": 15,
+  "zero_C_obstruction": {
+    "first_D_raw_exit": [
+      1,
+      3
+    ],
+    "second_D_start": [
+      3,
+      3
+    ],
+    "required_displacement": [
+      2,
+      0
+    ],
+    "zero_C_DVU_heading2_x_displacements": [
+      -1,
+      -1,
+      0
+    ]
+  },
+  "input_sha256": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd"
+}

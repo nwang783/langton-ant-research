@@ -1,0 +1,130 @@
+{
+  "status": "PASS mandatory fixed-LL-controls b-incidence obstruction; prior conditional cycle-owner continuation counterfactual",
+  "script": "78efaa67c24136d7bc07c4747ae40873c811ff301a856d812062726e10fcf789",
+  "bindings": {
+    "fixed_LL_supplier_controls_cannot_put_Y_on_a_b_cycle.md": "c78ff9a789c643535d8052b30306279ee8872705c8e6e6bb4d358382f76dd079",
+    "check_fixed_LL_supplier_b_incidence.py": "805a3d643d6c7433cc8bf695ba6dcda535e4097f7d0226397aac510003fb9b18",
+    "check_fixed_LL_supplier_b_incidence.json": "2b6b0ce442fb2cfbeab86c42f7f630c07ab73e5af30bebd552a1b828da232fd7",
+    "check_fixed_LL_L3_supplier_controls.json": "0d78caa060dfa639958fa1a6413003ddf4384b4486c2f950a945402bba985a2e"
+  },
+  "controls": [
+    {
+      "kind": "positive",
+      "U_predecessors": [],
+      "Y_predecessors": [
+        [
+          1,
+          2
+        ]
+      ],
+      "fixed_departures": [
+        {
+          "cell": [
+            0,
+            2
+          ],
+          "first_heading": "S",
+          "destination": [
+            -1,
+            2
+          ]
+        },
+        {
+          "cell": [
+            2,
+            2
+          ],
+          "first_heading": "N",
+          "destination": [
+            3,
+            2
+          ]
+        },
+        {
+          "cell": [
+            1,
+            2
+          ],
+          "first_heading": "E",
+          "destination": [
+            1,
+            1
+          ]
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "first_heading": "E",
+          "destination": [
+            1,
+            -1
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "negative",
+      "U_predecessors": [],
+      "Y_predecessors": [
+        [
+          1,
+          2
+        ]
+      ],
+      "fixed_departures": [
+        {
+          "cell": [
+            0,
+            2
+          ],
+          "first_heading": "S",
+          "destination": [
+            -1,
+            2
+          ]
+        },
+        {
+          "cell": [
+            2,
+            2
+          ],
+          "first_heading": "N",
+          "destination": [
+            3,
+            2
+          ]
+        },
+        {
+          "cell": [
+            1,
+            2
+          ],
+          "first_heading": "E",
+          "destination": [
+            1,
+            1
+          ]
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "first_heading": "E",
+          "destination": [
+            1,
+            -1
+          ]
+        }
+      ]
+    }
+  ],
+  "analytic_review": [
+    "Fixed Manhattan sector is determined by actual step/turn parity, not an exterior cap or WHITE assumption. AtU only the horizontal physicalneighbors can depart towardit; both are fixed and firstR goesaway. AtY only verticalneighbors can feedit; the sole actual predecessor isU. ThusU has zero bindegree andY cannot be cyclic.",
+    "Every edge of a full-drift quotient cycle lifts to a physical edge into an actual translate. Translation preserves all complete firstR histories; the same missing incomingedge holds at every U copy. A quotient wrap cannot supply another neighbor or rotate an assigned first heading.",
+    "This makes the prior conditional global distinct-long-owner consequence in8a0f/Stage37 counterfactual for these TWO FIXED inventories. Their complete local port equations, stream heights, injective clocks and positive45/negative-3 late tails remain validOPEN local networks; possible off-cycle b-tree/factor roles are not excluded.",
+    "No exclusion of every negative supplier profile. The other modes U=EEWW,T=SSNN do giveT->U->Y and require separate analysis. No exterior-cap,criticalheight,age,fuel,globalfront or attraction theorem is inferred."
+  ]
+}

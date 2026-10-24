@@ -1,0 +1,198 @@
+{
+  "status": "PASS",
+  "explicit_faces": 6,
+  "explicit_target_representative_checks": 16,
+  "grandchildren": [
+    {
+      "root_word": "RL",
+      "sign": "R",
+      "pose": [
+        1,
+        1,
+        0
+      ],
+      "possible_tracked_hits": [
+        {
+          "physical_cell": [
+            1,
+            0
+          ],
+          "boundary_group_word": "RLRRR",
+          "tracked_representative": "R"
+        }
+      ]
+    },
+    {
+      "root_word": "RLL",
+      "sign": "R",
+      "pose": [
+        0,
+        1,
+        3
+      ],
+      "possible_tracked_hits": []
+    },
+    {
+      "root_word": "RRL",
+      "sign": "R",
+      "pose": [
+        2,
+        -1,
+        1
+      ],
+      "possible_tracked_hits": [
+        {
+          "physical_cell": [
+            1,
+            -1
+          ],
+          "boundary_group_word": "RRLRRR",
+          "tracked_representative": "RR"
+        }
+      ]
+    },
+    {
+      "root_word": "RRLL",
+      "sign": "R",
+      "pose": [
+        2,
+        0,
+        0
+      ],
+      "possible_tracked_hits": []
+    },
+    {
+      "root_word": "LR",
+      "sign": "L",
+      "pose": [
+        -1,
+        1,
+        0
+      ],
+      "possible_tracked_hits": [
+        {
+          "physical_cell": [
+            -1,
+            0
+          ],
+          "boundary_group_word": "LRLLL",
+          "tracked_representative": "L"
+        }
+      ]
+    },
+    {
+      "root_word": "LRR",
+      "sign": "L",
+      "pose": [
+        0,
+        1,
+        1
+      ],
+      "possible_tracked_hits": []
+    },
+    {
+      "root_word": "LLR",
+      "sign": "L",
+      "pose": [
+        -2,
+        -1,
+        3
+      ],
+      "possible_tracked_hits": [
+        {
+          "physical_cell": [
+            -1,
+            -1
+          ],
+          "boundary_group_word": "LLRLLL",
+          "tracked_representative": "LL"
+        }
+      ]
+    },
+    {
+      "root_word": "LLRR",
+      "sign": "L",
+      "pose": [
+        -2,
+        0,
+        0
+      ],
+      "possible_tracked_hits": []
+    }
+  ],
+  "rebasing_cases": [
+    {
+      "first_letter": "R",
+      "same_turn_count": 1,
+      "initial_cell_in_rebased_frame": [
+        0,
+        -1
+      ],
+      "tracked_representative": "RRR"
+    },
+    {
+      "first_letter": "R",
+      "same_turn_count": 2,
+      "initial_cell_in_rebased_frame": [
+        1,
+        -1
+      ],
+      "tracked_representative": "RR"
+    },
+    {
+      "first_letter": "R",
+      "same_turn_count": 3,
+      "initial_cell_in_rebased_frame": [
+        1,
+        0
+      ],
+      "tracked_representative": "R"
+    },
+    {
+      "first_letter": "R",
+      "same_turn_count": 4,
+      "initial_cell_in_rebased_frame": [
+        0,
+        0
+      ],
+      "tracked_representative": ""
+    },
+    {
+      "first_letter": "L",
+      "same_turn_count": 1,
+      "initial_cell_in_rebased_frame": [
+        0,
+        -1
+      ],
+      "tracked_representative": "RRR"
+    },
+    {
+      "first_letter": "L",
+      "same_turn_count": 2,
+      "initial_cell_in_rebased_frame": [
+        -1,
+        -1
+      ],
+      "tracked_representative": "LL"
+    },
+    {
+      "first_letter": "L",
+      "same_turn_count": 3,
+      "initial_cell_in_rebased_frame": [
+        -1,
+        0
+      ],
+      "tracked_representative": "L"
+    },
+    {
+      "first_letter": "L",
+      "same_turn_count": 4,
+      "initial_cell_in_rebased_frame": [
+        0,
+        0
+      ],
+      "tracked_representative": ""
+    }
+  ],
+  "scope": "Exact finite geometry and free-product coset table. Depends analytically on module trapping, return grammar, packet support bounds, and interval completion."
+}

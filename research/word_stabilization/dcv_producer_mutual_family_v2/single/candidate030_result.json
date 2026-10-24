@@ -1,0 +1,59 @@
+{
+  "candidate_index": 30,
+  "tuple": [
+    1,
+    1,
+    3,
+    1,
+    0,
+    3,
+    2
+  ],
+  "attempts": [
+    {
+      "mode": "source",
+      "round": 0,
+      "watched": [
+        [
+          -1,
+          -1
+        ]
+      ],
+      "variables": 22,
+      "result": "status ABSTRACT_WITNESS states 11497936 depth 63 nodes 123973",
+      "prefix": "/workspace/shared/langton/word_stabilization/dcv_producer_mutual_family_v2/single/candidate030_source_r0_quotient"
+    },
+    {
+      "mode": "source",
+      "round": 1,
+      "watched": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "variables": 36,
+      "result": "status EXHAUSTED_NO_HIT states 121894 depth 36 nodes 46261",
+      "prefix": "/workspace/shared/langton/word_stabilization/dcv_producer_mutual_family_v2/single/candidate030_source_r1_quotient",
+      "verified": "{\"status\": \"VERIFIED_INDUCTIVE_NO_HIT\", \"variables\": 36, \"positions\": 197, \"nodes\": 46261, \"states\": 121894, \"checks\": 1111, \"memo_states\": 583918}"
+    }
+  ],
+  "status": "EXHAUSTED_NO_HIT",
+  "certificate_prefix": "/workspace/shared/langton/word_stabilization/dcv_producer_mutual_family_v2/single/candidate030_source_r1_quotient"
+}

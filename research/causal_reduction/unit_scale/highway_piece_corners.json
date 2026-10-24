@@ -1,0 +1,91 @@
+{
+  "scope": "Discovery only: exact two-phase S-corner histories using cyclic subwords of the signed104.\nNo arbitrary word-length escalation; no whole-device claim from a local survivor.\n",
+  "source104_sha256": "9772fa0cced75fab3a1d336c6a1326e0e4be8f4e471a3807e0778fccc94c1f04",
+  "distinct_subwords": 2521,
+  "one_lap_feasible": 46,
+  "endpoints": 20,
+  "same_endpoint_pairs": 104,
+  "fixed_survivors": [],
+  "two_phase_survivors": [],
+  "failures": {
+    "one_lap_conflict": 2475
+  },
+  "best_bad_count": 2,
+  "near": [
+    {
+      "words": [
+        "RLR",
+        "RLR"
+      ],
+      "end": [
+        2,
+        1,
+        1
+      ],
+      "bad": [
+        [
+          [
+            1,
+            0
+          ],
+          "L"
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          "L"
+        ]
+      ],
+      "odd": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "words": [
+        "RLLRRLR",
+        "RLLRRLR"
+      ],
+      "end": [
+        2,
+        3,
+        1
+      ],
+      "bad": [
+        [
+          [
+            3,
+            0
+          ],
+          "L"
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          "L"
+        ]
+      ],
+      "odd": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    }
+  ],
+  "seconds": 0.09075236320495605
+}

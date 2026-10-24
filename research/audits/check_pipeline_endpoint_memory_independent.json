@@ -1,0 +1,42 @@
+{
+  "status": "PASS independent literal H endpoint memory and affine count identities",
+  "note_sha256": "fb24ec920795c34e4dde5da8c14083bcf9b6d34bca9f5a40962e66f64be6a676",
+  "last_reads": {
+    "(2+2j)": [
+      [
+        32,
+        "R"
+      ],
+      [
+        36,
+        "L"
+      ],
+      [
+        40,
+        "R"
+      ]
+    ],
+    "(2+3j)": [
+      [
+        33,
+        "L"
+      ],
+      [
+        37,
+        "R"
+      ],
+      [
+        41,
+        "L"
+      ]
+    ],
+    "(3+3j)": [
+      [
+        38,
+        "R"
+      ]
+    ]
+  },
+  "formula": "for every integer u<=2: forced LRL requires length >=19-4u versus geometric minimum11-4u",
+  "scope": "Only first connector of the signed disconnected H/LR/Q phase family. Eight-read surcharge, kinematically sharp but no color-realizability or longer-connector exclusion."
+}

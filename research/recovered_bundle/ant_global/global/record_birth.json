@@ -1,0 +1,638 @@
+{
+  "status": "all_exact_cases_passed",
+  "six_step_macro": {
+    "events": [
+      {
+        "time": 0,
+        "cell": [
+          0,
+          0
+        ],
+        "incoming": 1,
+        "black": true,
+        "outgoing": 0
+      },
+      {
+        "time": 1,
+        "cell": [
+          0,
+          1
+        ],
+        "incoming": 0,
+        "black": false,
+        "outgoing": 1
+      },
+      {
+        "time": 2,
+        "cell": [
+          1,
+          1
+        ],
+        "incoming": 1,
+        "black": false,
+        "outgoing": 2
+      },
+      {
+        "time": 3,
+        "cell": [
+          1,
+          0
+        ],
+        "incoming": 2,
+        "black": false,
+        "outgoing": 3
+      },
+      {
+        "time": 4,
+        "cell": [
+          0,
+          0
+        ],
+        "incoming": 3,
+        "black": false,
+        "outgoing": 0
+      },
+      {
+        "time": 5,
+        "cell": [
+          0,
+          1
+        ],
+        "incoming": 0,
+        "black": true,
+        "outgoing": 3
+      }
+    ],
+    "end": {
+      "black": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "position": [
+        -1,
+        1
+      ],
+      "heading": 3
+    }
+  },
+  "first_returns": [
+    {
+      "initial_q_black": false,
+      "initial_z_black": false,
+      "steps": 12,
+      "word": "RLRRRRLRRRRL",
+      "events": [
+        {
+          "time": 0,
+          "cell": [
+            -1,
+            0
+          ],
+          "incoming": 0,
+          "black": false,
+          "outgoing": 1
+        },
+        {
+          "time": 1,
+          "cell": [
+            0,
+            0
+          ],
+          "incoming": 1,
+          "black": true,
+          "outgoing": 0
+        },
+        {
+          "time": 2,
+          "cell": [
+            0,
+            1
+          ],
+          "incoming": 0,
+          "black": false,
+          "outgoing": 1
+        },
+        {
+          "time": 3,
+          "cell": [
+            1,
+            1
+          ],
+          "incoming": 1,
+          "black": false,
+          "outgoing": 2
+        },
+        {
+          "time": 4,
+          "cell": [
+            1,
+            0
+          ],
+          "incoming": 2,
+          "black": false,
+          "outgoing": 3
+        },
+        {
+          "time": 5,
+          "cell": [
+            0,
+            0
+          ],
+          "incoming": 3,
+          "black": false,
+          "outgoing": 0
+        },
+        {
+          "time": 6,
+          "cell": [
+            0,
+            1
+          ],
+          "incoming": 0,
+          "black": true,
+          "outgoing": 3
+        },
+        {
+          "time": 7,
+          "cell": [
+            -1,
+            1
+          ],
+          "incoming": 3,
+          "black": false,
+          "outgoing": 0
+        },
+        {
+          "time": 8,
+          "cell": [
+            -1,
+            2
+          ],
+          "incoming": 0,
+          "black": false,
+          "outgoing": 1
+        },
+        {
+          "time": 9,
+          "cell": [
+            0,
+            2
+          ],
+          "incoming": 1,
+          "black": false,
+          "outgoing": 2
+        },
+        {
+          "time": 10,
+          "cell": [
+            0,
+            1
+          ],
+          "incoming": 2,
+          "black": false,
+          "outgoing": 3
+        },
+        {
+          "time": 11,
+          "cell": [
+            -1,
+            1
+          ],
+          "incoming": 3,
+          "black": true,
+          "outgoing": 2
+        }
+      ],
+      "end": {
+        "black": [
+          [
+            -1,
+            0
+          ],
+          [
+            -1,
+            2
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "position": [
+          -1,
+          0
+        ],
+        "heading": 2
+      }
+    },
+    {
+      "initial_q_black": false,
+      "initial_z_black": true,
+      "steps": 8,
+      "word": "RLRRRRLL",
+      "events": [
+        {
+          "time": 0,
+          "cell": [
+            -1,
+            0
+          ],
+          "incoming": 0,
+          "black": false,
+          "outgoing": 1
+        },
+        {
+          "time": 1,
+          "cell": [
+            0,
+            0
+          ],
+          "incoming": 1,
+          "black": true,
+          "outgoing": 0
+        },
+        {
+          "time": 2,
+          "cell": [
+            0,
+            1
+          ],
+          "incoming": 0,
+          "black": false,
+          "outgoing": 1
+        },
+        {
+          "time": 3,
+          "cell": [
+            1,
+            1
+          ],
+          "incoming": 1,
+          "black": false,
+          "outgoing": 2
+        },
+        {
+          "time": 4,
+          "cell": [
+            1,
+            0
+          ],
+          "incoming": 2,
+          "black": false,
+          "outgoing": 3
+        },
+        {
+          "time": 5,
+          "cell": [
+            0,
+            0
+          ],
+          "incoming": 3,
+          "black": false,
+          "outgoing": 0
+        },
+        {
+          "time": 6,
+          "cell": [
+            0,
+            1
+          ],
+          "incoming": 0,
+          "black": true,
+          "outgoing": 3
+        },
+        {
+          "time": 7,
+          "cell": [
+            -1,
+            1
+          ],
+          "incoming": 3,
+          "black": true,
+          "outgoing": 2
+        }
+      ],
+      "end": {
+        "black": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "position": [
+          -1,
+          0
+        ],
+        "heading": 2
+      }
+    },
+    {
+      "initial_q_black": true,
+      "initial_z_black": false,
+      "steps": 12,
+      "word": "LLRRRRLRRRRL",
+      "events": [
+        {
+          "time": 0,
+          "cell": [
+            -1,
+            0
+          ],
+          "incoming": 2,
+          "black": true,
+          "outgoing": 1
+        },
+        {
+          "time": 1,
+          "cell": [
+            0,
+            0
+          ],
+          "incoming": 1,
+          "black": true,
+          "outgoing": 0
+        },
+        {
+          "time": 2,
+          "cell": [
+            0,
+            1
+          ],
+          "incoming": 0,
+          "black": false,
+          "outgoing": 1
+        },
+        {
+          "time": 3,
+          "cell": [
+            1,
+            1
+          ],
+          "incoming": 1,
+          "black": false,
+          "outgoing": 2
+        },
+        {
+          "time": 4,
+          "cell": [
+            1,
+            0
+          ],
+          "incoming": 2,
+          "black": false,
+          "outgoing": 3
+        },
+        {
+          "time": 5,
+          "cell": [
+            0,
+            0
+          ],
+          "incoming": 3,
+          "black": false,
+          "outgoing": 0
+        },
+        {
+          "time": 6,
+          "cell": [
+            0,
+            1
+          ],
+          "incoming": 0,
+          "black": true,
+          "outgoing": 3
+        },
+        {
+          "time": 7,
+          "cell": [
+            -1,
+            1
+          ],
+          "incoming": 3,
+          "black": false,
+          "outgoing": 0
+        },
+        {
+          "time": 8,
+          "cell": [
+            -1,
+            2
+          ],
+          "incoming": 0,
+          "black": false,
+          "outgoing": 1
+        },
+        {
+          "time": 9,
+          "cell": [
+            0,
+            2
+          ],
+          "incoming": 1,
+          "black": false,
+          "outgoing": 2
+        },
+        {
+          "time": 10,
+          "cell": [
+            0,
+            1
+          ],
+          "incoming": 2,
+          "black": false,
+          "outgoing": 3
+        },
+        {
+          "time": 11,
+          "cell": [
+            -1,
+            1
+          ],
+          "incoming": 3,
+          "black": true,
+          "outgoing": 2
+        }
+      ],
+      "end": {
+        "black": [
+          [
+            -1,
+            2
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "position": [
+          -1,
+          0
+        ],
+        "heading": 2
+      }
+    },
+    {
+      "initial_q_black": true,
+      "initial_z_black": true,
+      "steps": 8,
+      "word": "LLRRRRLL",
+      "events": [
+        {
+          "time": 0,
+          "cell": [
+            -1,
+            0
+          ],
+          "incoming": 2,
+          "black": true,
+          "outgoing": 1
+        },
+        {
+          "time": 1,
+          "cell": [
+            0,
+            0
+          ],
+          "incoming": 1,
+          "black": true,
+          "outgoing": 0
+        },
+        {
+          "time": 2,
+          "cell": [
+            0,
+            1
+          ],
+          "incoming": 0,
+          "black": false,
+          "outgoing": 1
+        },
+        {
+          "time": 3,
+          "cell": [
+            1,
+            1
+          ],
+          "incoming": 1,
+          "black": false,
+          "outgoing": 2
+        },
+        {
+          "time": 4,
+          "cell": [
+            1,
+            0
+          ],
+          "incoming": 2,
+          "black": false,
+          "outgoing": 3
+        },
+        {
+          "time": 5,
+          "cell": [
+            0,
+            0
+          ],
+          "incoming": 3,
+          "black": false,
+          "outgoing": 0
+        },
+        {
+          "time": 6,
+          "cell": [
+            0,
+            1
+          ],
+          "incoming": 0,
+          "black": true,
+          "outgoing": 3
+        },
+        {
+          "time": 7,
+          "cell": [
+            -1,
+            1
+          ],
+          "incoming": 3,
+          "black": true,
+          "outgoing": 2
+        }
+      ],
+      "end": {
+        "black": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "position": [
+          -1,
+          0
+        ],
+        "heading": 2
+      }
+    }
+  ]
+}

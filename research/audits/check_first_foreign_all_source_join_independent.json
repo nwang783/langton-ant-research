@@ -1,0 +1,74 @@
+{
+  "status": "PASS one-first-foreign U-entry proxy simplicity",
+  "manifest_sha256": "89e23b42f325e0af556a0488ec6699d99311487424930730cd228408ba515662",
+  "clock_labels": 375,
+  "source_counts": {
+    "D": 56,
+    "C": 53,
+    "V": 122,
+    "U": 144
+  },
+  "exclusion_counts": {
+    "DV_foreign_prefix_guard": 60,
+    "complete8_foreign_adjacency": 189,
+    "first_foreign_C_source_exclusion": 25,
+    "first_foreign_U_source_exclusion": 72,
+    "DV_foreign_tail_guard": 29
+  },
+  "literal_foreign_vertices": {
+    "F": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -7,
+        -3
+      ]
+    ],
+    "Q": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -7,
+        -3
+      ],
+      [
+        -7,
+        -7
+      ]
+    ],
+    "B": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -7,
+        -3
+      ],
+      [
+        -5,
+        -9
+      ]
+    ]
+  },
+  "internal_determinants": {
+    "Q": 24,
+    "B": 40
+  },
+  "old_terminal_join_determinants": {
+    "V": 32,
+    "U": 48
+  },
+  "analytic": [
+    "The old finite U-entry atomic path is injective. The appended foreign is itself injective by its noncollinear literal pieces. Its initial point is the old terminal point and cannot be revisited by the new proxy.",
+    "Plain V/U are the only actual preceding full packets, with no C tail. The old/new adjacent pieces are noncollinear, hence share only their true endpoint. All other old segments have positive distance from this endpoint because the old path is finite and simple. Thus any nonadjacent contact has an earliest strictly positive new parameter.",
+    "Every old internal vertex has a unique outgoing old segment, including the factor entry. Using source parameter [0,1) neither drops that vertex nor falsely includes the old terminal point. A new F-prefix endpoint belongs to the prefix catalogue. A first contact in the open tail has no prior prefix contact except actual initial adjacency; the signed tail catalogue retains collinear onset and legal initial-adjacency endpoint conventions.",
+    "At this chronological first contact the intervening old simple arc plus new contact-free arc has precisely the signed catalogue Jordan premise. It does not require that the whole extended proxy was already simple, and no eight-language lifetime is imported across the foreign.",
+    "All 375 necessary labels are removed by five separately signed source/adjacency classes. Therefore the one extended finite proxy is injective apart from consecutive endpoints."
+  ],
+  "scope": "One actual first complete F/Q/B after a finite actual U-entry complete-eight factor only. No returned-eight or second-foreign simplicity, generic mixed-graph coverage, eventual entry, termination or universal capture."
+}

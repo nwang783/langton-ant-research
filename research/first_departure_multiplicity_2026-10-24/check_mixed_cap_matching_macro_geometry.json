@@ -1,0 +1,417 @@
+{
+  "scope": "Literal all-length packet geometry after the separately proved saturated\nLL/RR matching. Controls check formulas; they are not a period/length scan.\n",
+  "packets": [
+    {
+      "name": "passive",
+      "word": "RRLL",
+      "displacement": [
+        2,
+        0
+      ],
+      "ending_heading": "N",
+      "trail": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "genuine",
+      "word": "RLLR",
+      "displacement": [
+        0,
+        2
+      ],
+      "ending_heading": "N",
+      "trail": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "singleton",
+      "word": "RL",
+      "displacement": [
+        1,
+        1
+      ],
+      "ending_heading": "N",
+      "trail": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "name": "high",
+      "later_RR": 0,
+      "word": "RLRLRL",
+      "displacement": [
+        3,
+        3
+      ],
+      "ending_heading": "N",
+      "trail": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "name": "high",
+      "later_RR": 1,
+      "word": "RLRLRLLRRL",
+      "displacement": [
+        3,
+        5
+      ],
+      "ending_heading": "N",
+      "trail": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "name": "high",
+      "later_RR": 2,
+      "word": "RLRLRLLRRLLRRL",
+      "displacement": [
+        3,
+        7
+      ],
+      "ending_heading": "N",
+      "trail": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "name": "high",
+      "later_RR": 7,
+      "word": "RLRLRLLRRLLRRLLRRLLRRLLRRLLRRLLRRL",
+      "displacement": [
+        3,
+        17
+      ],
+      "ending_heading": "N",
+      "trail": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          3,
+          14
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          2,
+          16
+        ],
+        [
+          3,
+          16
+        ],
+        [
+          3,
+          17
+        ]
+      ]
+    }
+  ],
+  "all_q_induction": "RLRLR ends E; LLRR at E returns E and adds(0,2); final L adds(0,1)",
+  "full_drift_formula": [
+    "Dx=2p+s+3h",
+    "Dy=2g+s+3h+2q",
+    "ell=4p+4g+2s+6h+4q"
+  ],
+  "warning": "This certifies literal geometry only. The exact cyclic partition and axis exclusions require the named signed dependencies; no actual factor or complete front constructed."
+}

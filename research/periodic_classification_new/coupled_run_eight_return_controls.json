@@ -1,0 +1,214 @@
+{
+  "scope": "All length8 first returns with initial R/incomingN and final incomingN; two preceding RIGHT-backbone first reads.",
+  "enumerated_turn_words": 256,
+  "cases": [
+    {
+      "word": "RRRLLLLR",
+      "trace": [
+        [
+          0,
+          [
+            0,
+            0
+          ],
+          0,
+          "R"
+        ],
+        [
+          1,
+          [
+            1,
+            0
+          ],
+          1,
+          "R"
+        ],
+        [
+          2,
+          [
+            1,
+            -1
+          ],
+          2,
+          "R"
+        ],
+        [
+          3,
+          [
+            0,
+            -1
+          ],
+          3,
+          "L"
+        ],
+        [
+          4,
+          [
+            0,
+            -2
+          ],
+          2,
+          "L"
+        ],
+        [
+          5,
+          [
+            1,
+            -2
+          ],
+          1,
+          "L"
+        ],
+        [
+          6,
+          [
+            1,
+            -1
+          ],
+          0,
+          "L"
+        ],
+        [
+          7,
+          [
+            0,
+            -1
+          ],
+          3,
+          "R"
+        ]
+      ],
+      "previous_two_backbone_first_reads": [
+        [
+          -2,
+          [
+            1,
+            -1
+          ],
+          "R"
+        ],
+        [
+          -1,
+          [
+            0,
+            -1
+          ],
+          "R"
+        ]
+      ],
+      "conflict": {
+        "cell": [
+          1,
+          -1
+        ],
+        "earlier": -2,
+        "later": 2,
+        "turn": "R"
+      }
+    },
+    {
+      "word": "RRLLLLRR",
+      "trace": [
+        [
+          0,
+          [
+            0,
+            0
+          ],
+          0,
+          "R"
+        ],
+        [
+          1,
+          [
+            1,
+            0
+          ],
+          1,
+          "R"
+        ],
+        [
+          2,
+          [
+            1,
+            -1
+          ],
+          2,
+          "L"
+        ],
+        [
+          3,
+          [
+            2,
+            -1
+          ],
+          1,
+          "L"
+        ],
+        [
+          4,
+          [
+            2,
+            0
+          ],
+          0,
+          "L"
+        ],
+        [
+          5,
+          [
+            1,
+            0
+          ],
+          3,
+          "L"
+        ],
+        [
+          6,
+          [
+            1,
+            -1
+          ],
+          2,
+          "R"
+        ],
+        [
+          7,
+          [
+            0,
+            -1
+          ],
+          3,
+          "R"
+        ]
+      ],
+      "previous_two_backbone_first_reads": [
+        [
+          -2,
+          [
+            1,
+            -1
+          ],
+          "R"
+        ],
+        [
+          -1,
+          [
+            0,
+            -1
+          ],
+          "R"
+        ]
+      ],
+      "conflict": {
+        "cell": [
+          0,
+          -1
+        ],
+        "earlier": -1,
+        "later": 7,
+        "turn": "R"
+      }
+    }
+  ]
+}

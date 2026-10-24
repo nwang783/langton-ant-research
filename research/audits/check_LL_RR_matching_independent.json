@@ -1,0 +1,24 @@
+{
+  "status": "PASS dependent all-length LL-to-RR injection and saturation, with mandatory local corrections",
+  "proof": "b88d71dd25613e69f780c55730049c7d7f63de2a4bad2399f6b2b1ad00674c4f",
+  "script": "73473b4be204212a80b0413ddf3458a3c4035a844995b9110a876ee378ba3f8d",
+  "signed_dependencies": {
+    "check_LL_post_X_RR_cap_independent.json": "e71ff8c30b90a8e38355615c024c7f1b9d06d8fb2f372fcdc7518d59672f9261",
+    "check_passive_LL_flat_cap_independent.json": "aa479215fa36356079086f0c179d069fdd283cad2a6dd520663e8fd2a8b98cbb",
+    "check_cyclic_LL_reactivation_independent.json": "fb74c8a00cfe84266ccbd0b30f8837d8e33eef7de1abf7093f4f56400771c817",
+    "check_mixed_LL_gate_independent.json": "441ffa775b9fe212ddcc2312533c0b7feb0c01e4aeac95b89bf229c34edca119",
+    "check_mixed_RR_closure_independent.json": "6a5571ed9cd4a804868b7378ecd3a4f675592e4b200e944cc4c62ff97a8883ac",
+    "check_high_macro_junctions_independent.json": "cbb8b590f1c654980db514407ff93cd7e7076aba315074b2f7ae71d84fd7b041",
+    "high_macro_zero_separator_binding.json": "4c759c601ba2f67ad6a3996882d242f7f42d8f4aa86d51a510dc4c63f8952f9b",
+    "check_flow3_double_LEFT_independent.json": "76b575526fd39003fab1e538ebcbfc65522807e614daee274754f0aa758e0876",
+    "check_mixed_flow2_flat_islands_independent.json": "c4fabac9c366e6536b760af2a52f23d6d24bd5eb53f16f8e1d788b9a8680defe"
+  },
+  "analytic_review": [
+    "On the full cyclic turn word nRR=nR-nRL and nLL=nL-nLR; cyclic nRL=nLR and essential turningzero nR=nL imply nRR=nLL. This is a finite exact identity, not a length scan. The signed no-three-equal-turn rule makes same-type equal pairs nonoverlapping. Counts are full quotient incidences, not a presumed primitive spatial quotient.",
+    "Every LL has middleflow2: LEFT has noflow4, and the completephysical flow3 doubleLEFT collision excludes3. Its secondLEFT is passiveV by the critical gate. The mixedLL inventory plus globalmax root gates leaves exactly flat genuineO/U-V, flat passiveVV and high-high passiveVV; no mixedflat/high or high genuine root is smuggled out.",
+    "A flat genuine root maps to its immediately following postX-startRR by the corrected south-arrival gate09e98e96; flat passiveVV maps to its precedingYYRR by the mandatory flat-end scope12769efd. A high-highVV maps to its immediatelyfollowing highRR3/4 by the signed triangular run with zero-separator qualification. These are actual physical cyclic-neighbor assignments.",
+    "Each target cap determines its associated unit within a type. Across types, firstflatX versus firstflatY distinguishesA/B, and high versusflat distinguishesC. Full drift preservescompletehistories andneighborincidences, so a smaller projected repetition cannot double-charge a full class. Thus the assignment is injective, and equal finitecardinalities makeit bijective. No clockbound, fuel or owner injection is used.",
+    "An initialRR highmacro in a maximalflat-ended highrun has no precedinginternalVV and cannot be assigned byflattypes. It is therefore forbidden by saturation. Every nonempty highrun must startRLR3, followedby arbitrarilymany VV/RR3or4 units. Existing mandatoryflat result ensures highruns haveflatendpoints. HighRRrails are preserved, not excluded.",
+    "EveryflatRR is alsoassigned: eitherfirstX followingagenuineLL, orYY precedingflatpassiveLL. HenceYXflatRR isexcluded; no changeofthe secondcontactofX-startcaps is asserted. Iftherearenohighruns therunconclusionisvacuous. No runlength/period/age/count bound, actualfactor, front exclusion or attraction follows."
+  ]
+}

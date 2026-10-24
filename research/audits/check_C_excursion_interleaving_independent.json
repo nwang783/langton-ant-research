@@ -1,0 +1,78 @@
+{
+  "status": "PASS conditional strict C-excursion interleaving ownership and winding",
+  "files": {
+    "C_EXCURSION_INTERLEAVING_ROOT_OWNERSHIP.md": "caa0fc77237c06599948665fe49a09528106abc11ebd748f8bffbf7194586540",
+    "certify_C_excursion_interleaving.py": "1bc5e02944da602085f28399d2a7dbd9a9b431fb369640c999a8beb6ffef16c2",
+    "C_excursion_interleaving_certificate.json": "83b316c25c6f52c9b053873bbdccc31032a45900a793a16d12b185c9a2e7a9b6"
+  },
+  "script": "8e83c0d2e230f65ca789fc6d12ad1c69d57cc13d875f734cec11dab6acc45807",
+  "controls": {
+    "S104": [
+      {
+        "R_older": 28,
+        "R_younger": 56,
+        "L_older": 116,
+        "L_younger": 148,
+        "older_length": 88,
+        "younger_length": 92,
+        "younger_root_period": 0,
+        "imported_root_cell": [
+          -2,
+          4
+        ],
+        "actual_import_owner": 28,
+        "actual_import_consumption": 116,
+        "import_age": 88,
+        "younger_parent": [
+          -6,
+          3
+        ],
+        "younger_child": [
+          -7,
+          4
+        ],
+        "older_winding_at_younger_parent": 1,
+        "older_winding_at_younger_child": 0
+      },
+      {
+        "R_older": 56,
+        "R_younger": 132,
+        "L_older": 148,
+        "L_younger": 220,
+        "older_length": 92,
+        "younger_length": 88,
+        "younger_root_period": 1,
+        "imported_root_cell": [
+          -6,
+          4
+        ],
+        "actual_import_owner": 56,
+        "actual_import_consumption": 148,
+        "import_age": 92,
+        "younger_parent": [
+          -4,
+          5
+        ],
+        "younger_child": [
+          -5,
+          6
+        ],
+        "older_winding_at_younger_parent": 1,
+        "older_winding_at_younger_child": 0
+      }
+    ],
+    "P1564": [],
+    "Q4352": [],
+    "M10": [],
+    "F80": []
+  },
+  "representation_controls": 22,
+  "analytic_review": [
+    "Strict lifted interleaving r_i<r_j<l_i<l_j imports the actual SAME R_i lifetime into E_j. R_i/L_i are the first two physical reads, so its consumption at l_i is the first read of that cell inside E_j and its birth lies before E_j. No cropped field or hypothetical replacement is used.",
+    "The root of E_j is read exactly once during E_i, at r_j:R. Thus the local clockwise-current identity gives f_i(parent_j)-f_i(child_j)=1. Child_j and every face on its proper forward discovery ray have not yet been activated by time l_i<l_j. The unread future-ray escape argument therefore applies to E_i as well and makes child_j winding0, hence parent_j1.",
+    "Excursions on one selected discovery cycle are event-disjoint, so strictly interleaving ones necessarily belong to different cycles. They are not disjoint actual channels and cannot enter a component-packing or period-length sum. Standard88+92 exceeds104 precisely because they overlap.",
+    "Each selected age<P follows from the signed excursion-plus-nonempty-connector period partition. Therefore older r normalized to[0,P) and younger lifts0/1 exhaust all interleavings, including all q-fold full-drift classes. Fresh own active-C graph, lifetime lifts and independent left-ray winding validate all five controls and22 rotations/powers/phases.",
+    "The two standard root links have exact voltages0 and+1, hence total temporal winding1. This conditional feedback does not account for all imported cells, prove interleaving/two-cycle necessity, detect hidden prepared inputs, or classify WHITE fronts."
+  ],
+  "scope": "Actual WHITE-owned discovery excursions; no necessity of interleaving, no disjoint-channel packing, no two-cycle or global attraction theorem."
+}

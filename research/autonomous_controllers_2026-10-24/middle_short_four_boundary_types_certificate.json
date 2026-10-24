@@ -1,0 +1,885 @@
+{
+  "status": "AUTHOR CHECK PASS; independent audit pending",
+  "scope": "Necessary four boundary types for the exact signed full(3,1) middle-short growth8 branch. No type excluded or realized.",
+  "complete_lower_histories": {
+    "0": "S",
+    "1": "W",
+    "2": "S",
+    "3": "EEWE",
+    "4": "SSNS",
+    "5": "EEWE",
+    "6": "NNNSS",
+    "7": "EEEWW"
+  },
+  "full_odd_levels": [
+    "0",
+    "1",
+    "2",
+    "6",
+    "7",
+    "6c+1",
+    "6a+2",
+    "6a+4"
+  ],
+  "parameter_domain": "odd 3<=c<=a",
+  "actual_forced_horizontal_output_components": [
+    {
+      "source_level": 0,
+      "source_R_rank": 0,
+      "target_level": 1,
+      "target_R_rank": 0,
+      "direction": "W",
+      "complete_source_port_ranks": [
+        0
+      ],
+      "complete_target_port_ranks": [
+        0
+      ],
+      "physical_voltage": 0,
+      "explanation": "Actual ordinal last-R to last-R horizontal move. Both lifetime half-edges are missing, so this move is the whole horizontal output component."
+    },
+    {
+      "source_level": 6,
+      "source_R_rank": 4,
+      "target_level": 7,
+      "target_R_rank": 4,
+      "direction": "W",
+      "complete_source_port_ranks": [
+        1,
+        4
+      ],
+      "complete_target_port_ranks": [
+        3,
+        4
+      ],
+      "physical_voltage": 0,
+      "explanation": "Actual ordinal last-R to last-R horizontal move. Both lifetime half-edges are missing, so this move is the whole horizontal output component."
+    }
+  ],
+  "all24_excluded_types": [
+    {
+      "horizontal_choice": 0,
+      "vertical_choice": 0,
+      "missing_required_index_pairs": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 0,
+      "vertical_choice": 1,
+      "missing_required_index_pairs": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 1,
+      "vertical_choice": 0,
+      "missing_required_index_pairs": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 1,
+      "vertical_choice": 1,
+      "missing_required_index_pairs": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 4,
+      "vertical_choice": 0,
+      "missing_required_index_pairs": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 4,
+      "vertical_choice": 1,
+      "missing_required_index_pairs": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 5,
+      "vertical_choice": 0,
+      "missing_required_index_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 5,
+      "vertical_choice": 1,
+      "missing_required_index_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 6,
+      "vertical_choice": 0,
+      "missing_required_index_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 6,
+      "vertical_choice": 1,
+      "missing_required_index_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 7,
+      "vertical_choice": 0,
+      "missing_required_index_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 7,
+      "vertical_choice": 1,
+      "missing_required_index_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 8,
+      "vertical_choice": 0,
+      "missing_required_index_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 8,
+      "vertical_choice": 1,
+      "missing_required_index_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 9,
+      "vertical_choice": 0,
+      "missing_required_index_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 9,
+      "vertical_choice": 1,
+      "missing_required_index_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 10,
+      "vertical_choice": 0,
+      "missing_required_index_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 10,
+      "vertical_choice": 1,
+      "missing_required_index_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 11,
+      "vertical_choice": 0,
+      "missing_required_index_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 11,
+      "vertical_choice": 1,
+      "missing_required_index_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 12,
+      "vertical_choice": 0,
+      "missing_required_index_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 12,
+      "vertical_choice": 1,
+      "missing_required_index_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 13,
+      "vertical_choice": 0,
+      "missing_required_index_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "horizontal_choice": 13,
+      "vertical_choice": 1,
+      "missing_required_index_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  ],
+  "four_necessary_open_types": [
+    {
+      "horizontal_choice": 2,
+      "vertical_choice": 0,
+      "edges": [
+        {
+          "axis": "H",
+          "ends": [
+            0,
+            1
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "axis": "H",
+          "ends": [
+            2,
+            5
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "axis": "H",
+          "ends": [
+            3,
+            4
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "axis": "H",
+          "ends": [
+            6,
+            7
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "axis": "V",
+          "ends": [
+            0,
+            3
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "axis": "V",
+          "ends": [
+            1,
+            4
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "axis": "V",
+          "ends": [
+            5,
+            7
+          ],
+          "voltage_coefficients_a_c_constant": [
+            2,
+            -2,
+            1
+          ]
+        },
+        {
+          "axis": "V",
+          "ends": [
+            2,
+            6
+          ],
+          "voltage_coefficients_a_c_constant": [
+            2,
+            0,
+            0
+          ]
+        }
+      ],
+      "unoriented_cycles_with_one_declared_orientation": [
+        {
+          "vertices": [
+            0,
+            1,
+            4,
+            3
+          ],
+          "winding_coefficients_a_c_constant": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "vertices": [
+            2,
+            5,
+            7,
+            6
+          ],
+          "winding_coefficients_a_c_constant": [
+            0,
+            -2,
+            1
+          ]
+        }
+      ],
+      "total_winding_mod2_coefficients": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "horizontal_choice": 2,
+      "vertical_choice": 1,
+      "edges": [
+        {
+          "axis": "H",
+          "ends": [
+            0,
+            1
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "axis": "H",
+          "ends": [
+            2,
+            5
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "axis": "H",
+          "ends": [
+            3,
+            4
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "axis": "H",
+          "ends": [
+            6,
+            7
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "axis": "V",
+          "ends": [
+            0,
+            3
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "axis": "V",
+          "ends": [
+            1,
+            7
+          ],
+          "voltage_coefficients_a_c_constant": [
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "axis": "V",
+          "ends": [
+            4,
+            5
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            2,
+            -2
+          ]
+        },
+        {
+          "axis": "V",
+          "ends": [
+            2,
+            6
+          ],
+          "voltage_coefficients_a_c_constant": [
+            2,
+            0,
+            0
+          ]
+        }
+      ],
+      "unoriented_cycles_with_one_declared_orientation": [
+        {
+          "vertices": [
+            0,
+            1,
+            7,
+            6,
+            2,
+            5,
+            4,
+            3
+          ],
+          "winding_coefficients_a_c_constant": [
+            0,
+            -2,
+            1
+          ]
+        }
+      ],
+      "total_winding_mod2_coefficients": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "horizontal_choice": 3,
+      "vertical_choice": 0,
+      "edges": [
+        {
+          "axis": "H",
+          "ends": [
+            0,
+            1
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "axis": "H",
+          "ends": [
+            2,
+            7
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "axis": "H",
+          "ends": [
+            3,
+            4
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "axis": "H",
+          "ends": [
+            5,
+            6
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "axis": "V",
+          "ends": [
+            0,
+            3
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "axis": "V",
+          "ends": [
+            1,
+            4
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "axis": "V",
+          "ends": [
+            5,
+            7
+          ],
+          "voltage_coefficients_a_c_constant": [
+            2,
+            -2,
+            1
+          ]
+        },
+        {
+          "axis": "V",
+          "ends": [
+            2,
+            6
+          ],
+          "voltage_coefficients_a_c_constant": [
+            2,
+            0,
+            0
+          ]
+        }
+      ],
+      "unoriented_cycles_with_one_declared_orientation": [
+        {
+          "vertices": [
+            0,
+            1,
+            4,
+            3
+          ],
+          "winding_coefficients_a_c_constant": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "vertices": [
+            2,
+            7,
+            5,
+            6
+          ],
+          "winding_coefficients_a_c_constant": [
+            -4,
+            2,
+            -1
+          ]
+        }
+      ],
+      "total_winding_mod2_coefficients": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "horizontal_choice": 3,
+      "vertical_choice": 1,
+      "edges": [
+        {
+          "axis": "H",
+          "ends": [
+            0,
+            1
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "axis": "H",
+          "ends": [
+            2,
+            7
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "axis": "H",
+          "ends": [
+            3,
+            4
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "axis": "H",
+          "ends": [
+            5,
+            6
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "axis": "V",
+          "ends": [
+            0,
+            3
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "axis": "V",
+          "ends": [
+            1,
+            7
+          ],
+          "voltage_coefficients_a_c_constant": [
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "axis": "V",
+          "ends": [
+            4,
+            5
+          ],
+          "voltage_coefficients_a_c_constant": [
+            0,
+            2,
+            -2
+          ]
+        },
+        {
+          "axis": "V",
+          "ends": [
+            2,
+            6
+          ],
+          "voltage_coefficients_a_c_constant": [
+            2,
+            0,
+            0
+          ]
+        }
+      ],
+      "unoriented_cycles_with_one_declared_orientation": [
+        {
+          "vertices": [
+            0,
+            1,
+            7,
+            2,
+            6,
+            5,
+            4,
+            3
+          ],
+          "winding_coefficients_a_c_constant": [
+            4,
+            -2,
+            1
+          ]
+        }
+      ],
+      "total_winding_mod2_coefficients": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "essential_absolute_windings": [
+    "2c-1",
+    "2c-1",
+    "4a-2c+1",
+    "4a-2c+1"
+  ],
+  "derived_minimum_absolute_essential_winding": 5,
+  "dependencies": {
+    "certify_lifetime_boundary_graph.py": "0dc234345a2c9b10f1353d296dfa68b7fef96f2a1d143cc9a7131327ce8695f1",
+    "lifetime_boundary_graph.py": "b15a34eb8e94dc2c1aa87fcbc29dc7d79b6645ed7e28a94505d04769b5e225df",
+    "DRIFT31_MIDDLE_SHORT_FULL_ODD_REDUCTION.md": "52f05a4cdbd26ea3c7f5d96c48c04cff7c10763c9cf552dd96f7060e338b20ac"
+  }
+}

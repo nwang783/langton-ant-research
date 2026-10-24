@@ -1,0 +1,22 @@
+"""Nonterminal ordinary RAW cut extension of signed base-cut grammar.
+Adds only three actual DCC/foreign RAW conflicts; terminal DCC stays real.
+"""
+from pathlib import Path
+import importlib.util,json,hashlib
+R=Path('/workspace/shared/langton');H=Path(__file__).resolve().parent
+
+def load(n,p):
+ s=importlib.util.spec_from_file_location(n,p);m=importlib.util.module_from_spec(s);s.loader.exec_module(m);return m
+l=load('literal',R/'word_stabilization/check_foreign_return_interfaces.py');o=load('owner',R/'literal_ownership_conventions_2026-10-24/canonical_read_ownership.py');W=o.WORDS
+rows=[]
+for a in'FQB':
+ word='DCC'+a;raw=''.join(W[b]for b in word);t=l.trace(raw+l.M);assert not t['feasible']and(t['conflict_read'],t['previous_read'],t['cell'],t['turn'])==(52,12,[0,0],'L')
+ # DCC RAW40; all three actual foreign RAWs share own L12.
+ assert 52-40==12 and W[a][12]=='L';rows.append(dict(word=word,conflict=t,previous_owner=o.describe('C',2),conflicting_foreign_owner=o.describe(a,12),previous_owner_qualification='previous global tick12 is first C own tick2, following source D10; not a hypothetical internal marker',conflicting_owner_qualification='actual foreign own RAW tick12/read13; same common F-prefix for all three'))
+# Correct the previous owner's canonical description: C at global10.
+assert all(q['previous_owner']['context_tick0']==2 for q in rows)
+# All four positive scope regressions of signed8a311 are unchanged.
+old=json.loads((H/'RAW_G8_bridge.json').read_text());assert [q['word']for q in old['positive_scope_regressions']]==['DCCC','UDCC','UQUDCC','UQUCCV']
+D=[H/'manifest.json',R/'audits/check_RAW_G8_base_cut_bridge_independent.json',R/'core_periodicity_new/U_entry_simplicity_frozen_20261023_1616/manifest.json',R/'audits/check_U_entry_simplicity_independent.json',R/'word_stabilization/check_foreign_return_interfaces.py',R/'literal_ownership_conventions_2026-10-24/canonical_read_ownership.py']
+out=dict(status='AUTHOR_FROZEN_PENDING_INDEPENDENT_REVIEW',scope='An actual finite ordinary RAW factor starting at a D/V/U base and admitting an IMMEDIATE NEXT complete seven-atom RAW plus actual final M11 partitions into chosen G8, EVEN when its final atom is C. If its first atom is D, retain the actual previous seven-atom RAW premise. The following atom is not included in the G8 factor unless ordinary and deliberately selected.',all3_additional_DCC_foreign_conflicts=rows,all7_next_atoms_exhausted=dict(D_V_U='three signed8a311 DCCX conflicts',C='signed8a311 genuine previous EXIT-bud DCCC immutable R/R conflict',F_Q_B='three new own-RAW L12 repeated-L conflicts'),arbitrary_length_argument='The signed maximal-run proof permits only one non-G8 end case: terminal DCC. An actual next complete7 atom exhausts D/C/V/U/F/Q/B, each impossible by the listed local conflicts. Thus the actual ordinary factor cannot endDCC; every run is a chosenG8 packet. No finite depth or rail bound.',actual_marker_interface='The final G8 packet uses the first actual M11 of the immediate NEXT real word; if that word is D10 the eleventh read is its actual following firstL, available from its stipulated complete RAW+actualM11. Every cut and read owner is real.',fresh_U_corollary='If this actual ordinary factor begins at a genuine new U, its first packet is U/UC/UCC. Signed U-entry G8 simplicity applies to its entire atomic proxy, without a simple-prefix or earlier-U ancestry premise and despite a foreign before this selectedU. It does not imply disjointness from proxy sources BEFORE that U.',attained_terminal_exception='UDCC and UQUDCC+M are real complete finite words from signed8a311. They simply have NO immediate next COMPLETE seven-atom RAW. Their provided11 marker reads are a proper physical prefix, not a completed following7 word.',not_claimed=['No arbitrary ant language coverage.','No simple post-U factor is asserted disjoint from pre-U sources.','No second foreign is included in the chosen G8 factor.','No removal of the first-D actual predecessor condition.','No unconditional parse at a genuinely terminal DCC cut.'],dependencies={str(p.relative_to(R)):hashlib.sha256(p.read_bytes()).hexdigest()for p in D})
+(H/'nonterminal_cut_extension.json').write_text(json.dumps(out,indent=2)+'\n');print('Nonterminal-cut G8 extension: terminalDCC next7 exhausted by signed4 ordinary +new3 foreign ownRAW conflicts. FreshU factor simple internally; earlier sources remain separate.')

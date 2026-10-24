@@ -1,0 +1,1056 @@
+{
+  "status": "AUTHOR checked, independent audit pending",
+  "scope": "General path adjacency follows from the stated embedded-spine cylinder-separation proof. These concrete controls do not assume a universal separated-normal-range property or establish any flux sign/output bound.",
+  "base_controls": {
+    "S104": {
+      "transverse_spine_ranges_in_order": [
+        {
+          "component_id": 1,
+          "minimum": -4,
+          "maximum": -2,
+          "outputs": 4
+        },
+        {
+          "component_id": 0,
+          "minimum": 0,
+          "maximum": 2,
+          "outputs": 8
+        }
+      ],
+      "adjacent_cut_direction_vectors": [
+        [
+          0,
+          -4,
+          4,
+          0
+        ]
+      ],
+      "each_cut_out_in_counts": [
+        [
+          4,
+          4
+        ]
+      ],
+      "component_and_prefix_identities": [
+        {
+          "component_id": 1,
+          "outputs": 4,
+          "inputs": 0,
+          "Q": 0,
+          "lower_cut_flux": 0,
+          "upper_cut_flux": 4,
+          "prefix_charge": 4,
+          "prefix_Q": 0
+        },
+        {
+          "component_id": 0,
+          "outputs": 8,
+          "inputs": 0,
+          "Q": 3,
+          "lower_cut_flux": 4,
+          "upper_cut_flux": 0,
+          "prefix_charge": 12,
+          "prefix_Q": 3
+        }
+      ]
+    },
+    "P1564": {
+      "transverse_spine_ranges_in_order": [
+        {
+          "component_id": 0,
+          "minimum": -294,
+          "maximum": 504,
+          "outputs": 301
+        }
+      ],
+      "adjacent_cut_direction_vectors": [],
+      "each_cut_out_in_counts": [],
+      "component_and_prefix_identities": [
+        {
+          "component_id": 0,
+          "outputs": 301,
+          "inputs": 197,
+          "Q": 26,
+          "lower_cut_flux": 0,
+          "upper_cut_flux": 0,
+          "prefix_charge": 104,
+          "prefix_Q": 26
+        }
+      ]
+    },
+    "Q4352": {
+      "transverse_spine_ranges_in_order": [
+        {
+          "component_id": 0,
+          "minimum": -416,
+          "maximum": 130,
+          "outputs": 590
+        }
+      ],
+      "adjacent_cut_direction_vectors": [],
+      "each_cut_out_in_counts": [],
+      "component_and_prefix_identities": [
+        {
+          "component_id": 0,
+          "outputs": 590,
+          "inputs": 406,
+          "Q": 46,
+          "lower_cut_flux": 0,
+          "upper_cut_flux": 0,
+          "prefix_charge": 184,
+          "prefix_Q": 46
+        }
+      ]
+    },
+    "M10": {
+      "transverse_spine_ranges_in_order": [
+        {
+          "component_id": 0,
+          "minimum": -1,
+          "maximum": 0,
+          "outputs": 1
+        }
+      ],
+      "adjacent_cut_direction_vectors": [],
+      "each_cut_out_in_counts": [],
+      "component_and_prefix_identities": [
+        {
+          "component_id": 0,
+          "outputs": 1,
+          "inputs": 1,
+          "Q": 0,
+          "lower_cut_flux": 0,
+          "upper_cut_flux": 0,
+          "prefix_charge": 0,
+          "prefix_Q": 0
+        }
+      ]
+    },
+    "F80": {
+      "transverse_spine_ranges_in_order": [
+        {
+          "component_id": 0,
+          "minimum": -12,
+          "maximum": 0,
+          "outputs": 14
+        }
+      ],
+      "adjacent_cut_direction_vectors": [],
+      "each_cut_out_in_counts": [],
+      "component_and_prefix_identities": [
+        {
+          "component_id": 0,
+          "outputs": 14,
+          "inputs": 2,
+          "Q": 3,
+          "lower_cut_flux": 0,
+          "upper_cut_flux": 0,
+          "prefix_charge": 12,
+          "prefix_Q": 3
+        }
+      ]
+    }
+  },
+  "all16_standard_representation_controls": [
+    {
+      "heading": 0,
+      "power": 1,
+      "result": {
+        "transverse_spine_ranges_in_order": [
+          {
+            "component_id": 1,
+            "minimum": -4,
+            "maximum": -2,
+            "outputs": 4
+          },
+          {
+            "component_id": 0,
+            "minimum": 0,
+            "maximum": 2,
+            "outputs": 8
+          }
+        ],
+        "adjacent_cut_direction_vectors": [
+          [
+            0,
+            -4,
+            4,
+            0
+          ]
+        ],
+        "each_cut_out_in_counts": [
+          [
+            4,
+            4
+          ]
+        ],
+        "component_and_prefix_identities": [
+          {
+            "component_id": 1,
+            "outputs": 4,
+            "inputs": 0,
+            "Q": 0,
+            "lower_cut_flux": 0,
+            "upper_cut_flux": 4,
+            "prefix_charge": 4,
+            "prefix_Q": 0
+          },
+          {
+            "component_id": 0,
+            "outputs": 8,
+            "inputs": 0,
+            "Q": 3,
+            "lower_cut_flux": 4,
+            "upper_cut_flux": 0,
+            "prefix_charge": 12,
+            "prefix_Q": 3
+          }
+        ]
+      }
+    },
+    {
+      "heading": 0,
+      "power": 2,
+      "result": {
+        "transverse_spine_ranges_in_order": [
+          {
+            "component_id": 1,
+            "minimum": -8,
+            "maximum": -4,
+            "outputs": 8
+          },
+          {
+            "component_id": 0,
+            "minimum": 0,
+            "maximum": 4,
+            "outputs": 16
+          }
+        ],
+        "adjacent_cut_direction_vectors": [
+          [
+            0,
+            -8,
+            8,
+            0
+          ]
+        ],
+        "each_cut_out_in_counts": [
+          [
+            8,
+            8
+          ]
+        ],
+        "component_and_prefix_identities": [
+          {
+            "component_id": 1,
+            "outputs": 8,
+            "inputs": 0,
+            "Q": 0,
+            "lower_cut_flux": 0,
+            "upper_cut_flux": 8,
+            "prefix_charge": 8,
+            "prefix_Q": 0
+          },
+          {
+            "component_id": 0,
+            "outputs": 16,
+            "inputs": 0,
+            "Q": 6,
+            "lower_cut_flux": 8,
+            "upper_cut_flux": 0,
+            "prefix_charge": 24,
+            "prefix_Q": 6
+          }
+        ]
+      }
+    },
+    {
+      "heading": 0,
+      "power": 3,
+      "result": {
+        "transverse_spine_ranges_in_order": [
+          {
+            "component_id": 1,
+            "minimum": -12,
+            "maximum": -6,
+            "outputs": 12
+          },
+          {
+            "component_id": 0,
+            "minimum": 0,
+            "maximum": 6,
+            "outputs": 24
+          }
+        ],
+        "adjacent_cut_direction_vectors": [
+          [
+            0,
+            -12,
+            12,
+            0
+          ]
+        ],
+        "each_cut_out_in_counts": [
+          [
+            12,
+            12
+          ]
+        ],
+        "component_and_prefix_identities": [
+          {
+            "component_id": 1,
+            "outputs": 12,
+            "inputs": 0,
+            "Q": 0,
+            "lower_cut_flux": 0,
+            "upper_cut_flux": 12,
+            "prefix_charge": 12,
+            "prefix_Q": 0
+          },
+          {
+            "component_id": 0,
+            "outputs": 24,
+            "inputs": 0,
+            "Q": 9,
+            "lower_cut_flux": 12,
+            "upper_cut_flux": 0,
+            "prefix_charge": 36,
+            "prefix_Q": 9
+          }
+        ]
+      }
+    },
+    {
+      "heading": 0,
+      "power": 5,
+      "result": {
+        "transverse_spine_ranges_in_order": [
+          {
+            "component_id": 1,
+            "minimum": -20,
+            "maximum": -10,
+            "outputs": 20
+          },
+          {
+            "component_id": 0,
+            "minimum": 0,
+            "maximum": 10,
+            "outputs": 40
+          }
+        ],
+        "adjacent_cut_direction_vectors": [
+          [
+            0,
+            -20,
+            20,
+            0
+          ]
+        ],
+        "each_cut_out_in_counts": [
+          [
+            20,
+            20
+          ]
+        ],
+        "component_and_prefix_identities": [
+          {
+            "component_id": 1,
+            "outputs": 20,
+            "inputs": 0,
+            "Q": 0,
+            "lower_cut_flux": 0,
+            "upper_cut_flux": 20,
+            "prefix_charge": 20,
+            "prefix_Q": 0
+          },
+          {
+            "component_id": 0,
+            "outputs": 40,
+            "inputs": 0,
+            "Q": 15,
+            "lower_cut_flux": 20,
+            "upper_cut_flux": 0,
+            "prefix_charge": 60,
+            "prefix_Q": 15
+          }
+        ]
+      }
+    },
+    {
+      "heading": 1,
+      "power": 1,
+      "result": {
+        "transverse_spine_ranges_in_order": [
+          {
+            "component_id": 1,
+            "minimum": -4,
+            "maximum": -2,
+            "outputs": 4
+          },
+          {
+            "component_id": 0,
+            "minimum": 0,
+            "maximum": 2,
+            "outputs": 8
+          }
+        ],
+        "adjacent_cut_direction_vectors": [
+          [
+            0,
+            0,
+            -4,
+            4
+          ]
+        ],
+        "each_cut_out_in_counts": [
+          [
+            4,
+            4
+          ]
+        ],
+        "component_and_prefix_identities": [
+          {
+            "component_id": 1,
+            "outputs": 4,
+            "inputs": 0,
+            "Q": 0,
+            "lower_cut_flux": 0,
+            "upper_cut_flux": 4,
+            "prefix_charge": 4,
+            "prefix_Q": 0
+          },
+          {
+            "component_id": 0,
+            "outputs": 8,
+            "inputs": 0,
+            "Q": 3,
+            "lower_cut_flux": 4,
+            "upper_cut_flux": 0,
+            "prefix_charge": 12,
+            "prefix_Q": 3
+          }
+        ]
+      }
+    },
+    {
+      "heading": 1,
+      "power": 2,
+      "result": {
+        "transverse_spine_ranges_in_order": [
+          {
+            "component_id": 1,
+            "minimum": -8,
+            "maximum": -4,
+            "outputs": 8
+          },
+          {
+            "component_id": 0,
+            "minimum": 0,
+            "maximum": 4,
+            "outputs": 16
+          }
+        ],
+        "adjacent_cut_direction_vectors": [
+          [
+            0,
+            0,
+            -8,
+            8
+          ]
+        ],
+        "each_cut_out_in_counts": [
+          [
+            8,
+            8
+          ]
+        ],
+        "component_and_prefix_identities": [
+          {
+            "component_id": 1,
+            "outputs": 8,
+            "inputs": 0,
+            "Q": 0,
+            "lower_cut_flux": 0,
+            "upper_cut_flux": 8,
+            "prefix_charge": 8,
+            "prefix_Q": 0
+          },
+          {
+            "component_id": 0,
+            "outputs": 16,
+            "inputs": 0,
+            "Q": 6,
+            "lower_cut_flux": 8,
+            "upper_cut_flux": 0,
+            "prefix_charge": 24,
+            "prefix_Q": 6
+          }
+        ]
+      }
+    },
+    {
+      "heading": 1,
+      "power": 3,
+      "result": {
+        "transverse_spine_ranges_in_order": [
+          {
+            "component_id": 1,
+            "minimum": -12,
+            "maximum": -6,
+            "outputs": 12
+          },
+          {
+            "component_id": 0,
+            "minimum": 0,
+            "maximum": 6,
+            "outputs": 24
+          }
+        ],
+        "adjacent_cut_direction_vectors": [
+          [
+            0,
+            0,
+            -12,
+            12
+          ]
+        ],
+        "each_cut_out_in_counts": [
+          [
+            12,
+            12
+          ]
+        ],
+        "component_and_prefix_identities": [
+          {
+            "component_id": 1,
+            "outputs": 12,
+            "inputs": 0,
+            "Q": 0,
+            "lower_cut_flux": 0,
+            "upper_cut_flux": 12,
+            "prefix_charge": 12,
+            "prefix_Q": 0
+          },
+          {
+            "component_id": 0,
+            "outputs": 24,
+            "inputs": 0,
+            "Q": 9,
+            "lower_cut_flux": 12,
+            "upper_cut_flux": 0,
+            "prefix_charge": 36,
+            "prefix_Q": 9
+          }
+        ]
+      }
+    },
+    {
+      "heading": 1,
+      "power": 5,
+      "result": {
+        "transverse_spine_ranges_in_order": [
+          {
+            "component_id": 1,
+            "minimum": -20,
+            "maximum": -10,
+            "outputs": 20
+          },
+          {
+            "component_id": 0,
+            "minimum": 0,
+            "maximum": 10,
+            "outputs": 40
+          }
+        ],
+        "adjacent_cut_direction_vectors": [
+          [
+            0,
+            0,
+            -20,
+            20
+          ]
+        ],
+        "each_cut_out_in_counts": [
+          [
+            20,
+            20
+          ]
+        ],
+        "component_and_prefix_identities": [
+          {
+            "component_id": 1,
+            "outputs": 20,
+            "inputs": 0,
+            "Q": 0,
+            "lower_cut_flux": 0,
+            "upper_cut_flux": 20,
+            "prefix_charge": 20,
+            "prefix_Q": 0
+          },
+          {
+            "component_id": 0,
+            "outputs": 40,
+            "inputs": 0,
+            "Q": 15,
+            "lower_cut_flux": 20,
+            "upper_cut_flux": 0,
+            "prefix_charge": 60,
+            "prefix_Q": 15
+          }
+        ]
+      }
+    },
+    {
+      "heading": 2,
+      "power": 1,
+      "result": {
+        "transverse_spine_ranges_in_order": [
+          {
+            "component_id": 1,
+            "minimum": -4,
+            "maximum": -2,
+            "outputs": 4
+          },
+          {
+            "component_id": 0,
+            "minimum": 0,
+            "maximum": 2,
+            "outputs": 8
+          }
+        ],
+        "adjacent_cut_direction_vectors": [
+          [
+            4,
+            0,
+            0,
+            -4
+          ]
+        ],
+        "each_cut_out_in_counts": [
+          [
+            4,
+            4
+          ]
+        ],
+        "component_and_prefix_identities": [
+          {
+            "component_id": 1,
+            "outputs": 4,
+            "inputs": 0,
+            "Q": 4,
+            "lower_cut_flux": 0,
+            "upper_cut_flux": -12,
+            "prefix_charge": 4,
+            "prefix_Q": 4
+          },
+          {
+            "component_id": 0,
+            "outputs": 8,
+            "inputs": 0,
+            "Q": -1,
+            "lower_cut_flux": -12,
+            "upper_cut_flux": 0,
+            "prefix_charge": 12,
+            "prefix_Q": 3
+          }
+        ]
+      }
+    },
+    {
+      "heading": 2,
+      "power": 2,
+      "result": {
+        "transverse_spine_ranges_in_order": [
+          {
+            "component_id": 1,
+            "minimum": -8,
+            "maximum": -4,
+            "outputs": 8
+          },
+          {
+            "component_id": 0,
+            "minimum": 0,
+            "maximum": 4,
+            "outputs": 16
+          }
+        ],
+        "adjacent_cut_direction_vectors": [
+          [
+            8,
+            0,
+            0,
+            -8
+          ]
+        ],
+        "each_cut_out_in_counts": [
+          [
+            8,
+            8
+          ]
+        ],
+        "component_and_prefix_identities": [
+          {
+            "component_id": 1,
+            "outputs": 8,
+            "inputs": 0,
+            "Q": 8,
+            "lower_cut_flux": 0,
+            "upper_cut_flux": -24,
+            "prefix_charge": 8,
+            "prefix_Q": 8
+          },
+          {
+            "component_id": 0,
+            "outputs": 16,
+            "inputs": 0,
+            "Q": -2,
+            "lower_cut_flux": -24,
+            "upper_cut_flux": 0,
+            "prefix_charge": 24,
+            "prefix_Q": 6
+          }
+        ]
+      }
+    },
+    {
+      "heading": 2,
+      "power": 3,
+      "result": {
+        "transverse_spine_ranges_in_order": [
+          {
+            "component_id": 1,
+            "minimum": -12,
+            "maximum": -6,
+            "outputs": 12
+          },
+          {
+            "component_id": 0,
+            "minimum": 0,
+            "maximum": 6,
+            "outputs": 24
+          }
+        ],
+        "adjacent_cut_direction_vectors": [
+          [
+            12,
+            0,
+            0,
+            -12
+          ]
+        ],
+        "each_cut_out_in_counts": [
+          [
+            12,
+            12
+          ]
+        ],
+        "component_and_prefix_identities": [
+          {
+            "component_id": 1,
+            "outputs": 12,
+            "inputs": 0,
+            "Q": 12,
+            "lower_cut_flux": 0,
+            "upper_cut_flux": -36,
+            "prefix_charge": 12,
+            "prefix_Q": 12
+          },
+          {
+            "component_id": 0,
+            "outputs": 24,
+            "inputs": 0,
+            "Q": -3,
+            "lower_cut_flux": -36,
+            "upper_cut_flux": 0,
+            "prefix_charge": 36,
+            "prefix_Q": 9
+          }
+        ]
+      }
+    },
+    {
+      "heading": 2,
+      "power": 5,
+      "result": {
+        "transverse_spine_ranges_in_order": [
+          {
+            "component_id": 1,
+            "minimum": -20,
+            "maximum": -10,
+            "outputs": 20
+          },
+          {
+            "component_id": 0,
+            "minimum": 0,
+            "maximum": 10,
+            "outputs": 40
+          }
+        ],
+        "adjacent_cut_direction_vectors": [
+          [
+            20,
+            0,
+            0,
+            -20
+          ]
+        ],
+        "each_cut_out_in_counts": [
+          [
+            20,
+            20
+          ]
+        ],
+        "component_and_prefix_identities": [
+          {
+            "component_id": 1,
+            "outputs": 20,
+            "inputs": 0,
+            "Q": 20,
+            "lower_cut_flux": 0,
+            "upper_cut_flux": -60,
+            "prefix_charge": 20,
+            "prefix_Q": 20
+          },
+          {
+            "component_id": 0,
+            "outputs": 40,
+            "inputs": 0,
+            "Q": -5,
+            "lower_cut_flux": -60,
+            "upper_cut_flux": 0,
+            "prefix_charge": 60,
+            "prefix_Q": 15
+          }
+        ]
+      }
+    },
+    {
+      "heading": 3,
+      "power": 1,
+      "result": {
+        "transverse_spine_ranges_in_order": [
+          {
+            "component_id": 1,
+            "minimum": -4,
+            "maximum": -2,
+            "outputs": 4
+          },
+          {
+            "component_id": 0,
+            "minimum": 0,
+            "maximum": 2,
+            "outputs": 8
+          }
+        ],
+        "adjacent_cut_direction_vectors": [
+          [
+            -4,
+            4,
+            0,
+            0
+          ]
+        ],
+        "each_cut_out_in_counts": [
+          [
+            4,
+            4
+          ]
+        ],
+        "component_and_prefix_identities": [
+          {
+            "component_id": 1,
+            "outputs": 4,
+            "inputs": 0,
+            "Q": 0,
+            "lower_cut_flux": 0,
+            "upper_cut_flux": 4,
+            "prefix_charge": 4,
+            "prefix_Q": 0
+          },
+          {
+            "component_id": 0,
+            "outputs": 8,
+            "inputs": 0,
+            "Q": 3,
+            "lower_cut_flux": 4,
+            "upper_cut_flux": 0,
+            "prefix_charge": 12,
+            "prefix_Q": 3
+          }
+        ]
+      }
+    },
+    {
+      "heading": 3,
+      "power": 2,
+      "result": {
+        "transverse_spine_ranges_in_order": [
+          {
+            "component_id": 1,
+            "minimum": -8,
+            "maximum": -4,
+            "outputs": 8
+          },
+          {
+            "component_id": 0,
+            "minimum": 0,
+            "maximum": 4,
+            "outputs": 16
+          }
+        ],
+        "adjacent_cut_direction_vectors": [
+          [
+            -8,
+            8,
+            0,
+            0
+          ]
+        ],
+        "each_cut_out_in_counts": [
+          [
+            8,
+            8
+          ]
+        ],
+        "component_and_prefix_identities": [
+          {
+            "component_id": 1,
+            "outputs": 8,
+            "inputs": 0,
+            "Q": 0,
+            "lower_cut_flux": 0,
+            "upper_cut_flux": 8,
+            "prefix_charge": 8,
+            "prefix_Q": 0
+          },
+          {
+            "component_id": 0,
+            "outputs": 16,
+            "inputs": 0,
+            "Q": 6,
+            "lower_cut_flux": 8,
+            "upper_cut_flux": 0,
+            "prefix_charge": 24,
+            "prefix_Q": 6
+          }
+        ]
+      }
+    },
+    {
+      "heading": 3,
+      "power": 3,
+      "result": {
+        "transverse_spine_ranges_in_order": [
+          {
+            "component_id": 1,
+            "minimum": -12,
+            "maximum": -6,
+            "outputs": 12
+          },
+          {
+            "component_id": 0,
+            "minimum": 0,
+            "maximum": 6,
+            "outputs": 24
+          }
+        ],
+        "adjacent_cut_direction_vectors": [
+          [
+            -12,
+            12,
+            0,
+            0
+          ]
+        ],
+        "each_cut_out_in_counts": [
+          [
+            12,
+            12
+          ]
+        ],
+        "component_and_prefix_identities": [
+          {
+            "component_id": 1,
+            "outputs": 12,
+            "inputs": 0,
+            "Q": 0,
+            "lower_cut_flux": 0,
+            "upper_cut_flux": 12,
+            "prefix_charge": 12,
+            "prefix_Q": 0
+          },
+          {
+            "component_id": 0,
+            "outputs": 24,
+            "inputs": 0,
+            "Q": 9,
+            "lower_cut_flux": 12,
+            "upper_cut_flux": 0,
+            "prefix_charge": 36,
+            "prefix_Q": 9
+          }
+        ]
+      }
+    },
+    {
+      "heading": 3,
+      "power": 5,
+      "result": {
+        "transverse_spine_ranges_in_order": [
+          {
+            "component_id": 1,
+            "minimum": -20,
+            "maximum": -10,
+            "outputs": 20
+          },
+          {
+            "component_id": 0,
+            "minimum": 0,
+            "maximum": 10,
+            "outputs": 40
+          }
+        ],
+        "adjacent_cut_direction_vectors": [
+          [
+            -20,
+            20,
+            0,
+            0
+          ]
+        ],
+        "each_cut_out_in_counts": [
+          [
+            20,
+            20
+          ]
+        ],
+        "component_and_prefix_identities": [
+          {
+            "component_id": 1,
+            "outputs": 20,
+            "inputs": 0,
+            "Q": 0,
+            "lower_cut_flux": 0,
+            "upper_cut_flux": 20,
+            "prefix_charge": 20,
+            "prefix_Q": 0
+          },
+          {
+            "component_id": 0,
+            "outputs": 40,
+            "inputs": 0,
+            "Q": 15,
+            "lower_cut_flux": 20,
+            "upper_cut_flux": 0,
+            "prefix_charge": 60,
+            "prefix_Q": 15
+          }
+        ]
+      }
+    }
+  ],
+  "dependencies": {
+    "PHYSICAL_EXIT_COMPONENT_COLOR_TURN_AND_BOUNDARY_FLUX.md": "cdff2e608b072490d58bd8eb9d83d16bdc5df3dc26330cc1524ceaebff4bc1fc",
+    "exit_component_turn_flux_certificate.json": "61a1dd93fb93e79055dffe80aacb8de85febdc9e9ed85f3aba16badb38592ba9"
+  }
+}

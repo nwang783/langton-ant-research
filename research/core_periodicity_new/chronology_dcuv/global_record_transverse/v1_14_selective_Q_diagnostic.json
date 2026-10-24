@@ -1,0 +1,34 @@
+{
+  "initial_bound": -10,
+  "residual_max_bound_final": -10,
+  "survives": false,
+  "steps": [
+    {
+      "step": 0,
+      "packet": 0,
+      "state": null,
+      "Q_before": -10,
+      "input_offset": 1,
+      "output_offset": -2,
+      "source_height_max": -12,
+      "lower": null,
+      "possible": true
+    },
+    {
+      "step": 1,
+      "packet": 7,
+      "state": {
+        "h": 0,
+        "lo": null,
+        "hi": -12,
+        "band": 0
+      },
+      "Q_before": -10,
+      "input_offset": 5,
+      "output_offset": 3,
+      "source_height_max": -16,
+      "lower": -12,
+      "possible": false
+    }
+  ]
+}

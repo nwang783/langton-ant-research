@@ -1,0 +1,63 @@
+{
+  "tested": 10201,
+  "counts": {
+    "WRONG_EXIT": 10201
+  },
+  "initial_unknown": 0,
+  "best": [
+    {
+      "score": [
+        5,
+        20
+      ],
+      "r": [
+        0,
+        0,
+        0,
+        4,
+        2
+      ],
+      "s": [
+        -1,
+        1,
+        3,
+        3,
+        3
+      ],
+      "S": 3,
+      "trace": [
+        {
+          "entry": 0,
+          "exit": -1,
+          "word": "RR"
+        },
+        {
+          "entry": 0,
+          "exit": 1,
+          "word": "LRRRRL"
+        },
+        {
+          "entry": 0,
+          "exit": 3,
+          "word": "LRLRRRRLRRRRLLLLRL"
+        },
+        {
+          "entry": 4,
+          "exit": 3,
+          "word": "RR"
+        },
+        {
+          "entry": 2,
+          "exit": 3,
+          "word": "LL"
+        },
+        {
+          "entry": 0,
+          "exit": 3,
+          "word": "RLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLR"
+        }
+      ],
+      "reason": "WRONG_EXIT"
+    }
+  ]
+}

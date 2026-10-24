@@ -1,0 +1,88 @@
+{
+  "scope": "Exactly4 accessible affine recurrence states, binary time, common Gaussian scale norm squared2, stable leading zero, arbitrary integer offsets, initial heading N and position0. Finite ant legality is necessary in the first15 moves. All survivors require exact automatic validation.",
+  "canonical_state_graphs": 816,
+  "offset_equality_patterns": 974,
+  "legal_prefixes": 6192,
+  "prefix_scale_pairs_matching_some_graph": 390,
+  "distinct_consistent_recurrences": 3924,
+  "outcomes": {
+    "nonunit": 3136,
+    "equal consecutive reads": 788
+  },
+  "finite_probe_survivors": [],
+  "latest_finite_rejection": {
+    "scale": [
+      -1,
+      -1
+    ],
+    "transition": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "offset": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    ],
+    "prefix": "RRRRLRRLRRLRLRR",
+    "reject": "nonunit",
+    "time": 19,
+    "step": [
+      -2,
+      1
+    ]
+  },
+  "all_record_sha256": "5a0bd8916a5fb53baa877145b3bc9b0c227946c10d6ea27ecae0a0b1ef6502b0",
+  "elapsed_seconds": 0.4597760670003481
+}

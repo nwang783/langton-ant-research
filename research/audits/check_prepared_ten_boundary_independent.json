@@ -1,0 +1,35 @@
+{
+  "status": "PASS prepared ten-read boundary winding3 and exact finite-fuel induction only",
+  "files": {
+    "PREPARED_TEN_HIGH_BOUNDARY_WINDING_COUNTERCONTROL.md": "6523e1b531d5859e59ccdf361ef2f2d6c51f1c293a941df7d94cf346c2fabe00",
+    "certify_prepared_ten_boundary_winding.py": "3505150c66cca008f2fe3fd565a4fc0f154c39647dea68988f662810b886a2a8",
+    "prepared_ten_boundary_winding_certificate.json": "33330d07c4e865039935d4d06eab173987b6c344852f0529e881c55c1d1b5a4b"
+  },
+  "script": "a917574c7e29d6800b8a56a0b19fc963a12875b829d79725d9295db313faea6f",
+  "control_n": [
+    1,
+    2,
+    3,
+    10,
+    31
+  ],
+  "paths": [
+    [
+      2,
+      5,
+      2,
+      "V"
+    ],
+    [
+      2,
+      5,
+      -1,
+      "H"
+    ]
+  ],
+  "analytic_review": [
+    "The complete alpha/beta graph is independently rebuilt, with one input and one output, no internal component, full vertical voltage+2 and horizontal-1. Its winding3 is an actual prepared complete translating-word diagnostic, not a WHITE front.",
+    "The literal two-black field relation is exact. The input/output full-drift classes each contain precisely one period event and are distinct from each other and the C class. Therefore future inputs and previously written outputs cannot interfere with a later one-period induction step, proving the full all-n formula without discarding fields.",
+    "After n periods the next five moves agree; the missing next input is first read at10n+5 and is WHITE. An infinite repeat needs infinitely many prelaid inputs. No finite-seed autonomous controller, new wave, regeneration or complete-WHITE unit-winding counterexample is claimed."
+  ]
+}

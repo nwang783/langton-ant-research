@@ -1,0 +1,240 @@
+{
+  "status": "PASS exhaustive cap-three integer exit rank and cap-four additive-rank obstruction",
+  "manifest_sha256": "1929a406e55a15e173b880f33a36f45c873b17819a80ad8a5898ec92143e2068",
+  "note_sha256": "efb27c66e3dc15713b3ed397b1e47f133d52bd34c8d2298112a8491b18ed38f5",
+  "independent_kernels": {
+    "3": {
+      "states": 111,
+      "transitions": 80,
+      "mass_level_counts": [
+        1,
+        4,
+        18,
+        88
+      ],
+      "integer_rank_max": 9,
+      "recurrent_sccs": []
+    },
+    "4": {
+      "states": 550,
+      "transitions": 432,
+      "mass_level_counts": [
+        1,
+        4,
+        18,
+        88,
+        439
+      ],
+      "integer_rank_max": null,
+      "recurrent_sccs": [
+        [
+          0,
+          1,
+          11,
+          65,
+          349
+        ]
+      ]
+    }
+  },
+  "exact_cap4_relaxed_cycle": [
+    {
+      "source": 0,
+      "target": 1,
+      "turn": "R",
+      "input": [],
+      "import": [],
+      "active": [
+        [
+          0,
+          0
+        ]
+      ],
+      "emit": [],
+      "pose": [
+        [
+          1,
+          0
+        ],
+        1
+      ]
+    },
+    {
+      "source": 1,
+      "target": 11,
+      "turn": "R",
+      "input": [
+        [
+          0,
+          -1
+        ]
+      ],
+      "import": [],
+      "active": [
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "emit": [],
+      "pose": [
+        [
+          1,
+          0
+        ],
+        1
+      ]
+    },
+    {
+      "source": 11,
+      "target": 65,
+      "turn": "R",
+      "input": [
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "import": [],
+      "active": [
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "emit": [],
+      "pose": [
+        [
+          1,
+          0
+        ],
+        1
+      ]
+    },
+    {
+      "source": 65,
+      "target": 349,
+      "turn": "R",
+      "input": [
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "import": [],
+      "active": [
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "emit": [],
+      "pose": [
+        [
+          1,
+          0
+        ],
+        1
+      ]
+    },
+    {
+      "source": 349,
+      "target": 0,
+      "turn": "L",
+      "input": [
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "import": [],
+      "active": [],
+      "emit": [
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ]
+    }
+  ],
+  "blank_first_import": [
+    [
+      8,
+      3,
+      3,
+      7
+    ]
+  ],
+  "analytic": [
+    "The rooted enumeration is exhaustive by adding incident edges from a rooted spanning tree then its remaining edges; no geometric radius cutoff is imposed. Rootw=(1,-1) in doubled coordinates is fixed lattice0. All quarter-normalized physical states have headingN and this lattice, so enumeration includes every actual orientation without reflection identification.",
+    "At R, every cap-preserving nonempty import is a complete connected graph rooted at the other endpoint with size at most M-|C|-1. Translating every rooted state of that size generates it; vertex disjointness from active C and w is necessary and sufficient. At L, deletion and actual arrival component uniquely determine the emitted component. Other background components are irrelevant to this one update; no spurious choice removes an actual transition.",
+    "All111 cap3 states and80 transitions reconstructed independently agree exactly with the author. The provided integer active ranks0..9 strictly decrease at every transition and every passive weight iszero. Thus ten consecutive cap-preserving updates are impossible on ANY background, even infinite; no finite-support escape theorem or floating LP is needed.",
+    "All550 cap4 states and432 transitions also reconstructed exactly. The five RRRRL edges form an active-state circulation consuming no archive and emitting a three-edge star. Summed strict additive rank decrease would force negative weight for that star. This rules out the stated nonnegative shape-plus-passive-type weighting class, not arbitrary spatial/stateful ranks.",
+    "The loop is only a relaxed local cycle. Direct complete blank evolution imports the previously emitted three-edge component at update8, giving active mass7, so it cannot repeat while respecting cap4. No actual nonzero translator or reusable writer is supplied.",
+    "Independent SCC inspection also finds exactly this one five-state recurrent cap4 SCC. This extra finite graph fact is recorded, but no new universal cap4 exit-time theorem is asserted in this report pending the author geometric iteration argument."
+  ],
+  "scope": "Universal cap3 active-mass exit bound10, plus impossibility of one scalar ranking class at cap4. No standard104 capture, general sustained cap or undecidability claim."
+}

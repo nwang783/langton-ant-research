@@ -1,0 +1,2764 @@
+{
+  "scope": "Complete WHITE full(3,1), global read minimumT0. The stated five selected final-L ports are impossible at arbitrary exterior multiplicity. This excludes one nearest six-edge all-even last-spine placement only, not every short spine or outer basin with <=3 outputs.",
+  "minimum_derived_initial_histories": {
+    "T0": "S",
+    "T1": "WE",
+    "T2": "SS"
+  },
+  "H3_derived_max_reads": 4,
+  "all_H3": [
+    [
+      1,
+      1,
+      3,
+      1
+    ],
+    [
+      3,
+      1,
+      1,
+      1
+    ]
+  ],
+  "V4_derived_max_reads": 10,
+  "all_V4_count_domains": [
+    [
+      0,
+      0,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      0,
+      2,
+      2,
+      0,
+      2,
+      2
+    ],
+    [
+      2,
+      0,
+      0,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      0,
+      2,
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      2,
+      0,
+      0,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      0,
+      0,
+      2
+    ],
+    [
+      2,
+      0,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      0,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      0,
+      2,
+      0,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      0,
+      2,
+      2,
+      2,
+      0,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      0,
+      2,
+      2
+    ]
+  ],
+  "all24_first_N_return_cases": [
+    {
+      "H3": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "V4": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      "E_ordinal": 0,
+      "source_E_rank": 0,
+      "first_N_rank": 0,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 0,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "R",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 0,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 0,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "R",
+          "outgoing_heading": 1
+        }
+      ]
+    },
+    {
+      "H3": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "V4": [
+        0,
+        2,
+        2,
+        0,
+        2,
+        2
+      ],
+      "E_ordinal": 0,
+      "source_E_rank": 0,
+      "first_N_rank": 0,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 0,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "R",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 0,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 0,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "R",
+          "outgoing_heading": 1
+        }
+      ]
+    },
+    {
+      "H3": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "V4": [
+        2,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "E_ordinal": 0,
+      "source_E_rank": 2,
+      "first_N_rank": 1,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 2,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "R",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 0,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 1,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ]
+    },
+    {
+      "H3": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "V4": [
+        2,
+        0,
+        2,
+        2,
+        0,
+        2
+      ],
+      "E_ordinal": 0,
+      "source_E_rank": 3,
+      "first_N_rank": 1,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 3,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 0,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 1,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ]
+    },
+    {
+      "H3": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "V4": [
+        2,
+        2,
+        0,
+        0,
+        2,
+        2
+      ],
+      "E_ordinal": 0,
+      "source_E_rank": 1,
+      "first_N_rank": 2,
+      "necessary_consecutive_rank": true,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 1,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 0,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 2,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "R",
+          "outgoing_heading": 1
+        }
+      ]
+    },
+    {
+      "H3": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "V4": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        2
+      ],
+      "E_ordinal": 0,
+      "source_E_rank": 1,
+      "first_N_rank": 3,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 1,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 0,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 3,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ]
+    },
+    {
+      "H3": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "V4": [
+        2,
+        0,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "E_ordinal": 0,
+      "source_E_rank": 5,
+      "first_N_rank": 1,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 5,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 0,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 1,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ]
+    },
+    {
+      "H3": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "V4": [
+        2,
+        0,
+        2,
+        2,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      "E_ordinal": 0,
+      "source_E_rank": 3,
+      "first_N_rank": 1,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 3,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 0,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 1,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ]
+    },
+    {
+      "H3": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "V4": [
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        2,
+        2
+      ],
+      "E_ordinal": 0,
+      "source_E_rank": 3,
+      "first_N_rank": 1,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 3,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 0,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 1,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ]
+    },
+    {
+      "H3": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "V4": [
+        2,
+        2,
+        2,
+        0,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      "E_ordinal": 0,
+      "source_E_rank": 1,
+      "first_N_rank": 3,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 1,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 0,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 3,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ]
+    },
+    {
+      "H3": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "V4": [
+        2,
+        2,
+        2,
+        0,
+        2,
+        2,
+        2,
+        0,
+        2,
+        2
+      ],
+      "E_ordinal": 0,
+      "source_E_rank": 1,
+      "first_N_rank": 3,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 1,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 0,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 3,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ]
+    },
+    {
+      "H3": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "V4": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        2,
+        0,
+        2,
+        2
+      ],
+      "E_ordinal": 0,
+      "source_E_rank": 1,
+      "first_N_rank": 5,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 1,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 0,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 5,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ]
+    },
+    {
+      "H3": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "V4": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      "E_ordinal": 1,
+      "source_E_rank": 3,
+      "first_N_rank": 0,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 3,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 2,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 0,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "R",
+          "outgoing_heading": 1
+        }
+      ]
+    },
+    {
+      "H3": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "V4": [
+        0,
+        2,
+        2,
+        0,
+        2,
+        2
+      ],
+      "E_ordinal": 1,
+      "source_E_rank": 1,
+      "first_N_rank": 0,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 1,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 2,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 0,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "R",
+          "outgoing_heading": 1
+        }
+      ]
+    },
+    {
+      "H3": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "V4": [
+        2,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "E_ordinal": 1,
+      "source_E_rank": 3,
+      "first_N_rank": 1,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 3,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 2,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 1,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ]
+    },
+    {
+      "H3": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "V4": [
+        2,
+        0,
+        2,
+        2,
+        0,
+        2
+      ],
+      "E_ordinal": 1,
+      "source_E_rank": 4,
+      "first_N_rank": 1,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 4,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "R",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 2,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 1,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ]
+    },
+    {
+      "H3": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "V4": [
+        2,
+        2,
+        0,
+        0,
+        2,
+        2
+      ],
+      "E_ordinal": 1,
+      "source_E_rank": 2,
+      "first_N_rank": 2,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 2,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "R",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 2,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 2,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "R",
+          "outgoing_heading": 1
+        }
+      ]
+    },
+    {
+      "H3": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "V4": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        2
+      ],
+      "E_ordinal": 1,
+      "source_E_rank": 4,
+      "first_N_rank": 3,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 4,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "R",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 2,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 3,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ]
+    },
+    {
+      "H3": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "V4": [
+        2,
+        0,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "E_ordinal": 1,
+      "source_E_rank": 7,
+      "first_N_rank": 1,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 7,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 2,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 1,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ]
+    },
+    {
+      "H3": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "V4": [
+        2,
+        0,
+        2,
+        2,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      "E_ordinal": 1,
+      "source_E_rank": 7,
+      "first_N_rank": 1,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 7,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 2,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 1,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ]
+    },
+    {
+      "H3": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "V4": [
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        2,
+        2
+      ],
+      "E_ordinal": 1,
+      "source_E_rank": 5,
+      "first_N_rank": 1,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 5,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 2,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 1,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ]
+    },
+    {
+      "H3": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "V4": [
+        2,
+        2,
+        2,
+        0,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      "E_ordinal": 1,
+      "source_E_rank": 7,
+      "first_N_rank": 3,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 7,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 2,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 3,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ]
+    },
+    {
+      "H3": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "V4": [
+        2,
+        2,
+        2,
+        0,
+        2,
+        2,
+        2,
+        0,
+        2,
+        2
+      ],
+      "E_ordinal": 1,
+      "source_E_rank": 5,
+      "first_N_rank": 3,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 5,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 2,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 3,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ]
+    },
+    {
+      "H3": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "V4": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        2,
+        0,
+        2,
+        2
+      ],
+      "E_ordinal": 1,
+      "source_E_rank": 3,
+      "first_N_rank": 5,
+      "necessary_consecutive_rank": false,
+      "actual_four_step_first_return": [
+        {
+          "level": 4,
+          "rank": 3,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 3,
+          "rank": 2,
+          "lift": 0,
+          "position": [
+            -3,
+            0
+          ],
+          "heading": 1,
+          "turn": "R",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 0,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -3,
+            -1
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 1,
+          "rank": 0,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 3,
+          "turn": "R",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 5,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ]
+    }
+  ],
+  "sole_surviving_H3_V4": [
+    [
+      [
+        1,
+        1,
+        3,
+        1
+      ],
+      [
+        2,
+        2,
+        0,
+        0,
+        2,
+        2
+      ]
+    ]
+  ],
+  "H5_derived_exact_reads": 6,
+  "all_three_H5": [
+    [
+      1,
+      1,
+      3,
+      1,
+      3,
+      3
+    ],
+    [
+      3,
+      1,
+      1,
+      1,
+      3,
+      3
+    ],
+    [
+      3,
+      1,
+      3,
+      1,
+      1,
+      3
+    ]
+  ],
+  "three_identical_ordinal_obstructions": [
+    {
+      "H5": [
+        1,
+        1,
+        3,
+        1,
+        3,
+        3
+      ],
+      "complete_named_histories": {
+        "0": [
+          2
+        ],
+        "1": [
+          3,
+          1
+        ],
+        "2": [
+          2,
+          2
+        ],
+        "3": [
+          1,
+          1,
+          3,
+          1
+        ],
+        "4": [
+          2,
+          2,
+          0,
+          0,
+          2,
+          2
+        ],
+        "5": [
+          1,
+          1,
+          3,
+          1,
+          3,
+          3
+        ]
+      },
+      "actual_forbidden_four_step_return": [
+        {
+          "level": 4,
+          "rank": 4,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 5,
+          "rank": 5,
+          "lift": 0,
+          "position": [
+            -5,
+            0
+          ],
+          "heading": 3,
+          "turn": "L",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 2,
+          "rank": 1,
+          "lift": -1,
+          "position": [
+            -5,
+            -1
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 1,
+          "rank": 1,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 1,
+          "turn": "L",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 3,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ],
+      "clock_contradiction": "tau(T4,L3)=tau(T4,R4)+4 but tau(T4,R4)>=tau(T4,L3)+4"
+    },
+    {
+      "H5": [
+        3,
+        1,
+        1,
+        1,
+        3,
+        3
+      ],
+      "complete_named_histories": {
+        "0": [
+          2
+        ],
+        "1": [
+          3,
+          1
+        ],
+        "2": [
+          2,
+          2
+        ],
+        "3": [
+          1,
+          1,
+          3,
+          1
+        ],
+        "4": [
+          2,
+          2,
+          0,
+          0,
+          2,
+          2
+        ],
+        "5": [
+          3,
+          1,
+          1,
+          1,
+          3,
+          3
+        ]
+      },
+      "actual_forbidden_four_step_return": [
+        {
+          "level": 4,
+          "rank": 4,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 5,
+          "rank": 5,
+          "lift": 0,
+          "position": [
+            -5,
+            0
+          ],
+          "heading": 3,
+          "turn": "L",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 2,
+          "rank": 1,
+          "lift": -1,
+          "position": [
+            -5,
+            -1
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 1,
+          "rank": 1,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 1,
+          "turn": "L",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 3,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ],
+      "clock_contradiction": "tau(T4,L3)=tau(T4,R4)+4 but tau(T4,R4)>=tau(T4,L3)+4"
+    },
+    {
+      "H5": [
+        3,
+        1,
+        3,
+        1,
+        1,
+        3
+      ],
+      "complete_named_histories": {
+        "0": [
+          2
+        ],
+        "1": [
+          3,
+          1
+        ],
+        "2": [
+          2,
+          2
+        ],
+        "3": [
+          1,
+          1,
+          3,
+          1
+        ],
+        "4": [
+          2,
+          2,
+          0,
+          0,
+          2,
+          2
+        ],
+        "5": [
+          3,
+          1,
+          3,
+          1,
+          1,
+          3
+        ]
+      },
+      "actual_forbidden_four_step_return": [
+        {
+          "level": 4,
+          "rank": 4,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 2,
+          "turn": "R",
+          "outgoing_heading": 3
+        },
+        {
+          "level": 5,
+          "rank": 5,
+          "lift": 0,
+          "position": [
+            -5,
+            0
+          ],
+          "heading": 3,
+          "turn": "L",
+          "outgoing_heading": 2
+        },
+        {
+          "level": 2,
+          "rank": 1,
+          "lift": -1,
+          "position": [
+            -5,
+            -1
+          ],
+          "heading": 2,
+          "turn": "L",
+          "outgoing_heading": 1
+        },
+        {
+          "level": 1,
+          "rank": 1,
+          "lift": -1,
+          "position": [
+            -4,
+            -1
+          ],
+          "heading": 1,
+          "turn": "L",
+          "outgoing_heading": 0
+        },
+        {
+          "level": 4,
+          "rank": 3,
+          "lift": 0,
+          "position": [
+            -4,
+            0
+          ],
+          "heading": 0,
+          "turn": "L",
+          "outgoing_heading": 3
+        }
+      ],
+      "clock_contradiction": "tau(T4,L3)=tau(T4,R4)+4 but tau(T4,R4)>=tau(T4,L3)+4"
+    }
+  ],
+  "initial_OPEN_prefix": {
+    "histories": [
+      [],
+      [],
+      [],
+      [
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        1,
+        3,
+        1
+      ],
+      [
+        2,
+        2,
+        0,
+        0,
+        2,
+        2
+      ]
+    ],
+    "graph": {
+      "points": [
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -4,
+          0
+        ]
+      ],
+      "chains": [
+        [
+          [
+            [
+              5,
+              0
+            ],
+            0
+          ],
+          [
+            [
+              6,
+              2
+            ],
+            0
+          ]
+        ],
+        [
+          [
+            [
+              5,
+              1
+            ],
+            0
+          ],
+          [
+            [
+              4,
+              1
+            ],
+            0
+          ],
+          [
+            [
+              7,
+              3
+            ],
+            1
+          ]
+        ],
+        [
+          [
+            [
+              7,
+              0
+            ],
+            0
+          ]
+        ],
+        [
+          [
+            [
+              7,
+              1
+            ],
+            0
+          ],
+          [
+            [
+              6,
+              0
+            ],
+            0
+          ],
+          [
+            [
+              3,
+              0
+            ],
+            -1
+          ],
+          [
+            [
+              4,
+              0
+            ],
+            -1
+          ],
+          [
+            [
+              7,
+              2
+            ],
+            0
+          ],
+          [
+            [
+              6,
+              1
+            ],
+            0
+          ]
+        ],
+        [
+          [
+            [
+              7,
+              4
+            ],
+            0
+          ]
+        ],
+        [
+          [
+            [
+              7,
+              5
+            ],
+            0
+          ],
+          [
+            [
+              6,
+              3
+            ],
+            0
+          ]
+        ]
+      ],
+      "event_count": 15
+    }
+  },
+  "unique_retained_minimum_interface": {
+    "lower_index": 8,
+    "V4_index": 0,
+    "complete_histories": [
+      [],
+      [],
+      [],
+      [
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        1,
+        3,
+        1
+      ],
+      [
+        2,
+        2,
+        0,
+        0,
+        2,
+        2
+      ]
+    ],
+    "first_N_rank": 2
+  },
+  "dependencies": {
+    "DRIFT31_UNCONDITIONAL_READ_MINIMUM_INTERFACE.md": "92b5092a879681fc6ff673ea7d3cb8614075562419e4d7b2c38019993004b432",
+    "drift31_read_minimum_certificate.json": "2b0e8cd1343c0e483659f823bcc41b4799f5cfe2316eadb3bb98befe0b043088",
+    "partial_drift31_graph.py": "bbb25dd3ff7b1185ea50fb7b46e63cc885d3b938895c4af479a0dcc9b6582eac",
+    "OUTERMOST_EXIT_BASIN_OUTPUT_TARGET_AND_EXACT_BOUNDARY.md": "9956058bff409f142ca1e0f3ee4a859cbdc8535d97a7629838d8299cd10e49fe"
+  }
+}

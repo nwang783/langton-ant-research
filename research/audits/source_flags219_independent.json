@@ -1,0 +1,82 @@
+{
+  "status": "PASS signed-premise source flags; no mutual hypotheses needed",
+  "cases": [
+    {
+      "case": 219,
+      "status": "PASS independent literal base and source-output flag reconstruction",
+      "flags": [
+        [
+          -1,
+          5
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "variables": 41,
+      "invariant": {
+        "status": "PASS independent canonical restriction/XOR/clear invariant check",
+        "variables": 41,
+        "positions": 252,
+        "certificate_nodes": 125,
+        "invariant_states": 499,
+        "checks": 447,
+        "canonical_nodes": 200
+      },
+      "sha256": {
+        "word_stabilization/dcv_direct_source_flags40/candidate219.json": "c7db79382c3177559a4cabf63e2f070fd85f4ac8e744632d67666120afd0a74a",
+        "word_stabilization/dcv_direct_source_flags40/candidate219.dat": "fbcd8bff5cdddbc7d50d2c6e68bf291363392312b738d2aff7361cbc3bb12693",
+        "word_stabilization/dcv_mutual_family/stage00/candidate219.bdd": "4fb39e655e6792a0b269a4589ec32f51753ffb06c329121eb9643c293843d7c9"
+      }
+    }
+  ],
+  "controls": {
+    "status": "PASS",
+    "independent_explicit_graph_controls": 100,
+    "rejected_initial_cube_mutations": 100,
+    "positive_checks": 1800
+  },
+  "high_bit_controls": {
+    "status": "PASS",
+    "independent_explicit_graph_controls": 100,
+    "rejected_initial_cube_mutations": 100,
+    "positive_checks": 1800
+  }
+}

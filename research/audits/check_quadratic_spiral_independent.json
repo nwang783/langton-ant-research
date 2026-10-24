@@ -1,0 +1,78 @@
+{
+  "status": "PASS independent literal feasibility, minimal seed, complete final profile and internal K count",
+  "cases": [
+    {
+      "n": 1,
+      "entry_mass": 13,
+      "length": 22,
+      "final_mass": 9,
+      "max_reads": 1,
+      "internal_K": 7
+    },
+    {
+      "n": 2,
+      "entry_mass": 24,
+      "length": 60,
+      "final_mass": 16,
+      "max_reads": 2,
+      "internal_K": 39
+    },
+    {
+      "n": 3,
+      "entry_mass": 35,
+      "length": 114,
+      "final_mass": 23,
+      "max_reads": 2,
+      "internal_K": 87
+    },
+    {
+      "n": 4,
+      "entry_mass": 46,
+      "length": 184,
+      "final_mass": 30,
+      "max_reads": 2,
+      "internal_K": 151
+    },
+    {
+      "n": 7,
+      "entry_mass": 79,
+      "length": 490,
+      "final_mass": 51,
+      "max_reads": 2,
+      "internal_K": 439
+    },
+    {
+      "n": 12,
+      "entry_mass": 134,
+      "length": 1320,
+      "final_mass": 86,
+      "max_reads": 2,
+      "internal_K": 1239
+    },
+    {
+      "n": 25,
+      "entry_mass": 277,
+      "length": 5350,
+      "final_mass": 177,
+      "max_reads": 2,
+      "internal_K": 5191
+    },
+    {
+      "n": 64,
+      "entry_mass": 706,
+      "length": 33664,
+      "final_mass": 450,
+      "max_reads": 2,
+      "internal_K": 33271
+    },
+    {
+      "n": 128,
+      "entry_mass": 1410,
+      "length": 132864,
+      "final_mass": 898,
+      "max_reads": 2,
+      "internal_K": 132087
+    }
+  ],
+  "analytic_scope": "all-n proof is the separate exact rail/corner overlap argument; finite checks are controls"
+}

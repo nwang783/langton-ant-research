@@ -1,0 +1,180 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "k": 3,
+      "a": [
+        2,
+        -1
+      ],
+      "R": [
+        "RRL"
+      ],
+      "L": [
+        "LRL"
+      ],
+      "exclusion": "nonincreasing scale mass"
+    },
+    {
+      "k": 3,
+      "a": [
+        2,
+        1
+      ],
+      "R": [
+        "RLR"
+      ],
+      "L": [
+        "LLR"
+      ],
+      "exclusion": "nonincreasing scale mass"
+    },
+    {
+      "k": 5,
+      "a": [
+        -1,
+        -2
+      ],
+      "R": [
+        "LLRLL"
+      ],
+      "L": [
+        "RLRLL"
+      ],
+      "exclusion": "nonincreasing scale mass"
+    },
+    {
+      "k": 5,
+      "a": [
+        -1,
+        2
+      ],
+      "R": [
+        "LRLRR"
+      ],
+      "L": [
+        "RRLRR"
+      ],
+      "exclusion": "first-turn contradiction"
+    },
+    {
+      "k": 5,
+      "a": [
+        1,
+        -2
+      ],
+      "R": [
+        "RRRLL",
+        "LLLRL"
+      ],
+      "L": [
+        "RLLRL",
+        "LRRLL"
+      ],
+      "exclusion": "nonincreasing scale mass"
+    },
+    {
+      "k": 5,
+      "a": [
+        1,
+        2
+      ],
+      "R": [
+        "RLLRR",
+        "LRRLR"
+      ],
+      "L": [
+        "RRRLR",
+        "LLLRR"
+      ],
+      "exclusion": "two-macro chronology contradiction",
+      "conflicts": [
+        {
+          "word": "RLLRRRRRLR",
+          "cell": [
+            0,
+            1
+          ],
+          "earlier": 3,
+          "later": 7,
+          "turn": "R"
+        },
+        {
+          "word": "RLLRRLLLRR",
+          "cell": [
+            0,
+            2
+          ],
+          "earlier": 4,
+          "later": 8,
+          "turn": "R"
+        },
+        {
+          "word": "LLLRRRRRLR",
+          "cell": [
+            0,
+            -1
+          ],
+          "earlier": 3,
+          "later": 7,
+          "turn": "R"
+        },
+        {
+          "word": "LLLRRLLLRR",
+          "cell": [
+            0,
+            -2
+          ],
+          "earlier": 4,
+          "later": 8,
+          "turn": "R"
+        }
+      ]
+    },
+    {
+      "k": 5,
+      "a": [
+        3,
+        -2
+      ],
+      "R": [
+        "RRLRL"
+      ],
+      "L": [
+        "LRLRL"
+      ],
+      "exclusion": "nonincreasing scale mass"
+    },
+    {
+      "k": 5,
+      "a": [
+        3,
+        0
+      ],
+      "R": [
+        "RRLLR",
+        "RLRRL"
+      ],
+      "L": [
+        "LRLLR",
+        "LLRRL"
+      ],
+      "exclusion": "nonincreasing scale mass"
+    },
+    {
+      "k": 5,
+      "a": [
+        3,
+        2
+      ],
+      "R": [
+        "RLRLR"
+      ],
+      "L": [
+        "LLRLR"
+      ],
+      "exclusion": "nonincreasing scale mass"
+    }
+  ],
+  "scope": "Pure position AND heading inflation for every n, arbitrary occurrence-dependent images, expanding Gaussian scale; k2..6 excluded by these odd cases and heading parity."
+}

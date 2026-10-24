@@ -1,0 +1,247 @@
+{
+  "status": "PASS one-next-base all-length last-L guard and C3 endpoint corollary WITH mandatory no-further-C clarification",
+  "manifest_sha256": "0834c97647d8b9fec8003276bea3846a0c5a0e821ef1abef75bb0064e3a73375",
+  "mandatory_scope_clarification_sha256": "ca5d2024f7390259ad5da2a294bd1aa43135cd9113c775c550ff1d064a281fb1",
+  "fresh_affine_interfaces": [
+    {
+      "next_base": "D",
+      "c": 3,
+      "forward": {
+        "-1": [
+          [
+            "L",
+            1
+          ]
+        ]
+      },
+      "VCC": {
+        "-1": [
+          [
+            "L",
+            1
+          ]
+        ],
+        "0": [
+          [
+            "L",
+            19
+          ]
+        ],
+        "1": [
+          [
+            "R",
+            41
+          ]
+        ]
+      },
+      "previous_reverse_contacts": {},
+      "first_goal_read": [
+        "L",
+        11
+      ]
+    },
+    {
+      "next_base": "U",
+      "c": 2,
+      "forward": {
+        "-1": [
+          [
+            "L",
+            2
+          ]
+        ],
+        "0": [
+          [
+            "R",
+            12
+          ]
+        ]
+      },
+      "VCC": {
+        "-1": [
+          [
+            "L",
+            2
+          ]
+        ],
+        "0": [
+          [
+            "R",
+            12
+          ],
+          [
+            "L",
+            20
+          ]
+        ],
+        "1": [
+          [
+            "R",
+            30
+          ],
+          [
+            "L",
+            38
+          ],
+          [
+            "R",
+            42
+          ]
+        ]
+      },
+      "previous_reverse_contacts": {},
+      "first_goal_read": [
+        "L",
+        12
+      ]
+    }
+  ],
+  "original_regressions": [
+    {
+      "tokens": [
+        "U",
+        "V",
+        "VCC",
+        "V",
+        "V"
+      ],
+      "seed_mass": 16
+    },
+    {
+      "tokens": [
+        "U",
+        "VCC",
+        "V",
+        "V"
+      ],
+      "seed_mass": 14
+    }
+  ],
+  "new_positive_17_seed": [
+    [
+      -2,
+      3
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      -1,
+      4
+    ],
+    [
+      -1,
+      6
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      0,
+      9
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      10
+    ],
+    [
+      2,
+      9
+    ]
+  ],
+  "new_positive_reads": 159,
+  "new_root_reads": [
+    [
+      "L",
+      143
+    ],
+    [
+      "R",
+      147
+    ],
+    [
+      "L",
+      151
+    ]
+  ],
+  "original_U_q_reads": [
+    [
+      "L",
+      13
+    ],
+    [
+      "R",
+      21
+    ],
+    [
+      "L",
+      149
+    ]
+  ],
+  "endpoint_identities": [
+    {
+      "foreign": "F",
+      "V_plus_2U_offset": 0,
+      "D_plus_V_offset": 6,
+      "D_lower_constant": 6
+    },
+    {
+      "foreign": "Q",
+      "V_plus_2U_offset": 1,
+      "D_plus_V_offset": 6,
+      "D_lower_constant": 5
+    },
+    {
+      "foreign": "B",
+      "V_plus_2U_offset": 2,
+      "D_plus_V_offset": 5,
+      "D_lower_constant": 3
+    }
+  ],
+  "analytic": [
+    "For g=(r-j,3(r-j)+c), forward-copy equality reduces exactly to(d,3d+c), with d=r-j-i. Literal footprints enumerate every possible integer d by its actual x coordinate. For j>=1 the final L is at copy i=r-j+1 (plainV or terminalVCC); for j0 it is in VCC C1. The n=-1 endpoint is the first packet actual core L, not a negative-index source. All later forward slots and all earlier reverse copies are excluded by the same complete footprint identities.",
+    "Thus for every r>=0,0<=j<=r+1 both victims have lastL at18(r-j)+19/+20 and no later read. Proposed D/U firstL is context11/RAW12, giving an immutable repeatedL contradiction on any initial field. D11 is actual next-word tick1/read2 (or an ownedCtail in DC), not D RAW; U12 is ownRAW read13.",
+    "The original note iteration was overbroad without a no-additional-C condition. The mandatory separate clarification restricts the r+2 PLAIN reverse-V consequence to no furtherC before firstD/U. The one-next-base guard itself is unchanged. VC/VCC heading changes are not silently ruled out by that guard.",
+    "For the C3 application W=D^a V^r VCC has a>=1 and spends the two remainingCs, so S is empty and E starts(-a-3r-4,1+a+r). The exact equations v+2u=r/r+1/r+2 and d+v=a+r+6/a+r+6/a+r+5 force d>0. Since noCs remain, firstD/U must follow>=r+2Vs. F/Q total weight is insufficient; B consumes all allowed weight, leaving noU despite actual last-before-B requiringU. This excludes exactly the stated all-length W subfamily.",
+    "Both genuine withdrawn-seal controls replay unchanged. The exact new17-black U,V,VCC,V,V,V+actualM11 has159 physical reads; its sole addedroot(-2,3) was unread in the old16-black prefix and firstreadsL143. OriginalUq readsL13,R21,L149, with finalmarker retirement nextwordread2. No seed clipping or source-free positive is used."
+  ],
+  "scope": "No mixed-W, additional-C reverse-run, arbitrary S-stage, whole-ledger contraction, second-foreign or five-target closure. Withdrawn6ea48d5 remains withdrawn."
+}

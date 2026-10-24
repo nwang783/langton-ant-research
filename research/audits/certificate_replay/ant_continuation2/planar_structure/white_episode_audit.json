@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "local_coordinate_cases": 324,
+  "exhaustive_rectangles": [
+    {
+      "rectangle": [
+        1,
+        1
+      ],
+      "mutable_bonds": 0,
+      "cases": 4,
+      "maximum_exit_steps": 1,
+      "uniform_clock_bound": 5,
+      "maximizer": {
+        "black_internal_mask": 0,
+        "pose": [
+          [
+            1,
+            1
+          ],
+          0
+        ]
+      }
+    },
+    {
+      "rectangle": [
+        1,
+        2
+      ],
+      "mutable_bonds": 1,
+      "cases": 16,
+      "maximum_exit_steps": 2,
+      "uniform_clock_bound": 5,
+      "maximizer": {
+        "black_internal_mask": 0,
+        "pose": [
+          [
+            1,
+            0
+          ],
+          1
+        ]
+      }
+    },
+    {
+      "rectangle": [
+        1,
+        4
+      ],
+      "mutable_bonds": 3,
+      "cases": 128,
+      "maximum_exit_steps": 2,
+      "uniform_clock_bound": 5,
+      "maximizer": {
+        "black_internal_mask": 0,
+        "pose": [
+          [
+            1,
+            0
+          ],
+          1
+        ]
+      }
+    },
+    {
+      "rectangle": [
+        2,
+        2
+      ],
+      "mutable_bonds": 4,
+      "cases": 256,
+      "maximum_exit_steps": 7,
+      "uniform_clock_bound": 25,
+      "maximizer": {
+        "black_internal_mask": 1,
+        "pose": [
+          [
+            1,
+            0
+          ],
+          1
+        ]
+      }
+    },
+    {
+      "rectangle": [
+        2,
+        3
+      ],
+      "mutable_bonds": 7,
+      "cases": 3072,
+      "maximum_exit_steps": 12,
+      "uniform_clock_bound": 31,
+      "maximizer": {
+        "black_internal_mask": 4,
+        "pose": [
+          [
+            2,
+            -1
+          ],
+          1
+        ]
+      }
+    },
+    {
+      "rectangle": [
+        3,
+        3
+      ],
+      "mutable_bonds": 12,
+      "cases": 147456,
+      "maximum_exit_steps": 27,
+      "uniform_clock_bound": 149,
+      "maximizer": {
+        "black_internal_mask": 394,
+        "pose": [
+          [
+            1,
+            1
+          ],
+          2
+        ]
+      }
+    }
+  ],
+  "sampled_orbits": {
+    "orbits": 13,
+    "internal_transition_checks": 2222,
+    "full_episode_checks": 116,
+    "maximum_sampled_exit": 36
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "status": "Independent exhaustive complementary-root exclusions passed",
+  "rooted_cases": 1241057,
+  "totals": {
+    "analytic_filter": 1000661,
+    "chronology_conflict": 240394,
+    "finite_survivor": 2
+  },
+  "maximum_conflict_time": 3466,
+  "rows": [
+    {
+      "n": 3,
+      "internally_valid_images": 4,
+      "rooted_cases": 2,
+      "outcomes": {
+        "analytic_filter": 2
+      },
+      "latest_conflict": -1
+    },
+    {
+      "n": 5,
+      "internally_valid_images": 20,
+      "rooted_cases": 14,
+      "outcomes": {
+        "analytic_filter": 12,
+        "chronology_conflict": 2
+      },
+      "latest_conflict": 86
+    },
+    {
+      "n": 7,
+      "internally_valid_images": 70,
+      "rooted_cases": 86,
+      "outcomes": {
+        "analytic_filter": 72,
+        "chronology_conflict": 14
+      },
+      "latest_conflict": 162
+    },
+    {
+      "n": 9,
+      "internally_valid_images": 230,
+      "rooted_cases": 577,
+      "outcomes": {
+        "analytic_filter": 499,
+        "chronology_conflict": 78
+      },
+      "latest_conflict": 262
+    },
+    {
+      "n": 11,
+      "internally_valid_images": 696,
+      "rooted_cases": 3693,
+      "outcomes": {
+        "analytic_filter": 3191,
+        "chronology_conflict": 502
+      },
+      "latest_conflict": 484
+    },
+    {
+      "n": 13,
+      "internally_valid_images": 2062,
+      "rooted_cases": 24365,
+      "outcomes": {
+        "analytic_filter": 19998,
+        "chronology_conflict": 4367
+      },
+      "latest_conflict": 676
+    },
+    {
+      "n": 15,
+      "internally_valid_images": 5926,
+      "rooted_cases": 159127,
+      "outcomes": {
+        "analytic_filter": 132212,
+        "chronology_conflict": 26915
+      },
+      "latest_conflict": 1347
+    },
+    {
+      "n": 17,
+      "internally_valid_images": 16912,
+      "rooted_cases": 1053193,
+      "outcomes": {
+        "analytic_filter": 844675,
+        "chronology_conflict": 208516,
+        "finite_survivor": 2
+      },
+      "latest_conflict": 3466
+    }
+  ],
+  "sublattice_discharged_survivors": [
+    {
+      "n": 17,
+      "u": "LRLRLRRLRLRLRLRRL",
+      "v": "RLRRLRRLRLRLRLRLR",
+      "mode": "two_cycle",
+      "root": 0,
+      "a": [
+        3,
+        6
+      ],
+      "squared_scale": [
+        -27,
+        36
+      ],
+      "isolated_internal_offsets": 576,
+      "first_L_R": [
+        1,
+        [
+          1,
+          0
+        ]
+      ],
+      "first_L_L": [
+        2,
+        [
+          -1,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 17,
+      "u": "LRLRLRLRLRLRRLRRL",
+      "v": "RLRRLRLRLRLRRLRLR",
+      "mode": "two_cycle",
+      "root": 0,
+      "a": [
+        -3,
+        6
+      ],
+      "squared_scale": [
+        -27,
+        -36
+      ],
+      "isolated_internal_offsets": 576,
+      "first_L_R": [
+        1,
+        [
+          1,
+          0
+        ]
+      ],
+      "first_L_L": [
+        2,
+        [
+          -1,
+          1
+        ]
+      ]
+    }
+  ],
+  "seconds": 10.036279439926147,
+  "scope": "Only uniform internally feasible two-letter opposite-displacement geometric images of odd lengths3 through17, with L-prolongable or alternating first-letter roots. The two finite survivors are excluded by infinite first-L scaling, not the5000-step cutoff."
+}

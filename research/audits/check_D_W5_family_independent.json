@@ -1,0 +1,23 @@
+{
+  "status": "PASS independent all-parameter affine endpoints and ordered-age crossing",
+  "manifest_sha256": "7abc7243083ca6cd1ec9cb0d3618021ab95f1d38d5d6c78ff5153ed950496457",
+  "prefix_pose": [
+    -5,
+    0,
+    1
+  ],
+  "prefix_clock": 3,
+  "far_VCC_pose": "(1+3*w,-2-w,E)",
+  "late_D_pose": [
+    5,
+    -2,
+    3
+  ],
+  "late_D_clock": 5,
+  "reused_cell": [
+    4,
+    -2
+  ],
+  "replacement_maximum_age": 2,
+  "scope": "Only DC,D,VC,VC,V^(w+2),VCC,V^w,D,V,V for all integers w>=0; impossible on every board. No general D/W5 gate closure."
+}

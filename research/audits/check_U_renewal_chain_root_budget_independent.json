@@ -1,0 +1,303 @@
+{
+  "status": "PASS independent spatial chain bound and permanent-cycle consequence",
+  "manifest_sha256": "d8ad0f39b8b8088fd0a4188ae1e8d8487cfb65031a1e831591b2542f97c90c1e",
+  "dependencies": {
+    "genealogy_role_speed_frozen_20261023_0840/manifest.json": "c15e71ce948a16c32fc1dbc8ddb443eec3be99e89f209904a9bcb7cfb1ac8be5",
+    "causal_cycle_renewal_20261023_1841/manifest.json": "27db0bc457534074587a988c16bbf57c994464656df7c9aa06427ab23203d7d4",
+    "U_renewal_exact_clock_frozen_20261023_1902/manifest.json": "91f5cb870b1dacd19c793820cef537c1410bca05c8b71294d80a2ccc823b7fd6"
+  },
+  "typed_rows": [
+    {
+      "source": 7,
+      "target": 7,
+      "queries": [
+        [
+          5,
+          5,
+          3,
+          -1,
+          0,
+          2,
+          0,
+          4
+        ],
+        [
+          5,
+          5,
+          3,
+          -1,
+          0,
+          2,
+          1,
+          4
+        ]
+      ],
+      "excluded": [
+        false,
+        false
+      ]
+    },
+    {
+      "source": 7,
+      "target": 8,
+      "queries": [
+        [
+          5,
+          6,
+          3,
+          -1,
+          0,
+          2,
+          0,
+          4
+        ],
+        [
+          5,
+          6,
+          3,
+          -1,
+          0,
+          2,
+          1,
+          4
+        ]
+      ],
+      "excluded": [
+        false,
+        false
+      ]
+    },
+    {
+      "source": 7,
+      "target": 9,
+      "queries": [
+        [
+          5,
+          7,
+          3,
+          -1,
+          0,
+          2,
+          0,
+          4
+        ],
+        [
+          5,
+          7,
+          3,
+          -1,
+          0,
+          2,
+          1,
+          4
+        ]
+      ],
+      "excluded": [
+        true,
+        true
+      ]
+    },
+    {
+      "source": 8,
+      "target": 7,
+      "queries": [
+        [
+          6,
+          5,
+          3,
+          -1,
+          0,
+          2,
+          0,
+          4
+        ],
+        [
+          6,
+          5,
+          3,
+          -1,
+          0,
+          2,
+          1,
+          4
+        ]
+      ],
+      "excluded": [
+        false,
+        false
+      ]
+    },
+    {
+      "source": 8,
+      "target": 8,
+      "queries": [
+        [
+          6,
+          6,
+          3,
+          -1,
+          0,
+          2,
+          0,
+          4
+        ],
+        [
+          6,
+          6,
+          3,
+          -1,
+          0,
+          2,
+          1,
+          4
+        ]
+      ],
+      "excluded": [
+        true,
+        true
+      ]
+    },
+    {
+      "source": 8,
+      "target": 9,
+      "queries": [
+        [
+          6,
+          7,
+          3,
+          -1,
+          0,
+          2,
+          0,
+          4
+        ],
+        [
+          6,
+          7,
+          3,
+          -1,
+          0,
+          2,
+          1,
+          4
+        ]
+      ],
+      "excluded": [
+        true,
+        true
+      ]
+    },
+    {
+      "source": 9,
+      "target": 7,
+      "queries": [
+        [
+          7,
+          5,
+          3,
+          -1,
+          0,
+          2,
+          0,
+          4
+        ],
+        [
+          7,
+          5,
+          3,
+          -1,
+          0,
+          2,
+          1,
+          4
+        ]
+      ],
+      "excluded": [
+        false,
+        false
+      ]
+    },
+    {
+      "source": 9,
+      "target": 8,
+      "queries": [
+        [
+          7,
+          6,
+          3,
+          -1,
+          0,
+          2,
+          0,
+          4
+        ],
+        [
+          7,
+          6,
+          3,
+          -1,
+          0,
+          2,
+          1,
+          4
+        ]
+      ],
+      "excluded": [
+        true,
+        true
+      ]
+    },
+    {
+      "source": 9,
+      "target": 9,
+      "queries": [
+        [
+          7,
+          7,
+          3,
+          -1,
+          0,
+          2,
+          0,
+          4
+        ],
+        [
+          7,
+          7,
+          3,
+          -1,
+          0,
+          2,
+          1,
+          4
+        ]
+      ],
+      "excluded": [
+        true,
+        true
+      ]
+    }
+  ],
+  "unexcluded_edges": [
+    [
+      7,
+      7
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      9,
+      7
+    ]
+  ],
+  "arithmetic_controls": 6752,
+  "bound": "At a reset finite chain-head entry, M=max root x. No renewal if M<3; otherwise at most3M+5 links. All produced or entry upper d identities were current at preceding chain C=4j-4, so current-root radius applies.",
+  "graph_argument": "Directed first-break links have in/out degree at most one, increase time, and no infinite path by the spatial bound. Infinite U events therefore imply infinitely many finite chains. Each last cycle is never first-broken and all four exact identities stay current. Distinct permanent cycles have disjoint physical cells by fresh-output semantics.",
+  "scope": "Finite entry boards inside retained-eight histories only. No bound on independent chain births, initial mass-only bound, general merger, or capture. No lower-parent selected-role inequality is used."
+}

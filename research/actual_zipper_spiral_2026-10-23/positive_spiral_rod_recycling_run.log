@@ -1,0 +1,428 @@
+[
+  {
+    "q": 1,
+    "spiral_input_edges": 4,
+    "odd_rod_input_edges": 9,
+    "M": 13,
+    "initial_ranks": [
+      0,
+      0
+    ],
+    "first": {
+      "T": 24,
+      "gain": -2,
+      "L": 13,
+      "R": 11,
+      "births": [
+        0,
+        0
+      ],
+      "erasures": [
+        0,
+        0
+      ],
+      "exit_mass": 11,
+      "exit_active": 0
+    },
+    "reset": {
+      "births": [
+        0,
+        1
+      ],
+      "erasures": [
+        0,
+        1
+      ],
+      "entry_second_mass": 14,
+      "entry_second_active": 9
+    },
+    "second_ordinary": {
+      "blocks": 9,
+      "R": 8,
+      "gain": -1,
+      "consumed_lifetimes": {
+        "initial": 0,
+        "spiral_R": 1,
+        "rod_R": 8,
+        "reset_R": 0,
+        "second_R": 0
+      },
+      "first_R_fraction": 1.0
+    },
+    "second_following_exception": {
+      "r": 4,
+      "deleted": [
+        [
+          4,
+          4
+        ],
+        "second_R",
+        true
+      ]
+    },
+    "second_prefix_word_sha256": "9fd185ddccf8246f71df9e4de987f39cdd474091c9350e3d9fee77038ad1f852",
+    "second_including_final_exception_births": [
+      0,
+      1
+    ],
+    "second_including_final_exception_erasures": [
+      0,
+      1
+    ]
+  },
+  {
+    "q": 2,
+    "spiral_input_edges": 8,
+    "odd_rod_input_edges": 17,
+    "M": 25,
+    "initial_ranks": [
+      0,
+      0
+    ],
+    "first": {
+      "T": 49,
+      "gain": -1,
+      "L": 25,
+      "R": 24,
+      "births": [
+        0,
+        0
+      ],
+      "erasures": [
+        0,
+        0
+      ],
+      "exit_mass": 24,
+      "exit_active": 0
+    },
+    "reset": {
+      "births": [
+        0,
+        1
+      ],
+      "erasures": [
+        0,
+        1
+      ],
+      "entry_second_mass": 27,
+      "entry_second_active": 17
+    },
+    "second_ordinary": {
+      "blocks": 17,
+      "R": 16,
+      "gain": -1,
+      "consumed_lifetimes": {
+        "initial": 0,
+        "spiral_R": 1,
+        "rod_R": 16,
+        "reset_R": 0,
+        "second_R": 0
+      },
+      "first_R_fraction": 1.0
+    },
+    "second_following_exception": {
+      "r": 4,
+      "deleted": [
+        [
+          8,
+          1
+        ],
+        "second_R",
+        true
+      ]
+    },
+    "second_prefix_word_sha256": "af81161309a47d22a4caa6ac228f9421b58d2ef385150f06676d7784633cae1f",
+    "second_including_final_exception_births": [
+      0,
+      1
+    ],
+    "second_including_final_exception_erasures": [
+      0,
+      1
+    ]
+  },
+  {
+    "q": 3,
+    "spiral_input_edges": 16,
+    "odd_rod_input_edges": 33,
+    "M": 49,
+    "initial_ranks": [
+      0,
+      0
+    ],
+    "first": {
+      "T": 98,
+      "gain": 0,
+      "L": 49,
+      "R": 49,
+      "births": [
+        0,
+        0
+      ],
+      "erasures": [
+        0,
+        0
+      ],
+      "exit_mass": 49,
+      "exit_active": 0
+    },
+    "reset": {
+      "births": [
+        0,
+        1
+      ],
+      "erasures": [
+        0,
+        1
+      ],
+      "entry_second_mass": 52,
+      "entry_second_active": 33
+    },
+    "second_ordinary": {
+      "blocks": 33,
+      "R": 32,
+      "gain": -1,
+      "consumed_lifetimes": {
+        "initial": 0,
+        "spiral_R": 1,
+        "rod_R": 32,
+        "reset_R": 0,
+        "second_R": 0
+      },
+      "first_R_fraction": 1.0
+    },
+    "second_following_exception": {
+      "r": 4,
+      "deleted": [
+        [
+          1,
+          -7
+        ],
+        "second_R",
+        true
+      ]
+    },
+    "second_prefix_word_sha256": "88b8408772efa76006d171f2b57389a7d184bb5824305804d9526f0cac7aab25",
+    "second_including_final_exception_births": [
+      0,
+      1
+    ],
+    "second_including_final_exception_erasures": [
+      0,
+      1
+    ]
+  },
+  {
+    "q": 4,
+    "spiral_input_edges": 24,
+    "odd_rod_input_edges": 49,
+    "M": 73,
+    "initial_ranks": [
+      0,
+      0
+    ],
+    "first": {
+      "T": 147,
+      "gain": 1,
+      "L": 73,
+      "R": 74,
+      "births": [
+        0,
+        0
+      ],
+      "erasures": [
+        0,
+        0
+      ],
+      "exit_mass": 74,
+      "exit_active": 0
+    },
+    "reset": {
+      "births": [
+        0,
+        1
+      ],
+      "erasures": [
+        0,
+        1
+      ],
+      "entry_second_mass": 77,
+      "entry_second_active": 49
+    },
+    "second_ordinary": {
+      "blocks": 49,
+      "R": 48,
+      "gain": -1,
+      "consumed_lifetimes": {
+        "initial": 0,
+        "spiral_R": 1,
+        "rod_R": 48,
+        "reset_R": 0,
+        "second_R": 0
+      },
+      "first_R_fraction": 1.0
+    },
+    "second_following_exception": {
+      "r": 4,
+      "deleted": [
+        [
+          -7,
+          0
+        ],
+        "second_R",
+        true
+      ]
+    },
+    "second_prefix_word_sha256": "576c8077506cf37a4eba502ce52ef384713b08ad4a48bba512a97929e9fc68b2",
+    "second_including_final_exception_births": [
+      0,
+      1
+    ],
+    "second_including_final_exception_erasures": [
+      0,
+      1
+    ]
+  },
+  {
+    "q": 8,
+    "spiral_input_edges": 80,
+    "odd_rod_input_edges": 161,
+    "M": 241,
+    "initial_ranks": [
+      0,
+      0
+    ],
+    "first": {
+      "T": 487,
+      "gain": 5,
+      "L": 241,
+      "R": 246,
+      "births": [
+        0,
+        0
+      ],
+      "erasures": [
+        0,
+        0
+      ],
+      "exit_mass": 246,
+      "exit_active": 0
+    },
+    "reset": {
+      "births": [
+        0,
+        1
+      ],
+      "erasures": [
+        0,
+        1
+      ],
+      "entry_second_mass": 249,
+      "entry_second_active": 161
+    },
+    "second_ordinary": {
+      "blocks": 161,
+      "R": 160,
+      "gain": -1,
+      "consumed_lifetimes": {
+        "initial": 0,
+        "spiral_R": 1,
+        "rod_R": 160,
+        "reset_R": 0,
+        "second_R": 0
+      },
+      "first_R_fraction": 1.0
+    },
+    "second_following_exception": {
+      "r": 4,
+      "deleted": [
+        [
+          -15,
+          0
+        ],
+        "second_R",
+        true
+      ]
+    },
+    "second_prefix_word_sha256": "957954af69aaa298583e38e8a7061da269b4a5a739fbb6214b97cef75e85a265",
+    "second_including_final_exception_births": [
+      0,
+      1
+    ],
+    "second_including_final_exception_erasures": [
+      0,
+      1
+    ]
+  },
+  {
+    "q": 16,
+    "spiral_input_edges": 288,
+    "odd_rod_input_edges": 577,
+    "M": 865,
+    "initial_ranks": [
+      0,
+      0
+    ],
+    "first": {
+      "T": 1743,
+      "gain": 13,
+      "L": 865,
+      "R": 878,
+      "births": [
+        0,
+        0
+      ],
+      "erasures": [
+        0,
+        0
+      ],
+      "exit_mass": 878,
+      "exit_active": 0
+    },
+    "reset": {
+      "births": [
+        0,
+        1
+      ],
+      "erasures": [
+        0,
+        1
+      ],
+      "entry_second_mass": 881,
+      "entry_second_active": 577
+    },
+    "second_ordinary": {
+      "blocks": 577,
+      "R": 576,
+      "gain": -1,
+      "consumed_lifetimes": {
+        "initial": 0,
+        "spiral_R": 1,
+        "rod_R": 576,
+        "reset_R": 0,
+        "second_R": 0
+      },
+      "first_R_fraction": 1.0
+    },
+    "second_following_exception": {
+      "r": 4,
+      "deleted": [
+        [
+          -31,
+          0
+        ],
+        "second_R",
+        true
+      ]
+    },
+    "second_prefix_word_sha256": "9b39fb7c54c2387aa708cad28f9daf905b6d23ef66c3b091efa20f9db778be79",
+    "second_including_final_exception_births": [
+      0,
+      1
+    ],
+    "second_including_final_exception_erasures": [
+      0,
+      1
+    ]
+  }
+]

@@ -1,0 +1,299 @@
+{
+  "status": "PASS genuine Q/B-tail chronological first-contact catalogue and scoped U-source history cuts",
+  "manifest_sha256": "364870f37fdab340789d094421ad986b55848bcf137f73ec957f9839cb9be010",
+  "counts": {
+    "Q": {
+      "geometries": 24,
+      "clock_labels": 47
+    },
+    "B": {
+      "geometries": 39,
+      "clock_labels": 76
+    }
+  },
+  "U_filters": {
+    "Q": {
+      "contexts": {
+        "white": 7,
+        "core": 1,
+        "open": 1
+      },
+      "survivors": [
+        [
+          -4,
+          3,
+          3,
+          [
+            [
+              5,
+              1
+            ]
+          ]
+        ]
+      ]
+    },
+    "B": {
+      "contexts": {
+        "open": 4,
+        "white": 10,
+        "core": 1
+      },
+      "survivors": [
+        [
+          2,
+          6,
+          0,
+          [
+            [
+              4,
+              1
+            ]
+          ]
+        ],
+        [
+          3,
+          0,
+          1,
+          [
+            [
+              3,
+              0
+            ],
+            [
+              7,
+              1
+            ]
+          ]
+        ],
+        [
+          -5,
+          2,
+          3,
+          [
+            [
+              5,
+              1
+            ]
+          ]
+        ],
+        [
+          -3,
+          6,
+          3,
+          [
+            [
+              5,
+              1
+            ]
+          ]
+        ]
+      ]
+    }
+  },
+  "symbolic_angles": [
+    [
+      "Q",
+      "D",
+      0,
+      3,
+      0
+    ],
+    [
+      "Q",
+      "D",
+      1,
+      1,
+      0
+    ],
+    [
+      "Q",
+      "D",
+      2,
+      -1,
+      0
+    ],
+    [
+      "Q",
+      "D",
+      3,
+      -3,
+      0
+    ],
+    [
+      "Q",
+      "C",
+      0,
+      3,
+      0
+    ],
+    [
+      "Q",
+      "C",
+      1,
+      1,
+      0
+    ],
+    [
+      "Q",
+      "C",
+      2,
+      -1,
+      0
+    ],
+    [
+      "Q",
+      "C",
+      3,
+      -3,
+      0
+    ],
+    [
+      "Q",
+      "V",
+      0,
+      4,
+      -1
+    ],
+    [
+      "Q",
+      "V",
+      1,
+      2,
+      -1
+    ],
+    [
+      "Q",
+      "V",
+      2,
+      0,
+      -1
+    ],
+    [
+      "Q",
+      "V",
+      3,
+      -2,
+      -1
+    ],
+    [
+      "B",
+      "D",
+      0,
+      3,
+      -1
+    ],
+    [
+      "B",
+      "D",
+      1,
+      1,
+      -1
+    ],
+    [
+      "B",
+      "D",
+      2,
+      -1,
+      -1
+    ],
+    [
+      "B",
+      "D",
+      3,
+      -3,
+      -1
+    ],
+    [
+      "B",
+      "C",
+      0,
+      3,
+      -1
+    ],
+    [
+      "B",
+      "C",
+      1,
+      1,
+      -1
+    ],
+    [
+      "B",
+      "C",
+      2,
+      -1,
+      -1
+    ],
+    [
+      "B",
+      "C",
+      3,
+      -3,
+      -1
+    ],
+    [
+      "B",
+      "V",
+      0,
+      4,
+      -2
+    ],
+    [
+      "B",
+      "V",
+      1,
+      2,
+      -2
+    ],
+    [
+      "B",
+      "V",
+      2,
+      0,
+      -2
+    ],
+    [
+      "B",
+      "V",
+      3,
+      -2,
+      -2
+    ],
+    [
+      "B",
+      "U",
+      0,
+      4,
+      -1
+    ],
+    [
+      "B",
+      "U",
+      1,
+      2,
+      -1
+    ],
+    [
+      "B",
+      "U",
+      2,
+      0,
+      -1
+    ],
+    [
+      "B",
+      "U",
+      3,
+      -2,
+      -1
+    ]
+  ],
+  "collinear_Q_case": "[('U', -4, -4, 2, Fraction(0, 1), Fraction(1, 1), (2, 6), True, False)]",
+  "analytic": [
+    "Before the first tail contact, the F-prefix must miss the old path. The source-chord filter allows only its legal F-entry adjacency, verified at the full physical endpoint pose. Both appended pieces are simple and only adjacent to one another. Thus chronological first contact gives the Jordan closure, not an arbitrary reset closure.",
+    "The actual C-to-F negative wrap is retained. Positive delta gives ages0..3 or4..7 according to preceding-C bit. A C source cannot have age0.",
+    "For parallel Q-tail/U geometry, opposite travel begins contact at the old endpoint s=1, assigned to the outgoing atom; same travel begins at s=0 and closes with zero turn. Only ages2/6 survive, with no ambiguous pi-join ages0/4/8.",
+    "Actual complete Q/B contexts, not an F marker, give U-source filters. Age0/1 old-star effects use the signed early-star theorem; B(-3,6,W) at1 instead contradicts the same original recycled-q identity surviving until age2."
+  ],
+  "scope": "Necessary tail obligations only. The separate all-age B(3,0,E) exclusion is not silently folded into this immutable catalogue. No D/C/V tail closure, attained ancestry, global proxy simplicity or capture."
+}

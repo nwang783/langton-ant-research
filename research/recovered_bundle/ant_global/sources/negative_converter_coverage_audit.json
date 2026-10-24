@@ -1,0 +1,119 @@
+{
+  "theorem": "No same-sector (2,2) negative-mass converter of the standard wake confined to -3<=x-y<=7",
+  "input_black_classes": [
+    [
+      -3,
+      0
+    ],
+    [
+      -3,
+      1
+    ],
+    [
+      -2,
+      1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      1
+    ]
+  ],
+  "labelled_outputs": 3061,
+  "mass_4_outputs": 1,
+  "mass_8_outputs": 3060,
+  "row_surviving_outputs": 658,
+  "row_profiles": 30431,
+  "independent_dp_profiles": 30431,
+  "max_period": 216,
+  "complete_chronology_records": 30431,
+  "accepted_result_files": [
+    "conversion_ports_chronology_results.txt",
+    "conversion_ports_resume_results.txt"
+  ],
+  "timeouts_accepted": 0,
+  "solutions": 0,
+  "partial_checks": 29348386,
+  "sum_reported_seconds": 55.58263206500032,
+  "controls": [
+    {
+      "id": -1,
+      "period": 104,
+      "displacement": [
+        2,
+        2
+      ],
+      "input_mass": 0,
+      "output_mass": 12,
+      "classes_read": 22
+    },
+    {
+      "id": -2,
+      "period": 104,
+      "displacement": [
+        2,
+        2
+      ],
+      "input_mass": 22,
+      "output_mass": 10,
+      "classes_read": 22
+    },
+    {
+      "id": -3,
+      "period": 4,
+      "displacement": [
+        2,
+        2
+      ],
+      "input_mass": 2,
+      "output_mass": 2,
+      "classes_read": 4
+    }
+  ],
+  "sha256": {
+    "conversion_chronology.cpp": "bd4584eabe1869e3040955bb18904b824980a76605110b1458e37696aa9b6d0c",
+    "conversion_chronology": "b9bf192c32bce178004e410c91d6ed60d961ac6331e263e6f0c42a073ac4970e",
+    "conversion_full_row_screen.py": "3dce4293092e6713afc86a5252c3640996d7412d22ce2f646f46819cc730a829",
+    "conversion_ports_row_screen.json": "4a61e0acc848b4504fcc3501980761fdcc0a3a20503d8d25a22a5754991b5e80",
+    "conversion_ports_row_profiles.json": "5cca6f9752a25770826b6e5e8ed805334457351c69c998528d1ee7f758eefead",
+    "conversion_ports_chronology_inputs.txt": "b24d09a415abfc114024f486108f922863e0bf9b1b912d726a7d3d22e19671c1",
+    "conversion_controls_and_verifier.py": "31f5068876cae8abb638ad7d569f6340f1a53bcd58d16d4b099428ff1300e009",
+    "conversion_controls_audit.json": "3fcf219e15d7347ff49c090108f10f33afabceb0b7f848c51b73037bab4a5628",
+    "conversion_controls_results.txt": "c149e76d6fa216955d6ce7c23654e9d80b602a2d37893596af1924956ba0cf96",
+    "audit_negative_converter_coverage.py": "21fd5184b7780d7063073e4312be283be6dc6d214ebdd4ef4c1b4e224287618b",
+    "conversion_ports_chronology_results.txt": "de0ef25f332eb04a7131db852a207b3e523415df50c5880190bf8f6d4cedcd9f",
+    "conversion_ports_resume_results.txt": "f577244252dc15d0520f32e8a5cd496327522c26b9810e9e772eb23f053c8bc5"
+  },
+  "status": "internally audited computer-assisted result; no external or formal review"
+}

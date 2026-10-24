@@ -1,0 +1,238 @@
+{
+  "status": "PASS missing immediate U-to-FIRST-FOREIGN adjacency; together with conditional960e5da9 proves only the old-U all-tail S4 V target guard",
+  "manifest": "1d47beeee63435ae2901b11560d301e4ce89b76c95b0aa12db80e9594d2d9f41",
+  "script": "bf725511e1176b6518460e0332ca13bc790ff24e7fae774d3060190739de07d6",
+  "conditional_original_report": "960e5da95b6048c6c0e091249b0041369bc9547c8335f29746c4d3e0bd0b3076",
+  "original_0aad_remains_incomplete_alone": true,
+  "dependencies": {
+    "foreign_Q_B_hook_contact_reserve_2026-10-24/manifest.json": "715bdcf34f862e357bfb0a46ad8415635fd998b9dbb36d072455e76e7a1ed720",
+    "audits/check_foreign_hook_reserve_independent.json": "cedb9bbf90607b86eec6cb3f939add6b5465c135f7d75320593d4fcbe5c245dd",
+    "original_F_piece_firstpost_DC_2026-10-24/partial_scope_qualification_manifest.json": "45abc7fa94ad82eb0b96c9cd726a1cd8621d26dc0d53a2d824ff8af291e451c1",
+    "audits/check_F_DC_partial_qualification_independent.json": "5e4c8a8e3e624b98ce0ef75c509c32ab40be4421af0f58e50b4d42a2d613fdba",
+    "original_F_piece_firstpost_DC_2026-10-24/F_piece_DC.json": "a93ecda3edda30fb0f967c5c7721464e4095bfdb152a75f2408f375d043ffc8f",
+    "first_postforeign_V_first_contact_2026-10-24/portable_F_reserve_scope_lift_manifest.json": "15e279a79eec60032af6782cf8c2311406aae0ceaab029c7e1e498a514aa0650",
+    "audits/check_portable_F_scope_independent.json": "8806adb8525d41139108f88427db3b256d25f72323f4e06a6af6c208eab6bbfb",
+    "firstpostU_F_piece_first_contact_2026-10-24/manifest.json": "a08c276e417ffbe0166ccddc484da9f01c96f5160d3554eaca3b7f6b32c6ff68",
+    "audits/check_F_piece_firstpostU_independent.json": "4bd02e7a366a20c22e38631e86c953fa4997a7f2220f73c8151187dd92294fcc",
+    "ordinary_RAW_G8_base_cut_bridge_2026-10-24/U_star_RAW_lift_manifest.json": "c3b0a0b8a1ddb652047eec49ea804ed7e412d454c6c9192b1532c0b6bcd9de4e",
+    "audits/check_fresh_U_star_RAW_lift_independent.json": "5f123776d3d63aaec7d44ee085c56a1cad0a46c40721091c3486ce786e287657",
+    "literal_ownership_conventions_2026-10-24/canonical_read_ownership.py": "041b40e04a0f71a6b9511abf1d15b1d86c548e74f4f99281477c115b72036ea2",
+    "word_stabilization/check_foreign_return_interfaces.py": "249f89213a96c8daad9d0ecde65e877d5e254af033092adb81b4bbaca0cc729c"
+  },
+  "Q_B_actual_conflicts": [
+    {
+      "word": "UQ",
+      "EXIT": [
+        -4,
+        0,
+        2
+      ],
+      "actual_own_RAW_conflicts": [
+        {
+          "physical": [
+            -2,
+            3
+          ],
+          "post_FORE_EXIT_local": [
+            -2,
+            -3
+          ],
+          "target_local": [
+            2,
+            1
+          ],
+          "first": [
+            "R",
+            7
+          ]
+        },
+        {
+          "physical": [
+            -1,
+            3
+          ],
+          "post_FORE_EXIT_local": [
+            -3,
+            -3
+          ],
+          "target_local": [
+            1,
+            1
+          ],
+          "first": [
+            "R",
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "word": "UB",
+      "EXIT": [
+        -3,
+        -1,
+        2
+      ],
+      "actual_own_RAW_conflicts": [
+        {
+          "physical": [
+            -1,
+            3
+          ],
+          "post_FORE_EXIT_local": [
+            -2,
+            -4
+          ],
+          "target_local": [
+            1,
+            1
+          ],
+          "first": [
+            "R",
+            6
+          ]
+        },
+        {
+          "physical": [
+            -2,
+            3
+          ],
+          "post_FORE_EXIT_local": [
+            -1,
+            -4
+          ],
+          "target_local": [
+            2,
+            1
+          ],
+          "first": [
+            "R",
+            7
+          ]
+        }
+      ]
+    }
+  ],
+  "F_target": [
+    -4,
+    -2,
+    0
+  ],
+  "F_actual_conflicts": [
+    {
+      "postF_tag": [
+        -3,
+        -1
+      ],
+      "actual_F_R_birth": 46,
+      "target_local": [
+        1,
+        1
+      ],
+      "actual_first": [
+        "R",
+        6
+      ]
+    },
+    {
+      "postF_tag": [
+        -2,
+        -1
+      ],
+      "actual_F_R_birth": 47,
+      "target_local": [
+        2,
+        1
+      ],
+      "actual_first": [
+        "R",
+        7
+      ]
+    }
+  ],
+  "all128_pair_counts": {
+    "N0_unreachable_or_N4_exit_y_minus1_cannot_reach_lower_N4_or_W5_target": 6,
+    "sector": 64,
+    "other_held_F_tag_CORE_or_first_WHITE": 34,
+    "earlier_actual_F_or_ordinary_source_contact": 21,
+    "touches_independent_source_CURRENT_identity_before_target": 3
+  },
+  "all3_residual_marker_capture_ports": [
+    {
+      "actor": "D",
+      "ENTRY": [
+        -2,
+        -2,
+        0
+      ],
+      "input": [
+        0,
+        1
+      ],
+      "RAW_EXIT": [
+        -1,
+        -1,
+        0
+      ],
+      "physical_first_L": [
+        "L",
+        11
+      ],
+      "alive_CORE_at_EXIT": true
+    },
+    {
+      "actor": "V",
+      "ENTRY": [
+        -2,
+        -4,
+        0
+      ],
+      "input": [
+        0,
+        3
+      ],
+      "RAW_EXIT": [
+        -1,
+        -1,
+        0
+      ],
+      "physical_first_L": [
+        "L",
+        19
+      ],
+      "alive_CORE_at_EXIT": true
+    },
+    {
+      "actor": "U",
+      "ENTRY": [
+        -1,
+        -5,
+        0
+      ],
+      "input": [
+        -1,
+        4
+      ],
+      "RAW_EXIT": [
+        -1,
+        -1,
+        0
+      ],
+      "physical_first_L": [
+        "L",
+        29
+      ],
+      "alive_CORE_at_EXIT": true
+    }
+  ],
+  "analytic_review": [
+    "The omitted adjacency is real and is now treated separately: actual plainU ends0,4N and can be followed immediately byFIRSTF/Q/B. No ordinary successorV is assumed in this branch. The original0aad proof remains unchanged and incomplete in isolation; its separately checked conditional remainder is composed only after these three adjacency cases are excluded.",
+    "For UQ/UB, the exact SAME four-hook reserve stops at the first contact with that actual foreign proxy. GLOBAL-first stopping at the candidate oldU actor entails no earlier foreign contact and retains the hooks at ENTRY, regardless of which old piece owns the later contact. Two genuine hook identities at oldU coordinates(-1,3),(-2,3) conflict with targetV ownR6/R7. No contact-body persistence or new output identity is used.",
+    "For UF the actual RAW exit is(-4,2,S), making the stopped target(-4,-2,N) in the actual postF chart. SAME F46/F47 are genuine external outputs(-3,-1),(-2,-1), again at target ownR6/R7. All four possible first ordinary letters D/C/V/U are explicitly covered, rather than an assumed containingfullpacket.",
+    "FirstV invokes signed source-owner-independent15e: every earlier simple cut has its real immediate next ordinary RAW plus actualM, so nonterminal25a supplies its own r/A. This reserve has no eventual-old-owner, target-coordinate or fixed-index premise. FirstU invokes the independently reconstructed64-role a08 table with the NEW sourceU SAMELEFT; the stronger signed RAW-star theorem supplies it throughout this ordinary-only suffix, without transporting oldU identities acrossF.",
+    "FirstD common2,0 is independently current throughclock3 by the actual sourceD/DC-to-hypothetical-earlierBASE G8 factor, with real incomingF and real nextM. Source/next-atom intersections remove E3 losses; all N4 loss exits x>=2 cannot reach targetx=-4 by N motion. FirstC O3 is independently current because its N4 loss exits y>=2 cannot reach targety=-2. Both source-normal proofs are reader/owner independent under these coordinate and GLOBAL-simple-prefix conditions; neither requires a properF contact target.",
+    "The independently rebuilt128 coupled F-pair roles use those actual independent source anchors. After sector, held-pair and strictly earlier F/source-contact cuts, only D(-2,-2,N),V(-2,-4,N),U(-1,-5,N) remain, once per source. Each exits(-1,-1,N); no remaining zero-C N motion can reach lower y=-2. Their SAME F47 is physically alive in exitCORE and only dies at the actual next read2, which is retained rather than mislabelled an earlier physical death.",
+    "Only the mandatory45abc strict-lower N4 pair scope is used. The original143d universal-pair assertion remains rejected, including all genuine prepared y=-1 activeCORE controls. No targetC or terminalDCC is parsed in this argument; hypothetical earlier BASE consumers alone supply the G8 maturity premise.",
+    "With adjacency excluded, the conditional ordinary-successor funnel and all235FOREIGN/108physicalCORE-origin interfaces in960e5da9 now cover every allowed source continuation. The resulting conclusion excludes only V(0,4,S) at totalC4 for the selected oldU under oneFIRSTFOREIGN/GLOBAL-first stopping. D(0,2,S), arbitrary-tail simplicity, secondFOREIGN and universal attraction remain outside."
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "status": "PASS complete local cover and all physical-type chain controls",
+  "scope": "Check the finite local certificates used by the all-decoration collapse.\nNo author geometry imports. Prefix cubes certify every one of2^17 child maps.\n",
+  "covered": 131072,
+  "cubes": 38,
+  "survivors": [
+    0,
+    2048,
+    256
+  ],
+  "chains": [
+    {
+      "slots": [
+        8,
+        8
+      ],
+      "word": "RRLRRRRLRRLRRRRLRRLRRRRLRLLRLLRLLLLRLLRLLLLRLLRLL",
+      "conflict": null
+    },
+    {
+      "slots": [
+        8,
+        11
+      ],
+      "word": "RRLRRRRLRRLRRRRLRLLRRLRRRRLRLLRLLRLLLLRLLLLRLLRLL",
+      "conflict": {
+        "cell": [
+          2,
+          2
+        ],
+        "previous": [
+          32,
+          "L"
+        ],
+        "current": [
+          44,
+          "L"
+        ]
+      }
+    },
+    {
+      "slots": [
+        11,
+        8
+      ],
+      "word": "RRLRRRRLRLLRRLRRRRLRRLRRRRLRLLRLLRLLLLRLLRLLLLRLL",
+      "conflict": null
+    },
+    {
+      "slots": [
+        11,
+        11
+      ],
+      "word": "RRLRRRRLRLLRRLRRRRLRLLRRLRRRRLRLLRLLRLLLLRLLLLRLL",
+      "conflict": {
+        "cell": [
+          0,
+          1
+        ],
+        "previous": [
+          35,
+          "L"
+        ],
+        "current": [
+          47,
+          "L"
+        ]
+      }
+    }
+  ],
+  "typed_controls": 360,
+  "source_sha256": "19fad6a3adfc42001f29cc4c5fcb673e5a22b4ef6efa5d152fb39305819c4f18",
+  "note_sha256": "0030a49c2ec56f25e9cd838fe572a426cf744ec3a959e829f959afaff87b66e0",
+  "classification_sha256": "92afba6abb41bb3aea151e3c175146a35631dc43d30941b7b366cd4f82ac6c19"
+}

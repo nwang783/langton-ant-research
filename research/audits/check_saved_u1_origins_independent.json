@@ -1,0 +1,81 @@
+{
+  "status": "PASS independent literal-endpoint all-origin superset replay",
+  "manifest_sha256": "a8662b25db36d7a90a344ffaf0f2118c7f920824fa25c3c129f24fd1a5cef1f5",
+  "packets": 350,
+  "C_before_goal": 122,
+  "all_earlier_output_births_considered": 1114,
+  "origins": {
+    "(-1, 1)": {
+      "ages": [
+        18,
+        19,
+        22,
+        23
+      ],
+      "birth_steps": [
+        292,
+        293,
+        302,
+        303,
+        305,
+        306
+      ],
+      "candidate_count": 6
+    },
+    "(-1, 2)": {
+      "ages": [
+        11,
+        14,
+        15
+      ],
+      "birth_steps": [
+        313,
+        314,
+        323
+      ],
+      "candidate_count": 3
+    },
+    "(-1, 4)": {
+      "ages": [
+        6,
+        7
+      ],
+      "birth_steps": [
+        333,
+        334
+      ],
+      "candidate_count": 2
+    },
+    "(0, 2)": {
+      "ages": [
+        18,
+        19,
+        22,
+        23
+      ],
+      "birth_steps": [
+        292,
+        293,
+        302,
+        304,
+        306
+      ],
+      "candidate_count": 5
+    },
+    "(0, 3)": {
+      "ages": [
+        6,
+        7,
+        10
+      ],
+      "birth_steps": [
+        325,
+        333,
+        334
+      ],
+      "candidate_count": 3
+    }
+  },
+  "contradiction": "Every eligible lower-middle age is strictly below every eligible lower-a and upper-c age, violating LN.",
+  "scope": "One old saved U1 resource word with zero initial tokens above height -10. Reuses only signed HB and individual age minima; no U1 closure or novelty of this word exclusion."
+}

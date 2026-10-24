@@ -1,0 +1,757 @@
+{
+  "status": "PASS earliest-portal T>=3 guard, with D-family necessary-prefix clarification",
+  "manifest_sha256": "e74dca08ba5962577861c1fbb4435456399467b231671372a34328f160d1ebaa",
+  "four_unbounded_T2_endpoint_identities": [
+    {
+      "source": "V",
+      "foreign": "Q",
+      "D_count": {
+        "constant": 4,
+        "B_coefficient": 1
+      },
+      "last": "V"
+    },
+    {
+      "source": "V",
+      "foreign": "B",
+      "D_count": {
+        "constant": 4,
+        "B_coefficient": 1
+      },
+      "last": "U"
+    },
+    {
+      "source": "U",
+      "foreign": "Q",
+      "D_count": {
+        "constant": 3,
+        "B_coefficient": 1
+      },
+      "last": "V"
+    },
+    {
+      "source": "U",
+      "foreign": "B",
+      "D_count": {
+        "constant": 3,
+        "B_coefficient": 1
+      },
+      "last": "U"
+    }
+  ],
+  "immutable_returned_C_guards": [
+    {
+      "tokens": [
+        "D",
+        "V",
+        "Q"
+      ],
+      "RAW_end_tick0": 92,
+      "conflict_tick0": 93,
+      "returned_C_tick0": 1,
+      "returned_C_read1": 2,
+      "cell": [
+        -1,
+        0
+      ],
+      "all_reads_through_conflict": [
+        [
+          1,
+          "L"
+        ],
+        [
+          93,
+          "L"
+        ]
+      ]
+    },
+    {
+      "tokens": [
+        "D",
+        "U",
+        "B"
+      ],
+      "RAW_end_tick0": 112,
+      "conflict_tick0": 113,
+      "returned_C_tick0": 1,
+      "returned_C_read1": 2,
+      "cell": [
+        -1,
+        0
+      ],
+      "all_reads_through_conflict": [
+        [
+          1,
+          "L"
+        ],
+        [
+          113,
+          "L"
+        ]
+      ]
+    }
+  ],
+  "four_D_and_DC_containing_role_guards": [
+    {
+      "source": "VCC",
+      "first_W_packet": "D",
+      "conflict_tick0": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "physical_owner": "next word tick1/read2"
+    },
+    {
+      "source": "VCC",
+      "first_W_packet": "DC",
+      "conflict_tick0": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "physical_owner": "own C-tail tick1/read2"
+    },
+    {
+      "source": "UCC",
+      "first_W_packet": "D",
+      "conflict_tick0": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "physical_owner": "next word tick1/read2"
+    },
+    {
+      "source": "UCC",
+      "first_W_packet": "DC",
+      "conflict_tick0": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "physical_owner": "own C-tail tick1/read2"
+    }
+  ],
+  "twenty_five_prescribed_failures": [
+    {
+      "tokens": [
+        "DC",
+        "D",
+        "UCC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "Q",
+        "C"
+      ],
+      "conflict_tick0": 132,
+      "cell": [
+        0,
+        0
+      ],
+      "first_tick0": 0
+    },
+    {
+      "tokens": [
+        "DC",
+        "D",
+        "UCC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "U",
+        "B",
+        "C"
+      ],
+      "conflict_tick0": 132,
+      "cell": [
+        0,
+        0
+      ],
+      "first_tick0": 0
+    },
+    {
+      "tokens": [
+        "DC",
+        "D",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "Q",
+        "C"
+      ],
+      "conflict_tick0": 168,
+      "cell": [
+        0,
+        0
+      ],
+      "first_tick0": 0
+    },
+    {
+      "tokens": [
+        "DC",
+        "D",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "U",
+        "B",
+        "C"
+      ],
+      "conflict_tick0": 168,
+      "cell": [
+        0,
+        0
+      ],
+      "first_tick0": 0
+    },
+    {
+      "tokens": [
+        "DC",
+        "D",
+        "V",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "F",
+        "C"
+      ],
+      "conflict_tick0": 206,
+      "cell": [
+        -1,
+        -1
+      ],
+      "first_tick0": 2
+    },
+    {
+      "tokens": [
+        "VC",
+        "D",
+        "UCC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "Q",
+        "C"
+      ],
+      "conflict_tick0": 135,
+      "cell": [
+        0,
+        1
+      ],
+      "first_tick0": 11
+    },
+    {
+      "tokens": [
+        "VC",
+        "D",
+        "UCC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "U",
+        "B",
+        "C"
+      ],
+      "conflict_tick0": 135,
+      "cell": [
+        0,
+        1
+      ],
+      "first_tick0": 11
+    },
+    {
+      "tokens": [
+        "VC",
+        "D",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "Q",
+        "C"
+      ],
+      "conflict_tick0": 171,
+      "cell": [
+        0,
+        1
+      ],
+      "first_tick0": 11
+    },
+    {
+      "tokens": [
+        "VC",
+        "D",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "U",
+        "B",
+        "C"
+      ],
+      "conflict_tick0": 171,
+      "cell": [
+        0,
+        1
+      ],
+      "first_tick0": 11
+    },
+    {
+      "tokens": [
+        "VC",
+        "D",
+        "V",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "F",
+        "C"
+      ],
+      "conflict_tick0": 298,
+      "cell": [
+        1,
+        1
+      ],
+      "first_tick0": 6
+    },
+    {
+      "tokens": [
+        "UC",
+        "D",
+        "UCC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "Q",
+        "C"
+      ],
+      "conflict_tick0": 145,
+      "cell": [
+        -1,
+        2
+      ],
+      "first_tick0": 13
+    },
+    {
+      "tokens": [
+        "UC",
+        "D",
+        "UCC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "U",
+        "B",
+        "C"
+      ],
+      "conflict_tick0": 145,
+      "cell": [
+        -1,
+        2
+      ],
+      "first_tick0": 13
+    },
+    {
+      "tokens": [
+        "UC",
+        "D",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "Q",
+        "C"
+      ],
+      "conflict_tick0": 181,
+      "cell": [
+        -1,
+        2
+      ],
+      "first_tick0": 13
+    },
+    {
+      "tokens": [
+        "UC",
+        "D",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "U",
+        "B",
+        "C"
+      ],
+      "conflict_tick0": 181,
+      "cell": [
+        -1,
+        2
+      ],
+      "first_tick0": 13
+    },
+    {
+      "tokens": [
+        "UC",
+        "D",
+        "V",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "F",
+        "C"
+      ],
+      "conflict_tick0": 234,
+      "cell": [
+        -1,
+        1
+      ],
+      "first_tick0": 14
+    },
+    {
+      "tokens": [
+        "VCC",
+        "D",
+        "UCC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "Q",
+        "C"
+      ],
+      "conflict_tick0": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick0": 19
+    },
+    {
+      "tokens": [
+        "VCC",
+        "D",
+        "UCC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "U",
+        "B",
+        "C"
+      ],
+      "conflict_tick0": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick0": 19
+    },
+    {
+      "tokens": [
+        "VCC",
+        "D",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "Q",
+        "C"
+      ],
+      "conflict_tick0": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick0": 19
+    },
+    {
+      "tokens": [
+        "VCC",
+        "D",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "U",
+        "B",
+        "C"
+      ],
+      "conflict_tick0": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick0": 19
+    },
+    {
+      "tokens": [
+        "VCC",
+        "D",
+        "V",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "F",
+        "C"
+      ],
+      "conflict_tick0": 59,
+      "cell": [
+        0,
+        3
+      ],
+      "first_tick0": 19
+    },
+    {
+      "tokens": [
+        "UCC",
+        "D",
+        "UCC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "Q",
+        "C"
+      ],
+      "conflict_tick0": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick0": 29
+    },
+    {
+      "tokens": [
+        "UCC",
+        "D",
+        "UCC",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "U",
+        "B",
+        "C"
+      ],
+      "conflict_tick0": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick0": 29
+    },
+    {
+      "tokens": [
+        "UCC",
+        "D",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "Q",
+        "C"
+      ],
+      "conflict_tick0": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick0": 29
+    },
+    {
+      "tokens": [
+        "UCC",
+        "D",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "U",
+        "B",
+        "C"
+      ],
+      "conflict_tick0": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick0": 29
+    },
+    {
+      "tokens": [
+        "UCC",
+        "D",
+        "V",
+        "U",
+        "VCC",
+        "V",
+        "V",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "V",
+        "F",
+        "C"
+      ],
+      "conflict_tick0": 69,
+      "cell": [
+        -1,
+        4
+      ],
+      "first_tick0": 29
+    }
+  ],
+  "two_genuine_positive_controls": [
+    {
+      "sequence": [
+        "U",
+        "V",
+        "VCC",
+        "V",
+        "V"
+      ],
+      "seed_mass": 16,
+      "tag_reads": [
+        [
+          "R",
+          39
+        ],
+        [
+          "L",
+          131
+        ]
+      ]
+    },
+    {
+      "sequence": [
+        "U",
+        "VCC",
+        "V",
+        "V"
+      ],
+      "seed_mass": 14,
+      "tag_reads": [
+        [
+          "L",
+          13
+        ],
+        [
+          "R",
+          21
+        ],
+        [
+          "L",
+          113
+        ]
+      ]
+    }
+  ],
+  "analytic": [
+    "Signed complementary indices give remaining E weight1 for Q or2 for B when T=2. Actual final packet is V/U for Q, U for B; nonnegative weights then force exactly D^n,V,Q or D^n,U,B, with no later D. No C can remain in this E-clock3 stage. All earlier N/W/S stages are arbitrary.",
+    "At source T2, V has A=B+2 and U has A=B. The exact affine endpoint equations force n=B+4 or B+3. First earlier W D gives B>=1. Therefore every proposed pop contains the last D,V,Q or D,U,B, regardless the unrestricted preceding history.",
+    "Those suffixes delete a cell by D tick1 L and next require it at actual returned C tick1 L without any intervening read. This is a returned-C/complete-context contradiction, not a foreign-RAW grammar ban. Together with prior F T>=3, every spent portal has T>=3, so the earliest possible portal stays its original lifetime through this first return.",
+    "For old source C2(VCC/UCC), the first W BASE is D-family, not necessarily a plain full D. Both D and DC have the necessary D+actual M11 prefix and both fail the same immutable read; for DC the conflicting read is owned C-tail tick1/read2, for D it is the next actual word tick1/read2. Thus the role exclusion is sound with this explicit qualification.",
+    "The25 prescribed complete histories fail at their actual intended endpoint configurations, but they do not exhaust arbitrary W words or all T3 histories. Both genuine plain-source U-entry regression controls remain positive. No removed S run or withdrawn seal premise is used."
+  ],
+  "scope": "Three exact first returned raw-C residues only. Remaining old C roles C1 of DC/VC/UC after the separately signed C1-double-tail closure. No generic return closure, at-most-one spending, whole-ledger contraction or capture.",
+  "mandatory_D_family_clarification_manifest_sha256": "fa37a2b361e010bd506e86903ca7617ce1db8ef33f331cf0cba92381a933b7b4"
+}

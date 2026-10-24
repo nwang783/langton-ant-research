@@ -1,0 +1,134 @@
+{
+  "records": [
+    {
+      "name": "two_signed_rays",
+      "automaton_states": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "conversion": [
+        {
+          "basic_sets": 2,
+          "constraints": 6,
+          "lifted_integer_dimensions": 0
+        },
+        {
+          "basic_sets": 2,
+          "constraints": 6,
+          "lifted_integer_dimensions": 0
+        },
+        {
+          "basic_sets": 2,
+          "constraints": 6,
+          "lifted_integer_dimensions": 0
+        },
+        {
+          "basic_sets": 2,
+          "constraints": 6,
+          "lifted_integer_dimensions": 0
+        }
+      ],
+      "exact_ISL_point_checks": 3600
+    },
+    {
+      "name": "modulo_and_floor",
+      "automaton_states": [
+        6,
+        2,
+        6,
+        6
+      ],
+      "conversion": [
+        {
+          "basic_sets": 1,
+          "constraints": 4,
+          "lifted_integer_dimensions": 1
+        },
+        {
+          "basic_sets": 1,
+          "constraints": 4,
+          "lifted_integer_dimensions": 1
+        },
+        {
+          "basic_sets": 1,
+          "constraints": 4,
+          "lifted_integer_dimensions": 1
+        },
+        {
+          "basic_sets": 1,
+          "constraints": 4,
+          "lifted_integer_dimensions": 1
+        }
+      ],
+      "exact_ISL_point_checks": 3600
+    },
+    {
+      "name": "integer_witnesses",
+      "automaton_states": [
+        5,
+        13,
+        13,
+        13
+      ],
+      "conversion": [
+        {
+          "basic_sets": 1,
+          "constraints": 3,
+          "lifted_integer_dimensions": 1
+        },
+        {
+          "basic_sets": 1,
+          "constraints": 3,
+          "lifted_integer_dimensions": 1
+        },
+        {
+          "basic_sets": 1,
+          "constraints": 3,
+          "lifted_integer_dimensions": 1
+        },
+        {
+          "basic_sets": 1,
+          "constraints": 3,
+          "lifted_integer_dimensions": 1
+        }
+      ],
+      "exact_ISL_point_checks": 3600
+    },
+    {
+      "name": "two_local_divs",
+      "automaton_states": [
+        130,
+        2,
+        133,
+        132
+      ],
+      "conversion": [
+        {
+          "basic_sets": 1,
+          "constraints": 5,
+          "lifted_integer_dimensions": 1
+        },
+        {
+          "basic_sets": 1,
+          "constraints": 5,
+          "lifted_integer_dimensions": 1
+        },
+        {
+          "basic_sets": 1,
+          "constraints": 5,
+          "lifted_integer_dimensions": 1
+        },
+        {
+          "basic_sets": 1,
+          "constraints": 5,
+          "lifted_integer_dimensions": 1
+        }
+      ],
+      "exact_ISL_point_checks": 3600
+    }
+  ],
+  "seconds": 1.7822534489969257,
+  "scope": "Exact ISL basic-set lifting and automatic conversion controls, including signed visible and signed existential integer dimensions. No ant trajectory claim."
+}

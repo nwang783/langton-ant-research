@@ -1,0 +1,1286 @@
+{
+  "status": "PASS relative ordinary two-turn separation and exact completed Q-C3 gate",
+  "manifest": "238543f484cbe4fabfacc41c83dbbaa2299aca46fdfff9405666f279c52ac4f7",
+  "dependencies": {
+    "S_E_N_deleted_core_port_guard_2026-10-24/manifest.json": "cb606e5e073a200f748125f61d05ae4cf0a87e55667e122c2609df500fa14de9",
+    "audits/check_S_E_N_deleted_port_independent.json": "fe864956371fdfc566193bed32462813ac30154a4234a1e4b49f291311c1b099",
+    "word_stabilization/check_foreign_return_interfaces.py": "249f89213a96c8daad9d0ecde65e877d5e254af033092adb81b4bbaca0cc729c",
+    "literal_ownership_conventions_2026-10-24/canonical_read_ownership.py": "041b40e04a0f71a6b9511abf1d15b1d86c548e74f4f99281477c115b72036ea2"
+  },
+  "closed_counts": {
+    "old_terminal_has_outgoing_owner": 20,
+    "earlier_executed_new_endpoint": 36,
+    "unavailable_deleted_true_input": 8,
+    "relative_two_C_Jordan_angle": 8
+  },
+  "all72_rows": [
+    {
+      "key": [
+        "C",
+        "C",
+        -1,
+        -1
+      ],
+      "result": [
+        "1",
+        "1",
+        true,
+        "old_terminal_has_outgoing_owner"
+      ]
+    },
+    {
+      "key": [
+        "C",
+        "C",
+        0,
+        0
+      ],
+      "result": [
+        "1",
+        "0",
+        true,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "C",
+        "C",
+        1,
+        1
+      ],
+      "result": [
+        "0",
+        "0",
+        true,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "C",
+        "D",
+        -1,
+        -1
+      ],
+      "result": [
+        "1",
+        "1",
+        true,
+        "old_terminal_has_outgoing_owner"
+      ]
+    },
+    {
+      "key": [
+        "C",
+        "D",
+        0,
+        0
+      ],
+      "result": [
+        "1",
+        "0",
+        true,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "C",
+        "D",
+        1,
+        1
+      ],
+      "result": [
+        "0",
+        "0",
+        true,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "C",
+        "U",
+        0,
+        -4
+      ],
+      "result": [
+        "1",
+        "1",
+        false,
+        "old_terminal_has_outgoing_owner"
+      ]
+    },
+    {
+      "key": [
+        "C",
+        "U",
+        0,
+        -2
+      ],
+      "result": [
+        "1",
+        "1/2",
+        false,
+        "old_terminal_has_outgoing_owner"
+      ]
+    },
+    {
+      "key": [
+        "C",
+        "U",
+        0,
+        0
+      ],
+      "result": [
+        "1",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "C",
+        "U",
+        1,
+        -3
+      ],
+      "result": [
+        "0",
+        "1",
+        false,
+        "unavailable_deleted_true_input"
+      ]
+    },
+    {
+      "key": [
+        "C",
+        "U",
+        1,
+        -1
+      ],
+      "result": [
+        "0",
+        "1/2",
+        false,
+        "unavailable_deleted_true_input"
+      ]
+    },
+    {
+      "key": [
+        "C",
+        "U",
+        1,
+        1
+      ],
+      "result": [
+        "0",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "C",
+        "V",
+        -1,
+        -3
+      ],
+      "result": [
+        "1",
+        "1",
+        false,
+        "old_terminal_has_outgoing_owner"
+      ]
+    },
+    {
+      "key": [
+        "C",
+        "V",
+        0,
+        -2
+      ],
+      "result": [
+        "0",
+        "1",
+        false,
+        "unavailable_deleted_true_input"
+      ]
+    },
+    {
+      "key": [
+        "C",
+        "V",
+        0,
+        0
+      ],
+      "result": [
+        "1",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "C",
+        "V",
+        1,
+        1
+      ],
+      "result": [
+        "0",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "D",
+        "C",
+        -1,
+        -1
+      ],
+      "result": [
+        "1",
+        "1",
+        true,
+        "old_terminal_has_outgoing_owner"
+      ]
+    },
+    {
+      "key": [
+        "D",
+        "C",
+        0,
+        0
+      ],
+      "result": [
+        "1",
+        "0",
+        true,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "D",
+        "C",
+        1,
+        1
+      ],
+      "result": [
+        "0",
+        "0",
+        true,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "D",
+        "D",
+        -1,
+        -1
+      ],
+      "result": [
+        "1",
+        "1",
+        true,
+        "old_terminal_has_outgoing_owner"
+      ]
+    },
+    {
+      "key": [
+        "D",
+        "D",
+        0,
+        0
+      ],
+      "result": [
+        "1",
+        "0",
+        true,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "D",
+        "D",
+        1,
+        1
+      ],
+      "result": [
+        "0",
+        "0",
+        true,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "D",
+        "U",
+        0,
+        -4
+      ],
+      "result": [
+        "1",
+        "1",
+        false,
+        "old_terminal_has_outgoing_owner"
+      ]
+    },
+    {
+      "key": [
+        "D",
+        "U",
+        0,
+        -2
+      ],
+      "result": [
+        "1",
+        "1/2",
+        false,
+        "old_terminal_has_outgoing_owner"
+      ]
+    },
+    {
+      "key": [
+        "D",
+        "U",
+        0,
+        0
+      ],
+      "result": [
+        "1",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "D",
+        "U",
+        1,
+        -3
+      ],
+      "result": [
+        "0",
+        "1",
+        false,
+        "unavailable_deleted_true_input"
+      ]
+    },
+    {
+      "key": [
+        "D",
+        "U",
+        1,
+        -1
+      ],
+      "result": [
+        "0",
+        "1/2",
+        false,
+        "unavailable_deleted_true_input"
+      ]
+    },
+    {
+      "key": [
+        "D",
+        "U",
+        1,
+        1
+      ],
+      "result": [
+        "0",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "D",
+        "V",
+        -1,
+        -3
+      ],
+      "result": [
+        "1",
+        "1",
+        false,
+        "old_terminal_has_outgoing_owner"
+      ]
+    },
+    {
+      "key": [
+        "D",
+        "V",
+        0,
+        -2
+      ],
+      "result": [
+        "0",
+        "1",
+        false,
+        "unavailable_deleted_true_input"
+      ]
+    },
+    {
+      "key": [
+        "D",
+        "V",
+        0,
+        0
+      ],
+      "result": [
+        "1",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "D",
+        "V",
+        1,
+        1
+      ],
+      "result": [
+        "0",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "C",
+        0,
+        -4
+      ],
+      "result": [
+        "1",
+        "1",
+        false,
+        "old_terminal_has_outgoing_owner"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "C",
+        0,
+        -2
+      ],
+      "result": [
+        "1/2",
+        "1",
+        false,
+        "relative_two_C_Jordan_angle"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "C",
+        0,
+        0
+      ],
+      "result": [
+        "0",
+        "1",
+        false,
+        "relative_two_C_Jordan_angle"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "C",
+        1,
+        -3
+      ],
+      "result": [
+        "1",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "C",
+        1,
+        -1
+      ],
+      "result": [
+        "1/2",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "C",
+        1,
+        1
+      ],
+      "result": [
+        "0",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "D",
+        0,
+        -4
+      ],
+      "result": [
+        "1",
+        "1",
+        false,
+        "old_terminal_has_outgoing_owner"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "D",
+        0,
+        -2
+      ],
+      "result": [
+        "1/2",
+        "1",
+        false,
+        "relative_two_C_Jordan_angle"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "D",
+        0,
+        0
+      ],
+      "result": [
+        "0",
+        "1",
+        false,
+        "relative_two_C_Jordan_angle"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "D",
+        1,
+        -3
+      ],
+      "result": [
+        "1",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "D",
+        1,
+        -1
+      ],
+      "result": [
+        "1/2",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "D",
+        1,
+        1
+      ],
+      "result": [
+        "0",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "U",
+        1,
+        -7
+      ],
+      "result": [
+        "1",
+        "1",
+        true,
+        "old_terminal_has_outgoing_owner"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "U",
+        1,
+        -5
+      ],
+      "result": [
+        "1",
+        "1/2",
+        true,
+        "old_terminal_has_outgoing_owner"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "U",
+        1,
+        -3
+      ],
+      "result": [
+        "1",
+        "0",
+        true,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "U",
+        1,
+        -1
+      ],
+      "result": [
+        "1/2",
+        "0",
+        true,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "U",
+        1,
+        1
+      ],
+      "result": [
+        "0",
+        "0",
+        true,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "V",
+        0,
+        -6
+      ],
+      "result": [
+        "1",
+        "1",
+        false,
+        "old_terminal_has_outgoing_owner"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "V",
+        0,
+        -4
+      ],
+      "result": [
+        "1/2",
+        "1",
+        false,
+        "relative_two_C_Jordan_angle"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "V",
+        0,
+        -2
+      ],
+      "result": [
+        "0",
+        "1",
+        false,
+        "relative_two_C_Jordan_angle"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "V",
+        1,
+        -3
+      ],
+      "result": [
+        "1",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "V",
+        1,
+        -1
+      ],
+      "result": [
+        "1/2",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "U",
+        "V",
+        1,
+        1
+      ],
+      "result": [
+        "0",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "V",
+        "C",
+        -1,
+        -3
+      ],
+      "result": [
+        "1",
+        "1",
+        false,
+        "old_terminal_has_outgoing_owner"
+      ]
+    },
+    {
+      "key": [
+        "V",
+        "C",
+        0,
+        -2
+      ],
+      "result": [
+        "1",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "V",
+        "C",
+        0,
+        0
+      ],
+      "result": [
+        "0",
+        "1",
+        false,
+        "relative_two_C_Jordan_angle"
+      ]
+    },
+    {
+      "key": [
+        "V",
+        "C",
+        1,
+        1
+      ],
+      "result": [
+        "0",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "V",
+        "D",
+        -1,
+        -3
+      ],
+      "result": [
+        "1",
+        "1",
+        false,
+        "old_terminal_has_outgoing_owner"
+      ]
+    },
+    {
+      "key": [
+        "V",
+        "D",
+        0,
+        -2
+      ],
+      "result": [
+        "1",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "V",
+        "D",
+        0,
+        0
+      ],
+      "result": [
+        "0",
+        "1",
+        false,
+        "relative_two_C_Jordan_angle"
+      ]
+    },
+    {
+      "key": [
+        "V",
+        "D",
+        1,
+        1
+      ],
+      "result": [
+        "0",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "V",
+        "U",
+        0,
+        -6
+      ],
+      "result": [
+        "1",
+        "1",
+        false,
+        "old_terminal_has_outgoing_owner"
+      ]
+    },
+    {
+      "key": [
+        "V",
+        "U",
+        0,
+        -4
+      ],
+      "result": [
+        "1",
+        "1/2",
+        false,
+        "old_terminal_has_outgoing_owner"
+      ]
+    },
+    {
+      "key": [
+        "V",
+        "U",
+        0,
+        -2
+      ],
+      "result": [
+        "1",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "V",
+        "U",
+        1,
+        -3
+      ],
+      "result": [
+        "0",
+        "1",
+        false,
+        "unavailable_deleted_true_input"
+      ]
+    },
+    {
+      "key": [
+        "V",
+        "U",
+        1,
+        -1
+      ],
+      "result": [
+        "0",
+        "1/2",
+        false,
+        "unavailable_deleted_true_input"
+      ]
+    },
+    {
+      "key": [
+        "V",
+        "U",
+        1,
+        1
+      ],
+      "result": [
+        "0",
+        "0",
+        false,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "V",
+        "V",
+        -1,
+        -5
+      ],
+      "result": [
+        "1",
+        "1",
+        true,
+        "old_terminal_has_outgoing_owner"
+      ]
+    },
+    {
+      "key": [
+        "V",
+        "V",
+        0,
+        -2
+      ],
+      "result": [
+        "1",
+        "0",
+        true,
+        "earlier_executed_new_endpoint"
+      ]
+    },
+    {
+      "key": [
+        "V",
+        "V",
+        1,
+        1
+      ],
+      "result": [
+        "0",
+        "0",
+        true,
+        "earlier_executed_new_endpoint"
+      ]
+    }
+  ],
+  "eight_deleted_external_inputs": [
+    [
+      "D",
+      "V",
+      [
+        0,
+        -2
+      ],
+      [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        13,
+        19
+      ]
+    ],
+    [
+      "D",
+      "U",
+      [
+        1,
+        -3
+      ],
+      [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        23,
+        29
+      ]
+    ],
+    [
+      "D",
+      "U",
+      [
+        1,
+        -1
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        12,
+        13
+      ]
+    ],
+    [
+      "C",
+      "V",
+      [
+        0,
+        -2
+      ],
+      [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        13,
+        19
+      ]
+    ],
+    [
+      "C",
+      "U",
+      [
+        1,
+        -3
+      ],
+      [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        23,
+        29
+      ]
+    ],
+    [
+      "C",
+      "U",
+      [
+        1,
+        -1
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        12,
+        13
+      ]
+    ],
+    [
+      "V",
+      "U",
+      [
+        1,
+        -3
+      ],
+      [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        23,
+        29
+      ]
+    ],
+    [
+      "V",
+      "U",
+      [
+        1,
+        -1
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        12,
+        13
+      ]
+    ]
+  ],
+  "complete_positive_controls": [
+    {
+      "labels": "DCCC",
+      "seed": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "reads": 66,
+      "final_mass": 14,
+      "simple_relative_proxy": true
+    },
+    {
+      "labels": "VCCVC",
+      "seed": [
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "reads": 92,
+      "final_mass": 24,
+      "simple_relative_proxy": true
+    }
+  ],
+  "analytic": [
+    "All S chords strictly decrease corrected y, all E chords strictly increase corrected x, and all N chords including terminal C3 strictly increase corrected y. C1 drops below the S terminal; E stays there and C2 drops again. N begins two corrected-x units beyond the E end and cannot revisit E/C2 except its legitimate initial adjacency. Thus any first nonadjacent contact of the selected factor is between N and S/C1.",
+    "Relative earliest contact licenses a simple source-to-contact subarc, independently of any geometry before this selected factor. A new ENTRY repeat is assigned to the preceding actually executed END; C2 cannot be that first repeat by separation. An old S terminal is owned by its outgoing S piece or C1. C1 END belongs to the separated E/C2 part. Opposite-collinear approach either is already touching at new ENTRY or first hits an old terminal; after outgoing reassignment, an opposite continuation would intersect immediately BEFORE that point, contradicting earliest onset. Thus no parallel strict-onset case is missing.",
+    "Each of16 actual principal joins is pi/2 times preceding-C plus alpha_next-alpha_previous. Along the simple loop there are exactly C1/C2, including sourceC1 own outgoing join but excluding actorC3 own outgoing join. T=pi+alpha_actor-alpha_source lies in[3pi/4,5pi/4]. Principal closing delta is strictly between-pi andpi for nonparallel tangents; Jordan winding therefore must be positive and requires T>pi. All eight remaining positive poses have a genuine deleted external input, with at least one decisive read in the actor RAW.",
+    "Signed cb606 supplies the S BASE deleted-port obstruction. For sourceC1, zero-E C2 writes below the holes; nonempty E cannot begin U by actual CU, and firstD/V R support is at/below its head before its y drop. Later U and C2 also remain below. The same genuine N external-export argument applies; no N physical-WHITE, V-cohort or U-star invariant is imported.",
+    "Q target uses actual corrected centers start(-7,-7), final(-11,-3). If S is empty the COMPOUND final x is startx+E_delta_x+N_delta_x+2, not a claim that intermediate C1 never goes left. If S is nonempty, N starts below its terminal and at x=terminalx+E_delta_x. At terminal y it is at/right of S; at initial y it is left because N x is nondecreasing up to the northwest final point. The exact graph intermediate-value argument forces contact, with bottom equality assigned to outgoingC1. Thus the completed targetC3 cannot occur.",
+    "Prepared DCCC and VCCVC with their actual M are independently legal and have simple selected proxies. In particular the argument does not assume the first V entire output cohort survives. Nominal target path fails actual external U input at221 versus sourceL133. No partial C3-R8 repair, arbitrary-tail G7 simplicity, FOREIGN crossing, ancestry, age or capture conclusion follows."
+  ]
+}

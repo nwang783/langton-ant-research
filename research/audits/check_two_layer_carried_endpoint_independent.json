@@ -1,0 +1,49 @@
+{
+  "status": "PASS all-r,k two-layer actual carried-endpoint finite excursion",
+  "note_sha256": "4f7337113a8992351d6b3bdbc8d16d36b4d29209e3c1bef809cd1f212ad61416",
+  "domain": "integer r,k>=10; first outer ownership also allr,k>=0",
+  "families": 166,
+  "ordered_pairs": 27390,
+  "nonempty_prior_relations": 212,
+  "continuation_reads": "40r+8k+104",
+  "total_reads": "56r+16k+108",
+  "start": [
+    0,
+    0,
+    "E"
+  ],
+  "end": [
+    0,
+    2,
+    "E"
+  ],
+  "initial_mass": "16r+8k+8",
+  "final_mass": "16r+8k+28",
+  "complete_initial_relation": "[r, k] -> { [x, y] : r >= 10 and k >= 10 and ((x < 0 and y > x and -k <= y <= 2 + x) or (x < 0 and -3 - 2r - 2k - x <= y <= -2 - 2r - 2k - x and y < -2r - k) or (x >= 2r and y >= 2r - x and -k <= y <= 1 + 2r - x) or (x >= 2r and -2 - 4r - 2k + x <= y < -4r - 2k + x and y < -2r - k) or (0 <= x < 2r and 0 < y <= 2) or (0 <= x < 2r and -3 - 2r - 2k <= y <= -2 - 2r - 2k) or (-3 - k <= x <= -2 - k and -2r - k <= y < -k) or (2r + k < x <= 2 + 2r + k and -r <= floor((k + y)/2) < 0)) }",
+  "complete_returned_relation": "[r, k] -> { [x, y] : r >= 10 and k >= 10 and ((y >= 0 and y > -2r + x and 2y <= 2 - 2r + x) or (x >= -1 + 2r and -1 - 2r + x <= y < 0) or (-6 <= x <= -5 and -6 - x <= y <= -5 - x)); [x, y = -5 - x] : r >= 10 and k >= 10 and -2 <= x < 0; [x = -7, y] : r >= 10 and k >= 10 and -1 <= y <= 0; [x = 3 + 2r + k, y] : r >= 10 and k >= 10 and ((-2r - k <= y <= 1 - 2r - k) or (-r < floor((k + y)/2) < 0)); [x = 1, y = 1] : r >= 10 and k >= 10; [x, y = 3 + x] : r >= 10 and k >= 10 and -3 - k <= x <= -6; [x, y = 2 + 2r - x] : r >= 10 and k >= 10 and 2r < x <= 2 + 2r + k; [x, y = 2] : r >= 10 and k >= 10 and x >= -5 and ((0 <= x < 2r) or x <= -4); [x = -3, y = 1] : r >= 10 and k >= 10; [x = 1 + 2r + k, y] : r >= 10 and k >= 10 and -r <= floor((k + y)/2) < 0; [x, y = 1 + x] : r >= 10 and k >= 10 and -1 - k <= x <= -5; [x, y = 2r - x] : r >= 10 and k >= 10 and 2r < x <= 2r + k; [x, y = 0] : r >= 10 and k >= 10 and -1 <= x <= 1; [x = -1, y] : r >= 10 and k >= 10 and 0 < y <= 2; [x, y = -1 - 4r - 2k + x] : r >= 10 and k >= 10 and 2r <= x <= 2r + k; [x, y = -2] : r >= 10 and k >= 10 and 0 < x <= -3 + 2r; [x = -2 - k, y] : r >= 10 and k >= 10 and -2r - k <= y < -k; [x, y = -2 - 2r - 2k] : r >= 10 and k >= 10 and 0 <= x < 2r; [x, y = -2 - 2r - 2k - x] : r >= 10 and k >= 10 and -1 - k <= x < 0; [x, y = -3 - 4r - 2k + x] : r >= 10 and k >= 10 and 2r <= x <= 2 + 2r + k; [x = -4 - k, y] : r >= 10 and k >= 10 and ((-2 - k <= y < -k) or (-r <= floor((k + y)/2) <= -2)); [x = -4, y = -4] : r >= 10 and k >= 10; [x, y = -4 - 2r - 2k] : r >= 10 and k >= 10 and 0 <= x < 2r; [x, y = -4 - 2r - 2k - x] : r >= 10 and k >= 10 and -3 - k <= x < 0; [x, y = -5] : r >= 10 and k >= 10 and -3 <= x <= -2 }",
+  "literal_controls": [
+    {
+      "r": 10,
+      "k": 10,
+      "reads": 828,
+      "initial_mass": 248,
+      "final_mass": 268
+    },
+    {
+      "r": 10,
+      "k": 11,
+      "reads": 844,
+      "initial_mass": 256,
+      "final_mass": 276
+    },
+    {
+      "r": 13,
+      "k": 17,
+      "reads": 1108,
+      "initial_mass": 352,
+      "final_mass": 372
+    }
+  ],
+  "analytic": "Independent literal heading-vector/Sympy compiler uses existential i,j strict temporal read comparisons, not author inverse-time formula. Every family is injective, every initial black and earlier same-cell read is included, and complete output is initial XOR every read domain. Full returned relation exactly equals frozen supplied contract.",
+  "scope": "Finite two-layer supplied component, not a clean reset, renewal, all-family capture or counterexample. Separate r=k10 author capture is not used by this all-parameter proof."
+}

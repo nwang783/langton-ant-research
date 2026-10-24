@@ -1,0 +1,77 @@
+{
+  "status": "PASS independent whole184-cell sample through finite wave exhaustion and exact NW104 capture",
+  "sources": {
+    "prepared1564_noncrossing_R100_N3.json": "9746d8650e409a1d883717925f15ea1b6dc06323629c77ed41d7306d50354c01",
+    "prepared1564_first_finite_endpoint.json": "99821cce348f531f9f7ad6fd7739d5542fb8d226773b2d04e57ee069e02f6f53",
+    "prepared1564_first_endpoint_capture.json": "15a5d4cf00445352fac8f7d84a2cee1945290fb0db912c6060c08f9c26560d46"
+  },
+  "literal_updates": 158226,
+  "initial_mass": 184,
+  "first_wave_mismatch": {
+    "time": 97293,
+    "offset": 5546,
+    "phase": 854,
+    "pose": [
+      [
+        31,
+        71
+      ],
+      2
+    ],
+    "wanted": "L",
+    "actual": "R",
+    "previous_read": null
+  },
+  "events": [
+    {
+      "time": 154679,
+      "pose": [
+        [
+          58,
+          104
+        ],
+        0
+      ],
+      "mass": 13169,
+      "next_mismatch": 254,
+      "drift": [
+        -2,
+        2
+      ],
+      "orbits": 22,
+      "critical_levels": 96
+    },
+    {
+      "time": 158226,
+      "pose": [
+        [
+          34,
+          129
+        ],
+        1
+      ],
+      "mass": 13386,
+      "next_mismatch": null,
+      "drift": [
+        -2,
+        2
+      ],
+      "orbits": 22,
+      "critical_levels": 67
+    }
+  ],
+  "capture_mass": 13386,
+  "final_field_sha256": "02aa6f6520d7977c37c67450f6dd4fe53d6c2006005ab85ada00dbca4fbff042",
+  "far_flip_rejections": 22,
+  "next_canonical_phase0": {
+    "time": 158231,
+    "pose": [
+      [
+        34,
+        132
+      ],
+      0
+    ]
+  },
+  "scope": "Only supplied R100,N3 finite seed. No all-N eventual capture is inferred."
+}

@@ -1,0 +1,245 @@
+{
+  "scope": "Exact finite proof of arbitrary V/P108 mixture fields, no horizon inference.",
+  "coarse_word": "RRLRRLRLLRRLLLLRRLLRRRRLLRRLRLLLLRLRRRRLLLLRLLLLRLRRRRLLLLRLLRLLLLRRRRLRLLLLRLRRLLLLRRLLLLRRLRRLLLLRRLRL",
+  "phase30": [
+    [
+      1,
+      7
+    ],
+    0,
+    "L"
+  ],
+  "phase31": [
+    [
+      0,
+      7
+    ],
+    3,
+    "L"
+  ],
+  "phase_overlap_width": 2,
+  "initial_first_period": [
+    [
+      -2,
+      -1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      -1,
+      6
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      2,
+      -1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ]
+  ],
+  "all_later_new_black_template": [
+    [
+      -2,
+      -1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      -1,
+      6
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      -1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      0
+    ]
+  ],
+  "new_black_templates_equal": true,
+  "patch_points": [
+    [
+      1,
+      7
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      1,
+      8
+    ]
+  ],
+  "complete_patch_histories": {
+    "(1, 7)": [
+      [
+        -1,
+        10,
+        0,
+        "R"
+      ],
+      [
+        -1,
+        14,
+        2,
+        "L"
+      ],
+      [
+        -1,
+        26,
+        0,
+        "R"
+      ],
+      [
+        0,
+        30,
+        0,
+        "L"
+      ]
+    ],
+    "(0, 7)": [
+      [
+        0,
+        31,
+        3,
+        "L"
+      ]
+    ],
+    "(0, 8)": [],
+    "(1, 8)": [
+      [
+        -1,
+        13,
+        3,
+        "L"
+      ]
+    ]
+  },
+  "formulas": {
+    "input_mass": "12*n+13-m",
+    "output_mass": "13+3*m",
+    "input_change": "remove q+rD for selected r",
+    "output_change": "add p+rD,u+rD,v+rD for selected r",
+    "complete_XOR_change": "toggle all four patch cells for selected r"
+  },
+  "source_sha256": "1acb35a3697b4d79c689e433534db3a6802591302e0bd935fbdef97594ec7848"
+}

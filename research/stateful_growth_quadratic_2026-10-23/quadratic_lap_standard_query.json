@@ -1,0 +1,46 @@
+{
+  "status": "EXACT STANDARD104 ORDERED-EVENT SUFFIX CONTROLS",
+  "records": [
+    {
+      "name": "standard104_grouped",
+      "mismatch_relation": "{ [n, b, j, r] : false }",
+      "mismatch_finite": true,
+      "standard104": true,
+      "suffix_start": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "suffix_word": "LRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLR",
+      "canonical_phases": [
+        0
+      ]
+    },
+    {
+      "name": "infinite_prepared_axial_rail",
+      "mismatch_relation": "{ [n, b, j, r] : false }",
+      "mismatch_finite": true,
+      "standard104": false,
+      "suffix_start": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "suffix_word": "LRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRLLRRL",
+      "canonical_phases": []
+    },
+    {
+      "name": "punctuated_prepared_rail",
+      "mismatch_relation": "{ [n, b, j = 0, r = 3] : n >= 0 and n <= b <= 1; [n, b, j = 0, r = 0] : n >= 0 and n <= b <= 1; [n, b = 1, j = 0, r = 3] : n >= 3 and (n <= 22 or n >= 24); [n = 4, b = 0, j = 3, r = 3]; [n, b = 0, j = -18 + 3n, r = 3] : 6 <= n <= 9; [n, b = 0, j = -22 + 2n, r = 3] : 11 <= n <= 22; [n, b = 0, j = -25 + n, r = 3] : n >= 25; [n, b = 1, j = 0, r = 0] : n >= 3 and (n <= 22 or n >= 24); [n = 4, b = 0, j = 3, r = 0]; [n, b = 0, j = -18 + 3n, r = 0] : 6 <= n <= 9; [n, b = 0, j = -22 + 2n, r = 0] : 11 <= n <= 22; [n, b = 0, j = -25 + n, r = 0] : n >= 25 }",
+      "mismatch_finite": false,
+      "standard104": false,
+      "reason": "infinitely many104-successor mismatches"
+    }
+  ],
+  "seconds": 0.2243937650055159,
+  "source_sha256": "242d8627502409388a721d1a486be12c8192a17a0d6b377993c82c435c2c8755",
+  "geometry_validator_sha256": "aacac03e02ecf0d332ed1bfe1f46ee9e813901194b9a71e217c8e31768e7a337",
+  "scope": "Suffix query is applied to supplied geometric turn programs; it asserts an actual finite-seed orbit only after full geometry/chronology/finite-supply validation passes."
+}

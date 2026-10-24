@@ -1,0 +1,190 @@
+{
+  "status": "exact complete-field all-n proof passed",
+  "m": 7,
+  "domain": "integer n>=200",
+  "capture_time": [
+    208,
+    89336
+  ],
+  "capture_pose": [
+    [
+      [
+        0,
+        22
+      ],
+      [
+        0,
+        28
+      ]
+    ],
+    2
+  ],
+  "tail": {
+    "distinct_required_cells": 43,
+    "odd_read_cells": 32,
+    "drift": [
+      2,
+      2
+    ],
+    "heading": 2
+  },
+  "tail_phase": 47,
+  "exceptional_phase72_ray": [
+    [
+      [
+        0,
+        21
+      ],
+      [
+        0,
+        32
+      ]
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "tail_fixed_normals": {
+    "u": [
+      -12,
+      -2
+    ]
+  },
+  "first_contacts": {
+    "q": [
+      104,
+      10881
+    ],
+    "s": [
+      208,
+      71538
+    ]
+  },
+  "complete_field_support_bounds": {
+    "z_upper": 51,
+    "z_lower": null,
+    "u_upper": 66,
+    "u_lower": -104
+  },
+  "finite_read_bounds": {
+    "z_upper": 51,
+    "z_lower": null,
+    "u_upper": 66,
+    "u_lower": -104
+  },
+  "statistics": {
+    "finite_read_constraints": 9790,
+    "periodic_read_constraints": 123,
+    "affine_guards": 3738,
+    "excluded_isolated_equalities": 15041043
+  },
+  "template_sha256": "e4cb8146c7e3b0f7ee60dda439ec9e33aa8e6fb56b25bc8d62d18eaa115f0dfe",
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        9977
+      ],
+      "base": [
+        [
+          0,
+          -15
+        ],
+        [
+          0,
+          10
+        ]
+      ],
+      "heading": 3,
+      "contacts": {}
+    },
+    {
+      "segment": 1,
+      "time": [
+        104,
+        10809
+      ],
+      "base": [
+        [
+          -2,
+          -31
+        ],
+        [
+          -2,
+          -6
+        ]
+      ],
+      "heading": 3,
+      "contacts": {}
+    },
+    {
+      "segment": 2,
+      "time": [
+        104,
+        61927
+      ],
+      "base": [
+        [
+          -2,
+          6
+        ],
+        [
+          -2,
+          -43
+        ]
+      ],
+      "heading": 1,
+      "contacts": {
+        "q": [
+          104,
+          10881
+        ]
+      }
+    },
+    {
+      "segment": 3,
+      "time": [
+        208,
+        62655
+      ],
+      "base": [
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          -29
+        ]
+      ],
+      "heading": 1,
+      "contacts": {}
+    },
+    {
+      "segment": 4,
+      "time": [
+        208,
+        89336
+      ],
+      "base": [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          28
+        ]
+      ],
+      "heading": 2,
+      "contacts": {
+        "s": [
+          208,
+          71538
+        ]
+      }
+    }
+  ]
+}

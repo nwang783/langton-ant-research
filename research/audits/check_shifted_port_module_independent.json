@@ -1,0 +1,77 @@
+{
+  "status": "PASS exact two-parameter shifted-port architecture obstruction",
+  "manifest": "4f883b73c3c8976e499af71575bead1af93c14affb45750ed15ec1c71ed17dd6",
+  "proof": "fe45b64098c1b2893a80a5aa7718bd1e3e8d1e5843128c4261ad929ff2273880",
+  "affine_inequalities_independently_rebuilt": 10478,
+  "all10_stage_separators": true,
+  "each_port_inside_own_first59": true,
+  "protected_exact90": true,
+  "all_future_marker_phase_equalities": [
+    [
+      0,
+      70
+    ],
+    [
+      0,
+      74
+    ],
+    [
+      0,
+      90
+    ]
+  ],
+  "controls": [
+    {
+      "n": 22,
+      "K": 3,
+      "updates": 13195,
+      "return_time": 12212,
+      "first_canonical": 12986,
+      "full_terminal_mass": 1593,
+      "full_future_tests": 170,
+      "relevant_peak": 77,
+      "nominal_marker": [
+        6,
+        8
+      ],
+      "permanent_marker_birth": 272
+    },
+    {
+      "n": 40,
+      "K": 10,
+      "updates": 24427,
+      "return_time": 23444,
+      "first_canonical": 24218,
+      "full_terminal_mass": 2889,
+      "full_future_tests": 170,
+      "relevant_peak": 77,
+      "nominal_marker": [
+        20,
+        22
+      ],
+      "permanent_marker_birth": 1000
+    },
+    {
+      "n": 80,
+      "K": 80,
+      "updates": 49387,
+      "return_time": 48404,
+      "first_canonical": 49178,
+      "full_terminal_mass": 5769,
+      "full_future_tests": 170,
+      "relevant_peak": 77,
+      "nominal_marker": [
+        160,
+        162
+      ],
+      "permanent_marker_birth": 8280
+    }
+  ],
+  "analytic_review": [
+    "The domain cone vertex(10,0), rays(1,0),(1,3) exactly covers k>=10 and0<=K<=3k-30. Every segment is nonempty, so endpoint bounds certify every physical read without a length cap. Complete initial ports lie in their own first59 reads; ten strict disjoint-read separators ensure distinct initial cells and full-field chronological induction.",
+    "Stage0 extra periods lie above Omega, stages1/3 on opposite x+y sides and stage2 has x-y<=-45 while Omega implies x-y>=-44. Their initial ports are in those read sets. Stage4 centering is exactly Q-8+(j-R4)delta and all earlier copies/prefix/input are below Omega. Thus the complete protected field equality, not only cardinality, holds for ALL parameters with external archives untouched.",
+    "R60 is never reread by standalone launch reference and lies in stage0 only. At the final endpoint the same physical identity is BLACK and forces L opposite nominal continuing phase14 R. K>0 nominal translated return first fails here. K>=3 nominal target is an actual outgoing phase90 R; complete future-ray equalities certify permanence, later stages miss and recovery remains in Omega.",
+    "Signed protected recovery supplies canonical tail at e+774, and its preceding mismatch excludes ANY earlier canonical onset because all cyclic104 phases are distinct. Named complete-field replays independently recover this onset and whole-tail parity. The universal relevant cap132 follows the previously signed20 initial+22 same-stage+90 recovery survivors partition; observed77 is only a named-control maximum.",
+    "All members in the stated domain capture. This refutes only the precise remote-four-port translation as a migrating long-lived module construction, not arbitrary moving modules, bounded-relevant-stock nontranslation or global attraction."
+  ]
+}

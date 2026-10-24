@@ -1,0 +1,2656 @@
+{
+  "status": "PASS exact forced-black neighbor-port geometry for twelve supplied words",
+  "fixed_w_sector": 1,
+  "cap": 6,
+  "old_edge_budget": 2,
+  "trapped_word_count": 7,
+  "open_word_count": 5,
+  "rows": [
+    {
+      "word": "RRRRL",
+      "length": 5,
+      "exit_pose": [
+        [
+          -1,
+          0
+        ],
+        3
+      ],
+      "empty_w_cursor": [
+        -1,
+        1
+      ],
+      "first_R_other_endpoint": [
+        -3,
+        -1
+      ],
+      "mandatory_final_black": [
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "last_read_owners": [
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R",
+          "slot": 3
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L",
+          "slot": 4
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R",
+          "slot": 2
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "slot": 1
+        }
+      ],
+      "neighbor_forced_components": [
+        {
+          "neighbor": [
+            -3,
+            -1
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            -3,
+            3
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            1,
+            -1
+          ],
+          "mandatory_component_edges": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "neighbor": [
+            1,
+            3
+          ],
+          "mandatory_component_edges": []
+        }
+      ],
+      "mandatory_import_union": [
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "mandatory_import_mass": 3,
+      "first_tip_in_mandatory_import": false,
+      "classification": "MASS",
+      "read_trace": [
+        {
+          "slot": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 2,
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 3,
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 4,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L"
+        }
+      ]
+    },
+    {
+      "word": "RRRRLL",
+      "length": 6,
+      "exit_pose": [
+        [
+          -1,
+          -1
+        ],
+        2
+      ],
+      "empty_w_cursor": [
+        -3,
+        -1
+      ],
+      "first_R_other_endpoint": [
+        -1,
+        -3
+      ],
+      "mandatory_final_black": [
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "last_read_owners": [
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "L",
+          "slot": 5
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R",
+          "slot": 3
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L",
+          "slot": 4
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R",
+          "slot": 2
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "slot": 1
+        }
+      ],
+      "neighbor_forced_components": [
+        {
+          "neighbor": [
+            -5,
+            -3
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            -5,
+            1
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            -1,
+            -3
+          ],
+          "mandatory_component_edges": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "neighbor": [
+            -1,
+            1
+          ],
+          "mandatory_component_edges": []
+        }
+      ],
+      "mandatory_import_union": [
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "mandatory_import_mass": 3,
+      "first_tip_in_mandatory_import": true,
+      "classification": "MASS",
+      "read_trace": [
+        {
+          "slot": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 2,
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 3,
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 4,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 5,
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "L"
+        }
+      ]
+    },
+    {
+      "word": "RRRRLRRL",
+      "length": 8,
+      "exit_pose": [
+        [
+          0,
+          2
+        ],
+        0
+      ],
+      "empty_w_cursor": [
+        1,
+        3
+      ],
+      "first_R_other_endpoint": [
+        -1,
+        5
+      ],
+      "mandatory_final_black": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "last_read_owners": [
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "R",
+          "slot": 5
+        },
+        {
+          "cell": [
+            -1,
+            1
+          ],
+          "turn": "R",
+          "slot": 6
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R",
+          "slot": 3
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L",
+          "slot": 4
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "turn": "L",
+          "slot": 7
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R",
+          "slot": 2
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "slot": 1
+        }
+      ],
+      "neighbor_forced_components": [
+        {
+          "neighbor": [
+            -1,
+            1
+          ],
+          "mandatory_component_edges": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ]
+          ]
+        },
+        {
+          "neighbor": [
+            -1,
+            5
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            3,
+            1
+          ],
+          "mandatory_component_edges": [
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "neighbor": [
+            3,
+            5
+          ],
+          "mandatory_component_edges": []
+        }
+      ],
+      "mandatory_import_union": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "mandatory_import_mass": 5,
+      "first_tip_in_mandatory_import": false,
+      "classification": "MASS",
+      "read_trace": [
+        {
+          "slot": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 2,
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 3,
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 4,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 5,
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 6,
+          "cell": [
+            -1,
+            1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 7,
+          "cell": [
+            0,
+            1
+          ],
+          "turn": "L"
+        }
+      ]
+    },
+    {
+      "word": "RRRRLLRL",
+      "length": 8,
+      "exit_pose": [
+        [
+          -2,
+          -2
+        ],
+        2
+      ],
+      "empty_w_cursor": [
+        -5,
+        -3
+      ],
+      "first_R_other_endpoint": [
+        -3,
+        -5
+      ],
+      "mandatory_final_black": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "last_read_owners": [
+        {
+          "cell": [
+            -2,
+            -1
+          ],
+          "turn": "L",
+          "slot": 7
+        },
+        {
+          "cell": [
+            -1,
+            -1
+          ],
+          "turn": "R",
+          "slot": 6
+        },
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "L",
+          "slot": 5
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R",
+          "slot": 3
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L",
+          "slot": 4
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R",
+          "slot": 2
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "slot": 1
+        }
+      ],
+      "neighbor_forced_components": [
+        {
+          "neighbor": [
+            -7,
+            -5
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            -7,
+            -1
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            -3,
+            -5
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            -3,
+            -1
+          ],
+          "mandatory_component_edges": [
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        }
+      ],
+      "mandatory_import_union": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "mandatory_import_mass": 4,
+      "first_tip_in_mandatory_import": false,
+      "classification": "MASS",
+      "read_trace": [
+        {
+          "slot": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 2,
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 3,
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 4,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 5,
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 6,
+          "cell": [
+            -1,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 7,
+          "cell": [
+            -2,
+            -1
+          ],
+          "turn": "L"
+        }
+      ]
+    },
+    {
+      "word": "RRRRLLRRL",
+      "length": 9,
+      "exit_pose": [
+        [
+          -3,
+          0
+        ],
+        3
+      ],
+      "empty_w_cursor": [
+        -5,
+        1
+      ],
+      "first_R_other_endpoint": [
+        -7,
+        -1
+      ],
+      "mandatory_final_black": [
+        [
+          -2,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "last_read_owners": [
+        {
+          "cell": [
+            -2,
+            -1
+          ],
+          "turn": "R",
+          "slot": 7
+        },
+        {
+          "cell": [
+            -2,
+            0
+          ],
+          "turn": "L",
+          "slot": 8
+        },
+        {
+          "cell": [
+            -1,
+            -1
+          ],
+          "turn": "R",
+          "slot": 6
+        },
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "L",
+          "slot": 5
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R",
+          "slot": 3
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L",
+          "slot": 4
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R",
+          "slot": 2
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "slot": 1
+        }
+      ],
+      "neighbor_forced_components": [
+        {
+          "neighbor": [
+            -7,
+            -1
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            -7,
+            3
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            -3,
+            -1
+          ],
+          "mandatory_component_edges": [
+            [
+              -2,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "neighbor": [
+            -3,
+            3
+          ],
+          "mandatory_component_edges": []
+        }
+      ],
+      "mandatory_import_union": [
+        [
+          -2,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "mandatory_import_mass": 5,
+      "first_tip_in_mandatory_import": false,
+      "classification": "MASS",
+      "read_trace": [
+        {
+          "slot": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 2,
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 3,
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 4,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 5,
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 6,
+          "cell": [
+            -1,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 7,
+          "cell": [
+            -2,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 8,
+          "cell": [
+            -2,
+            0
+          ],
+          "turn": "L"
+        }
+      ]
+    },
+    {
+      "word": "RRRRLLLLRL",
+      "length": 10,
+      "exit_pose": [
+        [
+          1,
+          1
+        ],
+        0
+      ],
+      "empty_w_cursor": [
+        3,
+        1
+      ],
+      "first_R_other_endpoint": [
+        1,
+        3
+      ],
+      "mandatory_final_black": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "last_read_owners": [
+        {
+          "cell": [
+            -1,
+            -1
+          ],
+          "turn": "L",
+          "slot": 6
+        },
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "L",
+          "slot": 5
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "L",
+          "slot": 7
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "slot": 8
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R",
+          "slot": 2
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "L",
+          "slot": 9
+        }
+      ],
+      "neighbor_forced_components": [
+        {
+          "neighbor": [
+            1,
+            -1
+          ],
+          "mandatory_component_edges": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              -1
+            ]
+          ]
+        },
+        {
+          "neighbor": [
+            1,
+            3
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            5,
+            -1
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            5,
+            3
+          ],
+          "mandatory_component_edges": []
+        }
+      ],
+      "mandatory_import_union": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "mandatory_import_mass": 2,
+      "first_tip_in_mandatory_import": false,
+      "classification": "SATURATED_NONFIRST",
+      "read_trace": [
+        {
+          "slot": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 2,
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 3,
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 4,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 5,
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 6,
+          "cell": [
+            -1,
+            -1
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 7,
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 8,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 9,
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "L"
+        }
+      ]
+    },
+    {
+      "word": "RRRRLRLRRL",
+      "length": 10,
+      "exit_pose": [
+        [
+          -1,
+          3
+        ],
+        0
+      ],
+      "empty_w_cursor": [
+        -1,
+        5
+      ],
+      "first_R_other_endpoint": [
+        -3,
+        7
+      ],
+      "mandatory_final_black": [
+        [
+          -2,
+          1
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "last_read_owners": [
+        {
+          "cell": [
+            -2,
+            1
+          ],
+          "turn": "R",
+          "slot": 7
+        },
+        {
+          "cell": [
+            -2,
+            2
+          ],
+          "turn": "R",
+          "slot": 8
+        },
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "R",
+          "slot": 5
+        },
+        {
+          "cell": [
+            -1,
+            1
+          ],
+          "turn": "L",
+          "slot": 6
+        },
+        {
+          "cell": [
+            -1,
+            2
+          ],
+          "turn": "L",
+          "slot": 9
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R",
+          "slot": 3
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L",
+          "slot": 4
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R",
+          "slot": 2
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "slot": 1
+        }
+      ],
+      "neighbor_forced_components": [
+        {
+          "neighbor": [
+            -3,
+            3
+          ],
+          "mandatory_component_edges": [
+            [
+              -2,
+              1
+            ],
+            [
+              -2,
+              2
+            ]
+          ]
+        },
+        {
+          "neighbor": [
+            -3,
+            7
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            1,
+            3
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            1,
+            7
+          ],
+          "mandatory_component_edges": []
+        }
+      ],
+      "mandatory_import_union": [
+        [
+          -2,
+          1
+        ],
+        [
+          -2,
+          2
+        ]
+      ],
+      "mandatory_import_mass": 2,
+      "first_tip_in_mandatory_import": false,
+      "classification": "SATURATED_NONFIRST",
+      "read_trace": [
+        {
+          "slot": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 2,
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 3,
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 4,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 5,
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 6,
+          "cell": [
+            -1,
+            1
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 7,
+          "cell": [
+            -2,
+            1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 8,
+          "cell": [
+            -2,
+            2
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 9,
+          "cell": [
+            -1,
+            2
+          ],
+          "turn": "L"
+        }
+      ]
+    },
+    {
+      "word": "RRRRLRL",
+      "length": 7,
+      "exit_pose": [
+        [
+          -2,
+          1
+        ],
+        3
+      ],
+      "empty_w_cursor": [
+        -3,
+        3
+      ],
+      "first_R_other_endpoint": [
+        -5,
+        1
+      ],
+      "mandatory_final_black": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "last_read_owners": [
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "R",
+          "slot": 5
+        },
+        {
+          "cell": [
+            -1,
+            1
+          ],
+          "turn": "L",
+          "slot": 6
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R",
+          "slot": 3
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L",
+          "slot": 4
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R",
+          "slot": 2
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "slot": 1
+        }
+      ],
+      "neighbor_forced_components": [
+        {
+          "neighbor": [
+            -5,
+            1
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            -5,
+            5
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            -1,
+            1
+          ],
+          "mandatory_component_edges": [
+            [
+              -1,
+              0
+            ]
+          ]
+        },
+        {
+          "neighbor": [
+            -1,
+            5
+          ],
+          "mandatory_component_edges": []
+        }
+      ],
+      "mandatory_import_union": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "mandatory_import_mass": 1,
+      "first_tip_in_mandatory_import": false,
+      "classification": "OPEN",
+      "read_trace": [
+        {
+          "slot": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 2,
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 3,
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 4,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 5,
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 6,
+          "cell": [
+            -1,
+            1
+          ],
+          "turn": "L"
+        }
+      ]
+    },
+    {
+      "word": "RRRRLRLL",
+      "length": 8,
+      "exit_pose": [
+        [
+          -2,
+          0
+        ],
+        2
+      ],
+      "empty_w_cursor": [
+        -5,
+        1
+      ],
+      "first_R_other_endpoint": [
+        -3,
+        -1
+      ],
+      "mandatory_final_black": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "last_read_owners": [
+        {
+          "cell": [
+            -2,
+            1
+          ],
+          "turn": "L",
+          "slot": 7
+        },
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "R",
+          "slot": 5
+        },
+        {
+          "cell": [
+            -1,
+            1
+          ],
+          "turn": "L",
+          "slot": 6
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R",
+          "slot": 3
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L",
+          "slot": 4
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R",
+          "slot": 2
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "slot": 1
+        }
+      ],
+      "neighbor_forced_components": [
+        {
+          "neighbor": [
+            -7,
+            -1
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            -7,
+            3
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            -3,
+            -1
+          ],
+          "mandatory_component_edges": [
+            [
+              -1,
+              0
+            ]
+          ]
+        },
+        {
+          "neighbor": [
+            -3,
+            3
+          ],
+          "mandatory_component_edges": []
+        }
+      ],
+      "mandatory_import_union": [
+        [
+          -1,
+          0
+        ]
+      ],
+      "mandatory_import_mass": 1,
+      "first_tip_in_mandatory_import": true,
+      "classification": "OPEN",
+      "read_trace": [
+        {
+          "slot": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 2,
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 3,
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 4,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 5,
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 6,
+          "cell": [
+            -1,
+            1
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 7,
+          "cell": [
+            -2,
+            1
+          ],
+          "turn": "L"
+        }
+      ]
+    },
+    {
+      "word": "RRRRLRRLL",
+      "length": 9,
+      "exit_pose": [
+        [
+          -1,
+          2
+        ],
+        3
+      ],
+      "empty_w_cursor": [
+        -1,
+        5
+      ],
+      "first_R_other_endpoint": [
+        -3,
+        3
+      ],
+      "mandatory_final_black": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "last_read_owners": [
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "R",
+          "slot": 5
+        },
+        {
+          "cell": [
+            -1,
+            1
+          ],
+          "turn": "R",
+          "slot": 6
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R",
+          "slot": 3
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L",
+          "slot": 4
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "turn": "L",
+          "slot": 7
+        },
+        {
+          "cell": [
+            0,
+            2
+          ],
+          "turn": "L",
+          "slot": 8
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R",
+          "slot": 2
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "slot": 1
+        }
+      ],
+      "neighbor_forced_components": [
+        {
+          "neighbor": [
+            -3,
+            3
+          ],
+          "mandatory_component_edges": [
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ]
+          ]
+        },
+        {
+          "neighbor": [
+            -3,
+            7
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            1,
+            3
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            1,
+            7
+          ],
+          "mandatory_component_edges": []
+        }
+      ],
+      "mandatory_import_union": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "mandatory_import_mass": 2,
+      "first_tip_in_mandatory_import": true,
+      "classification": "OPEN",
+      "read_trace": [
+        {
+          "slot": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 2,
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 3,
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 4,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 5,
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 6,
+          "cell": [
+            -1,
+            1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 7,
+          "cell": [
+            0,
+            1
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 8,
+          "cell": [
+            0,
+            2
+          ],
+          "turn": "L"
+        }
+      ]
+    },
+    {
+      "word": "RRRRLRLRL",
+      "length": 9,
+      "exit_pose": [
+        [
+          -3,
+          2
+        ],
+        3
+      ],
+      "empty_w_cursor": [
+        -5,
+        5
+      ],
+      "first_R_other_endpoint": [
+        -7,
+        3
+      ],
+      "mandatory_final_black": [
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "last_read_owners": [
+        {
+          "cell": [
+            -2,
+            1
+          ],
+          "turn": "R",
+          "slot": 7
+        },
+        {
+          "cell": [
+            -2,
+            2
+          ],
+          "turn": "L",
+          "slot": 8
+        },
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "R",
+          "slot": 5
+        },
+        {
+          "cell": [
+            -1,
+            1
+          ],
+          "turn": "L",
+          "slot": 6
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R",
+          "slot": 3
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L",
+          "slot": 4
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R",
+          "slot": 2
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "slot": 1
+        }
+      ],
+      "neighbor_forced_components": [
+        {
+          "neighbor": [
+            -7,
+            3
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            -7,
+            7
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            -3,
+            3
+          ],
+          "mandatory_component_edges": [
+            [
+              -2,
+              1
+            ]
+          ]
+        },
+        {
+          "neighbor": [
+            -3,
+            7
+          ],
+          "mandatory_component_edges": []
+        }
+      ],
+      "mandatory_import_union": [
+        [
+          -2,
+          1
+        ]
+      ],
+      "mandatory_import_mass": 1,
+      "first_tip_in_mandatory_import": false,
+      "classification": "OPEN",
+      "read_trace": [
+        {
+          "slot": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 2,
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 3,
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 4,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 5,
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 6,
+          "cell": [
+            -1,
+            1
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 7,
+          "cell": [
+            -2,
+            1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 8,
+          "cell": [
+            -2,
+            2
+          ],
+          "turn": "L"
+        }
+      ]
+    },
+    {
+      "word": "RRRRLRRLRL",
+      "length": 10,
+      "exit_pose": [
+        [
+          1,
+          3
+        ],
+        0
+      ],
+      "empty_w_cursor": [
+        3,
+        5
+      ],
+      "first_R_other_endpoint": [
+        1,
+        7
+      ],
+      "mandatory_final_black": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "last_read_owners": [
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "R",
+          "slot": 5
+        },
+        {
+          "cell": [
+            -1,
+            1
+          ],
+          "turn": "R",
+          "slot": 6
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R",
+          "slot": 3
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L",
+          "slot": 4
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "turn": "L",
+          "slot": 7
+        },
+        {
+          "cell": [
+            0,
+            2
+          ],
+          "turn": "R",
+          "slot": 8
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R",
+          "slot": 2
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "slot": 1
+        },
+        {
+          "cell": [
+            1,
+            2
+          ],
+          "turn": "L",
+          "slot": 9
+        }
+      ],
+      "neighbor_forced_components": [
+        {
+          "neighbor": [
+            1,
+            3
+          ],
+          "mandatory_component_edges": [
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "neighbor": [
+            1,
+            7
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            5,
+            3
+          ],
+          "mandatory_component_edges": []
+        },
+        {
+          "neighbor": [
+            5,
+            7
+          ],
+          "mandatory_component_edges": []
+        }
+      ],
+      "mandatory_import_union": [
+        [
+          0,
+          2
+        ]
+      ],
+      "mandatory_import_mass": 1,
+      "first_tip_in_mandatory_import": false,
+      "classification": "OPEN",
+      "read_trace": [
+        {
+          "slot": 0,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 1,
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 2,
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 3,
+          "cell": [
+            0,
+            -1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 4,
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 5,
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 6,
+          "cell": [
+            -1,
+            1
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 7,
+          "cell": [
+            0,
+            1
+          ],
+          "turn": "L"
+        },
+        {
+          "slot": 8,
+          "cell": [
+            0,
+            2
+          ],
+          "turn": "R"
+        },
+        {
+          "slot": 9,
+          "cell": [
+            1,
+            2
+          ],
+          "turn": "L"
+        }
+      ]
+    }
+  ],
+  "scope": "For ANY actual empty-to-empty execution of a listed trapped word, its current mandatory black edges force cap6 failure within9 more updates. This finite coordinate table does not itself prove the12 words exhaust the cap6 kernel; that is a separate grammar dependency."
+}

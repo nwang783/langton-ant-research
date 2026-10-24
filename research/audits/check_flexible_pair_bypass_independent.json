@@ -1,0 +1,229 @@
+{
+  "status": "PASS independent flexible complete-boundary tiling, full physical CNF and RUP replay",
+  "note_sha256": "89ff34323b73bb62de2879cc90933620c8ff92d9418a67c657e38bd1fe798a7c",
+  "variables": 30889,
+  "clauses": 104237,
+  "physical_cells": 274,
+  "proof": {
+    "valid": true,
+    "input_clauses": 104237,
+    "additions": 764,
+    "deletions": 0,
+    "RUP": 764,
+    "RAT": 0,
+    "propagation_checks": 764
+  },
+  "controls": [
+    {
+      "bypasses": 0,
+      "length": 728,
+      "legal": true,
+      "input_mass": 97
+    },
+    {
+      "bypasses": 1,
+      "length": 737,
+      "legal": false,
+      "input_mass": 94
+    },
+    {
+      "bypasses": 1,
+      "length": 737,
+      "legal": false,
+      "input_mass": 99
+    },
+    {
+      "bypasses": 2,
+      "length": 746,
+      "legal": false,
+      "input_mass": 99
+    },
+    {
+      "bypasses": 4,
+      "length": 760,
+      "legal": false,
+      "input_mass": 95
+    },
+    {
+      "bypasses": 13,
+      "length": 832,
+      "legal": false,
+      "input_mass": 92
+    },
+    {
+      "bypasses": 13,
+      "length": 832,
+      "legal": false,
+      "input_mass": 94
+    },
+    {
+      "bypasses": 20,
+      "length": 888,
+      "legal": false,
+      "input_mass": 96
+    },
+    {
+      "bypasses": 14,
+      "length": 840,
+      "legal": false,
+      "input_mass": 97
+    },
+    {
+      "bypasses": 14,
+      "length": 840,
+      "legal": false,
+      "input_mass": 103
+    },
+    {
+      "bypasses": 18,
+      "length": 872,
+      "legal": false,
+      "input_mass": 102
+    },
+    {
+      "bypasses": 18,
+      "length": 872,
+      "legal": false,
+      "input_mass": 91
+    },
+    {
+      "bypasses": 12,
+      "length": 824,
+      "legal": false,
+      "input_mass": 101
+    },
+    {
+      "bypasses": 8,
+      "length": 792,
+      "legal": false,
+      "input_mass": 92
+    },
+    {
+      "bypasses": 15,
+      "length": 848,
+      "legal": false,
+      "input_mass": 95
+    },
+    {
+      "bypasses": 78,
+      "length": 1352,
+      "legal": false,
+      "input_mass": 105
+    },
+    {
+      "bypasses": 65,
+      "length": 1248,
+      "legal": false,
+      "input_mass": 87
+    },
+    {
+      "bypasses": 69,
+      "length": 1281,
+      "legal": false,
+      "input_mass": 101
+    },
+    {
+      "bypasses": 75,
+      "length": 1328,
+      "legal": false,
+      "input_mass": 90
+    },
+    {
+      "bypasses": 75,
+      "length": 1328,
+      "legal": false,
+      "input_mass": 110
+    },
+    {
+      "bypasses": 61,
+      "length": 1216,
+      "legal": false,
+      "input_mass": 108
+    },
+    {
+      "bypasses": 66,
+      "length": 1256,
+      "legal": false,
+      "input_mass": 93
+    },
+    {
+      "bypasses": 55,
+      "length": 1169,
+      "legal": false,
+      "input_mass": 93
+    },
+    {
+      "bypasses": 66,
+      "length": 1257,
+      "legal": false,
+      "input_mass": 85
+    },
+    {
+      "bypasses": 71,
+      "length": 1296,
+      "legal": false,
+      "input_mass": 90
+    },
+    {
+      "bypasses": 224,
+      "length": 2521,
+      "legal": false,
+      "input_mass": 111
+    },
+    {
+      "bypasses": 208,
+      "length": 2393,
+      "legal": false,
+      "input_mass": 122
+    },
+    {
+      "bypasses": 200,
+      "length": 2329,
+      "legal": false,
+      "input_mass": 110
+    },
+    {
+      "bypasses": 204,
+      "length": 2360,
+      "legal": false,
+      "input_mass": 101
+    },
+    {
+      "bypasses": 211,
+      "length": 2416,
+      "legal": false,
+      "input_mass": 120
+    },
+    {
+      "bypasses": 208,
+      "length": 2393,
+      "legal": false,
+      "input_mass": 116
+    },
+    {
+      "bypasses": 209,
+      "length": 2400,
+      "legal": false,
+      "input_mass": 104
+    },
+    {
+      "bypasses": 202,
+      "length": 2346,
+      "legal": false,
+      "input_mass": 120
+    },
+    {
+      "bypasses": 215,
+      "length": 2449,
+      "legal": false,
+      "input_mass": 117
+    },
+    {
+      "bypasses": 213,
+      "length": 2433,
+      "legal": false,
+      "input_mass": 119
+    }
+  ],
+  "scope": "Arbitrary nonoverlapping minimal ten-read pair bypasses at every inverse104 coarse index, no fixed pairing or periodicity, arbitrary entry colors. Optional complete boundary tiles -1/727 included and monomers exactly uncovered indices. Central bypass impossible, hence none starting>=312 in one-sided inverse schedule. Forward reversal gives eventual identity only. No larger/different palette, overlapping tiles or arbitrary trajectory exclusion."
+}

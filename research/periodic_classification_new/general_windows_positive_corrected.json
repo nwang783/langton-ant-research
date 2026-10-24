@@ -1,0 +1,120 @@
+{
+  "status": "AUTHOR_CORRECTED_NONVACUOUS_WINDOW_POSITIVES_PASS",
+  "scope": "Separate nonvacuous sector-correct positive control; old evidence unchanged.\nQuarter rotation toggles the pose-sector sign. For SE104 translate the\nrotated initial pose by(0,-1), so Geometry's incoming-axis convention holds.\n",
+  "controls": [
+    {
+      "period": 104,
+      "full_drift": [
+        2,
+        2
+      ],
+      "start": [
+        -1,
+        0
+      ],
+      "incoming": 0,
+      "windows": 27,
+      "nonempty_windows": 27,
+      "matched_nonempty_arcs": 196,
+      "matched_event_successors": 580,
+      "all_read_axes_checked": true,
+      "all_internal_successor_ordinals_and_times_checked": true,
+      "status": "PASS"
+    },
+    {
+      "period": 104,
+      "full_drift": [
+        2,
+        -2
+      ],
+      "start": [
+        0,
+        0
+      ],
+      "incoming": 1,
+      "windows": 27,
+      "nonempty_windows": 27,
+      "matched_nonempty_arcs": 196,
+      "matched_event_successors": 580,
+      "all_read_axes_checked": true,
+      "all_internal_successor_ordinals_and_times_checked": true,
+      "status": "PASS"
+    },
+    {
+      "period": 208,
+      "full_drift": [
+        4,
+        4
+      ],
+      "start": [
+        -1,
+        0
+      ],
+      "incoming": 0,
+      "windows": 27,
+      "nonempty_windows": 27,
+      "matched_nonempty_arcs": 392,
+      "matched_event_successors": 1160,
+      "all_read_axes_checked": true,
+      "all_internal_successor_ordinals_and_times_checked": true,
+      "status": "PASS"
+    },
+    {
+      "period": 208,
+      "full_drift": [
+        4,
+        -4
+      ],
+      "start": [
+        0,
+        0
+      ],
+      "incoming": 1,
+      "windows": 27,
+      "nonempty_windows": 27,
+      "matched_nonempty_arcs": 392,
+      "matched_event_successors": 1160,
+      "all_read_axes_checked": true,
+      "all_internal_successor_ordinals_and_times_checked": true,
+      "status": "PASS"
+    },
+    {
+      "period": 312,
+      "full_drift": [
+        6,
+        6
+      ],
+      "start": [
+        -1,
+        0
+      ],
+      "incoming": 0,
+      "windows": 27,
+      "nonempty_windows": 27,
+      "matched_nonempty_arcs": 588,
+      "matched_event_successors": 1740,
+      "all_read_axes_checked": true,
+      "all_internal_successor_ordinals_and_times_checked": true,
+      "status": "PASS"
+    },
+    {
+      "period": 312,
+      "full_drift": [
+        6,
+        -6
+      ],
+      "start": [
+        0,
+        0
+      ],
+      "incoming": 1,
+      "windows": 27,
+      "nonempty_windows": 27,
+      "matched_nonempty_arcs": 588,
+      "matched_event_successors": 1740,
+      "all_read_axes_checked": true,
+      "all_internal_successor_ordinals_and_times_checked": true,
+      "status": "PASS"
+    }
+  ]
+}

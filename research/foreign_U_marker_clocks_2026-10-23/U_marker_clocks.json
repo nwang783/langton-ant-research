@@ -1,0 +1,559 @@
+{
+  "status": "AUTHOR_PENDING_INDEPENDENT_AUDIT",
+  "scope": "Necessary lower clocks for marker-only first-foreign absorption of genuine original U-star tags: only F(3,-2,E) at C age>=7 or Q(3,5,N) at C age>=8 remain. The other residual marker port F(3,3,N) is already excluded by signed actual renewal/bud history. Original tags stay physically black through foreign RAW; successor owns phase1. No attainment at7/8, physical erosion, postforeign permanence, or all-age exclusion is claimed.",
+  "remaining_marker_mechanisms": [
+    {
+      "foreign": "F",
+      "pose": [
+        3,
+        -2,
+        1
+      ],
+      "original_tag": [
+        1,
+        1
+      ],
+      "marker_only_local_slot": [
+        -3,
+        -2
+      ],
+      "first_full_context_read": [
+        57,
+        "L"
+      ],
+      "physical_owner": "successor RAW phase1, not foreign RAW",
+      "source_entry_C_residue": 3
+    },
+    {
+      "foreign": "Q",
+      "pose": [
+        3,
+        5,
+        0
+      ],
+      "original_tag": [
+        0,
+        1
+      ],
+      "marker_only_local_slot": [
+        -3,
+        -4
+      ],
+      "first_full_context_read": [
+        65,
+        "L"
+      ],
+      "physical_owner": "successor RAW phase1, not foreign RAW",
+      "source_entry_C_residue": 0
+    }
+  ],
+  "F_clock_bound": {
+    "foreign_pose": [
+      3,
+      -2,
+      1
+    ],
+    "same_original_U_exit_bud": [
+      1,
+      3
+    ],
+    "last_source_R": [
+      26,
+      "R"
+    ],
+    "foreign_before_white_local": [
+      -5,
+      -2
+    ],
+    "first_foreign_read": [
+      53,
+      "R"
+    ],
+    "signed_no_retirement_through_age": 4,
+    "excluded_C_ages": [
+      3
+    ],
+    "necessary_C_age_at_least": 7
+  },
+  "Q_actual_predecessor_rows": [
+    {
+      "type": "V",
+      "pose": [
+        2,
+        2,
+        0
+      ],
+      "held_original_L_context_hits": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "type": "U",
+      "pose": [
+        3,
+        1,
+        0
+      ],
+      "held_original_L_context_hits": []
+    }
+  ],
+  "first_post_U_common_bud_rows": [
+    {
+      "atom": "D",
+      "start": [
+        0,
+        4,
+        0
+      ],
+      "C_birth_clock": 0,
+      "local_bud": [
+        2,
+        0
+      ],
+      "R_birth_phase": 8,
+      "global_bud": [
+        2,
+        4
+      ]
+    },
+    {
+      "atom": "C",
+      "start": [
+        0,
+        4,
+        0
+      ],
+      "C_birth_clock": 0,
+      "local_bud": [
+        2,
+        0
+      ],
+      "R_birth_phase": 8,
+      "global_bud": [
+        2,
+        4
+      ]
+    },
+    {
+      "atom": "V",
+      "start": [
+        0,
+        4,
+        0
+      ],
+      "C_birth_clock": 0,
+      "local_bud": [
+        2,
+        0
+      ],
+      "R_birth_phase": 8,
+      "global_bud": [
+        2,
+        4
+      ]
+    },
+    {
+      "atom": "U",
+      "start": [
+        0,
+        4,
+        0
+      ],
+      "C_birth_clock": 0,
+      "local_bud": [
+        2,
+        0
+      ],
+      "R_birth_phase": 8,
+      "global_bud": [
+        2,
+        4
+      ]
+    }
+  ],
+  "Q_bud_first_consumer_endpoint_rows": [
+    {
+      "C_age": 3,
+      "consumer": "D",
+      "input_slot": [
+        0,
+        1
+      ],
+      "pose": [
+        1,
+        4,
+        1
+      ],
+      "base_endpoint": [
+        2,
+        3,
+        1
+      ],
+      "exclusion": "exact_x_budget_forces_after_C4_y3_above_target1",
+      "after_only_C4": [
+        3,
+        3,
+        0
+      ],
+      "minimum_later_y": 3
+    },
+    {
+      "C_age": 3,
+      "consumer": "V",
+      "input_slot": [
+        0,
+        3
+      ],
+      "pose": [
+        -1,
+        4,
+        1
+      ],
+      "base_endpoint": [
+        2,
+        3,
+        1
+      ],
+      "exclusion": "exact_x_budget_forces_after_C4_y3_above_target1",
+      "after_only_C4": [
+        3,
+        3,
+        0
+      ],
+      "minimum_later_y": 3
+    },
+    {
+      "C_age": 3,
+      "consumer": "V",
+      "input_slot": [
+        1,
+        2
+      ],
+      "pose": [
+        0,
+        5,
+        1
+      ],
+      "base_endpoint": [
+        3,
+        4,
+        1
+      ],
+      "exclusion": "remaining_C4_forces_x_above_target3",
+      "minimum_later_x": 4
+    },
+    {
+      "C_age": 3,
+      "consumer": "U",
+      "input_slot": [
+        -1,
+        1
+      ],
+      "pose": [
+        1,
+        3,
+        1
+      ],
+      "base_endpoint": [
+        5,
+        3,
+        1
+      ],
+      "exclusion": "remaining_C4_forces_x_above_target3",
+      "minimum_later_x": 6
+    },
+    {
+      "C_age": 3,
+      "consumer": "U",
+      "input_slot": [
+        -1,
+        2
+      ],
+      "pose": [
+        0,
+        3,
+        1
+      ],
+      "base_endpoint": [
+        4,
+        3,
+        1
+      ],
+      "exclusion": "remaining_C4_forces_x_above_target3",
+      "minimum_later_x": 5
+    },
+    {
+      "C_age": 3,
+      "consumer": "U",
+      "input_slot": [
+        -1,
+        4
+      ],
+      "pose": [
+        -2,
+        3,
+        1
+      ],
+      "base_endpoint": [
+        2,
+        3,
+        1
+      ],
+      "exclusion": "exact_x_budget_forces_after_C4_y3_above_target1",
+      "after_only_C4": [
+        3,
+        3,
+        0
+      ],
+      "minimum_later_y": 3
+    },
+    {
+      "C_age": 3,
+      "consumer": "U",
+      "input_slot": [
+        0,
+        2
+      ],
+      "pose": [
+        0,
+        4,
+        1
+      ],
+      "base_endpoint": [
+        4,
+        4,
+        1
+      ],
+      "exclusion": "remaining_C4_forces_x_above_target3",
+      "minimum_later_x": 5
+    },
+    {
+      "C_age": 3,
+      "consumer": "U",
+      "input_slot": [
+        0,
+        3
+      ],
+      "pose": [
+        -1,
+        4,
+        1
+      ],
+      "base_endpoint": [
+        3,
+        4,
+        1
+      ],
+      "exclusion": "remaining_C4_forces_x_above_target3",
+      "minimum_later_x": 4
+    },
+    {
+      "C_age": 4,
+      "consumer": "D",
+      "input_slot": [
+        0,
+        1
+      ],
+      "pose": [
+        2,
+        3,
+        0
+      ],
+      "base_endpoint": [
+        3,
+        4,
+        0
+      ],
+      "exclusion": "N_zero_C_motion_cannot_lower_y_to_target1",
+      "minimum_later_y": 4
+    },
+    {
+      "C_age": 4,
+      "consumer": "V",
+      "input_slot": [
+        0,
+        3
+      ],
+      "pose": [
+        2,
+        1,
+        0
+      ],
+      "base_endpoint": [
+        3,
+        4,
+        0
+      ],
+      "exclusion": "N_zero_C_motion_cannot_lower_y_to_target1",
+      "minimum_later_y": 4
+    },
+    {
+      "C_age": 4,
+      "consumer": "V",
+      "input_slot": [
+        1,
+        2
+      ],
+      "pose": [
+        1,
+        2,
+        0
+      ],
+      "base_endpoint": [
+        2,
+        5,
+        0
+      ],
+      "exclusion": "N_zero_C_motion_cannot_lower_y_to_target1",
+      "minimum_later_y": 5
+    },
+    {
+      "C_age": 4,
+      "consumer": "U",
+      "input_slot": [
+        -1,
+        1
+      ],
+      "pose": [
+        3,
+        3,
+        0
+      ],
+      "base_endpoint": [
+        3,
+        7,
+        0
+      ],
+      "exclusion": "N_zero_C_motion_cannot_lower_y_to_target1",
+      "minimum_later_y": 7
+    },
+    {
+      "C_age": 4,
+      "consumer": "U",
+      "input_slot": [
+        -1,
+        2
+      ],
+      "pose": [
+        3,
+        2,
+        0
+      ],
+      "base_endpoint": [
+        3,
+        6,
+        0
+      ],
+      "exclusion": "N_zero_C_motion_cannot_lower_y_to_target1",
+      "minimum_later_y": 6
+    },
+    {
+      "C_age": 4,
+      "consumer": "U",
+      "input_slot": [
+        -1,
+        4
+      ],
+      "pose": [
+        3,
+        0,
+        0
+      ],
+      "base_endpoint": [
+        3,
+        4,
+        0
+      ],
+      "exclusion": "N_zero_C_motion_cannot_lower_y_to_target1",
+      "minimum_later_y": 4
+    },
+    {
+      "C_age": 4,
+      "consumer": "U",
+      "input_slot": [
+        0,
+        2
+      ],
+      "pose": [
+        2,
+        2,
+        0
+      ],
+      "base_endpoint": [
+        2,
+        6,
+        0
+      ],
+      "exclusion": "N_zero_C_motion_cannot_lower_y_to_target1",
+      "minimum_later_y": 6
+    },
+    {
+      "C_age": 4,
+      "consumer": "U",
+      "input_slot": [
+        0,
+        3
+      ],
+      "pose": [
+        2,
+        1,
+        0
+      ],
+      "base_endpoint": [
+        2,
+        5,
+        0
+      ],
+      "exclusion": "N_zero_C_motion_cannot_lower_y_to_target1",
+      "minimum_later_y": 5
+    }
+  ],
+  "Q_clock_bound": {
+    "foreign_pose": [
+      3,
+      5,
+      0
+    ],
+    "only_predecessor": [
+      3,
+      1,
+      0
+    ],
+    "same_first_successor_common_bud": [
+      2,
+      4
+    ],
+    "Q_core_local_slot": [
+      -1,
+      -1
+    ],
+    "target_U_before_white_local_slot": [
+      -1,
+      3
+    ],
+    "target_U_first_read": [
+      22,
+      "R"
+    ],
+    "excluded_C_ages": [
+      0,
+      4
+    ],
+    "necessary_C_age_at_least": 8
+  },
+  "dependencies": {
+    "core_periodicity_new/chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "word_stabilization/shifted1_llrlrrrrlll_fold_coalesced_port_quotient.json": "216ef5edde9404799744b5d9ab3d1fe62f55846cbe97e88f82395b195765ec35",
+    "foreign_U_star_predecessors_2026-10-23/foreign_U_star_predecessors.json": "9eace879414a612237a9d2af3a32d50caa87356327cba8dd4f135f5f4d4f9ba8",
+    "foreign_U_star_predecessors_2026-10-23/manifest.json": "51e1985a368a41f9412187acccf10b2072ae9a8e241425bbad95ff54f12ad8bc",
+    "seven_word_spatial_return_2026-10-23/complete8_foreign_adjacency_manifest.json": "735023bebfa154bd936e9546023367b541006ea1d9f57bb2eb7240bf040017ea",
+    "seven_word_spatial_return_2026-10-23/foreign_U_age4_renewal_branch_manifest.json": "5dbafb9bef1c90040ae46e77951ca5ad97a71a442215a5a8313bfe367074d5e5",
+    "foreign_renewal_bud_obstruction_2026-10-23/manifest.json": "c1637f139a0555c710f4652ef18c4b8216a7de101ee16f9abd0b2316f9863f7f",
+    "word_stabilization/U_foreign_prefix_bud_cuts_frozen_20261023_2201/manifest.json": "adf3dfa34019a3ff443b22b6ca664fe918f4a8ce755b358fc61e5db16f14c956",
+    "core_periodicity_new/atomic_common_4C_frozen_20261023_1344/manifest.json": "dd9c3ad2c7c7dd2e2383e43e05710ea4621f2d6fd25e07a3f8860fc7c458492f",
+    "foreign_U_marker_clocks_2026-10-23/check_U_marker_clocks.py": "8b3737f5a6dbcd96968694c3a179c86f23d587a80ce9123a54eafa5366484b09"
+  }
+}

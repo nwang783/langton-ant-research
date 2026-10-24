@@ -1,0 +1,82 @@
+{
+  "status": "PASS independent literal sources, signed clauses, affine repeated-read obstruction and full ordered-identity controls",
+  "manifest_sha256": "b32d3d7e79499255dc691674511c1ff0ed703c0c1d9c44282c547efe05edb73e",
+  "age_two_queries": 25,
+  "surviving_young_sources": [
+    {
+      "source": 4,
+      "output_index": 1,
+      "output": [
+        0,
+        1
+      ],
+      "cone_rhs": 0,
+      "count5_query": [
+        2,
+        2,
+        0,
+        4,
+        2,
+        0,
+        1,
+        2
+      ],
+      "count5_excluded": false
+    },
+    {
+      "source": 6,
+      "output_index": 2,
+      "output": [
+        0,
+        1
+      ],
+      "cone_rhs": 0,
+      "count5_query": [
+        4,
+        2,
+        0,
+        4,
+        2,
+        0,
+        1,
+        2
+      ],
+      "count5_excluded": false
+    }
+  ],
+  "all_g_at_least_one_conflict": [
+    [
+      1,
+      "L"
+    ],
+    [
+      77,
+      "L"
+    ]
+  ],
+  "literal_controls": [
+    {
+      "packets": [
+        1,
+        6,
+        4,
+        4
+      ],
+      "seed_mass": 9,
+      "literal_steps": 120
+    },
+    {
+      "packets": [
+        1,
+        4,
+        6,
+        4,
+        4,
+        4
+      ],
+      "seed_mass": 12,
+      "literal_steps": 156
+    }
+  ],
+  "scope": "Conditional DC-to-V exact-age3 branch; older support and I30 seven-live requirement are analytic. V source remains possible; no V1/global closure."
+}

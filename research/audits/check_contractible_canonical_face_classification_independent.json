@@ -1,0 +1,1595 @@
+{
+  "status": "PASS contractible canonical node face-loop classification",
+  "source_hashes": {
+    "zero_output_contractible_canonical_nodes_are_elementary_faces.md": "2c2d09054284baf2e4b8e5a20e2ce29de36b09c2ba8c994f2f7ddfaaf3edb121",
+    "canonical_turn_reflex_level_inventory.py": "de8fd0b88387ae7f87c889f835a690b5a93a4f3aedf8b503cf9e5022aa977e01",
+    "canonical_turn_reflex_level_inventory.json": "7cedf739a0e088057def1f53faa751528d48a8d7e07071dd39a8caf788ee8884",
+    "canonical_sheet_two_level_contact_barriers.md": "ad5644688982798a6691ed22f52d27be90323e826d304bbb3917df719064e27f",
+    "prepared_plateau_black_corner_alternative_and_reverse_output.md": "ab9fad0a34a031b2e60f7add0aa40d942d399e92f6503f6a0f25833796b77935",
+    "chronological_stream_sheet_exchange.md": "fd20e425b8a6bbc3aefd5eca06b4d443c1d2bdfde5f1d2d69c25d5c4d62af484"
+  },
+  "fresh_all98_canonical_turns": [
+    {
+      "word": "E",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_singleton",
+      "C": {
+        "NE": -1,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -1
+      }
+    },
+    {
+      "word": "W",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_singleton",
+      "C": {
+        "NE": 0,
+        "SW": -1
+      },
+      "L": {
+        "NW": -1,
+        "SE": -1
+      }
+    },
+    {
+      "word": "EE",
+      "j": -1,
+      "input_rank": 1,
+      "output_rank": 1,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": -1,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      }
+    },
+    {
+      "word": "EE",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": -1,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      }
+    },
+    {
+      "word": "EW",
+      "j": -1,
+      "input_rank": 1,
+      "output_rank": 1,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": -1,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EW",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": -1,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WE",
+      "j": -1,
+      "input_rank": 1,
+      "output_rank": 1,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": -1
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      }
+    },
+    {
+      "word": "WE",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": -1
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      }
+    },
+    {
+      "word": "WW",
+      "j": -1,
+      "input_rank": 1,
+      "output_rank": 1,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": -1
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WW",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": -1
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EEE",
+      "j": -2,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EEE",
+      "j": -1,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EEE",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EEW",
+      "j": -1,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      }
+    },
+    {
+      "word": "EEW",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      }
+    },
+    {
+      "word": "EEW",
+      "j": 0,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      }
+    },
+    {
+      "word": "EWE",
+      "j": -2,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      }
+    },
+    {
+      "word": "EWE",
+      "j": -1,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      }
+    },
+    {
+      "word": "EWE",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      }
+    },
+    {
+      "word": "EWW",
+      "j": -1,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EWW",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EWW",
+      "j": 0,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WEE",
+      "j": -1,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      }
+    },
+    {
+      "word": "WEE",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      }
+    },
+    {
+      "word": "WEE",
+      "j": 0,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      }
+    },
+    {
+      "word": "WEW",
+      "j": -2,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WEW",
+      "j": -1,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WEW",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WWE",
+      "j": -1,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WWE",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WWE",
+      "j": 0,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WWW",
+      "j": -2,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      }
+    },
+    {
+      "word": "WWW",
+      "j": -1,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      }
+    },
+    {
+      "word": "WWW",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      }
+    },
+    {
+      "word": "EEEE",
+      "j": -3,
+      "input_rank": 3,
+      "output_rank": 3,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EEEE",
+      "j": -2,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EEEE",
+      "j": -1,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EEEE",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EEEW",
+      "j": -2,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      }
+    },
+    {
+      "word": "EEEW",
+      "j": -2,
+      "input_rank": 3,
+      "output_rank": 3,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      }
+    },
+    {
+      "word": "EEEW",
+      "j": -1,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      }
+    },
+    {
+      "word": "EEEW",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      }
+    },
+    {
+      "word": "EEWE",
+      "j": -2,
+      "input_rank": 3,
+      "output_rank": 3,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -1
+      }
+    },
+    {
+      "word": "EEWE",
+      "j": -1,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -1
+      }
+    },
+    {
+      "word": "EEWE",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -1
+      }
+    },
+    {
+      "word": "EEWE",
+      "j": 0,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -1
+      }
+    },
+    {
+      "word": "EEWW",
+      "j": -1,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EEWW",
+      "j": -1,
+      "input_rank": 3,
+      "output_rank": 3,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EEWW",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EEWW",
+      "j": 0,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EWEE",
+      "j": -2,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      }
+    },
+    {
+      "word": "EWEE",
+      "j": -2,
+      "input_rank": 3,
+      "output_rank": 3,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      }
+    },
+    {
+      "word": "EWEE",
+      "j": -1,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      }
+    },
+    {
+      "word": "EWEE",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      }
+    },
+    {
+      "word": "EWEW",
+      "j": -3,
+      "input_rank": 3,
+      "output_rank": 3,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      }
+    },
+    {
+      "word": "EWEW",
+      "j": -2,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      }
+    },
+    {
+      "word": "EWEW",
+      "j": -1,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      }
+    },
+    {
+      "word": "EWEW",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      }
+    },
+    {
+      "word": "EWWE",
+      "j": -1,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EWWE",
+      "j": -1,
+      "input_rank": 3,
+      "output_rank": 3,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EWWE",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EWWE",
+      "j": 0,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EWWW",
+      "j": -2,
+      "input_rank": 3,
+      "output_rank": 3,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -3
+      }
+    },
+    {
+      "word": "EWWW",
+      "j": -1,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -3
+      }
+    },
+    {
+      "word": "EWWW",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -3
+      }
+    },
+    {
+      "word": "EWWW",
+      "j": 0,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -3
+      }
+    },
+    {
+      "word": "WEEE",
+      "j": -2,
+      "input_rank": 3,
+      "output_rank": 3,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -1
+      }
+    },
+    {
+      "word": "WEEE",
+      "j": -1,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -1
+      }
+    },
+    {
+      "word": "WEEE",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -1
+      }
+    },
+    {
+      "word": "WEEE",
+      "j": 0,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -1
+      }
+    },
+    {
+      "word": "WEEW",
+      "j": -1,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WEEW",
+      "j": -1,
+      "input_rank": 3,
+      "output_rank": 3,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WEEW",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WEEW",
+      "j": 0,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WEWE",
+      "j": -3,
+      "input_rank": 3,
+      "output_rank": 3,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WEWE",
+      "j": -2,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WEWE",
+      "j": -1,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WEWE",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WEWW",
+      "j": -2,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      }
+    },
+    {
+      "word": "WEWW",
+      "j": -2,
+      "input_rank": 3,
+      "output_rank": 3,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      }
+    },
+    {
+      "word": "WEWW",
+      "j": -1,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      }
+    },
+    {
+      "word": "WEWW",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      }
+    },
+    {
+      "word": "WWEE",
+      "j": -1,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WWEE",
+      "j": -1,
+      "input_rank": 3,
+      "output_rank": 3,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WWEE",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WWEE",
+      "j": 0,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WWEW",
+      "j": -2,
+      "input_rank": 3,
+      "output_rank": 3,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -3
+      }
+    },
+    {
+      "word": "WWEW",
+      "j": -1,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -3
+      }
+    },
+    {
+      "word": "WWEW",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -3
+      }
+    },
+    {
+      "word": "WWEW",
+      "j": 0,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -3
+      }
+    },
+    {
+      "word": "WWWE",
+      "j": -2,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      }
+    },
+    {
+      "word": "WWWE",
+      "j": -2,
+      "input_rank": 3,
+      "output_rank": 3,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      }
+    },
+    {
+      "word": "WWWE",
+      "j": -1,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      }
+    },
+    {
+      "word": "WWWE",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      }
+    },
+    {
+      "word": "WWWW",
+      "j": -3,
+      "input_rank": 3,
+      "output_rank": 3,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      }
+    },
+    {
+      "word": "WWWW",
+      "j": -2,
+      "input_rank": 2,
+      "output_rank": 1,
+      "turn": "L",
+      "type": "L",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      }
+    },
+    {
+      "word": "WWWW",
+      "j": -1,
+      "input_rank": 1,
+      "output_rank": 2,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      }
+    },
+    {
+      "word": "WWWW",
+      "j": 0,
+      "input_rank": 0,
+      "output_rank": 0,
+      "turn": "R",
+      "type": "R_non_singleton",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      }
+    }
+  ],
+  "counts": {
+    "R_singleton": 2,
+    "L": 44,
+    "R_non_singleton": 52
+  },
+  "analytic": [
+    "A physically finite connected C superlevel component has a highest plateau Q that is locally maximal in the full plane. Q has a WHITE incident collar. The signed finite prepared-plateau theorem therefore supplies an essential first-L curve in Q, impossible for a finite physical set. Nonzero drift aliases cannot bypass this: intersecting connected superlevel components with a nonzero translate would coincide and force infinitely many physical faces. At zero odd output only, exact time reversal is also WHITE and supplies the dual no-finite-L-sublevel principle.",
+    "The independently signed contact barriers at arbitrary sheetj confine any inside C>=j+1 component, or at zero output any inside L<=j-2 component, to the bounded disk. The no-finite-component principle consequently forces all inside C<=j and, in the zero-output case, all inside L>=j-1. This is not an assertion about essential circles or homology cancellation.",
+    "Fresh30-history78-sheet reconstruction gives98 canonical turns:44LEFT,52non-singletonRIGHT,2singletonRIGHT. EachLEFT has higherC>=j+1; eachnon-singletonRIGHT has lowerL<=j-2. The singletonRIGHT exception has bothL=j-1 and is an actual odd output, hence absent at zero output. Literal unchanged L1/L3 and both exchange transitions are included.",
+    "At a LEFT corner the two C sectors connect through its geometric RIGHT patch. In the only possible same-sheet doubleLEFT smoothing the central complementary patch joins both C sectors, so a second visit to the same primal cell cannot evade this placement. Likewise RIGHT has both L sectors on its LEFT, with central L connection for doubleRIGHT. These are physical rounded embeddings, not unsmoothed graph intersections.",
+    "A clockwise contractible circle has bounded interiorRIGHT. AnyLEFT corner would putC>=j+1 inside, contradiction. All corners thereforeRIGHT; its Jordan turning number requires exactly4 quarter-turns/edges. Since physical ports are unit grid edges, it is an elementaryC-face loop, and support plus the disk bound gives Cheightj. This part needs no zero-output premise.",
+    "At zero output a counterclockwise contractible circle has interiorLEFT and no singletonRIGHT. AnyRIGHT corner would putL<=j-2 inside, contradiction. AllcornersLEFT, hence exactly4edges around an Lface; support and the disk bound force Lheightj-1. Nonzero drift can create short quotient aliases but a contractible lift is a genuine finite Jordan curve, so the argument stays physical."
+  ],
+  "scope": "Complete WHITE cap4 actual full nonzero-drift front. Every clockwise contractible canonical node on any sheet is one Cface loop. If Nodd0, every counterclockwise one is one Lface loop. No graph-leaf, count, genus, period, fuel, whole-front or capture conclusion."
+}

@@ -1,0 +1,218 @@
+{
+  "status": "AUTHOR_EXHAUSTIVE_CONTROLS_PASS",
+  "scope": "Exact finite graph-shape enumeration only through supplied maximum cap. No extrapolation.",
+  "max_cap": 5,
+  "rooted_connected_shapes_by_mass": [
+    1,
+    4,
+    18,
+    88,
+    439,
+    2224
+  ],
+  "caps": [
+    {
+      "cap": 0,
+      "states": 1,
+      "import": 0,
+      "cap_exit": 1,
+      "translator": 0,
+      "maximum_event": 1,
+      "max_witness": {
+        "black_cells": [],
+        "outcome": "cap",
+        "predictor_period": 0,
+        "predictor_drift": [
+          0,
+          0
+        ],
+        "first_import_or_cap": 1,
+        "contact": null
+      }
+    },
+    {
+      "cap": 1,
+      "states": 5,
+      "import": 0,
+      "cap_exit": 5,
+      "translator": 0,
+      "maximum_event": 3,
+      "max_witness": {
+        "black_cells": [
+          [
+            0,
+            0
+          ]
+        ],
+        "outcome": "cap",
+        "predictor_period": 0,
+        "predictor_drift": [
+          0,
+          0
+        ],
+        "first_import_or_cap": 3,
+        "contact": null
+      }
+    },
+    {
+      "cap": 2,
+      "states": 23,
+      "import": 0,
+      "cap_exit": 23,
+      "translator": 0,
+      "maximum_event": 6,
+      "max_witness": {
+        "black_cells": [
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "outcome": "cap",
+        "predictor_period": 0,
+        "predictor_drift": [
+          0,
+          0
+        ],
+        "first_import_or_cap": 6,
+        "contact": null
+      }
+    },
+    {
+      "cap": 3,
+      "states": 111,
+      "import": 39,
+      "cap_exit": 72,
+      "translator": 0,
+      "maximum_event": 9,
+      "max_witness": {
+        "black_cells": [
+          [
+            -1,
+            1
+          ],
+          [
+            -1,
+            2
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "outcome": "import",
+        "predictor_period": 0,
+        "predictor_drift": [
+          0,
+          0
+        ],
+        "first_import_or_cap": 9,
+        "contact": {
+          "kind": "finite_prefix",
+          "vertex": [
+            -3,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "cap": 4,
+      "states": 550,
+      "import": 242,
+      "cap_exit": 308,
+      "translator": 0,
+      "maximum_event": 14,
+      "max_witness": {
+        "black_cells": [
+          [
+            -2,
+            0
+          ],
+          [
+            -2,
+            1
+          ],
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "outcome": "import",
+        "predictor_period": 20,
+        "predictor_drift": [
+          0,
+          0
+        ],
+        "first_import_or_cap": 14,
+        "contact": {
+          "kind": "periodic_emission",
+          "query_phase": 8,
+          "dump_phase": 4,
+          "epoch_gap": 0,
+          "vertex": [
+            -1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "cap": 5,
+      "states": 2774,
+      "import": 1276,
+      "cap_exit": 1498,
+      "translator": 0,
+      "maximum_event": 15,
+      "max_witness": {
+        "black_cells": [
+          [
+            -2,
+            -2
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            -1,
+            -2
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "outcome": "import",
+        "predictor_period": 20,
+        "predictor_drift": [
+          0,
+          0
+        ],
+        "first_import_or_cap": 15,
+        "contact": {
+          "kind": "periodic_emission",
+          "query_phase": 8,
+          "dump_phase": 4,
+          "epoch_gap": 0,
+          "vertex": [
+            -3,
+            -1
+          ]
+        }
+      }
+    }
+  ]
+}

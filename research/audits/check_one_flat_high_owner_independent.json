@@ -1,0 +1,31 @@
+{
+  "status": "PASS conditional one-flat high-only actual translated LEFT-owner interface",
+  "proof": "53566d7bc391930d7f47b2ddeca907792ff781636533dc19b42c2bb2ee0b1ae9",
+  "script": "3c13e5538da30d8e5d446a12efe11d4cb00315a20b67362c35927445d91c5846",
+  "dependencies": {
+    "audits/check_mixed_flow2_flat_islands_independent.json": "c4fabac9c366e6536b760af2a52f23d6d24bd5eb53f16f8e1d788b9a8680defe",
+    "audits/check_mixed_RR_closure_independent.json": "6a5571ed9cd4a804868b7378ecd3a4f675592e4b200e944cc4c62ff97a8883ac",
+    "audits/check_mixed_second_lane_independent.json": "6f2f242c5b65ec123f66598921032e17f8c687053a7fbb29e39604b97c7b9f2a",
+    "audits/check_mixed_first_track_pipeline_independent.json": "8ff4e2b77138f10372b4074fe93d9e0a7d28b4af32d29137f16cf4df8add9bab",
+    "audits/check_critical_flat_providers_independent.json": "f297e94e773a28de17b6e439ea0e42ebd25751621e199de6116ea26f317fe89b",
+    "audits/check_three_phase_diagonal_rail_independent.json": "c11741789438d974aec97870378340ba933bc4f11708f216682ebf88292a0875"
+  },
+  "actual_flat_ports": {
+    "X": {
+      "incoming_second": 1,
+      "outgoing_second": 3
+    },
+    "Y": {
+      "incoming_second": 3,
+      "outgoing_second": 1
+    }
+  },
+  "analytic_review": [
+    "Assumptions are complete WHITE cap4 front, global maximum critical b-circle, no-one-use edges, exactly one flat2RIGHT class and noflow2O/U roots. Signed maximum+RR closure reduces every maximal3 block to transparent RR/RLR; isolated4 andLEFTV transparent. Their actual selected lane keeps all boundary copies, not a repaired-node walk.",
+    "Start at the unique flat outgoing-second event. With no crossing f2 roots and no other flat, the actual lane runs once around the negative b-circle to its incoming-second atF-d in exactlyell updates. X has outgoingL3/incomingL1, forcing T1F-P=T3F+ell impossible. Y has outgoingL1/incomingL3, giving T3F-T1F=P+ell. Full voltages are not reduced modP.",
+    "Both endpointY reads and every interior selected event are geometricallyLEFT. The high3 crossings are L1/R2, while this selected lane visits theirL3. Thus no crossing event occurs in this continuous actual factor. Critical K=1 alternating crossings divide the complete timeline into physical same-contact LEFT intervals; the entire factor lies strictly within ONE such intervalq.L1->q.R2. Crossing q must be a gammaWEEE vertex because f2 crossings are absent. It is not an arbitrary exterior or canonical-sheet owner.",
+    "The selected factor visits each gamma quotient occurrence once, including every flow3LEFTL3 and odd source/sinkR2. In particular it includes q ownL3CLASS, physicallyq+n*d. It cannot beq or a futuretranslate because T3q>T2q. Therefore n=-m withm>=1, and T1q<T3q-mP<T2q. The interval for mP has widthDelta12q<P, so the integer is unique if it exists; no m=1 inference.",
+    "The actual walk fromq atT1 toq-m*d and backq atT2 has lengthDelta12>=2m||d||1. IntegerDelta12<P givesm<=floor((P-1)/(2||d||1)). This is only P-dependent geometry; it is neither initial fuel nor a period/age upper bound.",
+    "The minimal NSSN/NSN/NNN rail is separately excluded by signed exact helper-rank reversal. Larger single-owner layouts, positive output, exterior chronology and multi-flat cases remainOPEN. No physicalfront realization, canonical node interpretation or globalattraction result is claimed."
+  ]
+}

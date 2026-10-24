@@ -1,0 +1,32 @@
+{
+  "archive_filename": "langton-evidence-2026-10-24.tar.zst",
+  "archive_bytes": 2193594993,
+  "archive_sha256": "45ee8b2d88b79dfdb25aac4a320ccf6323c27d711ccd22bd4ee120f6dc18ed36",
+  "format": "tar followed by Zstandard compression, split into ordered binary parts",
+  "parts": [
+    {
+      "filename": "langton-evidence-2026-10-24.tar.zst.part00",
+      "bytes": 1500000000,
+      "sha256": "07affb5de022d5be937c54b257fac4c10cfc83e05bce97d00e48cfa4a96f3719"
+    },
+    {
+      "filename": "langton-evidence-2026-10-24.tar.zst.part01",
+      "bytes": 693594993,
+      "sha256": "47e22d702e81af268e12e5a247904858d8df816a26f02700cc8b55436dc9f054"
+    }
+  ],
+  "storage_status": "Created and integrity-verified locally; remote backup not yet established",
+  "contains": "9,489 generated bulk research artifacts only; compact artifacts are in Git",
+  "restore": "Concatenate part00 then part01 and pass to zstd -dc, then extract the tar into an empty research directory; verify all hashes afterward.",
+  "supplemental_archives": [
+    {
+      "filename": "langton-build-artifacts-2026-10-24.tar.zst",
+      "bytes": 962228,
+      "sha256": "f761c673ed024f3e2464393013d6d119c3c4710063cbfebca348a3ee1f5fa2b9",
+      "artifact_count": 139,
+      "uncompressed_bytes": 5192096,
+      "purpose": "Preserved generated ELF binaries excluded from source Git; rebuild using retained source when possible.",
+      "verification": "Every member size and SHA-256 verified before removing exported copies."
+    }
+  ]
+}

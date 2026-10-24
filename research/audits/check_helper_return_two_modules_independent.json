@@ -1,0 +1,53 @@
+{
+  "status": "PASS return-leg axial charge and two-fixed-module corollary, with fresh named full-board controls",
+  "sources": {
+    "HELPER_RETURN_CONNECTOR_OR_ARCHIVE_GROWTH.md": "69028ddfec3c5d61a117c6a93481aad6c280c37a47cb37449a23e546ff1dd07d",
+    "TWO_FROZEN_MODULES_NEED_EXTERNAL_INPUT_OR_GROWTH.md": "b17bb265a2d8b2c4611a0ab82b242d3017e9c915fbdab10fd4343a4ba02b074d",
+    "helper_return_connector_or_growth_certificate.json": "60a1dd33d6f511d3fa6c59dfa55dc7046f058277164525641f4e5a369335412c",
+    "two_module_connector_or_growth_certificate.json": "4b97fdd335c745c469626f78dd0090367690f7e75f281007fc66af9cc4a54e86"
+  },
+  "controls": [
+    {
+      "distance": 2,
+      "M": 11,
+      "old_consumption_count": 2,
+      "global_mass_change": 7,
+      "passive_mass_change": 2,
+      "new_fresh_mass": 9,
+      "new_dormant_component_count": 3,
+      "new_dormant_component_lower_bound": 0,
+      "departure": 18,
+      "helper_read": 53,
+      "parent_module_size": 2,
+      "helper_module_size": 2,
+      "external_old_consumptions": 1,
+      "first_import": 42,
+      "remote": false
+    },
+    {
+      "distance": 399,
+      "M": 43,
+      "old_consumption_count": 12,
+      "global_mass_change": 2365,
+      "passive_mass_change": 2328,
+      "new_fresh_mass": 2377,
+      "new_dormant_component_count": 196,
+      "new_dormant_component_lower_bound": 18,
+      "departure": 173,
+      "helper_read": 20628,
+      "parent_module_size": 15,
+      "helper_module_size": 1,
+      "external_old_consumptions": 12,
+      "first_import": 20622,
+      "remote": true
+    }
+  ],
+  "analytic_review": [
+    "Strict separating lines have signed discrepancy2mod4 by retained axial charge. New-only minus old-only equals total mass change; every old-only cell requires one DISTINCT retired cut-d lifetime. Thus delta+2K>=2(L-1), with K all old retirements allowing losses off the separating lines. Old consumed-and-reborn cells strengthen the inequality, not a loophole.",
+    "Current fresh born[d,j) cells plus old retired lifetimes cover each discrepancy. After removing active<=M fresh cells, each complete dormant component containing fresh lifetime has a last actual bridge-L departure within[d,j] and at mostM-1 edges, then is literally frozen. This proves the fresh-component ceiling, not a global monotone resource.",
+    "Two marked modules are the FIXED full cut-d components and FIXED original lifetime sets. Parent component<=M-1 from the covered d-1 bridge departure. Remote helper is outside both active and parent module by metric; before first subsequent activation its complete component is frozen. First R import adds a NEW edge, so even an initial root helper component<=M-1. Distinct surviving marks reduce possible internal retirements by2.",
+    "K=H+inside, inside<=|E union D|-2 gives delta+2H>=2L+2-2|E union D|>=2L-4M+6. Passive inequality safely subtractsM. Helper cutj is PRE-L, and both marks remain current original lifetimes; including death would need a correction.",
+    "Blank short range L2 is not a remote theorem example; distinct modules and their bounds are checked separately. Named n400 original20-cell seed is replayed throughhelper20628, full boards/births/fields and all strict lines/components match. Later parent248084 is retained source dependency, not freshly replayed here.",
+    "No birth-to-d activecap is needed; d-1 needed only for parent module bound. Old means black atd, not older thanhelperbirth. Arbitrary reattachments, new supports and legal rebirths retained. No across-overlapping-leg additivity, finite original fuel, attraction or capture consequence."
+  ]
+}

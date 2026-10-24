@@ -1,0 +1,51 @@
+{
+  "status": "PASS exact finite last-exit BLACK-root condition and sharp literal EMPTY-seed square component only",
+  "manifest": "bf5e48255a91a5df4eef7d1a5da406cfb1e2d1b6b1a45fa002f04dd25260062f",
+  "script": "2c68d00b299bb7326cf64a4a51e343f2c51aa143c5d2bcce5621cba2d25831c3",
+  "full_reads": 10081,
+  "tail_parity_tests": 170,
+  "patch_times": [
+    5710,
+    5711,
+    6036,
+    6037,
+    6038,
+    6039,
+    6040,
+    6041
+  ],
+  "old_input": {
+    "cell": [
+      10,
+      5
+    ],
+    "birth": 5693,
+    "death": 6037,
+    "age": 344
+  },
+  "replacement": {
+    "cell": [
+      10,
+      5
+    ],
+    "birth": 6041,
+    "death": 6313
+  },
+  "whole_masses": [
+    420,
+    440
+  ],
+  "whole_relevance": [
+    296,
+    298,
+    312,
+    310
+  ],
+  "automaton_states": 64,
+  "analytic_review": [
+    "For a finite actual interval ending outsideQ, the last outgoing arrow from each visited Q cell, if internal, reaches a cell whose last read is strictly later. The internal arrows are therefore a forest with exiting roots. Restored endpoint colors give positive even visit counts and lastL for initiallyWHITE, lastR for initiallyBLACK.",
+    "For an actual square sector whose L route is internal, with no external-cornerL, each exiting root mustR and hence initiallyBLACK. Roots are distinct per last-exit component. This charges CURRENT bits at the packet initialcut, not originalseed cells or freshfuel.",
+    "Fresh blank replay reconstructs all10081 reads, full fourpacketfields and715cell capturefield, everylifetime fate including exact infinite rays, all64 local color/entry states and actual outside324reads. The oneQinputR5693 dies6037; replacementR6041 dies6313. Bothfullfields, entireC*296to310 and cursor changes remain; no local reset is treated as globalstate recurrence.",
+    "This is only a finite component of the scaled radial flow, not its full15/3/9/9 inventory. Remaining externalL routes could provide last exits and evade this particular allWHITE obstruction. No ant realization of the summable stationary witness, boundedseed allscale family, autonomous packet repetition or noncapture follows."
+  ]
+}

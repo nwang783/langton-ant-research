@@ -1,0 +1,285 @@
+{
+  "status": "PASS exact all-length all-order UCC D/V-S F D/V-N attempted-U core-hole exclusion",
+  "manifest": "bcd968da47b1434133ad7d121b53b7e20e0820bc5cb00d9d7535c5577675b2a4",
+  "south7": [
+    [
+      "D",
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    [
+      "V",
+      [
+        0,
+        0
+      ],
+      [
+        -1,
+        0
+      ]
+    ],
+    [
+      "V",
+      [
+        0,
+        1
+      ],
+      [
+        -1,
+        1
+      ]
+    ],
+    [
+      "V",
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    [
+      "V",
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    [
+      "V",
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    [
+      "V",
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  ],
+  "north7": [
+    [
+      "D",
+      [
+        2,
+        0
+      ],
+      [
+        -3,
+        0
+      ],
+      [
+        -2,
+        1
+      ]
+    ],
+    [
+      "V",
+      [
+        0,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    [
+      "V",
+      [
+        0,
+        1
+      ],
+      [
+        -1,
+        -1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    [
+      "V",
+      [
+        1,
+        0
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        3
+      ]
+    ],
+    [
+      "V",
+      [
+        2,
+        0
+      ],
+      [
+        -3,
+        0
+      ],
+      [
+        -2,
+        3
+      ]
+    ],
+    [
+      "V",
+      [
+        2,
+        1
+      ],
+      [
+        -3,
+        -1
+      ],
+      [
+        -2,
+        2
+      ]
+    ],
+    [
+      "V",
+      [
+        2,
+        2
+      ],
+      [
+        -3,
+        -2
+      ],
+      [
+        -2,
+        1
+      ]
+    ]
+  ],
+  "actual_prefix_controls": [
+    {
+      "X": "VVV",
+      "Y": "",
+      "seed_mass": 29,
+      "successful_reads": 181,
+      "conflict_tick": 181,
+      "final_mass": 52,
+      "rejections": {
+        "D": 11,
+        "C": 12,
+        "V": 12,
+        "U": 13,
+        "F": 13,
+        "Q": 13,
+        "B": 13
+      }
+    },
+    {
+      "X": "VVVV",
+      "Y": "V",
+      "seed_mass": 33,
+      "successful_reads": 217,
+      "conflict_tick": 217,
+      "final_mass": 64,
+      "rejections": {
+        "D": 11,
+        "C": 12,
+        "V": 12,
+        "U": 13,
+        "F": 13,
+        "Q": 13,
+        "B": 13
+      }
+    },
+    {
+      "X": "VVVVVVVVVV",
+      "Y": "VVVVVVV",
+      "seed_mass": 57,
+      "successful_reads": 433,
+      "conflict_tick": 433,
+      "final_mass": 136,
+      "rejections": {
+        "D": 11,
+        "C": 12,
+        "V": 12,
+        "U": 13,
+        "F": 13,
+        "Q": 13,
+        "B": 13
+      }
+    },
+    {
+      "X": "VDVV",
+      "Y": "D",
+      "seed_mass": 31,
+      "successful_reads": 201,
+      "conflict_tick": 201,
+      "final_mass": 54,
+      "rejections": {
+        "D": 11,
+        "C": 12,
+        "V": 12,
+        "U": 13,
+        "F": 13,
+        "Q": 13,
+        "B": 13
+      }
+    },
+    {
+      "X": "VVDVV",
+      "Y": "DV",
+      "seed_mass": 35,
+      "successful_reads": 237,
+      "conflict_tick": 237,
+      "final_mass": 66,
+      "rejections": {
+        "D": 11,
+        "C": 12,
+        "V": 12,
+        "U": 13,
+        "F": 13,
+        "Q": 13,
+        "B": 13
+      }
+    }
+  ],
+  "analytic_review": [
+    "Endpoint elimination is exact for arbitrary finite order: dY=dX, vY=vX-3, vX>=3. No run cap or candidate search is used in the proof.",
+    "The genuine U entry core includes g=(-1,0); actual L1 deletes it, both source C tails miss it and it is outside full UCC exitK/O. At a full cut, a black cell outside currentK whose original identity was deleted must have a last-R export in some intervening true full O. Independently recomputed O is every actual last-R cell outside exitK. Each complete packet reads/deletes all entryK within its first six reads, so a core-carried identity cannot silently become external without a tested last-R export. This is not intermediate physical-WHITE permanence.",
+    "All seven S full-output alignments are excluded by x<=-1 and the first-entry y5 lock. The foreign entry local g has y<=-4, below every RAW read and outside entryK; foreign exit relative y>=2 is outsideK. Thus F cannot write g or preserve an untested core identity.",
+    "All seven N full-output origins complete with y>=1, while remaining N D/V steps increase y and target enters y=-2. Consequently g is white outside targetK and contradicts its genuine RAW L13/read14 external input. No postforeign age theorem is invoked.",
+    "Five complete finite boards independently replay all full prefixes and attempted U ticks0..12; g has exactly the source L1 read and remains WHITE at attempted U13. Actual nextR excludes all seven RAW+actualM continuations at that marker. No completed U chord, actual contact or infinite continuation is claimed.",
+    "Scope only the named UCC,X_S,F,Y_N,U(0,-2,N) family with plain D/V rails. Other connectors, U rails, C additions, other target poses and attraction remain open."
+  ]
+}

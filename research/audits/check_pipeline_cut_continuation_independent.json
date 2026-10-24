@@ -1,0 +1,89 @@
+{
+  "status": "PASS independent infinite-cut orbit comparison and maximal forced endpoint prefix",
+  "note_sha256": "dc6988051d958e7617e991be7b4aff070f6f93f360aa3775135d989db0b9573d",
+  "overlap_inventory": {
+    "(-8, 1)": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        0
+      ],
+      []
+    ],
+    "(-7, 1)": [
+      [
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        -1
+      ]
+    ],
+    "(-7, 0)": [
+      [
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      []
+    ]
+  },
+  "forced_prefix": "LRLLRRRRLLRLL",
+  "forced_move_counts": {
+    "0": 4,
+    "1": 4,
+    "3": 2,
+    "2": 3
+  },
+  "controls": [
+    [
+      -1,
+      1,
+      2392
+    ],
+    [
+      0,
+      1,
+      2392
+    ],
+    [
+      0,
+      2,
+      2392
+    ],
+    [
+      3,
+      1,
+      2392
+    ],
+    [
+      3,
+      5,
+      2392
+    ],
+    [
+      50,
+      1,
+      2392
+    ],
+    [
+      50,
+      52,
+      2392
+    ],
+    [
+      999,
+      1001,
+      2392
+    ]
+  ],
+  "scope": "Exact disconnected H-end semi-infinite field follows H forever for l>=-1,1<=t<=l+2. Last-read information alone forces13 turns and connector length>=27-4u. Does not include alterations by earlier genuine connectors or exclude general assembly; no finite-seed counterexample/capture claim."
+}

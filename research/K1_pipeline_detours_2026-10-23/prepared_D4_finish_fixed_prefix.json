@@ -1,0 +1,1709 @@
+{
+  "scope": "Continue one literal prepared D4 prefix toward its fixed remaining complete histories.\nKnown cells start white. All exterior first-read colors are explicitly prepared.\nNo translating-front, global-WHITE or unbounded negative conclusion is possible.\n",
+  "inventory": {
+    "(1, 0)": "NNSN",
+    "(0, 0)": "WWEW",
+    "(0, 1)": "NSSS",
+    "(1, 1)": "EEWE",
+    "(0, -1)": "SSSN",
+    "(-1, -1)": "WWWE",
+    "(-1, 0)": "NNSN",
+    "(-2, 0)": "WWWE",
+    "(-2, 1)": "NNNS",
+    "(-1, 1)": "EEWE",
+    "(-1, 2)": "NNNS",
+    "(0, 2)": "EWEE",
+    "(1, 2)": "NNNS",
+    "(2, 2)": "EEEW",
+    "(2, 1)": "SSNS",
+    "(-2, 2)": "WEEE"
+  },
+  "target_known_reads": 64,
+  "completed_known_reads": 64,
+  "found": true,
+  "raw_length": 158,
+  "prepared_black": [
+    [
+      -5,
+      2
+    ],
+    [
+      -5,
+      3
+    ],
+    [
+      -5,
+      4
+    ],
+    [
+      -5,
+      5
+    ],
+    [
+      -4,
+      1
+    ],
+    [
+      -4,
+      4
+    ],
+    [
+      -4,
+      6
+    ],
+    [
+      -3,
+      0
+    ],
+    [
+      -3,
+      1
+    ],
+    [
+      -3,
+      2
+    ],
+    [
+      -3,
+      3
+    ],
+    [
+      -3,
+      5
+    ],
+    [
+      -3,
+      6
+    ],
+    [
+      -2,
+      -1
+    ],
+    [
+      -2,
+      3
+    ],
+    [
+      -2,
+      5
+    ],
+    [
+      -2,
+      6
+    ],
+    [
+      -1,
+      -2
+    ],
+    [
+      -1,
+      3
+    ],
+    [
+      -1,
+      4
+    ],
+    [
+      -1,
+      5
+    ],
+    [
+      -1,
+      6
+    ],
+    [
+      0,
+      -2
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      -1
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "expanded": 466,
+  "elapsed_seconds": 0.005713827005820349,
+  "box": [
+    -6,
+    5,
+    -4,
+    6
+  ],
+  "maximum_raw_length": 256,
+  "word": "RRRRLRRRRLRRRRLLLLRLLLLRLRRRRLLLLRLLLLRLRRLLRRRRLLRRLRLLLLRLLRLLRLRLLRLRRRRLRRLLRRLLRLLLLRLRRLLLLRRLRRRRLLLLRLLRLLRRLRLLRLLRLLRLRRLLRLLRLLRRLLRRLLRRLLRLLRLRLL",
+  "trace": [
+    {
+      "time": 0,
+      "p": [
+        1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "known": true,
+      "rank": 0
+    },
+    {
+      "time": 1,
+      "p": [
+        2,
+        0
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 2,
+      "p": [
+        2,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 3,
+      "p": [
+        1,
+        -1
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 4,
+      "p": [
+        1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "known": true,
+      "rank": 1
+    },
+    {
+      "time": 5,
+      "p": [
+        0,
+        0
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "known": true,
+      "rank": 0
+    },
+    {
+      "time": 6,
+      "p": [
+        0,
+        1
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "known": true,
+      "rank": 0
+    },
+    {
+      "time": 7,
+      "p": [
+        1,
+        1
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "known": true,
+      "rank": 0
+    },
+    {
+      "time": 8,
+      "p": [
+        1,
+        0
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "known": true,
+      "rank": 2
+    },
+    {
+      "time": 9,
+      "p": [
+        0,
+        0
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "known": true,
+      "rank": 1
+    },
+    {
+      "time": 10,
+      "p": [
+        0,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "known": true,
+      "rank": 0
+    },
+    {
+      "time": 11,
+      "p": [
+        -1,
+        -1
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "known": true,
+      "rank": 0
+    },
+    {
+      "time": 12,
+      "p": [
+        -1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "known": true,
+      "rank": 0
+    },
+    {
+      "time": 13,
+      "p": [
+        0,
+        0
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "known": true,
+      "rank": 2
+    },
+    {
+      "time": 14,
+      "p": [
+        0,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "known": true,
+      "rank": 1
+    },
+    {
+      "time": 15,
+      "p": [
+        1,
+        -1
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "known": false,
+      "rank": 1
+    },
+    {
+      "time": 16,
+      "p": [
+        1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "known": true,
+      "rank": 3
+    },
+    {
+      "time": 17,
+      "p": [
+        0,
+        0
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "known": true,
+      "rank": 3
+    },
+    {
+      "time": 18,
+      "p": [
+        0,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "known": true,
+      "rank": 2
+    },
+    {
+      "time": 19,
+      "p": [
+        -1,
+        -1
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "known": true,
+      "rank": 1
+    },
+    {
+      "time": 20,
+      "p": [
+        -1,
+        -2
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 21,
+      "p": [
+        0,
+        -2
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 22,
+      "p": [
+        0,
+        -1
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "known": true,
+      "rank": 3
+    },
+    {
+      "time": 23,
+      "p": [
+        -1,
+        -1
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "known": true,
+      "rank": 2
+    },
+    {
+      "time": 24,
+      "p": [
+        -1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "known": true,
+      "rank": 1
+    },
+    {
+      "time": 25,
+      "p": [
+        -2,
+        0
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "known": true,
+      "rank": 0
+    },
+    {
+      "time": 26,
+      "p": [
+        -2,
+        1
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "known": true,
+      "rank": 0
+    },
+    {
+      "time": 27,
+      "p": [
+        -1,
+        1
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "known": true,
+      "rank": 0
+    },
+    {
+      "time": 28,
+      "p": [
+        -1,
+        0
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "known": true,
+      "rank": 2
+    },
+    {
+      "time": 29,
+      "p": [
+        -2,
+        0
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "known": true,
+      "rank": 1
+    },
+    {
+      "time": 30,
+      "p": [
+        -2,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 31,
+      "p": [
+        -1,
+        -1
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "known": true,
+      "rank": 3
+    },
+    {
+      "time": 32,
+      "p": [
+        -1,
+        0
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "known": true,
+      "rank": 3
+    },
+    {
+      "time": 33,
+      "p": [
+        -2,
+        0
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "known": true,
+      "rank": 2
+    },
+    {
+      "time": 34,
+      "p": [
+        -2,
+        1
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "known": true,
+      "rank": 1
+    },
+    {
+      "time": 35,
+      "p": [
+        -3,
+        1
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 36,
+      "p": [
+        -3,
+        0
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 37,
+      "p": [
+        -2,
+        0
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "known": true,
+      "rank": 3
+    },
+    {
+      "time": 38,
+      "p": [
+        -2,
+        1
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "known": true,
+      "rank": 2
+    },
+    {
+      "time": 39,
+      "p": [
+        -1,
+        1
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "known": true,
+      "rank": 1
+    },
+    {
+      "time": 40,
+      "p": [
+        -1,
+        2
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "known": true,
+      "rank": 0
+    },
+    {
+      "time": 41,
+      "p": [
+        0,
+        2
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "known": true,
+      "rank": 0
+    },
+    {
+      "time": 42,
+      "p": [
+        0,
+        1
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "known": true,
+      "rank": 1
+    },
+    {
+      "time": 43,
+      "p": [
+        1,
+        1
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "known": true,
+      "rank": 1
+    },
+    {
+      "time": 44,
+      "p": [
+        1,
+        2
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "known": true,
+      "rank": 0
+    },
+    {
+      "time": 45,
+      "p": [
+        2,
+        2
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "known": true,
+      "rank": 0
+    },
+    {
+      "time": 46,
+      "p": [
+        2,
+        1
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "known": true,
+      "rank": 0
+    },
+    {
+      "time": 47,
+      "p": [
+        1,
+        1
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "known": true,
+      "rank": 2
+    },
+    {
+      "time": 48,
+      "p": [
+        1,
+        2
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "known": true,
+      "rank": 1
+    },
+    {
+      "time": 49,
+      "p": [
+        0,
+        2
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "known": true,
+      "rank": 1
+    },
+    {
+      "time": 50,
+      "p": [
+        0,
+        1
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "known": true,
+      "rank": 2
+    },
+    {
+      "time": 51,
+      "p": [
+        -1,
+        1
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "known": true,
+      "rank": 2
+    },
+    {
+      "time": 52,
+      "p": [
+        -1,
+        2
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "known": true,
+      "rank": 1
+    },
+    {
+      "time": 53,
+      "p": [
+        -2,
+        2
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "known": true,
+      "rank": 0
+    },
+    {
+      "time": 54,
+      "p": [
+        -2,
+        3
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 55,
+      "p": [
+        -3,
+        3
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 56,
+      "p": [
+        -3,
+        2
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 57,
+      "p": [
+        -2,
+        2
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "known": true,
+      "rank": 1
+    },
+    {
+      "time": 58,
+      "p": [
+        -2,
+        3
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "known": false,
+      "rank": 1
+    },
+    {
+      "time": 59,
+      "p": [
+        -1,
+        3
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 60,
+      "p": [
+        -1,
+        4
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 61,
+      "p": [
+        -2,
+        4
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 62,
+      "p": [
+        -2,
+        5
+      ],
+      "incoming": "N",
+      "turn": "L",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 63,
+      "p": [
+        -3,
+        5
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 64,
+      "p": [
+        -3,
+        4
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 65,
+      "p": [
+        -4,
+        4
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 66,
+      "p": [
+        -4,
+        3
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 67,
+      "p": [
+        -5,
+        3
+      ],
+      "incoming": "W",
+      "turn": "L",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 68,
+      "p": [
+        -5,
+        2
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 69,
+      "p": [
+        -4,
+        2
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 70,
+      "p": [
+        -4,
+        1
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 71,
+      "p": [
+        -3,
+        1
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "known": false,
+      "rank": 1
+    },
+    {
+      "time": 72,
+      "p": [
+        -3,
+        0
+      ],
+      "incoming": "S",
+      "turn": "R",
+      "known": false,
+      "rank": 1
+    },
+    {
+      "time": 73,
+      "p": [
+        -4,
+        0
+      ],
+      "incoming": "W",
+      "turn": "R",
+      "known": false,
+      "rank": 0
+    },
+    {
+      "time": 74,
+      "p": [
+        -4,
+        1
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "known": false,
+      "rank": 1
+    },
+    {
+      "time": 75,
+      "p": [
+        -3,
+        1
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "known": false,
+      "rank": 2
+    },
+    {
+      "time": 76,
+      "p": [
+        -3,
+        2
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "known": false,
+      "rank": 1
+    },
+    {
+      "time": 77,
+      "p": [
+        -2,
+        2
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "known": true,
+      "rank": 2
+    },
+    {
+      "time": 78,
+      "p": [
+        -2,
+        1
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "known": true,
+      "rank": 3
+    },
+    {
+      "time": 79,
+      "p": [
+        -1,
+        1
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "known": true,
+      "rank": 3
+    },
+    {
+      "time": 80,
+      "p": [
+        -1,
+        2
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "known": true,
+      "rank": 2
+    },
+    {
+      "time": 81,
+      "p": [
+        0,
+        2
+      ],
+      "incoming": "E",
+      "turn": "R",
+      "known": true,
+      "rank": 2
+    },
+    {
+      "time": 82,
+      "p": [
+        0,
+        1
+      ],
+      "incoming": "S",
+      "turn": "L",
+      "known": true,
+      "rank": 3
+    },
+    {
+      "time": 83,
+      "p": [
+        1,
+        1
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "known": true,
+      "rank": 3
+    },
+    {
+      "time": 84,
+      "p": [
+        1,
+        2
+      ],
+      "incoming": "N",
+      "turn": "R",
+      "known": true,
+      "rank": 2
+    },
+    {
+      "time": 85,
+      "p": [
+        2,
+        2
+      ],
+      "incoming": "E",
+      "turn": "L",
+      "known": true,
+      "rank": 1
+    },
+    {
+      "p": [
+        2,
+        3
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "p": [
+        1,
+        3
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "p": [
+        1,
+        2
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "p": [
+        2,
+        2
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "p": [
+        2,
+        1
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "p": [
+        3,
+        1
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "p": [
+        3,
+        0
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "p": [
+        2,
+        0
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "p": [
+        2,
+        -1
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "p": [
+        3,
+        -1
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "p": [
+        3,
+        0
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "p": [
+        2,
+        0
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "p": [
+        2,
+        1
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "p": [
+        3,
+        1
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "p": [
+        3,
+        2
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "p": [
+        4,
+        2
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "p": [
+        4,
+        1
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "p": [
+        3,
+        1
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "p": [
+        3,
+        2
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "p": [
+        2,
+        2
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "p": [
+        2,
+        1
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "p": [
+        3,
+        1
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "p": [
+        3,
+        2
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "p": [
+        4,
+        2
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "p": [
+        4,
+        3
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "p": [
+        3,
+        3
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "p": [
+        3,
+        4
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "p": [
+        2,
+        4
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "p": [
+        2,
+        3
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "p": [
+        1,
+        3
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "p": [
+        1,
+        4
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "p": [
+        0,
+        4
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "p": [
+        0,
+        5
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "p": [
+        -1,
+        5
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "p": [
+        -1,
+        4
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "p": [
+        -2,
+        4
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "p": [
+        -2,
+        3
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "p": [
+        -1,
+        3
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "p": [
+        -1,
+        2
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "p": [
+        0,
+        2
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "p": [
+        0,
+        3
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "p": [
+        1,
+        3
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "p": [
+        1,
+        4
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "p": [
+        2,
+        4
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "p": [
+        2,
+        3
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "p": [
+        3,
+        3
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "p": [
+        3,
+        4
+      ],
+      "incoming": "N",
+      "turn": "R"
+    },
+    {
+      "p": [
+        4,
+        4
+      ],
+      "incoming": "E",
+      "turn": "L"
+    },
+    {
+      "p": [
+        4,
+        5
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "p": [
+        3,
+        5
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "p": [
+        3,
+        6
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "p": [
+        2,
+        6
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "p": [
+        2,
+        5
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "p": [
+        1,
+        5
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "p": [
+        1,
+        6
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "p": [
+        0,
+        6
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "p": [
+        0,
+        5
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "p": [
+        -1,
+        5
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "p": [
+        -1,
+        6
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "p": [
+        -2,
+        6
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "p": [
+        -2,
+        5
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "p": [
+        -3,
+        5
+      ],
+      "incoming": "W",
+      "turn": "R"
+    },
+    {
+      "p": [
+        -3,
+        6
+      ],
+      "incoming": "N",
+      "turn": "L"
+    },
+    {
+      "p": [
+        -4,
+        6
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "p": [
+        -4,
+        5
+      ],
+      "incoming": "S",
+      "turn": "R"
+    },
+    {
+      "p": [
+        -5,
+        5
+      ],
+      "incoming": "W",
+      "turn": "L"
+    },
+    {
+      "p": [
+        -5,
+        4
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "p": [
+        -4,
+        4
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "p": [
+        -4,
+        3
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "p": [
+        -3,
+        3
+      ],
+      "incoming": "E",
+      "turn": "R"
+    },
+    {
+      "p": [
+        -3,
+        2
+      ],
+      "incoming": "S",
+      "turn": "L"
+    },
+    {
+      "p": [
+        -2,
+        2
+      ],
+      "incoming": "E",
+      "turn": "L"
+    }
+  ]
+}

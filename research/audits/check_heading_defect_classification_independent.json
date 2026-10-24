@@ -1,0 +1,34 @@
+{
+  "status": "PASS independent minimal heading geometry, complete free-color chronology/CNF, RUP and disjoint binary-field proof",
+  "note_sha256": "c4108e41c31571debac84065da102e5043d3606ff97e655f7f7411bcae2e0e01",
+  "results": [
+    {
+      "cut": 0,
+      "variables": 13722,
+      "clauses": 61517,
+      "physical_cells": 253,
+      "RUP": 2062,
+      "literal_circuit_controls": 17,
+      "allowed_words": [
+        "LRRLRRLRLLRRLLLLRRLLRRRRLLRRLRLLLLRLRRRRLLLLRLLLLRLRRRRLLLLRLLRLLLLRRRRLRLLLLRLRRLLLLRRLLLLRRLRRLLLLRRLR"
+      ]
+    },
+    {
+      "cut": 1,
+      "variables": 13698,
+      "clauses": 61518,
+      "physical_cells": 229,
+      "RUP": 1021,
+      "literal_circuit_controls": 20,
+      "allowed_words": [
+        "RRLRRLRLLRRLLLLRRLLRRRRLLRRLRLLLLRLRRRRLLLLRLLLLRLRRRRLLLLRLLRLLLLRRRRLRLLLLRLRRLLLLRRLLLLRRLRRLLLLRRLRL",
+        "RRLRRLRLLRRLLLLRRLLRRRRLLRRLRLLRRRRLLRLRRRRLLLLRLLLLRLRRRRLLLLRLLRLLLLRRRRLRLLLLRLRRLLLLRRLLLLRRLRRLLLLRRLRL"
+      ]
+    }
+  ],
+  "binary_controls": 128,
+  "baseline_input": "12n+13",
+  "binary_input": "12n+13-m",
+  "binary_output": "13+3m",
+  "scope": "Fixed inverse104 pairing and only minimal2-reset/6-flip transitions. Every infinite legal schedule eventually identity or identity/P108 periods and consumes>=8 black per period, impossible from finite support. Arbitrary infinite prepared binary words are positive, not finite-seed counterexamples."
+}

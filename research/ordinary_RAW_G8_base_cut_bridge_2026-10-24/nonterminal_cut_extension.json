@@ -1,0 +1,153 @@
+{
+  "status": "AUTHOR_FROZEN_PENDING_INDEPENDENT_REVIEW",
+  "scope": "An actual finite ordinary RAW factor starting at a D/V/U base and admitting an IMMEDIATE NEXT complete seven-atom RAW plus actual final M11 partitions into chosen G8, EVEN when its final atom is C. If its first atom is D, retain the actual previous seven-atom RAW premise. The following atom is not included in the G8 factor unless ordinary and deliberately selected.",
+  "all3_additional_DCC_foreign_conflicts": [
+    {
+      "word": "DCCF",
+      "conflict": {
+        "feasible": false,
+        "conflict_read": 52,
+        "previous_read": 12,
+        "cell": [
+          0,
+          0
+        ],
+        "turn": "L"
+      },
+      "previous_owner": {
+        "packet": "C",
+        "context_tick0": 2,
+        "context_read_number1": 3,
+        "RAW_length": 15,
+        "owner": "own C-tail 1 RAW",
+        "owner_tick0": 2,
+        "owner_read_number1": 3,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 2 (zero-based), RAW length 15; own C-tail 1 RAW tick 2 (zero-based), read 3 (one-based), L"
+      },
+      "conflicting_foreign_owner": {
+        "packet": "F",
+        "context_tick0": 12,
+        "context_read_number1": 13,
+        "RAW_length": 56,
+        "owner": "own F-base RAW",
+        "owner_tick0": 12,
+        "owner_read_number1": 13,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 12 (zero-based), RAW length 56; own F-base RAW tick 12 (zero-based), read 13 (one-based), L"
+      },
+      "previous_owner_qualification": "previous global tick12 is first C own tick2, following source D10; not a hypothetical internal marker",
+      "conflicting_owner_qualification": "actual foreign own RAW tick12/read13; same common F-prefix for all three"
+    },
+    {
+      "word": "DCCQ",
+      "conflict": {
+        "feasible": false,
+        "conflict_read": 52,
+        "previous_read": 12,
+        "cell": [
+          0,
+          0
+        ],
+        "turn": "L"
+      },
+      "previous_owner": {
+        "packet": "C",
+        "context_tick0": 2,
+        "context_read_number1": 3,
+        "RAW_length": 15,
+        "owner": "own C-tail 1 RAW",
+        "owner_tick0": 2,
+        "owner_read_number1": 3,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 2 (zero-based), RAW length 15; own C-tail 1 RAW tick 2 (zero-based), read 3 (one-based), L"
+      },
+      "conflicting_foreign_owner": {
+        "packet": "Q",
+        "context_tick0": 12,
+        "context_read_number1": 13,
+        "RAW_length": 64,
+        "owner": "own Q-base RAW",
+        "owner_tick0": 12,
+        "owner_read_number1": 13,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 12 (zero-based), RAW length 64; own Q-base RAW tick 12 (zero-based), read 13 (one-based), L"
+      },
+      "previous_owner_qualification": "previous global tick12 is first C own tick2, following source D10; not a hypothetical internal marker",
+      "conflicting_owner_qualification": "actual foreign own RAW tick12/read13; same common F-prefix for all three"
+    },
+    {
+      "word": "DCCB",
+      "conflict": {
+        "feasible": false,
+        "conflict_read": 52,
+        "previous_read": 12,
+        "cell": [
+          0,
+          0
+        ],
+        "turn": "L"
+      },
+      "previous_owner": {
+        "packet": "C",
+        "context_tick0": 2,
+        "context_read_number1": 3,
+        "RAW_length": 15,
+        "owner": "own C-tail 1 RAW",
+        "owner_tick0": 2,
+        "owner_read_number1": 3,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 2 (zero-based), RAW length 15; own C-tail 1 RAW tick 2 (zero-based), read 3 (one-based), L"
+      },
+      "conflicting_foreign_owner": {
+        "packet": "B",
+        "context_tick0": 12,
+        "context_read_number1": 13,
+        "RAW_length": 74,
+        "owner": "own B-base RAW",
+        "owner_tick0": 12,
+        "owner_read_number1": 13,
+        "turn": "L",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 12 (zero-based), RAW length 74; own B-base RAW tick 12 (zero-based), read 13 (one-based), L"
+      },
+      "previous_owner_qualification": "previous global tick12 is first C own tick2, following source D10; not a hypothetical internal marker",
+      "conflicting_owner_qualification": "actual foreign own RAW tick12/read13; same common F-prefix for all three"
+    }
+  ],
+  "all7_next_atoms_exhausted": {
+    "D_V_U": "three signed8a311 DCCX conflicts",
+    "C": "signed8a311 genuine previous EXIT-bud DCCC immutable R/R conflict",
+    "F_Q_B": "three new own-RAW L12 repeated-L conflicts"
+  },
+  "arbitrary_length_argument": "The signed maximal-run proof permits only one non-G8 end case: terminal DCC. An actual next complete7 atom exhausts D/C/V/U/F/Q/B, each impossible by the listed local conflicts. Thus the actual ordinary factor cannot endDCC; every run is a chosenG8 packet. No finite depth or rail bound.",
+  "actual_marker_interface": "The final G8 packet uses the first actual M11 of the immediate NEXT real word; if that word is D10 the eleventh read is its actual following firstL, available from its stipulated complete RAW+actualM11. Every cut and read owner is real.",
+  "fresh_U_corollary": "If this actual ordinary factor begins at a genuine new U, its first packet is U/UC/UCC. Signed U-entry G8 simplicity applies to its entire atomic proxy, without a simple-prefix or earlier-U ancestry premise and despite a foreign before this selectedU. It does not imply disjointness from proxy sources BEFORE that U.",
+  "attained_terminal_exception": "UDCC and UQUDCC+M are real complete finite words from signed8a311. They simply have NO immediate next COMPLETE seven-atom RAW. Their provided11 marker reads are a proper physical prefix, not a completed following7 word.",
+  "not_claimed": [
+    "No arbitrary ant language coverage.",
+    "No simple post-U factor is asserted disjoint from pre-U sources.",
+    "No second foreign is included in the chosen G8 factor.",
+    "No removal of the first-D actual predecessor condition.",
+    "No unconditional parse at a genuinely terminal DCC cut."
+  ],
+  "dependencies": {
+    "ordinary_RAW_G8_base_cut_bridge_2026-10-24/manifest.json": "8a311a4c67a3447c06ff6feddadacb4928a3ffba63f4b8e8088c4663e2a36704",
+    "audits/check_RAW_G8_base_cut_bridge_independent.json": "e2ff4f66ed0c660b80ad537ad9741a43fe9aef6799873c801e624ad232fb6e17",
+    "core_periodicity_new/U_entry_simplicity_frozen_20261023_1616/manifest.json": "127a00884b4a06af35a807ab76f6f6499b9427d56350a931c03cc0e8de65524d",
+    "audits/check_U_entry_simplicity_independent.json": "abef1636797a663aa98b76f54019cac0cb2b8f561b49c7d71df7fb00cad4a53c",
+    "word_stabilization/check_foreign_return_interfaces.py": "249f89213a96c8daad9d0ecde65e877d5e254af033092adb81b4bbaca0cc729c",
+    "literal_ownership_conventions_2026-10-24/canonical_read_ownership.py": "041b40e04a0f71a6b9511abf1d15b1d86c548e74f4f99281477c115b72036ea2"
+  }
+}

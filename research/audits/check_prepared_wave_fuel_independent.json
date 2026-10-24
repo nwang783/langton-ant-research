@@ -1,0 +1,37 @@
+{
+  "status": "PASS exact all-N first-L fiber count",
+  "word_sha256": "96e6e1dd2935e1e7afeb9dc14759320bb2b82bd2855b1596f9b1a591d1ff2122",
+  "orbits": 557,
+  "spans": {
+    "0": 555,
+    "1": 2
+  },
+  "slope": 197,
+  "constant": 1,
+  "boundary_orbits": [
+    {
+      "orbit": [
+        1,
+        9
+      ],
+      "first_left": false,
+      "first_full": true,
+      "first_right": true,
+      "contribution": "(N-1)*full+left+right"
+    },
+    {
+      "orbit": [
+        2,
+        9
+      ],
+      "first_left": true,
+      "first_full": false,
+      "first_right": false,
+      "contribution": "(N-1)*full+left+right"
+    }
+  ],
+  "minimal_input_black": "197*N+1 for every integer N>=1",
+  "minimal_output_black": "301*N+1",
+  "net_black_change_per_period": 104,
+  "scope": "This exact repeated word requires unbounded initial black supply at its entry and cannot persist forever on any finite board. Does not bound earlier finite-seed preparation or exclude arbitrarily long wave prefixes from a fixed-mass family."
+}

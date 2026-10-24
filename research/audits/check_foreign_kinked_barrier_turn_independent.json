@@ -1,0 +1,62 @@
+{
+  "status": "PASS literal kinked survivor-edge barrier and exact seven-word tangent lift",
+  "note_sha256": "3117f55712758edf66c9f658078052ebdaa21f69457dcc80965e9fbd2c62fb78",
+  "geometry": [
+    {
+      "name": "F",
+      "whole": 9,
+      "missing": [],
+      "pieces": [
+        9
+      ]
+    },
+    {
+      "name": "Q",
+      "whole": 13,
+      "missing": [
+        [
+          -2,
+          -3
+        ],
+        [
+          -2,
+          -2
+        ],
+        [
+          -1,
+          -2
+        ]
+      ],
+      "pieces": [
+        9,
+        8
+      ]
+    },
+    {
+      "name": "B",
+      "whole": 10,
+      "missing": [
+        [
+          -1,
+          -2
+        ]
+      ],
+      "pieces": [
+        9,
+        9
+      ]
+    }
+  ],
+  "boundary_pairs": 49,
+  "CF_mass": 19,
+  "FF_conflict": {
+    "read": 107,
+    "cell": [
+      0,
+      -1
+    ],
+    "first_read": 3
+  },
+  "analytic": "A surviving original residual ID avoids the entire foreign before-context: core/white/input exhaust it. Every edge meeting the actual F-prefix and tail chords lies in that full context, without an internal marker assumption. Formal C-to-F turns wrap by -2pi, FF-prefix joins are physically infeasible, and the remaining exact turns telescope to pi/2*(C-lastC+2*(foreign-lastF)-4*CF)+alpha_last-alpha_first.",
+  "scope": "Local survivor-edge proxy only. No global injectivity, Jordan hypothesis, positive foreign C clock, lifetime extension, ancestry permanence or global capture."
+}

@@ -1,0 +1,78 @@
+{
+  "scope": "The two off-circle unit-face corners at LRL and RLR G3 triples.\nExhaust1..4 WHITE histories and exact face levels; no global scan.\n",
+  "main_profiles": {
+    "A": [
+      "NNNS",
+      "NSNN"
+    ],
+    "B": [
+      "EEWE",
+      "WEEE"
+    ]
+  },
+  "LRL_off_corner_profiles": [
+    "S",
+    "NNNS",
+    "NSNN"
+  ],
+  "RLR_off_corner_profiles": [
+    {
+      "headings": "EEW",
+      "C": {
+        "NE": -2,
+        "SW": -2
+      },
+      "L": {
+        "SE": -3,
+        "NW": -4
+      },
+      "opposite_L_drop": 1,
+      "odd": true
+    },
+    {
+      "headings": "WEE",
+      "C": {
+        "NE": -2,
+        "SW": -2
+      },
+      "L": {
+        "SE": -3,
+        "NW": -4
+      },
+      "opposite_L_drop": 1,
+      "odd": true
+    },
+    {
+      "headings": "EEWE",
+      "C": {
+        "NE": -2,
+        "SW": -2
+      },
+      "L": {
+        "SE": -3,
+        "NW": -5
+      },
+      "opposite_L_drop": 2,
+      "odd": false
+    },
+    {
+      "headings": "WEEE",
+      "C": {
+        "NE": -2,
+        "SW": -2
+      },
+      "L": {
+        "SE": -3,
+        "NW": -5
+      },
+      "opposite_L_drop": 2,
+      "odd": false
+    }
+  ],
+  "consequences": [
+    "At a locally maximal C component, every LRL triple has singleton S; otherwise opposite C rises by2.",
+    "At a locally minimal L component, RLR cannot occur; the opposite L drops by1 or2 in every complete WHITE profile.",
+    "Essential simple physical circles have no three equal consecutive turns; with no RLR and zero signed turning, every turn run has length2 and the drift is axis."
+  ],
+  "warning": "Axis restriction concerns a G3 circle touching a locally minimal L plateau, even if the plateau has odd corners. It is not a restriction on arbitrary local minima without such a circle."
+}

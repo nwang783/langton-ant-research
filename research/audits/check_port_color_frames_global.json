@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "ports": 994,
+  "feasible_edges": 2702,
+  "discarded_infeasible_edges": 45,
+  "destination_color_comparisons": 200653,
+  "verified": [
+    "backward vs forward rotated templates",
+    "before-marker suffix alignment on every edge",
+    "class transitions on every edge",
+    "source macro read consistency",
+    "destination template agreement"
+  ],
+  "scope": "Color templates and class/marker alignment; not BDD fixed-point completeness or graph language provenance."
+}

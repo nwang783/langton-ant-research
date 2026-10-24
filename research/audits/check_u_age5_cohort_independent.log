@@ -1,0 +1,172 @@
+{
+  "status": "PASS independent literal contexts, exact zero-C endpoint counts and full birth-subset DAG closure",
+  "manifest_sha256": "592957a5b20d4f6aeada6a9d2041fbe37065c871e14dca24237caf1afbed7965",
+  "placements": 103,
+  "cases": 16,
+  "states": 257,
+  "arcs": 289,
+  "completed_single_source_cohorts": [
+    {
+      "older_mask": 1,
+      "source": {
+        "packet": 7,
+        "head": [
+          -1,
+          4,
+          1
+        ],
+        "exit": [
+          3,
+          4,
+          1
+        ],
+        "output_mask": 30,
+        "context_mask": 30,
+        "C": 0
+      },
+      "created_peak": 22
+    },
+    {
+      "older_mask": 1,
+      "source": {
+        "packet": 8,
+        "head": [
+          -1,
+          4,
+          1
+        ],
+        "exit": [
+          4,
+          4,
+          0
+        ],
+        "output_mask": 30,
+        "context_mask": 30,
+        "C": 1
+      },
+      "created_peak": 22
+    },
+    {
+      "older_mask": 1,
+      "source": {
+        "packet": 9,
+        "head": [
+          -1,
+          4,
+          1
+        ],
+        "exit": [
+          4,
+          5,
+          3
+        ],
+        "output_mask": 30,
+        "context_mask": 30,
+        "C": 2
+      },
+      "created_peak": 2
+    },
+    {
+      "older_mask": 20,
+      "source": {
+        "packet": 4,
+        "head": [
+          -1,
+          2,
+          1
+        ],
+        "exit": [
+          2,
+          1,
+          1
+        ],
+        "output_mask": 11,
+        "context_mask": 11,
+        "C": 0
+      },
+      "created_peak": 18
+    },
+    {
+      "older_mask": 20,
+      "source": {
+        "packet": 5,
+        "head": [
+          -1,
+          2,
+          1
+        ],
+        "exit": [
+          3,
+          1,
+          0
+        ],
+        "output_mask": 11,
+        "context_mask": 11,
+        "C": 1
+      },
+      "created_peak": 18
+    },
+    {
+      "older_mask": 20,
+      "source": {
+        "packet": 6,
+        "head": [
+          -1,
+          2,
+          1
+        ],
+        "exit": [
+          3,
+          2,
+          3
+        ],
+        "output_mask": 11,
+        "context_mask": 11,
+        "C": 2
+      },
+      "created_peak": -2
+    },
+    {
+      "older_mask": 28,
+      "source": {
+        "packet": 6,
+        "head": [
+          -7,
+          2,
+          1
+        ],
+        "exit": [
+          -3,
+          2,
+          3
+        ],
+        "output_mask": 3,
+        "context_mask": 3,
+        "C": 2
+      },
+      "created_peak": 10
+    },
+    {
+      "older_mask": 28,
+      "source": {
+        "packet": 9,
+        "head": [
+          -8,
+          1,
+          1
+        ],
+        "exit": [
+          -3,
+          2,
+          3
+        ],
+        "output_mask": 3,
+        "context_mask": 3,
+        "C": 2
+      },
+      "created_peak": 10
+    }
+  ],
+  "multistage_completions": 0,
+  "scope": "Necessary same-minimum-clock cohort theorem, not actual attainment or U1 closure. Numeric age5 requires lower-a>=5; heading-phase generalization is separately analytic."
+}

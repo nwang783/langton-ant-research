@@ -1,0 +1,67 @@
+{
+  "status": "PASS all finite protected S/M prefixes followed by T, latest-M register and whole-quadrant capture",
+  "manifest": "f78459ea17f25c93fa4d2cd69fbf94c95372738f990dc10a979e78609d59acae",
+  "script": "911a9fab04086a8d1128ef9e95f74d377737453b301fadecd5e905678c62c05f",
+  "NE_quadrant_last_read": 788,
+  "quadrant_input_mass": 284,
+  "quadrant_postevent_mass": 1141,
+  "controls": [
+    {
+      "modes": "T",
+      "reads": 21645,
+      "relevant": 99,
+      "radius": 18,
+      "event": null,
+      "tail_checks": 197
+    },
+    {
+      "modes": "SST",
+      "reads": 47061,
+      "relevant": 99,
+      "radius": 18,
+      "event": null,
+      "tail_checks": 197
+    },
+    {
+      "modes": "MT",
+      "reads": 101070,
+      "relevant": 885,
+      "radius": 272,
+      "event": 52605,
+      "tail_checks": 195
+    },
+    {
+      "modes": "MST",
+      "reads": 122514,
+      "relevant": 885,
+      "radius": 478,
+      "event": 74049,
+      "tail_checks": 195
+    },
+    {
+      "modes": "SMMSST",
+      "reads": 182118,
+      "relevant": 885,
+      "radius": 706,
+      "event": 133653,
+      "tail_checks": 195
+    },
+    {
+      "modes": "MSMSMT",
+      "reads": 169902,
+      "relevant": 885,
+      "radius": 282,
+      "event": 121437,
+      "tail_checks": 195
+    }
+  ],
+  "total_reads": 644310,
+  "analytic_review": [
+    "The original S/M guard induction supplies every finite prefix with gaps>=100. Relative to the latestM, all earlier actual outputs and omitted synthetic past have y<=31-206<-43; originalK lies still lower. The actual final canonical flight produces the exact whole mature phase13 field in x<=38,y>=-43, reconstructed independently from all past phase rays. Later original inputs are east. This is NOT just the M147 western crop.",
+    "The M recovery lies wholly inside that quadrant. Exact integer bounds on every NE phase ray give its last quadrant read788, strictly before any next packet. All later S recoveries and flights stay east, and T prefix minx=-38 still stays east with head separation>=228. Reindexing the backwardSW train by r=D-k gives fixed in-quadrant events with r>=22 plus partialr21; extra earlier periods are northeast. Thus the ENTIRE post-L quadrant equals the reference for arbitrary prefix length and all gaps, not merely six samples.",
+    "AllS output lies in transverse strip[-8,4], standard/source in[-8,2]; neither meets SW[-32,-22]. EachM retains its exact82 strip outputs and384 phase encounters. Earliest encounter is104D+9148; olderM has strictly largerD, so the latestM is first. This ordered register fact is specific to these protected diagonal placements, not general LIFO.",
+    "The actual post-L48464 word and infiniteNW rays stay in the certified quadrant. Earlier packet debris is below and later S/T debris east, so first-difference induction transfers the full future with every archive bit retained. WithoutM the SW tail misses the whole source/S field. Arbitrary western archive is expressly excluded.",
+    "Entire T-entry C* is99 local plus786 at latestM when present, otherwise99. PriorM fields cannot add inputs because the full future misses them; after the first import the current quadrant and its future are fixed. This yields rho=2D+44, an unbounded position register, not a bounded-radius state or finite-state full-board encoding.",
+    "Six whole finite histories total644310 reads with complete source/entry/event/terminal fields, exact lifetime births and deaths, and infinite-tail certificates. Paid finite sufficient language only, no autonomous regeneration, arbitrary packet coverage or global attraction."
+  ]
+}

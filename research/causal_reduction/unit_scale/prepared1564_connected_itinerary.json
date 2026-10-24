@@ -1,0 +1,298 @@
+[
+  {
+    "n": 100,
+    "T": [
+      200,
+      400,
+      600
+    ],
+    "status": "CONFLICT",
+    "at": {
+      "stage": "B_incoming",
+      "within": 20752,
+      "time": 205680,
+      "cell": [
+        383,
+        380
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    "previous": {
+      "stage": "router1",
+      "within": 1034,
+      "time": 94896,
+      "cell": [
+        383,
+        380
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    "inferred_seed_mass": 56,
+    "stages": [
+      {
+        "stage": "initial_H",
+        "time": 0,
+        "pose": [
+          [
+            -15,
+            10
+          ],
+          3
+        ],
+        "length": 10400
+      },
+      {
+        "stage": "pristine_exception",
+        "time": 10400,
+        "pose": [
+          [
+            -215,
+            -190
+          ],
+          3
+        ],
+        "length": 52262
+      },
+      {
+        "stage": "initial_return",
+        "time": 62662,
+        "pose": [
+          [
+            -200,
+            -249
+          ],
+          1
+        ],
+        "length": 31200
+      },
+      {
+        "stage": "router1",
+        "time": 93862,
+        "pose": [
+          [
+            400,
+            351
+          ],
+          1
+        ],
+        "length": 2010
+      },
+      {
+        "stage": "A_incoming",
+        "time": 95872,
+        "pose": [
+          [
+            359,
+            396
+          ],
+          3
+        ],
+        "length": 30024
+      },
+      {
+        "stage": "A_response",
+        "time": 125896,
+        "pose": [
+          [
+            -219,
+            -188
+          ],
+          3
+        ],
+        "length": 5616
+      },
+      {
+        "stage": "A_to_phase0",
+        "time": 131512,
+        "pose": [
+          [
+            -241,
+            -178
+          ],
+          3
+        ],
+        "length": 74
+      },
+      {
+        "stage": "A_return",
+        "time": 131586,
+        "pose": [
+          [
+            -242,
+            -177
+          ],
+          1
+        ],
+        "length": 51584
+      },
+      {
+        "stage": "router2",
+        "time": 183170,
+        "pose": [
+          [
+            750,
+            815
+          ],
+          1
+        ],
+        "length": 1758
+      },
+      {
+        "stage": "B_incoming",
+        "time": 184928,
+        "pose": [
+          [
+            785,
+            784
+          ],
+          3
+        ],
+        "length": 51333
+      }
+    ]
+  },
+  {
+    "n": 100,
+    "T": [
+      600,
+      400,
+      200
+    ],
+    "status": "CONFLICT",
+    "at": {
+      "stage": "router2",
+      "within": 561,
+      "time": 266931,
+      "cell": [
+        766,
+        806
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    "previous": {
+      "stage": "A_incoming",
+      "within": 20295,
+      "time": 157767,
+      "cell": [
+        766,
+        806
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    "inferred_seed_mass": 45,
+    "stages": [
+      {
+        "stage": "initial_H",
+        "time": 0,
+        "pose": [
+          [
+            -15,
+            10
+          ],
+          3
+        ],
+        "length": 10400
+      },
+      {
+        "stage": "pristine_exception",
+        "time": 10400,
+        "pose": [
+          [
+            -215,
+            -190
+          ],
+          3
+        ],
+        "length": 52262
+      },
+      {
+        "stage": "initial_return",
+        "time": 62662,
+        "pose": [
+          [
+            -200,
+            -249
+          ],
+          1
+        ],
+        "length": 72800
+      },
+      {
+        "stage": "router1",
+        "time": 135462,
+        "pose": [
+          [
+            1200,
+            1151
+          ],
+          1
+        ],
+        "length": 2010
+      },
+      {
+        "stage": "A_incoming",
+        "time": 137472,
+        "pose": [
+          [
+            1159,
+            1196
+          ],
+          3
+        ],
+        "length": 71624
+      },
+      {
+        "stage": "A_response",
+        "time": 209096,
+        "pose": [
+          [
+            -219,
+            -188
+          ],
+          3
+        ],
+        "length": 5616
+      },
+      {
+        "stage": "A_to_phase0",
+        "time": 214712,
+        "pose": [
+          [
+            -241,
+            -178
+          ],
+          3
+        ],
+        "length": 74
+      },
+      {
+        "stage": "A_return",
+        "time": 214786,
+        "pose": [
+          [
+            -242,
+            -177
+          ],
+          1
+        ],
+        "length": 51584
+      },
+      {
+        "stage": "router2",
+        "time": 266370,
+        "pose": [
+          [
+            750,
+            815
+          ],
+          1
+        ],
+        "length": 1758
+      }
+    ]
+  }
+]

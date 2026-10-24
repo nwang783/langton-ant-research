@@ -1,0 +1,2454 @@
+{
+  "status": "PASS scoped all-length actual foreign-interval grammar",
+  "manifest": "0edd9a1fd678fd4c90d0ae6b8b120e93b8f11d7919e01857ec607dd9dbc2a2ef",
+  "dependencies": {
+    "ordinary_RAW_G8_base_cut_bridge_2026-10-24/manifest.json": "8a311a4c67a3447c06ff6feddadacb4928a3ffba63f4b8e8088c4663e2a36704",
+    "audits/check_RAW_G8_base_cut_bridge_independent.json": "e2ff4f66ed0c660b80ad537ad9741a43fe9aef6799873c801e624ad232fb6e17",
+    "ordinary_RAW_G8_base_cut_bridge_2026-10-24/nonterminal_cut_manifest.json": "7ae212b4014f856b99c165a5020833d0c9f5725ec95817d6f22c8a96203baf52",
+    "audits/check_RAW_G8_nonterminal_cut_independent.json": "f8a1528d81538245b655e7b7c13045ae26f586c287dfa6158a453af82657f29e",
+    "seven_word_spatial_return_2026-10-23/complete8_foreign_adjacency_manifest.json": "735023bebfa154bd936e9546023367b541006ea1d9f57bb2eb7240bf040017ea",
+    "audits/check_complete8_foreign_adjacency_independent.json": "4133cc6c3fc1dbbd05add1b63e958580673db9738f0869e10712712858aed7c0",
+    "word_stabilization/check_foreign_return_interfaces.py": "249f89213a96c8daad9d0ecde65e877d5e254af033092adb81b4bbaca0cc729c",
+    "literal_ownership_conventions_2026-10-24/canonical_read_ownership.py": "041b40e04a0f71a6b9511abf1d15b1d86c548e74f4f99281477c115b72036ea2"
+  },
+  "literal_failures": [
+    {
+      "word": "FCF",
+      "first_bad_read0": 88,
+      "previous_read0": 48,
+      "cell": [
+        -2,
+        0
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "F",
+          48,
+          "RAW"
+        ],
+        [
+          2,
+          "F",
+          17,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "FCQ",
+      "first_bad_read0": 88,
+      "previous_read0": 48,
+      "cell": [
+        -2,
+        0
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "F",
+          48,
+          "RAW"
+        ],
+        [
+          2,
+          "Q",
+          17,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "FCB",
+      "first_bad_read0": 88,
+      "previous_read0": 48,
+      "cell": [
+        -2,
+        0
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "F",
+          48,
+          "RAW"
+        ],
+        [
+          2,
+          "B",
+          17,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "QCF",
+      "first_bad_read0": 115,
+      "previous_read0": 47,
+      "cell": [
+        -2,
+        -1
+      ],
+      "turn": "R",
+      "owners": [
+        [
+          0,
+          "Q",
+          47,
+          "RAW"
+        ],
+        [
+          2,
+          "F",
+          36,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "QCQ",
+      "first_bad_read0": 115,
+      "previous_read0": 47,
+      "cell": [
+        -2,
+        -1
+      ],
+      "turn": "R",
+      "owners": [
+        [
+          0,
+          "Q",
+          47,
+          "RAW"
+        ],
+        [
+          2,
+          "Q",
+          36,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "QCB",
+      "first_bad_read0": 115,
+      "previous_read0": 47,
+      "cell": [
+        -2,
+        -1
+      ],
+      "turn": "R",
+      "owners": [
+        [
+          0,
+          "Q",
+          47,
+          "RAW"
+        ],
+        [
+          2,
+          "B",
+          36,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "BCF",
+      "first_bad_read0": 141,
+      "previous_read0": 53,
+      "cell": [
+        -5,
+        -2
+      ],
+      "turn": "R",
+      "owners": [
+        [
+          0,
+          "B",
+          53,
+          "RAW"
+        ],
+        [
+          2,
+          "F",
+          52,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "BCQ",
+      "first_bad_read0": 141,
+      "previous_read0": 53,
+      "cell": [
+        -5,
+        -2
+      ],
+      "turn": "R",
+      "owners": [
+        [
+          0,
+          "B",
+          53,
+          "RAW"
+        ],
+        [
+          2,
+          "Q",
+          52,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "BCB",
+      "first_bad_read0": 141,
+      "previous_read0": 53,
+      "cell": [
+        -5,
+        -2
+      ],
+      "turn": "R",
+      "owners": [
+        [
+          0,
+          "B",
+          53,
+          "RAW"
+        ],
+        [
+          2,
+          "B",
+          52,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "FCCF",
+      "first_bad_read0": 98,
+      "previous_read0": 58,
+      "cell": [
+        -3,
+        -1
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          1,
+          "C",
+          2,
+          "RAW"
+        ],
+        [
+          3,
+          "F",
+          12,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "FCCQ",
+      "first_bad_read0": 98,
+      "previous_read0": 58,
+      "cell": [
+        -3,
+        -1
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          1,
+          "C",
+          2,
+          "RAW"
+        ],
+        [
+          3,
+          "Q",
+          12,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "FCCB",
+      "first_bad_read0": 98,
+      "previous_read0": 58,
+      "cell": [
+        -3,
+        -1
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          1,
+          "C",
+          2,
+          "RAW"
+        ],
+        [
+          3,
+          "B",
+          12,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "QCCF",
+      "first_bad_read0": 106,
+      "previous_read0": 66,
+      "cell": [
+        -3,
+        -3
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          1,
+          "C",
+          2,
+          "RAW"
+        ],
+        [
+          3,
+          "F",
+          12,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "QCCQ",
+      "first_bad_read0": 106,
+      "previous_read0": 66,
+      "cell": [
+        -3,
+        -3
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          1,
+          "C",
+          2,
+          "RAW"
+        ],
+        [
+          3,
+          "Q",
+          12,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "QCCB",
+      "first_bad_read0": 106,
+      "previous_read0": 66,
+      "cell": [
+        -3,
+        -3
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          1,
+          "C",
+          2,
+          "RAW"
+        ],
+        [
+          3,
+          "B",
+          12,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "BCCF",
+      "first_bad_read0": 116,
+      "previous_read0": 76,
+      "cell": [
+        -2,
+        -4
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          1,
+          "C",
+          2,
+          "RAW"
+        ],
+        [
+          3,
+          "F",
+          12,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "BCCQ",
+      "first_bad_read0": 116,
+      "previous_read0": 76,
+      "cell": [
+        -2,
+        -4
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          1,
+          "C",
+          2,
+          "RAW"
+        ],
+        [
+          3,
+          "Q",
+          12,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "BCCB",
+      "first_bad_read0": 116,
+      "previous_read0": 76,
+      "cell": [
+        -2,
+        -4
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          1,
+          "C",
+          2,
+          "RAW"
+        ],
+        [
+          3,
+          "B",
+          12,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "FCCC",
+      "first_bad_read0": 99,
+      "previous_read0": 47,
+      "cell": [
+        -2,
+        -1
+      ],
+      "turn": "R",
+      "owners": [
+        [
+          0,
+          "F",
+          47,
+          "RAW"
+        ],
+        [
+          3,
+          "C",
+          13,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "QCCC",
+      "first_bad_read0": 117,
+      "previous_read0": 57,
+      "cell": [
+        -3,
+        -2
+      ],
+      "turn": "R",
+      "owners": [
+        [
+          0,
+          "Q",
+          57,
+          "RAW"
+        ],
+        [
+          null,
+          "C",
+          23,
+          "M11"
+        ]
+      ]
+    },
+    {
+      "word": "BCCC",
+      "first_bad_read0": 127,
+      "previous_read0": 67,
+      "cell": [
+        -2,
+        -3
+      ],
+      "turn": "R",
+      "owners": [
+        [
+          0,
+          "B",
+          67,
+          "RAW"
+        ],
+        [
+          null,
+          "C",
+          23,
+          "M11"
+        ]
+      ]
+    },
+    {
+      "word": "DF",
+      "first_bad_read0": 53,
+      "previous_read0": 1,
+      "cell": [
+        -1,
+        0
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "D",
+          1,
+          "RAW"
+        ],
+        [
+          1,
+          "F",
+          43,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "DQ",
+      "first_bad_read0": 53,
+      "previous_read0": 1,
+      "cell": [
+        -1,
+        0
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "D",
+          1,
+          "RAW"
+        ],
+        [
+          1,
+          "Q",
+          43,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "DB",
+      "first_bad_read0": 53,
+      "previous_read0": 1,
+      "cell": [
+        -1,
+        0
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "D",
+          1,
+          "RAW"
+        ],
+        [
+          1,
+          "B",
+          43,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "DCF",
+      "first_bad_read0": 41,
+      "previous_read0": 1,
+      "cell": [
+        -1,
+        0
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "D",
+          1,
+          "RAW"
+        ],
+        [
+          2,
+          "F",
+          16,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "DCQ",
+      "first_bad_read0": 41,
+      "previous_read0": 1,
+      "cell": [
+        -1,
+        0
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "D",
+          1,
+          "RAW"
+        ],
+        [
+          2,
+          "Q",
+          16,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "DCB",
+      "first_bad_read0": 41,
+      "previous_read0": 1,
+      "cell": [
+        -1,
+        0
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "D",
+          1,
+          "RAW"
+        ],
+        [
+          2,
+          "B",
+          16,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "VB",
+      "first_bad_read0": 77,
+      "previous_read0": 1,
+      "cell": [
+        -1,
+        0
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "V",
+          1,
+          "RAW"
+        ],
+        [
+          1,
+          "B",
+          59,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "VCF",
+      "first_bad_read0": 70,
+      "previous_read0": 2,
+      "cell": [
+        -1,
+        -1
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "V",
+          2,
+          "RAW"
+        ],
+        [
+          2,
+          "F",
+          37,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "VCQ",
+      "first_bad_read0": 70,
+      "previous_read0": 2,
+      "cell": [
+        -1,
+        -1
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "V",
+          2,
+          "RAW"
+        ],
+        [
+          2,
+          "Q",
+          37,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "VCB",
+      "first_bad_read0": 70,
+      "previous_read0": 2,
+      "cell": [
+        -1,
+        -1
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "V",
+          2,
+          "RAW"
+        ],
+        [
+          2,
+          "B",
+          37,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "VCCF",
+      "first_bad_read0": 60,
+      "previous_read0": 20,
+      "cell": [
+        0,
+        2
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          1,
+          "C",
+          2,
+          "RAW"
+        ],
+        [
+          3,
+          "F",
+          12,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "VCCQ",
+      "first_bad_read0": 60,
+      "previous_read0": 20,
+      "cell": [
+        0,
+        2
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          1,
+          "C",
+          2,
+          "RAW"
+        ],
+        [
+          3,
+          "Q",
+          12,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "VCCB",
+      "first_bad_read0": 60,
+      "previous_read0": 20,
+      "cell": [
+        0,
+        2
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          1,
+          "C",
+          2,
+          "RAW"
+        ],
+        [
+          3,
+          "B",
+          12,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "UCF",
+      "first_bad_read0": 81,
+      "previous_read0": 1,
+      "cell": [
+        -1,
+        0
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "U",
+          1,
+          "RAW"
+        ],
+        [
+          2,
+          "F",
+          38,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "UCQ",
+      "first_bad_read0": 81,
+      "previous_read0": 1,
+      "cell": [
+        -1,
+        0
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "U",
+          1,
+          "RAW"
+        ],
+        [
+          2,
+          "Q",
+          38,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "UCB",
+      "first_bad_read0": 81,
+      "previous_read0": 1,
+      "cell": [
+        -1,
+        0
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "U",
+          1,
+          "RAW"
+        ],
+        [
+          2,
+          "B",
+          38,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "UCCF",
+      "first_bad_read0": 70,
+      "previous_read0": 30,
+      "cell": [
+        -1,
+        3
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          1,
+          "C",
+          2,
+          "RAW"
+        ],
+        [
+          3,
+          "F",
+          12,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "UCCQ",
+      "first_bad_read0": 70,
+      "previous_read0": 30,
+      "cell": [
+        -1,
+        3
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          1,
+          "C",
+          2,
+          "RAW"
+        ],
+        [
+          3,
+          "Q",
+          12,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "UCCB",
+      "first_bad_read0": 70,
+      "previous_read0": 30,
+      "cell": [
+        -1,
+        3
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          1,
+          "C",
+          2,
+          "RAW"
+        ],
+        [
+          3,
+          "B",
+          12,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "FF",
+      "first_bad_read0": 107,
+      "previous_read0": 3,
+      "cell": [
+        0,
+        -1
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "F",
+          3,
+          "RAW"
+        ],
+        [
+          1,
+          "F",
+          51,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "FQ",
+      "first_bad_read0": 107,
+      "previous_read0": 3,
+      "cell": [
+        0,
+        -1
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "F",
+          3,
+          "RAW"
+        ],
+        [
+          1,
+          "Q",
+          51,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "FB",
+      "first_bad_read0": 107,
+      "previous_read0": 3,
+      "cell": [
+        0,
+        -1
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "F",
+          3,
+          "RAW"
+        ],
+        [
+          1,
+          "B",
+          51,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "QQ",
+      "first_bad_read0": 122,
+      "previous_read0": 46,
+      "cell": [
+        -1,
+        -1
+      ],
+      "turn": "R",
+      "owners": [
+        [
+          0,
+          "Q",
+          46,
+          "RAW"
+        ],
+        [
+          1,
+          "Q",
+          58,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "QB",
+      "first_bad_read0": 134,
+      "previous_read0": 30,
+      "cell": [
+        -1,
+        1
+      ],
+      "turn": "R",
+      "owners": [
+        [
+          0,
+          "Q",
+          30,
+          "RAW"
+        ],
+        [
+          1,
+          "B",
+          70,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "BQ",
+      "first_bad_read0": 139,
+      "previous_read0": 3,
+      "cell": [
+        0,
+        -1
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "B",
+          3,
+          "RAW"
+        ],
+        [
+          null,
+          "Q",
+          65,
+          "M11"
+        ]
+      ]
+    },
+    {
+      "word": "BB",
+      "first_bad_read0": 142,
+      "previous_read0": 46,
+      "cell": [
+        -1,
+        -1
+      ],
+      "turn": "R",
+      "owners": [
+        [
+          0,
+          "B",
+          46,
+          "RAW"
+        ],
+        [
+          1,
+          "B",
+          68,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "UQF",
+      "first_bad_read0": 110,
+      "previous_read0": 2,
+      "cell": [
+        -1,
+        -1
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "U",
+          2,
+          "RAW"
+        ],
+        [
+          2,
+          "F",
+          18,
+          "RAW"
+        ]
+      ]
+    },
+    {
+      "word": "UBF",
+      "first_bad_read0": 145,
+      "previous_read0": 1,
+      "cell": [
+        -1,
+        0
+      ],
+      "turn": "L",
+      "owners": [
+        [
+          0,
+          "U",
+          1,
+          "RAW"
+        ],
+        [
+          2,
+          "F",
+          43,
+          "RAW"
+        ]
+      ]
+    }
+  ],
+  "allowed_packet_boundaries": [
+    "VF",
+    "VQ",
+    "UF",
+    "UQ",
+    "UB"
+  ],
+  "allowed_empty_intervals": [
+    "QF",
+    "BF"
+  ],
+  "complete_positive_controls": [
+    {
+      "word": "QF",
+      "reads": 131,
+      "seed": [
+        [
+          -5,
+          1
+        ],
+        [
+          -5,
+          2
+        ],
+        [
+          -4,
+          -6
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          -4,
+          -1
+        ],
+        [
+          -4,
+          0
+        ],
+        [
+          -4,
+          3
+        ],
+        [
+          -3,
+          -6
+        ],
+        [
+          -3,
+          -4
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -2,
+          -6
+        ],
+        [
+          -2,
+          -3
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          -7
+        ],
+        [
+          -1,
+          -6
+        ],
+        [
+          -1,
+          -5
+        ],
+        [
+          -1,
+          -3
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          -7
+        ],
+        [
+          0,
+          -4
+        ],
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          -6
+        ],
+        [
+          1,
+          -5
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "complete_final": [
+        [
+          -6,
+          -5
+        ],
+        [
+          -6,
+          -4
+        ],
+        [
+          -5,
+          -6
+        ],
+        [
+          -5,
+          -5
+        ],
+        [
+          -5,
+          -4
+        ],
+        [
+          -5,
+          -3
+        ],
+        [
+          -5,
+          -2
+        ],
+        [
+          -5,
+          -1
+        ],
+        [
+          -4,
+          -5
+        ],
+        [
+          -4,
+          -4
+        ],
+        [
+          -4,
+          -1
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          -4,
+          2
+        ],
+        [
+          -3,
+          -5
+        ],
+        [
+          -3,
+          -4
+        ],
+        [
+          -3,
+          -3
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -2,
+          -5
+        ],
+        [
+          -2,
+          -3
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          -6
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          -6
+        ],
+        [
+          0,
+          -5
+        ],
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "word": "BF",
+      "reads": 141,
+      "seed": [
+        [
+          -5,
+          1
+        ],
+        [
+          -5,
+          2
+        ],
+        [
+          -4,
+          -1
+        ],
+        [
+          -4,
+          0
+        ],
+        [
+          -4,
+          3
+        ],
+        [
+          -3,
+          -7
+        ],
+        [
+          -3,
+          -4
+        ],
+        [
+          -3,
+          -3
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -2,
+          -7
+        ],
+        [
+          -2,
+          -5
+        ],
+        [
+          -2,
+          -3
+        ],
+        [
+          -2,
+          -2
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          -7
+        ],
+        [
+          -1,
+          -4
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          -8
+        ],
+        [
+          0,
+          -7
+        ],
+        [
+          0,
+          -6
+        ],
+        [
+          0,
+          -4
+        ],
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          -8
+        ],
+        [
+          1,
+          -5
+        ],
+        [
+          1,
+          -4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -7
+        ],
+        [
+          2,
+          -6
+        ]
+      ],
+      "complete_final": [
+        [
+          -5,
+          -6
+        ],
+        [
+          -5,
+          -5
+        ],
+        [
+          -5,
+          -2
+        ],
+        [
+          -5,
+          -1
+        ],
+        [
+          -4,
+          -7
+        ],
+        [
+          -4,
+          -6
+        ],
+        [
+          -4,
+          -5
+        ],
+        [
+          -4,
+          -4
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          -4,
+          -2
+        ],
+        [
+          -4,
+          -1
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          -4,
+          2
+        ],
+        [
+          -3,
+          -6
+        ],
+        [
+          -3,
+          -5
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -2,
+          -6
+        ],
+        [
+          -2,
+          -5
+        ],
+        [
+          -2,
+          -4
+        ],
+        [
+          -2,
+          -3
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          -6
+        ],
+        [
+          -1,
+          -4
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          -7
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -7
+        ],
+        [
+          1,
+          -6
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          -4
+        ],
+        [
+          2,
+          -3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          -3
+        ],
+        [
+          3,
+          -2
+        ]
+      ]
+    },
+    {
+      "word": "CF",
+      "reads": 82,
+      "seed": [
+        [
+          -3,
+          -3
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          -2,
+          -4
+        ],
+        [
+          -2,
+          -2
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          -4
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -2
+        ]
+      ],
+      "complete_final": [
+        [
+          -2,
+          -3
+        ],
+        [
+          -2,
+          -2
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          -3
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          -4
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          -5
+        ],
+        [
+          2,
+          -4
+        ],
+        [
+          2,
+          -3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          -5
+        ]
+      ]
+    },
+    {
+      "word": "CQ",
+      "reads": 90,
+      "seed": [
+        [
+          -3,
+          -3
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          -2,
+          -4
+        ],
+        [
+          -2,
+          -2
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          -4
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          -3
+        ],
+        [
+          4,
+          -2
+        ]
+      ],
+      "complete_final": [
+        [
+          -2,
+          -3
+        ],
+        [
+          -2,
+          -2
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          -3
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          -4
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          -4
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          -4
+        ],
+        [
+          4,
+          -5
+        ],
+        [
+          4,
+          -4
+        ],
+        [
+          4,
+          -3
+        ],
+        [
+          5,
+          -5
+        ]
+      ]
+    },
+    {
+      "word": "CB",
+      "reads": 100,
+      "seed": [
+        [
+          -3,
+          -3
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          -2,
+          -4
+        ],
+        [
+          -2,
+          -2
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          -4
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          3,
+          -2
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          4,
+          -2
+        ],
+        [
+          5,
+          -1
+        ]
+      ],
+      "complete_final": [
+        [
+          -2,
+          -3
+        ],
+        [
+          -2,
+          -2
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          -3
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          -4
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          -4
+        ],
+        [
+          2,
+          -3
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          -3
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          4,
+          -3
+        ],
+        [
+          5,
+          -4
+        ],
+        [
+          5,
+          -3
+        ],
+        [
+          5,
+          -2
+        ],
+        [
+          6,
+          -4
+        ]
+      ]
+    }
+  ],
+  "analytic_review": [
+    "If a nonempty ordinary interval has no BASE, it is C^r. Literal A CCC with actual M forbids r>=3; every next actual RAW supplies this marker prefix, and no unexecuted next packet is required. Exact eighteen ACB/ACCB conflicts remove r1/2.",
+    "The selected BASE-start ordinary suffix begins at an actual D/V/U, with leading Cs excluded. Its first D has a genuine immediately preceding RAW (sourceFOREIGN or leadingC), so the incoming-bud DCCC guard has its actual supplier. Every internal marker is actual, and the terminal cut admits a genuinely COMPLETE nextFOREIGN plus its realM11.",
+    "Thus signed8a plus the nonterminal-cut7ae apply to exactly this selected suffix. TerminalDCC is excluded only by the actually completed nextFOREIGN, never by mistaking M11 alone for a whole nextG7. The final actual packet is in G8.",
+    "The literally reconstructed24 packet/FOREIGN pairs leave only VF,VQ,UF,UQ,UB, all plain V/U endings. This local immutable-pair fact has no FIRSTforeign or U-entry premise, even though some historic uses imposed those additional hypotheses.",
+    "For consecutive foreign atoms the interval is empty, and QF/BF remain complete prepared possibilities. Hence no laterFOREIGN has immediately precedingC. In an actual U-start seven-RAW factor, the first ordinary section has a genuine BASE start and actual nextFOREIGN, so the same parse handles its firstFOREIGN too.",
+    "CF/CQ/CB prepared full fields remain positive when the preceding foreign/base history is absent. Immediate UQF/UBF failures are only those two literal prepends, not a general ancestry exclusion. No word-language coverage, tag iteration, geometry or capture follows."
+  ],
+  "scope": "Any actual complete foreign A, then an ordinary RAW word z over D/C/V/U, then a next actual complete foreign B with its real following M11. If z is nonempty, it contains a base and its actual last atom is plain V or U; the only possible last-packet/foreign boundaries are VF,VQ,UF,UQ,UB. If z is empty, QF/BF remain literal possibilities. No U-entry, initial-WHITE, simplicity, first-foreign or length-bound premise."
+}

@@ -1,0 +1,33 @@
+{
+  "status": "AUTHOR_FINITE_LITERAL_NESTED_CYCLE_CONTROLS_PASS",
+  "scope": "Finite literal controls, not a bound on nested cycles or trajectory length.",
+  "boards": 240,
+  "steps_each": 4000,
+  "total_cycles": 173,
+  "cycle_count_distribution": {
+    "0": 67,
+    "1": 173
+  },
+  "largest_observed_nested_count": 1,
+  "largest_example_seed": [],
+  "largest_example_cycles": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        0,
+        -1
+      ]
+    ]
+  ]
+}

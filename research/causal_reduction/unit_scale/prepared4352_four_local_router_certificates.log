@@ -1,0 +1,91 @@
+{
+  "scope": "Four supplied H^m-router-H^infinity interfaces, uniformly m>=30.\nExact finite m30 all-future certificates plus explicit old-incoming-ray separation.\n",
+  "source_sha256": "dfcd30c0b377fd2ac9194e8f3193f48a75d5d944e7467fc73478560271df1d68",
+  "plan_sha256": "4a51be3cec7862c301bd9057ed5b4a67424717ae08739cdb4d782e09b213cfcb",
+  "routers": [
+    {
+      "router": 1,
+      "status": "exact H30-router-H-infinity PASS",
+      "incoming_min_periods": 30,
+      "initial_mass": 36,
+      "extra_mass": 23,
+      "router_and_cap_u_bounds": [
+        -10,
+        4
+      ],
+      "strict_older_incoming_u_bound": 114,
+      "incoming_t_bounds": [
+        -3,
+        7
+      ],
+      "outgoing_t_bounds": [
+        57,
+        67
+      ],
+      "all_future_tail": true
+    },
+    {
+      "router": 2,
+      "status": "exact H30-router-H-infinity PASS",
+      "incoming_min_periods": 30,
+      "initial_mass": 36,
+      "extra_mass": 23,
+      "router_and_cap_u_bounds": [
+        -2,
+        12
+      ],
+      "strict_older_incoming_u_bound": -114,
+      "incoming_t_bounds": [
+        -7,
+        3
+      ],
+      "outgoing_t_bounds": [
+        -83,
+        -73
+      ],
+      "all_future_tail": true
+    },
+    {
+      "router": 3,
+      "status": "exact H30-router-H-infinity PASS",
+      "incoming_min_periods": 30,
+      "initial_mass": 36,
+      "extra_mass": 23,
+      "router_and_cap_u_bounds": [
+        -14,
+        0
+      ],
+      "strict_older_incoming_u_bound": 114,
+      "incoming_t_bounds": [
+        -3,
+        7
+      ],
+      "outgoing_t_bounds": [
+        -73,
+        -63
+      ],
+      "all_future_tail": true
+    },
+    {
+      "router": 4,
+      "status": "exact H30-router-H-infinity PASS",
+      "incoming_min_periods": 30,
+      "initial_mass": 36,
+      "extra_mass": 23,
+      "router_and_cap_u_bounds": [
+        -2,
+        12
+      ],
+      "strict_older_incoming_u_bound": -114,
+      "incoming_t_bounds": [
+        -7,
+        3
+      ],
+      "outgoing_t_bounds": [
+        49,
+        59
+      ],
+      "all_future_tail": true
+    }
+  ]
+}

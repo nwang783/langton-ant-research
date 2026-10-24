@@ -1,0 +1,60 @@
+{
+  "scope": "Direct original-WHITE inward staircase terminal inventory.\nNo reversal assumption, front search, or period scan.\n",
+  "inward_W_profiles": [
+    {
+      "headings": "EEW",
+      "C": {
+        "NE": -2,
+        "SW": -2
+      },
+      "L": {
+        "SE": -3,
+        "NW": -4
+      },
+      "odd_terminal": true
+    },
+    {
+      "headings": "WEE",
+      "C": {
+        "NE": -2,
+        "SW": -2
+      },
+      "L": {
+        "SE": -3,
+        "NW": -4
+      },
+      "odd_terminal": true
+    },
+    {
+      "headings": "EEWE",
+      "C": {
+        "NE": -2,
+        "SW": -2
+      },
+      "L": {
+        "SE": -3,
+        "NW": -5
+      },
+      "odd_terminal": false
+    },
+    {
+      "headings": "WEEE",
+      "C": {
+        "NE": -2,
+        "SW": -2
+      },
+      "L": {
+        "SE": -3,
+        "NW": -5
+      },
+      "odd_terminal": false
+    }
+  ],
+  "inward_X_profiles": [
+    "NNNS",
+    "NSNN"
+  ],
+  "forced_extension": "If all W are four-read, W becomes B of a parallel NE staircase row at c-2; X becomes A from its two triple ports.",
+  "terminal": "EEW/WEE are opposite-R three-read odd outputs with L1 incoming E; the role and quarter-rotated row frame recover uniquely.",
+  "warning": "The terminal stops the prescribed straight row continuation, not every possible lower-level physical current or alternate nonstaircase route."
+}

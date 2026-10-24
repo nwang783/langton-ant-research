@@ -1,0 +1,596 @@
+{
+  "status": "PASS exact all-phase/all-future profile comparison and maximal endpoint-memory prefix",
+  "scope": "Finite literal certificate for the all-parameter, all-future H-cut theorem.\nNo trajectory horizon is used in the proof. Extra sample trajectories are\ncontrols only, with the complete infinite initial field evaluated on demand.\n",
+  "overlap_inventory": [
+    {
+      "orbit": [
+        -8,
+        1
+      ],
+      "H": [
+        1,
+        1,
+        1
+      ],
+      "Q": [
+        0
+      ],
+      "repair": []
+    },
+    {
+      "orbit": [
+        -7,
+        0
+      ],
+      "H": [
+        2
+      ],
+      "Q": [
+        0,
+        1
+      ],
+      "repair": []
+    },
+    {
+      "orbit": [
+        -7,
+        1
+      ],
+      "H": [
+        1
+      ],
+      "Q": [
+        0,
+        0
+      ],
+      "repair": [
+        -1
+      ]
+    }
+  ],
+  "standard_histories": [
+    {
+      "orbit": [
+        -17,
+        0
+      ],
+      "levels": [
+        0
+      ],
+      "turns": "R"
+    },
+    {
+      "orbit": [
+        -17,
+        1
+      ],
+      "levels": [
+        0
+      ],
+      "turns": "R"
+    },
+    {
+      "orbit": [
+        -16,
+        0
+      ],
+      "levels": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "turns": "RLRL"
+    },
+    {
+      "orbit": [
+        -16,
+        1
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ],
+      "turns": "RLR"
+    },
+    {
+      "orbit": [
+        -15,
+        0
+      ],
+      "levels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "turns": "RLRLRL"
+    },
+    {
+      "orbit": [
+        -15,
+        1
+      ],
+      "levels": [
+        0,
+        0,
+        0
+      ],
+      "turns": "RLR"
+    },
+    {
+      "orbit": [
+        -14,
+        0
+      ],
+      "levels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "turns": "RLRLRL"
+    },
+    {
+      "orbit": [
+        -14,
+        1
+      ],
+      "levels": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "turns": "RLRLRL"
+    },
+    {
+      "orbit": [
+        -13,
+        0
+      ],
+      "levels": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "turns": "RLRLRLR"
+    },
+    {
+      "orbit": [
+        -13,
+        1
+      ],
+      "levels": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "turns": "RLRLRLRLRL"
+    },
+    {
+      "orbit": [
+        -12,
+        0
+      ],
+      "levels": [
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "turns": "RLRLRLR"
+    },
+    {
+      "orbit": [
+        -12,
+        1
+      ],
+      "levels": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "turns": "RLRLRLRL"
+    },
+    {
+      "orbit": [
+        -11,
+        0
+      ],
+      "levels": [
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "turns": "RLRLRLRL"
+    },
+    {
+      "orbit": [
+        -11,
+        1
+      ],
+      "levels": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "turns": "RLRLR"
+    },
+    {
+      "orbit": [
+        -10,
+        0
+      ],
+      "levels": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "turns": "RLRLR"
+    },
+    {
+      "orbit": [
+        -10,
+        1
+      ],
+      "levels": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "turns": "RLRLRL"
+    },
+    {
+      "orbit": [
+        -9,
+        0
+      ],
+      "levels": [
+        1,
+        1,
+        1
+      ],
+      "turns": "RLR"
+    },
+    {
+      "orbit": [
+        -9,
+        1
+      ],
+      "levels": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "turns": "RLRLRL"
+    },
+    {
+      "orbit": [
+        -8,
+        0
+      ],
+      "levels": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "turns": "RLRL"
+    },
+    {
+      "orbit": [
+        -8,
+        1
+      ],
+      "levels": [
+        1,
+        1,
+        1
+      ],
+      "turns": "RLR"
+    },
+    {
+      "orbit": [
+        -7,
+        0
+      ],
+      "levels": [
+        2
+      ],
+      "turns": "R"
+    },
+    {
+      "orbit": [
+        -7,
+        1
+      ],
+      "levels": [
+        1
+      ],
+      "turns": "R"
+    }
+  ],
+  "exact_ray_gaps": {
+    "(-8,1)": "l+3 >= 2",
+    "(-7,0)": "l+3 >= 2",
+    "(-7,1)": "l-t+4 >= 2"
+  },
+  "forced_prefix": "LRLLRRRRLLRLL",
+  "forced_rows": [
+    {
+      "position": [
+        2,
+        2
+      ],
+      "heading": [
+        1,
+        0
+      ],
+      "turn": "L"
+    },
+    {
+      "position": [
+        2,
+        3
+      ],
+      "heading": [
+        0,
+        1
+      ],
+      "turn": "R"
+    },
+    {
+      "position": [
+        3,
+        3
+      ],
+      "heading": [
+        1,
+        0
+      ],
+      "turn": "L"
+    },
+    {
+      "position": [
+        3,
+        4
+      ],
+      "heading": [
+        0,
+        1
+      ],
+      "turn": "L"
+    },
+    {
+      "position": [
+        2,
+        4
+      ],
+      "heading": [
+        -1,
+        0
+      ],
+      "turn": "R"
+    },
+    {
+      "position": [
+        2,
+        5
+      ],
+      "heading": [
+        0,
+        1
+      ],
+      "turn": "R"
+    },
+    {
+      "position": [
+        3,
+        5
+      ],
+      "heading": [
+        1,
+        0
+      ],
+      "turn": "R"
+    },
+    {
+      "position": [
+        3,
+        4
+      ],
+      "heading": [
+        0,
+        -1
+      ],
+      "turn": "R"
+    },
+    {
+      "position": [
+        2,
+        4
+      ],
+      "heading": [
+        -1,
+        0
+      ],
+      "turn": "L"
+    },
+    {
+      "position": [
+        2,
+        3
+      ],
+      "heading": [
+        0,
+        -1
+      ],
+      "turn": "L"
+    },
+    {
+      "position": [
+        3,
+        3
+      ],
+      "heading": [
+        1,
+        0
+      ],
+      "turn": "R"
+    },
+    {
+      "position": [
+        3,
+        2
+      ],
+      "heading": [
+        0,
+        -1
+      ],
+      "turn": "L"
+    },
+    {
+      "position": [
+        4,
+        2
+      ],
+      "heading": [
+        1,
+        0
+      ],
+      "turn": "L"
+    }
+  ],
+  "next_unknown_relative_to_H_endpoint": [
+    2,
+    1
+  ],
+  "connector_bound": "n >=27-4u for every integer u<=2",
+  "controls": [
+    {
+      "l": -1,
+      "t": 1,
+      "reads": 2080,
+      "endpoint": [
+        40,
+        50
+      ]
+    },
+    {
+      "l": 0,
+      "t": 1,
+      "reads": 2080,
+      "endpoint": [
+        42,
+        52
+      ]
+    },
+    {
+      "l": 0,
+      "t": 2,
+      "reads": 2080,
+      "endpoint": [
+        42,
+        52
+      ]
+    },
+    {
+      "l": 1,
+      "t": 1,
+      "reads": 2080,
+      "endpoint": [
+        44,
+        54
+      ]
+    },
+    {
+      "l": 1,
+      "t": 3,
+      "reads": 2080,
+      "endpoint": [
+        44,
+        54
+      ]
+    },
+    {
+      "l": 5,
+      "t": 1,
+      "reads": 2080,
+      "endpoint": [
+        52,
+        62
+      ]
+    },
+    {
+      "l": 5,
+      "t": 7,
+      "reads": 2080,
+      "endpoint": [
+        52,
+        62
+      ]
+    },
+    {
+      "l": 100,
+      "t": 1,
+      "reads": 2080,
+      "endpoint": [
+        242,
+        252
+      ]
+    },
+    {
+      "l": 100,
+      "t": 102,
+      "reads": 2080,
+      "endpoint": [
+        242,
+        252
+      ]
+    }
+  ],
+  "source_sha256": "2bd5c01aac9d0c05c5fbc74e34e58071917c792c26727061a1eb90e3ea3906c2",
+  "note_sha256": "dc6988051d958e7617e991be7b4aff070f6f93f360aa3775135d989db0b9573d"
+}

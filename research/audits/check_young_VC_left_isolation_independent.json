@@ -1,0 +1,112 @@
+{
+  "status": "PASS complete eight-predecessor any-board literal obstruction",
+  "manifest_sha256": "9b3e086daecc4d5131cb1a707dd66387d7d25e51932b951a052d07cf52c27bb4",
+  "rows": [
+    {
+      "predecessor": 0,
+      "conflict": {
+        "cell": [
+          1,
+          -1
+        ],
+        "previous_read": 8,
+        "conflicting_read": 148,
+        "turn": "R"
+      },
+      "suffix_phase": 138
+    },
+    {
+      "predecessor": 1,
+      "conflict": {
+        "cell": [
+          -3,
+          2
+        ],
+        "previous_read": 2,
+        "conflicting_read": 110,
+        "turn": "L"
+      },
+      "suffix_phase": 85
+    },
+    {
+      "predecessor": 4,
+      "conflict": {
+        "cell": [
+          -1,
+          -2
+        ],
+        "previous_read": 11,
+        "conflicting_read": 143,
+        "turn": "R"
+      },
+      "suffix_phase": 125
+    },
+    {
+      "predecessor": 5,
+      "conflict": {
+        "cell": [
+          -4,
+          1
+        ],
+        "previous_read": 4,
+        "conflicting_read": 128,
+        "turn": "R"
+      },
+      "suffix_phase": 95
+    },
+    {
+      "predecessor": 6,
+      "conflict": {
+        "cell": [
+          0,
+          4
+        ],
+        "previous_read": 4,
+        "conflicting_read": 92,
+        "turn": "R"
+      },
+      "suffix_phase": 44
+    },
+    {
+      "predecessor": 7,
+      "conflict": {
+        "cell": [
+          -1,
+          -2
+        ],
+        "previous_read": 21,
+        "conflicting_read": 153,
+        "turn": "R"
+      },
+      "suffix_phase": 125
+    },
+    {
+      "predecessor": 8,
+      "conflict": {
+        "cell": [
+          -4,
+          0
+        ],
+        "previous_read": 19,
+        "conflicting_read": 139,
+        "turn": "R"
+      },
+      "suffix_phase": 96
+    },
+    {
+      "predecessor": 9,
+      "conflict": {
+        "cell": [
+          -1,
+          4
+        ],
+        "previous_read": 19,
+        "conflicting_read": 103,
+        "turn": "R"
+      },
+      "suffix_phase": 45
+    }
+  ],
+  "latest_final_U_phase": 11,
+  "scope": "Fixed funded16-cell suffix has no recurrent-eight left extension; must start such a factor. Not generic young-VC exclusion, new DFA/global record closure, or an obstruction to arbitrary earlier non-language ant history."
+}

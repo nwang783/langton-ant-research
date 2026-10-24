@@ -1,0 +1,1224 @@
+{
+  "status": "PASS independent exact finite gate table and physical positive controls",
+  "scope": "The >=16 synchronized gate span is a local exact claim with arbitrary other-cell colors; no front existence or global defect budget asserted.",
+  "returns": [
+    {
+      "span": 4,
+      "turn_suffixes_checked": 4,
+      "opposite_first_return_candidates": [],
+      "gate_count": 0,
+      "gates": []
+    },
+    {
+      "span": 8,
+      "turn_suffixes_checked": 64,
+      "opposite_first_return_candidates": [],
+      "gate_count": 0,
+      "gates": []
+    },
+    {
+      "span": 12,
+      "turn_suffixes_checked": 1024,
+      "opposite_first_return_candidates": [
+        {
+          "word": "RRRLRRLRRLRR",
+          "v_reads": [
+            {
+              "t": 1,
+              "h": 1,
+              "turn": "R"
+            }
+          ],
+          "is_synchronized_gate": false
+        },
+        {
+          "word": "RRLLRLLRLLRL",
+          "v_reads": [
+            {
+              "t": 1,
+              "h": 1,
+              "turn": "R"
+            }
+          ],
+          "is_synchronized_gate": false
+        }
+      ],
+      "gate_count": 0,
+      "gates": []
+    },
+    {
+      "span": 16,
+      "turn_suffixes_checked": 16384,
+      "opposite_first_return_candidates": [
+        {
+          "word": "RRRLRRLRRLRLLLLR",
+          "v_reads": [
+            {
+              "t": 1,
+              "h": 1,
+              "turn": "R"
+            }
+          ],
+          "is_synchronized_gate": false
+        },
+        {
+          "word": "RRRLRRLRLRRLRRLR",
+          "v_reads": [
+            {
+              "t": 1,
+              "h": 1,
+              "turn": "R"
+            }
+          ],
+          "is_synchronized_gate": false
+        },
+        {
+          "word": "RRRLRRLRLLLLRLRR",
+          "v_reads": [
+            {
+              "t": 1,
+              "h": 1,
+              "turn": "R"
+            }
+          ],
+          "is_synchronized_gate": false
+        },
+        {
+          "word": "RRRLRLRRLRRLRLRR",
+          "v_reads": [
+            {
+              "t": 1,
+              "h": 1,
+              "turn": "R"
+            }
+          ],
+          "is_synchronized_gate": false
+        },
+        {
+          "word": "RRRLRLLLLRLRRLRR",
+          "v_reads": [
+            {
+              "t": 1,
+              "h": 1,
+              "turn": "R"
+            }
+          ],
+          "is_synchronized_gate": false
+        },
+        {
+          "word": "RRLRRRRLRLLRLLRL",
+          "v_reads": [
+            {
+              "t": 1,
+              "h": 1,
+              "turn": "R"
+            }
+          ],
+          "is_synchronized_gate": false
+        },
+        {
+          "word": "RRLRRLRRLRLRRLRR",
+          "v_reads": [
+            {
+              "t": 1,
+              "h": 1,
+              "turn": "R"
+            }
+          ],
+          "is_synchronized_gate": false
+        },
+        {
+          "word": "RRLRLLRLLRLRLLRL",
+          "v_reads": [
+            {
+              "t": 1,
+              "h": 1,
+              "turn": "R"
+            }
+          ],
+          "is_synchronized_gate": false
+        },
+        {
+          "word": "RRLLRLRRRRLRLLRL",
+          "v_reads": [
+            {
+              "t": 1,
+              "h": 1,
+              "turn": "R"
+            }
+          ],
+          "is_synchronized_gate": false
+        },
+        {
+          "word": "RRLLRLRLLRLLRLRL",
+          "v_reads": [
+            {
+              "t": 1,
+              "h": 1,
+              "turn": "R"
+            }
+          ],
+          "is_synchronized_gate": false
+        },
+        {
+          "word": "RRLLRLLRLRRRRLRL",
+          "v_reads": [
+            {
+              "t": 1,
+              "h": 1,
+              "turn": "R"
+            }
+          ],
+          "is_synchronized_gate": false
+        },
+        {
+          "word": "RRLLRLLRLRLLRLLR",
+          "v_reads": [
+            {
+              "t": 1,
+              "h": 1,
+              "turn": "R"
+            }
+          ],
+          "is_synchronized_gate": false
+        },
+        {
+          "word": "RRLLLLRLRRLRRLRR",
+          "v_reads": [
+            {
+              "t": 1,
+              "h": 1,
+              "turn": "R"
+            },
+            {
+              "t": 5,
+              "h": 3,
+              "turn": "L"
+            }
+          ],
+          "is_synchronized_gate": true
+        }
+      ],
+      "gate_count": 1,
+      "gates": [
+        {
+          "word": "RRLLLLRLRRLRRLRR",
+          "v_reads": [
+            {
+              "t": 1,
+              "h": 1,
+              "turn": "R"
+            },
+            {
+              "t": 5,
+              "h": 3,
+              "turn": "L"
+            }
+          ],
+          "is_synchronized_gate": true,
+          "trace": [
+            {
+              "t": 0,
+              "p": [
+                0,
+                0
+              ],
+              "h": 0,
+              "turn": "R"
+            },
+            {
+              "t": 1,
+              "p": [
+                1,
+                0
+              ],
+              "h": 1,
+              "turn": "R"
+            },
+            {
+              "t": 2,
+              "p": [
+                1,
+                -1
+              ],
+              "h": 2,
+              "turn": "L"
+            },
+            {
+              "t": 3,
+              "p": [
+                2,
+                -1
+              ],
+              "h": 1,
+              "turn": "L"
+            },
+            {
+              "t": 4,
+              "p": [
+                2,
+                0
+              ],
+              "h": 0,
+              "turn": "L"
+            },
+            {
+              "t": 5,
+              "p": [
+                1,
+                0
+              ],
+              "h": 3,
+              "turn": "L"
+            },
+            {
+              "t": 6,
+              "p": [
+                1,
+                -1
+              ],
+              "h": 2,
+              "turn": "R"
+            },
+            {
+              "t": 7,
+              "p": [
+                0,
+                -1
+              ],
+              "h": 3,
+              "turn": "L"
+            },
+            {
+              "t": 8,
+              "p": [
+                0,
+                -2
+              ],
+              "h": 2,
+              "turn": "R"
+            },
+            {
+              "t": 9,
+              "p": [
+                -1,
+                -2
+              ],
+              "h": 3,
+              "turn": "R"
+            },
+            {
+              "t": 10,
+              "p": [
+                -1,
+                -1
+              ],
+              "h": 0,
+              "turn": "L"
+            },
+            {
+              "t": 11,
+              "p": [
+                -2,
+                -1
+              ],
+              "h": 3,
+              "turn": "R"
+            },
+            {
+              "t": 12,
+              "p": [
+                -2,
+                0
+              ],
+              "h": 0,
+              "turn": "R"
+            },
+            {
+              "t": 13,
+              "p": [
+                -1,
+                0
+              ],
+              "h": 1,
+              "turn": "L"
+            },
+            {
+              "t": 14,
+              "p": [
+                -1,
+                1
+              ],
+              "h": 0,
+              "turn": "R"
+            },
+            {
+              "t": 15,
+              "p": [
+                0,
+                1
+              ],
+              "h": 1,
+              "turn": "R"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "six_black_control": {
+    "initial_black": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "trace": [
+      {
+        "t": 0,
+        "p": [
+          0,
+          0
+        ],
+        "h": 0,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 1,
+        "p": [
+          1,
+          0
+        ],
+        "h": 1,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 2,
+        "p": [
+          1,
+          -1
+        ],
+        "h": 2,
+        "turn": "L",
+        "rank": 0
+      },
+      {
+        "t": 3,
+        "p": [
+          2,
+          -1
+        ],
+        "h": 1,
+        "turn": "L",
+        "rank": 0
+      },
+      {
+        "t": 4,
+        "p": [
+          2,
+          0
+        ],
+        "h": 0,
+        "turn": "L",
+        "rank": 0
+      },
+      {
+        "t": 5,
+        "p": [
+          1,
+          0
+        ],
+        "h": 3,
+        "turn": "L",
+        "rank": 1
+      },
+      {
+        "t": 6,
+        "p": [
+          1,
+          -1
+        ],
+        "h": 2,
+        "turn": "R",
+        "rank": 1
+      },
+      {
+        "t": 7,
+        "p": [
+          0,
+          -1
+        ],
+        "h": 3,
+        "turn": "L",
+        "rank": 0
+      },
+      {
+        "t": 8,
+        "p": [
+          0,
+          -2
+        ],
+        "h": 2,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 9,
+        "p": [
+          -1,
+          -2
+        ],
+        "h": 3,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 10,
+        "p": [
+          -1,
+          -1
+        ],
+        "h": 0,
+        "turn": "L",
+        "rank": 0
+      },
+      {
+        "t": 11,
+        "p": [
+          -2,
+          -1
+        ],
+        "h": 3,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 12,
+        "p": [
+          -2,
+          0
+        ],
+        "h": 0,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 13,
+        "p": [
+          -1,
+          0
+        ],
+        "h": 1,
+        "turn": "L",
+        "rank": 0
+      },
+      {
+        "t": 14,
+        "p": [
+          -1,
+          1
+        ],
+        "h": 0,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 15,
+        "p": [
+          0,
+          1
+        ],
+        "h": 1,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 16,
+        "p": [
+          0,
+          0
+        ],
+        "h": 2,
+        "turn": "L",
+        "rank": 1
+      },
+      {
+        "t": 17,
+        "p": [
+          1,
+          0
+        ],
+        "h": 1,
+        "turn": "R",
+        "rank": 2
+      }
+    ],
+    "all_cell_prefix_max_reads": 3
+  },
+  "blank_control": {
+    "initial_black": [],
+    "initial_pose": {
+      "p": [
+        0,
+        0
+      ],
+      "h": 0
+    },
+    "source": [
+      {
+        "t": 2,
+        "p": [
+          1,
+          -1
+        ],
+        "h": 2,
+        "out": 3,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 50,
+        "p": [
+          1,
+          -1
+        ],
+        "h": 0,
+        "out": 3,
+        "turn": "L",
+        "rank": 1
+      }
+    ],
+    "target": [
+      {
+        "t": 3,
+        "p": [
+          0,
+          -1
+        ],
+        "h": 3,
+        "out": 0,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 15,
+        "p": [
+          0,
+          -1
+        ],
+        "h": 1,
+        "out": 0,
+        "turn": "L",
+        "rank": 1
+      },
+      {
+        "t": 51,
+        "p": [
+          0,
+          -1
+        ],
+        "h": 3,
+        "out": 0,
+        "turn": "R",
+        "rank": 2
+      }
+    ],
+    "trace": [
+      {
+        "t": 0,
+        "p": [
+          0,
+          0
+        ],
+        "h": 0,
+        "out": 1,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 1,
+        "p": [
+          1,
+          0
+        ],
+        "h": 1,
+        "out": 2,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 2,
+        "p": [
+          1,
+          -1
+        ],
+        "h": 2,
+        "out": 3,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 3,
+        "p": [
+          0,
+          -1
+        ],
+        "h": 3,
+        "out": 0,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 4,
+        "p": [
+          0,
+          0
+        ],
+        "h": 0,
+        "out": 3,
+        "turn": "L",
+        "rank": 1
+      },
+      {
+        "t": 5,
+        "p": [
+          -1,
+          0
+        ],
+        "h": 3,
+        "out": 0,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 6,
+        "p": [
+          -1,
+          1
+        ],
+        "h": 0,
+        "out": 1,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 7,
+        "p": [
+          0,
+          1
+        ],
+        "h": 1,
+        "out": 2,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 8,
+        "p": [
+          0,
+          0
+        ],
+        "h": 2,
+        "out": 3,
+        "turn": "R",
+        "rank": 2
+      },
+      {
+        "t": 9,
+        "p": [
+          -1,
+          0
+        ],
+        "h": 3,
+        "out": 2,
+        "turn": "L",
+        "rank": 1
+      },
+      {
+        "t": 10,
+        "p": [
+          -1,
+          -1
+        ],
+        "h": 2,
+        "out": 3,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 11,
+        "p": [
+          -2,
+          -1
+        ],
+        "h": 3,
+        "out": 0,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 12,
+        "p": [
+          -2,
+          0
+        ],
+        "h": 0,
+        "out": 1,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 13,
+        "p": [
+          -1,
+          0
+        ],
+        "h": 1,
+        "out": 2,
+        "turn": "R",
+        "rank": 2
+      },
+      {
+        "t": 14,
+        "p": [
+          -1,
+          -1
+        ],
+        "h": 2,
+        "out": 1,
+        "turn": "L",
+        "rank": 1
+      },
+      {
+        "t": 15,
+        "p": [
+          0,
+          -1
+        ],
+        "h": 1,
+        "out": 0,
+        "turn": "L",
+        "rank": 1
+      },
+      {
+        "t": 16,
+        "p": [
+          0,
+          0
+        ],
+        "h": 0,
+        "out": 3,
+        "turn": "L",
+        "rank": 3
+      },
+      {
+        "t": 17,
+        "p": [
+          -1,
+          0
+        ],
+        "h": 3,
+        "out": 2,
+        "turn": "L",
+        "rank": 3
+      },
+      {
+        "t": 18,
+        "p": [
+          -1,
+          -1
+        ],
+        "h": 2,
+        "out": 3,
+        "turn": "R",
+        "rank": 2
+      },
+      {
+        "t": 19,
+        "p": [
+          -2,
+          -1
+        ],
+        "h": 3,
+        "out": 2,
+        "turn": "L",
+        "rank": 1
+      },
+      {
+        "t": 20,
+        "p": [
+          -2,
+          -2
+        ],
+        "h": 2,
+        "out": 3,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 21,
+        "p": [
+          -3,
+          -2
+        ],
+        "h": 3,
+        "out": 0,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 22,
+        "p": [
+          -3,
+          -1
+        ],
+        "h": 0,
+        "out": 1,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 23,
+        "p": [
+          -2,
+          -1
+        ],
+        "h": 1,
+        "out": 2,
+        "turn": "R",
+        "rank": 2
+      },
+      {
+        "t": 24,
+        "p": [
+          -2,
+          -2
+        ],
+        "h": 2,
+        "out": 1,
+        "turn": "L",
+        "rank": 1
+      },
+      {
+        "t": 25,
+        "p": [
+          -1,
+          -2
+        ],
+        "h": 1,
+        "out": 2,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 26,
+        "p": [
+          -1,
+          -3
+        ],
+        "h": 2,
+        "out": 3,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 27,
+        "p": [
+          -2,
+          -3
+        ],
+        "h": 3,
+        "out": 0,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 28,
+        "p": [
+          -2,
+          -2
+        ],
+        "h": 0,
+        "out": 1,
+        "turn": "R",
+        "rank": 2
+      },
+      {
+        "t": 29,
+        "p": [
+          -1,
+          -2
+        ],
+        "h": 1,
+        "out": 0,
+        "turn": "L",
+        "rank": 1
+      },
+      {
+        "t": 30,
+        "p": [
+          -1,
+          -1
+        ],
+        "h": 0,
+        "out": 3,
+        "turn": "L",
+        "rank": 3
+      },
+      {
+        "t": 31,
+        "p": [
+          -2,
+          -1
+        ],
+        "h": 3,
+        "out": 2,
+        "turn": "L",
+        "rank": 3
+      },
+      {
+        "t": 32,
+        "p": [
+          -2,
+          -2
+        ],
+        "h": 2,
+        "out": 1,
+        "turn": "L",
+        "rank": 3
+      },
+      {
+        "t": 33,
+        "p": [
+          -1,
+          -2
+        ],
+        "h": 1,
+        "out": 2,
+        "turn": "R",
+        "rank": 2
+      },
+      {
+        "t": 34,
+        "p": [
+          -1,
+          -3
+        ],
+        "h": 2,
+        "out": 1,
+        "turn": "L",
+        "rank": 1
+      },
+      {
+        "t": 35,
+        "p": [
+          0,
+          -3
+        ],
+        "h": 1,
+        "out": 2,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 36,
+        "p": [
+          0,
+          -4
+        ],
+        "h": 2,
+        "out": 3,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 37,
+        "p": [
+          -1,
+          -4
+        ],
+        "h": 3,
+        "out": 0,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 38,
+        "p": [
+          -1,
+          -3
+        ],
+        "h": 0,
+        "out": 1,
+        "turn": "R",
+        "rank": 2
+      },
+      {
+        "t": 39,
+        "p": [
+          0,
+          -3
+        ],
+        "h": 1,
+        "out": 0,
+        "turn": "L",
+        "rank": 1
+      },
+      {
+        "t": 40,
+        "p": [
+          0,
+          -2
+        ],
+        "h": 0,
+        "out": 1,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 41,
+        "p": [
+          1,
+          -2
+        ],
+        "h": 1,
+        "out": 2,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 42,
+        "p": [
+          1,
+          -3
+        ],
+        "h": 2,
+        "out": 3,
+        "turn": "R",
+        "rank": 0
+      },
+      {
+        "t": 43,
+        "p": [
+          0,
+          -3
+        ],
+        "h": 3,
+        "out": 0,
+        "turn": "R",
+        "rank": 2
+      },
+      {
+        "t": 44,
+        "p": [
+          0,
+          -2
+        ],
+        "h": 0,
+        "out": 3,
+        "turn": "L",
+        "rank": 1
+      },
+      {
+        "t": 45,
+        "p": [
+          -1,
+          -2
+        ],
+        "h": 3,
+        "out": 2,
+        "turn": "L",
+        "rank": 3
+      },
+      {
+        "t": 46,
+        "p": [
+          -1,
+          -3
+        ],
+        "h": 2,
+        "out": 1,
+        "turn": "L",
+        "rank": 3
+      },
+      {
+        "t": 47,
+        "p": [
+          0,
+          -3
+        ],
+        "h": 1,
+        "out": 0,
+        "turn": "L",
+        "rank": 3
+      },
+      {
+        "t": 48,
+        "p": [
+          0,
+          -2
+        ],
+        "h": 0,
+        "out": 1,
+        "turn": "R",
+        "rank": 2
+      },
+      {
+        "t": 49,
+        "p": [
+          1,
+          -2
+        ],
+        "h": 1,
+        "out": 0,
+        "turn": "L",
+        "rank": 1
+      },
+      {
+        "t": 50,
+        "p": [
+          1,
+          -1
+        ],
+        "h": 0,
+        "out": 3,
+        "turn": "L",
+        "rank": 1
+      },
+      {
+        "t": 51,
+        "p": [
+          0,
+          -1
+        ],
+        "h": 3,
+        "out": 0,
+        "turn": "R",
+        "rank": 2
+      }
+    ],
+    "prefix_max_reads": 4
+  }
+}

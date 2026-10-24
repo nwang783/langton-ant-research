@@ -1,0 +1,264 @@
+{
+  "scope": "Eight complete axis-strip G3 profiles and their two literal unit-sheet faces.\nFixed local clocks only; no front, period or drift search.\n",
+  "rows": [
+    {
+      "role": "Z+",
+      "headings": "SSNS",
+      "heights": {
+        "SE": 0,
+        "NW": 0,
+        "SW": -1,
+        "NE": -3
+      },
+      "unit_faces": {
+        "C": {
+          "sheet": 0,
+          "incoming_rank": 2,
+          "outgoing_rank": 1,
+          "clock_sign": -1,
+          "ports": [
+            "N",
+            "E"
+          ]
+        },
+        "L": {
+          "sheet": -2,
+          "incoming_rank": 3,
+          "outgoing_rank": 3,
+          "clock_sign": 0,
+          "ports": [
+            "S",
+            "E"
+          ]
+        }
+      }
+    },
+    {
+      "role": "Z-",
+      "headings": "NSSS",
+      "heights": {
+        "SE": 0,
+        "NW": 0,
+        "SW": -1,
+        "NE": -3
+      },
+      "unit_faces": {
+        "C": {
+          "sheet": 0,
+          "incoming_rank": 0,
+          "outgoing_rank": 0,
+          "clock_sign": 0,
+          "ports": [
+            "N",
+            "E"
+          ]
+        },
+        "L": {
+          "sheet": -2,
+          "incoming_rank": 3,
+          "outgoing_rank": 3,
+          "clock_sign": 0,
+          "ports": [
+            "S",
+            "E"
+          ]
+        }
+      }
+    },
+    {
+      "role": "A+",
+      "headings": "EEEW",
+      "heights": {
+        "NE": -2,
+        "SW": 0,
+        "NW": -3,
+        "SE": -3
+      },
+      "unit_faces": {
+        "C": {
+          "sheet": 0,
+          "incoming_rank": 0,
+          "outgoing_rank": 0,
+          "clock_sign": 0,
+          "ports": [
+            "E",
+            "S"
+          ]
+        },
+        "L": {
+          "sheet": -2,
+          "incoming_rank": 2,
+          "outgoing_rank": 1,
+          "clock_sign": -1,
+          "ports": [
+            "E",
+            "N"
+          ]
+        }
+      }
+    },
+    {
+      "role": "A-",
+      "headings": "EWEE",
+      "heights": {
+        "NE": -2,
+        "SW": 0,
+        "NW": -3,
+        "SE": -3
+      },
+      "unit_faces": {
+        "C": {
+          "sheet": 0,
+          "incoming_rank": 0,
+          "outgoing_rank": 0,
+          "clock_sign": 0,
+          "ports": [
+            "E",
+            "S"
+          ]
+        },
+        "L": {
+          "sheet": -2,
+          "incoming_rank": 3,
+          "outgoing_rank": 3,
+          "clock_sign": 0,
+          "ports": [
+            "E",
+            "N"
+          ]
+        }
+      }
+    },
+    {
+      "role": "B+",
+      "headings": "SSSN",
+      "heights": {
+        "SE": -2,
+        "NW": 0,
+        "SW": -3,
+        "NE": -3
+      },
+      "unit_faces": {
+        "C": {
+          "sheet": 0,
+          "incoming_rank": 0,
+          "outgoing_rank": 0,
+          "clock_sign": 0,
+          "ports": [
+            "S",
+            "W"
+          ]
+        },
+        "L": {
+          "sheet": -2,
+          "incoming_rank": 3,
+          "outgoing_rank": 3,
+          "clock_sign": 0,
+          "ports": [
+            "N",
+            "W"
+          ]
+        }
+      }
+    },
+    {
+      "role": "B-",
+      "headings": "SNSS",
+      "heights": {
+        "SE": -2,
+        "NW": 0,
+        "SW": -3,
+        "NE": -3
+      },
+      "unit_faces": {
+        "C": {
+          "sheet": 0,
+          "incoming_rank": 0,
+          "outgoing_rank": 0,
+          "clock_sign": 0,
+          "ports": [
+            "S",
+            "W"
+          ]
+        },
+        "L": {
+          "sheet": -2,
+          "incoming_rank": 1,
+          "outgoing_rank": 2,
+          "clock_sign": 1,
+          "ports": [
+            "N",
+            "W"
+          ]
+        }
+      }
+    },
+    {
+      "role": "Y+",
+      "headings": "WWEW",
+      "heights": {
+        "NE": 0,
+        "SW": 0,
+        "NW": -1,
+        "SE": -3
+      },
+      "unit_faces": {
+        "C": {
+          "sheet": 0,
+          "incoming_rank": 0,
+          "outgoing_rank": 0,
+          "clock_sign": 0,
+          "ports": [
+            "W",
+            "N"
+          ]
+        },
+        "L": {
+          "sheet": -2,
+          "incoming_rank": 3,
+          "outgoing_rank": 3,
+          "clock_sign": 0,
+          "ports": [
+            "W",
+            "S"
+          ]
+        }
+      }
+    },
+    {
+      "role": "Y-",
+      "headings": "EWWW",
+      "heights": {
+        "NE": 0,
+        "SW": 0,
+        "NW": -1,
+        "SE": -3
+      },
+      "unit_faces": {
+        "C": {
+          "sheet": 0,
+          "incoming_rank": 1,
+          "outgoing_rank": 2,
+          "clock_sign": 1,
+          "ports": [
+            "W",
+            "N"
+          ]
+        },
+        "L": {
+          "sheet": -2,
+          "incoming_rank": 3,
+          "outgoing_rank": 3,
+          "clock_sign": 0,
+          "ports": [
+            "W",
+            "S"
+          ]
+        }
+      }
+    }
+  ],
+  "forced": "C square: deltaZ=4+1{Yprev negative}deltaYprev, so Z positive. L square: deltaA=4+1{B negative}deltaB, so A positive.",
+  "global_clock": "Pw=12a+sum_{positive Y/B}delta, forcing winding+1 for every RRLL axis G3 circle.",
+  "warning": "Free B/Y negative gates remain possible necessary profiles; their parallel two-edge unit nodes are not erased as matched sigma-image pairs."
+}

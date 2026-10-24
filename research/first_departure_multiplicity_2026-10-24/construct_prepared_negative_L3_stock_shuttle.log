@@ -1,0 +1,7 @@
+PORTAL 0 head ((5, -4), 'E') reads 110
+PROGRESS 20 / 31 reads 110 nodes 1
+ATTEMPT {'portal_bias': 0, 'success': False, 'nodes': 1, 'best_known_reads': 20, 'failures': {'no_connector_or_forced_conflict': 2}}
+PORTAL 1 head ((5, -4), 'E') reads 110
+PROGRESS 20 / 31 reads 110 nodes 1
+ATTEMPT {'portal_bias': 1, 'success': False, 'nodes': 1, 'best_known_reads': 20, 'failures': {'no_connector_or_forced_conflict': 2}}
+RESULT {'scope': 'Constructive router for ONE fixed nine-cell late-L3 target.\nNot a front/period/radius scan. Fresh connector paths are chosen around the\ncurrent finite obstacle hull; failure is a router restriction, not a theorem.\nAll board colors and known middle ranks are retained. Prepared input explicit.\n', 'success': False, 'all_attempts': [{'portal_bias': 0, 'success': False, 'nodes': 1, 'best_known_reads': 20, 'failures': {'no_connector_or_forced_conflict': 2}}, {'portal_bias': 1, 'success': False, 'nodes': 1, 'best_known_reads': 20, 'failures': {'no_connector_or_forced_conflict': 2}}], 'planner_nodes': 1, 'best_known_reads': 20, 'failures': {'no_connector_or_forced_conflict': 2}, 'seconds': 0.004239082336425781}

@@ -1,0 +1,1988 @@
+{
+  "status": "PASS canonical two-level barriers and contractible max-RIGHT odd-root capacity",
+  "source_hashes": {
+    "canonical_sheet_two_level_contact_barriers.md": "ad5644688982798a6691ed22f52d27be90323e826d304bbb3917df719064e27f",
+    "canonical_sheet_two_level_contact_barriers.py": "9d8d196db39e36d48e2b7246fcd8655b289186c9334c262bb2b53b84144588a0",
+    "canonical_sheet_two_level_contact_barriers.json": "16ea426cb74ced0161777851726eb0fabf2cdc555196c93f5a6865c6d352e55f",
+    "contractible_max_RIGHT_stock_holes_require_odd_roots.md": "e21617034e12d10108a5401634bb0289a964d1d9ee33d33946af3d8cd5d4044b",
+    "prepared_plateau_black_corner_alternative_and_reverse_output.md": "ab9fad0a34a031b2e60f7add0aa40d942d399e92f6503f6a0f25833796b77935",
+    "penultimate_max_adjacent_contour_orientation.md": "a2170bdce45e58734901f1ebb215f7ac5f7b58ab26deafe2cac8567a3133ec22",
+    "chronological_stream_sheet_exchange.md": "fd20e425b8a6bbc3aefd5eca06b4d443c1d2bdfde5f1d2d69c25d5c4d62af484",
+    "triple_use_current_pairs_top_same_R_outputs.md": "3ffd2f42af3fe147dcc9b13f207343cc1ac82ea06174a9a73a79c25e9507aba6"
+  },
+  "all78_local_sheet_rows": [
+    {
+      "word": "E",
+      "j": 0,
+      "C": {
+        "NE": -1,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -1
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "W",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": -1
+      },
+      "L": {
+        "NW": -1,
+        "SE": -1
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "EE",
+      "j": -1,
+      "C": {
+        "NE": -1,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      },
+      "pairs": [
+        [
+          1,
+          1,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "EE",
+      "j": 0,
+      "C": {
+        "NE": -1,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "EW",
+      "j": -1,
+      "C": {
+        "NE": -1,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          1,
+          1,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "EW",
+      "j": 0,
+      "C": {
+        "NE": -1,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "WE",
+      "j": -1,
+      "C": {
+        "NE": 0,
+        "SW": -1
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      },
+      "pairs": [
+        [
+          1,
+          1,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "WE",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": -1
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "WW",
+      "j": -1,
+      "C": {
+        "NE": 0,
+        "SW": -1
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          1,
+          1,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "WW",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": -1
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "EEE",
+      "j": -2,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          2,
+          1,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "EEE",
+      "j": -1,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          1,
+          2,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "EEE",
+      "j": 0,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ]
+      ],
+      "lowL": true,
+      "highC": false
+    },
+    {
+      "word": "EEW",
+      "j": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      },
+      "pairs": [
+        [
+          1,
+          2,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": true
+    },
+    {
+      "word": "EEW",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ],
+        [
+          2,
+          1,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "EWE",
+      "j": -2,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          1,
+          2,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "EWE",
+      "j": -1,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          2,
+          1,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "EWE",
+      "j": 0,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ]
+      ],
+      "lowL": true,
+      "highC": false
+    },
+    {
+      "word": "EWW",
+      "j": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          2,
+          1,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": true
+    },
+    {
+      "word": "EWW",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ],
+        [
+          1,
+          2,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "WEE",
+      "j": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      },
+      "pairs": [
+        [
+          2,
+          1,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": true
+    },
+    {
+      "word": "WEE",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -1
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ],
+        [
+          1,
+          2,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "WEW",
+      "j": -2,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          1,
+          2,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "WEW",
+      "j": -1,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          2,
+          1,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "WEW",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ]
+      ],
+      "lowL": true,
+      "highC": false
+    },
+    {
+      "word": "WWE",
+      "j": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          1,
+          2,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": true
+    },
+    {
+      "word": "WWE",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ],
+        [
+          2,
+          1,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "WWW",
+      "j": -2,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          2,
+          1,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "WWW",
+      "j": -1,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          1,
+          2,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "WWW",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ]
+      ],
+      "lowL": true,
+      "highC": false
+    },
+    {
+      "word": "EEEE",
+      "j": -3,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          3,
+          3,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": true
+    },
+    {
+      "word": "EEEE",
+      "j": -2,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          2,
+          1,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "EEEE",
+      "j": -1,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          1,
+          2,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "EEEE",
+      "j": 0,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ]
+      ],
+      "lowL": true,
+      "highC": false
+    },
+    {
+      "word": "EEEW",
+      "j": -2,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          2,
+          1,
+          "L"
+        ],
+        [
+          3,
+          3,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "EEEW",
+      "j": -1,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          1,
+          2,
+          "R"
+        ]
+      ],
+      "lowL": true,
+      "highC": false
+    },
+    {
+      "word": "EEEW",
+      "j": 0,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ]
+      ],
+      "lowL": true,
+      "highC": false
+    },
+    {
+      "word": "EEWE",
+      "j": -2,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -1
+      },
+      "pairs": [
+        [
+          3,
+          3,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": true
+    },
+    {
+      "word": "EEWE",
+      "j": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -1
+      },
+      "pairs": [
+        [
+          1,
+          2,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": true
+    },
+    {
+      "word": "EEWE",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -1
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ],
+        [
+          2,
+          1,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "EEWW",
+      "j": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          1,
+          2,
+          "L"
+        ],
+        [
+          3,
+          3,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": true
+    },
+    {
+      "word": "EEWW",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ],
+        [
+          2,
+          1,
+          "R"
+        ]
+      ],
+      "lowL": true,
+      "highC": false
+    },
+    {
+      "word": "EWEE",
+      "j": -2,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          1,
+          2,
+          "L"
+        ],
+        [
+          3,
+          3,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "EWEE",
+      "j": -1,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          2,
+          1,
+          "R"
+        ]
+      ],
+      "lowL": true,
+      "highC": false
+    },
+    {
+      "word": "EWEE",
+      "j": 0,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ]
+      ],
+      "lowL": true,
+      "highC": false
+    },
+    {
+      "word": "EWEW",
+      "j": -3,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      },
+      "pairs": [
+        [
+          3,
+          3,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": true
+    },
+    {
+      "word": "EWEW",
+      "j": -2,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      },
+      "pairs": [
+        [
+          1,
+          2,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "EWEW",
+      "j": -1,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      },
+      "pairs": [
+        [
+          2,
+          1,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "EWEW",
+      "j": 0,
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ]
+      ],
+      "lowL": true,
+      "highC": false
+    },
+    {
+      "word": "EWWE",
+      "j": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          2,
+          1,
+          "L"
+        ],
+        [
+          3,
+          3,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": true
+    },
+    {
+      "word": "EWWE",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ],
+        [
+          1,
+          2,
+          "R"
+        ]
+      ],
+      "lowL": true,
+      "highC": false
+    },
+    {
+      "word": "EWWW",
+      "j": -2,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          3,
+          3,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": true
+    },
+    {
+      "word": "EWWW",
+      "j": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          2,
+          1,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": true
+    },
+    {
+      "word": "EWWW",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ],
+        [
+          1,
+          2,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "WEEE",
+      "j": -2,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -1
+      },
+      "pairs": [
+        [
+          3,
+          3,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": true
+    },
+    {
+      "word": "WEEE",
+      "j": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -1
+      },
+      "pairs": [
+        [
+          2,
+          1,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": true
+    },
+    {
+      "word": "WEEE",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -1
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ],
+        [
+          1,
+          2,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "WEEW",
+      "j": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          2,
+          1,
+          "L"
+        ],
+        [
+          3,
+          3,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": true
+    },
+    {
+      "word": "WEEW",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ],
+        [
+          1,
+          2,
+          "R"
+        ]
+      ],
+      "lowL": true,
+      "highC": false
+    },
+    {
+      "word": "WEWE",
+      "j": -3,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          3,
+          3,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": true
+    },
+    {
+      "word": "WEWE",
+      "j": -2,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          1,
+          2,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "WEWE",
+      "j": -1,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          2,
+          1,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "WEWE",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ]
+      ],
+      "lowL": true,
+      "highC": false
+    },
+    {
+      "word": "WEWW",
+      "j": -2,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          1,
+          2,
+          "L"
+        ],
+        [
+          3,
+          3,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "WEWW",
+      "j": -1,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          2,
+          1,
+          "R"
+        ]
+      ],
+      "lowL": true,
+      "highC": false
+    },
+    {
+      "word": "WEWW",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ]
+      ],
+      "lowL": true,
+      "highC": false
+    },
+    {
+      "word": "WWEE",
+      "j": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          1,
+          2,
+          "L"
+        ],
+        [
+          3,
+          3,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": true
+    },
+    {
+      "word": "WWEE",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -2
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ],
+        [
+          2,
+          1,
+          "R"
+        ]
+      ],
+      "lowL": true,
+      "highC": false
+    },
+    {
+      "word": "WWEW",
+      "j": -2,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          3,
+          3,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": true
+    },
+    {
+      "word": "WWEW",
+      "j": -1,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          1,
+          2,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": true
+    },
+    {
+      "word": "WWEW",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": 0
+      },
+      "L": {
+        "NW": -1,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ],
+        [
+          2,
+          1,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "WWWE",
+      "j": -2,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          2,
+          1,
+          "L"
+        ],
+        [
+          3,
+          3,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "WWWE",
+      "j": -1,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          1,
+          2,
+          "R"
+        ]
+      ],
+      "lowL": true,
+      "highC": false
+    },
+    {
+      "word": "WWWE",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ]
+      ],
+      "lowL": true,
+      "highC": false
+    },
+    {
+      "word": "WWWW",
+      "j": -3,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      },
+      "pairs": [
+        [
+          3,
+          3,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": true
+    },
+    {
+      "word": "WWWW",
+      "j": -2,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      },
+      "pairs": [
+        [
+          2,
+          1,
+          "L"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "WWWW",
+      "j": -1,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      },
+      "pairs": [
+        [
+          1,
+          2,
+          "R"
+        ]
+      ],
+      "lowL": false,
+      "highC": false
+    },
+    {
+      "word": "WWWW",
+      "j": 0,
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      },
+      "pairs": [
+        [
+          0,
+          0,
+          "R"
+        ]
+      ],
+      "lowL": true,
+      "highC": false
+    }
+  ],
+  "all12_max_RIGHT_middle_rows": [
+    {
+      "word": "EEE",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EWE",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      }
+    },
+    {
+      "word": "WEW",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WWW",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -3
+      }
+    },
+    {
+      "word": "EEEE",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      }
+    },
+    {
+      "word": "EEEW",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      }
+    },
+    {
+      "word": "EWEE",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      }
+    },
+    {
+      "word": "EWEW",
+      "C": {
+        "NE": -2,
+        "SW": 0
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      }
+    },
+    {
+      "word": "WEWE",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -4,
+        "SE": -2
+      }
+    },
+    {
+      "word": "WEWW",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      }
+    },
+    {
+      "word": "WWWE",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -3,
+        "SE": -3
+      }
+    },
+    {
+      "word": "WWWW",
+      "C": {
+        "NE": 0,
+        "SW": -2
+      },
+      "L": {
+        "NW": -2,
+        "SE": -4
+      }
+    }
+  ],
+  "all10_top_odd_histories": [
+    {
+      "word": "E",
+      "kind": "singleton",
+      "L": {
+        "NW": -1,
+        "SE": -1
+      },
+      "can_root_low": false
+    },
+    {
+      "word": "W",
+      "kind": "singleton",
+      "L": {
+        "NW": -1,
+        "SE": -1
+      },
+      "can_root_low": false
+    },
+    {
+      "word": "EEE",
+      "kind": "sameR",
+      "L": {
+        "NW": -3,
+        "SE": -2
+      },
+      "can_root_low": true
+    },
+    {
+      "word": "EEW",
+      "kind": "oppositeR",
+      "L": {
+        "NW": -2,
+        "SE": -1
+      },
+      "can_root_low": false
+    },
+    {
+      "word": "EWE",
+      "kind": "sameR",
+      "L": {
+        "NW": -2,
+        "SE": -3
+      },
+      "can_root_low": true
+    },
+    {
+      "word": "EWW",
+      "kind": "oppositeR",
+      "L": {
+        "NW": -1,
+        "SE": -2
+      },
+      "can_root_low": false
+    },
+    {
+      "word": "WEE",
+      "kind": "oppositeR",
+      "L": {
+        "NW": -2,
+        "SE": -1
+      },
+      "can_root_low": false
+    },
+    {
+      "word": "WEW",
+      "kind": "sameR",
+      "L": {
+        "NW": -3,
+        "SE": -2
+      },
+      "can_root_low": true
+    },
+    {
+      "word": "WWE",
+      "kind": "oppositeR",
+      "L": {
+        "NW": -1,
+        "SE": -2
+      },
+      "can_root_low": false
+    },
+    {
+      "word": "WWW",
+      "kind": "sameR",
+      "L": {
+        "NW": -2,
+        "SE": -3
+      },
+      "can_root_low": true
+    }
+  ],
+  "analytic": [
+    "Every physical sheet port is determined by h(L)<j<=h(C). Fresh complete30-history/78-sheet reconstruction uses the actual L1/R2 swapped successor, not just edge support. If both low L<=j-2, a two-port arc turns RIGHT around the sole highC; the sole possible four-port equality has C=j,L=j-2 and twoRIGHT arcs. Both L sectors connect in the complementary central patch. Dually both C>=j+1 are connected across a twoLEFT four-port equality or around the sole lowL arc. These local face-center connections embed the entire contact graphs in the complement of all sheet-j circles.",
+    "For j=M-1, each global-max C component stays on one side of any canonical circle and contains its signed essential first-L curve. A finite Jordan disk cannot contain it. At a max-RIGHT corner the maxC lies on the RIGHT side, so a contractible such circle must have its bounded disk LEFT (CCW). Both adjacent L sectors are on that LEFT side; at least one has height<=M-3 by the fresh full same-R inventory.",
+    "The L<=M-3 contact barrier keeps the low face component inside the bounded disk. A minimum plateau Q among all inside L faces is locally minimal in the full plane: any adjacent lower face would be in the same retained sublevel contact graph and therefore also inside. Q is finite physically. It cannot meet or become adjacent to a nonzero full-drift translate of itself at the same level, since equal connected components would imply an infinite translated physical set. Thus quotient projection cannot manufacture essential winding or an outside lower neighbor.",
+    "Apply the signed prepared reverse-plateau alternative with WHITE collar exactly when Q has no odd-output incident cell. It then gives an essential reverse birth curve in Q, impossible in a bounded physical disk. No inequality m>=c_left is silently assumed: the stronger no-black essential-curve alternative in that signed theorem applies at every height, with m<c_left as a consequence if no root. Hence this physically finite minimum must have an odd-output root.",
+    "All lifted sheet circles are disjoint. Nested disks are impossible: the inner max-RIGHT corner connects its maxC face center to its RIGHT sector without crossing another sheet contour, putting a maxC face inside the outer disk. Unique max-RIGHT local arc (otherC=M-2) prevents a second arc hiding in that corner connection. Thus all physical disks and all nonzero full-drift translates are disjoint. A root cell cannot serve two disks: if its two low L sectors do, the same retained contact joins them in the complement of all circles, contradiction. Full-quotient root aliasing is handled by translating the associated disk.",
+    "Fresh odd-history levels show top singleton L=-1,-1 and top opposite-R3 L=-2,-1 relativeM, too high to root Q. A top root must be same-R3 at low L=M-3 and is a G3(M) endpoint. The signed pairing preserves its ENTIRE connected L plateau, so the partner endpoint and finite path stay associated with this same Q. Distinct disks cannot spend the same path. Select a non-top root if available; otherwise assign its top G3 path. This yields h<=Nodd-Ntop+J=Nodd-Nshallow-J without adding endpoints again to other overlapping budgets."
+  ],
+  "scope": "Complete WHITE cap4 actual full nonzero-drift translating front, noK1/leftmost/leaf premise. H counts distinct contractible penultimate nodes with max-RIGHT corner. At zero odd output this family is empty even at nonleaf degree. Essential nodes, other contractible root geometries, graph-rank bounds and initial-fuel/capture claims remain outside scope."
+}

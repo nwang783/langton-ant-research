@@ -1,0 +1,43 @@
+{
+  "status": "PASS dependent literal four-L cleanup and prior boundary-stock ages only",
+  "proof_sha256": "319400b2a930532d5bf73f51b19498db5c18cf29aa07da28d875a7a2ddb90cc5",
+  "base_report_sha256": "a7ba88c1e91f05bd9a5ab44d0e8a4bce0b42eb404f6a5ab74411654dfa0a30f4",
+  "rows": [
+    {
+      "Z": "NNSS",
+      "A": "EEWW",
+      "B": "SNNS",
+      "Y": "EWW"
+    },
+    {
+      "Z": "NNSS",
+      "A": "EEWW",
+      "B": "SNNS",
+      "Y": "EWWE"
+    }
+  ],
+  "literal_path": [
+    [
+      "Y",
+      1
+    ],
+    [
+      "Z",
+      3
+    ],
+    [
+      "A",
+      1
+    ],
+    [
+      "B",
+      1
+    ],
+    [
+      "Y",
+      2
+    ]
+  ],
+  "chronology": "Set t=Y1; Y2=t+4, Z3=t+1,A1=t+2,B0=t-1,B1=t+3,Z2=Y0+1,A0=Z0+1. Y0<=t-4 and Z2>=Z0+8 give Z0<=t-11,A0<=t-10,A1-A0>=12.",
+  "scope": "Same physical pose return, all suppliers on displayed boundary. No fresh fuel, independent root, outward excursion or iteration."
+}

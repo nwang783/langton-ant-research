@@ -1,0 +1,1613 @@
+{
+  "scope": "Discovery of ONE specified mixed twelve-corner cylinder, not a period search.\nTwo flat RIGHTs in RR, two RLR3 macros and one intervening VV bridge.\nFull d=(-6,0); all count-forced missing corner cells, complete WHITE cap4\nhistories, zero ports, physical ordinals, voltage and critical sides retained.\n",
+  "summary": {
+    "CLOSED_EVENT_COMPONENT": 110344,
+    "RANK_RETURN": 11288
+  },
+  "rows": [
+    {
+      "flat_words": [
+        "NNSS",
+        "NNSS"
+      ],
+      "nodes": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "lift": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "history": "NNSS",
+          "role": "flat"
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "lift": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "history": "EEWW",
+          "role": "flat"
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "lift": [
+            1,
+            -1
+          ],
+          "turn": "L",
+          "ci": "S",
+          "co": "E",
+          "history": "NNSS",
+          "role": "V"
+        },
+        {
+          "cell": [
+            2,
+            -1
+          ],
+          "lift": [
+            2,
+            -1
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "history": "EWE",
+          "role": "source"
+        },
+        {
+          "cell": [
+            2,
+            -2
+          ],
+          "lift": [
+            2,
+            -2
+          ],
+          "turn": "L",
+          "ci": "S",
+          "co": "E",
+          "history": "NSSS",
+          "role": "cut3"
+        },
+        {
+          "cell": [
+            3,
+            -2
+          ],
+          "lift": [
+            3,
+            -2
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "history": "EEE",
+          "role": "sink"
+        },
+        {
+          "cell": [
+            3,
+            -3
+          ],
+          "lift": [
+            3,
+            -3
+          ],
+          "turn": "L",
+          "ci": "S",
+          "co": "E",
+          "history": "NNSS",
+          "role": "V"
+        },
+        {
+          "cell": [
+            4,
+            -3
+          ],
+          "lift": [
+            4,
+            -3
+          ],
+          "turn": "L",
+          "ci": "E",
+          "co": "N",
+          "history": "WWEE",
+          "role": "V"
+        },
+        {
+          "cell": [
+            4,
+            -2
+          ],
+          "lift": [
+            4,
+            -2
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "history": "NSN",
+          "role": "source"
+        },
+        {
+          "cell": [
+            5,
+            -2
+          ],
+          "lift": [
+            5,
+            -2
+          ],
+          "turn": "L",
+          "ci": "E",
+          "co": "N",
+          "history": "WEEE",
+          "role": "cut3"
+        },
+        {
+          "cell": [
+            5,
+            -1
+          ],
+          "lift": [
+            5,
+            -1
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "history": "NNN",
+          "role": "sink"
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "lift": [
+            6,
+            -1
+          ],
+          "turn": "L",
+          "ci": "E",
+          "co": "N",
+          "history": "WWEE",
+          "role": "V"
+        }
+      ],
+      "closure_cells": [
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -3
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          -3
+        ],
+        [
+          3,
+          -2
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          -3
+        ],
+        [
+          4,
+          -2
+        ],
+        [
+          4,
+          -1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          -3
+        ],
+        [
+          5,
+          -2
+        ],
+        [
+          5,
+          -1
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "counts": {
+        "CLOSED_EVENT_COMPONENT": 27586,
+        "RANK_RETURN": 2822
+      },
+      "first_witness": {
+        "CLOSED_EVENT_COMPONENT": {
+          "length": 12,
+          "winding": 0,
+          "all_events": 68,
+          "route": [
+            [
+              [
+                0,
+                -2
+              ],
+              0
+            ],
+            [
+              [
+                5,
+                -2
+              ],
+              0
+            ],
+            [
+              [
+                5,
+                -1
+              ],
+              0
+            ],
+            [
+              [
+                0,
+                -1
+              ],
+              2
+            ],
+            [
+              [
+                0,
+                -2
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                -2
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                -1
+              ],
+              1
+            ],
+            [
+              [
+                0,
+                -1
+              ],
+              0
+            ],
+            [
+              [
+                0,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                1,
+                -1
+              ],
+              2
+            ],
+            [
+              [
+                0,
+                -1
+              ],
+              1
+            ]
+          ]
+        },
+        "RANK_RETURN": {
+          "start": [
+            [
+              1,
+              -2
+            ],
+            2
+          ],
+          "target": [
+            [
+              1,
+              -2
+            ],
+            0
+          ],
+          "steps": 12
+        }
+      },
+      "open": []
+    },
+    {
+      "flat_words": [
+        "NNSS",
+        "NSSN"
+      ],
+      "nodes": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "lift": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "history": "NNSS",
+          "role": "flat"
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "lift": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "history": "EWWE",
+          "role": "flat"
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "lift": [
+            1,
+            -1
+          ],
+          "turn": "L",
+          "ci": "S",
+          "co": "E",
+          "history": "NNSS",
+          "role": "V"
+        },
+        {
+          "cell": [
+            2,
+            -1
+          ],
+          "lift": [
+            2,
+            -1
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "history": "EWE",
+          "role": "source"
+        },
+        {
+          "cell": [
+            2,
+            -2
+          ],
+          "lift": [
+            2,
+            -2
+          ],
+          "turn": "L",
+          "ci": "S",
+          "co": "E",
+          "history": "NSSS",
+          "role": "cut3"
+        },
+        {
+          "cell": [
+            3,
+            -2
+          ],
+          "lift": [
+            3,
+            -2
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "history": "EEE",
+          "role": "sink"
+        },
+        {
+          "cell": [
+            3,
+            -3
+          ],
+          "lift": [
+            3,
+            -3
+          ],
+          "turn": "L",
+          "ci": "S",
+          "co": "E",
+          "history": "NNSS",
+          "role": "V"
+        },
+        {
+          "cell": [
+            4,
+            -3
+          ],
+          "lift": [
+            4,
+            -3
+          ],
+          "turn": "L",
+          "ci": "E",
+          "co": "N",
+          "history": "WWEE",
+          "role": "V"
+        },
+        {
+          "cell": [
+            4,
+            -2
+          ],
+          "lift": [
+            4,
+            -2
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "history": "NSN",
+          "role": "source"
+        },
+        {
+          "cell": [
+            5,
+            -2
+          ],
+          "lift": [
+            5,
+            -2
+          ],
+          "turn": "L",
+          "ci": "E",
+          "co": "N",
+          "history": "WEEE",
+          "role": "cut3"
+        },
+        {
+          "cell": [
+            5,
+            -1
+          ],
+          "lift": [
+            5,
+            -1
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "history": "NNN",
+          "role": "sink"
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "lift": [
+            6,
+            -1
+          ],
+          "turn": "L",
+          "ci": "E",
+          "co": "N",
+          "history": "WWEE",
+          "role": "V"
+        }
+      ],
+      "closure_cells": [
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -3
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          -3
+        ],
+        [
+          3,
+          -2
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          -3
+        ],
+        [
+          4,
+          -2
+        ],
+        [
+          4,
+          -1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          -3
+        ],
+        [
+          5,
+          -2
+        ],
+        [
+          5,
+          -1
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "counts": {
+        "CLOSED_EVENT_COMPONENT": 27586,
+        "RANK_RETURN": 2822
+      },
+      "first_witness": {
+        "CLOSED_EVENT_COMPONENT": {
+          "length": 12,
+          "winding": 0,
+          "all_events": 68,
+          "route": [
+            [
+              [
+                0,
+                -2
+              ],
+              0
+            ],
+            [
+              [
+                5,
+                -2
+              ],
+              0
+            ],
+            [
+              [
+                5,
+                -1
+              ],
+              0
+            ],
+            [
+              [
+                0,
+                -1
+              ],
+              2
+            ],
+            [
+              [
+                0,
+                -2
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                -2
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                -1
+              ],
+              1
+            ],
+            [
+              [
+                0,
+                -1
+              ],
+              0
+            ],
+            [
+              [
+                0,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                1,
+                -1
+              ],
+              2
+            ],
+            [
+              [
+                0,
+                -1
+              ],
+              1
+            ]
+          ]
+        },
+        "RANK_RETURN": {
+          "start": [
+            [
+              1,
+              -2
+            ],
+            2
+          ],
+          "target": [
+            [
+              1,
+              -2
+            ],
+            0
+          ],
+          "steps": 12
+        }
+      },
+      "open": []
+    },
+    {
+      "flat_words": [
+        "NSSN",
+        "NNSS"
+      ],
+      "nodes": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "lift": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "history": "NSSN",
+          "role": "flat"
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "lift": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "history": "EEWW",
+          "role": "flat"
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "lift": [
+            1,
+            -1
+          ],
+          "turn": "L",
+          "ci": "S",
+          "co": "E",
+          "history": "NNSS",
+          "role": "V"
+        },
+        {
+          "cell": [
+            2,
+            -1
+          ],
+          "lift": [
+            2,
+            -1
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "history": "EWE",
+          "role": "source"
+        },
+        {
+          "cell": [
+            2,
+            -2
+          ],
+          "lift": [
+            2,
+            -2
+          ],
+          "turn": "L",
+          "ci": "S",
+          "co": "E",
+          "history": "NSSS",
+          "role": "cut3"
+        },
+        {
+          "cell": [
+            3,
+            -2
+          ],
+          "lift": [
+            3,
+            -2
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "history": "EEE",
+          "role": "sink"
+        },
+        {
+          "cell": [
+            3,
+            -3
+          ],
+          "lift": [
+            3,
+            -3
+          ],
+          "turn": "L",
+          "ci": "S",
+          "co": "E",
+          "history": "NNSS",
+          "role": "V"
+        },
+        {
+          "cell": [
+            4,
+            -3
+          ],
+          "lift": [
+            4,
+            -3
+          ],
+          "turn": "L",
+          "ci": "E",
+          "co": "N",
+          "history": "WWEE",
+          "role": "V"
+        },
+        {
+          "cell": [
+            4,
+            -2
+          ],
+          "lift": [
+            4,
+            -2
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "history": "NSN",
+          "role": "source"
+        },
+        {
+          "cell": [
+            5,
+            -2
+          ],
+          "lift": [
+            5,
+            -2
+          ],
+          "turn": "L",
+          "ci": "E",
+          "co": "N",
+          "history": "WEEE",
+          "role": "cut3"
+        },
+        {
+          "cell": [
+            5,
+            -1
+          ],
+          "lift": [
+            5,
+            -1
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "history": "NNN",
+          "role": "sink"
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "lift": [
+            6,
+            -1
+          ],
+          "turn": "L",
+          "ci": "E",
+          "co": "N",
+          "history": "WWEE",
+          "role": "V"
+        }
+      ],
+      "closure_cells": [
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -3
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          -3
+        ],
+        [
+          3,
+          -2
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          -3
+        ],
+        [
+          4,
+          -2
+        ],
+        [
+          4,
+          -1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          -3
+        ],
+        [
+          5,
+          -2
+        ],
+        [
+          5,
+          -1
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "counts": {
+        "CLOSED_EVENT_COMPONENT": 27586,
+        "RANK_RETURN": 2822
+      },
+      "first_witness": {
+        "CLOSED_EVENT_COMPONENT": {
+          "length": 12,
+          "winding": 0,
+          "all_events": 68,
+          "route": [
+            [
+              [
+                0,
+                -2
+              ],
+              0
+            ],
+            [
+              [
+                5,
+                -2
+              ],
+              0
+            ],
+            [
+              [
+                5,
+                -1
+              ],
+              0
+            ],
+            [
+              [
+                0,
+                -1
+              ],
+              2
+            ],
+            [
+              [
+                0,
+                -2
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                -2
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                -1
+              ],
+              1
+            ],
+            [
+              [
+                0,
+                -1
+              ],
+              0
+            ],
+            [
+              [
+                0,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                1,
+                -1
+              ],
+              2
+            ],
+            [
+              [
+                0,
+                -1
+              ],
+              1
+            ]
+          ]
+        },
+        "RANK_RETURN": {
+          "start": [
+            [
+              1,
+              -2
+            ],
+            2
+          ],
+          "target": [
+            [
+              1,
+              -2
+            ],
+            0
+          ],
+          "steps": 12
+        }
+      },
+      "open": []
+    },
+    {
+      "flat_words": [
+        "NSSN",
+        "NSSN"
+      ],
+      "nodes": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "lift": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "history": "NSSN",
+          "role": "flat"
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "lift": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "history": "EWWE",
+          "role": "flat"
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "lift": [
+            1,
+            -1
+          ],
+          "turn": "L",
+          "ci": "S",
+          "co": "E",
+          "history": "NNSS",
+          "role": "V"
+        },
+        {
+          "cell": [
+            2,
+            -1
+          ],
+          "lift": [
+            2,
+            -1
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "history": "EWE",
+          "role": "source"
+        },
+        {
+          "cell": [
+            2,
+            -2
+          ],
+          "lift": [
+            2,
+            -2
+          ],
+          "turn": "L",
+          "ci": "S",
+          "co": "E",
+          "history": "NSSS",
+          "role": "cut3"
+        },
+        {
+          "cell": [
+            3,
+            -2
+          ],
+          "lift": [
+            3,
+            -2
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "history": "EEE",
+          "role": "sink"
+        },
+        {
+          "cell": [
+            3,
+            -3
+          ],
+          "lift": [
+            3,
+            -3
+          ],
+          "turn": "L",
+          "ci": "S",
+          "co": "E",
+          "history": "NNSS",
+          "role": "V"
+        },
+        {
+          "cell": [
+            4,
+            -3
+          ],
+          "lift": [
+            4,
+            -3
+          ],
+          "turn": "L",
+          "ci": "E",
+          "co": "N",
+          "history": "WWEE",
+          "role": "V"
+        },
+        {
+          "cell": [
+            4,
+            -2
+          ],
+          "lift": [
+            4,
+            -2
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "history": "NSN",
+          "role": "source"
+        },
+        {
+          "cell": [
+            5,
+            -2
+          ],
+          "lift": [
+            5,
+            -2
+          ],
+          "turn": "L",
+          "ci": "E",
+          "co": "N",
+          "history": "WEEE",
+          "role": "cut3"
+        },
+        {
+          "cell": [
+            5,
+            -1
+          ],
+          "lift": [
+            5,
+            -1
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "history": "NNN",
+          "role": "sink"
+        },
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "lift": [
+            6,
+            -1
+          ],
+          "turn": "L",
+          "ci": "E",
+          "co": "N",
+          "history": "WWEE",
+          "role": "V"
+        }
+      ],
+      "closure_cells": [
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -3
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          -3
+        ],
+        [
+          3,
+          -2
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          -3
+        ],
+        [
+          4,
+          -2
+        ],
+        [
+          4,
+          -1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          -3
+        ],
+        [
+          5,
+          -2
+        ],
+        [
+          5,
+          -1
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "counts": {
+        "CLOSED_EVENT_COMPONENT": 27586,
+        "RANK_RETURN": 2822
+      },
+      "first_witness": {
+        "CLOSED_EVENT_COMPONENT": {
+          "length": 12,
+          "winding": 0,
+          "all_events": 68,
+          "route": [
+            [
+              [
+                0,
+                -2
+              ],
+              0
+            ],
+            [
+              [
+                5,
+                -2
+              ],
+              0
+            ],
+            [
+              [
+                5,
+                -1
+              ],
+              0
+            ],
+            [
+              [
+                0,
+                -1
+              ],
+              2
+            ],
+            [
+              [
+                0,
+                -2
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                -2
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                -1
+              ],
+              1
+            ],
+            [
+              [
+                0,
+                -1
+              ],
+              0
+            ],
+            [
+              [
+                0,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                1,
+                -1
+              ],
+              2
+            ],
+            [
+              [
+                0,
+                -1
+              ],
+              1
+            ]
+          ]
+        },
+        "RANK_RETURN": {
+          "start": [
+            [
+              1,
+              -2
+            ],
+            2
+          ],
+          "target": [
+            [
+              1,
+              -2
+            ],
+            0
+          ],
+          "steps": 12
+        }
+      },
+      "open": []
+    }
+  ]
+}

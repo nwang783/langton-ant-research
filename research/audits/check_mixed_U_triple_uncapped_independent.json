@@ -1,0 +1,162 @@
+{
+  "status": "PASS uncapped mixed U->3 helper count and higher-C obstruction",
+  "proof": "669221aa17ef792084214ae1b71576ff8f7d43358c3de9f7df5a7244b87e1d9f",
+  "control": "0cf1dc01a698f256a33b08d66e2f88c574f1ef9bc6d9bbbff3e6e5c0af10384c",
+  "actual_boundary_edges": [
+    [
+      "u",
+      0,
+      "s",
+      0
+    ],
+    [
+      "u",
+      1,
+      "s",
+      2
+    ],
+    [
+      "s",
+      0,
+      "w",
+      1
+    ],
+    [
+      "s",
+      1,
+      "w",
+      2
+    ],
+    [
+      "s",
+      2,
+      "w",
+      3
+    ]
+  ],
+  "derived_complete_count_profiles": [
+    {
+      "history": "SN",
+      "S_rank": 0,
+      "W_departure_ranks": [
+        0,
+        1
+      ],
+      "strict_bracket": false,
+      "R_N_count": 0,
+      "height_raise": 0
+    },
+    {
+      "history": "SNN",
+      "S_rank": 0,
+      "W_departure_ranks": [
+        0,
+        1
+      ],
+      "strict_bracket": false,
+      "R_N_count": 1,
+      "height_raise": 1
+    },
+    {
+      "history": "NNS",
+      "S_rank": 2,
+      "W_departure_ranks": [
+        1,
+        2
+      ],
+      "strict_bracket": false,
+      "R_N_count": 1,
+      "height_raise": 1
+    },
+    {
+      "history": "NSNNNN",
+      "S_rank": 1,
+      "W_departure_ranks": [
+        3,
+        5
+      ],
+      "strict_bracket": false,
+      "R_N_count": 3,
+      "height_raise": 3
+    },
+    {
+      "history": "NNNSNN",
+      "S_rank": 3,
+      "W_departure_ranks": [
+        1,
+        5
+      ],
+      "strict_bracket": true,
+      "R_N_count": 3,
+      "height_raise": 3
+    },
+    {
+      "history": "NNNNNS",
+      "S_rank": 5,
+      "W_departure_ranks": [
+        1,
+        3
+      ],
+      "strict_bracket": false,
+      "R_N_count": 3,
+      "height_raise": 3
+    },
+    {
+      "history": "NSNNNNN",
+      "S_rank": 1,
+      "W_departure_ranks": [
+        3,
+        5
+      ],
+      "strict_bracket": false,
+      "R_N_count": 4,
+      "height_raise": 4
+    },
+    {
+      "history": "NNNSNNN",
+      "S_rank": 3,
+      "W_departure_ranks": [
+        1,
+        5
+      ],
+      "strict_bracket": true,
+      "R_N_count": 4,
+      "height_raise": 4
+    },
+    {
+      "history": "NNNNNSN",
+      "S_rank": 5,
+      "W_departure_ranks": [
+        1,
+        3
+      ],
+      "strict_bracket": false,
+      "R_N_count": 4,
+      "height_raise": 4
+    }
+  ],
+  "strict_survivors": [
+    "NNNSNN",
+    "NNNSNNN"
+  ],
+  "stream_heights_relative_c": {
+    "NNNSNN": {
+      "C_NW": 0,
+      "L_NE": -1,
+      "L_SW": -2,
+      "C_SE": 3
+    },
+    "NNNSNNN": {
+      "C_NW": 0,
+      "L_NE": -1,
+      "L_SW": -2,
+      "C_SE": 4
+    }
+  },
+  "analytic_review": [
+    "Complete uWEEW,sNSN,wWEEE histories fix every physical port copy. Exact uR0->sR0->wL1 and uL1->sR2->wL3 imply T2w>=T0u+6 and <=T1u-2. With T3u>=T1u+8, helper firstW=T0u-1 < uniqueS=T2w+1 < secondW=T3u-1. All earlier helper reads remain allowed.",
+    "Ant parity sector makes helper arrivals N/S only. Sin1 andWout2 give m+1=2 if soleS at even rank, or m-1=2 if odd. Thus n2/3 or6/7 is DERIVED, not imposed. Strict event bracket rejects all even-rankS and leaves only oddrank3, hence entire historiesNNNSNN/NNNSNNN withW ranks1/5.",
+    "Unrestricted directed-port stream equations independently reconstruct sharedNW C=c, NE L=c-1,SW L=c-2 andSE C=c+3/c+4, including the optional seventh R. No cap4 maximum rule is applied at helperD; its multiplicity starts unrestricted.",
+    "Therefore any complete exterior needs>=6 helper reads; cap4 is impossible. If the displayed boundary c is GLOBAL C maximum the higher face also contradicts it with unrestricted exterior cap. At a nonmaximal level these remain genuine necessary higher-C escape modes, not an all-front exclusion or iterative fuel claim."
+  ]
+}

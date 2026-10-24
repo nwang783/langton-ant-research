@@ -1,0 +1,197 @@
+{
+  "width": 6,
+  "inputs": 131072,
+  "counts": {
+    "TRANSFER": 55314,
+    "S_ESCAPE": 1867,
+    "HEIGHT_EXIT": 72351,
+    "W_ESCAPE": 1540
+  },
+  "output_min_B_parity": {
+    "empty": 55120,
+    "1": 194
+  },
+  "distinct_outputs": 10,
+  "max_chain": 2,
+  "chains": [
+    [
+      [
+        2,
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        3,
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        6,
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        7,
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ],
+    [
+      [
+        18,
+        []
+      ],
+      [
+        0,
+        []
+      ]
+    ]
+  ],
+  "examples": [
+    {
+      "input": [
+        2,
+        []
+      ],
+      "output": [
+        0,
+        []
+      ],
+      "word": "LRRRRLRRRRLL"
+    },
+    {
+      "input": [
+        90,
+        []
+      ],
+      "output": [
+        80,
+        []
+      ],
+      "word": "LRRLRLLRRRRLLRRRRLLRLRRRRLRRRRLLLLRLRRRRLRLLLLRRRRLRRLRRRRLL"
+    },
+    {
+      "input": [
+        1370,
+        []
+      ],
+      "output": [
+        1360,
+        []
+      ],
+      "word": "LRRLRLLRRLLRRRRLLRRLLRRRRLLRRLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLLLLRLRRRRLRLLLLRRRRLRRLRRRRLL"
+    },
+    {
+      "input": [
+        1450,
+        []
+      ],
+      "output": [
+        1280,
+        []
+      ],
+      "word": "LRRLLRRLRLLRRRRLLRRRRLLRLRRRRLRRRRLLLLRLRRRRLRLLLLRRRRLRRLLRRLRRRRLL"
+    },
+    {
+      "input": [
+        2138,
+        []
+      ],
+      "output": [
+        27280,
+        []
+      ],
+      "word": "LRRLRLLRRRRLLRRRRLLRLRRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLLRRRRLLRLRRRRLRRRRLLLLRLRLLLLRRRRLRRLRRRRLL"
+    },
+    {
+      "input": [
+        90,
+        [
+          3
+        ]
+      ],
+      "output": [
+        1680,
+        []
+      ],
+      "word": "LRRLRLLRRRRLLRRRRLLRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRLLLLRRRRLRRLRRRRLL"
+    },
+    {
+      "input": [
+        650,
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "output": [
+        1920,
+        []
+      ],
+      "word": "LRLRRLRLLLLRRRRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLRRLRLRRRRLL"
+    },
+    {
+      "input": [
+        666,
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "output": [
+        2000,
+        []
+      ],
+      "word": "LRLRRLRLLLLRRRRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRRLRLRRRRLL"
+    },
+    {
+      "input": [
+        2570,
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "output": [
+        30720,
+        []
+      ],
+      "word": "LRLRRLRRRRLRRLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLRRLLLLRRLRRLRRLLRRLRLRRRRLL"
+    },
+    {
+      "input": [
+        1450,
+        [
+          5
+        ]
+      ],
+      "output": [
+        26880,
+        []
+      ],
+      "word": "LRRLLRRLRLLRRRRLLRRRRLLRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLRLLLLRRRRLRRLLRRLRRRRLL"
+    }
+  ],
+  "seconds": 2.5089826583862305
+}

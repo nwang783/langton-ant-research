@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "integer_matrices_tested": 2401,
+  "expansive": 1408,
+  "nonexpansive": 993,
+  "method": "Independent full 4-variable rational Lyapunov solve versus exact Schur test; all source contraction bounds checked by PSD",
+  "carry_controls": [
+    {
+      "matrix": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "states": 4,
+      "radius": 2,
+      "pair_target_checks": 589824
+    },
+    {
+      "matrix": [
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "states": 16,
+      "radius": 12,
+      "pair_target_checks": 589824
+    },
+    {
+      "matrix": [
+        [
+          0,
+          -2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "states": 11,
+      "radius": 3,
+      "pair_target_checks": 589824
+    }
+  ],
+  "frozen_files": {
+    "expanding_matrix_finite_support_bridge.md": "8c8e3baa8f8663443f6006386cc55702ce32d140fab289579a77bf60529cdd8c",
+    "expanding_matrix_visits.py": "d3b6633834dcb346641dd1769f95f0c69f0cc7073906f7417da3ebd9ed356f4b",
+    "expanding_matrix_controls.json": "5fd7df71d9801ba78dff933ea6607caa7b5ebed22dae3b4950c09b14091435c4",
+    "source_norms.json": "86ca956f1db6f8e6bd92ab1521b8451a1b8d5ed0fd1de96a12d90c5d61ef08ba"
+  },
+  "scope": "Exact analytic theorem and independently implemented norm/carry controls; no finite-seed counterexample and no claim to reverify all prior automata closure code."
+}

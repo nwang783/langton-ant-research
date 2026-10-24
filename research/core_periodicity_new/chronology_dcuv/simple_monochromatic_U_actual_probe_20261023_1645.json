@@ -1,0 +1,43 @@
+{
+  "status": "UNKNOWN_NO_HIT_IN_THIS_SINGLE_BOUNDED_DISCOVERY_PROBE",
+  "stats": {
+    "max_packet_depth": 14,
+    "node_budget": 200000,
+    "nodes": 200000,
+    "attempts": 374800,
+    "actual_literal_extensions": 200018,
+    "simple_extensions": 200018,
+    "contact_prunes": 0,
+    "depth_counts": [
+      0,
+      1,
+      2,
+      1,
+      1,
+      2,
+      4,
+      8,
+      24,
+      108,
+      437,
+      1911,
+      8333,
+      36018,
+      153150
+    ],
+    "max_component_U_input_hits": 4,
+    "first_types": [
+      7,
+      8,
+      9
+    ],
+    "scope": "Single bounded positive-discovery test only. No-hit UNKNOWN; no no-reachability theorem, no U1 model and no cap escalation.",
+    "seconds": 21.68553328514099,
+    "budget_exhausted": true
+  },
+  "dependencies": {
+    "chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "search_literal_all_input_reconvergence.py": "c9787301c48997ad92c5943d6ba9cfa84b1a54b65ea68c6d26a80200add6ef68",
+    "probe_simple_center_monochromatic_U_actual.py": "cfb9ff54bdb838c6213116e22436dc303ec1ea4815f23d184a98713a647be359"
+  }
+}

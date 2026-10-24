@@ -1,0 +1,56 @@
+BEGIN identity_R_empty seed []
+PARITY BEGIN
+PARITY COMPLETE
+READ 0 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+FRAME 0 4
+RESULT {"possible": true, "frame_checks": 4, "nested_root": true, "growing_root": false, "accepted_growing_model": false, "seed": [], "name": "identity_R_empty", "read_set_certificates": {"0": {"isl_relation": "{ [r, x = 0, y = 0] : r >= 0 }", "automaton_states": [2, 2, 2, 2], "edge_types": 1}}}
+BEGIN identity_L_empty seed []
+PARITY BEGIN
+PARITY COMPLETE
+READ 1 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+RESULT {"possible": false, "reason": "canonical zero-depth turn", "state": 1, "frame_checks": 0, "name": "identity_L_empty", "seed": [], "read_set_certificates": {"1": {"isl_relation": "{ [r, x = 0, y = 0] : r >= 0 }", "automaton_states": [2, 2, 2, 2], "edge_types": 1}}}
+BEGIN identity_L_origin seed [(0, 0)]
+PARITY BEGIN
+PARITY COMPLETE
+READ 1 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+FRAME 1 4
+RESULT {"possible": true, "frame_checks": 4, "nested_root": true, "growing_root": false, "accepted_growing_model": false, "seed": [[0, 0]], "name": "identity_L_origin", "read_set_certificates": {"1": {"isl_relation": "{ [r, x = 0, y = 0] : r >= 0 }", "automaton_states": [2, 2, 2, 2], "edge_types": 1}}}
+BEGIN branching_R5 seed []
+PARITY BEGIN
+PARITY COMPLETE
+READ 0 [4, 2, 4, 4] { [r, x, y] : 0 <= x <= 1 and x <= r and y >= -1 and -r <= y <= 0 }
+READ 2 [4, 4, 4, 2] { [r, x, y] : x >= -1 and -r <= x <= 0 and y >= -1 and -r + x <= y <= 0 }
+READ 4 [4, 4, 2, 4] { [r, x, y] : x >= -1 and -r <= x <= 0 and 0 <= y <= 1 and y <= r - x }
+READ 6 [2, 4, 4, 4] { [r, x, y] : 0 <= x <= 1 and x <= r and 0 <= y <= 1 and y <= r }
+RESULT {"possible": false, "reason": "all-depth frame disagreement", "state": 0, "child_index": 4, "witness": {"r": 0, "x": 0, "y": 0}, "frame_checks": 5, "name": "branching_R5", "seed": [], "read_set_certificates": {"0": {"isl_relation": "{ [r, x, y] : 0 <= x <= 1 and x <= r and y >= -1 and -r <= y <= 0 }", "automaton_states": [4, 2, 4, 4], "edge_types": 16}, "2": {"isl_relation": "{ [r, x, y] : x >= -1 and -r <= x <= 0 and y >= -1 and -r + x <= y <= 0 }", "automaton_states": [4, 4, 4, 2], "edge_types": 16}, "4": {"isl_relation": "{ [r, x, y] : x >= -1 and -r <= x <= 0 and 0 <= y <= 1 and y <= r - x }", "automaton_states": [4, 4, 2, 4], "edge_types": 16}, "6": {"isl_relation": "{ [r, x, y] : 0 <= x <= 1 and x <= r and 0 <= y <= 1 and y <= r }", "automaton_states": [2, 4, 4, 4], "edge_types": 16}}}
+BEGIN two_cycle_single_read seed []
+PARITY BEGIN
+PARITY COMPLETE
+READ 0 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+READ 1 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+FRAME 0 4
+FRAME 1 8
+RESULT {"possible": true, "frame_checks": 8, "nested_root": false, "growing_root": false, "accepted_growing_model": false, "seed": [], "name": "two_cycle_single_read", "read_set_certificates": {"0": {"isl_relation": "{ [r, x = 0, y = 0] : r >= 0 }", "automaton_states": [2, 2, 2, 2], "edge_types": 2}, "1": {"isl_relation": "{ [r, x = 0, y = 0] : r >= 0 }", "automaton_states": [2, 2, 2, 2], "edge_types": 2}}}
+BEGIN transient_nine_positive seed [(0, 1), (1, 0), (1, 1)]
+PARITY BEGIN
+PARITY COMPLETE
+READ 0 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+READ 1 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+READ 2 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+READ 3 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+READ 4 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+READ 5 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+READ 6 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+READ 7 [2, 2, 2, 2] { [r, x = 0, y = 0] : r >= 0 }
+READ 8 [4, 4, 4, 4] { [r, x, y] : 0 <= x <= 1 and x <= r and y >= -1 and -r - x <= y <= 1 and y <= r }
+FRAME 0 4
+FRAME 1 8
+FRAME 2 12
+FRAME 3 16
+FRAME 4 20
+FRAME 5 24
+FRAME 6 28
+FRAME 7 32
+FRAME 8 68
+RESULT {"possible": true, "frame_checks": 68, "nested_root": false, "growing_root": false, "accepted_growing_model": false, "seed": [[0, 1], [1, 0], [1, 1]], "name": "transient_nine_positive", "read_set_certificates": {"0": {"isl_relation": "{ [r, x = 0, y = 0] : r >= 0 }", "automaton_states": [2, 2, 2, 2], "edge_types": 1}, "1": {"isl_relation": "{ [r, x = 0, y = 0] : r >= 0 }", "automaton_states": [2, 2, 2, 2], "edge_types": 1}, "2": {"isl_relation": "{ [r, x = 0, y = 0] : r >= 0 }", "automaton_states": [2, 2, 2, 2], "edge_types": 1}, "3": {"isl_relation": "{ [r, x = 0, y = 0] : r >= 0 }", "automaton_states": [2, 2, 2, 2], "edge_types": 1}, "4": {"isl_relation": "{ [r, x = 0, y = 0] : r >= 0 }", "automaton_states": [2, 2, 2, 2], "edge_types": 1}, "5": {"isl_relation": "{ [r, x = 0, y = 0] : r >= 0 }", "automaton_states": [2, 2, 2, 2], "edge_types": 1}, "6": {"isl_relation": "{ [r, x = 0, y = 0] : r >= 0 }", "automaton_states": [2, 2, 2, 2], "edge_types": 1}, "7": {"isl_relation": "{ [r, x = 0, y = 0] : r >= 0 }", "automaton_states": [2, 2, 2, 2], "edge_types": 1}, "8": {"isl_relation": "{ [r, x, y] : 0 <= x <= 1 and x <= r and y >= -1 and -r - x <= y <= 1 and y <= r }", "automaton_states": [4, 4, 4, 4], "edge_types": 16}}}
+DONE 2.544752489993698

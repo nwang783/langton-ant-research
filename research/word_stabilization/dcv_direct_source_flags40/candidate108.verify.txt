@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/shared/langton/core_periodicity_new/verify_protected_patch_bdd_flags.py", line 34, in <module>
+    else:assert not violating(roots[src],roots[dst],k,v,flip,clear),('transition not closed',src,dst,a)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('transition not closed', 97, 70, 4)

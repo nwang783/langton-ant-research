@@ -1,0 +1,85 @@
+[
+  {
+    "m": 0,
+    "nodes": 17,
+    "status": "EXHAUSTED",
+    "found": null,
+    "counts": {}
+  },
+  {
+    "m": 1,
+    "nodes": 146,
+    "status": "EXHAUSTED",
+    "found": null,
+    "counts": {}
+  },
+  {
+    "m": 2,
+    "nodes": 989,
+    "status": "EXHAUSTED",
+    "found": null,
+    "counts": {}
+  },
+  {
+    "m": 3,
+    "nodes": 5983,
+    "status": "EXHAUSTED",
+    "found": null,
+    "counts": {}
+  },
+  {
+    "m": 4,
+    "nodes": 8746,
+    "status": "WITNESS",
+    "found": {
+      "seed": [
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "word": "RRRRLRRLRRLRRLLRRLRRLRRLRRRR",
+      "cycle": [
+        [
+          1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "kinds": [
+        "S",
+        "S",
+        "S",
+        "S"
+      ],
+      "criterion": "positive A-B or any same-type vertex"
+    },
+    "counts": {
+      "(4, 0, 0)": 20,
+      "(4, 0, 4)": 1
+    }
+  }
+]

@@ -1,0 +1,270 @@
+{
+  "status": "PASS independent macro expansion, intermediate scaled geometry and conflict replay",
+  "controls": [
+    {
+      "name": "zero_identity",
+      "literal_reads": 24,
+      "power_certificate": {
+        "verified_spatial_order": 2,
+        "first_letter_root_cycle": 1,
+        "common_power": 2,
+        "powered_macro_lengths": [
+          1
+        ],
+        "powered_physical_lengths": [
+          8
+        ]
+      },
+      "result": {
+        "processed_schemes": 2,
+        "terminal_read_schemes": 16,
+        "last_base_length": 1,
+        "theoretical_base_bound": 1,
+        "status": "decided",
+        "possible": true,
+        "complete_generated_cover": true,
+        "candidate_seed": [
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "given_seed_validation": {
+          "possible": true,
+          "frame_checks": 4,
+          "base_reads": 8,
+          "nested_root": true,
+          "growing_root": false,
+          "accepted_growing_model": false,
+          "seed": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        "seconds": 0.06414903499535285,
+        "adapter": {
+          "verified_spatial_order": 2,
+          "first_letter_root_cycle": 1,
+          "common_power": 2,
+          "powered_macro_lengths": [
+            1
+          ],
+          "powered_physical_lengths": [
+            8
+          ]
+        }
+      }
+    },
+    {
+      "name": "zero_two_cycle",
+      "literal_reads": 48,
+      "power_certificate": {
+        "verified_spatial_order": 2,
+        "first_letter_root_cycle": 2,
+        "common_power": 2,
+        "powered_macro_lengths": [
+          1,
+          1
+        ],
+        "powered_physical_lengths": [
+          8,
+          8
+        ]
+      },
+      "result": {
+        "processed_schemes": 2,
+        "terminal_read_schemes": 16,
+        "last_base_length": 1,
+        "theoretical_base_bound": 1,
+        "status": "decided",
+        "possible": true,
+        "complete_generated_cover": true,
+        "candidate_seed": [
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "given_seed_validation": {
+          "possible": true,
+          "frame_checks": 4,
+          "base_reads": 8,
+          "nested_root": true,
+          "growing_root": false,
+          "accepted_growing_model": false,
+          "seed": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        "seconds": 0.028466903997468762,
+        "adapter": {
+          "verified_spatial_order": 2,
+          "first_letter_root_cycle": 2,
+          "common_power": 2,
+          "powered_macro_lengths": [
+            1,
+            1
+          ],
+          "powered_physical_lengths": [
+            8,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "name": "zero_branch",
+      "literal_reads": 28,
+      "power_certificate": {
+        "verified_spatial_order": 2,
+        "first_letter_root_cycle": 1,
+        "common_power": 2,
+        "powered_macro_lengths": [
+          4
+        ],
+        "powered_physical_lengths": [
+          16
+        ]
+      },
+      "result": {
+        "status": "decided",
+        "possible": false,
+        "reason": "literal powered macro block internally inconsistent",
+        "conflict": {
+          "cell": [
+            0,
+            0
+          ],
+          "first_read": 0,
+          "conflicting_read": 4,
+          "required_initial_bits": [
+            0,
+            1
+          ]
+        },
+        "adapter": {
+          "verified_spatial_order": 2,
+          "first_letter_root_cycle": 1,
+          "common_power": 2,
+          "powered_macro_lengths": [
+            4
+          ],
+          "powered_physical_lengths": [
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "nonzero_multiread_halfturn",
+      "literal_reads": 6552,
+      "power_certificate": {
+        "verified_spatial_order": 2,
+        "first_letter_root_cycle": 1,
+        "common_power": 2,
+        "powered_macro_lengths": [
+          81,
+          81,
+          81,
+          81,
+          81,
+          81,
+          81,
+          81
+        ],
+        "powered_physical_lengths": [
+          729,
+          729,
+          729,
+          729,
+          729,
+          729,
+          729,
+          729
+        ]
+      },
+      "result": {
+        "status": "decided",
+        "possible": false,
+        "reason": "literal powered macro block internally inconsistent",
+        "conflict": {
+          "cell": [
+            1,
+            0
+          ],
+          "first_read": 5,
+          "conflicting_read": 9,
+          "required_initial_bits": [
+            1,
+            0
+          ]
+        },
+        "adapter": {
+          "verified_spatial_order": 2,
+          "first_letter_root_cycle": 1,
+          "common_power": 2,
+          "powered_macro_lengths": [
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81,
+            81
+          ],
+          "powered_physical_lengths": [
+            729,
+            729,
+            729,
+            729,
+            729,
+            729,
+            729,
+            729
+          ]
+        }
+      }
+    }
+  ],
+  "malformed_rejected": 4,
+  "explicit_cap_unknown": true,
+  "sha256": "f7e0c21e6b1c821a0f1d86bb1d035c8186325680a68001e3f608a74b46769b13"
+}

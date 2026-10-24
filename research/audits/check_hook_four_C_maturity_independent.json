@@ -1,0 +1,333 @@
+{
+  "status": "PASS arbitrary ordinary suffix Q/B hook first CURRENT loss needs base-entry C clock >=4",
+  "manifest": "528c463ab89e01317f2accaae17d2978e3d7875f8690b228ef8b9aa5e512566e",
+  "script": "6c28a7cae8f77f4f84acacd0689158fe81899fc9c3e4937dda2433a674fffa00",
+  "universal8ports": [
+    [
+      "D",
+      [
+        0,
+        1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ]
+    ],
+    [
+      "V",
+      [
+        0,
+        3
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ]
+    ],
+    [
+      "V",
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    [
+      "U",
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        -3
+      ],
+      [
+        3,
+        -1
+      ]
+    ],
+    [
+      "U",
+      [
+        -1,
+        2
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        2,
+        -1
+      ]
+    ],
+    [
+      "U",
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    [
+      "U",
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    [
+      "U",
+      [
+        -1,
+        4
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ]
+    ]
+  ],
+  "all256": [
+    {
+      "foreign": "Q",
+      "counts": {
+        "held_hook_CURRENT_entry_CORE": 13,
+        "held_hook_BLACK_first_WHITE": 39,
+        "sector": 64,
+        "clock3_E_lower_FOREIGN_output_endpoint_reserve": 3,
+        "clock0_N_head_y_negative": 5,
+        "clock2_S_left_lower_FOREIGN_output_endpoint_reserve": 3,
+        "clock1_W_head_below_y1": 1
+      },
+      "exact_reserve_witnesses": [
+        [
+          "D",
+          1,
+          [
+            -4,
+            -3
+          ],
+          [
+            -3,
+            -4
+          ],
+          45,
+          6
+        ],
+        [
+          "V",
+          1,
+          [
+            -6,
+            -3
+          ],
+          [
+            -5,
+            -4
+          ],
+          9,
+          6
+        ],
+        [
+          "U",
+          1,
+          [
+            -7,
+            -4
+          ],
+          [
+            -6,
+            -5
+          ],
+          7,
+          6
+        ],
+        [
+          "U",
+          2,
+          [
+            -3,
+            -1
+          ],
+          [
+            -4,
+            -4
+          ],
+          4,
+          26
+        ],
+        [
+          "U",
+          2,
+          [
+            -4,
+            -2
+          ],
+          [
+            -5,
+            -5
+          ],
+          26,
+          26
+        ],
+        [
+          "U",
+          2,
+          [
+            -3,
+            -1
+          ],
+          [
+            -4,
+            -4
+          ],
+          4,
+          26
+        ]
+      ]
+    },
+    {
+      "foreign": "B",
+      "counts": {
+        "sector": 64,
+        "held_hook_BLACK_first_WHITE": 39,
+        "held_hook_CURRENT_entry_CORE": 13,
+        "clock3_E_lower_FOREIGN_output_endpoint_reserve": 3,
+        "clock0_N_head_y_negative": 5,
+        "clock2_S_left_lower_FOREIGN_output_endpoint_reserve": 3,
+        "clock1_W_head_below_y1": 1
+      },
+      "exact_reserve_witnesses": [
+        [
+          "D",
+          1,
+          [
+            -3,
+            -4
+          ],
+          [
+            -2,
+            -5
+          ],
+          45,
+          6
+        ],
+        [
+          "V",
+          1,
+          [
+            -5,
+            -4
+          ],
+          [
+            -4,
+            -5
+          ],
+          9,
+          6
+        ],
+        [
+          "U",
+          1,
+          [
+            -6,
+            -5
+          ],
+          [
+            -5,
+            -6
+          ],
+          7,
+          6
+        ],
+        [
+          "U",
+          2,
+          [
+            -3,
+            -3
+          ],
+          [
+            -4,
+            -6
+          ],
+          26,
+          26
+        ],
+        [
+          "U",
+          2,
+          [
+            -2,
+            -2
+          ],
+          [
+            -3,
+            -5
+          ],
+          4,
+          26
+        ],
+        [
+          "U",
+          2,
+          [
+            -2,
+            -2
+          ],
+          [
+            -3,
+            -5
+          ],
+          4,
+          26
+        ]
+      ]
+    }
+  ],
+  "named_regression_replays": 286,
+  "analytic_review": [
+    "The clock is actual ordinaryC count AFTER foreignRAW EXIT. Source-field R IDs are independently born within actual foreignRAW and survive its real marker; no earlier-source age is reused. All initial hook/guard tags are externalCURRENT.",
+    "Trueinput table includes firstL outsideentryK in actualRAW+M, and every newexitK cell is explicitly first-color constrained; external->CORE capture counts as CURRENT loss even if oldphysicalBLACK dies only nextread2. C has no such input. The statement is at marked RAW cuts/ordinary entries, not a claim about every intermediate fine-cut geometric core.",
+    "For any initialtaggy<=-1, N heads y>=0 and positiveinputy exclude loss; W heads y>=1 and inputx>=-1 likewise exclude it. A prior S loss has RAWexitx<=gx,y<=gy. Remaining S heads cannot increasex; if targetE, the intervening S-to-E C decreasesy1 and laterE heads cannot increase y. A prior E loss also exitsy<=gy. Thus S targetheadx>gx or E targetheady>gy cannot follow any earlier originalCURRENT loss, regardless of subsequent rebirths or proxycontacts.",
+    "All128 first-hook-loss alignments perforeign are independently rebuilt. RemainingN/W heads violatecones; S2 roles require the protected left/lower foreigntagWHITE at U ownR26, and E3 roles require the protected lower tagWHITE at ownR6. These are trueRAW conflicts, not hypothetical postforeign maturity laws.",
+    "The286 named controls replay but are not premises for arbitrary run lengths. AllhookIDs remainCURRENT at markedcuts with actualCclock<=3; firstlossatclock>=4 remainsOPEN. No foreign-proxy simplicity, U ancestry, secondforeign, whole-outputpermanence or globalcapture theorem follows."
+  ]
+}

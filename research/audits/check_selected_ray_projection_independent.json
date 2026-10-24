@@ -1,0 +1,38 @@
+{
+  "status": "PASS independent exact all-input automaton equivalence",
+  "affine_machine_states": [
+    9,
+    13
+  ],
+  "xor_states": 20,
+  "parity_vector_states": 43,
+  "equivalence_pairs": 43,
+  "literal_selected_occurrences": [
+    {
+      "a": 0,
+      "depth": 0,
+      "leaf_index": 0,
+      "prior_black_parity": false
+    },
+    {
+      "a": 1,
+      "depth": 2,
+      "leaf_index": 10,
+      "prior_black_parity": true
+    },
+    {
+      "a": 2,
+      "depth": 4,
+      "leaf_index": 820,
+      "prior_black_parity": false
+    },
+    {
+      "a": 3,
+      "depth": 6,
+      "leaf_index": 66430,
+      "prior_black_parity": true
+    }
+  ],
+  "infinite_required_black_subfamily": "a=4^j, j>=0; physical cells(a,a)",
+  "scope": "Critical selected-occurrence mechanism only. Known excluded unit-nine control, no full occurrence-cover compiler or new class exclusion."
+}

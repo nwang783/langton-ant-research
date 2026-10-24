@@ -1,0 +1,100 @@
+{
+  "status": "PASS exact packet energy/duration arithmetic and reviewed symbolic-root epoch proof",
+  "lambda_rational": "8/5",
+  "B": "128/13",
+  "rows": [
+    {
+      "packet": 0,
+      "ages": [
+        3
+      ],
+      "base_outputs": 1,
+      "input_min_weight": "512/125",
+      "duration_slack": 0
+    },
+    {
+      "packet": 1,
+      "ages": [
+        3
+      ],
+      "base_outputs": 1,
+      "input_min_weight": "512/125",
+      "duration_slack": 0
+    },
+    {
+      "packet": 4,
+      "ages": [
+        2,
+        3
+      ],
+      "base_outputs": 6,
+      "input_min_weight": "832/125",
+      "duration_slack": 2
+    },
+    {
+      "packet": 5,
+      "ages": [
+        2,
+        3
+      ],
+      "base_outputs": 6,
+      "input_min_weight": "832/125",
+      "duration_slack": 2
+    },
+    {
+      "packet": 6,
+      "ages": [
+        4,
+        4
+      ],
+      "base_outputs": 6,
+      "input_min_weight": "8192/625",
+      "duration_slack": 2
+    },
+    {
+      "packet": 7,
+      "ages": [
+        3,
+        3,
+        4,
+        4,
+        4
+      ],
+      "base_outputs": 9,
+      "input_min_weight": "17408/625",
+      "duration_slack": 22
+    },
+    {
+      "packet": 8,
+      "ages": [
+        3,
+        3,
+        4,
+        4,
+        4
+      ],
+      "base_outputs": 9,
+      "input_min_weight": "17408/625",
+      "duration_slack": 22
+    },
+    {
+      "packet": 9,
+      "ages": [
+        3,
+        3,
+        4,
+        4,
+        4
+      ],
+      "base_outputs": 9,
+      "input_min_weight": "17408/625",
+      "duration_slack": 22
+    }
+  ],
+  "exact_basis_controls": 145,
+  "scope": "Finite complete recurrent-eight factors, energy/mass and duration exponential in C count. No upper C bound, confinement, capture or arbitrary-factor extension.",
+  "hashes": {
+    "audits/check_dcuv_age_energy_independent.py": "1e04f7f337217a7b4192fd4cf6ea78efbdd78ec9bf35a0c5ced81c95b9963ff3",
+    "word_stabilization/dcuv_age_energy_finite_c_bound.md": "fce6f0228097bd131696b5b2be06f2f736bb19fc535d6260ad91a9b031efa662"
+  }
+}

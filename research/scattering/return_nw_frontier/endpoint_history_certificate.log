@@ -1,0 +1,70 @@
+{
+  "new_visit_phases": [
+    63,
+    115,
+    119,
+    127,
+    139,
+    151
+  ],
+  "final_trigger_bit": "black forever after the last recovery read",
+  "final_tail_z": [
+    35,
+    45
+  ],
+  "status": "exact first infinite-model mismatch at a retained self-written endpoint bit",
+  "domain": "m>=100,n-m>=100",
+  "target": [
+    [
+      -2,
+      -2,
+      -399
+    ],
+    [
+      2,
+      2,
+      458
+    ]
+  ],
+  "impact_time": [
+    728,
+    728,
+    348329
+  ],
+  "impact_source_time": [
+    0,
+    104,
+    18047
+  ],
+  "actual_read": "L",
+  "infinite_model_read": "R",
+  "last_old_visit": {
+    "segment": 6,
+    "phase": 39828,
+    "time": [
+      312,
+      312,
+      173481
+    ],
+    "read": "R"
+  },
+  "all_old_visits": [
+    {
+      "segment": 6,
+      "phase": 39828,
+      "time": [
+        312,
+        312,
+        173481
+      ],
+      "read": "R"
+    }
+  ],
+  "bit_age": [
+    416,
+    416,
+    174848
+  ],
+  "template_sha256": "73ee180e002d8393d0c3a91c016e7d3f6d4921e62e9b725e1f02d14ddedb0b79",
+  "scope": "Obstructs infinite-tail transfer from the pristine strip model; does not obstruct a guarded graph that retains endpoint position and history."
+}

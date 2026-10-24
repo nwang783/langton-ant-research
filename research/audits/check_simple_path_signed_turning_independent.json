@@ -1,0 +1,82 @@
+{
+  "status": "PASS universal square-root signed-turn bound for vertex-simple square-lattice paths",
+  "proof_sha256": "8647be7a9158e11985f60a7643c64411d0cd396e73449ed02032c084f7e7303f",
+  "spiral_controls": [
+    {
+      "runs": 1,
+      "edges": 1,
+      "signed_left_turn": 0
+    },
+    {
+      "runs": 2,
+      "edges": 2,
+      "signed_left_turn": 1
+    },
+    {
+      "runs": 3,
+      "edges": 4,
+      "signed_left_turn": 2
+    },
+    {
+      "runs": 4,
+      "edges": 6,
+      "signed_left_turn": 3
+    },
+    {
+      "runs": 7,
+      "edges": 16,
+      "signed_left_turn": 6
+    },
+    {
+      "runs": 10,
+      "edges": 30,
+      "signed_left_turn": 9
+    },
+    {
+      "runs": 20,
+      "edges": 110,
+      "signed_left_turn": 19
+    },
+    {
+      "runs": 40,
+      "edges": 420,
+      "signed_left_turn": 39
+    },
+    {
+      "runs": 80,
+      "edges": 1640,
+      "signed_left_turn": 79
+    }
+  ],
+  "crossing_edge_simple_countercontrols": [
+    [
+      1,
+      4,
+      3
+    ],
+    [
+      2,
+      12,
+      7
+    ],
+    [
+      5,
+      36,
+      19
+    ],
+    [
+      20,
+      156,
+      79
+    ]
+  ],
+  "analytic": [
+    "For n>=2, deleting half of each endpoint edge leaves length n-1 and every original internal turn. Quarter-circle smoothing inside disjoint radius<1/4 vertex neighborhoods preserves embeddedness, is regular C1, keeps the same signed tangent lift and shortens length. Unit square-lattice vertex simplicity excludes all nonincident edge intersections.",
+    "On the closed secant triangle s<=t, the normalized nonzero secant extends continuously to the tangent on the diagonal. Regular C1 gives continuity uniformly there. Contractibility supplies a single real lift, hence tangent increment is EXACTLY A-A_reverse, not merely modulo2pi.",
+    "An endpoint is an original edge midpoint. After lattice rotation its perpendicular ray has x=1/2 and misses all vertex rounding neighborhoods and all vertical edges. Its intersections with the smoothed arc remain distinct horizontal-edge midpoints at nonzero integer heights, including any terminal midpoint intersection.",
+    "For nonnegative endpoint increment A, first hits of pi/2+2pi*j have distinct positive heights h_i. Between successive first hits, continuity forces a downward-ray hit at an integer height<=-1. Therefore length>=2sum(h_i)-h_k+2(k-1)>=k^2+2(k-1). The unordered-height inequality uses coefficient2 on all but the possibly largest final height and is valid without monotonic radial ordering. Reflection handles negative A.",
+    "Thus |A|<2pi sqrt(length)+pi/2, and likewise at the reversed endpoint. Their exact difference yields |R-L|<8sqrt(n-1)+2. n0/1 have zero internal turn. Square spirals give matching Theta(sqrt(n)) order; constant8 is not optimality claim.",
+    "The optional edge-simple noncrossing-contact extension requires every interior degree-four visit to use disjoint adjacent-edge pairings. Local disjoint smoothing preserves the itinerary and all signed turns; endpoint truncation removes endpoint-only contacts. Transverse or repeated-edge walks are not included."
+  ],
+  "scope": "Pure embedded square-lattice geometry, no ant capture or global recurrence application assumed. Fixed construction controls corroborate, not establish the universal proof."
+}

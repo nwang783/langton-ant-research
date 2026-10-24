@@ -1,0 +1,228 @@
+{
+  "status": "Finite local exclusion certificate; combine with audited V-tip freshness for depth theorem.",
+  "patch": [
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      -1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "heads": 57,
+  "bad_initial": 68,
+  "bad_reachable": 9706,
+  "separated_initial": 64,
+  "separated_reachable": 64,
+  "allowed_cross_producer_nodes": [
+    [
+      "B",
+      70
+    ],
+    [
+      "C",
+      11
+    ],
+    [
+      "V",
+      14
+    ]
+  ],
+  "short_conflicts": {
+    "CCB": {
+      "cell": [
+        -1,
+        -1
+      ],
+      "earlier": 2,
+      "later": 42,
+      "letter": "L"
+    },
+    "CCCB": {
+      "cell": [
+        1,
+        0
+      ],
+      "earlier": 17,
+      "later": 57,
+      "letter": "L"
+    },
+    "VB": {
+      "cell": [
+        -1,
+        0
+      ],
+      "earlier": 1,
+      "later": 77,
+      "letter": "L"
+    },
+    "VCB": {
+      "cell": [
+        -1,
+        -1
+      ],
+      "earlier": 2,
+      "later": 70,
+      "letter": "L"
+    },
+    "VCCB": {
+      "cell": [
+        0,
+        2
+      ],
+      "earlier": 20,
+      "later": 60,
+      "letter": "L"
+    },
+    "VCCCB": {
+      "cell": [
+        0,
+        1
+      ],
+      "earlier": 11,
+      "later": 71,
+      "letter": "R"
+    },
+    "BB": {
+      "cell": [
+        -1,
+        -1
+      ],
+      "earlier": 46,
+      "later": 142,
+      "letter": "R"
+    },
+    "BCB": {
+      "cell": [
+        -5,
+        -2
+      ],
+      "earlier": 53,
+      "later": 141,
+      "letter": "R"
+    },
+    "BCCB": {
+      "cell": [
+        -2,
+        -4
+      ],
+      "earlier": 76,
+      "later": 116,
+      "letter": "L"
+    },
+    "BCCCB": {
+      "cell": [
+        -2,
+        -3
+      ],
+      "earlier": 67,
+      "later": 127,
+      "letter": "R"
+    },
+    "CCCCC": {
+      "cell": [
+        2,
+        1
+      ],
+      "earlier": 7,
+      "later": 67,
+      "letter": "R"
+    },
+    "CCCCV": {
+      "cell": [
+        2,
+        1
+      ],
+      "earlier": 7,
+      "later": 67,
+      "letter": "R"
+    },
+    "CCCCB": {
+      "cell": [
+        2,
+        1
+      ],
+      "earlier": 7,
+      "later": 67,
+      "letter": "R"
+    },
+    "VCCCV": {
+      "cell": [
+        0,
+        1
+      ],
+      "earlier": 11,
+      "later": 71,
+      "letter": "R"
+    },
+    "BCCCV": {
+      "cell": [
+        -2,
+        -3
+      ],
+      "earlier": 67,
+      "later": 127,
+      "letter": "R"
+    },
+    "VCCCC": {
+      "cell": [
+        0,
+        1
+      ],
+      "earlier": 11,
+      "later": 71,
+      "letter": "R"
+    },
+    "BCCCC": {
+      "cell": [
+        -2,
+        -3
+      ],
+      "earlier": 67,
+      "later": 127,
+      "letter": "R"
+    }
+  },
+  "prefix_checks": {
+    "B": {
+      "max_depth": 3,
+      "max_positive_depth": 3,
+      "B70_depth": 0
+    },
+    "CB": {
+      "max_depth": 5,
+      "max_positive_depth": 4,
+      "B70_depth": 0
+    }
+  },
+  "sharp_depth_witness": "CCCVV"
+}

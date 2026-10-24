@@ -1,0 +1,420 @@
+{
+  "status": "EXACT ALL-LAP CHRONOLOGY AND FINITE-SUPPLY CONTROLS",
+  "records": [
+    {
+      "name": "standard104_grouped",
+      "A": [
+        -1,
+        -1
+      ],
+      "B": [
+        -1,
+        -1
+      ],
+      "bundled": false,
+      "collision_bound": {
+        "kind": "quadratic",
+        "K": 1,
+        "best": {
+          "ell": [
+            -1,
+            0
+          ],
+          "a": 1,
+          "L": 1,
+          "l": -1,
+          "U": 3,
+          "u": 4,
+          "gap": 5,
+          "K": 1,
+          "first_permanent_exclusion": 2
+        },
+        "candidates": [
+          {
+            "ell": [
+              -1,
+              0
+            ],
+            "a": 1,
+            "L": 1,
+            "l": -1,
+            "U": 3,
+            "u": 4,
+            "gap": 5,
+            "K": 1,
+            "first_permanent_exclusion": 2
+          },
+          {
+            "ell": [
+              0,
+              -1
+            ],
+            "a": 1,
+            "L": 1,
+            "l": 0,
+            "U": 3,
+            "u": 8,
+            "gap": 8,
+            "K": 2,
+            "first_permanent_exclusion": 3
+          },
+          {
+            "ell": [
+              -1,
+              -1
+            ],
+            "a": 2,
+            "L": 2,
+            "l": 0,
+            "U": 6,
+            "u": 10,
+            "gap": 10,
+            "K": 1,
+            "first_permanent_exclusion": 2
+          }
+        ]
+      },
+      "alternating": true,
+      "firstL_finite": true,
+      "firstL_relation": "{ [n = 0, b = 0, j = 0, r] : 2 <= r <= 99 and (r >= 98 or (76 <= r <= 77) or (11 <= r <= 12) or r <= 3); [n = 0, b = 0, j = 0, r = 44]; [n = 0, b = 0, j = 0, r = 33]; [n = 0, b = 0, j = 0, r = 0]; [n = 0, b = 0, j = 0, r = 80]; [n = 0, b = 0, j = 0, r = 50] }",
+      "bad_relation": "{ [n, b, j, r] -> [m, c, k, s] : false }",
+      "minimal_seed": [
+        [
+          -2,
+          -4
+        ],
+        [
+          -2,
+          -3
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          -1,
+          -5
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -6
+        ],
+        [
+          0,
+          -5
+        ],
+        [
+          0,
+          -4
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          1,
+          -2
+        ]
+      ],
+      "firstL_events": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          0,
+          0,
+          33
+        ],
+        [
+          0,
+          0,
+          0,
+          44
+        ],
+        [
+          0,
+          0,
+          0,
+          50
+        ],
+        [
+          0,
+          0,
+          0,
+          76
+        ],
+        [
+          0,
+          0,
+          0,
+          77
+        ],
+        [
+          0,
+          0,
+          0,
+          80
+        ],
+        [
+          0,
+          0,
+          0,
+          98
+        ],
+        [
+          0,
+          0,
+          0,
+          99
+        ]
+      ],
+      "control_laps": 4,
+      "control_reads": 1040,
+      "literal_colliding_pair_checks": 5960,
+      "literal_nearby_pair_checks": 7268
+    },
+    {
+      "name": "infinite_prepared_axial_rail",
+      "A": [
+        1,
+        0
+      ],
+      "B": [
+        1,
+        0
+      ],
+      "bundled": false,
+      "collision_bound": {
+        "kind": "quadratic",
+        "K": 0,
+        "best": {
+          "ell": [
+            1,
+            0
+          ],
+          "a": 1,
+          "L": 1,
+          "l": 0,
+          "U": 3,
+          "u": 1,
+          "gap": 1,
+          "K": 0,
+          "first_permanent_exclusion": 1
+        },
+        "candidates": [
+          {
+            "ell": [
+              1,
+              0
+            ],
+            "a": 1,
+            "L": 1,
+            "l": 0,
+            "U": 3,
+            "u": 1,
+            "gap": 1,
+            "K": 0,
+            "first_permanent_exclusion": 1
+          }
+        ]
+      },
+      "alternating": true,
+      "firstL_finite": false,
+      "firstL_relation": "{ [n, b = 0, j, r = 3] : 0 <= j <= n; [n, b = 0, j, r = 0] : 0 <= j <= n }",
+      "bad_relation": "{ [n, b, j, r] -> [m, c, k, s] : false }",
+      "minimal_seed": null,
+      "firstL_events": null,
+      "control_laps": 4,
+      "control_reads": 40,
+      "literal_colliding_pair_checks": 40,
+      "literal_nearby_pair_checks": 268
+    },
+    {
+      "name": "equal_L_boundary_conflict",
+      "A": [
+        1,
+        0
+      ],
+      "B": [
+        1,
+        0
+      ],
+      "bundled": false,
+      "collision_bound": {
+        "kind": "quadratic",
+        "K": 1,
+        "best": {
+          "ell": [
+            1,
+            0
+          ],
+          "a": 1,
+          "L": 1,
+          "l": 0,
+          "U": 3,
+          "u": 2,
+          "gap": 2,
+          "K": 1,
+          "first_permanent_exclusion": 2
+        },
+        "candidates": [
+          {
+            "ell": [
+              1,
+              0
+            ],
+            "a": 1,
+            "L": 1,
+            "l": 0,
+            "U": 3,
+            "u": 2,
+            "gap": 2,
+            "K": 1,
+            "first_permanent_exclusion": 2
+          }
+        ]
+      },
+      "alternating": false,
+      "firstL_finite": false,
+      "firstL_relation": "{ [n, b = 0, j, r = 3] : 0 <= j <= n; [n, b = 0, j, r = 0] : 0 < j <= n; [n, b = 1, j = 0, r] : n >= 0 and 0 <= r <= 1; [n = 0, b = 0, j = 0, r = 0] }",
+      "bad_relation": "{ [n, b = 1, j = 0, r = 3] -> [m = n, c = 0, k = n, s = 3] : n >= 0; [n, b = 0, j = 0, r = 0] -> [m = -1 + n, c = 1, k = 0, s = 0] : n > 0 }",
+      "minimal_seed": null,
+      "firstL_events": null,
+      "control_laps": 4,
+      "control_reads": 56,
+      "literal_colliding_pair_checks": 84,
+      "literal_nearby_pair_checks": 380
+    },
+    {
+      "name": "punctuated_prepared_rail",
+      "A": [
+        1,
+        0
+      ],
+      "B": [
+        1,
+        0
+      ],
+      "bundled": false,
+      "collision_bound": {
+        "kind": "quadratic",
+        "K": 1,
+        "best": {
+          "ell": [
+            1,
+            0
+          ],
+          "a": 1,
+          "L": 1,
+          "l": 0,
+          "U": 3,
+          "u": 2,
+          "gap": 2,
+          "K": 1,
+          "first_permanent_exclusion": 2
+        },
+        "candidates": [
+          {
+            "ell": [
+              1,
+              0
+            ],
+            "a": 1,
+            "L": 1,
+            "l": 0,
+            "U": 3,
+            "u": 2,
+            "gap": 2,
+            "K": 1,
+            "first_permanent_exclusion": 2
+          }
+        ]
+      },
+      "alternating": true,
+      "firstL_finite": false,
+      "firstL_relation": "{ [n, b = 0, j, r = 3] : 0 <= j <= n; [n, b = 0, j, r = 0] : 0 < j <= n; [n = 0, b = 0, j = 0, r = 0] }",
+      "bad_relation": "{ [n, b, j, r] -> [m, c, k, s] : false }",
+      "minimal_seed": null,
+      "firstL_events": null,
+      "control_laps": 4,
+      "control_reads": 56,
+      "literal_colliding_pair_checks": 70,
+      "literal_nearby_pair_checks": 380
+    },
+    {
+      "name": "affine_closed_square_conflict",
+      "A": [
+        0,
+        0
+      ],
+      "B": [
+        0,
+        0
+      ],
+      "bundled": false,
+      "collision_bound": {
+        "kind": "affine",
+        "K": null
+      },
+      "alternating": false,
+      "firstL_finite": true,
+      "firstL_relation": "{ [n, b, j, r] : false }",
+      "bad_relation": "{ [n, b = 0, j, r] -> [n' = n, b' = 0, j' = -1 + j, r' = r] : 0 < j <= n and 0 <= r <= 3; [n, b = 0, j = 0, r] -> [n' = -1 + n, b' = 0, j' = -1 + n, r' = r] : n > 0 and 0 <= r <= 3 }",
+      "minimal_seed": [],
+      "firstL_events": [],
+      "control_laps": 4,
+      "control_reads": 40,
+      "literal_colliding_pair_checks": 400,
+      "literal_nearby_pair_checks": 268
+    }
+  ],
+  "libisl_version": "isl-0.27-GMP",
+  "seconds": 37.774215425000875,
+  "source_sha256": "aacac03e02ecf0d332ed1bfe1f46ee9e813901194b9a71e217c8e31768e7a337",
+  "standard_sha256": "8083f7a1235db179c62ae12d85ba31a903a4f9f99bd0e72dfe5285c5422610a6",
+  "scope": "No growing nonstandard finite-seed model. Complete inverse criterion uses all same-cell reads; retired garbage stays on board. Literal checks control compiler conventions, not the all-lap proof."
+}

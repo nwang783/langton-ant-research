@@ -1,0 +1,112 @@
+{
+  "status": "PASS conditional all13 assembly arithmetic only",
+  "core_offsets": [
+    0,
+    22,
+    20,
+    10
+  ],
+  "activation_offset_max": [
+    6,
+    9,
+    0,
+    [
+      0,
+      3
+    ]
+  ],
+  "shifted_raw_prefix_max": [
+    14,
+    9,
+    0,
+    51,
+    [
+      0,
+      7
+    ]
+  ],
+  "minimum_initial_weight": 28,
+  "requires": "All thirteen funding-aware case exclusions at a common finite maximum I. V1 and U1 remain unproved.",
+  "radius_formula": "ceil(18+(I+6)*(m-5)/2)",
+  "duration_formula": "20*R*(floor((2*R+1)^2/3)+1)+28*floor((2*R+1)^2/3)",
+  "exact_dangerous_cases": [
+    [
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      1,
+      0,
+      16,
+      0
+    ],
+    [
+      1,
+      3,
+      18,
+      10
+    ],
+    [
+      4,
+      0,
+      8,
+      0
+    ],
+    [
+      4,
+      1,
+      26,
+      22
+    ],
+    [
+      5,
+      0,
+      20,
+      0
+    ],
+    [
+      5,
+      3,
+      14,
+      10
+    ],
+    [
+      6,
+      0,
+      28,
+      0
+    ],
+    [
+      6,
+      3,
+      14,
+      10
+    ],
+    [
+      7,
+      0,
+      8,
+      0
+    ],
+    [
+      7,
+      1,
+      30,
+      22
+    ],
+    [
+      8,
+      0,
+      20,
+      0
+    ],
+    [
+      9,
+      0,
+      28,
+      0
+    ]
+  ]
+}

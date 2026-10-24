@@ -1,0 +1,15 @@
+# Retrospective bridge split: exact scope, not supplied global bounds
+
+Independent scope review, 24 October 2026 09:35 UTC. This is a logical clarification of the signed return-debt route, not a new attraction theorem.
+
+Let a consumed R-born lifetime be born at update b and read L at update d, and let its age be d-b. At cut t, C*(t) is the ENTIRE set of current BLACK lifetimes that will actually be consumed in the future. Permanent output P(b,d) counts R births in [b+1,d) whose actual lifetimes are never read again.
+
+1. If all sufficiently late consumed R lifetimes have age at most A, then after the finitely many earlier relevant identities retire, every member of C*(t) was born at one of the A updates t-A,...,t-1. There is at most one R birth per update, so |C*(t)|<=A. The return interval [b+1,d) has at most A-1 updates, hence P(b,d)<=A-1 for every sufficiently late consumed lifetime. This is an eventual statement; it does not retroactively bound the finite older population before its last retirement.
+
+2. Conversely, suppose that after some cut the ENTIRE relevant mass is bounded by M and actual permanent output during each sufficiently late consumed R lifetime is bounded by H. The signed debt inequality P+L_birth+2L_peak+L_death>=4D gives D<=M+H/4. Every such completed lifetime's cursor trace is confined to a fixed finite square centered on its birth cell. The signed finite-box state-repeat bound then bounds its age: a repeated full inside-board/position/heading state before the marked read would repeat forever and contradict its eventual consumption. Thus the two bounds imply an eventual bounded-age theorem.
+
+3. Therefore this proposed M/H split is equivalent to eventual bounded consumed-R age, not automatically weaker or easier. Combined with the retained bounded-age-to-translation theorem it is a sufficient route to eventual nonzero translation, NOT canonical104 uniqueness. The debt inequality gives additional quantitative and linewise content under these retrospective definitions, but does not itself establish either universal bound.
+
+4. The signed twenty-cell family has whole relevant mass bounded132 and arbitrarily large marked-return age and permanent output ACROSS members, while every member eventually becomes canonical. It refutes a uniform all-lifetime M-only implication, not an orbit-dependent eventual bound. The shifted-port family retains that same old launch module; the moved marker is permanent. The canonical moving-module example has uniformly bounded return ages. None is a single nontranslating orbit satisfying the full eventual M/H hypotheses.
+
+Dependencies: audits/check_return_permanent_debt_independent.json (8255d308), audits/twenty_relevant_stock_independent.json (5e4aa39a), audits/check_shifted_port_module_independent.json (bd176847), audits/global_bridge_gap_map_2026-10-24_0912.md (966a4c20), and the retained bounded-age/finite-box translation results attributed in the debt report. No empirical scan or new solver result is a premise.

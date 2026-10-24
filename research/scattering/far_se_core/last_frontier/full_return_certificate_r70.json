@@ -1,0 +1,121 @@
+{
+  "status": "complete finite five-cell family with eternal standard tail",
+  "phase": 70,
+  "domain": "m>=100,n-m>=100",
+  "variables": "u=m-100>=0,v=n-m-100>=0",
+  "source_capture_time": [
+    208,
+    104,
+    48654
+  ],
+  "total_capture_time": [
+    728,
+    728,
+    358136
+  ],
+  "total_capture_pose": [
+    [
+      [
+        -2,
+        -2,
+        -466
+      ],
+      [
+        2,
+        2,
+        400
+      ]
+    ],
+    0
+  ],
+  "tail": {
+    "drift": [
+      -2,
+      -2
+    ],
+    "heading": 0,
+    "required_cells": 44,
+    "odd_cells": 36
+  },
+  "tail_phase": 99,
+  "all_future_z_upper": 89,
+  "remote_d_never_read": true,
+  "statistics": {
+    "finite_read_constraints": 3369,
+    "periodic_read_constraints": 88,
+    "affine_guards": 6052,
+    "excluded_isolated_equalities": 32065995
+  },
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        0,
+        8419
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -10
+          ],
+          [
+            0,
+            0,
+            23
+          ]
+        ],
+        1
+      ]
+    },
+    {
+      "segment": 1,
+      "time": [
+        208,
+        104,
+        40659
+      ],
+      "pose": [
+        [
+          [
+            -4,
+            -2,
+            -630
+          ],
+          [
+            4,
+            2,
+            643
+          ]
+        ],
+        1
+      ]
+    },
+    {
+      "segment": 2,
+      "time": [
+        208,
+        104,
+        48654
+      ],
+      "pose": [
+        [
+          [
+            -4,
+            -2,
+            -703
+          ],
+          [
+            4,
+            2,
+            575
+          ]
+        ],
+        0
+      ]
+    }
+  ],
+  "template_sha256": "b84bc0e71b016b52c45faa470c8e0c3476aac3c7e8e67dad164b8b81b031ab2b"
+}

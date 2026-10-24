@@ -1,0 +1,51 @@
+BEGIN domino_transport
+scheme 1 / 22
+scheme 2 / 22
+scheme 3 / 22
+scheme 4 / 22
+scheme 5 / 22
+scheme 6 / 22
+scheme 7 / 22
+scheme 8 / 22
+scheme 9 / 22
+scheme 10 / 22
+scheme 11 / 22
+scheme 12 / 22
+scheme 13 / 22
+scheme 14 / 22
+scheme 15 / 22
+scheme 16 / 22
+scheme 17 / 22
+scheme 18 / 22
+scheme 19 / 22
+scheme 20 / 22
+scheme 21 / 22
+scheme 22 / 22
+RESULT {"schemes": 22, "terminal_scheme_reads": 32, "parity": {"0": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "1": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "2": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "3": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "4": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "5": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "6": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "7": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "8": {"numerator": "x**5*y*z + x**5*z + x**4*y*z + x**4*z + x**2*y + x**2 + x*y + x", "denominator": "x**6*z**2 + x**4*z + x**2*z + 1", "states": 8}, "9": {"numerator": "x**2*y + x**2 + y + 1", "denominator": "x**6*z**2 + x**4*z + x**2*z + 1", "states": 10}}, "black_states": {"(-1, -1)": 1, "(-1, 1)": 3, "(1, -1)": 1, "(1, 1)": 7}, "bad_states": 1, "keep_depth": true, "seconds": 0.2513594260090031, "all_depths_internally_legal": true, "fuel_proof": {"alpha": 2, "beta": 3, "zero_correction": 0, "padding_bits": 4, "weighted_states": 15, "rank": 7, "checks": 7}, "exact_board_tables": {"all_binary_input_output_xor_support_equalities": 16, "orthants": [{"signs": [-1, -1], "input_states": 1, "output_states": 1, "xor_states": 1, "support_states": 1}, {"signs": [-1, 1], "input_states": 3, "output_states": 4, "xor_states": 4, "support_states": 4}, {"signs": [1, -1], "input_states": 1, "output_states": 1, "xor_states": 1, "support_states": 1}, {"signs": [1, 1], "input_states": 7, "output_states": 4, "xor_states": 4, "support_states": 5}]}, "literal_complete_input_cells": 15505, "name": "domino_transport", "same_board_decision": {"schemes": 22, "terminal_scheme_reads": 32, "parity": {"0": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "1": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "2": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "3": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "4": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "5": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "6": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "7": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "8": {"numerator": "x**5*y*z + x**5*z + x**4*y*z + x**4*z + x**2*y + x**2 + x*y + x", "denominator": "x**6*z**2 + x**4*z + x**2*z + 1", "states": 8}, "9": {"numerator": "x**2*y + x**2 + y + 1", "denominator": "x**6*z**2 + x**4*z + x**2*z + 1", "states": 10}}, "black_states": {"(-1, -1)": 1, "(-1, 1)": 3, "(1, -1)": 1, "(1, 1)": 3}, "bad_states": 1, "keep_depth": false, "seconds": 0.2189719640009571, "same_board_consistent": false, "finite_black_requirement": false, "possible": false, "seed": null, "nested_root": false, "growing_root": false, "accepted_growing_model": false}}
+BEGIN domino_growth
+scheme 1 / 22
+scheme 2 / 22
+scheme 3 / 22
+scheme 4 / 22
+scheme 5 / 22
+scheme 6 / 22
+scheme 7 / 22
+scheme 8 / 22
+scheme 9 / 22
+scheme 10 / 22
+scheme 11 / 22
+scheme 12 / 22
+scheme 13 / 22
+scheme 14 / 22
+scheme 15 / 22
+scheme 16 / 22
+scheme 17 / 22
+scheme 18 / 22
+scheme 19 / 22
+scheme 20 / 22
+scheme 21 / 22
+scheme 22 / 22
+RESULT {"schemes": 22, "terminal_scheme_reads": 40, "parity": {"0": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "1": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "2": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "3": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "4": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "5": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "6": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "7": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "8": {"numerator": "x**3*y + x**3 + x*y + x", "denominator": "x**6*z**2 + x**4*z + x**2*z + 1", "states": 10}, "9": {"numerator": "x**5*y*z + x**5*z + x**4*y*z + x**4*z + x**3*y + x**3 + y + 1", "denominator": "x**6*z**2 + x**4*z + x**2*z + 1", "states": 8}}, "black_states": {"(-1, -1)": 1, "(-1, 1)": 3, "(1, -1)": 1, "(1, 1)": 4}, "bad_states": 1, "keep_depth": true, "seconds": 0.2899063299992122, "all_depths_internally_legal": true, "fuel_proof": {"alpha": 2, "beta": 2, "zero_correction": 0, "padding_bits": 4, "weighted_states": 12, "rank": 6, "checks": 6}, "exact_board_tables": {"all_binary_input_output_xor_support_equalities": 16, "orthants": [{"signs": [-1, -1], "input_states": 1, "output_states": 1, "xor_states": 1, "support_states": 1}, {"signs": [-1, 1], "input_states": 3, "output_states": 4, "xor_states": 4, "support_states": 4}, {"signs": [1, -1], "input_states": 1, "output_states": 1, "xor_states": 1, "support_states": 1}, {"signs": [1, 1], "input_states": 4, "output_states": 7, "xor_states": 4, "support_states": 5}]}, "literal_complete_input_cells": 15953, "name": "domino_growth", "same_board_decision": {"schemes": 22, "terminal_scheme_reads": 40, "parity": {"0": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "1": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "2": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "3": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "4": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "5": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "6": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "7": {"numerator": "x**2", "denominator": "x**2*z + 1", "states": 4}, "8": {"numerator": "x**3*y + x**3 + x*y + x", "denominator": "x**6*z**2 + x**4*z + x**2*z + 1", "states": 10}, "9": {"numerator": "x**5*y*z + x**5*z + x**4*y*z + x**4*z + x**3*y + x**3 + y + 1", "denominator": "x**6*z**2 + x**4*z + x**2*z + 1", "states": 8}}, "black_states": {"(-1, -1)": 1, "(-1, 1)": 3, "(1, -1)": 1, "(1, 1)": 2}, "bad_states": 1, "keep_depth": false, "seconds": 0.24680415299371816, "same_board_consistent": false, "finite_black_requirement": false, "possible": false, "seed": null, "nested_root": false, "growing_root": false, "accepted_growing_model": false}}
+GENERIC identity_multiread True
+GENERIC two_cycle_multiread True
+GENERIC identity_zero_parity_illegal False

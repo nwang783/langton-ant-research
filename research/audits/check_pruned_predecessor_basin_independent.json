@@ -1,0 +1,55 @@
+{
+  "status": "PASS exact pruned predecessor law, canonical ancestry parametrization and all-n local-branch obstruction WITH mandatory dependency addendum",
+  "dependency_addendum": "88b7adefbf7de43b48e68319362d3a0b48a0ba825f069905190a74d40e4f83f9",
+  "manifest": "740f80efcd08d4c7c0bad3ee4f41cb35fa2f08fd3e9309e4f072248ae49612ae",
+  "script": "02bb3a6c1188f9694e222db93026dd8ee3fa71385998dd13b44c524330c46fb7",
+  "required_all_n_stock_manifest": "0727f6d758e43ccb6c7585545f9b46c5512f5db137348eaeb0e16c8055137d18",
+  "required_all_n_stock_audit": "5e4aa39a54bd2a2d8b11e24f3220a7a039654a03b426c3c756a3316f76d3751a",
+  "canonical_roots": 104,
+  "branches": 126,
+  "branch_counts": {
+    "double L/permanent-R": 22,
+    "unique L": 36,
+    "unique relevant-R": 46
+  },
+  "root_mass_range": [
+    11,
+    22
+  ],
+  "controls": [
+    {
+      "n": 20,
+      "identical_radius": 17,
+      "nearest_difference": 18,
+      "live_pruning": 31,
+      "permanent_pruning": 11,
+      "marked_death": 10964,
+      "full_reads": 12337
+    },
+    {
+      "n": 80,
+      "identical_radius": 77,
+      "nearest_difference": 78,
+      "live_pruning": 31,
+      "permanent_pruning": 11,
+      "marked_death": 48404,
+      "full_reads": 49777
+    },
+    {
+      "n": 400,
+      "identical_radius": 397,
+      "nearest_difference": 398,
+      "live_pruning": 31,
+      "permanent_pruning": 11,
+      "marked_death": 248084,
+      "full_reads": 249457
+    }
+  ],
+  "analytic_review": [
+    "Full inverse is unique and local at r=p-vh. Pruning quotient preimages exhaust every full target C union unread archive: if r belongs to C, relevantR removes it; if r absent, L always adds it; permanentR is possible iff the COMPLETE future from C never reads r. A future WHITE visit still forbids permanentR. Two quotient branches have different full successor boards, not two inverses of one board.",
+    "Every displayed predecessor is genuinely pruned. Its other C cells retain the same complete future, added L input is consumed immediately, and new permanentR is never read. Starting from104 certified canonical phase roots and prepending these transitions yields an effective ancestry parametrization up to genuine translations/quarter-rotations, carrying a known finite-prefix plus periodic-ray future. It does not prune arbitrary unknown states or establish basin coverage/well-foundedness.",
+    "Independent all-n affine bounds put all16 circuit remote cells outside radius n-3, with one at exact distance n-2, relative to common head0,3. The common first61 reads lie strictly inside distance18. P_n far-left x=-n bits are forever unread because the whole reference prefix and every positive-x tail ray stayx>=0. Thus full fields agree locally with equal initial20/cut31 masses for all even n>=20.",
+    "Signed all-n twenty-stock proof supplies actual marked consumption624n-1516, whole cut61 relevance31, and all-time relevant cap132; P_n inherits cap22. Named n20/80/400 complete-board/fate/infinite-tail replays independently confirm the difference. Local full-board data cannot determine exact quotient branch degree at any fixed radius even with these mass/cap bounds. This does not refute a rule given the actual C* oracle, an orbit-dependent radius, canonical capture, or full-state reversibility.",
+    "Original checker accidentally named nonexistent TWENTY_CELL_RELEVANT_STOCK_MANIFEST and silently omitted it. The mandatory immutable88b7adef addendum binds the exact all-n manifest, note and independent report; original740f80ef is preserved. All bindings are checked. No mathematical counterexample was found."
+  ]
+}

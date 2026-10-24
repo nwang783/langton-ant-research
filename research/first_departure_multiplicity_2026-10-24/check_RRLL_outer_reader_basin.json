@@ -1,0 +1,3438 @@
+{
+  "scope": "Exact outer-reader transfer and first-R basin closure for the pure RRLL band.\nAll complete cap-four domains are finite from the supplied unique ports.\nNo period, drift, width, or original-fuel bound is imposed.\n",
+  "G_domain": [
+    "S",
+    "NS",
+    "SN",
+    "NNS",
+    "NSN",
+    "SNN",
+    "NNNS",
+    "NNSN",
+    "NSNN",
+    "SNNN"
+  ],
+  "F_domain": [
+    "W",
+    "EE",
+    "WW",
+    "EEE",
+    "EWW",
+    "WWE",
+    "EEEW",
+    "EWEE",
+    "EWWW",
+    "WWEW"
+  ],
+  "node_counts": {
+    "open": 24,
+    "port": 70,
+    "clock_cycle": 6
+  },
+  "states": [
+    [
+      "S",
+      "W"
+    ],
+    [
+      "S",
+      "WW"
+    ],
+    [
+      "NS",
+      "EE"
+    ],
+    [
+      "SN",
+      "W"
+    ],
+    [
+      "SN",
+      "WW"
+    ],
+    [
+      "NNS",
+      "EWW"
+    ],
+    [
+      "NNS",
+      "EWWW"
+    ],
+    [
+      "NSN",
+      "EEE"
+    ],
+    [
+      "NSN",
+      "EEEW"
+    ],
+    [
+      "NSN",
+      "EWEE"
+    ],
+    [
+      "SNN",
+      "EWW"
+    ],
+    [
+      "SNN",
+      "WWE"
+    ],
+    [
+      "SNN",
+      "EWWW"
+    ],
+    [
+      "SNN",
+      "WWEW"
+    ],
+    [
+      "NNNS",
+      "EWEE"
+    ],
+    [
+      "NNSN",
+      "EWW"
+    ],
+    [
+      "NNSN",
+      "EWWW"
+    ],
+    [
+      "NSNN",
+      "EEE"
+    ],
+    [
+      "NSNN",
+      "EEEW"
+    ],
+    [
+      "NSNN",
+      "EWEE"
+    ],
+    [
+      "SNNN",
+      "EWW"
+    ],
+    [
+      "SNNN",
+      "WWE"
+    ],
+    [
+      "SNNN",
+      "EWWW"
+    ],
+    [
+      "SNNN",
+      "WWEW"
+    ]
+  ],
+  "edge_counts": {
+    "clock_cycle": 100,
+    "port": 422,
+    "open": 54
+  },
+  "edge_rows": [
+    {
+      "source": 0,
+      "target": 0,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 0,
+      "target": 1,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "result": "port"
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "result": "port"
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "result": "port"
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "result": "port"
+    },
+    {
+      "source": 0,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 0,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 0,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 0,
+      "target": 10,
+      "result": "port"
+    },
+    {
+      "source": 0,
+      "target": 11,
+      "result": "port"
+    },
+    {
+      "source": 0,
+      "target": 12,
+      "result": "port"
+    },
+    {
+      "source": 0,
+      "target": 13,
+      "result": "port"
+    },
+    {
+      "source": 0,
+      "target": 14,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 0,
+      "target": 15,
+      "result": "port"
+    },
+    {
+      "source": 0,
+      "target": 16,
+      "result": "port"
+    },
+    {
+      "source": 0,
+      "target": 17,
+      "result": "open"
+    },
+    {
+      "source": 0,
+      "target": 18,
+      "result": "open"
+    },
+    {
+      "source": 0,
+      "target": 19,
+      "result": "open"
+    },
+    {
+      "source": 0,
+      "target": 20,
+      "result": "port"
+    },
+    {
+      "source": 0,
+      "target": 21,
+      "result": "port"
+    },
+    {
+      "source": 0,
+      "target": 22,
+      "result": "port"
+    },
+    {
+      "source": 0,
+      "target": 23,
+      "result": "port"
+    },
+    {
+      "source": 1,
+      "target": 0,
+      "result": "port"
+    },
+    {
+      "source": 1,
+      "target": 1,
+      "result": "port"
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 1,
+      "target": 4,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 1,
+      "target": 5,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 1,
+      "target": 6,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 1,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 1,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 1,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 1,
+      "target": 10,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 1,
+      "target": 11,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 1,
+      "target": 12,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 1,
+      "target": 13,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 1,
+      "target": 14,
+      "result": "port"
+    },
+    {
+      "source": 1,
+      "target": 15,
+      "result": "port"
+    },
+    {
+      "source": 1,
+      "target": 16,
+      "result": "port"
+    },
+    {
+      "source": 1,
+      "target": 17,
+      "result": "port"
+    },
+    {
+      "source": 1,
+      "target": 18,
+      "result": "port"
+    },
+    {
+      "source": 1,
+      "target": 19,
+      "result": "port"
+    },
+    {
+      "source": 1,
+      "target": 20,
+      "result": "port"
+    },
+    {
+      "source": 1,
+      "target": 21,
+      "result": "port"
+    },
+    {
+      "source": 1,
+      "target": 22,
+      "result": "port"
+    },
+    {
+      "source": 1,
+      "target": 23,
+      "result": "port"
+    },
+    {
+      "source": 2,
+      "target": 0,
+      "result": "port"
+    },
+    {
+      "source": 2,
+      "target": 1,
+      "result": "port"
+    },
+    {
+      "source": 2,
+      "target": 2,
+      "result": "open"
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "result": "port"
+    },
+    {
+      "source": 2,
+      "target": 4,
+      "result": "port"
+    },
+    {
+      "source": 2,
+      "target": 5,
+      "result": "port"
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "result": "port"
+    },
+    {
+      "source": 2,
+      "target": 7,
+      "result": "open"
+    },
+    {
+      "source": 2,
+      "target": 8,
+      "result": "open"
+    },
+    {
+      "source": 2,
+      "target": 9,
+      "result": "open"
+    },
+    {
+      "source": 2,
+      "target": 10,
+      "result": "port"
+    },
+    {
+      "source": 2,
+      "target": 11,
+      "result": "port"
+    },
+    {
+      "source": 2,
+      "target": 12,
+      "result": "port"
+    },
+    {
+      "source": 2,
+      "target": 13,
+      "result": "port"
+    },
+    {
+      "source": 2,
+      "target": 14,
+      "result": "port"
+    },
+    {
+      "source": 2,
+      "target": 15,
+      "result": "port"
+    },
+    {
+      "source": 2,
+      "target": 16,
+      "result": "port"
+    },
+    {
+      "source": 2,
+      "target": 17,
+      "result": "port"
+    },
+    {
+      "source": 2,
+      "target": 18,
+      "result": "port"
+    },
+    {
+      "source": 2,
+      "target": 19,
+      "result": "port"
+    },
+    {
+      "source": 2,
+      "target": 20,
+      "result": "port"
+    },
+    {
+      "source": 2,
+      "target": 21,
+      "result": "port"
+    },
+    {
+      "source": 2,
+      "target": 22,
+      "result": "port"
+    },
+    {
+      "source": 2,
+      "target": 23,
+      "result": "port"
+    },
+    {
+      "source": 3,
+      "target": 0,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 3,
+      "target": 1,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 3,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 3,
+      "target": 3,
+      "result": "port"
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "result": "port"
+    },
+    {
+      "source": 3,
+      "target": 5,
+      "result": "port"
+    },
+    {
+      "source": 3,
+      "target": 6,
+      "result": "port"
+    },
+    {
+      "source": 3,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 3,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 3,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 3,
+      "target": 10,
+      "result": "port"
+    },
+    {
+      "source": 3,
+      "target": 11,
+      "result": "port"
+    },
+    {
+      "source": 3,
+      "target": 12,
+      "result": "port"
+    },
+    {
+      "source": 3,
+      "target": 13,
+      "result": "port"
+    },
+    {
+      "source": 3,
+      "target": 14,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 3,
+      "target": 15,
+      "result": "port"
+    },
+    {
+      "source": 3,
+      "target": 16,
+      "result": "port"
+    },
+    {
+      "source": 3,
+      "target": 17,
+      "result": "open"
+    },
+    {
+      "source": 3,
+      "target": 18,
+      "result": "open"
+    },
+    {
+      "source": 3,
+      "target": 19,
+      "result": "open"
+    },
+    {
+      "source": 3,
+      "target": 20,
+      "result": "port"
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "result": "port"
+    },
+    {
+      "source": 3,
+      "target": 22,
+      "result": "port"
+    },
+    {
+      "source": 3,
+      "target": 23,
+      "result": "port"
+    },
+    {
+      "source": 4,
+      "target": 0,
+      "result": "port"
+    },
+    {
+      "source": 4,
+      "target": 1,
+      "result": "port"
+    },
+    {
+      "source": 4,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 4,
+      "target": 3,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 4,
+      "target": 4,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 4,
+      "target": 5,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 4,
+      "target": 6,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 4,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 4,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 4,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 4,
+      "target": 10,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 4,
+      "target": 11,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 4,
+      "target": 12,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 4,
+      "target": 13,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 4,
+      "target": 14,
+      "result": "port"
+    },
+    {
+      "source": 4,
+      "target": 15,
+      "result": "port"
+    },
+    {
+      "source": 4,
+      "target": 16,
+      "result": "port"
+    },
+    {
+      "source": 4,
+      "target": 17,
+      "result": "port"
+    },
+    {
+      "source": 4,
+      "target": 18,
+      "result": "port"
+    },
+    {
+      "source": 4,
+      "target": 19,
+      "result": "port"
+    },
+    {
+      "source": 4,
+      "target": 20,
+      "result": "port"
+    },
+    {
+      "source": 4,
+      "target": 21,
+      "result": "port"
+    },
+    {
+      "source": 4,
+      "target": 22,
+      "result": "port"
+    },
+    {
+      "source": 4,
+      "target": 23,
+      "result": "port"
+    },
+    {
+      "source": 5,
+      "target": 0,
+      "result": "port"
+    },
+    {
+      "source": 5,
+      "target": 1,
+      "result": "port"
+    },
+    {
+      "source": 5,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 5,
+      "target": 3,
+      "result": "open"
+    },
+    {
+      "source": 5,
+      "target": 4,
+      "result": "open"
+    },
+    {
+      "source": 5,
+      "target": 5,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 5,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 5,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 5,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 5,
+      "target": 10,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 5,
+      "target": 11,
+      "result": "open"
+    },
+    {
+      "source": 5,
+      "target": 12,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 5,
+      "target": 13,
+      "result": "open"
+    },
+    {
+      "source": 5,
+      "target": 14,
+      "result": "port"
+    },
+    {
+      "source": 5,
+      "target": 15,
+      "result": "port"
+    },
+    {
+      "source": 5,
+      "target": 16,
+      "result": "port"
+    },
+    {
+      "source": 5,
+      "target": 17,
+      "result": "port"
+    },
+    {
+      "source": 5,
+      "target": 18,
+      "result": "port"
+    },
+    {
+      "source": 5,
+      "target": 19,
+      "result": "port"
+    },
+    {
+      "source": 5,
+      "target": 20,
+      "result": "port"
+    },
+    {
+      "source": 5,
+      "target": 21,
+      "result": "port"
+    },
+    {
+      "source": 5,
+      "target": 22,
+      "result": "port"
+    },
+    {
+      "source": 5,
+      "target": 23,
+      "result": "port"
+    },
+    {
+      "source": 6,
+      "target": 0,
+      "result": "port"
+    },
+    {
+      "source": 6,
+      "target": 1,
+      "result": "port"
+    },
+    {
+      "source": 6,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 6,
+      "target": 3,
+      "result": "port"
+    },
+    {
+      "source": 6,
+      "target": 4,
+      "result": "port"
+    },
+    {
+      "source": 6,
+      "target": 5,
+      "result": "port"
+    },
+    {
+      "source": 6,
+      "target": 6,
+      "result": "port"
+    },
+    {
+      "source": 6,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 6,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 6,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 6,
+      "target": 10,
+      "result": "port"
+    },
+    {
+      "source": 6,
+      "target": 11,
+      "result": "port"
+    },
+    {
+      "source": 6,
+      "target": 12,
+      "result": "port"
+    },
+    {
+      "source": 6,
+      "target": 13,
+      "result": "port"
+    },
+    {
+      "source": 6,
+      "target": 14,
+      "result": "port"
+    },
+    {
+      "source": 6,
+      "target": 15,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 6,
+      "target": 16,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 6,
+      "target": 17,
+      "result": "port"
+    },
+    {
+      "source": 6,
+      "target": 18,
+      "result": "port"
+    },
+    {
+      "source": 6,
+      "target": 19,
+      "result": "port"
+    },
+    {
+      "source": 6,
+      "target": 20,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 6,
+      "target": 21,
+      "result": "open"
+    },
+    {
+      "source": 6,
+      "target": 22,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 6,
+      "target": 23,
+      "result": "open"
+    },
+    {
+      "source": 7,
+      "target": 0,
+      "result": "port"
+    },
+    {
+      "source": 7,
+      "target": 1,
+      "result": "port"
+    },
+    {
+      "source": 7,
+      "target": 2,
+      "result": "open"
+    },
+    {
+      "source": 7,
+      "target": 3,
+      "result": "port"
+    },
+    {
+      "source": 7,
+      "target": 4,
+      "result": "port"
+    },
+    {
+      "source": 7,
+      "target": 5,
+      "result": "port"
+    },
+    {
+      "source": 7,
+      "target": 6,
+      "result": "port"
+    },
+    {
+      "source": 7,
+      "target": 7,
+      "result": "open"
+    },
+    {
+      "source": 7,
+      "target": 8,
+      "result": "open"
+    },
+    {
+      "source": 7,
+      "target": 9,
+      "result": "open"
+    },
+    {
+      "source": 7,
+      "target": 10,
+      "result": "port"
+    },
+    {
+      "source": 7,
+      "target": 11,
+      "result": "port"
+    },
+    {
+      "source": 7,
+      "target": 12,
+      "result": "port"
+    },
+    {
+      "source": 7,
+      "target": 13,
+      "result": "port"
+    },
+    {
+      "source": 7,
+      "target": 14,
+      "result": "port"
+    },
+    {
+      "source": 7,
+      "target": 15,
+      "result": "port"
+    },
+    {
+      "source": 7,
+      "target": 16,
+      "result": "port"
+    },
+    {
+      "source": 7,
+      "target": 17,
+      "result": "port"
+    },
+    {
+      "source": 7,
+      "target": 18,
+      "result": "port"
+    },
+    {
+      "source": 7,
+      "target": 19,
+      "result": "port"
+    },
+    {
+      "source": 7,
+      "target": 20,
+      "result": "port"
+    },
+    {
+      "source": 7,
+      "target": 21,
+      "result": "port"
+    },
+    {
+      "source": 7,
+      "target": 22,
+      "result": "port"
+    },
+    {
+      "source": 7,
+      "target": 23,
+      "result": "port"
+    },
+    {
+      "source": 8,
+      "target": 0,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 8,
+      "target": 1,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 8,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 8,
+      "target": 3,
+      "result": "port"
+    },
+    {
+      "source": 8,
+      "target": 4,
+      "result": "port"
+    },
+    {
+      "source": 8,
+      "target": 5,
+      "result": "port"
+    },
+    {
+      "source": 8,
+      "target": 6,
+      "result": "port"
+    },
+    {
+      "source": 8,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 8,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 8,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 8,
+      "target": 10,
+      "result": "port"
+    },
+    {
+      "source": 8,
+      "target": 11,
+      "result": "port"
+    },
+    {
+      "source": 8,
+      "target": 12,
+      "result": "port"
+    },
+    {
+      "source": 8,
+      "target": 13,
+      "result": "port"
+    },
+    {
+      "source": 8,
+      "target": 14,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 8,
+      "target": 15,
+      "result": "port"
+    },
+    {
+      "source": 8,
+      "target": 16,
+      "result": "port"
+    },
+    {
+      "source": 8,
+      "target": 17,
+      "result": "open"
+    },
+    {
+      "source": 8,
+      "target": 18,
+      "result": "open"
+    },
+    {
+      "source": 8,
+      "target": 19,
+      "result": "open"
+    },
+    {
+      "source": 8,
+      "target": 20,
+      "result": "port"
+    },
+    {
+      "source": 8,
+      "target": 21,
+      "result": "port"
+    },
+    {
+      "source": 8,
+      "target": 22,
+      "result": "port"
+    },
+    {
+      "source": 8,
+      "target": 23,
+      "result": "port"
+    },
+    {
+      "source": 9,
+      "target": 0,
+      "result": "open"
+    },
+    {
+      "source": 9,
+      "target": 1,
+      "result": "open"
+    },
+    {
+      "source": 9,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 9,
+      "target": 3,
+      "result": "port"
+    },
+    {
+      "source": 9,
+      "target": 4,
+      "result": "port"
+    },
+    {
+      "source": 9,
+      "target": 5,
+      "result": "port"
+    },
+    {
+      "source": 9,
+      "target": 6,
+      "result": "port"
+    },
+    {
+      "source": 9,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 9,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 9,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 9,
+      "target": 10,
+      "result": "port"
+    },
+    {
+      "source": 9,
+      "target": 11,
+      "result": "port"
+    },
+    {
+      "source": 9,
+      "target": 12,
+      "result": "port"
+    },
+    {
+      "source": 9,
+      "target": 13,
+      "result": "port"
+    },
+    {
+      "source": 9,
+      "target": 14,
+      "result": "open"
+    },
+    {
+      "source": 9,
+      "target": 15,
+      "result": "port"
+    },
+    {
+      "source": 9,
+      "target": 16,
+      "result": "port"
+    },
+    {
+      "source": 9,
+      "target": 17,
+      "result": "open"
+    },
+    {
+      "source": 9,
+      "target": 18,
+      "result": "open"
+    },
+    {
+      "source": 9,
+      "target": 19,
+      "result": "open"
+    },
+    {
+      "source": 9,
+      "target": 20,
+      "result": "port"
+    },
+    {
+      "source": 9,
+      "target": 21,
+      "result": "port"
+    },
+    {
+      "source": 9,
+      "target": 22,
+      "result": "port"
+    },
+    {
+      "source": 9,
+      "target": 23,
+      "result": "port"
+    },
+    {
+      "source": 10,
+      "target": 0,
+      "result": "port"
+    },
+    {
+      "source": 10,
+      "target": 1,
+      "result": "port"
+    },
+    {
+      "source": 10,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 10,
+      "target": 3,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 10,
+      "target": 4,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 10,
+      "target": 5,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 10,
+      "target": 6,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 10,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 10,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 10,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 10,
+      "target": 10,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 10,
+      "target": 11,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 10,
+      "target": 12,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 10,
+      "target": 13,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 10,
+      "target": 14,
+      "result": "port"
+    },
+    {
+      "source": 10,
+      "target": 15,
+      "result": "port"
+    },
+    {
+      "source": 10,
+      "target": 16,
+      "result": "port"
+    },
+    {
+      "source": 10,
+      "target": 17,
+      "result": "port"
+    },
+    {
+      "source": 10,
+      "target": 18,
+      "result": "port"
+    },
+    {
+      "source": 10,
+      "target": 19,
+      "result": "port"
+    },
+    {
+      "source": 10,
+      "target": 20,
+      "result": "port"
+    },
+    {
+      "source": 10,
+      "target": 21,
+      "result": "port"
+    },
+    {
+      "source": 10,
+      "target": 22,
+      "result": "port"
+    },
+    {
+      "source": 10,
+      "target": 23,
+      "result": "port"
+    },
+    {
+      "source": 11,
+      "target": 0,
+      "result": "port"
+    },
+    {
+      "source": 11,
+      "target": 1,
+      "result": "port"
+    },
+    {
+      "source": 11,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 11,
+      "target": 3,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 11,
+      "target": 4,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 11,
+      "target": 5,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 11,
+      "target": 6,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 11,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 11,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 11,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 11,
+      "target": 10,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 11,
+      "target": 11,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 11,
+      "target": 12,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 11,
+      "target": 13,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 11,
+      "target": 14,
+      "result": "port"
+    },
+    {
+      "source": 11,
+      "target": 15,
+      "result": "port"
+    },
+    {
+      "source": 11,
+      "target": 16,
+      "result": "port"
+    },
+    {
+      "source": 11,
+      "target": 17,
+      "result": "port"
+    },
+    {
+      "source": 11,
+      "target": 18,
+      "result": "port"
+    },
+    {
+      "source": 11,
+      "target": 19,
+      "result": "port"
+    },
+    {
+      "source": 11,
+      "target": 20,
+      "result": "port"
+    },
+    {
+      "source": 11,
+      "target": 21,
+      "result": "port"
+    },
+    {
+      "source": 11,
+      "target": 22,
+      "result": "port"
+    },
+    {
+      "source": 11,
+      "target": 23,
+      "result": "port"
+    },
+    {
+      "source": 12,
+      "target": 0,
+      "result": "port"
+    },
+    {
+      "source": 12,
+      "target": 1,
+      "result": "port"
+    },
+    {
+      "source": 12,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 12,
+      "target": 3,
+      "result": "port"
+    },
+    {
+      "source": 12,
+      "target": 4,
+      "result": "port"
+    },
+    {
+      "source": 12,
+      "target": 5,
+      "result": "port"
+    },
+    {
+      "source": 12,
+      "target": 6,
+      "result": "port"
+    },
+    {
+      "source": 12,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 12,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 12,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 12,
+      "target": 10,
+      "result": "port"
+    },
+    {
+      "source": 12,
+      "target": 11,
+      "result": "port"
+    },
+    {
+      "source": 12,
+      "target": 12,
+      "result": "port"
+    },
+    {
+      "source": 12,
+      "target": 13,
+      "result": "port"
+    },
+    {
+      "source": 12,
+      "target": 14,
+      "result": "port"
+    },
+    {
+      "source": 12,
+      "target": 15,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 12,
+      "target": 16,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 12,
+      "target": 17,
+      "result": "port"
+    },
+    {
+      "source": 12,
+      "target": 18,
+      "result": "port"
+    },
+    {
+      "source": 12,
+      "target": 19,
+      "result": "port"
+    },
+    {
+      "source": 12,
+      "target": 20,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 12,
+      "target": 21,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 12,
+      "target": 22,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 12,
+      "target": 23,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 13,
+      "target": 0,
+      "result": "port"
+    },
+    {
+      "source": 13,
+      "target": 1,
+      "result": "port"
+    },
+    {
+      "source": 13,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 13,
+      "target": 3,
+      "result": "port"
+    },
+    {
+      "source": 13,
+      "target": 4,
+      "result": "port"
+    },
+    {
+      "source": 13,
+      "target": 5,
+      "result": "port"
+    },
+    {
+      "source": 13,
+      "target": 6,
+      "result": "port"
+    },
+    {
+      "source": 13,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 13,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 13,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 13,
+      "target": 10,
+      "result": "port"
+    },
+    {
+      "source": 13,
+      "target": 11,
+      "result": "port"
+    },
+    {
+      "source": 13,
+      "target": 12,
+      "result": "port"
+    },
+    {
+      "source": 13,
+      "target": 13,
+      "result": "port"
+    },
+    {
+      "source": 13,
+      "target": 14,
+      "result": "port"
+    },
+    {
+      "source": 13,
+      "target": 15,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 13,
+      "target": 16,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 13,
+      "target": 17,
+      "result": "port"
+    },
+    {
+      "source": 13,
+      "target": 18,
+      "result": "port"
+    },
+    {
+      "source": 13,
+      "target": 19,
+      "result": "port"
+    },
+    {
+      "source": 13,
+      "target": 20,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 13,
+      "target": 21,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 13,
+      "target": 22,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 13,
+      "target": 23,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 14,
+      "target": 0,
+      "result": "open"
+    },
+    {
+      "source": 14,
+      "target": 1,
+      "result": "open"
+    },
+    {
+      "source": 14,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 14,
+      "target": 3,
+      "result": "port"
+    },
+    {
+      "source": 14,
+      "target": 4,
+      "result": "port"
+    },
+    {
+      "source": 14,
+      "target": 5,
+      "result": "port"
+    },
+    {
+      "source": 14,
+      "target": 6,
+      "result": "port"
+    },
+    {
+      "source": 14,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 14,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 14,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 14,
+      "target": 10,
+      "result": "port"
+    },
+    {
+      "source": 14,
+      "target": 11,
+      "result": "port"
+    },
+    {
+      "source": 14,
+      "target": 12,
+      "result": "port"
+    },
+    {
+      "source": 14,
+      "target": 13,
+      "result": "port"
+    },
+    {
+      "source": 14,
+      "target": 14,
+      "result": "open"
+    },
+    {
+      "source": 14,
+      "target": 15,
+      "result": "port"
+    },
+    {
+      "source": 14,
+      "target": 16,
+      "result": "port"
+    },
+    {
+      "source": 14,
+      "target": 17,
+      "result": "open"
+    },
+    {
+      "source": 14,
+      "target": 18,
+      "result": "open"
+    },
+    {
+      "source": 14,
+      "target": 19,
+      "result": "open"
+    },
+    {
+      "source": 14,
+      "target": 20,
+      "result": "port"
+    },
+    {
+      "source": 14,
+      "target": 21,
+      "result": "port"
+    },
+    {
+      "source": 14,
+      "target": 22,
+      "result": "port"
+    },
+    {
+      "source": 14,
+      "target": 23,
+      "result": "port"
+    },
+    {
+      "source": 15,
+      "target": 0,
+      "result": "port"
+    },
+    {
+      "source": 15,
+      "target": 1,
+      "result": "port"
+    },
+    {
+      "source": 15,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 15,
+      "target": 3,
+      "result": "open"
+    },
+    {
+      "source": 15,
+      "target": 4,
+      "result": "open"
+    },
+    {
+      "source": 15,
+      "target": 5,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 15,
+      "target": 6,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 15,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 15,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 15,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 15,
+      "target": 10,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 15,
+      "target": 11,
+      "result": "open"
+    },
+    {
+      "source": 15,
+      "target": 12,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 15,
+      "target": 13,
+      "result": "open"
+    },
+    {
+      "source": 15,
+      "target": 14,
+      "result": "port"
+    },
+    {
+      "source": 15,
+      "target": 15,
+      "result": "port"
+    },
+    {
+      "source": 15,
+      "target": 16,
+      "result": "port"
+    },
+    {
+      "source": 15,
+      "target": 17,
+      "result": "port"
+    },
+    {
+      "source": 15,
+      "target": 18,
+      "result": "port"
+    },
+    {
+      "source": 15,
+      "target": 19,
+      "result": "port"
+    },
+    {
+      "source": 15,
+      "target": 20,
+      "result": "port"
+    },
+    {
+      "source": 15,
+      "target": 21,
+      "result": "port"
+    },
+    {
+      "source": 15,
+      "target": 22,
+      "result": "port"
+    },
+    {
+      "source": 15,
+      "target": 23,
+      "result": "port"
+    },
+    {
+      "source": 16,
+      "target": 0,
+      "result": "port"
+    },
+    {
+      "source": 16,
+      "target": 1,
+      "result": "port"
+    },
+    {
+      "source": 16,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 16,
+      "target": 3,
+      "result": "port"
+    },
+    {
+      "source": 16,
+      "target": 4,
+      "result": "port"
+    },
+    {
+      "source": 16,
+      "target": 5,
+      "result": "port"
+    },
+    {
+      "source": 16,
+      "target": 6,
+      "result": "port"
+    },
+    {
+      "source": 16,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 16,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 16,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 16,
+      "target": 10,
+      "result": "port"
+    },
+    {
+      "source": 16,
+      "target": 11,
+      "result": "port"
+    },
+    {
+      "source": 16,
+      "target": 12,
+      "result": "port"
+    },
+    {
+      "source": 16,
+      "target": 13,
+      "result": "port"
+    },
+    {
+      "source": 16,
+      "target": 14,
+      "result": "port"
+    },
+    {
+      "source": 16,
+      "target": 15,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 16,
+      "target": 16,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 16,
+      "target": 17,
+      "result": "port"
+    },
+    {
+      "source": 16,
+      "target": 18,
+      "result": "port"
+    },
+    {
+      "source": 16,
+      "target": 19,
+      "result": "port"
+    },
+    {
+      "source": 16,
+      "target": 20,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 16,
+      "target": 21,
+      "result": "open"
+    },
+    {
+      "source": 16,
+      "target": 22,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 16,
+      "target": 23,
+      "result": "open"
+    },
+    {
+      "source": 17,
+      "target": 0,
+      "result": "port"
+    },
+    {
+      "source": 17,
+      "target": 1,
+      "result": "port"
+    },
+    {
+      "source": 17,
+      "target": 2,
+      "result": "open"
+    },
+    {
+      "source": 17,
+      "target": 3,
+      "result": "port"
+    },
+    {
+      "source": 17,
+      "target": 4,
+      "result": "port"
+    },
+    {
+      "source": 17,
+      "target": 5,
+      "result": "port"
+    },
+    {
+      "source": 17,
+      "target": 6,
+      "result": "port"
+    },
+    {
+      "source": 17,
+      "target": 7,
+      "result": "open"
+    },
+    {
+      "source": 17,
+      "target": 8,
+      "result": "open"
+    },
+    {
+      "source": 17,
+      "target": 9,
+      "result": "open"
+    },
+    {
+      "source": 17,
+      "target": 10,
+      "result": "port"
+    },
+    {
+      "source": 17,
+      "target": 11,
+      "result": "port"
+    },
+    {
+      "source": 17,
+      "target": 12,
+      "result": "port"
+    },
+    {
+      "source": 17,
+      "target": 13,
+      "result": "port"
+    },
+    {
+      "source": 17,
+      "target": 14,
+      "result": "port"
+    },
+    {
+      "source": 17,
+      "target": 15,
+      "result": "port"
+    },
+    {
+      "source": 17,
+      "target": 16,
+      "result": "port"
+    },
+    {
+      "source": 17,
+      "target": 17,
+      "result": "port"
+    },
+    {
+      "source": 17,
+      "target": 18,
+      "result": "port"
+    },
+    {
+      "source": 17,
+      "target": 19,
+      "result": "port"
+    },
+    {
+      "source": 17,
+      "target": 20,
+      "result": "port"
+    },
+    {
+      "source": 17,
+      "target": 21,
+      "result": "port"
+    },
+    {
+      "source": 17,
+      "target": 22,
+      "result": "port"
+    },
+    {
+      "source": 17,
+      "target": 23,
+      "result": "port"
+    },
+    {
+      "source": 18,
+      "target": 0,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 18,
+      "target": 1,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 18,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 18,
+      "target": 3,
+      "result": "port"
+    },
+    {
+      "source": 18,
+      "target": 4,
+      "result": "port"
+    },
+    {
+      "source": 18,
+      "target": 5,
+      "result": "port"
+    },
+    {
+      "source": 18,
+      "target": 6,
+      "result": "port"
+    },
+    {
+      "source": 18,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 18,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 18,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 18,
+      "target": 10,
+      "result": "port"
+    },
+    {
+      "source": 18,
+      "target": 11,
+      "result": "port"
+    },
+    {
+      "source": 18,
+      "target": 12,
+      "result": "port"
+    },
+    {
+      "source": 18,
+      "target": 13,
+      "result": "port"
+    },
+    {
+      "source": 18,
+      "target": 14,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 18,
+      "target": 15,
+      "result": "port"
+    },
+    {
+      "source": 18,
+      "target": 16,
+      "result": "port"
+    },
+    {
+      "source": 18,
+      "target": 17,
+      "result": "open"
+    },
+    {
+      "source": 18,
+      "target": 18,
+      "result": "open"
+    },
+    {
+      "source": 18,
+      "target": 19,
+      "result": "open"
+    },
+    {
+      "source": 18,
+      "target": 20,
+      "result": "port"
+    },
+    {
+      "source": 18,
+      "target": 21,
+      "result": "port"
+    },
+    {
+      "source": 18,
+      "target": 22,
+      "result": "port"
+    },
+    {
+      "source": 18,
+      "target": 23,
+      "result": "port"
+    },
+    {
+      "source": 19,
+      "target": 0,
+      "result": "open"
+    },
+    {
+      "source": 19,
+      "target": 1,
+      "result": "open"
+    },
+    {
+      "source": 19,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 19,
+      "target": 3,
+      "result": "port"
+    },
+    {
+      "source": 19,
+      "target": 4,
+      "result": "port"
+    },
+    {
+      "source": 19,
+      "target": 5,
+      "result": "port"
+    },
+    {
+      "source": 19,
+      "target": 6,
+      "result": "port"
+    },
+    {
+      "source": 19,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 19,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 19,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 19,
+      "target": 10,
+      "result": "port"
+    },
+    {
+      "source": 19,
+      "target": 11,
+      "result": "port"
+    },
+    {
+      "source": 19,
+      "target": 12,
+      "result": "port"
+    },
+    {
+      "source": 19,
+      "target": 13,
+      "result": "port"
+    },
+    {
+      "source": 19,
+      "target": 14,
+      "result": "open"
+    },
+    {
+      "source": 19,
+      "target": 15,
+      "result": "port"
+    },
+    {
+      "source": 19,
+      "target": 16,
+      "result": "port"
+    },
+    {
+      "source": 19,
+      "target": 17,
+      "result": "open"
+    },
+    {
+      "source": 19,
+      "target": 18,
+      "result": "open"
+    },
+    {
+      "source": 19,
+      "target": 19,
+      "result": "open"
+    },
+    {
+      "source": 19,
+      "target": 20,
+      "result": "port"
+    },
+    {
+      "source": 19,
+      "target": 21,
+      "result": "port"
+    },
+    {
+      "source": 19,
+      "target": 22,
+      "result": "port"
+    },
+    {
+      "source": 19,
+      "target": 23,
+      "result": "port"
+    },
+    {
+      "source": 20,
+      "target": 0,
+      "result": "port"
+    },
+    {
+      "source": 20,
+      "target": 1,
+      "result": "port"
+    },
+    {
+      "source": 20,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 20,
+      "target": 3,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 20,
+      "target": 4,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 20,
+      "target": 5,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 20,
+      "target": 6,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 20,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 20,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 20,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 20,
+      "target": 10,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 20,
+      "target": 11,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 20,
+      "target": 12,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 20,
+      "target": 13,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 20,
+      "target": 14,
+      "result": "port"
+    },
+    {
+      "source": 20,
+      "target": 15,
+      "result": "port"
+    },
+    {
+      "source": 20,
+      "target": 16,
+      "result": "port"
+    },
+    {
+      "source": 20,
+      "target": 17,
+      "result": "port"
+    },
+    {
+      "source": 20,
+      "target": 18,
+      "result": "port"
+    },
+    {
+      "source": 20,
+      "target": 19,
+      "result": "port"
+    },
+    {
+      "source": 20,
+      "target": 20,
+      "result": "port"
+    },
+    {
+      "source": 20,
+      "target": 21,
+      "result": "port"
+    },
+    {
+      "source": 20,
+      "target": 22,
+      "result": "port"
+    },
+    {
+      "source": 20,
+      "target": 23,
+      "result": "port"
+    },
+    {
+      "source": 21,
+      "target": 0,
+      "result": "port"
+    },
+    {
+      "source": 21,
+      "target": 1,
+      "result": "port"
+    },
+    {
+      "source": 21,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 21,
+      "target": 3,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 21,
+      "target": 4,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 21,
+      "target": 5,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 21,
+      "target": 6,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 21,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 21,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 21,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 21,
+      "target": 10,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 21,
+      "target": 11,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 21,
+      "target": 12,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 21,
+      "target": 13,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 21,
+      "target": 14,
+      "result": "port"
+    },
+    {
+      "source": 21,
+      "target": 15,
+      "result": "port"
+    },
+    {
+      "source": 21,
+      "target": 16,
+      "result": "port"
+    },
+    {
+      "source": 21,
+      "target": 17,
+      "result": "port"
+    },
+    {
+      "source": 21,
+      "target": 18,
+      "result": "port"
+    },
+    {
+      "source": 21,
+      "target": 19,
+      "result": "port"
+    },
+    {
+      "source": 21,
+      "target": 20,
+      "result": "port"
+    },
+    {
+      "source": 21,
+      "target": 21,
+      "result": "port"
+    },
+    {
+      "source": 21,
+      "target": 22,
+      "result": "port"
+    },
+    {
+      "source": 21,
+      "target": 23,
+      "result": "port"
+    },
+    {
+      "source": 22,
+      "target": 0,
+      "result": "port"
+    },
+    {
+      "source": 22,
+      "target": 1,
+      "result": "port"
+    },
+    {
+      "source": 22,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 22,
+      "target": 3,
+      "result": "port"
+    },
+    {
+      "source": 22,
+      "target": 4,
+      "result": "port"
+    },
+    {
+      "source": 22,
+      "target": 5,
+      "result": "port"
+    },
+    {
+      "source": 22,
+      "target": 6,
+      "result": "port"
+    },
+    {
+      "source": 22,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 22,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 22,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 22,
+      "target": 10,
+      "result": "port"
+    },
+    {
+      "source": 22,
+      "target": 11,
+      "result": "port"
+    },
+    {
+      "source": 22,
+      "target": 12,
+      "result": "port"
+    },
+    {
+      "source": 22,
+      "target": 13,
+      "result": "port"
+    },
+    {
+      "source": 22,
+      "target": 14,
+      "result": "port"
+    },
+    {
+      "source": 22,
+      "target": 15,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 22,
+      "target": 16,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 22,
+      "target": 17,
+      "result": "port"
+    },
+    {
+      "source": 22,
+      "target": 18,
+      "result": "port"
+    },
+    {
+      "source": 22,
+      "target": 19,
+      "result": "port"
+    },
+    {
+      "source": 22,
+      "target": 20,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 22,
+      "target": 21,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 22,
+      "target": 22,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 22,
+      "target": 23,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 23,
+      "target": 0,
+      "result": "port"
+    },
+    {
+      "source": 23,
+      "target": 1,
+      "result": "port"
+    },
+    {
+      "source": 23,
+      "target": 2,
+      "result": "port"
+    },
+    {
+      "source": 23,
+      "target": 3,
+      "result": "port"
+    },
+    {
+      "source": 23,
+      "target": 4,
+      "result": "port"
+    },
+    {
+      "source": 23,
+      "target": 5,
+      "result": "port"
+    },
+    {
+      "source": 23,
+      "target": 6,
+      "result": "port"
+    },
+    {
+      "source": 23,
+      "target": 7,
+      "result": "port"
+    },
+    {
+      "source": 23,
+      "target": 8,
+      "result": "port"
+    },
+    {
+      "source": 23,
+      "target": 9,
+      "result": "port"
+    },
+    {
+      "source": 23,
+      "target": 10,
+      "result": "port"
+    },
+    {
+      "source": 23,
+      "target": 11,
+      "result": "port"
+    },
+    {
+      "source": 23,
+      "target": 12,
+      "result": "port"
+    },
+    {
+      "source": 23,
+      "target": 13,
+      "result": "port"
+    },
+    {
+      "source": 23,
+      "target": 14,
+      "result": "port"
+    },
+    {
+      "source": 23,
+      "target": 15,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 23,
+      "target": 16,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 23,
+      "target": 17,
+      "result": "port"
+    },
+    {
+      "source": 23,
+      "target": 18,
+      "result": "port"
+    },
+    {
+      "source": 23,
+      "target": 19,
+      "result": "port"
+    },
+    {
+      "source": 23,
+      "target": 20,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 23,
+      "target": 21,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 23,
+      "target": 22,
+      "result": "clock_cycle"
+    },
+    {
+      "source": 23,
+      "target": 23,
+      "result": "clock_cycle"
+    }
+  ],
+  "open_edges": [
+    [
+      0,
+      17
+    ],
+    [
+      0,
+      18
+    ],
+    [
+      0,
+      19
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      3,
+      17
+    ],
+    [
+      3,
+      18
+    ],
+    [
+      3,
+      19
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      5,
+      11
+    ],
+    [
+      5,
+      13
+    ],
+    [
+      6,
+      21
+    ],
+    [
+      6,
+      23
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      8,
+      17
+    ],
+    [
+      8,
+      18
+    ],
+    [
+      8,
+      19
+    ],
+    [
+      9,
+      0
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      9,
+      17
+    ],
+    [
+      9,
+      18
+    ],
+    [
+      9,
+      19
+    ],
+    [
+      14,
+      0
+    ],
+    [
+      14,
+      1
+    ],
+    [
+      14,
+      14
+    ],
+    [
+      14,
+      17
+    ],
+    [
+      14,
+      18
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      15,
+      3
+    ],
+    [
+      15,
+      4
+    ],
+    [
+      15,
+      11
+    ],
+    [
+      15,
+      13
+    ],
+    [
+      16,
+      21
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      2
+    ],
+    [
+      17,
+      7
+    ],
+    [
+      17,
+      8
+    ],
+    [
+      17,
+      9
+    ],
+    [
+      18,
+      17
+    ],
+    [
+      18,
+      18
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      19,
+      0
+    ],
+    [
+      19,
+      1
+    ],
+    [
+      19,
+      14
+    ],
+    [
+      19,
+      17
+    ],
+    [
+      19,
+      18
+    ],
+    [
+      19,
+      19
+    ]
+  ],
+  "pruning_rounds": [
+    [
+      1,
+      4,
+      5,
+      6,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      20,
+      21,
+      22,
+      23
+    ],
+    [
+      3
+    ]
+  ],
+  "cyclic_state_ids": [
+    0,
+    2,
+    7,
+    8,
+    9,
+    14,
+    17,
+    18,
+    19
+  ],
+  "cyclic_edges": [
+    [
+      0,
+      17
+    ],
+    [
+      0,
+      18
+    ],
+    [
+      0,
+      19
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      8,
+      17
+    ],
+    [
+      8,
+      18
+    ],
+    [
+      8,
+      19
+    ],
+    [
+      9,
+      0
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      9,
+      17
+    ],
+    [
+      9,
+      18
+    ],
+    [
+      9,
+      19
+    ],
+    [
+      14,
+      0
+    ],
+    [
+      14,
+      14
+    ],
+    [
+      14,
+      17
+    ],
+    [
+      14,
+      18
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      17,
+      2
+    ],
+    [
+      17,
+      7
+    ],
+    [
+      17,
+      8
+    ],
+    [
+      17,
+      9
+    ],
+    [
+      18,
+      17
+    ],
+    [
+      18,
+      18
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      19,
+      0
+    ],
+    [
+      19,
+      14
+    ],
+    [
+      19,
+      17
+    ],
+    [
+      19,
+      18
+    ],
+    [
+      19,
+      19
+    ]
+  ],
+  "full_first_R_predecessors": {
+    "C_j": [
+      "T_j",
+      "D_j"
+    ],
+    "A_j": [
+      "C_j"
+    ],
+    "T_j": [
+      "R_(j-1)"
+    ],
+    "R_j": [
+      "A_j"
+    ],
+    "D_j": [
+      "E_j"
+    ],
+    "E_j_if_state0": [
+      "F_j"
+    ],
+    "E_j_otherwise": [],
+    "F_j_if_state0": []
+  },
+  "basin": "Gamma union D union E union singleton-W F at state0; no G class belongs to it",
+  "warning": "Second-cycle/extremal consequence needs a genuine complete WHITE finite full quotient and named cap-four height dependencies."
+}

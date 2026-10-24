@@ -1,0 +1,102 @@
+{
+  "status": "PASS owner-aware Q/B hook split; six proper-source cases remain open",
+  "manifest": "ff80d3161d9e0a50ba6ed77b665f7bce470383c72b06d8a70542882873ec7392",
+  "script": "d7495f22dbbdeb4eb6fe1f62f53a7a7ac61e8a6b831e24d958864ca44142d1ae",
+  "summaries": [
+    {
+      "foreign": "Q",
+      "heads": 84,
+      "classifications": {
+        "WHITE": 36,
+        "CORE": 31,
+        "compatible": 17
+      },
+      "proper_owner": 9
+    },
+    {
+      "foreign": "B",
+      "heads": 100,
+      "classifications": {
+        "WHITE": 42,
+        "CORE": 34,
+        "compatible": 24
+      },
+      "proper_owner": 12
+    }
+  ],
+  "routes": {
+    "excluded_by_piece_window_and_hook_min4": 10,
+    "FOREIGN_EXIT_contact_owned_by_b1_not_discarded": 20,
+    "OPEN_W5_hook_MISS_tail_contact": 5,
+    "excluded_by_signed_R39_R54_N4_guard": 4,
+    "OPEN_Q_W5_hook_loss_funding": 1,
+    "excluded_by_signed_B_W5_hole": 1
+  },
+  "open_context_miss": [
+    [
+      "Q",
+      "V",
+      0,
+      -1,
+      3
+    ],
+    [
+      "B",
+      "V",
+      0,
+      -1,
+      3
+    ],
+    [
+      "B",
+      "V",
+      1,
+      -2,
+      3
+    ],
+    [
+      "B",
+      "U",
+      0,
+      -1,
+      3
+    ],
+    [
+      "B",
+      "U",
+      2,
+      -1,
+      3
+    ]
+  ],
+  "parallel_earliest_onsets": [
+    {
+      "A": "Q",
+      "key": [
+        "U",
+        0,
+        -4,
+        0
+      ],
+      "owner": "Qtail",
+      "newtime": "1/2"
+    },
+    {
+      "A": "Q",
+      "key": [
+        "U",
+        -1,
+        3,
+        2
+      ],
+      "owner": "outgoing_first_postFOREIGN_atom_b1",
+      "newtime": "1"
+    }
+  ],
+  "analytic_review": [
+    "Exact affine parallelogram bounds cover every integer same-sector target head. Closed rational intersections are ordered by NEW chord time. A candidate already in nonadjacent contact at entry is not a new positive first onset; the only harmless origin adjacency is the actual immediate FOREIGN EXIT successor. Positive collinear onsets are retained.",
+    "At the F56 kink, old prefix terminal is assigned to the outgoing Q/B tail. At the final FOREIGN EXIT, the actual outgoing owner is b1. All20 such compatible cases are routed rather than discarded or assigned an inappropriate foreign-piece turn window. A target terminal at positive newtime still counts as contact.",
+    "Hook715 gives SAME CURRENT at target ENTRY under no earlier foreign contact, not persistence THROUGH the contact. Complete RAW plus actual M11 first colors and entry CORE detect both physical and marker-owned capture. True hook inputs are retained. MISS is absence from the ENTIRE context, not merely RAW.",
+    "Signed minimum4 plus actual piece-specific Jordan windows and heading congruence close ten; signed7eed closes exactly four N4 gates; signed1fbc closes only the B W5 loss. Q W5 loss and five W5 MISS cases remain necessary OPEN interfaces. No earlier-source, b1-source, arbitrary-tail simplicity, secondFOREIGN or capture conclusion follows."
+  ]
+}

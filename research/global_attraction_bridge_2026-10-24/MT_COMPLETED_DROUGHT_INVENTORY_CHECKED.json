@@ -1,0 +1,173 @@
+{
+  "status": "AUTHOR exact MT one-long-completed-gap inventory; audit pending",
+  "source_hashes": {
+    "SOUTHWEST_ARCHIVE_IMPORT_MANIFEST.json": "bbd355881af85e24445f23d7d99d1eba88d5519ec5487c920b07f39892c5cf66",
+    "../audits/check_southwest_archive_import_independent.json": "600f91c4b51dc92dd08901233e290d345eb836e1ccc92750d4e9fdc9adbcb463",
+    "JOINT_RECORD_DROUGHT_MANIFEST.json": "279631813c510c23d6939b3ef97d417f72b727e6820e243846e06cbc135adf80",
+    "../audits/check_joint_record_drought_independent.json": "ec64937c772a579f208342675e40d8f81390dd36455d3e95b29585cb1f2a7412",
+    "DROUGHT_BOUNDARY_PINNING_MANIFEST.json": "f0d24e49e0ceef9fef4e887a1941ab3c7a094470d77930d1991604c9a876d824",
+    "DROUGHT_BOUNDARY_ORIENTATION_ADDENDUM.json": "9a2524e996f887b54e7780e682790918f336af7ba9ff485c3f40209d8da4c728",
+    "../audits/check_drought_boundary_pinning_independent.json": "02f628cb43a3aa464c17a5c5e9acfaa3ea6f2dc955b70d2ea037094885678d08"
+  },
+  "domain": "all integer n>=100",
+  "initial_augmented_hull": "[-1,2n+242]x[0,2n+241]",
+  "T_contact": "21201+104n",
+  "T_records": [
+    [
+      1734,
+      0,
+      13
+    ],
+    [
+      1744,
+      0,
+      14
+    ],
+    [
+      2038,
+      0,
+      15
+    ],
+    [
+      2044,
+      0,
+      16
+    ],
+    [
+      2054,
+      0,
+      17
+    ],
+    [
+      5444,
+      0,
+      18
+    ],
+    [
+      5458,
+      0,
+      19
+    ],
+    [
+      5468,
+      0,
+      20
+    ],
+    [
+      6009,
+      1,
+      13
+    ],
+    [
+      6015,
+      1,
+      14
+    ],
+    [
+      6025,
+      1,
+      15
+    ],
+    [
+      6155,
+      1,
+      16
+    ],
+    [
+      6165,
+      1,
+      17
+    ],
+    [
+      6375,
+      1,
+      18
+    ],
+    [
+      6441,
+      1,
+      19
+    ],
+    [
+      6451,
+      1,
+      20
+    ],
+    [
+      6942,
+      0,
+      21
+    ],
+    [
+      7416,
+      0,
+      22
+    ],
+    [
+      7426,
+      0,
+      23
+    ],
+    [
+      7796,
+      0,
+      24
+    ],
+    [
+      7806,
+      0,
+      25
+    ],
+    [
+      8128,
+      0,
+      26
+    ],
+    [
+      8138,
+      0,
+      27
+    ],
+    [
+      8268,
+      0,
+      28
+    ],
+    [
+      8322,
+      0,
+      29
+    ],
+    [
+      8332,
+      0,
+      30
+    ],
+    [
+      8438,
+      0,
+      31
+    ],
+    [
+      8460,
+      0,
+      32
+    ],
+    [
+      8470,
+      0,
+      33
+    ]
+  ],
+  "T_internal_gap_max": 3390,
+  "capture_cut": "80270+208n",
+  "infinite_tail_record_classes": {
+    "W": "k>=77, phases90/100",
+    "N": "k>=n+22, phases43/57",
+    "E_S": "none"
+  },
+  "unique_gap_over3390": "58697+104n",
+  "affine_count": 85636,
+  "affine_sha256": "b9fc6872bd5860f53a52746f960143ccec6e138be443143e7be95972c686f3ab",
+  "scope": "Complete pristine augmented-hull records only. Initial wait before FIRST record is not a completed inter-record gap. Ordinary head records inside prepared field are excluded. No universal family or global bound."
+}

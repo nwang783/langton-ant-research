@@ -1,0 +1,60 @@
+{
+  "scope": "Exact first-R incidence of the two fixed late-supplier local controls.\nOutside first headings/caps/colors remain arbitrary within the same actual\nincoming-axis sector. Not a complete-front or prepared-factor existence test.\n",
+  "rows": [
+    {
+      "kind": "positive",
+      "U_indegree": 0,
+      "Y_unique_predecessor": [
+        1,
+        2
+      ],
+      "known_first_departures": {
+        "(0, 2)": [
+          -1,
+          2
+        ],
+        "(2, 2)": [
+          3,
+          2
+        ],
+        "(1, 2)": [
+          1,
+          1
+        ],
+        "(1, 0)": [
+          1,
+          -1
+        ]
+      },
+      "cannot_put_U_or_Y_on_any_b_cycle": true
+    },
+    {
+      "kind": "negative",
+      "U_indegree": 0,
+      "Y_unique_predecessor": [
+        1,
+        2
+      ],
+      "known_first_departures": {
+        "(0, 2)": [
+          -1,
+          2
+        ],
+        "(2, 2)": [
+          3,
+          2
+        ],
+        "(1, 2)": [
+          1,
+          1
+        ],
+        "(1, 0)": [
+          1,
+          -1
+        ]
+      },
+      "cannot_put_U_or_Y_on_any_b_cycle": true
+    }
+  ],
+  "full_quotient_reason": "Any incoming quotient edge lifts to one of these actual physical neighbor edges; no rotation or new first heading is introduced."
+}

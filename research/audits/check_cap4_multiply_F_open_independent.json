@@ -1,0 +1,372 @@
+{
+  "status": "PASS finite OPEN cap4 port-and-clock model only",
+  "note_sha256": "08185afc177d0c6458bde3a5b5447782c2e12d4fb10993901d874d25956c0fa9",
+  "json_sha256": "155817ca1ef88ac9424d4b0a5c08e69a918810766fd5cba54ed39c0f110bdaf1",
+  "event_count": 24,
+  "period": 200,
+  "distinct_phases": 24,
+  "internal_ordinal_edges": [
+    {
+      "source": [
+        0,
+        0
+      ],
+      "target": [
+        2,
+        0
+      ],
+      "voltage": 0,
+      "physical_ordinal": 0
+    },
+    {
+      "source": [
+        2,
+        0
+      ],
+      "target": [
+        5,
+        2
+      ],
+      "voltage": 0,
+      "physical_ordinal": 0
+    },
+    {
+      "source": [
+        3,
+        1
+      ],
+      "target": [
+        4,
+        1
+      ],
+      "voltage": 1,
+      "physical_ordinal": 0
+    },
+    {
+      "source": [
+        3,
+        0
+      ],
+      "target": [
+        0,
+        0
+      ],
+      "voltage": 0,
+      "physical_ordinal": 0
+    },
+    {
+      "source": [
+        4,
+        0
+      ],
+      "target": [
+        6,
+        1
+      ],
+      "voltage": 0,
+      "physical_ordinal": 0
+    },
+    {
+      "source": [
+        4,
+        1
+      ],
+      "target": [
+        6,
+        2
+      ],
+      "voltage": 0,
+      "physical_ordinal": 1
+    },
+    {
+      "source": [
+        5,
+        0
+      ],
+      "target": [
+        7,
+        2
+      ],
+      "voltage": 0,
+      "physical_ordinal": 0
+    },
+    {
+      "source": [
+        5,
+        1
+      ],
+      "target": [
+        3,
+        0
+      ],
+      "voltage": 0,
+      "physical_ordinal": 0
+    },
+    {
+      "source": [
+        5,
+        2
+      ],
+      "target": [
+        3,
+        1
+      ],
+      "voltage": 0,
+      "physical_ordinal": 1
+    },
+    {
+      "source": [
+        6,
+        2
+      ],
+      "target": [
+        9,
+        2
+      ],
+      "voltage": 0,
+      "physical_ordinal": 0
+    },
+    {
+      "source": [
+        6,
+        0
+      ],
+      "target": [
+        5,
+        0
+      ],
+      "voltage": -1,
+      "physical_ordinal": 0
+    },
+    {
+      "source": [
+        6,
+        1
+      ],
+      "target": [
+        5,
+        1
+      ],
+      "voltage": -1,
+      "physical_ordinal": 1
+    },
+    {
+      "source": [
+        7,
+        1
+      ],
+      "target": [
+        8,
+        0
+      ],
+      "voltage": 1,
+      "physical_ordinal": 0
+    },
+    {
+      "source": [
+        7,
+        2
+      ],
+      "target": [
+        8,
+        1
+      ],
+      "voltage": 1,
+      "physical_ordinal": 1
+    },
+    {
+      "source": [
+        7,
+        3
+      ],
+      "target": [
+        8,
+        3
+      ],
+      "voltage": 1,
+      "physical_ordinal": 2
+    },
+    {
+      "source": [
+        7,
+        0
+      ],
+      "target": [
+        4,
+        0
+      ],
+      "voltage": 0,
+      "physical_ordinal": 0
+    },
+    {
+      "source": [
+        8,
+        0
+      ],
+      "target": [
+        6,
+        0
+      ],
+      "voltage": 0,
+      "physical_ordinal": 0
+    },
+    {
+      "source": [
+        9,
+        1
+      ],
+      "target": [
+        7,
+        0
+      ],
+      "voltage": 0,
+      "physical_ordinal": 0
+    },
+    {
+      "source": [
+        9,
+        2
+      ],
+      "target": [
+        7,
+        1
+      ],
+      "voltage": 0,
+      "physical_ordinal": 1
+    },
+    {
+      "source": [
+        9,
+        3
+      ],
+      "target": [
+        7,
+        3
+      ],
+      "voltage": 0,
+      "physical_ordinal": 2
+    }
+  ],
+  "all_open_ports": [
+    {
+      "direction": "out",
+      "cell": 8,
+      "rank": 1,
+      "heading": 0,
+      "outside_class": [
+        0,
+        4
+      ],
+      "voltage": 0
+    },
+    {
+      "direction": "out",
+      "cell": 8,
+      "rank": 2,
+      "heading": 0,
+      "outside_class": [
+        0,
+        4
+      ],
+      "voltage": 0
+    },
+    {
+      "direction": "out",
+      "cell": 8,
+      "rank": 3,
+      "heading": 0,
+      "outside_class": [
+        0,
+        4
+      ],
+      "voltage": 0
+    },
+    {
+      "direction": "out",
+      "cell": 9,
+      "rank": 0,
+      "heading": 0,
+      "outside_class": [
+        1,
+        3
+      ],
+      "voltage": 0
+    },
+    {
+      "direction": "in",
+      "cell": 8,
+      "rank": 2,
+      "heading": 3,
+      "outside_class": [
+        1,
+        3
+      ],
+      "voltage": 0
+    },
+    {
+      "direction": "in",
+      "cell": 9,
+      "rank": 0,
+      "heading": 3,
+      "outside_class": [
+        0,
+        4
+      ],
+      "voltage": 1
+    },
+    {
+      "direction": "in",
+      "cell": 9,
+      "rank": 1,
+      "heading": 3,
+      "outside_class": [
+        0,
+        4
+      ],
+      "voltage": 1
+    },
+    {
+      "direction": "in",
+      "cell": 9,
+      "rank": 3,
+      "heading": 3,
+      "outside_class": [
+        0,
+        4
+      ],
+      "voltage": 1
+    }
+  ],
+  "F_cycle_classes": [
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "F_winding": -1,
+  "F_edge_total_uses": [
+    1,
+    1,
+    2,
+    2
+  ],
+  "E_cycles": [],
+  "analytic_review": [
+    "All ten proposed COMPLETE named histories, including the empty class, are checked against exact full d=(2,-2) translation reduction and WHITE rank alternation. Every internal occurrence is ordinal matched, every unmatched in/out port is retained, and sector orientation excludes opposite-direction use of the four F edges.",
+    "The supplied numeric P200 clocks independently satisfy all twenty internal successor equations, every same-cell gap>=4, all required modulo4 pose times, and24 distinct modulo200 event phases. No SMT solver is run or trusted as a proof.",
+    "The first-R DEPARTURE graph has the displayed negative-winding four-circle with total edge-use1,1,2,2; the first-R-to-LAST-read E graph is acyclic. These are different graphs and the signed single-use E theorem is not contradicted.",
+    "This is an explicit finite open local interface, NOT a shared physical board, finite literal factor, full200-event cycle, complete cap4 WHITE front or autonomous controller. The176 missing phases and all upper completion obligations remain open. Consequently it only refutes deducing one-use F edges from these finite local port/clock assumptions; global terrain may still exclude the interface."
+  ]
+}

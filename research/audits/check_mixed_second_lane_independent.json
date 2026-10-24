@@ -1,0 +1,1081 @@
+{
+  "status": "PASS mixed no-one-use global-max cap4 departure circle requires a listed actual second-lane exit",
+  "proof_sha256": "a37a9d330a347d07b3108e8b24a6f8ec9be5f7e37a78396f7892b32e0a011915",
+  "checker_sha256": "c672bad75584dd6277e9a1a8744f94d9fe08017e0ce466917556a5e8309182b2",
+  "certificate_sha256": "bd0a1e7a7d02acf72a7a6ac0740bb646217f0daf131e220a6030b71817536e2b",
+  "independent_checker_sha256": "6d1a54092298bfa25d985f7e6f647805aa6bbb5d9657edc0dc59f13f0ef970fe",
+  "all10_flow3_scatterings": [
+    {
+      "flow3_turn_word": "RR",
+      "internal_RIGHT_histories": [],
+      "complete_nodes": [
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "turn": "R",
+          "history": "EWE",
+          "cycle_incoming": "E",
+          "cycle_outgoing": "S"
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "history": "SSS",
+          "cycle_incoming": "S",
+          "cycle_outgoing": "W"
+        }
+      ],
+      "second_lane": {
+        "kind": "THROUGH",
+        "output_ordinal": 2,
+        "route": [
+          {
+            "vertex": 0,
+            "cell": [
+              0,
+              1
+            ],
+            "rank": 2,
+            "incoming": "E",
+            "outgoing": "S"
+          },
+          {
+            "vertex": 1,
+            "cell": [
+              0,
+              0
+            ],
+            "rank": 2,
+            "incoming": "S",
+            "outgoing": "W"
+          }
+        ]
+      }
+    },
+    {
+      "flow3_turn_word": "RLR",
+      "internal_RIGHT_histories": [],
+      "complete_nodes": [
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "turn": "R",
+          "history": "EWE",
+          "cycle_incoming": "E",
+          "cycle_outgoing": "S"
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L",
+          "history": "NSSS",
+          "cycle_incoming": "S",
+          "cycle_outgoing": "E"
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "history": "EEE",
+          "cycle_incoming": "E",
+          "cycle_outgoing": "S"
+        }
+      ],
+      "second_lane": {
+        "kind": "THROUGH",
+        "output_ordinal": 2,
+        "route": [
+          {
+            "vertex": 0,
+            "cell": [
+              0,
+              1
+            ],
+            "rank": 2,
+            "incoming": "E",
+            "outgoing": "S"
+          },
+          {
+            "vertex": 1,
+            "cell": [
+              0,
+              0
+            ],
+            "rank": 3,
+            "incoming": "S",
+            "outgoing": "E"
+          },
+          {
+            "vertex": 2,
+            "cell": [
+              1,
+              0
+            ],
+            "rank": 2,
+            "incoming": "E",
+            "outgoing": "S"
+          }
+        ]
+      }
+    },
+    {
+      "flow3_turn_word": "RLRR",
+      "internal_RIGHT_histories": [
+        "EEEW"
+      ],
+      "complete_nodes": [
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "turn": "R",
+          "history": "EWE",
+          "cycle_incoming": "E",
+          "cycle_outgoing": "S"
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L",
+          "history": "NSSS",
+          "cycle_incoming": "S",
+          "cycle_outgoing": "E"
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "history": "EEEW",
+          "cycle_incoming": "E",
+          "cycle_outgoing": "S"
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R",
+          "history": "SSS",
+          "cycle_incoming": "S",
+          "cycle_outgoing": "W"
+        }
+      ],
+      "second_lane": {
+        "kind": "EXIT",
+        "side": "LEFT",
+        "at_vertex": 3,
+        "at_rank": 1,
+        "physical_target": [
+          2,
+          -1
+        ],
+        "heading": "E",
+        "route": [
+          {
+            "vertex": 0,
+            "cell": [
+              0,
+              1
+            ],
+            "rank": 2,
+            "incoming": "E",
+            "outgoing": "S"
+          },
+          {
+            "vertex": 1,
+            "cell": [
+              0,
+              0
+            ],
+            "rank": 3,
+            "incoming": "S",
+            "outgoing": "E"
+          },
+          {
+            "vertex": 2,
+            "cell": [
+              1,
+              0
+            ],
+            "rank": 2,
+            "incoming": "E",
+            "outgoing": "S"
+          },
+          {
+            "vertex": 3,
+            "cell": [
+              1,
+              -1
+            ],
+            "rank": 1,
+            "incoming": "S",
+            "outgoing": "E"
+          }
+        ]
+      }
+    },
+    {
+      "flow3_turn_word": "RLRR",
+      "internal_RIGHT_histories": [
+        "EWEE"
+      ],
+      "complete_nodes": [
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "turn": "R",
+          "history": "EWE",
+          "cycle_incoming": "E",
+          "cycle_outgoing": "S"
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "L",
+          "history": "NSSS",
+          "cycle_incoming": "S",
+          "cycle_outgoing": "E"
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "history": "EWEE",
+          "cycle_incoming": "E",
+          "cycle_outgoing": "S"
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "R",
+          "history": "SSS",
+          "cycle_incoming": "S",
+          "cycle_outgoing": "W"
+        }
+      ],
+      "second_lane": {
+        "kind": "EXIT",
+        "side": "LEFT",
+        "at_vertex": 2,
+        "at_rank": 3,
+        "physical_target": [
+          1,
+          1
+        ],
+        "heading": "N",
+        "route": [
+          {
+            "vertex": 0,
+            "cell": [
+              0,
+              1
+            ],
+            "rank": 2,
+            "incoming": "E",
+            "outgoing": "S"
+          },
+          {
+            "vertex": 1,
+            "cell": [
+              0,
+              0
+            ],
+            "rank": 3,
+            "incoming": "S",
+            "outgoing": "E"
+          },
+          {
+            "vertex": 2,
+            "cell": [
+              1,
+              0
+            ],
+            "rank": 3,
+            "incoming": "E",
+            "outgoing": "N"
+          }
+        ]
+      }
+    },
+    {
+      "flow3_turn_word": "RRLR",
+      "internal_RIGHT_histories": [
+        "EEEW"
+      ],
+      "complete_nodes": [
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "turn": "R",
+          "history": "EWE",
+          "cycle_incoming": "E",
+          "cycle_outgoing": "S"
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "history": "SSSN",
+          "cycle_incoming": "S",
+          "cycle_outgoing": "W"
+        },
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "L",
+          "history": "EWWW",
+          "cycle_incoming": "W",
+          "cycle_outgoing": "S"
+        },
+        {
+          "cell": [
+            -1,
+            -1
+          ],
+          "turn": "R",
+          "history": "SSS",
+          "cycle_incoming": "S",
+          "cycle_outgoing": "W"
+        }
+      ],
+      "second_lane": {
+        "kind": "EXIT",
+        "side": "RIGHT",
+        "at_vertex": 2,
+        "at_rank": 2,
+        "physical_target": [
+          -1,
+          1
+        ],
+        "heading": "N",
+        "route": [
+          {
+            "vertex": 0,
+            "cell": [
+              0,
+              1
+            ],
+            "rank": 2,
+            "incoming": "E",
+            "outgoing": "S"
+          },
+          {
+            "vertex": 1,
+            "cell": [
+              0,
+              0
+            ],
+            "rank": 2,
+            "incoming": "S",
+            "outgoing": "W"
+          },
+          {
+            "vertex": 2,
+            "cell": [
+              -1,
+              0
+            ],
+            "rank": 2,
+            "incoming": "W",
+            "outgoing": "N"
+          }
+        ]
+      }
+    },
+    {
+      "flow3_turn_word": "RRLR",
+      "internal_RIGHT_histories": [
+        "EWEE"
+      ],
+      "complete_nodes": [
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "turn": "R",
+          "history": "EWE",
+          "cycle_incoming": "E",
+          "cycle_outgoing": "S"
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "history": "SNSS",
+          "cycle_incoming": "S",
+          "cycle_outgoing": "W"
+        },
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "L",
+          "history": "EWWW",
+          "cycle_incoming": "W",
+          "cycle_outgoing": "S"
+        },
+        {
+          "cell": [
+            -1,
+            -1
+          ],
+          "turn": "R",
+          "history": "SSS",
+          "cycle_incoming": "S",
+          "cycle_outgoing": "W"
+        }
+      ],
+      "second_lane": {
+        "kind": "EXIT",
+        "side": "LEFT",
+        "at_vertex": 1,
+        "at_rank": 3,
+        "physical_target": [
+          1,
+          0
+        ],
+        "heading": "E",
+        "route": [
+          {
+            "vertex": 0,
+            "cell": [
+              0,
+              1
+            ],
+            "rank": 2,
+            "incoming": "E",
+            "outgoing": "S"
+          },
+          {
+            "vertex": 1,
+            "cell": [
+              0,
+              0
+            ],
+            "rank": 3,
+            "incoming": "S",
+            "outgoing": "E"
+          }
+        ]
+      }
+    },
+    {
+      "flow3_turn_word": "RRLRR",
+      "internal_RIGHT_histories": [
+        "EEEW",
+        "EEEW"
+      ],
+      "complete_nodes": [
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "turn": "R",
+          "history": "EWE",
+          "cycle_incoming": "E",
+          "cycle_outgoing": "S"
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "history": "SSSN",
+          "cycle_incoming": "S",
+          "cycle_outgoing": "W"
+        },
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "L",
+          "history": "EWWW",
+          "cycle_incoming": "W",
+          "cycle_outgoing": "S"
+        },
+        {
+          "cell": [
+            -1,
+            -1
+          ],
+          "turn": "R",
+          "history": "SSSN",
+          "cycle_incoming": "S",
+          "cycle_outgoing": "W"
+        },
+        {
+          "cell": [
+            -2,
+            -1
+          ],
+          "turn": "R",
+          "history": "WWW",
+          "cycle_incoming": "W",
+          "cycle_outgoing": "N"
+        }
+      ],
+      "second_lane": {
+        "kind": "EXIT",
+        "side": "RIGHT",
+        "at_vertex": 2,
+        "at_rank": 2,
+        "physical_target": [
+          -1,
+          1
+        ],
+        "heading": "N",
+        "route": [
+          {
+            "vertex": 0,
+            "cell": [
+              0,
+              1
+            ],
+            "rank": 2,
+            "incoming": "E",
+            "outgoing": "S"
+          },
+          {
+            "vertex": 1,
+            "cell": [
+              0,
+              0
+            ],
+            "rank": 2,
+            "incoming": "S",
+            "outgoing": "W"
+          },
+          {
+            "vertex": 2,
+            "cell": [
+              -1,
+              0
+            ],
+            "rank": 2,
+            "incoming": "W",
+            "outgoing": "N"
+          }
+        ]
+      }
+    },
+    {
+      "flow3_turn_word": "RRLRR",
+      "internal_RIGHT_histories": [
+        "EEEW",
+        "EWEE"
+      ],
+      "complete_nodes": [
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "turn": "R",
+          "history": "EWE",
+          "cycle_incoming": "E",
+          "cycle_outgoing": "S"
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "history": "SSSN",
+          "cycle_incoming": "S",
+          "cycle_outgoing": "W"
+        },
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "L",
+          "history": "EWWW",
+          "cycle_incoming": "W",
+          "cycle_outgoing": "S"
+        },
+        {
+          "cell": [
+            -1,
+            -1
+          ],
+          "turn": "R",
+          "history": "SNSS",
+          "cycle_incoming": "S",
+          "cycle_outgoing": "W"
+        },
+        {
+          "cell": [
+            -2,
+            -1
+          ],
+          "turn": "R",
+          "history": "WWW",
+          "cycle_incoming": "W",
+          "cycle_outgoing": "N"
+        }
+      ],
+      "second_lane": {
+        "kind": "EXIT",
+        "side": "RIGHT",
+        "at_vertex": 2,
+        "at_rank": 2,
+        "physical_target": [
+          -1,
+          1
+        ],
+        "heading": "N",
+        "route": [
+          {
+            "vertex": 0,
+            "cell": [
+              0,
+              1
+            ],
+            "rank": 2,
+            "incoming": "E",
+            "outgoing": "S"
+          },
+          {
+            "vertex": 1,
+            "cell": [
+              0,
+              0
+            ],
+            "rank": 2,
+            "incoming": "S",
+            "outgoing": "W"
+          },
+          {
+            "vertex": 2,
+            "cell": [
+              -1,
+              0
+            ],
+            "rank": 2,
+            "incoming": "W",
+            "outgoing": "N"
+          }
+        ]
+      }
+    },
+    {
+      "flow3_turn_word": "RRLRR",
+      "internal_RIGHT_histories": [
+        "EWEE",
+        "EEEW"
+      ],
+      "complete_nodes": [
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "turn": "R",
+          "history": "EWE",
+          "cycle_incoming": "E",
+          "cycle_outgoing": "S"
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "history": "SNSS",
+          "cycle_incoming": "S",
+          "cycle_outgoing": "W"
+        },
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "L",
+          "history": "EWWW",
+          "cycle_incoming": "W",
+          "cycle_outgoing": "S"
+        },
+        {
+          "cell": [
+            -1,
+            -1
+          ],
+          "turn": "R",
+          "history": "SSSN",
+          "cycle_incoming": "S",
+          "cycle_outgoing": "W"
+        },
+        {
+          "cell": [
+            -2,
+            -1
+          ],
+          "turn": "R",
+          "history": "WWW",
+          "cycle_incoming": "W",
+          "cycle_outgoing": "N"
+        }
+      ],
+      "second_lane": {
+        "kind": "EXIT",
+        "side": "LEFT",
+        "at_vertex": 1,
+        "at_rank": 3,
+        "physical_target": [
+          1,
+          0
+        ],
+        "heading": "E",
+        "route": [
+          {
+            "vertex": 0,
+            "cell": [
+              0,
+              1
+            ],
+            "rank": 2,
+            "incoming": "E",
+            "outgoing": "S"
+          },
+          {
+            "vertex": 1,
+            "cell": [
+              0,
+              0
+            ],
+            "rank": 3,
+            "incoming": "S",
+            "outgoing": "E"
+          }
+        ]
+      }
+    },
+    {
+      "flow3_turn_word": "RRLRR",
+      "internal_RIGHT_histories": [
+        "EWEE",
+        "EWEE"
+      ],
+      "complete_nodes": [
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "turn": "R",
+          "history": "EWE",
+          "cycle_incoming": "E",
+          "cycle_outgoing": "S"
+        },
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "history": "SNSS",
+          "cycle_incoming": "S",
+          "cycle_outgoing": "W"
+        },
+        {
+          "cell": [
+            -1,
+            0
+          ],
+          "turn": "L",
+          "history": "EWWW",
+          "cycle_incoming": "W",
+          "cycle_outgoing": "S"
+        },
+        {
+          "cell": [
+            -1,
+            -1
+          ],
+          "turn": "R",
+          "history": "SNSS",
+          "cycle_incoming": "S",
+          "cycle_outgoing": "W"
+        },
+        {
+          "cell": [
+            -2,
+            -1
+          ],
+          "turn": "R",
+          "history": "WWW",
+          "cycle_incoming": "W",
+          "cycle_outgoing": "N"
+        }
+      ],
+      "second_lane": {
+        "kind": "EXIT",
+        "side": "LEFT",
+        "at_vertex": 1,
+        "at_rank": 3,
+        "physical_target": [
+          1,
+          0
+        ],
+        "heading": "E",
+        "route": [
+          {
+            "vertex": 0,
+            "cell": [
+              0,
+              1
+            ],
+            "rank": 2,
+            "incoming": "E",
+            "outgoing": "S"
+          },
+          {
+            "vertex": 1,
+            "cell": [
+              0,
+              0
+            ],
+            "rank": 3,
+            "incoming": "S",
+            "outgoing": "E"
+          }
+        ]
+      }
+    }
+  ],
+  "flow4": {
+    "nodes": [
+      {
+        "cell": [
+          0,
+          1
+        ],
+        "turn": "R",
+        "history": "EWEW",
+        "cycle_incoming": "E",
+        "cycle_outgoing": "S"
+      },
+      {
+        "cell": [
+          0,
+          0
+        ],
+        "turn": "R",
+        "history": "SSSS",
+        "cycle_incoming": "S",
+        "cycle_outgoing": "W"
+      }
+    ],
+    "second_lane": {
+      "kind": "THROUGH",
+      "output_ordinal": 2,
+      "route": [
+        {
+          "vertex": 0,
+          "cell": [
+            0,
+            1
+          ],
+          "rank": 2,
+          "incoming": "E",
+          "outgoing": "S"
+        },
+        {
+          "vertex": 1,
+          "cell": [
+            0,
+            0
+          ],
+          "rank": 2,
+          "incoming": "S",
+          "outgoing": "W"
+        }
+      ]
+    }
+  },
+  "complete_constant2_alphabet": {
+    "R": [
+      "EEWW",
+      "EWWE"
+    ],
+    "L": [
+      "WEE",
+      "WEEW",
+      "WWEE"
+    ]
+  },
+  "flow2": [
+    {
+      "turn": "L",
+      "history": "WWEE",
+      "second_lane": {
+        "kind": "THROUGH",
+        "output_ordinal": 2,
+        "route": [
+          {
+            "vertex": 0,
+            "cell": [
+              0,
+              1
+            ],
+            "rank": 3,
+            "incoming": "E",
+            "outgoing": "N"
+          }
+        ]
+      }
+    },
+    {
+      "turn": "L",
+      "history": "WEE",
+      "second_lane": {
+        "kind": "EXIT",
+        "side": "RIGHT",
+        "at_vertex": 0,
+        "at_rank": 2,
+        "physical_target": [
+          0,
+          0
+        ],
+        "heading": "S",
+        "route": [
+          {
+            "vertex": 0,
+            "cell": [
+              0,
+              1
+            ],
+            "rank": 2,
+            "incoming": "E",
+            "outgoing": "S"
+          }
+        ]
+      }
+    },
+    {
+      "turn": "L",
+      "history": "WEEW",
+      "second_lane": {
+        "kind": "EXIT",
+        "side": "RIGHT",
+        "at_vertex": 0,
+        "at_rank": 2,
+        "physical_target": [
+          0,
+          0
+        ],
+        "heading": "S",
+        "route": [
+          {
+            "vertex": 0,
+            "cell": [
+              0,
+              1
+            ],
+            "rank": 2,
+            "incoming": "E",
+            "outgoing": "S"
+          }
+        ]
+      }
+    },
+    {
+      "turn": "R",
+      "history": "EEWW",
+      "second_lane": {
+        "kind": "EXIT",
+        "side": "LEFT",
+        "at_vertex": 0,
+        "at_rank": 1,
+        "physical_target": [
+          0,
+          2
+        ],
+        "heading": "N",
+        "route": [
+          {
+            "vertex": 0,
+            "cell": [
+              0,
+              1
+            ],
+            "rank": 1,
+            "incoming": "E",
+            "outgoing": "N"
+          }
+        ]
+      }
+    },
+    {
+      "turn": "R",
+      "history": "EWWE",
+      "second_lane": {
+        "kind": "EXIT",
+        "side": "LEFT",
+        "at_vertex": 0,
+        "at_rank": 3,
+        "physical_target": [
+          0,
+          2
+        ],
+        "heading": "N",
+        "route": [
+          {
+            "vertex": 0,
+            "cell": [
+              0,
+              1
+            ],
+            "rank": 3,
+            "incoming": "E",
+            "outgoing": "N"
+          }
+        ]
+      }
+    }
+  ],
+  "analytic_scope": [
+    "Signed maximal3 templates include their true2-to3 source and3-to2 sink under no-one-use; signed isolated4 pair retained. All short macro transitions here are uninterrupted ACTUAL same-rank successor edges, not repaired exchanges or waiting gaps.",
+    "If no listed exit occurs, second ordinal between macros becomes third inside short3/4 and returns to second. One selected real read per boundary vertex follows every gamma edge once, including seam lift. Gamma winding -1 would force the same rank at v-d after positive ell updates, while full-front equivariance gives time difference -P. Contradiction.",
+    "Nonlocal chord exits remain real open junctions, not absent exterior or fuel. No critical K1 hypothesis, period/count bound, attainable full front, or universal one-use follows."
+  ]
+}

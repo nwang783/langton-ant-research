@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "family": "Q U^n Q V^4 U^n Q",
+  "feasible_exactly": "integer n>=3",
+  "affine_endpoint_order_threshold": 4,
+  "minimal_seed_mass": "10n+57",
+  "time": "56n+264",
+  "end_pose": [
+    0,
+    8,
+    2
+  ],
+  "source_sha256": "02646581d58b0072a245ca3f57edab2a69174dc670ce616ce2466dc10a0a0557",
+  "small_cases": {
+    "0": {
+      "feasible": false,
+      "conflict": [
+        [
+          46,
+          "R"
+        ],
+        [
+          122,
+          "R"
+        ],
+        [
+          -1,
+          -1
+        ]
+      ]
+    },
+    "1": {
+      "feasible": false,
+      "conflict": [
+        [
+          3,
+          "L"
+        ],
+        [
+          175,
+          "L"
+        ],
+        [
+          0,
+          -1
+        ]
+      ]
+    },
+    "2": {
+      "feasible": false,
+      "conflict": [
+        [
+          8,
+          "R"
+        ],
+        [
+          232,
+          "R"
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    "3": {
+      "feasible": true,
+      "fuel": 87,
+      "time": 432
+    }
+  },
+  "slab_count": 182
+}

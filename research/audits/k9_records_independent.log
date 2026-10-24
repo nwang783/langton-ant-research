@@ -1,0 +1,117 @@
+{
+  "status": "independent finite ingredients pass; analytic record proof reviewed",
+  "images": {
+    "R": [
+      "RRLRRRRLR",
+      "RRLLRLLLL",
+      "RLRRLRRRR",
+      "RLRLLLLRL",
+      "RLLLLRLLR",
+      "LRRLRRLRL",
+      "LLLRLLRLR",
+      "LLLLRRLLR",
+      "LLLLRLRRL"
+    ],
+    "L": [
+      "RRRRLRLLR",
+      "RRRRLLRRL",
+      "RRRLRRLRL",
+      "RLLRLLRLR",
+      "LRRRRLRRL",
+      "LRLRRRRLR",
+      "LRLLRLLLL",
+      "LLRRLRRRR",
+      "LLRLLLLRL"
+    ]
+  },
+  "surviving_pairs": [
+    [
+      "RRLRRRRLR",
+      "RLRLLLLRL"
+    ],
+    [
+      "LLLRLLRLR",
+      "RLRRLRRRR"
+    ],
+    [
+      "LLLRLLRLR",
+      "RLRLLLLRL"
+    ],
+    [
+      "LLLLRRLLR",
+      "RLRRLRRRR"
+    ],
+    [
+      "LLLLRRLLR",
+      "RLRLLLLRL"
+    ]
+  ],
+  "forward_excluded_pairs": 33,
+  "top_reachers": [
+    [
+      "R",
+      "RRLLRLLLL",
+      3,
+      [
+        [
+          0,
+          "L"
+        ],
+        [
+          -1,
+          "L"
+        ]
+      ]
+    ],
+    [
+      "R",
+      "RLRRLRRRR",
+      3,
+      [
+        [
+          0,
+          "R"
+        ],
+        [
+          1,
+          "R"
+        ]
+      ]
+    ],
+    [
+      "L",
+      "LRLLRLLLL",
+      1,
+      [
+        [
+          0,
+          "L"
+        ],
+        [
+          -1,
+          "L"
+        ]
+      ]
+    ],
+    [
+      "L",
+      "LLRRLRRRR",
+      1,
+      [
+        [
+          0,
+          "R"
+        ],
+        [
+          1,
+          "R"
+        ]
+      ]
+    ]
+  ],
+  "forced_pair": [
+    "RRLRRRRLR",
+    "RLRLLLLRL"
+  ],
+  "scope": "For any finite-seed pure p(9n)=3p(n), h(9n)=h(n) trace, sufficiently high north records satisfy tau(3Y)=9*tau(Y) and the displayed pair at scaled time. This is a necessary condition, not exclusion."
+}

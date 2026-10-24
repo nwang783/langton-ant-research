@@ -1,0 +1,122 @@
+{
+  "status": "exact all-k complete finite-kernel capture",
+  "phase": 29,
+  "domain": "integer k>=100",
+  "input_old_deposit_count": 42,
+  "second_marker_affine": [
+    [
+      -2,
+      -17
+    ],
+    [
+      -2,
+      -28
+    ]
+  ],
+  "second_first_hit": [
+    104,
+    12793
+  ],
+  "capture_time": [
+    104,
+    63839
+  ],
+  "capture_pose": [
+    [
+      [
+        -2,
+        22
+      ],
+      [
+        -2,
+        -57
+      ]
+    ],
+    1
+  ],
+  "tail": {
+    "distinct_required_cells": 40,
+    "odd_read_cells": 32,
+    "drift": [
+      2,
+      2
+    ],
+    "heading": 1
+  },
+  "tail_phase": 0,
+  "whole_future_forward_guard": true,
+  "prefix_u_lower": -68,
+  "full_future_u_lower": -68,
+  "tail_z_bounds": null,
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        12513
+      ],
+      "pose": [
+        [
+          [
+            0,
+            -11
+          ],
+          [
+            0,
+            -16
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 1,
+      "time": [
+        104,
+        12721
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            -15
+          ],
+          [
+            -2,
+            -20
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 2,
+      "time": [
+        104,
+        63839
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            22
+          ],
+          [
+            -2,
+            -57
+          ]
+        ],
+        1
+      ]
+    }
+  ],
+  "source_sha256": "9caee109537263d06036894c52a954b33f88cee68c2d36c3b1d86f01976baca8",
+  "template_sha256": "dbbf7a7ce418fd6eb8b22201a450da7bf99e69e1b8e0c9b21b1c22243ddde046",
+  "statistics": {
+    "finite_read_constraints": 6399,
+    "periodic_read_constraints": 80,
+    "affine_guards": 2858,
+    "excluded_isolated_equalities": 4768561
+  },
+  "scope": "All older canonical deposits are avoided. Arbitrary finite history contained in u<-160 is protected iff whole_future_forward_guard is true; the other cases need a return/endcap condition."
+}

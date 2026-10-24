@@ -1,0 +1,59 @@
+{
+  "status": "PASS exact UC-containing-source exclusion for F/C3 only",
+  "manifest_sha256": "773464470ea83b565a51e150dccc0af9ff0e680ca1b144ff37b866a11fd0f6de",
+  "creator_relative_to_old_C": [
+    0,
+    -4,
+    0
+  ],
+  "old_star": [
+    [
+      0,
+      -4
+    ],
+    [
+      0,
+      -3
+    ],
+    [
+      1,
+      -4
+    ],
+    [
+      1,
+      -3
+    ]
+  ],
+  "three_foreign_contexts": [
+    {
+      "foreign": "F",
+      "star_context_hits": [
+        [
+          1,
+          -4
+        ],
+        [
+          1,
+          -3
+        ]
+      ],
+      "star_entry_core_hits": [
+        [
+          1,
+          -4
+        ]
+      ]
+    },
+    {
+      "foreign": "Q",
+      "star_context_hits": [],
+      "star_entry_core_hits": []
+    },
+    {
+      "foreign": "B",
+      "star_context_hits": [],
+      "star_entry_core_hits": []
+    }
+  ],
+  "analytic": "Actual U base ends at(0,4,N), so normalizing its own C1 to0 places its genuine creator at(0,-4,N). Its original star site(1,-4) remains a current residual identity throughout the actual old-eight factor. F entry K at(2,-5,E) contains that exact site as local(-1,-1), contradicting residual/core disjointness at the PREforeign full cut. F context tick2/read3 confirms the core role, not a postforeign age claim. Q/B combined actual contexts miss all four star sites and remain open."
+}

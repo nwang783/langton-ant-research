@@ -1,0 +1,493 @@
+{
+  "status": "PASS S/E/N deleted-core external-input obstruction and entire221-read control",
+  "manifest": "cb606e5e073a200f748125f61d05ae4cf0a87e55667e122c2609df500fa14de9",
+  "dependencies": {
+    "word_stabilization/check_foreign_return_interfaces.py": "249f89213a96c8daad9d0ecde65e877d5e254af033092adb81b4bbaca0cc729c",
+    "literal_ownership_conventions_2026-10-24/canonical_read_ownership.py": "041b40e04a0f71a6b9511abf1d15b1d86c548e74f4f99281477c115b72036ea2"
+  },
+  "physical_R_supports": 41,
+  "actual_deletions": [
+    [
+      "D",
+      [
+        -1,
+        0
+      ],
+      1
+    ],
+    [
+      "D",
+      [
+        -1,
+        -1
+      ],
+      2
+    ],
+    [
+      "D",
+      [
+        0,
+        -1
+      ],
+      3
+    ],
+    [
+      "V",
+      [
+        -1,
+        0
+      ],
+      1
+    ],
+    [
+      "V",
+      [
+        -1,
+        -1
+      ],
+      2
+    ],
+    [
+      "V",
+      [
+        0,
+        -1
+      ],
+      3
+    ],
+    [
+      "U",
+      [
+        -1,
+        0
+      ],
+      1
+    ],
+    [
+      "U",
+      [
+        -1,
+        -1
+      ],
+      2
+    ],
+    [
+      "U",
+      [
+        0,
+        -1
+      ],
+      3
+    ]
+  ],
+  "external_N_ledgers": [
+    {
+      "atom": "D",
+      "inputs": [
+        [
+          [
+            0,
+            1
+          ],
+          11,
+          true
+        ]
+      ],
+      "outputs": [
+        [
+          [
+            2,
+            0
+          ],
+          8
+        ]
+      ],
+      "CORE": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            "R",
+            4
+          ],
+          true
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            "R",
+            9
+          ],
+          true
+        ],
+        [
+          [
+            -1,
+            -1
+          ],
+          [
+            "L",
+            2
+          ],
+          false
+        ],
+        [
+          [
+            0,
+            -1
+          ],
+          [
+            "L",
+            3
+          ],
+          false
+        ],
+        [
+          [
+            -1,
+            0
+          ],
+          [
+            "L",
+            1
+          ],
+          false
+        ]
+      ]
+    },
+    {
+      "atom": "V",
+      "inputs": [
+        [
+          [
+            0,
+            3
+          ],
+          19,
+          true
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          13,
+          false
+        ]
+      ],
+      "outputs": [
+        [
+          [
+            0,
+            0
+          ],
+          4
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          9
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          8
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          11
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          7
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          16
+        ]
+      ],
+      "CORE": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            "R",
+            4
+          ],
+          false
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            "R",
+            9
+          ],
+          false
+        ],
+        [
+          [
+            -1,
+            -1
+          ],
+          [
+            "L",
+            2
+          ],
+          false
+        ],
+        [
+          [
+            0,
+            -1
+          ],
+          [
+            "L",
+            3
+          ],
+          false
+        ],
+        [
+          [
+            -1,
+            0
+          ],
+          [
+            "L",
+            1
+          ],
+          false
+        ]
+      ]
+    },
+    {
+      "atom": "U",
+      "inputs": [
+        [
+          [
+            -1,
+            1
+          ],
+          14,
+          false
+        ],
+        [
+          [
+            -1,
+            2
+          ],
+          13,
+          false
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          12,
+          false
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          23,
+          false
+        ],
+        [
+          [
+            -1,
+            4
+          ],
+          29,
+          true
+        ]
+      ],
+      "outputs": [
+        [
+          [
+            0,
+            0
+          ],
+          4
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          9
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          8
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          19
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          18
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          7
+        ],
+        [
+          [
+            -1,
+            2
+          ],
+          21
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          17
+        ],
+        [
+          [
+            1,
+            3
+          ],
+          26
+        ]
+      ],
+      "CORE": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            "R",
+            4
+          ],
+          false
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            "R",
+            9
+          ],
+          false
+        ],
+        [
+          [
+            -1,
+            -1
+          ],
+          [
+            "L",
+            2
+          ],
+          false
+        ],
+        [
+          [
+            0,
+            -1
+          ],
+          [
+            "L",
+            3
+          ],
+          false
+        ],
+        [
+          [
+            -1,
+            0
+          ],
+          [
+            "L",
+            1
+          ],
+          false
+        ]
+      ]
+    }
+  ],
+  "complete_control": {
+    "seed_size": 35,
+    "reads": 221,
+    "cut_masses": {
+      "28": 39,
+      "92": 45,
+      "102": 45,
+      "112": 45,
+      "122": 45,
+      "132": 45,
+      "150": 49,
+      "165": 52,
+      "175": 52,
+      "190": 55,
+      "208": 59,
+      "219": 58,
+      "221": 58
+    },
+    "final_pose": [
+      -7,
+      -4,
+      3
+    ],
+    "actual_next": "R",
+    "desired_L_conflict": [
+      221,
+      133,
+      [
+        -7,
+        -4
+      ]
+    ]
+  },
+  "analytic": [
+    "Source S D/V/U deletes its three named K cells finally at L1/L2/L3; their y is Y orY+1, while source EXIT y<=Y-1. Every remaining S R lies at/below its decreasing head. C1 moves down one more, so E entry y<=Y-2. Every E RAW R lies at most one above that head, and C2 R lies at/below it. All41 physical R reads, including CORE writes, satisfy these inequalities. Thus the holes are physically WHITE when the N epoch begins.",
+    "For every N D/V/U, all8 true external input slots are strictly above entry y, including marker-only inputs whose first read occurs in the actual supplied M. All16 genuine O outputs are final RAW R births at/below EXIT y. Every one of15 incoming K sites is read, so a previously CORE identity cannot emerge as unexplained external BLACK.",
+    "If a hole later becomes external BLACK, some actual completed N RAW first exports it; even a carried CORE identity requires a final-R O export because every incoming K cell is read. Its fixed y<=producer EXIT y<=all subsequent N entry y prevents any later external input, which requires a strictly higher cell. No assumption that the hole remains physically WHITE during N, or that N CORE births are forbidden, is used.",
+    "The exact35-cell prelaid seed replays all221 reads and every complete field/identity cut. Source S-V L1 at133 deletes the prospective N-U external q; its requested L13 at221 repeats L133 at the same cell, so actual next turn is R. Last completed V really has M11 from the actual first11 U reads, plus two more executed reads. Reader U is not complete; no physical ant termination is claimed.",
+    "Scope is only the named S rail/C/E rail/C/N rail with no extra C or FOREIGN and actual contexts. No U ancestry, simplicity, age, rail bound, N CORE-input ban, all-Q-C3 restoration classification or capture theorem follows."
+  ]
+}

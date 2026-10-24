@@ -1,0 +1,34 @@
+{
+  "status": "PASS dependency-only217=60+17+48+92 angular partition",
+  "manifest_sha256": "ef36a0afc4a7cdbcf3dff24c2d89a4e864287ad5ce46c9269d1a1b191d426956",
+  "dependencies": {
+    "second_ordinary_after_first_foreign_2026-10-24/small_second_ordinary_geometry_manifest.json": "6d2d6a5811faaae52db980edfd0c03180f303431331abd4f2824d76dc05f3690",
+    "second_ordinary_after_first_foreign_2026-10-24/old_U_second_source_closure_manifest.json": "0473649e19c63aaec1f5003bc3644786f7047eb76cfee2c5ad0713ef9ef660a1",
+    "audits/check_old_U_second_source_closure_independent.json": "f4b54b635393272c39decd24e4c765b5a97d492440601239ccfb369ae4cd9175",
+    "second_ordinary_after_first_foreign_2026-10-24/zero_preforeign_C_old_DV_slice_manifest.json": "5d1d4d312c60a1fbd9fb6b30a804ad66b47cff062f59d0e013d9d480d0ebdad7",
+    "audits/check_zero_C_old_DV_second_contact_independent.json": "18f45e9c13c7d136521665f3df41bbfae4a6967e6e64d2284b29d307eea1f3ee",
+    "second_old_D_age1_2026-10-24/manifest.json": "e7297345939ce70cd22d41bd678e9b5c0d35d0bb8e5a6a0d3e91b5a206394b0e",
+    "audits/check_old_D_second_age1_independent.json": "1ead5a0ab29a870428f754255d8ffb37185c3d7e2943610811a603d915948bdc",
+    "second_old_C_age1_2026-10-24/manifest.json": "84475d664f7e5e96b2d929c4eb570b10c9e129c4be590af0facfb23699f3e4aa",
+    "audits/check_old_C_second_age1_independent.json": "8092e10ec6a5cfd48b0e5395786d141e33cbcf5c43615025d8c2423277410d56",
+    "old_V_second_contact_age1_2026-10-24/manifest.json": "4c9dd20beb68a05afd5261efe03afd721a442a95dad2287f650b11b084659f37",
+    "old_V_age1_scope_qualification_2026-10-24/manifest.json": "b6642b71d66d70d1b95b573ae97438deaa55f463fa6074b6b22a9970bab365b8",
+    "audits/check_old_V_second_age1_independent.json": "cc948b744ebb19b7c4748627eff06ed78463826da81baabf68d2453a43b49d74"
+  },
+  "counts": [
+    60,
+    17,
+    48,
+    92
+  ],
+  "remaining_by_source": {
+    "D": 28,
+    "C": 28,
+    "V": 36
+  },
+  "analytic_review": [
+    "The original signed217 angle rows are distinct and unchanged. Source-U closure covers all60; exact n=0 oldDV slice covers17; separate genuine D/C/V atomic-age1 proofs cover48 with their own source/full-tail clocks. C2 full age differs from selected atomic age and remains qualified by its signed proof.",
+    "Old-D/V positive finite words can contain later U, but their natural reverse closures exclude U BEFORE selected source only. The source here lies in the original genuine U-start old factor, so those scoped exclusions apply. OldV mandatory b6642b71 is bound.",
+    "The remaining92 are angular possibilities, not92 physical configurations or realizable histories. Epoch lengths remain unbounded. No generic second simplicity, later ordinary atom, foreign iteration, or new geometric theorem is inferred."
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "scope": "Canonical first-branch leaves in all three early RIGHT-ancestor modes.\nOnly complete110 profiles and previously signed ancestor rows.\n",
+  "R_rows": 36,
+  "first_branch_leaf_profiles": [
+    {
+      "type": "R4a",
+      "source_rows": 12,
+      "physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSS",
+        "(-1, -1)": "WEW",
+        "(-1, 0)": "SNNN"
+      },
+      "entry": [
+        0,
+        0
+      ],
+      "rotation": 1,
+      "canonical_profile": {
+        "A": "NNSN",
+        "Z": "WWW",
+        "Y": "NSN",
+        "B": "WEEE"
+      },
+      "potential_children": []
+    },
+    {
+      "type": "R3",
+      "source_rows": 12,
+      "physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSS",
+        "(-1, -1)": "WEEW",
+        "(-1, 0)": "SNN"
+      },
+      "entry": [
+        0,
+        0
+      ],
+      "rotation": 1,
+      "canonical_profile": {
+        "A": "NNSN",
+        "Z": "WWW",
+        "Y": "NSSN",
+        "B": "WEE"
+      },
+      "potential_children": []
+    },
+    {
+      "type": "R4b",
+      "source_rows": 12,
+      "physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSSN",
+        "(-1, -1)": "WEWW",
+        "(-1, 0)": "SNNN"
+      },
+      "entry": [
+        0,
+        0
+      ],
+      "rotation": 1,
+      "canonical_profile": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NSNN",
+        "B": "WEEE"
+      },
+      "potential_children": []
+    }
+  ],
+  "capacity": "Nodd >= n_Sanc + 3*n_R3 + 4*n_R4a + 2*n_R4b"
+}

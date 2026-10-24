@@ -1,0 +1,150 @@
+{
+  "status": "PASS finite implementation controls; no finite-seed example found",
+  "cases": [
+    {
+      "case": 0,
+      "matrix": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "raw_difference_states": 4,
+      "lyapunov_P": [
+        "4/3",
+        "0",
+        "9/8"
+      ],
+      "inverse_contraction_upper": "1/2",
+      "offset_difference_norm_ceiling": 2,
+      "carry_radius": 2,
+      "comparison_controls": 98304
+    },
+    {
+      "case": 1,
+      "matrix": [
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "raw_difference_states": 16,
+      "lyapunov_P": [
+        "4/3",
+        "-2/3",
+        "3"
+      ],
+      "inverse_contraction_upper": "1747/2048",
+      "offset_difference_norm_ceiling": 2,
+      "carry_radius": 12,
+      "comparison_controls": 98304
+    },
+    {
+      "case": 2,
+      "matrix": [
+        [
+          0,
+          -2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "raw_difference_states": 11,
+      "lyapunov_P": [
+        "9/7",
+        "0",
+        "8/7"
+      ],
+      "inverse_contraction_upper": "1931/4096",
+      "offset_difference_norm_ceiling": 3,
+      "carry_radius": 3,
+      "comparison_controls": 98304
+    }
+  ],
+  "dragon": {
+    "raw_difference_states": 809,
+    "lyapunov_P": [
+      "2",
+      "0",
+      "2"
+    ],
+    "inverse_contraction_upper": "2897/4096",
+    "offset_difference_norm_ceiling": 3,
+    "carry_radius": 8,
+    "geometry": {
+      "bad_unit_step": null,
+      "bad_quarter_turn": null,
+      "bad_initial_turn": null,
+      "direction_dfa_states": [
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    "first_left_times_finite": false,
+    "first_left_dfa_states": 8,
+    "bad_alternation_witness": {
+      "t": 7,
+      "u": 11
+    },
+    "bad_alternation_dfa_states": 14,
+    "repeated_cell_witness": {
+      "s": 7,
+      "t": 11
+    }
+  },
+  "nonexpansive_rejections": [
+    [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    [
+      [
+        0,
+        -1
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  ],
+  "elapsed_seconds": 1.2551334899981157
+}

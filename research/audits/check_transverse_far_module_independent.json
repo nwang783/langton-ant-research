@@ -1,0 +1,58 @@
+{
+  "status": "PASS all-even-n>=20 sixteen-cell moving long-lived return-module family, with exact finite-to-infinite scope",
+  "manifest": "1abb9100e92eba1fb40d38cc8945e9f54739325a8ff1c1dc3294d658fc95758d",
+  "proof": "3ff4fc938165052dd032ed3c258da5b8a2b2cd495c39af278c9eb483e1cb9816",
+  "affine_inequalities": 10096,
+  "all_six_complete_read_set_separators": true,
+  "all_ports_first59": true,
+  "protected_full_field_size": 330,
+  "protected_initial_relevant": 285,
+  "all_future_exact_relevant_max": 432,
+  "protected_recovery_length": 8986,
+  "marked_source_all_ray_equalities": [
+    [
+      0,
+      71
+    ]
+  ],
+  "controls": [
+    {
+      "n": 20,
+      "updates": 23587,
+      "birth": 3061,
+      "death": 14393,
+      "age": 11332,
+      "first_canonical": 23379,
+      "full_terminal_mass": 2225,
+      "all_future_parity_tests": 170
+    },
+    {
+      "n": 40,
+      "updates": 39187,
+      "birth": 6181,
+      "death": 29993,
+      "age": 23812,
+      "first_canonical": 38979,
+      "full_terminal_mass": 4025,
+      "all_future_parity_tests": 170
+    },
+    {
+      "n": 80,
+      "updates": 70387,
+      "birth": 12421,
+      "death": 61193,
+      "age": 48772,
+      "first_canonical": 70179,
+      "full_terminal_mass": 7625,
+      "all_future_parity_tests": 170
+    }
+  ],
+  "analytic_review": [
+    "All affine inequalities were rebuilt using fresh literalG reference and complex coefficient pairs. Endpoint extrema cover each nonempty arithmetic read segment for everyintegerk>=10. Six strict separators plus first59 own-port reads establish literal full-board first-difference execution with all16 inputs and every earlier archive retained.",
+    "Originalq=(6k,6k+3) is phase71 copy3k-3, actualbirth312k-59 and sole nonnegative reference ray equality at its ownphase. Otherstage read sets miss it until finalendpoint1560k-1207, which is excluded from V3 and demandsR in freshreference butactuallyreadsL. Marked suffix inequalities cover everycutb+1..c, not the earlier origin launch.",
+    "Normalized protectedOmega has sum[-73,17],difference>=-20. Allinitial inputs and three irrelevant prefix pieces are excluded by exact affineguards. Reindexed outgoingv=-30..35 andreturnv=-20..-7 pluspartialv=-6 give exactly330cells byXOR; all omitted actualparametercopies lie outsideOmega. Exactcentering formulas hold symbolically, not byinterpolation.",
+    "Independent330-cell full recovery and every read stayOmega; after8986actualreads the exact104rayparity tail hasdrift2,-2. Its positive difference drift keepsALLfuture readsOmega. Full exteriorarchive is thus neverread. The precedingletter mismatch with distinctcyclic104phases proves exactfirstonsetc+8986, not merely a sufficient observedrepeat.",
+    "All initial330 lifetimefates and full terminalfields checked. Initialrelevant285, complete finiteprofilemaximum432 and translatedpruned104closure prove ALLFUTURE432. Beforec,16initial+22same-stagefuturecontacts+330survivors bound368; afterc actualrelevance equalsprotectedreference. Everyfamilymemberattains432, unlike promoting named-control maxima.",
+    "Fresh fullboardsn20/40/80 retain everyidentity and wholefutureparity. This is a real R-born, actuallyconsumed moving module across a constant-massfamily, with entiremarked excursion escaping everyfixed AXIALband asn grows. Birthslieon x-y=-3, so no diagonalescapeclaim. Eachmembercaptures; no singleorbitwithinfinitelymanyunbounded-ageepisodes, eventualper-orbitlocalizationfailure, pristine-recordbudgetcounterexample or globalattractionclaim."
+  ]
+}

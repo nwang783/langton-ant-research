@@ -1,0 +1,36 @@
+{
+  "status": "DIAGNOSTIC_ONLY_NOT_PHYSICAL_PATH",
+  "goal_C_before": 53,
+  "last_projected_watched_output_C_before": 38,
+  "latest_projected_joint_age_at_goal": 15,
+  "filtered_by_joint_age5": false,
+  "reset_events": [
+    {
+      "packet_index": 67,
+      "packet": 0,
+      "C_before": 35,
+      "watched_outputs": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "packet_index": 74,
+      "packet": 6,
+      "C_before": 38,
+      "watched_outputs": [
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    }
+  ],
+  "scope": "Uses projected near poses on a known nonphysical finite-model control. No age-five theorem or actual-ant counterexample is inferred."
+}

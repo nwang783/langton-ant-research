@@ -1,0 +1,15 @@
+{
+  "note": "Direct write_stdin handles are authoritative; ps in a fresh exec did not show live sessions. Never restart solely on ps absence. These handles may expire at a roster reset.",
+  "last_checked_utc": "2026-10-23T01:24:09Z",
+  "live_sessions": [
+    {"session_id": 66408, "task": "Exact-state lazy cap4 cylinder d=(2,2), width10, max100000 clauses; resumable checkpoints"},
+    {"session_id": 32854, "task": "Exact-state lazy cap4 d=(2,0), width8, then d=(3,1), width6 and d=(4,2), width4; resumable checkpoints"},
+    {"session_id": 20648, "task": "Open 7x7 patch case0, no global-max restriction, max30000 clauses; resumable checkpoints"},
+    {"session_id": 5309, "task": "Open 5x5 global-max patches, cases0 through5, max30000 clauses each; currently case2; resumable checkpoints"}
+  ],
+  "completed": [
+    {"session_id": 45790, "task": "Generalized lazy cap4 d=(2,2), width10", "status": "UNKNOWN_SOLVER after1003 sound learned clauses"},
+    {"session_id": 61089, "task": "Generalized lazy cap4 d=(2,2), width6", "status": "UNSAT_FIXED_STRIP_LEARNED after401 clauses; solver proof not independently certified"}
+  ],
+  "expired_confirmed": [18289,74263,56033]
+}

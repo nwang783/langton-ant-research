@@ -1,0 +1,34 @@
+{
+  "status": "PASS genuine standard proper projected H/V crossing uses distinct lifetime epochs",
+  "files": {
+    "STANDARD_LIFETIME_PROJECTED_CROSSING_COUNTERCONTROL.md": "66e9e6fd958c9fd44736d1608687ee896f4deabff3f59943c56635835f8e1bc7",
+    "certify_lifetime_projection_crossing.py": "6f8bed1cf66a0859cffc1f7fe985de1480863832002f03096a708606995d452f",
+    "lifetime_projection_crossing_certificate.json": "2d960c3f7f15cbbb96232dcc938a64eeef501de678079384ca348c7fbcdc5494"
+  },
+  "script": "74e72a5902db823b6cf4263eaf8cc7bc0b50abf766a68662971fb0ec4c7dd09f",
+  "signed_graph": "2146e0898133417c220dbd595812f59308252169dbdeaa0d4c812fd9e5d933dc",
+  "horizontal_crossing_lifetimes": [
+    [
+      21,
+      101
+    ]
+  ],
+  "vertical_crossing_lifetimes": [
+    [
+      -151,
+      -71
+    ],
+    [
+      -67,
+      -63
+    ],
+    [
+      1,
+      9
+    ]
+  ],
+  "analytic_review": [
+    "Both compressed spatial segments cross strictly in their interiors at-1,0, which is not either output endpoint. Their complete actual alpha/beta components, full event lifts and all underlying R-to-next-L intervals were independently reconstructed from the literal standard word.",
+    "The horizontal path lifetime21..101 is different from and temporally disjoint from all three vertical lifetimes at the crossing. Fibre space-time embedding is not contradicted. Combined projected H/V planarity and a shared-lifetime-at-every-crossing shortcut are false even for the genuine complete WHITE standard front. No stronger shared-lifetime invariant or controller classification is excluded."
+  ]
+}

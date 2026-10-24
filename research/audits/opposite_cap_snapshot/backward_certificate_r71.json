@@ -1,0 +1,285 @@
+{
+  "status": "exact complete finite-kernel backward cycle for all independent n,p>=100",
+  "phase": 71,
+  "domain": "n=U+100,p=V+100; U,V independent nonnegative integers",
+  "initial": [
+    [
+      [
+        0,
+        0,
+        8
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    [
+      [
+        -2,
+        0,
+        -212
+      ],
+      [
+        -2,
+        0,
+        -215
+      ]
+    ],
+    [
+      [
+        0,
+        2,
+        229
+      ],
+      [
+        0,
+        2,
+        164
+      ]
+    ]
+  ],
+  "first_contacts": {
+    "q2": [
+      104,
+      0,
+      26227
+    ],
+    "q3": [
+      208,
+      104,
+      98145
+    ]
+  },
+  "capture_time": [
+    208,
+    208,
+    160138
+  ],
+  "capture_pose": [
+    [
+      [
+        0,
+        0,
+        -3
+      ],
+      [
+        0,
+        0,
+        27
+      ]
+    ],
+    0
+  ],
+  "tail": {
+    "drift": [
+      -2,
+      2
+    ],
+    "heading": 0,
+    "required_cells": 40,
+    "odd_cells": 32
+  },
+  "tail_phase": 0,
+  "prefix_u_bounds": [
+    -60,
+    128
+  ],
+  "canonical_older_deposits_protected": true,
+  "tail_z_bounds": [
+    17,
+    27
+  ],
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        0,
+        15649
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -7
+          ],
+          [
+            0,
+            0,
+            -4
+          ]
+        ],
+        3
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 1,
+      "time": [
+        104,
+        0,
+        26153
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            0,
+            -209
+          ],
+          [
+            -2,
+            0,
+            -206
+          ]
+        ],
+        3
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 2,
+      "time": [
+        104,
+        0,
+        77273
+      ],
+      "pose": [
+        [
+          [
+            -2,
+            0,
+            -173
+          ],
+          [
+            -2,
+            0,
+            -244
+          ]
+        ],
+        1
+      ],
+      "contacts": {
+        "q2": [
+          104,
+          0,
+          26227
+        ]
+      }
+    },
+    {
+      "segment": 3,
+      "time": [
+        208,
+        104,
+        98073
+      ],
+      "pose": [
+        [
+          [
+            0,
+            2,
+            227
+          ],
+          [
+            0,
+            2,
+            156
+          ]
+        ],
+        1
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 4,
+      "time": [
+        208,
+        104,
+        149191
+      ],
+      "pose": [
+        [
+          [
+            0,
+            2,
+            190
+          ],
+          [
+            0,
+            2,
+            193
+          ]
+        ],
+        3
+      ],
+      "contacts": {
+        "q3": [
+          208,
+          104,
+          98145
+        ]
+      }
+    },
+    {
+      "segment": 5,
+      "time": [
+        208,
+        208,
+        157927
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            22
+          ],
+          [
+            0,
+            0,
+            25
+          ]
+        ],
+        3
+      ],
+      "contacts": {}
+    },
+    {
+      "segment": 6,
+      "time": [
+        208,
+        208,
+        160138
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -3
+          ],
+          [
+            0,
+            0,
+            27
+          ]
+        ],
+        0
+      ],
+      "contacts": {}
+    }
+  ],
+  "statistics": {
+    "finite_read_constraints": 11140,
+    "periodic_read_constraints": 162,
+    "affine_guards": 7155,
+    "excluded_isolated_equalities": 21318208
+  },
+  "template_sha256": "28d3b07098a1efe623e41b76f19a6be43050890406e65dd23cc2a3fe26a4a91b",
+  "source_certificate_sha256": "398d5edb8a6f2ad09f8d3f8eeec9b559bc992c414fb296d08791808fcb25ef21",
+  "scope": "Only additional canonical old deposits are protected. Arbitrary-history and actual blank transfer need a separate cap/strip proof."
+}

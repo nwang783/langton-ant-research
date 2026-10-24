@@ -1,0 +1,37 @@
+{
+  "status": "PASS global cycle-birth-or-finite-fuel theorem and exact active-edge inheritance",
+  "note_sha256": "7bd38a60ed9d0f104d44503a4ac1de09ab5d6afd89069f3203483da1393f8c42",
+  "counts": {
+    "cases": 2183,
+    "weak_cases": 2048,
+    "exact_bridge_inheritance": 5899,
+    "nonbridge_renewals": 516,
+    "rod_fine_steps": 496
+  },
+  "maximum_control_wait": 260,
+  "rods": [
+    1,
+    2,
+    3,
+    7,
+    16,
+    31,
+    64
+  ],
+  "all_four_transport_ten_words_bad": [
+    "LRRLLRRLLR",
+    "RRLLRRLLRR",
+    "RLLRRLLRRL",
+    "LLRRLLRRLL"
+  ],
+  "analytic": [
+    "Four consecutive R insert four distinct edges around a z unit cycle, so an interval with no birth in either graph has R runs of length<=3. During a shorter R prefix w is fixed and addresses distinct ports; the departing L edge is an old block-entry edge.",
+    "Each no-birth R attaches a different formerly disconnected w component through a bridge. Those additions cannot alter the old L-edge bridge status. If L is a bridge, its far active edge set is EXACTLY the far component of the original entry component minus that edge; all newly attached components remain at the departed w.",
+    "A nonbridge L may retain/import those passive components but lowers TOTAL w-cycle rank by1. This global rank includes initially passive cycles, so at most beta renewals occur and no archive is discarded.",
+    "For bridge epoch j, n_j<=M_j by strict active-edge loss. Complete mass change per block<=2 gives M_(j+1)<=3M_j+2 and M_j<=(m+1)3^j-1. Thus blocks<=((m+1)(3^(h+1)-1))/2-1. With <=3 terminal R, T<=2(m+1)(3^(beta+1)-1)-1. Empty beta0/m0 yields T<=3, with first birth at fourth update.",
+    "Apply the finite waiting bound after any proposed last birth to force infinitely many births. The signed hull theorem places every birth inside an existing rectangle hull; neither frequency nor birth count is bounded by original mass.",
+    "The same proof needs only no wholly-contained RRRR and no w-black birth; arbitrary non-RRRR z births do not affect the active w accounting. This is an analytic strengthening, not silently edited into the frozen author note.",
+    "At every rod fine cut, two zigzag row paths meet in at most one vertex in either lattice because the written and unwritten intervals satisfy a<=b. Both graphs are forests, all cuts bi-exterior, and LRRL transport remains nonstandard for arbitrary r supplied by2r initial blacks."
+  ],
+  "scope": "Arbitrary actual finite-support intervals. A global reconnection recurrence theorem, not standard capture, mass-only total complexity, an original-fuel rank or a finite-summary map."
+}

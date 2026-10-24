@@ -1,0 +1,95 @@
+{
+  "status": "AUTHOR all-M exact low-halfplane capture theorem",
+  "domain": "M>=1",
+  "initial_seed": "Minimal first-L seed of RLL W^(3M+4) T P^M Z; every other cell initially white.",
+  "M1_initial_mass": 5925,
+  "M1_capture_mass": 14289,
+  "common_returned_field_halfplane": "u=x+y<=337",
+  "extra_W_min_u": 365,
+  "all_T_min_u_M_constant": [
+    156,
+    182
+  ],
+  "extra_P_min_u": 338,
+  "fixed_Z_read_u_hull": [
+    0,
+    229
+  ],
+  "post_exit_response_length": 55531,
+  "response_read_u_hull": [
+    -21,
+    208
+  ],
+  "capture_time_M_constant": [
+    28380,
+    248488
+  ],
+  "capture_pose": [
+    [
+      -2,
+      26
+    ],
+    0
+  ],
+  "tail_period": 104,
+  "tail_drift": [
+    -2,
+    2
+  ],
+  "tail_read_u_hull": [
+    17,
+    27
+  ],
+  "initial_inverse_ten": "RLLLLRLLLL",
+  "inverse_read_u_hull": [
+    -2,
+    0
+  ],
+  "total_actual_K_M_constant": [
+    13269,
+    118240
+  ],
+  "initial_RLL_K": 3,
+  "tail_seam_K": 8,
+  "direct_M1_total_K": 131509,
+  "tail_word": "LRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRL",
+  "cost_ledger": [
+    {
+      "name": "W",
+      "first": 1980,
+      "later": 1972,
+      "count_M_constant": [
+        3,
+        4
+      ]
+    },
+    {
+      "name": "T",
+      "cost": 75515,
+      "count": 1
+    },
+    {
+      "name": "R",
+      "first": 7358,
+      "later": 7353,
+      "count_M_constant": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "Z",
+      "cost": 8418,
+      "count": 1
+    },
+    {
+      "name": "C",
+      "cost": 26395,
+      "count": 1
+    }
+  ],
+  "finite_input_fuel_grows_with_M": true,
+  "scope": "Canonical minimal two-port family: fixed55531 response then NW104, all M>=1.\nThe all-M transfer is the exact low-halfplane history identity, not samples.\n",
+  "response_word_sha256": "213e036d20414d5c4a3b943b1296d0594f649c7fd82ee028f80760255bae36dc",
+  "source_sha256": "bd5e776172eb9acfdd3ca81d202e19dc98308d02d630f5c2449403460d88ab03"
+}

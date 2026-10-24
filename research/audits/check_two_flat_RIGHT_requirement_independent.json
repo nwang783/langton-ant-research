@@ -1,0 +1,170 @@
+{
+  "status": "PASS critical global-max no-one-use cap4 b-circle needs >=2 flat RIGHT full-quotient classes",
+  "proof": "7e054b53d2d71147fea3b86b4d923e76da4f529af7d9534c218d2ae3d713016c",
+  "script": "f64c086d523dc2f35a53fc93fe2e2d929365f42bd44476f78868a09d6de47831",
+  "author_checker": "82dfee96413053181ca4aadacd63eff79b8087f718b25ac17d783fd4d0e7f68a",
+  "author_certificate": "deb5e83c66d6c16d805a1006bd546db494d428bdaa66b0ddb13844cc8a870799",
+  "derived_sources": [
+    "NSN",
+    "NSNS"
+  ],
+  "derived_sinks": [
+    "NNN",
+    "NNNN"
+  ],
+  "uncapped_helpers": {
+    "L0": [
+      "EEE",
+      "EEEE"
+    ],
+    "L2": [
+      "WEW",
+      "WEWE"
+    ]
+  },
+  "local_routes": [
+    {
+      "Q": "NNNS",
+      "literal_route": [
+        [
+          [
+            0,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            -1,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            -1,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          1
+        ]
+      ]
+    },
+    {
+      "Q": "NSNN",
+      "literal_route": [
+        [
+          [
+            0,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            -1,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            -1,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          1
+        ]
+      ]
+    }
+  ],
+  "all_one_flat_LL_port_mismatches": [
+    [
+      "EEWW",
+      "SSS",
+      2,
+      0
+    ],
+    [
+      "EEWW",
+      "SSSS",
+      2,
+      0
+    ],
+    [
+      "EWWE",
+      "SSS",
+      2,
+      0
+    ],
+    [
+      "EWWE",
+      "SSSS",
+      2,
+      0
+    ],
+    [
+      "EWE",
+      "SSNN",
+      0,
+      2
+    ],
+    [
+      "EWE",
+      "SNNS",
+      0,
+      2
+    ],
+    [
+      "EWEW",
+      "SSNN",
+      0,
+      2
+    ],
+    [
+      "EWEW",
+      "SNNS",
+      0,
+      2
+    ]
+  ],
+  "dependencies": {
+    "audits/check_mixed_flow2_flat_islands_independent.json": "c4fabac9c366e6536b760af2a52f23d6d24bd5eb53f16f8e1d788b9a8680defe",
+    "audits/check_mixed_RR_closure_independent.json": "6a5571ed9cd4a804868b7378ecd3a4f675592e4b200e944cc4c62ff97a8883ac",
+    "audits/check_mixed_first_track_pipeline_independent.json": "8ff4e2b77138f10372b4074fe93d9e0a7d28b4af32d29137f16cf4df8add9bab",
+    "audits/check_one_flat_high_owner_independent.json": "cf36dbfa742b6f59df3ab59c1bddb088e3190103f5ed578d41430f6752251976"
+  },
+  "analytic_review": [
+    "ZeroW-in atL0 forces every incomingE; Sout2 fixes ceil(n/2)=2, so n3/4 without any helper cap. ZeroS-out atL2 forbids evenE and oddW; Win2 again fixes n3/4. Thus the cap4 contradiction is specifically Q: its only exact3/4 count matches areNNNS/NSNN, yielding the actual first-ordinal fourR path F.R2->F.L1. No periodic or drift hypothesis is required for this local fifth-reader lemma.",
+    "Supposing oneflat, signed global-max localisland exclusion eliminates allflow2O/U roots. Actual transparent-lane argument fixes flatY, while nonempty LEFT plus one actualPevent orbit requires a crossing. With flow2 crossings absent it is LEFT3WEEE, belonging to an RLR3 macro with TWO nonflatRIGHT classes. Together with flatY and zero turning this gives at least3RIGHT/3LEFT, hence ell>=6; short full-quotient aliases are not silently excluded.",
+    "The complete RR pair cover shows a flat inRR would require a secondflat. Its two neighbors are thereforeLEFT, equalflow2, henceV with noO/U. If either neighboringV belongs toLL, the otherRIGHT end is distinct fromF since ell>=6 and is a high sink/source. The eight exact closing-port tests force flow2 versus0, impossible independently of other stock. Threeequalturns are excluded by embedded essential simplicity.",
+    "Both V neighbors are singletonLEFT. NormalizeF=NSSN at0,0; their outerRIGHTs are at-1,-1 and1,1 and, by complete cap4 boundary counts with nootherflat/nooneuse, are exactly NNN/NNNN and NSN/NSNS. The local fifthreader contradicts completecap4. Existing mandatoryflat theorem excludes0, so >=2flatFULLclasses follows.",
+    "The signed one-flat owner/voltage interface remains a valid conditional statement, but its complete criticalglobalM cap4 antecedent is now excluded. Multi-flat old-stock/exterior completions, K>=2, fronts withoneuse edges and generalglobalcapture remainOPEN."
+  ]
+}

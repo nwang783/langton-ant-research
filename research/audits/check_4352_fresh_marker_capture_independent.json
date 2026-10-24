@@ -1,0 +1,79 @@
+{
+  "status": "PASS complete original395-cell M1 fresh-marker capture",
+  "source_sha256": "985e642d4e20183170eedddc7bfd7254a34b0725951bf1a241b5fd3cac45af32",
+  "literal_reads": 707402,
+  "first_L_equals_seed": true,
+  "initial_mass": 395,
+  "marker_read_time": 585030,
+  "marker_pose": [
+    [
+      108,
+      105
+    ],
+    1
+  ],
+  "capture_pose": [
+    [
+      18,
+      105
+    ],
+    1
+  ],
+  "capture_mass": 54177,
+  "final_field_sha256": "1e6afff0339aa56c70a8fffddebfc5f321c31c41a46cd48b1645fcabbf04d190",
+  "total_K": 157079,
+  "events": [
+    {
+      "time": 680572,
+      "failure": 176,
+      "pose": [
+        [
+          7,
+          46
+        ],
+        3
+      ],
+      "drift": [
+        -2,
+        -2
+      ],
+      "critical_tests": 273
+    },
+    {
+      "time": 681606,
+      "failure": 480,
+      "pose": [
+        [
+          -18,
+          17
+        ],
+        3
+      ],
+      "drift": [
+        -2,
+        -2
+      ],
+      "critical_tests": 252
+    },
+    {
+      "time": 707402,
+      "failure": null,
+      "pose": [
+        [
+          18,
+          105
+        ],
+        1
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "critical_tests": 67
+    }
+  ],
+  "tail_orbits": 22,
+  "tail_critical_tests": 67,
+  "all_orbit_far_flip_rejections": 22,
+  "scope": "Only the specified original M1 board plus one preloaded marker. ALL-M marker ownership is separately signed; no ALL-M modified future or new prepared phase is inferred."
+}

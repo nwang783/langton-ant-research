@@ -1,0 +1,73 @@
+{
+  "status": "PASS fresh RAW V r through C4 and fresh RAW U LEFT through C3 under simple ordinary source-prefix",
+  "manifest": "9cfdd2c86cdd06cf42d184dbe69fd61a49887fff4a137b3b3a1bc80095f2f6cf",
+  "script": "6ebfcd262b376bc404e01a0885c3400872e7916b13a534ec6bac95272788c33c",
+  "results": {
+    "V": {
+      "counts": {
+        "unreachable_sector": 16,
+        "nonadjacent_source_V_proxy_contact": 13,
+        "noncontact_marker_r_loss_gate": 3
+      },
+      "gates": [
+        [
+          "D",
+          [
+            1,
+            0
+          ],
+          3
+        ],
+        [
+          "V",
+          [
+            3,
+            0
+          ],
+          3
+        ],
+        [
+          "U",
+          [
+            4,
+            1
+          ],
+          3
+        ]
+      ]
+    },
+    "U": {
+      "counts": {
+        "sector": 32,
+        "nonadjacent_source_U_proxy_contact": 12,
+        "SAME_LEFT_initial_CORE_or_WHITE": 18,
+        "sole_noncontact_N_U_gate": 2
+      },
+      "gates": [
+        [
+          "U",
+          [
+            1,
+            -1
+          ],
+          0
+        ],
+        [
+          "U",
+          [
+            1,
+            -1
+          ],
+          0
+        ]
+      ]
+    }
+  },
+  "analytic_review": [
+    "Every plain true I role and outsideentry/newexitCORE slot reconstructed from actual RAW+M. SourceV r is finalR4; sourceU LEFT finalR4/R19. These are fresh source-relative identities; earlier foreign words are outside the interval and no old-eight age law is imported.",
+    "V32 roles leave only W D1,0/V3,0/U4,1 gates. Source chord and final consumer meet the SAME r-edge closure only at their endpoints; all intervening chords avoid it by the signed fresh ordinary RAW barrier. The edge need not have existed at the source ENTRY: the historical source-chord interface is checked directly.",
+    "All ordinary principal joins telescope. Actual edge L1,1 toE-1,-1 closes with total(K-1)pi/2, whose only +/-2pi solution forK>=0 isK5. The gate leaves original r physically alive in RAWexitCORE and deletes it at actual next read2. Thus no CURRENT loss at completed cuts of source clock0..4, not a physical death theorem or K5 attainment claim.",
+    "U64 earliest pair roles preserve simultaneous true inputs, leaving only U1,-1N twice. DeadlineK<=3 plus headingN givesK0, but sourceEXIT0,4N and every zero-C N base increasesy. Thus original LEFT remains CURRENT throughC3; no K4/all-age persistence asserted.",
+    "At relative D1,0E the protected V r and both U LEFT cells lie in true entryCORE. Applying this reader-independent guard requires the separately established simple source-prefix, actual marker completion and correct fresh source clock. It does not prove arbitrary-tail simplicity or a foreign-crossing maturation law."
+  ]
+}

@@ -1,0 +1,596 @@
+{
+  "scope": "Transparent OPEN event-interface control, not a trajectory or controller.",
+  "period_parameter": 124,
+  "full_drift": [
+    2,
+    -2
+  ],
+  "complete_histories_on_six_named_classes": [
+    {
+      "cell": [
+        0,
+        -1
+      ],
+      "events": [
+        {
+          "rank": 0,
+          "h": 3,
+          "out": 0,
+          "turn": "R",
+          "clock": 0
+        }
+      ]
+    },
+    {
+      "cell": [
+        1,
+        -2
+      ],
+      "events": [
+        {
+          "rank": 0,
+          "h": 3,
+          "out": 0,
+          "turn": "R",
+          "clock": 94
+        }
+      ]
+    },
+    {
+      "cell": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "rank": 0,
+          "h": 2,
+          "out": 3,
+          "turn": "R",
+          "clock": -31
+        },
+        {
+          "rank": 1,
+          "h": 2,
+          "out": 1,
+          "turn": "L",
+          "clock": -3
+        },
+        {
+          "rank": 2,
+          "h": 0,
+          "out": 1,
+          "turn": "R",
+          "clock": 1
+        }
+      ]
+    },
+    {
+      "cell": [
+        1,
+        -1
+      ],
+      "events": [
+        {
+          "rank": 0,
+          "h": 2,
+          "out": 3,
+          "turn": "R",
+          "clock": -1
+        },
+        {
+          "rank": 1,
+          "h": 2,
+          "out": 1,
+          "turn": "L",
+          "clock": 91
+        },
+        {
+          "rank": 2,
+          "h": 0,
+          "out": 1,
+          "turn": "R",
+          "clock": 95
+        }
+      ]
+    },
+    {
+      "cell": [
+        0,
+        1
+      ],
+      "events": [
+        {
+          "rank": 0,
+          "h": 1,
+          "out": 2,
+          "turn": "R",
+          "clock": -32
+        },
+        {
+          "rank": 1,
+          "h": 1,
+          "out": 0,
+          "turn": "L",
+          "clock": -28
+        },
+        {
+          "rank": 2,
+          "h": 3,
+          "out": 0,
+          "turn": "R",
+          "clock": -16
+        },
+        {
+          "rank": 3,
+          "h": 3,
+          "out": 2,
+          "turn": "L",
+          "clock": -4
+        },
+        {
+          "rank": 4,
+          "h": 3,
+          "out": 0,
+          "turn": "R",
+          "clock": 28
+        }
+      ]
+    },
+    {
+      "cell": [
+        1,
+        0
+      ],
+      "events": [
+        {
+          "rank": 0,
+          "h": 1,
+          "out": 2,
+          "turn": "R",
+          "clock": -2
+        },
+        {
+          "rank": 1,
+          "h": 1,
+          "out": 0,
+          "turn": "L",
+          "clock": 2
+        },
+        {
+          "rank": 2,
+          "h": 3,
+          "out": 0,
+          "turn": "R",
+          "clock": 14
+        },
+        {
+          "rank": 3,
+          "h": 3,
+          "out": 2,
+          "turn": "L",
+          "clock": 90
+        }
+      ]
+    }
+  ],
+  "internal_matched_edges": [
+    {
+      "source": [
+        0,
+        -1
+      ],
+      "source_rank": 0,
+      "target": [
+        0,
+        0
+      ],
+      "target_rank": 2,
+      "voltage": 0
+    },
+    {
+      "source": [
+        1,
+        -2
+      ],
+      "source_rank": 0,
+      "target": [
+        1,
+        -1
+      ],
+      "target_rank": 2,
+      "voltage": 0
+    },
+    {
+      "source": [
+        0,
+        0
+      ],
+      "source_rank": 1,
+      "target": [
+        1,
+        0
+      ],
+      "target_rank": 0,
+      "voltage": 0
+    },
+    {
+      "source": [
+        0,
+        0
+      ],
+      "source_rank": 2,
+      "target": [
+        1,
+        0
+      ],
+      "target_rank": 1,
+      "voltage": 0
+    },
+    {
+      "source": [
+        0,
+        0
+      ],
+      "source_rank": 0,
+      "target": [
+        1,
+        -2
+      ],
+      "target_rank": 0,
+      "voltage": -1
+    },
+    {
+      "source": [
+        1,
+        -1
+      ],
+      "source_rank": 1,
+      "target": [
+        0,
+        1
+      ],
+      "target_rank": 0,
+      "voltage": 1
+    },
+    {
+      "source": [
+        1,
+        -1
+      ],
+      "source_rank": 2,
+      "target": [
+        0,
+        1
+      ],
+      "target_rank": 1,
+      "voltage": 1
+    },
+    {
+      "source": [
+        1,
+        -1
+      ],
+      "source_rank": 0,
+      "target": [
+        0,
+        -1
+      ],
+      "target_rank": 0,
+      "voltage": 0
+    },
+    {
+      "source": [
+        0,
+        1
+      ],
+      "source_rank": 0,
+      "target": [
+        0,
+        0
+      ],
+      "target_rank": 0,
+      "voltage": 0
+    },
+    {
+      "source": [
+        0,
+        1
+      ],
+      "source_rank": 3,
+      "target": [
+        0,
+        0
+      ],
+      "target_rank": 1,
+      "voltage": 0
+    },
+    {
+      "source": [
+        1,
+        0
+      ],
+      "source_rank": 0,
+      "target": [
+        1,
+        -1
+      ],
+      "target_rank": 0,
+      "voltage": 0
+    },
+    {
+      "source": [
+        1,
+        0
+      ],
+      "source_rank": 3,
+      "target": [
+        1,
+        -1
+      ],
+      "target_rank": 1,
+      "voltage": 0
+    }
+  ],
+  "open_incoming_ports": [
+    {
+      "cell": [
+        0,
+        1
+      ],
+      "rank": 2,
+      "source_class": [
+        1,
+        1
+      ],
+      "voltage": 0,
+      "clock": -16
+    },
+    {
+      "cell": [
+        0,
+        1
+      ],
+      "rank": 3,
+      "source_class": [
+        1,
+        1
+      ],
+      "voltage": 0,
+      "clock": -4
+    },
+    {
+      "cell": [
+        0,
+        1
+      ],
+      "rank": 4,
+      "source_class": [
+        1,
+        1
+      ],
+      "voltage": 0,
+      "clock": 28
+    },
+    {
+      "cell": [
+        1,
+        0
+      ],
+      "rank": 2,
+      "source_class": [
+        0,
+        2
+      ],
+      "voltage": 1,
+      "clock": 14
+    },
+    {
+      "cell": [
+        1,
+        0
+      ],
+      "rank": 3,
+      "source_class": [
+        0,
+        2
+      ],
+      "voltage": 1,
+      "clock": 90
+    }
+  ],
+  "open_outgoing_ports": [
+    {
+      "cell": [
+        0,
+        1
+      ],
+      "rank": 1,
+      "target_class": [
+        0,
+        2
+      ],
+      "voltage": 0,
+      "clock": -28
+    },
+    {
+      "cell": [
+        0,
+        1
+      ],
+      "rank": 2,
+      "target_class": [
+        0,
+        2
+      ],
+      "voltage": 0,
+      "clock": -16
+    },
+    {
+      "cell": [
+        0,
+        1
+      ],
+      "rank": 4,
+      "target_class": [
+        0,
+        2
+      ],
+      "voltage": 0,
+      "clock": 28
+    },
+    {
+      "cell": [
+        1,
+        0
+      ],
+      "rank": 1,
+      "target_class": [
+        1,
+        1
+      ],
+      "voltage": 0,
+      "clock": 2
+    },
+    {
+      "cell": [
+        1,
+        0
+      ],
+      "rank": 2,
+      "target_class": [
+        1,
+        1
+      ],
+      "voltage": 0,
+      "clock": 14
+    }
+  ],
+  "E_cycles": [
+    {
+      "cells": [
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "winding": -1
+    }
+  ],
+  "first_cycles_in_patch": [
+    {
+      "cells": [
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "winding": -1
+    }
+  ],
+  "triple_ages": [
+    32,
+    96
+  ],
+  "odd_class_screen_only": {
+    "O": [
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        10
+      ]
+    ],
+    "width": 12,
+    "V": 2,
+    "J": 8
+  },
+  "geometric_bridges": [
+    {
+      "start_phase": 2,
+      "next_phase": 14,
+      "unknown_turns": "RRLRLLLRLLR",
+      "scope": "Geometric bridge only; no shared field or colour compatibility assertion."
+    },
+    {
+      "start_phase": 14,
+      "next_phase": 28,
+      "unknown_turns": "RRLRLLLRLRLLR",
+      "scope": "Geometric bridge only; no shared field or colour compatibility assertion."
+    },
+    {
+      "start_phase": 28,
+      "next_phase": 90,
+      "unknown_turns": "RRLRLRLRLRLRLRLRLRLRLRLRLRLRLRLLLRLRLRLRLRLRLRLRLRLRLRLRLRLLR",
+      "scope": "Geometric bridge only; no shared field or colour compatibility assertion."
+    },
+    {
+      "start_phase": 96,
+      "next_phase": 108,
+      "unknown_turns": "RRLRLLLRLLR",
+      "scope": "Geometric bridge only; no shared field or colour compatibility assertion."
+    },
+    {
+      "start_phase": 108,
+      "next_phase": 120,
+      "unknown_turns": "RRLRLLLRLLR",
+      "scope": "Geometric bridge only; no shared field or colour compatibility assertion."
+    }
+  ],
+  "limitations": [
+    "Higher-row field and histories unspecified, not discarded.",
+    "No complete one-event orbit or finite BLACK seed supplied.",
+    "Geometric gap words are individually paths only, not asserted jointly colour-legal.",
+    "The whole proposed wake is only a necessary-screen completion, not an actual emitted field."
+  ]
+}

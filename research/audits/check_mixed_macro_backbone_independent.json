@@ -1,0 +1,20 @@
+{
+  "status": "PASS exact cyclic macro-gap partition, nonnegative full-drift backbone and axis exclusions in critical mixed-boundary scope",
+  "proof": "889af64d853767d6d984836b148d2803f38065f0aec8e62bb838df3ec59a3117",
+  "certificate": "5a344f4a3c284d4c2f239ce40c0a42aebe688c724691b4c73a44ceddd8b53c9c",
+  "script": "6d62a08e96d4b90c44a8e957fcf25940c15e23da1e3c989fddbe38f37c78ddd8",
+  "signed_dependencies": {
+    "check_LL_RR_matching_independent.json": "96b2f1851f33f1ec9b46ec4f29468c754dbcc296fb2d100a0776ce91ed40498c",
+    "check_mixed_first_track_pipeline_independent.json": "8ff4e2b77138f10372b4074fe93d9e0a7d28b4af32d29137f16cf4df8add9bab",
+    "check_mixed_RR_closure_independent.json": "6a5571ed9cd4a804868b7378ecd3a4f675592e4b200e944cc4c62ff97a8883ac",
+    "RRLL_flow2_separator_independent.json": "8c2f326c598ea1194414770bf86f2f0d880b6229514dd83754bd65b58ee4a216",
+    "check_high_macro_junctions_independent.json": "cbb8b590f1c654980db514407ff93cd7e7076aba315074b2f7ae71d84fd7b041"
+  },
+  "analytic_review": [
+    "List actual full-quotient flatRIGHT incidences. Every gap is zero/one/twoLEFT or a maximalhighrun with the signed endpointV interfaces. Saturation pairs eachzero gap with exactlyone adjacenttwo gap. Each gap has onepartner, so these are disjointtwo-gap packets in the CYCLIC word, including a packet covering the whole shortquotient. Endpointflat is unprocessed until the nextpacket; sharedvertices are not double-counted.",
+    "Remaining gaps are singletonLEFT or highrun. The exact processed words are RRLL,RLLR,RL,and RLRLR(LLRR)^qL. Independent vector kinematics and the all-q induction at incomingE give displacements(2,0),(0,2),(1,1),(3,3+2q), each restoring its initialheading. Thus every packetboundaryflat has the sameheading; one rotation makes all endpoint displacements nonnegative. Internal reverseedges and all temporalreaders remain.",
+    "The complete negativeb lap has displacement the actualfull -d by the signed first-track scope, not a primitive-divided spatial vector. Summing the disjoint processedwords yields Dx=2p+s+3h,Dy=2g+s+3h+2q,ell=4p+4g+2s+6h+4q, with q zero wheneverh zero.",
+    "An axis has s=h=q=0. Dxzero leavesonlygenuineRLLR packets; across the cyclicjoin anRR has a following genuinecrossingLEFT, forbidden by actualgeneralRR passive-endpoint closure. Dyzero leavesonlypassiveRRLL packets, exactly the separatelysignedconstantflow2 eventseparator case. Thezero-vector emptycase is forbidden by fullnonzero drift. Hence both normalizedcoordinatesarepositive.",
+    "This is monotonicity of macro endpoints only, not the actualantpath, physicaledgepath, chronologicalchannels or archive. No autonomous splice, fullfactor realization, individualage or universalperiod bound follows; main completeWHITEcap4/GLOBALM/critical/nooneuse assumptions are essential."
+  ]
+}

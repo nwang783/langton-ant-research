@@ -1,0 +1,199 @@
+{
+  "status": "EXACT ALL-PARAMETER PHYSICAL GUARD EXCHANGE, NOT A CAP REPAIR",
+  "domain": "M>=1 and r>=10 and r>=M+1",
+  "word": "W6^M T^r E46 T^r RRRRLL",
+  "endpoint": [
+    [
+      -2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "heading": 1,
+  "duration": [
+    20,
+    8,
+    52
+  ],
+  "families": 80,
+  "failures": [],
+  "minimal_seed_mass": "2r+5",
+  "returned_mass": "2r+17",
+  "minimal_seed_relation": "[M, r] -> { [x, y = 0] : M > 0 and r >= 10 and -1 <= x < -2M + 2r and (((x) mod 2 = 0 and 2 <= x <= -2 - 2M + 2r) or ((x) mod 2 = 1 and r > M)); [x = -2M, y = 0] : M > 0 and r > M and r >= 10; [x, y = -1] : M > 0 and r > M and r >= 10 and -2M + 2r <= x <= 1 - 2M + 2r; [x, y = -2 - x] : M > 0 and r > M and r >= 10 and -1 <= x <= 0; [x, y = -3] : r > M and r >= 10 and -2M <= x < 0 }",
+  "complete_before_shuttle_relation": "[M, r] -> { [x, y = 0] : M > 0 and r > M and r >= 10 and -1 - 2M <= x < -2M + 2r; [x, y = -1] : M > 0 and r > M and r >= 10 and -2M + 2r <= x <= 1 - 2M + 2r; [x, y = -2 - 2M - x] : M > 0 and r > M and r >= 10 and -1 - 2M <= x <= -2M }",
+  "complete_returned_relation": "[M, r] -> { [x, y] : M > 0 and r > M and r >= 10 and y <= 3 and ((x <= -2M and -2M - x < y <= 2) or (y >= 2M - 2r + x and 0 < y <= 2 and y <= 1 + 2M - 2r + x) or ((-M + r) mod 1 = 0 and y >= 2 + 2M - 2r + x and 2 <= y <= 3 + 2M - 2r + x)); [x = 2 - 2M + 2r, y = -1] : M > 0 and r > M and r >= 10; [x = -1 - 2M + 2r, y = -1] : M > 0 and r > M and r >= 10; [x = 3 - 2M + 2r, y] : M > 0 and r > M and r >= 10 and 0 <= y <= 1; [x, y = 0] : M > 0 and r > M and r >= 10 and -2M <= x < -2M + 2r; [x, y = -2 - 2M - x] : M > 0 and r > M and r >= 10 and -1 - 2M <= x <= -2M }",
+  "complete_shuttle_change_relation": "[M, r] -> { [x, y] : M > 0 and r > M and r >= 10 and y <= 3 and ((x <= -2M and -2M - x < y <= 2) or (y >= 2M - 2r + x and 0 < y <= 2 and y <= 1 + 2M - 2r + x) or ((-M + r) mod 1 = 0 and y >= 2 + 2M - 2r + x and 2 <= y <= 3 + 2M - 2r + x)); [x, y = -1] : M > 0 and r > M and r >= 10 and -1 - 2M + 2r <= x <= 2 - 2M + 2r; [x = -1 - 2M, y = 0] : M > 0 and r > M and r >= 10; [x = 3 - 2M + 2r, y] : M > 0 and r > M and r >= 10 and 0 <= y <= 1 }",
+  "stages": [
+    {
+      "word": "RRLRRRRLLLLRLLLLRLRR",
+      "count": [
+        1,
+        0,
+        0
+      ],
+      "label": "writer",
+      "start": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "heading": 1,
+      "time": [
+        0,
+        0,
+        0
+      ],
+      "drift": [
+        -2,
+        0
+      ]
+    },
+    {
+      "word": "LRRL",
+      "count": [
+        0,
+        1,
+        0
+      ],
+      "label": "outbound",
+      "start": [
+        [
+          -2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "heading": 1,
+      "time": [
+        20,
+        0,
+        0
+      ],
+      "drift": [
+        2,
+        0
+      ]
+    },
+    {
+      "word": "RLLRRRRLLRRRRLLRLRRRRLRRRRLLLLRLRRRRLRLLLLRRRR",
+      "count": [
+        0,
+        0,
+        1
+      ],
+      "label": "remote",
+      "start": [
+        [
+          -2,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "heading": 1,
+      "time": [
+        20,
+        4,
+        0
+      ],
+      "drift": [
+        -1,
+        1
+      ]
+    },
+    {
+      "word": "LRRL",
+      "count": [
+        0,
+        1,
+        0
+      ],
+      "label": "return",
+      "start": [
+        [
+          -2,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "heading": 3,
+      "time": [
+        20,
+        4,
+        46
+      ],
+      "drift": [
+        -2,
+        0
+      ]
+    },
+    {
+      "word": "RRRRLL",
+      "count": [
+        0,
+        0,
+        1
+      ],
+      "label": "local",
+      "start": [
+        [
+          -2,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "heading": 3,
+      "time": [
+        20,
+        8,
+        46
+      ],
+      "drift": [
+        1,
+        -1
+      ]
+    }
+  ],
+  "local_exchange": {
+    "before": "entry p black, a=p+(0,1) white, q=p+(-1,0) black",
+    "after": "entry p black, a black, q white",
+    "source_guard": "last W6 phase19 R",
+    "clearing_guard": "final local phase5 L",
+    "blocking_gate": "local phase3 R followed by first outbound-T phase1 R, with three intervening off-cell reads"
+  },
+  "arbitrary_remote_cap_scope": "Any actual prefix reaching the fixed local RRRRLL entry (-1,1,W), relative to the E return port, has the same final six-read geometry; after that local cap, a is black and q white. Every immediately following T or F fails at T phase1, regardless of the preceding remote cap, arm lengths, retained board or supply.",
+  "source_sha256": "85a8e224d842d2c5cf879fa77a80af0ad9403b07728c6f1c6f88226a69137aa2",
+  "retained_shuttle_sha256": "e4693cb731043b40fbdf716f733cbd41bbad8f7a3b63f602aa18b065341b40fb",
+  "scope": "One retained full-shuttle guard exchange on the actual W6 output.\nAll-parameter chronology; no cap, phase, word, seed or horizon search.\n"
+}

@@ -1,0 +1,154 @@
+{
+  "status": "PASS ONLY separate first-C N4 U repair; original full84 still NOT PASSED",
+  "manifest": "bebca8b7b68e3bd093f44b1997b494ed4ccf82ff1a82571bd518449139b9ae43",
+  "script": "06620e7abf6ebae6b3bfed69b8fb5592af62da0b0108072b5a2b163c9e9c4d4e",
+  "actual_upper_minimum": 4,
+  "FCCC_RAW_conflict": [
+    47,
+    99,
+    [
+      -2,
+      -1
+    ]
+  ],
+  "six_first_BASE_cases": [
+    {
+      "leading_C": 1,
+      "BASE": "D",
+      "pose": [
+        0,
+        1,
+        3
+      ],
+      "g_local": [
+        1,
+        1
+      ],
+      "first": [
+        "R",
+        6
+      ],
+      "entryCORE": false,
+      "producer_max_age": 3
+    },
+    {
+      "leading_C": 1,
+      "BASE": "V",
+      "pose": [
+        0,
+        1,
+        3
+      ],
+      "g_local": [
+        1,
+        1
+      ],
+      "first": [
+        "R",
+        6
+      ],
+      "entryCORE": false,
+      "producer_max_age": 3
+    },
+    {
+      "leading_C": 1,
+      "BASE": "U",
+      "pose": [
+        0,
+        1,
+        3
+      ],
+      "g_local": [
+        1,
+        1
+      ],
+      "first": [
+        "R",
+        6
+      ],
+      "entryCORE": false,
+      "producer_max_age": 3
+    },
+    {
+      "leading_C": 2,
+      "BASE": "D",
+      "pose": [
+        -1,
+        1,
+        2
+      ],
+      "g_local": [
+        0,
+        -1
+      ],
+      "first": [
+        "L",
+        3
+      ],
+      "entryCORE": true,
+      "producer_max_age": 2
+    },
+    {
+      "leading_C": 2,
+      "BASE": "V",
+      "pose": [
+        -1,
+        1,
+        2
+      ],
+      "g_local": [
+        0,
+        -1
+      ],
+      "first": [
+        "L",
+        3
+      ],
+      "entryCORE": true,
+      "producer_max_age": 2
+    },
+    {
+      "leading_C": 2,
+      "BASE": "U",
+      "pose": [
+        -1,
+        1,
+        2
+      ],
+      "g_local": [
+        0,
+        -1
+      ],
+      "first": [
+        "L",
+        3
+      ],
+      "entryCORE": true,
+      "producer_max_age": 2
+    }
+  ],
+  "remaining_OPEN_original_labels": [
+    [
+      "D",
+      "U",
+      -1,
+      -1,
+      0
+    ],
+    [
+      "D",
+      "V",
+      -1,
+      -1,
+      0
+    ]
+  ],
+  "analytic_review": [
+    "The third leading C fails inside its own RAW, not merely its supplied marker. An actual first BASE must therefore occur at clock1 or2 strictly before the proposed clock4 U. This is arbitrary-length exhaustion of the initial C run, not a depth cap.",
+    "At clock1 the target upper cell is WHITE at factor entry by every BASE own firstR6 outsideCORE. At clock2 its real initialCORE identity is physically L3-deleted. These facts remove only the old-entry exemption, not arbitrary R repairs or aliveCORE possibilities.",
+    "The actual factor from that first BASE through targetU ends at a BASE with real finalM11, so the signed grammar applies. A firstD has its real previousC, preventing the unmarked initialDCCC exception. No hypothetical terminalC factor is parsed.",
+    "The full residual/current partition in the actual G8 factor makes an external true input at targetU either an unconsumed entry residual or a genuine full-output identity. The former is eliminated by the explicit firstBASE cases; all actual CORE writes and exports remain in the latter bookkeeping. No original F lifetime is assumed CURRENT at the target.",
+    "Every possible fresh full producer enters at clock at least1 or2. Its actual produced-input age at clock4 is at most3, contradicting the signed U upper-slot minimumFOUR. No age law is transported across F, which is outside the selected actual factor.",
+    "Only the sourceC/U label is closed. The two sourceD/V,U restoration labels remain OPEN. The rejected original143d full84/pair-current statement is not restored."
+  ]
+}

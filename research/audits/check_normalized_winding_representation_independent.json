@@ -1,0 +1,111 @@
+{
+  "status": "PASS exact cover invariance and full shared-lifetime circuit identities ONLY; input-budget inequality UNPROVED",
+  "proof": "f775bc5b5f4822d467e06565827181b0a89acb16173b29e24aac3e8ae0c43110",
+  "script": "b80409da1f8af605aa57f8b210012d97a5a26a3a202bd7679a5e94514f49c03d",
+  "controls_certificate": "688708114d220166f2728ff3d1e59565b90412992da7e5ac8a622422675046d3",
+  "power_rotation_controls": 64,
+  "phase_controls": 12,
+  "full_interactions": {
+    "S104": {
+      "lifetimes": 46,
+      "circuits": 6,
+      "shared": [
+        {
+          "same_component": false,
+          "same_sign": false,
+          "count": 11
+        },
+        {
+          "same_component": false,
+          "same_sign": true,
+          "count": 11
+        },
+        {
+          "same_component": true,
+          "same_sign": false,
+          "count": 12
+        },
+        {
+          "same_component": true,
+          "same_sign": true,
+          "count": 12
+        }
+      ]
+    },
+    "P1564": {
+      "lifetimes": 533,
+      "circuits": 35,
+      "shared": [
+        {
+          "same_component": false,
+          "same_sign": false,
+          "count": 74
+        },
+        {
+          "same_component": false,
+          "same_sign": true,
+          "count": 65
+        },
+        {
+          "same_component": true,
+          "same_sign": false,
+          "count": 136
+        },
+        {
+          "same_component": true,
+          "same_sign": true,
+          "count": 258
+        }
+      ]
+    },
+    "Q4352": {
+      "lifetimes": 1678,
+      "circuits": 139,
+      "shared": [
+        {
+          "same_component": false,
+          "same_sign": false,
+          "count": 345
+        },
+        {
+          "same_component": false,
+          "same_sign": true,
+          "count": 373
+        },
+        {
+          "same_component": true,
+          "same_sign": false,
+          "count": 401
+        },
+        {
+          "same_component": true,
+          "same_sign": true,
+          "count": 559
+        }
+      ]
+    },
+    "prepared10": {
+      "lifetimes": 4,
+      "circuits": 1,
+      "shared": [
+        {
+          "same_component": true,
+          "same_sign": false,
+          "count": 2
+        },
+        {
+          "same_component": true,
+          "same_sign": true,
+          "count": 2
+        }
+      ]
+    }
+  },
+  "analytic_review": [
+    "A q-fold full-period cover changes each cycle sheet by w modq, so a w!=0 cycle lifts to gcd(q,absw) cycles of absolute windingabsw/gcd. Zero winding hasq copies. The absolute sum S is unchanged, while m,I,O scaleq. This is exact representation invariance, not permission to replace the physical full quotient by a primitive one.",
+    "Quarter rotations are physical bijections; phase changes alter gauges only. All64 supplied power/rotation and12 phase cases are independently reconstructed. Complete prepared backgrounds/passive strands and finite caps remain the previously signed dependency, not finite-seed input-free histories.",
+    "Adding the exact unmatched-root sigma edge fills the missing alpha and beta half-edges and gives a degree-two multigraph on ALL P phases. Supplied oriented circuit certificates exhaust every actual event and edge, retaining zero-voltage internal circuits and distinct input/output endpoints.",
+    "Each physical ownedR-to-nextL age is positive and divisible4. Its alpha and beta copies have exactly the same elapsed age, including seam terms, but may lie in different circuits or be traversed with equal signs. Direct endpoint telescoping gives wP=r+sum(sign*age). Every owner and both copies are independently reconstructed, not canceled by name.",
+    "Standard has12 equal-sign same-circuit lifetime pairs,12 opposite-sign same-circuit pairs and22 split pairs. These genuine WHITE incidences invalidate naive cancellation. No positivity, bounded debt, owner injection or proposed m(S-1)<=2min(I,O) proof follows. The four middle-short necessary boundary types remain OPEN. Discovery searches are not theorem premises."
+  ]
+}

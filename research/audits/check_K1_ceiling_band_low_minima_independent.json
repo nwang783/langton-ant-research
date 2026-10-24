@@ -1,0 +1,134 @@
+{
+  "status": "PASS low locally minimal L plateaus inside K1 ceiling bands require odd output, including essential plateaus",
+  "source_hashes": {
+    "K1_ceiling_band_low_minima_need_odd_output.md": "eaed7c6b46045b3dff39ea7f300f869f7a5bdf89bba719116b659366a8c7f7d9",
+    "essential_contour_walk_and_K1_high_band_localization.md": "fd44da68070dca17812ffa1fc6dfb7e7acd8c23b67820da08908a085d2b790ef",
+    "canonical_simultaneous_scalar_interpolation.md": "3c25695f03e4fd2ecf02e3866072884d632735bf5f466b072e4b1138c2bd2c14",
+    "prepared_plateau_black_corner_alternative_and_reverse_output.md": "ab9fad0a34a031b2e60f7add0aa40d942d399e92f6503f6a0f25833796b77935",
+    "ordered_max_curves_lower_barrier_and_four_band_currents.md": "6376fdc569d0398df515aeab710f9fd0e25aaaccfa1a5a2d190f5970318f1b72",
+    "triple_use_current_pairs_top_same_R_outputs.md": "3ffd2f42af3fe147dcc9b13f207343cc1ac82ea06174a9a73a79c25e9507aba6",
+    "positive_output_scope_addendum_stages15_through20.md": "9402be383cd2c38913ed8c2d983f679bce836c6dc755281354cbfee9958c0d5b"
+  },
+  "all8_positive_even_equal_L_contacts": [
+    {
+      "history": "EEEW",
+      "C": [
+        0,
+        -2
+      ],
+      "L": [
+        -3,
+        -3
+      ],
+      "scalar_center": -2,
+      "low_level": -1.5
+    },
+    {
+      "history": "EEWW",
+      "C": [
+        0,
+        0
+      ],
+      "L": [
+        -2,
+        -2
+      ],
+      "scalar_center": -1,
+      "low_level": -0.5
+    },
+    {
+      "history": "EWEE",
+      "C": [
+        0,
+        -2
+      ],
+      "L": [
+        -3,
+        -3
+      ],
+      "scalar_center": -2,
+      "low_level": -1.5
+    },
+    {
+      "history": "EWWE",
+      "C": [
+        0,
+        0
+      ],
+      "L": [
+        -2,
+        -2
+      ],
+      "scalar_center": -1,
+      "low_level": -0.5
+    },
+    {
+      "history": "WEEW",
+      "C": [
+        0,
+        0
+      ],
+      "L": [
+        -2,
+        -2
+      ],
+      "scalar_center": -1,
+      "low_level": -0.5
+    },
+    {
+      "history": "WEWW",
+      "C": [
+        -2,
+        0
+      ],
+      "L": [
+        -3,
+        -3
+      ],
+      "scalar_center": -2,
+      "low_level": -1.5
+    },
+    {
+      "history": "WWEE",
+      "C": [
+        0,
+        0
+      ],
+      "L": [
+        -2,
+        -2
+      ],
+      "scalar_center": -1,
+      "low_level": -0.5
+    },
+    {
+      "history": "WWWE",
+      "C": [
+        -2,
+        0
+      ],
+      "L": [
+        -3,
+        -3
+      ],
+      "scalar_center": -2,
+      "low_level": -1.5
+    }
+  ],
+  "excluded_equal_L_even_history": [
+    [
+      "",
+      "positivity_failure"
+    ]
+  ],
+  "analytic": [
+    "If a minimum plateauQ has no odd-output incident corner, exact reversal gives WHITE on its whole collar. The signed prepared-plateau theorem supplies both positive original C neighbors>=m+1 and an essential reverse parent curve in the diagonal Lcontact graph. This uses only that collar, not globally WHITE reversal; the possible m<c_left alternative is handled rather than discarded.",
+    "At every equal-height contact ofQ, no odd output makes the original local history even. The exact L values are a-lE,a-lW. Equality requires lE=lW. Zero reads violates positive neighboring C; two reads have one L and cannot split equally. Four reads therefore have exactly one L in each heading and a=m+1. All eight even positive local possibilities are independently reconstructed. Connecting the Lface centers through the primal vertex stays strictly below m+3/2 in the shared scalar triangulation.",
+    "Replacing the reverse parent contacts by these local scalar-low connections preserves nonzero full-drift homology. Thus the low component at canonical levelm+3/2 contains an essential curve; it is not being identified with a forward canonical contour or actual chronological cursor path. Since m<=c_right-2, every ceiling-band boundary collar and outer eventual exterior are strictly higher than this level. The low component stays away from all band ends.",
+    "An essential low core bounded by high collars on both sides must have at least one essential regular level-circle boundary. A finite collection of contractible circles cannot separate that core from both annular ends. Such an internal canonical circle contradicts the defining absence of essential contours inside the ceiling band. This covers physically infinite/quotient-essentialQ as well as finite disks, so everyQ has an odd root.",
+    "One odd cell touches at most one locally minimal Lcomponent even across different heights: two equal-height incident Lfaces are corner-connected; if their heights differ, the higher one has a lower neighbor and is not locally minimal. Full-drift aliases reduce to this physical statement. Low contact barriers keepQ in its band.",
+    "At m<=M-3 a top odd root is exactly a same-R three-read G3(M) endpoint atM-3. Its entire source-sink pairing stays in the sameQ. Choose non-top roots first, otherwise a completeG3 path; distinctQ cannot reuse either. Hence q<=Nodd-Ntop+J across any chosen family of distinct ceiling bands.",
+    "For selected max-parent curves within a single ceiling band, signed K1 low-face and selected-contact barrier arguments give a separate local minimum in each actual intervening strip. Thus sum max(0,r_B-1)<=Nodd-Ntop+J. Many suppliers or return events can revisit one strip and do not create fresh charges. No cross-time/root-per-branch injection is claimed."
+  ],
+  "scope": "All-output K1 complete WHITE fronts. Removes root-free reverse-counterflow only inside an actual canonical ceiling band. No bound on chronological reuse, original fuel, or whole-front capture/exclusion."
+}

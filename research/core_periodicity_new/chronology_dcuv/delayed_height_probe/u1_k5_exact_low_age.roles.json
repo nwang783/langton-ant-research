@@ -1,0 +1,135 @@
+{
+  "status": "ROLE_AGE_MATCH_EXISTS",
+  "input_tokens": 127,
+  "output_tokens": 290,
+  "matched": 127,
+  "unmatched_inputs": [],
+  "zero_candidate_inputs": [],
+  "first_literal_conflict": {
+    "cell": [
+      -1,
+      6
+    ],
+    "prior": 49,
+    "current": 157,
+    "turn": "R"
+  },
+  "shortest_bad_factor_length": 6,
+  "shortest_bad_factors": [
+    {
+      "word": [
+        0,
+        1,
+        0,
+        1,
+        4,
+        7
+      ],
+      "conflict": {
+        "cell": [
+          -1,
+          0
+        ],
+        "prior": 1,
+        "current": 101,
+        "turn": "L"
+      }
+    },
+    {
+      "word": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "conflict": {
+        "cell": [
+          2,
+          0
+        ],
+        "prior": 8,
+        "current": 128,
+        "turn": "R"
+      }
+    },
+    {
+      "word": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "conflict": {
+        "cell": [
+          2,
+          3
+        ],
+        "prior": 23,
+        "current": 127,
+        "turn": "R"
+      }
+    },
+    {
+      "word": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "conflict": {
+        "cell": [
+          -1,
+          0
+        ],
+        "prior": 1,
+        "current": 121,
+        "turn": "L"
+      }
+    },
+    {
+      "word": [
+        5,
+        1,
+        4,
+        0,
+        1,
+        4
+      ],
+      "conflict": {
+        "cell": [
+          -1,
+          -1
+        ],
+        "prior": 2,
+        "current": 130,
+        "turn": "L"
+      }
+    },
+    {
+      "word": [
+        8,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "conflict": {
+        "cell": [
+          -1,
+          2
+        ],
+        "prior": 21,
+        "current": 129,
+        "turn": "R"
+      }
+    }
+  ],
+  "scope": "Fixed-word necessary matching only; a perfect match is not physical ant legality."
+}

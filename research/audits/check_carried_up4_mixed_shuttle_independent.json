@@ -1,0 +1,69 @@
+{
+  "status": "PASS positive full-field up4 prefix and all-parameter R/R W-to-K port exclusion",
+  "note_sha256": "d9ae4b4ee2241155bbe128d5be85ff848ce0730cf91484498633829818cf8ebc",
+  "positive_contract": {
+    "duration": "64r+16k+156",
+    "mass_gain": 32,
+    "all_parameter_basis": "Actual prefix of the already signed complete-field P-plus-whole-shuttle contract, undo final RRLL only.",
+    "sample_reads": 956,
+    "sample_input_mass": 248,
+    "sample_output_mass": 280
+  },
+  "programs": [
+    {
+      "powered": false,
+      "A": [
+        0,
+        0
+      ],
+      "B": [
+        0,
+        4
+      ],
+      "lap_length": [
+        160,
+        2288
+      ],
+      "lap_mass": [
+        0,
+        44
+      ],
+      "shared_linear": [
+        -6,
+        0
+      ],
+      "shared_constant": [
+        -100,
+        1
+      ]
+    },
+    {
+      "powered": true,
+      "A": [
+        1,
+        1
+      ],
+      "B": [
+        1,
+        5
+      ],
+      "lap_length": [
+        264,
+        2392
+      ],
+      "lap_mass": [
+        12,
+        56
+      ],
+      "shared_linear": [
+        -6,
+        0
+      ],
+      "shared_constant": [
+        -100,
+        1
+      ]
+    }
+  ],
+  "scope": "One actual positive prepared growing cap, but this prescribed W20-to-K interface is impossible on ANY field by consecutive same-cell R/R. No other connector, phase, mechanism or infinite-seed theorem is excluded."
+}

@@ -1,0 +1,107 @@
+{
+  "status": "exact complete-history cap60/cap70 interfaces",
+  "domain": "all independent m,k>=100",
+  "rows": [
+    {
+      "phase": 60,
+      "first_remote_parity": [
+        0,
+        1
+      ],
+      "remaining_corner_parity": [
+        0,
+        0
+      ],
+      "exceptional_ray_parity": [
+        1,
+        1
+      ],
+      "favorable_phases": [
+        14,
+        28,
+        32,
+        38,
+        46,
+        56,
+        60,
+        62,
+        70,
+        72
+      ],
+      "phase_zero_pose": [
+        [
+          -23,
+          37
+        ],
+        0
+      ],
+      "complete_archive_u_lower": -96,
+      "complete_archive_z_upper": 41,
+      "finite_prefix_u_bounds": [
+        -96,
+        48
+      ],
+      "finite_prefix_z_upper": 41,
+      "whole_future": {
+        "u_upper": 48,
+        "z_upper": 41,
+        "cross_u_bounds": [
+          -96,
+          48
+        ],
+        "cross_tail_z_bounds": [
+          7,
+          17
+        ]
+      }
+    },
+    {
+      "phase": 70,
+      "first_remote_parity": [
+        1,
+        0
+      ],
+      "remaining_corner_parity": [
+        0,
+        1
+      ],
+      "exceptional_ray_parity": [
+        1,
+        0
+      ],
+      "favorable_phases": [
+        14,
+        28,
+        32,
+        38,
+        46,
+        56,
+        60,
+        62,
+        70,
+        72
+      ],
+      "phase_zero_pose": [
+        [
+          39,
+          14
+        ],
+        1
+      ],
+      "complete_archive_u_lower": -98,
+      "complete_archive_z_upper": 59,
+      "finite_prefix_u_bounds": [
+        -98,
+        60
+      ],
+      "finite_prefix_z_upper": 59,
+      "whole_future": {
+        "u_bounds": [
+          -98,
+          60
+        ]
+      }
+    }
+  ],
+  "scope": "Retained-core recurrence reduction uses fixed m and k tending to infinity."
+}

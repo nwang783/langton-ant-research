@@ -1,0 +1,310 @@
+{
+  "status": "PASS independent physical-coordinate full-prefix graph reconstruction",
+  "graphs": 4500,
+  "counts": {
+    "prefixes": 15312,
+    "accepted": 11128,
+    "cyclic_frontiers": 1329,
+    "rejected": 4184
+  },
+  "by_drift": {
+    "(2, 0)": {
+      "prefixes": 1838,
+      "accepted": 1411,
+      "cyclic_frontiers": 335,
+      "rejected": 427
+    },
+    "(4, 0)": {
+      "prefixes": 1502,
+      "accepted": 1011,
+      "cyclic_frontiers": 65,
+      "rejected": 491
+    },
+    "(6, 0)": {
+      "prefixes": 1263,
+      "accepted": 763,
+      "cyclic_frontiers": 9,
+      "rejected": 500
+    },
+    "(3, 1)": {
+      "prefixes": 1711,
+      "accepted": 1241,
+      "cyclic_frontiers": 139,
+      "rejected": 470
+    },
+    "(3, -1)": {
+      "prefixes": 1632,
+      "accepted": 1154,
+      "cyclic_frontiers": 97,
+      "rejected": 478
+    },
+    "(4, 2)": {
+      "prefixes": 1555,
+      "accepted": 1064,
+      "cyclic_frontiers": 33,
+      "rejected": 491
+    },
+    "(4, -2)": {
+      "prefixes": 1630,
+      "accepted": 1143,
+      "cyclic_frontiers": 47,
+      "rejected": 487
+    },
+    "(2, 2)": {
+      "prefixes": 2347,
+      "accepted": 1953,
+      "cyclic_frontiers": 484,
+      "rejected": 394
+    },
+    "(2, -2)": {
+      "prefixes": 1834,
+      "accepted": 1388,
+      "cyclic_frontiers": 120,
+      "rejected": 446
+    }
+  },
+  "nonvacuous_actual_standard_controls": [
+    {
+      "period": 104,
+      "drift": [
+        2,
+        2
+      ],
+      "cap": 16,
+      "period_debt": 12,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 104,
+      "drift": [
+        2,
+        2
+      ],
+      "cap": 64,
+      "period_debt": 12,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 104,
+      "drift": [
+        2,
+        2
+      ],
+      "cap": 120,
+      "period_debt": 12,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 104,
+      "drift": [
+        2,
+        2
+      ],
+      "cap": 512,
+      "period_debt": 12,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 104,
+      "drift": [
+        2,
+        -2
+      ],
+      "cap": 16,
+      "period_debt": 12,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 104,
+      "drift": [
+        2,
+        -2
+      ],
+      "cap": 64,
+      "period_debt": 12,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 104,
+      "drift": [
+        2,
+        -2
+      ],
+      "cap": 120,
+      "period_debt": 12,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 104,
+      "drift": [
+        2,
+        -2
+      ],
+      "cap": 512,
+      "period_debt": 12,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 208,
+      "drift": [
+        4,
+        4
+      ],
+      "cap": 16,
+      "period_debt": 16,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 208,
+      "drift": [
+        4,
+        4
+      ],
+      "cap": 64,
+      "period_debt": 24,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 208,
+      "drift": [
+        4,
+        4
+      ],
+      "cap": 120,
+      "period_debt": 24,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 208,
+      "drift": [
+        4,
+        4
+      ],
+      "cap": 512,
+      "period_debt": 24,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 208,
+      "drift": [
+        4,
+        -4
+      ],
+      "cap": 16,
+      "period_debt": 16,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 208,
+      "drift": [
+        4,
+        -4
+      ],
+      "cap": 64,
+      "period_debt": 24,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 208,
+      "drift": [
+        4,
+        -4
+      ],
+      "cap": 120,
+      "period_debt": 24,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 208,
+      "drift": [
+        4,
+        -4
+      ],
+      "cap": 512,
+      "period_debt": 24,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 312,
+      "drift": [
+        6,
+        6
+      ],
+      "cap": 16,
+      "period_debt": 16,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 312,
+      "drift": [
+        6,
+        6
+      ],
+      "cap": 64,
+      "period_debt": 36,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 312,
+      "drift": [
+        6,
+        6
+      ],
+      "cap": 120,
+      "period_debt": 36,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 312,
+      "drift": [
+        6,
+        6
+      ],
+      "cap": 512,
+      "period_debt": 36,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 312,
+      "drift": [
+        6,
+        -6
+      ],
+      "cap": 16,
+      "period_debt": 16,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 312,
+      "drift": [
+        6,
+        -6
+      ],
+      "cap": 64,
+      "period_debt": 36,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 312,
+      "drift": [
+        6,
+        -6
+      ],
+      "cap": 120,
+      "period_debt": 36,
+      "cyclic_frontiers": 7
+    },
+    {
+      "period": 312,
+      "drift": [
+        6,
+        -6
+      ],
+      "cap": 512,
+      "period_debt": 36,
+      "cyclic_frontiers": 7
+    }
+  ],
+  "module_sha256": "a8299c23ab42543500e76d217cfbc5bfcc5e804ee37e32cf159f12cf7686940f",
+  "scope": "Graph-monitor implementation control; random histories are not asserted ant fronts. Analytic simulation and any complete exclusion graph remain separate obligations."
+}

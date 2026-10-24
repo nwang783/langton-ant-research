@@ -1,0 +1,834 @@
+{
+  "scope": "The five signed GLOBAL-M flow3 segment templates, source1->3/sink3->1.\nExact all-template reader corner closure; no period, drift or segment-length scan.\n",
+  "summary": {
+    "open": 1,
+    "skipped_rank": 174,
+    "global_C_max": 4,
+    "clock_cycle": 4
+  },
+  "rows": [
+    {
+      "template": "RR",
+      "middle_RIGHT": [],
+      "nodes": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "h": "NSSS"
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "h": "EEWE"
+        }
+      ],
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "counts": {
+        "open": 1
+      },
+      "open": [
+        {
+          "(0, 0)": "NSSS",
+          "(1, 0)": "EEWE"
+        }
+      ]
+    },
+    {
+      "template": "RLR",
+      "middle_RIGHT": [],
+      "nodes": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "h": "NSSS"
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "L",
+          "ci": "E",
+          "co": "N",
+          "h": "WEEE"
+        },
+        {
+          "cell": [
+            1,
+            1
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "h": "NNSN"
+        }
+      ],
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "counts": {
+        "skipped_rank": 2
+      },
+      "open": []
+    },
+    {
+      "template": "RLRR",
+      "middle_RIGHT": [
+        "EEEW"
+      ],
+      "nodes": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "h": "NSSS"
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "L",
+          "ci": "E",
+          "co": "N",
+          "h": "WEEE"
+        },
+        {
+          "cell": [
+            1,
+            1
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "h": "NNNS"
+        },
+        {
+          "cell": [
+            2,
+            1
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "h": "EEWE"
+        }
+      ],
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "counts": {
+        "skipped_rank": 9
+      },
+      "open": []
+    },
+    {
+      "template": "RLRR",
+      "middle_RIGHT": [
+        "EWEE"
+      ],
+      "nodes": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "h": "NSSS"
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "L",
+          "ci": "E",
+          "co": "N",
+          "h": "WEEE"
+        },
+        {
+          "cell": [
+            1,
+            1
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "h": "NSNN"
+        },
+        {
+          "cell": [
+            2,
+            1
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "h": "EEWE"
+        }
+      ],
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "counts": {
+        "skipped_rank": 9
+      },
+      "open": []
+    },
+    {
+      "template": "RRLR",
+      "middle_RIGHT": [
+        "EEEW"
+      ],
+      "nodes": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "h": "NSSS"
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "h": "EEEW"
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "L",
+          "ci": "S",
+          "co": "E",
+          "h": "NSSS"
+        },
+        {
+          "cell": [
+            2,
+            -1
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "h": "EEWE"
+        }
+      ],
+      "cells": [
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "counts": {
+        "skipped_rank": 5,
+        "global_C_max": 2,
+        "clock_cycle": 2
+      },
+      "open": []
+    },
+    {
+      "template": "RRLR",
+      "middle_RIGHT": [
+        "EWEE"
+      ],
+      "nodes": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "h": "NSSS"
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "h": "EWEE"
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "L",
+          "ci": "S",
+          "co": "E",
+          "h": "NSSS"
+        },
+        {
+          "cell": [
+            2,
+            -1
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "h": "EEWE"
+        }
+      ],
+      "cells": [
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "counts": {
+        "skipped_rank": 5,
+        "global_C_max": 2,
+        "clock_cycle": 2
+      },
+      "open": []
+    },
+    {
+      "template": "RRLRR",
+      "middle_RIGHT": [
+        "EEEW",
+        "EEEW"
+      ],
+      "nodes": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "h": "NSSS"
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "h": "EEEW"
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "L",
+          "ci": "S",
+          "co": "E",
+          "h": "NSSS"
+        },
+        {
+          "cell": [
+            2,
+            -1
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "h": "EEEW"
+        },
+        {
+          "cell": [
+            2,
+            -2
+          ],
+          "turn": "R",
+          "ci": "S",
+          "co": "W",
+          "h": "SSNS"
+        }
+      ],
+      "cells": [
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "counts": {
+        "skipped_rank": 36
+      },
+      "open": []
+    },
+    {
+      "template": "RRLRR",
+      "middle_RIGHT": [
+        "EEEW",
+        "EWEE"
+      ],
+      "nodes": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "h": "NSSS"
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "h": "EEEW"
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "L",
+          "ci": "S",
+          "co": "E",
+          "h": "NSSS"
+        },
+        {
+          "cell": [
+            2,
+            -1
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "h": "EWEE"
+        },
+        {
+          "cell": [
+            2,
+            -2
+          ],
+          "turn": "R",
+          "ci": "S",
+          "co": "W",
+          "h": "SSNS"
+        }
+      ],
+      "cells": [
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "counts": {
+        "skipped_rank": 36
+      },
+      "open": []
+    },
+    {
+      "template": "RRLRR",
+      "middle_RIGHT": [
+        "EWEE",
+        "EEEW"
+      ],
+      "nodes": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "h": "NSSS"
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "h": "EWEE"
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "L",
+          "ci": "S",
+          "co": "E",
+          "h": "NSSS"
+        },
+        {
+          "cell": [
+            2,
+            -1
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "h": "EEEW"
+        },
+        {
+          "cell": [
+            2,
+            -2
+          ],
+          "turn": "R",
+          "ci": "S",
+          "co": "W",
+          "h": "SSNS"
+        }
+      ],
+      "cells": [
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "counts": {
+        "skipped_rank": 36
+      },
+      "open": []
+    },
+    {
+      "template": "RRLRR",
+      "middle_RIGHT": [
+        "EWEE",
+        "EWEE"
+      ],
+      "nodes": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "turn": "R",
+          "ci": "N",
+          "co": "E",
+          "h": "NSSS"
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "h": "EWEE"
+        },
+        {
+          "cell": [
+            1,
+            -1
+          ],
+          "turn": "L",
+          "ci": "S",
+          "co": "E",
+          "h": "NSSS"
+        },
+        {
+          "cell": [
+            2,
+            -1
+          ],
+          "turn": "R",
+          "ci": "E",
+          "co": "S",
+          "h": "EWEE"
+        },
+        {
+          "cell": [
+            2,
+            -2
+          ],
+          "turn": "R",
+          "ci": "S",
+          "co": "W",
+          "h": "SSNS"
+        }
+      ],
+      "cells": [
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "counts": {
+        "skipped_rank": 36
+      },
+      "open": []
+    }
+  ]
+}

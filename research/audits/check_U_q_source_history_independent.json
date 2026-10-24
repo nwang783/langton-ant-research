@@ -1,0 +1,62 @@
+{
+  "status": "PASS UC q permanence and UCC immediate V/VC q retirement",
+  "manifest_sha256": "25239deb8d71fa0e713cccba81757fc9fb712cf84b6a4269551c89b926388524",
+  "UC_exit": [
+    0,
+    5,
+    3
+  ],
+  "UCC_exit": [
+    -1,
+    5,
+    2
+  ],
+  "W_zero_displacements": {
+    "0": [
+      -1,
+      1
+    ],
+    "4": [
+      -3,
+      1
+    ],
+    "7": [
+      -4,
+      0
+    ]
+  },
+  "W_one_C_displacements": {
+    "1": [
+      -2,
+      1
+    ],
+    "5": [
+      -4,
+      1
+    ],
+    "8": [
+      -5,
+      0
+    ]
+  },
+  "S_zero_displacements": {
+    "0": [
+      -1,
+      -1
+    ],
+    "4": [
+      -1,
+      -3
+    ],
+    "7": [
+      0,
+      -4
+    ]
+  },
+  "U1_sibling_white": [
+    2,
+    5
+  ],
+  "analytic": "Signed exact q-consumer law fixes V/VC(-1,5,S) at full-source age2. UC exits0,5W atclock1; remaining complete intermediates have W-zero, exactlyone DC/VC/UC, S-zero form. Their x displacement<=-2 cannot equal-1. UCC already exits at the target pose and clock; any nonempty S-zero run strictly lowers y, so the consumer must immediately follow. This uses full source-entry clocks, not internal installation clocks.",
+  "scope": "UC q genuine identity permanent only within retained factor; UCC q possible only immediate V/VC, not all UCC-output permanence. No plain-U q permanence or funding-case closure."
+}

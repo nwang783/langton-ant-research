@@ -1,0 +1,319 @@
+{
+  "status": "PASS fresh-root last-predecessor partial injection and literal failures of direct terminal resource charging; numerical leaf budget remains open",
+  "manifest": "38ad7337b9b99fdfacaaf3edc7dfa0352671125fb3773f63f19ed046c6d0127a",
+  "script": "e29d45add0159c14c8f7c24d207a0639c259af7f4f1dc82d7063a7413986d40c",
+  "cases": [
+    {
+      "name": "empty",
+      "start": 5710,
+      "end": 6042,
+      "leaves": 27,
+      "unmarked": 3,
+      "unmarked_ending_starts": 1,
+      "injective_map": 40,
+      "selected_examples": [
+        {
+          "start": [
+            0,
+            8
+          ],
+          "nodes": [
+            {
+              "cell": [
+                0,
+                8
+              ],
+              "is_tree_leaf": true,
+              "tree_indegree": 0,
+              "actual_reads": [
+                [
+                  5812,
+                  "R"
+                ],
+                [
+                  5844,
+                  "L"
+                ],
+                [
+                  5880,
+                  "R"
+                ],
+                [
+                  5884,
+                  "L"
+                ]
+              ],
+              "last_predecessor": [
+                -1,
+                8
+              ],
+              "predecessor_last_read": 5919,
+              "last_tree_edge": [
+                0,
+                9
+              ]
+            },
+            {
+              "cell": [
+                -1,
+                8
+              ],
+              "is_tree_leaf": false,
+              "tree_indegree": 1,
+              "actual_reads": [
+                [
+                  5811,
+                  "R"
+                ],
+                [
+                  5879,
+                  "L"
+                ],
+                [
+                  5883,
+                  "R"
+                ],
+                [
+                  5919,
+                  "L"
+                ]
+              ],
+              "last_predecessor": [
+                -1,
+                7
+              ],
+              "predecessor_last_read": 5918,
+              "last_tree_edge": [
+                -2,
+                8
+              ]
+            }
+          ],
+          "terminal": [
+            -1,
+            8
+          ],
+          "terminal_last_arrival_is_tree_edge": true
+        }
+      ]
+    },
+    {
+      "name": "MT_100",
+      "start": 40071,
+      "end": 109168,
+      "leaves": 2388,
+      "unmarked": 783,
+      "unmarked_ending_starts": 275,
+      "injective_map": 3441,
+      "selected_examples": [
+        {
+          "start": [
+            432,
+            449
+          ],
+          "nodes": [
+            {
+              "cell": [
+                432,
+                449
+              ],
+              "is_tree_leaf": true,
+              "tree_indegree": 0,
+              "actual_reads": [
+                [
+                  40189,
+                  "R"
+                ],
+                [
+                  40197,
+                  "L"
+                ]
+              ],
+              "last_predecessor": [
+                432,
+                450
+              ],
+              "predecessor_last_read": 40212,
+              "last_tree_edge": [
+                433,
+                449
+              ]
+            },
+            {
+              "cell": [
+                432,
+                450
+              ],
+              "is_tree_leaf": false,
+              "tree_indegree": 1,
+              "actual_reads": [
+                [
+                  40188,
+                  "R"
+                ],
+                [
+                  40192,
+                  "L"
+                ],
+                [
+                  40196,
+                  "R"
+                ],
+                [
+                  40212,
+                  "L"
+                ]
+              ],
+              "last_predecessor": [
+                431,
+                450
+              ],
+              "predecessor_last_read": 40211,
+              "last_tree_edge": [
+                432,
+                451
+              ]
+            }
+          ],
+          "terminal": [
+            432,
+            450
+          ],
+          "terminal_last_arrival_is_tree_edge": true
+        },
+        {
+          "start": [
+            213,
+            234
+          ],
+          "nodes": [
+            {
+              "cell": [
+                213,
+                234
+              ],
+              "is_tree_leaf": true,
+              "tree_indegree": 0,
+              "actual_reads": [
+                [
+                  52303,
+                  "R"
+                ],
+                [
+                  57419,
+                  "L"
+                ],
+                [
+                  57423,
+                  "R"
+                ],
+                [
+                  57427,
+                  "L"
+                ]
+              ],
+              "last_predecessor": [
+                213,
+                233
+              ],
+              "predecessor_last_read": 71738,
+              "last_tree_edge": [
+                212,
+                234
+              ]
+            },
+            {
+              "cell": [
+                213,
+                233
+              ],
+              "is_tree_leaf": true,
+              "tree_indegree": 0,
+              "actual_reads": [
+                [
+                  57418,
+                  "R"
+                ],
+                [
+                  57422,
+                  "L"
+                ],
+                [
+                  57426,
+                  "R"
+                ],
+                [
+                  71738,
+                  "L"
+                ]
+              ],
+              "last_predecessor": [
+                214,
+                233
+              ],
+              "predecessor_last_read": 71753,
+              "last_tree_edge": [
+                213,
+                232
+              ]
+            },
+            {
+              "cell": [
+                214,
+                233
+              ],
+              "is_tree_leaf": false,
+              "tree_indegree": 2,
+              "actual_reads": [
+                [
+                  57413,
+                  "R"
+                ],
+                [
+                  57417,
+                  "L"
+                ],
+                [
+                  57425,
+                  "R"
+                ],
+                [
+                  71737,
+                  "L"
+                ],
+                [
+                  71745,
+                  "R"
+                ],
+                [
+                  71753,
+                  "L"
+                ]
+              ],
+              "last_predecessor": [
+                214,
+                234
+              ],
+              "predecessor_last_read": 71752,
+              "last_tree_edge": [
+                215,
+                233
+              ]
+            }
+          ],
+          "terminal": [
+            214,
+            233
+          ],
+          "terminal_last_arrival_is_tree_edge": true
+        }
+      ]
+    }
+  ],
+  "analytic_review": [
+    "With a fresh unread endpoint every lastarrivalpredecessor of a readvertex is itself read and has a selected last-exit edge. If its lasttime is later, that selectededge differs from the edge into the vertex. Fixedsector gives exactlytwo outgoingneighbors, so the partialmap is injective on its ENTIREdomain, not just leaves. Lasttimes increase and chains terminate. An arbitraryold root lacks the selectededge and is an actual exception, excluded here.",
+    "Every treeleaf belongs to the domain except a possible initialcutlastread. Images neednotbenonleaves; two unmarkedleaves can lie on one chain even though chainsdo notmerge. The explicit MTchain57427->71738->71753 ends at an unmarked indegree2vertex. Empty/MTotherchains stop at unmarked indegree1vertices. Thus directterminalassignment is neither a guaranteedresourcehit nor injective on leaves.",
+    "Both intervaltrees and fullbefore/afterfields freshly replayed from ORIGINALempty/MT100seeds, with all displayed visits/owners and hashes. Counts1 and275 are starting leaves ending unmarked, not distinct terminals or independent debts. The intervalresettrees are not confused with wholehistoricaltrees.",
+    "No counterexample to leaf<=C+O+1, gross outputpayment or a more globalsubtreepotential is claimed. This only rejects the specified direct-chain proof mechanism; universal attraction remainsopen."
+  ]
+}

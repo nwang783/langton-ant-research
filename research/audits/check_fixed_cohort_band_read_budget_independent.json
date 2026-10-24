@@ -1,0 +1,22 @@
+{
+  "status": "PASS unrestricted fixed-cohort axial-band read budget, inherited complete two-black cover",
+  "manifest": "b333989c447ca83d9797442e790173bbcba0b2bf9d661b676d34c440e2e46ef8",
+  "proof": "fff36a723a83a6556a08b5abddd9e855376c50ee6bd4e4d14b3cd6794d341492",
+  "all416_geometries": true,
+  "exact_ray_counts": 13312,
+  "sharp_forward_counts": 3328,
+  "bound": "270504+312w",
+  "scope": "Actual reads T<=t<c3 in a fixed w-row or w-column band, where c3 is third distinct consumption of the ENTIRE black-lifetime cohort fixed once at original cut T.",
+  "dependencies": {
+    "../audits/two_black_canonical_completion_independent.json": "892862a6fe5569a739671cb0e56c1f2432738ebff48a2bdad29cbc93ca765a62",
+    "../audits/generic_P104_fixed_cohort_independent.json": "ca1747663654fb773d268e29aca98715ae02e89ca58caf4d6eb71838ff8d8bd4",
+    "../audits/check_one_black_budget_independent.json": "5a694b5ec4f5eb51b28965bd0adc345fb09c5fa9fca37431c0e2519fe72df31b"
+  },
+  "analytic_review": [
+    "Heading alternates incoming axes every step, so each coordinate parity repeats a cyclic two-even/two-odd pattern. Any104 consecutive read positions therefore contain52 of each parity, independent of the word colors. Drift coordinate +/-2 makes each phase hit an eligible physical column/row at most once, yielding52w for any finite/infinite diagonal104 piece.",
+    "The signed full observation corridor transport gives at most6 such pieces and arbitrary total word length<=270504 for ALL one/two-corridor parameter members. Direct-leaf full-field completion gives prefix<=270192 and onepiece; empty/singleton envelopes are smaller. Original22-channel Main/PartData source cover is attributed and independently source-bound by prior reports, not silently replaced by representative phase tests or newly Lean-compiled here.",
+    "From ORIGINAL cut T, keep exactly the first two actually consumed C0 identities (or fewer if fewer ever consumed). Every omitted initialBLACK is unread until c3, so first-difference induction gives the exact full physical word, with all fresh writes/revisits retained. No causal-wake deletion or restart at an intermediate collision occurs.",
+    "Truncating the comparison at c3 only decreases arbitrary length and periodic piece count. The read at c3 itself is excluded. If c3=infinity, the same comparison is valid forever. No pristine, guard or active/relevant-cap hypothesis is used.",
+    "The band is fixed and AXIAL. Tangential diagonal bands already fail on an ordinary standard tail. New cohorts can contain fresh births, so this does not supply a cumulative original-seed fuel charge, elapsed-time bound, universal return-age bound or capture."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "status": "PASS exact supplied201 exclusion for full a5,c3 odd inventory at all periods",
+  "proof": "dc8e7b5f197773e2fd9058b0261f12159f33aa65b562a55ce17e26a1606d3951",
+  "certificate": "0315895e91fd5f342fd7fd9ff8ad9898361d2986778095b7876a1d29baec5188",
+  "script": "e3472e62f80cc748fbf08fb845bbe72f4752562cba2bd5962b18ceb231e6bd25",
+  "independent_raw_port_compatible_words": 213073,
+  "return_compatible_words": 187,
+  "serialized_prefix_nodes_checked": 2038,
+  "counts": {
+    "33": {
+      "open": 1
+    },
+    "32": {
+      "open": 1
+    },
+    "31": {
+      "open": 4
+    },
+    "30": {
+      "open": 7
+    },
+    "29": {
+      "no_complete_fragment_embedding": 36,
+      "open": 5,
+      "skipped_rank": 14,
+      "positive_rank_clock_cycle": 8
+    },
+    "28": {
+      "open": 9,
+      "skipped_rank": 6,
+      "no_complete_fragment_embedding": 9,
+      "positive_rank_clock_cycle": 2
+    },
+    "27": {
+      "positive_rank_clock_cycle": 24,
+      "no_complete_fragment_embedding": 11,
+      "skipped_rank": 50
+    }
+  },
+  "greatest_derived_bound": 29,
+  "analytic_review": [
+    "Complete WHITE full drift(3,1), exact full odd inventory{0,1,2,6,7,19,32,34}, yields ENTIRE read maximum34 singletonN by the signed full-footprint extreme lemma. Above34 is unread; all lower<=26 remains UNKNOWN.",
+    "The observed201 factor starts2,1 and never reads5,2, so translation period P>200 without any upper cap. Canonical event clock is observed t-yP. Distinct physical fragments in one full-drift class have different integer y and are strictly ordered by decreasing y, since all observed times lie0..200. Each fragment lists all reads of that physical cell within the actual window, so no missing ranks can be inserted inside it. Gaps before/after/between distinct fragments are unrestricted.",
+    "Independent R/L position-subset inversion enumerates213073 complete port-compatible words over28 upper parents, using the count-derived n<=2(I+J)+1, not a multiplicity cutoff. Exact physical return paths reduce this domain to187, equal to the serialized2038-node trees. Every binary branch, pruning reason, pending ordinal, complete leaf and derived-bound termination was also checked.",
+    "Every skipped-rank physical path and positive clock cycle independently reconstructed with full drift lifts. For graph-open words, every fragment start rank and exact gap-allowing reachable-end DP is independently reproduced. T27 leaves50 skips,24 positive cycles and11 empty DPs, no unresolved branch.",
+    "Earlier prepared BLACK input is not by itself forbidden. Contradiction is failure of complete WHITE histories to own all actual lifted read fragments. Only this supplied201 factor under exact a5,c3 inventory is excluded. The finite factor, every other a5 factor, larger-a embeddings, remaining controller classification and global attraction are not closed."
+  ]
+}

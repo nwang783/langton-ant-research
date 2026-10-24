@@ -1,0 +1,1462 @@
+{
+  "status": "all21ordinary recovery interfaces replayed and q-archive separation proved",
+  "scope": "coupling to the audited q_n parent, n>=200,m>=100; fixed m when applying sparse recurrence",
+  "source_sha256": "9caee109537263d06036894c52a954b33f88cee68c2d36c3b1d86f01976baca8",
+  "q_parent_bounds_sha256": "ce2f16250a4d2dbcce0e5232e959f144ee4fe8f4b9324ed66209f4081434024d",
+  "easy_phases": [
+    15,
+    28,
+    32,
+    38,
+    45,
+    46,
+    47,
+    55,
+    57,
+    60,
+    61,
+    71
+  ],
+  "rows": [
+    {
+      "phase": 13,
+      "core_ray_base": [
+        -16,
+        31
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 1,
+      "source_record_field_sha256": "0e26f7fcf187201e0fec377c47911c0f272f9c023434bf10c4ef24be42d95cfa",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        70959
+      ],
+      "capture_pose_constant": [
+        [
+          -20,
+          31
+        ],
+        1
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 97,
+      "outgoing_drift": [
+        -2,
+        2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        -44
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -58
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 39,
+      "complete_future_z_upper": 39,
+      "archive_u_lower": [
+        -4,
+        -58
+      ],
+      "archive_z_upper": 39,
+      "tail_fixed_normals": {
+        "z": [
+          7,
+          17
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        -27,
+        35
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "remaining NW exceptional a branch"
+    },
+    {
+      "phase": 14,
+      "core_ray_base": [
+        -16,
+        32
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 2,
+      "source_record_field_sha256": "0e1643936e36fcbda49d6d6e700be2d0a03ce86feeea2a095dc0c26067e76fe8",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        71064
+      ],
+      "capture_pose_constant": [
+        [
+          -18,
+          32
+        ],
+        0
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 102,
+      "outgoing_drift": [
+        -2,
+        2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        -42
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -58
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 39,
+      "complete_future_z_upper": 39,
+      "archive_u_lower": [
+        -4,
+        -58
+      ],
+      "archive_z_upper": 39,
+      "tail_fixed_normals": {
+        "z": [
+          7,
+          17
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        -27,
+        35
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "remaining NW exceptional a branch"
+    },
+    {
+      "phase": 15,
+      "core_ray_base": [
+        -15,
+        32
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 6,
+      "source_record_field_sha256": "f739ef039f92e595c414686d0ae119b79b32e7f797319b5013ab242c66166bb9",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        74601
+      ],
+      "capture_pose_constant": [
+        [
+          -39,
+          18
+        ],
+        3
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 94,
+      "outgoing_drift": [
+        -2,
+        -2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        -20
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -68
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 41,
+      "complete_future_z_upper": 41,
+      "archive_u_lower": [
+        -4,
+        -68
+      ],
+      "archive_z_upper": 41,
+      "tail_fixed_normals": {
+        "u": [
+          -4,
+          -64,
+          -54
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        -42,
+        13
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "SW escape: no remaining remote site can meet parent"
+    },
+    {
+      "phase": 27,
+      "core_ray_base": [
+        -17,
+        32
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 1,
+      "source_record_field_sha256": "2d14b421b1dafff60e50bf323be0320b8582783ecc653d60be52a80d81cc5e59",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        71181
+      ],
+      "capture_pose_constant": [
+        [
+          -21,
+          34
+        ],
+        3
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 103,
+      "outgoing_drift": [
+        -2,
+        2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        -45
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -62
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 39,
+      "complete_future_z_upper": 39,
+      "archive_u_lower": [
+        -4,
+        -62
+      ],
+      "archive_z_upper": 39,
+      "tail_fixed_normals": {
+        "z": [
+          7,
+          17
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        -29,
+        37
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "remaining NW exceptional a branch"
+    },
+    {
+      "phase": 28,
+      "core_ray_base": [
+        -17,
+        33
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 13,
+      "source_record_field_sha256": "291fdd2143f30a9473743a16ab97642bde0a1d8f8cead4a70b52a08a093575f9",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        77214
+      ],
+      "capture_pose_constant": [
+        [
+          -25,
+          39
+        ],
+        2
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 34,
+      "outgoing_drift": [
+        -2,
+        2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        2
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -66
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 39,
+      "complete_future_z_upper": 39,
+      "archive_u_lower": [
+        -4,
+        -66
+      ],
+      "archive_z_upper": 39,
+      "tail_fixed_normals": {
+        "z": [
+          9,
+          19
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        -30,
+        40
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "NW: exceptional a parity excluded"
+    },
+    {
+      "phase": 29,
+      "core_ray_base": [
+        -16,
+        33
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 17,
+      "source_record_field_sha256": "181fdcc07e6ec426a8784a0e048cfc848459c4cf0caebc03fbf11873cd3628d9",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        83455
+      ],
+      "capture_pose_constant": [
+        [
+          -2,
+          49
+        ],
+        1
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 100,
+      "outgoing_drift": [
+        2,
+        2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        24
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -70
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 55,
+      "complete_future_z_upper": null,
+      "archive_u_lower": [
+        -4,
+        -70
+      ],
+      "archive_z_upper": 55,
+      "tail_fixed_normals": {
+        "u": [
+          -4,
+          -56,
+          -46
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        2,
+        57
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "remaining NE exceptional d branch; independent d depth"
+    },
+    {
+      "phase": 32,
+      "core_ray_base": [
+        -17,
+        31
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 3,
+      "source_record_field_sha256": "c8f3d1f256517ec40d5f965b986e69524928d92306e2eba195799cd3ae00fe2d",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        79194
+      ],
+      "capture_pose_constant": [
+        [
+          13,
+          51
+        ],
+        2
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 97,
+      "outgoing_drift": [
+        2,
+        2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        -20
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -74
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 71,
+      "complete_future_z_upper": null,
+      "archive_u_lower": [
+        -4,
+        -74
+      ],
+      "archive_z_upper": 71,
+      "tail_fixed_normals": {
+        "u": [
+          -4,
+          -42,
+          -32
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        17,
+        58
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "NE: exceptional d parity excluded"
+    },
+    {
+      "phase": 38,
+      "core_ray_base": [
+        -18,
+        32
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 7,
+      "source_record_field_sha256": "01f2661545a1f52b0b734d30ccf091b68ab93c620bce9de058514bacc124b6fc",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        76600
+      ],
+      "capture_pose_constant": [
+        [
+          4,
+          32
+        ],
+        0
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 27,
+      "outgoing_drift": [
+        2,
+        2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        -16
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -70
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 39,
+      "complete_future_z_upper": null,
+      "archive_u_lower": [
+        -4,
+        -70
+      ],
+      "archive_z_upper": 39,
+      "tail_fixed_normals": {
+        "u": [
+          -4,
+          -36,
+          -26
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        3,
+        38
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "NE: exceptional d parity excluded"
+    },
+    {
+      "phase": 45,
+      "core_ray_base": [
+        -20,
+        31
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 9,
+      "source_record_field_sha256": "6d0b0a0273d5c6195b00c701e3c3f18f052296ea389b4338d800ab477c826afa",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        72863
+      ],
+      "capture_pose_constant": [
+        [
+          -24,
+          19
+        ],
+        1
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 76,
+      "outgoing_drift": [
+        -2,
+        -2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        -14
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -54
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 39,
+      "complete_future_z_upper": 39,
+      "archive_u_lower": [
+        -4,
+        -54
+      ],
+      "archive_z_upper": 39,
+      "tail_fixed_normals": {
+        "u": [
+          -4,
+          -52,
+          -42
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        -28,
+        15
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "SW escape: no remaining remote site can meet parent"
+    },
+    {
+      "phase": 46,
+      "core_ray_base": [
+        -20,
+        32
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 4,
+      "source_record_field_sha256": "b4a8da9313de99b6c1b5157a6e15525200afe2f40aa97b734c5ba275cbfe2202",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        71512
+      ],
+      "capture_pose_constant": [
+        [
+          -30,
+          20
+        ],
+        0
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 47,
+      "outgoing_drift": [
+        -2,
+        -2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        -35
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -54
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 39,
+      "complete_future_z_upper": 39,
+      "archive_u_lower": [
+        -4,
+        -54
+      ],
+      "archive_z_upper": 39,
+      "tail_fixed_normals": {
+        "u": [
+          -4,
+          -54,
+          -44
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        -29,
+        16
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "SW escape: no remaining remote site can meet parent"
+    },
+    {
+      "phase": 47,
+      "core_ray_base": [
+        -19,
+        32
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 4,
+      "source_record_field_sha256": "a91b53183a99a6f313c6ffa707fb01d355c7e2c83f36f39efe65b8ff601f3a7e",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        71513
+      ],
+      "capture_pose_constant": [
+        [
+          -27,
+          22
+        ],
+        1
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 4,
+      "outgoing_drift": [
+        -2,
+        -2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        -35
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -56
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 39,
+      "complete_future_z_upper": 39,
+      "archive_u_lower": [
+        -4,
+        -56
+      ],
+      "archive_z_upper": 39,
+      "tail_fixed_normals": {
+        "u": [
+          -4,
+          -54,
+          -44
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        -29,
+        16
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "SW escape: no remaining remote site can meet parent"
+    },
+    {
+      "phase": 55,
+      "core_ray_base": [
+        -21,
+        32
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 12,
+      "source_record_field_sha256": "93a9eb32a1415abe452a7493b6e8a7fbdd2e6adf4774601115a6b9ace9e38a39",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        77345
+      ],
+      "capture_pose_constant": [
+        [
+          11,
+          26
+        ],
+        3
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 76,
+      "outgoing_drift": [
+        2,
+        2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        4
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -66
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 41,
+      "complete_future_z_upper": null,
+      "archive_u_lower": [
+        -4,
+        -66
+      ],
+      "archive_z_upper": 41,
+      "tail_fixed_normals": {
+        "u": [
+          -4,
+          -16,
+          -6
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        15,
+        30
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "NE: exceptional d parity excluded"
+    },
+    {
+      "phase": 56,
+      "core_ray_base": [
+        -21,
+        33
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 7,
+      "source_record_field_sha256": "d5540223a71c4cb165e5feaf7d04e66de316a20c2cc0c3c19bdaf0181eec1974",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        78386
+      ],
+      "capture_pose_constant": [
+        [
+          1,
+          53
+        ],
+        0
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 83,
+      "outgoing_drift": [
+        2,
+        2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        -16
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -82
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 59,
+      "complete_future_z_upper": null,
+      "archive_u_lower": [
+        -4,
+        -82
+      ],
+      "archive_z_upper": 59,
+      "tail_fixed_normals": {
+        "u": [
+          -4,
+          -56,
+          -46
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        4,
+        59
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "remaining NE exceptional d branch; independent d depth"
+    },
+    {
+      "phase": 57,
+      "core_ray_base": [
+        -20,
+        33
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 2,
+      "source_record_field_sha256": "4cd80e707324b3b00123ec7c34730ebf618ffd47094e46900ef4028a7f246350",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        71523
+      ],
+      "capture_pose_constant": [
+        [
+          -30,
+          23
+        ],
+        1
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 58,
+      "outgoing_drift": [
+        -2,
+        -2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        -43
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -62
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 39,
+      "complete_future_z_upper": 39,
+      "archive_u_lower": [
+        -4,
+        -62
+      ],
+      "archive_z_upper": 39,
+      "tail_fixed_normals": {
+        "u": [
+          -4,
+          -58,
+          -48
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        -29,
+        20
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "SW escape: no remaining remote site can meet parent"
+    },
+    {
+      "phase": 60,
+      "core_ray_base": [
+        -21,
+        31
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 9,
+      "source_record_field_sha256": "d706a998b8d3bac8d9510cc770105f66acb889c4e392cfa19f8c035add45a2c5",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        73294
+      ],
+      "capture_pose_constant": [
+        [
+          -21,
+          43
+        ],
+        0
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 90,
+      "outgoing_drift": [
+        -2,
+        2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        -8
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -66
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 39,
+      "complete_future_z_upper": 39,
+      "archive_u_lower": [
+        -4,
+        -66
+      ],
+      "archive_z_upper": 39,
+      "tail_fixed_normals": {
+        "z": [
+          21,
+          31
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        -24,
+        46
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "NW: exceptional a parity excluded"
+    },
+    {
+      "phase": 61,
+      "core_ray_base": [
+        -22,
+        31
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 14,
+      "source_record_field_sha256": "7339f65390993488581db3dad220718fa45b95c8bc3fcd7d0cc3807dec388a11",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        103351
+      ],
+      "capture_pose_constant": [
+        [
+          -6,
+          69
+        ],
+        1
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 51,
+      "outgoing_drift": [
+        -2,
+        2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        5
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -92
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 75,
+      "complete_future_z_upper": 75,
+      "archive_u_lower": [
+        -4,
+        -92
+      ],
+      "archive_z_upper": 75,
+      "tail_fixed_normals": {
+        "z": [
+          59,
+          69
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        -10,
+        70
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "NW: exceptional a parity excluded"
+    },
+    {
+      "phase": 62,
+      "core_ray_base": [
+        -22,
+        32
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 12,
+      "source_record_field_sha256": "b0fde70df42a4c05de84f58f13e8a3e9aef0d54ac3c936b44438ab482b0055c1",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        78184
+      ],
+      "capture_pose_constant": [
+        [
+          2,
+          38
+        ],
+        0
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 17,
+      "outgoing_drift": [
+        2,
+        2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        4
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -60
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 43,
+      "complete_future_z_upper": null,
+      "archive_u_lower": [
+        -4,
+        -60
+      ],
+      "archive_z_upper": 43,
+      "tail_fixed_normals": {
+        "u": [
+          -4,
+          -44,
+          -34
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        2,
+        45
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "remaining NE exceptional d branch; independent d depth"
+    },
+    {
+      "phase": 70,
+      "core_ray_base": [
+        -22,
+        30
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 4,
+      "source_record_field_sha256": "70e8f5128fc58de44e04eba9556d493cbcf6a16c48f0d7a946ad67de3c24601e",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        79336
+      ],
+      "capture_pose_constant": [
+        [
+          -34,
+          58
+        ],
+        2
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 70,
+      "outgoing_drift": [
+        -2,
+        2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        -34
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -94
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 41,
+      "complete_future_z_upper": 41,
+      "archive_u_lower": [
+        -4,
+        -94
+      ],
+      "archive_z_upper": 41,
+      "tail_fixed_normals": {
+        "z": [
+          23,
+          33
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        -35,
+        59
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "remaining NW exceptional a branch"
+    },
+    {
+      "phase": 71,
+      "core_ray_base": [
+        -23,
+        30
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 8,
+      "source_record_field_sha256": "3f1cbf38c5b3eeab7409f58d3a8f84b8812c107d1f9218752a02c9c24c88fa8a",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        86513
+      ],
+      "capture_pose_constant": [
+        [
+          -5,
+          36
+        ],
+        3
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 20,
+      "outgoing_drift": [
+        2,
+        2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        -12
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -94
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 49,
+      "complete_future_z_upper": null,
+      "archive_u_lower": [
+        -4,
+        -94
+      ],
+      "archive_z_upper": 49,
+      "tail_fixed_normals": {
+        "u": [
+          -4,
+          -48,
+          -38
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        -3,
+        44
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "NE: exceptional d parity excluded"
+    },
+    {
+      "phase": 75,
+      "core_ray_base": [
+        -21,
+        30
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 5,
+      "source_record_field_sha256": "a54657217c8e58785e3ea75ab60429a9ecc133a0faf6f3996894b0e2e5a868ea",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        74557
+      ],
+      "capture_pose_constant": [
+        [
+          -31,
+          46
+        ],
+        1
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 79,
+      "outgoing_drift": [
+        -2,
+        2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        -26
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -82
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 39,
+      "complete_future_z_upper": 39,
+      "archive_u_lower": [
+        -4,
+        -82
+      ],
+      "archive_z_upper": 39,
+      "tail_fixed_normals": {
+        "z": [
+          11,
+          21
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        -37,
+        49
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "remaining NW exceptional a branch"
+    },
+    {
+      "phase": 89,
+      "core_ray_base": [
+        -22,
+        29
+      ],
+      "drift": [
+        -2,
+        2
+      ],
+      "minimum_m": 100,
+      "source_age": 1,
+      "source_record_field_sha256": "7938e851d6ef2ff8fe641537472a684c20e082be45dfece8f48317fd8d176786",
+      "capture_time_coefficients_n_m_constant": [
+        208,
+        104,
+        71035
+      ],
+      "capture_pose_constant": [
+        [
+          -24,
+          37
+        ],
+        1
+      ],
+      "capture_translation_per_m": [
+        -2,
+        2
+      ],
+      "tail_phase": 57,
+      "outgoing_drift": [
+        -2,
+        2
+      ],
+      "ordinary_postcore_u_upper": [
+        -4,
+        -45
+      ],
+      "finite_prefix_u_bounds": {
+        "lower": [
+          -4,
+          -62
+        ],
+        "upper": 58
+      },
+      "finite_prefix_z_upper": 39,
+      "complete_future_z_upper": 39,
+      "archive_u_lower": [
+        -4,
+        -62
+      ],
+      "archive_z_upper": 39,
+      "tail_fixed_normals": {
+        "z": [
+          7,
+          17
+        ]
+      },
+      "exceptional_ray_base_constant": [
+        -27,
+        35
+      ],
+      "exceptional_translation_per_m": [
+        -2,
+        2
+      ],
+      "classification": "remaining NW exceptional a branch"
+    }
+  ]
+}

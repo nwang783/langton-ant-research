@@ -1,0 +1,89 @@
+{
+  "status": "PASS exact F/Q/B covariance of signed UCC plain-DVU two-track hole guard",
+  "manifest_sha256": "065576a1cdcbf9de7715c57cb50a2f51f0a23efcd6ec661ddda0cc23894847f3",
+  "dependencies": {
+    "two_track_UCC_F_return_2026-10-24/plain_rail_extension_manifest.json": "6d9a85d89ffbf04d4b6c10441a1d2304a5fd663686f05eff8a6d970fd18b3b7d",
+    "audits/check_two_track_plain_DVU_independent.json": "563dc6f0e7a4f116d25d83bdecb7708453d380d60a9318e1545fd1a62fceb1da",
+    "literal_ownership_conventions_2026-10-24/canonical_read_ownership.py": "041b40e04a0f71a6b9511abf1d15b1d86c548e74f4f99281477c115b72036ea2"
+  },
+  "literal_foreign_rows": [
+    {
+      "foreign": "F",
+      "RAW_length": 56,
+      "endpoint": [
+        -4,
+        -2,
+        2
+      ],
+      "RAW_minY": -2,
+      "drop_X_minus_drop_Y": 9,
+      "hole_below_RAW_margin": 2,
+      "hole_exit_relative_Y_at_least": 2
+    },
+    {
+      "foreign": "Q",
+      "RAW_length": 64,
+      "endpoint": [
+        -4,
+        -4,
+        2
+      ],
+      "RAW_minY": -4,
+      "drop_X_minus_drop_Y": 11,
+      "hole_below_RAW_margin": 2,
+      "hole_exit_relative_Y_at_least": 2
+    },
+    {
+      "foreign": "B",
+      "RAW_length": 74,
+      "endpoint": [
+        -3,
+        -5,
+        2
+      ],
+      "RAW_minY": -5,
+      "drop_X_minus_drop_Y": 12,
+      "hole_below_RAW_margin": 2,
+      "hole_exit_relative_Y_at_least": 2
+    }
+  ],
+  "full_prefix_controls": [
+    {
+      "foreign": "F",
+      "S": "VVVU",
+      "N": "U",
+      "seed_mass": 39,
+      "actual_reads": 237,
+      "g_WHITE_at_target_tick13": true
+    },
+    {
+      "foreign": "Q",
+      "S": "VVVV",
+      "N": "D",
+      "seed_mass": 33,
+      "actual_reads": 217,
+      "g_WHITE_at_target_tick13": true
+    },
+    {
+      "foreign": "Q",
+      "S": "VVVVU",
+      "N": "DU",
+      "seed_mass": 43,
+      "actual_reads": 273,
+      "g_WHITE_at_target_tick13": true
+    },
+    {
+      "foreign": "B",
+      "S": "VVVVVU",
+      "N": "DDDU",
+      "seed_mass": 50,
+      "actual_reads": 321,
+      "g_WHITE_at_target_tick13": true
+    }
+  ],
+  "analytic_review": [
+    "Signed6d9a85d8 already exhausts all16 actual S and N full-output roles, including entry-core deletion and residual export. These exclusions depend only on source UCC, fixed targetU0,-2N, and plain zero-C rails, not on which single foreign intervenes.",
+    "Actual F/Q/B RAW endpoints and complete read minima are reconstructed independently, not replaced by marker or corrected-center endpoints. Exact endpoint count equations yield dropX=dropY+9/11/12. The source hole is at least2 below each actual foreign RAW minimum and has N-exit relativeY=dropY+2 outside canonicalK. Thus no hidden Q/B CORE carry/export can supply it.",
+    "All four complete finite partial boards replay through target ticks0..12; target tick13/read14 is actually R on same source-deleted g. Every seven-word continuation then disagrees. No completed target, proxy contact, additional C/foreign, different connector, or postforeign maturity claim."
+  ]
+}

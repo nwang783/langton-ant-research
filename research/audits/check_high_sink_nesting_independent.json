@@ -1,0 +1,208 @@
+{
+  "status": "PASS critical flow2 incoming-sink nesting and exact one-flat lifespan",
+  "proof": "f59ebed0eeb02378ffc766d7d8bd014a333f44d8994c51b6cdc243579e3b9297",
+  "control": "023c256776e85e8d04a46585c3cca944d25151514269120c90db8d5bf6f57dcb",
+  "complete_predecessor_alphabet": [
+    "NNN",
+    "NNNN",
+    "NNSS",
+    "NSSN"
+  ],
+  "unique_LEFT3": [
+    "WEEE"
+  ],
+  "strands": [
+    {
+      "root": "WEE",
+      "edges": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          3,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          2,
+          2
+        ]
+      ],
+      "first_strand": [
+        [
+          "w",
+          0
+        ],
+        [
+          "q",
+          0
+        ],
+        [
+          "u",
+          1
+        ]
+      ],
+      "late_strand": [
+        [
+          "w",
+          3
+        ],
+        [
+          "q",
+          2
+        ],
+        [
+          "u",
+          2
+        ]
+      ],
+      "nested_margins": [
+        2,
+        6
+      ]
+    },
+    {
+      "root": "WEEW",
+      "edges": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          3,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          2,
+          2
+        ]
+      ],
+      "first_strand": [
+        [
+          "w",
+          0
+        ],
+        [
+          "q",
+          0
+        ],
+        [
+          "u",
+          1
+        ]
+      ],
+      "late_strand": [
+        [
+          "w",
+          3
+        ],
+        [
+          "q",
+          2
+        ],
+        [
+          "u",
+          2
+        ]
+      ],
+      "nested_margins": [
+        2,
+        6
+      ]
+    }
+  ],
+  "critical_LL_seven_rows": [
+    {
+      "Z": "NNSS",
+      "A": "EEWW",
+      "B": "SNNS",
+      "Y": "EWW"
+    },
+    {
+      "Z": "NNSS",
+      "A": "EEWW",
+      "B": "SNNS",
+      "Y": "EWWE"
+    },
+    {
+      "Z": "NNSS",
+      "A": "EWWE",
+      "B": "SNNS",
+      "Y": "EEWW"
+    },
+    {
+      "Z": "NNSS",
+      "A": "EWE",
+      "B": "SSS",
+      "Y": "EEWW"
+    },
+    {
+      "Z": "NNSS",
+      "A": "EWE",
+      "B": "SSSS",
+      "Y": "EEWW"
+    },
+    {
+      "Z": "NNSS",
+      "A": "EWEW",
+      "B": "SSS",
+      "Y": "EEWW"
+    },
+    {
+      "Z": "NNSS",
+      "A": "EWEW",
+      "B": "SSSS",
+      "Y": "EEWW"
+    }
+  ],
+  "analytic_review": [
+    "The critical last-LEFT gate forbids a crossing as second LL, so every flow2 O/U root has RIGHT predecessor. No-one-use and cap4 give precisely two flat2 profiles, odd3->2 sink and4->2 target. This is local and imposes no global C maximum.",
+    "The isolated flow4 target necessarily follows RIGHT. A sink3 following RIGHT is also in an RR run, whose external LEFT endpoints are covered by signed general LRRL including flow1. Essential simplicity supplies the missing preceding LEFT by excluding3RIGHT turns. That gate excludes an O/U following LEFT without any global-height bound.",
+    "The remaining LEFT3 WEEE -> RIGHT sinkNNN -> O/U has literal first strand wR0,qR0,uL1 and late strand wL3,qR2,uR2. Same-cell gap>=4 gives T1w>=T1u+2 and T2w<=T2u-6, strictly nested actual physical critical LEFT intervals, impossible. No moduloP identification or input-color shortcut.",
+    "Filtering the signed39 mixed LL rows with last-LEFT V and no high-flow incoming crossing leaves7:three flat rows andfour passiveV/V zero-chord rows. Only the2 flat first-LL O/U cleanups remain crossing modes. Local long-U open controls remain valid but cannot satisfy the stated full critical chronology.",
+    "At globalM with one flat and some root, signed provider result gives G=F+d, unique root, Yflat, ell<age13<P. New adjacency u=b(G) yields T1u=T0G+1,T2u=T1G+1. Combining exact rootspan with P+ell-age13 gives T3F-T0F=P+ell. Boundary factor G.R0->F.L3 has displacement-d; unresolved exterior F.L3->G.L1 has+d. Lifespan>P is retained, not an impossibility.",
+    "No completed exterior, general oneuse, period/age bound, old-stock depletion or attraction conclusion follows."
+  ],
+  "dependencies": {
+    "audits/check_mixed_RR_closure_independent.json": "6a5571ed9cd4a804868b7378ecd3a4f675592e4b200e944cc4c62ff97a8883ac",
+    "audits/check_mixed_LL_gate_independent.json": "441ffa775b9fe212ddcc2312533c0b7feb0c01e4aeac95b89bf229c34edca119",
+    "audits/check_mixed_first_track_pipeline_independent.json": "8ff4e2b77138f10372b4074fe93d9e0a7d28b4af32d29137f16cf4df8add9bab",
+    "audits/check_critical_flat_providers_independent.json": "f297e94e773a28de17b6e439ea0e42ebd25751621e199de6116ea26f317fe89b"
+  }
+}

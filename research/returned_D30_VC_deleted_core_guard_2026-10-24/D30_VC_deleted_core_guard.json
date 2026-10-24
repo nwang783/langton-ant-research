@@ -1,0 +1,2734 @@
+{
+  "status": "AUTHOR_PENDING_INDEPENDENT_AUDIT",
+  "scope": "Only D30 immediate genuine VC predecessor, arbitrary prehistory/connector. Full-source V upper-input deletion and selected-D actual consumed-input lock,72 CORE-inclusive last-R origins, old simple-center repeats and three-bud trap. No postforeign age law, no all-VC shifted-parent or all-D30 claim.",
+  "actual_prior_VC": [
+    -4,
+    1,
+    1
+  ],
+  "source_upper_deletion": {
+    "local_cell": [
+      0,
+      3
+    ],
+    "global_cell": [
+      -1,
+      1
+    ],
+    "canonical_owner": {
+      "packet": "VC",
+      "context_tick0": 19,
+      "context_read_number1": 20,
+      "RAW_length": 33,
+      "owner": "own C-tail 1 RAW",
+      "owner_tick0": 1,
+      "owner_read_number1": 2,
+      "turn": "L",
+      "next_word_tick0": null,
+      "next_word_read_number1": null,
+      "label": "context tick 19 (zero-based), RAW length 33; own C-tail 1 RAW tick 1 (zero-based), read 2 (one-based), L"
+    }
+  },
+  "future_required_BLACK": {
+    "combined_tick0": 69,
+    "canonical_owner": {
+      "packet": "V",
+      "context_tick0": 13,
+      "context_read_number1": 14,
+      "RAW_length": 18,
+      "owner": "own V-base RAW",
+      "owner_tick0": 13,
+      "owner_read_number1": 14,
+      "turn": "L",
+      "next_word_tick0": null,
+      "next_word_read_number1": null,
+      "label": "context tick 13 (zero-based), RAW length 18; own V-base RAW tick 13 (zero-based), read 14 (one-based), L"
+    },
+    "outside_foreign_entry_K": true,
+    "foreign_RAW_misses": true
+  },
+  "four_actual_first_post_D_01_deletions": [
+    {
+      "actual_post_D_atom": "D",
+      "entry": [
+        1,
+        1,
+        0
+      ],
+      "deleted_global_input": [
+        0,
+        1
+      ],
+      "delete_tick0": 1,
+      "delete_read_number1": 2,
+      "C_entry_clock": 0
+    },
+    {
+      "actual_post_D_atom": "C",
+      "entry": [
+        1,
+        1,
+        0
+      ],
+      "deleted_global_input": [
+        0,
+        1
+      ],
+      "delete_tick0": 1,
+      "delete_read_number1": 2,
+      "C_entry_clock": 0
+    },
+    {
+      "actual_post_D_atom": "V",
+      "entry": [
+        1,
+        1,
+        0
+      ],
+      "deleted_global_input": [
+        0,
+        1
+      ],
+      "delete_tick0": 1,
+      "delete_read_number1": 2,
+      "C_entry_clock": 0
+    },
+    {
+      "actual_post_D_atom": "U",
+      "entry": [
+        1,
+        1,
+        0
+      ],
+      "deleted_global_input": [
+        0,
+        1
+      ],
+      "delete_tick0": 1,
+      "delete_read_number1": 2,
+      "C_entry_clock": 0
+    }
+  ],
+  "all8_full_birthclock0_no_01_output_cones": [
+    {
+      "packet": "D",
+      "all_outputs_have_nonnegative_y": true,
+      "height0_outputs_have_nonnegative_x": true,
+      "N0_heads_after_selected_D_have_x_y_at_least1": true
+    },
+    {
+      "packet": "DC",
+      "all_outputs_have_nonnegative_y": true,
+      "height0_outputs_have_nonnegative_x": true,
+      "N0_heads_after_selected_D_have_x_y_at_least1": true
+    },
+    {
+      "packet": "V",
+      "all_outputs_have_nonnegative_y": true,
+      "height0_outputs_have_nonnegative_x": true,
+      "N0_heads_after_selected_D_have_x_y_at_least1": true
+    },
+    {
+      "packet": "VC",
+      "all_outputs_have_nonnegative_y": true,
+      "height0_outputs_have_nonnegative_x": true,
+      "N0_heads_after_selected_D_have_x_y_at_least1": true
+    },
+    {
+      "packet": "VCC",
+      "all_outputs_have_nonnegative_y": true,
+      "height0_outputs_have_nonnegative_x": true,
+      "N0_heads_after_selected_D_have_x_y_at_least1": true
+    },
+    {
+      "packet": "U",
+      "all_outputs_have_nonnegative_y": true,
+      "height0_outputs_have_nonnegative_x": true,
+      "N0_heads_after_selected_D_have_x_y_at_least1": true
+    },
+    {
+      "packet": "UC",
+      "all_outputs_have_nonnegative_y": true,
+      "height0_outputs_have_nonnegative_x": true,
+      "N0_heads_after_selected_D_have_x_y_at_least1": true
+    },
+    {
+      "packet": "UCC",
+      "all_outputs_have_nonnegative_y": true,
+      "height0_outputs_have_nonnegative_x": true,
+      "N0_heads_after_selected_D_have_x_y_at_least1": true
+    }
+  ],
+  "all3_possible_S_predecessor_input_deadlines": [
+    {
+      "preceding_actual_base": "D",
+      "containing_full_packet_choices": [
+        "D",
+        "DC"
+      ],
+      "pose": [
+        0,
+        2,
+        2
+      ],
+      "true_input_slot": [
+        0,
+        1
+      ],
+      "deleted_global_input": [
+        0,
+        1
+      ],
+      "full_entry_clock": 2,
+      "certified_minimum": 3,
+      "latest_possible_producer_full_entry_clock": -1,
+      "exclusion": "postdeletion producer cannot be older; all full birthclock0 origins absent"
+    },
+    {
+      "preceding_actual_base": "V",
+      "containing_full_packet_choices": [
+        "V",
+        "VC"
+      ],
+      "pose": [
+        0,
+        4,
+        2
+      ],
+      "true_input_slot": [
+        0,
+        3
+      ],
+      "deleted_global_input": [
+        0,
+        1
+      ],
+      "full_entry_clock": 2,
+      "certified_minimum": 2,
+      "latest_possible_producer_full_entry_clock": 0,
+      "exclusion": "postdeletion producer cannot be older; all full birthclock0 origins absent"
+    },
+    {
+      "preceding_actual_base": "U",
+      "containing_full_packet_choices": [
+        "U",
+        "UC"
+      ],
+      "pose": [
+        -1,
+        5,
+        2
+      ],
+      "true_input_slot": [
+        -1,
+        4
+      ],
+      "deleted_global_input": [
+        0,
+        1
+      ],
+      "full_entry_clock": 2,
+      "certified_minimum": 5,
+      "latest_possible_producer_full_entry_clock": -3,
+      "exclusion": "postdeletion producer cannot be older; all full birthclock0 origins absent"
+    }
+  ],
+  "all24_held_bud_endpoint_obligations": [
+    {
+      "case": 30,
+      "identity": [
+        1,
+        -1
+      ],
+      "clearer": "D",
+      "input_slot": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        -1,
+        1
+      ],
+      "endpoint": [
+        1,
+        -2
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": [
+        {
+          "d": 2,
+          "v": 0,
+          "u": 0,
+          "allowed_last": []
+        }
+      ]
+    },
+    {
+      "case": 30,
+      "identity": [
+        1,
+        -1
+      ],
+      "clearer": "V",
+      "input_slot": [
+        0,
+        3
+      ],
+      "entry": [
+        -2,
+        -1,
+        1
+      ],
+      "endpoint": [
+        1,
+        -2
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": [
+        {
+          "d": 2,
+          "v": 0,
+          "u": 0,
+          "allowed_last": []
+        }
+      ]
+    },
+    {
+      "case": 30,
+      "identity": [
+        1,
+        -1
+      ],
+      "clearer": "V",
+      "input_slot": [
+        1,
+        2
+      ],
+      "entry": [
+        -1,
+        0,
+        1
+      ],
+      "endpoint": [
+        2,
+        -1
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    },
+    {
+      "case": 30,
+      "identity": [
+        1,
+        -1
+      ],
+      "clearer": "U",
+      "input_slot": [
+        -1,
+        1
+      ],
+      "entry": [
+        0,
+        -2,
+        1
+      ],
+      "endpoint": [
+        4,
+        -2
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    },
+    {
+      "case": 30,
+      "identity": [
+        1,
+        -1
+      ],
+      "clearer": "U",
+      "input_slot": [
+        -1,
+        2
+      ],
+      "entry": [
+        -1,
+        -2,
+        1
+      ],
+      "endpoint": [
+        3,
+        -2
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    },
+    {
+      "case": 30,
+      "identity": [
+        1,
+        -1
+      ],
+      "clearer": "U",
+      "input_slot": [
+        -1,
+        4
+      ],
+      "entry": [
+        -3,
+        -2,
+        1
+      ],
+      "endpoint": [
+        1,
+        -2
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": [
+        {
+          "d": 2,
+          "v": 0,
+          "u": 0,
+          "allowed_last": []
+        }
+      ]
+    },
+    {
+      "case": 30,
+      "identity": [
+        1,
+        -1
+      ],
+      "clearer": "U",
+      "input_slot": [
+        0,
+        2
+      ],
+      "entry": [
+        -1,
+        -1,
+        1
+      ],
+      "endpoint": [
+        3,
+        -1
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    },
+    {
+      "case": 30,
+      "identity": [
+        1,
+        -1
+      ],
+      "clearer": "U",
+      "input_slot": [
+        0,
+        3
+      ],
+      "entry": [
+        -2,
+        -1,
+        1
+      ],
+      "endpoint": [
+        2,
+        -1
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    },
+    {
+      "case": 30,
+      "identity": [
+        2,
+        0
+      ],
+      "clearer": "D",
+      "input_slot": [
+        0,
+        1
+      ],
+      "entry": [
+        1,
+        0,
+        1
+      ],
+      "endpoint": [
+        2,
+        -1
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    },
+    {
+      "case": 30,
+      "identity": [
+        2,
+        0
+      ],
+      "clearer": "V",
+      "input_slot": [
+        0,
+        3
+      ],
+      "entry": [
+        -1,
+        0,
+        1
+      ],
+      "endpoint": [
+        2,
+        -1
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    },
+    {
+      "case": 30,
+      "identity": [
+        2,
+        0
+      ],
+      "clearer": "V",
+      "input_slot": [
+        1,
+        2
+      ],
+      "entry": [
+        0,
+        1,
+        1
+      ],
+      "endpoint": [
+        3,
+        0
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    },
+    {
+      "case": 30,
+      "identity": [
+        2,
+        0
+      ],
+      "clearer": "U",
+      "input_slot": [
+        -1,
+        1
+      ],
+      "entry": [
+        1,
+        -1,
+        1
+      ],
+      "endpoint": [
+        5,
+        -1
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    },
+    {
+      "case": 30,
+      "identity": [
+        2,
+        0
+      ],
+      "clearer": "U",
+      "input_slot": [
+        -1,
+        2
+      ],
+      "entry": [
+        0,
+        -1,
+        1
+      ],
+      "endpoint": [
+        4,
+        -1
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    },
+    {
+      "case": 30,
+      "identity": [
+        2,
+        0
+      ],
+      "clearer": "U",
+      "input_slot": [
+        -1,
+        4
+      ],
+      "entry": [
+        -2,
+        -1,
+        1
+      ],
+      "endpoint": [
+        2,
+        -1
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    },
+    {
+      "case": 30,
+      "identity": [
+        2,
+        0
+      ],
+      "clearer": "U",
+      "input_slot": [
+        0,
+        2
+      ],
+      "entry": [
+        0,
+        0,
+        1
+      ],
+      "endpoint": [
+        4,
+        0
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    },
+    {
+      "case": 30,
+      "identity": [
+        2,
+        0
+      ],
+      "clearer": "U",
+      "input_slot": [
+        0,
+        3
+      ],
+      "entry": [
+        -1,
+        0,
+        1
+      ],
+      "endpoint": [
+        3,
+        0
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    },
+    {
+      "case": 30,
+      "identity": [
+        3,
+        1
+      ],
+      "clearer": "D",
+      "input_slot": [
+        0,
+        1
+      ],
+      "entry": [
+        2,
+        1,
+        1
+      ],
+      "endpoint": [
+        3,
+        0
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    },
+    {
+      "case": 30,
+      "identity": [
+        3,
+        1
+      ],
+      "clearer": "V",
+      "input_slot": [
+        0,
+        3
+      ],
+      "entry": [
+        0,
+        1,
+        1
+      ],
+      "endpoint": [
+        3,
+        0
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    },
+    {
+      "case": 30,
+      "identity": [
+        3,
+        1
+      ],
+      "clearer": "V",
+      "input_slot": [
+        1,
+        2
+      ],
+      "entry": [
+        1,
+        2,
+        1
+      ],
+      "endpoint": [
+        4,
+        1
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    },
+    {
+      "case": 30,
+      "identity": [
+        3,
+        1
+      ],
+      "clearer": "U",
+      "input_slot": [
+        -1,
+        1
+      ],
+      "entry": [
+        2,
+        0,
+        1
+      ],
+      "endpoint": [
+        6,
+        0
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    },
+    {
+      "case": 30,
+      "identity": [
+        3,
+        1
+      ],
+      "clearer": "U",
+      "input_slot": [
+        -1,
+        2
+      ],
+      "entry": [
+        1,
+        0,
+        1
+      ],
+      "endpoint": [
+        5,
+        0
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    },
+    {
+      "case": 30,
+      "identity": [
+        3,
+        1
+      ],
+      "clearer": "U",
+      "input_slot": [
+        -1,
+        4
+      ],
+      "entry": [
+        -1,
+        0,
+        1
+      ],
+      "endpoint": [
+        3,
+        0
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    },
+    {
+      "case": 30,
+      "identity": [
+        3,
+        1
+      ],
+      "clearer": "U",
+      "input_slot": [
+        0,
+        2
+      ],
+      "entry": [
+        1,
+        1,
+        1
+      ],
+      "endpoint": [
+        5,
+        1
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    },
+    {
+      "case": 30,
+      "identity": [
+        3,
+        1
+      ],
+      "clearer": "U",
+      "input_slot": [
+        0,
+        3
+      ],
+      "entry": [
+        0,
+        1,
+        1
+      ],
+      "endpoint": [
+        4,
+        1
+      ],
+      "foreign_entry": [
+        3,
+        -4
+      ],
+      "all_E_run_counts": []
+    }
+  ],
+  "all72_S_E_final_R_CORE_and_residual_roles": [
+    {
+      "heading": 2,
+      "atom": "D",
+      "last_R_slot": [
+        0,
+        0
+      ],
+      "last_R_tick0": 4,
+      "is_exit_core": true,
+      "pose": [
+        -1,
+        1,
+        2
+      ],
+      "endpoint": [
+        -2,
+        0
+      ],
+      "held_tag_contacts": [
+        [
+          -4,
+          0
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    },
+    {
+      "heading": 2,
+      "atom": "D",
+      "last_R_slot": [
+        1,
+        0
+      ],
+      "last_R_tick0": 9,
+      "is_exit_core": true,
+      "pose": [
+        0,
+        1,
+        2
+      ],
+      "endpoint": [
+        -1,
+        0
+      ],
+      "held_tag_contacts": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 2,
+      "atom": "D",
+      "last_R_slot": [
+        1,
+        1
+      ],
+      "last_R_tick0": 6,
+      "is_exit_core": true,
+      "pose": [
+        0,
+        2,
+        2
+      ],
+      "endpoint": [
+        -1,
+        1
+      ],
+      "held_tag_contacts": [],
+      "reason": "direct_source_D_input_01_rebirth_deadline_lock"
+    },
+    {
+      "heading": 2,
+      "atom": "D",
+      "last_R_slot": [
+        2,
+        0
+      ],
+      "last_R_tick0": 8,
+      "is_exit_core": false,
+      "pose": [
+        1,
+        1,
+        2
+      ],
+      "endpoint": [
+        0,
+        0
+      ],
+      "held_tag_contacts": [],
+      "reason": "old_D_exit_corrected_center_repeated"
+    },
+    {
+      "heading": 2,
+      "atom": "D",
+      "last_R_slot": [
+        2,
+        1
+      ],
+      "last_R_tick0": 7,
+      "is_exit_core": true,
+      "pose": [
+        1,
+        2,
+        2
+      ],
+      "endpoint": [
+        0,
+        1
+      ],
+      "held_tag_contacts": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 2,
+      "atom": "C",
+      "last_R_slot": [
+        0,
+        0
+      ],
+      "last_R_tick0": 4,
+      "is_exit_core": true,
+      "pose": [
+        -1,
+        1,
+        2
+      ],
+      "endpoint": [
+        -1,
+        0
+      ],
+      "held_tag_contacts": [],
+      "reason": "S_entry_minus1_plus1_has_no_actual_predecessor_by_01_lock"
+    },
+    {
+      "heading": 2,
+      "atom": "C",
+      "last_R_slot": [
+        0,
+        1
+      ],
+      "last_R_tick0": 11,
+      "is_exit_core": true,
+      "pose": [
+        -1,
+        2,
+        2
+      ],
+      "endpoint": [
+        -1,
+        1
+      ],
+      "held_tag_contacts": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 2,
+      "atom": "C",
+      "last_R_slot": [
+        0,
+        2
+      ],
+      "last_R_tick0": 12,
+      "is_exit_core": true,
+      "pose": [
+        -1,
+        3,
+        2
+      ],
+      "endpoint": [
+        -1,
+        2
+      ],
+      "held_tag_contacts": [],
+      "reason": "S_C3_CORE_to_three_bud_trap"
+    },
+    {
+      "heading": 2,
+      "atom": "C",
+      "last_R_slot": [
+        1,
+        0
+      ],
+      "last_R_tick0": 9,
+      "is_exit_core": true,
+      "pose": [
+        0,
+        1,
+        2
+      ],
+      "endpoint": [
+        0,
+        0
+      ],
+      "held_tag_contacts": [
+        [
+          1,
+          -1
+        ]
+      ],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 2,
+      "atom": "C",
+      "last_R_slot": [
+        1,
+        1
+      ],
+      "last_R_tick0": 14,
+      "is_exit_core": true,
+      "pose": [
+        0,
+        2,
+        2
+      ],
+      "endpoint": [
+        0,
+        1
+      ],
+      "held_tag_contacts": [
+        [
+          1,
+          -1
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    },
+    {
+      "heading": 2,
+      "atom": "C",
+      "last_R_slot": [
+        1,
+        2
+      ],
+      "last_R_tick0": 13,
+      "is_exit_core": false,
+      "pose": [
+        0,
+        3,
+        2
+      ],
+      "endpoint": [
+        0,
+        2
+      ],
+      "held_tag_contacts": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 2,
+      "atom": "C",
+      "last_R_slot": [
+        2,
+        0
+      ],
+      "last_R_tick0": 8,
+      "is_exit_core": false,
+      "pose": [
+        1,
+        1,
+        2
+      ],
+      "endpoint": [
+        1,
+        0
+      ],
+      "held_tag_contacts": [
+        [
+          1,
+          -1
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    },
+    {
+      "heading": 2,
+      "atom": "C",
+      "last_R_slot": [
+        2,
+        1
+      ],
+      "last_R_tick0": 7,
+      "is_exit_core": false,
+      "pose": [
+        1,
+        2,
+        2
+      ],
+      "endpoint": [
+        1,
+        1
+      ],
+      "held_tag_contacts": [
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 2,
+      "atom": "V",
+      "last_R_slot": [
+        0,
+        0
+      ],
+      "last_R_tick0": 4,
+      "is_exit_core": false,
+      "pose": [
+        -1,
+        1,
+        2
+      ],
+      "endpoint": [
+        -2,
+        -2
+      ],
+      "held_tag_contacts": [],
+      "reason": "S_entry_minus1_plus1_has_no_actual_predecessor_by_01_lock"
+    },
+    {
+      "heading": 2,
+      "atom": "V",
+      "last_R_slot": [
+        0,
+        1
+      ],
+      "last_R_tick0": 11,
+      "is_exit_core": false,
+      "pose": [
+        -1,
+        2,
+        2
+      ],
+      "endpoint": [
+        -2,
+        -1
+      ],
+      "held_tag_contacts": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 2,
+      "atom": "V",
+      "last_R_slot": [
+        0,
+        2
+      ],
+      "last_R_tick0": 12,
+      "is_exit_core": true,
+      "pose": [
+        -1,
+        3,
+        2
+      ],
+      "endpoint": [
+        -2,
+        0
+      ],
+      "held_tag_contacts": [
+        [
+          -4,
+          0
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    },
+    {
+      "heading": 2,
+      "atom": "V",
+      "last_R_slot": [
+        1,
+        0
+      ],
+      "last_R_tick0": 9,
+      "is_exit_core": false,
+      "pose": [
+        0,
+        1,
+        2
+      ],
+      "endpoint": [
+        -1,
+        -2
+      ],
+      "held_tag_contacts": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 2,
+      "atom": "V",
+      "last_R_slot": [
+        1,
+        2
+      ],
+      "last_R_tick0": 17,
+      "is_exit_core": true,
+      "pose": [
+        0,
+        3,
+        2
+      ],
+      "endpoint": [
+        -1,
+        0
+      ],
+      "held_tag_contacts": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 2,
+      "atom": "V",
+      "last_R_slot": [
+        1,
+        3
+      ],
+      "last_R_tick0": 14,
+      "is_exit_core": true,
+      "pose": [
+        0,
+        4,
+        2
+      ],
+      "endpoint": [
+        -1,
+        1
+      ],
+      "held_tag_contacts": [],
+      "reason": "direct_source_D_input_01_rebirth_deadline_lock"
+    },
+    {
+      "heading": 2,
+      "atom": "V",
+      "last_R_slot": [
+        2,
+        0
+      ],
+      "last_R_tick0": 8,
+      "is_exit_core": false,
+      "pose": [
+        1,
+        1,
+        2
+      ],
+      "endpoint": [
+        0,
+        -2
+      ],
+      "held_tag_contacts": [
+        [
+          1,
+          -1
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    },
+    {
+      "heading": 2,
+      "atom": "V",
+      "last_R_slot": [
+        2,
+        1
+      ],
+      "last_R_tick0": 7,
+      "is_exit_core": false,
+      "pose": [
+        1,
+        2,
+        2
+      ],
+      "endpoint": [
+        0,
+        -1
+      ],
+      "held_tag_contacts": [
+        [
+          1,
+          -1
+        ]
+      ],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 2,
+      "atom": "V",
+      "last_R_slot": [
+        2,
+        2
+      ],
+      "last_R_tick0": 16,
+      "is_exit_core": false,
+      "pose": [
+        1,
+        3,
+        2
+      ],
+      "endpoint": [
+        0,
+        0
+      ],
+      "held_tag_contacts": [],
+      "reason": "old_D_exit_corrected_center_repeated"
+    },
+    {
+      "heading": 2,
+      "atom": "V",
+      "last_R_slot": [
+        2,
+        3
+      ],
+      "last_R_tick0": 15,
+      "is_exit_core": true,
+      "pose": [
+        1,
+        4,
+        2
+      ],
+      "endpoint": [
+        0,
+        1
+      ],
+      "held_tag_contacts": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 2,
+      "atom": "U",
+      "last_R_slot": [
+        -1,
+        2
+      ],
+      "last_R_tick0": 21,
+      "is_exit_core": false,
+      "pose": [
+        -2,
+        3,
+        2
+      ],
+      "endpoint": [
+        -2,
+        -1
+      ],
+      "held_tag_contacts": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 2,
+      "atom": "U",
+      "last_R_slot": [
+        -1,
+        3
+      ],
+      "last_R_tick0": 22,
+      "is_exit_core": true,
+      "pose": [
+        -2,
+        4,
+        2
+      ],
+      "endpoint": [
+        -2,
+        0
+      ],
+      "held_tag_contacts": [
+        [
+          -4,
+          0
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    },
+    {
+      "heading": 2,
+      "atom": "U",
+      "last_R_slot": [
+        0,
+        0
+      ],
+      "last_R_tick0": 4,
+      "is_exit_core": false,
+      "pose": [
+        -1,
+        1,
+        2
+      ],
+      "endpoint": [
+        -1,
+        -3
+      ],
+      "held_tag_contacts": [],
+      "reason": "S_entry_minus1_plus1_has_no_actual_predecessor_by_01_lock"
+    },
+    {
+      "heading": 2,
+      "atom": "U",
+      "last_R_slot": [
+        0,
+        1
+      ],
+      "last_R_tick0": 19,
+      "is_exit_core": false,
+      "pose": [
+        -1,
+        2,
+        2
+      ],
+      "endpoint": [
+        -1,
+        -2
+      ],
+      "held_tag_contacts": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 2,
+      "atom": "U",
+      "last_R_slot": [
+        0,
+        3
+      ],
+      "last_R_tick0": 27,
+      "is_exit_core": true,
+      "pose": [
+        -1,
+        4,
+        2
+      ],
+      "endpoint": [
+        -1,
+        0
+      ],
+      "held_tag_contacts": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 2,
+      "atom": "U",
+      "last_R_slot": [
+        0,
+        4
+      ],
+      "last_R_tick0": 24,
+      "is_exit_core": true,
+      "pose": [
+        -1,
+        5,
+        2
+      ],
+      "endpoint": [
+        -1,
+        1
+      ],
+      "held_tag_contacts": [],
+      "reason": "direct_source_D_input_01_rebirth_deadline_lock"
+    },
+    {
+      "heading": 2,
+      "atom": "U",
+      "last_R_slot": [
+        1,
+        0
+      ],
+      "last_R_tick0": 9,
+      "is_exit_core": false,
+      "pose": [
+        0,
+        1,
+        2
+      ],
+      "endpoint": [
+        0,
+        -3
+      ],
+      "held_tag_contacts": [
+        [
+          1,
+          -1
+        ]
+      ],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 2,
+      "atom": "U",
+      "last_R_slot": [
+        1,
+        1
+      ],
+      "last_R_tick0": 18,
+      "is_exit_core": false,
+      "pose": [
+        0,
+        2,
+        2
+      ],
+      "endpoint": [
+        0,
+        -2
+      ],
+      "held_tag_contacts": [
+        [
+          1,
+          -1
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    },
+    {
+      "heading": 2,
+      "atom": "U",
+      "last_R_slot": [
+        1,
+        2
+      ],
+      "last_R_tick0": 17,
+      "is_exit_core": false,
+      "pose": [
+        0,
+        3,
+        2
+      ],
+      "endpoint": [
+        0,
+        -1
+      ],
+      "held_tag_contacts": [
+        [
+          1,
+          -1
+        ]
+      ],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 2,
+      "atom": "U",
+      "last_R_slot": [
+        1,
+        3
+      ],
+      "last_R_tick0": 26,
+      "is_exit_core": false,
+      "pose": [
+        0,
+        4,
+        2
+      ],
+      "endpoint": [
+        0,
+        0
+      ],
+      "held_tag_contacts": [],
+      "reason": "old_D_exit_corrected_center_repeated"
+    },
+    {
+      "heading": 2,
+      "atom": "U",
+      "last_R_slot": [
+        1,
+        4
+      ],
+      "last_R_tick0": 25,
+      "is_exit_core": true,
+      "pose": [
+        0,
+        5,
+        2
+      ],
+      "endpoint": [
+        0,
+        1
+      ],
+      "held_tag_contacts": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 2,
+      "atom": "U",
+      "last_R_slot": [
+        2,
+        0
+      ],
+      "last_R_tick0": 8,
+      "is_exit_core": false,
+      "pose": [
+        1,
+        1,
+        2
+      ],
+      "endpoint": [
+        1,
+        -3
+      ],
+      "held_tag_contacts": [
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    },
+    {
+      "heading": 2,
+      "atom": "U",
+      "last_R_slot": [
+        2,
+        1
+      ],
+      "last_R_tick0": 7,
+      "is_exit_core": false,
+      "pose": [
+        1,
+        2,
+        2
+      ],
+      "endpoint": [
+        1,
+        -2
+      ],
+      "held_tag_contacts": [
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 1,
+      "atom": "D",
+      "last_R_slot": [
+        0,
+        0
+      ],
+      "last_R_tick0": 4,
+      "is_exit_core": true,
+      "pose": [
+        -1,
+        1,
+        1
+      ],
+      "endpoint": [
+        0,
+        0
+      ],
+      "held_tag_contacts": [
+        [
+          1,
+          -1
+        ]
+      ],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 1,
+      "atom": "D",
+      "last_R_slot": [
+        1,
+        0
+      ],
+      "last_R_tick0": 9,
+      "is_exit_core": true,
+      "pose": [
+        -1,
+        2,
+        1
+      ],
+      "endpoint": [
+        0,
+        1
+      ],
+      "held_tag_contacts": [
+        [
+          1,
+          -1
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    },
+    {
+      "heading": 1,
+      "atom": "D",
+      "last_R_slot": [
+        1,
+        1
+      ],
+      "last_R_tick0": 6,
+      "is_exit_core": true,
+      "pose": [
+        -2,
+        2,
+        1
+      ],
+      "endpoint": [
+        -1,
+        1
+      ],
+      "held_tag_contacts": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 1,
+      "atom": "D",
+      "last_R_slot": [
+        2,
+        0
+      ],
+      "last_R_tick0": 8,
+      "is_exit_core": false,
+      "pose": [
+        -1,
+        3,
+        1
+      ],
+      "endpoint": [
+        0,
+        2
+      ],
+      "held_tag_contacts": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 1,
+      "atom": "D",
+      "last_R_slot": [
+        2,
+        1
+      ],
+      "last_R_tick0": 7,
+      "is_exit_core": true,
+      "pose": [
+        -2,
+        3,
+        1
+      ],
+      "endpoint": [
+        -1,
+        2
+      ],
+      "held_tag_contacts": [],
+      "reason": "E_D3_CORE_to_three_bud_trap"
+    },
+    {
+      "heading": 1,
+      "atom": "C",
+      "last_R_slot": [
+        0,
+        0
+      ],
+      "last_R_tick0": 4,
+      "is_exit_core": true,
+      "pose": [
+        -1,
+        1,
+        1
+      ],
+      "endpoint": [
+        0,
+        1
+      ],
+      "held_tag_contacts": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 1,
+      "atom": "C",
+      "last_R_slot": [
+        0,
+        1
+      ],
+      "last_R_tick0": 11,
+      "is_exit_core": true,
+      "pose": [
+        -2,
+        1,
+        1
+      ],
+      "endpoint": [
+        -1,
+        1
+      ],
+      "held_tag_contacts": [],
+      "reason": "E_C4_completion_after_foreign3"
+    },
+    {
+      "heading": 1,
+      "atom": "C",
+      "last_R_slot": [
+        0,
+        2
+      ],
+      "last_R_tick0": 12,
+      "is_exit_core": true,
+      "pose": [
+        -3,
+        1,
+        1
+      ],
+      "endpoint": [
+        -2,
+        1
+      ],
+      "held_tag_contacts": [
+        [
+          -4,
+          1
+        ]
+      ],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 1,
+      "atom": "C",
+      "last_R_slot": [
+        1,
+        0
+      ],
+      "last_R_tick0": 9,
+      "is_exit_core": true,
+      "pose": [
+        -1,
+        2,
+        1
+      ],
+      "endpoint": [
+        0,
+        2
+      ],
+      "held_tag_contacts": [],
+      "reason": "E_C4_completion_after_foreign3"
+    },
+    {
+      "heading": 1,
+      "atom": "C",
+      "last_R_slot": [
+        1,
+        1
+      ],
+      "last_R_tick0": 14,
+      "is_exit_core": true,
+      "pose": [
+        -2,
+        2,
+        1
+      ],
+      "endpoint": [
+        -1,
+        2
+      ],
+      "held_tag_contacts": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 1,
+      "atom": "C",
+      "last_R_slot": [
+        1,
+        2
+      ],
+      "last_R_tick0": 13,
+      "is_exit_core": false,
+      "pose": [
+        -3,
+        2,
+        1
+      ],
+      "endpoint": [
+        -2,
+        2
+      ],
+      "held_tag_contacts": [],
+      "reason": "E_C4_completion_after_foreign3"
+    },
+    {
+      "heading": 1,
+      "atom": "C",
+      "last_R_slot": [
+        2,
+        0
+      ],
+      "last_R_tick0": 8,
+      "is_exit_core": false,
+      "pose": [
+        -1,
+        3,
+        1
+      ],
+      "endpoint": [
+        0,
+        3
+      ],
+      "held_tag_contacts": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 1,
+      "atom": "C",
+      "last_R_slot": [
+        2,
+        1
+      ],
+      "last_R_tick0": 7,
+      "is_exit_core": false,
+      "pose": [
+        -2,
+        3,
+        1
+      ],
+      "endpoint": [
+        -1,
+        3
+      ],
+      "held_tag_contacts": [],
+      "reason": "E_C4_completion_after_foreign3"
+    },
+    {
+      "heading": 1,
+      "atom": "V",
+      "last_R_slot": [
+        0,
+        0
+      ],
+      "last_R_tick0": 4,
+      "is_exit_core": false,
+      "pose": [
+        -1,
+        1,
+        1
+      ],
+      "endpoint": [
+        2,
+        0
+      ],
+      "held_tag_contacts": [
+        [
+          1,
+          -1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 1,
+      "atom": "V",
+      "last_R_slot": [
+        0,
+        1
+      ],
+      "last_R_tick0": 11,
+      "is_exit_core": false,
+      "pose": [
+        -2,
+        1,
+        1
+      ],
+      "endpoint": [
+        1,
+        0
+      ],
+      "held_tag_contacts": [
+        [
+          1,
+          -1
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    },
+    {
+      "heading": 1,
+      "atom": "V",
+      "last_R_slot": [
+        0,
+        2
+      ],
+      "last_R_tick0": 12,
+      "is_exit_core": true,
+      "pose": [
+        -3,
+        1,
+        1
+      ],
+      "endpoint": [
+        0,
+        0
+      ],
+      "held_tag_contacts": [
+        [
+          -4,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 1,
+      "atom": "V",
+      "last_R_slot": [
+        1,
+        0
+      ],
+      "last_R_tick0": 9,
+      "is_exit_core": false,
+      "pose": [
+        -1,
+        2,
+        1
+      ],
+      "endpoint": [
+        2,
+        1
+      ],
+      "held_tag_contacts": [
+        [
+          2,
+          0
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    },
+    {
+      "heading": 1,
+      "atom": "V",
+      "last_R_slot": [
+        1,
+        2
+      ],
+      "last_R_tick0": 17,
+      "is_exit_core": true,
+      "pose": [
+        -3,
+        2,
+        1
+      ],
+      "endpoint": [
+        0,
+        1
+      ],
+      "held_tag_contacts": [
+        [
+          1,
+          -1
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    },
+    {
+      "heading": 1,
+      "atom": "V",
+      "last_R_slot": [
+        1,
+        3
+      ],
+      "last_R_tick0": 14,
+      "is_exit_core": true,
+      "pose": [
+        -4,
+        2,
+        1
+      ],
+      "endpoint": [
+        -1,
+        1
+      ],
+      "held_tag_contacts": [
+        [
+          -4,
+          1
+        ]
+      ],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 1,
+      "atom": "V",
+      "last_R_slot": [
+        2,
+        0
+      ],
+      "last_R_tick0": 8,
+      "is_exit_core": false,
+      "pose": [
+        -1,
+        3,
+        1
+      ],
+      "endpoint": [
+        2,
+        2
+      ],
+      "held_tag_contacts": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 1,
+      "atom": "V",
+      "last_R_slot": [
+        2,
+        1
+      ],
+      "last_R_tick0": 7,
+      "is_exit_core": false,
+      "pose": [
+        -2,
+        3,
+        1
+      ],
+      "endpoint": [
+        1,
+        2
+      ],
+      "held_tag_contacts": [
+        [
+          2,
+          0
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    },
+    {
+      "heading": 1,
+      "atom": "V",
+      "last_R_slot": [
+        2,
+        2
+      ],
+      "last_R_tick0": 16,
+      "is_exit_core": false,
+      "pose": [
+        -3,
+        3,
+        1
+      ],
+      "endpoint": [
+        0,
+        2
+      ],
+      "held_tag_contacts": [],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 1,
+      "atom": "V",
+      "last_R_slot": [
+        2,
+        3
+      ],
+      "last_R_tick0": 15,
+      "is_exit_core": true,
+      "pose": [
+        -4,
+        3,
+        1
+      ],
+      "endpoint": [
+        -1,
+        2
+      ],
+      "held_tag_contacts": [
+        [
+          -4,
+          1
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    },
+    {
+      "heading": 1,
+      "atom": "U",
+      "last_R_slot": [
+        -1,
+        2
+      ],
+      "last_R_tick0": 21,
+      "is_exit_core": false,
+      "pose": [
+        -3,
+        0,
+        1
+      ],
+      "endpoint": [
+        1,
+        0
+      ],
+      "held_tag_contacts": [
+        [
+          -4,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    },
+    {
+      "heading": 1,
+      "atom": "U",
+      "last_R_slot": [
+        -1,
+        3
+      ],
+      "last_R_tick0": 22,
+      "is_exit_core": true,
+      "pose": [
+        -4,
+        0,
+        1
+      ],
+      "endpoint": [
+        0,
+        0
+      ],
+      "held_tag_contacts": [
+        [
+          -4,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 1,
+      "atom": "U",
+      "last_R_slot": [
+        0,
+        0
+      ],
+      "last_R_tick0": 4,
+      "is_exit_core": false,
+      "pose": [
+        -1,
+        1,
+        1
+      ],
+      "endpoint": [
+        3,
+        1
+      ],
+      "held_tag_contacts": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 1,
+      "atom": "U",
+      "last_R_slot": [
+        0,
+        1
+      ],
+      "last_R_tick0": 19,
+      "is_exit_core": false,
+      "pose": [
+        -2,
+        1,
+        1
+      ],
+      "endpoint": [
+        2,
+        1
+      ],
+      "held_tag_contacts": [
+        [
+          2,
+          0
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    },
+    {
+      "heading": 1,
+      "atom": "U",
+      "last_R_slot": [
+        0,
+        3
+      ],
+      "last_R_tick0": 27,
+      "is_exit_core": true,
+      "pose": [
+        -4,
+        1,
+        1
+      ],
+      "endpoint": [
+        0,
+        1
+      ],
+      "held_tag_contacts": [
+        [
+          -4,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    },
+    {
+      "heading": 1,
+      "atom": "U",
+      "last_R_slot": [
+        0,
+        4
+      ],
+      "last_R_tick0": 24,
+      "is_exit_core": true,
+      "pose": [
+        -5,
+        1,
+        1
+      ],
+      "endpoint": [
+        -1,
+        1
+      ],
+      "held_tag_contacts": [
+        [
+          -4,
+          1
+        ]
+      ],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 1,
+      "atom": "U",
+      "last_R_slot": [
+        1,
+        0
+      ],
+      "last_R_tick0": 9,
+      "is_exit_core": false,
+      "pose": [
+        -1,
+        2,
+        1
+      ],
+      "endpoint": [
+        3,
+        2
+      ],
+      "held_tag_contacts": [
+        [
+          3,
+          1
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    },
+    {
+      "heading": 1,
+      "atom": "U",
+      "last_R_slot": [
+        1,
+        1
+      ],
+      "last_R_tick0": 18,
+      "is_exit_core": false,
+      "pose": [
+        -2,
+        2,
+        1
+      ],
+      "endpoint": [
+        2,
+        2
+      ],
+      "held_tag_contacts": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 1,
+      "atom": "U",
+      "last_R_slot": [
+        1,
+        2
+      ],
+      "last_R_tick0": 17,
+      "is_exit_core": false,
+      "pose": [
+        -3,
+        2,
+        1
+      ],
+      "endpoint": [
+        1,
+        2
+      ],
+      "held_tag_contacts": [
+        [
+          2,
+          0
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    },
+    {
+      "heading": 1,
+      "atom": "U",
+      "last_R_slot": [
+        1,
+        3
+      ],
+      "last_R_tick0": 26,
+      "is_exit_core": false,
+      "pose": [
+        -4,
+        2,
+        1
+      ],
+      "endpoint": [
+        0,
+        2
+      ],
+      "held_tag_contacts": [
+        [
+          -4,
+          1
+        ]
+      ],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 1,
+      "atom": "U",
+      "last_R_slot": [
+        1,
+        4
+      ],
+      "last_R_tick0": 25,
+      "is_exit_core": true,
+      "pose": [
+        -5,
+        2,
+        1
+      ],
+      "endpoint": [
+        -1,
+        2
+      ],
+      "held_tag_contacts": [
+        [
+          -4,
+          1
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    },
+    {
+      "heading": 1,
+      "atom": "U",
+      "last_R_slot": [
+        2,
+        0
+      ],
+      "last_R_tick0": 8,
+      "is_exit_core": false,
+      "pose": [
+        -1,
+        3,
+        1
+      ],
+      "endpoint": [
+        3,
+        3
+      ],
+      "held_tag_contacts": [
+        [
+          3,
+          1
+        ]
+      ],
+      "reason": "wrong_active_sector"
+    },
+    {
+      "heading": 1,
+      "atom": "U",
+      "last_R_slot": [
+        2,
+        1
+      ],
+      "last_R_tick0": 7,
+      "is_exit_core": false,
+      "pose": [
+        -2,
+        3,
+        1
+      ],
+      "endpoint": [
+        2,
+        3
+      ],
+      "held_tag_contacts": [
+        [
+          3,
+          1
+        ]
+      ],
+      "reason": "current_VC_r_B_or_three_D_buds_complete_context"
+    }
+  ],
+  "role_counts": {
+    "current_VC_r_B_or_three_D_buds_complete_context": 21,
+    "wrong_active_sector": 36,
+    "direct_source_D_input_01_rebirth_deadline_lock": 3,
+    "old_D_exit_corrected_center_repeated": 3,
+    "S_entry_minus1_plus1_has_no_actual_predecessor_by_01_lock": 3,
+    "S_C3_CORE_to_three_bud_trap": 1,
+    "E_D3_CORE_to_three_bud_trap": 1,
+    "E_C4_completion_after_foreign3": 4
+  },
+  "three_bud_trap": [
+    {
+      "next_old_atom": "D",
+      "genuine_current_tag": [
+        1,
+        -1
+      ],
+      "first_owner": {
+        "packet": "D",
+        "context_tick0": 17,
+        "context_read_number1": 18,
+        "RAW_length": 10,
+        "owner": "next actual word RAW",
+        "owner_tick0": 7,
+        "owner_read_number1": 8,
+        "turn": "R",
+        "next_word_tick0": 7,
+        "next_word_read_number1": 8,
+        "label": "context tick 17 (zero-based), RAW length 10; next actual word RAW tick 7 (zero-based), read 8 (one-based), R"
+      }
+    },
+    {
+      "next_old_atom": "V",
+      "genuine_current_tag": [
+        2,
+        0
+      ],
+      "first_owner": {
+        "packet": "V",
+        "context_tick0": 15,
+        "context_read_number1": 16,
+        "RAW_length": 18,
+        "owner": "own V-base RAW",
+        "owner_tick0": 15,
+        "owner_read_number1": 16,
+        "turn": "R",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 15 (zero-based), RAW length 18; own V-base RAW tick 15 (zero-based), read 16 (one-based), R"
+      }
+    },
+    {
+      "next_old_atom": "U",
+      "genuine_current_tag": [
+        3,
+        1
+      ],
+      "first_owner": {
+        "packet": "U",
+        "context_tick0": 25,
+        "context_read_number1": 26,
+        "RAW_length": 28,
+        "owner": "own U-base RAW",
+        "owner_tick0": 25,
+        "owner_read_number1": 26,
+        "turn": "R",
+        "next_word_tick0": null,
+        "next_word_read_number1": null,
+        "label": "context tick 25 (zero-based), RAW length 28; own U-base RAW tick 25 (zero-based), read 26 (one-based), R"
+      }
+    }
+  ],
+  "first_W_C_to_U_literal_conflict": {
+    "tick": 29,
+    "cell": [
+      -1,
+      0
+    ],
+    "first": [
+      1,
+      "L"
+    ],
+    "required_initial": false
+  },
+  "dependencies": {
+    "core_periodicity_new/chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "word_stabilization/shifted1_llrlrrrrlll_fold_coalesced_port_quotient.json": "216ef5edde9404799744b5d9ab3d1fe62f55846cbe97e88f82395b195765ec35",
+    "literal_ownership_conventions_2026-10-24/canonical_read_ownership.py": "041b40e04a0f71a6b9511abf1d15b1d86c548e74f4f99281477c115b72036ea2",
+    "audits/dcuv_count5_replay/queries.json": "3652fbf0f790fb63a8dbe9182a26e07e9a05a534ae06b15cb8a901b8f36ef0d6",
+    "returned_D_Jordan_ancestry_horizon_2026-10-24/manifest.json": "0b9747937276893b838a8a94f9ed226619b76503cb09226909b677d42062157a",
+    "core_periodicity_new/V_parallel_reproductive_supply_frozen_20261023_2036/manifest.json": "b8db4c0e5a98ee490f37860cc61aef44b785b780dd942e7cd4e873a09d0a093d",
+    "core_periodicity_new/V_C_same_heading_exclusion_frozen_20261023_2043/manifest.json": "17dfc8217174d5a6160d0040f29675e722200e8f51eb23c252e5f9905f4ef70f",
+    "core_periodicity_new/atomic_exit_bud_frozen_20261023_1325/manifest.json": "4c570a4f2853c7b1abb6b70c679690bc921ff8e47fc6657e9e5ce1606955da81",
+    "core_periodicity_new/atomic_common_4C_frozen_20261023_1344/manifest.json": "dd9c3ad2c7c7dd2e2383e43e05710ea4621f2d6fd25e07a3f8860fc7c458492f",
+    "core_periodicity_new/U_entry_simplicity_frozen_20261023_1616/manifest.json": "127a00884b4a06af35a807ab76f6f6499b9427d56350a931c03cc0e8de65524d",
+    "seven_word_spatial_return_2026-10-23/complete8_foreign_adjacency_manifest.json": "735023bebfa154bd936e9546023367b541006ea1d9f57bb2eb7240bf040017ea",
+    "returned_D30_VC_deleted_core_guard_2026-10-24/check_D30_VC_deleted_core_guard.py": "93dc7fb2710d150c87e21c3a0e3c44adbfd1449c7ded654f21656d97581ccd25"
+  }
+}

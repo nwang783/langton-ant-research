@@ -1,0 +1,135 @@
+{
+  "status": "PASS exact bi-exterior event interface, intrinsic full-interior response and mass-growth control",
+  "note_sha256": "5d4261a6cc2837eb8f365fcb111c4e3e0e17264e8fdf23b4206b09a2db74730d",
+  "one_step_checks": 1000,
+  "separated_full_field_couplings": [
+    [
+      1,
+      0,
+      2,
+      7
+    ],
+    [
+      1,
+      1,
+      2,
+      7
+    ],
+    [
+      1,
+      2,
+      2,
+      7
+    ],
+    [
+      1,
+      3,
+      2,
+      7
+    ],
+    [
+      2,
+      0,
+      12,
+      17
+    ],
+    [
+      2,
+      1,
+      12,
+      17
+    ],
+    [
+      2,
+      2,
+      12,
+      17
+    ],
+    [
+      2,
+      3,
+      12,
+      17
+    ],
+    [
+      3,
+      0,
+      22,
+      41
+    ],
+    [
+      3,
+      1,
+      22,
+      41
+    ],
+    [
+      3,
+      2,
+      22,
+      41
+    ],
+    [
+      3,
+      3,
+      22,
+      41
+    ]
+  ],
+  "mass_growth_control": [
+    {
+      "t": 7,
+      "p": [
+        0,
+        1
+      ],
+      "h": 1,
+      "mass": 5,
+      "exterior": [
+        true,
+        true
+      ]
+    },
+    {
+      "t": 8,
+      "p": [
+        0,
+        0
+      ],
+      "h": 2,
+      "mass": 6,
+      "exterior": [
+        true,
+        false
+      ]
+    },
+    {
+      "t": 9,
+      "p": [
+        -1,
+        0
+      ],
+      "h": 3,
+      "mass": 7,
+      "exterior": [
+        true,
+        false
+      ]
+    },
+    {
+      "t": 10,
+      "p": [
+        -1,
+        -1
+      ],
+      "h": 2,
+      "mass": 6,
+      "exterior": [
+        true,
+        true
+      ]
+    }
+  ],
+  "analytic": "Adding both white edges cannot lose infinity, and the moving w traverses the new edge. Deleting cannot enlarge a finite component; moving z stays in its old finite component. For a head inside fixed R, every possible enclosing black dual cycle is contained in R, not a different separated rectangle. Deleting exterior black cells therefore preserves BOTH finite/infinite statuses and the first-return stopping predicate, by first-difference induction; if the head exits R, it exits the entire rectangle union. Restore the unchanged exterior exactly. The time-zero normalizer is idempotent and take-one-step-then-normalize is a positive-time total full-state map.",
+  "scope": "No finite summary, mass descent, arbitrary exterior perturbation, global rank or capture. Exterior deletion is a proof coupling only, under explicit separated-rectangle/cycle-containment hypotheses."
+}

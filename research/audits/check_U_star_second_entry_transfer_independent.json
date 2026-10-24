@@ -1,0 +1,330 @@
+{
+  "status": "PASS same-original three-corner transfer at exact SECOND entry, necessary states only",
+  "author_manifest": "1bf342dfdca683efa34e1f6ef1c38efd46f67ce5fee586e2b190fce7dad22871",
+  "aligned_states": 2396,
+  "filters": {
+    "necessary_only_three_corner_transfer_state": 262,
+    "wrong_active_sector": 1172,
+    "actual_foreign_proxy_meets_old_U_chord_nonadjacently": 36,
+    "old_BLACK_original_requires_before_WHITE": 612,
+    "old_CURRENT_star_inside_FOREIGN_entryK": 288,
+    "actual_first_return_chord_meets_old_U_chord_nonadjacently": 26
+  },
+  "weaker_four_corner_states": 324,
+  "BOTTOM_only_rejections": 15,
+  "loss_distribution": [
+    [
+      1,
+      0,
+      205
+    ],
+    [
+      2,
+      0,
+      39
+    ],
+    [
+      0,
+      1,
+      18
+    ]
+  ],
+  "foreign_MISS_core_only_states": 18,
+  "literal_second_capacity": {
+    "D": {
+      "inputs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "adjacent_pairs": [],
+      "edge_contacts": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "C": {
+      "inputs": [],
+      "adjacent_pairs": [],
+      "edge_contacts": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "V": {
+      "inputs": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "adjacent_pairs": [],
+      "edge_contacts": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    "U": {
+      "inputs": [
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "adjacent_pairs": [
+        [
+          [
+            -1,
+            1
+          ],
+          [
+            -1,
+            2
+          ]
+        ],
+        [
+          [
+            -1,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      ],
+      "edge_contacts": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    }
+  },
+  "prepared_physical_controls": [
+    {
+      "name": "two_physical_erasures",
+      "initial_mass": 25,
+      "reads": 115,
+      "cut": 89,
+      "alive_at_cut": 2,
+      "current_at_cut": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "name": "alive_CORE_capture",
+      "initial_mass": 27,
+      "reads": 110,
+      "cut": 84,
+      "alive_at_cut": 4,
+      "current_at_cut": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "name": "local_four_port_countercontrol",
+      "initial_mass": 25,
+      "reads": 115,
+      "cut": 89,
+      "alive_at_cut": 2,
+      "current_at_cut": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    }
+  ],
+  "analytic_review": [
+    "Loss or CORE capture of an initially current original requires a TRUE initial-color context cell. All four headings and four star identities against all12 exact suffix masks exhaust every such alignment with no geometry cutoff. If no alignment exists allfour remain unread outsideK. BeforeWHITE contradictions and entryK exclusions use actual original BLACK state, not labels reconstructed from final color.",
+    "Only A RAW+b1 RAW reads determine physical survival at CUT2. FutureM11 is compatibility, not executed. All current originals are whole-context MISS; the18 CORE captures have their firstL still future within the firstsix reads. An original unread throughb1 cannot have entered foreign-exitK, since every ordinary atom physically visits allK in its firstsix RAW reads. No internalF56 core is invented.",
+    "The324 color/sector/core-compatible states have at mosttwo losses and a four-corner pair. Exact repairedforeign pieces and firstreturned chord against oldU remove62 states, including all15 BOTTOM-only cases. True sourceU-to-foreign adjacency at0,4N is not among star-hit alignments and is never falsely excluded. Signed proxy simplicity applies through exactlyb1.",
+    "Foreign fullcontextMISS specializes to18 core-only nontrivial states, preserving allfour physical originals and fixedCURRENTLEFT pair. The age<=4 corollary invokes signed firstFOREIGN star-effect>=5 only beforeforeign, with its original source-entryclock; no returnedC age advance or postforeign maturation is used.",
+    "At secondentry the retained adjacent pair is outsideK. Genuine input or whole-contextMISS exhausts a valid old BLACK cell. C has noinputs; D one; V two diagonalinputs cannot take bothadjacent; U has exactlythree adjacent input-pair escapes. Marker-only inputs can be orderedCORE losses before physicaldeath. GuaranteedMISS member is outsidefutureK and its edge avoidswholeordinarychord by fresh exact footprint containment.",
+    "Three complete prepared boards were replayed with original-label deletion only, including84-cut BDC where allfour remain physicallyalive and(1,0) dies only at85. These initial labels are NOT claimed genuine U births/attained ancestry. BOTTOM control violates the geometric premise. No lateriteration, surviving-pair attachment forRIGHT, or permanentstar claim is inferred."
+  ]
+}

@@ -1,0 +1,973 @@
+{
+  "scope": "Supplied nonzero-collinear H^n C P^n; finite seeds may differ with n; no synthesis.",
+  "heading": 3,
+  "n0": 1,
+  "lengths": {
+    "H": 104,
+    "C": 1,
+    "P": 10
+  },
+  "sha256": {
+    "H": "9772fa0cced75fab3a1d336c6a1326e0e4be8f4e471a3807e0778fccc94c1f04",
+    "C": "8c2574892063f995fdf756bce07f46c1a5193e54cd52837ed91e32008ccf41ac",
+    "P": "1cefc70f0c9e837e74c3ab30afd5633f36495b21f3fec3fb0421abffd3f0384c"
+  },
+  "H_drift": [
+    -2,
+    -2
+  ],
+  "P_drift": [
+    1,
+    1
+  ],
+  "cap_displacement": [
+    0,
+    1
+  ],
+  "cap_out_heading": 0,
+  "primitive": [
+    -1,
+    -1
+  ],
+  "scalar_drifts": [
+    2,
+    -1
+  ],
+  "residue_modulus": 2,
+  "all_n_legal": false,
+  "illegal_depths": "{ [n] : n > 0 }",
+  "forced_first_L_relation": "{ [n, x, y] : floor((n)/2) < n and ((x >= -2 and 2x <= y <= 1 + 2x and 2*floor((n)/2) > n + x) or (x <= 0 and -6 - x <= y <= -4 + x)); [n, x = -1, y] : (n) mod 2 = 1 and n > 0 and -2 <= y < 0; [n, x = 1, y] : -3 <= y <= -2 and floor((n)/2) < n; [n, x, y = 0] : -2 <= x <= 0 and floor((n)/2) < n }",
+  "fuel_status": "BOUNDED",
+  "uniform_fuel_bound": 13,
+  "unbounded_pieces": [],
+  "records": [
+    {
+      "group": 0,
+      "representative": [
+        0,
+        0
+      ],
+      "n_residue": 0,
+      "z_residue": 0,
+      "phase_rows": 10,
+      "first_L": "{ [N, Z = 0] : N > 0 }",
+      "bad_cells": "{ [N, Z] : N <= Z < 2N; [N, Z = 2N] : N > 0 }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = 0] : N > 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 0,
+      "representative": [
+        0,
+        0
+      ],
+      "n_residue": 0,
+      "z_residue": 1,
+      "phase_rows": 10,
+      "first_L": "{ [N, Z = 0] : N > 0 }",
+      "bad_cells": "{ [N, Z = -1 + 2N] : N > 0 }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = 0] : N > 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 0,
+      "representative": [
+        0,
+        0
+      ],
+      "n_residue": 1,
+      "z_residue": 0,
+      "phase_rows": 10,
+      "first_L": "{ [N, Z = 0] : N >= 0 }",
+      "bad_cells": "{ [N, Z] : N <= Z <= 2N; [N, Z = 1 + 2N] : N >= 0 }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = 0] : N >= 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 0,
+      "representative": [
+        0,
+        0
+      ],
+      "n_residue": 1,
+      "z_residue": 1,
+      "phase_rows": 10,
+      "first_L": "{ [N, Z = 0] : N >= 0 }",
+      "bad_cells": "{ [N, Z = 2N] : N >= 0 }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = 0] : N >= 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 1,
+      "representative": [
+        0,
+        -1
+      ],
+      "n_residue": 0,
+      "z_residue": 0,
+      "phase_rows": 9,
+      "first_L": "{ [N, Z = 1] : N > 0 }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = 1] : N > 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 1,
+      "representative": [
+        0,
+        -1
+      ],
+      "n_residue": 0,
+      "z_residue": 1,
+      "phase_rows": 6,
+      "first_L": "{ [N, Z = 0] : N > 0 }",
+      "bad_cells": "{ [N, Z] : -1 + N <= Z <= -2 + 2N }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = 0] : N > 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 1,
+      "representative": [
+        0,
+        -1
+      ],
+      "n_residue": 1,
+      "z_residue": 0,
+      "phase_rows": 9,
+      "first_L": "{ [N, Z = 1] : N >= 0 }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = 1] : N >= 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 1,
+      "representative": [
+        0,
+        -1
+      ],
+      "n_residue": 1,
+      "z_residue": 1,
+      "phase_rows": 6,
+      "first_L": "{ [N, Z = 0] : N >= 0 }",
+      "bad_cells": "{ [N, Z] : N <= Z < 2N }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = 0] : N >= 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 2,
+      "representative": [
+        0,
+        -2
+      ],
+      "n_residue": 0,
+      "z_residue": 0,
+      "phase_rows": 7,
+      "first_L": "{ [N, Z = 1] : N > 0 }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = 1] : N > 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 2,
+      "representative": [
+        0,
+        -2
+      ],
+      "n_residue": 0,
+      "z_residue": 1,
+      "phase_rows": 8,
+      "first_L": "{ [N, Z] : false }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 0,
+        "pieces": []
+      }
+    },
+    {
+      "group": 2,
+      "representative": [
+        0,
+        -2
+      ],
+      "n_residue": 1,
+      "z_residue": 0,
+      "phase_rows": 7,
+      "first_L": "{ [N, Z = 1] : N >= 0 }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = 1] : N >= 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 2,
+      "representative": [
+        0,
+        -2
+      ],
+      "n_residue": 1,
+      "z_residue": 1,
+      "phase_rows": 8,
+      "first_L": "{ [N, Z] : false }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 0,
+        "pieces": []
+      }
+    },
+    {
+      "group": 3,
+      "representative": [
+        0,
+        -3
+      ],
+      "n_residue": 0,
+      "z_residue": 0,
+      "phase_rows": 7,
+      "first_L": "{ [N, Z] : false }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 0,
+        "pieces": []
+      }
+    },
+    {
+      "group": 3,
+      "representative": [
+        0,
+        -3
+      ],
+      "n_residue": 0,
+      "z_residue": 1,
+      "phase_rows": 10,
+      "first_L": "{ [N, Z = -1] : N > 0 }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = -1] : N > 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 3,
+      "representative": [
+        0,
+        -3
+      ],
+      "n_residue": 1,
+      "z_residue": 0,
+      "phase_rows": 7,
+      "first_L": "{ [N, Z] : false }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 0,
+        "pieces": []
+      }
+    },
+    {
+      "group": 3,
+      "representative": [
+        0,
+        -3
+      ],
+      "n_residue": 1,
+      "z_residue": 1,
+      "phase_rows": 10,
+      "first_L": "{ [N, Z = -1] : N >= 0 }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = -1] : N >= 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 4,
+      "representative": [
+        -1,
+        0
+      ],
+      "n_residue": 0,
+      "z_residue": 0,
+      "phase_rows": 10,
+      "first_L": "{ [N, Z = 0] : N > 0 }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = 0] : N > 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 4,
+      "representative": [
+        -1,
+        0
+      ],
+      "n_residue": 0,
+      "z_residue": 1,
+      "phase_rows": 7,
+      "first_L": "{ [N, Z] : false }",
+      "bad_cells": "{ [N, Z] : -1 + N <= Z <= -2 + 2N }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 0,
+        "pieces": []
+      }
+    },
+    {
+      "group": 4,
+      "representative": [
+        -1,
+        0
+      ],
+      "n_residue": 1,
+      "z_residue": 0,
+      "phase_rows": 10,
+      "first_L": "{ [N, Z = 0] : N >= 0 }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = 0] : N >= 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 4,
+      "representative": [
+        -1,
+        0
+      ],
+      "n_residue": 1,
+      "z_residue": 1,
+      "phase_rows": 7,
+      "first_L": "{ [N, Z] : false }",
+      "bad_cells": "{ [N, Z] : N <= Z < 2N }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 0,
+        "pieces": []
+      }
+    },
+    {
+      "group": 5,
+      "representative": [
+        -2,
+        0
+      ],
+      "n_residue": 0,
+      "z_residue": 0,
+      "phase_rows": 5,
+      "first_L": "{ [N, Z = 0] : N > 0 }",
+      "bad_cells": "{ [N, Z] : N <= Z < 2N }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = 0] : N > 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 5,
+      "representative": [
+        -2,
+        0
+      ],
+      "n_residue": 0,
+      "z_residue": 1,
+      "phase_rows": 4,
+      "first_L": "{ [N, Z] : false }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 0,
+        "pieces": []
+      }
+    },
+    {
+      "group": 5,
+      "representative": [
+        -2,
+        0
+      ],
+      "n_residue": 1,
+      "z_residue": 0,
+      "phase_rows": 5,
+      "first_L": "{ [N, Z = 0] : N >= 0 }",
+      "bad_cells": "{ [N, Z] : N < Z <= 2N }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = 0] : N >= 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 5,
+      "representative": [
+        -2,
+        0
+      ],
+      "n_residue": 1,
+      "z_residue": 1,
+      "phase_rows": 4,
+      "first_L": "{ [N, Z] : false }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 0,
+        "pieces": []
+      }
+    },
+    {
+      "group": 6,
+      "representative": [
+        -3,
+        0
+      ],
+      "n_residue": 0,
+      "z_residue": 0,
+      "phase_rows": 1,
+      "first_L": "{ [N, Z] : false }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 0,
+        "pieces": []
+      }
+    },
+    {
+      "group": 6,
+      "representative": [
+        -3,
+        0
+      ],
+      "n_residue": 0,
+      "z_residue": 1,
+      "phase_rows": 1,
+      "first_L": "{ [N, Z] : false }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 0,
+        "pieces": []
+      }
+    },
+    {
+      "group": 6,
+      "representative": [
+        -3,
+        0
+      ],
+      "n_residue": 1,
+      "z_residue": 0,
+      "phase_rows": 1,
+      "first_L": "{ [N, Z] : false }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 0,
+        "pieces": []
+      }
+    },
+    {
+      "group": 6,
+      "representative": [
+        -3,
+        0
+      ],
+      "n_residue": 1,
+      "z_residue": 1,
+      "phase_rows": 1,
+      "first_L": "{ [N, Z] : false }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 0,
+        "pieces": []
+      }
+    },
+    {
+      "group": 7,
+      "representative": [
+        -1,
+        -5
+      ],
+      "n_residue": 0,
+      "z_residue": 0,
+      "phase_rows": 6,
+      "first_L": "{ [N, Z = 0] : N > 0; [N, Z = -1] : N > 0 }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 2,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = 0] : N > 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          },
+          {
+            "piece": "{ [N, Z = -1] : N > 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 7,
+      "representative": [
+        -1,
+        -5
+      ],
+      "n_residue": 0,
+      "z_residue": 1,
+      "phase_rows": 6,
+      "first_L": "{ [N, Z = -1] : N > 0 }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = -1] : N > 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 7,
+      "representative": [
+        -1,
+        -5
+      ],
+      "n_residue": 1,
+      "z_residue": 0,
+      "phase_rows": 6,
+      "first_L": "{ [N, Z = 0] : N >= 0; [N, Z = -1] : N >= 0 }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 2,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = 0] : N >= 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          },
+          {
+            "piece": "{ [N, Z = -1] : N >= 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 7,
+      "representative": [
+        -1,
+        -5
+      ],
+      "n_residue": 1,
+      "z_residue": 1,
+      "phase_rows": 6,
+      "first_L": "{ [N, Z = -1] : N >= 0 }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = -1] : N >= 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 8,
+      "representative": [
+        -2,
+        -7
+      ],
+      "n_residue": 0,
+      "z_residue": 0,
+      "phase_rows": 6,
+      "first_L": "{ [N, Z = -1] : N > 0 }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = -1] : N > 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 8,
+      "representative": [
+        -2,
+        -7
+      ],
+      "n_residue": 0,
+      "z_residue": 1,
+      "phase_rows": 3,
+      "first_L": "{ [N, Z] : false }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 0,
+        "pieces": []
+      }
+    },
+    {
+      "group": 8,
+      "representative": [
+        -2,
+        -7
+      ],
+      "n_residue": 1,
+      "z_residue": 0,
+      "phase_rows": 6,
+      "first_L": "{ [N, Z = -1] : N >= 0 }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = -1] : N >= 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 8,
+      "representative": [
+        -2,
+        -7
+      ],
+      "n_residue": 1,
+      "z_residue": 1,
+      "phase_rows": 3,
+      "first_L": "{ [N, Z] : false }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 0,
+        "pieces": []
+      }
+    },
+    {
+      "group": 9,
+      "representative": [
+        -1,
+        -7
+      ],
+      "n_residue": 0,
+      "z_residue": 0,
+      "phase_rows": 3,
+      "first_L": "{ [N, Z] : false }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 0,
+        "pieces": []
+      }
+    },
+    {
+      "group": 9,
+      "representative": [
+        -1,
+        -7
+      ],
+      "n_residue": 0,
+      "z_residue": 1,
+      "phase_rows": 4,
+      "first_L": "{ [N, Z = -1] : N > 0 }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = -1] : N > 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 9,
+      "representative": [
+        -1,
+        -7
+      ],
+      "n_residue": 1,
+      "z_residue": 0,
+      "phase_rows": 3,
+      "first_L": "{ [N, Z] : false }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 0,
+        "pieces": []
+      }
+    },
+    {
+      "group": 9,
+      "representative": [
+        -1,
+        -7
+      ],
+      "n_residue": 1,
+      "z_residue": 1,
+      "phase_rows": 4,
+      "first_L": "{ [N, Z = -1] : N >= 0 }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 1,
+        "pieces": [
+          {
+            "piece": "{ [N, Z = -1] : N >= 0 }",
+            "local_divisions": 0,
+            "status": "BOUNDED",
+            "max_fiber_diameter": 0
+          }
+        ]
+      }
+    },
+    {
+      "group": 10,
+      "representative": [
+        -1,
+        -8
+      ],
+      "n_residue": 0,
+      "z_residue": 0,
+      "phase_rows": 1,
+      "first_L": "{ [N, Z] : false }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 0,
+        "pieces": []
+      }
+    },
+    {
+      "group": 10,
+      "representative": [
+        -1,
+        -8
+      ],
+      "n_residue": 0,
+      "z_residue": 1,
+      "phase_rows": 1,
+      "first_L": "{ [N, Z] : false }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 0,
+        "pieces": []
+      }
+    },
+    {
+      "group": 10,
+      "representative": [
+        -1,
+        -8
+      ],
+      "n_residue": 1,
+      "z_residue": 0,
+      "phase_rows": 1,
+      "first_L": "{ [N, Z] : false }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 0,
+        "pieces": []
+      }
+    },
+    {
+      "group": 10,
+      "representative": [
+        -1,
+        -8
+      ],
+      "n_residue": 1,
+      "z_residue": 1,
+      "phase_rows": 1,
+      "first_L": "{ [N, Z] : false }",
+      "bad_cells": "{ [N, Z] : false }",
+      "fuel": {
+        "status": "BOUNDED",
+        "uniform_bound": 0,
+        "pieces": []
+      }
+    }
+  ]
+}

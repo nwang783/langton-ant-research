@@ -1,0 +1,193 @@
+{
+  "fresh_first_L_sites": {
+    "U": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "V": [
+      [
+        -1,
+        0
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "Q": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -3,
+        2
+      ],
+      [
+        -3,
+        1
+      ],
+      [
+        -3,
+        3
+      ],
+      [
+        -4,
+        3
+      ],
+      [
+        -5,
+        2
+      ],
+      [
+        -5,
+        1
+      ],
+      [
+        -4,
+        0
+      ],
+      [
+        -3,
+        -1
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -4,
+        -1
+      ],
+      [
+        -4,
+        -3
+      ]
+    ],
+    "B": [
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -3,
+        2
+      ],
+      [
+        -3,
+        1
+      ],
+      [
+        -3,
+        3
+      ],
+      [
+        -4,
+        3
+      ],
+      [
+        -5,
+        2
+      ],
+      [
+        -5,
+        1
+      ],
+      [
+        -4,
+        0
+      ],
+      [
+        -3,
+        -1
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -4,
+        -1
+      ],
+      [
+        -3,
+        -3
+      ],
+      [
+        -2,
+        -3
+      ],
+      [
+        -2,
+        -2
+      ],
+      [
+        -3,
+        -4
+      ]
+    ],
+    "C": [
+      [
+        -1,
+        0
+      ]
+    ]
+  },
+  "status": "Independent literal all-gap induction certificate passed",
+  "candidate_pairs": 1010,
+  "short_feasible_pairs": 16,
+  "stable_forbidden_pairs": 952,
+  "proof_kinds": {
+    "marked": 0,
+    "neighbors": 700,
+    "equal-read": 252
+  },
+  "neighbor_options_checked": 5855,
+  "intermediate_reader_options_checked": 14440,
+  "terminal_C_input_pairs": 56,
+  "all_terminal_input_pairs_excluded": true,
+  "certificate_sha256": "b903d5ff52179899a9aad036044cfa3eec01acd25f630e4341689b970f5c866d",
+  "scope": "Every feasible C-free U/V/Q/B prefix followed by terminal C has a previously unread first-C input. No marked-site theorem is used; only literal colors and strict least-gap descent."
+}

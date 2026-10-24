@@ -1,0 +1,124 @@
+{"segment": 0, "time": [0, 0, 3631], "pose": [[[0, 0, -10], [0, 0, 11]], 1]}
+{"segment": 1, "time": [208, 104, 35767], "pose": [[[-4, -2, -628], [4, 2, 629]], 1]}
+{"segment": 2, "time": [208, 104, 36290], "pose": [[[-4, -2, -669], [4, 2, 647]], 0]}
+{
+  "status": "complete finite five-cell family with eternal standard tail",
+  "phase": 75,
+  "domain": "m>=100,n-m>=100",
+  "variables": "u=m-100>=0,v=n-m-100>=0",
+  "source_capture_time": [
+    208,
+    104,
+    36290
+  ],
+  "total_capture_time": [
+    728,
+    728,
+    345772
+  ],
+  "total_capture_pose": [
+    [
+      [
+        -2,
+        -2,
+        -432
+      ],
+      [
+        2,
+        2,
+        472
+      ]
+    ],
+    0
+  ],
+  "tail": {
+    "drift": [
+      -2,
+      2
+    ],
+    "heading": 0,
+    "required_cells": 44,
+    "odd_cells": 36
+  },
+  "tail_phase": 100,
+  "all_future_z_upper": 81,
+  "remote_d_never_read": true,
+  "statistics": {
+    "finite_read_constraints": 895,
+    "periodic_read_constraints": 88,
+    "affine_guards": 2594,
+    "excluded_isolated_equalities": 8262790
+  },
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        0,
+        3631
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            -10
+          ],
+          [
+            0,
+            0,
+            11
+          ]
+        ],
+        1
+      ]
+    },
+    {
+      "segment": 1,
+      "time": [
+        208,
+        104,
+        35767
+      ],
+      "pose": [
+        [
+          [
+            -4,
+            -2,
+            -628
+          ],
+          [
+            4,
+            2,
+            629
+          ]
+        ],
+        1
+      ]
+    },
+    {
+      "segment": 2,
+      "time": [
+        208,
+        104,
+        36290
+      ],
+      "pose": [
+        [
+          [
+            -4,
+            -2,
+            -669
+          ],
+          [
+            4,
+            2,
+            647
+          ]
+        ],
+        0
+      ]
+    }
+  ],
+  "template_sha256": "c0f4ad5d81f98e83d8c50eb7a56ccc7b822c1a56f1f0c323c4374a76c284a844"
+}

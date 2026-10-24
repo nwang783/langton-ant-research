@@ -1,0 +1,56 @@
+{
+  "status": "exact complete two-age phase75 parent/cycle transfer and recurrence interface",
+  "domain": "m,k>=100 independently; N=m+k>=200",
+  "baseline_actual_u_bounds": [
+    -86,
+    82
+  ],
+  "baseline_model_u_bounds": [
+    -38,
+    81
+  ],
+  "baseline_actual_prefix_z_upper": 51,
+  "complete_discrepancy_u_lower": -86,
+  "parent_prefix_bounds": {
+    "u_lower": 75,
+    "z_upper": 87
+  },
+  "parent_capture_time_N_constant": [
+    312,
+    132330
+  ],
+  "cycle_capture_time_N_constant": [
+    728,
+    216069
+  ],
+  "cycle_capture_pose": [
+    [
+      "-2N-67",
+      "2N+72"
+    ],
+    3
+  ],
+  "cycle_tail_phase": 0,
+  "first_C_time_N_constant": [
+    312,
+    81284
+  ],
+  "first_A_time_N_constant": [
+    520,
+    136562
+  ],
+  "forced_A": [
+    [
+      "-2N-35",
+      "2N+109"
+    ]
+  ],
+  "D_never_read": true,
+  "source_old_prefix_z_bounds": [
+    -61,
+    77
+  ],
+  "parent_certificate_sha256": "de4fdc2820619dda18724129217fc9b3be6108e9aec0de4a0091be604359626f",
+  "cycle_certificate_sha256": "2d4e8ebd7e3c4a054728971a3c3c91f6077792a2574e7ee161d4c1ba50a3c98e",
+  "scope": "The initial z>=-250 interface protects the whole finite prefix. The separate u lower support bound protects the final SW tail after it leaves that half-plane."
+}

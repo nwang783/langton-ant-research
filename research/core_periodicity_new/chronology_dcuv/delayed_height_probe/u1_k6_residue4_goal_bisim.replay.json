@@ -1,0 +1,343 @@
+{
+  "status": "FULL_RESIDUE_AGE_DEFICIT",
+  "deficit": {
+    "packet_index": 0,
+    "packet": 6,
+    "place": [
+      -1,
+      3
+    ],
+    "needed_age": 4,
+    "available_ages": []
+  },
+  "word": [
+    6,
+    5,
+    0,
+    5,
+    4,
+    5,
+    4,
+    9,
+    4,
+    0,
+    0,
+    1,
+    5,
+    5,
+    0,
+    4,
+    7
+  ],
+  "path": [
+    {
+      "edge": 144705,
+      "packet": 6,
+      "source": 34783,
+      "destination": 9311,
+      "quotient_edge": 117632
+    },
+    {
+      "edge": 41633,
+      "packet": 5,
+      "source": 9311,
+      "destination": 50445,
+      "quotient_edge": 39488
+    },
+    {
+      "edge": 204613,
+      "packet": 0,
+      "source": 50445,
+      "destination": 51501,
+      "quotient_edge": 175771
+    },
+    {
+      "edge": 210519,
+      "packet": 5,
+      "source": 51501,
+      "destination": 38858,
+      "quotient_edge": 178129
+    },
+    {
+      "edge": 154852,
+      "packet": 4,
+      "source": 38858,
+      "destination": 37808,
+      "quotient_edge": 129572
+    },
+    {
+      "edge": 152160,
+      "packet": 5,
+      "source": 37808,
+      "destination": 23343,
+      "quotient_edge": 128323
+    },
+    {
+      "edge": 97549,
+      "packet": 4,
+      "source": 23343,
+      "destination": 21130,
+      "quotient_edge": 82044
+    },
+    {
+      "edge": 91386,
+      "packet": 9,
+      "source": 21130,
+      "destination": 46535,
+      "quotient_edge": 73530
+    },
+    {
+      "edge": 193187,
+      "packet": 4,
+      "source": 46535,
+      "destination": 48876,
+      "quotient_edge": 161751
+    },
+    {
+      "edge": 199984,
+      "packet": 0,
+      "source": 48876,
+      "destination": 50382,
+      "quotient_edge": 170863
+    },
+    {
+      "edge": 204562,
+      "packet": 0,
+      "source": 50382,
+      "destination": 50596,
+      "quotient_edge": 175652
+    },
+    {
+      "edge": 208368,
+      "packet": 1,
+      "source": 50596,
+      "destination": 36896,
+      "quotient_edge": 176091
+    },
+    {
+      "edge": 151598,
+      "packet": 5,
+      "source": 36896,
+      "destination": 23215,
+      "quotient_edge": 125978
+    },
+    {
+      "edge": 98229,
+      "packet": 5,
+      "source": 23215,
+      "destination": 8533,
+      "quotient_edge": 81499
+    },
+    {
+      "edge": 38639,
+      "packet": 0,
+      "source": 8533,
+      "destination": 8702,
+      "quotient_edge": 36589
+    },
+    {
+      "edge": 40514,
+      "packet": 4,
+      "source": 8702,
+      "destination": 9494,
+      "quotient_edge": 37219
+    },
+    {
+      "edge": null,
+      "packet": 7,
+      "source": 9494,
+      "destination": null,
+      "quotient_edge": null
+    }
+  ],
+  "replayed_states": [
+    {
+      "edge": 144705,
+      "packet": 6,
+      "source": 34783,
+      "destination": 9311,
+      "quotient_edge": 117632,
+      "pose": [
+        2,
+        2,
+        2
+      ],
+      "requirements": [
+        [
+          [
+            -1,
+            3
+          ],
+          4
+        ],
+        [
+          [
+            1,
+            3
+          ],
+          4
+        ]
+      ],
+      "outputs": [
+        [
+          -4,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          -4,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    }
+  ],
+  "minimal_illegal_factors": [
+    {
+      "start": 1,
+      "word": [
+        5,
+        0,
+        5,
+        4,
+        5,
+        4,
+        9
+      ],
+      "conflict": {
+        "cell": [
+          -1,
+          -1
+        ],
+        "previous_read": 2,
+        "conflicting_read": 158,
+        "turn": "L"
+      }
+    },
+    {
+      "start": 5,
+      "word": [
+        5,
+        4,
+        9,
+        4,
+        0,
+        0,
+        1
+      ],
+      "conflict": {
+        "cell": [
+          0,
+          0
+        ],
+        "previous_read": 4,
+        "conflicting_read": 168,
+        "turn": "R"
+      }
+    },
+    {
+      "start": 6,
+      "word": [
+        4,
+        9,
+        4,
+        0,
+        0,
+        1,
+        5
+      ],
+      "conflict": {
+        "cell": [
+          0,
+          0
+        ],
+        "previous_read": 4,
+        "conflicting_read": 168,
+        "turn": "R"
+      }
+    },
+    {
+      "start": 7,
+      "word": [
+        9,
+        4,
+        0,
+        0,
+        1,
+        5,
+        5
+      ],
+      "conflict": {
+        "cell": [
+          0,
+          -1
+        ],
+        "previous_read": 3,
+        "conflicting_read": 167,
+        "turn": "L"
+      }
+    },
+    {
+      "start": 8,
+      "word": [
+        4,
+        0,
+        0,
+        1,
+        5,
+        5,
+        0
+      ],
+      "conflict": {
+        "cell": [
+          0,
+          1
+        ],
+        "previous_read": 11,
+        "conflicting_read": 147,
+        "turn": "R"
+      }
+    }
+  ],
+  "source_file": "chronology_dcuv/delayed_height_probe/u1_k6_residue4_goal.json",
+  "quotient_file": "chronology_dcuv/delayed_height_probe/u1_k6_residue4_goal_bisim.json",
+  "scope": "A quotient witness is lifted to the original finite control graph using identical complete update labels. Full high-height/residue age resources are replayed with youngest-compatible consumption. This is not a physical ant path; literal-factor conflicts are reported separately."
+}

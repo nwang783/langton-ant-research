@@ -1,0 +1,16 @@
+{
+  "status": "FROZEN valid first-step injection and actual failed-continuation controls; independent audit pending",
+  "files": {
+    "LEAF_PREDECESSOR_MATCHING_OBSTRUCTION.md": "186ba1457334323bcf1c49a9bf520ca98f48057a6706f5c6e6b6187460961f19",
+    "check_leaf_predecessor_obstruction.py": "a88566576a737afc78da5aa157e774ccfa473e5aac15c2e6b6fc00476ec83c28",
+    "LEAF_PREDECESSOR_OBSTRUCTION_CHECKED.json": "b9173c8c49c585456eaef011bd12d0690c9c6e9f54ace98efbca4f745b6fbd13",
+    "LEAF_PREDECESSOR_OBSTRUCTION_RUN.log": "188e6f2d3025d6defa97e7d731105ccdc4fe536729e6b2a33523eee77980ca2d"
+  },
+  "dependencies": {
+    "WHOLE_LAST_EXIT_RENEWAL_MANIFEST.json": "2689a2a619f607b42011bce454b6da60746747a314822027103fe89d90e22bd4",
+    "WHOLE_LAST_EXIT_ENDPOINT_ADDENDUM.json": "15a2411bbad3ff4d8947a39b2af7be02ff19ab81fc2e39cc2fff43ffaac9b5de",
+    "../audits/check_whole_last_exit_renewal_independent.json": "ebd246b6bb9daaa079ef84bd094cefb096648d6a00dd91afecafb182a3014594"
+  },
+  "claim": "Fresh-root first-predecessor map is injective, but actual unmarked leaves can terminate unmarked and several leaves can lie on one chain",
+  "scope": "Direct-chain resource mechanism refuted; numerical gross leaf bound remains open. No global claim."
+}

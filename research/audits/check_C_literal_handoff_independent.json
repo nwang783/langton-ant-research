@@ -1,0 +1,51 @@
+{
+  "status": "PASS conditional cap-free literal C handoff domains and cycle-span identities only",
+  "proof": "60e586548aa3a84e98f8fba62aa625850383d3bc6c5c09a1e29d6dce84ac6435",
+  "certificate": "9bd295f4d88e651eaa0c6284c4e37ad295014820542fc02d7858e24b00c3cd13",
+  "script": "8dc106337248045708a6655b55ca2135b7d672f21e52d5a776106a973552915d",
+  "controls": {
+    "S104": {
+      "count": 1,
+      "modes": [
+        "RLR"
+      ]
+    },
+    "P1564": {
+      "count": 100,
+      "modes": [
+        "L",
+        "LR",
+        "RL",
+        "RLR"
+      ]
+    },
+    "Q4352": {
+      "count": 90,
+      "modes": [
+        "L",
+        "LR",
+        "RL",
+        "RLR"
+      ]
+    },
+    "M10": {
+      "count": 0,
+      "modes": []
+    },
+    "F80": {
+      "count": 2,
+      "modes": [
+        "RL",
+        "RLR"
+      ]
+    }
+  },
+  "representation_controls": 48,
+  "analytic_review": [
+    "Literal last-L to first-active-next-face makes the same L both firstL and lastL of its physical cell. Complete-WHITE history is RL or RLR with same first two headings and opposite finalR; BLACK-first is L or LR. These are full histories, so finalR is an actual permanent output. BLACK LR keeps distinct initial and output roots.",
+    "No later same-heading read can reactivate retired sourceC; a later opposite-heading L also returns to it. Alternation therefore forbids more reads, without a supplied cap. This local bound is not a bound at adjacentC faces or elsewhere.",
+    "The same physicalL supplies both first and last selected edges with exact full-drift voltages. Their gaps equal source-span+1 and target-span+1. On the corresponding respective embedded cycle the full gaps sumP, yielding the appropriate endpoint span<P. No existence or membership of a handoff is inferred.",
+    "Independently rebuilt all193 handoffs across five complete controls and48 rotations/powers. StandardL26 has completeNNS RLR, source/targetspans13/101. Prepared80 retains bothRL andRLR without a WHITEfirstcycle. Supplied1564/4352 retain allBLACK/WHITE possibilities, so cycleintersection alone cannot discardRL.",
+    "No handoff existence, canonical12/4 ages, finite modulealphabet, WHITE lifetimeS1, controller classification or universal entry follows."
+  ]
+}

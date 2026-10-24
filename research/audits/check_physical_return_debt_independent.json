@@ -1,0 +1,47 @@
+{
+  "status": "PASS physical four-return capacity, specified OPEN chain interface and prepared finite controls",
+  "proof": "697949854107878c9e36adbf91e63008351ea36553a446abf2d4b5175893d6ea",
+  "certificate": "9fafed10e28770aa773263b6d64dceb614f643f86f178c5b2d402d6b721b701a",
+  "rotated_charge_cases": 16,
+  "open_stages": [
+    {
+      "target": 11,
+      "events": 45,
+      "chains": 9,
+      "same_cell_return_durations": [
+        4
+      ],
+      "total_outside_distances": 54,
+      "max_outside_distance": 25,
+      "rank_clock_test_period": 550
+    },
+    {
+      "target": 12,
+      "events": 61,
+      "chains": 15,
+      "same_cell_return_durations": [
+        4,
+        8
+      ],
+      "total_outside_distances": 76,
+      "max_outside_distance": 26,
+      "rank_clock_test_period": 710
+    },
+    {
+      "target": 13,
+      "events": 79,
+      "chains": 18,
+      "same_cell_return_durations": [],
+      "total_outside_distances": 97,
+      "max_outside_distance": 36,
+      "rank_clock_test_period": 890
+    }
+  ],
+  "analytic_review": [
+    "Every4step physical first return is a unit square: three helper turns have the same signalpha. Either its source already has alpha/incomingv, or alternation makes its returned endpoint alpha/incomingv. Distinct returns can share that charge only as adjacent same-face excursions, whose first helper would be read twice withalpha and no intervening read. Thus the port-labelled charge is injective, for arbitrary initial color and multiplicity.",
+    "The supplied lower T0..10 interface forces Q=(-8,1) S-departure ordinal2 -> W-arrival ordinal1 through three literal L helper ranks. Capacity gives lambda>=1, excluding only its proposed lambda0 count-pump extension. No universal eta-lambda sign follows.",
+    "All named internal physical ordinal matches/full voltages and complete chains were rebuilt independently. Necessary rank-clock constraints pass at the stated large test period; this is NOT a distinct-phase clock model or physical factor. Visible returns4 ->4,8 ->none become18 cross-cell chains, with79 events and97 total endpoint distances, maximum36. No actual growth8 trajectory with disappearing debt is claimed.",
+    "The sharp preparedRLLLL control clears its entire3-black input. The staircase8n first-return family has four disjoint stair interiors for n>=2, distinct pre-return reads,4n-2 initial BLACK and4n+1 final BLACK after endpointL. Each inter-side intersection is a shared endpoint only; the final origin is the unique repeat. Complete supplied n2,3,5,20 boards replay.",
+    "Unbounded prepared factor clock span cannot imply arbitrary WHITE growth8 completion. Existing stronger short-return density theorems remain attributed; solver UNKNOWN and discovery3109 counts are not proof premises. No finite-state impossibility or monotone full weighted debt is proved."
+  ]
+}

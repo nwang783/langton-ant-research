@@ -1,0 +1,580 @@
+{
+  "scope": "Exact complete-input white-guard conflicts for retained orthogonal104 corners.\nThe source is the complete43-cell loop output. Each target is the original\nmature incoming half-ray, its literal single turn, and its outgoing half-ray.\nRequired initial color is computed from the EARLIEST actual read at a witness,\nnot the color at the cap after an omitted incoming pass. No renewal follows.\n",
+  "cases": [
+    {
+      "case": 16,
+      "rotation_ccw": 0,
+      "initial_heading": 2,
+      "same_sector_placements": "[r, a, b] -> {  : (a = 1 - 2r and b = 1 + 2r and r >= 3) or (b = 2 - a and (1 + a) mod 2 = 0 and 3 - 2r <= a <= -5) }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            0,
+            0
+          ],
+          "first_read": [
+            0,
+            "R",
+            "cap",
+            0,
+            0
+          ],
+          "parameters": "[r, a, b] -> {  : b = 2 - a and (1 + a) mod 2 = 0 and -2r < a <= -5 }"
+        }
+      ],
+      "seconds": 0.0027640490006888285
+    },
+    {
+      "case": 16,
+      "rotation_ccw": 1,
+      "initial_heading": 1,
+      "same_sector_placements": "[r, a, b] -> {  : b = 5 + a and (a) mod 2 = 0 and 2 <= a <= -4 + 2r }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            0,
+            0
+          ],
+          "first_read": [
+            0,
+            "R",
+            "cap",
+            0,
+            0
+          ],
+          "parameters": "[r, a, b] -> {  : b = 5 + a and (a) mod 2 = 0 and r >= 3 and 2 <= a <= -4 + 2r }"
+        }
+      ],
+      "seconds": 0.0019274439982837066
+    },
+    {
+      "case": 16,
+      "rotation_ccw": 2,
+      "initial_heading": 0,
+      "same_sector_placements": "[r, a, b] -> {  : b = 4 + 4r - a and (a) mod 2 = 0 and 2 <= a <= -4 + 2r }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            0,
+            0
+          ],
+          "first_read": [
+            0,
+            "R",
+            "cap",
+            0,
+            0
+          ],
+          "parameters": "[r, a, b] -> {  : b = 4 + 4r - a and (a) mod 2 = 0 and r >= 3 and 2 <= a <= -4 + 2r }"
+        }
+      ],
+      "seconds": 0.0021891499927733094
+    },
+    {
+      "case": 16,
+      "rotation_ccw": 3,
+      "initial_heading": 3,
+      "same_sector_placements": "[r, a, b] -> {  : (a = 3 - 2r and b = 10 + 2r and r >= 4) or (a = 1 - 2r and b = 8 + 2r and r >= 3) or (b = 7 + 4r + a and (1 + a) mod 2 = 0 and 5 - 2r <= a <= -5) }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            0,
+            0
+          ],
+          "first_read": [
+            0,
+            "R",
+            "cap",
+            0,
+            0
+          ],
+          "parameters": "[r, a, b] -> {  : (b = 7 + 4r + a and (1 + a) mod 2 = 0 and 3 - 2r <= a <= -5) or (a = 1 - 2r and b = 8 + 2r and r >= 3) }"
+        }
+      ],
+      "seconds": 0.0029967010050313547
+    },
+    {
+      "case": 17,
+      "rotation_ccw": 0,
+      "initial_heading": 3,
+      "same_sector_placements": "[r, a, b] -> {  : (a = -2r and b = 1 + 2r and r >= 3) or (b = 1 - a and (a) mod 2 = 0 and 2 - 2r <= a <= -6) }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            1,
+            0
+          ],
+          "first_read": [
+            -1,
+            "R",
+            "incoming",
+            -1,
+            103
+          ],
+          "parameters": "[r, a, b] -> {  : b = 1 - a and (a) mod 2 = 0 and -2r <= a <= -6 }"
+        }
+      ],
+      "seconds": 0.011794637001003139
+    },
+    {
+      "case": 17,
+      "rotation_ccw": 1,
+      "initial_heading": 2,
+      "same_sector_placements": "[r, a, b] -> {  : b = 4 + a and (a) mod 2 = 0 and 2 <= a <= -4 + 2r }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            0,
+            1
+          ],
+          "first_read": [
+            -1,
+            "R",
+            "incoming",
+            -1,
+            103
+          ],
+          "parameters": "[r, a, b] -> {  : b = 4 + a and (a) mod 2 = 0 and r >= 3 and 2 <= a <= -4 + 2r }"
+        }
+      ],
+      "seconds": 0.00593894899066072
+    },
+    {
+      "case": 17,
+      "rotation_ccw": 2,
+      "initial_heading": 1,
+      "same_sector_placements": "[r, a, b] -> {  : (a = 3 and b = 2 + 4r and r >= 3) or (b = 5 + 4r - a and (1 + a) mod 2 = 0 and 5 <= a <= -3 + 2r) }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            -1,
+            0
+          ],
+          "first_read": [
+            -1,
+            "R",
+            "incoming",
+            -1,
+            103
+          ],
+          "parameters": "[r, a, b] -> {  : b = 5 + 4r - a and (1 + a) mod 2 = 0 and 3 <= a <= -3 + 2r }"
+        }
+      ],
+      "seconds": 0.0038784540083725005
+    },
+    {
+      "case": 17,
+      "rotation_ccw": 3,
+      "initial_heading": 0,
+      "same_sector_placements": "[r, a, b] -> {  : (a = 3 - 2r and b = 11 + 2r and r >= 4) or (a = 1 - 2r and b = 9 + 2r and r >= 3) or (b = 8 + 4r + a and (1 + a) mod 2 = 0 and 5 - 2r <= a <= -5) }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            0,
+            -1
+          ],
+          "first_read": [
+            -1,
+            "R",
+            "incoming",
+            -1,
+            103
+          ],
+          "parameters": "[r, a, b] -> {  : (b = 8 + 4r + a and (1 + a) mod 2 = 0 and 3 - 2r <= a <= -5) or (a = 1 - 2r and b = 9 + 2r and r >= 3) }"
+        }
+      ],
+      "seconds": 0.007226896996144205
+    },
+    {
+      "case": 67,
+      "rotation_ccw": 0,
+      "initial_heading": 1,
+      "same_sector_placements": "[r, a, b] -> {  : a = 1 + 2r and b = 6 + 2r and r >= 3 }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            0,
+            -1
+          ],
+          "first_read": [
+            -91,
+            "R",
+            "incoming",
+            -1,
+            13
+          ],
+          "parameters": "[r, a, b] -> {  : a = 1 + 2r and b = 6 + 2r and r >= 3 }"
+        }
+      ],
+      "seconds": 0.0037756180099677294
+    },
+    {
+      "case": 67,
+      "rotation_ccw": 1,
+      "initial_heading": 0,
+      "same_sector_placements": "[r, a, b] -> {  : a = -3 and b = 7 + 4r and r >= 3 }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            -1,
+            0
+          ],
+          "first_read": [
+            -87,
+            "R",
+            "incoming",
+            -1,
+            17
+          ],
+          "parameters": "[r, a, b] -> {  : a = -3 and b = 7 + 4r and r >= 3 }"
+        }
+      ],
+      "seconds": 0.0027906689938390628
+    },
+    {
+      "case": 67,
+      "rotation_ccw": 2,
+      "initial_heading": 3,
+      "same_sector_placements": "[r, a, b] -> {  : a = -4 - 2r and b = 3 + 2r and r >= 3 }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            0,
+            -1
+          ],
+          "first_read": [
+            -87,
+            "R",
+            "incoming",
+            -1,
+            17
+          ],
+          "parameters": "[r, a, b] -> {  : a = -4 - 2r and b = 3 + 2r and r >= 3 }"
+        }
+      ],
+      "seconds": 0.0037423479952849448
+    },
+    {
+      "case": 68,
+      "rotation_ccw": 0,
+      "initial_heading": 2,
+      "same_sector_placements": "[r, a, b] -> {  : a = 1 + 2r and b = 5 + 2r and r >= 3 }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            0,
+            0
+          ],
+          "first_read": [
+            -92,
+            "R",
+            "incoming",
+            -1,
+            12
+          ],
+          "parameters": "[r, a, b] -> {  : a = 1 + 2r and b = 5 + 2r and r >= 3 }"
+        }
+      ],
+      "seconds": 0.0017969970067497343
+    },
+    {
+      "case": 68,
+      "rotation_ccw": 1,
+      "initial_heading": 1,
+      "same_sector_placements": "[r, a, b] -> {  : a = -2 and b = 7 + 4r and r >= 3 }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            0,
+            0
+          ],
+          "first_read": [
+            -92,
+            "R",
+            "incoming",
+            -1,
+            12
+          ],
+          "parameters": "[r, a, b] -> {  : a = -2 and b = 7 + 4r and r >= 3 }"
+        }
+      ],
+      "seconds": 0.0017187390039907768
+    },
+    {
+      "case": 68,
+      "rotation_ccw": 2,
+      "initial_heading": 0,
+      "same_sector_placements": "[r, a, b] -> {  : a = -4 - 2r and b = 4 + 2r and r >= 3 }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            0,
+            0
+          ],
+          "first_read": [
+            -92,
+            "R",
+            "incoming",
+            -1,
+            12
+          ],
+          "parameters": "[r, a, b] -> {  : a = -4 - 2r and b = 4 + 2r and r >= 3 }"
+        }
+      ],
+      "seconds": 0.001770406001014635
+    },
+    {
+      "case": 69,
+      "rotation_ccw": 0,
+      "initial_heading": 1,
+      "same_sector_placements": "[r, a, b] -> {  : a = 2 + 2r and b = 5 + 2r and r >= 3 }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            -1,
+            0
+          ],
+          "first_read": [
+            -93,
+            "R",
+            "incoming",
+            -1,
+            11
+          ],
+          "parameters": "[r, a, b] -> {  : a = 2 + 2r and b = 5 + 2r and r >= 3 }"
+        }
+      ],
+      "seconds": 0.0028219560044817626
+    },
+    {
+      "case": 69,
+      "rotation_ccw": 1,
+      "initial_heading": 0,
+      "same_sector_placements": "[r, a, b] -> {  : a = -2 and b = 8 + 4r and r >= 3 }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            0,
+            -1
+          ],
+          "first_read": [
+            -93,
+            "R",
+            "incoming",
+            -1,
+            11
+          ],
+          "parameters": "[r, a, b] -> {  : a = -2 and b = 8 + 4r and r >= 3 }"
+        }
+      ],
+      "seconds": 0.003715277009177953
+    },
+    {
+      "case": 69,
+      "rotation_ccw": 2,
+      "initial_heading": 3,
+      "same_sector_placements": "[r, a, b] -> {  : a = -5 - 2r and b = 4 + 2r and r >= 3 }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            1,
+            0
+          ],
+          "first_read": [
+            -93,
+            "R",
+            "incoming",
+            -1,
+            11
+          ],
+          "parameters": "[r, a, b] -> {  : a = -5 - 2r and b = 4 + 2r and r >= 3 }"
+        }
+      ],
+      "seconds": 0.005739827989600599
+    },
+    {
+      "case": 70,
+      "rotation_ccw": 0,
+      "initial_heading": 2,
+      "same_sector_placements": "[r, a, b] -> {  : a = 2 + 2r and b = 4 + 2r and r >= 3 }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            -2,
+            0
+          ],
+          "first_read": [
+            -8,
+            "R",
+            "incoming",
+            -1,
+            96
+          ],
+          "parameters": "[r, a, b] -> {  : a = 2 + 2r and b = 4 + 2r and r >= 3 }"
+        }
+      ],
+      "seconds": 0.0049925679923035204
+    },
+    {
+      "case": 70,
+      "rotation_ccw": 1,
+      "initial_heading": 1,
+      "same_sector_placements": "[r, a, b] -> {  : a = -1 and b = 8 + 4r and r >= 3 }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            -1,
+            -1
+          ],
+          "first_read": [
+            -94,
+            "R",
+            "incoming",
+            -1,
+            10
+          ],
+          "parameters": "[r, a, b] -> {  : a = -1 and b = 8 + 4r and r >= 3 }"
+        }
+      ],
+      "seconds": 0.00608621200080961
+    },
+    {
+      "case": 70,
+      "rotation_ccw": 2,
+      "initial_heading": 0,
+      "same_sector_placements": "[r, a, b] -> {  : a = -5 - 2r and b = 5 + 2r and r >= 3 }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            1,
+            -1
+          ],
+          "first_read": [
+            -94,
+            "R",
+            "incoming",
+            -1,
+            10
+          ],
+          "parameters": "[r, a, b] -> {  : a = -5 - 2r and b = 5 + 2r and r >= 3 }"
+        }
+      ],
+      "seconds": 0.009175792991300113
+    },
+    {
+      "case": 71,
+      "rotation_ccw": 0,
+      "initial_heading": 3,
+      "same_sector_placements": "[r, a, b] -> {  : a = 1 + 2r and b = 4 + 2r and r >= 3 }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            -1,
+            0
+          ],
+          "first_read": [
+            -9,
+            "R",
+            "incoming",
+            -1,
+            95
+          ],
+          "parameters": "[r, a, b] -> {  : a = 1 + 2r and b = 4 + 2r and r >= 3 }"
+        }
+      ],
+      "seconds": 0.0020926639990648255
+    },
+    {
+      "case": 71,
+      "rotation_ccw": 1,
+      "initial_heading": 2,
+      "same_sector_placements": "[r, a, b] -> {  : a = -1 and b = 7 + 4r and r >= 3 }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            -1,
+            0
+          ],
+          "first_read": [
+            -95,
+            "R",
+            "incoming",
+            -1,
+            9
+          ],
+          "parameters": "[r, a, b] -> {  : a = -1 and b = 7 + 4r and r >= 3 }"
+        }
+      ],
+      "seconds": 0.002055518009001389
+    },
+    {
+      "case": 71,
+      "rotation_ccw": 2,
+      "initial_heading": 1,
+      "same_sector_placements": "[r, a, b] -> {  : a = -4 - 2r and b = 5 + 2r and r >= 3 }",
+      "survivors": "[r, a, b] -> {  : false }",
+      "empty": true,
+      "white_witnesses": [
+        {
+          "point_relative": [
+            0,
+            -1
+          ],
+          "first_read": [
+            -95,
+            "R",
+            "incoming",
+            -1,
+            9
+          ],
+          "parameters": "[r, a, b] -> {  : a = -4 - 2r and b = 5 + 2r and r >= 3 }"
+        }
+      ],
+      "seconds": 0.003056761997868307
+    }
+  ]
+}

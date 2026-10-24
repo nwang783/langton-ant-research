@@ -1,0 +1,188 @@
+{
+  "status": "PASS independent quadratic-lap collision compiler and exact previous-event finite-seed criteria",
+  "programs": [
+    {
+      "name": "standard104_grouped",
+      "A": [
+        -1,
+        -1
+      ],
+      "B": [
+        -1,
+        -1
+      ],
+      "bundled": false,
+      "bound": {
+        "axis": 0,
+        "sign": -1,
+        "a": 1,
+        "L": 1,
+        "l": -1,
+        "U": 3,
+        "u": 4,
+        "K": 1,
+        "cutoff": 2
+      },
+      "alternating": true,
+      "firstL_finite": true,
+      "literal_reads": 1560,
+      "all_five_lap_samecell_pairs": 9100
+    },
+    {
+      "name": "infinite_prepared_axial_rail",
+      "A": [
+        1,
+        0
+      ],
+      "B": [
+        1,
+        0
+      ],
+      "bundled": false,
+      "bound": {
+        "axis": 0,
+        "sign": 1,
+        "a": 1,
+        "L": 1,
+        "l": 0,
+        "U": 3,
+        "u": 1,
+        "K": 0,
+        "cutoff": 1
+      },
+      "alternating": true,
+      "firstL_finite": false,
+      "literal_reads": 60,
+      "all_five_lap_samecell_pairs": 60
+    },
+    {
+      "name": "equal_L_boundary_conflict",
+      "A": [
+        1,
+        0
+      ],
+      "B": [
+        1,
+        0
+      ],
+      "bundled": false,
+      "bound": {
+        "axis": 0,
+        "sign": 1,
+        "a": 1,
+        "L": 1,
+        "l": 0,
+        "U": 3,
+        "u": 2,
+        "K": 1,
+        "cutoff": 2
+      },
+      "alternating": false,
+      "firstL_finite": false,
+      "literal_reads": 80,
+      "all_five_lap_samecell_pairs": 116
+    },
+    {
+      "name": "punctuated_prepared_rail",
+      "A": [
+        1,
+        0
+      ],
+      "B": [
+        1,
+        0
+      ],
+      "bundled": false,
+      "bound": {
+        "axis": 0,
+        "sign": 1,
+        "a": 1,
+        "L": 1,
+        "l": 0,
+        "U": 3,
+        "u": 2,
+        "K": 1,
+        "cutoff": 2
+      },
+      "alternating": true,
+      "firstL_finite": false,
+      "literal_reads": 80,
+      "all_five_lap_samecell_pairs": 98
+    },
+    {
+      "name": "affine_closed_square_conflict",
+      "A": [
+        0,
+        0
+      ],
+      "B": [
+        0,
+        0
+      ],
+      "bundled": false,
+      "bound": null,
+      "alternating": false,
+      "firstL_finite": true,
+      "literal_reads": 60,
+      "all_five_lap_samecell_pairs": 900
+    },
+    {
+      "name": "odd_displacement_bundling",
+      "A": [
+        2,
+        2
+      ],
+      "B": [
+        1,
+        1
+      ],
+      "bundled": true,
+      "bound": {
+        "axis": 0,
+        "sign": 1,
+        "a": 2,
+        "L": 1,
+        "l": 0,
+        "U": 5,
+        "u": 3,
+        "K": 1,
+        "cutoff": 2
+      },
+      "alternating": true,
+      "firstL_finite": false,
+      "literal_reads": 110,
+      "all_five_lap_samecell_pairs": 110
+    },
+    {
+      "name": "rotating_constant_stages",
+      "A": [
+        1,
+        0
+      ],
+      "B": [
+        0,
+        -1
+      ],
+      "bundled": false,
+      "bound": {
+        "axis": 0,
+        "sign": 1,
+        "a": 1,
+        "L": 0,
+        "l": 0,
+        "U": 2,
+        "u": 2,
+        "K": 1,
+        "cutoff": 2
+      },
+      "alternating": true,
+      "firstL_finite": false,
+      "literal_reads": 70,
+      "all_five_lap_samecell_pairs": 86
+    }
+  ],
+  "source_note_sha256": "0aca7916e6bc3fc9c4fb2c9e1f8469d650653e848315749018481f6532ec7524",
+  "author_code_sha256": "aacac03e02ecf0d332ed1bfe1f46ee9e813901194b9a71e217c8e31768e7a337",
+  "analytic": "For positive projection ell(A), scalar quadratic separation gives a computable all-history K. Fixed delta cancels n^2 exactly; augmented-coordinate translation compiler independently agrees with every saved exact FirstL/Bad relation. Previous was computed by subtracting pairs with an intermediate same-cell event, not author lexmax, and crosschecked. Finite first-L event set iff a common finite seed exists under exact alternation. A=0 uses existing affine Presburger relations. Fixed104 successor query is decidable analytically but NOT executed here. Variable nonzero-copy-drift L phases require positive-width prior-R parallel resonance; transverse matches are only O(N), nonresonant parallel matches occupy finitely many laps, zero-drift repeated pose words cannot repeat legally twice.",
+  "scope": "Supplied affine-count literal lap programs only, including genuine quadratic starts and constant rotating stages. No successful nonstandard finite-seed model, generic arbitrary-period decision, global capture proof or wider literature claim."
+}

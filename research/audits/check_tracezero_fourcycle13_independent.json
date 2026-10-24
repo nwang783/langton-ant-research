@@ -1,0 +1,247 @@
+{
+  "status": "PASS all root cycles for k13 A=3J independent four-direction images",
+  "raw_domains": [
+    300,
+    300,
+    300,
+    300
+  ],
+  "legal_domains": [
+    56,
+    56,
+    56,
+    56
+  ],
+  "controllers": 9834496,
+  "zero_C": 1224564,
+  "root_cone_survivors": 20475,
+  "last_first_cone_violation": 489,
+  "histogram": {
+    "2": 5535,
+    "3": 8420,
+    "5": 2484,
+    "6": 975,
+    "7": 64,
+    "10": 241,
+    "14": 102,
+    "16": 10,
+    "17": 493,
+    "18": 7,
+    "19": 374,
+    "21": 322,
+    "23": 191,
+    "25": 185,
+    "27": 551,
+    "28": 160,
+    "29": 1,
+    "33": 2,
+    "35": 7,
+    "45": 2,
+    "46": 4,
+    "53": 80,
+    "95": 8,
+    "97": 16,
+    "98": 4,
+    "99": 8,
+    "100": 40,
+    "101": 8,
+    "102": 2,
+    "154": 2,
+    "202": 11,
+    "209": 10,
+    "261": 1,
+    "287": 90,
+    "291": 20,
+    "293": 33,
+    "399": 6,
+    "489": 6
+  },
+  "last_maps": [
+    {
+      "last_map": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "controllers": 456976,
+      "zero_C": 186118,
+      "root_cone_survivors": 581
+    },
+    {
+      "last_map": [
+        3,
+        0,
+        1,
+        0
+      ],
+      "controllers": 527280,
+      "zero_C": 0,
+      "root_cone_survivors": 0
+    },
+    {
+      "last_map": [
+        3,
+        0,
+        3,
+        2
+      ],
+      "controllers": 527280,
+      "zero_C": 0,
+      "root_cone_survivors": 0
+    },
+    {
+      "last_map": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "controllers": 608400,
+      "zero_C": 155324,
+      "root_cone_survivors": 4291
+    },
+    {
+      "last_map": [
+        3,
+        2,
+        1,
+        2
+      ],
+      "controllers": 527280,
+      "zero_C": 0,
+      "root_cone_survivors": 0
+    },
+    {
+      "last_map": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "controllers": 608400,
+      "zero_C": 119356,
+      "root_cone_survivors": 6464
+    },
+    {
+      "last_map": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "controllers": 608400,
+      "zero_C": 155324,
+      "root_cone_survivors": 4291
+    },
+    {
+      "last_map": [
+        3,
+        2,
+        3,
+        0
+      ],
+      "controllers": 702000,
+      "zero_C": 0,
+      "root_cone_survivors": 0
+    },
+    {
+      "last_map": [
+        1,
+        0,
+        1,
+        2
+      ],
+      "controllers": 527280,
+      "zero_C": 0,
+      "root_cone_survivors": 0
+    },
+    {
+      "last_map": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "controllers": 608400,
+      "zero_C": 155324,
+      "root_cone_survivors": 1016
+    },
+    {
+      "last_map": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "controllers": 608400,
+      "zero_C": 119356,
+      "root_cone_survivors": 624
+    },
+    {
+      "last_map": [
+        1,
+        0,
+        3,
+        0
+      ],
+      "controllers": 702000,
+      "zero_C": 0,
+      "root_cone_survivors": 0
+    },
+    {
+      "last_map": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "controllers": 608400,
+      "zero_C": 155324,
+      "root_cone_survivors": 1016
+    },
+    {
+      "last_map": [
+        1,
+        2,
+        1,
+        0
+      ],
+      "controllers": 702000,
+      "zero_C": 0,
+      "root_cone_survivors": 0
+    },
+    {
+      "last_map": [
+        1,
+        2,
+        3,
+        2
+      ],
+      "controllers": 702000,
+      "zero_C": 0,
+      "root_cone_survivors": 0
+    },
+    {
+      "last_map": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "controllers": 810000,
+      "zero_C": 178438,
+      "root_cone_survivors": 2192
+    }
+  ],
+  "analytic_branches": [
+    "Two-cycles excluded by signed HA applied to A squared.",
+    "F=-J four-cycle has opposite prefixes d and -3d, violating the exact scalar-power cone."
+  ],
+  "sha256": {
+    "inventory.json": "91283061ea7c302b67b70f56f3372e3299c45d7b3b2657d2e861aa35e636f9ba",
+    "exclusion.md": "808696b89e623b703d45944538b449dfa082cd98cdd163c4e15376638ac410d5",
+    "cone_only.records.json": "a33ff1341c3cde26b2daded005d62646b66d0b6a072c594884e5e9bcdcb571d3"
+  },
+  "scope": "Finite support only; ordinary four independent absolute-direction images; no hidden alphabet, variable directive schedule, or other trace-zero parameters."
+}

@@ -1,0 +1,57 @@
+{
+  "status": "independent PASS58 supplied cap7 words:35 exclusions and23 actual minimal first returns",
+  "artifacts": [
+    {
+      "path": "CAP7_WORD_MANDATORY_FIELD_FILTERS.md",
+      "sha256": "21a49f905213542c69b0d5be6d48d0dbdd0f6b1d1e567701ee6ebf0c75ae9e0c",
+      "bytes": 7158
+    },
+    {
+      "path": "check_cap7_word_budget_filters.py",
+      "sha256": "b8a84aabe5dbeaf67b1aaa4a21a7a3b52275bde192f1051453df384459f9d2fe",
+      "bytes": 4485
+    },
+    {
+      "path": "cap7_word_budget_filters_certificate.json",
+      "sha256": "1796515d2afa7aa65d1362406afe35dd7bdfaff39b2e834a63d2f0ed58971ac7",
+      "bytes": 718847
+    },
+    {
+      "path": "../audits/check_cap7_word_mandatory_filters_independent.py",
+      "sha256": "1042088c536affb91a9cc7b4a0381f2b96bee884bac22241e6164b551de82581",
+      "bytes": 6662
+    },
+    {
+      "path": "../audits/check_cap7_word_mandatory_filters_independent.json",
+      "sha256": "c4d736618bbfaca523fa08bd3bd241bbef76391a0783aefcbf6d0caacacea23f",
+      "bytes": 86380
+    },
+    {
+      "path": "../reframe_finite_seed_2026-10-24/cap7_turn_word_quotient.json",
+      "sha256": "a7fdf61caa559b9c40205ae252a3d4080dab3199968e63d7ef895ed63d4e80b2",
+      "bytes": 2104
+    },
+    {
+      "path": "../audits/check_cap7_structure_independent.py",
+      "sha256": "118de6fd4e85bc333405b689a8bf1f8fb79a43f5eab3a21eb2a4f079cc934b81",
+      "bytes": 7929
+    },
+    {
+      "path": "../audits/check_cap7_structure_independent.json",
+      "sha256": "784e4f05cf3475088e92cca5f5c757b8b875335a7488d6ca0ff21acfff042b39",
+      "bytes": 5255
+    },
+    {
+      "path": "BUDGET_TRAPS_SIGNED_MANIFEST.json",
+      "sha256": "0004cd1b0519cb28aa7256e122d657c87ba233fcbf6f1eee96394268d185c34c",
+      "bytes": 2599
+    }
+  ],
+  "not_claimed": [
+    "cap7 general exit without further S/T resource proof",
+    "graph cycles imply infinite physical composability",
+    "full-profile existence determined by word alone",
+    "fresh U-run inputs must be time-zero original seed cells",
+    "global capture"
+  ]
+}

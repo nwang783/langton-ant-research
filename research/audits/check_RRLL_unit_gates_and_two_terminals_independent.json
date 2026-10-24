@@ -1,0 +1,357 @@
+{
+  "status": "PASS positive RRLL-strip winding/irreducible unit gates and two-ended staircase chain output capacity",
+  "notes": {
+    "RRLL_triple_strips_have_positive_winding_and_irreducible_unit_gates.md": "0cdec9556fab331cb62022830b54a48aa4f3f04a7e90b4161ff616c034f5c5ef",
+    "staircase_triple_row_chains_have_two_distinct_output_terminals.md": "25c50f4b3815c08a8b8ab919232b97e85d898299218dfa88c79748d31f385415"
+  },
+  "all8_reconstructed_arcs": [
+    {
+      "role": "Z+",
+      "profile": "SSNS",
+      "face_levels": {
+        "NW": 0,
+        "NE": -3,
+        "SW": -1,
+        "SE": 0
+      },
+      "unit_C": {
+        "in": "N",
+        "out": "E",
+        "in_rank": 2,
+        "out_rank": 1,
+        "sheet": 0,
+        "clock": -1
+      },
+      "unit_L": {
+        "in": "S",
+        "out": "E",
+        "in_rank": 3,
+        "out_rank": 3,
+        "sheet": -2,
+        "clock": 0
+      },
+      "middle": {
+        "in": "S",
+        "out": "E",
+        "in_rank": 1,
+        "out_rank": 2,
+        "sheet": -1,
+        "clock": 1
+      }
+    },
+    {
+      "role": "Z-",
+      "profile": "NSSS",
+      "face_levels": {
+        "NW": 0,
+        "NE": -3,
+        "SW": -1,
+        "SE": 0
+      },
+      "unit_C": {
+        "in": "N",
+        "out": "E",
+        "in_rank": 0,
+        "out_rank": 0,
+        "sheet": 0,
+        "clock": 0
+      },
+      "unit_L": {
+        "in": "S",
+        "out": "E",
+        "in_rank": 3,
+        "out_rank": 3,
+        "sheet": -2,
+        "clock": 0
+      },
+      "middle": {
+        "in": "S",
+        "out": "E",
+        "in_rank": 2,
+        "out_rank": 1,
+        "sheet": -1,
+        "clock": -1
+      }
+    },
+    {
+      "role": "A+",
+      "profile": "EEEW",
+      "face_levels": {
+        "NW": -3,
+        "NE": -2,
+        "SW": 0,
+        "SE": -3
+      },
+      "unit_C": {
+        "in": "E",
+        "out": "S",
+        "in_rank": 0,
+        "out_rank": 0,
+        "sheet": 0,
+        "clock": 0
+      },
+      "unit_L": {
+        "in": "E",
+        "out": "N",
+        "in_rank": 2,
+        "out_rank": 1,
+        "sheet": -2,
+        "clock": -1
+      },
+      "middle": {
+        "in": "E",
+        "out": "S",
+        "in_rank": 1,
+        "out_rank": 2,
+        "sheet": -1,
+        "clock": 1
+      }
+    },
+    {
+      "role": "A-",
+      "profile": "EWEE",
+      "face_levels": {
+        "NW": -3,
+        "NE": -2,
+        "SW": 0,
+        "SE": -3
+      },
+      "unit_C": {
+        "in": "E",
+        "out": "S",
+        "in_rank": 0,
+        "out_rank": 0,
+        "sheet": 0,
+        "clock": 0
+      },
+      "unit_L": {
+        "in": "E",
+        "out": "N",
+        "in_rank": 3,
+        "out_rank": 3,
+        "sheet": -2,
+        "clock": 0
+      },
+      "middle": {
+        "in": "E",
+        "out": "S",
+        "in_rank": 2,
+        "out_rank": 1,
+        "sheet": -1,
+        "clock": -1
+      }
+    },
+    {
+      "role": "B+",
+      "profile": "SSSN",
+      "face_levels": {
+        "NW": 0,
+        "NE": -3,
+        "SW": -3,
+        "SE": -2
+      },
+      "unit_C": {
+        "in": "S",
+        "out": "W",
+        "in_rank": 0,
+        "out_rank": 0,
+        "sheet": 0,
+        "clock": 0
+      },
+      "unit_L": {
+        "in": "N",
+        "out": "W",
+        "in_rank": 3,
+        "out_rank": 3,
+        "sheet": -2,
+        "clock": 0
+      },
+      "middle": {
+        "in": "S",
+        "out": "W",
+        "in_rank": 1,
+        "out_rank": 2,
+        "sheet": -1,
+        "clock": 1
+      }
+    },
+    {
+      "role": "B-",
+      "profile": "SNSS",
+      "face_levels": {
+        "NW": 0,
+        "NE": -3,
+        "SW": -3,
+        "SE": -2
+      },
+      "unit_C": {
+        "in": "S",
+        "out": "W",
+        "in_rank": 0,
+        "out_rank": 0,
+        "sheet": 0,
+        "clock": 0
+      },
+      "unit_L": {
+        "in": "N",
+        "out": "W",
+        "in_rank": 1,
+        "out_rank": 2,
+        "sheet": -2,
+        "clock": 1
+      },
+      "middle": {
+        "in": "S",
+        "out": "W",
+        "in_rank": 2,
+        "out_rank": 1,
+        "sheet": -1,
+        "clock": -1
+      }
+    },
+    {
+      "role": "Y+",
+      "profile": "WWEW",
+      "face_levels": {
+        "NW": -1,
+        "NE": 0,
+        "SW": 0,
+        "SE": -3
+      },
+      "unit_C": {
+        "in": "W",
+        "out": "N",
+        "in_rank": 0,
+        "out_rank": 0,
+        "sheet": 0,
+        "clock": 0
+      },
+      "unit_L": {
+        "in": "W",
+        "out": "S",
+        "in_rank": 3,
+        "out_rank": 3,
+        "sheet": -2,
+        "clock": 0
+      },
+      "middle": {
+        "in": "W",
+        "out": "S",
+        "in_rank": 1,
+        "out_rank": 2,
+        "sheet": -1,
+        "clock": 1
+      }
+    },
+    {
+      "role": "Y-",
+      "profile": "EWWW",
+      "face_levels": {
+        "NW": -1,
+        "NE": 0,
+        "SW": 0,
+        "SE": -3
+      },
+      "unit_C": {
+        "in": "W",
+        "out": "N",
+        "in_rank": 1,
+        "out_rank": 2,
+        "sheet": 0,
+        "clock": 1
+      },
+      "unit_L": {
+        "in": "W",
+        "out": "S",
+        "in_rank": 3,
+        "out_rank": 3,
+        "sheet": -2,
+        "clock": 0
+      },
+      "middle": {
+        "in": "W",
+        "out": "S",
+        "in_rank": 2,
+        "out_rank": 1,
+        "sheet": -1,
+        "clock": -1
+      }
+    }
+  ],
+  "admissible_Z_A_forced_signs": [
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      -1
+    ],
+    [
+      1,
+      1,
+      -1,
+      1
+    ],
+    [
+      1,
+      1,
+      -1,
+      -1
+    ]
+  ],
+  "inward_profiles": [
+    {
+      "word": "EEW",
+      "levels": {
+        "NW": -4,
+        "NE": -2,
+        "SW": -2,
+        "SE": -3
+      },
+      "terminal": true
+    },
+    {
+      "word": "WEE",
+      "levels": {
+        "NW": -4,
+        "NE": -2,
+        "SW": -2,
+        "SE": -3
+      },
+      "terminal": true
+    },
+    {
+      "word": "EEWE",
+      "levels": {
+        "NW": -5,
+        "NE": -2,
+        "SW": -2,
+        "SE": -3
+      },
+      "terminal": false
+    },
+    {
+      "word": "WEEE",
+      "levels": {
+        "NW": -5,
+        "NE": -2,
+        "SW": -2,
+        "SE": -3
+      },
+      "terminal": false
+    }
+  ],
+  "analytic_review": [
+    "Literal complete profiles, face levels, chronological directed-port labels C-ordinal+1, and canonical rank1/2 swaps are independently reconstructed. The four actual arcs around each displayed C or L unit square are on one sheet and have the claimed directions; all R0/L3 passive corners are retained. Middle and unit exchanges occupy sheets c-1/c or c-1/c-2, never a guessed smoothing.",
+    "Contractible canonical unit clock0=4+signedDelta forces Z and A positive: otherwise there is no negative incidence. It then gives deltaZ=4+[Yprev negative]deltaYprev and deltaA=4+[B negative]deltaB. Summing the essential middle clock over the full4a-cell quotient cancels exactly the negative B/Y terms, giving Pw=12a+sum positive B/Y Delta>0. Its embedded winding is therefore+1 and d=(0,-2a) in the fixed frame. This assumes actual RRLL physical strip geometry, not arbitrary axis drift.",
+    "Each negative Y or B produces a different degree-two contractible unit node with both exchanges to the SAME essential middle node. Different unit nodes and sheets cannot alias under full drift. Their parallel two-edge cycles are independent. Delta values differ by4, so the edges cannot be each others matched rank12 pair; degree2 leaves no alternate paired edge at that unit. Matched pairs are parallel equalDelta by the retained theorem, so no outside mate is possible. Unit gates survive pair erasure. Only their distinct-node lower beta reservation is justified, not an additive budget with overlapping reservations or an upper bound.",
+    "The inward staircase test includes all original-WHITE1..4 histories, not a reverse-WHITE premise. If every W gap is even it is a full B mode; neighboring three-use ports force X to a full A mode. Reindexing Xk=(k,k+2) as Aprev_(k+1) identifies exactly the c-2,(-1,1) predecessor of the already signed outward row graph. Its outward U cells are the known current A cells, so the two directions follow the SAME path component.",
+    "Finite global low-L minimum forces an inward EEW/WEE terminal, while finite maximum forces the outward singleton. Opposite-R3 terminal L1 heading E fixes the rotated frame; its position and equal C heights recover the unique outer row modulo full diagonal drift. Distinct maximal chains inject into both terminal families, which are disjoint by complete history length. Thus Nodd>=2 chain-components, not2 every starting row. A chain reaching M has its outward TOP singleton and inward NON-TOP opposite-R3, whose incident C heights<=M-2. These capacities cannot be added to overlapping earlier payments.",
+    "No controller realization, whole-front exclusion, initial fuel, per-renewal charge or attraction follows. Negative mixed G3 circles away from local minima remain possible; at a locally minimal low-L component the signed axis theorem plus this strip clock forces positive winding."
+  ]
+}

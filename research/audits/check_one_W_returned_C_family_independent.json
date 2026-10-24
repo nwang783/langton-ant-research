@@ -1,0 +1,93 @@
+{
+  "status": "PASS exact one-W returned-C family and all-ten causal left-lift exclusion",
+  "manifest_sha256": "21da1f5bec86654fdb8698cd408190070bb02dfb6fd664f09c8927b4a864c560",
+  "full_endpoint_words": 1890,
+  "double_tail_W_conflicts": 60,
+  "single_tail_W_conflicts": 1820,
+  "actual_positive_controls": [
+    {
+      "id": 0,
+      "mass": 30,
+      "raw_reads": 212,
+      "raw_mass": 52
+    },
+    {
+      "id": 1,
+      "mass": 27,
+      "raw_reads": 200,
+      "raw_mass": 53
+    },
+    {
+      "id": 2,
+      "mass": 31,
+      "raw_reads": 220,
+      "raw_mass": 57
+    },
+    {
+      "id": 3,
+      "mass": 31,
+      "raw_reads": 220,
+      "raw_mass": 57
+    },
+    {
+      "id": 4,
+      "mass": 31,
+      "raw_reads": 224,
+      "raw_mass": 49
+    },
+    {
+      "id": 5,
+      "mass": 28,
+      "raw_reads": 212,
+      "raw_mass": 50
+    },
+    {
+      "id": 6,
+      "mass": 32,
+      "raw_reads": 232,
+      "raw_mass": 54
+    },
+    {
+      "id": 7,
+      "mass": 32,
+      "raw_reads": 232,
+      "raw_mass": 54
+    },
+    {
+      "id": 8,
+      "mass": 32,
+      "raw_reads": 232,
+      "raw_mass": 54
+    },
+    {
+      "id": 9,
+      "mass": 36,
+      "raw_reads": 252,
+      "raw_mass": 58
+    }
+  ],
+  "physical_positive_reads": 2346,
+  "reverse_nodes": 26,
+  "predecessor_queries": 208,
+  "feasible_reverse_edges": 16,
+  "immutable_reverse_conflicts": 192,
+  "maximum_earlier_fullpacket_lengths": [
+    2,
+    0,
+    1,
+    2,
+    1,
+    3,
+    4,
+    0,
+    1,
+    1
+  ],
+  "analytic": [
+    "Exactly one W base after the selected C can own both remaining Cs only as VCC/UCC, or own one as DC/VC/UC followed by a nonempty S-base run whose last base owns the other C. Both cases are present. Exact endpoint y budget<=6 bounds all nonnegative D/V/S-U counts, while x fixes E-U by divisibility; all multiset orders and actual last V/U adjacency are retained. This is an exhaustive algebraic subfamily, not an arbitrary depth scan.",
+    "Ten feasible full words have complete minimal finite boards, independently replayed. All have source DC C1 and foreign F. Their old-plus-foreign proxies are simple; returned C first meets the unique old vertex at its endpoint, owned by outgoing first C. This is a prepared positive loop, not physical state reset or a U-entry history.",
+    "Plain D freshly writes(i+2,i). Later D copy k=1 misses local(1,-1), and k>=2 lies below its RAW y minimum. At any fixed suffix first-R port q with qy-qx=-2,qy<0, every D-run length n>=-qy leaves that earlier D output unread and black at the suffix firstR. The thresholds2,2,4,5 therefore hold for ALL lengths.",
+    "The finite reverse relation is independently closed under all8 predecessors at every one of26 nodes; every other query has an immutable read conflict, not a discarded depth extension. No U-family edge enters any node. Hence no uninterrupted eight-prefix supplies a U-entry cut at or before the selected old C. A U later inside a positive word starts a new factor excluding that old source and is not a counterexample."
+  ],
+  "scope": "Only the exact one-W-base family and the previously signed double-tail source case. Arbitrary two-or-more W-base runs and mixed earlier foreign prefixes remain open. No global contact ban or capture theorem."
+}

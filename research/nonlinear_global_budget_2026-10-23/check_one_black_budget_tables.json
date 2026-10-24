@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "scope": "Finite table extraction and arithmetic, not re-audit of retained capture theorem.",
+  "sources": {
+    "PrefixData.lean": "d04adbb326535dc9d41c7159990e97f2f5a949c6ea27954973aa9f0344ff78f5",
+    "EntryData.lean": "81c74b030fcfed585e4a962a32a40183da8f251e1dcbfc4c13f0203bafc9d7b4",
+    "PhaseChecks.lean": "a570322d8a35e122640338417d4a24ab44488a4d52b6e02fde745ee6e6859a69"
+  },
+  "tables": {
+    "prefixTimes": {
+      "count": 1376,
+      "maximum": 106258
+    },
+    "actualActiveTimes": {
+      "count": 27,
+      "maximum": 15209
+    },
+    "pristineLaneTimes": {
+      "count": 152,
+      "maximum": 64978
+    },
+    "actualLaneTimes": {
+      "count": 179,
+      "maximum": 62345
+    }
+  },
+  "budgets": {
+    "prefix": 106268,
+    "inert": 9987,
+    "active": 25196,
+    "shallow": 72332,
+    "ordinary_deep": 74975,
+    "exceptional_deep": 82979
+  },
+  "uniform_mass_one_budget": 106268
+}

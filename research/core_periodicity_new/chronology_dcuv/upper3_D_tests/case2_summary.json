@@ -1,0 +1,99 @@
+{
+  "scope": "Conditional discovery only; H is not a signed relation",
+  "args": {
+    "profile": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/profile.json",
+    "hypotheses": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/hypothesis_U_upper3.tsv",
+    "signed": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/empty.tsv",
+    "row": [
+      0,
+      7,
+      6,
+      1,
+      3,
+      2,
+      0
+    ],
+    "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_D_tests/case2",
+    "rounds": 8,
+    "cap": 1500000,
+    "mode": "source",
+    "watch": "",
+    "scope": null,
+    "expand": true
+  },
+  "results": [
+    {
+      "round": 0,
+      "extra_points": [],
+      "watched": [
+        [
+          2,
+          0
+        ]
+      ],
+      "variables": 14,
+      "result": "status ABSTRACT_WITNESS states 2154 depth 5 nodes 1750",
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_D_tests/case2_r00_quotient",
+      "seconds": 2.959,
+      "events": [
+        {
+          "cell": [
+            3,
+            1
+          ],
+          "step": 4,
+          "source_step": 0,
+          "row": [
+            1,
+            7,
+            5,
+            0,
+            3,
+            2,
+            0
+          ],
+          "signed": false,
+          "kind": "lineage"
+        }
+      ],
+      "chosen": {
+        "cell": [
+          3,
+          1
+        ],
+        "step": 4,
+        "source_step": 0,
+        "row": [
+          1,
+          7,
+          5,
+          0,
+          3,
+          2,
+          0
+        ],
+        "signed": false,
+        "kind": "lineage"
+      }
+    },
+    {
+      "round": 1,
+      "extra_points": [],
+      "watched": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "variables": 16,
+      "result": "status EXHAUSTED_NO_HIT states 393587 depth 30 nodes 81589",
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_D_tests/case2_r01_quotient",
+      "seconds": 4.045,
+      "verification": "{\"status\": \"VERIFIED_INDUCTIVE_NO_HIT\", \"variables\": 16, \"positions\": 189, \"nodes\": 81589, \"states\": 393587, \"checks\": 1337, \"memo_states\": 17156}"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+independent exact rows [64311, 64311] seconds 5.848723957999027
+processed 418 seen 840 edges 840 attempts 200971 closures 7664 seconds 25.942425959990942
+processed 773 seen 1260 edges 1260 attempts 432270 closures 14624 seconds 46.065257372989436
+processed 1073 seen 1516 edges 1516 attempts 708134 closures 17640 seconds 66.07716992299538
+processed 1484 seen 1997 edges 1997 attempts 932303 closures 27372 seconds 86.1312886520027
+processed 1826 seen 2310 edges 2310 attempts 1224588 closures 33511 seconds 106.378337164002
+processed 2145 seen 2654 edges 2655 attempts 1505987 closures 39330 seconds 126.3811395340017
+processed 2584 seen 3087 edges 3107 attempts 1769977 closures 49789 seconds 146.40834773000097
+processed 2906 seen 3356 edges 3450 attempts 2069001 closures 54299 seconds 166.46460889499576
+processed 3241 seen 3670 edges 3824 attempts 2336969 closures 62503 seconds 187.22136190599122
+processed 3580 seen 4024 edges 4240 attempts 2568675 closures 71558 seconds 207.2440863899974
+processed 3874 seen 4295 edges 4589 attempts 2824401 closures 76181 seconds 227.3199597310013
+processed 4168 seen 4645 edges 4980 attempts 3037730 closures 84999 seconds 247.32123390199558
+processed 4486 seen 4972 edges 5392 attempts 3283497 closures 92977 seconds 267.59029948299576
+processed 4767 seen 5180 edges 5682 attempts 3554897 closures 96759 seconds 287.78018827099004
+processed 5000 seen 5548 edges 6089 attempts 3755929 closures 103696 seconds 307.78074709798966
+processed 5241 seen 5993 edges 6563 attempts 3939847 closures 114323 seconds 327.7955020429945
+processed 5554 seen 6104 edges 6943 attempts 4257972 closures 121021 seconds 347.8032082409918
+processed 5848 seen 6112 edges 7103 attempts 4620058 closures 123568 seconds 367.89137173700146
+processed 6261 seen 6271 edges 7403 attempts 5067951 closures 132559 seconds 387.96968184299476
+{
+  "status": "PASS complete independent adaptive-clock and first-return graph closure",
+  "full_drift": [
+    4,
+    0
+  ],
+  "cap": 5,
+  "minimum_period": 16,
+  "scale": 64,
+  "read_counter_cap": 64,
+  "bound": 128,
+  "modulus": 2,
+  "unpruned_local_histories": 126,
+  "independently_joined_rows": [
+    64311,
+    64311
+  ],
+  "states": 6624,
+  "edges": 7770,
+  "attempts": 5328690,
+  "proper_path_rejections": 5086416,
+  "shortest_path_closures": 147868,
+  "largest_transition_nodes": 32,
+  "seconds": 401.4562763720023,
+  "certificate_sha256": "0574ff0581e24798e8f5c308fa096b6da6733a8beeb5afb55a028faa04033f60",
+  "scope": "Full positive-axis-four drift and quarter rotations, cap five, every period and strip width. No general multiplicity or global capture claim."
+}

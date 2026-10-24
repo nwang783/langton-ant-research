@@ -1,0 +1,784 @@
+{
+  "scope": "Author check of a local all-cap four-step skipped-rank contradiction.",
+  "models_checked": 4,
+  "records": [
+    {
+      "A1_headings": [
+        3,
+        3,
+        1,
+        1
+      ],
+      "Q1_headings": [
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "complete_named_histories": {
+        "(0, 1)": [
+          3,
+          1,
+          3,
+          3
+        ],
+        "(1, 0)": [
+          3,
+          3,
+          1,
+          1
+        ],
+        "(0, 0)": [
+          0,
+          2
+        ],
+        "(1, 1)": [
+          2,
+          2,
+          2,
+          0,
+          0
+        ]
+      },
+      "skipped_chain": [
+        {
+          "source": [
+            [
+              1,
+              0
+            ],
+            0
+          ],
+          "target": [
+            [
+              1,
+              1
+            ],
+            3
+          ],
+          "heading": 0,
+          "physical_ordinal": 0
+        },
+        {
+          "source": [
+            [
+              1,
+              1
+            ],
+            3
+          ],
+          "target": [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          "heading": 3,
+          "physical_ordinal": 2
+        },
+        {
+          "source": [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          "target": [
+            [
+              0,
+              0
+            ],
+            1
+          ],
+          "heading": 2,
+          "physical_ordinal": 0
+        },
+        {
+          "source": [
+            [
+              0,
+              0
+            ],
+            1
+          ],
+          "target": [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          "heading": 1,
+          "physical_ordinal": 1
+        }
+      ],
+      "first_return": [
+        {
+          "source": [
+            [
+              1,
+              1
+            ],
+            3
+          ],
+          "target": [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          "heading": 3,
+          "physical_ordinal": 2
+        },
+        {
+          "source": [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          "target": [
+            [
+              0,
+              0
+            ],
+            1
+          ],
+          "heading": 2,
+          "physical_ordinal": 0
+        },
+        {
+          "source": [
+            [
+              0,
+              0
+            ],
+            1
+          ],
+          "target": [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          "heading": 1,
+          "physical_ordinal": 1
+        },
+        {
+          "source": [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          "target": [
+            [
+              1,
+              1
+            ],
+            4
+          ],
+          "heading": 0,
+          "physical_ordinal": 1
+        }
+      ],
+      "forced_A1_rank0_to_rank3_gap": 4,
+      "minimum_from_three_consecutive_return_gaps": 12
+    },
+    {
+      "A1_headings": [
+        3,
+        3,
+        1,
+        1
+      ],
+      "Q1_headings": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        2
+      ],
+      "complete_named_histories": {
+        "(0, 1)": [
+          3,
+          1,
+          3,
+          3
+        ],
+        "(1, 0)": [
+          3,
+          3,
+          1,
+          1
+        ],
+        "(0, 0)": [
+          0,
+          2
+        ],
+        "(1, 1)": [
+          2,
+          2,
+          2,
+          0,
+          0,
+          2
+        ]
+      },
+      "skipped_chain": [
+        {
+          "source": [
+            [
+              1,
+              0
+            ],
+            0
+          ],
+          "target": [
+            [
+              1,
+              1
+            ],
+            3
+          ],
+          "heading": 0,
+          "physical_ordinal": 0
+        },
+        {
+          "source": [
+            [
+              1,
+              1
+            ],
+            3
+          ],
+          "target": [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          "heading": 3,
+          "physical_ordinal": 2
+        },
+        {
+          "source": [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          "target": [
+            [
+              0,
+              0
+            ],
+            1
+          ],
+          "heading": 2,
+          "physical_ordinal": 0
+        },
+        {
+          "source": [
+            [
+              0,
+              0
+            ],
+            1
+          ],
+          "target": [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          "heading": 1,
+          "physical_ordinal": 1
+        }
+      ],
+      "first_return": [
+        {
+          "source": [
+            [
+              1,
+              1
+            ],
+            3
+          ],
+          "target": [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          "heading": 3,
+          "physical_ordinal": 2
+        },
+        {
+          "source": [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          "target": [
+            [
+              0,
+              0
+            ],
+            1
+          ],
+          "heading": 2,
+          "physical_ordinal": 0
+        },
+        {
+          "source": [
+            [
+              0,
+              0
+            ],
+            1
+          ],
+          "target": [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          "heading": 1,
+          "physical_ordinal": 1
+        },
+        {
+          "source": [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          "target": [
+            [
+              1,
+              1
+            ],
+            4
+          ],
+          "heading": 0,
+          "physical_ordinal": 1
+        }
+      ],
+      "forced_A1_rank0_to_rank3_gap": 4,
+      "minimum_from_three_consecutive_return_gaps": 12
+    },
+    {
+      "A1_headings": [
+        3,
+        3,
+        1,
+        1,
+        3
+      ],
+      "Q1_headings": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        2,
+        0
+      ],
+      "complete_named_histories": {
+        "(0, 1)": [
+          3,
+          1,
+          3,
+          3
+        ],
+        "(1, 0)": [
+          3,
+          3,
+          1,
+          1,
+          3
+        ],
+        "(0, 0)": [
+          0,
+          2
+        ],
+        "(1, 1)": [
+          2,
+          2,
+          2,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      "skipped_chain": [
+        {
+          "source": [
+            [
+              1,
+              0
+            ],
+            0
+          ],
+          "target": [
+            [
+              1,
+              1
+            ],
+            3
+          ],
+          "heading": 0,
+          "physical_ordinal": 0
+        },
+        {
+          "source": [
+            [
+              1,
+              1
+            ],
+            3
+          ],
+          "target": [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          "heading": 3,
+          "physical_ordinal": 2
+        },
+        {
+          "source": [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          "target": [
+            [
+              0,
+              0
+            ],
+            1
+          ],
+          "heading": 2,
+          "physical_ordinal": 0
+        },
+        {
+          "source": [
+            [
+              0,
+              0
+            ],
+            1
+          ],
+          "target": [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          "heading": 1,
+          "physical_ordinal": 1
+        }
+      ],
+      "first_return": [
+        {
+          "source": [
+            [
+              1,
+              1
+            ],
+            3
+          ],
+          "target": [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          "heading": 3,
+          "physical_ordinal": 2
+        },
+        {
+          "source": [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          "target": [
+            [
+              0,
+              0
+            ],
+            1
+          ],
+          "heading": 2,
+          "physical_ordinal": 0
+        },
+        {
+          "source": [
+            [
+              0,
+              0
+            ],
+            1
+          ],
+          "target": [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          "heading": 1,
+          "physical_ordinal": 1
+        },
+        {
+          "source": [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          "target": [
+            [
+              1,
+              1
+            ],
+            4
+          ],
+          "heading": 0,
+          "physical_ordinal": 1
+        }
+      ],
+      "forced_A1_rank0_to_rank3_gap": 4,
+      "minimum_from_three_consecutive_return_gaps": 12
+    },
+    {
+      "A1_headings": [
+        3,
+        3,
+        1,
+        1,
+        3
+      ],
+      "Q1_headings": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        2,
+        0,
+        2
+      ],
+      "complete_named_histories": {
+        "(0, 1)": [
+          3,
+          1,
+          3,
+          3
+        ],
+        "(1, 0)": [
+          3,
+          3,
+          1,
+          1,
+          3
+        ],
+        "(0, 0)": [
+          0,
+          2
+        ],
+        "(1, 1)": [
+          2,
+          2,
+          2,
+          0,
+          0,
+          2,
+          0,
+          2
+        ]
+      },
+      "skipped_chain": [
+        {
+          "source": [
+            [
+              1,
+              0
+            ],
+            0
+          ],
+          "target": [
+            [
+              1,
+              1
+            ],
+            3
+          ],
+          "heading": 0,
+          "physical_ordinal": 0
+        },
+        {
+          "source": [
+            [
+              1,
+              1
+            ],
+            3
+          ],
+          "target": [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          "heading": 3,
+          "physical_ordinal": 2
+        },
+        {
+          "source": [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          "target": [
+            [
+              0,
+              0
+            ],
+            1
+          ],
+          "heading": 2,
+          "physical_ordinal": 0
+        },
+        {
+          "source": [
+            [
+              0,
+              0
+            ],
+            1
+          ],
+          "target": [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          "heading": 1,
+          "physical_ordinal": 1
+        }
+      ],
+      "first_return": [
+        {
+          "source": [
+            [
+              1,
+              1
+            ],
+            3
+          ],
+          "target": [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          "heading": 3,
+          "physical_ordinal": 2
+        },
+        {
+          "source": [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          "target": [
+            [
+              0,
+              0
+            ],
+            1
+          ],
+          "heading": 2,
+          "physical_ordinal": 0
+        },
+        {
+          "source": [
+            [
+              0,
+              0
+            ],
+            1
+          ],
+          "target": [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          "heading": 1,
+          "physical_ordinal": 1
+        },
+        {
+          "source": [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          "target": [
+            [
+              1,
+              1
+            ],
+            4
+          ],
+          "heading": 0,
+          "physical_ordinal": 1
+        }
+      ],
+      "forced_A1_rank0_to_rank3_gap": 4,
+      "minimum_from_three_consecutive_return_gaps": 12
+    }
+  ],
+  "all_period_contradiction": "The fixed physical four-step chain goes directly from A1 rank0 to rank3. Complete ranks1 and2 cannot occur in between. Equivalently12<=4.",
+  "limitations": "Only the two supplied one-singleton minimum interfaces are excluded. Higher fields remain open, no general g8 exclusion."
+}

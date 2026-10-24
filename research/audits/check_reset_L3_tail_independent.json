@@ -1,0 +1,16 @@
+{
+  "status": "PASS v2 reset L3-tail identities and conditional all-Y cluster relay; no physical erasure",
+  "files": {
+    "flow2_reset_archives_retain_an_exact_L3_tail_v2.md": "3528b7624f52c41b6a345aad410ae1ff5eee7b9ad9bbe74d77cd6a0c529f9599",
+    "check_flow2_reset_L3_tail_v2.py": "093a729318c1208a23949e358bca1b4cbee565615b75502e0b0faffd98af5561",
+    "check_flow2_reset_L3_tail_v2.json": "d09160536ef8b21c661b2a9943efcbecab4d283b39e2f60b1bd78926b451e318"
+  },
+  "script": "302f8a5e5fc2d0bde2875eb2da2a459caee551ce3e488f0149b1c6d9e791b113",
+  "controls": 36,
+  "analytic_review": [
+    "Actual complete port ordinals independently reconstructed for singleton O/U and passive V between flat Y and Y/X, and both LL-first O/U squares. Following Y gives rootL1->Y.L3; following X gives rootL1->X.L1. Preceding Y.L1 feeds rootR2. Passive single V gives Y.L1->V.L3->nextY.L3, length2.",
+    "The mixed singleton identity retains both T3X and T3Y with an ORIENTED residual interval, either sign. LL-first cleanup has four actual L steps but only three selected boundary edges: its X->Y middle chord remains outside B_selected. Optional U L3 and earlier X R0 are never erased.",
+    "For the stated critical/global-M admissible all-Y local profiles, internal gaps are RR1, passive V2, passive VV3, or O wait with two overlaps1. LL-first O/U would force an X and is not included. Flat intervals have length>=8 and adjacent overlap sums<=6; O intervals length>=4 and overlap sum2. Thus starts/ends strictly increase and no third overlap is possible for every finite cluster, without a length scan.",
+    "All period translates may be summed only after the physical identity, retaining arbitrary old copies and full voltages. The v2 passive single-V case is required; unpromoted v1 is not signed as a complete general gap list. No curvature theorem, exterior completion, ant deletion, bounded age, fresh-fuel payment or unrestricted all-cap/global classification follows."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "status": "FROZEN_FOR_INDEPENDENT_REVIEW",
+  "scope": "Only residual-rewrite packing relaxation with exact DC masks, clocks, sector, and marginal roles. It explicitly violates live-head continuity and five-core disjointness and is NOT an ant or full packet ledger.",
+  "files": [
+    {
+      "source": "dc_eight_comb_residual_relaxation.md",
+      "file": "00_dc_eight_comb_residual_relaxation.md",
+      "sha256": "a5826ba0cd6e4f5fa3369b97b3539744de51c17562a351ead2b22f4736146b4c"
+    },
+    {
+      "source": "check_dc_eight_comb_relaxation.py",
+      "file": "01_check_dc_eight_comb_relaxation.py",
+      "sha256": "68004f75bb02add4813de9b4602f8ce55897c771d00c26d8c43ff6df6940af2f"
+    },
+    {
+      "source": "chronology_dcuv/dc_eight_comb_relaxation.json",
+      "file": "02_dc_eight_comb_relaxation.json",
+      "sha256": "aab42aeb75c4aa744ea428cb6f6d9a42c07d40c671347017f6578344c128f6e4"
+    }
+  ],
+  "dependencies": [
+    {
+      "file": "genealogy_saturation_roles_frozen_20261023_0833/manifest.json",
+      "sha256": "a622da698363472e596cd6487bbfcd924d178354df72d01a98067ce3e794da5e"
+    },
+    {
+      "file": "chronology_dcuv/literal_residual_geometry.json",
+      "sha256": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd"
+    }
+  ]
+}

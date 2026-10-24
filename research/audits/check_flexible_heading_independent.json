@@ -1,0 +1,40 @@
+{
+  "status": "PASS independent arbitrary-alignment heading tiling CNFs, RUPs, physical controls and exact recut",
+  "note_sha256": "ef296e5bac829d8d60e934ad7528a313d95998822407917dcb47901f6566183c",
+  "circuits": [
+    {
+      "mode": "heading",
+      "variables": 28691,
+      "clauses": 122459,
+      "cells": 261,
+      "proof": {
+        "valid": true,
+        "input_clauses": 122459,
+        "additions": 16819,
+        "deletions": 0,
+        "RUP": 16819,
+        "RAT": 0,
+        "propagation_checks": 16819
+      },
+      "controls": 29
+    },
+    {
+      "mode": "square",
+      "variables": 8957,
+      "clauses": 27665,
+      "cells": 221,
+      "proof": {
+        "valid": true,
+        "input_clauses": 27665,
+        "additions": 88,
+        "deletions": 0,
+        "RUP": 88,
+        "RAT": 0,
+        "propagation_checks": 88
+      },
+      "controls": 150
+    }
+  ],
+  "recut_cases": 16,
+  "scope": "Six-read minimal heading-flip tiles and monomers, arbitrary nonoverlap alignment and input colors. Eventually only inverse104 or phase31 prepared108; finite support impossible by negative turn excess. Does not combine ten-read bypasses and does not assert forward reversal."
+}

@@ -1,0 +1,73 @@
+{
+  "status": "AUTHOR_ALL_W_PROPOSED_D_W5_V_FAMILY_EXCLUDED",
+  "scope": "ONLY family DC,D,VC,VC,V^(w+2),VCC,V^w,D,V,V for every integerw>=0. Orderedidentity retirement atclock3 forces any laterq replacement age<=2 atclock5 D, contradicting signedDmin3. Not exclusion of generalD/W5 gate.",
+  "family_prefix": [
+    1,
+    0,
+    5,
+    5
+  ],
+  "parameter": "integerw>=0",
+  "affine_coordinate_encoding": "(w_coefficient,constant)",
+  "prefix_end": [
+    [
+      [
+        0,
+        -5
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    1,
+    3
+  ],
+  "third_preV_pose_for_w_ge1": [
+    1,
+    -2,
+    1
+  ],
+  "farVCC_pose_affine": [
+    [
+      3,
+      1
+    ],
+    [
+      -1,
+      -2
+    ]
+  ],
+  "farVCC_pose_w0": [
+    1,
+    -2,
+    1
+  ],
+  "earlier_consumer_clock": 3,
+  "earlier_consumer_input": [
+    0,
+    3
+  ],
+  "earlier_consumer_does_not_output_same_cell": true,
+  "late_D_pose": [
+    5,
+    -2,
+    3
+  ],
+  "late_D_input": [
+    4,
+    -2
+  ],
+  "late_D_clock": 5,
+  "maximum_replacement_age": 2,
+  "required_D_minimum": 3,
+  "raw_length_affine": [
+    36,
+    231
+  ],
+  "dependencies": {
+    "chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "chronology_dcuv/counted_input_age_rules_complete.json": "ce1d90d3887522fe5c71ad132eda9be3c32302d897a51ea38fbfabb0d08624bc",
+    "check_D_W5_V_family_rejection.py": "2fc4de535732010417e958d6515798a0779e41dc88ea91dfd98521a4f74fc52d"
+  }
+}

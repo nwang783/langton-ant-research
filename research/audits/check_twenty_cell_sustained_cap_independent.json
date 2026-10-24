@@ -1,0 +1,310 @@
+{
+  "status": "PASS all-even-n>=20 complete w-component cap and unbounded completed dormancy on actual20-cell family",
+  "note_sha256": "45e327d689431f873fc791f5e3955edad080b8d7a6ed23a54232c06b9089e6de",
+  "source_stage_separation_inequalities": 6832,
+  "six_family_pair_bounds": [
+    [
+      "stage0",
+      "stage1",
+      169
+    ],
+    [
+      "stage0",
+      "stage2",
+      0
+    ],
+    [
+      "stage0",
+      "stage3",
+      169
+    ],
+    [
+      "stage0",
+      "stage4",
+      0
+    ],
+    [
+      "stage0",
+      "final_tail",
+      169
+    ],
+    [
+      "stage1",
+      "stage2",
+      169
+    ],
+    [
+      "stage1",
+      "stage3",
+      0
+    ],
+    [
+      "stage1",
+      "stage4",
+      169
+    ],
+    [
+      "stage1",
+      "final_tail",
+      0
+    ],
+    [
+      "stage2",
+      "stage3",
+      169
+    ],
+    [
+      "stage2",
+      "stage4",
+      0
+    ],
+    [
+      "stage2",
+      "final_tail",
+      169
+    ],
+    [
+      "stage3",
+      "stage4",
+      169
+    ],
+    [
+      "stage3",
+      "final_tail",
+      0
+    ],
+    [
+      "stage4",
+      "final_tail",
+      169
+    ]
+  ],
+  "parallel_vertex_pair_exclusions": {
+    "perpendicular_impossible": 1004,
+    "longitudinal_domain_empty": 10
+  },
+  "finite_cap_edges": 3205,
+  "cross_tree_copy_pair_bound": 1521,
+  "all_time_all_component_edge_cap": 501229,
+  "exact_dormant_archive_edges": [
+    [
+      0,
+      -2
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      -2
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      4,
+      -2
+    ],
+    [
+      4,
+      -1
+    ],
+    [
+      5,
+      -2
+    ]
+  ],
+  "incident_port_count": 43,
+  "active_at_cut172": true,
+  "dormant_at_cut173": true,
+  "all_port_read_families_after173": [
+    {
+      "cell": [
+        -1,
+        0
+      ],
+      "stage": 4,
+      "kind": "H",
+      "slot": 29,
+      "turn": "R",
+      "copy": [
+        3,
+        -5
+      ],
+      "time": [
+        1248,
+        -1605
+      ],
+      "domain": [
+        10,
+        null
+      ]
+    },
+    {
+      "cell": [
+        -1,
+        1
+      ],
+      "stage": 4,
+      "kind": "partial",
+      "slot": 12,
+      "turn": "L",
+      "time": [
+        1248,
+        -1518
+      ],
+      "domain": [
+        10,
+        null
+      ]
+    },
+    {
+      "cell": [
+        -1,
+        1
+      ],
+      "stage": 4,
+      "kind": "H",
+      "slot": 28,
+      "turn": "R",
+      "copy": [
+        3,
+        -5
+      ],
+      "time": [
+        1248,
+        -1606
+      ],
+      "domain": [
+        10,
+        null
+      ]
+    },
+    {
+      "cell": [
+        -1,
+        2
+      ],
+      "stage": 4,
+      "kind": "partial",
+      "slot": 13,
+      "turn": "R",
+      "time": [
+        1248,
+        -1517
+      ],
+      "domain": [
+        10,
+        null
+      ]
+    },
+    {
+      "cell": [
+        -1,
+        4
+      ],
+      "stage": 4,
+      "kind": "H",
+      "slot": 57,
+      "turn": "R",
+      "copy": [
+        3,
+        -5
+      ],
+      "time": [
+        1248,
+        -1577
+      ],
+      "domain": [
+        10,
+        null
+      ]
+    }
+  ],
+  "first_reimport": {
+    "cell": [
+      -1,
+      1
+    ],
+    "stage": 4,
+    "kind": "H",
+    "slot": 28,
+    "turn": "R",
+    "copy": [
+      3,
+      -5
+    ],
+    "time": [
+      1248,
+      -1606
+    ],
+    "domain": [
+      10,
+      null
+    ]
+  },
+  "dormant_integer_cut_count_n": [
+    624,
+    -1778
+  ],
+  "protected_recovery_cells": 90,
+  "recovery_guarded_updates": 983,
+  "phase0_tail_pose": [
+    5,
+    -4,
+    2
+  ],
+  "analytic": [
+    "I reconstructed the fresh four-cell182 prefix and its actual infiniteH continuation by minimal13-cell plus unread-field ray exclusions, all five affine stage endpoints, and all6832 strict pairwise read-set inequalities for every integerk>=10. All20 input cells are present initially and belong to their respective disjoint stage read sets. Thus stage execution retains the entire previous field, not cleaned masks.",
+    "At every time each long reference consists of its at-most394 startup-cell residue, at-most42 current/terminal K-phase cap, and T copies j=2..R_i-1. Future untouched ports are included in those caps. The983 recovery/alignment/warmup reads and final42 cap cover all new cells before the final sixth T family. Total cap cardinality3205 is a valid over-envelope; source histories and complete input debris remain.",
+    "All six physical T families were reconstructed in the same fixed w lattice. Each has13 vertices and distinct copies are vertex-disjoint. Nine nonparallel pairs have at most169 contacting copy pairs at eachk by unique2x2 solution. All6parallel pairs and all169vertex pairs each were independently ruled out by exact affine integer-domain feasibility, including the infinite final family.",
+    "Any non-isolated T copy in the envelope touches a cap or a different family. Cap endpoints number at most2S, and each meets at most one copy of each of6families, so at most12S copies touch caps. Cross-family contacts involve at most2P copies. Every complete envelope component is therefore bounded by S+12(12S+2P)=501229; actual components are subgraphs, at every fine cut and throughout the infinite captured future.",
+    "The target is active at cut172 and dormant in a COMPLETE15-edge archive at173. All43incident ports miss every other affine initial seed cell. I reconstructed every possible stage A/H/partial read family on those ports and its full integer parameter domain. Earliest is exactly stage4Hslot28 copy3k-5 at e-90, R(-1,1), for everyk>=10. No earlier boundary modification occurs. The edge joins an archive endpoint to the actual outside activewcursor, so the whole archive reimports at cut e-89 and the completed dormant cut count is624n-1778.",
+    "The90-cell protected restriction was independently reconstructed by the full XOR formula and affine outside-region guards;983actual recovery reads stay inside it, giving phase0H at(5,-4,S),e+775 and two warmup periods. The infinite H read rays stay in the protected region. This independently confirms the recovery/envelope interface without treating remote black output as absent.",
+    "The result forbids a UNIFORM archive-wait or consumed-renewal-age bound depending only on original mass20 and sustained component cap501229 across this family. Every member still captures. It does not refute orbit-specific eventual periodicity under boundedcomponents or prove one nonperiodic seed."
+  ],
+  "scope": "All even n>=20. The smaller106 component cap remains named-parameter evidence only. No uniform capture time, single-orbit unbounded dormancy, or global attraction claim.",
+  "bound_source_sha256": {
+    "standard_unread_cap_2026-10-23/W_FRONTIER.md": "fa3608e58b22fe9911282893dc79f92b9f8f09af18b711be8ecbf7ff915aca52",
+    "standard_unread_cap_2026-10-23/standard_w_frontier_certificate.json": "6c3294eede67916be8c7171e73683cf5009c9fe3846ed0bfb61580181186413a",
+    "recovered_bundle/ant_global/root/standard.json": "8083f7a1235db179c62ae12d85ba31a903a4f9f99bd0e72dfe5285c5422610a6",
+    "sources/kehao95-core/memory_feedback/proof/scalable-feedback-circuit.md": "1b2b1cffedd2115c3201b9582e374a18726337be7a7e28a84364b5fa902e0608",
+    "causal_reduction/root_reactivation_certificate.json": "862abbc313f59a0b4df33a7092e942424fbb6fcd3921b8199fbb957dbf5d2463",
+    "active_w_archive_itinerary_2026-10-23/twenty_cell_tree_contact_certificate.json": "ee566770217ba7fac57704ebcc0890e16933a97334ccb939fd63c348f279f7dd",
+    "active_w_archive_itinerary_2026-10-23/twenty_cell_frozen_dormancy_certificate.json": "088f5eeee1a44eb1fc77f1961e96a429b43ff112fa9818fe8005db924a85364c"
+  }
+}

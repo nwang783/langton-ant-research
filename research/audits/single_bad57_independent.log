@@ -1,0 +1,55 @@
+{
+  "status": "independent proof-clause verification passed",
+  "candidate_count": 8501,
+  "short_types": 23,
+  "forbidden_pairs": 8028,
+  "clauses": {
+    "equal-read": 1243,
+    "neighbors": 6785
+  },
+  "neighbor_options": 15589,
+  "intermediate_reader_options": 355498,
+  "charged_marker_overlaps": 1716,
+  "charged_sites": {
+    "0": [
+      [
+        2,
+        -3
+      ]
+    ],
+    "26": [
+      [
+        2,
+        -3
+      ],
+      [
+        1,
+        -5
+      ],
+      [
+        1,
+        -6
+      ],
+      [
+        2,
+        -7
+      ]
+    ],
+    "57": [
+      [
+        -3,
+        -3
+      ]
+    ]
+  },
+  "standard_cycle": [
+    2,
+    39,
+    37
+  ],
+  "standard_phase_in_audited_W": [
+    49
+  ],
+  "theorem": "Seven literal words with the eleven listed allowed pairs and actual right marker context: n0+4*n26+n57 <= entry black mass. Every infinite finite-support word in this language is eventually standard104. No larger graph coverage claimed.",
+  "source_certificate_sha256": "cfb6522e3055b105333701ed817b2308dc0b29bc9bdc6cd069e9371c90bd3918"
+}

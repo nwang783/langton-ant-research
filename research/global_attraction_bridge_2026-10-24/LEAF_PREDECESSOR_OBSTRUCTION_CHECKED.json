@@ -1,0 +1,335 @@
+{
+  "status": "AUTHOR first-step injection and continuation countercontrols; independent audit pending",
+  "cases": [
+    {
+      "case": "empty",
+      "start": 5710,
+      "end": 6042,
+      "interval_tree_root": [
+        11,
+        5
+      ],
+      "read_vertices": 140,
+      "leaf_count": 27,
+      "unmarked_leaves": 3,
+      "unmarked_leaf_starts_ending_unmarked": 1,
+      "inversion_map_size": 40,
+      "inversion_map_injective": true,
+      "inversion_map_sha256": "b71f666cb30e47c223d2895e82cdfd1c3934f6b2832f47602b0fe3718a72b2a3",
+      "selected_examples": [
+        {
+          "start": [
+            0,
+            8
+          ],
+          "nodes": [
+            {
+              "cell": [
+                0,
+                8
+              ],
+              "is_tree_leaf": true,
+              "tree_indegree": 0,
+              "actual_reads": [
+                [
+                  5812,
+                  "R"
+                ],
+                [
+                  5844,
+                  "L"
+                ],
+                [
+                  5880,
+                  "R"
+                ],
+                [
+                  5884,
+                  "L"
+                ]
+              ],
+              "last_predecessor": [
+                -1,
+                8
+              ],
+              "predecessor_last_read": 5919,
+              "last_tree_edge": [
+                0,
+                9
+              ]
+            },
+            {
+              "cell": [
+                -1,
+                8
+              ],
+              "is_tree_leaf": false,
+              "tree_indegree": 1,
+              "actual_reads": [
+                [
+                  5811,
+                  "R"
+                ],
+                [
+                  5879,
+                  "L"
+                ],
+                [
+                  5883,
+                  "R"
+                ],
+                [
+                  5919,
+                  "L"
+                ]
+              ],
+              "last_predecessor": [
+                -1,
+                7
+              ],
+              "predecessor_last_read": 5918,
+              "last_tree_edge": [
+                -2,
+                8
+              ]
+            }
+          ],
+          "terminal": [
+            -1,
+            8
+          ],
+          "terminal_last_arrival_is_tree_edge": true
+        }
+      ],
+      "full_input_hash": "01bea68ed62ba7f87350edd92660ae1a69533d3987491286118658e22fefc020",
+      "full_output_hash": "954f0284adde70ed10242de6ffad66bce383b8bba42885ceca189dfe09b37efe"
+    },
+    {
+      "case": "MT_100",
+      "start": 40071,
+      "end": 109168,
+      "interval_tree_root": [
+        -2,
+        372
+      ],
+      "read_vertices": 9402,
+      "leaf_count": 2388,
+      "unmarked_leaves": 783,
+      "unmarked_leaf_starts_ending_unmarked": 275,
+      "inversion_map_size": 3441,
+      "inversion_map_injective": true,
+      "inversion_map_sha256": "0a65bf1a792ed36fce9888ff733328dc2ea7003802b48bfe4c2c92070441a911",
+      "selected_examples": [
+        {
+          "start": [
+            432,
+            449
+          ],
+          "nodes": [
+            {
+              "cell": [
+                432,
+                449
+              ],
+              "is_tree_leaf": true,
+              "tree_indegree": 0,
+              "actual_reads": [
+                [
+                  40189,
+                  "R"
+                ],
+                [
+                  40197,
+                  "L"
+                ]
+              ],
+              "last_predecessor": [
+                432,
+                450
+              ],
+              "predecessor_last_read": 40212,
+              "last_tree_edge": [
+                433,
+                449
+              ]
+            },
+            {
+              "cell": [
+                432,
+                450
+              ],
+              "is_tree_leaf": false,
+              "tree_indegree": 1,
+              "actual_reads": [
+                [
+                  40188,
+                  "R"
+                ],
+                [
+                  40192,
+                  "L"
+                ],
+                [
+                  40196,
+                  "R"
+                ],
+                [
+                  40212,
+                  "L"
+                ]
+              ],
+              "last_predecessor": [
+                431,
+                450
+              ],
+              "predecessor_last_read": 40211,
+              "last_tree_edge": [
+                432,
+                451
+              ]
+            }
+          ],
+          "terminal": [
+            432,
+            450
+          ],
+          "terminal_last_arrival_is_tree_edge": true
+        },
+        {
+          "start": [
+            213,
+            234
+          ],
+          "nodes": [
+            {
+              "cell": [
+                213,
+                234
+              ],
+              "is_tree_leaf": true,
+              "tree_indegree": 0,
+              "actual_reads": [
+                [
+                  52303,
+                  "R"
+                ],
+                [
+                  57419,
+                  "L"
+                ],
+                [
+                  57423,
+                  "R"
+                ],
+                [
+                  57427,
+                  "L"
+                ]
+              ],
+              "last_predecessor": [
+                213,
+                233
+              ],
+              "predecessor_last_read": 71738,
+              "last_tree_edge": [
+                212,
+                234
+              ]
+            },
+            {
+              "cell": [
+                213,
+                233
+              ],
+              "is_tree_leaf": true,
+              "tree_indegree": 0,
+              "actual_reads": [
+                [
+                  57418,
+                  "R"
+                ],
+                [
+                  57422,
+                  "L"
+                ],
+                [
+                  57426,
+                  "R"
+                ],
+                [
+                  71738,
+                  "L"
+                ]
+              ],
+              "last_predecessor": [
+                214,
+                233
+              ],
+              "predecessor_last_read": 71753,
+              "last_tree_edge": [
+                213,
+                232
+              ]
+            },
+            {
+              "cell": [
+                214,
+                233
+              ],
+              "is_tree_leaf": false,
+              "tree_indegree": 2,
+              "actual_reads": [
+                [
+                  57413,
+                  "R"
+                ],
+                [
+                  57417,
+                  "L"
+                ],
+                [
+                  57425,
+                  "R"
+                ],
+                [
+                  71737,
+                  "L"
+                ],
+                [
+                  71745,
+                  "R"
+                ],
+                [
+                  71753,
+                  "L"
+                ]
+              ],
+              "last_predecessor": [
+                214,
+                234
+              ],
+              "predecessor_last_read": 71752,
+              "last_tree_edge": [
+                215,
+                233
+              ]
+            }
+          ],
+          "terminal": [
+            214,
+            233
+          ],
+          "terminal_last_arrival_is_tree_edge": true
+        }
+      ],
+      "full_input_hash": "150571ca74149c015a4ff5477f04c50917651f3dd84ad074a065199b51de5355",
+      "full_output_hash": "a2053b404f7d8347e13d7634840426d7ba7b0838163718f809205ca069211009"
+    }
+  ],
+  "dependencies": {
+    "WHOLE_LAST_EXIT_RENEWAL_MANIFEST.json": "2689a2a619f607b42011bce454b6da60746747a314822027103fe89d90e22bd4",
+    "WHOLE_LAST_EXIT_ENDPOINT_ADDENDUM.json": "15a2411bbad3ff4d8947a39b2af7be02ff19ab81fc2e39cc2fff43ffaac9b5de",
+    "../audits/check_whole_last_exit_renewal_independent.json": "ebd246b6bb9daaa079ef84bd094cefb096648d6a00dd91afecafb182a3014594"
+  },
+  "scope": "Fresh-root interval trees only. First-step injection does not make terminal chains an injective charge to C/O. Gross leaf<=C+O+1 is neither proved nor disproved."
+}

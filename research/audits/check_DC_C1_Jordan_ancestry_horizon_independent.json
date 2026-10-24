@@ -1,0 +1,1001 @@
+{
+  "status": "PASS old DC/C1 Jordan horizon and40-to21 boundary reduction",
+  "manifest_sha256": "7d2cc70d3b41eef18b3805662a87b182b97f05ff9ff45ef5ff5aa659cfb9027d",
+  "rows": [
+    {
+      "id": 75,
+      "foreign": "F",
+      "foreign_pose": [
+        3,
+        -4,
+        1
+      ],
+      "returned_pose": [
+        1,
+        0,
+        3
+      ],
+      "contact": [
+        1,
+        1
+      ],
+      "actual_foreign_vertices": [
+        [
+          5,
+          -7
+        ],
+        [
+          3,
+          -1
+        ]
+      ],
+      "whole_loop_min_y": -7,
+      "max_preceding_N_vertical_weight": 2,
+      "zero_C_words": [
+        "",
+        "D",
+        "DD"
+      ]
+    },
+    {
+      "id": 76,
+      "foreign": "Q",
+      "foreign_pose": [
+        5,
+        -4,
+        1
+      ],
+      "returned_pose": [
+        1,
+        0,
+        3
+      ],
+      "contact": [
+        1,
+        1
+      ],
+      "actual_foreign_vertices": [
+        [
+          9,
+          -7
+        ],
+        [
+          7,
+          -1
+        ],
+        [
+          3,
+          -1
+        ]
+      ],
+      "whole_loop_min_y": -7,
+      "max_preceding_N_vertical_weight": 2,
+      "zero_C_words": [
+        "",
+        "D",
+        "DD"
+      ]
+    },
+    {
+      "id": 77,
+      "foreign": "B",
+      "foreign_pose": [
+        6,
+        -3,
+        1
+      ],
+      "returned_pose": [
+        1,
+        0,
+        3
+      ],
+      "contact": [
+        1,
+        1
+      ],
+      "actual_foreign_vertices": [
+        [
+          11,
+          -5
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          3,
+          -1
+        ]
+      ],
+      "whole_loop_min_y": -5,
+      "max_preceding_N_vertical_weight": 1,
+      "zero_C_words": [
+        "",
+        "D"
+      ]
+    }
+  ],
+  "all40_boundary_interfaces": [
+    {
+      "id": 75,
+      "full": "DC",
+      "run": "",
+      "entry": [
+        -2,
+        1,
+        1
+      ],
+      "exit": [
+        0,
+        0,
+        0
+      ],
+      "last_C_entry": [
+        -1,
+        0,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 75,
+      "full": "VC",
+      "run": "",
+      "entry": [
+        -4,
+        1,
+        1
+      ],
+      "exit": [
+        0,
+        0,
+        0
+      ],
+      "last_C_entry": [
+        -1,
+        0,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 75,
+      "full": "VCC",
+      "run": "",
+      "entry": [
+        0,
+        4,
+        2
+      ],
+      "exit": [
+        0,
+        0,
+        0
+      ],
+      "last_C_entry": [
+        -1,
+        0,
+        1
+      ],
+      "disposition": "double_tail_literal_conflict",
+      "input_context_tick": 11,
+      "physical_owner": "own C-tail tick1/read2"
+    },
+    {
+      "id": 75,
+      "full": "UC",
+      "run": "",
+      "entry": [
+        -5,
+        0,
+        1
+      ],
+      "exit": [
+        0,
+        0,
+        0
+      ],
+      "last_C_entry": [
+        -1,
+        0,
+        1
+      ],
+      "disposition": "signed_immediate_UC_bud_guard"
+    },
+    {
+      "id": 75,
+      "full": "UCC",
+      "run": "",
+      "entry": [
+        -1,
+        5,
+        2
+      ],
+      "exit": [
+        0,
+        0,
+        0
+      ],
+      "last_C_entry": [
+        -1,
+        0,
+        1
+      ],
+      "disposition": "double_tail_literal_conflict",
+      "input_context_tick": 11,
+      "physical_owner": "own C-tail tick1/read2"
+    },
+    {
+      "id": 75,
+      "full": "DC",
+      "run": "D",
+      "entry": [
+        -3,
+        0,
+        1
+      ],
+      "exit": [
+        -1,
+        -1,
+        0
+      ],
+      "last_C_entry": [
+        -2,
+        -1,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 75,
+      "full": "VC",
+      "run": "D",
+      "entry": [
+        -5,
+        0,
+        1
+      ],
+      "exit": [
+        -1,
+        -1,
+        0
+      ],
+      "last_C_entry": [
+        -2,
+        -1,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 75,
+      "full": "VCC",
+      "run": "D",
+      "entry": [
+        -1,
+        3,
+        2
+      ],
+      "exit": [
+        -1,
+        -1,
+        0
+      ],
+      "last_C_entry": [
+        -2,
+        -1,
+        1
+      ],
+      "disposition": "double_tail_literal_conflict",
+      "input_context_tick": 11,
+      "physical_owner": "next actual word tick1/read2"
+    },
+    {
+      "id": 75,
+      "full": "UC",
+      "run": "D",
+      "entry": [
+        -6,
+        -1,
+        1
+      ],
+      "exit": [
+        -1,
+        -1,
+        0
+      ],
+      "last_C_entry": [
+        -2,
+        -1,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 75,
+      "full": "UCC",
+      "run": "D",
+      "entry": [
+        -2,
+        4,
+        2
+      ],
+      "exit": [
+        -1,
+        -1,
+        0
+      ],
+      "last_C_entry": [
+        -2,
+        -1,
+        1
+      ],
+      "disposition": "double_tail_literal_conflict",
+      "input_context_tick": 11,
+      "physical_owner": "next actual word tick1/read2"
+    },
+    {
+      "id": 75,
+      "full": "DC",
+      "run": "DD",
+      "entry": [
+        -4,
+        -1,
+        1
+      ],
+      "exit": [
+        -2,
+        -2,
+        0
+      ],
+      "last_C_entry": [
+        -3,
+        -2,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 75,
+      "full": "VC",
+      "run": "DD",
+      "entry": [
+        -6,
+        -1,
+        1
+      ],
+      "exit": [
+        -2,
+        -2,
+        0
+      ],
+      "last_C_entry": [
+        -3,
+        -2,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 75,
+      "full": "VCC",
+      "run": "DD",
+      "entry": [
+        -2,
+        2,
+        2
+      ],
+      "exit": [
+        -2,
+        -2,
+        0
+      ],
+      "last_C_entry": [
+        -3,
+        -2,
+        1
+      ],
+      "disposition": "double_tail_literal_conflict",
+      "input_context_tick": 11,
+      "physical_owner": "next actual word tick1/read2"
+    },
+    {
+      "id": 75,
+      "full": "UC",
+      "run": "DD",
+      "entry": [
+        -7,
+        -2,
+        1
+      ],
+      "exit": [
+        -2,
+        -2,
+        0
+      ],
+      "last_C_entry": [
+        -3,
+        -2,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 75,
+      "full": "UCC",
+      "run": "DD",
+      "entry": [
+        -3,
+        3,
+        2
+      ],
+      "exit": [
+        -2,
+        -2,
+        0
+      ],
+      "last_C_entry": [
+        -3,
+        -2,
+        1
+      ],
+      "disposition": "double_tail_literal_conflict",
+      "input_context_tick": 11,
+      "physical_owner": "next actual word tick1/read2"
+    },
+    {
+      "id": 76,
+      "full": "DC",
+      "run": "",
+      "entry": [
+        -2,
+        1,
+        1
+      ],
+      "exit": [
+        0,
+        0,
+        0
+      ],
+      "last_C_entry": [
+        -1,
+        0,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 76,
+      "full": "VC",
+      "run": "",
+      "entry": [
+        -4,
+        1,
+        1
+      ],
+      "exit": [
+        0,
+        0,
+        0
+      ],
+      "last_C_entry": [
+        -1,
+        0,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 76,
+      "full": "VCC",
+      "run": "",
+      "entry": [
+        0,
+        4,
+        2
+      ],
+      "exit": [
+        0,
+        0,
+        0
+      ],
+      "last_C_entry": [
+        -1,
+        0,
+        1
+      ],
+      "disposition": "double_tail_literal_conflict",
+      "input_context_tick": 11,
+      "physical_owner": "own C-tail tick1/read2"
+    },
+    {
+      "id": 76,
+      "full": "UC",
+      "run": "",
+      "entry": [
+        -5,
+        0,
+        1
+      ],
+      "exit": [
+        0,
+        0,
+        0
+      ],
+      "last_C_entry": [
+        -1,
+        0,
+        1
+      ],
+      "disposition": "signed_immediate_UC_bud_guard"
+    },
+    {
+      "id": 76,
+      "full": "UCC",
+      "run": "",
+      "entry": [
+        -1,
+        5,
+        2
+      ],
+      "exit": [
+        0,
+        0,
+        0
+      ],
+      "last_C_entry": [
+        -1,
+        0,
+        1
+      ],
+      "disposition": "double_tail_literal_conflict",
+      "input_context_tick": 11,
+      "physical_owner": "own C-tail tick1/read2"
+    },
+    {
+      "id": 76,
+      "full": "DC",
+      "run": "D",
+      "entry": [
+        -3,
+        0,
+        1
+      ],
+      "exit": [
+        -1,
+        -1,
+        0
+      ],
+      "last_C_entry": [
+        -2,
+        -1,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 76,
+      "full": "VC",
+      "run": "D",
+      "entry": [
+        -5,
+        0,
+        1
+      ],
+      "exit": [
+        -1,
+        -1,
+        0
+      ],
+      "last_C_entry": [
+        -2,
+        -1,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 76,
+      "full": "VCC",
+      "run": "D",
+      "entry": [
+        -1,
+        3,
+        2
+      ],
+      "exit": [
+        -1,
+        -1,
+        0
+      ],
+      "last_C_entry": [
+        -2,
+        -1,
+        1
+      ],
+      "disposition": "double_tail_literal_conflict",
+      "input_context_tick": 11,
+      "physical_owner": "next actual word tick1/read2"
+    },
+    {
+      "id": 76,
+      "full": "UC",
+      "run": "D",
+      "entry": [
+        -6,
+        -1,
+        1
+      ],
+      "exit": [
+        -1,
+        -1,
+        0
+      ],
+      "last_C_entry": [
+        -2,
+        -1,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 76,
+      "full": "UCC",
+      "run": "D",
+      "entry": [
+        -2,
+        4,
+        2
+      ],
+      "exit": [
+        -1,
+        -1,
+        0
+      ],
+      "last_C_entry": [
+        -2,
+        -1,
+        1
+      ],
+      "disposition": "double_tail_literal_conflict",
+      "input_context_tick": 11,
+      "physical_owner": "next actual word tick1/read2"
+    },
+    {
+      "id": 76,
+      "full": "DC",
+      "run": "DD",
+      "entry": [
+        -4,
+        -1,
+        1
+      ],
+      "exit": [
+        -2,
+        -2,
+        0
+      ],
+      "last_C_entry": [
+        -3,
+        -2,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 76,
+      "full": "VC",
+      "run": "DD",
+      "entry": [
+        -6,
+        -1,
+        1
+      ],
+      "exit": [
+        -2,
+        -2,
+        0
+      ],
+      "last_C_entry": [
+        -3,
+        -2,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 76,
+      "full": "VCC",
+      "run": "DD",
+      "entry": [
+        -2,
+        2,
+        2
+      ],
+      "exit": [
+        -2,
+        -2,
+        0
+      ],
+      "last_C_entry": [
+        -3,
+        -2,
+        1
+      ],
+      "disposition": "double_tail_literal_conflict",
+      "input_context_tick": 11,
+      "physical_owner": "next actual word tick1/read2"
+    },
+    {
+      "id": 76,
+      "full": "UC",
+      "run": "DD",
+      "entry": [
+        -7,
+        -2,
+        1
+      ],
+      "exit": [
+        -2,
+        -2,
+        0
+      ],
+      "last_C_entry": [
+        -3,
+        -2,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 76,
+      "full": "UCC",
+      "run": "DD",
+      "entry": [
+        -3,
+        3,
+        2
+      ],
+      "exit": [
+        -2,
+        -2,
+        0
+      ],
+      "last_C_entry": [
+        -3,
+        -2,
+        1
+      ],
+      "disposition": "double_tail_literal_conflict",
+      "input_context_tick": 11,
+      "physical_owner": "next actual word tick1/read2"
+    },
+    {
+      "id": 77,
+      "full": "DC",
+      "run": "",
+      "entry": [
+        -2,
+        1,
+        1
+      ],
+      "exit": [
+        0,
+        0,
+        0
+      ],
+      "last_C_entry": [
+        -1,
+        0,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 77,
+      "full": "VC",
+      "run": "",
+      "entry": [
+        -4,
+        1,
+        1
+      ],
+      "exit": [
+        0,
+        0,
+        0
+      ],
+      "last_C_entry": [
+        -1,
+        0,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 77,
+      "full": "VCC",
+      "run": "",
+      "entry": [
+        0,
+        4,
+        2
+      ],
+      "exit": [
+        0,
+        0,
+        0
+      ],
+      "last_C_entry": [
+        -1,
+        0,
+        1
+      ],
+      "disposition": "double_tail_literal_conflict",
+      "input_context_tick": 11,
+      "physical_owner": "own C-tail tick1/read2"
+    },
+    {
+      "id": 77,
+      "full": "UC",
+      "run": "",
+      "entry": [
+        -5,
+        0,
+        1
+      ],
+      "exit": [
+        0,
+        0,
+        0
+      ],
+      "last_C_entry": [
+        -1,
+        0,
+        1
+      ],
+      "disposition": "signed_immediate_UC_bud_guard"
+    },
+    {
+      "id": 77,
+      "full": "UCC",
+      "run": "",
+      "entry": [
+        -1,
+        5,
+        2
+      ],
+      "exit": [
+        0,
+        0,
+        0
+      ],
+      "last_C_entry": [
+        -1,
+        0,
+        1
+      ],
+      "disposition": "double_tail_literal_conflict",
+      "input_context_tick": 11,
+      "physical_owner": "own C-tail tick1/read2"
+    },
+    {
+      "id": 77,
+      "full": "DC",
+      "run": "D",
+      "entry": [
+        -3,
+        0,
+        1
+      ],
+      "exit": [
+        -1,
+        -1,
+        0
+      ],
+      "last_C_entry": [
+        -2,
+        -1,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 77,
+      "full": "VC",
+      "run": "D",
+      "entry": [
+        -5,
+        0,
+        1
+      ],
+      "exit": [
+        -1,
+        -1,
+        0
+      ],
+      "last_C_entry": [
+        -2,
+        -1,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 77,
+      "full": "VCC",
+      "run": "D",
+      "entry": [
+        -1,
+        3,
+        2
+      ],
+      "exit": [
+        -1,
+        -1,
+        0
+      ],
+      "last_C_entry": [
+        -2,
+        -1,
+        1
+      ],
+      "disposition": "double_tail_literal_conflict",
+      "input_context_tick": 11,
+      "physical_owner": "next actual word tick1/read2"
+    },
+    {
+      "id": 77,
+      "full": "UC",
+      "run": "D",
+      "entry": [
+        -6,
+        -1,
+        1
+      ],
+      "exit": [
+        -1,
+        -1,
+        0
+      ],
+      "last_C_entry": [
+        -2,
+        -1,
+        1
+      ],
+      "disposition": "necessary_only_open"
+    },
+    {
+      "id": 77,
+      "full": "UCC",
+      "run": "D",
+      "entry": [
+        -2,
+        4,
+        2
+      ],
+      "exit": [
+        -1,
+        -1,
+        0
+      ],
+      "last_C_entry": [
+        -2,
+        -1,
+        1
+      ],
+      "disposition": "double_tail_literal_conflict",
+      "input_context_tick": 11,
+      "physical_owner": "next actual word tick1/read2"
+    }
+  ],
+  "analytic": [
+    "The simple old-plus-first-foreign path and chronological FIRST returned contact give a Jordan loop from the outgoing old source contact along the actual old/foreign arc, then the initial returned segment. The signed local foreign/returned interface rules out any extra intersection with repaired foreign pieces. No continuation beyond first contact is used.",
+    "The signed n=3 plus one-foreign principal tangent lift is5 quarter-turn units plus alpha_return-alpha_source. Closing the actual NW-to-NE contact subtracts1 quarter for C and1/2+atan3/(pi/2) for V. Both yield +4, so the Jordan loop is CCW. The true preceding-C bit is zero by actual complete-eight/foreign adjacency, so no missing negative wrap is suppressed.",
+    "At an old source vertex, same-point contact with its incoming atom is allowed and owned by the outgoing source. Every actual incoming D/V/U/C reverse ray lies strictly in the reflex interior. At a D midpoint the preceding half-D lies strictly inside. At old C1 the creating-D SW ray lies inside. The connected earlier old prefix has no further boundary contact by old simplicity and FIRST-contact, hence its entirety is inside. This is an actual finite-prefix argument, not an exterior-wire or arbitrary coloring inference.",
+    "Whole-loop support is derived from literal atom signs for ALL run lengths. Before C1 N heads are nondecreasing in y; W heads are at least2; after W->S and S->E, S/E heads decrease toward the foreign target. Corrected-center offsets preserve bounds at every atomic vertex, including internal C tails. Real F56/Qtail/Btail vertices give exact minima; straight segments cannot dip below their endpoints. Jordan interior is STRICTLY above the supporting line.",
+    "The preceding maximal zero-C N run has positive height d+3v+4u, so its starting center -1-2height must exceed the exact support. If no previous C exists, the factor initial genuine U base contributes at least4 and contradicts that inequality. Thus a real positive-C full packet precedes the bounded run; its earlier history remains arbitrary. The last C is its actual final tail, not a fictitious internal marker.",
+    "In creating-D frame actual F/Q minima are-7 and B minimum-5. The prior N run consists solely of D^k with k<=2/2/1. Exactly40 actual positive-C parent/run cases are generated;16 genuine VCC/UCC->first-D-family necessary prefixes fail at context11, whose physical owner is selected DC C-tail read2 at k0 and next actual word read2 otherwise. Three immediate UC cases use the separately signed original-bud guard;21 feasible-prefix necessary interfaces remain (8F,8Q,5B). No future whole history is certified."
+  ],
+  "scope": "Only old C1 of actual DC and its first returned RAW C contact. No returned simplicity, generic exterior contradiction, second foreign, or arbitrary earlier history bound."
+}

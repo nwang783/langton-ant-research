@@ -1,0 +1,64 @@
+{
+  "status": "PASS flat-ended passiveVV LL notch has a precedingYY flatRR cap, mandatory endpoint scope retained",
+  "proof": "b9c0a9e769588c41001418bb91aae45423e9eaa1adac761eb6ed539fcdd77709",
+  "mandatory_scope_qualification": "12769efd4c4d71d6ea4ff90e597d5f95dfd1a6af614a9a704f0138c970fef7ff",
+  "certificate": "6cfb8be3f3ddce7dde3da282c8ba600dcbcdd188d361816f1b4fb17b9bb8164f",
+  "script": "d90b171ba0cd32678e4dfb7b100d844ff0b38c3c195b2a566673d77844c02be5",
+  "independent_counts": {
+    "skipped": 3127,
+    "clock": 190,
+    "open": 3
+  },
+  "all_three_local_inventories": [
+    {
+      "(0, 0)": "NNSS",
+      "(0, 1)": "EEWW",
+      "(0, 2)": "NN",
+      "(1, 0)": "EWWE",
+      "(1, 1)": "SNNS",
+      "(1, 2)": "EWW",
+      "(2, 0)": "NNSS",
+      "(2, 1)": "WWEE",
+      "(2, 2)": "NSSN"
+    },
+    {
+      "(0, 0)": "NNSS",
+      "(0, 1)": "EEWW",
+      "(0, 2)": "NNS",
+      "(1, 0)": "EWWE",
+      "(1, 1)": "SNNS",
+      "(1, 2)": "EWW",
+      "(2, 0)": "NNSS",
+      "(2, 1)": "WWEE",
+      "(2, 2)": "NSSN"
+    },
+    {
+      "(0, 0)": "NNSS",
+      "(0, 1)": "EEWW",
+      "(0, 2)": "NNSS",
+      "(1, 0)": "EWWE",
+      "(1, 1)": "SNNS",
+      "(1, 2)": "EWWE",
+      "(2, 0)": "NNSS",
+      "(2, 1)": "WWEE",
+      "(2, 2)": "NSSN"
+    }
+  ],
+  "unique_cyclic_inventory": {
+    "(0, 0)": "NNSS",
+    "(0, 1)": "EEWW",
+    "(0, 2)": "NNSS",
+    "(1, 0)": "EWWE",
+    "(1, 1)": "SNNS",
+    "(1, 2)": "EWWE",
+    "(2, 0)": "NNSS",
+    "(2, 1)": "WWEE",
+    "(2, 2)": "NSSN"
+  },
+  "analytic_review": [
+    "The exact fixed flat-Y flanks are retained while every unknown3x3 cell has EMPTY or every completeWHITE1..4 physical-axis history. Independent port propagation and physical rank/clock/global-face checker reconstruct all3320 completions and three open inventories. This is a complete local cover, not a factor or attained front.",
+    "The cyclic predecessor of actual B incomingS must be physicalU immediately north. U firstR E departsS. A hypothetical LEFT U needs T immediatelyeast to departW; actual T firstR N departsE, so that role is impossible. Therefore U isRIGHT incomingE. EWW has exactlyone incomingE use and is forbidden by nooneuse; only EWWE flatY survives. Full-drift quotient aliases do not change any physical incoming direction or complete ordinal count.",
+    "The conclusion applies ONLY to FLAT-ended passiveVV pairs. Mandatory12769efd withdraws the unqualified section3 sentence. The distinct high-high zero-chordVV joints in the signed mixedLL/high-run tables remain live; no mixedflat/high row or all-highRR elimination is inferred.",
+    "Assignment to the immediate precedingYY cap is injective by its following physical cyclic contacts, equivariantly under full drift. No fuel, age bound, completefront exclusion or owner charge follows."
+  ]
+}

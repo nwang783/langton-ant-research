@@ -1,0 +1,285 @@
+{
+  "status": "PASS actual positive-positive chronological complete first-R recycling, q3 and q5 literal controls",
+  "note_sha256": "f7c4a02972bd386a8a2908cd1f2a89d868a203949e4dc77265cf079cc336d1bb",
+  "controls": [
+    {
+      "q": 3,
+      "witness_sha256": "89c18c35557e12a35cdbbe7505c16218c8dca973d33ada1d952868856f440f19",
+      "initial_partition": {
+        "input": 97,
+        "stitch": 2,
+        "guide": 109
+      },
+      "stages": [
+        {
+          "stage": "first_R",
+          "reads": 195,
+          "L": 97,
+          "R": 98,
+          "gain": 1,
+          "births_w_z": [
+            0,
+            0
+          ],
+          "erasures_w_z": [
+            0,
+            0
+          ],
+          "exceptions": [],
+          "deaths": {
+            "input": 97
+          }
+        },
+        {
+          "stage": "transport_R",
+          "reads": 220,
+          "L": 107,
+          "R": 113,
+          "gain": 6,
+          "births_w_z": [
+            0,
+            2
+          ],
+          "erasures_w_z": [
+            1,
+            1
+          ],
+          "exceptions": [
+            [
+              2,
+              1,
+              true,
+              "guide",
+              [
+                -25,
+                -25
+              ]
+            ],
+            [
+              220,
+              4,
+              false,
+              "transport_R",
+              [
+                0,
+                2
+              ]
+            ]
+          ],
+          "deaths": {
+            "guide": 106,
+            "transport_R": 1
+          }
+        },
+        {
+          "stage": "second_R",
+          "reads": 205,
+          "L": 102,
+          "R": 103,
+          "gain": 1,
+          "births_w_z": [
+            0,
+            52
+          ],
+          "erasures_w_z": [
+            0,
+            53
+          ],
+          "exceptions": [],
+          "deaths": {
+            "first_R": 98,
+            "stitch": 2,
+            "transport_R": 2
+          }
+        }
+      ],
+      "total_reads": 620,
+      "final_mass": 216,
+      "final_origins": {
+        "guide": 3,
+        "transport_R": 110,
+        "second_R": 103
+      },
+      "final_w_component_masses": [
+        53,
+        42,
+        30,
+        28,
+        18,
+        14,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "next_word": "RRRRL",
+      "scope": "Literal finite full board only; no all-q claim"
+    },
+    {
+      "q": 5,
+      "witness_sha256": "55ea923b2aef195bceb026bc3a64d246d6e96b88d002973eb59bbb0147a60d27",
+      "initial_partition": {
+        "input": 217,
+        "stitch": 4,
+        "guide": 209
+      },
+      "stages": [
+        {
+          "stage": "first_R",
+          "reads": 437,
+          "L": 217,
+          "R": 220,
+          "gain": 3,
+          "births_w_z": [
+            0,
+            0
+          ],
+          "erasures_w_z": [
+            0,
+            0
+          ],
+          "exceptions": [],
+          "deaths": {
+            "input": 217
+          }
+        },
+        {
+          "stage": "transport_R",
+          "reads": 418,
+          "L": 207,
+          "R": 211,
+          "gain": 4,
+          "births_w_z": [
+            0,
+            2
+          ],
+          "erasures_w_z": [
+            1,
+            1
+          ],
+          "exceptions": [
+            [
+              2,
+              1,
+              true,
+              "guide",
+              [
+                50,
+                26
+              ]
+            ],
+            [
+              418,
+              4,
+              false,
+              "transport_R",
+              [
+                0,
+                2
+              ]
+            ]
+          ],
+          "deaths": {
+            "guide": 206,
+            "transport_R": 1
+          }
+        },
+        {
+          "stage": "second_R",
+          "reads": 455,
+          "L": 226,
+          "R": 229,
+          "gain": 3,
+          "births_w_z": [
+            0,
+            115
+          ],
+          "erasures_w_z": [
+            0,
+            116
+          ],
+          "exceptions": [],
+          "deaths": {
+            "first_R": 220,
+            "stitch": 4,
+            "transport_R": 2
+          }
+        }
+      ],
+      "total_reads": 1310,
+      "final_mass": 440,
+      "final_origins": {
+        "guide": 3,
+        "transport_R": 208,
+        "second_R": 229
+      },
+      "final_w_component_masses": [
+        77,
+        66,
+        52,
+        50,
+        38,
+        36,
+        30,
+        28,
+        18,
+        14,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "next_word": "RRRRL",
+      "scope": "Literal finite full board only; no all-q claim"
+    }
+  ],
+  "analytic": [
+    "Every listed seed cell is installed before the first update, and no later board completion occurs. I independently reconstructed the input staircase and its charged stitch cells, then simulated the actual entire board and every lifetime; the remaining seed is the complete guide, including its initial w cycle.",
+    "The first epoch is w-ordinary and graph-event-free, with positive gain. Its immediately following transport begins with an actual old-cycle r1 L, making the first epoch maximal. All first-R lifetimes survive transport unchanged. Transport ends with r4 L at the actual favorable inner pose, not a reset teleport.",
+    "The second epoch is w-ordinary, consumes all first-R lifetimes, all charged old stitches and exactly two transport-R lifetimes, with no own-stage R death. It has positive gain. Its final active w component is empty, forcing the next RRRRL, so it too is maximal. Many opposite-graph births/erasures are present and explicitly counted.",
+    "The guide is charged and largely destroyed, final stitches/input cells are WHITE and the full output is fragmented. The optional actual L predecessor is a w-cycle erasure, not a bridge. Nothing establishes an all-q family, recurrence, unbounded bounded-renewal gain, or a noncapturing finite seed."
+  ],
+  "scope": "Independently replayed exact q3 and q5 witnesses. Author additional finite q7/q9/q15 controls and all-q routing are not needed or inferred by this audit."
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS controller-free occurrence-dependent identity/nine unit self-embedding exclusion",
+  "results": [
+    {
+      "root": "R",
+      "complete_macro_nodes": 53,
+      "fine_search_nodes": 3213,
+      "last_macro_boundary": 39,
+      "largest_coarse_index": 7,
+      "accepted_macro_history_sha256": "c21cc6ee88836ba3031e3aa608afdd3b851f911930f1c2183987bd329729a2e8"
+    },
+    {
+      "root": "L",
+      "complete_macro_nodes": 53,
+      "fine_search_nodes": 3213,
+      "last_macro_boundary": 39,
+      "largest_coarse_index": 7,
+      "accepted_macro_history_sha256": "89039e5dca9fb801569b302e7b6939a1d0799301d6726b1fda1ec2f92f9df883"
+    }
+  ],
+  "scope": "Equal actual coarse/fine positions AND incoming headings, each macro length1 or9 and charge equal to its coarse turn, at least one9. Normalize at the first9; arbitrary initial coloring. No eventual offsets, unit rotations, other lengths, or heading-free extension.",
+  "note": "The DFS branches only on genuinely unknown current cell colors and directly tests endpoints/charge; no precomputed image palette or controller consistency is assumed."
+}

@@ -1,0 +1,54 @@
+{
+  "status": "PASS exact5812 feedback-word fixed-point obstruction, not arbitrary feedback",
+  "manifest": "72a19c30ae323f04b3cabd39033fb96a80071d268b0a5d642ac8f943867c4497",
+  "full_actual_reads": 57885,
+  "actual_tail_tests": 170,
+  "actual_entire_relevance": [
+    234,
+    144
+  ],
+  "old_new_survivors": [
+    90,
+    54
+  ],
+  "counterfactual_footprint": {
+    "cells": 1210,
+    "full_drift_classes": 1160,
+    "odd_toggles": 654,
+    "unique_finite_candidate": 35,
+    "discarded_parity_output": 620
+  },
+  "first_intrinsic_two_copy_failure": {
+    "cell": [
+      -69,
+      68
+    ],
+    "earlier_tick": 5733,
+    "later_tick": 6745,
+    "earlier_turn": "R",
+    "later_turn": "R"
+  },
+  "actual_second_word_first_failure": 2,
+  "full_board_port_disagreements": {
+    "BLACK_missing": 61,
+    "BLACK_interference": 66
+  },
+  "analytic_review": [
+    "The actual entire contact-to-contact word restores N with drift(-68,72), so no freely inserted quarter-rotation is part of this fixed recurrence. All57885 physical reads, every meaningful full identity board, lifetime fate and exact infinite canonical tail reconstruct.",
+    "The full counterfactual W^2 geometry has consecutive R5733/R6745 at the same physical(-69,68) and no intermediate visit. It is the first intrinsic alternation failure and rules out TWO copies on any initial board, even infinite support. The later prescribed read is not asserted to occur in the actual orbit.",
+    "For each full Zd orbit, ell is the minimum SPATIAL layer. The prescribed future footprint is k>=ell, shifted future k>=ell+1. Therefore finite recurring pruning must satisfy s(k-1)=s(k) XOR t(k) only for k>=ell+1, with zero large-k boundary. The unique suffix-XOR solution is necessary only; layerell may leave exposure. Unread archive outside the entire footprint cannot alter it.",
+    "All1160 orbit equations produce35 BLACK cells and620 discarded parity outputs, but head is WHITE against the first required L. These are counterfactual algebraic sets, never the actual234/144 pruning or an attained ant board.",
+    "The marker orbit has only phase0L: the second actual marker is old R18845, not output of the5812 loop. The third marker is absent from both entire actual boards. The115 stable first-L diagnostic is old-at-entry fuel only and subordinate to the stronger intrinsic contradiction.",
+    "The actual first repetition failure at offset2 is fixed WHITE by the earlier18971L with no intervening visit. Its127 whole-board port discrepancies use ALL black archive, not a C* crop. Preserving the entire preparation cannot fix that read through unread seed edits.",
+    "Only this exact word/pose recurrence is excluded. Other connecting words, longer feedback cycles, new preparations and universal attraction remain open."
+  ],
+  "source_hashes": {
+    "OPPOSITE_TRANSVERSE_FEEDBACK_MANIFEST.json": "01b4c6f92822034907127a431c454d10eb991880dc4a571f7fc08b0f97ca9fa4",
+    "OPPOSITE_TRANSVERSE_FEEDBACK_CHECKED.json": "020be65585cff70705fa145d3088250a0784f70575e4aa4dfbb408642b0405f9",
+    "../audits/check_opposite_transverse_feedback_independent.json": "4be9af48f8c44f3336e6bd250cbad2fbcead22a6b9ac1af47b403357da5257ba",
+    "OPPOSITE_PREHISTORY_OBSTRUCTION_MANIFEST.json": "a692203bd8f13e5f49da7de28953895c0f220de793eea7e2338ffeea73abaea8",
+    "../audits/check_opposite_prehistory_independent.json": "9c8305e35cc86c877bf73823a53ff7482a14d33bf985e96cd7095cfd74454b32",
+    "record_event_projection.py": "7c2819295aaa2a5c1b64cc83746d017ceb351258232bd430556ad14e5f38f2e7",
+    "check_return_permanent_output_debt.py": "5f90207b8dec67f81c6e548e2c30018399939eb0f4f6a538e13caa4d65d1d625"
+  }
+}

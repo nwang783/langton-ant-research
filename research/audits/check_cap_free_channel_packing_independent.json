@@ -1,0 +1,49 @@
+{
+  "status": "PASS event-disjoint actual successor COMPONENT packing, WITH mandatory d24e02e9 qualifier",
+  "files": {
+    "cap_free_actual_channel_packing_and_voltage_cycles.md": "e75edaf9b4601b780c0b139e2fc2719299b66330d8c4762fa3ee38620a338d04",
+    "actual_channel_packing_requires_event_disjoint_components.md": "d24e02e97a69baed4812c0189fd011b88124f55938a923e1728147270281c3f8",
+    "check_actual_channel_packing.py": "145b65bca9c3af1aadc837ef84a84a5edb9a49fe1d3198e2fd20a5e47e7c6dd6",
+    "check_actual_channel_packing.json": "68dad62072ee740c7ed69a6f98ddea48ed717dba44a51224a80e5467432ec186"
+  },
+  "script": "43b4cc3f381d35b67305b05ae25c2bc015fa8d2240c8cedb807ba2d3888b206c",
+  "positive_calendars": [
+    {
+      "P": 32,
+      "winding": 1,
+      "phase_count": 26,
+      "unfilled": 6
+    },
+    {
+      "P": 32,
+      "winding": 2,
+      "phase_count": 26,
+      "unfilled": 6
+    }
+  ],
+  "representative_algebra_checks": 7380,
+  "overlapping_windows_not_covered": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  ],
+  "analytic_review": [
+    "Original Section1 was overbroad for arbitrary distinct contiguous windows. Mandatory d24e02e9 explicitly restricts to event-disjoint literal successor COMPONENT occurrences or a verified event-disjoint subchannel partition. Without it overlapping windows of one cursor are legal and the claimed packing implication is false. Both originals are retained and jointly bound.",
+    "For event-disjoint actual contiguous blocks, an overlap at an integer time would identify two different read events. Hence one genuine cross-block rank order determines their entire interval order. Within one occurrence, check offsets/rank gaps instead; no artificial whole-channel self precedence is added. Finite DAG topological placement gives only an injective abstract clock, not exterior color/connector completion.",
+    "One canonical physical cell representative for all its ranks is essential. T(u)=S_i+q-kappa_u P, so physically aligned starts are S_i-kappa_u P. Whole-block packing and a valid event gap g yield S_j-S_i>=max(m_i,g+q-r)+(kappa_v-kappa_u)P. Different open components partition class sets; different translates of one component cannot share actual events since its classes are distinct and full drift is nonzero.",
+    "Summing a directed quotient cycle gives kP>=sumw with k=-sum nu. Only k<=0 is impossible for every positiveP. Positive temporal winding is retained exactly, including2; neither primitive-drift reduction nor forced winding1 is permitted. Named positive calendars satisfy all26 distinct phases with6 unknown phases and are not physical fronts.",
+    "A CLOSED known actual-successor component ofm distinct event classes and full voltagea has aP=m>0. Since m<=P, a=1 and m=P. Any required outside event contradicts the single fullP orbit. This clause does not apply to lifetime, repaired, b-path or mere port-flow cycles.",
+    "No cap/color/stream-height premise is used by this chronological lemma. It does not exclude the signed OPEN79 calendar, which already has disjoint whole-channel phases, and it supplies no universal period/age or lifetime fuel bound."
+  ]
+}

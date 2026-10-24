@@ -1,0 +1,29 @@
+{
+  "status": "PASS independent literal packet geometry and all private unit chains",
+  "controls": [
+    {
+      "window": 3,
+      "packet_transitions": 184,
+      "unit_vertices": 444,
+      "unit_edges": 576,
+      "private_vertices": 392,
+      "cutoff": -18,
+      "boundary_width": 8,
+      "maximum_input_output_offset": 8,
+      "initial_high_threshold": -10
+    },
+    {
+      "window": 5,
+      "packet_transitions": 1924,
+      "unit_vertices": 4300,
+      "unit_edges": 5712,
+      "private_vertices": 3788,
+      "cutoff": -18,
+      "boundary_width": 8,
+      "maximum_input_output_offset": 8,
+      "initial_high_threshold": -10
+    }
+  ],
+  "scope": "Exact heading/DFA low-counter graph; no high residual transactions below the proved cutoff. No integrated record exclusion.",
+  "manifest_sha256": "b79a78124b1b0c39e592a27ccaf1355f940142db8b946e02287ed10f6485c058"
+}

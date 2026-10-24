@@ -1,0 +1,1968 @@
+{
+  "status": "EXACT ALL-PARAMETER SELF-OWNED ROD REUSE AND STANDARD104 CAPTURE",
+  "domain": "M>=1 and r>=10 and r>=M+1",
+  "continuation": "C63 L T^(r-1) C148 H104^infinity",
+  "C63": "RRRLRRRRLLLLRLLRRRRLLRLRRRRLRRRRLLLLRLRRRRLRLLLLRRRRLRRRRLRRLRR",
+  "C148": "RRLRRRRLRRRRLLLLRLRRRRLRRRRLLLLRLLRRRRLLRLRRRRLRRRRLLLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLRRRRLRRRRLLLLRLRRRR",
+  "H104": "LRLRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRL",
+  "C63_first_rod_entry": {
+    "relative_to_old_p": [
+      1,
+      0
+    ],
+    "heading": 2,
+    "length": 63
+  },
+  "rod_owner": "same J-restored black row0, x=1..2r-1 relative to p; L consumes x1 and T^(r-1) consumes x2..2r-1",
+  "remote_entry": [
+    [
+      "-2M+2r",
+      0
+    ],
+    1
+  ],
+  "capture_time": "20M+12r+280",
+  "capture_pose": [
+    [
+      "-2M+2r+2",
+      -2
+    ],
+    1
+  ],
+  "tail_drift": [
+    2,
+    2
+  ],
+  "tail_period": 104,
+  "tail_prior_phase_pairs": 262,
+  "tail_bad_sets": [],
+  "complete_capture_board": "[M, r] -> { [x, y] : M > 0 and r > M and r >= 10 and ((x <= -2M + 2r and 2 <= y <= 3 + 2M - 2r + x) or (x <= 1 - 2M and -2 <= y <= -2 + 2M + x) or (x <= 1 - 2M + 2r and -2 <= y <= -2 + 2M - 2r + x) or (y <= 2 - 2M - x and y <= 3 and 2y >= 4 - 2M - x) or (x <= 4 - 2M + 2r and -2M + 2r - x < y <= -2) or (y >= -4 and y >= -2 - 2M + 2r - x and 2y <= -5 - 2M + 2r - x) or (y >= -4 and y >= -4 - 2M + 2r - x and 2y <= -7 - 2M + 2r - x) or (y <= 5 and y <= 3 + 2M - 2r + x and 2y >= 7 + 2M - 2r + x) or (2 - 2M + 2r <= x <= 3 - 2M + 2r and 3 <= y <= 4) or (-2 - 2M + 2r <= x < -2M + 2r and 2M - 2r + x <= y <= 1 + 2M - 2r + x) or (y >= -3 + 2M + x and -6 - 2M - x <= y <= -3 - 2M - x and y <= 2M + x) or (x <= 5 - 2M + 2r and y <= 4 - 2M + 2r - x and y <= -4 + 2M - 2r + x and 2y > -2M + 2r - x)); [x = -4 - 2M, y] : M > 0 and r > M and r >= 10 and -2 <= y <= 0; [x, y = 1] : M > 0 and r > M and r >= 10 and -2M <= x <= -2M + 2r; [x = -1 - 2M, y] : M > 0 and r > M and r >= 10 and -1 <= y <= 0; [x, y = -3 + 2M - 2r + x] : M > 0 and r > M and r >= 10 and 4 - 2M + 2r <= x <= 5 - 2M + 2r; [x, y = 8 - 2M + 2r - x] : M > 0 and r > M and r >= 10 and 4 - 2M + 2r <= x <= 5 - 2M + 2r; [x, y = 5 + 2M + x] : M > 0 and r > M and r >= 10 and -4 - 2M <= x <= -3 - 2M; [x = 2 - 2M + 2r, y] : M > 0 and r > M and r >= 10 and -3 <= y <= 2 and (y > 0 or y <= -2) }",
+  "C63_reads": [
+    {
+      "phase": 0,
+      "relative": [
+        -4,
+        0
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 1,
+      "relative": [
+        -4,
+        1
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 2,
+      "relative": [
+        -3,
+        1
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 3,
+      "relative": [
+        -3,
+        0
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 4,
+      "relative": [
+        -2,
+        0
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 5,
+      "relative": [
+        -2,
+        -1
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 6,
+      "relative": [
+        -3,
+        -1
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 7,
+      "relative": [
+        -3,
+        0
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 8,
+      "relative": [
+        -2,
+        0
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 9,
+      "relative": [
+        -2,
+        1
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 10,
+      "relative": [
+        -3,
+        1
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 11,
+      "relative": [
+        -3,
+        0
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 12,
+      "relative": [
+        -2,
+        0
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 13,
+      "relative": [
+        -2,
+        -1
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 14,
+      "relative": [
+        -1,
+        -1
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 15,
+      "relative": [
+        -1,
+        0
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 16,
+      "relative": [
+        0,
+        0
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 17,
+      "relative": [
+        0,
+        -1
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 18,
+      "relative": [
+        -1,
+        -1
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 19,
+      "relative": [
+        -1,
+        0
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 20,
+      "relative": [
+        -2,
+        0
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 21,
+      "relative": [
+        -2,
+        -1
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 22,
+      "relative": [
+        -3,
+        -1
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 23,
+      "relative": [
+        -3,
+        -2
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 24,
+      "relative": [
+        -4,
+        -2
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 25,
+      "relative": [
+        -4,
+        -1
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 26,
+      "relative": [
+        -3,
+        -1
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 27,
+      "relative": [
+        -3,
+        -2
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 28,
+      "relative": [
+        -2,
+        -2
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 29,
+      "relative": [
+        -2,
+        -3
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 30,
+      "relative": [
+        -3,
+        -3
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 31,
+      "relative": [
+        -3,
+        -2
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 32,
+      "relative": [
+        -2,
+        -2
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 33,
+      "relative": [
+        -2,
+        -1
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 34,
+      "relative": [
+        -3,
+        -1
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 35,
+      "relative": [
+        -3,
+        -2
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 36,
+      "relative": [
+        -2,
+        -2
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 37,
+      "relative": [
+        -2,
+        -3
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 38,
+      "relative": [
+        -1,
+        -3
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 39,
+      "relative": [
+        -1,
+        -4
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 40,
+      "relative": [
+        -2,
+        -4
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 41,
+      "relative": [
+        -2,
+        -3
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 42,
+      "relative": [
+        -1,
+        -3
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 43,
+      "relative": [
+        -1,
+        -2
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 44,
+      "relative": [
+        0,
+        -2
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 45,
+      "relative": [
+        0,
+        -1
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 46,
+      "relative": [
+        -1,
+        -1
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 47,
+      "relative": [
+        -1,
+        -2
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 48,
+      "relative": [
+        0,
+        -2
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 49,
+      "relative": [
+        0,
+        -3
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 50,
+      "relative": [
+        -1,
+        -3
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 51,
+      "relative": [
+        -1,
+        -2
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 52,
+      "relative": [
+        0,
+        -2
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 53,
+      "relative": [
+        0,
+        -1
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 54,
+      "relative": [
+        1,
+        -1
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 55,
+      "relative": [
+        1,
+        -2
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 56,
+      "relative": [
+        0,
+        -2
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 57,
+      "relative": [
+        0,
+        -1
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 58,
+      "relative": [
+        -1,
+        -1
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 59,
+      "relative": [
+        -1,
+        0
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 60,
+      "relative": [
+        0,
+        0
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 61,
+      "relative": [
+        0,
+        1
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 62,
+      "relative": [
+        1,
+        1
+      ],
+      "heading": 1,
+      "turn": "R"
+    }
+  ],
+  "C148_reads": [
+    {
+      "phase": 0,
+      "relative": [
+        0,
+        0
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 1,
+      "relative": [
+        0,
+        -1
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 2,
+      "relative": [
+        -1,
+        -1
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 3,
+      "relative": [
+        -1,
+        -2
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 4,
+      "relative": [
+        -2,
+        -2
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 5,
+      "relative": [
+        -2,
+        -1
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 6,
+      "relative": [
+        -1,
+        -1
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 7,
+      "relative": [
+        -1,
+        -2
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 8,
+      "relative": [
+        0,
+        -2
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 9,
+      "relative": [
+        0,
+        -3
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 10,
+      "relative": [
+        -1,
+        -3
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 11,
+      "relative": [
+        -1,
+        -2
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 12,
+      "relative": [
+        0,
+        -2
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 13,
+      "relative": [
+        0,
+        -1
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 14,
+      "relative": [
+        -1,
+        -1
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 15,
+      "relative": [
+        -1,
+        -2
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 16,
+      "relative": [
+        0,
+        -2
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 17,
+      "relative": [
+        0,
+        -3
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 18,
+      "relative": [
+        1,
+        -3
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 19,
+      "relative": [
+        1,
+        -4
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 20,
+      "relative": [
+        0,
+        -4
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 21,
+      "relative": [
+        0,
+        -3
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 22,
+      "relative": [
+        1,
+        -3
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 23,
+      "relative": [
+        1,
+        -2
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 24,
+      "relative": [
+        2,
+        -2
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 25,
+      "relative": [
+        2,
+        -3
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 26,
+      "relative": [
+        1,
+        -3
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 27,
+      "relative": [
+        1,
+        -2
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 28,
+      "relative": [
+        0,
+        -2
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 29,
+      "relative": [
+        0,
+        -3
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 30,
+      "relative": [
+        1,
+        -3
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 31,
+      "relative": [
+        1,
+        -2
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 32,
+      "relative": [
+        2,
+        -2
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 33,
+      "relative": [
+        2,
+        -1
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 34,
+      "relative": [
+        1,
+        -1
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 35,
+      "relative": [
+        1,
+        0
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 36,
+      "relative": [
+        2,
+        0
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 37,
+      "relative": [
+        2,
+        -1
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 38,
+      "relative": [
+        1,
+        -1
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 39,
+      "relative": [
+        1,
+        -2
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 40,
+      "relative": [
+        2,
+        -2
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 41,
+      "relative": [
+        2,
+        -3
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 42,
+      "relative": [
+        3,
+        -3
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 43,
+      "relative": [
+        3,
+        -4
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 44,
+      "relative": [
+        2,
+        -4
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 45,
+      "relative": [
+        2,
+        -3
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 46,
+      "relative": [
+        3,
+        -3
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 47,
+      "relative": [
+        3,
+        -2
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 48,
+      "relative": [
+        4,
+        -2
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 49,
+      "relative": [
+        4,
+        -3
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 50,
+      "relative": [
+        3,
+        -3
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 51,
+      "relative": [
+        3,
+        -2
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 52,
+      "relative": [
+        2,
+        -2
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 53,
+      "relative": [
+        2,
+        -3
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 54,
+      "relative": [
+        3,
+        -3
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 55,
+      "relative": [
+        3,
+        -2
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 56,
+      "relative": [
+        4,
+        -2
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 57,
+      "relative": [
+        4,
+        -1
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 58,
+      "relative": [
+        5,
+        -1
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 59,
+      "relative": [
+        5,
+        -2
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 60,
+      "relative": [
+        4,
+        -2
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 61,
+      "relative": [
+        4,
+        -1
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 62,
+      "relative": [
+        3,
+        -1
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 63,
+      "relative": [
+        3,
+        0
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 64,
+      "relative": [
+        2,
+        0
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 65,
+      "relative": [
+        2,
+        -1
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 66,
+      "relative": [
+        3,
+        -1
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 67,
+      "relative": [
+        3,
+        0
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 68,
+      "relative": [
+        4,
+        0
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 69,
+      "relative": [
+        4,
+        -1
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 70,
+      "relative": [
+        3,
+        -1
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 71,
+      "relative": [
+        3,
+        0
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 72,
+      "relative": [
+        2,
+        0
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 73,
+      "relative": [
+        2,
+        1
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 74,
+      "relative": [
+        3,
+        1
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 75,
+      "relative": [
+        3,
+        2
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 76,
+      "relative": [
+        4,
+        2
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 77,
+      "relative": [
+        4,
+        1
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 78,
+      "relative": [
+        3,
+        1
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 79,
+      "relative": [
+        3,
+        2
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 80,
+      "relative": [
+        2,
+        2
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 81,
+      "relative": [
+        2,
+        1
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 82,
+      "relative": [
+        3,
+        1
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 83,
+      "relative": [
+        3,
+        2
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 84,
+      "relative": [
+        4,
+        2
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 85,
+      "relative": [
+        4,
+        3
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 86,
+      "relative": [
+        5,
+        3
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 87,
+      "relative": [
+        5,
+        2
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 88,
+      "relative": [
+        4,
+        2
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 89,
+      "relative": [
+        4,
+        3
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 90,
+      "relative": [
+        3,
+        3
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 91,
+      "relative": [
+        3,
+        4
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 92,
+      "relative": [
+        4,
+        4
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 93,
+      "relative": [
+        4,
+        3
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 94,
+      "relative": [
+        3,
+        3
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 95,
+      "relative": [
+        3,
+        2
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 96,
+      "relative": [
+        4,
+        2
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 97,
+      "relative": [
+        4,
+        3
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 98,
+      "relative": [
+        3,
+        3
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 99,
+      "relative": [
+        3,
+        4
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 100,
+      "relative": [
+        2,
+        4
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 101,
+      "relative": [
+        2,
+        5
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 102,
+      "relative": [
+        3,
+        5
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 103,
+      "relative": [
+        3,
+        4
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 104,
+      "relative": [
+        2,
+        4
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 105,
+      "relative": [
+        2,
+        3
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 106,
+      "relative": [
+        1,
+        3
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 107,
+      "relative": [
+        1,
+        2
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 108,
+      "relative": [
+        2,
+        2
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 109,
+      "relative": [
+        2,
+        1
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 110,
+      "relative": [
+        1,
+        1
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 111,
+      "relative": [
+        1,
+        0
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 112,
+      "relative": [
+        2,
+        0
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 113,
+      "relative": [
+        2,
+        1
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 114,
+      "relative": [
+        1,
+        1
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 115,
+      "relative": [
+        1,
+        2
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 116,
+      "relative": [
+        2,
+        2
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 117,
+      "relative": [
+        2,
+        3
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 118,
+      "relative": [
+        1,
+        3
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 119,
+      "relative": [
+        1,
+        4
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 120,
+      "relative": [
+        2,
+        4
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 121,
+      "relative": [
+        2,
+        3
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 122,
+      "relative": [
+        1,
+        3
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 123,
+      "relative": [
+        1,
+        2
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 124,
+      "relative": [
+        2,
+        2
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 125,
+      "relative": [
+        2,
+        1
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 126,
+      "relative": [
+        1,
+        1
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 127,
+      "relative": [
+        1,
+        0
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 128,
+      "relative": [
+        0,
+        0
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 129,
+      "relative": [
+        0,
+        -1
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 130,
+      "relative": [
+        -1,
+        -1
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 131,
+      "relative": [
+        -1,
+        0
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 132,
+      "relative": [
+        0,
+        0
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 133,
+      "relative": [
+        0,
+        -1
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 134,
+      "relative": [
+        1,
+        -1
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 135,
+      "relative": [
+        1,
+        -2
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 136,
+      "relative": [
+        0,
+        -2
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 137,
+      "relative": [
+        0,
+        -1
+      ],
+      "heading": 0,
+      "turn": "R"
+    },
+    {
+      "phase": 138,
+      "relative": [
+        1,
+        -1
+      ],
+      "heading": 1,
+      "turn": "L"
+    },
+    {
+      "phase": 139,
+      "relative": [
+        1,
+        0
+      ],
+      "heading": 0,
+      "turn": "L"
+    },
+    {
+      "phase": 140,
+      "relative": [
+        0,
+        0
+      ],
+      "heading": 3,
+      "turn": "L"
+    },
+    {
+      "phase": 141,
+      "relative": [
+        0,
+        -1
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 142,
+      "relative": [
+        1,
+        -1
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 143,
+      "relative": [
+        1,
+        -2
+      ],
+      "heading": 2,
+      "turn": "L"
+    },
+    {
+      "phase": 144,
+      "relative": [
+        2,
+        -2
+      ],
+      "heading": 1,
+      "turn": "R"
+    },
+    {
+      "phase": 145,
+      "relative": [
+        2,
+        -3
+      ],
+      "heading": 2,
+      "turn": "R"
+    },
+    {
+      "phase": 146,
+      "relative": [
+        1,
+        -3
+      ],
+      "heading": 3,
+      "turn": "R"
+    },
+    {
+      "phase": 147,
+      "relative": [
+        1,
+        -2
+      ],
+      "heading": 0,
+      "turn": "R"
+    }
+  ],
+  "same_minimal_seed": "2r+5 cells, no later supply",
+  "sample": {
+    "M": 50,
+    "r": 51,
+    "minimal_seed_mass": 107,
+    "capture_reads": 1892,
+    "capture_pose": [
+      [
+        4,
+        -2
+      ],
+      1
+    ],
+    "replayed_tail_periods": 2,
+    "final_pose": [
+      [
+        8,
+        2
+      ],
+      1
+    ]
+  },
+  "source_sha256": "19083e651f177e1c47ab96d860fd4dfb7e73f81e189b3a34d1520ec0bff6416f",
+  "input_certificate_sha256": "2a2468a8fe8a54481ffb2299c332f3885a382ee47dd7daf4be5f068d65499be1",
+  "scope": "The signed V20 exit physically reuses its old rod, then enters standard104.\nOne forced first-return adapter and one fixed standard-word tail query.\nNo cap, phase, seed, period or growing-horizon scan.\n"
+}

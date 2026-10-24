@@ -1,0 +1,25 @@
+{
+  "scope": "Genuine UC recycled-q output(-1,2) never retires inside retained factor: its only signed V/VC consumer would be at(-1,5,S), age2, but UC exit(0,5,W) atclock1 cannot reach it with exactlyone remaining C. Every UCC recycled-q consumer must be the IMMEDIATELY following V/VC, at actual UCC exit(-1,5,S), clock2. No statement of plain-U q permanence or all UCC-output permanence.",
+  "files": [
+    {
+      "source": "U_q_source_history.md",
+      "file": "00_U_q_source_history.md",
+      "sha256": "dbe15659f61ef0e407681d7a6ccbeab4fd59ef07962fd3c7113e79d556ed6b2e"
+    },
+    {
+      "source": "check_U_q_source_history.py",
+      "file": "01_check_U_q_source_history.py",
+      "sha256": "f0efa69fd7fac3b35810b7a7d23d511792280358303b8b91fcf47b6247b73b44"
+    },
+    {
+      "source": "chronology_dcuv/U_q_source_history.json",
+      "file": "02_U_q_source_history.json",
+      "sha256": "e0087eb5370acab08fcf9b57b9d575294a72531a540e2f5d00cc4b96585c26bc"
+    }
+  ],
+  "dependencies": {
+    "chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "check_U_q_source_history.py": "f0efa69fd7fac3b35810b7a7d23d511792280358303b8b91fcf47b6247b73b44",
+    "U_recycled_q_consumer_frozen_20261023_1954/manifest.json": "c89b741d36a304c6bc3b8e181a2514b133cf4d2698d738917a43d4d65ab5e9f9"
+  }
+}

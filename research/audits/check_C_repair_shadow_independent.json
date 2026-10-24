@@ -1,0 +1,45 @@
+{
+  "status": "PASS actual C-RAW CORE-hole repair and distinct foreign-shadow obstruction, preserving RAW versus marked completion",
+  "manifest_sha256": "04f74edcdf8e5192817e14458e163809d7d883bd82f64f32f7557d8b4b6a8610",
+  "script_sha256": "af01a307910657ffda8266c4a1587cc37963a5d3e328762f17a4237520b4796a",
+  "controls": [
+    {
+      "tokens": "VCCVCD",
+      "seed_mass": 8,
+      "executed_reads": 102,
+      "C_RAW_complete": true,
+      "C_plus_real_M11_complete": true,
+      "repair_tick": 78,
+      "repair_L_tick": 86,
+      "shadow_failure": null,
+      "full_D_executed": true
+    },
+    {
+      "tokens": "UQVCCVCD",
+      "seed_mass": 28,
+      "executed_reads": 181,
+      "C_RAW_complete": true,
+      "C_plus_real_M11_complete": false,
+      "repair_tick": 170,
+      "repair_L_tick": 178,
+      "shadow_failure": 181,
+      "full_D_executed": false
+    },
+    {
+      "tokens": "UBVCCVCD",
+      "seed_mass": 31,
+      "executed_reads": 191,
+      "C_RAW_complete": true,
+      "C_plus_real_M11_complete": false,
+      "repair_tick": 180,
+      "repair_L_tick": 188,
+      "shadow_failure": 191,
+      "full_D_executed": false
+    }
+  ],
+  "analytic_review": [
+    "The prepared8 VCCVCD+M factor genuinely attains an oldV-start/newD-end contact. Both real UQ/UB prefixes instead complete every C RAW read, including physical oldA deathC1 and new holeR12; no oldV contact occurs along that C chord.",
+    "At Cexit the repaired hole is in the geometrical EXIT K, and all K cells are physically BLACK in each complete board. This does not promote C+M recognition: nextD L5 consumes the new repair, but nextD R8 demandsWHITE at a distinct SAME original Q R57/B R67 shadow. Every actual fine identity and cut was independently replayed.",
+    "Thus core repair itself is not contact-forcing. In genuine controls the next requiredM fails at read9 and no fullD or its proxy is executed; the actual next turn isL. Both active-core R restoration and L removal count. No postforeign age, residual-only funding theorem or arbitrary-tail counterexample is asserted."
+  ]
+}

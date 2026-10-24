@@ -1,0 +1,176 @@
+{
+  "status": "PASS explicit finite-record-clock forcing bound",
+  "manifest": "1df0229443dc04764efa17f890339bbd8a085e4aecbee9f8a0f1cdf458dc6e8e",
+  "proof": "e35f87eca83e3da24e512e3b45174c5441acfa27b1515ac595a5488fc0c7aed9",
+  "script": "e95b420dfbed48cb2bad28a4fbcc48b1cb408494d7d576cc4432cd3a8fe6b91d",
+  "formula": "G=H(H+1)^4; S=4*2^G; F*=G+1+2*S^2+(H+3)*S",
+  "small_arithmetic": [
+    {
+      "H": 1,
+      "G": 16,
+      "S": "262144",
+      "F_star": "137440002065"
+    },
+    {
+      "H": 2,
+      "G": 162,
+      "S": "23384026197294446691258957323460528314494920687616",
+      "F_star": "1093625362391505962186251113558810682676584715446723138343871775438432794386305264253329063114965155"
+    }
+  ],
+  "predictor_controls": [
+    {
+      "seed": [],
+      "mismatch_counts": {
+        "1": 531,
+        "4": 350,
+        "16": 170,
+        "64": 131
+      }
+    },
+    {
+      "seed": [
+        [
+          0,
+          0
+        ]
+      ],
+      "mismatch_counts": {
+        "1": 531,
+        "4": 350,
+        "16": 170,
+        "64": 131
+      }
+    },
+    {
+      "seed": [
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "mismatch_counts": {
+        "1": 521,
+        "4": 341,
+        "16": 182,
+        "64": 146
+      }
+    },
+    {
+      "seed": [
+        [
+          -2,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -2
+        ]
+      ],
+      "mismatch_counts": {
+        "1": 520,
+        "4": 346,
+        "16": 194,
+        "64": 146
+      }
+    }
+  ],
+  "whole_field_controls": [
+    {
+      "n": 100,
+      "source_cut": 109168,
+      "reads": 32864,
+      "initial_full_mass": 7388,
+      "initial_hash": "0b7e3bba53f438274677174a09b548e263163c452ecdf2f694f87b6ff102c0a9",
+      "terminal_full_mass": 11156,
+      "terminal_hash": "dd995171e0e19f52f4fba14888323485385df6814999e9fadbbf5e9439fdb20d",
+      "record": [
+        114,
+        3
+      ],
+      "period": 104,
+      "drift": [
+        -2,
+        2
+      ],
+      "observed_copies": 314,
+      "complete_field_hit_max": 2,
+      "self_overlap_max": 3,
+      "initial_tests": 189,
+      "terminal_tests": 189
+    },
+    {
+      "n": 137,
+      "source_cut": 116864,
+      "reads": 32864,
+      "initial_full_mass": 8276,
+      "initial_hash": "308573e1e76078b6eb2bbdd9494590d513cfaae4f7db5474be6a2934fc2dcb63",
+      "terminal_full_mass": 12044,
+      "terminal_hash": "1453915bc4ad4bc39f5ee90b0d3d94898ba2caa67b78e58599a5d3e8bdb298dd",
+      "record": [
+        114,
+        3
+      ],
+      "period": 104,
+      "drift": [
+        -2,
+        2
+      ],
+      "observed_copies": 314,
+      "complete_field_hit_max": 2,
+      "self_overlap_max": 3,
+      "initial_tests": 189,
+      "terminal_tests": 189
+    },
+    {
+      "n": 500,
+      "source_cut": 192368,
+      "reads": 32864,
+      "initial_full_mass": 16988,
+      "initial_hash": "07f5c7555b88403a250d519b92e6df98dbc3a421b27cee269d21920c084db872",
+      "terminal_full_mass": 20756,
+      "terminal_hash": "4616ec45d61174b5e9f9a1de26d066b04ed7b79cab21a4d41bd98ad5bb3bcfe5",
+      "record": [
+        114,
+        3
+      ],
+      "period": 104,
+      "drift": [
+        -2,
+        2
+      ],
+      "observed_copies": 314,
+      "complete_field_hit_max": 2,
+      "self_overlap_max": 3,
+      "initial_tests": 189,
+      "terminal_tests": 189
+    }
+  ],
+  "analytic_review": [
+    "For every subinterval inside the finite H-clock window, endpoint-inclusive event gaps are<=H; the signed last-normal lemma bounds any visit back into its earlier augmented rectangle byG. No asymptotic/global clock assumption is needed.",
+    "At t>=G+1 an originalBLACK read would lie inR0 too late. An R-bornBLACK with no read in[t-G,t) hasbirthb<t-G and forbidden age>G (equivalently lies inR_(t-G-1)). The most recent retained same-cell turn determinescolor exactly; if no retained visit exists, it mustbeWHITE. An oldL never causes a falseBLACK prediction.",
+    "Currentheading plus lastGturns reconstructs relativepositions and gives one deterministic memory transition while the finite clock holds. There are<=4*2^G states. The S+1 cuts G+1..G+1+S give a repeated state and period1<=P<=S, with s+P<=G+1+S. The actual observed word repeats until the end of the window; this is not a finite-state claim about the whole physical board.",
+    "K=2P+H+2 copies fit beforeF* by s+PK<=G+1+S+S(2S+H+2). The H-clock gives a strict unionrecord r in(s+P,s+P+H], within those copies. Its earlier identical phase r-P>=s was visited, so the record normal has a\u00b7d>0. In particular d!=0 and the repeated heading is explicit.",
+    "Every cell of COMPLETE B_s is inside the actual augmented hull. Strictrecordr and unit speed give M_a(s)<=a\u00b7p_s+P+H. Every phase read is >=a\u00b7p_s-P in thatnormal. Thus any hit on initialB_s has periodindexk<=2P+H. This uses every original/written oldBLACK, not a recent crop or active subset.",
+    "For self-overlaps Q_j-Q_i=m d, a nonzero integer coordinate ofd and the within-period unit-walk diameter give positive m<=P. Each phasecolor is determined by finitelymany threshold flips and initial-field hit spikes. All changes, including last-hit successors, occur byK-1. The K physically observed copies verify them all, so exact parity induction proves the FULL original board has this tail forever froms.",
+    "This supplies explicit period<=S and onset<=G+1+S under the finite clock premise, strengthening the signed compactness existence theorem without using its cover search. The same EVERY-interval nontranslator drought consequence now has explicit F*. No numerical simulation at F* scale was performed.",
+    "Bounded controls retain full MT old fields,98592 physical updates, all initial-field ray hits and an extra full final-field infinite parity verification. The4800 tiny-history tests use an independent forward-position predictor; they confirm its only possible error outside the clock premise is an oldBLACK input. These are interfaces, not a finite exhaustion proof of the analytic bound."
+  ],
+  "scope": "Complete finite initial seed and its entire augmented hull. A pristine finite H-dense union-record window of lengthF* forces eventual translating turns/poses, not full-board equality. No universal forcing-window occurrence, canonical104 uniqueness, practical runtime, or finite-prefix certificate against undisclosed remoteBLACK."
+}

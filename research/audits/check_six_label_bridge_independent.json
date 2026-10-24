@@ -1,0 +1,44 @@
+{
+  "status": "independent complete six-label union capture proof verified",
+  "allowed_K_labels": [
+    "LLRLRLLRRLL",
+    "LRRLRRRRLRR",
+    "RRRLLRLLRLR",
+    "RRRLRRRRLRL",
+    "RRRLRRRRLRR",
+    "RRRRLRLLRLL"
+  ],
+  "initial_nodes": 19308,
+  "total_nodes": 20715,
+  "max_unmarked_depth": 91,
+  "raw_returns": 88,
+  "prefix_tree_nodes_for_six_histories": 323809,
+  "feasible_six_histories": 62863,
+  "history_vertices": 16630,
+  "component_sizes": [
+    167,
+    1083
+  ],
+  "component_edges": [
+    327,
+    3426
+  ],
+  "component_K_labels": [
+    [
+      "RRRLLRLLRLR"
+    ],
+    [
+      "LRRLRRRRLRR",
+      "RRRLRRRRLRR"
+    ]
+  ],
+  "full_contracted_DAG_vertices": 15382,
+  "large_quotient_states": 80,
+  "M_ports": 65,
+  "contracted_packet_edges": 239,
+  "packet_count": 8,
+  "kernel_forbidden_pairs": 213558,
+  "seconds": 10.950782060623169,
+  "manifest_sha256": "ddc4ef0ec15c64870e02ad79576b9c7180b4cf203e8977106cab07f5d4732cd2",
+  "scope": "Capture iff finitely many K labels lie outside the six-element set. Arbitrary mixtures inside the set are allowed. Universal residual-event finiteness remains open."
+}

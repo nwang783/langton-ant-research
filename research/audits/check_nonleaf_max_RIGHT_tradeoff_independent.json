@@ -1,0 +1,525 @@
+{
+  "status": "PASS distinct contractible max-RIGHT middle-node output/parallel-exchange tradeoff",
+  "source_hashes": {
+    "max_RIGHT_nonleaf_stock_holes_require_outputs_or_parallel_exchanges_v2.md": "160ea8de41b0b7e1d56eb7d7a1fc1748af72170ce547f624e7ce67f12d8ff1c2",
+    "max_RIGHT_nonleaf_triple_or_quadruple_control.py": "8a7209fd74de58e802007618f3b7cfe6c604c3cb248008bf1bf556a733ca8a66",
+    "max_RIGHT_nonleaf_triple_or_quadruple_control.json": "37d2b0ad575526963347bd26d6d37313dfd420994822121f1e1b2ae8312a89b2"
+  },
+  "fresh_twelve_max_RIGHT_histories": [
+    {
+      "word": "EEE",
+      "middle_in": {
+        "rank": 1,
+        "in": "E",
+        "out": "N",
+        "in_ordinal": 2,
+        "out_ordinal": 1,
+        "in_level": -1,
+        "out_level": -2
+      },
+      "middle_out": {
+        "rank": 2,
+        "in": "E",
+        "out": "S",
+        "in_ordinal": 3,
+        "out_ordinal": 2,
+        "in_level": -2,
+        "out_level": -1
+      },
+      "high_ports": [
+        [
+          "in",
+          "E",
+          3
+        ]
+      ]
+    },
+    {
+      "word": "EWE",
+      "middle_in": {
+        "rank": 2,
+        "in": "E",
+        "out": "S",
+        "in_ordinal": 2,
+        "out_ordinal": 3,
+        "in_level": -1,
+        "out_level": -2
+      },
+      "middle_out": {
+        "rank": 1,
+        "in": "W",
+        "out": "S",
+        "in_ordinal": 1,
+        "out_ordinal": 2,
+        "in_level": -2,
+        "out_level": -1
+      },
+      "high_ports": [
+        [
+          "out",
+          "S",
+          3
+        ]
+      ]
+    },
+    {
+      "word": "WEW",
+      "middle_in": {
+        "rank": 2,
+        "in": "W",
+        "out": "N",
+        "in_ordinal": 2,
+        "out_ordinal": 3,
+        "in_level": -1,
+        "out_level": -2
+      },
+      "middle_out": {
+        "rank": 1,
+        "in": "E",
+        "out": "N",
+        "in_ordinal": 1,
+        "out_ordinal": 2,
+        "in_level": -2,
+        "out_level": -1
+      },
+      "high_ports": [
+        [
+          "out",
+          "N",
+          3
+        ]
+      ]
+    },
+    {
+      "word": "WWW",
+      "middle_in": {
+        "rank": 1,
+        "in": "W",
+        "out": "S",
+        "in_ordinal": 2,
+        "out_ordinal": 1,
+        "in_level": -1,
+        "out_level": -2
+      },
+      "middle_out": {
+        "rank": 2,
+        "in": "W",
+        "out": "N",
+        "in_ordinal": 3,
+        "out_ordinal": 2,
+        "in_level": -2,
+        "out_level": -1
+      },
+      "high_ports": [
+        [
+          "in",
+          "W",
+          3
+        ]
+      ]
+    },
+    {
+      "word": "EEEE",
+      "middle_in": {
+        "rank": 1,
+        "in": "E",
+        "out": "N",
+        "in_ordinal": 2,
+        "out_ordinal": 1,
+        "in_level": -1,
+        "out_level": -2
+      },
+      "middle_out": {
+        "rank": 2,
+        "in": "E",
+        "out": "S",
+        "in_ordinal": 3,
+        "out_ordinal": 2,
+        "in_level": -2,
+        "out_level": -1
+      },
+      "high_ports": [
+        [
+          "in",
+          "E",
+          4
+        ]
+      ]
+    },
+    {
+      "word": "EEEW",
+      "middle_in": {
+        "rank": 1,
+        "in": "E",
+        "out": "N",
+        "in_ordinal": 2,
+        "out_ordinal": 1,
+        "in_level": -1,
+        "out_level": -2
+      },
+      "middle_out": {
+        "rank": 2,
+        "in": "E",
+        "out": "S",
+        "in_ordinal": 3,
+        "out_ordinal": 2,
+        "in_level": -2,
+        "out_level": -1
+      },
+      "high_ports": [
+        [
+          "in",
+          "E",
+          3
+        ],
+        [
+          "out",
+          "S",
+          3
+        ]
+      ]
+    },
+    {
+      "word": "EWEE",
+      "middle_in": {
+        "rank": 2,
+        "in": "E",
+        "out": "S",
+        "in_ordinal": 2,
+        "out_ordinal": 3,
+        "in_level": -1,
+        "out_level": -2
+      },
+      "middle_out": {
+        "rank": 1,
+        "in": "W",
+        "out": "S",
+        "in_ordinal": 1,
+        "out_ordinal": 2,
+        "in_level": -2,
+        "out_level": -1
+      },
+      "high_ports": [
+        [
+          "in",
+          "E",
+          3
+        ],
+        [
+          "out",
+          "S",
+          3
+        ]
+      ]
+    },
+    {
+      "word": "EWEW",
+      "middle_in": {
+        "rank": 2,
+        "in": "E",
+        "out": "S",
+        "in_ordinal": 2,
+        "out_ordinal": 3,
+        "in_level": -1,
+        "out_level": -2
+      },
+      "middle_out": {
+        "rank": 1,
+        "in": "W",
+        "out": "S",
+        "in_ordinal": 1,
+        "out_ordinal": 2,
+        "in_level": -2,
+        "out_level": -1
+      },
+      "high_ports": [
+        [
+          "out",
+          "S",
+          4
+        ]
+      ]
+    },
+    {
+      "word": "WEWE",
+      "middle_in": {
+        "rank": 2,
+        "in": "W",
+        "out": "N",
+        "in_ordinal": 2,
+        "out_ordinal": 3,
+        "in_level": -1,
+        "out_level": -2
+      },
+      "middle_out": {
+        "rank": 1,
+        "in": "E",
+        "out": "N",
+        "in_ordinal": 1,
+        "out_ordinal": 2,
+        "in_level": -2,
+        "out_level": -1
+      },
+      "high_ports": [
+        [
+          "out",
+          "N",
+          4
+        ]
+      ]
+    },
+    {
+      "word": "WEWW",
+      "middle_in": {
+        "rank": 2,
+        "in": "W",
+        "out": "N",
+        "in_ordinal": 2,
+        "out_ordinal": 3,
+        "in_level": -1,
+        "out_level": -2
+      },
+      "middle_out": {
+        "rank": 1,
+        "in": "E",
+        "out": "N",
+        "in_ordinal": 1,
+        "out_ordinal": 2,
+        "in_level": -2,
+        "out_level": -1
+      },
+      "high_ports": [
+        [
+          "in",
+          "W",
+          3
+        ],
+        [
+          "out",
+          "N",
+          3
+        ]
+      ]
+    },
+    {
+      "word": "WWWE",
+      "middle_in": {
+        "rank": 1,
+        "in": "W",
+        "out": "S",
+        "in_ordinal": 2,
+        "out_ordinal": 1,
+        "in_level": -1,
+        "out_level": -2
+      },
+      "middle_out": {
+        "rank": 2,
+        "in": "W",
+        "out": "N",
+        "in_ordinal": 3,
+        "out_ordinal": 2,
+        "in_level": -2,
+        "out_level": -1
+      },
+      "high_ports": [
+        [
+          "in",
+          "W",
+          3
+        ],
+        [
+          "out",
+          "N",
+          3
+        ]
+      ]
+    },
+    {
+      "word": "WWWW",
+      "middle_in": {
+        "rank": 1,
+        "in": "W",
+        "out": "S",
+        "in_ordinal": 2,
+        "out_ordinal": 1,
+        "in_level": -1,
+        "out_level": -2
+      },
+      "middle_out": {
+        "rank": 2,
+        "in": "W",
+        "out": "N",
+        "in_ordinal": 3,
+        "out_ordinal": 2,
+        "in_level": -2,
+        "out_level": -1
+      },
+      "high_ports": [
+        [
+          "in",
+          "W",
+          4
+        ]
+      ]
+    }
+  ],
+  "fresh_twelve_G3_middle_connections": [
+    {
+      "word": "EEE",
+      "type": "sink",
+      "middle_input_rank": 1,
+      "middle_output_rank": null
+    },
+    {
+      "word": "EWE",
+      "type": "source",
+      "middle_input_rank": null,
+      "middle_output_rank": 1
+    },
+    {
+      "word": "WEW",
+      "type": "source",
+      "middle_input_rank": null,
+      "middle_output_rank": 1
+    },
+    {
+      "word": "WWW",
+      "type": "sink",
+      "middle_input_rank": 1,
+      "middle_output_rank": null
+    },
+    {
+      "word": "EEEW",
+      "type": "internal",
+      "middle_input_rank": 1,
+      "middle_output_rank": 2
+    },
+    {
+      "word": "EEWE",
+      "type": "internal",
+      "middle_input_rank": 1,
+      "middle_output_rank": 2
+    },
+    {
+      "word": "EWEE",
+      "type": "internal",
+      "middle_input_rank": 2,
+      "middle_output_rank": 1
+    },
+    {
+      "word": "EWWW",
+      "type": "internal",
+      "middle_input_rank": 2,
+      "middle_output_rank": 1
+    },
+    {
+      "word": "WEEE",
+      "type": "internal",
+      "middle_input_rank": 2,
+      "middle_output_rank": 1
+    },
+    {
+      "word": "WEWW",
+      "type": "internal",
+      "middle_input_rank": 2,
+      "middle_output_rank": 1
+    },
+    {
+      "word": "WWEW",
+      "type": "internal",
+      "middle_input_rank": 1,
+      "middle_output_rank": 2
+    },
+    {
+      "word": "WWWE",
+      "type": "internal",
+      "middle_input_rank": 1,
+      "middle_output_rank": 2
+    }
+  ],
+  "flow4_source_events": [
+    {
+      "rank": 0,
+      "in": "E",
+      "out": "S",
+      "in_ordinal": 1,
+      "out_ordinal": 1,
+      "in_level": 0,
+      "out_level": 0
+    },
+    {
+      "rank": 1,
+      "in": "W",
+      "out": "S",
+      "in_ordinal": 1,
+      "out_ordinal": 2,
+      "in_level": -2,
+      "out_level": -1
+    },
+    {
+      "rank": 2,
+      "in": "E",
+      "out": "S",
+      "in_ordinal": 2,
+      "out_ordinal": 3,
+      "in_level": -1,
+      "out_level": -2
+    },
+    {
+      "rank": 3,
+      "in": "W",
+      "out": "S",
+      "in_ordinal": 2,
+      "out_ordinal": 4,
+      "in_level": -3,
+      "out_level": -3
+    }
+  ],
+  "flow4_target_E_normalized_events": [
+    {
+      "rank": 0,
+      "in": "E",
+      "out": "S",
+      "in_ordinal": 1,
+      "out_ordinal": 1,
+      "in_level": 0,
+      "out_level": 0
+    },
+    {
+      "rank": 1,
+      "in": "E",
+      "out": "N",
+      "in_ordinal": 2,
+      "out_ordinal": 1,
+      "in_level": -1,
+      "out_level": -2
+    },
+    {
+      "rank": 2,
+      "in": "E",
+      "out": "S",
+      "in_ordinal": 3,
+      "out_ordinal": 2,
+      "in_level": -2,
+      "out_level": -1
+    },
+    {
+      "rank": 3,
+      "in": "E",
+      "out": "N",
+      "in_ordinal": 4,
+      "out_ordinal": 2,
+      "in_level": -3,
+      "out_level": -3
+    }
+  ],
+  "analytic": [
+    "Every selected max-RIGHT middle transition has a physical flow3 or4 ordinal-two occurrence on sheet M-1. Complete same-R RLR/RLRL cases and both possible L3 headings are retained.",
+    "At all G3 internal cells, ordinal-two incoming and outgoing occurrences are exactly the L1/R2 repaired partners on c-1. At endpoints the other partner is ordinal two of a flow-two port. Thus the WHOLE source-sink path belongs to one canonical middle node, and a cyclic G3 component is an entire canonical node, not merely a subpath.",
+    "A G3 cyclic component is essential by the independently signed first/last crossing theorem. It therefore cannot be the chosen contractible canonical node. Every contractible node with a middle G3 edge contains a source-sink path; different nodes cannot share any such path because canonical edge occurrences partition. This gives h3<=J without assigning new original fuel.",
+    "A flow4 edge saturates every read at each endpoint: source EWEW sends SSSS, target SSSS receives those same four physical ordinal occurrences. Both exchanges join the SAME c-1 and c-2 canonical nodes, as shown by direct labels and L1/R2 swap. Those nodes are on distinct sheets. Physical neighboring endpoint cells have opposite checker parity and cannot alias under a full heading-restoring drift.",
+    "A complete cap4 cell has at most one saturated input-or-output port, as the fresh30-history enumeration confirms. Hence different physical flow4 quotient edges use DISJOINT pairs of exchange edges. Removing one edge per pair leaves its retained parallel alternative, so the connected canonical graph stays connected and beta>=F4. Existing even-beta parity supplies the even rounding; no primitivity assumption is used.",
+    "A remaining contractible node without G3 must have a flow4 ordinal-two edge at a chosen max-RIGHT corner. Each such edge has exactly one upper canonical node, so distinct nodes choose distinct flow4 edges. Consequently h<=J+F4<=J+beta. Under zero output J0, every such node uses a nonbridge parallel pair; h>0 forces beta>=2. This does not bound beta or count renewals."
+  ],
+  "scope": "Complete WHITE cap4 actual full-drift front. H counts distinct contractible M-1 canonical nodes having max-RIGHT corners. No K1 required, no global-front exclusion, no fuel or extra additive period budget."
+}

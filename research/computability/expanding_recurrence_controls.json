@@ -1,0 +1,32 @@
+{
+  "status": "PASS: exact negative control",
+  "model": "ordinary dragon; binary clock, expanding scalar1+i, eight affine states",
+  "raw_difference_states": 649,
+  "carry_radius": 5,
+  "equal_cell_dfa_states": 14,
+  "geometry": {
+    "bad_unit_step": null,
+    "bad_quarter_turn": null,
+    "bad_initial_turn": null,
+    "direction_dfa_states": [
+      6,
+      6,
+      6,
+      6
+    ]
+  },
+  "first_left_times_finite": false,
+  "first_left_dfa_states": 8,
+  "bad_alternation_witness": {
+    "t": 7,
+    "u": 11
+  },
+  "bad_alternation_dfa_states": 14,
+  "repeated_cell_witness": {
+    "s": 7,
+    "t": 11
+  },
+  "point_pair_controls": 40000,
+  "elapsed_seconds": 0.2929221710001002,
+  "scope": "No positional numeral system or full automatic pose graph assumed. This path is not an ant on any initial coloring."
+}

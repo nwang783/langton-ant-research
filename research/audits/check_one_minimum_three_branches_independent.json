@@ -1,0 +1,850 @@
+{
+  "status": "PASS exact three one-minimum g8 branches excluded;97 necessary interfaces remain OPEN",
+  "bindings": {
+    "ONE_MINIMUM_THREE_BRANCH_EXCLUSION.md": "68ad7151b52df8f217429168063ef49198b8ce48998a90ea619b8d56f80300da",
+    "certify_one_minimum_three_branches.py": "60b1d72cf255a481b611e28d35b0a513df4d75d5f2cd722d8e639be4aff6044f",
+    "one_minimum_three_branches_certificate.json": "ca3dde03cb4b1446c3c29ec7be5da88063725b9cf563c9171cfcd437cb1d4f13",
+    "certify_diagonal_read_minimum.py": "3a370e8eccb2493caa1cdf42bf210decd20ae7e78d2788a6e48ac43c85cbb1a6",
+    "certify_diagonal_read_minimum.json": "a4de122acffd766aee76c6676bb247f02c8754fc9ecfd5949cd20c5478929c7f",
+    "check_extremal_read_coupling.py": "2310020506000d946b122887b15d47b3d45f99f6ffe3f2f74f529f4e4ab338f0",
+    "diagonal_selected_pair_exclusions_certificate.json": "85fab3456d7f7285e67171f88852fa3e5b5e7281fa2feaa91f63988b3a5e3cad",
+    "DIAGONAL_G8_100_SIGNED_HANDOFF_0606.md": "85438253159061f4d565484d24e547d807ed8870acd2d0644f5f657cd8bfea97"
+  },
+  "outcomes": {
+    "open": 217,
+    "residue_budget": 5963,
+    "skipped_rank": 11155,
+    "positive_rank_clock_cycle": 284,
+    "closed_component": 128
+  },
+  "closed_windings": {
+    "-1": 125,
+    "1": 3
+  },
+  "independent_prefix_nodes": 51090,
+  "largest_derived_bound": 32,
+  "rounds": [
+    {
+      "id": [
+        1,
+        [
+          0,
+          0
+        ]
+      ],
+      "parents": 1,
+      "counts": {
+        "open": 8
+      }
+    },
+    {
+      "id": [
+        1,
+        [
+          0,
+          0
+        ]
+      ],
+      "parents": 8,
+      "counts": {
+        "residue_budget": 2,
+        "open": 22,
+        "skipped_rank": 14,
+        "positive_rank_clock_cycle": 6
+      }
+    },
+    {
+      "id": [
+        1,
+        [
+          0,
+          0
+        ]
+      ],
+      "parents": 22,
+      "counts": {
+        "residue_budget": 89,
+        "skipped_rank": 318,
+        "closed_component": 4
+      }
+    },
+    {
+      "id": [
+        1,
+        [
+          1,
+          0
+        ]
+      ],
+      "parents": 1,
+      "counts": {
+        "residue_budget": 3,
+        "open": 11
+      }
+    },
+    {
+      "id": [
+        1,
+        [
+          1,
+          0
+        ]
+      ],
+      "parents": 11,
+      "counts": {
+        "skipped_rank": 119,
+        "residue_budget": 33,
+        "open": 120,
+        "positive_rank_clock_cycle": 154,
+        "closed_component": 3
+      }
+    },
+    {
+      "id": [
+        1,
+        [
+          1,
+          0
+        ]
+      ],
+      "parents": 120,
+      "counts": {
+        "residue_budget": 5665,
+        "skipped_rank": 7298,
+        "closed_component": 103
+      }
+    },
+    {
+      "id": [
+        3,
+        [
+          3,
+          0
+        ]
+      ],
+      "parents": 1,
+      "counts": {
+        "open": 8,
+        "skipped_rank": 4
+      }
+    },
+    {
+      "id": [
+        3,
+        [
+          3,
+          0
+        ]
+      ],
+      "parents": 8,
+      "counts": {
+        "positive_rank_clock_cycle": 124,
+        "open": 48,
+        "skipped_rank": 72
+      }
+    },
+    {
+      "id": [
+        3,
+        [
+          3,
+          0
+        ]
+      ],
+      "parents": 48,
+      "counts": {
+        "skipped_rank": 3330,
+        "residue_budget": 171,
+        "closed_component": 18
+      }
+    }
+  ],
+  "remaining_ids": [
+    [
+      3,
+      [
+        3,
+        1
+      ]
+    ],
+    [
+      5,
+      [
+        0,
+        0
+      ]
+    ],
+    [
+      5,
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      5,
+      [
+        0,
+        2
+      ]
+    ],
+    [
+      5,
+      [
+        0,
+        3
+      ]
+    ],
+    [
+      5,
+      [
+        2,
+        0
+      ]
+    ],
+    [
+      5,
+      [
+        2,
+        2
+      ]
+    ],
+    [
+      5,
+      [
+        3,
+        3
+      ]
+    ],
+    [
+      5,
+      [
+        4,
+        2
+      ]
+    ],
+    [
+      5,
+      [
+        5,
+        0
+      ]
+    ],
+    [
+      5,
+      [
+        5,
+        2
+      ]
+    ],
+    [
+      5,
+      [
+        6,
+        3
+      ]
+    ],
+    [
+      8,
+      [
+        0,
+        0
+      ]
+    ],
+    [
+      8,
+      [
+        0,
+        2
+      ]
+    ],
+    [
+      8,
+      [
+        0,
+        5
+      ]
+    ],
+    [
+      8,
+      [
+        1,
+        0
+      ]
+    ],
+    [
+      8,
+      [
+        2,
+        0
+      ]
+    ],
+    [
+      8,
+      [
+        2,
+        2
+      ]
+    ],
+    [
+      8,
+      [
+        2,
+        4
+      ]
+    ],
+    [
+      8,
+      [
+        2,
+        5
+      ]
+    ],
+    [
+      8,
+      [
+        3,
+        0
+      ]
+    ],
+    [
+      8,
+      [
+        3,
+        3
+      ]
+    ],
+    [
+      8,
+      [
+        3,
+        6
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        0
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        3
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        4
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        5
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        7
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        8
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        9
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        10
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        12
+      ]
+    ],
+    [
+      9,
+      [
+        1,
+        0
+      ]
+    ],
+    [
+      9,
+      [
+        1,
+        1
+      ]
+    ],
+    [
+      9,
+      [
+        1,
+        3
+      ]
+    ],
+    [
+      9,
+      [
+        1,
+        4
+      ]
+    ],
+    [
+      9,
+      [
+        1,
+        5
+      ]
+    ],
+    [
+      9,
+      [
+        1,
+        7
+      ]
+    ],
+    [
+      9,
+      [
+        1,
+        8
+      ]
+    ],
+    [
+      9,
+      [
+        1,
+        9
+      ]
+    ],
+    [
+      9,
+      [
+        1,
+        10
+      ]
+    ],
+    [
+      9,
+      [
+        1,
+        12
+      ]
+    ],
+    [
+      9,
+      [
+        3,
+        0
+      ]
+    ],
+    [
+      9,
+      [
+        3,
+        1
+      ]
+    ],
+    [
+      9,
+      [
+        3,
+        4
+      ]
+    ],
+    [
+      9,
+      [
+        3,
+        5
+      ]
+    ],
+    [
+      9,
+      [
+        3,
+        9
+      ]
+    ],
+    [
+      9,
+      [
+        3,
+        10
+      ]
+    ],
+    [
+      9,
+      [
+        4,
+        0
+      ]
+    ],
+    [
+      9,
+      [
+        4,
+        1
+      ]
+    ],
+    [
+      9,
+      [
+        4,
+        3
+      ]
+    ],
+    [
+      9,
+      [
+        4,
+        4
+      ]
+    ],
+    [
+      9,
+      [
+        4,
+        5
+      ]
+    ],
+    [
+      9,
+      [
+        4,
+        8
+      ]
+    ],
+    [
+      9,
+      [
+        4,
+        9
+      ]
+    ],
+    [
+      9,
+      [
+        4,
+        10
+      ]
+    ],
+    [
+      9,
+      [
+        5,
+        0
+      ]
+    ],
+    [
+      9,
+      [
+        5,
+        1
+      ]
+    ],
+    [
+      9,
+      [
+        5,
+        3
+      ]
+    ],
+    [
+      9,
+      [
+        5,
+        4
+      ]
+    ],
+    [
+      9,
+      [
+        5,
+        8
+      ]
+    ],
+    [
+      9,
+      [
+        5,
+        9
+      ]
+    ],
+    [
+      9,
+      [
+        6,
+        7
+      ]
+    ],
+    [
+      9,
+      [
+        6,
+        12
+      ]
+    ],
+    [
+      9,
+      [
+        7,
+        0
+      ]
+    ],
+    [
+      9,
+      [
+        7,
+        1
+      ]
+    ],
+    [
+      9,
+      [
+        7,
+        6
+      ]
+    ],
+    [
+      9,
+      [
+        7,
+        11
+      ]
+    ],
+    [
+      9,
+      [
+        8,
+        0
+      ]
+    ],
+    [
+      9,
+      [
+        8,
+        1
+      ]
+    ],
+    [
+      9,
+      [
+        8,
+        4
+      ]
+    ],
+    [
+      9,
+      [
+        8,
+        5
+      ]
+    ],
+    [
+      9,
+      [
+        8,
+        8
+      ]
+    ],
+    [
+      9,
+      [
+        8,
+        9
+      ]
+    ],
+    [
+      9,
+      [
+        8,
+        10
+      ]
+    ],
+    [
+      9,
+      [
+        9,
+        0
+      ]
+    ],
+    [
+      9,
+      [
+        9,
+        1
+      ]
+    ],
+    [
+      9,
+      [
+        9,
+        3
+      ]
+    ],
+    [
+      9,
+      [
+        9,
+        4
+      ]
+    ],
+    [
+      9,
+      [
+        9,
+        5
+      ]
+    ],
+    [
+      9,
+      [
+        9,
+        8
+      ]
+    ],
+    [
+      9,
+      [
+        9,
+        9
+      ]
+    ],
+    [
+      9,
+      [
+        9,
+        10
+      ]
+    ],
+    [
+      9,
+      [
+        10,
+        0
+      ]
+    ],
+    [
+      9,
+      [
+        10,
+        1
+      ]
+    ],
+    [
+      9,
+      [
+        10,
+        3
+      ]
+    ],
+    [
+      9,
+      [
+        10,
+        4
+      ]
+    ],
+    [
+      9,
+      [
+        10,
+        8
+      ]
+    ],
+    [
+      9,
+      [
+        10,
+        9
+      ]
+    ],
+    [
+      9,
+      [
+        11,
+        7
+      ]
+    ],
+    [
+      9,
+      [
+        11,
+        11
+      ]
+    ],
+    [
+      9,
+      [
+        11,
+        12
+      ]
+    ],
+    [
+      9,
+      [
+        12,
+        0
+      ]
+    ],
+    [
+      9,
+      [
+        12,
+        1
+      ]
+    ],
+    [
+      9,
+      [
+        12,
+        6
+      ]
+    ],
+    [
+      9,
+      [
+        12,
+        11
+      ]
+    ]
+  ],
+  "analytic_review": [
+    "All next-row mandatory port counts were reconstructed directly from the complete exposed physical directed graph, with quotient voltage and all zero-use ports. Both empty classes and either complete-word parity are retained. Vertical bound n<=2(I+J), horizontal n<=2(I+J)+1 follow exact turn counts, not a front-wide cap.",
+    "Independent helper generation used complete binary prefixes and explicit stored incoming/outgoing RANK POSITIONS. A prefix is rejected only if a known physical return relation cannot still satisfy incoming_rank=outgoing_rank+1 or fixed counts are exceeded. Every completed prefix satisfying all constraints is retained AND can be extended. This differs from the author pending/last-departure automaton and reconstructs every supplied domain through bound32.",
+    "Every lower first-return chain is reconstructed from actual full drift and SAME physical source/target; no quotient-only return equation is imposed. All Cartesian choices and every intermediate open parent are retained exactly through all three levels.",
+    "Every rejection is independently checked: literal successor chains with skipped consecutive physical ranks; complete odd-bin lower bounds against ALL ten full g8 residue vectors; explicit cycle edges from rank gaps>=4, with nonnegative period coefficient and positivity already at P>=named_event_count; or closed event components. The three positive-winding closed cycles are rejected for PROPERNESS with additional named events, not for winding+1 alone.",
+    "The exact three source IDs are members of the signed100 remainder. The remaining one-minimum ID(3,[3,1]) and96 two-minimum interfaces remain OPEN necessary cases, not models or completed controllers. No growth-eight exclusion, higher-row support bound, solver result, or general classification follows."
+  ]
+}

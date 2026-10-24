@@ -1,0 +1,101 @@
+{
+  "status": "PASS fixed prehistory versus fixed pure future incompatibility",
+  "manifest": "a692203bd8f13e5f49da7de28953895c0f220de793eea7e2338ffeea73abaea8",
+  "script": "27f97621d70143183f8ad6375cad95511bf6ade04591564ccba1d6ca7bb127a8",
+  "controls": [
+    {
+      "residue": [
+        1,
+        3
+      ],
+      "additions": 0,
+      "clears": 34,
+      "fixed_additions": 0,
+      "fixed_clears": 34,
+      "earliest_hard_read": {
+        "cell": [
+          45,
+          178
+        ],
+        "offset": 29280,
+        "global_ideal_time": 78999,
+        "actual_cut_black": true,
+        "ideal_cut_black": false,
+        "current_lifetime": 18863
+      },
+      "odd_finite_ray_intervals": 158
+    },
+    {
+      "residue": [
+        1,
+        1
+      ],
+      "additions": 152,
+      "clears": 47,
+      "fixed_additions": 9,
+      "fixed_clears": 47,
+      "earliest_hard_read": {
+        "cell": [
+          159,
+          52
+        ],
+        "offset": 33280,
+        "global_ideal_time": 82999,
+        "actual_cut_black": false,
+        "ideal_cut_black": true,
+        "current_lifetime": null
+      },
+      "odd_finite_ray_intervals": 0
+    },
+    {
+      "residue": [
+        3,
+        3
+      ],
+      "additions": 0,
+      "clears": 30,
+      "fixed_additions": 0,
+      "fixed_clears": 30,
+      "earliest_hard_read": {
+        "cell": [
+          44,
+          177
+        ],
+        "offset": 5812,
+        "global_ideal_time": 55541,
+        "actual_cut_black": true,
+        "ideal_cut_black": false,
+        "current_lifetime": 18845
+      },
+      "odd_finite_ray_intervals": 154
+    },
+    {
+      "residue": [
+        3,
+        1
+      ],
+      "additions": 0,
+      "clears": 30,
+      "fixed_additions": 0,
+      "fixed_clears": 30,
+      "earliest_hard_read": {
+        "cell": [
+          44,
+          177
+        ],
+        "offset": 5840,
+        "global_ideal_time": 55569,
+        "actual_cut_black": true,
+        "ideal_cut_black": false,
+        "current_lifetime": 18845
+      },
+      "odd_finite_ray_intervals": 154
+    }
+  ],
+  "analytic_scope": [
+    "With fixed initial pose, the whole turn prefix fixes every visited physical cell initial color and its cut color. A desired future word fixes its path and first postcut read at each cell. Any mismatch at a prefix-visited first-future-read cell is immutable under ALL initial edits preserving that prefix, not merely single-bit edits.",
+    "All four complete prefix traces were independently replayed. The exact desired infinite footprint is transient positions plus104 half-rays; independent line intersections and parity endpoint sweeps enumerate every finite odd difference interval and prove the final unbounded interval even. Counts0/34,152/47,0/30,0/30 and prefix-fixed subsets agree.",
+    "The earliest hard witnesses are actual finite desired first reads at offsets29280/33280/5812/5840. In the missing-input branch, adding virgin159,51 genuinely repairs82998, then fails82999 on159,52, whose historical R47131/L47135 fixes WHITE. All unread edits leave that historical color unchanged.",
+    "These inventories are counterfactual input bit corrections on the desired read footprint, not actual ant clearing actions, permanent-output debits or a global resource. Alternative preparation, inserted excursions, altered phases and different futures remain unrestricted."
+  ]
+}

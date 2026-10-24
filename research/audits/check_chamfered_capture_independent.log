@@ -1,0 +1,61 @@
+families 0 pairs 431 seconds 0.12472943200555164
+families 100 pairs 43531 seconds 14.8195927630004
+families 200 pairs 86631 seconds 31.852301596009056
+families 300 pairs 129731 seconds 47.16544491700188
+families 400 pairs 172831 seconds 62.24819446900801
+{
+  "status": "PASS all r,k>=10 and all future reads",
+  "candidate_sha256": "33a6ed71ebdbe2fe61873e5b8ddf836d8bcda57811f735bee29d9ae2be7b2f00",
+  "literal_seed_output_families": 16,
+  "read_families": 431,
+  "all_ordered_pairs_including_self": 185761,
+  "nonempty_prior_relations": 923,
+  "tail_time_after_frame": [
+    20,
+    287
+  ],
+  "tail_time_from_original": [
+    36,
+    8,
+    291
+  ],
+  "tail_pose": "(2r+1,4,N)",
+  "tail_drift": [
+    -2,
+    2
+  ],
+  "controls": [
+    {
+      "r": 10,
+      "k": 10,
+      "read_count": 11131,
+      "tail_periods": 100
+    },
+    {
+      "r": 10,
+      "k": 100,
+      "read_count": 11851,
+      "tail_periods": 100
+    },
+    {
+      "r": 100,
+      "k": 10,
+      "read_count": 14371,
+      "tail_periods": 100
+    },
+    {
+      "r": 11,
+      "k": 15,
+      "read_count": 11207,
+      "tail_periods": 100
+    },
+    {
+      "r": 40,
+      "k": 25,
+      "read_count": 12331,
+      "tail_periods": 100
+    }
+  ],
+  "seconds": 66.12780678500712,
+  "scope": "Specified two-parameter finite seed family only; sufficient phase and thresholds, not minimal or global."
+}

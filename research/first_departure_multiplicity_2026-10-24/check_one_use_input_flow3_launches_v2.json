@@ -1,0 +1,855 @@
+{
+  "scope": "All local one-use-input flow3 launches after the signed GLOBAL-M RR/RLR reduction.\nNo period, drift or arbitrary segment-length scan. Complete WHITE cap4 words.\n",
+  "RLR_all62_counts": {
+    "port": 57,
+    "rank": 5
+  },
+  "RLR_five_literal_failures": [
+    {
+      "Z": "SSNS",
+      "D": "EEWE",
+      "result": "rank",
+      "certificate": {
+        "path": [
+          [
+            [
+              0,
+              0
+            ],
+            3
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            3
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          [
+            [
+              0,
+              0
+            ],
+            3
+          ]
+        ],
+        "start_rank": 3,
+        "returned_rank": 3
+      }
+    },
+    {
+      "Z": "SSNS",
+      "D": "WEEE",
+      "result": "rank",
+      "certificate": {
+        "path": [
+          [
+            [
+              0,
+              0
+            ],
+            3
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            3
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          [
+            [
+              0,
+              0
+            ],
+            3
+          ]
+        ],
+        "start_rank": 3,
+        "returned_rank": 3
+      }
+    },
+    {
+      "Z": "SSS",
+      "D": "WEW",
+      "result": "rank",
+      "certificate": {
+        "path": [
+          [
+            [
+              1,
+              1
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            2
+          ]
+        ],
+        "start_rank": 0,
+        "returned_rank": 2
+      }
+    },
+    {
+      "Z": "SSS",
+      "D": "WEWW",
+      "result": "rank",
+      "certificate": {
+        "path": [
+          [
+            [
+              1,
+              1
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            2
+          ]
+        ],
+        "start_rank": 0,
+        "returned_rank": 2
+      }
+    },
+    {
+      "Z": "SSS",
+      "D": "WWWE",
+      "result": "rank",
+      "certificate": {
+        "path": [
+          [
+            [
+              0,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              0,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            3
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            3
+          ]
+        ],
+        "start_rank": 1,
+        "returned_rank": 3
+      }
+    }
+  ],
+  "RR_all10_counts": {
+    "open": 3,
+    "port": 6,
+    "rank": 1
+  },
+  "RR_full_endpoint_rows": [
+    {
+      "Z": "NNS",
+      "A": "EWWW",
+      "B": "SSNS",
+      "Y": "EEW",
+      "result": "open",
+      "certificate": {
+        "successor_edges": [
+          [
+            [
+              [
+                0,
+                -1
+              ],
+              1
+            ],
+            [
+              [
+                0,
+                0
+              ],
+              0
+            ]
+          ],
+          [
+            [
+              [
+                0,
+                -1
+              ],
+              2
+            ],
+            [
+              [
+                0,
+                0
+              ],
+              1
+            ]
+          ],
+          [
+            [
+              [
+                0,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              0
+            ]
+          ],
+          [
+            [
+              [
+                1,
+                -1
+              ],
+              0
+            ],
+            [
+              [
+                0,
+                -1
+              ],
+              2
+            ]
+          ],
+          [
+            [
+              [
+                1,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                1,
+                -1
+              ],
+              0
+            ]
+          ],
+          [
+            [
+              [
+                1,
+                0
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                -1
+              ],
+              1
+            ]
+          ],
+          [
+            [
+              [
+                1,
+                0
+              ],
+              3
+            ],
+            [
+              [
+                1,
+                -1
+              ],
+              3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "Z": "NNS",
+      "A": "EWWW",
+      "B": "SSNS",
+      "Y": "EEWE",
+      "result": "port",
+      "certificate": {
+        "source": [
+          0,
+          -1
+        ],
+        "direction": "N",
+        "source_ranks": [
+          1,
+          2,
+          3
+        ],
+        "target": [
+          0,
+          0
+        ],
+        "target_ranks": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "Z": "NNS",
+      "A": "EWWW",
+      "B": "SSS",
+      "Y": "EWW",
+      "result": "port",
+      "certificate": {
+        "source": [
+          0,
+          -1
+        ],
+        "direction": "N",
+        "source_ranks": [
+          2
+        ],
+        "target": [
+          0,
+          0
+        ],
+        "target_ranks": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "Z": "NNS",
+      "A": "EWWW",
+      "B": "SSS",
+      "Y": "EWWE",
+      "result": "rank",
+      "certificate": {
+        "path": [
+          [
+            [
+              0,
+              -1
+            ],
+            2
+          ],
+          [
+            [
+              0,
+              0
+            ],
+            0
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            0
+          ],
+          [
+            [
+              1,
+              -1
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              -1
+            ],
+            1
+          ]
+        ],
+        "start_rank": 2,
+        "returned_rank": 1
+      }
+    },
+    {
+      "Z": "NNS",
+      "A": "EWWW",
+      "B": "SSS",
+      "Y": "EEWW",
+      "result": "open",
+      "certificate": {
+        "successor_edges": [
+          [
+            [
+              [
+                0,
+                -1
+              ],
+              1
+            ],
+            [
+              [
+                0,
+                0
+              ],
+              0
+            ]
+          ],
+          [
+            [
+              [
+                0,
+                -1
+              ],
+              2
+            ],
+            [
+              [
+                0,
+                0
+              ],
+              1
+            ]
+          ],
+          [
+            [
+              [
+                0,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              0
+            ]
+          ],
+          [
+            [
+              [
+                1,
+                -1
+              ],
+              0
+            ],
+            [
+              [
+                0,
+                -1
+              ],
+              2
+            ]
+          ],
+          [
+            [
+              [
+                1,
+                -1
+              ],
+              2
+            ],
+            [
+              [
+                0,
+                -1
+              ],
+              3
+            ]
+          ],
+          [
+            [
+              [
+                1,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                1,
+                -1
+              ],
+              0
+            ]
+          ],
+          [
+            [
+              [
+                1,
+                0
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                -1
+              ],
+              1
+            ]
+          ],
+          [
+            [
+              [
+                1,
+                0
+              ],
+              3
+            ],
+            [
+              [
+                1,
+                -1
+              ],
+              2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "Z": "NNSN",
+      "A": "EWWW",
+      "B": "SSNS",
+      "Y": "EEW",
+      "result": "port",
+      "certificate": {
+        "source": [
+          0,
+          -1
+        ],
+        "direction": "N",
+        "source_ranks": [
+          1,
+          2
+        ],
+        "target": [
+          0,
+          0
+        ],
+        "target_ranks": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "Z": "NNSN",
+      "A": "EWWW",
+      "B": "SSNS",
+      "Y": "EEWE",
+      "result": "open",
+      "certificate": {
+        "successor_edges": [
+          [
+            [
+              [
+                0,
+                -1
+              ],
+              1
+            ],
+            [
+              [
+                0,
+                0
+              ],
+              0
+            ]
+          ],
+          [
+            [
+              [
+                0,
+                -1
+              ],
+              2
+            ],
+            [
+              [
+                0,
+                0
+              ],
+              1
+            ]
+          ],
+          [
+            [
+              [
+                0,
+                -1
+              ],
+              3
+            ],
+            [
+              [
+                0,
+                0
+              ],
+              3
+            ]
+          ],
+          [
+            [
+              [
+                0,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              0
+            ]
+          ],
+          [
+            [
+              [
+                1,
+                -1
+              ],
+              0
+            ],
+            [
+              [
+                0,
+                -1
+              ],
+              2
+            ]
+          ],
+          [
+            [
+              [
+                1,
+                0
+              ],
+              0
+            ],
+            [
+              [
+                1,
+                -1
+              ],
+              0
+            ]
+          ],
+          [
+            [
+              [
+                1,
+                0
+              ],
+              1
+            ],
+            [
+              [
+                1,
+                -1
+              ],
+              1
+            ]
+          ],
+          [
+            [
+              [
+                1,
+                0
+              ],
+              3
+            ],
+            [
+              [
+                1,
+                -1
+              ],
+              3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "Z": "NNSN",
+      "A": "EWWW",
+      "B": "SSS",
+      "Y": "EWW",
+      "result": "port",
+      "certificate": {
+        "source": [
+          0,
+          -1
+        ],
+        "direction": "N",
+        "source_ranks": [
+          2
+        ],
+        "target": [
+          0,
+          0
+        ],
+        "target_ranks": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "Z": "NNSN",
+      "A": "EWWW",
+      "B": "SSS",
+      "Y": "EWWE",
+      "result": "port",
+      "certificate": {
+        "source": [
+          0,
+          -1
+        ],
+        "direction": "N",
+        "source_ranks": [
+          2,
+          3
+        ],
+        "target": [
+          0,
+          0
+        ],
+        "target_ranks": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "Z": "NNSN",
+      "A": "EWWW",
+      "B": "SSS",
+      "Y": "EEWW",
+      "result": "port",
+      "certificate": {
+        "source": [
+          0,
+          -1
+        ],
+        "direction": "N",
+        "source_ranks": [
+          1,
+          2
+        ],
+        "target": [
+          0,
+          0
+        ],
+        "target_ranks": [
+          0,
+          1,
+          3
+        ]
+      }
+    }
+  ],
+  "warning": "Three RR profiles are necessary local stock gates; no connected physical field, full voltage, complete front or fuel payment is certified."
+}

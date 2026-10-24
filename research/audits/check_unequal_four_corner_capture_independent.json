@@ -1,0 +1,50 @@
+{
+  "status": "PASS independent all r,s>=50 complete two-contact capture",
+  "candidate_sha256": "cb8a6c66620c4e9e118ae8b2e189cffdf0c5aefeb93ad8e32d38393ecb5b5f3d",
+  "initial_mass": 43,
+  "capture_time": "208r+312s+13640",
+  "capture_pose": [
+    "-2s+2",
+    "2s+38",
+    "N"
+  ],
+  "capture_mass": "24r+36s+795",
+  "final_drift": [
+    -2,
+    2
+  ],
+  "stages": [
+    {
+      "name": "first local continuation",
+      "length": 4954,
+      "read_cells": 991,
+      "complete_XOR": 526,
+      "word_sha256": "37e914f72152dd28629306ab15214b1e0539a4885ecb4f0ea90bfafd2d8070d9"
+    },
+    {
+      "name": "finite NW segment",
+      "ordered_slot_pairs": 10816,
+      "prior_relations": 262,
+      "count": [
+        0,
+        1,
+        -10
+      ]
+    },
+    {
+      "name": "remote written-side contact",
+      "length": 9458,
+      "read_cells": 1506,
+      "complete_XOR": 818,
+      "word_sha256": "91554af8eb4895d6803194719ffdeb9fb15312247939142e92c4141dfe2a267a"
+    },
+    {
+      "name": "all future NW periods",
+      "ordered_slot_pairs": 10816,
+      "prior_relations": 262,
+      "count": null
+    }
+  ],
+  "seconds": 42.4272112059989,
+  "scope": "Exact unmodified two-parameter43-cell prepared loop family. Remote second contact explicitly checked, not inferred from diagonal samples or finite periodic agreement."
+}

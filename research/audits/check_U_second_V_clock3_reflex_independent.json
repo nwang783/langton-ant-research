@@ -1,0 +1,247 @@
+{
+  "status": "PASS two true-clock3 old-U FIRST second-contact reflex obstructions",
+  "manifest": "25dd1d41e5f4516f02aae8864977e6a17471013fb1e87d802b43d7e9922f3546",
+  "literal_zeroC_head_increments": {
+    "0": {
+      "D": [
+        1,
+        1
+      ],
+      "V": [
+        1,
+        3
+      ],
+      "U": [
+        0,
+        4
+      ]
+    },
+    "1": {
+      "D": [
+        1,
+        -1
+      ],
+      "V": [
+        3,
+        -1
+      ],
+      "U": [
+        4,
+        0
+      ]
+    },
+    "2": {
+      "D": [
+        -1,
+        -1
+      ],
+      "V": [
+        -1,
+        -3
+      ],
+      "U": [
+        0,
+        -4
+      ]
+    },
+    "3": {
+      "D": [
+        -1,
+        1
+      ],
+      "V": [
+        -3,
+        1
+      ],
+      "U": [
+        -4,
+        0
+      ]
+    }
+  },
+  "literal_C_increments": {
+    "0": {
+      "delta": [
+        0,
+        1
+      ],
+      "chord": [
+        [
+          -1,
+          -1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "1": {
+      "delta": [
+        1,
+        0
+      ],
+      "chord": [
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ]
+    },
+    "2": {
+      "delta": [
+        0,
+        -1
+      ],
+      "chord": [
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ]
+    },
+    "3": {
+      "delta": [
+        -1,
+        0
+      ],
+      "chord": [
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          1
+        ]
+      ]
+    }
+  },
+  "cases": [
+    {
+      "foreign": "Q",
+      "pieces": [
+        [
+          [
+            9,
+            1
+          ],
+          [
+            7,
+            7
+          ]
+        ],
+        [
+          [
+            7,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        [
+          [
+            3,
+            7
+          ],
+          [
+            1,
+            9
+          ]
+        ],
+        [
+          [
+            1,
+            9
+          ],
+          [
+            -1,
+            3
+          ]
+        ]
+      ],
+      "exact_contact": [
+        "1/2",
+        "1",
+        [
+          -1,
+          3
+        ]
+      ],
+      "whole_loop_min_y2": 1,
+      "U_start_y2": -1
+    },
+    {
+      "foreign": "B",
+      "pieces": [
+        [
+          [
+            11,
+            3
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        [
+          [
+            9,
+            9
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        [
+          [
+            3,
+            7
+          ],
+          [
+            1,
+            9
+          ]
+        ],
+        [
+          [
+            1,
+            9
+          ],
+          [
+            -1,
+            3
+          ]
+        ]
+      ],
+      "exact_contact": [
+        "1/2",
+        "1",
+        [
+          -1,
+          3
+        ]
+      ],
+      "whole_loop_min_y2": 3,
+      "U_start_y2": -1
+    }
+  ],
+  "analytic_review": [
+    "The secondV terminal is the strict midpoint of the actual oldU chord, parameters1/2 and1. Prior simple proxy through b1 plus chronological FIRST b2 contact makes the forward B-to-B subarc a Jordan loop. True preforeign C count3 plus actual firstRAW C gives effective count4; actual preceding-C bit0 supplies the repaired-foreign lift. Open3pi-beta and closing-pi+beta give CCW2pi, not the oldU general arbitrary-tail reflex heuristic.",
+    "The bounded interior at B is the CCW reflex sector from outgoingN to reversed incomingV=(1,3), angle2pi-beta. The actual oldU reverse half pointsS strictly inside. It cannot leave or touch the rest of the boundary: old/old, old/foreign and old/b1 contacts violate prior simplicity, and old/b2 contact before B violates FIRSTcontact. Thus the genuine oldU start, not a hypothetical historical wire, is strictly in the bounded component.",
+    "Whole-loop support is reconstructed for unbounded zero-C runs. After sourceU, N0 heady>=4 and correctedY>=7; actual C1 raises heady1 and W1 correctedY>=9. W zero-C increments have nonnegativey; C2 has head dy0 and its two corrected endpoints are2y-1 and2y+1, so its minimum is>=9. This explicitly avoids mistaking its rising corrected chord for monotonic decrease. S2 heads are nonincreasing toward the final S head; C3 lowers heady1 before E3. E3 heads are nonincreasing toward foreign yA. Therefore all S2/C3/E3 endpoints have correctedY>=2yA+1. Source U remainder has Y>=3. Zero-length phases and source-own C tails obey the same atomic increments.",
+    "Exact repaired Q/B plus b1C/b2V pieces have minima1/3; hence the entire respective Jordan loop is contained in Y>=1/3, while oldU start hasY=-1. Its downward ray is disjoint from the boundary, placing it in the unbounded component, contradiction. No enclosure-only argument, exterior assumption, old identity or postforeign maturation is used.",
+    "Only Q5,0E,C,V0,4S and B6,1E,C,V0,4S at true preforeign age3 and chronological FIRST new contact are excluded. Other headings, clocks, later contacts and arbitrary-tail simplicity are not covered."
+  ]
+}

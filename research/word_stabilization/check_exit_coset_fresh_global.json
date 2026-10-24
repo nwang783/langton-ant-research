@@ -1,0 +1,139 @@
+{
+  "status": "PASS",
+  "macro_reductions": {
+    "C": "RLL",
+    "V": "RLLRRL",
+    "U": "RLLRLRRL",
+    "Q": "RLLRLLRRLRLLRLLRLRRLLRRL",
+    "B": "RLLRLLRRLRLLRLLRLRRLLRLRRL"
+  },
+  "exit_cosets": {
+    "V": "RLLRR",
+    "U": "RLLRLRR",
+    "Q": "RLLRLLRRLRLLRLLRLRRLLRR",
+    "B": "RLLRLLRRLRLLRLLRLRRLLRLRR"
+  },
+  "finite_language_checks": [
+    {
+      "earlier_macro": "C",
+      "exit_macro": "V",
+      "canonical_read_bound": 3,
+      "candidate_prefixes_checked": 1
+    },
+    {
+      "earlier_macro": "C",
+      "exit_macro": "U",
+      "canonical_read_bound": 3,
+      "candidate_prefixes_checked": 1
+    },
+    {
+      "earlier_macro": "C",
+      "exit_macro": "Q",
+      "canonical_read_bound": 3,
+      "candidate_prefixes_checked": 1
+    },
+    {
+      "earlier_macro": "C",
+      "exit_macro": "B",
+      "canonical_read_bound": 3,
+      "candidate_prefixes_checked": 1
+    },
+    {
+      "earlier_macro": "V",
+      "exit_macro": "V",
+      "canonical_read_bound": 5,
+      "candidate_prefixes_checked": 1
+    },
+    {
+      "earlier_macro": "V",
+      "exit_macro": "U",
+      "canonical_read_bound": 5,
+      "candidate_prefixes_checked": 1
+    },
+    {
+      "earlier_macro": "V",
+      "exit_macro": "Q",
+      "canonical_read_bound": 5,
+      "candidate_prefixes_checked": 1
+    },
+    {
+      "earlier_macro": "V",
+      "exit_macro": "B",
+      "canonical_read_bound": 5,
+      "candidate_prefixes_checked": 1
+    },
+    {
+      "earlier_macro": "U",
+      "exit_macro": "V",
+      "canonical_read_bound": 7,
+      "candidate_prefixes_checked": 1
+    },
+    {
+      "earlier_macro": "U",
+      "exit_macro": "U",
+      "canonical_read_bound": 7,
+      "candidate_prefixes_checked": 1
+    },
+    {
+      "earlier_macro": "U",
+      "exit_macro": "Q",
+      "canonical_read_bound": 7,
+      "candidate_prefixes_checked": 1
+    },
+    {
+      "earlier_macro": "U",
+      "exit_macro": "B",
+      "canonical_read_bound": 7,
+      "candidate_prefixes_checked": 1
+    },
+    {
+      "earlier_macro": "Q",
+      "exit_macro": "V",
+      "canonical_read_bound": 17,
+      "candidate_prefixes_checked": 1
+    },
+    {
+      "earlier_macro": "Q",
+      "exit_macro": "U",
+      "canonical_read_bound": 17,
+      "candidate_prefixes_checked": 1
+    },
+    {
+      "earlier_macro": "Q",
+      "exit_macro": "Q",
+      "canonical_read_bound": 17,
+      "candidate_prefixes_checked": 1
+    },
+    {
+      "earlier_macro": "Q",
+      "exit_macro": "B",
+      "canonical_read_bound": 17,
+      "candidate_prefixes_checked": 1
+    },
+    {
+      "earlier_macro": "B",
+      "exit_macro": "V",
+      "canonical_read_bound": 19,
+      "candidate_prefixes_checked": 1
+    },
+    {
+      "earlier_macro": "B",
+      "exit_macro": "U",
+      "canonical_read_bound": 19,
+      "candidate_prefixes_checked": 1
+    },
+    {
+      "earlier_macro": "B",
+      "exit_macro": "Q",
+      "canonical_read_bound": 19,
+      "candidate_prefixes_checked": 1
+    },
+    {
+      "earlier_macro": "B",
+      "exit_macro": "B",
+      "canonical_read_bound": 19,
+      "candidate_prefixes_checked": 1
+    }
+  ],
+  "claim": "Every non-C exit cell is read in a coset not visited in any earlier macro of the concatenation. This is symbolic freshness only, not physical-cell freshness."
+}

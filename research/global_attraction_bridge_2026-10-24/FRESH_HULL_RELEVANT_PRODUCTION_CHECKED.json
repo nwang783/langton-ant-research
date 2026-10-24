@@ -1,0 +1,345 @@
+{
+  "status": "AUTHOR exact spatial countercontrol; independent audit pending",
+  "dependency_sha256": "019ed6ed81344cfbc886be70457718709cd1a73381483dea411dbb1db2720065",
+  "normal": [
+    1,
+    -1
+  ],
+  "entry": 0,
+  "exit": 104,
+  "displacement": [
+    2,
+    -2
+  ],
+  "normal_advance": 4,
+  "entry_original_cohort_size": 14,
+  "entry_cohort_latest_death": 70,
+  "exit_relevant_size": 23,
+  "exit_complete_size": 26,
+  "fresh_side_relevant_size": 17,
+  "fresh_side_layer_counts": {
+    "0": 5,
+    "1": 4,
+    "2": 4,
+    "3": 4
+  },
+  "fresh_side_lifetimes": [
+    {
+      "cell": [
+        -3,
+        -3
+      ],
+      "lifetime": [
+        "R",
+        78
+      ],
+      "death": 230,
+      "relevant": true
+    },
+    {
+      "cell": [
+        -2,
+        -4
+      ],
+      "lifetime": [
+        "R",
+        88
+      ],
+      "death": 256,
+      "relevant": true
+    },
+    {
+      "cell": [
+        -2,
+        -3
+      ],
+      "lifetime": [
+        "R",
+        89
+      ],
+      "death": 257,
+      "relevant": true
+    },
+    {
+      "cell": [
+        -2,
+        -2
+      ],
+      "lifetime": [
+        "R",
+        84
+      ],
+      "death": 260,
+      "relevant": true
+    },
+    {
+      "cell": [
+        -1,
+        -4
+      ],
+      "lifetime": [
+        "R",
+        87
+      ],
+      "death": 275,
+      "relevant": true
+    },
+    {
+      "cell": [
+        -1,
+        -3
+      ],
+      "lifetime": [
+        "R",
+        98
+      ],
+      "death": 274,
+      "relevant": true
+    },
+    {
+      "cell": [
+        -1,
+        -2
+      ],
+      "lifetime": [
+        "R",
+        99
+      ],
+      "death": 263,
+      "relevant": true
+    },
+    {
+      "cell": [
+        0,
+        -3
+      ],
+      "lifetime": [
+        "R",
+        97
+      ],
+      "death": 265,
+      "relevant": true
+    },
+    {
+      "cell": [
+        0,
+        -1
+      ],
+      "lifetime": [
+        "R",
+        101
+      ],
+      "death": 141,
+      "relevant": true
+    },
+    {
+      "cell": [
+        0,
+        0
+      ],
+      "lifetime": [
+        "R",
+        64
+      ],
+      "death": 140,
+      "relevant": true
+    },
+    {
+      "cell": [
+        1,
+        -1
+      ],
+      "lifetime": [
+        "R",
+        102
+      ],
+      "death": 110,
+      "relevant": true
+    },
+    {
+      "cell": [
+        1,
+        0
+      ],
+      "lifetime": [
+        "R",
+        23
+      ],
+      "death": 139,
+      "relevant": true
+    },
+    {
+      "cell": [
+        1,
+        1
+      ],
+      "lifetime": [
+        "R",
+        46
+      ],
+      "death": 166,
+      "relevant": true
+    },
+    {
+      "cell": [
+        2,
+        -1
+      ],
+      "lifetime": [
+        "R",
+        17
+      ],
+      "death": 109,
+      "relevant": true
+    },
+    {
+      "cell": [
+        2,
+        0
+      ],
+      "lifetime": [
+        "R",
+        28
+      ],
+      "death": 136,
+      "relevant": true
+    },
+    {
+      "cell": [
+        2,
+        2
+      ],
+      "lifetime": [
+        "R",
+        44
+      ],
+      "death": 168,
+      "relevant": true
+    },
+    {
+      "cell": [
+        3,
+        0
+      ],
+      "lifetime": [
+        "R",
+        27
+      ],
+      "death": 135,
+      "relevant": true
+    }
+  ],
+  "next_three_inputs": [
+    {
+      "cell": [
+        2,
+        -1
+      ],
+      "lifetime": [
+        "R",
+        17
+      ],
+      "death": 109,
+      "relevant": true
+    },
+    {
+      "cell": [
+        1,
+        -1
+      ],
+      "lifetime": [
+        "R",
+        102
+      ],
+      "death": 110,
+      "relevant": true
+    },
+    {
+      "cell": [
+        3,
+        0
+      ],
+      "lifetime": [
+        "R",
+        27
+      ],
+      "death": 135,
+      "relevant": true
+    }
+  ],
+  "normalized_added": [
+    [
+      -6,
+      0
+    ],
+    [
+      -6,
+      1
+    ],
+    [
+      -5,
+      -1
+    ],
+    [
+      -5,
+      3
+    ],
+    [
+      -4,
+      -2
+    ],
+    [
+      -4,
+      -1
+    ],
+    [
+      -4,
+      0
+    ],
+    [
+      -4,
+      4
+    ],
+    [
+      -3,
+      -2
+    ],
+    [
+      -1,
+      3
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "normalized_missing": [
+    [
+      -4,
+      1
+    ],
+    [
+      -4,
+      2
+    ]
+  ],
+  "entry_normalized_support": {
+    "normal_min": -6,
+    "normal_max": -1,
+    "tangent_min": -4,
+    "tangent_max": 3
+  },
+  "exit_normalized_support": {
+    "normal_min": -8,
+    "normal_max": -1,
+    "tangent_min": -6,
+    "tangent_max": 4
+  },
+  "exact_inequalities": {
+    "unit_retirement_charge_fails": "17 > 14",
+    "full_relevant_replacement_gain": 9,
+    "normal_advance": 4,
+    "required_linear_displacement_coefficient_for_nonincrease": "alpha >= 9/4"
+  },
+  "scope": "Finite same-normal pristine-to-pristine production; no repeatability, no all-seed budget exclusion, no claim every newly born bit is at a globally unvisited site."
+}

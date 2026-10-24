@@ -1,0 +1,96 @@
+{
+  "status": "PASS bounded search geometry/encoding scope and full finite standard positive control ONLY; no UNSAT theorem",
+  "wrapper": "c998567d2fbfd354d231899d5fe1ba104886906b86bcf9bc2505ebe12b0f1208",
+  "unchanged_core": "6aae80f665088cfd6006b54c74c6dc99e7e79d8f762f44220a4784cd5c3031e8",
+  "search_summary": "bec06252966bce4f35d8ae49d11527bd6eb0ae29d9b92dd247bbbb96dc712a0a",
+  "six_search_statuses": [
+    {
+      "case": 0,
+      "status": "UNKNOWN",
+      "smt2": "954257d4192c28f8d7d2fa7a35eb013f40aacb712965e3b651749a9809ca68c1",
+      "fixed_empty_classes_retained": [
+        [
+          1,
+          11
+        ]
+      ]
+    },
+    {
+      "case": 1,
+      "status": "UNKNOWN",
+      "smt2": "56f3845f071a7ec35825d196c1a9c7e5ff9659f8f18ee04c337de6bdac8f61af",
+      "fixed_empty_classes_retained": [
+        [
+          1,
+          11
+        ]
+      ]
+    },
+    {
+      "case": 2,
+      "status": "UNSAT_BOUNDED_SOLVER_ONLY",
+      "smt2": "13a35e97e5a1a0126b27992984cb4202bf7ce66680b23b34f17ec57861f166d2",
+      "fixed_empty_classes_retained": [
+        [
+          1,
+          11
+        ]
+      ]
+    },
+    {
+      "case": 3,
+      "status": "UNSAT_BOUNDED_SOLVER_ONLY",
+      "smt2": "9616f0d026ec0d939663b790fcd0a9386c78eef6c5d70df27d2f4124c7168552",
+      "fixed_empty_classes_retained": [
+        [
+          1,
+          11
+        ]
+      ]
+    },
+    {
+      "case": 4,
+      "status": "UNKNOWN",
+      "smt2": "5daff70f80ddc054c5932d27f656119aa159f97a27a7485e82a08c5cd0c5f213",
+      "fixed_empty_classes_retained": [
+        [
+          1,
+          11
+        ]
+      ]
+    },
+    {
+      "case": 5,
+      "status": "UNKNOWN",
+      "smt2": "0c4c902c56c1ab753983ba813daf5e8435fe614ebab0ec9f8e0977f18a276a65",
+      "fixed_empty_classes_retained": [
+        [
+          1,
+          11
+        ]
+      ]
+    }
+  ],
+  "standard_control": {
+    "json": "b0c52311323e6b73e587c99c99919c4c13e342f8467444a1cd655e9362e37a1d",
+    "period": 104,
+    "initial_mass": 19,
+    "growth": 12,
+    "actual_nonempty_normal_levels": [
+      2,
+      12
+    ],
+    "padded_normal_levels": [
+      0,
+      12
+    ],
+    "full_infinite_phase_tests": 194
+  },
+  "analytic_review": [
+    "The transform(-x,11-y), heading+2 is a genuine half-turn plus odd translation, taking full drift(2,-2) to(-2,2), original sector to the compact encoder sector. It maps signed minimum rows-1,0,1 to top levels12,11,10, preserving empty classes. All six one-singleton interfaces were independently reconstructed and matched to the six saved fixed assignments.",
+    "The26 representative cells are exactly0<=x+y<=12, x=0,1; n_i<=12 implies the explicit derived P<=312. Fixed T occupancy gives top12; assertionn0+n1>0 gives bottom0 for the six new searches. Thus exact13 normal levels, NOT an unrestricted period/multiplicity/width theorem. The padded standard control deliberately does not force bottom0.",
+    "Reviewed unchanged compact encoder: n and incoming-axis bits give complete WHITE alternating histories, consecutive rank gaps>=4, exact port count equality and ordinal matching, zero exterior ports, P=sum n. A neighbor shift k*(2,-2) is -k times desired full drift, so its target representative clock uses -kP correctly. Each fully matched event cycle has positive length an integer multiple ofP; total eventsP forces a single P-event orbit and distinct phases. Real-clock relaxation is used only for discovery, with every SAT time checked integer before reconstruction.",
+    "Fresh standard positive replay reconstructs every actual representative history and all104 clocks, all22 nonempty classes, exact19-cell full seed and all-future phase/ray parity. It is retained standard104, growth12, not a new controller. Its active levels2..12 occupy a padded13-level strip.",
+    "The completed bounded run reports four UNKNOWN/timeouts and two solver-only bounded UNSAT. No opaque status is promoted to an exclusion, even within the bounded window. Any later analytic extraction requires a separate proof/certificate. This scope audit is not an independent solver exhaustion and proves no unrestricted g8 or controller classification."
+  ]
+}

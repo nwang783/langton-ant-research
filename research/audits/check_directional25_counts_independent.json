@@ -1,0 +1,481 @@
+{
+  "status": "PASS all25 require at least4 C macros; no overflow exclusion",
+  "cases": [
+    {
+      "tuple": [
+        0,
+        0,
+        3,
+        0,
+        3,
+        2,
+        0
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "signed counted clause",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 5,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        0,
+        1,
+        3,
+        0,
+        3,
+        2,
+        0
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "signed counted clause",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 5,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        0,
+        4,
+        4,
+        -1,
+        3,
+        2,
+        0
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "signed counted clause",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 5,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        0,
+        5,
+        4,
+        -1,
+        3,
+        2,
+        0
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "signed counted clause",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 5,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        0,
+        6,
+        -1,
+        0,
+        1,
+        2,
+        0
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "source count/heading",
+        "source count/heading",
+        "signed counted clause"
+      ],
+      "minimum_C_count": 7,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        0,
+        6,
+        5,
+        0,
+        3,
+        2,
+        0
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "signed counted clause",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 5,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        1,
+        0,
+        4,
+        1,
+        3,
+        3,
+        1
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "signed counted clause",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 5,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        1,
+        1,
+        3,
+        1,
+        0,
+        3,
+        2
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "source count/heading",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 4,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        1,
+        1,
+        4,
+        1,
+        3,
+        3,
+        1
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "signed counted clause",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 5,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        1,
+        4,
+        5,
+        0,
+        3,
+        3,
+        1
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "signed counted clause",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 5,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        1,
+        5,
+        2,
+        0,
+        0,
+        3,
+        2
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "source count/heading",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 4,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        1,
+        5,
+        5,
+        0,
+        3,
+        3,
+        1
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "signed counted clause",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 5,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        1,
+        6,
+        0,
+        1,
+        1,
+        3,
+        1
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "source count/heading",
+        "source count/heading",
+        "signed counted clause"
+      ],
+      "minimum_C_count": 7,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        1,
+        6,
+        2,
+        0,
+        0,
+        2,
+        3
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "source count/heading",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 4,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        1,
+        6,
+        3,
+        -1,
+        0,
+        3,
+        2
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "source count/heading",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 4,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        1,
+        6,
+        6,
+        1,
+        3,
+        3,
+        1
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "signed counted clause",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 5,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        4,
+        0,
+        3,
+        2,
+        3,
+        2,
+        2
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "signed counted clause",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 5,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        4,
+        1,
+        2,
+        0,
+        0,
+        2,
+        1
+      ],
+      "low_count_exclusions": [
+        "signed counted clause",
+        "source count/heading",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 4,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        4,
+        1,
+        3,
+        2,
+        3,
+        2,
+        2
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "signed counted clause",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 5,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        4,
+        4,
+        1,
+        -1,
+        0,
+        2,
+        1
+      ],
+      "low_count_exclusions": [
+        "signed counted clause",
+        "source count/heading",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 4,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        4,
+        4,
+        4,
+        1,
+        3,
+        2,
+        2
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "signed counted clause",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 5,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        4,
+        5,
+        4,
+        1,
+        3,
+        2,
+        2
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "signed counted clause",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 5,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        4,
+        6,
+        -1,
+        0,
+        1,
+        2,
+        0
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "source count/heading",
+        "source count/heading",
+        "signed counted clause"
+      ],
+      "minimum_C_count": 7,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        4,
+        6,
+        -1,
+        2,
+        1,
+        2,
+        2
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "source count/heading",
+        "source count/heading",
+        "signed counted clause"
+      ],
+      "minimum_C_count": 7,
+      "overflow_excluded": false
+    },
+    {
+      "tuple": [
+        4,
+        6,
+        5,
+        2,
+        3,
+        2,
+        2
+      ],
+      "low_count_exclusions": [
+        "source count/heading",
+        "signed counted clause",
+        "source count/heading",
+        "source count/heading"
+      ],
+      "minimum_C_count": 5,
+      "overflow_excluded": false
+    }
+  ],
+  "counted_relation_sha256": "6a16ee64e9277d4b8fd954b090abb6cac34fd1f3b51730fbb351c672cd5554dc"
+}

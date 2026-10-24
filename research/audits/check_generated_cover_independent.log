@@ -1,0 +1,155 @@
+constructive covers 7320
+branch_R5 96
+branch_R9 77
+transient_R9 55
+{
+  "status": "PASS independent constructive cover witnesses and literal branching-cycle parity",
+  "graph_walks": 7320,
+  "largest_reduced_base": 6,
+  "models": [
+    {
+      "name": "branch_R5",
+      "schemes": 40,
+      "literal_complete_prefix_checks": 96
+    },
+    {
+      "name": "branch_R9",
+      "schemes": 40,
+      "literal_complete_prefix_checks": 77
+    },
+    {
+      "name": "transient_R9",
+      "schemes": 28,
+      "literal_complete_prefix_checks": 55
+    }
+  ],
+  "complete_positive": {
+    "processed_schemes": 1450,
+    "last_base_length": 161,
+    "theoretical_base_bound": 161,
+    "requirement_states": {
+      "(-1, -1)": [
+        1,
+        1
+      ],
+      "(-1, 1)": [
+        1,
+        1
+      ],
+      "(1, -1)": [
+        1,
+        3
+      ],
+      "(1, 1)": [
+        3,
+        2
+      ]
+    },
+    "status": "decided",
+    "possible": true,
+    "complete_generated_cover": true,
+    "candidate_seed": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "given_seed_validation": {
+      "possible": true,
+      "frame_checks": 68,
+      "nested_root": false,
+      "growing_root": false,
+      "accepted_growing_model": false,
+      "seed": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "seconds": 2.30702451900288
+  },
+  "explicit_cap": {
+    "processed_schemes": 1,
+    "last_base_length": 0,
+    "theoretical_base_bound": 161,
+    "requirement_states": {
+      "(-1, -1)": [
+        1,
+        1
+      ],
+      "(-1, 1)": [
+        1,
+        1
+      ],
+      "(1, -1)": [
+        1,
+        1
+      ],
+      "(1, 1)": [
+        1,
+        2
+      ]
+    },
+    "status": "unknown: explicit cover-enumeration cap",
+    "possible": null,
+    "seconds": 0.04775845000403933
+  },
+  "negative_control": {
+    "processed_schemes": 6,
+    "last_base_length": 1,
+    "theoretical_base_bound": 83,
+    "requirement_states": {
+      "(-1, -1)": [
+        1,
+        1
+      ],
+      "(-1, 1)": [
+        1,
+        1
+      ],
+      "(1, -1)": [
+        1,
+        3
+      ],
+      "(1, 1)": [
+        2,
+        3
+      ]
+    },
+    "status": "decided",
+    "possible": false,
+    "early_certificate": {
+      "reason": "conflicting genuine requirements",
+      "signs": [
+        1,
+        1
+      ],
+      "witness": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "coverage_exhaustion_needed": false,
+    "seconds": 0.03150074899895117
+  },
+  "seconds": 3.6267957930103876,
+  "subject_sha256": "2c59092c9859091c677151c15696aab5037634622c007b4846135d3bc0f50905",
+  "scope": "Generated exact additive-I unit presentation realization. Completeness uses independently reviewed finite support-preserving base/cycle lemma, not these finite controls. No accepted growing ant model."
+}

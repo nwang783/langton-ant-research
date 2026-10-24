@@ -1,0 +1,125 @@
+{
+  "status": "PASS",
+  "sha256": {
+    "global_architecture_2026-10-23/reverse108_flat_interface_exclusion.md": "d5b51a53dc5839d25905a117fc2b30495c55ea8fb2da3c866b42a6a7472f9611",
+    "global_architecture_2026-10-23/reverse108_interface_certificate.json": "625a2c64b677da1a5ecbb8fc3282e68b0f4392a0bcef7516470b44f43e067ec1",
+    "causal_reduction/unit_scale/reverse108_prepared_control.json": "c528b4f02e5c96b818bbe1fa2c68b61a2ae8d9c0f53099aa11ab64d01734a4a0"
+  },
+  "all_full_drift_translation_cases": [
+    {
+      "t": -10,
+      "parity": 0,
+      "conflicts": 2
+    },
+    {
+      "t": -8,
+      "parity": 0,
+      "conflicts": 5
+    },
+    {
+      "t": -6,
+      "parity": 0,
+      "conflicts": 5
+    },
+    {
+      "t": -4,
+      "parity": 0,
+      "conflicts": 10
+    },
+    {
+      "t": -2,
+      "parity": 0,
+      "conflicts": 10
+    },
+    {
+      "t": 0,
+      "parity": 0,
+      "conflicts": 10
+    },
+    {
+      "t": 2,
+      "parity": 0,
+      "conflicts": 9
+    },
+    {
+      "t": 4,
+      "parity": 0,
+      "conflicts": 7
+    },
+    {
+      "t": 6,
+      "parity": 0,
+      "conflicts": 6
+    },
+    {
+      "t": 8,
+      "parity": 0,
+      "conflicts": 2
+    },
+    {
+      "t": 10,
+      "parity": 0,
+      "conflicts": 1
+    },
+    {
+      "t": -10,
+      "parity": 1,
+      "conflicts": 2
+    },
+    {
+      "t": -8,
+      "parity": 1,
+      "conflicts": 5
+    },
+    {
+      "t": -6,
+      "parity": 1,
+      "conflicts": 7
+    },
+    {
+      "t": -4,
+      "parity": 1,
+      "conflicts": 8
+    },
+    {
+      "t": -2,
+      "parity": 1,
+      "conflicts": 10
+    },
+    {
+      "t": 0,
+      "parity": 1,
+      "conflicts": 12
+    },
+    {
+      "t": 2,
+      "parity": 1,
+      "conflicts": 8
+    },
+    {
+      "t": 4,
+      "parity": 1,
+      "conflicts": 6
+    },
+    {
+      "t": 6,
+      "parity": 1,
+      "conflicts": 5
+    },
+    {
+      "t": 8,
+      "parity": 1,
+      "conflicts": 3
+    },
+    {
+      "t": 10,
+      "parity": 1,
+      "conflicts": 1
+    }
+  ],
+  "offstrip_black_classes": 11,
+  "offstrip_width_loss": 6,
+  "exact_boundary_interval_controls": 9900,
+  "cyclic_K": 49,
+  "scope": "Every fixed cap in H^n C P108^n fails eventual all-n bounded-fuel legality. Prepared P108 remains valid. No cap synthesis or universal ant theorem."
+}

@@ -1,0 +1,100 @@
+{
+  "scope": "Conditional discovery only; H is not a signed relation",
+  "args": {
+    "profile": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/profile.json",
+    "hypotheses": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/hypothesis_U_upper3.tsv",
+    "signed": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/empty.tsv",
+    "row": [
+      1,
+      7,
+      -2,
+      -1,
+      1,
+      2,
+      0
+    ],
+    "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_DC_batch/case01",
+    "rounds": 8,
+    "cap": 1500000,
+    "mode": "source",
+    "watch": "",
+    "scope": null,
+    "expand": true
+  },
+  "results": [
+    {
+      "round": 0,
+      "extra_points": [],
+      "watched": [
+        [
+          2,
+          0
+        ]
+      ],
+      "variables": 20,
+      "result": "status ABSTRACT_WITNESS states 72230 depth 11 nodes 38747",
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_DC_batch/case01_r00_quotient",
+      "seconds": 3.157,
+      "events": [
+        {
+          "cell": [
+            0,
+            -1
+          ],
+          "step": 10,
+          "source_step": 7,
+          "row": [
+            6,
+            7,
+            1,
+            4,
+            1,
+            3,
+            4
+          ],
+          "signed": false,
+          "kind": "lineage"
+        }
+      ],
+      "chosen": {
+        "cell": [
+          0,
+          -1
+        ],
+        "step": 10,
+        "source_step": 7,
+        "row": [
+          6,
+          7,
+          1,
+          4,
+          1,
+          3,
+          4
+        ],
+        "signed": false,
+        "kind": "lineage"
+      }
+    },
+    {
+      "round": 1,
+      "extra_points": [],
+      "watched": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "variables": 23,
+      "result": "status CAP_OR_ERROR reason node cap",
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_DC_batch/case01_r01_quotient",
+      "seconds": 29.19,
+      "closure_result": "status EXHAUSTED_NO_HIT states 19825897 depth 55 nodes 129615",
+      "verification": "{\"status\": \"VERIFIED_INDUCTIVE_NO_HIT\", \"variables\": 23, \"positions\": 232, \"nodes\": 129615, \"states\": 19825897, \"checks\": 1758, \"memo_states\": 36245}"
+    }
+  ]
+}

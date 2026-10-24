@@ -1,0 +1,323 @@
+{
+  "status": "exact complete-field all-parameter proof passed",
+  "domain": "integer n>=200",
+  "fixed_core": [
+    -223,
+    231
+  ],
+  "capture_time": [
+    416,
+    228904
+  ],
+  "capture_pose": [
+    [
+      [
+        0,
+        -228
+      ],
+      [
+        0,
+        268
+      ]
+    ],
+    0
+  ],
+  "tail": {
+    "distinct_required_cells": 44,
+    "odd_read_cells": 36,
+    "drift": [
+      -2,
+      2
+    ],
+    "heading": 0
+  },
+  "first_contacts": {
+    "q": [
+      104,
+      10881
+    ],
+    "s_fixed": [
+      208,
+      81210
+    ],
+    "c": [
+      312,
+      163796
+    ]
+  },
+  "never_read": [
+    "a",
+    "d"
+  ],
+  "statistics": {
+    "finite_read_constraints": 21118,
+    "periodic_read_constraints": 292,
+    "affine_guards": 19637,
+    "excluded_isolated_equalities": 82782912
+  },
+  "template_sha256": "05c5fca0529ffb365a499a92ece844fd6cb4520cc8465f4d2027c049b66f222f",
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        9977
+      ],
+      "base": [
+        [
+          0,
+          -15
+        ],
+        [
+          0,
+          10
+        ]
+      ],
+      "heading": 3,
+      "contacts": {}
+    },
+    {
+      "segment": 1,
+      "time": [
+        104,
+        10809
+      ],
+      "base": [
+        [
+          -2,
+          -31
+        ],
+        [
+          -2,
+          -6
+        ]
+      ],
+      "heading": 3,
+      "contacts": {}
+    },
+    {
+      "segment": 2,
+      "time": [
+        104,
+        61927
+      ],
+      "base": [
+        [
+          -2,
+          6
+        ],
+        [
+          -2,
+          -43
+        ]
+      ],
+      "heading": 1,
+      "contacts": {
+        "q": [
+          104,
+          10881
+        ]
+      }
+    },
+    {
+      "segment": 3,
+      "time": [
+        208,
+        62655
+      ],
+      "base": [
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          -29
+        ]
+      ],
+      "heading": 1,
+      "contacts": {}
+    },
+    {
+      "segment": 4,
+      "time": [
+        208,
+        70733
+      ],
+      "base": [
+        [
+          0,
+          -15
+        ],
+        [
+          0,
+          26
+        ]
+      ],
+      "heading": 1,
+      "contacts": {}
+    },
+    {
+      "segment": 5,
+      "time": [
+        208,
+        81133
+      ],
+      "base": [
+        [
+          0,
+          -215
+        ],
+        [
+          0,
+          226
+        ]
+      ],
+      "heading": 1,
+      "contacts": {}
+    },
+    {
+      "segment": 6,
+      "time": [
+        208,
+        132256
+      ],
+      "base": [
+        [
+          0,
+          -252
+        ],
+        [
+          0,
+          192
+        ]
+      ],
+      "heading": 2,
+      "contacts": {
+        "s_fixed": [
+          208,
+          81210
+        ]
+      }
+    },
+    {
+      "segment": 7,
+      "time": [
+        208,
+        142864
+      ],
+      "base": [
+        [
+          0,
+          -48
+        ],
+        [
+          0,
+          -12
+        ]
+      ],
+      "heading": 2,
+      "contacts": {}
+    },
+    {
+      "segment": 8,
+      "time": [
+        208,
+        165800
+      ],
+      "base": [
+        [
+          0,
+          40
+        ],
+        [
+          0,
+          -50
+        ]
+      ],
+      "heading": 2,
+      "contacts": {}
+    },
+    {
+      "segment": 9,
+      "time": [
+        312,
+        163720
+      ],
+      "base": [
+        [
+          2,
+          0
+        ],
+        [
+          -2,
+          -10
+        ]
+      ],
+      "heading": 2,
+      "contacts": {}
+    },
+    {
+      "segment": 10,
+      "time": [
+        312,
+        214842
+      ],
+      "base": [
+        [
+          2,
+          37
+        ],
+        [
+          -2,
+          25
+        ]
+      ],
+      "heading": 0,
+      "contacts": {
+        "c": [
+          312,
+          163796
+        ]
+      }
+    },
+    {
+      "segment": 11,
+      "time": [
+        416,
+        226282
+      ],
+      "base": [
+        [
+          0,
+          -183
+        ],
+        [
+          0,
+          245
+        ]
+      ],
+      "heading": 0,
+      "contacts": {}
+    },
+    {
+      "segment": 12,
+      "time": [
+        416,
+        228904
+      ],
+      "base": [
+        [
+          0,
+          -228
+        ],
+        [
+          0,
+          268
+        ]
+      ],
+      "heading": 0,
+      "contacts": {}
+    }
+  ]
+}

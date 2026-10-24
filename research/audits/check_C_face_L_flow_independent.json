@@ -1,0 +1,71 @@
+{
+  "status": "PASS independent diagonal C-face projection and local max-face read count",
+  "note_sha256": "73c1af3efddc448e14194875722a90bf07406601ca448a20b60f7e688acb70a5",
+  "standard_controls": [
+    {
+      "period": 104,
+      "L": 46,
+      "R": 58,
+      "face_displacement": [
+        2,
+        2
+      ]
+    },
+    {
+      "period": 208,
+      "L": 92,
+      "R": 116,
+      "face_displacement": [
+        4,
+        4
+      ]
+    },
+    {
+      "period": 312,
+      "L": 138,
+      "R": 174,
+      "face_displacement": [
+        6,
+        6
+      ]
+    }
+  ],
+  "local_count_rows": [
+    [
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      2,
+      1,
+      1,
+      2
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      0,
+      1,
+      1,
+      2
+    ]
+  ],
+  "scope": "Separate all-L diagonal face flow only. Selected first-L birth cycles subtract as actual L occurrences; L>=N+D|1-c|. Global-max count Rmax=4n+delta and L>=n give P>=4n+delta+max(n,N+D|1-c|). Not additive with overlapping physical A/B/C budgets."
+}

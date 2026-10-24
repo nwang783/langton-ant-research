@@ -1,0 +1,117 @@
+{
+  "status": "SIGNED audit KA; complete recurrent-eight finite factors only",
+  "lambda_rational": "8/5",
+  "B": "128/13",
+  "packet_rows": [
+    {
+      "packet": 0,
+      "name": "D",
+      "C_count": 0,
+      "input_count": 1,
+      "output_count": 1,
+      "base_output_count": 1,
+      "input_weight_min": "512/125",
+      "energy_margin": "387/125",
+      "length": 10,
+      "length_upper": 10
+    },
+    {
+      "packet": 1,
+      "name": "DC",
+      "C_count": 1,
+      "input_count": 1,
+      "output_count": 4,
+      "base_output_count": 1,
+      "input_weight_min": "512/125",
+      "energy_margin": "387/125",
+      "length": 25,
+      "length_upper": 25
+    },
+    {
+      "packet": 4,
+      "name": "V",
+      "C_count": 0,
+      "input_count": 2,
+      "output_count": 6,
+      "base_output_count": 6,
+      "input_weight_min": "832/125",
+      "energy_margin": "82/125",
+      "length": 18,
+      "length_upper": 20
+    },
+    {
+      "packet": 5,
+      "name": "VC",
+      "C_count": 1,
+      "input_count": 2,
+      "output_count": 9,
+      "base_output_count": 6,
+      "input_weight_min": "832/125",
+      "energy_margin": "82/125",
+      "length": 33,
+      "length_upper": 35
+    },
+    {
+      "packet": 6,
+      "name": "VCC",
+      "C_count": 2,
+      "input_count": 2,
+      "output_count": 12,
+      "base_output_count": 6,
+      "input_weight_min": "8192/625",
+      "energy_margin": "4442/625",
+      "length": 48,
+      "length_upper": 50
+    },
+    {
+      "packet": 7,
+      "name": "U",
+      "C_count": 0,
+      "input_count": 5,
+      "output_count": 9,
+      "base_output_count": 9,
+      "input_weight_min": "17408/625",
+      "energy_margin": "11783/625",
+      "length": 28,
+      "length_upper": 50
+    },
+    {
+      "packet": 8,
+      "name": "UC",
+      "C_count": 1,
+      "input_count": 5,
+      "output_count": 12,
+      "base_output_count": 9,
+      "input_weight_min": "17408/625",
+      "energy_margin": "11783/625",
+      "length": 43,
+      "length_upper": 65
+    },
+    {
+      "packet": 9,
+      "name": "UCC",
+      "C_count": 2,
+      "input_count": 5,
+      "output_count": 15,
+      "base_output_count": 9,
+      "input_weight_min": "17408/625",
+      "energy_margin": "11783/625",
+      "length": 58,
+      "length_upper": 80
+    }
+  ],
+  "shifted_energy_checks": [
+    {
+      "c": 1,
+      "shifted_energy_margin": "72/65"
+    },
+    {
+      "c": 2,
+      "shifted_energy_margin": "0"
+    }
+  ],
+  "theorem_sha256": "0d58d73f24b11003b7deb6b0d2c5ac9aa4b4297340e4c0a345d92c27b82bca02",
+  "scope": "Complete recurrent-eight factors only; finite-C duration and mass bounds, no capture or C-count upper bound.",
+  "independent_arithmetic": "audits/check_dcuv_age_energy_independent.json",
+  "local_ansatz_optimality": "Independent analytic review: JO-only point weights with normalized w0=1 and per-C factor rho require rho^2+rho^3>=6 from the relaxed zero-C V ages(2,3). This is not a physical growth or general optimality claim."
+}

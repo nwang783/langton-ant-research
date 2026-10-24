@@ -1,0 +1,171 @@
+{
+  "status": "exact geometry passed; inherited template physical correctness required",
+  "parameter_domain": "all integer n>=200",
+  "template_sha256": "16246ec40cbdd4ad94c35698992582b27a942dc7d539683f1b3684892cd5687d",
+  "strip_union": "|x-y|<=H OR |x+y|<=H",
+  "parents": [
+    {
+      "parent_after_stage": 4,
+      "entire_prefix_and_infinite_tail_H": 82,
+      "tail_guard": {
+        "normal": "z",
+        "minimum": 7,
+        "maximum": 17,
+        "absolute_bound": 17
+      },
+      "pose_affine": [
+        [
+          0,
+          0
+        ],
+        [
+          -15,
+          26
+        ],
+        1
+      ]
+    },
+    {
+      "parent_after_stage": 8,
+      "entire_prefix_and_infinite_tail_H": 93,
+      "tail_guard": {
+        "normal": "z",
+        "minimum": -15,
+        "maximum": -5,
+        "absolute_bound": 15
+      },
+      "pose_affine": [
+        [
+          0,
+          0
+        ],
+        [
+          40,
+          -50
+        ],
+        2
+      ]
+    },
+    {
+      "parent_after_stage": 13,
+      "entire_prefix_and_infinite_tail_H": 93,
+      "tail_guard": {
+        "normal": "z",
+        "minimum": 35,
+        "maximum": 45,
+        "absolute_bound": 45
+      },
+      "pose_affine": [
+        [
+          -2,
+          2
+        ],
+        [
+          -58,
+          98
+        ],
+        0
+      ]
+    }
+  ],
+  "stages": [
+    {
+      "normal": "z",
+      "minimum": -21,
+      "maximum": 35,
+      "absolute_bound": 35,
+      "stage": 0
+    },
+    {
+      "normal": "u",
+      "minimum": -28,
+      "maximum": -18,
+      "absolute_bound": 28,
+      "stage": 1
+    },
+    {
+      "normal": "u",
+      "minimum": -82,
+      "maximum": 56,
+      "absolute_bound": 82,
+      "stage": 2
+    },
+    {
+      "normal": "u",
+      "minimum": 42,
+      "maximum": 52,
+      "absolute_bound": 52,
+      "stage": 3
+    },
+    {
+      "normal": "z",
+      "minimum": -25,
+      "maximum": 39,
+      "absolute_bound": 39,
+      "stage": 4
+    },
+    {
+      "normal": "z",
+      "minimum": 7,
+      "maximum": 17,
+      "absolute_bound": 17,
+      "stage": 5
+    },
+    {
+      "normal": "z",
+      "minimum": -67,
+      "maximum": 71,
+      "absolute_bound": 71,
+      "stage": 6
+    },
+    {
+      "normal": "z",
+      "minimum": -63,
+      "maximum": -53,
+      "absolute_bound": 63,
+      "stage": 7
+    },
+    {
+      "normal": "z",
+      "minimum": -93,
+      "maximum": 47,
+      "absolute_bound": 93,
+      "stage": 8
+    },
+    {
+      "normal": "z",
+      "minimum": -15,
+      "maximum": -5,
+      "absolute_bound": 15,
+      "stage": 9
+    },
+    {
+      "normal": "z",
+      "minimum": -69,
+      "maximum": 69,
+      "absolute_bound": 69,
+      "stage": 10
+    },
+    {
+      "normal": "z",
+      "minimum": 55,
+      "maximum": 65,
+      "absolute_bound": 65,
+      "stage": 11
+    },
+    {
+      "normal": "z",
+      "minimum": 14,
+      "maximum": 75,
+      "absolute_bound": 75,
+      "stage": 12
+    },
+    {
+      "normal": "z",
+      "minimum": 35,
+      "maximum": 45,
+      "absolute_bound": 45,
+      "stage": 13
+    }
+  ]
+}

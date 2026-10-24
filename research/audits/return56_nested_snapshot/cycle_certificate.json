@@ -1,0 +1,294 @@
+{
+  "status": "complete all-n retained-field cycle and infinite tail",
+  "domain": "n>=100, p=n+38",
+  "capture_time": [
+    312,
+    0,
+    144877
+  ],
+  "capture_pose": [
+    [
+      [
+        2,
+        0,
+        333
+      ],
+      [
+        2,
+        0,
+        208
+      ]
+    ],
+    1
+  ],
+  "tail_phase": 0,
+  "tail": {
+    "drift": [
+      2,
+      2
+    ],
+    "heading": 1,
+    "required_cells": 40,
+    "odd_cells": 32
+  },
+  "first_fourth_corner": [
+    104,
+    0,
+    28872
+  ],
+  "unused_NW_corner": [
+    [
+      -2,
+      0,
+      -219
+    ],
+    [
+      2,
+      0,
+      225
+    ]
+  ],
+  "unused_corner_never_read": true,
+  "whole_future_u_lower": -200,
+  "statistics": {
+    "finite_read_constraints": 12307,
+    "periodic_read_constraints": 245,
+    "affine_guards": 28234,
+    "excluded_isolated_equalities": 94493462
+  },
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        0,
+        4992
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            26
+          ],
+          [
+            0,
+            0,
+            34
+          ]
+        ],
+        2
+      ]
+    },
+    {
+      "segment": 1,
+      "time": [
+        0,
+        0,
+        8105
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            43
+          ],
+          [
+            0,
+            0,
+            16
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 2,
+      "time": [
+        0,
+        0,
+        8937
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            59
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 3,
+      "time": [
+        0,
+        0,
+        17984
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            82
+          ],
+          [
+            0,
+            0,
+            -20
+          ]
+        ],
+        2
+      ]
+    },
+    {
+      "segment": 4,
+      "time": [
+        104,
+        0,
+        28800
+      ],
+      "pose": [
+        [
+          [
+            2,
+            0,
+            290
+          ],
+          [
+            -2,
+            0,
+            -228
+          ]
+        ],
+        2
+      ]
+    },
+    {
+      "segment": 5,
+      "time": [
+        104,
+        0,
+        79918
+      ],
+      "pose": [
+        [
+          [
+            2,
+            0,
+            327
+          ],
+          [
+            -2,
+            0,
+            -191
+          ]
+        ],
+        0
+      ]
+    },
+    {
+      "segment": 6,
+      "time": [
+        208,
+        0,
+        91046
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            113
+          ],
+          [
+            0,
+            0,
+            23
+          ]
+        ],
+        0
+      ]
+    },
+    {
+      "segment": 7,
+      "time": [
+        208,
+        0,
+        133756
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            148
+          ],
+          [
+            0,
+            0,
+            6
+          ]
+        ],
+        0
+      ]
+    },
+    {
+      "segment": 8,
+      "time": [
+        312,
+        0,
+        143116
+      ],
+      "pose": [
+        [
+          [
+            2,
+            0,
+            328
+          ],
+          [
+            2,
+            0,
+            186
+          ]
+        ],
+        0
+      ]
+    },
+    {
+      "segment": 9,
+      "time": [
+        312,
+        0,
+        144877
+      ],
+      "pose": [
+        [
+          [
+            2,
+            0,
+            333
+          ],
+          [
+            2,
+            0,
+            208
+          ]
+        ],
+        1
+      ]
+    }
+  ],
+  "template_sha256": "bdf5f5315ad40c90173217b2a1636215f409a5beb7596154df653020bb5eeaa7",
+  "source_cycle_sha256": "65b8b0440f698548b9ba60c3dcee7e48dfd1a3d19704c9ca7a24a534411d5e9d",
+  "scope": "The whole actual-history half-plane interface supplies the original blank state. The far NW fifth corner is protected independently by u."
+}

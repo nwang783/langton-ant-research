@@ -1,0 +1,59 @@
+{
+  "status": "PASS GLOBAL-M cap4 one-use-capped flow3 RR classification and scoped uncapped-reader controls",
+  "proof": "fb98672870c12633db3d483200ea0b73a89d357b3bb616204a7c6f3a3770e6f5",
+  "certificate": "4b6f34a14c7953901be7dbbc773c562dfa3b55f72d62997d6dc7096e53a49dd0",
+  "script": "46031bb0a7d203d8921b9e13e870c6e72643599a4465ba85d7a2437d61e16883",
+  "RR_controls": [
+    {
+      "events": 14,
+      "components": 7,
+      "odd": 2
+    },
+    {
+      "events": 16,
+      "components": 8,
+      "odd": 0
+    }
+  ],
+  "count_derived_reader_summary": {
+    "rank": 78,
+    "open": 6
+  },
+  "uncapped_local_controls": [
+    {
+      "q": "EEW",
+      "C": "SSN",
+      "D": "EWWWWEE",
+      "events": 25,
+      "odd": 3
+    },
+    {
+      "q": "EEW",
+      "C": "SSN",
+      "D": "EWWWWEEW",
+      "events": 26,
+      "odd": 2
+    },
+    {
+      "q": "EEWE",
+      "C": "SSNS",
+      "D": "EWWWWEE",
+      "events": 27,
+      "odd": 1
+    },
+    {
+      "q": "EEWE",
+      "C": "SSNS",
+      "D": "EWWWWEEW",
+      "events": 28,
+      "odd": 0
+    }
+  ],
+  "analytic_review": [
+    "Signed f008 section2 explicitly retains one-use endpoint rerouting in the GLOBAL-M maximal-flow3 reduction to RR/RLR; only its later lane/critical consequences require no-one-use. Thus its all-length template reduction applies here, without importing that later restriction.",
+    "One-use source1to3 and sink3to1 have complete4-read words fixed by signed endpoint domains. RLR square readerEin3/Nout3 under cap4 has onlyEEWE/WEEE, whose third ordinals form an actual SAMEphysicalL3 four-eventcycle. No voltage, exterior connector or period can fix that cycle.",
+    "In RR, preceding/following b vertices mustLEFT because a thirdRIGHT closes a contractible square. ConstantselectedC makes theirflow1; cap-freeLEFT domains and all four endpoint combinations leave precisely3/3 or4/4. Actual fourR firstreturn and retained oldL1/L3 edges are independently reconstructed; calendars keep all14/16 events, zeroports and open endpoints.",
+    "Without readerDcap, exact counts give R_E=R_W=a, n=4a-epsilon<=12. Independent even/odd position generation covers84 completehistories,78 literalrankfailures and6 necessary7/8-read balanced-C shields. The six are rank-only survivors; four already have positive clock cycles in the four-cell core, conservatively retained until the author six-cell clock test. GLOBALM alone does not remove the balanced-height alternatives. Complete six-cell knownports leave4 distinct event-disjoint calendars, while8 get explicit positiveclockcycles.",
+    "The cap-free first-port C-startsSS argument still excludesRIGHT q at the source3 interface. The optional six-cell controls nevertheless impose the displayed q/C histories and do not supply actual exterior paths or full drift voltages. No localcalendar is promoted to a factor/controller; no general one-use coverage, stockpayment, agebound or capture follows."
+  ]
+}

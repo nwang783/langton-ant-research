@@ -1,0 +1,94 @@
+{
+  "status": "AUTHOR exact controls PASS for normalized profile-clock theorem",
+  "source_input_classes_period78": 2892,
+  "source_output_classes_period78": 3300,
+  "source_period": 15324,
+  "source_stride": -78,
+  "sector_bit": 0,
+  "clock_parameters": {
+    "a": 4,
+    "b": 4,
+    "delta": {
+      "numerator": 1,
+      "denominator": 3
+    },
+    "M": 6,
+    "per_step_gain_at_least": 2
+  },
+  "minimum_density_gain_per_full_parallel_phase": 4,
+  "controls": [
+    {
+      "fixed_normal_center": 0,
+      "forward_delta": {
+        "numerator": 229957540580135445166309490306412004635158498188973472161,
+        "denominator": 193118646128519322884263378944
+      },
+      "clock_lower_bound": {
+        "numerator": 5108,
+        "denominator": 13
+      },
+      "same_sector_exact_reset_delta": {
+        "numerator": -229957540580135445166309490306412004635158498188973472161,
+        "denominator": 193118646128519322884263378944
+      },
+      "opposite_sector_reverse_delta": {
+        "numerator": 229957540580135445166309490306412004635158498188973472161,
+        "denominator": 193118646128519322884263378944
+      },
+      "common_period_lift_invariant": true
+    },
+    {
+      "fixed_normal_center": 9,
+      "forward_delta": {
+        "numerator": 3066004390079081247868940623373072869065497515,
+        "denominator": 368344585663832326668288
+      },
+      "clock_lower_bound": {
+        "numerator": 5108,
+        "denominator": 13
+      },
+      "same_sector_exact_reset_delta": {
+        "numerator": -3066004390079081247868940623373072869065497515,
+        "denominator": 368344585663832326668288
+      },
+      "opposite_sector_reverse_delta": {
+        "numerator": 3066004390079081247868940623373072869065497515,
+        "denominator": 368344585663832326668288
+      },
+      "common_period_lift_invariant": true
+    },
+    {
+      "fixed_normal_center": 14,
+      "forward_delta": {
+        "numerator": 2921006979984697564240258534249778092783335832403381,
+        "denominator": 754369711439528605016653824
+      },
+      "clock_lower_bound": {
+        "numerator": 5108,
+        "denominator": 13
+      },
+      "same_sector_exact_reset_delta": {
+        "numerator": -2921006979984697564240258534249778092783335832403381,
+        "denominator": 754369711439528605016653824
+      },
+      "opposite_sector_reverse_delta": {
+        "numerator": 2921006979984697564240258534249778092783335832403381,
+        "denominator": 754369711439528605016653824
+      },
+      "common_period_lift_invariant": true
+    }
+  ],
+  "fixed_support_interval": [
+    -64,
+    92
+  ],
+  "fixed_center": 14,
+  "profile_potential_range_bound": {
+    "numerator": 33374797436264220037422214158899251790667258154652207122267782679785354504808245028921863569407,
+    "denominator": 22835963083295358096932575511191922182123945984
+  },
+  "maximum_complete_profile_phases": 365375409332725729550921208179070754913983135665,
+  "small_range_extreme_check": true,
+  "scope": "Exact controls for normalized complete-profile strict-clock corollary.\nAll-period theorem is analytic; no solver, word search or horizon is used.\n",
+  "source_sha256": "d1bb6ee3a842ac7095d069f246d37eed491bcdff18c50bf7d527351ad14c19c6"
+}

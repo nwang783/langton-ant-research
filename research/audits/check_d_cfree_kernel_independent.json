@@ -1,0 +1,60 @@
+{
+  "status": "independent literal proof-clause audit passed",
+  "word_lengths": [
+    10,
+    18,
+    28,
+    56,
+    64,
+    74
+  ],
+  "candidates": 3804,
+  "short_types": 43,
+  "forbidden_types": 3532,
+  "clauses": {
+    "2": 864,
+    "1": 2668
+  },
+  "reader_options": 131328,
+  "neighbor_options": 40183,
+  "charged_overlaps": 912,
+  "weighted_mark_counts": [
+    1,
+    2,
+    3,
+    10,
+    11,
+    14
+  ],
+  "weighted_overlap_queries": 6232,
+  "terminal_overlap_queries": 912,
+  "terminal_points": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      -1,
+      4
+    ],
+    [
+      -3,
+      -2
+    ],
+    [
+      -3,
+      -4
+    ],
+    [
+      -2,
+      -5
+    ]
+  ],
+  "marks_sha256": "3ce5cda4b216d57616b8cfbb0920f0c4c015d71208488baa67f30a8b5edca35b",
+  "certificate_sha256": "483065e227479628fc77b6623d93920b0d48ccdb3ccead8172edb6dd9ebc1d13",
+  "scope": "Any physically feasible concatenation of the six literal words followed by actual marker LLLLRLRRRRL has all listed raw first-L marks fresh, with weights 1/2/3/10/11/14 plus four disjoint startup cells. Raw turns <=10(m-4), exit mass <=3m-8. The next terminal-C phase1 input is fresh relative to this entire C-free prefix. No freshness across earlier C, actual-port premise, or marked-site induction."
+}

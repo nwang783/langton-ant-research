@@ -1,0 +1,160 @@
+{
+  "status": "PASS independent five-C nonproper first-contact reduction and actual16-cell endpoint gate",
+  "manifest_sha256": "da34c50cb9d0933b115f7226b4e7ff63967cca6e44a5389b5145ea760f69e9aa",
+  "geometries": 24,
+  "primary_rows": 9522,
+  "primary_hard_cases": 17,
+  "old_core_roles": 9,
+  "age4_queries": 136,
+  "birth2_origins": 272,
+  "incoming_bud_queries": 966,
+  "late_helper_rows": 1932,
+  "conditional_D_U_gate": [
+    [
+      3,
+      5,
+      4,
+      [
+        4,
+        -1,
+        3
+      ]
+    ],
+    [
+      3,
+      5,
+      7,
+      [
+        5,
+        0,
+        3
+      ]
+    ],
+    [
+      3,
+      5,
+      4,
+      [
+        4,
+        -1,
+        3
+      ]
+    ],
+    [
+      3,
+      5,
+      7,
+      [
+        5,
+        0,
+        3
+      ]
+    ]
+  ],
+  "control": {
+    "mass": 16,
+    "word": [
+      1,
+      5,
+      4,
+      5,
+      5,
+      6
+    ],
+    "raw_length": 190,
+    "first_path_contact": 12,
+    "entry_C_gap": 5,
+    "target_exit_C": 6
+  },
+  "prepends": [
+    [
+      0,
+      [
+        171,
+        [
+          0,
+          -1
+        ],
+        "L"
+      ]
+    ],
+    [
+      1,
+      [
+        69,
+        [
+          -1,
+          0
+        ],
+        "L"
+      ]
+    ],
+    [
+      4,
+      [
+        146,
+        [
+          -1,
+          -1
+        ],
+        "L"
+      ]
+    ],
+    [
+      5,
+      [
+        103,
+        [
+          0,
+          1
+        ],
+        "R"
+      ]
+    ],
+    [
+      6,
+      [
+        59,
+        [
+          0,
+          3
+        ],
+        "L"
+      ]
+    ],
+    [
+      7,
+      [
+        176,
+        [
+          0,
+          0
+        ],
+        "R"
+      ]
+    ],
+    [
+      8,
+      [
+        113,
+        [
+          -1,
+          2
+        ],
+        "R"
+      ]
+    ],
+    [
+      9,
+      [
+        69,
+        [
+          -1,
+          4
+        ],
+        "L"
+      ]
+    ]
+  ],
+  "scope": "Nonproper five-C first contacts reduce to realD->C(0,-1,W) or D->U(1,0,W) with the independently specified late V/U helper. Signed1548 eliminates the latter conditional helper history, so only D->C remains after combination. Internal C targets retain unfinished consumer tails. No generic factor-entry-only law or global noncontact/capture claim."
+}

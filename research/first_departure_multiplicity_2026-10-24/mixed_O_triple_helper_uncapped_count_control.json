@@ -1,0 +1,48 @@
+{
+  "scope": "Derived n<=5 from exact S1/W1 counts, not an imposed multiplicity search.",
+  "all_count_profiles": [
+    {
+      "history": "S",
+      "S_rank": 0,
+      "W_rank": 0,
+      "W_before_S": false,
+      "height_raise": -1
+    },
+    {
+      "history": "NNNS",
+      "S_rank": 3,
+      "W_rank": 1,
+      "W_before_S": true,
+      "height_raise": 2
+    },
+    {
+      "history": "NSNN",
+      "S_rank": 1,
+      "W_rank": 3,
+      "W_before_S": false,
+      "height_raise": 2
+    },
+    {
+      "history": "NNNSN",
+      "S_rank": 3,
+      "W_rank": 1,
+      "W_before_S": true,
+      "height_raise": 3
+    },
+    {
+      "history": "NSNNN",
+      "S_rank": 1,
+      "W_rank": 3,
+      "W_before_S": false,
+      "height_raise": 3
+    }
+  ],
+  "strict_survivors": [
+    "NNNS",
+    "NNNSN"
+  ],
+  "height_raises": [
+    2,
+    3
+  ]
+}

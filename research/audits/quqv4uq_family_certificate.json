@@ -1,0 +1,4173 @@
+{
+  "status": "PASS",
+  "family": "Q U^n Q V^4 U^n Q",
+  "feasible_exactly": "integer n>=3",
+  "affine_endpoint_order_threshold": 4,
+  "minimal_seed_mass": "10n+57",
+  "time": "56n+264",
+  "end_pose": [
+    0,
+    8,
+    2
+  ],
+  "source_sha256": "02646581d58b0072a245ca3f57edab2a69174dc670ce616ce2466dc10a0a0557",
+  "small_cases": {
+    "0": {
+      "feasible": false,
+      "conflict": [
+        [
+          46,
+          "R"
+        ],
+        [
+          122,
+          "R"
+        ],
+        [
+          -1,
+          -1
+        ]
+      ]
+    },
+    "1": {
+      "feasible": false,
+      "conflict": [
+        [
+          3,
+          "L"
+        ],
+        [
+          175,
+          "L"
+        ],
+        [
+          0,
+          -1
+        ]
+      ]
+    },
+    "2": {
+      "feasible": false,
+      "conflict": [
+        [
+          8,
+          "R"
+        ],
+        [
+          232,
+          "R"
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    "3": {
+      "feasible": true,
+      "fuel": 87,
+      "time": 432
+    }
+  },
+  "slab_count": 182,
+  "slabs": [
+    {
+      "column": -6,
+      "residue": 0,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        -1,
+        0
+      ],
+      "letters": "R",
+      "events": [
+        [
+          2,
+          8
+        ]
+      ]
+    },
+    {
+      "column": -6,
+      "residue": 0,
+      "lower": [
+        -1,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        0
+      ],
+      "letters": "R",
+      "events": [
+        [
+          1,
+          8
+        ]
+      ]
+    },
+    {
+      "column": -6,
+      "residue": 3,
+      "lower": [
+        -1,
+        -2
+      ],
+      "upper_exclusive": [
+        -1,
+        -1
+      ],
+      "letters": "R",
+      "events": [
+        [
+          2,
+          7
+        ]
+      ]
+    },
+    {
+      "column": -6,
+      "residue": 3,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        -1
+      ],
+      "letters": "R",
+      "events": [
+        [
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "column": -5,
+      "residue": 0,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        -1,
+        0
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          1,
+          25
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          9
+        ]
+      ]
+    },
+    {
+      "column": -5,
+      "residue": 0,
+      "lower": [
+        -1,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        -1
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          1,
+          25
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          9
+        ]
+      ]
+    },
+    {
+      "column": -5,
+      "residue": 0,
+      "lower": [
+        0,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        0
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          0,
+          61
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          9
+        ]
+      ]
+    },
+    {
+      "column": -5,
+      "residue": 1,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        -1
+      ],
+      "letters": "R",
+      "events": [
+        [
+          1,
+          26
+        ]
+      ]
+    },
+    {
+      "column": -5,
+      "residue": 1,
+      "lower": [
+        0,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        0
+      ],
+      "letters": "R",
+      "events": [
+        [
+          0,
+          62
+        ]
+      ]
+    },
+    {
+      "column": -5,
+      "residue": 1,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "L",
+      "events": [
+        [
+          0,
+          38
+        ]
+      ]
+    },
+    {
+      "column": -5,
+      "residue": 2,
+      "lower": [
+        -1,
+        -2
+      ],
+      "upper_exclusive": [
+        -1,
+        -1
+      ],
+      "letters": "R",
+      "events": [
+        [
+          2,
+          25
+        ]
+      ]
+    },
+    {
+      "column": -5,
+      "residue": 2,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        -1
+      ],
+      "letters": "R",
+      "events": [
+        [
+          1,
+          17
+        ]
+      ]
+    },
+    {
+      "column": -5,
+      "residue": 2,
+      "lower": [
+        0,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        0
+      ],
+      "letters": "R",
+      "events": [
+        [
+          0,
+          53
+        ]
+      ]
+    },
+    {
+      "column": -5,
+      "residue": 2,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "L",
+      "events": [
+        [
+          0,
+          37
+        ]
+      ]
+    },
+    {
+      "column": -5,
+      "residue": 3,
+      "lower": [
+        -1,
+        -2
+      ],
+      "upper_exclusive": [
+        -1,
+        -1
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          2,
+          26
+        ]
+      ]
+    },
+    {
+      "column": -5,
+      "residue": 3,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        -1
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          1,
+          18
+        ]
+      ]
+    },
+    {
+      "column": -5,
+      "residue": 3,
+      "lower": [
+        0,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        0
+      ],
+      "letters": "R",
+      "events": [
+        [
+          0,
+          54
+        ]
+      ]
+    },
+    {
+      "column": -4,
+      "residue": 0,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        -1,
+        0
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          1,
+          24
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "column": -4,
+      "residue": 0,
+      "lower": [
+        -1,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        -1
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          1,
+          24
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    {
+      "column": -4,
+      "residue": 0,
+      "lower": [
+        0,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        0
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          0,
+          60
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    {
+      "column": -4,
+      "residue": 0,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "L",
+      "events": [
+        [
+          0,
+          40
+        ]
+      ]
+    },
+    {
+      "column": -4,
+      "residue": 1,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        -1,
+        0
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          1,
+          23
+        ],
+        [
+          1,
+          27
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "column": -4,
+      "residue": 1,
+      "lower": [
+        -1,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        -1
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          1,
+          23
+        ],
+        [
+          1,
+          27
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "column": -4,
+      "residue": 1,
+      "lower": [
+        0,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        0
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          0,
+          59
+        ],
+        [
+          0,
+          63
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "column": -4,
+      "residue": 1,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "R",
+      "events": [
+        [
+          0,
+          39
+        ]
+      ]
+    },
+    {
+      "column": -4,
+      "residue": 2,
+      "lower": [
+        -1,
+        -2
+      ],
+      "upper_exclusive": [
+        -1,
+        -1
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          2,
+          12
+        ],
+        [
+          2,
+          24
+        ],
+        [
+          2,
+          28
+        ]
+      ]
+    },
+    {
+      "column": -4,
+      "residue": 2,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        -1
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          1,
+          12
+        ],
+        [
+          1,
+          16
+        ],
+        [
+          1,
+          20
+        ]
+      ]
+    },
+    {
+      "column": -4,
+      "residue": 2,
+      "lower": [
+        0,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        0
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          0,
+          52
+        ],
+        [
+          0,
+          56
+        ]
+      ]
+    },
+    {
+      "column": -4,
+      "residue": 2,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "R",
+      "events": [
+        [
+          0,
+          36
+        ]
+      ]
+    },
+    {
+      "column": -4,
+      "residue": 3,
+      "lower": [
+        -1,
+        -2
+      ],
+      "upper_exclusive": [
+        -1,
+        -1
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          2,
+          11
+        ],
+        [
+          2,
+          23
+        ],
+        [
+          2,
+          27
+        ]
+      ]
+    },
+    {
+      "column": -4,
+      "residue": 3,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        -1
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          1,
+          11
+        ],
+        [
+          1,
+          15
+        ],
+        [
+          1,
+          19
+        ]
+      ]
+    },
+    {
+      "column": -4,
+      "residue": 3,
+      "lower": [
+        0,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        0
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          0,
+          51
+        ],
+        [
+          0,
+          55
+        ]
+      ]
+    },
+    {
+      "column": -4,
+      "residue": 3,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "L",
+      "events": [
+        [
+          0,
+          35
+        ]
+      ]
+    },
+    {
+      "column": -3,
+      "residue": 0,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        -1,
+        0
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          45
+        ]
+      ]
+    },
+    {
+      "column": -3,
+      "residue": 0,
+      "lower": [
+        -1,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        0
+      ],
+      "letters": "L",
+      "events": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column": -3,
+      "residue": 0,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          0,
+          41
+        ],
+        [
+          0,
+          49
+        ]
+      ]
+    },
+    {
+      "column": -3,
+      "residue": 1,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        -1,
+        0
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          1,
+          22
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          46
+        ]
+      ]
+    },
+    {
+      "column": -3,
+      "residue": 1,
+      "lower": [
+        -1,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        -1
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          1,
+          22
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "column": -3,
+      "residue": 1,
+      "lower": [
+        0,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        0
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          0,
+          58
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "column": -3,
+      "residue": 1,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "L",
+      "events": [
+        [
+          0,
+          18
+        ]
+      ]
+    },
+    {
+      "column": -3,
+      "residue": 2,
+      "lower": [
+        -1,
+        -2
+      ],
+      "upper_exclusive": [
+        -1,
+        -1
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          2,
+          13
+        ],
+        [
+          2,
+          21
+        ],
+        [
+          2,
+          29
+        ]
+      ]
+    },
+    {
+      "column": -3,
+      "residue": 2,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        -1
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          1,
+          13
+        ],
+        [
+          1,
+          21
+        ]
+      ]
+    },
+    {
+      "column": -3,
+      "residue": 2,
+      "lower": [
+        0,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        0
+      ],
+      "letters": "R",
+      "events": [
+        [
+          0,
+          57
+        ]
+      ]
+    },
+    {
+      "column": -3,
+      "residue": 2,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          0,
+          17
+        ],
+        [
+          0,
+          33
+        ]
+      ]
+    },
+    {
+      "column": -3,
+      "residue": 3,
+      "lower": [
+        -1,
+        -2
+      ],
+      "upper_exclusive": [
+        -1,
+        -1
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          2,
+          14
+        ],
+        [
+          2,
+          22
+        ],
+        [
+          2,
+          30
+        ]
+      ]
+    },
+    {
+      "column": -3,
+      "residue": 3,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        -1
+      ],
+      "letters": "L",
+      "events": [
+        [
+          1,
+          14
+        ]
+      ]
+    },
+    {
+      "column": -3,
+      "residue": 3,
+      "lower": [
+        0,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        0
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          0,
+          42
+        ],
+        [
+          0,
+          50
+        ]
+      ]
+    },
+    {
+      "column": -3,
+      "residue": 3,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "L",
+      "events": [
+        [
+          0,
+          34
+        ]
+      ]
+    },
+    {
+      "column": -2,
+      "residue": 0,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        -1,
+        0
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          2,
+          44
+        ],
+        [
+          2,
+          48
+        ]
+      ]
+    },
+    {
+      "column": -2,
+      "residue": 0,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          0,
+          44
+        ],
+        [
+          0,
+          48
+        ]
+      ]
+    },
+    {
+      "column": -2,
+      "residue": 1,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        -1,
+        0
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          2,
+          43
+        ],
+        [
+          2,
+          47
+        ]
+      ]
+    },
+    {
+      "column": -2,
+      "residue": 1,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          0,
+          15
+        ],
+        [
+          0,
+          19
+        ],
+        [
+          0,
+          31
+        ]
+      ]
+    },
+    {
+      "column": -2,
+      "residue": 2,
+      "lower": [
+        -1,
+        -2
+      ],
+      "upper_exclusive": [
+        -1,
+        -1
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          2,
+          16
+        ],
+        [
+          2,
+          20
+        ],
+        [
+          2,
+          32
+        ]
+      ]
+    },
+    {
+      "column": -2,
+      "residue": 2,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          0,
+          16
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          32
+        ]
+      ]
+    },
+    {
+      "column": -2,
+      "residue": 3,
+      "lower": [
+        -1,
+        -2
+      ],
+      "upper_exclusive": [
+        -1,
+        -1
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          2,
+          15
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          31
+        ]
+      ]
+    },
+    {
+      "column": -2,
+      "residue": 3,
+      "lower": [
+        0,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        0
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          0,
+          43
+        ],
+        [
+          0,
+          47
+        ]
+      ]
+    },
+    {
+      "column": -1,
+      "residue": 0,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        -1,
+        0
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          2,
+          41
+        ],
+        [
+          2,
+          49
+        ]
+      ]
+    },
+    {
+      "column": -1,
+      "residue": 0,
+      "lower": [
+        -1,
+        0
+      ],
+      "upper_exclusive": [
+        -1,
+        1
+      ],
+      "letters": "L",
+      "events": [
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "column": -1,
+      "residue": 0,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          45
+        ]
+      ]
+    },
+    {
+      "column": -1,
+      "residue": 0,
+      "lower": [
+        0,
+        2
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "R",
+      "events": [
+        [
+          5,
+          61
+        ]
+      ]
+    },
+    {
+      "column": -1,
+      "residue": 1,
+      "lower": [
+        -1,
+        -2
+      ],
+      "upper_exclusive": [
+        -1,
+        -1
+      ],
+      "letters": "L",
+      "events": [
+        [
+          2,
+          34
+        ]
+      ]
+    },
+    {
+      "column": -1,
+      "residue": 1,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        -1,
+        0
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          2,
+          42
+        ],
+        [
+          2,
+          50
+        ]
+      ]
+    },
+    {
+      "column": -1,
+      "residue": 1,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          0,
+          14
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          30
+        ]
+      ]
+    },
+    {
+      "column": -1,
+      "residue": 1,
+      "lower": [
+        0,
+        2
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "R",
+      "events": [
+        [
+          5,
+          62
+        ]
+      ]
+    },
+    {
+      "column": -1,
+      "residue": 1,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "L",
+      "events": [
+        [
+          5,
+          38
+        ]
+      ]
+    },
+    {
+      "column": -1,
+      "residue": 2,
+      "lower": [
+        -1,
+        -2
+      ],
+      "upper_exclusive": [
+        -1,
+        -1
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          2,
+          17
+        ],
+        [
+          2,
+          33
+        ]
+      ]
+    },
+    {
+      "column": -1,
+      "residue": 2,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        -1,
+        0
+      ],
+      "letters": "R",
+      "events": [
+        [
+          2,
+          57
+        ]
+      ]
+    },
+    {
+      "column": -1,
+      "residue": 2,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          0,
+          13
+        ],
+        [
+          0,
+          21
+        ],
+        [
+          0,
+          29
+        ]
+      ]
+    },
+    {
+      "column": -1,
+      "residue": 2,
+      "lower": [
+        0,
+        2
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "R",
+      "events": [
+        [
+          5,
+          53
+        ]
+      ]
+    },
+    {
+      "column": -1,
+      "residue": 2,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "L",
+      "events": [
+        [
+          5,
+          37
+        ]
+      ]
+    },
+    {
+      "column": -1,
+      "residue": 3,
+      "lower": [
+        -1,
+        -2
+      ],
+      "upper_exclusive": [
+        -1,
+        -1
+      ],
+      "letters": "L",
+      "events": [
+        [
+          2,
+          18
+        ]
+      ]
+    },
+    {
+      "column": -1,
+      "residue": 3,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        -1,
+        0
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          2,
+          58
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "column": -1,
+      "residue": 3,
+      "lower": [
+        0,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        0
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          46
+        ]
+      ]
+    },
+    {
+      "column": -1,
+      "residue": 3,
+      "lower": [
+        0,
+        2
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "R",
+      "events": [
+        [
+          5,
+          54
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 0,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        -1,
+        0
+      ],
+      "letters": "L",
+      "events": [
+        [
+          2,
+          40
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 0,
+      "lower": [
+        -1,
+        0
+      ],
+      "upper_exclusive": [
+        -1,
+        1
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          2,
+          60
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 0,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 0,
+      "lower": [
+        0,
+        2
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "R",
+      "events": [
+        [
+          5,
+          60
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 0,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "L",
+      "events": [
+        [
+          5,
+          40
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 1,
+      "lower": [
+        -1,
+        -2
+      ],
+      "upper_exclusive": [
+        -1,
+        -1
+      ],
+      "letters": "L",
+      "events": [
+        [
+          2,
+          35
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 1,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        -1,
+        0
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          2,
+          51
+        ],
+        [
+          2,
+          55
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 1,
+      "lower": [
+        -1,
+        0
+      ],
+      "upper_exclusive": [
+        -1,
+        1
+      ],
+      "letters": "R",
+      "events": [
+        [
+          3,
+          11
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 1,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          23
+        ],
+        [
+          0,
+          27
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 1,
+      "lower": [
+        0,
+        2
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          5,
+          59
+        ],
+        [
+          5,
+          63
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 1,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "R",
+      "events": [
+        [
+          5,
+          39
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 2,
+      "lower": [
+        -1,
+        -2
+      ],
+      "upper_exclusive": [
+        -1,
+        -1
+      ],
+      "letters": "R",
+      "events": [
+        [
+          2,
+          36
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 2,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        -1,
+        0
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          2,
+          52
+        ],
+        [
+          2,
+          56
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 2,
+      "lower": [
+        -1,
+        0
+      ],
+      "upper_exclusive": [
+        -1,
+        1
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          3,
+          12
+        ],
+        [
+          3,
+          20
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 2,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          24
+        ],
+        [
+          0,
+          28
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 2,
+      "lower": [
+        0,
+        2
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          5,
+          52
+        ],
+        [
+          5,
+          56
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 2,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "R",
+      "events": [
+        [
+          5,
+          36
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 3,
+      "lower": [
+        -1,
+        -2
+      ],
+      "upper_exclusive": [
+        -1,
+        -1
+      ],
+      "letters": "R",
+      "events": [
+        [
+          2,
+          39
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 3,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        -1,
+        0
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          2,
+          59
+        ],
+        [
+          2,
+          63
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 3,
+      "lower": [
+        -1,
+        0
+      ],
+      "upper_exclusive": [
+        -1,
+        1
+      ],
+      "letters": "L",
+      "events": [
+        [
+          3,
+          19
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 3,
+      "lower": [
+        0,
+        -1
+      ],
+      "upper_exclusive": [
+        0,
+        0
+      ],
+      "letters": "L",
+      "events": [
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 3,
+      "lower": [
+        0,
+        2
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          5,
+          51
+        ],
+        [
+          5,
+          55
+        ]
+      ]
+    },
+    {
+      "column": 0,
+      "residue": 3,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "L",
+      "events": [
+        [
+          5,
+          35
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 0,
+      "lower": [
+        -1,
+        0
+      ],
+      "upper_exclusive": [
+        -1,
+        1
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          2,
+          61
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          9
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 0,
+      "lower": [
+        -1,
+        1
+      ],
+      "upper_exclusive": [
+        -1,
+        2
+      ],
+      "letters": "R",
+      "events": [
+        [
+          3,
+          29
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 0,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 0,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          5,
+          41
+        ],
+        [
+          5,
+          49
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 1,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        -1,
+        0
+      ],
+      "letters": "R",
+      "events": [
+        [
+          2,
+          54
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 1,
+      "lower": [
+        -1,
+        0
+      ],
+      "upper_exclusive": [
+        -1,
+        1
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          10
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 1,
+      "lower": [
+        -1,
+        1
+      ],
+      "upper_exclusive": [
+        -1,
+        2
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          3,
+          30
+        ],
+        [
+          3,
+          38
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 1,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          26
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 1,
+      "lower": [
+        0,
+        2
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "R",
+      "events": [
+        [
+          5,
+          58
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 1,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "L",
+      "events": [
+        [
+          5,
+          18
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 2,
+      "lower": [
+        -1,
+        -2
+      ],
+      "upper_exclusive": [
+        -1,
+        -1
+      ],
+      "letters": "L",
+      "events": [
+        [
+          2,
+          37
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 2,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        -1,
+        0
+      ],
+      "letters": "R",
+      "events": [
+        [
+          2,
+          53
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 2,
+      "lower": [
+        -1,
+        0
+      ],
+      "upper_exclusive": [
+        -1,
+        1
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          3,
+          13
+        ],
+        [
+          3,
+          17
+        ],
+        [
+          3,
+          21
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 2,
+      "lower": [
+        -1,
+        1
+      ],
+      "upper_exclusive": [
+        -1,
+        2
+      ],
+      "letters": "L",
+      "events": [
+        [
+          3,
+          37
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 2,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "R",
+      "events": [
+        [
+          0,
+          25
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 2,
+      "lower": [
+        0,
+        2
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "R",
+      "events": [
+        [
+          5,
+          57
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 2,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          5,
+          17
+        ],
+        [
+          5,
+          33
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 3,
+      "lower": [
+        -1,
+        -2
+      ],
+      "upper_exclusive": [
+        -1,
+        -1
+      ],
+      "letters": "L",
+      "events": [
+        [
+          2,
+          38
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 3,
+      "lower": [
+        -1,
+        -1
+      ],
+      "upper_exclusive": [
+        -1,
+        0
+      ],
+      "letters": "R",
+      "events": [
+        [
+          2,
+          62
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 3,
+      "lower": [
+        -1,
+        0
+      ],
+      "upper_exclusive": [
+        -1,
+        1
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          3,
+          14
+        ],
+        [
+          3,
+          18
+        ],
+        [
+          3,
+          22
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 3,
+      "lower": [
+        0,
+        2
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          5,
+          42
+        ],
+        [
+          5,
+          50
+        ]
+      ]
+    },
+    {
+      "column": 1,
+      "residue": 3,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "L",
+      "events": [
+        [
+          5,
+          34
+        ]
+      ]
+    },
+    {
+      "column": 2,
+      "residue": 0,
+      "lower": [
+        -1,
+        0
+      ],
+      "upper_exclusive": [
+        -1,
+        1
+      ],
+      "letters": "R",
+      "events": [
+        [
+          3,
+          8
+        ]
+      ]
+    },
+    {
+      "column": 2,
+      "residue": 0,
+      "lower": [
+        -1,
+        1
+      ],
+      "upper_exclusive": [
+        -1,
+        2
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          3,
+          24
+        ],
+        [
+          3,
+          28
+        ]
+      ]
+    },
+    {
+      "column": 2,
+      "residue": 0,
+      "lower": [
+        -1,
+        2
+      ],
+      "upper_exclusive": [
+        -1,
+        3
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          3,
+          48
+        ],
+        [
+          3,
+          56
+        ]
+      ]
+    },
+    {
+      "column": 2,
+      "residue": 0,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "R",
+      "events": [
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "column": 2,
+      "residue": 0,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          5,
+          44
+        ],
+        [
+          5,
+          48
+        ]
+      ]
+    },
+    {
+      "column": 2,
+      "residue": 1,
+      "lower": [
+        -1,
+        0
+      ],
+      "upper_exclusive": [
+        -1,
+        1
+      ],
+      "letters": "R",
+      "events": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "column": 2,
+      "residue": 1,
+      "lower": [
+        -1,
+        1
+      ],
+      "upper_exclusive": [
+        -1,
+        2
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          3,
+          31
+        ],
+        [
+          3,
+          35
+        ],
+        [
+          3,
+          39
+        ]
+      ]
+    },
+    {
+      "column": 2,
+      "residue": 1,
+      "lower": [
+        -1,
+        2
+      ],
+      "upper_exclusive": [
+        -1,
+        3
+      ],
+      "letters": "L",
+      "events": [
+        [
+          3,
+          55
+        ]
+      ]
+    },
+    {
+      "column": 2,
+      "residue": 1,
+      "lower": [
+        0,
+        0
+      ],
+      "upper_exclusive": [
+        0,
+        1
+      ],
+      "letters": "R",
+      "events": [
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "column": 2,
+      "residue": 1,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          5,
+          15
+        ],
+        [
+          5,
+          19
+        ],
+        [
+          5,
+          31
+        ]
+      ]
+    },
+    {
+      "column": 2,
+      "residue": 2,
+      "lower": [
+        -1,
+        0
+      ],
+      "upper_exclusive": [
+        -1,
+        1
+      ],
+      "letters": "R",
+      "events": [
+        [
+          3,
+          16
+        ]
+      ]
+    },
+    {
+      "column": 2,
+      "residue": 2,
+      "lower": [
+        -1,
+        1
+      ],
+      "upper_exclusive": [
+        -1,
+        2
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          3,
+          32
+        ],
+        [
+          3,
+          36
+        ],
+        [
+          3,
+          40
+        ]
+      ]
+    },
+    {
+      "column": 2,
+      "residue": 2,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          5,
+          16
+        ],
+        [
+          5,
+          20
+        ],
+        [
+          5,
+          32
+        ]
+      ]
+    },
+    {
+      "column": 2,
+      "residue": 3,
+      "lower": [
+        -1,
+        0
+      ],
+      "upper_exclusive": [
+        -1,
+        1
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          3,
+          15
+        ],
+        [
+          3,
+          23
+        ],
+        [
+          3,
+          27
+        ]
+      ]
+    },
+    {
+      "column": 2,
+      "residue": 3,
+      "lower": [
+        -1,
+        1
+      ],
+      "upper_exclusive": [
+        -1,
+        2
+      ],
+      "letters": "R",
+      "events": [
+        [
+          3,
+          47
+        ]
+      ]
+    },
+    {
+      "column": 2,
+      "residue": 3,
+      "lower": [
+        0,
+        2
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          5,
+          43
+        ],
+        [
+          5,
+          47
+        ]
+      ]
+    },
+    {
+      "column": 3,
+      "residue": 0,
+      "lower": [
+        -1,
+        1
+      ],
+      "upper_exclusive": [
+        -1,
+        2
+      ],
+      "letters": "R",
+      "events": [
+        [
+          3,
+          25
+        ]
+      ]
+    },
+    {
+      "column": 3,
+      "residue": 0,
+      "lower": [
+        -1,
+        2
+      ],
+      "upper_exclusive": [
+        -1,
+        3
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          3,
+          49
+        ],
+        [
+          3,
+          53
+        ],
+        [
+          3,
+          57
+        ]
+      ]
+    },
+    {
+      "column": 3,
+      "residue": 0,
+      "lower": [
+        -1,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "L",
+      "events": [
+        [
+          4,
+          1
+        ]
+      ]
+    },
+    {
+      "column": 3,
+      "residue": 0,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          45
+        ]
+      ]
+    },
+    {
+      "column": 3,
+      "residue": 1,
+      "lower": [
+        -1,
+        1
+      ],
+      "upper_exclusive": [
+        -1,
+        2
+      ],
+      "letters": "R",
+      "events": [
+        [
+          3,
+          34
+        ]
+      ]
+    },
+    {
+      "column": 3,
+      "residue": 1,
+      "lower": [
+        -1,
+        2
+      ],
+      "upper_exclusive": [
+        -1,
+        3
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          3,
+          50
+        ],
+        [
+          3,
+          54
+        ],
+        [
+          3,
+          58
+        ]
+      ]
+    },
+    {
+      "column": 3,
+      "residue": 1,
+      "lower": [
+        -1,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "L",
+      "events": [
+        [
+          4,
+          14
+        ]
+      ]
+    },
+    {
+      "column": 3,
+      "residue": 1,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          5,
+          14
+        ],
+        [
+          5,
+          22
+        ],
+        [
+          5,
+          30
+        ]
+      ]
+    },
+    {
+      "column": 3,
+      "residue": 2,
+      "lower": [
+        -1,
+        1
+      ],
+      "upper_exclusive": [
+        -1,
+        2
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          3,
+          33
+        ],
+        [
+          3,
+          41
+        ],
+        [
+          3,
+          45
+        ]
+      ]
+    },
+    {
+      "column": 3,
+      "residue": 2,
+      "lower": [
+        -1,
+        2
+      ],
+      "upper_exclusive": [
+        -1,
+        3
+      ],
+      "letters": "R",
+      "events": [
+        [
+          3,
+          65
+        ]
+      ]
+    },
+    {
+      "column": 3,
+      "residue": 2,
+      "lower": [
+        -1,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "LR",
+      "events": [
+        [
+          4,
+          13
+        ],
+        [
+          4,
+          21
+        ]
+      ]
+    },
+    {
+      "column": 3,
+      "residue": 2,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          5,
+          13
+        ],
+        [
+          5,
+          21
+        ],
+        [
+          5,
+          29
+        ]
+      ]
+    },
+    {
+      "column": 3,
+      "residue": 3,
+      "lower": [
+        -1,
+        0
+      ],
+      "upper_exclusive": [
+        -1,
+        1
+      ],
+      "letters": "R",
+      "events": [
+        [
+          3,
+          26
+        ]
+      ]
+    },
+    {
+      "column": 3,
+      "residue": 3,
+      "lower": [
+        -1,
+        1
+      ],
+      "upper_exclusive": [
+        -1,
+        2
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          3,
+          42
+        ],
+        [
+          3,
+          46
+        ]
+      ]
+    },
+    {
+      "column": 3,
+      "residue": 3,
+      "lower": [
+        -1,
+        2
+      ],
+      "upper_exclusive": [
+        -1,
+        3
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          3,
+          66
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "column": 3,
+      "residue": 3,
+      "lower": [
+        -1,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        2
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          4,
+          22
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "column": 3,
+      "residue": 3,
+      "lower": [
+        0,
+        2
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          4,
+          22
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          46
+        ]
+      ]
+    },
+    {
+      "column": 4,
+      "residue": 0,
+      "lower": [
+        -1,
+        2
+      ],
+      "upper_exclusive": [
+        -1,
+        3
+      ],
+      "letters": "R",
+      "events": [
+        [
+          3,
+          52
+        ]
+      ]
+    },
+    {
+      "column": 4,
+      "residue": 0,
+      "lower": [
+        -1,
+        3
+      ],
+      "upper_exclusive": [
+        -1,
+        4
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          3,
+          68
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "column": 4,
+      "residue": 0,
+      "lower": [
+        -1,
+        4
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          4,
+          24
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "column": 4,
+      "residue": 0,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          4,
+          24
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          4
+        ]
+      ]
+    },
+    {
+      "column": 4,
+      "residue": 1,
+      "lower": [
+        -1,
+        2
+      ],
+      "upper_exclusive": [
+        -1,
+        3
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          3,
+          51
+        ],
+        [
+          3,
+          59
+        ],
+        [
+          3,
+          63
+        ]
+      ]
+    },
+    {
+      "column": 4,
+      "residue": 1,
+      "lower": [
+        -1,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          4,
+          11
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          4,
+          19
+        ]
+      ]
+    },
+    {
+      "column": 4,
+      "residue": 1,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          5,
+          11
+        ],
+        [
+          5,
+          23
+        ],
+        [
+          5,
+          27
+        ]
+      ]
+    },
+    {
+      "column": 4,
+      "residue": 2,
+      "lower": [
+        -1,
+        1
+      ],
+      "upper_exclusive": [
+        -1,
+        2
+      ],
+      "letters": "R",
+      "events": [
+        [
+          3,
+          44
+        ]
+      ]
+    },
+    {
+      "column": 4,
+      "residue": 2,
+      "lower": [
+        -1,
+        2
+      ],
+      "upper_exclusive": [
+        -1,
+        3
+      ],
+      "letters": "RL",
+      "events": [
+        [
+          3,
+          60
+        ],
+        [
+          3,
+          64
+        ]
+      ]
+    },
+    {
+      "column": 4,
+      "residue": 2,
+      "lower": [
+        -1,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          4,
+          12
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          4,
+          20
+        ]
+      ]
+    },
+    {
+      "column": 4,
+      "residue": 2,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          24
+        ],
+        [
+          5,
+          28
+        ]
+      ]
+    },
+    {
+      "column": 4,
+      "residue": 3,
+      "lower": [
+        -1,
+        1
+      ],
+      "upper_exclusive": [
+        -1,
+        2
+      ],
+      "letters": "R",
+      "events": [
+        [
+          3,
+          43
+        ]
+      ]
+    },
+    {
+      "column": 4,
+      "residue": 3,
+      "lower": [
+        -1,
+        2
+      ],
+      "upper_exclusive": [
+        -1,
+        3
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          3,
+          67
+        ],
+        [
+          3,
+          71
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "column": 4,
+      "residue": 3,
+      "lower": [
+        -1,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        2
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          4,
+          23
+        ],
+        [
+          4,
+          27
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "column": 4,
+      "residue": 3,
+      "lower": [
+        0,
+        2
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "LRL",
+      "events": [
+        [
+          4,
+          23
+        ],
+        [
+          4,
+          27
+        ],
+        [
+          5,
+          3
+        ]
+      ]
+    },
+    {
+      "column": 5,
+      "residue": 0,
+      "lower": [
+        -1,
+        3
+      ],
+      "upper_exclusive": [
+        -1,
+        4
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          3,
+          69
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          9
+        ]
+      ]
+    },
+    {
+      "column": 5,
+      "residue": 0,
+      "lower": [
+        -1,
+        4
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          4,
+          25
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          9
+        ]
+      ]
+    },
+    {
+      "column": 5,
+      "residue": 0,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          4,
+          25
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          9
+        ]
+      ]
+    },
+    {
+      "column": 5,
+      "residue": 1,
+      "lower": [
+        -1,
+        2
+      ],
+      "upper_exclusive": [
+        -1,
+        3
+      ],
+      "letters": "R",
+      "events": [
+        [
+          3,
+          62
+        ]
+      ]
+    },
+    {
+      "column": 5,
+      "residue": 1,
+      "lower": [
+        -1,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "column": 5,
+      "residue": 1,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "RLR",
+      "events": [
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          5,
+          26
+        ]
+      ]
+    },
+    {
+      "column": 5,
+      "residue": 2,
+      "lower": [
+        -1,
+        2
+      ],
+      "upper_exclusive": [
+        -1,
+        3
+      ],
+      "letters": "R",
+      "events": [
+        [
+          3,
+          61
+        ]
+      ]
+    },
+    {
+      "column": 5,
+      "residue": 2,
+      "lower": [
+        -1,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "R",
+      "events": [
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "column": 5,
+      "residue": 2,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "R",
+      "events": [
+        [
+          5,
+          25
+        ]
+      ]
+    },
+    {
+      "column": 5,
+      "residue": 3,
+      "lower": [
+        -1,
+        2
+      ],
+      "upper_exclusive": [
+        -1,
+        3
+      ],
+      "letters": "R",
+      "events": [
+        [
+          3,
+          70
+        ]
+      ]
+    },
+    {
+      "column": 5,
+      "residue": 3,
+      "lower": [
+        -1,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "R",
+      "events": [
+        [
+          4,
+          26
+        ]
+      ]
+    },
+    {
+      "column": 6,
+      "residue": 0,
+      "lower": [
+        -1,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "R",
+      "events": [
+        [
+          4,
+          8
+        ]
+      ]
+    },
+    {
+      "column": 6,
+      "residue": 0,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "R",
+      "events": [
+        [
+          5,
+          8
+        ]
+      ]
+    },
+    {
+      "column": 6,
+      "residue": 1,
+      "lower": [
+        -1,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        3
+      ],
+      "letters": "R",
+      "events": [
+        [
+          4,
+          7
+        ]
+      ]
+    },
+    {
+      "column": 6,
+      "residue": 1,
+      "lower": [
+        0,
+        3
+      ],
+      "upper_exclusive": [
+        0,
+        4
+      ],
+      "letters": "R",
+      "events": [
+        [
+          5,
+          7
+        ]
+      ]
+    }
+  ]
+}

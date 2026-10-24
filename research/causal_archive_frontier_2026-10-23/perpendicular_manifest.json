@@ -1,0 +1,24 @@
+{
+  "status": "INDEPENDENT_PASS_PERPENDICULAR_EPOCH_EXCEPTION_BUDGET",
+  "scope": "33 consumer packets per perpendicular source epoch, at most4851 across147 odd-age sources; no periodic profile, bounded state or capture conclusion.",
+  "files": [
+    {
+      "path": "perpendicular_epoch_interface.md",
+      "sha256": "67b08dfb9a7abba98e4bb416478d6e8230b664f21936930da332f3f1d1790118"
+    },
+    {
+      "path": "perpendicular_epoch_controls.json",
+      "sha256": "c7ce4472d1fa8a40d81f841359e481e94c38e3fa76c47c4e7e20f1bfbda3b6f5"
+    }
+  ],
+  "independent_audits": [
+    {
+      "path": "audits/check_perpendicular_epoch_interface_independent.py",
+      "sha256": "fda962b22e20e16dc775a56dd2fe8b2825ccf553e8d30998256744e91fb6abe6"
+    },
+    {
+      "path": "audits/check_perpendicular_epoch_interface_independent.json",
+      "sha256": "a0705f02b1766e7602ee82791ad82c79be629c76d3ad9a1d3459a1b2ac5c4716"
+    }
+  ]
+}

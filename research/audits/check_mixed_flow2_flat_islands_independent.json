@@ -1,0 +1,110 @@
+{
+  "status": "PASS global-max critical mixed flow2 roots have only flat local islands, hence require two distinct flat RIGHT classes",
+  "proof_sha256": "c9574fb8a1a2d8d592cbd06d601a49ef241eec6d18c6c50cfa3497ee83e8259d",
+  "control_sha256": "b5d0128c00f74996fc0297dd0e22e48d6995837ff8cc2abea818c1b17018362d",
+  "dependencies": {
+    "audits/check_mixed_U_triple_uncapped_independent.json": "cbc485f6360c5d64057338ffb3122ebf2147e021034eded1c8a23cf542f3b307",
+    "audits/check_high_sink_nesting_independent.json": "018e5161c16f6c6e55b65884c4c761faffdf483fdc4a454f0e3ab0d77b9df052",
+    "audits/check_mixed_RR_closure_independent.json": "6a5571ed9cd4a804868b7378ecd3a4f675592e4b200e944cc4c62ff97a8883ac",
+    "audits/check_global_max_flow2_staircase_independent.json": "665b54d8645247b9f5960eb6a3fcb8d7cf4db65b84054a24d444669904266a37",
+    "audits/check_mixed_first_track_pipeline_independent.json": "8ff4e2b77138f10372b4074fe93d9e0a7d28b4af32d29137f16cf4df8add9bab"
+  },
+  "derived_O_helper_profiles": [
+    {
+      "history": "S",
+      "S_rank": 0,
+      "W_rank": 0,
+      "W_before_S": false,
+      "height_raise": -1
+    },
+    {
+      "history": "NSNN",
+      "S_rank": 1,
+      "W_rank": 3,
+      "W_before_S": false,
+      "height_raise": 2
+    },
+    {
+      "history": "NNNS",
+      "S_rank": 3,
+      "W_rank": 1,
+      "W_before_S": true,
+      "height_raise": 2
+    },
+    {
+      "history": "NSNNN",
+      "S_rank": 1,
+      "W_rank": 3,
+      "W_before_S": false,
+      "height_raise": 3
+    },
+    {
+      "history": "NNNSN",
+      "S_rank": 3,
+      "W_rank": 1,
+      "W_before_S": true,
+      "height_raise": 3
+    }
+  ],
+  "strict_helper_heights": {
+    "NNNS": {
+      "shared_C": 0,
+      "L_SW": -1,
+      "other_C": 2
+    },
+    "NNNSN": {
+      "shared_C": 0,
+      "L_SW": -1,
+      "other_C": 3
+    }
+  },
+  "singleton_U_nested_routes": [
+    {
+      "next_left": "WEE",
+      "first_clock": "T1v=T0u+2<=T1u-2",
+      "last_clock": "T2v=T3X+1>=T1u+10"
+    },
+    {
+      "next_left": "WEEW",
+      "first_clock": "T1v=T0u+2<=T1u-2",
+      "last_clock": "T2v=T3X+1>=T1u+10"
+    }
+  ],
+  "singleton_O_windows": [
+    [
+      "V",
+      "Y",
+      "O",
+      "X",
+      "V"
+    ],
+    [
+      "V",
+      "Y",
+      "O",
+      "Y",
+      "V"
+    ]
+  ],
+  "LL_root_rows": [
+    {
+      "Z": "NNSS",
+      "A": "EEWW",
+      "B": "SNNS",
+      "Y": "EWW"
+    },
+    {
+      "Z": "NNSS",
+      "A": "EEWW",
+      "B": "SNNS",
+      "Y": "EWWE"
+    }
+  ],
+  "analytic_review": [
+    "Exact uO,sNSN,wWEEE first strand gives T1w=T0u+2 and helperW=T0u-1<S=T2w+1. Sin1/Wout1 derives n1 or4/5. OnlyNNNS/NNNSN survive; unrestricted all-port curl raises otherC by2/3. With the separately signed U case, GLOBAL selected C maximum excludes both outgoing high-source interfaces without a cap4 maximum shortcut at the helper.",
+    "Every f2root already has a flat RIGHT predecessor by signed critical incoming nesting. For a singleton root, outgoing source4 forces RR; source3 followedRIGHT also forcesRR; general mixedLRRL forbids both besideO/U. Source3 followedLEFT is exactly the newly excluded higher-C helper. Thus both neighboringRIGHT are flat. LL roots are already exactly the two old flat-end rows; passiveV/V zero-chord notches remain.",
+    "Outer neighbors of a singleton root cannot beRIGHT by the same generalRR gate; since adjoining edges haveflow2 they areLEFTflow2. Therefore the signed full five-corner constant2 stencil applies even in a globally mixed circle. Every currentU row forces followingX and nextO/U. Literal first/late ordinals put nextrootL1 strictly beforeuL1 and nextrootR2 strictly afteruL1, violating pairwise disjoint actual critical LEFT intervals. No assumed second staircase window or old-age bound is used.",
+    "With singletonU excluded, the priorU alternatives in a currentO window are impossible too: last-LEFT gate makes that prior crossing itself singleton. Remaining singleton islands are preciselyV,Y,O,X-or-Y,V; LLfirstO/U retainsY,O/U,V,X and its actual four-L cleanup. All outside high3/4 and old stock remain possible.",
+    "LLflanks have different complete flat types. If singletonO flanks share one full-quotient class, the b permutation cycle has length2; then the displayed outerV cap is a full-drift translate ofO, impossible for their complete histories. Thus at least two distinct flat classes are necessary. This closes the one-flat WITH-f2root branch only, not one-flat with onlyflow3, arbitrary nonmaximal/front cases or the general one-use problem."
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "status": "exact 21-channel interface coverage and adverse-history controls",
+  "domain": "k>=100; blank realization also m>=100 independently",
+  "protected_phases": [
+    15,
+    29,
+    32,
+    38,
+    45,
+    46,
+    47,
+    55,
+    56,
+    57,
+    61,
+    62,
+    71
+  ],
+  "unprotected_backward_phases": [
+    13,
+    14,
+    27,
+    28,
+    60,
+    70,
+    75,
+    89
+  ],
+  "common_protected_halfplane": "u>=-160",
+  "adverse_history_controls": [
+    {
+      "phase": 13,
+      "fixed_old_bit": [
+        -1967,
+        2035
+      ],
+      "first_changed_time": [
+        208,
+        155418
+      ],
+      "reference_letter": "R",
+      "actual_letter": "L",
+      "future_behavior": "not asserted after the first changed read"
+    },
+    {
+      "phase": 14,
+      "fixed_old_bit": [
+        -1967,
+        2035
+      ],
+      "first_changed_time": [
+        208,
+        155518
+      ],
+      "reference_letter": "R",
+      "actual_letter": "L",
+      "future_behavior": "not asserted after the first changed read"
+    },
+    {
+      "phase": 27,
+      "fixed_old_bit": [
+        -1965,
+        2033
+      ],
+      "first_changed_time": [
+        208,
+        155634
+      ],
+      "reference_letter": "R",
+      "actual_letter": "L",
+      "future_behavior": "not asserted after the first changed read"
+    },
+    {
+      "phase": 28,
+      "fixed_old_bit": [
+        -1964,
+        2030
+      ],
+      "first_changed_time": [
+        208,
+        161632
+      ],
+      "reference_letter": "R",
+      "actual_letter": "L",
+      "future_behavior": "not asserted after the first changed read"
+    },
+    {
+      "phase": 60,
+      "fixed_old_bit": [
+        -1970,
+        2024
+      ],
+      "first_changed_time": [
+        208,
+        157760
+      ],
+      "reference_letter": "R",
+      "actual_letter": "L",
+      "future_behavior": "not asserted after the first changed read"
+    },
+    {
+      "phase": 70,
+      "fixed_old_bit": [
+        -1959,
+        2011
+      ],
+      "first_changed_time": [
+        208,
+        163718
+      ],
+      "reference_letter": "R",
+      "actual_letter": "L",
+      "future_behavior": "not asserted after the first changed read"
+    },
+    {
+      "phase": 75,
+      "fixed_old_bit": [
+        -1957,
+        2021
+      ],
+      "first_changed_time": [
+        208,
+        159034
+      ],
+      "reference_letter": "R",
+      "actual_letter": "L",
+      "future_behavior": "not asserted after the first changed read"
+    },
+    {
+      "phase": 89,
+      "fixed_old_bit": [
+        -1967,
+        2035
+      ],
+      "first_changed_time": [
+        208,
+        155430
+      ],
+      "reference_letter": "R",
+      "actual_letter": "L",
+      "future_behavior": "not asserted after the first changed read"
+    }
+  ],
+  "blank_realizations": [
+    {
+      "phase": 15,
+      "initial_core_base": [
+        -18,
+        10
+      ],
+      "initial_core_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_base": [
+        1,
+        -17
+      ],
+      "second_marker_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_per_k": [
+        2,
+        -2
+      ],
+      "capture_time_m_k_constant": [
+        104,
+        208,
+        74426
+      ],
+      "whole_future_z_upper_m": [
+        -4,
+        123
+      ]
+    },
+    {
+      "phase": 29,
+      "initial_core_base": [
+        -19,
+        9
+      ],
+      "initial_core_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_base": [
+        -43,
+        27
+      ],
+      "second_marker_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_per_k": [
+        -2,
+        2
+      ],
+      "capture_time_m_k_constant": [
+        104,
+        104,
+        73816
+      ],
+      "whole_future_z_upper_m": [
+        -4,
+        63
+      ]
+    },
+    {
+      "phase": 32,
+      "initial_core_base": [
+        -17,
+        8
+      ],
+      "initial_core_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_base": [
+        -44,
+        42
+      ],
+      "second_marker_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_per_k": [
+        -2,
+        2
+      ],
+      "capture_time_m_k_constant": [
+        104,
+        104,
+        69558
+      ],
+      "whole_future_z_upper_m": [
+        -4,
+        61
+      ]
+    },
+    {
+      "phase": 38,
+      "initial_core_base": [
+        -18,
+        7
+      ],
+      "initial_core_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_base": [
+        -24,
+        28
+      ],
+      "second_marker_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_per_k": [
+        -2,
+        2
+      ],
+      "capture_time_m_k_constant": [
+        104,
+        104,
+        66930
+      ],
+      "whole_future_z_upper_m": [
+        -4,
+        67
+      ]
+    },
+    {
+      "phase": 45,
+      "initial_core_base": [
+        -17,
+        5
+      ],
+      "initial_core_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_base": [
+        -1,
+        -3
+      ],
+      "second_marker_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_per_k": [
+        2,
+        -2
+      ],
+      "capture_time_m_k_constant": [
+        104,
+        208,
+        72290
+      ],
+      "whole_future_z_upper_m": [
+        -4,
+        135
+      ]
+    },
+    {
+      "phase": 46,
+      "initial_core_base": [
+        -18,
+        5
+      ],
+      "initial_core_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_base": [
+        -2,
+        -4
+      ],
+      "second_marker_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_per_k": [
+        2,
+        -2
+      ],
+      "capture_time_m_k_constant": [
+        104,
+        208,
+        70959
+      ],
+      "whole_future_z_upper_m": [
+        -4,
+        99
+      ]
+    },
+    {
+      "phase": 47,
+      "initial_core_base": [
+        -18,
+        6
+      ],
+      "initial_core_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_base": [
+        -2,
+        -4
+      ],
+      "second_marker_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_per_k": [
+        2,
+        -2
+      ],
+      "capture_time_m_k_constant": [
+        104,
+        208,
+        71003
+      ],
+      "whole_future_z_upper_m": [
+        -4,
+        99
+      ]
+    },
+    {
+      "phase": 55,
+      "initial_core_base": [
+        -18,
+        4
+      ],
+      "initial_core_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_base": [
+        -16,
+        40
+      ],
+      "second_marker_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_per_k": [
+        -2,
+        2
+      ],
+      "capture_time_m_k_constant": [
+        104,
+        104,
+        67730
+      ],
+      "whole_future_z_upper_m": [
+        -4,
+        87
+      ]
+    },
+    {
+      "phase": 56,
+      "initial_core_base": [
+        -19,
+        4
+      ],
+      "initial_core_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_base": [
+        -45,
+        29
+      ],
+      "second_marker_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_per_k": [
+        -2,
+        2
+      ],
+      "capture_time_m_k_constant": [
+        104,
+        104,
+        68764
+      ],
+      "whole_future_z_upper_m": [
+        -4,
+        47
+      ]
+    },
+    {
+      "phase": 57,
+      "initial_core_base": [
+        -19,
+        5
+      ],
+      "initial_core_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_base": [
+        -6,
+        -4
+      ],
+      "second_marker_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_per_k": [
+        2,
+        -2
+      ],
+      "capture_time_m_k_constant": [
+        104,
+        208,
+        70855
+      ],
+      "whole_future_z_upper_m": [
+        -4,
+        95
+      ]
+    },
+    {
+      "phase": 61,
+      "initial_core_base": [
+        -17,
+        3
+      ],
+      "initial_core_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_base": [
+        -56,
+        15
+      ],
+      "second_marker_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_per_k": [
+        -2,
+        -2
+      ],
+      "capture_time_m_k_constant": [
+        104,
+        208,
+        126900
+      ],
+      "whole_future_z_upper_m": [
+        -4,
+        65
+      ]
+    },
+    {
+      "phase": 62,
+      "initial_core_base": [
+        -18,
+        3
+      ],
+      "initial_core_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_base": [
+        -31,
+        27
+      ],
+      "second_marker_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_per_k": [
+        -2,
+        2
+      ],
+      "capture_time_m_k_constant": [
+        104,
+        104,
+        68524
+      ],
+      "whole_future_z_upper_m": [
+        -4,
+        59
+      ]
+    },
+    {
+      "phase": 71,
+      "initial_core_base": [
+        -16,
+        2
+      ],
+      "initial_core_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_base": [
+        -30,
+        22
+      ],
+      "second_marker_per_m": [
+        -2,
+        -2
+      ],
+      "second_marker_per_k": [
+        -2,
+        2
+      ],
+      "capture_time_m_k_constant": [
+        104,
+        104,
+        76850
+      ],
+      "whole_future_z_upper_m": [
+        -4,
+        55
+      ]
+    }
+  ],
+  "blank_stationary_archive_z_bounds": [
+    -21,
+    35
+  ],
+  "blank_archive_canonical_u_upper_m": [
+    -4,
+    16
+  ],
+  "scope": "The thirteen protected rules allow arbitrary finite changes below the plane. The eight controls disprove only unchanged-future protection, not highway convergence or a general renewal theorem."
+}

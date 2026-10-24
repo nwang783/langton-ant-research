@@ -1,0 +1,137 @@
+{
+  "status": "PASS complete one-C center enumeration and literal protected prefix",
+  "manifest_sha256": "b5ae0f7ece34b83ea023bb483240eb011083f139c29b4b1725a30bb715b3224a",
+  "solutions": [
+    [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ]
+  ],
+  "records": [
+    {
+      "word": [
+        6,
+        5,
+        0
+      ],
+      "poses": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          -1,
+          0,
+          1
+        ]
+      ],
+      "conflict": null,
+      "q_reads": [
+        [
+          0,
+          [
+            0,
+            0
+          ],
+          "L"
+        ],
+        [
+          4,
+          [
+            0,
+            0
+          ],
+          "R"
+        ],
+        [
+          92,
+          [
+            0,
+            0
+          ],
+          "L"
+        ]
+      ]
+    },
+    {
+      "word": [
+        6,
+        0,
+        1,
+        0,
+        0
+      ],
+      "poses": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          2
+        ],
+        [
+          -1,
+          3,
+          2
+        ]
+      ],
+      "conflict": [
+        19,
+        59,
+        [
+          0,
+          3
+        ],
+        "L"
+      ],
+      "q_reads": [
+        [
+          0,
+          [
+            0,
+            0
+          ],
+          "L"
+        ],
+        [
+          4,
+          [
+            0,
+            0
+          ],
+          "R"
+        ]
+      ]
+    }
+  ],
+  "scope": "Only VCC output(0,0) to D input(0,1), relativepose(-1,0,E), exactsource-included C age3. Its only feasible intermediate packet is VC. No exclusion of the feasible path or repeated cycle."
+}

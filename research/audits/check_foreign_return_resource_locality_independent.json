@@ -1,0 +1,113 @@
+{
+  "status": "PASS exact foreign ledgers and total finite-support spatial return operator",
+  "note_sha256": "e5a0b512e59f1a07d6f1bced8517b7d653521b99d4ea07bf1863eb087e31f089",
+  "rows": [
+    {
+      "name": "D",
+      "length": 10,
+      "I": 1,
+      "O": 1,
+      "rawradius": 2,
+      "ctxradius": 3,
+      "marker_only": [
+        [
+          0,
+          1
+        ]
+      ],
+      "mass": 0
+    },
+    {
+      "name": "C",
+      "length": 15,
+      "I": 0,
+      "O": 3,
+      "rawradius": 2,
+      "ctxradius": 3,
+      "marker_only": [],
+      "mass": 3
+    },
+    {
+      "name": "V",
+      "length": 18,
+      "I": 2,
+      "O": 6,
+      "rawradius": 3,
+      "ctxradius": 4,
+      "marker_only": [
+        [
+          0,
+          3
+        ]
+      ],
+      "mass": 4
+    },
+    {
+      "name": "U",
+      "length": 28,
+      "I": 5,
+      "O": 9,
+      "rawradius": 4,
+      "ctxradius": 5,
+      "marker_only": [
+        [
+          -1,
+          4
+        ]
+      ],
+      "mass": 4
+    },
+    {
+      "name": "F",
+      "length": 56,
+      "I": 14,
+      "O": 16,
+      "rawradius": 5,
+      "ctxradius": 6,
+      "marker_only": [
+        [
+          -3,
+          -2
+        ]
+      ],
+      "mass": 2
+    },
+    {
+      "name": "Q",
+      "length": 64,
+      "I": 15,
+      "O": 21,
+      "rawradius": 5,
+      "ctxradius": 6,
+      "marker_only": [
+        [
+          -3,
+          -4
+        ]
+      ],
+      "mass": 6
+    },
+    {
+      "name": "B",
+      "length": 74,
+      "I": 18,
+      "O": 24,
+      "rawradius": 5,
+      "ctxradius": 6,
+      "marker_only": [
+        [
+          -2,
+          -5
+        ]
+      ],
+      "mass": 6
+    }
+  ],
+  "analytic": [
+    "The post-A board has exactly m+delta_A blacks, so the actual intervening raw DCUV duration is bounded by the signed monotone total L(m+delta_A), not L(m).",
+    "A raw radius5 and post-A endpoint radius5 yield write ball H+5. Every candidate seven-word-plus-M11 read, including the first rejected prefix bit, is within6 of its current cut, giving query radius H+11. Complete lookahead occurs on a copy; returned state is the next foreign entry or last valid cut.",
+    "Identical mass and query-ball colors give identical literal parser evolution; separate exterior black sets remain unchanged outside the write ball. No arbitrary travel after the first language mismatch is included.",
+    "The next-foreign entry return convention differs from the post-foreign graph convention. Original 214-state successor sets remain a correspondence; missing successors do not prove capture."
+  ],
+  "scope": "Finite complete support and verified foreign source only. Total computable per-state return/EXIT, with changing mass and spatial radius; no uniform finite-state bound, contraction, global graph coverage or extension of eight-language lifetime/permanence."
+}

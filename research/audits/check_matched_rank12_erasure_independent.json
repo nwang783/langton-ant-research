@@ -1,0 +1,211 @@
+{
+  "status": "PASS complete matched L1/R2 port inventory and simultaneous exchange-pair erasure",
+  "author_note": "79dcbbd4f25b23ab629b203993fe09fc4ee8f4bc141ec6abfccf76739a754076",
+  "author_inventory": "dad7f80a166b70e4479a5b941969d6e2b0242d9fc2e8588eed4f585fa6245ed3",
+  "prior_four_use_audit": "cf7b60e8dafcc95f949809e87c344edabf8797ba6d702e2c09b1ee2bf3c74900",
+  "matched": [
+    {
+      "source": "EWE",
+      "target": "SSS",
+      "flow": 3,
+      "source_ranks": [
+        0,
+        1,
+        2
+      ],
+      "target_ranks": [
+        0,
+        1,
+        2
+      ],
+      "target_of_source_rank12": [
+        1,
+        2
+      ]
+    },
+    {
+      "source": "EWE",
+      "target": "SSSN",
+      "flow": 3,
+      "source_ranks": [
+        0,
+        1,
+        2
+      ],
+      "target_ranks": [
+        0,
+        1,
+        2
+      ],
+      "target_of_source_rank12": [
+        1,
+        2
+      ]
+    },
+    {
+      "source": "WWE",
+      "target": "NSS",
+      "flow": 2,
+      "source_ranks": [
+        1,
+        2
+      ],
+      "target_ranks": [
+        1,
+        2
+      ],
+      "target_of_source_rank12": [
+        1,
+        2
+      ]
+    },
+    {
+      "source": "WWE",
+      "target": "NSSN",
+      "flow": 2,
+      "source_ranks": [
+        1,
+        2
+      ],
+      "target_ranks": [
+        1,
+        2
+      ],
+      "target_of_source_rank12": [
+        1,
+        2
+      ]
+    },
+    {
+      "source": "EWEE",
+      "target": "SSS",
+      "flow": 3,
+      "source_ranks": [
+        0,
+        1,
+        2
+      ],
+      "target_ranks": [
+        0,
+        1,
+        2
+      ],
+      "target_of_source_rank12": [
+        1,
+        2
+      ]
+    },
+    {
+      "source": "EWEE",
+      "target": "SSSN",
+      "flow": 3,
+      "source_ranks": [
+        0,
+        1,
+        2
+      ],
+      "target_ranks": [
+        0,
+        1,
+        2
+      ],
+      "target_of_source_rank12": [
+        1,
+        2
+      ]
+    },
+    {
+      "source": "EWEW",
+      "target": "SSSS",
+      "flow": 4,
+      "source_ranks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_ranks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_of_source_rank12": [
+        1,
+        2
+      ]
+    },
+    {
+      "source": "WWEE",
+      "target": "NSS",
+      "flow": 2,
+      "source_ranks": [
+        1,
+        2
+      ],
+      "target_ranks": [
+        1,
+        2
+      ],
+      "target_of_source_rank12": [
+        1,
+        2
+      ]
+    },
+    {
+      "source": "WWEE",
+      "target": "NSSN",
+      "flow": 2,
+      "source_ranks": [
+        1,
+        2
+      ],
+      "target_ranks": [
+        1,
+        2
+      ],
+      "target_of_source_rank12": [
+        1,
+        2
+      ]
+    },
+    {
+      "source": "WWEW",
+      "target": "NSSS",
+      "flow": 3,
+      "source_ranks": [
+        1,
+        2,
+        3
+      ],
+      "target_ranks": [
+        1,
+        2,
+        3
+      ],
+      "target_of_source_rank12": [
+        1,
+        2
+      ]
+    }
+  ],
+  "rotations_checked": 4,
+  "unit_loop_targets": [
+    "NNSS",
+    "NSS",
+    "NSSN",
+    "SNNS",
+    "SS",
+    "SSN",
+    "SSNN"
+  ],
+  "abstract_multi_pair_controls": 860,
+  "analytic_review": [
+    "Every 1..4-read WHITE heading history on both physical axes is reconstructed without height or front realizability assumptions. Exact chronological port ordinals give10 matches, 4 flow2/5 flow3/1 flow4. Source rank1/2 headings opposite, target equal; a cell cannot be both roles or use multiple common ports. Full-drift checker parity forbids adjacent endpoint alias; distinct samephysicalcell ranks cannot alias with nonzero drift.",
+    "Actual physical successor sigma sends BOTH source L1/R2 to target L1/R2. Thus target swap is sigma source swap sigma^-1, all source/target supports disjoint. Simultaneous product ST sigma=S sigma S remains a singlePcycle. Remaining repair swaps are disjoint. Any proper component union in the graph after pair deletion would be invariant under fullcanonical routing and remaining swaps, hence under that singlecycle. Contradiction. Nodes unchanged, beta-2Q>=0 and permutation parity makes it even.",
+    "Full repair sends sourceL1 to targetR2 and sourceR2 to targetL1, showing two parallel exchange edges. Their nodes lie on distinct adjacent sheets; short quotient does not merge sheet heights. Exact source/target Delta equal, opposite clock contributions cancel on each node as well as across cuts.",
+    "For proper length0<ell<P, residual signed clock Pw=ell+positiveR2- negativeL1 requires at leastone negative incidence whenw<=0, at leastone positiveR2 whenw>=1. TOP C loop negativeL1 has opposite incomingrank1/2 headings, hence common outgoing source port. BOTTOM L loop negativeL1 has equal incomingrank1/2 headings, hence common incoming target port. At leastone must remain unmatched. This is not a unique defect or fuel payment.",
+    "An unmatched common source cannot map both ranks to target1/2 because ordinal order would make it matched; at leastone image is0/3. Dual target statement likewise. This conditional commonport statement does not identify arbitrary face patch geometry with a matched pair.",
+    "WWEE sourceS ranks1/2 to SSNN targetS ranks0/1 retains both repairedunitturns but is unmatched; all7 permitted two-S unit-turn targethistories checked. No local profile or abstractpermutation control is promoted to a physical completefront. No beta upperbound, highercap extension or legalantsplice."
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "status": "PASS U-base sink and V-specific causal renewal necessity",
+  "note_sha256": "bf610a8ba9efe29419721a49caf345c781c7f09d342656113e97c8ec44473ae9",
+  "rows": [
+    {
+      "packet": 0,
+      "base": 0,
+      "odd_base": [],
+      "odd_extra": [],
+      "C_tails": 0,
+      "selected": [
+        0,
+        1
+      ]
+    },
+    {
+      "packet": 1,
+      "base": 0,
+      "odd_base": [],
+      "odd_extra": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "C_tails": 1,
+      "selected": [
+        0,
+        1
+      ]
+    },
+    {
+      "packet": 4,
+      "base": 4,
+      "odd_base": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "odd_extra": [],
+      "C_tails": 0,
+      "selected": [
+        1,
+        2
+      ]
+    },
+    {
+      "packet": 5,
+      "base": 4,
+      "odd_base": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "odd_extra": [
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "C_tails": 1,
+      "selected": [
+        1,
+        2
+      ]
+    },
+    {
+      "packet": 6,
+      "base": 4,
+      "odd_base": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "odd_extra": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "C_tails": 2,
+      "selected": [
+        0,
+        3
+      ]
+    },
+    {
+      "packet": 7,
+      "base": 7,
+      "odd_base": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "odd_extra": [],
+      "C_tails": 0,
+      "selected": [
+        0,
+        3
+      ]
+    },
+    {
+      "packet": 8,
+      "base": 7,
+      "odd_base": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "odd_extra": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "C_tails": 1,
+      "selected": [
+        0,
+        3
+      ]
+    },
+    {
+      "packet": 9,
+      "base": 7,
+      "odd_base": [
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "odd_extra": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "C_tails": 2,
+      "selected": [
+        0,
+        3
+      ]
+    }
+  ],
+  "source_ages": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    52,
+    54,
+    56,
+    58,
+    60,
+    62,
+    64,
+    66,
+    68,
+    70,
+    72,
+    74,
+    76,
+    78,
+    80,
+    82,
+    84,
+    86,
+    88,
+    90,
+    92,
+    94,
+    96,
+    98,
+    100,
+    102,
+    104,
+    106,
+    108,
+    110,
+    112,
+    114,
+    116,
+    118,
+    120,
+    122,
+    124,
+    126,
+    128,
+    130,
+    132,
+    134,
+    136,
+    138,
+    140,
+    142,
+    144,
+    146,
+    148,
+    150,
+    152,
+    154,
+    156,
+    158,
+    160,
+    162,
+    164,
+    166,
+    168,
+    170,
+    172,
+    174,
+    176,
+    178,
+    180,
+    182,
+    184,
+    186,
+    188,
+    190,
+    192,
+    194,
+    196,
+    198,
+    200,
+    202,
+    204,
+    206,
+    208,
+    210,
+    212,
+    214,
+    216,
+    218,
+    220,
+    222,
+    224,
+    226,
+    228,
+    230,
+    232,
+    234,
+    236,
+    238,
+    240,
+    242,
+    244,
+    246,
+    248,
+    250,
+    252,
+    254,
+    256,
+    258,
+    260,
+    262,
+    264,
+    266,
+    268,
+    270,
+    272,
+    274,
+    276,
+    278,
+    280,
+    282,
+    284,
+    286,
+    288,
+    290,
+    292,
+    294
+  ],
+  "constant": 5292,
+  "pointwise": [
+    "N_j<=5292+3 sum_even2..294 v_(j-e)+u_(j-6)",
+    "v_j+u_j<=5292+3 sum_even2..294 v_(j-e)"
+  ],
+  "block": "sum_I(v+u)<=4854m+876+3 sum_[L-294,H-2] v; all packets add sum_[L-6,H-6]u",
+  "eventual": "If late v<=M then late N<=10584+882M; hence infinite U-entry factors have unbounded V counts and V transverse sweep.",
+  "analytic": "Each post-entry nonperpendicular consumer spends one distinguished identity. Odd V-base supply is three per genuine V producer; odd tail supply at mostthree across the unique positive-C boundary packet in an epoch. Signed universal U-base role contributes only one arm to plainD at exactlyage6, never to V/U. Whole-block accounting spends each identity onlyonce across all consumer clocks, yielding m+292 source clocks. The two pointwise windows combine to even ages2..300. These are exact capacities, not sufficient realizability or contraction.",
+  "scope": "No original historical-component separation, uniform V bound, periodic-profile assumption, mass-only budget, or universal capture. Numerical growing-V budgets are relaxations, not physical controls."
+}

@@ -1,0 +1,77 @@
+{
+  "status": "PASS four necessary boundary types only; all remain open",
+  "script": "3af436492d9617cd906e4ea2f01bb010089486b1504c50122fea0cfa3685d37a",
+  "files": {
+    "MIDDLE_SHORT_FOUR_BOUNDARY_TYPES.md": "020d0dbcb303130c57bb8c8aefe7df9ed8dce1728785d610e2bd24307759a2ed",
+    "certify_middle_short_four_boundary_types.py": "c080e3fbf569f0675522d6047db7eef15f3841adc6b1d6e10a3f63c6b3eb93c7",
+    "middle_short_four_boundary_types_certificate.json": "2336b5687658316a4e92883d05b225ffff7041739f6201b2f03441941be8870a"
+  },
+  "forced_ports": [
+    [
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  "original_types": 28,
+  "rejected": 24,
+  "remaining": 4,
+  "cycles": [
+    [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        -2,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        -2,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        -4,
+        2,
+        -1
+      ]
+    ],
+    [
+      [
+        4,
+        -2,
+        1
+      ]
+    ]
+  ],
+  "analytic_review": [
+    "The two moves connect actual LAST-R endpoints. Each endpoint has no outgoing lifetime, and the actual horizontal unit move has no intervening vertex. Hence these are complete horizontal boundary components, not merely subpaths or geometric adjacency. Full port ordinal matching gives6 rank4 to7 rank4, not an arbitrary W match.",
+    "Full representatives(-T,0) give horizontal voltage0 and vertical voltage(Tj-Ti)/3. Full odd order stays strict at a=c. Complete noncrossing row and column fibre covers are rebuilt without assuming combined projected planarity.",
+    "Every surviving graph has one nonzero-voltage component and optionally one zero-voltage component. Absolute windings are2c-1 or4a-2c+1; c>=3,a>=c give minimum5. This is an exact prospective obligation, not a realization, unit-winding impossibility or exclusion of any remaining branch."
+  ]
+}

@@ -1,0 +1,792 @@
+{
+  "status": "PASS endpoint-inclusive LL reactivation occurrence partition, with mandatory positive-side clarification",
+  "proof": "6145094d379d5bf7598bfb59911e1af56ede9193a92800beda61c178711925e3",
+  "side_qualification": "a67869577a0c8903494c6919e8ff05b3bf234e522f8bbb67fa6b4be6d1e688ac",
+  "script": "1ba3b3b7e3b7a07ff30b06ba7c873360143a9e5916095af63152669517d5547c",
+  "signed_supplier_report": "fb74c8a00cfe84266ccbd0b30f8837d8e33eef7de1abf7093f4f56400771c817",
+  "certificate": "248584a8175afc5c335ff67bd7131c3de0f49c9d841153ca924514319327ea5c",
+  "rows": [
+    {
+      "root": "EWW",
+      "kind": "N",
+      "cleanup_events": [
+        [
+          [
+            1,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          2
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          3
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          2
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          3
+        ]
+      ],
+      "no_possible_later_postX_start": [
+        {
+          "event": [
+            [
+              1,
+              1
+            ],
+            2
+          ],
+          "reason": "not complete four-read AABB"
+        },
+        {
+          "event": [
+            [
+              2,
+              1
+            ],
+            1
+          ],
+          "reason": "not rank2"
+        },
+        {
+          "event": [
+            [
+              2,
+              2
+            ],
+            3
+          ],
+          "reason": "not rank2"
+        },
+        {
+          "event": [
+            [
+              1,
+              2
+            ],
+            3
+          ],
+          "reason": "not rank2"
+        },
+        {
+          "event": [
+            [
+              1,
+              1
+            ],
+            3
+          ],
+          "reason": "not rank2"
+        },
+        {
+          "event": [
+            [
+              2,
+              1
+            ],
+            2
+          ],
+          "reason": "not complete four-read AABB"
+        },
+        {
+          "event": [
+            [
+              2,
+              0
+            ],
+            2
+          ],
+          "reason": "not complete four-read AABB"
+        },
+        {
+          "event": [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          "reason": "not rank2"
+        }
+      ],
+      "block_length": 9
+    },
+    {
+      "root": "EWW",
+      "kind": "P",
+      "cleanup_events": [
+        [
+          [
+            1,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          2
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          3
+        ]
+      ],
+      "no_possible_later_postX_start": [
+        {
+          "event": [
+            [
+              1,
+              1
+            ],
+            2
+          ],
+          "reason": "not complete four-read AABB"
+        },
+        {
+          "event": [
+            [
+              2,
+              1
+            ],
+            0
+          ],
+          "reason": "not rank2"
+        },
+        {
+          "event": [
+            [
+              2,
+              0
+            ],
+            2
+          ],
+          "reason": "next actual read is L, not required second R"
+        },
+        {
+          "event": [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          "reason": "not rank2"
+        }
+      ],
+      "block_length": 5
+    },
+    {
+      "root": "EWW",
+      "kind": "N",
+      "cleanup_events": [
+        [
+          [
+            1,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          2
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          3
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          2
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          3
+        ]
+      ],
+      "no_possible_later_postX_start": [
+        {
+          "event": [
+            [
+              1,
+              1
+            ],
+            2
+          ],
+          "reason": "not complete four-read AABB"
+        },
+        {
+          "event": [
+            [
+              2,
+              1
+            ],
+            1
+          ],
+          "reason": "not rank2"
+        },
+        {
+          "event": [
+            [
+              2,
+              2
+            ],
+            3
+          ],
+          "reason": "not rank2"
+        },
+        {
+          "event": [
+            [
+              1,
+              2
+            ],
+            3
+          ],
+          "reason": "not rank2"
+        },
+        {
+          "event": [
+            [
+              1,
+              1
+            ],
+            3
+          ],
+          "reason": "not rank2"
+        },
+        {
+          "event": [
+            [
+              2,
+              1
+            ],
+            2
+          ],
+          "reason": "not complete four-read AABB"
+        },
+        {
+          "event": [
+            [
+              2,
+              0
+            ],
+            2
+          ],
+          "reason": "next actual read is L, not required second R"
+        },
+        {
+          "event": [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          "reason": "not rank2"
+        }
+      ],
+      "block_length": 9
+    },
+    {
+      "root": "EWWE",
+      "kind": "N",
+      "cleanup_events": [
+        [
+          [
+            1,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          2
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          3
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          2
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          3
+        ]
+      ],
+      "no_possible_later_postX_start": [
+        {
+          "event": [
+            [
+              1,
+              1
+            ],
+            2
+          ],
+          "reason": "not complete four-read AABB"
+        },
+        {
+          "event": [
+            [
+              2,
+              1
+            ],
+            1
+          ],
+          "reason": "not rank2"
+        },
+        {
+          "event": [
+            [
+              2,
+              2
+            ],
+            3
+          ],
+          "reason": "not rank2"
+        },
+        {
+          "event": [
+            [
+              1,
+              2
+            ],
+            3
+          ],
+          "reason": "not rank2"
+        },
+        {
+          "event": [
+            [
+              1,
+              1
+            ],
+            3
+          ],
+          "reason": "not rank2"
+        },
+        {
+          "event": [
+            [
+              2,
+              1
+            ],
+            2
+          ],
+          "reason": "not complete four-read AABB"
+        },
+        {
+          "event": [
+            [
+              2,
+              0
+            ],
+            2
+          ],
+          "reason": "not complete four-read AABB"
+        },
+        {
+          "event": [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          "reason": "not rank2"
+        }
+      ],
+      "block_length": 9
+    },
+    {
+      "root": "EWWE",
+      "kind": "P",
+      "cleanup_events": [
+        [
+          [
+            1,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          2
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          3
+        ]
+      ],
+      "no_possible_later_postX_start": [
+        {
+          "event": [
+            [
+              1,
+              1
+            ],
+            2
+          ],
+          "reason": "not complete four-read AABB"
+        },
+        {
+          "event": [
+            [
+              2,
+              1
+            ],
+            0
+          ],
+          "reason": "not rank2"
+        },
+        {
+          "event": [
+            [
+              2,
+              0
+            ],
+            2
+          ],
+          "reason": "next actual read is L, not required second R"
+        },
+        {
+          "event": [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          "reason": "not rank2"
+        }
+      ],
+      "block_length": 5
+    },
+    {
+      "root": "EWWE",
+      "kind": "N",
+      "cleanup_events": [
+        [
+          [
+            1,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          2
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          3
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          3
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          2
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          3
+        ]
+      ],
+      "no_possible_later_postX_start": [
+        {
+          "event": [
+            [
+              1,
+              1
+            ],
+            2
+          ],
+          "reason": "not complete four-read AABB"
+        },
+        {
+          "event": [
+            [
+              2,
+              1
+            ],
+            1
+          ],
+          "reason": "not rank2"
+        },
+        {
+          "event": [
+            [
+              2,
+              2
+            ],
+            3
+          ],
+          "reason": "not rank2"
+        },
+        {
+          "event": [
+            [
+              1,
+              2
+            ],
+            3
+          ],
+          "reason": "not rank2"
+        },
+        {
+          "event": [
+            [
+              1,
+              1
+            ],
+            3
+          ],
+          "reason": "not rank2"
+        },
+        {
+          "event": [
+            [
+              2,
+              1
+            ],
+            2
+          ],
+          "reason": "not complete four-read AABB"
+        },
+        {
+          "event": [
+            [
+              2,
+              0
+            ],
+            2
+          ],
+          "reason": "next actual read is L, not required second R"
+        },
+        {
+          "event": [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          "reason": "not rank2"
+        }
+      ],
+      "block_length": 9
+    }
+  ],
+  "analytic_review": [
+    "The complete actual ordinal successor graph, not a repaired lifetime path, independently yields all six endpoint-inclusive5/9 blocks. Every interior physical rank2 fails either complete AABB history or the required next actual R. Complete histories and physical ranks survive all full-drift identifications; different translated blocks therefore cannot overlap, since the later start would have to appear among these events. Equal starts imply the same actual event.",
+    "At a given post-LL flat X, the unique cyclic predecessor and its predecessor determine the same V/root unit. Hence distinct quotient roots do not double-charge a block, including full-drift aliases. No long-owner injection is used.",
+    "The signed critical first-track theorem places the entire block, including the final L3 departure, inside one actual LEFT-return interval. The block contains R reads, so that interval is not any four-L LL-root return. Critical LEFT intervals are occurrence-disjoint, hence the blocks, four-L roots and actual RIGHT time form disjoint reservations, yielding P>=L_RIGHT+9nP+13nN. This is not an added fuel charge or a bound on P.",
+    "Positive D.R0 is off this Gamma: its incoming Y.R2 edge is LEFT, while every Gamma R0 is RIGHT in either geometric role. R.L1 cannot be LEFT-V RIGHT-side because its successor X.R2 is LEFT. The already-signed final supplier report contains this strengthened qualification. Other curves and older stock remain unrestricted."
+  ]
+}

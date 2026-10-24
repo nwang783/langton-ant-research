@@ -1,0 +1,348 @@
+{
+  "status": "PASS five shiftedUC current-edge support contradictions",
+  "manifest_sha256": "45eee17dfa30cd01661c72b5ccf310d8223936dacc86300fcedc4c8a0074c13d",
+  "five_current_paths": [
+    {
+      "case": 15,
+      "Nrun": "DDD",
+      "UCentry": [
+        -8,
+        -3
+      ],
+      "uses_cycle": false,
+      "center_inside": [
+        -17,
+        -5
+      ],
+      "support": -9,
+      "held": [
+        [
+          -8,
+          -4
+        ],
+        [
+          -8,
+          -3
+        ],
+        [
+          -7,
+          -4
+        ],
+        [
+          -7,
+          -3
+        ]
+      ],
+      "path_vertices": [
+        [
+          -17,
+          -5
+        ],
+        [
+          -15,
+          -7
+        ],
+        [
+          -17,
+          -9
+        ]
+      ],
+      "path_cells": [
+        [
+          -8,
+          -3
+        ],
+        [
+          -8,
+          -4
+        ]
+      ],
+      "gate": null
+    },
+    {
+      "case": 15,
+      "Nrun": "V",
+      "UCentry": [
+        -6,
+        -3
+      ],
+      "uses_cycle": false,
+      "center_inside": [
+        -13,
+        -5
+      ],
+      "support": -9,
+      "held": [
+        [
+          -6,
+          -4
+        ],
+        [
+          -6,
+          -3
+        ],
+        [
+          -5,
+          -4
+        ],
+        [
+          -5,
+          -3
+        ]
+      ],
+      "path_vertices": [
+        [
+          -13,
+          -5
+        ],
+        [
+          -11,
+          -7
+        ],
+        [
+          -13,
+          -9
+        ]
+      ],
+      "path_cells": [
+        [
+          -6,
+          -3
+        ],
+        [
+          -6,
+          -4
+        ]
+      ],
+      "gate": null
+    },
+    {
+      "case": 30,
+      "Nrun": "DD",
+      "UCentry": [
+        -7,
+        -2
+      ],
+      "uses_cycle": false,
+      "center_inside": [
+        -15,
+        -3
+      ],
+      "support": -7,
+      "held": [
+        [
+          -7,
+          -3
+        ],
+        [
+          -7,
+          -2
+        ],
+        [
+          -6,
+          -3
+        ],
+        [
+          -6,
+          -2
+        ]
+      ],
+      "path_vertices": [
+        [
+          -15,
+          -3
+        ],
+        [
+          -13,
+          -5
+        ],
+        [
+          -15,
+          -7
+        ]
+      ],
+      "path_cells": [
+        [
+          -7,
+          -2
+        ],
+        [
+          -7,
+          -3
+        ]
+      ],
+      "gate": null
+    },
+    {
+      "case": 15,
+      "Nrun": "DD",
+      "UCentry": [
+        -7,
+        -2
+      ],
+      "uses_cycle": true,
+      "center_inside": [
+        -15,
+        -3
+      ],
+      "support": -9,
+      "held": [
+        [
+          -7,
+          -4
+        ],
+        [
+          -7,
+          -3
+        ],
+        [
+          -7,
+          -2
+        ],
+        [
+          -6,
+          -4
+        ],
+        [
+          -6,
+          -3
+        ],
+        [
+          -6,
+          -2
+        ]
+      ],
+      "path_vertices": [
+        [
+          -15,
+          -3
+        ],
+        [
+          -13,
+          -5
+        ],
+        [
+          -15,
+          -7
+        ],
+        [
+          -13,
+          -9
+        ]
+      ],
+      "path_cells": [
+        [
+          -7,
+          -2
+        ],
+        [
+          -7,
+          -3
+        ],
+        [
+          -7,
+          -4
+        ]
+      ],
+      "gate": [
+        -8,
+        -5
+      ]
+    },
+    {
+      "case": 30,
+      "Nrun": "D",
+      "UCentry": [
+        -6,
+        -1
+      ],
+      "uses_cycle": true,
+      "center_inside": [
+        -13,
+        -1
+      ],
+      "support": -7,
+      "held": [
+        [
+          -6,
+          -3
+        ],
+        [
+          -6,
+          -2
+        ],
+        [
+          -6,
+          -1
+        ],
+        [
+          -5,
+          -3
+        ],
+        [
+          -5,
+          -2
+        ],
+        [
+          -5,
+          -1
+        ]
+      ],
+      "path_vertices": [
+        [
+          -13,
+          -1
+        ],
+        [
+          -11,
+          -3
+        ],
+        [
+          -13,
+          -5
+        ],
+        [
+          -11,
+          -7
+        ]
+      ],
+      "path_cells": [
+        [
+          -6,
+          -1
+        ],
+        [
+          -6,
+          -2
+        ],
+        [
+          -6,
+          -3
+        ]
+      ],
+      "gate": [
+        -7,
+        -4
+      ]
+    }
+  ],
+  "analytic": [
+    "The signed first-contact Jordan horizon puts the entire strictly earlier connected center prefix inside the CCW loop, including the actual creating-U start. Its whole boundary has doubled y>=L, so no bounded-interior point can have y<=L. This is the first-contact scope, not a general returned-path simplicity theorem.",
+    "Each displayed original U-star is a connected graph of SAME currently residual output edges containing that earlier U start. Three cases already reach the exact support line. The source UC own tail preserves all those identities. The signed current-edge barrier forbids every later old-eight atomic boundary contact while they remain residual; it includes endpoint contacts, since an incident endpoint edge would be active core, not residual.",
+    "For the two cases requiring original cycle edges, the only possible first breaker is the signed right U-family gate at exact source-entry age4, hence selectedD clock3. A complete positive tail would finish after the clock3 foreign, so the breaker must be plainU. Its entry and F have equal y and horizontal gap10. Every further E D/V strictly lowers y; only U strides4 could connect, including the breaker itself. Ten is not a positive multiple of4, so the original cycle has not broken. No blanket cycle permanence is assumed.",
+    "For all five connected held graphs, exact full F+returned+M footprint misses every SAME identity, and exact rational edge intersections with the actual F and returned-first-contact segments are empty. Thus these particular identities physically survive the new pieces, without importing an old-language postforeign age law.",
+    "A continuous held-edge path starting inside and ending on the supporting line must intersect the Jordan boundary. Old-boundary intersections are barred by current residual status; both new pieces were checked directly. This contradiction removes exactly the five listed UC boundary/run cases. No historical connector, vanished birth edge, extra core wire, cycle fuel, or global closure is used."
+  ],
+  "scope": "Five finite shifted-UC ancestry interfaces only, current star/cycle connected-edge path versus signed first-contact Jordan support. Three permanent stars; two intact cycles whose sole age4 right breaker cannot reach F because10 is not divisible by4. No cycle fuel or ghost historical edges.",
+  "dependencies": {
+    "core_periodicity_new/chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "word_stabilization/shifted1_llrlrrrrlll_fold_coalesced_port_quotient.json": "216ef5edde9404799744b5d9ab3d1fe62f55846cbe97e88f82395b195765ec35",
+    "seven_word_spatial_return_2026-10-23/first_returned_atom_contact.json": "1e4eb87a3da50296de77489539ad43f062eb91fd23f986ba5e0fdec76343253f",
+    "returned_D_Jordan_ancestry_horizon_2026-10-24/manifest.json": "0b9747937276893b838a8a94f9ed226619b76503cb09226909b677d42062157a",
+    "core_periodicity_new/U_left_star_permanence_frozen_20261023_1918/manifest.json": "f757ae8b14f5b4eb98aef203ca74b9784611ae1415a679df126e526140e471d2",
+    "core_periodicity_new/current_residual_barrier_frozen_20261023_1822/manifest.json": "6f82a336d20f37d1619e6c7e8e73d0ba19534867f2ef6dc627c0f5c85e06eb9f",
+    "core_periodicity_new/causal_cycle_renewal_20261023_1841/manifest.json": "27db0bc457534074587a988c16bbf57c994464656df7c9aa06427ab23203d7d4",
+    "core_periodicity_new/U_renewal_exact_clock_frozen_20261023_1902/manifest.json": "91f5cb870b1dacd19c793820cef537c1410bca05c8b71294d80a2ccc823b7fd6",
+    "returned_D_UC_current_fence_guards_2026-10-24/check_D_UC_current_fence_guards.py": "b47b37bbac993882c35c01b469e75895a54f2b731860e2186adc491016333d5b"
+  }
+}

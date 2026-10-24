@@ -1,0 +1,24 @@
+{
+  "status": "PASS exact prescribed nominal-strand clearing inventory ONLY",
+  "manifest": "31eedb7f709071137b9fcb621e6407a08983ba1c05891f587aee3705be5f3bfd",
+  "proof": "e326767cb45ef8e79e76c563082c0f4ba6fab68e1323204cf29250316ec7e922",
+  "fresh_actual_permanent_output_classes": 12,
+  "ray_alignment_pairs": 1248,
+  "first_contact_offsets": {
+    "(6, 9)": 325,
+    "(5, 8)": 311,
+    "(6, 8)": 312,
+    "(6, 7)": 313
+  },
+  "formula": "4K-11 forK>=3 before destination",
+  "analytic_review": [
+    "Fresh literal G286 computes the actual104 Q and all12 permanent R anchors by complete nonnegative ray equalities. All12x104 return alignments rebuilt. Every match has copy difference>=3, so phase14 truncation creates no omitted early branch.",
+    "Before offset104K, anchor311 contributesK-2 copies, each312/313/325 contributesK-3. Destination is phase90 copyK-3 at exactly104K, excluded. All copied output indices<=K-3 are actually written by stage0, whose full-period count k+K-4 exceeds them for k>=10.",
+    "Own-reference last reads and signed shifted-stage complete read-set separation keep these SAME identities black at actual returne. Their sums>=13 exclude entire protected actual recovery. Thus they are ACTUAL permanent outputs, not consumed inputs in the actual continuation.",
+    "The nominal strand first demands R at R271(5,8),offset311. Any unchanged producing prefix preserves that R-born BLACK bit until an added physical read; clearing only the launch marker cannot legalize this exact word. This does NOT bound contact count for an alternative route, actual consumption, or relevant population."
+  ],
+  "dependencies": {
+    "audits/check_shifted_port_module_independent.json": "bd176847d10768188d2aa688c4cd85b3c63f29ac3c68acc69d78be7dba342dd0",
+    "audits/check_moving_capacity_independent.json": "19983e457c88012a3783e5cb6064d3a619c90aca669ed2eefb2af4df4c607523"
+  }
+}

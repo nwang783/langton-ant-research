@@ -1,0 +1,135 @@
+{
+  "status": "AUTHOR_FROZEN_PENDING_INDEPENDENT_AUDIT",
+  "scope": "At actual full cuts after the creating full U-family packet has completed and before the first foreign, original U east cell(2,1) is black through source-entry C age5, possibly with a new identity after its unique age4 renewal. No single-identity permanence or fine-time color constancy. This excludes B(-3,6,W) at age5 by an actual complete-context before-white guard.",
+  "cell": [
+    2,
+    1
+  ],
+  "first_breaker_pose": [
+    3,
+    -1,
+    0
+  ],
+  "first_breaker_clock": 4,
+  "replacement_role": "genuine fresh recycled-q output of the actual first breaker",
+  "earliest_replacement_retirement_clock": 6,
+  "source_and_breaker_literal_rows": [
+    {
+      "packet": "U",
+      "q_local": [
+        -1,
+        2
+      ],
+      "q_global_after_breaker": [
+        2,
+        1
+      ],
+      "physical_q_reads": [
+        [
+          13,
+          "L"
+        ],
+        [
+          21,
+          "R"
+        ]
+      ],
+      "first_q_read": [
+        13,
+        "L"
+      ],
+      "fresh_q_birth": [
+        21,
+        "R"
+      ],
+      "optional_C_tails_preserve": true
+    },
+    {
+      "packet": "UC",
+      "q_local": [
+        -1,
+        2
+      ],
+      "q_global_after_breaker": [
+        2,
+        1
+      ],
+      "physical_q_reads": [
+        [
+          13,
+          "L"
+        ],
+        [
+          21,
+          "R"
+        ]
+      ],
+      "first_q_read": [
+        13,
+        "L"
+      ],
+      "fresh_q_birth": [
+        21,
+        "R"
+      ],
+      "optional_C_tails_preserve": true
+    },
+    {
+      "packet": "UCC",
+      "q_local": [
+        -1,
+        2
+      ],
+      "q_global_after_breaker": [
+        2,
+        1
+      ],
+      "physical_q_reads": [
+        [
+          13,
+          "L"
+        ],
+        [
+          21,
+          "R"
+        ]
+      ],
+      "first_q_read": [
+        13,
+        "L"
+      ],
+      "fresh_q_birth": [
+        21,
+        "R"
+      ],
+      "optional_C_tails_preserve": true
+    }
+  ],
+  "foreign_guard": {
+    "foreign": "B",
+    "pose": [
+      -3,
+      6,
+      3
+    ],
+    "local_cell": [
+      -5,
+      -5
+    ],
+    "required_initial_black": false,
+    "first_full_context_read": [
+      82,
+      "R"
+    ],
+    "foreign_RAW_reads": [],
+    "owner": "successor RAW phase8 R, never foreign RAW"
+  },
+  "dependencies": {
+    "core_periodicity_new/chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "word_stabilization/shifted1_llrlrrrrlll_fold_coalesced_port_quotient.json": "216ef5edde9404799744b5d9ab3d1fe62f55846cbe97e88f82395b195765ec35",
+    "core_periodicity_new/causal_cycle_renewal_20261023_1841/manifest.json": "27db0bc457534074587a988c16bbf57c994464656df7c9aa06427ab23203d7d4",
+    "core_periodicity_new/U_renewal_exact_clock_frozen_20261023_1902/manifest.json": "91f5cb870b1dacd19c793820cef537c1410bca05c8b71294d80a2ccc823b7fd6",
+    "core_periodicity_new/U_recycled_q_consumer_frozen_20261023_1954/manifest.json": "c89b741d36a304c6bc3b8e181a2514b133cf4d2698d738917a43d4d65ab5e9f9",
+    "seven_word_spatial_return_2026-10-23/check_U_east_rebirth_guard.py": "1cae505eabe1aae8c9d8bb737aec7eaca6f5b14cefb10397e3e852f2e5a81c25"
+  }
+}

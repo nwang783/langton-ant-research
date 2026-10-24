@@ -1,0 +1,19 @@
+{
+  "status": "INDEPENDENT PEER CONFIRMED PASS of literal prepared80 counterexample",
+  "bindings": {
+    "author_manifest": {
+      "path": "audits/winding_budget_counterexample_2026-10-24/manifest.json",
+      "sha256": "228a550faec4e369b82af305cbc1c8faa179262b6fcf50f8f044f74f71b9c5f2"
+    },
+    "peer_checker": {
+      "path": "autonomous_controllers_2026-10-24/verify_prepared80_budget_falsifier.py",
+      "sha256": "36dd826ecf0b294f07929d01dad320db37e332ae8c307591f611b5b1bf788dd8"
+    },
+    "peer_report": {
+      "path": "autonomous_controllers_2026-10-24/prepared80_budget_falsifier_independent_confirmation.json",
+      "sha256": "c3b4267a38590ad3a5ecd7cef608ffed89e2598702f499ea9ad822dc3e31f877"
+    }
+  },
+  "conclusion": "The proposed general prepared-front m*(S-1)<=2*min(I,O) is false. Actual full board gives 8>4. WHITE-only S=1 and finite-seed autonomous capture remain open.",
+  "peer_additional_verified_detail": "Five literal ten-read modules use genuinely regenerated fuel at R20/R35/R59; all32 owned lifetimes have age<=56<P80. Infinite repetition requires two prelaid input rays; finite N full seeds depart at80N+15."
+}

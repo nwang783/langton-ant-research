@@ -1,0 +1,355 @@
+{
+  "scope": "Translation-invariant local interfaces for a zero-output ancestry rail.\nOnly enumerates the complete seven even flag-one canonical-face profiles.\nThe global periodicity contradiction is analytic, not a front scan.\n",
+  "even_canonical_profiles": 7,
+  "upper_candidates": [
+    {
+      "profile": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NNNS",
+        "B": "EEWE"
+      },
+      "rotation": 3,
+      "physical": {
+        "(-1, 1)": "EEWE",
+        "(-1, 2)": "NNNS",
+        "(0, 2)": "EEEW",
+        "(0, 1)": "SSNS",
+        "(1, 1)": "EEWE",
+        "(1, 2)": "NNNS"
+      },
+      "heights": {
+        "(-1, 1)": 0,
+        "(-2, 0)": 0,
+        "(-2, 2)": -2,
+        "(0, 2)": -2,
+        "(0, 0)": 0
+      },
+      "ordinal_time_cycle": false
+    },
+    {
+      "profile": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NSNN",
+        "B": "EEWE"
+      },
+      "rotation": 3,
+      "physical": {
+        "(-1, 1)": "EEWE",
+        "(-1, 2)": "NNNS",
+        "(0, 2)": "EWEE",
+        "(0, 1)": "SSNS",
+        "(1, 1)": "EEWE",
+        "(1, 2)": "NNNS"
+      },
+      "heights": {
+        "(-1, 1)": 0,
+        "(-2, 0)": 0,
+        "(-2, 2)": -2,
+        "(0, 2)": -2,
+        "(0, 0)": 0
+      },
+      "ordinal_time_cycle": true
+    }
+  ],
+  "upper_survivors": [
+    {
+      "profile": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NNNS",
+        "B": "EEWE"
+      },
+      "rotation": 3,
+      "physical": {
+        "(-1, 1)": "EEWE",
+        "(-1, 2)": "NNNS",
+        "(0, 2)": "EEEW",
+        "(0, 1)": "SSNS",
+        "(1, 1)": "EEWE",
+        "(1, 2)": "NNNS"
+      },
+      "heights": {
+        "(-1, 1)": 0,
+        "(-2, 0)": 0,
+        "(-2, 2)": -2,
+        "(0, 2)": -2,
+        "(0, 0)": 0
+      },
+      "ordinal_time_cycle": false
+    }
+  ],
+  "R_profiles": 3,
+  "candidate_pairs": 10,
+  "cycle_rejections": 8,
+  "nonduplicator_leaf_rejections": 1,
+  "survivors": [
+    {
+      "R": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NSNN",
+        "B": "WEEE"
+      },
+      "R_physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSSN",
+        "(-1, -1)": "WEWW",
+        "(-1, 0)": "SNNN"
+      },
+      "D": {
+        "A": "NNSN",
+        "Z": "WWEW",
+        "Y": "NSSS",
+        "B": "EEWE"
+      },
+      "D_rotation": 2,
+      "canonical_cycle": false,
+      "positive_duplicator_profile": true,
+      "survives": true
+    }
+  ],
+  "pairs": [
+    {
+      "R": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NNNS",
+        "B": "EEWE"
+      },
+      "R_physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSSN",
+        "(-1, -1)": "WWWE",
+        "(-1, 0)": "NNSN"
+      },
+      "D": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NNNS",
+        "B": "EEWE"
+      },
+      "D_rotation": 0,
+      "canonical_cycle": true,
+      "positive_duplicator_profile": false,
+      "survives": false
+    },
+    {
+      "R": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NNNS",
+        "B": "EEWE"
+      },
+      "R_physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSSN",
+        "(-1, -1)": "WWWE",
+        "(-1, 0)": "NNSN"
+      },
+      "D": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NSNN",
+        "B": "EEWE"
+      },
+      "D_rotation": 0,
+      "canonical_cycle": true,
+      "positive_duplicator_profile": false,
+      "survives": false
+    },
+    {
+      "R": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NNNS",
+        "B": "EEWE"
+      },
+      "R_physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSSN",
+        "(-1, -1)": "WWWE",
+        "(-1, 0)": "NNSN"
+      },
+      "D": {
+        "A": "NNSN",
+        "Z": "WWEW",
+        "Y": "NSSS",
+        "B": "EEWE"
+      },
+      "D_rotation": 0,
+      "canonical_cycle": true,
+      "positive_duplicator_profile": true,
+      "survives": false
+    },
+    {
+      "R": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NNNS",
+        "B": "EEWE"
+      },
+      "R_physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSSN",
+        "(-1, -1)": "WWWE",
+        "(-1, 0)": "NNSN"
+      },
+      "D": {
+        "A": "NNSN",
+        "Z": "EWWW",
+        "Y": "SSNS",
+        "B": "EEWE"
+      },
+      "D_rotation": 0,
+      "canonical_cycle": true,
+      "positive_duplicator_profile": false,
+      "survives": false
+    },
+    {
+      "R": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NSNN",
+        "B": "EEWE"
+      },
+      "R_physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSSN",
+        "(-1, -1)": "WEWW",
+        "(-1, 0)": "NNSN"
+      },
+      "D": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NNNS",
+        "B": "EEWE"
+      },
+      "D_rotation": 0,
+      "canonical_cycle": true,
+      "positive_duplicator_profile": false,
+      "survives": false
+    },
+    {
+      "R": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NSNN",
+        "B": "EEWE"
+      },
+      "R_physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSSN",
+        "(-1, -1)": "WEWW",
+        "(-1, 0)": "NNSN"
+      },
+      "D": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NSNN",
+        "B": "EEWE"
+      },
+      "D_rotation": 0,
+      "canonical_cycle": true,
+      "positive_duplicator_profile": false,
+      "survives": false
+    },
+    {
+      "R": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NSNN",
+        "B": "EEWE"
+      },
+      "R_physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSSN",
+        "(-1, -1)": "WEWW",
+        "(-1, 0)": "NNSN"
+      },
+      "D": {
+        "A": "NNSN",
+        "Z": "WWEW",
+        "Y": "NSSS",
+        "B": "EEWE"
+      },
+      "D_rotation": 0,
+      "canonical_cycle": true,
+      "positive_duplicator_profile": true,
+      "survives": false
+    },
+    {
+      "R": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NSNN",
+        "B": "EEWE"
+      },
+      "R_physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSSN",
+        "(-1, -1)": "WEWW",
+        "(-1, 0)": "NNSN"
+      },
+      "D": {
+        "A": "NNSN",
+        "Z": "EWWW",
+        "Y": "SSNS",
+        "B": "EEWE"
+      },
+      "D_rotation": 0,
+      "canonical_cycle": true,
+      "positive_duplicator_profile": false,
+      "survives": false
+    },
+    {
+      "R": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NSNN",
+        "B": "WEEE"
+      },
+      "R_physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSSN",
+        "(-1, -1)": "WEWW",
+        "(-1, 0)": "SNNN"
+      },
+      "D": {
+        "A": "NNSN",
+        "Z": "WWEW",
+        "Y": "NSSS",
+        "B": "EEWE"
+      },
+      "D_rotation": 2,
+      "canonical_cycle": false,
+      "positive_duplicator_profile": true,
+      "survives": true
+    },
+    {
+      "R": {
+        "A": "NNSN",
+        "Z": "WWWE",
+        "Y": "NSNN",
+        "B": "WEEE"
+      },
+      "R_physical": {
+        "(0, 0)": "WWEW",
+        "(0, -1)": "SSSN",
+        "(-1, -1)": "WEWW",
+        "(-1, 0)": "SNNN"
+      },
+      "D": {
+        "A": "NNSN",
+        "Z": "WWEW",
+        "Y": "NSSS",
+        "B": "WEEE"
+      },
+      "D_rotation": 2,
+      "canonical_cycle": false,
+      "positive_duplicator_profile": false,
+      "survives": false
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "scope": "arbitrary occurrence choices of ALL legal unit/final-heading-preserving transports of lengths1,5,9; no charge condition; T(0)=0, at least one nonidentity",
+  "domains": [
+    [
+      "R",
+      "RLLLL",
+      "LLLLR",
+      "RRRRLLLLR",
+      "RLRRRRLLL",
+      "RLLRRRRLL",
+      "RLLLLRRRR",
+      "LLRRRRLLR",
+      "LLLRRRRLR",
+      "LLLLRLLLL"
+    ],
+    [
+      "L",
+      "RRRRL",
+      "LRRRR",
+      "RRRRLRRRR",
+      "RRRLLLLRL",
+      "RRLLLLRRL",
+      "LRRRRLLLL",
+      "LRRLLLLRR",
+      "LRLLLLRRR",
+      "LLLLRRRRL"
+    ]
+  ],
+  "prefix_cap": 2000,
+  "node_cap": 1000000,
+  "results": [
+    {
+      "root": 0,
+      "status": "EXHAUSTED",
+      "nodes": 238,
+      "latest_conflict": 43,
+      "max_read_boundary": 39,
+      "max_coarse_boundary": 7,
+      "conflict_leaves": 2138,
+      "survivor": null,
+      "best_macros": [
+        "RLLRRRRLL",
+        "RRLLLLRRL",
+        "L",
+        "R",
+        "LLRRRRLLR",
+        "LLRRRRLLR",
+        "R"
+      ]
+    },
+    {
+      "root": 1,
+      "status": "EXHAUSTED",
+      "nodes": 238,
+      "latest_conflict": 43,
+      "max_read_boundary": 39,
+      "max_coarse_boundary": 7,
+      "conflict_leaves": 2138,
+      "survivor": null,
+      "best_macros": [
+        "LRRLLLLRR",
+        "LLRRRRLLR",
+        "R",
+        "L",
+        "RRLLLLRRL",
+        "RRLLLLRRL",
+        "L"
+      ]
+    }
+  ],
+  "seconds": 0.017898286001582164,
+  "records_sha256": "a3a89812be848066b9f71118b37160c21eb80f18e1bfbf5ccd825e6214827089"
+}

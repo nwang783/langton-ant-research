@@ -1,0 +1,3 @@
+# Fresh-root wording clarification
+
+24 October 2026. The cut20 whole head-history tree has11 vertices. Ten have already been read; the fresh record endpoint(-2,2) has not yet been read at that cut. In Section4 of `WHOLE_LAST_EXIT_RENEWAL_IDENTITY.md`, "every vertex ... is read again by124" means precisely: every vertex has an actual read in[20,124], every previously read vertex is reread, and the fresh root is first read at20. The exact checker already uses this correct interval and records every time. Thus no previously read cell is permanently abandoned at20. No input, tree, cohort or numerical conclusion changes.

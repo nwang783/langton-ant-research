@@ -1,0 +1,83 @@
+{
+  "status": "PASS literal arithmetic and reviewed slab identity proof",
+  "rows": [
+    {
+      "packet": 0,
+      "length": 10,
+      "mass": 0,
+      "C_count": 0,
+      "weight": 1,
+      "length_slack": 8,
+      "mass_slack": 4
+    },
+    {
+      "packet": 1,
+      "length": 25,
+      "mass": 3,
+      "C_count": 1,
+      "weight": 1,
+      "length_slack": 8,
+      "mass_slack": 4
+    },
+    {
+      "packet": 4,
+      "length": 18,
+      "mass": 4,
+      "C_count": 0,
+      "weight": 1,
+      "length_slack": 0,
+      "mass_slack": 0
+    },
+    {
+      "packet": 5,
+      "length": 33,
+      "mass": 7,
+      "C_count": 1,
+      "weight": 1,
+      "length_slack": 0,
+      "mass_slack": 0
+    },
+    {
+      "packet": 6,
+      "length": 48,
+      "mass": 10,
+      "C_count": 2,
+      "weight": 2,
+      "length_slack": 18,
+      "mass_slack": 4
+    },
+    {
+      "packet": 7,
+      "length": 28,
+      "mass": 4,
+      "C_count": 0,
+      "weight": 5,
+      "length_slack": 62,
+      "mass_slack": 16
+    },
+    {
+      "packet": 8,
+      "length": 43,
+      "mass": 7,
+      "C_count": 1,
+      "weight": 5,
+      "length_slack": 62,
+      "mass_slack": 16
+    },
+    {
+      "packet": 9,
+      "length": 58,
+      "mass": 10,
+      "C_count": 2,
+      "weight": 5,
+      "length_slack": 62,
+      "mass_slack": 16
+    }
+  ],
+  "scope": "Context-complete recurrent-eight finite factors only; logarithmic necessary C recurrence, not confinement.",
+  "hashes": {
+    "core_periodicity_new/chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "audits/check_three_c_slab_arithmetic_independent.py": "594059dfa2311f2cc749ea4122d20e458ae2493e429151f49024047f25408888",
+    "word_stabilization/dcuv_three_turn_fuel_bound.md": "c19fda9e8485444e331ff3fdb2a75df7475aaa0a891ed00af7fa16ea90be5cad"
+  }
+}

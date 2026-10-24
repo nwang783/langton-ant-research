@@ -1,0 +1,94 @@
+{
+  "scope": "Complete mixed-flow LRRL first-ordinal square gate.\nAll cap-four boundary profiles, arbitrary exterior histories. No period scan.\n",
+  "all8100_counts": {
+    "necessary first-ordinal survivors": 36,
+    "port mismatch": 7992,
+    "positive first-ordinal clock": 55,
+    "Z first-to-rank3 gap forced4": 17
+  },
+  "necessary_LEFT_endpoint_pairs": [
+    {
+      "Z": "NNS",
+      "Y": "EEW",
+      "example_profile": [
+        "NNS",
+        "E",
+        "S",
+        "EEW"
+      ]
+    },
+    {
+      "Z": "NNS",
+      "Y": "EEWW",
+      "example_profile": [
+        "NNS",
+        "E",
+        "SN",
+        "EEWW"
+      ]
+    },
+    {
+      "Z": "NNSN",
+      "Y": "EEWE",
+      "example_profile": [
+        "NNSN",
+        "E",
+        "S",
+        "EEWE"
+      ]
+    },
+    {
+      "Z": "NNSS",
+      "Y": "EEW",
+      "example_profile": [
+        "NNSS",
+        "EE",
+        "S",
+        "EEW"
+      ]
+    },
+    {
+      "Z": "NNSS",
+      "Y": "EEWW",
+      "example_profile": [
+        "NNSS",
+        "EE",
+        "SN",
+        "EEWW"
+      ]
+    }
+  ],
+  "no_one_use_RIGHT_pairs": [
+    {
+      "A": "EEWW",
+      "B": "SNNS",
+      "internal_flow": 2
+    },
+    {
+      "A": "EEWW",
+      "B": "SSNN",
+      "internal_flow": 2
+    },
+    {
+      "A": "EWE",
+      "B": "SSS",
+      "internal_flow": 3
+    },
+    {
+      "A": "EWEW",
+      "B": "SSSS",
+      "internal_flow": 4
+    },
+    {
+      "A": "EWWE",
+      "B": "SNNS",
+      "internal_flow": 2
+    },
+    {
+      "A": "EWWE",
+      "B": "SSNN",
+      "internal_flow": 2
+    }
+  ],
+  "conclusion": "Both LEFT endpoints are flow1 or flow2 V, never flow3/O/U. At no-one-use both are V2. The checked conditions are necessary first-ordinal constraints; no surviving complete-front or exterior realization is asserted."
+}

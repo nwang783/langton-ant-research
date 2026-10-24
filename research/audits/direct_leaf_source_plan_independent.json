@@ -1,0 +1,456 @@
+{
+  "status": "PASS literal source-plan and exact chunk input coverage; physical first-read enumeration and terminal outputs separate",
+  "script_sha256": "64ed6b45596bcba2f18d46304266d2847907b5d4a65a0d3624bdb857911eb949",
+  "source_plan_sha256": "388f22a549518d1062175f076f7dd902f94ad99af06807a1d5d7a9dc83d99dc2",
+  "run_input_manifest_sha256": "45a88afd7f5faea588f4a8acd5a421616af34dadf77176236f535515f6675602",
+  "parent_obligation_sha256": "1d2d310e995e02b57e8ce69ace7e9356570aab9a1baf1a329175e2c31d934f3c",
+  "parent_roles": 2432,
+  "parent_replay_reads": 49090288,
+  "parent_dynamic_obligations": 4451091,
+  "raised_base_obligations": 32824,
+  "total": 4483915,
+  "source_direct_budget": 6000,
+  "source_scope": "Every direct Parent0.loop0 first-read obligation plus parent/channel/slab raised-base leaf is retained, no silent duplicate removal. Blank/singleton auxiliaries covered by separately signed all-position canonical one-black proof.",
+  "inputs": [
+    {
+      "name": "parent_00",
+      "kind": "parent",
+      "first_id": 0,
+      "count": 109709,
+      "input": "parent_00.input",
+      "sha256": "f038c229fddb35b377be8648cbd99f77c615042d947c90a81a65adc80286e6b7"
+    },
+    {
+      "name": "parent_01",
+      "kind": "parent",
+      "first_id": 109709,
+      "count": 109911,
+      "input": "parent_01.input",
+      "sha256": "43b84d4069b0ddc1132049568296fe4b62258151de7bdf103d5ca8bdc8a9f0b3"
+    },
+    {
+      "name": "parent_02",
+      "kind": "parent",
+      "first_id": 219620,
+      "count": 106565,
+      "input": "parent_02.input",
+      "sha256": "65e0907ae1736c7687750054f789f8b894064098aa39b78fa34acfbf6ac30bd4"
+    },
+    {
+      "name": "parent_03",
+      "kind": "parent",
+      "first_id": 326185,
+      "count": 116031,
+      "input": "parent_03.input",
+      "sha256": "59dc42d54788aca30ec35f89ac264b12494d89d7ef603e8edd4d498912589160"
+    },
+    {
+      "name": "parent_04",
+      "kind": "parent",
+      "first_id": 442216,
+      "count": 124493,
+      "input": "parent_04.input",
+      "sha256": "6f650229ea13c8044106309351b16bf8f09eab31dd8aa350a2a8f2ee18086c6c"
+    },
+    {
+      "name": "parent_05",
+      "kind": "parent",
+      "first_id": 566709,
+      "count": 91914,
+      "input": "parent_05.input",
+      "sha256": "bbe08b7ea5197daa633e74d46d12e9fc960df4ecb4fe4c2b687bcc97109d2bdb"
+    },
+    {
+      "name": "parent_06",
+      "kind": "parent",
+      "first_id": 658623,
+      "count": 107942,
+      "input": "parent_06.input",
+      "sha256": "da5df5f0a063169b8ac046078fb16376ef0e54770b8c322a1b510c6647fb7e29"
+    },
+    {
+      "name": "parent_07",
+      "kind": "parent",
+      "first_id": 766565,
+      "count": 98826,
+      "input": "parent_07.input",
+      "sha256": "a0b6760eee923ee004e1a23217d9a4be0f5f384302b735f15017d5c7d2dd8ddb"
+    },
+    {
+      "name": "parent_08",
+      "kind": "parent",
+      "first_id": 865391,
+      "count": 84588,
+      "input": "parent_08.input",
+      "sha256": "578634d9ae2863cbebc2fd72433dc44d0b787b2b26bf436ee4750aad41b4c5f1"
+    },
+    {
+      "name": "parent_09",
+      "kind": "parent",
+      "first_id": 949979,
+      "count": 79439,
+      "input": "parent_09.input",
+      "sha256": "45dc18c9735832bdb01c9aa2bca51126cfe3f0a5f01248cfbf4f8371f8c0271d"
+    },
+    {
+      "name": "parent_10",
+      "kind": "parent",
+      "first_id": 1029418,
+      "count": 76997,
+      "input": "parent_10.input",
+      "sha256": "286636f37a7e0834f924f74973ea720cf83c88805e4fb5b7f11497aa2d69a04a"
+    },
+    {
+      "name": "parent_11",
+      "kind": "parent",
+      "first_id": 1106415,
+      "count": 95937,
+      "input": "parent_11.input",
+      "sha256": "eb4f5ef404866c44f0816a2884cae951296ff0ec57587e7e994424a2c0ed203e"
+    },
+    {
+      "name": "parent_12",
+      "kind": "parent",
+      "first_id": 1202352,
+      "count": 112268,
+      "input": "parent_12.input",
+      "sha256": "d1f10cf444f6e3c5e5ab2d04b1a896827b503a9e0747892c38679fad494724e2"
+    },
+    {
+      "name": "parent_13",
+      "kind": "parent",
+      "first_id": 1314620,
+      "count": 126314,
+      "input": "parent_13.input",
+      "sha256": "f75f3b50ee336a5c7bef69a68f594799f3005834658558a3a3686bc4475ff8e4"
+    },
+    {
+      "name": "parent_14",
+      "kind": "parent",
+      "first_id": 1440934,
+      "count": 111458,
+      "input": "parent_14.input",
+      "sha256": "911d06d5aa4346b1f3109ab01e3f61c7319716592d1bfbb0084b1fe9d87de852"
+    },
+    {
+      "name": "parent_15",
+      "kind": "parent",
+      "first_id": 1552392,
+      "count": 129727,
+      "input": "parent_15.input",
+      "sha256": "e32308e5dcbae224498b3f2c6c33547350c92655ccc771b5b584ea49c4c33e39"
+    },
+    {
+      "name": "parent_16",
+      "kind": "parent",
+      "first_id": 1682119,
+      "count": 132148,
+      "input": "parent_16.input",
+      "sha256": "4bdd0db28a9ab59aac95353e558258f0835f932668d2a12c953ba3cf68338b94"
+    },
+    {
+      "name": "parent_17",
+      "kind": "parent",
+      "first_id": 1814267,
+      "count": 139746,
+      "input": "parent_17.input",
+      "sha256": "e73328c304411914090c2211dea35673e42a518a1a38c06cfcb1bbd54d3ec97b"
+    },
+    {
+      "name": "parent_18",
+      "kind": "parent",
+      "first_id": 1954013,
+      "count": 134098,
+      "input": "parent_18.input",
+      "sha256": "dd189867fe79f5681cdbdd214b1bc35f3e614fa8e8b4af2d19511d6f54340867"
+    },
+    {
+      "name": "parent_19",
+      "kind": "parent",
+      "first_id": 2088111,
+      "count": 125805,
+      "input": "parent_19.input",
+      "sha256": "da6ccc67f65d592f959dd049107b5e6eeef349972d9455ccd11f457a1f678337"
+    },
+    {
+      "name": "parent_20",
+      "kind": "parent",
+      "first_id": 2213916,
+      "count": 130444,
+      "input": "parent_20.input",
+      "sha256": "5f909d4e835cb388c194529c251d17da89e71bcb3cf0dabdc6428cf2cac421f6"
+    },
+    {
+      "name": "parent_21",
+      "kind": "parent",
+      "first_id": 2344360,
+      "count": 129262,
+      "input": "parent_21.input",
+      "sha256": "b6a9b3efca412e3687ae96a7bcdd01492623f1698a09573162e32b706e4c6b7f"
+    },
+    {
+      "name": "parent_22",
+      "kind": "parent",
+      "first_id": 2473622,
+      "count": 131620,
+      "input": "parent_22.input",
+      "sha256": "01115cc4789cb253b556ad614008dac3c09b185a06da090af903239d2107cbc2"
+    },
+    {
+      "name": "parent_23",
+      "kind": "parent",
+      "first_id": 2605242,
+      "count": 131801,
+      "input": "parent_23.input",
+      "sha256": "2f8aee375cf59abf4b79602ccbf96bd7d984ae313d3592a66564005dfe9c2232"
+    },
+    {
+      "name": "parent_24",
+      "kind": "parent",
+      "first_id": 2737043,
+      "count": 132360,
+      "input": "parent_24.input",
+      "sha256": "fe9164034803f099d3d01904a76218449f1b4e9c9c3c5585fe1bf80325e05f42"
+    },
+    {
+      "name": "parent_25",
+      "kind": "parent",
+      "first_id": 2869403,
+      "count": 131475,
+      "input": "parent_25.input",
+      "sha256": "5ee1c9ddd891528263c655ce93335a84155c47fa75c4c4330bd20ea22b323fe3"
+    },
+    {
+      "name": "parent_26",
+      "kind": "parent",
+      "first_id": 3000878,
+      "count": 131148,
+      "input": "parent_26.input",
+      "sha256": "dc0b2ff032ed836e4a18a78602224183a686c71ac78a203be923ee74365d75ed"
+    },
+    {
+      "name": "parent_27",
+      "kind": "parent",
+      "first_id": 3132026,
+      "count": 119870,
+      "input": "parent_27.input",
+      "sha256": "063074df78c7fc8e3be8f651eb3e9e9a9f7aa4e173cb1e2ad84eedd816c5fc1d"
+    },
+    {
+      "name": "parent_28",
+      "kind": "parent",
+      "first_id": 3251896,
+      "count": 125090,
+      "input": "parent_28.input",
+      "sha256": "6758749293e8e81533b1dbc0d5d5af0bcf4460be03f073b612782e95a216b7e9"
+    },
+    {
+      "name": "parent_29",
+      "kind": "parent",
+      "first_id": 3376986,
+      "count": 132725,
+      "input": "parent_29.input",
+      "sha256": "051c2e889bb1b1918b0e92a19c5649233d4efa5fdf721079b211ccdc3583aea1"
+    },
+    {
+      "name": "parent_30",
+      "kind": "parent",
+      "first_id": 3509711,
+      "count": 133141,
+      "input": "parent_30.input",
+      "sha256": "8c4ccb3511e62c226800a14c7a7c010a91528379355e82cf6a599e9558a902b0"
+    },
+    {
+      "name": "parent_31",
+      "kind": "parent",
+      "first_id": 3642852,
+      "count": 106386,
+      "input": "parent_31.input",
+      "sha256": "cff97c330fef066198ae84c57f278c99d96318d6cf11ce98937d7bcd938e742d"
+    },
+    {
+      "name": "parent_32",
+      "kind": "parent",
+      "first_id": 3749238,
+      "count": 113517,
+      "input": "parent_32.input",
+      "sha256": "37d224500eacb3444bbc7d6d9c9816f88be91004605967b58ee5c45e0642b2e2"
+    },
+    {
+      "name": "parent_33",
+      "kind": "parent",
+      "first_id": 3862755,
+      "count": 132096,
+      "input": "parent_33.input",
+      "sha256": "eccfad4ba1c769dcb90ff968800e3d50ea7d1946bbb750f6bf2a8dd523676764"
+    },
+    {
+      "name": "parent_34",
+      "kind": "parent",
+      "first_id": 3994851,
+      "count": 122755,
+      "input": "parent_34.input",
+      "sha256": "f751aef46af8dd0330fffe8e6bb1a3583266fb3bbd64bc1cea0490f050bd5181"
+    },
+    {
+      "name": "parent_35",
+      "kind": "parent",
+      "first_id": 4117606,
+      "count": 117279,
+      "input": "parent_35.input",
+      "sha256": "877c8d9a4d8eec47986ddeb5afbba248006f4dfdc44124680a67b993ee007ff6"
+    },
+    {
+      "name": "parent_36",
+      "kind": "parent",
+      "first_id": 4234885,
+      "count": 107303,
+      "input": "parent_36.input",
+      "sha256": "7df6e02f41fc863ee779adc2e5c1a42c1764890bfd829f3b284440bec4abbba3"
+    },
+    {
+      "name": "parent_37",
+      "kind": "parent",
+      "first_id": 4342188,
+      "count": 108903,
+      "input": "parent_37.input",
+      "sha256": "f7cd62116427eafb8c3db8eb1ee104fb57b4bb37c6a68fe860eec7272802ed45"
+    },
+    {
+      "name": "raised_00",
+      "kind": "raised",
+      "first_id": 4451091,
+      "count": 2048,
+      "input": "raised_00.input",
+      "sha256": "f8ad31225f789dc34fc4139295ec77847a52bbdd2f67198ec82bcd6791303c85"
+    },
+    {
+      "name": "raised_01",
+      "kind": "raised",
+      "first_id": 4453139,
+      "count": 2048,
+      "input": "raised_01.input",
+      "sha256": "9a0220dd8cb14a6bd807f14e15e340e73f2a9423b1df183f430f11c1bf421144"
+    },
+    {
+      "name": "raised_02",
+      "kind": "raised",
+      "first_id": 4455187,
+      "count": 2048,
+      "input": "raised_02.input",
+      "sha256": "ba71a0ffc5445bb2eacbbfb1478dd805e35226ce4487684f96d88c8ca94e1a4c"
+    },
+    {
+      "name": "raised_03",
+      "kind": "raised",
+      "first_id": 4457235,
+      "count": 2048,
+      "input": "raised_03.input",
+      "sha256": "2c6f0a4ff9993145ae144286218c72009d8531a476b3287a025ef86fe15a6015"
+    },
+    {
+      "name": "raised_04",
+      "kind": "raised",
+      "first_id": 4459283,
+      "count": 2048,
+      "input": "raised_04.input",
+      "sha256": "ee26c0a46b9b139e05e284c596cf3c1652b39a923393bb9a5b4e986fedacd32c"
+    },
+    {
+      "name": "raised_05",
+      "kind": "raised",
+      "first_id": 4461331,
+      "count": 2048,
+      "input": "raised_05.input",
+      "sha256": "bf3d96af173dc62618819431f667bf75c536f9860ab7ee75d57bc529838d1262"
+    },
+    {
+      "name": "raised_06",
+      "kind": "raised",
+      "first_id": 4463379,
+      "count": 2048,
+      "input": "raised_06.input",
+      "sha256": "01a88f3d008137633b75261b8da84ca250a33dac06ba3780ea9fa0b9754a048f"
+    },
+    {
+      "name": "raised_07",
+      "kind": "raised",
+      "first_id": 4465427,
+      "count": 2048,
+      "input": "raised_07.input",
+      "sha256": "c9a5c1d9912f046341e5d4a131e46f656d87222edf13b82e88d89feadbf545a9"
+    },
+    {
+      "name": "raised_08",
+      "kind": "raised",
+      "first_id": 4467475,
+      "count": 2048,
+      "input": "raised_08.input",
+      "sha256": "3469b6183b1b21d7a6885a60262c20c2b83c3e910d0d814b163788d5c805a3d9"
+    },
+    {
+      "name": "raised_09",
+      "kind": "raised",
+      "first_id": 4469523,
+      "count": 2048,
+      "input": "raised_09.input",
+      "sha256": "8966856d393e036031f8e28c99564276da643cad5c1adc4858880be6d8c0f161"
+    },
+    {
+      "name": "raised_10",
+      "kind": "raised",
+      "first_id": 4471571,
+      "count": 2048,
+      "input": "raised_10.input",
+      "sha256": "966afa66fa698cacd550d1d229e349fdd285e22aeff901a2e340541eef2d9c7b"
+    },
+    {
+      "name": "raised_11",
+      "kind": "raised",
+      "first_id": 4473619,
+      "count": 2048,
+      "input": "raised_11.input",
+      "sha256": "0841c730db35c576149440b37044837f9686256589a8f3d1e068527fccae68d5"
+    },
+    {
+      "name": "raised_12",
+      "kind": "raised",
+      "first_id": 4475667,
+      "count": 2048,
+      "input": "raised_12.input",
+      "sha256": "501342e56ba484e6fd281ff69b07ab042701c4b89f3472ba1fd5ff960f0c9744"
+    },
+    {
+      "name": "raised_13",
+      "kind": "raised",
+      "first_id": 4477715,
+      "count": 2048,
+      "input": "raised_13.input",
+      "sha256": "c8eea566223efb95e6b18bb61774d919b0eca518aa3ae14ba8ce3dcd64776e7f"
+    },
+    {
+      "name": "raised_14",
+      "kind": "raised",
+      "first_id": 4479763,
+      "count": 2048,
+      "input": "raised_14.input",
+      "sha256": "2fe50edf7417fac60d1374b6daa3bbe95ae2aa4bee14470bdce6d704a8d0f3c4"
+    },
+    {
+      "name": "raised_15",
+      "kind": "raised",
+      "first_id": 4481811,
+      "count": 2048,
+      "input": "raised_15.input",
+      "sha256": "39422966e68e651fe8a0b7b1151880d4caf315e73d49598da90a047070e83e2f"
+    },
+    {
+      "name": "raised_16",
+      "kind": "raised",
+      "first_id": 4483859,
+      "count": 56,
+      "input": "raised_16.input",
+      "sha256": "bbec290c24a3d47120068c2dc0aa081f15b6d4535f42834b2a6a3223882c2511"
+    }
+  ]
+}

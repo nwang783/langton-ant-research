@@ -1,0 +1,348 @@
+{
+  "scope": "Conditional discovery only; H is not a signed relation",
+  "args": {
+    "profile": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/profile_recurrent8.json",
+    "hypotheses": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/hypothesis_U_upper3_post_dccc.tsv",
+    "signed": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/empty.tsv",
+    "row": [
+      1,
+      7,
+      7,
+      2,
+      3,
+      3,
+      1
+    ],
+    "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_DC_recurrent8_batch/case14",
+    "rounds": 8,
+    "cap": 750000,
+    "mode": "source",
+    "watch": "",
+    "scope": null,
+    "expand": true
+  },
+  "results": [
+    {
+      "round": 0,
+      "extra_points": [],
+      "watched": [
+        [
+          3,
+          1
+        ]
+      ],
+      "variables": 20,
+      "result": "status ABSTRACT_WITNESS states 2330558 depth 27 nodes 251371",
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_DC_recurrent8_batch/case14_r00_quotient",
+      "seconds": 5.333,
+      "events": [
+        {
+          "cell": [
+            0,
+            3
+          ],
+          "step": 10,
+          "source_step": 8,
+          "row": [
+            4,
+            7,
+            6,
+            1,
+            3,
+            2,
+            0
+          ],
+          "signed": false,
+          "kind": "lineage"
+        },
+        {
+          "cell": [
+            2,
+            3
+          ],
+          "step": 15,
+          "source_step": -1,
+          "row": [
+            1,
+            7,
+            1,
+            7,
+            2,
+            2,
+            3
+          ],
+          "signed": false,
+          "kind": "lineage"
+        },
+        {
+          "cell": [
+            1,
+            4
+          ],
+          "step": 15,
+          "source_step": 0,
+          "row": [
+            1,
+            7,
+            5,
+            0,
+            3,
+            2,
+            0
+          ],
+          "signed": false,
+          "kind": "lineage"
+        }
+      ],
+      "chosen": {
+        "cell": [
+          0,
+          3
+        ],
+        "step": 10,
+        "source_step": 8,
+        "row": [
+          4,
+          7,
+          6,
+          1,
+          3,
+          2,
+          0
+        ],
+        "signed": false,
+        "kind": "lineage"
+      }
+    },
+    {
+      "round": 1,
+      "extra_points": [],
+      "watched": [
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "variables": 22,
+      "result": "status ABSTRACT_WITNESS states 2428625 depth 28 nodes 265575",
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_DC_recurrent8_batch/case14_r01_quotient",
+      "seconds": 5.422,
+      "events": [
+        {
+          "cell": [
+            2,
+            3
+          ],
+          "step": 16,
+          "source_step": -1,
+          "row": [
+            1,
+            7,
+            1,
+            7,
+            2,
+            2,
+            3
+          ],
+          "signed": false,
+          "kind": "lineage"
+        },
+        {
+          "cell": [
+            1,
+            4
+          ],
+          "step": 16,
+          "source_step": 0,
+          "row": [
+            1,
+            7,
+            5,
+            0,
+            3,
+            2,
+            0
+          ],
+          "signed": false,
+          "kind": "lineage"
+        }
+      ],
+      "chosen": {
+        "cell": [
+          2,
+          3
+        ],
+        "step": 16,
+        "source_step": -1,
+        "row": [
+          1,
+          7,
+          1,
+          7,
+          2,
+          2,
+          3
+        ],
+        "signed": false,
+        "kind": "lineage"
+      }
+    },
+    {
+      "round": 2,
+      "extra_points": [],
+      "watched": [
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "variables": 25,
+      "result": "status ABSTRACT_WITNESS states 2861304 depth 28 nodes 305445",
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_DC_recurrent8_batch/case14_r02_quotient",
+      "seconds": 5.861,
+      "events": [
+        {
+          "cell": [
+            1,
+            4
+          ],
+          "step": 10,
+          "source_step": 0,
+          "row": [
+            1,
+            7,
+            6,
+            1,
+            3,
+            2,
+            0
+          ],
+          "signed": false,
+          "kind": "lineage"
+        }
+      ],
+      "chosen": {
+        "cell": [
+          1,
+          4
+        ],
+        "step": 10,
+        "source_step": 0,
+        "row": [
+          1,
+          7,
+          6,
+          1,
+          3,
+          2,
+          0
+        ],
+        "signed": false,
+        "kind": "lineage"
+      }
+    },
+    {
+      "round": 3,
+      "extra_points": [],
+      "watched": [
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "variables": 27,
+      "result": "status ABSTRACT_WITNESS states 1847774 depth 28 nodes 216502",
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_DC_recurrent8_batch/case14_r03_quotient",
+      "seconds": 5.29,
+      "events": [],
+      "expanded_target_inputs": [
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          1
+        ]
+      ]
+    },
+    {
+      "round": 4,
+      "extra_points": [
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "watched": [
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "variables": 31,
+      "result": "status CAP_OR_ERROR reason node cap",
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_DC_recurrent8_batch/case14_r04_quotient",
+      "seconds": 11.834,
+      "closure_result": "status ABSTRACT_WITNESS states 37574202 depth 29 nodes 214763",
+      "events": [],
+      "stop": "no eligible internal lineage or new target-input cell"
+    }
+  ]
+}

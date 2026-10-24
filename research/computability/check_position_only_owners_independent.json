@@ -1,0 +1,106 @@
+{
+  "status": "PASS exact independent ownership replay; complete prefix exhaustion is a separate dependency",
+  "cases": [
+    {
+      "k": 3,
+      "scale": [
+        2,
+        -1
+      ],
+      "theta": 0,
+      "records": 16,
+      "images": 2,
+      "all_protected": true
+    },
+    {
+      "k": 3,
+      "scale": [
+        2,
+        1
+      ],
+      "theta": 0,
+      "records": 16,
+      "images": 2,
+      "all_protected": true
+    },
+    {
+      "k": 4,
+      "scale": [
+        2,
+        -2
+      ],
+      "theta": 0,
+      "records": 16,
+      "images": 2,
+      "all_protected": true
+    },
+    {
+      "k": 4,
+      "scale": [
+        2,
+        -2
+      ],
+      "theta": 1,
+      "records": 16,
+      "images": 2,
+      "all_protected": true
+    },
+    {
+      "k": 4,
+      "scale": [
+        2,
+        2
+      ],
+      "theta": 0,
+      "records": 16,
+      "images": 2,
+      "all_protected": true
+    },
+    {
+      "k": 4,
+      "scale": [
+        2,
+        2
+      ],
+      "theta": 1,
+      "records": 16,
+      "images": 2,
+      "all_protected": true
+    },
+    {
+      "k": 5,
+      "scale": [
+        3,
+        -2
+      ],
+      "theta": 0,
+      "records": 16,
+      "images": 2,
+      "all_protected": true
+    },
+    {
+      "k": 5,
+      "scale": [
+        3,
+        0
+      ],
+      "theta": 0,
+      "records": 32,
+      "images": 4,
+      "all_protected": true
+    },
+    {
+      "k": 5,
+      "scale": [
+        3,
+        2
+      ],
+      "theta": 0,
+      "records": 16,
+      "images": 2,
+      "all_protected": true
+    }
+  ],
+  "total_inventory_records": 160,
+  "total_target_images": 20
+}

@@ -1,0 +1,37 @@
+{
+  "status": "PASS complete independent eight-step first-return leaf and run-pair inequality",
+  "eight_step_word_count": 256,
+  "consistent_initialR_finalN_first_returns": [
+    "RRRLLLLR",
+    "RRLLLLRR"
+  ],
+  "conflicts": [
+    {
+      "word": "RRRLLLLR",
+      "conflict": {
+        "cell": [
+          1,
+          -1
+        ],
+        "old_time": -2,
+        "new_time": 2,
+        "turn": "R"
+      }
+    },
+    {
+      "word": "RRLLLLRR",
+      "conflict": {
+        "cell": [
+          0,
+          -1
+        ],
+        "old_time": -1,
+        "new_time": 7,
+        "turn": "R"
+      }
+    }
+  ],
+  "run_pair_types": 9,
+  "proof_sha256": "8237331f8e40b3ee4a29f94d711e2d0bf6de0836781fad9794c95d7032e8165d",
+  "scope": "Analytic complete-WHITE first-read backbone coupling gives P>=4ell>=8D, with P=2D mod4. Not arbitrary prepared input or nonperiodic capture."
+}

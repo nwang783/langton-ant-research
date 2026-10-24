@@ -1,0 +1,1960 @@
+{
+  "status": "PASS all-period infinite-standard legality, exact two-rail component separation and original z-support necessity",
+  "source_sha256": "8083f7a1235db179c62ae12d85ba31a903a4f9f99bd0e72dfe5285c5422610a6",
+  "initial_seed": [
+    [
+      -2,
+      -4
+    ],
+    [
+      -2,
+      -3
+    ],
+    [
+      -2,
+      0
+    ],
+    [
+      -2,
+      1
+    ],
+    [
+      -1,
+      -5
+    ],
+    [
+      -1,
+      -2
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      -6
+    ],
+    [
+      0,
+      -5
+    ],
+    [
+      0,
+      -4
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      -6
+    ],
+    [
+      1,
+      -5
+    ],
+    [
+      1,
+      -4
+    ],
+    [
+      1,
+      -3
+    ],
+    [
+      1,
+      -2
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      -3
+    ],
+    [
+      2,
+      -2
+    ]
+  ],
+  "original_mass": 24,
+  "standard_word": "LRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLR",
+  "heading": 3,
+  "drift": [
+    -2,
+    -2
+  ],
+  "target_period_domain": "all integers n>=1",
+  "target_phase": 18,
+  "target_pose": [
+    [
+      -2,
+      -1
+    ],
+    [
+      -2,
+      -1
+    ],
+    1
+  ],
+  "target_global_time": [
+    104,
+    18
+  ],
+  "target_R_birth": [
+    104,
+    10
+  ],
+  "consumed_lifetime_age": 8,
+  "intrinsic_z_cycle_bottleneck_birth": -1,
+  "indispensable_z_support_age": [
+    104,
+    19
+  ],
+  "w_bridge_reason": "one endpoint is an exact degree-one leaf at every target; proper r0 L",
+  "minimal_source_seed": [
+    [
+      -2,
+      -4
+    ],
+    [
+      -2,
+      -3
+    ],
+    [
+      -2,
+      0
+    ],
+    [
+      -1,
+      -5
+    ],
+    [
+      -1,
+      -2
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      -6
+    ],
+    [
+      0,
+      -5
+    ],
+    [
+      0,
+      -4
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      -3
+    ],
+    [
+      1,
+      -2
+    ]
+  ],
+  "unread_cap": [
+    [
+      -2,
+      1
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      -6
+    ],
+    [
+      1,
+      -5
+    ],
+    [
+      1,
+      -4
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      -3
+    ],
+    [
+      2,
+      -2
+    ]
+  ],
+  "permanent_output": [
+    [
+      -4,
+      -1
+    ],
+    [
+      -3,
+      -1
+    ],
+    [
+      -3,
+      0
+    ],
+    [
+      -2,
+      -1
+    ],
+    [
+      -1,
+      -8
+    ],
+    [
+      -1,
+      -7
+    ],
+    [
+      -1,
+      -6
+    ],
+    [
+      -1,
+      -2
+    ],
+    [
+      0,
+      -7
+    ],
+    [
+      0,
+      -3
+    ],
+    [
+      0,
+      -2
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "permanent_read_certificates": [
+    {
+      "cell": [
+        -4,
+        -1
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": 0,
+          "slot": 29,
+          "turn": "R",
+          "relative_time": 29
+        }
+      ]
+    },
+    {
+      "cell": [
+        -3,
+        -1
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": 0,
+          "slot": 14,
+          "turn": "R",
+          "relative_time": 14
+        },
+        {
+          "copy_offset": 0,
+          "slot": 26,
+          "turn": "L",
+          "relative_time": 26
+        },
+        {
+          "copy_offset": 0,
+          "slot": 30,
+          "turn": "R",
+          "relative_time": 30
+        }
+      ]
+    },
+    {
+      "cell": [
+        -3,
+        0
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": 0,
+          "slot": 15,
+          "turn": "R",
+          "relative_time": 15
+        }
+      ]
+    },
+    {
+      "cell": [
+        -2,
+        -1
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": 0,
+          "slot": 13,
+          "turn": "R",
+          "relative_time": 13
+        },
+        {
+          "copy_offset": 0,
+          "slot": 17,
+          "turn": "L",
+          "relative_time": 17
+        },
+        {
+          "copy_offset": 0,
+          "slot": 25,
+          "turn": "R",
+          "relative_time": 25
+        }
+      ]
+    },
+    {
+      "cell": [
+        -1,
+        -8
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": 0,
+          "slot": 71,
+          "turn": "R",
+          "relative_time": 71
+        }
+      ]
+    },
+    {
+      "cell": [
+        -1,
+        -7
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": 0,
+          "slot": 70,
+          "turn": "R",
+          "relative_time": 70
+        },
+        {
+          "copy_offset": 0,
+          "slot": 74,
+          "turn": "L",
+          "relative_time": 74
+        },
+        {
+          "copy_offset": 0,
+          "slot": 90,
+          "turn": "R",
+          "relative_time": 90
+        }
+      ]
+    },
+    {
+      "cell": [
+        -1,
+        -6
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": 0,
+          "slot": 75,
+          "turn": "R",
+          "relative_time": 75
+        },
+        {
+          "copy_offset": 0,
+          "slot": 87,
+          "turn": "L",
+          "relative_time": 87
+        },
+        {
+          "copy_offset": 0,
+          "slot": 91,
+          "turn": "R",
+          "relative_time": 91
+        }
+      ]
+    },
+    {
+      "cell": [
+        -1,
+        -2
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": -1,
+          "slot": 47,
+          "turn": "R",
+          "relative_time": -57
+        },
+        {
+          "copy_offset": 0,
+          "slot": 3,
+          "turn": "L",
+          "relative_time": 3
+        },
+        {
+          "copy_offset": 0,
+          "slot": 7,
+          "turn": "R",
+          "relative_time": 7
+        },
+        {
+          "copy_offset": 0,
+          "slot": 35,
+          "turn": "L",
+          "relative_time": 35
+        },
+        {
+          "copy_offset": 0,
+          "slot": 103,
+          "turn": "R",
+          "relative_time": 103
+        }
+      ]
+    },
+    {
+      "cell": [
+        0,
+        -7
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": 0,
+          "slot": 89,
+          "turn": "R",
+          "relative_time": 89
+        }
+      ]
+    },
+    {
+      "cell": [
+        0,
+        -3
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": -1,
+          "slot": 45,
+          "turn": "R",
+          "relative_time": -59
+        },
+        {
+          "copy_offset": -1,
+          "slot": 49,
+          "turn": "L",
+          "relative_time": -55
+        },
+        {
+          "copy_offset": -1,
+          "slot": 53,
+          "turn": "R",
+          "relative_time": -51
+        },
+        {
+          "copy_offset": -1,
+          "slot": 65,
+          "turn": "L",
+          "relative_time": -39
+        },
+        {
+          "copy_offset": 0,
+          "slot": 5,
+          "turn": "R",
+          "relative_time": 5
+        },
+        {
+          "copy_offset": 0,
+          "slot": 81,
+          "turn": "L",
+          "relative_time": 81
+        },
+        {
+          "copy_offset": 0,
+          "slot": 97,
+          "turn": "R",
+          "relative_time": 97
+        }
+      ]
+    },
+    {
+      "cell": [
+        0,
+        -2
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": -2,
+          "slot": 56,
+          "turn": "R",
+          "relative_time": -152
+        },
+        {
+          "copy_offset": -1,
+          "slot": 44,
+          "turn": "L",
+          "relative_time": -60
+        },
+        {
+          "copy_offset": -1,
+          "slot": 48,
+          "turn": "R",
+          "relative_time": -56
+        },
+        {
+          "copy_offset": -1,
+          "slot": 52,
+          "turn": "L",
+          "relative_time": -52
+        },
+        {
+          "copy_offset": 0,
+          "slot": 4,
+          "turn": "R",
+          "relative_time": 4
+        },
+        {
+          "copy_offset": 0,
+          "slot": 8,
+          "turn": "L",
+          "relative_time": 8
+        },
+        {
+          "copy_offset": 0,
+          "slot": 100,
+          "turn": "R",
+          "relative_time": 100
+        }
+      ]
+    },
+    {
+      "cell": [
+        0,
+        0
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": -1,
+          "slot": 32,
+          "turn": "R",
+          "relative_time": -72
+        },
+        {
+          "copy_offset": -1,
+          "slot": 36,
+          "turn": "L",
+          "relative_time": -68
+        },
+        {
+          "copy_offset": -1,
+          "slot": 40,
+          "turn": "R",
+          "relative_time": -64
+        },
+        {
+          "copy_offset": 0,
+          "slot": 0,
+          "turn": "L",
+          "relative_time": 0
+        },
+        {
+          "copy_offset": 0,
+          "slot": 20,
+          "turn": "R",
+          "relative_time": 20
+        }
+      ]
+    }
+  ],
+  "unread_cap_certificates": [
+    {
+      "cell": [
+        -2,
+        1
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": -1,
+          "slot": 29,
+          "turn": "R",
+          "relative_time": -75
+        }
+      ]
+    },
+    {
+      "cell": [
+        -1,
+        1
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": -1,
+          "slot": 14,
+          "turn": "R",
+          "relative_time": -90
+        },
+        {
+          "copy_offset": -1,
+          "slot": 26,
+          "turn": "L",
+          "relative_time": -78
+        },
+        {
+          "copy_offset": -1,
+          "slot": 30,
+          "turn": "R",
+          "relative_time": -74
+        }
+      ]
+    },
+    {
+      "cell": [
+        0,
+        1
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": -1,
+          "slot": 13,
+          "turn": "R",
+          "relative_time": -91
+        },
+        {
+          "copy_offset": -1,
+          "slot": 17,
+          "turn": "L",
+          "relative_time": -87
+        },
+        {
+          "copy_offset": -1,
+          "slot": 25,
+          "turn": "R",
+          "relative_time": -79
+        }
+      ]
+    },
+    {
+      "cell": [
+        1,
+        -6
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": -1,
+          "slot": 71,
+          "turn": "R",
+          "relative_time": -33
+        }
+      ]
+    },
+    {
+      "cell": [
+        1,
+        -5
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": -1,
+          "slot": 70,
+          "turn": "R",
+          "relative_time": -34
+        },
+        {
+          "copy_offset": -1,
+          "slot": 74,
+          "turn": "L",
+          "relative_time": -30
+        },
+        {
+          "copy_offset": -1,
+          "slot": 90,
+          "turn": "R",
+          "relative_time": -14
+        }
+      ]
+    },
+    {
+      "cell": [
+        1,
+        -4
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": -1,
+          "slot": 75,
+          "turn": "R",
+          "relative_time": -29
+        },
+        {
+          "copy_offset": -1,
+          "slot": 87,
+          "turn": "L",
+          "relative_time": -17
+        },
+        {
+          "copy_offset": -1,
+          "slot": 91,
+          "turn": "R",
+          "relative_time": -13
+        }
+      ]
+    },
+    {
+      "cell": [
+        1,
+        -1
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": -2,
+          "slot": 46,
+          "turn": "R",
+          "relative_time": -162
+        },
+        {
+          "copy_offset": -2,
+          "slot": 54,
+          "turn": "L",
+          "relative_time": -154
+        },
+        {
+          "copy_offset": -2,
+          "slot": 58,
+          "turn": "R",
+          "relative_time": -150
+        },
+        {
+          "copy_offset": -2,
+          "slot": 66,
+          "turn": "L",
+          "relative_time": -142
+        },
+        {
+          "copy_offset": -1,
+          "slot": 6,
+          "turn": "R",
+          "relative_time": -98
+        },
+        {
+          "copy_offset": -1,
+          "slot": 34,
+          "turn": "L",
+          "relative_time": -70
+        },
+        {
+          "copy_offset": -1,
+          "slot": 42,
+          "turn": "R",
+          "relative_time": -62
+        },
+        {
+          "copy_offset": -1,
+          "slot": 82,
+          "turn": "L",
+          "relative_time": -22
+        }
+      ]
+    },
+    {
+      "cell": [
+        1,
+        0
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": -2,
+          "slot": 47,
+          "turn": "R",
+          "relative_time": -161
+        },
+        {
+          "copy_offset": -1,
+          "slot": 3,
+          "turn": "L",
+          "relative_time": -101
+        },
+        {
+          "copy_offset": -1,
+          "slot": 7,
+          "turn": "R",
+          "relative_time": -97
+        },
+        {
+          "copy_offset": -1,
+          "slot": 35,
+          "turn": "L",
+          "relative_time": -69
+        },
+        {
+          "copy_offset": -1,
+          "slot": 103,
+          "turn": "R",
+          "relative_time": -1
+        }
+      ]
+    },
+    {
+      "cell": [
+        1,
+        1
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": -2,
+          "slot": 38,
+          "turn": "R",
+          "relative_time": -170
+        },
+        {
+          "copy_offset": -1,
+          "slot": 2,
+          "turn": "L",
+          "relative_time": -102
+        },
+        {
+          "copy_offset": -1,
+          "slot": 10,
+          "turn": "R",
+          "relative_time": -94
+        },
+        {
+          "copy_offset": -1,
+          "slot": 18,
+          "turn": "L",
+          "relative_time": -86
+        },
+        {
+          "copy_offset": -1,
+          "slot": 22,
+          "turn": "R",
+          "relative_time": -82
+        },
+        {
+          "copy_offset": -1,
+          "slot": 102,
+          "turn": "L",
+          "relative_time": -2
+        }
+      ]
+    },
+    {
+      "cell": [
+        2,
+        -3
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": -2,
+          "slot": 61,
+          "turn": "R",
+          "relative_time": -147
+        },
+        {
+          "copy_offset": -2,
+          "slot": 69,
+          "turn": "L",
+          "relative_time": -139
+        },
+        {
+          "copy_offset": -2,
+          "slot": 73,
+          "turn": "R",
+          "relative_time": -135
+        },
+        {
+          "copy_offset": -1,
+          "slot": 77,
+          "turn": "L",
+          "relative_time": -27
+        },
+        {
+          "copy_offset": -1,
+          "slot": 85,
+          "turn": "R",
+          "relative_time": -19
+        },
+        {
+          "copy_offset": -1,
+          "slot": 93,
+          "turn": "L",
+          "relative_time": -11
+        }
+      ]
+    },
+    {
+      "cell": [
+        2,
+        -2
+      ],
+      "complete_occurrences": [
+        {
+          "copy_offset": -2,
+          "slot": 60,
+          "turn": "R",
+          "relative_time": -148
+        },
+        {
+          "copy_offset": -2,
+          "slot": 64,
+          "turn": "L",
+          "relative_time": -144
+        },
+        {
+          "copy_offset": -2,
+          "slot": 68,
+          "turn": "R",
+          "relative_time": -140
+        },
+        {
+          "copy_offset": -1,
+          "slot": 80,
+          "turn": "L",
+          "relative_time": -24
+        },
+        {
+          "copy_offset": -1,
+          "slot": 84,
+          "turn": "R",
+          "relative_time": -20
+        },
+        {
+          "copy_offset": -1,
+          "slot": 96,
+          "turn": "L",
+          "relative_time": -8
+        }
+      ]
+    }
+  ],
+  "component_bases": {
+    "P": [
+      [
+        -4,
+        -1
+      ],
+      [
+        -3,
+        -1
+      ],
+      [
+        -3,
+        0
+      ],
+      [
+        -2,
+        -1
+      ]
+    ],
+    "Q": [
+      [
+        -1,
+        -8
+      ],
+      [
+        -1,
+        -7
+      ],
+      [
+        -1,
+        -6
+      ],
+      [
+        0,
+        -7
+      ]
+    ],
+    "R": [
+      [
+        -1,
+        -2
+      ],
+      [
+        0,
+        -3
+      ],
+      [
+        0,
+        -2
+      ]
+    ],
+    "S": [
+      [
+        0,
+        0
+      ]
+    ],
+    "U": [
+      [
+        -3,
+        -1
+      ],
+      [
+        -3,
+        0
+      ],
+      [
+        -2,
+        0
+      ]
+    ],
+    "V": [
+      [
+        -2,
+        -4
+      ],
+      [
+        -2,
+        -3
+      ],
+      [
+        -1,
+        -5
+      ],
+      [
+        -1,
+        -3
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        0,
+        -6
+      ],
+      [
+        0,
+        -5
+      ],
+      [
+        0,
+        -4
+      ],
+      [
+        0,
+        -3
+      ],
+      [
+        1,
+        -3
+      ],
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        0
+      ]
+    ]
+  },
+  "CU_families": [
+    {
+      "base": "P",
+      "lo": [
+        0,
+        0
+      ],
+      "hi": [
+        1,
+        -1
+      ]
+    },
+    {
+      "base": "R",
+      "lo": [
+        0,
+        0
+      ],
+      "hi": [
+        1,
+        -2
+      ]
+    },
+    {
+      "base": "S",
+      "lo": [
+        0,
+        1
+      ],
+      "hi": [
+        1,
+        -1
+      ]
+    },
+    {
+      "base": "U",
+      "lo": [
+        1,
+        0
+      ],
+      "hi": [
+        1,
+        0
+      ]
+    }
+  ],
+  "CV_families": [
+    {
+      "base": "Q",
+      "lo": [
+        0,
+        0
+      ],
+      "hi": [
+        1,
+        -1
+      ]
+    },
+    {
+      "base": "V",
+      "lo": [
+        1,
+        0
+      ],
+      "hi": [
+        1,
+        0
+      ]
+    }
+  ],
+  "isolated_families": [
+    {
+      "base": "S",
+      "lo": [
+        0,
+        0
+      ],
+      "hi": [
+        0,
+        0
+      ]
+    }
+  ],
+  "cross_component_collision_certificates": [
+    {
+      "left": {
+        "base": "P",
+        "lo": [
+          0,
+          0
+        ],
+        "hi": [
+          1,
+          -1
+        ]
+      },
+      "right": {
+        "base": "Q",
+        "lo": [
+          0,
+          0
+        ],
+        "hi": [
+          1,
+          -1
+        ]
+      },
+      "all_possible_vertex_index_offsets": [],
+      "checks": []
+    },
+    {
+      "left": {
+        "base": "P",
+        "lo": [
+          0,
+          0
+        ],
+        "hi": [
+          1,
+          -1
+        ]
+      },
+      "right": {
+        "base": "V",
+        "lo": [
+          1,
+          0
+        ],
+        "hi": [
+          1,
+          0
+        ]
+      },
+      "all_possible_vertex_index_offsets": [],
+      "checks": []
+    },
+    {
+      "left": {
+        "base": "R",
+        "lo": [
+          0,
+          0
+        ],
+        "hi": [
+          1,
+          -2
+        ]
+      },
+      "right": {
+        "base": "Q",
+        "lo": [
+          0,
+          0
+        ],
+        "hi": [
+          1,
+          -1
+        ]
+      },
+      "all_possible_vertex_index_offsets": [],
+      "checks": []
+    },
+    {
+      "left": {
+        "base": "R",
+        "lo": [
+          0,
+          0
+        ],
+        "hi": [
+          1,
+          -2
+        ]
+      },
+      "right": {
+        "base": "V",
+        "lo": [
+          1,
+          0
+        ],
+        "hi": [
+          1,
+          0
+        ]
+      },
+      "all_possible_vertex_index_offsets": [
+        -1,
+        0,
+        1
+      ],
+      "checks": [
+        {
+          "index_offset": -1,
+          "collision_N_domain": null
+        },
+        {
+          "index_offset": 0,
+          "collision_N_domain": null
+        },
+        {
+          "index_offset": 1,
+          "collision_N_domain": null
+        }
+      ]
+    },
+    {
+      "left": {
+        "base": "S",
+        "lo": [
+          0,
+          1
+        ],
+        "hi": [
+          1,
+          -1
+        ]
+      },
+      "right": {
+        "base": "Q",
+        "lo": [
+          0,
+          0
+        ],
+        "hi": [
+          1,
+          -1
+        ]
+      },
+      "all_possible_vertex_index_offsets": [],
+      "checks": []
+    },
+    {
+      "left": {
+        "base": "S",
+        "lo": [
+          0,
+          1
+        ],
+        "hi": [
+          1,
+          -1
+        ]
+      },
+      "right": {
+        "base": "V",
+        "lo": [
+          1,
+          0
+        ],
+        "hi": [
+          1,
+          0
+        ]
+      },
+      "all_possible_vertex_index_offsets": [
+        -1,
+        0
+      ],
+      "checks": [
+        {
+          "index_offset": -1,
+          "collision_N_domain": null
+        },
+        {
+          "index_offset": 0,
+          "collision_N_domain": null
+        }
+      ]
+    },
+    {
+      "left": {
+        "base": "U",
+        "lo": [
+          1,
+          0
+        ],
+        "hi": [
+          1,
+          0
+        ]
+      },
+      "right": {
+        "base": "Q",
+        "lo": [
+          0,
+          0
+        ],
+        "hi": [
+          1,
+          -1
+        ]
+      },
+      "all_possible_vertex_index_offsets": [],
+      "checks": []
+    },
+    {
+      "left": {
+        "base": "U",
+        "lo": [
+          1,
+          0
+        ],
+        "hi": [
+          1,
+          0
+        ]
+      },
+      "right": {
+        "base": "V",
+        "lo": [
+          1,
+          0
+        ],
+        "hi": [
+          1,
+          0
+        ]
+      },
+      "all_possible_vertex_index_offsets": [],
+      "checks": []
+    },
+    {
+      "left": {
+        "base": "P",
+        "lo": [
+          0,
+          0
+        ],
+        "hi": [
+          1,
+          -1
+        ]
+      },
+      "right": {
+        "base": "S",
+        "lo": [
+          0,
+          0
+        ],
+        "hi": [
+          0,
+          0
+        ]
+      },
+      "all_possible_vertex_index_offsets": [
+        1
+      ],
+      "checks": [
+        {
+          "index_offset": 1,
+          "collision_N_domain": null
+        }
+      ]
+    },
+    {
+      "left": {
+        "base": "R",
+        "lo": [
+          0,
+          0
+        ],
+        "hi": [
+          1,
+          -2
+        ]
+      },
+      "right": {
+        "base": "S",
+        "lo": [
+          0,
+          0
+        ],
+        "hi": [
+          0,
+          0
+        ]
+      },
+      "all_possible_vertex_index_offsets": [
+        1
+      ],
+      "checks": [
+        {
+          "index_offset": 1,
+          "collision_N_domain": null
+        }
+      ]
+    },
+    {
+      "left": {
+        "base": "S",
+        "lo": [
+          0,
+          1
+        ],
+        "hi": [
+          1,
+          -1
+        ]
+      },
+      "right": {
+        "base": "S",
+        "lo": [
+          0,
+          0
+        ],
+        "hi": [
+          0,
+          0
+        ]
+      },
+      "all_possible_vertex_index_offsets": [
+        0
+      ],
+      "checks": [
+        {
+          "index_offset": 0,
+          "collision_N_domain": null
+        }
+      ]
+    },
+    {
+      "left": {
+        "base": "U",
+        "lo": [
+          1,
+          0
+        ],
+        "hi": [
+          1,
+          0
+        ]
+      },
+      "right": {
+        "base": "S",
+        "lo": [
+          0,
+          0
+        ],
+        "hi": [
+          0,
+          0
+        ]
+      },
+      "all_possible_vertex_index_offsets": [
+        1
+      ],
+      "checks": [
+        {
+          "index_offset": 1,
+          "collision_N_domain": null
+        }
+      ]
+    },
+    {
+      "left": {
+        "base": "Q",
+        "lo": [
+          0,
+          0
+        ],
+        "hi": [
+          1,
+          -1
+        ]
+      },
+      "right": {
+        "base": "S",
+        "lo": [
+          0,
+          0
+        ],
+        "hi": [
+          0,
+          0
+        ]
+      },
+      "all_possible_vertex_index_offsets": [],
+      "checks": []
+    },
+    {
+      "left": {
+        "base": "V",
+        "lo": [
+          1,
+          0
+        ],
+        "hi": [
+          1,
+          0
+        ]
+      },
+      "right": {
+        "base": "S",
+        "lo": [
+          0,
+          0
+        ],
+        "hi": [
+          0,
+          0
+        ]
+      },
+      "all_possible_vertex_index_offsets": [
+        0,
+        1
+      ],
+      "checks": [
+        {
+          "index_offset": 0,
+          "collision_N_domain": null
+        },
+        {
+          "index_offset": 1,
+          "collision_N_domain": null
+        }
+      ]
+    }
+  ],
+  "A_growth_patch_components": [
+    {
+      "edges": [
+        [
+          -6,
+          -3
+        ],
+        [
+          -5,
+          -3
+        ],
+        [
+          -5,
+          -2
+        ],
+        [
+          -4,
+          -3
+        ]
+      ],
+      "touches_previous_P_vertices": [
+        [
+          -9,
+          -3
+        ]
+      ]
+    },
+    {
+      "edges": [
+        [
+          -2,
+          -2
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -2
+        ]
+      ],
+      "touches_previous_P_vertices": [
+        [
+          -5,
+          -3
+        ]
+      ]
+    }
+  ],
+  "w_leaf_read_certificates": [
+    {
+      "cell": [
+        -1,
+        -1
+      ],
+      "last_before18": {
+        "copy_offset": 0,
+        "slot": 10,
+        "turn": "R",
+        "relative_time": 10
+      },
+      "complete_occurrences": [
+        {
+          "copy_offset": -1,
+          "slot": 38,
+          "turn": "R",
+          "relative_time": -66
+        },
+        {
+          "copy_offset": 0,
+          "slot": 2,
+          "turn": "L",
+          "relative_time": 2
+        },
+        {
+          "copy_offset": 0,
+          "slot": 10,
+          "turn": "R",
+          "relative_time": 10
+        },
+        {
+          "copy_offset": 0,
+          "slot": 18,
+          "turn": "L",
+          "relative_time": 18
+        },
+        {
+          "copy_offset": 0,
+          "slot": 22,
+          "turn": "R",
+          "relative_time": 22
+        },
+        {
+          "copy_offset": 0,
+          "slot": 102,
+          "turn": "L",
+          "relative_time": 102
+        }
+      ]
+    },
+    {
+      "cell": [
+        -1,
+        0
+      ],
+      "last_before18": {
+        "copy_offset": 0,
+        "slot": 11,
+        "turn": "L",
+        "relative_time": 11
+      },
+      "complete_occurrences": [
+        {
+          "copy_offset": -1,
+          "slot": 27,
+          "turn": "R",
+          "relative_time": -77
+        },
+        {
+          "copy_offset": -1,
+          "slot": 31,
+          "turn": "L",
+          "relative_time": -73
+        },
+        {
+          "copy_offset": -1,
+          "slot": 39,
+          "turn": "R",
+          "relative_time": -65
+        },
+        {
+          "copy_offset": 0,
+          "slot": 11,
+          "turn": "L",
+          "relative_time": 11
+        },
+        {
+          "copy_offset": 0,
+          "slot": 19,
+          "turn": "R",
+          "relative_time": 19
+        },
+        {
+          "copy_offset": 0,
+          "slot": 23,
+          "turn": "L",
+          "relative_time": 23
+        }
+      ]
+    },
+    {
+      "cell": [
+        0,
+        -1
+      ],
+      "last_before18": {
+        "copy_offset": 0,
+        "slot": 9,
+        "turn": "L",
+        "relative_time": 9
+      },
+      "complete_occurrences": [
+        {
+          "copy_offset": -2,
+          "slot": 57,
+          "turn": "R",
+          "relative_time": -151
+        },
+        {
+          "copy_offset": -1,
+          "slot": 33,
+          "turn": "L",
+          "relative_time": -71
+        },
+        {
+          "copy_offset": -1,
+          "slot": 37,
+          "turn": "R",
+          "relative_time": -67
+        },
+        {
+          "copy_offset": -1,
+          "slot": 41,
+          "turn": "L",
+          "relative_time": -63
+        },
+        {
+          "copy_offset": 0,
+          "slot": 1,
+          "turn": "R",
+          "relative_time": 1
+        },
+        {
+          "copy_offset": 0,
+          "slot": 9,
+          "turn": "L",
+          "relative_time": 9
+        },
+        {
+          "copy_offset": 0,
+          "slot": 21,
+          "turn": "R",
+          "relative_time": 21
+        },
+        {
+          "copy_offset": 0,
+          "slot": 101,
+          "turn": "L",
+          "relative_time": 101
+        }
+      ]
+    },
+    {
+      "cell": [
+        0,
+        0
+      ],
+      "last_before18": {
+        "copy_offset": 0,
+        "slot": 0,
+        "turn": "L",
+        "relative_time": 0
+      },
+      "complete_occurrences": [
+        {
+          "copy_offset": -1,
+          "slot": 32,
+          "turn": "R",
+          "relative_time": -72
+        },
+        {
+          "copy_offset": -1,
+          "slot": 36,
+          "turn": "L",
+          "relative_time": -68
+        },
+        {
+          "copy_offset": -1,
+          "slot": 40,
+          "turn": "R",
+          "relative_time": -64
+        },
+        {
+          "copy_offset": 0,
+          "slot": 0,
+          "turn": "L",
+          "relative_time": 0
+        },
+        {
+          "copy_offset": 0,
+          "slot": 20,
+          "turn": "R",
+          "relative_time": 20
+        }
+      ]
+    }
+  ],
+  "finite_full_board_controls": [
+    {
+      "period": 1,
+      "global_time": 122,
+      "consumed_age": 8,
+      "cycle_bottleneck_birth": -1,
+      "indispensable_support_age": 123,
+      "cycle_length": 20,
+      "full_mass": 38
+    },
+    {
+      "period": 2,
+      "global_time": 226,
+      "consumed_age": 8,
+      "cycle_bottleneck_birth": -1,
+      "indispensable_support_age": 227,
+      "cycle_length": 24,
+      "full_mass": 50
+    },
+    {
+      "period": 3,
+      "global_time": 330,
+      "consumed_age": 8,
+      "cycle_bottleneck_birth": -1,
+      "indispensable_support_age": 331,
+      "cycle_length": 28,
+      "full_mass": 62
+    },
+    {
+      "period": 4,
+      "global_time": 434,
+      "consumed_age": 8,
+      "cycle_bottleneck_birth": -1,
+      "indispensable_support_age": 435,
+      "cycle_length": 32,
+      "full_mass": 74
+    },
+    {
+      "period": 5,
+      "global_time": 538,
+      "consumed_age": 8,
+      "cycle_bottleneck_birth": -1,
+      "indispensable_support_age": 539,
+      "cycle_length": 36,
+      "full_mass": 86
+    },
+    {
+      "period": 6,
+      "global_time": 642,
+      "consumed_age": 8,
+      "cycle_bottleneck_birth": -1,
+      "indispensable_support_age": 643,
+      "cycle_length": 40,
+      "full_mass": 98
+    },
+    {
+      "period": 7,
+      "global_time": 746,
+      "consumed_age": 8,
+      "cycle_bottleneck_birth": -1,
+      "indispensable_support_age": 747,
+      "cycle_length": 44,
+      "full_mass": 110
+    }
+  ]
+}

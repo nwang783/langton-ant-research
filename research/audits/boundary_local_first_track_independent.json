@@ -1,0 +1,21 @@
+{
+  "status": "PASS boundary-local cap4 extension and cap-free single-used boundary level only",
+  "proof_sha256": "3eee26b9785a7af4b759bca2e0c3c96c5018d65a4d0b1c1aff8b60613194b789",
+  "dependencies": {
+    "audits/check_mixed_first_track_pipeline_independent.json": "8ff4e2b77138f10372b4074fe93d9e0a7d28b4af32d29137f16cf4df8add9bab",
+    "audits/check_single_used_first_circle_independent.json": "01d7c9dceb9ca651427c6fe421a3e0b4817ebc28525517287a95a70b53df01ed",
+    "periodic_classification_new/cap_three_shifted_stream_height.md": "65720a4ed72bd408777d719167ef0cffb552cf680bb359e17eba1c5b2b790503"
+  },
+  "argument": [
+    "Only b-circle vertices require the complete WHITE cap4 inventory for local first-R C-maximum and m(b(v))>=m(v); finiteness of the full-drift b-cycle forces equality and constant selected c. Exterior stream integration, current partition and actual chronology need no exterior cap.",
+    "For a physical single-used outgoing first-R port, later heading ranks force A,A,-A,A,-A,... . Single-used incoming cycle port then forces singleton at RIGHT, and exactly3/4 reads at LEFT. Thus the required boundary inventory is derived without global cap. This is the signed29cce94f setting, not a new all-cap first-R maximum claim.",
+    "Single-used boundary has no LEFT copy or crossing; nonempty separated LEFT events would be successor-invariant, contradicting the one actual full-P event orbit. Entire actual support is geometric RIGHT.",
+    "Unrestricted stream integration/homology is Section1 of cap_three_shifted_stream_height, independent of its later cap3 premises. For winding -1 gamma, geometric RIGHT is global LEFT exterior; W_R=c-1-c_left=c-c_right. Entire actual current has winding1, so c=c_left+2=c_right+1. For d3,1, increasing3y-x is LEFT of+d and RIGHT of gamma."
+  ],
+  "not_claimed": [
+    "any outside multiplicity or stream-height bound",
+    "all-cap first-R maximum",
+    "bound on aggregate voltageK",
+    "controller existence or capture"
+  ]
+}

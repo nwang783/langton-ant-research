@@ -1,0 +1,851 @@
+{
+  "status": "PASS both derived local covers and cyclic-E exclusion at g8; acyclic E remains open",
+  "bindings": {
+    "G8_TWO_OUTER_ROWS_EXACT_REDUCTION.md": "d4f164cfbf1f16105abe171954249fa695e157ef3f5dff634379ae51a83d9c1b",
+    "enumerate_g8_cycle_two_outer_rows.py": "c23d88a3244eed736d1419c1da98d4e69f4cc7e9303042eed4f6c4d1daa82d78",
+    "g8_two_outer_rows_rejection_certificate.json": "34f51adc3c4e9d4482e61261510ce5c6b1371a4f59b53f1119bc071aeb8fa4be",
+    "G8_CYCLIC_E_EXCLUSION.md": "8981c7ff365b0c686a4cad9a17124cf4c1fd559e166c2d4918da7a34312f3023",
+    "G8_CYCLIC_E_EXTREME_READ_SUPPORT_ADDENDUM.md": "b24cf42aec746317d3e0ef4f6d9ccd6eb557410f89c3393736db0a009654050b",
+    "enumerate_g8_cycle_next_c_row.py": "fb755415ea0cbe3b59373f32d849d287e0469b202a960d601420bbda92f44bec",
+    "g8_next_c_row_rejection_certificate.json": "8ffb2043e8326be420a1be00a10d3553f4e36f22d2c04d0bfaf402b93e9a022a"
+  },
+  "independent_domain1": 10008,
+  "q_domain_sizes": {
+    "(2, 2)": 10,
+    "(2, 3)": 19,
+    "(3, 2)": 19,
+    "(3, 3)": 46
+  },
+  "stage1_rejections": {
+    "closed_event_component": 1494,
+    "skipped_physical_rank": 8512
+  },
+  "stage1_surviving_cases": [
+    [
+      1,
+      1,
+      23,
+      23
+    ],
+    [
+      2,
+      2,
+      23,
+      23
+    ]
+  ],
+  "stage1_surviving_Q": "SSSNNSNS",
+  "stage1_relaxed_clocks": "34 events,10 ports each direction, P140 one phase collision; NOT a physical completion",
+  "exact_lower_return_routes": [
+    {
+      "mode": 1,
+      "lane": 0,
+      "S_ordinal": 0,
+      "E_ordinal": 1,
+      "length": 4,
+      "start": [
+        0,
+        3
+      ],
+      "target": [
+        0,
+        3
+      ],
+      "path": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "mode": 1,
+      "lane": 0,
+      "S_ordinal": 1,
+      "E_ordinal": 0,
+      "length": 2,
+      "start": [
+        0,
+        3
+      ],
+      "target": [
+        1,
+        2
+      ],
+      "path": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "mode": 1,
+      "lane": 0,
+      "S_ordinal": 2,
+      "E_ordinal": 3,
+      "length": 12,
+      "start": [
+        0,
+        3
+      ],
+      "target": [
+        0,
+        3
+      ],
+      "path": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "mode": 1,
+      "lane": 0,
+      "S_ordinal": 3,
+      "E_ordinal": 2,
+      "length": 2,
+      "start": [
+        0,
+        3
+      ],
+      "target": [
+        1,
+        2
+      ],
+      "path": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "mode": 1,
+      "lane": 0,
+      "S_ordinal": 4,
+      "E_ordinal": 4,
+      "length": 2,
+      "start": [
+        0,
+        3
+      ],
+      "target": [
+        1,
+        2
+      ],
+      "path": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "mode": 1,
+      "lane": 1,
+      "S_ordinal": 0,
+      "E_ordinal": 1,
+      "length": 4,
+      "start": [
+        1,
+        2
+      ],
+      "target": [
+        1,
+        2
+      ],
+      "path": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "mode": 1,
+      "lane": 1,
+      "S_ordinal": 1,
+      "E_ordinal": 0,
+      "length": 2,
+      "start": [
+        1,
+        2
+      ],
+      "target": [
+        2,
+        1
+      ],
+      "path": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "mode": 1,
+      "lane": 1,
+      "S_ordinal": 2,
+      "E_ordinal": 3,
+      "length": 12,
+      "start": [
+        1,
+        2
+      ],
+      "target": [
+        1,
+        2
+      ],
+      "path": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "mode": 1,
+      "lane": 1,
+      "S_ordinal": 3,
+      "E_ordinal": 2,
+      "length": 2,
+      "start": [
+        1,
+        2
+      ],
+      "target": [
+        2,
+        1
+      ],
+      "path": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "mode": 1,
+      "lane": 1,
+      "S_ordinal": 4,
+      "E_ordinal": 4,
+      "length": 2,
+      "start": [
+        1,
+        2
+      ],
+      "target": [
+        2,
+        1
+      ],
+      "path": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "mode": 2,
+      "lane": 0,
+      "S_ordinal": 0,
+      "E_ordinal": 1,
+      "length": 12,
+      "start": [
+        0,
+        3
+      ],
+      "target": [
+        0,
+        3
+      ],
+      "path": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "mode": 2,
+      "lane": 0,
+      "S_ordinal": 1,
+      "E_ordinal": 0,
+      "length": 2,
+      "start": [
+        0,
+        3
+      ],
+      "target": [
+        1,
+        2
+      ],
+      "path": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "mode": 2,
+      "lane": 0,
+      "S_ordinal": 2,
+      "E_ordinal": 3,
+      "length": 4,
+      "start": [
+        0,
+        3
+      ],
+      "target": [
+        0,
+        3
+      ],
+      "path": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "mode": 2,
+      "lane": 0,
+      "S_ordinal": 3,
+      "E_ordinal": 2,
+      "length": 2,
+      "start": [
+        0,
+        3
+      ],
+      "target": [
+        1,
+        2
+      ],
+      "path": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "mode": 2,
+      "lane": 0,
+      "S_ordinal": 4,
+      "E_ordinal": 4,
+      "length": 2,
+      "start": [
+        0,
+        3
+      ],
+      "target": [
+        1,
+        2
+      ],
+      "path": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "mode": 2,
+      "lane": 1,
+      "S_ordinal": 0,
+      "E_ordinal": 1,
+      "length": 12,
+      "start": [
+        1,
+        2
+      ],
+      "target": [
+        1,
+        2
+      ],
+      "path": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "mode": 2,
+      "lane": 1,
+      "S_ordinal": 1,
+      "E_ordinal": 0,
+      "length": 2,
+      "start": [
+        1,
+        2
+      ],
+      "target": [
+        2,
+        1
+      ],
+      "path": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "mode": 2,
+      "lane": 1,
+      "S_ordinal": 2,
+      "E_ordinal": 3,
+      "length": 4,
+      "start": [
+        1,
+        2
+      ],
+      "target": [
+        1,
+        2
+      ],
+      "path": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "mode": 2,
+      "lane": 1,
+      "S_ordinal": 3,
+      "E_ordinal": 2,
+      "length": 2,
+      "start": [
+        1,
+        2
+      ],
+      "target": [
+        2,
+        1
+      ],
+      "path": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "mode": 2,
+      "lane": 1,
+      "S_ordinal": 4,
+      "E_ordinal": 4,
+      "length": 2,
+      "start": [
+        1,
+        2
+      ],
+      "target": [
+        2,
+        1
+      ],
+      "path": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  ],
+  "single_C_count_domain": 2498,
+  "single_C_filtered_domain": 25,
+  "single_C_length_distribution": {
+    "8": 3,
+    "9": 4,
+    "12": 9,
+    "13": 9
+  },
+  "independent_domain2": 1250,
+  "stage2_rejections": {
+    "skipped_physical_rank": 912,
+    "odd_budget_exhausted_before_upper_exit": 338
+  },
+  "longest_checked_witness_event_count": 16,
+  "literal_read_extreme_modes": {
+    "0": [
+      [
+        "N",
+        "L",
+        "W"
+      ]
+    ],
+    "1": [
+      [
+        "E",
+        "R",
+        "S"
+      ]
+    ]
+  },
+  "analytic_review": [
+    "Complete WHITE physical histories begin R and alternate. Exact sector plus directed-port totals derive all finite word bounds. No imposed global visit, period, width, or outside-field bound enters either cover. Higher ports remain open.",
+    "Every witness edge was reconstructed from the actual outgoing heading, spatial neighbor, full drift d=(2,-2), and full port occurrence ordinal. Each supplied rejection is independently checked as a closed successor component with all its predecessors fixed, or a contiguous lifted physical segment skipping a complete same-cell read rank. In a complete full event permutation no external event can splice into either witness.",
+    "A closed internal event component cannot be the whole period: at least two odd classes are still required outside the first patch. Nonzero voltage does not relax closure of the finite event permutation. A skipped rank is tested at the SAME physical cell after accumulated full-drift shifts, not just a quotient representative.",
+    "The two surviving lower assignments independently give literal return paths from row3 S ports0/2 to E ports1/3, durations4/12 interchanged between YY and ZZ. Every intermediate read has level<=2, so these are actual first returns to each same physical row3 cell. Rank adjacency follows regardless of its initial departure turn.",
+    "After the lower forcing six odd classes are fixed. In all338 odd/odd final cases eight odd classes are already named, and row3 has four or eight outgoing N uses, forcing READS at level4. The complete bi-infinite read footprint of a finite event period has finite maximum x+y, because full drift preserves x+y. Every read there arrives from below and leaves below. Sector makes an even maximum all L, impossible for a WHITE first read, and an odd maximum all R, hence singleton by alternation. Thus a ninth odd class occurs at odd level>=5. This uses READ support, not potential, black field, wake, chosen patch, or cropped-time endpoints.",
+    "With previously signed extremal residue and boundary geometry, every possible cyclic E at growth8 is normalized by genuine quarter rotations to this branch. Both complete local covers eliminate it at all periods and widths. Therefore growth8 E is acyclic (paths and isolated vertices). This does NOT exclude acyclic growth8 fronts, imply growth>=12, classify autonomous controllers, or prove finite-seed attraction."
+  ]
+}

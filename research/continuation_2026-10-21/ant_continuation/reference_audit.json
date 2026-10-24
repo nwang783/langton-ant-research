@@ -1,0 +1,32 @@
+{
+  "core_cells": 13,
+  "deposit_cells": 12,
+  "period": 104,
+  "ten_factors": 84,
+  "core_infinite_certificate": {
+    "period": 104,
+    "drift": [
+      2,
+      -2
+    ],
+    "breakpoints": 170
+  },
+  "source_recurrence": "exact disjoint identity passed",
+  "deposit_full_translation_classes": "distinct; all backward deposits avoid P",
+  "blank_time": 9977,
+  "blank_complete_mass": 715,
+  "blank_infinite_certificate": {
+    "period": 104,
+    "drift": [
+      -2,
+      -2
+    ],
+    "breakpoints": 170
+  },
+  "negative_controls": [
+    "wrong current bit rejected",
+    "altered word rejected",
+    "blocker at 10^30 periods rejected"
+  ],
+  "positive_control": "remote cell off every future phase ray accepted"
+}

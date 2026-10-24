@@ -1,0 +1,81 @@
+{
+  "status": "PASS all-cap chronological lifetime boundary graph, actual controls and28 necessary types only",
+  "script": "2c4c1c24354bb56d0fa4e9475f6d3ce63ebdc3f3a3b5f20d34ad41784025216d",
+  "files": {
+    "CHRONOLOGICAL_LIFETIME_BOUNDARY_GRAPH.md": "d2161fb988c98377726bbacccb561a6856bb89e8d4323b6746ba807e72181e5d",
+    "lifetime_boundary_graph.py": "b15a34eb8e94dc2c1aa87fcbc29dc7d79b6645ed7e28a94505d04769b5e225df",
+    "certify_lifetime_boundary_graph.py": "0dc234345a2c9b10f1353d296dfa68b7fef96f2a1d143cc9a7131327ce8695f1",
+    "lifetime_boundary_graph_certificate.json": "ef020ae604b07dbdb20f442ab5a874f6f3141f5d1a05a488e7900e81297233bb"
+  },
+  "controls": [
+    {
+      "name": "S104",
+      "P": 104,
+      "drift": [
+        -2,
+        2
+      ],
+      "input_roots": 0,
+      "output_roots": 12,
+      "boundary_paths": 12,
+      "internal_cycles": 5,
+      "internal_lengths": {
+        "14": 1,
+        "2": 4
+      },
+      "root_cycles": 1,
+      "fibres_with_passive_strands": 4
+    },
+    {
+      "name": "P1564",
+      "P": 1564,
+      "drift": [
+        14,
+        14
+      ],
+      "input_roots": 197,
+      "output_roots": 301,
+      "boundary_paths": 498,
+      "internal_cycles": 26,
+      "internal_lengths": {
+        "2": 23,
+        "10": 2,
+        "4": 1
+      },
+      "root_cycles": 9,
+      "fibres_with_passive_strands": 28
+    },
+    {
+      "name": "Q4352",
+      "P": 4352,
+      "drift": [
+        26,
+        -26
+      ],
+      "input_roots": 406,
+      "output_roots": 590,
+      "boundary_paths": 996,
+      "internal_cycles": 123,
+      "internal_lengths": {
+        "2": 101,
+        "6": 4,
+        "8": 4,
+        "4": 11,
+        "12": 1,
+        "16": 1,
+        "10": 1
+      },
+      "root_cycles": 16,
+      "fibres_with_passive_strands": 52
+    }
+  ],
+  "analytic_review": [
+    "Alternating physical lifetimes are disjoint time intervals at each cell; every same-cell read has the same arrival axis. Each read has exactly one incident horizontal and one incident vertical actual move across the two fibre constructions. Unit moves cannot cross integer-position lifetimes in their interiors; consecutive moves cannot have the same axis. This proves embedded fibre graphs at all read multiplicities.",
+    "Nonzero drift in BOTH coordinates makes each physical row and column contain finitely many complete reads. Paths and Jordan cycles have exactly the stated input/output ray endpoints. BLACK-first even histories retain distinct input and output endpoints at the same physical cell; passive unread BLACK strands are retained in prepared controls.",
+    "Compressing vertical-arrival lifetimes through their horizontal outgoing moves gives sigma alpha sigma^-1 on horizontal-arrival reads, with exact seam voltage ki-kj+seam(j)-seam(i). No ant splice or actual deletion occurs. Missing beta endpoints pull back through sigma^-1 with the seam shift.",
+    "Each WHITE permanent output has one H and one V endpoint, producing g vertices and g edges. Both drift coordinates nonzero preclude a same-orbit single-fibre loop. Quotient internal cycles have zero voltage because they stay on one physical fibre; standard104 has five genuine internal cycles. Their deletion is NOT licensed.",
+    "Every actual ant step occurs once in the projected fibre graphs. Lifetime arcs have zero spatial projection and internal loops have zero voltage, so boundary total winding is1 modulo2. No signed integer total, unit winding, single boundary cycle or global spatial noncrossing follows.",
+    "The full middle-short odd levels are strictly ordered for3<=c<=a, including a=c. Row matchings are Catalan4=14; column groups2/4/2 give2 choices. All28 affine edge-voltage types and their parity are independently rebuilt. The complete state is not finite: internal traffic, clocks and lifetime spans remain unbounded.",
+    "Prepared1564/4352 complete initial/output class fields, finite XOR caps and223/62 passive classes were reconstructed from signed normal forms. These remain infinite prepared backgrounds with actual input obligations, not finite-seed controllers. No novelty claim or unrestricted classification is signed."
+  ]
+}

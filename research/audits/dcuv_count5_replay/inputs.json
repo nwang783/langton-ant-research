@@ -1,0 +1,51 @@
+{
+  "frozen_manifest_sha256": "dab3a89d9400457cbe52061ead3938b00e0e2cf9752e57db603762795a6c6a3f",
+  "all_frozen_hashes_verified": true,
+  "signed_IE_hashes_verified": true,
+  "literal_words_and_right_markers_equal": true,
+  "signed_protected_base_equal": 336516,
+  "ordinary_base": 0,
+  "changes": [
+    [
+      "r.k>4",
+      "r.k>5"
+    ],
+    [
+      "min(k,4)",
+      "min(k,5)"
+    ],
+    [
+      "return k==4||",
+      "return k==5||"
+    ],
+    [
+      "if(k==4)return true",
+      "if(k==5)return true"
+    ],
+    [
+      "u<=4",
+      "u<=5"
+    ],
+    [
+      "k<=4",
+      "k<=5"
+    ],
+    [
+      "l<=4",
+      "l<=5"
+    ],
+    [
+      "graph[20]",
+      "graph[24]"
+    ],
+    [
+      "for(int k=0;k<4;k++)for(int c=0;c<4;c++)graph",
+      "for(int k=0;k<5;k++)for(int c=0;c<4;c++)graph"
+    ],
+    [
+      "for(int i=0;i<20;i++)for(int v=0;v<20;v++)",
+      "for(int i=0;i<24;i++)for(int v=0;v<24;v++)"
+    ]
+  ],
+  "checker_sha256": "203a0f38fb2ca5f26bcf4decb07bd4384b75fb8a69740606d2f2d0d6577072da"
+}

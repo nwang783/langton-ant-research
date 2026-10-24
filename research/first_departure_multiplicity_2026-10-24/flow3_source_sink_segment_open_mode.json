@@ -1,0 +1,307 @@
+{
+  "scope": "One symbolic maximal flow-three source-to-sink mode with its exterior supply.\nComplete named WHITE histories, exact physical ordinals and integer clocks.\nNo exterior board, front, event period or global completion is asserted.\n",
+  "named_histories": [
+    {
+      "cell": [
+        0,
+        1
+      ],
+      "history": "EWE",
+      "clocks": [
+        0,
+        12,
+        16
+      ]
+    },
+    {
+      "cell": [
+        0,
+        0
+      ],
+      "history": "NSSS",
+      "clocks": [
+        -3,
+        1,
+        13,
+        17
+      ]
+    },
+    {
+      "cell": [
+        1,
+        0
+      ],
+      "history": "EEE",
+      "clocks": [
+        -2,
+        2,
+        18
+      ]
+    },
+    {
+      "cell": [
+        1,
+        1
+      ],
+      "history": "NSS",
+      "clocks": [
+        3,
+        7,
+        11
+      ]
+    }
+  ],
+  "all_internal_edges": [
+    {
+      "source": [
+        0,
+        1
+      ],
+      "source_rank": 0,
+      "target": [
+        0,
+        0
+      ],
+      "target_rank": 1,
+      "ordinal": 1
+    },
+    {
+      "source": [
+        0,
+        1
+      ],
+      "source_rank": 1,
+      "target": [
+        0,
+        0
+      ],
+      "target_rank": 2,
+      "ordinal": 2
+    },
+    {
+      "source": [
+        0,
+        1
+      ],
+      "source_rank": 2,
+      "target": [
+        0,
+        0
+      ],
+      "target_rank": 3,
+      "ordinal": 3
+    },
+    {
+      "source": [
+        0,
+        0
+      ],
+      "source_rank": 0,
+      "target": [
+        1,
+        0
+      ],
+      "target_rank": 0,
+      "ordinal": 1
+    },
+    {
+      "source": [
+        0,
+        0
+      ],
+      "source_rank": 1,
+      "target": [
+        1,
+        0
+      ],
+      "target_rank": 1,
+      "ordinal": 2
+    },
+    {
+      "source": [
+        0,
+        0
+      ],
+      "source_rank": 3,
+      "target": [
+        1,
+        0
+      ],
+      "target_rank": 2,
+      "ordinal": 3
+    },
+    {
+      "source": [
+        1,
+        0
+      ],
+      "source_rank": 1,
+      "target": [
+        1,
+        1
+      ],
+      "target_rank": 0,
+      "ordinal": 1
+    },
+    {
+      "source": [
+        1,
+        1
+      ],
+      "source_rank": 2,
+      "target": [
+        0,
+        1
+      ],
+      "target_rank": 1,
+      "ordinal": 1
+    }
+  ],
+  "all_outgoing_open_ports": [
+    {
+      "source": [
+        0,
+        0
+      ],
+      "rank": 2,
+      "target": [
+        -1,
+        0
+      ],
+      "heading": "W",
+      "ordinal": 1,
+      "departure_time": 13
+    },
+    {
+      "source": [
+        1,
+        0
+      ],
+      "rank": 0,
+      "target": [
+        1,
+        -1
+      ],
+      "heading": "S",
+      "ordinal": 1,
+      "departure_time": -2
+    },
+    {
+      "source": [
+        1,
+        0
+      ],
+      "rank": 2,
+      "target": [
+        1,
+        -1
+      ],
+      "heading": "S",
+      "ordinal": 2,
+      "departure_time": 18
+    },
+    {
+      "source": [
+        1,
+        1
+      ],
+      "rank": 0,
+      "target": [
+        2,
+        1
+      ],
+      "heading": "E",
+      "ordinal": 1,
+      "departure_time": 3
+    },
+    {
+      "source": [
+        1,
+        1
+      ],
+      "rank": 1,
+      "target": [
+        2,
+        1
+      ],
+      "heading": "E",
+      "ordinal": 2,
+      "departure_time": 7
+    }
+  ],
+  "all_incoming_open_ports": [
+    {
+      "source": [
+        -1,
+        1
+      ],
+      "target": [
+        0,
+        1
+      ],
+      "rank": 0,
+      "heading": "E",
+      "ordinal": 1,
+      "arrival_time": 0
+    },
+    {
+      "source": [
+        -1,
+        1
+      ],
+      "target": [
+        0,
+        1
+      ],
+      "rank": 2,
+      "heading": "E",
+      "ordinal": 2,
+      "arrival_time": 16
+    },
+    {
+      "source": [
+        0,
+        -1
+      ],
+      "target": [
+        0,
+        0
+      ],
+      "rank": 0,
+      "heading": "N",
+      "ordinal": 1,
+      "arrival_time": -3
+    },
+    {
+      "source": [
+        1,
+        2
+      ],
+      "target": [
+        1,
+        1
+      ],
+      "rank": 1,
+      "heading": "S",
+      "ordinal": 1,
+      "arrival_time": 7
+    },
+    {
+      "source": [
+        1,
+        2
+      ],
+      "target": [
+        1,
+        1
+      ],
+      "rank": 2,
+      "heading": "S",
+      "ordinal": 2,
+      "arrival_time": 11
+    }
+  ],
+  "symbolic_obligation": "For source first-read alpha and L1 gap a, helper N first occurs at alpha+3 and its W departure at alpha+a-1. WHITE requires helper NSS or NSSS and a>=12.",
+  "depth_obligation": "Right C level is c on the G3 source/left-gate/sink path. Helper has both C=c-2 and opposite L=c-4 (NSS) or c-5 (NSSS), so the path low-L component is not locally minimal.",
+  "limitations": "A finite exact partial rank/port/time network only. It is NOT a physical seed factor, shared global board, full WHITE front, closed departure cycle or proof that this open mode has an exterior completion."
+}

@@ -1,0 +1,151 @@
+{
+  "scope": "Exact ordinal core of the all-case LL post-X RR-cap gate.\nThe signed cyclic inventory and LEFT-role reductions are human dependencies;\nall physical readers used in the final contradiction are retained below.\n",
+  "all_C_histories": [
+    "EEWW",
+    "EWWE"
+  ],
+  "rows": [
+    {
+      "R": "NNS",
+      "C": "EEWW",
+      "second_E_arrival_rank": 1,
+      "second_N_departure_rank": 2,
+      "exact_edges": [
+        [
+          "X",
+          3,
+          "B",
+          1
+        ],
+        [
+          "B",
+          3,
+          "C",
+          1
+        ],
+        [
+          "C",
+          2,
+          "R",
+          1
+        ],
+        [
+          "R",
+          1,
+          "X",
+          2
+        ]
+      ],
+      "forced_comparison": "second_N(C)=T2(X)-2<T3(X)<second_E(C)",
+      "complete_history_comparison": "second_E(C)<=second_N(C)",
+      "contradiction": true
+    },
+    {
+      "R": "NNS",
+      "C": "EWWE",
+      "second_E_arrival_rank": 3,
+      "second_N_departure_rank": 3,
+      "exact_edges": [
+        [
+          "X",
+          3,
+          "B",
+          1
+        ],
+        [
+          "B",
+          3,
+          "C",
+          3
+        ],
+        [
+          "C",
+          3,
+          "R",
+          1
+        ],
+        [
+          "R",
+          1,
+          "X",
+          2
+        ]
+      ],
+      "forced_comparison": "second_N(C)=T2(X)-2<T3(X)<second_E(C)",
+      "complete_history_comparison": "second_E(C)<=second_N(C)",
+      "contradiction": true
+    },
+    {
+      "R": "NNSS",
+      "C": "EEWW",
+      "second_E_arrival_rank": 1,
+      "second_N_departure_rank": 2,
+      "exact_edges": [
+        [
+          "X",
+          3,
+          "B",
+          1
+        ],
+        [
+          "B",
+          3,
+          "C",
+          1
+        ],
+        [
+          "C",
+          2,
+          "R",
+          1
+        ],
+        [
+          "R",
+          1,
+          "X",
+          2
+        ]
+      ],
+      "forced_comparison": "second_N(C)=T2(X)-2<T3(X)<second_E(C)",
+      "complete_history_comparison": "second_E(C)<=second_N(C)",
+      "contradiction": true
+    },
+    {
+      "R": "NNSS",
+      "C": "EWWE",
+      "second_E_arrival_rank": 3,
+      "second_N_departure_rank": 3,
+      "exact_edges": [
+        [
+          "X",
+          3,
+          "B",
+          1
+        ],
+        [
+          "B",
+          3,
+          "C",
+          3
+        ],
+        [
+          "C",
+          3,
+          "R",
+          1
+        ],
+        [
+          "R",
+          1,
+          "X",
+          2
+        ]
+      ],
+      "forced_comparison": "second_N(C)=T2(X)-2<T3(X)<second_E(C)",
+      "complete_history_comparison": "second_E(C)<=second_N(C)",
+      "contradiction": true
+    }
+  ],
+  "all_four_contradictions": true,
+  "warning": "The signed six-profile dependency supplies R; no exterior completion or full front is constructed."
+}

@@ -1,0 +1,1 @@
+UNCOMPLETED DRAFT. No manifest was produced because the first context assertion failed. Do not use these copied draft files as a theorem or audit input. The corrected complete bundle is six_mask_short_return_buds_frozen_20261023_2046/manifest.json.

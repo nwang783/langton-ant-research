@@ -1,0 +1,63 @@
+{
+  "status": "Provisional entire-prefix record event closures; independent generator/model audit required",
+  "profile": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/profile_recurrent8.json",
+  "profile_sha256": "065967d82f1f8b406f85744f3f7a0c68b0a8cfa4caf5bbcc5f2c90ffadcd158f",
+  "potential": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/record_head_offset_search/head_1_1.json",
+  "potential_sha256": "1d143a86a3505e5fdd50668119446e990a7643811c1fb3cb5032ae1f52c96c78",
+  "generator": "/workspace/shared/langton/core_periodicity_new/generate_resource_global_record_snapshot0329.py",
+  "generator_sha256": "1601c7bc1da13cf25698ff5240debc528e07fd2e20acdca3314a1d7e6829286b",
+  "events": [
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      3
+    ]
+  ],
+  "results": [
+    {
+      "target": 4,
+      "phase": 0,
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/global_record_v_vc_0329/target4_phase0",
+      "returncode": 0,
+      "result": "status EXHAUSTED_NO_HIT states 64915904 depth 9 nodes 621\n",
+      "seconds": 0.6807959079742432,
+      "verified": true
+    },
+    {
+      "target": 4,
+      "phase": 1,
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/global_record_v_vc_0329/target4_phase1",
+      "returncode": 2,
+      "result": "status CAP_OR_ERROR reason node cap\n",
+      "seconds": 6.203693151473999
+    },
+    {
+      "target": 5,
+      "phase": 0,
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/global_record_v_vc_0329/target5_phase0",
+      "returncode": 0,
+      "result": "status EXHAUSTED_NO_HIT states 29665168148 depth 52 nodes 133352\n",
+      "seconds": 2.0564777851104736,
+      "verified": true
+    },
+    {
+      "target": 5,
+      "phase": 3,
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/global_record_v_vc_0329/target5_phase3",
+      "returncode": 2,
+      "result": "status CAP_OR_ERROR reason node cap\n",
+      "seconds": 7.375072002410889
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "status": "PASS independent finite-base physical traces, every tested terminal read and exact all-depth decisions",
+  "models": [
+    {
+      "name": "identity",
+      "full_frame_verdict": {
+        "possible": true,
+        "frame_checks": 4,
+        "base_reads": 8,
+        "nested_root": true,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "seed": [
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "canonical_references": 1,
+      "literal_coordinate_checks": 1452,
+      "genuine_schemes": 2,
+      "terminal_prefix_parities": 32,
+      "generated_decision": {
+        "processed_schemes": 2,
+        "terminal_read_schemes": 16,
+        "last_base_length": 1,
+        "theoretical_base_bound": 1,
+        "status": "decided",
+        "possible": true,
+        "complete_generated_cover": true,
+        "candidate_seed": [
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "given_seed_validation": {
+          "possible": true,
+          "frame_checks": 4,
+          "base_reads": 8,
+          "nested_root": true,
+          "growing_root": false,
+          "accepted_growing_model": false,
+          "seed": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        "seconds": 0.02624575499794446
+      }
+    },
+    {
+      "name": "two_cycle",
+      "full_frame_verdict": {
+        "possible": true,
+        "frame_checks": 8,
+        "base_reads": 16,
+        "nested_root": false,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "seed": [
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "canonical_references": 2,
+      "literal_coordinate_checks": 2904,
+      "genuine_schemes": 3,
+      "terminal_prefix_parities": 40,
+      "generated_decision": {
+        "processed_schemes": 6,
+        "terminal_read_schemes": 48,
+        "last_base_length": 5,
+        "theoretical_base_bound": 5,
+        "status": "decided",
+        "possible": true,
+        "complete_generated_cover": true,
+        "candidate_seed": [
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "given_seed_validation": {
+          "possible": true,
+          "frame_checks": 8,
+          "base_reads": 16,
+          "nested_root": false,
+          "growing_root": false,
+          "accepted_growing_model": false,
+          "seed": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        "seconds": 0.11296921399480198
+      }
+    },
+    {
+      "name": "branching_zero",
+      "full_frame_verdict": {
+        "possible": false,
+        "reason": "all-depth macro frame disagreement",
+        "state": 0,
+        "child_index": 1,
+        "witness": {
+          "r": 0,
+          "x": 0,
+          "y": 0
+        },
+        "frame_checks": 2,
+        "base_reads": 4
+      },
+      "canonical_references": 1,
+      "literal_coordinate_checks": 1452,
+      "genuine_schemes": 7,
+      "terminal_prefix_parities": 124,
+      "generated_decision": {
+        "processed_schemes": 3,
+        "terminal_read_schemes": 9,
+        "last_base_length": 1,
+        "theoretical_base_bound": 2,
+        "status": "decided",
+        "possible": false,
+        "early_certificate": {
+          "reason": "conflicting genuine macro requirements",
+          "signs": [
+            1,
+            1
+          ],
+          "witness": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        "seconds": 0.009575186995789409
+      }
+    },
+    {
+      "name": "illegal_zero_parity",
+      "full_frame_verdict": {
+        "possible": false,
+        "reason": "canonical literal base-word turn",
+        "state": 0,
+        "base_read": 4,
+        "frame_checks": 0,
+        "base_reads": 5
+      },
+      "canonical_references": 1,
+      "literal_coordinate_checks": 1452,
+      "genuine_schemes": 2,
+      "terminal_prefix_parities": 32
+    },
+    {
+      "name": "transient",
+      "full_frame_verdict": {
+        "possible": true,
+        "frame_checks": 16,
+        "base_reads": 16,
+        "nested_root": false,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "seed": [
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "canonical_references": 3,
+      "literal_coordinate_checks": 4356,
+      "genuine_schemes": 5,
+      "terminal_prefix_parities": 40,
+      "generated_decision": {
+        "processed_schemes": 29,
+        "terminal_read_schemes": 120,
+        "last_base_length": 14,
+        "theoretical_base_bound": 14,
+        "status": "decided",
+        "possible": true,
+        "complete_generated_cover": true,
+        "candidate_seed": [
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "given_seed_validation": {
+          "possible": true,
+          "frame_checks": 16,
+          "base_reads": 16,
+          "nested_root": false,
+          "growing_root": false,
+          "accepted_growing_model": false,
+          "seed": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        "seconds": 0.24398613300581928
+      }
+    },
+    {
+      "name": "revisited_prefix",
+      "full_frame_verdict": {
+        "possible": true,
+        "frame_checks": 40,
+        "base_reads": 24,
+        "nested_root": false,
+        "growing_root": false,
+        "accepted_growing_model": false,
+        "seed": [
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "canonical_references": 6,
+      "literal_coordinate_checks": 8712,
+      "genuine_schemes": 11,
+      "terminal_prefix_parities": 60,
+      "generated_decision": {
+        "processed_schemes": 326,
+        "terminal_read_schemes": 792,
+        "last_base_length": 65,
+        "theoretical_base_bound": 65,
+        "status": "decided",
+        "possible": true,
+        "complete_generated_cover": true,
+        "candidate_seed": [
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "given_seed_validation": {
+          "possible": true,
+          "frame_checks": 40,
+          "base_reads": 24,
+          "nested_root": false,
+          "growing_root": false,
+          "accepted_growing_model": false,
+          "seed": [
+            [
+              -1,
+              1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        "seconds": 1.011548006994417
+      }
+    },
+    {
+      "name": "nested_branch",
+      "full_frame_verdict": {
+        "possible": false,
+        "reason": "all-depth macro frame disagreement",
+        "state": 1,
+        "child_index": 1,
+        "witness": {
+          "r": 0,
+          "x": 0,
+          "y": 0
+        },
+        "frame_checks": 2,
+        "base_reads": 8
+      },
+      "canonical_references": 2,
+      "literal_coordinate_checks": 2904,
+      "genuine_schemes": 7,
+      "terminal_prefix_parities": 68
+    }
+  ],
+  "seconds": 1.971359113988001,
+  "subject_sha256": "2a5a4fc9e2f32eaa7d89180beb732497efe08e7ef756ab3988c067a5784ca81f",
+  "scope": "General branching additive-I finite-base macro realization. Positive controls nongrowing; no ant capture theorem."
+}

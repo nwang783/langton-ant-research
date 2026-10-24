@@ -1,0 +1,38 @@
+{
+  "status": "independent five-label union capture bridge verified",
+  "allowed_K_labels": [
+    "LLRLRLLRRLL",
+    "RRRLLRLLRLR",
+    "RRRLRRRRLRL",
+    "RRRLRRRRLRR",
+    "RRRRLRLLRLL"
+  ],
+  "initial_nodes": 19290,
+  "initial_max_unmarked_depth": 90,
+  "total_nodes": 20679,
+  "max_unmarked_depth": 91,
+  "raw_returns": 69,
+  "marker_compatible_four_paths_tested_without_prefix_pruning": 87307,
+  "physically_feasible_four_histories": 3493,
+  "history_vertices": 887,
+  "component_sizes": [
+    43,
+    65
+  ],
+  "component_internal_edges": [
+    85,
+    210
+  ],
+  "component_K_label_sets": [
+    [
+      "RRRLLRLLRLR"
+    ],
+    [
+      "RRRLRRRRLRR"
+    ]
+  ],
+  "full_contracted_DAG_vertices": 781,
+  "seconds": 1.4325528144836426,
+  "theorem": "For every finite ant seed, capture iff only finitely many K events have labels outside this five-element set. This does not prove universal finiteness of the residual events.",
+  "manifest_sha256": "625d9feaf407e2f1bf4cf9353172832dfcc77f47bac787a3e0975e4c7363f9a1"
+}

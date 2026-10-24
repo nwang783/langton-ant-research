@@ -1,0 +1,113 @@
+{
+  "status": "PASS independent physical successor and chronology reconstruction, explicitly nonvacuous in both sectors",
+  "controls": [
+    {
+      "period": 104,
+      "full_drift": [
+        2,
+        2
+      ],
+      "start": [
+        -1,
+        0
+      ],
+      "incoming": 0,
+      "windows": 27,
+      "nonempty_windows": 27,
+      "matched_nonempty_arcs": 196,
+      "matched_event_successors": 580,
+      "first_physical_returns": 92
+    },
+    {
+      "period": 104,
+      "full_drift": [
+        2,
+        -2
+      ],
+      "start": [
+        0,
+        0
+      ],
+      "incoming": 1,
+      "windows": 27,
+      "nonempty_windows": 27,
+      "matched_nonempty_arcs": 196,
+      "matched_event_successors": 580,
+      "first_physical_returns": 92
+    },
+    {
+      "period": 208,
+      "full_drift": [
+        4,
+        4
+      ],
+      "start": [
+        -1,
+        0
+      ],
+      "incoming": 0,
+      "windows": 27,
+      "nonempty_windows": 27,
+      "matched_nonempty_arcs": 392,
+      "matched_event_successors": 1160,
+      "first_physical_returns": 184
+    },
+    {
+      "period": 208,
+      "full_drift": [
+        4,
+        -4
+      ],
+      "start": [
+        0,
+        0
+      ],
+      "incoming": 1,
+      "windows": 27,
+      "nonempty_windows": 27,
+      "matched_nonempty_arcs": 392,
+      "matched_event_successors": 1160,
+      "first_physical_returns": 184
+    },
+    {
+      "period": 312,
+      "full_drift": [
+        6,
+        6
+      ],
+      "start": [
+        -1,
+        0
+      ],
+      "incoming": 0,
+      "windows": 27,
+      "nonempty_windows": 27,
+      "matched_nonempty_arcs": 588,
+      "matched_event_successors": 1740,
+      "first_physical_returns": 276
+    },
+    {
+      "period": 312,
+      "full_drift": [
+        6,
+        -6
+      ],
+      "start": [
+        0,
+        0
+      ],
+      "incoming": 1,
+      "windows": 27,
+      "nonempty_windows": 27,
+      "matched_nonempty_arcs": 588,
+      "matched_event_successors": 1740,
+      "first_physical_returns": 276
+    }
+  ],
+  "corrects": "Earlier negative-slope author and audit implementation positives used incompatible geometry sector; physical ref was nonvacuous but tested geometry path could be empty. No exclusion graph depended on those positives.",
+  "hashes": {
+    "check_general_windows_positive_corrected.py": "edfdeec54f9bd25850e85a910366b46ea77e9cc5380a10618ecc0b48977f71d2",
+    "general_windows_positive_corrected.json": "a056e4dccc85b88f0e3fca63ba215363eec6a0e7754b6dd1c4b59b427235977f",
+    "general_first_return_window.py": "60bfad5b93ed8f3e2677f0a8c6cacac993e3abcd4b2ca3bec564e549c449e165"
+  }
+}

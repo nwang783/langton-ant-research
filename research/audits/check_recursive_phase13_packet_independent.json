@@ -1,0 +1,192 @@
+{
+  "status": "PASS all finite two-mode phase13 packet words and all gaps>=100 with entire-field advancing guards",
+  "manifest": "6ddc626c03632dbaa1d11a4cdfc487b112d4c15bb8d9638d79dfc2fade266220",
+  "script": "a4f64817653e7a9ea7ddff36305420d5b43bfa88cfa37b7002a33e6499d23e22",
+  "modes": {
+    "S": {
+      "seed": 24,
+      "relevant": 14,
+      "radius": 5,
+      "old_inputs": 13,
+      "recovery": 312,
+      "tail_tests": 177,
+      "full_output": 62
+    },
+    "M": {
+      "seed": 147,
+      "relevant": 126,
+      "radius": 22,
+      "old_inputs": 122,
+      "recovery": 10712,
+      "tail_tests": 158,
+      "full_output": 719
+    }
+  },
+  "source_interfaces": 2,
+  "pair_interfaces": 4,
+  "complete_control_reads": 280374,
+  "controls": [
+    {
+      "modes": "M",
+      "gaps": [
+        100
+      ],
+      "reads": 21125,
+      "initial_black": 17,
+      "full_terminal": 1788,
+      "relevant_counts": [
+        126
+      ],
+      "radii": [
+        22
+      ],
+      "potentials": [
+        0
+      ],
+      "tail_checks": 158
+    },
+    {
+      "modes": "MM",
+      "gaps": [
+        100,
+        100
+      ],
+      "reads": 42313,
+      "initial_black": 21,
+      "full_terminal": 3568,
+      "relevant_counts": [
+        130,
+        126
+      ],
+      "radii": [
+        244,
+        22
+      ],
+      "potentials": [
+        222,
+        0
+      ],
+      "tail_checks": 158
+    },
+    {
+      "modes": "SMMS",
+      "gaps": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "reads": 63833,
+      "initial_black": 23,
+      "full_terminal": 6048,
+      "relevant_counts": [
+        23,
+        131,
+        127,
+        14
+      ],
+      "radii": [
+        662,
+        456,
+        228,
+        5
+      ],
+      "potentials": [
+        640,
+        434,
+        206,
+        0
+      ],
+      "tail_checks": 177
+    },
+    {
+      "modes": "MSM",
+      "gaps": [
+        100,
+        100,
+        100
+      ],
+      "reads": 53045,
+      "initial_black": 22,
+      "full_terminal": 4805,
+      "relevant_counts": [
+        131,
+        18,
+        126
+      ],
+      "radii": [
+        450,
+        222,
+        22
+      ],
+      "potentials": [
+        428,
+        200,
+        0
+      ],
+      "tail_checks": 158
+    },
+    {
+      "modes": "SSM",
+      "gaps": [
+        100,
+        100,
+        100
+      ],
+      "reads": 42589,
+      "initial_black": 19,
+      "full_terminal": 4262,
+      "relevant_counts": [
+        19,
+        18,
+        126
+      ],
+      "radii": [
+        428,
+        222,
+        22
+      ],
+      "potentials": [
+        406,
+        200,
+        0
+      ],
+      "tail_checks": 158
+    },
+    {
+      "modes": "MMS",
+      "gaps": [
+        101,
+        137,
+        104
+      ],
+      "reads": 57469,
+      "initial_black": 26,
+      "full_terminal": 5319,
+      "relevant_counts": [
+        131,
+        127,
+        14
+      ],
+      "radii": [
+        538,
+        236,
+        5
+      ],
+      "potentials": [
+        516,
+        214,
+        0
+      ],
+      "tail_checks": 177
+    }
+  ],
+  "analytic_review": [
+    "Both actual full mature kernels are reconstructed from all prior104 phase-ray XORs, not from supplied local masks. The literal S312/M10712 words, exact phase97/41 endpoints, full62/719 outputs and every infinite parity condition pass. Every local initial relevant bit dies within its own recovery; whole comparisonC* is14/r5 or126/r22, with all122 old imports retained inM.",
+    "Phase13 freshness is an exact104-phase ray equality whose only offsets are13,17,25. Complete initialK and omitted synthetic prestart writes have x<=2. Thus all firstn>=100 guard transfers are exact full-half-plane XOR identities, not interpolation fromn100.",
+    "Each of four actual pair interfaces is replayed with the COMPLETE current kernel/output and later packet. Endpoint poses derive head increments2n+6/2n+28 and flight lengths104n+20/104n+76. Actual finite output, recovery footprint and complete omitted formal past are bounded by oldmax6/28. The next guard lies strictly east by at least177, advances>=186, and moves2(n-100) farther east for everylargern. Current recovery ends before any next input; canonical first-visit ordering handles the entire flight and all later packets.",
+    "Induction retains every old field bit, original packet and arbitrary initial archive x<-1. Older actual/synthetic discrepancies stay behind an advancing western guard; each future remains within its applicable guard. No normal-changingNW transition is imported. Original packet indices not in{0} or{0,1,6,8} are WHITE except later explicitly paid packets.",
+    "Exact C* entry equality is comparison pruning UNION all unread original packet bits, with current packet overlap counted once. Each reference-unread kernel bit remains unread before nextcontact and lies forever behind nextguard afterward; this is the necessary future-transfer proof, not template-based irrelevance. Fixed farthest original coordinateF gives rho=max(localradius,F-headx), so max(rho-22,0) decreases by the exact head increment at sampled contacts whilepositive. Relevant cardinality need not decrease and no fine-time potential is claimed.",
+    "Six full finite controls, all contact fields/lifetime fates, final complete fields and infinite tails independently replay. The all-word/all-gap theorem is the guard induction, not the incomplete32-node exploratory tree or these samples. Paid finite sufficient class only: no arbitrary-ray coverage, autonomous input regeneration, general bounded-state encoding, universal compact recurrence or global attraction."
+  ]
+}

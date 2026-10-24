@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/workspace/shared/langton/causal_reduction/unit_scale/check_four_corner_phase_front_guards.py", line 29, in <module>
+    corr=xor(required,old.intersect(read));placements=ctx.set(c['translations']).intersect(ctx.set(f'[r,a,b]->{{:(a+b+{ha-k}) mod 2=0}}'))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/shared/langton/causal_reduction/unit_scale/certify_highway_wake_reflector.py", line 22, in xor
+    def xor(a,b):return a.subtract(b).union(b.subtract(a)).coalesce()
+                        ^^^^^^^^^^^^^
+  File "/workspace/shared/langton/sources/kehao95-core/defect_synthesis/verification/presburger_defects/isl_exact.py", line 104, in subtract
+    def subtract(self, other): return self.binary('subtract',other)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/shared/langton/sources/kehao95-core/defect_synthesis/verification/presburger_defects/isl_exact.py", line 94, in binary
+    return Object(self.ctx, self.kind, _FUN[self.kind,name](self._copy(),other._copy()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/shared/langton/sources/kehao95-core/defect_synthesis/verification/presburger_defects/isl_exact.py", line 80, in __init__
+    ctx.fail()
+  File "/workspace/shared/langton/sources/kehao95-core/defect_synthesis/verification/presburger_defects/isl_exact.py", line 65, in fail
+    raise ArithmeticError(msg.decode() if msg else 'libisl operation failed')
+ArithmeticError: maximal number of operations exceeded

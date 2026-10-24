@@ -1,0 +1,1544 @@
+{
+  "standard_all_cyclic_phase_maximum_slot_spans": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2
+  ],
+  "scope": "Finite controls and explicit countercontrols for the CONDITIONAL weighted\nspatial interval ledger. Analytic inequalities, not these samples, give its\nscope. No universal anchor, confinement or refunded-cap bound is inferred.\n",
+  "M": 20000000,
+  "analytic_positive_word_guard": true,
+  "positive_bulk_controls": [
+    {
+      "word": "H",
+      "heading": 0,
+      "length": 104,
+      "black_gain": 12,
+      "weighted_black_gain": 240119898
+    },
+    {
+      "word": "H",
+      "heading": 1,
+      "length": 104,
+      "black_gain": 12,
+      "weighted_black_gain": 240119898
+    },
+    {
+      "word": "H",
+      "heading": 2,
+      "length": 104,
+      "black_gain": 12,
+      "weighted_black_gain": 240119898
+    },
+    {
+      "word": "H",
+      "heading": 3,
+      "length": 104,
+      "black_gain": 12,
+      "weighted_black_gain": 240119898
+    },
+    {
+      "word": "w1564",
+      "heading": 0,
+      "length": 1564,
+      "black_gain": 104,
+      "weighted_black_gain": 2081036614
+    },
+    {
+      "word": "w4352",
+      "heading": 3,
+      "length": 4352,
+      "black_gain": 184,
+      "weighted_black_gain": 3681806142
+    }
+  ],
+  "actual_seed_centroid_anchor_countercontrols": [
+    {
+      "n": 3,
+      "input_mass": 6,
+      "anchor": "rounded seed bounding-box center(1,n)",
+      "weighted_black_gain": -6,
+      "Phi_increase": 6,
+      "true_history_K": 12,
+      "status": "actual legal outward transport refutes automatic inwardness for this anchor"
+    },
+    {
+      "n": 4,
+      "input_mass": 8,
+      "anchor": "rounded seed bounding-box center(1,n)",
+      "weighted_black_gain": -8,
+      "Phi_increase": 8,
+      "true_history_K": 16,
+      "status": "actual legal outward transport refutes automatic inwardness for this anchor"
+    },
+    {
+      "n": 11,
+      "input_mass": 22,
+      "anchor": "rounded seed bounding-box center(1,n)",
+      "weighted_black_gain": -22,
+      "Phi_increase": 22,
+      "true_history_K": 44,
+      "status": "actual legal outward transport refutes automatic inwardness for this anchor"
+    },
+    {
+      "n": 50,
+      "input_mass": 100,
+      "anchor": "rounded seed bounding-box center(1,n)",
+      "weighted_black_gain": -100,
+      "Phi_increase": 100,
+      "true_history_K": 200,
+      "status": "actual legal outward transport refutes automatic inwardness for this anchor"
+    }
+  ],
+  "signed_spiral_anchor_controls": [
+    {
+      "n": 2,
+      "initial_mass": 24,
+      "every_inward_arm_gain_is_2j": true,
+      "head_anchor_has_outward_inner_east_arms": true,
+      "arm_values": [
+        {
+          "circuit": 0,
+          "arm": 0,
+          "periods": 2,
+          "correct_anchor_delta": 4,
+          "head_anchor_delta": 4
+        },
+        {
+          "circuit": 0,
+          "arm": 1,
+          "periods": 2,
+          "correct_anchor_delta": 4,
+          "head_anchor_delta": 4
+        },
+        {
+          "circuit": 0,
+          "arm": 2,
+          "periods": 2,
+          "correct_anchor_delta": 4,
+          "head_anchor_delta": 4
+        },
+        {
+          "circuit": 0,
+          "arm": 3,
+          "periods": 2,
+          "correct_anchor_delta": 4,
+          "head_anchor_delta": 4
+        },
+        {
+          "circuit": 1,
+          "arm": 0,
+          "periods": 1,
+          "correct_anchor_delta": 2,
+          "head_anchor_delta": -2
+        },
+        {
+          "circuit": 1,
+          "arm": 1,
+          "periods": 1,
+          "correct_anchor_delta": 2,
+          "head_anchor_delta": 2
+        },
+        {
+          "circuit": 1,
+          "arm": 2,
+          "periods": 1,
+          "correct_anchor_delta": 2,
+          "head_anchor_delta": 2
+        },
+        {
+          "circuit": 1,
+          "arm": 3,
+          "periods": 1,
+          "correct_anchor_delta": 2,
+          "head_anchor_delta": -2
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "initial_mass": 46,
+      "every_inward_arm_gain_is_2j": true,
+      "head_anchor_has_outward_inner_east_arms": true,
+      "arm_values": [
+        {
+          "circuit": 0,
+          "arm": 0,
+          "periods": 4,
+          "correct_anchor_delta": 8,
+          "head_anchor_delta": 8
+        },
+        {
+          "circuit": 0,
+          "arm": 1,
+          "periods": 4,
+          "correct_anchor_delta": 8,
+          "head_anchor_delta": 8
+        },
+        {
+          "circuit": 0,
+          "arm": 2,
+          "periods": 4,
+          "correct_anchor_delta": 8,
+          "head_anchor_delta": 8
+        },
+        {
+          "circuit": 0,
+          "arm": 3,
+          "periods": 4,
+          "correct_anchor_delta": 8,
+          "head_anchor_delta": 8
+        },
+        {
+          "circuit": 1,
+          "arm": 0,
+          "periods": 3,
+          "correct_anchor_delta": 6,
+          "head_anchor_delta": -6
+        },
+        {
+          "circuit": 1,
+          "arm": 1,
+          "periods": 3,
+          "correct_anchor_delta": 6,
+          "head_anchor_delta": 6
+        },
+        {
+          "circuit": 1,
+          "arm": 2,
+          "periods": 3,
+          "correct_anchor_delta": 6,
+          "head_anchor_delta": 6
+        },
+        {
+          "circuit": 1,
+          "arm": 3,
+          "periods": 3,
+          "correct_anchor_delta": 6,
+          "head_anchor_delta": -6
+        },
+        {
+          "circuit": 2,
+          "arm": 0,
+          "periods": 2,
+          "correct_anchor_delta": 4,
+          "head_anchor_delta": -4
+        },
+        {
+          "circuit": 2,
+          "arm": 1,
+          "periods": 2,
+          "correct_anchor_delta": 4,
+          "head_anchor_delta": 4
+        },
+        {
+          "circuit": 2,
+          "arm": 2,
+          "periods": 2,
+          "correct_anchor_delta": 4,
+          "head_anchor_delta": 4
+        },
+        {
+          "circuit": 2,
+          "arm": 3,
+          "periods": 2,
+          "correct_anchor_delta": 4,
+          "head_anchor_delta": -4
+        },
+        {
+          "circuit": 3,
+          "arm": 0,
+          "periods": 1,
+          "correct_anchor_delta": 2,
+          "head_anchor_delta": -2
+        },
+        {
+          "circuit": 3,
+          "arm": 1,
+          "periods": 1,
+          "correct_anchor_delta": 2,
+          "head_anchor_delta": 2
+        },
+        {
+          "circuit": 3,
+          "arm": 2,
+          "periods": 1,
+          "correct_anchor_delta": 2,
+          "head_anchor_delta": 2
+        },
+        {
+          "circuit": 3,
+          "arm": 3,
+          "periods": 1,
+          "correct_anchor_delta": 2,
+          "head_anchor_delta": -2
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "initial_mass": 123,
+      "every_inward_arm_gain_is_2j": true,
+      "head_anchor_has_outward_inner_east_arms": true,
+      "arm_values": [
+        {
+          "circuit": 0,
+          "arm": 0,
+          "periods": 11,
+          "correct_anchor_delta": 22,
+          "head_anchor_delta": 22
+        },
+        {
+          "circuit": 0,
+          "arm": 1,
+          "periods": 11,
+          "correct_anchor_delta": 22,
+          "head_anchor_delta": 22
+        },
+        {
+          "circuit": 0,
+          "arm": 2,
+          "periods": 11,
+          "correct_anchor_delta": 22,
+          "head_anchor_delta": 22
+        },
+        {
+          "circuit": 0,
+          "arm": 3,
+          "periods": 11,
+          "correct_anchor_delta": 22,
+          "head_anchor_delta": 22
+        },
+        {
+          "circuit": 1,
+          "arm": 0,
+          "periods": 10,
+          "correct_anchor_delta": 20,
+          "head_anchor_delta": -20
+        },
+        {
+          "circuit": 1,
+          "arm": 1,
+          "periods": 10,
+          "correct_anchor_delta": 20,
+          "head_anchor_delta": 20
+        },
+        {
+          "circuit": 1,
+          "arm": 2,
+          "periods": 10,
+          "correct_anchor_delta": 20,
+          "head_anchor_delta": 20
+        },
+        {
+          "circuit": 1,
+          "arm": 3,
+          "periods": 10,
+          "correct_anchor_delta": 20,
+          "head_anchor_delta": -20
+        },
+        {
+          "circuit": 2,
+          "arm": 0,
+          "periods": 9,
+          "correct_anchor_delta": 18,
+          "head_anchor_delta": -18
+        },
+        {
+          "circuit": 2,
+          "arm": 1,
+          "periods": 9,
+          "correct_anchor_delta": 18,
+          "head_anchor_delta": 18
+        },
+        {
+          "circuit": 2,
+          "arm": 2,
+          "periods": 9,
+          "correct_anchor_delta": 18,
+          "head_anchor_delta": 18
+        },
+        {
+          "circuit": 2,
+          "arm": 3,
+          "periods": 9,
+          "correct_anchor_delta": 18,
+          "head_anchor_delta": -18
+        },
+        {
+          "circuit": 3,
+          "arm": 0,
+          "periods": 8,
+          "correct_anchor_delta": 16,
+          "head_anchor_delta": -16
+        },
+        {
+          "circuit": 3,
+          "arm": 1,
+          "periods": 8,
+          "correct_anchor_delta": 16,
+          "head_anchor_delta": 16
+        },
+        {
+          "circuit": 3,
+          "arm": 2,
+          "periods": 8,
+          "correct_anchor_delta": 16,
+          "head_anchor_delta": 16
+        },
+        {
+          "circuit": 3,
+          "arm": 3,
+          "periods": 8,
+          "correct_anchor_delta": 16,
+          "head_anchor_delta": -16
+        },
+        {
+          "circuit": 4,
+          "arm": 0,
+          "periods": 7,
+          "correct_anchor_delta": 14,
+          "head_anchor_delta": -14
+        },
+        {
+          "circuit": 4,
+          "arm": 1,
+          "periods": 7,
+          "correct_anchor_delta": 14,
+          "head_anchor_delta": 14
+        },
+        {
+          "circuit": 4,
+          "arm": 2,
+          "periods": 7,
+          "correct_anchor_delta": 14,
+          "head_anchor_delta": 14
+        },
+        {
+          "circuit": 4,
+          "arm": 3,
+          "periods": 7,
+          "correct_anchor_delta": 14,
+          "head_anchor_delta": -14
+        },
+        {
+          "circuit": 5,
+          "arm": 0,
+          "periods": 6,
+          "correct_anchor_delta": 12,
+          "head_anchor_delta": -12
+        },
+        {
+          "circuit": 5,
+          "arm": 1,
+          "periods": 6,
+          "correct_anchor_delta": 12,
+          "head_anchor_delta": 12
+        },
+        {
+          "circuit": 5,
+          "arm": 2,
+          "periods": 6,
+          "correct_anchor_delta": 12,
+          "head_anchor_delta": 12
+        },
+        {
+          "circuit": 5,
+          "arm": 3,
+          "periods": 6,
+          "correct_anchor_delta": 12,
+          "head_anchor_delta": -12
+        },
+        {
+          "circuit": 6,
+          "arm": 0,
+          "periods": 5,
+          "correct_anchor_delta": 10,
+          "head_anchor_delta": -10
+        },
+        {
+          "circuit": 6,
+          "arm": 1,
+          "periods": 5,
+          "correct_anchor_delta": 10,
+          "head_anchor_delta": 10
+        },
+        {
+          "circuit": 6,
+          "arm": 2,
+          "periods": 5,
+          "correct_anchor_delta": 10,
+          "head_anchor_delta": 10
+        },
+        {
+          "circuit": 6,
+          "arm": 3,
+          "periods": 5,
+          "correct_anchor_delta": 10,
+          "head_anchor_delta": -10
+        },
+        {
+          "circuit": 7,
+          "arm": 0,
+          "periods": 4,
+          "correct_anchor_delta": 8,
+          "head_anchor_delta": -8
+        },
+        {
+          "circuit": 7,
+          "arm": 1,
+          "periods": 4,
+          "correct_anchor_delta": 8,
+          "head_anchor_delta": 8
+        },
+        {
+          "circuit": 7,
+          "arm": 2,
+          "periods": 4,
+          "correct_anchor_delta": 8,
+          "head_anchor_delta": 8
+        },
+        {
+          "circuit": 7,
+          "arm": 3,
+          "periods": 4,
+          "correct_anchor_delta": 8,
+          "head_anchor_delta": -8
+        },
+        {
+          "circuit": 8,
+          "arm": 0,
+          "periods": 3,
+          "correct_anchor_delta": 6,
+          "head_anchor_delta": -6
+        },
+        {
+          "circuit": 8,
+          "arm": 1,
+          "periods": 3,
+          "correct_anchor_delta": 6,
+          "head_anchor_delta": 6
+        },
+        {
+          "circuit": 8,
+          "arm": 2,
+          "periods": 3,
+          "correct_anchor_delta": 6,
+          "head_anchor_delta": 6
+        },
+        {
+          "circuit": 8,
+          "arm": 3,
+          "periods": 3,
+          "correct_anchor_delta": 6,
+          "head_anchor_delta": -6
+        },
+        {
+          "circuit": 9,
+          "arm": 0,
+          "periods": 2,
+          "correct_anchor_delta": 4,
+          "head_anchor_delta": -4
+        },
+        {
+          "circuit": 9,
+          "arm": 1,
+          "periods": 2,
+          "correct_anchor_delta": 4,
+          "head_anchor_delta": 4
+        },
+        {
+          "circuit": 9,
+          "arm": 2,
+          "periods": 2,
+          "correct_anchor_delta": 4,
+          "head_anchor_delta": 4
+        },
+        {
+          "circuit": 9,
+          "arm": 3,
+          "periods": 2,
+          "correct_anchor_delta": 4,
+          "head_anchor_delta": -4
+        },
+        {
+          "circuit": 10,
+          "arm": 0,
+          "periods": 1,
+          "correct_anchor_delta": 2,
+          "head_anchor_delta": -2
+        },
+        {
+          "circuit": 10,
+          "arm": 1,
+          "periods": 1,
+          "correct_anchor_delta": 2,
+          "head_anchor_delta": 2
+        },
+        {
+          "circuit": 10,
+          "arm": 2,
+          "periods": 1,
+          "correct_anchor_delta": 2,
+          "head_anchor_delta": 2
+        },
+        {
+          "circuit": 10,
+          "arm": 3,
+          "periods": 1,
+          "correct_anchor_delta": 2,
+          "head_anchor_delta": -2
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "initial_mass": 332,
+      "every_inward_arm_gain_is_2j": true,
+      "head_anchor_has_outward_inner_east_arms": true,
+      "arm_values": [
+        {
+          "circuit": 0,
+          "arm": 0,
+          "periods": 30,
+          "correct_anchor_delta": 60,
+          "head_anchor_delta": 60
+        },
+        {
+          "circuit": 0,
+          "arm": 1,
+          "periods": 30,
+          "correct_anchor_delta": 60,
+          "head_anchor_delta": 60
+        },
+        {
+          "circuit": 0,
+          "arm": 2,
+          "periods": 30,
+          "correct_anchor_delta": 60,
+          "head_anchor_delta": 60
+        },
+        {
+          "circuit": 0,
+          "arm": 3,
+          "periods": 30,
+          "correct_anchor_delta": 60,
+          "head_anchor_delta": 60
+        },
+        {
+          "circuit": 1,
+          "arm": 0,
+          "periods": 29,
+          "correct_anchor_delta": 58,
+          "head_anchor_delta": -58
+        },
+        {
+          "circuit": 1,
+          "arm": 1,
+          "periods": 29,
+          "correct_anchor_delta": 58,
+          "head_anchor_delta": 58
+        },
+        {
+          "circuit": 1,
+          "arm": 2,
+          "periods": 29,
+          "correct_anchor_delta": 58,
+          "head_anchor_delta": 58
+        },
+        {
+          "circuit": 1,
+          "arm": 3,
+          "periods": 29,
+          "correct_anchor_delta": 58,
+          "head_anchor_delta": -58
+        },
+        {
+          "circuit": 2,
+          "arm": 0,
+          "periods": 28,
+          "correct_anchor_delta": 56,
+          "head_anchor_delta": -56
+        },
+        {
+          "circuit": 2,
+          "arm": 1,
+          "periods": 28,
+          "correct_anchor_delta": 56,
+          "head_anchor_delta": 56
+        },
+        {
+          "circuit": 2,
+          "arm": 2,
+          "periods": 28,
+          "correct_anchor_delta": 56,
+          "head_anchor_delta": 56
+        },
+        {
+          "circuit": 2,
+          "arm": 3,
+          "periods": 28,
+          "correct_anchor_delta": 56,
+          "head_anchor_delta": -56
+        },
+        {
+          "circuit": 3,
+          "arm": 0,
+          "periods": 27,
+          "correct_anchor_delta": 54,
+          "head_anchor_delta": -54
+        },
+        {
+          "circuit": 3,
+          "arm": 1,
+          "periods": 27,
+          "correct_anchor_delta": 54,
+          "head_anchor_delta": 54
+        },
+        {
+          "circuit": 3,
+          "arm": 2,
+          "periods": 27,
+          "correct_anchor_delta": 54,
+          "head_anchor_delta": 54
+        },
+        {
+          "circuit": 3,
+          "arm": 3,
+          "periods": 27,
+          "correct_anchor_delta": 54,
+          "head_anchor_delta": -54
+        },
+        {
+          "circuit": 4,
+          "arm": 0,
+          "periods": 26,
+          "correct_anchor_delta": 52,
+          "head_anchor_delta": -52
+        },
+        {
+          "circuit": 4,
+          "arm": 1,
+          "periods": 26,
+          "correct_anchor_delta": 52,
+          "head_anchor_delta": 52
+        },
+        {
+          "circuit": 4,
+          "arm": 2,
+          "periods": 26,
+          "correct_anchor_delta": 52,
+          "head_anchor_delta": 52
+        },
+        {
+          "circuit": 4,
+          "arm": 3,
+          "periods": 26,
+          "correct_anchor_delta": 52,
+          "head_anchor_delta": -52
+        },
+        {
+          "circuit": 5,
+          "arm": 0,
+          "periods": 25,
+          "correct_anchor_delta": 50,
+          "head_anchor_delta": -50
+        },
+        {
+          "circuit": 5,
+          "arm": 1,
+          "periods": 25,
+          "correct_anchor_delta": 50,
+          "head_anchor_delta": 50
+        },
+        {
+          "circuit": 5,
+          "arm": 2,
+          "periods": 25,
+          "correct_anchor_delta": 50,
+          "head_anchor_delta": 50
+        },
+        {
+          "circuit": 5,
+          "arm": 3,
+          "periods": 25,
+          "correct_anchor_delta": 50,
+          "head_anchor_delta": -50
+        },
+        {
+          "circuit": 6,
+          "arm": 0,
+          "periods": 24,
+          "correct_anchor_delta": 48,
+          "head_anchor_delta": -48
+        },
+        {
+          "circuit": 6,
+          "arm": 1,
+          "periods": 24,
+          "correct_anchor_delta": 48,
+          "head_anchor_delta": 48
+        },
+        {
+          "circuit": 6,
+          "arm": 2,
+          "periods": 24,
+          "correct_anchor_delta": 48,
+          "head_anchor_delta": 48
+        },
+        {
+          "circuit": 6,
+          "arm": 3,
+          "periods": 24,
+          "correct_anchor_delta": 48,
+          "head_anchor_delta": -48
+        },
+        {
+          "circuit": 7,
+          "arm": 0,
+          "periods": 23,
+          "correct_anchor_delta": 46,
+          "head_anchor_delta": -46
+        },
+        {
+          "circuit": 7,
+          "arm": 1,
+          "periods": 23,
+          "correct_anchor_delta": 46,
+          "head_anchor_delta": 46
+        },
+        {
+          "circuit": 7,
+          "arm": 2,
+          "periods": 23,
+          "correct_anchor_delta": 46,
+          "head_anchor_delta": 46
+        },
+        {
+          "circuit": 7,
+          "arm": 3,
+          "periods": 23,
+          "correct_anchor_delta": 46,
+          "head_anchor_delta": -46
+        },
+        {
+          "circuit": 8,
+          "arm": 0,
+          "periods": 22,
+          "correct_anchor_delta": 44,
+          "head_anchor_delta": -44
+        },
+        {
+          "circuit": 8,
+          "arm": 1,
+          "periods": 22,
+          "correct_anchor_delta": 44,
+          "head_anchor_delta": 44
+        },
+        {
+          "circuit": 8,
+          "arm": 2,
+          "periods": 22,
+          "correct_anchor_delta": 44,
+          "head_anchor_delta": 44
+        },
+        {
+          "circuit": 8,
+          "arm": 3,
+          "periods": 22,
+          "correct_anchor_delta": 44,
+          "head_anchor_delta": -44
+        },
+        {
+          "circuit": 9,
+          "arm": 0,
+          "periods": 21,
+          "correct_anchor_delta": 42,
+          "head_anchor_delta": -42
+        },
+        {
+          "circuit": 9,
+          "arm": 1,
+          "periods": 21,
+          "correct_anchor_delta": 42,
+          "head_anchor_delta": 42
+        },
+        {
+          "circuit": 9,
+          "arm": 2,
+          "periods": 21,
+          "correct_anchor_delta": 42,
+          "head_anchor_delta": 42
+        },
+        {
+          "circuit": 9,
+          "arm": 3,
+          "periods": 21,
+          "correct_anchor_delta": 42,
+          "head_anchor_delta": -42
+        },
+        {
+          "circuit": 10,
+          "arm": 0,
+          "periods": 20,
+          "correct_anchor_delta": 40,
+          "head_anchor_delta": -40
+        },
+        {
+          "circuit": 10,
+          "arm": 1,
+          "periods": 20,
+          "correct_anchor_delta": 40,
+          "head_anchor_delta": 40
+        },
+        {
+          "circuit": 10,
+          "arm": 2,
+          "periods": 20,
+          "correct_anchor_delta": 40,
+          "head_anchor_delta": 40
+        },
+        {
+          "circuit": 10,
+          "arm": 3,
+          "periods": 20,
+          "correct_anchor_delta": 40,
+          "head_anchor_delta": -40
+        },
+        {
+          "circuit": 11,
+          "arm": 0,
+          "periods": 19,
+          "correct_anchor_delta": 38,
+          "head_anchor_delta": -38
+        },
+        {
+          "circuit": 11,
+          "arm": 1,
+          "periods": 19,
+          "correct_anchor_delta": 38,
+          "head_anchor_delta": 38
+        },
+        {
+          "circuit": 11,
+          "arm": 2,
+          "periods": 19,
+          "correct_anchor_delta": 38,
+          "head_anchor_delta": 38
+        },
+        {
+          "circuit": 11,
+          "arm": 3,
+          "periods": 19,
+          "correct_anchor_delta": 38,
+          "head_anchor_delta": -38
+        },
+        {
+          "circuit": 12,
+          "arm": 0,
+          "periods": 18,
+          "correct_anchor_delta": 36,
+          "head_anchor_delta": -36
+        },
+        {
+          "circuit": 12,
+          "arm": 1,
+          "periods": 18,
+          "correct_anchor_delta": 36,
+          "head_anchor_delta": 36
+        },
+        {
+          "circuit": 12,
+          "arm": 2,
+          "periods": 18,
+          "correct_anchor_delta": 36,
+          "head_anchor_delta": 36
+        },
+        {
+          "circuit": 12,
+          "arm": 3,
+          "periods": 18,
+          "correct_anchor_delta": 36,
+          "head_anchor_delta": -36
+        },
+        {
+          "circuit": 13,
+          "arm": 0,
+          "periods": 17,
+          "correct_anchor_delta": 34,
+          "head_anchor_delta": -34
+        },
+        {
+          "circuit": 13,
+          "arm": 1,
+          "periods": 17,
+          "correct_anchor_delta": 34,
+          "head_anchor_delta": 34
+        },
+        {
+          "circuit": 13,
+          "arm": 2,
+          "periods": 17,
+          "correct_anchor_delta": 34,
+          "head_anchor_delta": 34
+        },
+        {
+          "circuit": 13,
+          "arm": 3,
+          "periods": 17,
+          "correct_anchor_delta": 34,
+          "head_anchor_delta": -34
+        },
+        {
+          "circuit": 14,
+          "arm": 0,
+          "periods": 16,
+          "correct_anchor_delta": 32,
+          "head_anchor_delta": -32
+        },
+        {
+          "circuit": 14,
+          "arm": 1,
+          "periods": 16,
+          "correct_anchor_delta": 32,
+          "head_anchor_delta": 32
+        },
+        {
+          "circuit": 14,
+          "arm": 2,
+          "periods": 16,
+          "correct_anchor_delta": 32,
+          "head_anchor_delta": 32
+        },
+        {
+          "circuit": 14,
+          "arm": 3,
+          "periods": 16,
+          "correct_anchor_delta": 32,
+          "head_anchor_delta": -32
+        },
+        {
+          "circuit": 15,
+          "arm": 0,
+          "periods": 15,
+          "correct_anchor_delta": 30,
+          "head_anchor_delta": -30
+        },
+        {
+          "circuit": 15,
+          "arm": 1,
+          "periods": 15,
+          "correct_anchor_delta": 30,
+          "head_anchor_delta": 30
+        },
+        {
+          "circuit": 15,
+          "arm": 2,
+          "periods": 15,
+          "correct_anchor_delta": 30,
+          "head_anchor_delta": 30
+        },
+        {
+          "circuit": 15,
+          "arm": 3,
+          "periods": 15,
+          "correct_anchor_delta": 30,
+          "head_anchor_delta": -30
+        },
+        {
+          "circuit": 16,
+          "arm": 0,
+          "periods": 14,
+          "correct_anchor_delta": 28,
+          "head_anchor_delta": -28
+        },
+        {
+          "circuit": 16,
+          "arm": 1,
+          "periods": 14,
+          "correct_anchor_delta": 28,
+          "head_anchor_delta": 28
+        },
+        {
+          "circuit": 16,
+          "arm": 2,
+          "periods": 14,
+          "correct_anchor_delta": 28,
+          "head_anchor_delta": 28
+        },
+        {
+          "circuit": 16,
+          "arm": 3,
+          "periods": 14,
+          "correct_anchor_delta": 28,
+          "head_anchor_delta": -28
+        },
+        {
+          "circuit": 17,
+          "arm": 0,
+          "periods": 13,
+          "correct_anchor_delta": 26,
+          "head_anchor_delta": -26
+        },
+        {
+          "circuit": 17,
+          "arm": 1,
+          "periods": 13,
+          "correct_anchor_delta": 26,
+          "head_anchor_delta": 26
+        },
+        {
+          "circuit": 17,
+          "arm": 2,
+          "periods": 13,
+          "correct_anchor_delta": 26,
+          "head_anchor_delta": 26
+        },
+        {
+          "circuit": 17,
+          "arm": 3,
+          "periods": 13,
+          "correct_anchor_delta": 26,
+          "head_anchor_delta": -26
+        },
+        {
+          "circuit": 18,
+          "arm": 0,
+          "periods": 12,
+          "correct_anchor_delta": 24,
+          "head_anchor_delta": -24
+        },
+        {
+          "circuit": 18,
+          "arm": 1,
+          "periods": 12,
+          "correct_anchor_delta": 24,
+          "head_anchor_delta": 24
+        },
+        {
+          "circuit": 18,
+          "arm": 2,
+          "periods": 12,
+          "correct_anchor_delta": 24,
+          "head_anchor_delta": 24
+        },
+        {
+          "circuit": 18,
+          "arm": 3,
+          "periods": 12,
+          "correct_anchor_delta": 24,
+          "head_anchor_delta": -24
+        },
+        {
+          "circuit": 19,
+          "arm": 0,
+          "periods": 11,
+          "correct_anchor_delta": 22,
+          "head_anchor_delta": -22
+        },
+        {
+          "circuit": 19,
+          "arm": 1,
+          "periods": 11,
+          "correct_anchor_delta": 22,
+          "head_anchor_delta": 22
+        },
+        {
+          "circuit": 19,
+          "arm": 2,
+          "periods": 11,
+          "correct_anchor_delta": 22,
+          "head_anchor_delta": 22
+        },
+        {
+          "circuit": 19,
+          "arm": 3,
+          "periods": 11,
+          "correct_anchor_delta": 22,
+          "head_anchor_delta": -22
+        },
+        {
+          "circuit": 20,
+          "arm": 0,
+          "periods": 10,
+          "correct_anchor_delta": 20,
+          "head_anchor_delta": -20
+        },
+        {
+          "circuit": 20,
+          "arm": 1,
+          "periods": 10,
+          "correct_anchor_delta": 20,
+          "head_anchor_delta": 20
+        },
+        {
+          "circuit": 20,
+          "arm": 2,
+          "periods": 10,
+          "correct_anchor_delta": 20,
+          "head_anchor_delta": 20
+        },
+        {
+          "circuit": 20,
+          "arm": 3,
+          "periods": 10,
+          "correct_anchor_delta": 20,
+          "head_anchor_delta": -20
+        },
+        {
+          "circuit": 21,
+          "arm": 0,
+          "periods": 9,
+          "correct_anchor_delta": 18,
+          "head_anchor_delta": -18
+        },
+        {
+          "circuit": 21,
+          "arm": 1,
+          "periods": 9,
+          "correct_anchor_delta": 18,
+          "head_anchor_delta": 18
+        },
+        {
+          "circuit": 21,
+          "arm": 2,
+          "periods": 9,
+          "correct_anchor_delta": 18,
+          "head_anchor_delta": 18
+        },
+        {
+          "circuit": 21,
+          "arm": 3,
+          "periods": 9,
+          "correct_anchor_delta": 18,
+          "head_anchor_delta": -18
+        },
+        {
+          "circuit": 22,
+          "arm": 0,
+          "periods": 8,
+          "correct_anchor_delta": 16,
+          "head_anchor_delta": -16
+        },
+        {
+          "circuit": 22,
+          "arm": 1,
+          "periods": 8,
+          "correct_anchor_delta": 16,
+          "head_anchor_delta": 16
+        },
+        {
+          "circuit": 22,
+          "arm": 2,
+          "periods": 8,
+          "correct_anchor_delta": 16,
+          "head_anchor_delta": 16
+        },
+        {
+          "circuit": 22,
+          "arm": 3,
+          "periods": 8,
+          "correct_anchor_delta": 16,
+          "head_anchor_delta": -16
+        },
+        {
+          "circuit": 23,
+          "arm": 0,
+          "periods": 7,
+          "correct_anchor_delta": 14,
+          "head_anchor_delta": -14
+        },
+        {
+          "circuit": 23,
+          "arm": 1,
+          "periods": 7,
+          "correct_anchor_delta": 14,
+          "head_anchor_delta": 14
+        },
+        {
+          "circuit": 23,
+          "arm": 2,
+          "periods": 7,
+          "correct_anchor_delta": 14,
+          "head_anchor_delta": 14
+        },
+        {
+          "circuit": 23,
+          "arm": 3,
+          "periods": 7,
+          "correct_anchor_delta": 14,
+          "head_anchor_delta": -14
+        },
+        {
+          "circuit": 24,
+          "arm": 0,
+          "periods": 6,
+          "correct_anchor_delta": 12,
+          "head_anchor_delta": -12
+        },
+        {
+          "circuit": 24,
+          "arm": 1,
+          "periods": 6,
+          "correct_anchor_delta": 12,
+          "head_anchor_delta": 12
+        },
+        {
+          "circuit": 24,
+          "arm": 2,
+          "periods": 6,
+          "correct_anchor_delta": 12,
+          "head_anchor_delta": 12
+        },
+        {
+          "circuit": 24,
+          "arm": 3,
+          "periods": 6,
+          "correct_anchor_delta": 12,
+          "head_anchor_delta": -12
+        },
+        {
+          "circuit": 25,
+          "arm": 0,
+          "periods": 5,
+          "correct_anchor_delta": 10,
+          "head_anchor_delta": -10
+        },
+        {
+          "circuit": 25,
+          "arm": 1,
+          "periods": 5,
+          "correct_anchor_delta": 10,
+          "head_anchor_delta": 10
+        },
+        {
+          "circuit": 25,
+          "arm": 2,
+          "periods": 5,
+          "correct_anchor_delta": 10,
+          "head_anchor_delta": 10
+        },
+        {
+          "circuit": 25,
+          "arm": 3,
+          "periods": 5,
+          "correct_anchor_delta": 10,
+          "head_anchor_delta": -10
+        },
+        {
+          "circuit": 26,
+          "arm": 0,
+          "periods": 4,
+          "correct_anchor_delta": 8,
+          "head_anchor_delta": -8
+        },
+        {
+          "circuit": 26,
+          "arm": 1,
+          "periods": 4,
+          "correct_anchor_delta": 8,
+          "head_anchor_delta": 8
+        },
+        {
+          "circuit": 26,
+          "arm": 2,
+          "periods": 4,
+          "correct_anchor_delta": 8,
+          "head_anchor_delta": 8
+        },
+        {
+          "circuit": 26,
+          "arm": 3,
+          "periods": 4,
+          "correct_anchor_delta": 8,
+          "head_anchor_delta": -8
+        },
+        {
+          "circuit": 27,
+          "arm": 0,
+          "periods": 3,
+          "correct_anchor_delta": 6,
+          "head_anchor_delta": -6
+        },
+        {
+          "circuit": 27,
+          "arm": 1,
+          "periods": 3,
+          "correct_anchor_delta": 6,
+          "head_anchor_delta": 6
+        },
+        {
+          "circuit": 27,
+          "arm": 2,
+          "periods": 3,
+          "correct_anchor_delta": 6,
+          "head_anchor_delta": 6
+        },
+        {
+          "circuit": 27,
+          "arm": 3,
+          "periods": 3,
+          "correct_anchor_delta": 6,
+          "head_anchor_delta": -6
+        },
+        {
+          "circuit": 28,
+          "arm": 0,
+          "periods": 2,
+          "correct_anchor_delta": 4,
+          "head_anchor_delta": -4
+        },
+        {
+          "circuit": 28,
+          "arm": 1,
+          "periods": 2,
+          "correct_anchor_delta": 4,
+          "head_anchor_delta": 4
+        },
+        {
+          "circuit": 28,
+          "arm": 2,
+          "periods": 2,
+          "correct_anchor_delta": 4,
+          "head_anchor_delta": 4
+        },
+        {
+          "circuit": 28,
+          "arm": 3,
+          "periods": 2,
+          "correct_anchor_delta": 4,
+          "head_anchor_delta": -4
+        },
+        {
+          "circuit": 29,
+          "arm": 0,
+          "periods": 1,
+          "correct_anchor_delta": 2,
+          "head_anchor_delta": -2
+        },
+        {
+          "circuit": 29,
+          "arm": 1,
+          "periods": 1,
+          "correct_anchor_delta": 2,
+          "head_anchor_delta": 2
+        },
+        {
+          "circuit": 29,
+          "arm": 2,
+          "periods": 1,
+          "correct_anchor_delta": 2,
+          "head_anchor_delta": 2
+        },
+        {
+          "circuit": 29,
+          "arm": 3,
+          "periods": 1,
+          "correct_anchor_delta": 2,
+          "head_anchor_delta": -2
+        }
+      ]
+    }
+  ],
+  "source_sha256": "7d38fd624e0c59d84bebf641e79bd173d891b0f4c9cdd5486e0c71e9b5cff1bd"
+}

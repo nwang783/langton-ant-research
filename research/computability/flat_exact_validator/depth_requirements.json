@@ -1,0 +1,102 @@
+{
+  "records": [
+    {
+      "name": "identity_R",
+      "bad_depth_states": 1,
+      "all_depths_internally_legal": true,
+      "black_relation_states": {
+        "(-1, -1)": 1,
+        "(-1, 1)": 1,
+        "(1, -1)": 1,
+        "(1, 1)": 1
+      },
+      "all_binary_input_fuel_proof": {
+        "alpha": 0,
+        "beta": 0,
+        "zero_correction": 0,
+        "extra_spatial_bits": 1,
+        "weighted_states": 7,
+        "rank": 4,
+        "checks": 4
+      },
+      "literal_complete_depth_checks": 25
+    },
+    {
+      "name": "identity_L",
+      "bad_depth_states": 1,
+      "all_depths_internally_legal": true,
+      "black_relation_states": {
+        "(-1, -1)": 1,
+        "(-1, 1)": 1,
+        "(1, -1)": 1,
+        "(1, 1)": 2
+      },
+      "all_binary_input_fuel_proof": {
+        "alpha": 0,
+        "beta": 1,
+        "zero_correction": 0,
+        "extra_spatial_bits": 1,
+        "weighted_states": 8,
+        "rank": 4,
+        "checks": 4
+      },
+      "literal_complete_depth_checks": 25
+    },
+    {
+      "name": "rooted_R5",
+      "bad_depth_states": 2,
+      "all_depths_internally_legal": false,
+      "black_relation_states": {
+        "(-1, -1)": 1,
+        "(-1, 1)": 1,
+        "(1, -1)": 4,
+        "(1, 1)": 4
+      },
+      "literal_complete_depth_checks": 25
+    },
+    {
+      "name": "oblique_hairpin",
+      "bad_depth_states": 1,
+      "all_depths_internally_legal": true,
+      "black_relation_states": {
+        "(-1, -1)": 1,
+        "(-1, 1)": 43,
+        "(1, -1)": 1,
+        "(1, 1)": 6
+      },
+      "all_binary_input_fuel_proof": {
+        "alpha": 6,
+        "beta": 0,
+        "zero_correction": 0,
+        "extra_spatial_bits": 3,
+        "weighted_states": 54,
+        "rank": 22,
+        "checks": 22
+      },
+      "literal_complete_depth_checks": 25
+    },
+    {
+      "name": "axial_hairpin",
+      "bad_depth_states": 1,
+      "all_depths_internally_legal": true,
+      "black_relation_states": {
+        "(-1, -1)": 1,
+        "(-1, 1)": 1,
+        "(1, -1)": 5,
+        "(1, 1)": 14
+      },
+      "all_binary_input_fuel_proof": {
+        "alpha": 4,
+        "beta": 2,
+        "zero_correction": -2,
+        "extra_spatial_bits": 3,
+        "weighted_states": 25,
+        "rank": 10,
+        "checks": 10
+      },
+      "literal_complete_depth_checks": 25
+    }
+  ],
+  "seconds": 2.5292549260047963,
+  "scope": "Exact all-depth internal-legality automata and all-binary fuel equalities for flat typed families. Distinct entry boards are allowed at different depths. No growing finite-seed model or wrapper exclusion."
+}

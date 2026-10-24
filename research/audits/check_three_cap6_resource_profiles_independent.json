@@ -1,0 +1,744 @@
+{
+  "status": "PASS three actual resource profiles and all9 immediate complete-field pair obstructions",
+  "single_controls": [
+    {
+      "index": 2818,
+      "seed": [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "output": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "pose": [
+        [
+          -2,
+          1
+        ],
+        3
+      ],
+      "mandatory_budget": {
+        "mass": 2,
+        "first_tip_incident": false,
+        "edges": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "budget_trapped": true
+    },
+    {
+      "index": 33389,
+      "seed": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "output": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "pose": [
+        [
+          1,
+          3
+        ],
+        0
+      ],
+      "mandatory_budget": {
+        "mass": 1,
+        "first_tip_incident": false,
+        "edges": [
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "budget_trapped": false
+    },
+    {
+      "index": 33390,
+      "seed": [
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "output": [
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "pose": [
+        [
+          1,
+          3
+        ],
+        0
+      ],
+      "mandatory_budget": {
+        "mass": 2,
+        "first_tip_incident": false,
+        "edges": [
+          [
+            -1,
+            3
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "budget_trapped": true
+    }
+  ],
+  "all9_pair_conflicts": [
+    {
+      "first": 1,
+      "second": 11,
+      "q": [
+        0,
+        1
+      ],
+      "initial_bits": [
+        1,
+        0
+      ],
+      "author_specific_cell": [
+        -1,
+        0
+      ],
+      "author_specific_bit_obligations": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ]
+    },
+    {
+      "first": 1,
+      "second": 11,
+      "q": [
+        0,
+        1
+      ],
+      "initial_bits": [
+        1,
+        0
+      ],
+      "author_specific_cell": [
+        -1,
+        0
+      ],
+      "author_specific_bit_obligations": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ]
+    },
+    {
+      "first": 1,
+      "second": 11,
+      "q": [
+        0,
+        1
+      ],
+      "initial_bits": [
+        1,
+        0
+      ],
+      "author_specific_cell": [
+        -1,
+        0
+      ],
+      "author_specific_bit_obligations": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ]
+    },
+    {
+      "first": 1,
+      "second": 14,
+      "q": [
+        0,
+        2
+      ],
+      "initial_bits": [
+        0,
+        1
+      ],
+      "author_specific_cell": [
+        0,
+        2
+      ],
+      "author_specific_bit_obligations": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          16,
+          1
+        ]
+      ]
+    },
+    {
+      "first": 1,
+      "second": 14,
+      "q": [
+        0,
+        2
+      ],
+      "initial_bits": [
+        0,
+        1
+      ],
+      "author_specific_cell": [
+        0,
+        2
+      ],
+      "author_specific_bit_obligations": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          16,
+          1
+        ],
+        [
+          17,
+          1
+        ]
+      ]
+    },
+    {
+      "first": 1,
+      "second": 14,
+      "q": [
+        0,
+        2
+      ],
+      "initial_bits": [
+        0,
+        1
+      ],
+      "author_specific_cell": [
+        0,
+        2
+      ],
+      "author_specific_bit_obligations": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          16,
+          1
+        ],
+        [
+          17,
+          1
+        ]
+      ]
+    },
+    {
+      "first": 1,
+      "second": 14,
+      "q": [
+        0,
+        2
+      ],
+      "initial_bits": [
+        0,
+        1
+      ],
+      "author_specific_cell": [
+        0,
+        2
+      ],
+      "author_specific_bit_obligations": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          16,
+          1
+        ]
+      ]
+    },
+    {
+      "first": 1,
+      "second": 14,
+      "q": [
+        0,
+        2
+      ],
+      "initial_bits": [
+        0,
+        1
+      ],
+      "author_specific_cell": [
+        0,
+        2
+      ],
+      "author_specific_bit_obligations": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          16,
+          1
+        ],
+        [
+          17,
+          1
+        ]
+      ]
+    },
+    {
+      "first": 1,
+      "second": 14,
+      "q": [
+        0,
+        2
+      ],
+      "initial_bits": [
+        0,
+        1
+      ],
+      "author_specific_cell": [
+        0,
+        2
+      ],
+      "author_specific_bit_obligations": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          16,
+          1
+        ],
+        [
+          17,
+          1
+        ]
+      ]
+    }
+  ],
+  "dependencies": {
+    "kernel_cycle_lift_2026-10-24/THREE_PHYSICAL_CAP6_PROFILES_DO_NOT_COMPOSE.md": "c599f915241aa591f8be53e7bef1344b0a4852d7ca0a45308a0e0a66d11a8377",
+    "kernel_cycle_lift_2026-10-24/three_cap6_profiles_certificate.json": "29600c0101992c665e321669a1458e111a5d312d43349733d0a9f9b0ca9b5f8f",
+    "kernel_cycle_lift_2026-10-24/finite_component_profile_lift.py": "8db1f59a62f3826fcc0bdf1f092bc5ae17533f5ed4373ad202e167a974e809b5",
+    "reframe_finite_seed_2026-10-24/physical_cap6_resource_obstructions.json": "eb42088dbe177e304ad4e864385562d75d2c717ec062510438b1e6a156eda125",
+    "audits/check_cap6_full_fuel_and_composition_independent.json": "013974862a8c8283bfea03e94289ad262de6c30662b73a31e9cb9d7a33a9557f"
+  },
+  "scope": "Each single profile is a real finite-board prefix. All nine exact immediate ordered profile pairs fail with arbitrary unread exterior; this does not say the word alone is impossible. P/T are additionally trapped by mandatory old surviving full-profile members; Q is not trapped by that local budget test, although the separately signed complete cap6 theorem now excludes every eventual sustained cap6 orbit. No resource compiler, infinite regeneration, or capture follows."
+}

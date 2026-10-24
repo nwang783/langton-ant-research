@@ -1,0 +1,354 @@
+{
+  "scope": "Bulk-only exact interface for a translated time-reversed104 sweep.\nBi-infinite orbit profiles are local limits of long finite wakes, not initial seeds.\nNo cap or endpoint input is supplied by this test.\n",
+  "forward_read_classes": 22,
+  "wake_black_classes": [
+    [
+      -7,
+      0
+    ],
+    [
+      -7,
+      1
+    ],
+    [
+      -6,
+      1
+    ],
+    [
+      -5,
+      1
+    ],
+    [
+      -3,
+      0
+    ],
+    [
+      -2,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "reverse_black_classes": [
+    [
+      -7,
+      0
+    ],
+    [
+      -7,
+      1
+    ],
+    [
+      -6,
+      1
+    ],
+    [
+      -5,
+      1
+    ],
+    [
+      -3,
+      0
+    ],
+    [
+      -2,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "reverse_white_classes": [
+    [
+      -6,
+      0
+    ],
+    [
+      -5,
+      0
+    ],
+    [
+      -4,
+      0
+    ],
+    [
+      -4,
+      1
+    ],
+    [
+      -3,
+      1
+    ],
+    [
+      -2,
+      1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      0
+    ]
+  ],
+  "candidate_translation_classes": 12,
+  "black_compatible": [
+    {
+      "translation": [
+        0,
+        0
+      ],
+      "sector_repaired": false,
+      "missing_black_classes": [],
+      "extra_black_classes": []
+    }
+  ],
+  "fully_compatible": [
+    {
+      "translation": [
+        0,
+        0
+      ],
+      "sector_repaired": false,
+      "missing_black_classes": [],
+      "extra_black_classes": []
+    }
+  ],
+  "same_sector_overlap_classes": [
+    {
+      "translation": [
+        0,
+        9
+      ],
+      "missing": 10,
+      "polluted": 1,
+      "total": 11
+    },
+    {
+      "translation": [
+        0,
+        7
+      ],
+      "missing": 10,
+      "polluted": 2,
+      "total": 12
+    },
+    {
+      "translation": [
+        0,
+        5
+      ],
+      "missing": 9,
+      "polluted": 3,
+      "total": 12
+    },
+    {
+      "translation": [
+        0,
+        3
+      ],
+      "missing": 8,
+      "polluted": 4,
+      "total": 12
+    },
+    {
+      "translation": [
+        0,
+        1
+      ],
+      "missing": 7,
+      "polluted": 5,
+      "total": 12
+    },
+    {
+      "translation": [
+        0,
+        -1
+      ],
+      "missing": 7,
+      "polluted": 5,
+      "total": 12
+    },
+    {
+      "translation": [
+        0,
+        -3
+      ],
+      "missing": 8,
+      "polluted": 4,
+      "total": 12
+    },
+    {
+      "translation": [
+        0,
+        -5
+      ],
+      "missing": 9,
+      "polluted": 4,
+      "total": 13
+    },
+    {
+      "translation": [
+        0,
+        -7
+      ],
+      "missing": 10,
+      "polluted": 3,
+      "total": 13
+    },
+    {
+      "translation": [
+        0,
+        -9
+      ],
+      "missing": 10,
+      "polluted": 1,
+      "total": 11
+    },
+    {
+      "translation": [
+        1,
+        10
+      ],
+      "missing": 10,
+      "polluted": 1,
+      "total": 11
+    },
+    {
+      "translation": [
+        1,
+        8
+      ],
+      "missing": 10,
+      "polluted": 2,
+      "total": 12
+    },
+    {
+      "translation": [
+        1,
+        6
+      ],
+      "missing": 8,
+      "polluted": 2,
+      "total": 10
+    },
+    {
+      "translation": [
+        1,
+        4
+      ],
+      "missing": 9,
+      "polluted": 5,
+      "total": 14
+    },
+    {
+      "translation": [
+        1,
+        2
+      ],
+      "missing": 7,
+      "polluted": 5,
+      "total": 12
+    },
+    {
+      "translation": [
+        1,
+        0
+      ],
+      "missing": 7,
+      "polluted": 5,
+      "total": 12
+    },
+    {
+      "translation": [
+        1,
+        -2
+      ],
+      "missing": 9,
+      "polluted": 5,
+      "total": 14
+    },
+    {
+      "translation": [
+        1,
+        -4
+      ],
+      "missing": 8,
+      "polluted": 3,
+      "total": 11
+    },
+    {
+      "translation": [
+        1,
+        -6
+      ],
+      "missing": 10,
+      "polluted": 3,
+      "total": 13
+    },
+    {
+      "translation": [
+        1,
+        -8
+      ],
+      "missing": 10,
+      "polluted": 1,
+      "total": 11
+    }
+  ],
+  "minimum_missing_black_classes": 7,
+  "minimum_total_changed_classes": 10,
+  "outside_difference_range_missing": 12
+}

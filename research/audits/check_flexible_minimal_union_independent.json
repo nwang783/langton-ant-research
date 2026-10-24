@@ -1,0 +1,28 @@
+{
+  "status": "PASS independent mixed minimal tiling CNF, physical chronology and monotone RUP",
+  "note_sha256": "b79face7eceabf8a8ff996307a04cd83c3017e0484b7f5a9becc3953a0eaf744",
+  "circuits": [
+    {
+      "mode": "heading",
+      "variables": 49117,
+      "clauses": 234725,
+      "cells": 275,
+      "proof": {
+        "valid": true,
+        "input_clauses": 234725,
+        "additions": 37510,
+        "deletions": 0,
+        "RUP": 37510,
+        "RAT": 0,
+        "propagation_checks": 37510
+      },
+      "controls": 34
+    }
+  ],
+  "union_span": 4,
+  "span4_orbit": [
+    1,
+    1
+  ],
+  "scope": "Arbitrary nonoverlapping mixed six-read heading flips and ten-read bypass resets, shared actual headings, arbitrary initial colors and complete crossing tiles. Finite-word UNSAT does not require full radius-four history. With separately signed recut/square theorem, every infinite schedule eventually V/P108, impossible from finite support. No forward reversal or broader palette/scaffold claim."
+}

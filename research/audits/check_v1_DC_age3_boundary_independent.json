@@ -1,0 +1,3167 @@
+{
+  "status": "PASS independent full8 predecessor and153 all-word retirement cases",
+  "manifest_sha256": "227fb5112520b6fa756dc501aede2206a90e9c2e92cccfc6addb306928a7537d",
+  "predecessors": [
+    {
+      "predecessor": 0,
+      "pose": [
+        -1,
+        -1,
+        0
+      ],
+      "shadow_slot": [
+        2,
+        0
+      ]
+    },
+    {
+      "predecessor": 1,
+      "pose": [
+        -2,
+        1,
+        1
+      ],
+      "shadow_slot": [
+        2,
+        3
+      ]
+    },
+    {
+      "predecessor": 4,
+      "pose": [
+        -1,
+        -3,
+        0
+      ],
+      "shadow_slot": [
+        2,
+        2
+      ]
+    },
+    {
+      "predecessor": 5,
+      "pose": [
+        -4,
+        1,
+        1
+      ],
+      "shadow_slot": [
+        2,
+        5
+      ]
+    },
+    {
+      "predecessor": 6,
+      "pose": [
+        0,
+        4,
+        2
+      ],
+      "shadow_slot": [
+        -1,
+        5
+      ]
+    },
+    {
+      "predecessor": 7,
+      "pose": [
+        0,
+        -4,
+        0
+      ],
+      "shadow_slot": [
+        1,
+        3
+      ]
+    },
+    {
+      "predecessor": 8,
+      "pose": [
+        -5,
+        0,
+        1
+      ],
+      "shadow_slot": [
+        1,
+        6
+      ]
+    },
+    {
+      "predecessor": 9,
+      "pose": [
+        -1,
+        5,
+        2
+      ],
+      "shadow_slot": [
+        -2,
+        6
+      ]
+    }
+  ],
+  "retirement_cases": [
+    {
+      "predecessor": 0,
+      "consumer": 0,
+      "input": [
+        0,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        0,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 0,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 2,
+      "consumer_pose": [
+        1,
+        2,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 0,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 3,
+      "consumer_pose": [
+        -2,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 0,
+      "consumer": 4,
+      "input": [
+        1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        -1,
+        0,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        2,
+        -1
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 0,
+      "consumer": 5,
+      "input": [
+        0,
+        3
+      ],
+      "age": 2,
+      "consumer_pose": [
+        1,
+        2,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 0,
+      "consumer": 7,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        0,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        4,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 0,
+      "consumer": 7,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        -1,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        3,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 1,
+      "consumer": 0,
+      "input": [
+        0,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        1,
+        0,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 1,
+      "consumer": 0,
+      "input": [
+        0,
+        1
+      ],
+      "age": 4,
+      "consumer_pose": [
+        0,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 1,
+      "consumer": 1,
+      "input": [
+        0,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        1,
+        0,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 1,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 2,
+      "consumer_pose": [
+        4,
+        -1,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        1,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 1,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 3,
+      "consumer_pose": [
+        1,
+        2,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 1,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 4,
+      "consumer_pose": [
+        -2,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 1,
+      "consumer": 4,
+      "input": [
+        1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        2,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 1,
+      "consumer": 4,
+      "input": [
+        1,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        -1,
+        0,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        2,
+        -1
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 1,
+      "consumer": 5,
+      "input": [
+        0,
+        3
+      ],
+      "age": 2,
+      "consumer_pose": [
+        4,
+        -1,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        1,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 1,
+      "consumer": 5,
+      "input": [
+        0,
+        3
+      ],
+      "age": 3,
+      "consumer_pose": [
+        1,
+        2,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 1,
+      "consumer": 5,
+      "input": [
+        1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        2,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 1,
+      "consumer": 7,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        0,
+        0,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -4
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 1,
+      "consumer": 7,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 4,
+      "consumer_pose": [
+        0,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        4,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 1,
+      "consumer": 7,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        0,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -3
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 1,
+      "consumer": 7,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        -1,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        3,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 1,
+      "consumer": 7,
+      "input": [
+        0,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        -1,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        3,
+        -1
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 1,
+      "consumer": 7,
+      "input": [
+        0,
+        3
+      ],
+      "age": 4,
+      "consumer_pose": [
+        -2,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        2,
+        -1
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 1,
+      "consumer": 7,
+      "input": [
+        -1,
+        4
+      ],
+      "age": 4,
+      "consumer_pose": [
+        -3,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 1,
+      "consumer": 8,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        0,
+        0,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -4
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 1,
+      "consumer": 8,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        0,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -3
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 4,
+      "consumer": 0,
+      "input": [
+        0,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        0,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 4,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 2,
+      "consumer_pose": [
+        1,
+        2,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 4,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 3,
+      "consumer_pose": [
+        -2,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 4,
+      "consumer": 4,
+      "input": [
+        1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        -1,
+        0,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        2,
+        -1
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 4,
+      "consumer": 5,
+      "input": [
+        0,
+        3
+      ],
+      "age": 2,
+      "consumer_pose": [
+        1,
+        2,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 4,
+      "consumer": 7,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        0,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        4,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 4,
+      "consumer": 7,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        -1,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        3,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 5,
+      "consumer": 0,
+      "input": [
+        0,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        1,
+        0,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 5,
+      "consumer": 0,
+      "input": [
+        0,
+        1
+      ],
+      "age": 4,
+      "consumer_pose": [
+        0,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 5,
+      "consumer": 1,
+      "input": [
+        0,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        1,
+        0,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 5,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 2,
+      "consumer_pose": [
+        4,
+        -1,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        1,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 5,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 3,
+      "consumer_pose": [
+        1,
+        2,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 5,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 4,
+      "consumer_pose": [
+        -2,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 5,
+      "consumer": 4,
+      "input": [
+        1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        2,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 5,
+      "consumer": 4,
+      "input": [
+        1,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        -1,
+        0,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        2,
+        -1
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 5,
+      "consumer": 5,
+      "input": [
+        0,
+        3
+      ],
+      "age": 2,
+      "consumer_pose": [
+        4,
+        -1,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        1,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 5,
+      "consumer": 5,
+      "input": [
+        0,
+        3
+      ],
+      "age": 3,
+      "consumer_pose": [
+        1,
+        2,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 5,
+      "consumer": 5,
+      "input": [
+        1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        2,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 5,
+      "consumer": 7,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        0,
+        0,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -4
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 5,
+      "consumer": 7,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 4,
+      "consumer_pose": [
+        0,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        4,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 5,
+      "consumer": 7,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        0,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -3
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 5,
+      "consumer": 7,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        -1,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        3,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 5,
+      "consumer": 7,
+      "input": [
+        0,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        -1,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        3,
+        -1
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 5,
+      "consumer": 7,
+      "input": [
+        0,
+        3
+      ],
+      "age": 4,
+      "consumer_pose": [
+        -2,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        2,
+        -1
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 5,
+      "consumer": 7,
+      "input": [
+        -1,
+        4
+      ],
+      "age": 4,
+      "consumer_pose": [
+        -3,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 5,
+      "consumer": 8,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        0,
+        0,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -4
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 5,
+      "consumer": 8,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        0,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -3
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 0,
+      "input": [
+        0,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        2,
+        -1,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        1,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 0,
+      "input": [
+        0,
+        1
+      ],
+      "age": 4,
+      "consumer_pose": [
+        1,
+        0,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 0,
+      "input": [
+        0,
+        1
+      ],
+      "age": 5,
+      "consumer_pose": [
+        0,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 1,
+      "input": [
+        0,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        2,
+        -1,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        1,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 1,
+      "input": [
+        0,
+        1
+      ],
+      "age": 4,
+      "consumer_pose": [
+        1,
+        0,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 3,
+      "consumer_pose": [
+        4,
+        -1,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        1,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 4,
+      "consumer_pose": [
+        1,
+        2,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 5,
+      "consumer_pose": [
+        -2,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 4,
+      "input": [
+        1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        3,
+        -2,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 4,
+      "input": [
+        1,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        2,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 4,
+      "input": [
+        1,
+        2
+      ],
+      "age": 5,
+      "consumer_pose": [
+        -1,
+        0,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        2,
+        -1
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 5,
+      "input": [
+        0,
+        3
+      ],
+      "age": 3,
+      "consumer_pose": [
+        4,
+        -1,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        1,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 5,
+      "input": [
+        0,
+        3
+      ],
+      "age": 4,
+      "consumer_pose": [
+        1,
+        2,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 5,
+      "input": [
+        1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        3,
+        -2,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 5,
+      "input": [
+        1,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        2,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 7,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        2,
+        0,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        -2,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 7,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 4,
+      "consumer_pose": [
+        0,
+        0,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -4
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 7,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 5,
+      "consumer_pose": [
+        0,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        4,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 7,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        3,
+        0,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        -1,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 7,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        0,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -3
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 7,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 5,
+      "consumer_pose": [
+        -1,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        3,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 7,
+      "input": [
+        0,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        1,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        1,
+        -3
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 7,
+      "input": [
+        0,
+        2
+      ],
+      "age": 5,
+      "consumer_pose": [
+        -1,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        3,
+        -1
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 7,
+      "input": [
+        0,
+        3
+      ],
+      "age": 4,
+      "consumer_pose": [
+        1,
+        2,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 7,
+      "input": [
+        0,
+        3
+      ],
+      "age": 5,
+      "consumer_pose": [
+        -2,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        2,
+        -1
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 7,
+      "input": [
+        -1,
+        4
+      ],
+      "age": 4,
+      "consumer_pose": [
+        0,
+        3,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 7,
+      "input": [
+        -1,
+        4
+      ],
+      "age": 5,
+      "consumer_pose": [
+        -3,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 8,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        2,
+        0,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        -2,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 8,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 4,
+      "consumer_pose": [
+        0,
+        0,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -4
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 8,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        3,
+        0,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        -1,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 8,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        0,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -3
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 8,
+      "input": [
+        0,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        1,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        1,
+        -3
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 8,
+      "input": [
+        0,
+        3
+      ],
+      "age": 4,
+      "consumer_pose": [
+        1,
+        2,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 8,
+      "input": [
+        -1,
+        4
+      ],
+      "age": 4,
+      "consumer_pose": [
+        0,
+        3,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 9,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        2,
+        0,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        -2,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 6,
+      "consumer": 9,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        3,
+        0,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        -1,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 7,
+      "consumer": 0,
+      "input": [
+        0,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        0,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 7,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 2,
+      "consumer_pose": [
+        1,
+        2,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 7,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 3,
+      "consumer_pose": [
+        -2,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 7,
+      "consumer": 4,
+      "input": [
+        1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        -1,
+        0,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        2,
+        -1
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 7,
+      "consumer": 5,
+      "input": [
+        0,
+        3
+      ],
+      "age": 2,
+      "consumer_pose": [
+        1,
+        2,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 7,
+      "consumer": 7,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        0,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        4,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 7,
+      "consumer": 7,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        -1,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        3,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 8,
+      "consumer": 0,
+      "input": [
+        0,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        1,
+        0,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 8,
+      "consumer": 0,
+      "input": [
+        0,
+        1
+      ],
+      "age": 4,
+      "consumer_pose": [
+        0,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 8,
+      "consumer": 1,
+      "input": [
+        0,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        1,
+        0,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 8,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 2,
+      "consumer_pose": [
+        4,
+        -1,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        1,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 8,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 3,
+      "consumer_pose": [
+        1,
+        2,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 8,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 4,
+      "consumer_pose": [
+        -2,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 8,
+      "consumer": 4,
+      "input": [
+        1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        2,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 8,
+      "consumer": 4,
+      "input": [
+        1,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        -1,
+        0,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        2,
+        -1
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 8,
+      "consumer": 5,
+      "input": [
+        0,
+        3
+      ],
+      "age": 2,
+      "consumer_pose": [
+        4,
+        -1,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        1,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 8,
+      "consumer": 5,
+      "input": [
+        0,
+        3
+      ],
+      "age": 3,
+      "consumer_pose": [
+        1,
+        2,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 8,
+      "consumer": 5,
+      "input": [
+        1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        2,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 8,
+      "consumer": 7,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        0,
+        0,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -4
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 8,
+      "consumer": 7,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 4,
+      "consumer_pose": [
+        0,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        4,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 8,
+      "consumer": 7,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        0,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -3
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 8,
+      "consumer": 7,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        -1,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        3,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 8,
+      "consumer": 7,
+      "input": [
+        0,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        -1,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        3,
+        -1
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 8,
+      "consumer": 7,
+      "input": [
+        0,
+        3
+      ],
+      "age": 4,
+      "consumer_pose": [
+        -2,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        2,
+        -1
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 8,
+      "consumer": 7,
+      "input": [
+        -1,
+        4
+      ],
+      "age": 4,
+      "consumer_pose": [
+        -3,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 8,
+      "consumer": 8,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        0,
+        0,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -4
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 8,
+      "consumer": 8,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        0,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -3
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 0,
+      "input": [
+        0,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        2,
+        -1,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        1,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 0,
+      "input": [
+        0,
+        1
+      ],
+      "age": 4,
+      "consumer_pose": [
+        1,
+        0,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 0,
+      "input": [
+        0,
+        1
+      ],
+      "age": 5,
+      "consumer_pose": [
+        0,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 1,
+      "input": [
+        0,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        2,
+        -1,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        1,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 1,
+      "input": [
+        0,
+        1
+      ],
+      "age": 4,
+      "consumer_pose": [
+        1,
+        0,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 3,
+      "consumer_pose": [
+        4,
+        -1,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        1,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 4,
+      "consumer_pose": [
+        1,
+        2,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 4,
+      "input": [
+        0,
+        3
+      ],
+      "age": 5,
+      "consumer_pose": [
+        -2,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 4,
+      "input": [
+        1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        3,
+        -2,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 4,
+      "input": [
+        1,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        2,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 4,
+      "input": [
+        1,
+        2
+      ],
+      "age": 5,
+      "consumer_pose": [
+        -1,
+        0,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        2,
+        -1
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 5,
+      "input": [
+        0,
+        3
+      ],
+      "age": 3,
+      "consumer_pose": [
+        4,
+        -1,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        1,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 5,
+      "input": [
+        0,
+        3
+      ],
+      "age": 4,
+      "consumer_pose": [
+        1,
+        2,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 5,
+      "input": [
+        1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        3,
+        -2,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 5,
+      "input": [
+        1,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        2,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 7,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        2,
+        0,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        -2,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 7,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 4,
+      "consumer_pose": [
+        0,
+        0,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -4
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 7,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 5,
+      "consumer_pose": [
+        0,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        4,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 7,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        3,
+        0,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        -1,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 7,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        0,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -3
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 7,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 5,
+      "consumer_pose": [
+        -1,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        3,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 7,
+      "input": [
+        0,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        1,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        1,
+        -3
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 7,
+      "input": [
+        0,
+        2
+      ],
+      "age": 5,
+      "consumer_pose": [
+        -1,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        3,
+        -1
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 7,
+      "input": [
+        0,
+        3
+      ],
+      "age": 4,
+      "consumer_pose": [
+        1,
+        2,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 7,
+      "input": [
+        0,
+        3
+      ],
+      "age": 5,
+      "consumer_pose": [
+        -2,
+        -1,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        2,
+        -1
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 7,
+      "input": [
+        -1,
+        4
+      ],
+      "age": 4,
+      "consumer_pose": [
+        0,
+        3,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 7,
+      "input": [
+        -1,
+        4
+      ],
+      "age": 5,
+      "consumer_pose": [
+        -3,
+        -2,
+        1
+      ],
+      "remaining_C": 0,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "zero-C east postconsumer cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 8,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        2,
+        0,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        -2,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 8,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 4,
+      "consumer_pose": [
+        0,
+        0,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -4
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 8,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        3,
+        0,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        -1,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 8,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        0,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -3
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 8,
+      "input": [
+        0,
+        2
+      ],
+      "age": 4,
+      "consumer_pose": [
+        1,
+        1,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        1,
+        -3
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 8,
+      "input": [
+        0,
+        3
+      ],
+      "age": 4,
+      "consumer_pose": [
+        1,
+        2,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        1,
+        -2
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 8,
+      "input": [
+        -1,
+        4
+      ],
+      "age": 4,
+      "consumer_pose": [
+        0,
+        3,
+        2
+      ],
+      "remaining_C": 1,
+      "base_endpoint": [
+        0,
+        -1
+      ],
+      "reason": "one-C south/east postbase cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 9,
+      "input": [
+        -1,
+        1
+      ],
+      "age": 3,
+      "consumer_pose": [
+        2,
+        0,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        -2,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    },
+    {
+      "predecessor": 9,
+      "consumer": 9,
+      "input": [
+        -1,
+        2
+      ],
+      "age": 3,
+      "consumer_pose": [
+        3,
+        0,
+        3
+      ],
+      "remaining_C": 2,
+      "base_endpoint": [
+        -1,
+        0
+      ],
+      "reason": "zero-C west preclearer cone"
+    }
+  ],
+  "goal_score": 28,
+  "I28_source_initial_activation": 30,
+  "scope": "Precise oldDC(3,1) to V/VC lower(0,3), target(0,1,E), produced age3 forces DC factor-first. Thus this conditional V1 role is funded, and the DC V^r VCC V^(r+2) family has no complete-eight left extension. Other V1 origins/ages and U1 remain open."
+}

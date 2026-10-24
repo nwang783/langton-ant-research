@@ -1,0 +1,43 @@
+{
+  "status": "PASS generic one next-FOREIGN Q/B SAME hook transfer after exactly three ordinary Cs only",
+  "manifest": "11b355e04075d4663789eca8d80a9da7b5b91cf8c0c4a7cdabb4156db4464be6",
+  "script": "320c26da6abc15869860f9514324387f14a4ea4f2eafae32e2b93682fe9e457f",
+  "W_first_loss_counts": {
+    "held_FIELD": 39,
+    "sector": 40,
+    "only_possible_W3_first_NE_loss": 1
+  },
+  "foreign_unspent_counts": {
+    "held_FIELD": 53,
+    "extra_source_output_guard": 4
+  },
+  "endpoint_exhaustive_W_continuations": [
+    "UB",
+    "UF",
+    "UQ",
+    "UUQ"
+  ],
+  "complete_input_exit_bounds": 8,
+  "controls": [
+    {
+      "packet": "UQUCCVC",
+      "seed": 31,
+      "reads": 194,
+      "final_mass": 57
+    },
+    {
+      "packet": "UBUCCVC",
+      "seed": 34,
+      "reads": 204,
+      "final_mass": 60
+    }
+  ],
+  "analytic_review": [
+    "ActualsourceQ/B births give13distinctNE/hookIDs plus twoauxiliarytags; sharedR46notdoublecounted andR55at-4,-1genuineexternalO. Ordinaryhookmin4 isusedonlythroughordinaryC3. S0/E1preserveNE, signedN2firstloss istrueU3,-1includingits simultaneousinputs. C hasnoexternalinputorunaccountedCOREcapture.",
+    "Fresh80W3roles give40sector39heldCORE/firstWHITE andoneU2,3gate. Everytrueinputincludingmarker-ownedCURRENTcapture retained; arbitraryextraentrycolors cannotrepair aheldoriginalCORE/WHITEconflict. IfNEsurvivesnextentry,57foreigntruehookposes split53field+fourtargets. This isnot assumingNEthroughforeign.",
+    "AnN2gate exits3,3N; subsequentNbase strictlyraisesy andC3adds1. Allhooktargets y<=4, equalityonlyx+-1. EqualityforbidsNbases/W D,V; anynonemptyheightpreservingWrailwouldstartUimmediatelyafterC, literalCU repeatedL1/29. ThusNspentbranchcannotreachanytarget, withno railbound.",
+    "Wfirstgate exits-2,3W. Exactnonnegative displacementdx=d+3v+4u,dy=d+v derivesallorderswithoutdepthcap andonlyUF,UQ,UUQ,UB. Eachwholeword isfreelyprepared-feasiblebut firstR conflictswithanoriginal13fieldidentity currentatgateentry. FullpacketRAW/markerownerlabels independentlyreconstructed; neitherallfieldpersistenceaftergate norphysicalretirementisassumed.",
+    "Auxiliarytagsa=-4,1 andr=-4,-1cannotloseS/E byactualinputcones. EveryNfirstloss RAWexity>=tagy,equalityexitx=tagx+1; everyWloss exity>=tagy,equalityexitx<tagx. ActualCs/strictNrise andmonotoneW displacement makeaCURRENTat-4,1targetCORE. Forr/B-5,0 anNloss requires-3,-1thenCto-3,0 and4u=2impossible; all8Wloss exitsemigroups havezerosolutions. TheseareCURRENT first-loss proofs retainingaliveCORE inputs, notrestoration/age assumptions.",
+    "AllcandidatefirsthookCURRENTlosses inthenextFOREIGN arethereforeeitherentryCORE/firstWHITE contradictionsorexhaustivelyexcludedtrueinputs. Samefourhooks surviveitsRAWexitandactualM. Togetherwithsigned330 gives0..3CsforONE nextforeign, notiteration, sourceF, C4, arbitrarytailsimplicity, languageentry orcapture. Genuine31/34cell UQ/UBthreeCprefixes replaywhole194/204reads andremainvalid."
+  ]
+}

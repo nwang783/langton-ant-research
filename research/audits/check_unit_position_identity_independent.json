@@ -1,0 +1,26 @@
+{
+  "status": "PASS occurrence-dependent pure p(kn)=p(n) exclusion on arbitrary initial colorings",
+  "results": [
+    {
+      "radix": 5,
+      "status": "EXHAUSTED",
+      "fine_tree_nodes": 421,
+      "accepted_macro_nodes": 27,
+      "max_macros": 4,
+      "endpoint_mismatch_leaves": 158,
+      "largest_examined_time": 25,
+      "terminal_word_digest": "0f495e693a41ec968e22eaa17a5e1a90688d632411905d27538fd504059211db"
+    },
+    {
+      "radix": 9,
+      "status": "EXHAUSTED",
+      "fine_tree_nodes": 8105,
+      "accepted_macro_nodes": 101,
+      "max_macros": 5,
+      "endpoint_mismatch_leaves": 3202,
+      "largest_examined_time": 54,
+      "terminal_word_digest": "ffce111497d8b5830de7152dae7374d88ad7c3d63a1c0ddf2d9e0a9ea12c9088"
+    }
+  ],
+  "scope": "k5 and k9 only, no heading constraint, no eventual offsets or general unit-scale exclusion."
+}

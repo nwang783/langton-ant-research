@@ -1,0 +1,23 @@
+{
+  "status": "PASS independent literal sibling annotations and cyclic components",
+  "roles": 272,
+  "fundamental_edges": 35904,
+  "transfer_classes": 4224,
+  "strict_before_free": 1892,
+  "by_target_free": 728,
+  "positive_C_strict_before_free": 540,
+  "positive_C_by_target_free": 48,
+  "positive_C_cyclic_components": [
+    [
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "all_by_target_cyclic_component_sizes": [
+    76
+  ],
+  "manifest_sha256": "c61f42e056e14e0028af1caeb7c4dc904c87eb0cb50f29299d270640945af18a",
+  "scope": "Necessary identity retirements only. Packet types with zero C cannot be discarded from actual ancestry. Counted retirements may occur on path consumers; no fresh-root or global fuel bound."
+}

@@ -1,0 +1,69 @@
+{
+  "status": "PASS universal directed visit-flow and perimeter-exponential confined-interval bound",
+  "manifest": "ae95dcdef257f2fff6768449011ed58d3bc127cc10602907652d7bfc6be9db8f",
+  "dependencies": {
+    "DROUGHT_BOUNDARY_PINNING_MANIFEST.json": "f0d24e49e0ceef9fef4e887a1941ab3c7a094470d77930d1991604c9a876d824",
+    "DROUGHT_BOUNDARY_ORIENTATION_ADDENDUM.json": "9a2524e996f887b54e7780e682790918f336af7ba9ff485c3f40209d8da4c728",
+    "../audits/check_drought_boundary_pinning_independent.json": "02f628cb43a3aa464c17a5c5e9acfaa3ea6f2dc955b70d2ea037094885678d08",
+    "RECURSIVE_PHASE13_PACKET_MANIFEST.json": "6ddc626c03632dbaa1d11a4cdfc487b112d4c15bb8d9638d79dfc2fade266220",
+    "SOUTHWEST_ARCHIVE_IMPORT_MANIFEST.json": "bbd355881af85e24445f23d7d99d1eba88d5519ec5487c920b07f39892c5cf66",
+    "../audits/check_southwest_archive_import_independent.json": "600f91c4b51dc92dd08901233e290d345eb836e1ccc92750d4e9fdc9adbcb463",
+    "MT_COMPLETED_DROUGHT_INVENTORY_MANIFEST.json": "ccf51906abe736062477ec93e694f7e3b17ab625e5b141f7f42be90bf880599c",
+    "../audits/check_MT_completed_drought_inventory_independent.json": "07204abd5827a0cee4d6ceac00a18e57a772cef6247d4fde8c9d72970abc1d40",
+    "../first_principles_new/recurrent_boundary_current.md": "8052d804cf1568e17a1222f41466d7b2754360f7d7a84a36c9f252a6c288a6bd"
+  },
+  "small_exhaustions": [
+    {
+      "width": 1,
+      "height": 6,
+      "complete_states": 1536,
+      "confined_prefixes": 2176,
+      "max_exit_updates": 2,
+      "results_sha256": "77fd1f63aa1b867cc9a1679405f88f0f4ad1a15dea23b8a2b7f2e97ff60cd2a7"
+    },
+    {
+      "width": 2,
+      "height": 4,
+      "complete_states": 8192,
+      "confined_prefixes": 22040,
+      "max_exit_updates": 18,
+      "results_sha256": "6bd08180394224c23fd4164d90fc95f5a816d636a4eee2d0356b1648b3f9ccd0"
+    },
+    {
+      "width": 3,
+      "height": 3,
+      "complete_states": 18432,
+      "confined_prefixes": 59808,
+      "max_exit_updates": 17,
+      "results_sha256": "80fe17ed187b64bf852f8e94487aa53bdd0689c00a2207152d87456fb9da4b7f"
+    }
+  ],
+  "edge_incidence_and_alternation_checks": 74048,
+  "all_corner_choices_checked": true,
+  "full_original_field_controls": [
+    {
+      "n": 100,
+      "full_reads": 101070,
+      "head_records": 913,
+      "max_cut_visits": 63,
+      "exact_bound": "478373701066048212061691040254857230453670366942432840302397611167875796997826180384892694735006017717028736056309832217724397531350176303793561240781019982269627028325980983304799836862838475789797337704351384977477168435361932020497003668254689525962157043101981626591394509124433982863190573406070928955718590584883454931681332731284723818497256659779739292636931270834679192891000096737581645004483100649916469183528929143975729737370366597209329097293289382600990859019229139578050964553348140261390566071693244450273943785672170991417160637981",
+      "drought_exact_bound": "203615845241836177788063106778313268595798829045523093797861799133597154716910260234633127627713956049590290715130994829902893903281538994562482176124408959540727921351708711098687737279314930776504949924153321548362574227724993544265020360820920451257098791126965937311647359979021502520263833701572016883"
+    },
+    {
+      "n": 137,
+      "full_reads": 108766,
+      "head_records": 1061,
+      "max_cut_visits": 63,
+      "exact_bound": "57044948932777227107316191321490133689621266238928724095204176291191352785703934370657466125982826165078377052142029832815016188500316596121957876373581196370533008423192331033102746893690392209639925289400479717589350259146708546938433676026954835883917349781200946796107622712539614221739421592089732663728089979292068202362087530265192906476385074443729408872763076407829398142661354436392069089171200538291722879782379404500326257587109614474363100499689733537644908984417085577625444970829061244062065453284812246734107194635547935287125102492241419005990115356141240244090928490549149022076559116860590516076539628431291746818236991",
+      "drought_exact_bound": "25150899392238442249087906191156124025641621723499511084587343685504617090684583134132573552050037854435452421742826545885693448850920111800238483996719050776127089812004527929583050957800852818984480524565759510548243034677834685389520818828599092171460240163184341773748256061889821908860534692730879713972374282681208956185870549998936995760586020429969418406789165289733705395476399164051629"
+    }
+  ],
+  "analytic_review": [
+    "At a fixed physical cell the checkerboard sector fixes the incoming axis and hence the one direction of each incident edge. A visit avoiding the two selected perpendicular predecessor edges has one fixed turn. Actual color alternation gives reads<=2 exceptional+1. Charge exceptional edge incidences to neighbor HEAD CUTS: directed-edge uniqueness makes each neighbor occurrence usable at most once for this edge. A read touching both predecessors may be charged twice, safely overestimating.",
+    "Only the initial incoming edge can lack a neighboring in-window cut, contributing at most one exceptional read and hence +2 at p_s. Every outgoing arrival cut, including the final update, is retained. Converting reads to cuts adds exactly +1 at p_t. Thus M(v)<=2M(west)+2M(south)+1+2start+end for any actual interval, including arbitrary endpoint headings and both sectors. No no-bounded-orbit theorem is imported.",
+    "With all head cuts confined, outside counts are zero. Coordinate induction solves the linear inequality by Green kernel2^(i+j)binomial(i+j,i), a constant-source cumulative sum, and two endpoint point sources. Summing yields exactly the endpoint-sensitive formula, then S+3A and the conservative (WH+3)(4^(W+H-1)-1)/3. Thin strips are included without a separate induction base.",
+    "From an arbitrary cut, the historical HEAD rectangle starts1x1 and each strict record adds exactly one to W+H, so W+H=N+2. The explicit inequality gives a logarithmic lower bound on head-record count. These records need not be pristine or outside the prepared BLACK seed hull; neither record gap density nor a finite capture window is forced.",
+    "The local recurrence is an actual visit-count hierarchy in one continuous interval, not a lifetime nesting, fuel, BLACK-hull descent, or no-return-after-exit statement. Its universal proof is analytic; complete small fields and full MT histories test endpoints and bookkeeping only. No canonical104 uniqueness or global attraction conclusion follows."
+  ],
+  "scope": "Chronological finite-interval visit-count hierarchy; no BLACK-hull descent, lifetime nesting, fast pristine clock occurrence or canonical classification"
+}

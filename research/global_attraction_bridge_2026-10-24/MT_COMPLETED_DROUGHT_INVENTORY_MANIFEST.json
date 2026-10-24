@@ -1,0 +1,20 @@
+{
+  "status": "FROZEN exact scoped MT inventory; independent audit pending",
+  "files": {
+    "MT_SINGLE_LONG_COMPLETED_DROUGHT.md": "6a7ecabb2e295db035700ee9564cb77584406e97b959d94ad5b4bddde8155fbb",
+    "check_MT_completed_drought_inventory.py": "c590dc9dfc074da0d98e24809d22a664be62fce9cde990d492ed77958451df25",
+    "MT_COMPLETED_DROUGHT_INVENTORY_CHECKED.json": "0800293789f5ebe273bfb4b279436c35ec39e8acce1b75c37d8ed33f301de9ce",
+    "MT_COMPLETED_DROUGHT_INVENTORY_RUN.log": "7d364467b581823c0e882bf4db6937ae02bb3b74158fc6af8d7feb653f9aa4ca"
+  },
+  "dependencies": {
+    "SOUTHWEST_ARCHIVE_IMPORT_MANIFEST.json": "bbd355881af85e24445f23d7d99d1eba88d5519ec5487c920b07f39892c5cf66",
+    "../audits/check_southwest_archive_import_independent.json": "600f91c4b51dc92dd08901233e290d345eb836e1ccc92750d4e9fdc9adbcb463",
+    "JOINT_RECORD_DROUGHT_MANIFEST.json": "279631813c510c23d6939b3ef97d417f72b727e6820e243846e06cbc135adf80",
+    "../audits/check_joint_record_drought_independent.json": "ec64937c772a579f208342675e40d8f81390dd36455d3e95b29585cb1f2a7412",
+    "DROUGHT_BOUNDARY_PINNING_MANIFEST.json": "f0d24e49e0ceef9fef4e887a1941ab3c7a094470d77930d1991604c9a876d824",
+    "DROUGHT_BOUNDARY_ORIENTATION_ADDENDUM.json": "9a2524e996f887b54e7780e682790918f336af7ba9ff485c3f40209d8da4c728",
+    "../audits/check_drought_boundary_pinning_independent.json": "02f628cb43a3aa464c17a5c5e9acfaa3ea6f2dc955b70d2ea037094885678d08"
+  },
+  "claim": "All n>=100 MT has exactly one completed pristine augmented-hull union gap>3390, of length58697+104n",
+  "scope": "Does not bound other architectures; reset windows within one gap are not distinct completed droughts"
+}

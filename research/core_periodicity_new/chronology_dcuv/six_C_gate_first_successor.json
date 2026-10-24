@@ -1,0 +1,115 @@
+{
+  "status": "AUTHOR_SIX_C_GATE_PLAIN_U_AND_NON_D_SUCCESSOR_NECESSITY_PASS",
+  "scope": "In the signed remaining canonical six-C FIRST contact U0,N\u2192V(0,4,S), source full packet must be plainU, and its immediately following packet has V/U base. UC/UCC source or D/DC successor causes an earlier repeated center at finalVentry. No exclusion/attainment of remaining gate or fuel.",
+  "source_U_base_exit": [
+    0,
+    4,
+    0
+  ],
+  "later_V_entry": [
+    0,
+    4,
+    2
+  ],
+  "later_V_entry_center": [
+    "1/2",
+    "9/2"
+  ],
+  "actual_next_atom_exit_checks": [
+    {
+      "next_atom": "D",
+      "next_exit": [
+        1,
+        5,
+        0
+      ],
+      "next_exit_center": [
+        "1/2",
+        "9/2"
+      ],
+      "next_exit_C_clock": 0,
+      "final_V_entry_C_clock": 6,
+      "reason": "REVISITS_EARLIER_NEXT_ATOM_EXIT_BEFORE_FINAL_V_ENDPOINT_CONTACT"
+    },
+    {
+      "next_atom": "C",
+      "next_exit": [
+        0,
+        5,
+        3
+      ],
+      "next_exit_center": [
+        "1/2",
+        "9/2"
+      ],
+      "next_exit_C_clock": 1,
+      "final_V_entry_C_clock": 6,
+      "reason": "REVISITS_EARLIER_NEXT_ATOM_EXIT_BEFORE_FINAL_V_ENDPOINT_CONTACT"
+    }
+  ],
+  "full_source_cases": [
+    {
+      "full_source": 7,
+      "has_immediate_C": false,
+      "excluded_as_six_C_FIRST_contact": false
+    },
+    {
+      "full_source": 8,
+      "has_immediate_C": true,
+      "excluded_as_six_C_FIRST_contact": true
+    },
+    {
+      "full_source": 9,
+      "has_immediate_C": true,
+      "excluded_as_six_C_FIRST_contact": true
+    }
+  ],
+  "next_full_packet_cases": [
+    {
+      "next_full_packet": 0,
+      "next_base": "D",
+      "excluded_after_plain_U": true
+    },
+    {
+      "next_full_packet": 1,
+      "next_base": "D",
+      "excluded_after_plain_U": true
+    },
+    {
+      "next_full_packet": 4,
+      "next_base": "V",
+      "excluded_after_plain_U": false
+    },
+    {
+      "next_full_packet": 5,
+      "next_base": "V",
+      "excluded_after_plain_U": false
+    },
+    {
+      "next_full_packet": 6,
+      "next_base": "V",
+      "excluded_after_plain_U": false
+    },
+    {
+      "next_full_packet": 7,
+      "next_base": "U",
+      "excluded_after_plain_U": false
+    },
+    {
+      "next_full_packet": 8,
+      "next_base": "U",
+      "excluded_after_plain_U": false
+    },
+    {
+      "next_full_packet": 9,
+      "next_base": "U",
+      "excluded_after_plain_U": false
+    }
+  ],
+  "dependencies": {
+    "chronology_dcuv/literal_residual_geometry.json": "f0dcedd2135a954dbb315feafc1ce3ae5b8a54a46ea69595d5c7c3fafc160ebd",
+    "six_C_contact_frozen_20261023_1454/manifest.json": "e25f3973891acc3eb0f908c641c50086d217c87273e10c61dd4e6b46c3c6067f",
+    "atomic_exit_bud_frozen_20261023_1325/02_atomic_exit_bud_maturation.json": "1ece5c32cd995730469b127d5b480145b08e55d1ddaf471cea509d5104041406",
+    "check_six_C_gate_first_successor.py": "a72f4426ef2e71198885811c26074dbcdf6ec41d9fe6553ec5a12631ded8cc6b"
+  }
+}

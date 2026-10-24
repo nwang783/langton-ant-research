@@ -1,0 +1,510 @@
+{
+  "records": [
+    {
+      "schemes": 22,
+      "terminal_scheme_reads": 32,
+      "parity": {
+        "0": {
+          "numerator": "x**2",
+          "denominator": "x**2*z + 1",
+          "states": 4
+        },
+        "1": {
+          "numerator": "x**2",
+          "denominator": "x**2*z + 1",
+          "states": 4
+        },
+        "2": {
+          "numerator": "x**2",
+          "denominator": "x**2*z + 1",
+          "states": 4
+        },
+        "3": {
+          "numerator": "x**2",
+          "denominator": "x**2*z + 1",
+          "states": 4
+        },
+        "4": {
+          "numerator": "x**2",
+          "denominator": "x**2*z + 1",
+          "states": 4
+        },
+        "5": {
+          "numerator": "x**2",
+          "denominator": "x**2*z + 1",
+          "states": 4
+        },
+        "6": {
+          "numerator": "x**2",
+          "denominator": "x**2*z + 1",
+          "states": 4
+        },
+        "7": {
+          "numerator": "x**2",
+          "denominator": "x**2*z + 1",
+          "states": 4
+        },
+        "8": {
+          "numerator": "x**5*y*z + x**5*z + x**4*y*z + x**4*z + x**2*y + x**2 + x*y + x",
+          "denominator": "x**6*z**2 + x**4*z + x**2*z + 1",
+          "states": 8
+        },
+        "9": {
+          "numerator": "x**2*y + x**2 + y + 1",
+          "denominator": "x**6*z**2 + x**4*z + x**2*z + 1",
+          "states": 10
+        }
+      },
+      "black_states": {
+        "(-1, -1)": 1,
+        "(-1, 1)": 3,
+        "(1, -1)": 1,
+        "(1, 1)": 7
+      },
+      "bad_states": 1,
+      "keep_depth": true,
+      "seconds": 0.2513594260090031,
+      "all_depths_internally_legal": true,
+      "fuel_proof": {
+        "alpha": 2,
+        "beta": 3,
+        "zero_correction": 0,
+        "padding_bits": 4,
+        "weighted_states": 15,
+        "rank": 7,
+        "checks": 7
+      },
+      "exact_board_tables": {
+        "all_binary_input_output_xor_support_equalities": 16,
+        "orthants": [
+          {
+            "signs": [
+              -1,
+              -1
+            ],
+            "input_states": 1,
+            "output_states": 1,
+            "xor_states": 1,
+            "support_states": 1
+          },
+          {
+            "signs": [
+              -1,
+              1
+            ],
+            "input_states": 3,
+            "output_states": 4,
+            "xor_states": 4,
+            "support_states": 4
+          },
+          {
+            "signs": [
+              1,
+              -1
+            ],
+            "input_states": 1,
+            "output_states": 1,
+            "xor_states": 1,
+            "support_states": 1
+          },
+          {
+            "signs": [
+              1,
+              1
+            ],
+            "input_states": 7,
+            "output_states": 4,
+            "xor_states": 4,
+            "support_states": 5
+          }
+        ]
+      },
+      "literal_complete_input_cells": 15505,
+      "name": "domino_transport",
+      "same_board_decision": {
+        "schemes": 22,
+        "terminal_scheme_reads": 32,
+        "parity": {
+          "0": {
+            "numerator": "x**2",
+            "denominator": "x**2*z + 1",
+            "states": 4
+          },
+          "1": {
+            "numerator": "x**2",
+            "denominator": "x**2*z + 1",
+            "states": 4
+          },
+          "2": {
+            "numerator": "x**2",
+            "denominator": "x**2*z + 1",
+            "states": 4
+          },
+          "3": {
+            "numerator": "x**2",
+            "denominator": "x**2*z + 1",
+            "states": 4
+          },
+          "4": {
+            "numerator": "x**2",
+            "denominator": "x**2*z + 1",
+            "states": 4
+          },
+          "5": {
+            "numerator": "x**2",
+            "denominator": "x**2*z + 1",
+            "states": 4
+          },
+          "6": {
+            "numerator": "x**2",
+            "denominator": "x**2*z + 1",
+            "states": 4
+          },
+          "7": {
+            "numerator": "x**2",
+            "denominator": "x**2*z + 1",
+            "states": 4
+          },
+          "8": {
+            "numerator": "x**5*y*z + x**5*z + x**4*y*z + x**4*z + x**2*y + x**2 + x*y + x",
+            "denominator": "x**6*z**2 + x**4*z + x**2*z + 1",
+            "states": 8
+          },
+          "9": {
+            "numerator": "x**2*y + x**2 + y + 1",
+            "denominator": "x**6*z**2 + x**4*z + x**2*z + 1",
+            "states": 10
+          }
+        },
+        "black_states": {
+          "(-1, -1)": 1,
+          "(-1, 1)": 3,
+          "(1, -1)": 1,
+          "(1, 1)": 3
+        },
+        "bad_states": 1,
+        "keep_depth": false,
+        "seconds": 0.2189719640009571,
+        "same_board_consistent": false,
+        "finite_black_requirement": false,
+        "possible": false,
+        "seed": null,
+        "nested_root": false,
+        "growing_root": false,
+        "accepted_growing_model": false
+      }
+    },
+    {
+      "schemes": 22,
+      "terminal_scheme_reads": 40,
+      "parity": {
+        "0": {
+          "numerator": "x**2",
+          "denominator": "x**2*z + 1",
+          "states": 4
+        },
+        "1": {
+          "numerator": "x**2",
+          "denominator": "x**2*z + 1",
+          "states": 4
+        },
+        "2": {
+          "numerator": "x**2",
+          "denominator": "x**2*z + 1",
+          "states": 4
+        },
+        "3": {
+          "numerator": "x**2",
+          "denominator": "x**2*z + 1",
+          "states": 4
+        },
+        "4": {
+          "numerator": "x**2",
+          "denominator": "x**2*z + 1",
+          "states": 4
+        },
+        "5": {
+          "numerator": "x**2",
+          "denominator": "x**2*z + 1",
+          "states": 4
+        },
+        "6": {
+          "numerator": "x**2",
+          "denominator": "x**2*z + 1",
+          "states": 4
+        },
+        "7": {
+          "numerator": "x**2",
+          "denominator": "x**2*z + 1",
+          "states": 4
+        },
+        "8": {
+          "numerator": "x**3*y + x**3 + x*y + x",
+          "denominator": "x**6*z**2 + x**4*z + x**2*z + 1",
+          "states": 10
+        },
+        "9": {
+          "numerator": "x**5*y*z + x**5*z + x**4*y*z + x**4*z + x**3*y + x**3 + y + 1",
+          "denominator": "x**6*z**2 + x**4*z + x**2*z + 1",
+          "states": 8
+        }
+      },
+      "black_states": {
+        "(-1, -1)": 1,
+        "(-1, 1)": 3,
+        "(1, -1)": 1,
+        "(1, 1)": 4
+      },
+      "bad_states": 1,
+      "keep_depth": true,
+      "seconds": 0.2899063299992122,
+      "all_depths_internally_legal": true,
+      "fuel_proof": {
+        "alpha": 2,
+        "beta": 2,
+        "zero_correction": 0,
+        "padding_bits": 4,
+        "weighted_states": 12,
+        "rank": 6,
+        "checks": 6
+      },
+      "exact_board_tables": {
+        "all_binary_input_output_xor_support_equalities": 16,
+        "orthants": [
+          {
+            "signs": [
+              -1,
+              -1
+            ],
+            "input_states": 1,
+            "output_states": 1,
+            "xor_states": 1,
+            "support_states": 1
+          },
+          {
+            "signs": [
+              -1,
+              1
+            ],
+            "input_states": 3,
+            "output_states": 4,
+            "xor_states": 4,
+            "support_states": 4
+          },
+          {
+            "signs": [
+              1,
+              -1
+            ],
+            "input_states": 1,
+            "output_states": 1,
+            "xor_states": 1,
+            "support_states": 1
+          },
+          {
+            "signs": [
+              1,
+              1
+            ],
+            "input_states": 4,
+            "output_states": 7,
+            "xor_states": 4,
+            "support_states": 5
+          }
+        ]
+      },
+      "literal_complete_input_cells": 15953,
+      "name": "domino_growth",
+      "same_board_decision": {
+        "schemes": 22,
+        "terminal_scheme_reads": 40,
+        "parity": {
+          "0": {
+            "numerator": "x**2",
+            "denominator": "x**2*z + 1",
+            "states": 4
+          },
+          "1": {
+            "numerator": "x**2",
+            "denominator": "x**2*z + 1",
+            "states": 4
+          },
+          "2": {
+            "numerator": "x**2",
+            "denominator": "x**2*z + 1",
+            "states": 4
+          },
+          "3": {
+            "numerator": "x**2",
+            "denominator": "x**2*z + 1",
+            "states": 4
+          },
+          "4": {
+            "numerator": "x**2",
+            "denominator": "x**2*z + 1",
+            "states": 4
+          },
+          "5": {
+            "numerator": "x**2",
+            "denominator": "x**2*z + 1",
+            "states": 4
+          },
+          "6": {
+            "numerator": "x**2",
+            "denominator": "x**2*z + 1",
+            "states": 4
+          },
+          "7": {
+            "numerator": "x**2",
+            "denominator": "x**2*z + 1",
+            "states": 4
+          },
+          "8": {
+            "numerator": "x**3*y + x**3 + x*y + x",
+            "denominator": "x**6*z**2 + x**4*z + x**2*z + 1",
+            "states": 10
+          },
+          "9": {
+            "numerator": "x**5*y*z + x**5*z + x**4*y*z + x**4*z + x**3*y + x**3 + y + 1",
+            "denominator": "x**6*z**2 + x**4*z + x**2*z + 1",
+            "states": 8
+          }
+        },
+        "black_states": {
+          "(-1, -1)": 1,
+          "(-1, 1)": 3,
+          "(1, -1)": 1,
+          "(1, 1)": 2
+        },
+        "bad_states": 1,
+        "keep_depth": false,
+        "seconds": 0.24680415299371816,
+        "same_board_consistent": false,
+        "finite_black_requirement": false,
+        "possible": false,
+        "seed": null,
+        "nested_root": false,
+        "growing_root": false,
+        "accepted_growing_model": false
+      }
+    }
+  ],
+  "scope": "Exact flat finite-base macro refinement. Both capped families internally legal at every depth, with different prepared input boards and infinite union fuel. No renewable device or finite-seed growing trajectory.",
+  "generic_controls": [
+    {
+      "name": "identity_multiread",
+      "schemes": 1,
+      "terminal_scheme_reads": 8,
+      "parity": {
+        "0": {
+          "numerator": "x**2*y + x**2 + y + 1",
+          "denominator": "z + 1",
+          "states": 4
+        }
+      },
+      "black_states": {
+        "(-1, -1)": 1,
+        "(-1, 1)": 3,
+        "(1, -1)": 1,
+        "(1, 1)": 3
+      },
+      "bad_states": 1,
+      "keep_depth": false,
+      "seconds": 0.01320885399763938,
+      "same_board_consistent": true,
+      "finite_black_requirement": true,
+      "possible": true,
+      "seed": [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "nested_root": true,
+      "growing_root": false,
+      "accepted_growing_model": false
+    },
+    {
+      "name": "two_cycle_multiread",
+      "schemes": 2,
+      "terminal_scheme_reads": 16,
+      "parity": {
+        "0": {
+          "numerator": "x**2*y + x**2 + y + 1",
+          "denominator": "z + 1",
+          "states": 4
+        },
+        "1": {
+          "numerator": "x**2*y + x**2 + y + 1",
+          "denominator": "z + 1",
+          "states": 4
+        }
+      },
+      "black_states": {
+        "(-1, -1)": 1,
+        "(-1, 1)": 3,
+        "(1, -1)": 1,
+        "(1, 1)": 3
+      },
+      "bad_states": 1,
+      "keep_depth": false,
+      "seconds": 0.02714495400141459,
+      "same_board_consistent": true,
+      "finite_black_requirement": true,
+      "possible": true,
+      "seed": [
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "nested_root": false,
+      "growing_root": false,
+      "accepted_growing_model": false
+    },
+    {
+      "name": "identity_zero_parity_illegal",
+      "schemes": 1,
+      "terminal_scheme_reads": 8,
+      "parity": {
+        "0": {
+          "numerator": "0",
+          "denominator": "1",
+          "states": 1
+        }
+      },
+      "black_states": {
+        "(-1, -1)": 1,
+        "(-1, 1)": 1,
+        "(1, -1)": 3,
+        "(1, 1)": 3
+      },
+      "bad_states": 1,
+      "keep_depth": false,
+      "seconds": 0.010483549995115027,
+      "same_board_consistent": false,
+      "finite_black_requirement": true,
+      "possible": false,
+      "seed": null,
+      "nested_root": true,
+      "growing_root": false,
+      "accepted_growing_model": false
+    }
+  ]
+}

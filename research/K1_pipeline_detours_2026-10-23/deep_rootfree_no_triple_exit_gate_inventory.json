@@ -1,0 +1,1280 @@
+{
+  "scope": "Filter signed110 one-face inventories by complete WHITE-even/no-G3 collar.\nClassify actual within-face R0-exit paths. Fixed local gate inventory only.\n",
+  "source_sha256": "f6e8ee4f04c2a94aafb3783472885773c1db989c1a888d02befaef87a698ecdc",
+  "profile_count": 17,
+  "profiles_with_possible_cycle_exit": 12,
+  "exit_count": 16,
+  "forced_count": 12,
+  "open_count": 4,
+  "rows": [
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WW",
+        "Y": "NS",
+        "B": "EEWW"
+      },
+      "other": {
+        "Z": "M-1",
+        "Y": "M-1",
+        "B": "M"
+      },
+      "potential_children": [
+        "B"
+      ],
+      "minimum_clocks": {
+        "A": [
+          -4,
+          0,
+          4,
+          16
+        ],
+        "Z": [
+          1,
+          5
+        ],
+        "Y": [
+          2,
+          6
+        ],
+        "B": [
+          3,
+          7,
+          11,
+          15
+        ]
+      }
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WW",
+        "Y": "NS",
+        "B": "EWWE"
+      },
+      "other": {
+        "Z": "M-1",
+        "Y": "M-1",
+        "B": "M"
+      },
+      "potential_children": [],
+      "minimum_clocks": {
+        "A": [
+          -4,
+          0,
+          4,
+          8
+        ],
+        "Z": [
+          1,
+          5
+        ],
+        "Y": [
+          2,
+          14
+        ],
+        "B": [
+          3,
+          7,
+          11,
+          15
+        ]
+      }
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WW",
+        "Y": "NS",
+        "B": "WEEW"
+      },
+      "other": {
+        "Z": "M-1",
+        "Y": "M-1",
+        "B": "M"
+      },
+      "potential_children": [],
+      "minimum_clocks": {
+        "A": [
+          -4,
+          0,
+          8,
+          12
+        ],
+        "Z": [
+          1,
+          9
+        ],
+        "Y": [
+          2,
+          6
+        ],
+        "B": [
+          -4,
+          3,
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "NN",
+        "B": "EW"
+      },
+      "other": {
+        "Z": "M",
+        "Y": "M-1",
+        "B": "M-1"
+      },
+      "potential_children": [
+        "Z"
+      ],
+      "minimum_clocks": {
+        "A": [
+          -4,
+          0,
+          4,
+          8
+        ],
+        "Z": [
+          1,
+          5,
+          9,
+          13
+        ],
+        "Y": [
+          2,
+          14
+        ],
+        "B": [
+          3,
+          7
+        ]
+      }
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "NSNS",
+        "B": "EEEE"
+      },
+      "other": {
+        "Z": "M",
+        "Y": "M-2",
+        "B": "M-2"
+      },
+      "potential_children": [
+        "Z"
+      ],
+      "minimum_clocks": {
+        "A": [
+          -4,
+          0,
+          4,
+          16
+        ],
+        "Z": [
+          1,
+          5,
+          9,
+          13
+        ],
+        "Y": [
+          2,
+          6,
+          14,
+          18
+        ],
+        "B": [
+          3,
+          7,
+          15,
+          19
+        ]
+      }
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "NNSS",
+        "B": "EEWW"
+      },
+      "other": {
+        "Z": "M",
+        "Y": "M",
+        "B": "M"
+      },
+      "potential_children": [
+        "Z",
+        "Y",
+        "B"
+      ],
+      "minimum_clocks": {
+        "A": [
+          -4,
+          0,
+          4,
+          32
+        ],
+        "Z": [
+          1,
+          5,
+          9,
+          13
+        ],
+        "Y": [
+          2,
+          14,
+          18,
+          22
+        ],
+        "B": [
+          3,
+          23,
+          27,
+          31
+        ]
+      }
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "NNSS",
+        "B": "EWWE"
+      },
+      "other": {
+        "Z": "M",
+        "Y": "M",
+        "B": "M"
+      },
+      "potential_children": [
+        "Z",
+        "Y"
+      ],
+      "minimum_clocks": {
+        "A": [
+          -4,
+          0,
+          4,
+          8
+        ],
+        "Z": [
+          1,
+          5,
+          9,
+          13
+        ],
+        "Y": [
+          2,
+          14,
+          18,
+          22
+        ],
+        "B": [
+          3,
+          7,
+          11,
+          23
+        ]
+      }
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "NSSN",
+        "B": "EEWW"
+      },
+      "other": {
+        "Z": "M",
+        "Y": "M",
+        "B": "M"
+      },
+      "potential_children": [
+        "Z",
+        "B"
+      ],
+      "minimum_clocks": {
+        "A": [
+          -4,
+          0,
+          4,
+          16
+        ],
+        "Z": [
+          1,
+          5,
+          9,
+          13
+        ],
+        "Y": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "B": [
+          3,
+          7,
+          11,
+          15
+        ]
+      }
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "NSSN",
+        "B": "EWWE"
+      },
+      "other": {
+        "Z": "M",
+        "Y": "M",
+        "B": "M"
+      },
+      "potential_children": [
+        "Z"
+      ],
+      "minimum_clocks": {
+        "A": [
+          -4,
+          0,
+          4,
+          8
+        ],
+        "Z": [
+          1,
+          5,
+          9,
+          21
+        ],
+        "Y": [
+          2,
+          14,
+          18,
+          22
+        ],
+        "B": [
+          3,
+          7,
+          11,
+          15
+        ]
+      }
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "NSSN",
+        "B": "WEEW"
+      },
+      "other": {
+        "Z": "M",
+        "Y": "M",
+        "B": "M"
+      },
+      "potential_children": [
+        "Z"
+      ],
+      "minimum_clocks": {
+        "A": [
+          -4,
+          0,
+          8,
+          12
+        ],
+        "Z": [
+          1,
+          9,
+          13,
+          17
+        ],
+        "Y": [
+          2,
+          6,
+          10,
+          18
+        ],
+        "B": [
+          -4,
+          3,
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "SNNS",
+        "B": "WWEE"
+      },
+      "other": {
+        "Z": "M",
+        "Y": "M",
+        "B": "M"
+      },
+      "potential_children": [
+        "Z"
+      ],
+      "minimum_clocks": {
+        "A": [
+          -4,
+          0,
+          4,
+          16
+        ],
+        "Z": [
+          1,
+          5,
+          9,
+          13
+        ],
+        "Y": [
+          -4,
+          2,
+          14,
+          18
+        ],
+        "B": [
+          -4,
+          3,
+          15,
+          19
+        ]
+      }
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WEEW",
+        "Y": "NNSS",
+        "B": "WEEW"
+      },
+      "other": {
+        "Z": "M",
+        "Y": "M",
+        "B": "M"
+      },
+      "potential_children": [
+        "Y"
+      ],
+      "minimum_clocks": {
+        "A": [
+          -4,
+          0,
+          16,
+          20
+        ],
+        "Z": [
+          1,
+          5,
+          9,
+          17
+        ],
+        "Y": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "B": [
+          -4,
+          3,
+          15,
+          19
+        ]
+      }
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WEEW",
+        "Y": "SNNS",
+        "B": "WEEW"
+      },
+      "other": {
+        "Z": "M",
+        "Y": "M",
+        "B": "M"
+      },
+      "potential_children": [],
+      "minimum_clocks": {
+        "A": [
+          -4,
+          0,
+          12,
+          16
+        ],
+        "Z": [
+          1,
+          5,
+          9,
+          13
+        ],
+        "Y": [
+          -4,
+          2,
+          6,
+          10
+        ],
+        "B": [
+          -4,
+          7,
+          11,
+          15
+        ]
+      }
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "EWWE",
+        "Y": "NNSS",
+        "B": "WWEE"
+      },
+      "other": {
+        "Z": "M",
+        "Y": "M",
+        "B": "M"
+      },
+      "potential_children": [
+        "Y"
+      ],
+      "minimum_clocks": {
+        "A": [
+          -4,
+          0,
+          4,
+          8
+        ],
+        "Z": [
+          -4,
+          1,
+          5,
+          9
+        ],
+        "Y": [
+          6,
+          10,
+          14,
+          18
+        ],
+        "B": [
+          -4,
+          3,
+          7,
+          19
+        ]
+      }
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "EWWE",
+        "Y": "NSSN",
+        "B": "WWEE"
+      },
+      "other": {
+        "Z": "M",
+        "Y": "M",
+        "B": "M"
+      },
+      "potential_children": [],
+      "minimum_clocks": {
+        "A": [
+          -4,
+          0,
+          4,
+          8
+        ],
+        "Z": [
+          -4,
+          1,
+          5,
+          17
+        ],
+        "Y": [
+          6,
+          10,
+          14,
+          18
+        ],
+        "B": [
+          -4,
+          3,
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "EWWE",
+        "Y": "SNNS",
+        "B": "WWEE"
+      },
+      "other": {
+        "Z": "M",
+        "Y": "M",
+        "B": "M"
+      },
+      "potential_children": [],
+      "minimum_clocks": {
+        "A": [
+          -4,
+          0,
+          4,
+          12
+        ],
+        "Z": [
+          -4,
+          1,
+          5,
+          9
+        ],
+        "Y": [
+          -4,
+          6,
+          10,
+          14
+        ],
+        "B": [
+          -4,
+          3,
+          11,
+          15
+        ]
+      }
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "EWWE",
+        "Y": "SSNN",
+        "B": "EEWW"
+      },
+      "other": {
+        "Z": "M",
+        "Y": "M",
+        "B": "M"
+      },
+      "potential_children": [
+        "B"
+      ],
+      "minimum_clocks": {
+        "A": [
+          -4,
+          0,
+          4,
+          16
+        ],
+        "Z": [
+          -4,
+          1,
+          5,
+          9
+        ],
+        "Y": [
+          -4,
+          2,
+          6,
+          10
+        ],
+        "B": [
+          3,
+          7,
+          11,
+          15
+        ]
+      }
+    }
+  ],
+  "exits": [
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WW",
+        "Y": "NS",
+        "B": "EEWW"
+      },
+      "exit": "B",
+      "forced_adjacent": true,
+      "actual_boundary_prefix": [
+        [
+          "B",
+          0
+        ],
+        [
+          "A",
+          2
+        ]
+      ],
+      "terminal": [
+        "A",
+        2
+      ],
+      "has_flow4": false
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "NN",
+        "B": "EW"
+      },
+      "exit": "Z",
+      "forced_adjacent": true,
+      "actual_boundary_prefix": [
+        [
+          "Z",
+          0
+        ],
+        [
+          "Y",
+          0
+        ],
+        [
+          "B",
+          0
+        ],
+        [
+          "A",
+          2
+        ]
+      ],
+      "terminal": [
+        "A",
+        2
+      ],
+      "has_flow4": false
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "NSNS",
+        "B": "EEEE"
+      },
+      "exit": "Z",
+      "forced_adjacent": true,
+      "actual_boundary_prefix": [
+        [
+          "Z",
+          0
+        ],
+        [
+          "Y",
+          0
+        ],
+        [
+          "B",
+          0
+        ],
+        [
+          "A",
+          2
+        ]
+      ],
+      "terminal": [
+        "A",
+        2
+      ],
+      "has_flow4": true
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "NNSS",
+        "B": "EEWW"
+      },
+      "exit": "Z",
+      "forced_adjacent": true,
+      "actual_boundary_prefix": [
+        [
+          "Z",
+          0
+        ],
+        [
+          "Y",
+          0
+        ],
+        [
+          "B",
+          0
+        ],
+        [
+          "A",
+          2
+        ]
+      ],
+      "terminal": [
+        "A",
+        2
+      ],
+      "has_flow4": false
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "NNSS",
+        "B": "EEWW"
+      },
+      "exit": "Y",
+      "forced_adjacent": true,
+      "actual_boundary_prefix": [
+        [
+          "Y",
+          0
+        ],
+        [
+          "B",
+          0
+        ],
+        [
+          "A",
+          2
+        ]
+      ],
+      "terminal": [
+        "A",
+        2
+      ],
+      "has_flow4": false
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "NNSS",
+        "B": "EEWW"
+      },
+      "exit": "B",
+      "forced_adjacent": true,
+      "actual_boundary_prefix": [
+        [
+          "B",
+          0
+        ],
+        [
+          "A",
+          2
+        ]
+      ],
+      "terminal": [
+        "A",
+        2
+      ],
+      "has_flow4": false
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "NNSS",
+        "B": "EWWE"
+      },
+      "exit": "Z",
+      "forced_adjacent": true,
+      "actual_boundary_prefix": [
+        [
+          "Z",
+          0
+        ],
+        [
+          "Y",
+          0
+        ],
+        [
+          "B",
+          0
+        ],
+        [
+          "A",
+          2
+        ]
+      ],
+      "terminal": [
+        "A",
+        2
+      ],
+      "has_flow4": false
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "NNSS",
+        "B": "EWWE"
+      },
+      "exit": "Y",
+      "forced_adjacent": true,
+      "actual_boundary_prefix": [
+        [
+          "Y",
+          0
+        ],
+        [
+          "B",
+          0
+        ],
+        [
+          "A",
+          2
+        ]
+      ],
+      "terminal": [
+        "A",
+        2
+      ],
+      "has_flow4": false
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "NSSN",
+        "B": "EEWW"
+      },
+      "exit": "Z",
+      "forced_adjacent": true,
+      "actual_boundary_prefix": [
+        [
+          "Z",
+          0
+        ],
+        [
+          "Y",
+          0
+        ],
+        [
+          "B",
+          0
+        ],
+        [
+          "A",
+          2
+        ]
+      ],
+      "terminal": [
+        "A",
+        2
+      ],
+      "has_flow4": false
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "NSSN",
+        "B": "EEWW"
+      },
+      "exit": "B",
+      "forced_adjacent": true,
+      "actual_boundary_prefix": [
+        [
+          "B",
+          0
+        ],
+        [
+          "A",
+          2
+        ]
+      ],
+      "terminal": [
+        "A",
+        2
+      ],
+      "has_flow4": false
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "NSSN",
+        "B": "EWWE"
+      },
+      "exit": "Z",
+      "forced_adjacent": true,
+      "actual_boundary_prefix": [
+        [
+          "Z",
+          0
+        ],
+        [
+          "Y",
+          0
+        ],
+        [
+          "B",
+          0
+        ],
+        [
+          "A",
+          2
+        ]
+      ],
+      "terminal": [
+        "A",
+        2
+      ],
+      "has_flow4": false
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "NSSN",
+        "B": "WEEW"
+      },
+      "exit": "Z",
+      "forced_adjacent": false,
+      "actual_boundary_prefix": [
+        [
+          "Z",
+          0
+        ],
+        [
+          "Y",
+          0
+        ],
+        [
+          "B",
+          1
+        ]
+      ],
+      "terminal": [
+        "B",
+        1
+      ],
+      "has_flow4": false
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "SNNS",
+        "B": "WWEE"
+      },
+      "exit": "Z",
+      "forced_adjacent": false,
+      "actual_boundary_prefix": [
+        [
+          "Z",
+          0
+        ],
+        [
+          "Y",
+          1
+        ]
+      ],
+      "terminal": [
+        "Y",
+        1
+      ],
+      "has_flow4": false
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WEEW",
+        "Y": "NNSS",
+        "B": "WEEW"
+      },
+      "exit": "Y",
+      "forced_adjacent": false,
+      "actual_boundary_prefix": [
+        [
+          "Y",
+          0
+        ],
+        [
+          "B",
+          1
+        ]
+      ],
+      "terminal": [
+        "B",
+        1
+      ],
+      "has_flow4": false
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "EWWE",
+        "Y": "NNSS",
+        "B": "WWEE"
+      },
+      "exit": "Y",
+      "forced_adjacent": false,
+      "actual_boundary_prefix": [
+        [
+          "Y",
+          0
+        ],
+        [
+          "B",
+          2
+        ],
+        [
+          "A",
+          3
+        ]
+      ],
+      "terminal": [
+        "A",
+        3
+      ],
+      "has_flow4": false
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "EWWE",
+        "Y": "SSNN",
+        "B": "EEWW"
+      },
+      "exit": "B",
+      "forced_adjacent": true,
+      "actual_boundary_prefix": [
+        [
+          "B",
+          0
+        ],
+        [
+          "A",
+          2
+        ]
+      ],
+      "terminal": [
+        "A",
+        2
+      ],
+      "has_flow4": false
+    }
+  ],
+  "open_exits": [
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "NSSN",
+        "B": "WEEW"
+      },
+      "exit": "Z",
+      "forced_adjacent": false,
+      "actual_boundary_prefix": [
+        [
+          "Z",
+          0
+        ],
+        [
+          "Y",
+          0
+        ],
+        [
+          "B",
+          1
+        ]
+      ],
+      "terminal": [
+        "B",
+        1
+      ],
+      "has_flow4": false
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WWEE",
+        "Y": "SNNS",
+        "B": "WWEE"
+      },
+      "exit": "Z",
+      "forced_adjacent": false,
+      "actual_boundary_prefix": [
+        [
+          "Z",
+          0
+        ],
+        [
+          "Y",
+          1
+        ]
+      ],
+      "terminal": [
+        "Y",
+        1
+      ],
+      "has_flow4": false
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "WEEW",
+        "Y": "NNSS",
+        "B": "WEEW"
+      },
+      "exit": "Y",
+      "forced_adjacent": false,
+      "actual_boundary_prefix": [
+        [
+          "Y",
+          0
+        ],
+        [
+          "B",
+          1
+        ]
+      ],
+      "terminal": [
+        "B",
+        1
+      ],
+      "has_flow4": false
+    },
+    {
+      "headings": {
+        "A": "NNSS",
+        "Z": "EWWE",
+        "Y": "NNSS",
+        "B": "WWEE"
+      },
+      "exit": "Y",
+      "forced_adjacent": false,
+      "actual_boundary_prefix": [
+        [
+          "Y",
+          0
+        ],
+        [
+          "B",
+          2
+        ],
+        [
+          "A",
+          3
+        ]
+      ],
+      "terminal": [
+        "A",
+        3
+      ],
+      "has_flow4": false
+    }
+  ],
+  "warning": "Necessary local profiles; unforced exits may still return adjacently. No gate-span bound, temporal phase cut, external realization or front exclusion is inferred."
+}

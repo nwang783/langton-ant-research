@@ -1,0 +1,334 @@
+{
+  "status": "PASS all-K capture for exactly three specified eight-cell two-tip cap families",
+  "manifest_sha256": "e1a7a86259c99ff629089c99919b620479c811a827e6a8437f636d6a0d2c4e15",
+  "dependencies": {
+    "TWO_TIP_CAP_CAPTURE.md": "5bf53dd268f5cda031eb3aa1192dfd1d9b7366c2d9b8236fb48122e0df7e48d8",
+    "TWO_TIP_CAP_CAPTURE_CERTIFICATE.json": "1a26c6dca5bfc9bc77269c1ceb8f960465d3b7c2de727ac121112e6c1b9fc815",
+    "check_two_tip_cap_capture.py": "89341941095dce6384d0416907e5acef0d111094a827f1f46db7a8a790658263",
+    "TWO_TIP_CAP_CAPTURE_CHECKED.json": "a908269b524373f68ba8bf1bab97724c938ca8a1a456d4e101140278efc38400",
+    "TANGENTIAL_CAP_CAPTURE_CERTIFICATE.json": "fe29ca88e58cdc6dc5dbf9832bfc5692c5b9fb7cc7414ea0b4ff678483f18463",
+    "TANGENTIAL_CAP_CAPTURE.md": "c29ebf3d6ab2b90c0d85c3dedc0a745147bb0d8bb4085f7d54299dbd21577ede",
+    "PRISTINE_ONE_INPUT_RECORD_BUDGET.md": "10f8313a9a7fca736c14c6fd94ef06a3f72d2775a59cc9ade8a310dc08f71464"
+  },
+  "variants": [
+    {
+      "offset": [
+        1,
+        0
+      ],
+      "literal_controls": [
+        {
+          "K": 0,
+          "delay": 624,
+          "full_mass": 129,
+          "tail_tests": 155
+        },
+        {
+          "K": 1,
+          "delay": 4992,
+          "full_mass": 475,
+          "tail_tests": 173
+        },
+        {
+          "K": 2,
+          "delay": 624,
+          "full_mass": 151,
+          "tail_tests": 161
+        },
+        {
+          "K": 3,
+          "delay": 936,
+          "full_mass": 171,
+          "tail_tests": 158
+        },
+        {
+          "K": 4,
+          "delay": 1976,
+          "full_mass": 235,
+          "tail_tests": 170
+        },
+        {
+          "K": 5,
+          "delay": 1456,
+          "full_mass": 253,
+          "tail_tests": 162
+        },
+        {
+          "K": 6,
+          "delay": 1456,
+          "full_mass": 263,
+          "tail_tests": 155
+        },
+        {
+          "K": 7,
+          "delay": 1872,
+          "full_mass": 283,
+          "tail_tests": 155
+        },
+        {
+          "K": 8,
+          "delay": 2184,
+          "full_mass": 313,
+          "tail_tests": 194
+        },
+        {
+          "K": 9,
+          "delay": 2184,
+          "full_mass": 333,
+          "tail_tests": 197
+        },
+        {
+          "K": 10,
+          "delay": 2184,
+          "full_mass": 345,
+          "tail_tests": 197
+        },
+        {
+          "K": 11,
+          "delay": 2184,
+          "full_mass": 357,
+          "tail_tests": 197
+        }
+      ],
+      "all_parameter_difference_rays": 82,
+      "second_cap_first_read": null,
+      "K11_pristine_SW_levels": [
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5,
+        -6,
+        -7,
+        -8,
+        -9,
+        -10,
+        -11,
+        -12,
+        -13,
+        -14,
+        -15,
+        -16,
+        -17,
+        -18,
+        -19
+      ]
+    },
+    {
+      "offset": [
+        0,
+        -1
+      ],
+      "literal_controls": [
+        {
+          "K": 0,
+          "delay": 624,
+          "full_mass": 129,
+          "tail_tests": 155
+        },
+        {
+          "K": 1,
+          "delay": 13104,
+          "full_mass": 811,
+          "tail_tests": 188
+        },
+        {
+          "K": 2,
+          "delay": 624,
+          "full_mass": 151,
+          "tail_tests": 161
+        },
+        {
+          "K": 3,
+          "delay": 936,
+          "full_mass": 167,
+          "tail_tests": 158
+        },
+        {
+          "K": 4,
+          "delay": 1976,
+          "full_mass": 231,
+          "tail_tests": 170
+        },
+        {
+          "K": 5,
+          "delay": 1456,
+          "full_mass": 247,
+          "tail_tests": 158
+        },
+        {
+          "K": 6,
+          "delay": 1456,
+          "full_mass": 261,
+          "tail_tests": 171
+        },
+        {
+          "K": 7,
+          "delay": 1872,
+          "full_mass": 281,
+          "tail_tests": 171
+        },
+        {
+          "K": 8,
+          "delay": 2184,
+          "full_mass": 311,
+          "tail_tests": 194
+        },
+        {
+          "K": 9,
+          "delay": 2184,
+          "full_mass": 329,
+          "tail_tests": 193
+        },
+        {
+          "K": 10,
+          "delay": 2184,
+          "full_mass": 341,
+          "tail_tests": 193
+        },
+        {
+          "K": 11,
+          "delay": 2184,
+          "full_mass": 353,
+          "tail_tests": 193
+        }
+      ],
+      "all_parameter_difference_rays": 82,
+      "second_cap_first_read": 1857,
+      "K11_pristine_SW_levels": [
+        -1,
+        -2,
+        -3,
+        -4,
+        -5,
+        -6,
+        -7,
+        -8,
+        -9,
+        -10,
+        -11,
+        -12,
+        -13,
+        -14,
+        -15,
+        -16,
+        -17,
+        -18,
+        -19
+      ]
+    },
+    {
+      "offset": [
+        1,
+        1
+      ],
+      "literal_controls": [
+        {
+          "K": 0,
+          "delay": 624,
+          "full_mass": 129,
+          "tail_tests": 155
+        },
+        {
+          "K": 1,
+          "delay": 1144,
+          "full_mass": 175,
+          "tail_tests": 164
+        },
+        {
+          "K": 2,
+          "delay": 728,
+          "full_mass": 167,
+          "tail_tests": 194
+        },
+        {
+          "K": 3,
+          "delay": 3432,
+          "full_mass": 419,
+          "tail_tests": 195
+        },
+        {
+          "K": 4,
+          "delay": 7800,
+          "full_mass": 563,
+          "tail_tests": 167
+        },
+        {
+          "K": 5,
+          "delay": 1664,
+          "full_mass": 273,
+          "tail_tests": 157
+        },
+        {
+          "K": 6,
+          "delay": 1664,
+          "full_mass": 283,
+          "tail_tests": 173
+        },
+        {
+          "K": 7,
+          "delay": 2080,
+          "full_mass": 303,
+          "tail_tests": 173
+        },
+        {
+          "K": 8,
+          "delay": 2392,
+          "full_mass": 337,
+          "tail_tests": 193
+        },
+        {
+          "K": 9,
+          "delay": 2392,
+          "full_mass": 349,
+          "tail_tests": 185
+        },
+        {
+          "K": 10,
+          "delay": 2392,
+          "full_mass": 361,
+          "tail_tests": 185
+        },
+        {
+          "K": 11,
+          "delay": 2392,
+          "full_mass": 373,
+          "tail_tests": 185
+        }
+      ],
+      "all_parameter_difference_rays": 82,
+      "second_cap_first_read": 86,
+      "K11_pristine_SW_levels": [
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5,
+        -6,
+        -7,
+        -8,
+        -9,
+        -10,
+        -11,
+        -12,
+        -13,
+        -14,
+        -15,
+        -16,
+        -17,
+        -18,
+        -19
+      ]
+    }
+  ],
+  "family_only_bad_pristine_timecuts": 14088,
+  "analytic_review": [
+    "Both original cap cells lie outside every precontact launch/read ray. Complete independent replay of all36 K0..11 controls, every final black field/pose and exact infinite104 ray parity. Tail words are cyclic copies of the signed standard word, not merely arbitrary period104.",
+    "At main contact the full field is signed one-cap B_K XOR the fixed offset singleton. Thus the offset cancels from K-versus11 differences. All50 source rays(index>=11) and32 backward wake rays(index>=12) independently miss every finite continuation and every infinite final read ray for EACH variant. Exact integer intersection equations preserve nonnegative domains. This proves all K>=11 without discarding any archive.",
+    "Second cap is never read for east, read1857 for south, read86 for northeast, relative to the main actual L. All three initial caps are genuinely pre-funded unread inputs; south/northeast are productive, not decorative.",
+    "Full K11 board scans independently confirm20/19/20 pristine SW records and minimum-19; launch and tangent H preserve the all-K support argument, final drift raises x+y. Later translates cannot create lower records.",
+    "Maximum sufficient postcontact certificate delay13104 plus arbitrary launch234 and two standard pieces gives14088 guard-avoiding pristine TIME cuts only in these three exact families. No earliest-onset, all-two-cap classification, mass-only universal budget, recurrence, or attraction assertion."
+  ]
+}

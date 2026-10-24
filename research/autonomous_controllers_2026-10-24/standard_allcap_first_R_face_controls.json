@@ -1,0 +1,442 @@
+{
+  "scope": "Actual standard104 complete WHITE controls against extending first-R face-count maximality to arbitrary multiplicity. No g8 counterexample.",
+  "standard_source_sha256": "8083f7a1235db179c62ae12d85ba31a903a4f9f99bd0e72dfe5285c5422610a6",
+  "word": "LRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLR",
+  "heading": 3,
+  "full_drift": [
+    -2,
+    -2
+  ],
+  "exact_complete_white_summary": {
+    "period": 104,
+    "drift": [
+      -2,
+      -2
+    ],
+    "growth": 12,
+    "classes": 22,
+    "complete_white": true,
+    "bad_alternation": [],
+    "black_first_classes": [],
+    "types": {
+      "even": 10,
+      "odd_opposite": 4,
+      "odd_same": 4,
+      "singleton": 4
+    },
+    "first_cycles": [
+      {
+        "cells": [
+          [
+            0,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            -2
+          ]
+        ],
+        "winding": -1
+      },
+      {
+        "cells": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "winding": -1
+      }
+    ],
+    "last_L_reverse_cycles": [],
+    "first_last_edges": [
+      {
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          0,
+          3
+        ],
+        "voltage": 0
+      },
+      {
+        "source": [
+          1,
+          3
+        ],
+        "target": [
+          1,
+          4
+        ],
+        "voltage": 0
+      },
+      {
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          1,
+          3
+        ],
+        "voltage": 0
+      },
+      {
+        "source": [
+          1,
+          -5
+        ],
+        "target": [
+          1,
+          -6
+        ],
+        "voltage": 0
+      },
+      {
+        "source": [
+          0,
+          -7
+        ],
+        "target": [
+          1,
+          -5
+        ],
+        "voltage": 1
+      }
+    ],
+    "first_last_L_edges": []
+  },
+  "controls": [
+    {
+      "full_class_representative": [
+        0,
+        -1
+      ],
+      "complete_incoming_history": "NSSSSNSN",
+      "stable_read_times": [
+        -151,
+        -71,
+        -67,
+        -63,
+        1,
+        9,
+        21,
+        101
+      ],
+      "turns": "RLRLRLRL",
+      "first_R_incoming_heading": 0,
+      "first_R_face_turn_count": 1,
+      "opposite_R_face_turn_count": 3,
+      "literal_period_events": [
+        {
+          "t": 57,
+          "p": [
+            -4,
+            -5
+          ],
+          "hi": 0,
+          "ho": 1,
+          "c": "R"
+        },
+        {
+          "t": 33,
+          "p": [
+            -2,
+            -3
+          ],
+          "hi": 2,
+          "ho": 1,
+          "c": "L"
+        },
+        {
+          "t": 37,
+          "p": [
+            -2,
+            -3
+          ],
+          "hi": 2,
+          "ho": 3,
+          "c": "R"
+        },
+        {
+          "t": 41,
+          "p": [
+            -2,
+            -3
+          ],
+          "hi": 2,
+          "ho": 1,
+          "c": "L"
+        },
+        {
+          "t": 1,
+          "p": [
+            0,
+            -1
+          ],
+          "hi": 2,
+          "ho": 3,
+          "c": "R"
+        },
+        {
+          "t": 9,
+          "p": [
+            0,
+            -1
+          ],
+          "hi": 0,
+          "ho": 3,
+          "c": "L"
+        },
+        {
+          "t": 21,
+          "p": [
+            0,
+            -1
+          ],
+          "hi": 2,
+          "ho": 3,
+          "c": "R"
+        },
+        {
+          "t": 101,
+          "p": [
+            0,
+            -1
+          ],
+          "hi": 0,
+          "ho": 3,
+          "c": "L"
+        }
+      ]
+    },
+    {
+      "full_class_representative": [
+        1,
+        2
+      ],
+      "complete_incoming_history": "SSNNNN",
+      "stable_read_times": [
+        -181,
+        -177,
+        -169,
+        -93,
+        -85,
+        -81
+      ],
+      "turns": "RLRLRL",
+      "first_R_incoming_heading": 2,
+      "first_R_face_turn_count": 1,
+      "opposite_R_face_turn_count": 2,
+      "literal_period_events": [
+        {
+          "t": 27,
+          "p": [
+            -3,
+            -2
+          ],
+          "hi": 2,
+          "ho": 3,
+          "c": "R"
+        },
+        {
+          "t": 31,
+          "p": [
+            -3,
+            -2
+          ],
+          "hi": 2,
+          "ho": 1,
+          "c": "L"
+        },
+        {
+          "t": 39,
+          "p": [
+            -3,
+            -2
+          ],
+          "hi": 0,
+          "ho": 1,
+          "c": "R"
+        },
+        {
+          "t": 11,
+          "p": [
+            -1,
+            0
+          ],
+          "hi": 0,
+          "ho": 3,
+          "c": "L"
+        },
+        {
+          "t": 19,
+          "p": [
+            -1,
+            0
+          ],
+          "hi": 0,
+          "ho": 1,
+          "c": "R"
+        },
+        {
+          "t": 23,
+          "p": [
+            -1,
+            0
+          ],
+          "hi": 0,
+          "ho": 3,
+          "c": "L"
+        }
+      ]
+    },
+    {
+      "full_class_representative": [
+        1,
+        -2
+      ],
+      "complete_incoming_history": "SSNSSNNSNN",
+      "stable_read_times": [
+        -153,
+        -149,
+        -145,
+        -141,
+        -61,
+        -53,
+        -25,
+        -21,
+        -9,
+        99
+      ],
+      "turns": "RLRLRLRLRL",
+      "first_R_incoming_heading": 2,
+      "first_R_face_turn_count": 2,
+      "opposite_R_face_turn_count": 3,
+      "literal_period_events": [
+        {
+          "t": 55,
+          "p": [
+            -3,
+            -6
+          ],
+          "hi": 2,
+          "ho": 3,
+          "c": "R"
+        },
+        {
+          "t": 59,
+          "p": [
+            -3,
+            -6
+          ],
+          "hi": 2,
+          "ho": 1,
+          "c": "L"
+        },
+        {
+          "t": 63,
+          "p": [
+            -3,
+            -6
+          ],
+          "hi": 0,
+          "ho": 1,
+          "c": "R"
+        },
+        {
+          "t": 67,
+          "p": [
+            -3,
+            -6
+          ],
+          "hi": 2,
+          "ho": 1,
+          "c": "L"
+        },
+        {
+          "t": 43,
+          "p": [
+            -1,
+            -4
+          ],
+          "hi": 2,
+          "ho": 3,
+          "c": "R"
+        },
+        {
+          "t": 51,
+          "p": [
+            -1,
+            -4
+          ],
+          "hi": 0,
+          "ho": 3,
+          "c": "L"
+        },
+        {
+          "t": 79,
+          "p": [
+            -1,
+            -4
+          ],
+          "hi": 0,
+          "ho": 1,
+          "c": "R"
+        },
+        {
+          "t": 83,
+          "p": [
+            -1,
+            -4
+          ],
+          "hi": 2,
+          "ho": 1,
+          "c": "L"
+        },
+        {
+          "t": 95,
+          "p": [
+            -1,
+            -4
+          ],
+          "hi": 0,
+          "ho": 1,
+          "c": "R"
+        },
+        {
+          "t": 99,
+          "p": [
+            1,
+            -2
+          ],
+          "hi": 0,
+          "ho": 3,
+          "c": "L"
+        }
+      ]
+    }
+  ]
+}

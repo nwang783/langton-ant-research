@@ -1,0 +1,1536 @@
+{
+  "scope": "Project the existing prescribed W20 profiles, no ant or front search.\nPrepared singleton-L inputs stay explicit and violate the WHITE premise.\n",
+  "source": "bent_pipeline_W20_controls.json",
+  "reports": [
+    {
+      "full_period": 20,
+      "full_drift": [
+        0,
+        2
+      ],
+      "N2": 4,
+      "C": 5,
+      "cycle_excess": 0,
+      "cycles": [
+        {
+          "level": 1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                1,
+                0
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                0
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                1
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                1
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": 0,
+          "length": 4,
+          "winding": 1,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                1,
+                0
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                0
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                1
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                1
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": -1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                0,
+                0
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                1
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                1
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                0
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": -1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 2,
+          "events": [
+            {
+              "cell": [
+                0,
+                1
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                -1,
+                1
+              ],
+              "rank": 0,
+              "turn": "L",
+              "input": "black"
+            },
+            {
+              "cell": [
+                -1,
+                0
+              ],
+              "rank": 0,
+              "turn": "L",
+              "input": "black"
+            },
+            {
+              "cell": [
+                0,
+                0
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": 1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                1,
+                1
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                0
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                2,
+                0
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                2,
+                1
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            }
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "L1_node": 2,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "L1_node": 3,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "L1_node": 0,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            1,
+            1
+          ],
+          "L1_node": 4,
+          "R2_node": 1
+        }
+      ]
+    },
+    {
+      "full_period": 40,
+      "full_drift": [
+        0,
+        4
+      ],
+      "N2": 8,
+      "C": 9,
+      "cycle_excess": 0,
+      "cycles": [
+        {
+          "level": 1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                1,
+                0
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                0
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                1
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                1
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": 0,
+          "length": 8,
+          "winding": 1,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                1,
+                0
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                0
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                1
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                1
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                2
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                2
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                3
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                3
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": -1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                0,
+                0
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                3
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                3
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                0
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": -1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 2,
+          "events": [
+            {
+              "cell": [
+                0,
+                1
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                -1,
+                1
+              ],
+              "rank": 0,
+              "turn": "L",
+              "input": "black"
+            },
+            {
+              "cell": [
+                -1,
+                0
+              ],
+              "rank": 0,
+              "turn": "L",
+              "input": "black"
+            },
+            {
+              "cell": [
+                0,
+                0
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": 1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                1,
+                1
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                2
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                2,
+                2
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                2,
+                1
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": 1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                1,
+                2
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                2
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                3
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                3
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": -1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                0,
+                2
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                1
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                1
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                2
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": -1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 2,
+          "events": [
+            {
+              "cell": [
+                0,
+                3
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                -1,
+                3
+              ],
+              "rank": 0,
+              "turn": "L",
+              "input": "black"
+            },
+            {
+              "cell": [
+                -1,
+                2
+              ],
+              "rank": 0,
+              "turn": "L",
+              "input": "black"
+            },
+            {
+              "cell": [
+                0,
+                2
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": 1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                1,
+                3
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                0
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                2,
+                0
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                2,
+                3
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            }
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "L1_node": 2,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "L1_node": 3,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            0,
+            2
+          ],
+          "L1_node": 6,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            0,
+            3
+          ],
+          "L1_node": 7,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "L1_node": 0,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            1,
+            1
+          ],
+          "L1_node": 4,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            1,
+            2
+          ],
+          "L1_node": 5,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            1,
+            3
+          ],
+          "L1_node": 8,
+          "R2_node": 1
+        }
+      ]
+    },
+    {
+      "full_period": 60,
+      "full_drift": [
+        0,
+        6
+      ],
+      "N2": 12,
+      "C": 13,
+      "cycle_excess": 0,
+      "cycles": [
+        {
+          "level": 1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                1,
+                0
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                0
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                1
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                1
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": 0,
+          "length": 12,
+          "winding": 1,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                1,
+                0
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                0
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                1
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                1
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                2
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                2
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                3
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                3
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                4
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                4
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                5
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                5
+              ],
+              "rank": 2,
+              "turn": "R",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": -1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                0,
+                0
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                5
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                5
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                0
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": -1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 2,
+          "events": [
+            {
+              "cell": [
+                0,
+                1
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                -1,
+                1
+              ],
+              "rank": 0,
+              "turn": "L",
+              "input": "black"
+            },
+            {
+              "cell": [
+                -1,
+                0
+              ],
+              "rank": 0,
+              "turn": "L",
+              "input": "black"
+            },
+            {
+              "cell": [
+                0,
+                0
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": 1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                1,
+                1
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                2
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                2,
+                2
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                2,
+                1
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": 1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                1,
+                2
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                2
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                3
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                3
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": -1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                0,
+                2
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                1
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                1
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                2
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": -1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 2,
+          "events": [
+            {
+              "cell": [
+                0,
+                3
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                -1,
+                3
+              ],
+              "rank": 0,
+              "turn": "L",
+              "input": "black"
+            },
+            {
+              "cell": [
+                -1,
+                2
+              ],
+              "rank": 0,
+              "turn": "L",
+              "input": "black"
+            },
+            {
+              "cell": [
+                0,
+                2
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": 1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                1,
+                3
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                4
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                2,
+                4
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                2,
+                3
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": 1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                1,
+                4
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                4
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                5
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                5
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": -1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                0,
+                4
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                0,
+                3
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                3
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                4
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": -1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 2,
+          "events": [
+            {
+              "cell": [
+                0,
+                5
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                -1,
+                5
+              ],
+              "rank": 0,
+              "turn": "L",
+              "input": "black"
+            },
+            {
+              "cell": [
+                -1,
+                4
+              ],
+              "rank": 0,
+              "turn": "L",
+              "input": "black"
+            },
+            {
+              "cell": [
+                0,
+                4
+              ],
+              "rank": 3,
+              "turn": "L",
+              "input": "white"
+            }
+          ]
+        },
+        {
+          "level": 1,
+          "length": 4,
+          "winding": 0,
+          "black_input_reads": 0,
+          "events": [
+            {
+              "cell": [
+                1,
+                5
+              ],
+              "rank": 1,
+              "turn": "L",
+              "input": "white"
+            },
+            {
+              "cell": [
+                1,
+                0
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                2,
+                0
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            },
+            {
+              "cell": [
+                2,
+                5
+              ],
+              "rank": 0,
+              "turn": "R",
+              "input": "white"
+            }
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "L1_node": 2,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "L1_node": 3,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            0,
+            2
+          ],
+          "L1_node": 6,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            0,
+            3
+          ],
+          "L1_node": 7,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            0,
+            4
+          ],
+          "L1_node": 10,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            0,
+            5
+          ],
+          "L1_node": 11,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "L1_node": 0,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            1,
+            1
+          ],
+          "L1_node": 4,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            1,
+            2
+          ],
+          "L1_node": 5,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            1,
+            3
+          ],
+          "L1_node": 8,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            1,
+            4
+          ],
+          "L1_node": 9,
+          "R2_node": 1
+        },
+        {
+          "cell": [
+            1,
+            5
+          ],
+          "L1_node": 12,
+          "R2_node": 1
+        }
+      ]
+    }
+  ]
+}

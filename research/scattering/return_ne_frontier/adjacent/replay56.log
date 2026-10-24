@@ -1,0 +1,128 @@
+{"segment": 0, "time": [0, 0, 9977], "pose": [[[0, 0, -15], [0, 0, 10]], 3]}
+{"segment": 1, "time": [104, 104, 31609], "pose": [[[-2, -2, -431], [-2, -2, -406]], 3]}
+{"segment": 2, "time": [104, 104, 82727], "pose": [[[-2, -2, -394], [-2, -2, -443]], 1]}
+{"segment": 3, "time": [104, 208, 93127], "pose": [[[-2, 0, -194], [-2, 0, -243]], 1]}
+{"segment": 4, "time": [104, 208, 100586], "pose": [[[-2, 0, -177], [-2, 0, -255]], 2]}
+{"segment": 5, "time": [104, 312, 108698], "pose": [[[-2, 2, -21], [-2, -2, -411]], 2]}
+{"segment": 6, "time": [104, 312, 159818], "pose": [[[-2, 2, 17], [-2, -2, -375]], 0]}
+{"segment": 7, "time": [104, 416, 170218], "pose": [[[-2, 0, -183], [-2, 0, -175]], 0]}
+{"segment": 8, "time": [104, 416, 179355], "pose": [[[-2, 0, -200], [-2, 0, -153]], 1]}
+{
+  "status": "exact complete original finite three-cell capture for all m,k>=100",
+  "phase": 56,
+  "domain": "m=U+100,k=V+100,n=m+k, independent U,V>=0",
+  "initial_points": [
+    [
+      [
+        -2,
+        0,
+        -190
+      ],
+      [
+        -2,
+        0,
+        -237
+      ]
+    ],
+    [
+      [
+        -2,
+        -2,
+        -433
+      ],
+      [
+        -2,
+        -2,
+        -414
+      ]
+    ],
+    [
+      [
+        -2,
+        2,
+        -12
+      ],
+      [
+        -2,
+        -2,
+        -414
+      ]
+    ]
+  ],
+  "first_contacts": [
+    [
+      104,
+      208,
+      93183
+    ],
+    [
+      104,
+      104,
+      31681
+    ],
+    [
+      104,
+      312,
+      108772
+    ]
+  ],
+  "capture_time": [
+    104,
+    416,
+    179355
+  ],
+  "capture_pose": [
+    [
+      [
+        -2,
+        0,
+        -200
+      ],
+      [
+        -2,
+        0,
+        -153
+      ]
+    ],
+    1
+  ],
+  "tail_phase": 99,
+  "tail": {
+    "drift": [
+      -2,
+      2
+    ],
+    "heading": 1,
+    "required_cells": 44,
+    "odd_cells": 36
+  },
+  "finite_prefix_bounds": {
+    "u_min": [
+      0,
+      0,
+      -82
+    ],
+    "u_max": [
+      0,
+      4,
+      478
+    ],
+    "z_min": [
+      -4,
+      -4,
+      -923
+    ],
+    "z_max": [
+      0,
+      0,
+      35
+    ]
+  },
+  "statistics": {
+    "finite_read_constraints": 12612,
+    "periodic_read_constraints": 206,
+    "affine_guards": 61305,
+    "excluded_isolated_equalities": 30251867
+  },
+  "template_sha256": "0bb8e0b85b951eea81aa9fb5dc83aab13ef81b154ac6293eb6b9a000a5045705"
+}

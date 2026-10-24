@@ -1,0 +1,85 @@
+{
+  "status": "exact_infinite_family_certificate_passed",
+  "seed": [
+    [
+      -3,
+      -6
+    ],
+    [
+      -2,
+      -5
+    ],
+    [
+      -1,
+      -6
+    ],
+    [
+      1,
+      -7
+    ]
+  ],
+  "head": [
+    0,
+    -7,
+    3
+  ],
+  "period_start": 182,
+  "period": 104,
+  "drift": [
+    -2,
+    2
+  ],
+  "word": "LRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLR",
+  "periodic_ray_last_threshold": 2,
+  "periodic_ray_checks": 312,
+  "marker": [
+    -18,
+    13
+  ],
+  "marker_n": "marker+n*drift, n>=0",
+  "impact_time": "852+104*n",
+  "first_cap_exit_time": "970+104*n",
+  "exit_pose_n": [
+    -9,
+    10,
+    3
+  ],
+  "translated_suffix_steps": 118,
+  "suffix_footprint": 61,
+  "suffix_last_threshold": 0,
+  "suffix_color_checks": 61,
+  "initial_adaptive_cut": 83,
+  "initial_cut_pose": [
+    0,
+    -4,
+    0
+  ],
+  "initial_active_energy": 3,
+  "initial_active_rows": {
+    "-2": [
+      [
+        1,
+        -3
+      ]
+    ],
+    "-3": [
+      [
+        1,
+        -4
+      ]
+    ]
+  },
+  "final_adaptive_cut": "967+104*n",
+  "final_adaptive_cut_pose": [
+    -10,
+    8,
+    0
+  ],
+  "inherited_next_energy": "59+7*n",
+  "top_visits": "17+2*n",
+  "initial_marker_row": -5,
+  "legal_cyclic_standard_10_windows": 84,
+  "forbidden_10_windows_before_first_exit": 96,
+  "forbidden_window_scope": "Exactly 96 for every n>=0 by insertion of complete periodic copies; only windows wholly before first exit, not future events.",
+  "scope": "No bound on next active energy from current active rows alone; not a counterexample to highway capture."
+}

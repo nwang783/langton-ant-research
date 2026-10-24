@@ -1,0 +1,30 @@
+{
+  "status": "PASS exact OPEN79 canonical-age identity only",
+  "proof": "b2370fb31a65275cf2d330d218531a5fe6fa5c8b7424747e23b1b18b22b5c6f4",
+  "independent_parent_report": "fc960465de9aa828c19372bf8893ed4f812fae723ee416c8980dd639fd99411f",
+  "named_chain_start": [
+    [
+      12,
+      11
+    ],
+    0
+  ],
+  "named_chain_end": [
+    [
+      12,
+      3
+    ],
+    1
+  ],
+  "named_events": 35,
+  "outside_distance": 36,
+  "internal_lift_range": [
+    -3,
+    1
+  ],
+  "outside_source": "T15 S departure ordinal7",
+  "outside_target": "T13 W arrival ordinal1",
+  "outside_net_voltage": 0,
+  "canonical_age": "t12,11-t12,3=P-34",
+  "analytic_review": "35 consecutive named events give34 actual steps from rank11/lift0 to rank3/lift1, so the displayed canonical-clock identity is exact. Eight intervening same-cell gaps implyP>=66, weaker than79 named-event phase count. This is a necessary OPEN graph identity, not physical or phase-complete realization, bounded-age disproof, monotone debt or new period theorem."
+}

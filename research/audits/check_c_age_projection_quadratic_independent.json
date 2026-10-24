@@ -1,0 +1,121 @@
+{
+  "status": "PASS literal endpoints, projections and exact parity-interval count; analytic epoch review passed",
+  "rows": [
+    {
+      "packet": 0,
+      "endpoint": [
+        1,
+        1
+      ],
+      "heading_real_imag": [
+        0,
+        1
+      ],
+      "chosen_projection": 1,
+      "length": 10,
+      "C_count": 0
+    },
+    {
+      "packet": 1,
+      "endpoint": [
+        1,
+        2
+      ],
+      "heading_real_imag": [
+        -1,
+        0
+      ],
+      "chosen_projection": 1,
+      "length": 25,
+      "C_count": 1
+    },
+    {
+      "packet": 4,
+      "endpoint": [
+        1,
+        3
+      ],
+      "heading_real_imag": [
+        0,
+        1
+      ],
+      "chosen_projection": 3,
+      "length": 18,
+      "C_count": 0
+    },
+    {
+      "packet": 5,
+      "endpoint": [
+        1,
+        4
+      ],
+      "heading_real_imag": [
+        -1,
+        0
+      ],
+      "chosen_projection": 3,
+      "length": 33,
+      "C_count": 1
+    },
+    {
+      "packet": 6,
+      "endpoint": [
+        0,
+        4
+      ],
+      "heading_real_imag": [
+        0,
+        -1
+      ],
+      "chosen_projection": 3,
+      "length": 48,
+      "C_count": 2
+    },
+    {
+      "packet": 7,
+      "endpoint": [
+        0,
+        4
+      ],
+      "heading_real_imag": [
+        0,
+        1
+      ],
+      "chosen_projection": 3,
+      "length": 28,
+      "C_count": 0
+    },
+    {
+      "packet": 8,
+      "endpoint": [
+        0,
+        5
+      ],
+      "heading_real_imag": [
+        -1,
+        0
+      ],
+      "chosen_projection": 3,
+      "length": 43,
+      "C_count": 1
+    },
+    {
+      "packet": 9,
+      "endpoint": [
+        -1,
+        5
+      ],
+      "heading_real_imag": [
+        0,
+        -1
+      ],
+      "chosen_projection": 3,
+      "length": 58,
+      "C_count": 2
+    }
+  ],
+  "epoch_packet_bound": "(m-5)*(2*j+10)",
+  "duration_bound": "28*(m-5)*(k+1)*(k+10)+15*k",
+  "manifest_sha256": "7babacbe73fb04afb99b8797782ae51ea4a621dc70aaf8b0705e036dd81fba54",
+  "scope": "Complete recurrent-eight factors only, necessary square-root C recurrence; no finite-C upper bound or capture."
+}

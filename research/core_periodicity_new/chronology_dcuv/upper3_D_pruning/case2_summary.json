@@ -1,0 +1,84 @@
+{
+  "scope": "Conditional discovery only; H is not a signed relation",
+  "args": {
+    "profile": "chronology_dcuv/profile_recurrent8.json",
+    "hypotheses": "chronology_dcuv/hypothesis_U_upper3_minus_Dtwo.tsv",
+    "signed": "chronology_dcuv/empty.tsv",
+    "row": [
+      0,
+      7,
+      6,
+      1,
+      3,
+      2,
+      0
+    ],
+    "prefix": "chronology_dcuv/upper3_D_pruning/case2",
+    "rounds": 8,
+    "cap": 1000000,
+    "mode": "source",
+    "watch": "",
+    "scope": null,
+    "expand": true
+  },
+  "results": [
+    {
+      "round": 0,
+      "extra_points": [],
+      "watched": [
+        [
+          2,
+          0
+        ]
+      ],
+      "variables": 14,
+      "result": "status ABSTRACT_WITNESS states 2096 depth 5 nodes 1283",
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_D_pruning/case2_r00_quotient",
+      "seconds": 2.74,
+      "events": [],
+      "expanded_target_inputs": [
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          0
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "extra_points": [
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "watched": [
+        [
+          2,
+          0
+        ]
+      ],
+      "variables": 17,
+      "result": "status ABSTRACT_WITNESS states 16257 depth 5 nodes 2119",
+      "prefix": "/workspace/shared/langton/core_periodicity_new/chronology_dcuv/upper3_D_pruning/case2_r01_quotient",
+      "seconds": 2.519,
+      "events": [],
+      "stop": "no eligible internal lineage or new target-input cell"
+    }
+  ]
+}

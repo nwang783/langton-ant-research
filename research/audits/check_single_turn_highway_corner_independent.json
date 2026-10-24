@@ -1,0 +1,217 @@
+{
+  "status": "PASS exact all-m>=3 full-board one-shot corner and every future read",
+  "candidate_sha256": "52717996a9a39db574261c59752dad9f8c161eab1701659333521cb62e4234d5",
+  "initial_mass": 33,
+  "turn_time": "104*m+1",
+  "turn_pose": [
+    "2*m+1",
+    "-2*m",
+    "E"
+  ],
+  "outgoing_drift": [
+    2,
+    2
+  ],
+  "approach_ordered_pairs": 10816,
+  "approach_nonempty_prior_relations": 262,
+  "outgoing_ordered_pairs": 10816,
+  "outgoing_nonempty_prior_relations": 262,
+  "complete_corner_histories": {
+    "(1, 4)": [
+      [
+        80,
+        "L"
+      ],
+      [
+        84,
+        "R"
+      ],
+      [
+        96,
+        "L"
+      ]
+    ],
+    "(1, 5)": [
+      [
+        77,
+        "L"
+      ],
+      [
+        85,
+        "R"
+      ],
+      [
+        93,
+        "L"
+      ]
+    ],
+    "(1, 6)": [
+      [
+        76,
+        "L"
+      ],
+      [
+        88,
+        "R"
+      ],
+      [
+        92,
+        "L"
+      ]
+    ],
+    "(2, 0)": [
+      [
+        11,
+        "L"
+      ],
+      [
+        19,
+        "R"
+      ],
+      [
+        23,
+        "L"
+      ]
+    ],
+    "(2, 1)": [
+      [
+        2,
+        "L"
+      ],
+      [
+        10,
+        "R"
+      ],
+      [
+        18,
+        "L"
+      ],
+      [
+        22,
+        "R"
+      ],
+      [
+        102,
+        "L"
+      ]
+    ],
+    "(2, 2)": [
+      [
+        3,
+        "L"
+      ],
+      [
+        7,
+        "R"
+      ],
+      [
+        35,
+        "L"
+      ],
+      [
+        103,
+        "R"
+      ]
+    ],
+    "(2, 5)": [
+      [
+        50,
+        "L"
+      ],
+      [
+        78,
+        "R"
+      ],
+      [
+        86,
+        "L"
+      ],
+      [
+        94,
+        "R"
+      ],
+      [
+        202,
+        "L"
+      ]
+    ],
+    "(3, 0)": [
+      [
+        12,
+        "L"
+      ],
+      [
+        16,
+        "R"
+      ],
+      [
+        24,
+        "L"
+      ]
+    ],
+    "(3, 3)": [
+      [
+        33,
+        "L"
+      ],
+      [
+        37,
+        "R"
+      ],
+      [
+        41,
+        "L"
+      ],
+      [
+        105,
+        "R"
+      ],
+      [
+        113,
+        "L"
+      ],
+      [
+        125,
+        "R"
+      ],
+      [
+        205,
+        "L"
+      ]
+    ],
+    "(3, 4)": [
+      [
+        44,
+        "L"
+      ],
+      [
+        48,
+        "R"
+      ],
+      [
+        52,
+        "L"
+      ],
+      [
+        108,
+        "R"
+      ],
+      [
+        112,
+        "L"
+      ],
+      [
+        204,
+        "R"
+      ]
+    ]
+  },
+  "corner_cells_erased_after_last_use": 8,
+  "literal_m_controls": [
+    3,
+    4,
+    50
+  ],
+  "seconds": 4.139090694996412,
+  "scope": "Finite prepared one-shot SE-to-NE corner. All ten cells read; eight consumed. No restoration, renewable corner, compound construction or noncapture model."
+}

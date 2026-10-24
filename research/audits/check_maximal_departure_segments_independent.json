@@ -1,0 +1,606 @@
+{
+  "status": "PASS with actual b-cycle/constant-selected-C scope",
+  "bindings": {
+    "maximal_flow2_flow3_departure_segments.md": "b955fed15a4e99779763667a44e3bbf32e06b184758f9977d42465f91130c50b",
+    "first_R_departure_cycle_local_multiplicities.py": "118bb587fb1bb556f831c0735aa7aae5a826a718372ceb529ad96149cf420650",
+    "first_R_departure_cycle_local_multiplicities.json": "a8d67cb9e730bd6f7a84c7d5a5d992c65d5438b9bfc71a3db269fa5bc8c010a7",
+    "flow3_source_sink_segment_open_mode.py": "a68ce0f831bd40d364b9a38fe2242660a598564bf7f04914669a94df49e873e6",
+    "flow3_source_sink_segment_open_mode.json": "037b9c35cb583f99a385957bb0ea34e5fa03ee8324f9cb0305807cd2806f664d"
+  },
+  "right_rows": [
+    {
+      "history": "E",
+      "in": [
+        0
+      ],
+      "out": [
+        0
+      ],
+      "external_in": [],
+      "external_out": []
+    },
+    {
+      "history": "EE",
+      "in": [
+        0,
+        1
+      ],
+      "out": [
+        0
+      ],
+      "external_in": [],
+      "external_out": [
+        1
+      ]
+    },
+    {
+      "history": "EW",
+      "in": [
+        0
+      ],
+      "out": [
+        0,
+        1
+      ],
+      "external_in": [
+        1
+      ],
+      "external_out": []
+    },
+    {
+      "history": "EEE",
+      "in": [
+        0,
+        1,
+        2
+      ],
+      "out": [
+        0,
+        2
+      ],
+      "external_in": [],
+      "external_out": [
+        1
+      ]
+    },
+    {
+      "history": "EEW",
+      "in": [
+        0,
+        1
+      ],
+      "out": [
+        0
+      ],
+      "external_in": [
+        2
+      ],
+      "external_out": [
+        1,
+        2
+      ]
+    },
+    {
+      "history": "EWE",
+      "in": [
+        0,
+        2
+      ],
+      "out": [
+        0,
+        1,
+        2
+      ],
+      "external_in": [
+        1
+      ],
+      "external_out": []
+    },
+    {
+      "history": "EWW",
+      "in": [
+        0
+      ],
+      "out": [
+        0,
+        1
+      ],
+      "external_in": [
+        1,
+        2
+      ],
+      "external_out": [
+        2
+      ]
+    },
+    {
+      "history": "EEEE",
+      "in": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "out": [
+        0,
+        2
+      ],
+      "external_in": [],
+      "external_out": [
+        1,
+        3
+      ]
+    },
+    {
+      "history": "EEEW",
+      "in": [
+        0,
+        1,
+        2
+      ],
+      "out": [
+        0,
+        2,
+        3
+      ],
+      "external_in": [
+        3
+      ],
+      "external_out": [
+        1
+      ]
+    },
+    {
+      "history": "EEWE",
+      "in": [
+        0,
+        1,
+        3
+      ],
+      "out": [
+        0
+      ],
+      "external_in": [
+        2
+      ],
+      "external_out": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "history": "EEWW",
+      "in": [
+        0,
+        1
+      ],
+      "out": [
+        0,
+        3
+      ],
+      "external_in": [
+        2,
+        3
+      ],
+      "external_out": [
+        1,
+        2
+      ]
+    },
+    {
+      "history": "EWEE",
+      "in": [
+        0,
+        2,
+        3
+      ],
+      "out": [
+        0,
+        1,
+        2
+      ],
+      "external_in": [
+        1
+      ],
+      "external_out": [
+        3
+      ]
+    },
+    {
+      "history": "EWEW",
+      "in": [
+        0,
+        2
+      ],
+      "out": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "external_in": [
+        1,
+        3
+      ],
+      "external_out": []
+    },
+    {
+      "history": "EWWE",
+      "in": [
+        0,
+        3
+      ],
+      "out": [
+        0,
+        1
+      ],
+      "external_in": [
+        1,
+        2
+      ],
+      "external_out": [
+        2,
+        3
+      ]
+    },
+    {
+      "history": "EWWW",
+      "in": [
+        0
+      ],
+      "out": [
+        0,
+        1,
+        3
+      ],
+      "external_in": [
+        1,
+        2,
+        3
+      ],
+      "external_out": [
+        2
+      ]
+    }
+  ],
+  "left_rows": [
+    {
+      "history": "WEE",
+      "in": [
+        1,
+        2
+      ],
+      "out": [
+        0,
+        1
+      ],
+      "external_in": [
+        0
+      ],
+      "external_out": [
+        2
+      ]
+    },
+    {
+      "history": "WWE",
+      "in": [
+        2
+      ],
+      "out": [
+        0
+      ],
+      "external_in": [
+        0,
+        1
+      ],
+      "external_out": [
+        1,
+        2
+      ]
+    },
+    {
+      "history": "WEEE",
+      "in": [
+        1,
+        2,
+        3
+      ],
+      "out": [
+        0,
+        1,
+        3
+      ],
+      "external_in": [
+        0
+      ],
+      "external_out": [
+        2
+      ]
+    },
+    {
+      "history": "WEEW",
+      "in": [
+        1,
+        2
+      ],
+      "out": [
+        0,
+        1
+      ],
+      "external_in": [
+        0,
+        3
+      ],
+      "external_out": [
+        2,
+        3
+      ]
+    },
+    {
+      "history": "WWEE",
+      "in": [
+        2,
+        3
+      ],
+      "out": [
+        0,
+        3
+      ],
+      "external_in": [
+        0,
+        1
+      ],
+      "external_out": [
+        1,
+        2
+      ]
+    },
+    {
+      "history": "WWEW",
+      "in": [
+        2
+      ],
+      "out": [
+        0
+      ],
+      "external_in": [
+        0,
+        1,
+        3
+      ],
+      "external_out": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "flow2": {
+    "EEWW": {
+      "history": "EEWW",
+      "in": [
+        0,
+        1
+      ],
+      "out": [
+        0,
+        3
+      ],
+      "external_in": [
+        2,
+        3
+      ],
+      "external_out": [
+        1,
+        2
+      ]
+    },
+    "EWWE": {
+      "history": "EWWE",
+      "in": [
+        0,
+        3
+      ],
+      "out": [
+        0,
+        1
+      ],
+      "external_in": [
+        1,
+        2
+      ],
+      "external_out": [
+        2,
+        3
+      ]
+    },
+    "WEE": {
+      "history": "WEE",
+      "in": [
+        1,
+        2
+      ],
+      "out": [
+        0,
+        1
+      ],
+      "external_in": [
+        0
+      ],
+      "external_out": [
+        2
+      ]
+    },
+    "WEEW": {
+      "history": "WEEW",
+      "in": [
+        1,
+        2
+      ],
+      "out": [
+        0,
+        1
+      ],
+      "external_in": [
+        0,
+        3
+      ],
+      "external_out": [
+        2,
+        3
+      ]
+    },
+    "WWEE": {
+      "history": "WWEE",
+      "in": [
+        2,
+        3
+      ],
+      "out": [
+        0,
+        3
+      ],
+      "external_in": [
+        0,
+        1
+      ],
+      "external_out": [
+        1,
+        2
+      ]
+    }
+  },
+  "flow3": {
+    "EEEW": {
+      "history": "EEEW",
+      "in": [
+        0,
+        1,
+        2
+      ],
+      "out": [
+        0,
+        2,
+        3
+      ],
+      "external_in": [
+        3
+      ],
+      "external_out": [
+        1
+      ]
+    },
+    "EWEE": {
+      "history": "EWEE",
+      "in": [
+        0,
+        2,
+        3
+      ],
+      "out": [
+        0,
+        1,
+        2
+      ],
+      "external_in": [
+        1
+      ],
+      "external_out": [
+        3
+      ]
+    },
+    "WEEE": {
+      "history": "WEEE",
+      "in": [
+        1,
+        2,
+        3
+      ],
+      "out": [
+        0,
+        1,
+        3
+      ],
+      "external_in": [
+        0
+      ],
+      "external_out": [
+        2
+      ]
+    }
+  },
+  "starts": {
+    "2": {
+      "EW": [
+        1,
+        2
+      ],
+      "EEE": [
+        3,
+        2
+      ],
+      "EWW": [
+        1,
+        2
+      ],
+      "EEEE": [
+        4,
+        2
+      ]
+    },
+    "3": {
+      "EWE": [
+        2,
+        3
+      ],
+      "EWWW": [
+        1,
+        3
+      ]
+    }
+  },
+  "ends": {
+    "2": {
+      "EE": [
+        2,
+        1
+      ],
+      "EEW": [
+        2,
+        1
+      ],
+      "EWE": [
+        2,
+        3
+      ],
+      "EWEW": [
+        2,
+        4
+      ]
+    },
+    "3": {
+      "EEE": [
+        3,
+        2
+      ],
+      "EEWE": [
+        3,
+        1
+      ]
+    }
+  },
+  "open_events": 13,
+  "internal_edges": 8,
+  "open_out": 5,
+  "open_in": 5,
+  "analytic_review": [
+    "LEFT flatness was independently derived by solving all four physical stream equations, rather than assuming rank2. It yields exactly six histories from every WHITE length1..4 binary heading word. The local alphabet applies to an actual b-cycle, whose selected C height is constant by signed monotonicity, or an explicitly constant-selected-C path. Arbitrary b-tree paths are NOT classified by these six rows.",
+    "All constant-flow alphabets, change endpoints, complete incoming/outgoing ordinal sets and exterior ports were reconstructed. Every flow3 interior preserves the adjacent C=c and low L=c-3 components by the signed G3 local identity. Without one-use edges the rerouting endpoints EWWW/EEWE cannot occur; the remaining endpoints are actual odd source/sink, and no other three-use port allows hidden continuation. Distinct maximal segments therefore name distinct full paths, not independent new output credits.",
+    "The first-copy joins yield T0(t)-T0(s)=m minus internal LEFT(T1-T0); the middle-copy endpoint ranks are exactly1 in all four endpoint types, and internal passage rank1->2 or2->1 gives m+sum epsilon Delta. Subtraction yields the displayed exact identity with full physical times/voltages. No repaired passage is asserted to be an uninterrupted cursor path.",
+    "Flow4 is exactly EWEW followed by the rotated EEEE=SSSS, with all four same-ordinal transfers retained. Only R0/R2 are persistent flow2 strands; L1/L3 are actual extra channels. Essential embedded unit-circle simplicity forbids three identical successive turns, so the two RIGHT block turns have LEFT neighbors. This is not a physical erasure.",
+    "An all-at-least3 b-cycle is all3 and has all LEFT corners negative. For its LRL triple, let alpha=Bprev.R0. Actual first b edges give A.R0=alpha+1 and B.L1=alpha+2, hence B.R2>=alpha+6. The opposite U.W output is alpha-1 and its S input is B.R2+1. All single-port histories therefore reduce to NNNS, whose diagonally adjacent C is c+2. Local C maximality forbids LRL, irrespective of the middle RIGHT sign. Equal turns plus no three same turns force RRLL, contradicting signed positive RRLL winding against actual b winding-1. Only existence of a one-OR-two-use edge follows.",
+    "The explicit13-event source/negative-left/sink/helper network has all complete named histories, internal physical ordinal edges, gaps>=4, distinct clocks and open/zero-use ports checked. Its helper N first at alpha+3 and W departure at alpha+a-1 must be separated by two reads, so a>=12. NSS/NSSS force opposite L=c-4/c-5. This remains only a partial event network, not a literal seed factor, complete front, or completion claim.",
+    "Actual same-cell first-return paths must connect consecutive physical reads, a stronger obligation than open rank-time feasibility. The previously signed fixed-five-corner flow2 obstruction is retained, but other varying flow2 modes and the general one-use question remain open."
+  ]
+}

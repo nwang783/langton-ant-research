@@ -1,0 +1,25 @@
+{
+  "status": "PASS nonvacuous C++ profile matcher",
+  "cases": [
+    {
+      "name": "standard_off_rail",
+      "initial_heading": 3,
+      "allowed_transverse_parity": 0,
+      "stdout": "ACCEPT P=104 h=3 drift=-2,-2 t=516 xparity=0 cyclicK=0 word=LRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLR white=1\nACCEPT P=104 h=3 drift=-2,-2 t=516 xparity=1 cyclicK=0 word=LRLLRRRRLLRLLRRRRLLRRRRLLRLRRRRLRLLLLRRRRLRRLRRRRLLLLRLRRRRLRRRRLLLLRLRRRRLRLLRRLLLLRRLLRRRRLLRRLRLLRLLR white=1\nCONTROL bulk_alternating=1 accepted=2\n"
+    },
+    {
+      "name": "opposite_sector_exact_reverse",
+      "initial_heading": 1,
+      "allowed_transverse_parity": 1,
+      "stdout": "ACCEPT P=104 h=1 drift=2,2 t=1 xparity=1 cyclicK=52 word=LRRLRRLRLLRRLLLLRRLLRRRRLLRRLRLLLLRLRRRRLLLLRLLLLRLRRRRLLLLRLLRLLLLRRRRLRLLLLRLRRLLLLRRLLLLRRLRRLLLLRRLR white=0\nCONTROL bulk_alternating=1 accepted=1\n"
+    },
+    {
+      "name": "same_sector_exact_reverse",
+      "initial_heading": 1,
+      "allowed_transverse_parity": 0,
+      "stdout": "CONTROL bulk_alternating=1 accepted=0\n"
+    }
+  ],
+  "source_v1_sha256": "6ec64ef0d2d9723c4a0e5aa73ae3807175bd16e98112715a45a56b5a2c0ba950",
+  "source_v2_sha256": "2a89bf59080aa9df74f84236198e1b4c9d70b28ed15a3cafc2873b4f73629643"
+}

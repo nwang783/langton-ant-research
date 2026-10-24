@@ -1,0 +1,53 @@
+{
+  "status": "PASS exact full O20 inventory excluded for supplied two-quadruple single-used F-circle branch",
+  "proof_sha256": "442642ea070aebe81060e4c404fd8893da6be2dde5cf808aade807739640b9f8",
+  "certificate_sha256": "5f78d2ccb37675939f755986d19fa525804d155d338b5fbeb83c86419c50c7c9",
+  "script_sha256": "c43fc5e85c715678b244eb49ee0bbd751ef62ca24147c0c478c523a684dc17d1",
+  "complete_case_counts": {
+    "top_T19_parents": 1,
+    "top_T19_open": 1,
+    "top_T18_parents": 1,
+    "top_T18_open": 1,
+    "top_T17_parents": 1,
+    "top_T17_open": 2,
+    "top_T16_parents": 2,
+    "top_T16_open": 3,
+    "top_T15_parents": 3,
+    "top_T15_skipped_rank": 3,
+    "top_T15_open": 1,
+    "top_T15_positive_rank_clock_cycle": 1,
+    "top_T14_parents": 1,
+    "top_T14_skipped_rank": 3,
+    "top_T14_open": 2,
+    "bottom_T8_parents": 1,
+    "bottom_T8_open": 2,
+    "bottom_T9_parents": 2,
+    "bottom_T9_open": 2,
+    "bottom_T10_parents": 2,
+    "bottom_T10_positive_rank_clock_cycle": 12,
+    "bottom_T10_open": 4,
+    "bottom_T11_parents": 8,
+    "bottom_T11_positive_rank_clock_cycle": 68,
+    "bottom_T11_open": 44,
+    "bottom_T11_skipped_rank": 12,
+    "bottom_T12_parents": 44,
+    "bottom_T12_skipped_rank": 43,
+    "bottom_T12_positive_rank_clock_cycle": 9,
+    "bottom_T12_closed_component": 6
+  },
+  "empty_T12_domains": 31,
+  "proof_records": 66,
+  "analytic_scope": [
+    "Complete read maximum20, not just odd-set or field maximum, follows signed extreme lemma; only outer classes below0/above20 declared empty. T13 remains UNKNOWN throughout.",
+    "All domains regenerated over invariant axes from both actual port counts, exact parity and every physical first-return. Loose local bound2(I+J)+1 is derived; atT11 both outputs giveexact10, atT12 both inputs giveexact12.",
+    "Every skipped-rank path follows exact complete ordinal edges and closes in the same physical lift. Every positive cycle consists of independently reconstructed consecutive-rank inequalities and is positive for everyP>=named-event count.",
+    "All six +1 closed components have30 events and67 other named events, so cannot be the unique actual period orbit. Positive winding alone is never used as rejection.",
+    "Coverage tree starts with exact two independent boundaries and enumerates every surviving join. No timeout, SMT, imposed global cap or fixed-period search."
+  ],
+  "not_claimed": [
+    "all larger interleavings excluded",
+    "all-quadruple branch excluded",
+    "unconditional single-used circle existence",
+    "d(3,1) or growth8 classification"
+  ]
+}

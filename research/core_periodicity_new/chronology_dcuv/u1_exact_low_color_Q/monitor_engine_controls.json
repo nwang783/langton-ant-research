@@ -1,0 +1,1810 @@
+{
+  "status": "AUTHOR_FINITE_CONTROLS_PASS_NOT_INDEPENDENT",
+  "cases": 300,
+  "explicit_hits": 72,
+  "cube_exhaustions": 191,
+  "concrete_hits": 66,
+  "spurious_unlifted": 43,
+  "controls": [
+    {
+      "seed": 0,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 1,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 4 live 4 pops 4 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 2,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 3,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 4
+    },
+    {
+      "seed": 4,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 2 pops 3 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 5,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 6,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_NOT_CONCRETELY_LIFTED at 0 remaining 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 7,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 8,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_NOT_CONCRETELY_LIFTED at 0 remaining 1",
+      "explicit_reached": 8
+    },
+    {
+      "seed": 9,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 10,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 2 pops 2 depth 1",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 11,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 12,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 13,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 14,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 15,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 16,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 17,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 4 live 4 pops 4 depth 2",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 18,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 0",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 19,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 20,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 21,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 22,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 5 live 5 pops 5 depth 2",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 23,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 24,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 25,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 26,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 27,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 4 live 4 pops 4 depth 2",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 28,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 29,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 30,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 31,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 32,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 33,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 34,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 35,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 36,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 37,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 4
+    },
+    {
+      "seed": 38,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 39,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 40,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 41,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 42,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 43,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 44,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 45,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 46,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 47,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 48,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 6 live 6 pops 6 depth 2",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 49,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 50,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 51,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 5 live 5 pops 5 depth 3",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 52,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 53,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 5 live 5 pops 5 depth 2",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 54,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 55,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 4
+    },
+    {
+      "seed": 56,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 57,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 10 live 10 pops 10 depth 3",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 58,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 59,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 12 live 10 pops 10 depth 3",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 60,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 61,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 62,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 63,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 64,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 4 live 4 pops 4 depth 2",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 65,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 4 live 4 pops 4 depth 1",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 66,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 67,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 7 live 7 pops 7 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 68,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 4 live 3 pops 3 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 69,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 70,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 71,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 72,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 9 live 7 pops 7 depth 4",
+      "explicit_reached": 4
+    },
+    {
+      "seed": 73,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 74,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 75,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 76,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 9
+    },
+    {
+      "seed": 77,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 7 live 6 pops 6 depth 3",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 78,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 4
+    },
+    {
+      "seed": 79,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 80,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 5 live 4 pops 4 depth 2",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 81,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_NOT_CONCRETELY_LIFTED at 2 remaining 3",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 82,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 83,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 12 live 9 pops 11 depth 7",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 84,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 85,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 4 live 4 pops 4 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 86,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 87,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 88,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 7 live 6 pops 7 depth 4",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 89,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 6 live 6 pops 6 depth 2",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 90,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 91,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 92,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 93,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 4 live 3 pops 4 depth 2",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 94,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 95,
+      "explicit_hit": true,
+      "cube_status": "status CUBE_HIT_NOT_CONCRETELY_LIFTED at 0 remaining 1",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 96,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 97,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 98,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 99,
+      "explicit_hit": true,
+      "cube_status": "status CUBE_HIT_NOT_CONCRETELY_LIFTED at 0 remaining 1",
+      "explicit_reached": 9
+    },
+    {
+      "seed": 100,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 101,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 5
+    },
+    {
+      "seed": 102,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 103,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 6 live 6 pops 6 depth 3",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 104,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 105,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 13 live 10 pops 11 depth 3",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 106,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 107,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 108,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 109,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 110,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 111,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 112,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 6 live 6 pops 6 depth 4",
+      "explicit_reached": 5
+    },
+    {
+      "seed": 113,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 114,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 115,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 116,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 117,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 118,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 4 live 3 pops 3 depth 2",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 119,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 4
+    },
+    {
+      "seed": 120,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 121,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 9
+    },
+    {
+      "seed": 122,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 123,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_NOT_CONCRETELY_LIFTED at 0 remaining 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 124,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 4 live 4 pops 4 depth 2",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 125,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 126,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 7 live 6 pops 6 depth 3",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 127,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 12 live 6 pops 8 depth 2",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 128,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 8 live 4 pops 6 depth 3",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 129,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 15 live 10 pops 10 depth 4",
+      "explicit_reached": 6
+    },
+    {
+      "seed": 130,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 131,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 132,
+      "explicit_hit": true,
+      "cube_status": "status CUBE_HIT_NOT_CONCRETELY_LIFTED at 0 remaining 3",
+      "explicit_reached": 6
+    },
+    {
+      "seed": 133,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 5 live 5 pops 5 depth 2",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 134,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 6
+    },
+    {
+      "seed": 135,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 5 live 5 pops 5 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 136,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 137,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 138,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 139,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 140,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 4 live 2 pops 3 depth 2",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 141,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 0",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 142,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 8 live 7 pops 7 depth 2",
+      "explicit_reached": 4
+    },
+    {
+      "seed": 143,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 1",
+      "explicit_reached": 4
+    },
+    {
+      "seed": 144,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 145,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 146,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 2 pops 3 depth 2",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 147,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 4
+    },
+    {
+      "seed": 148,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 149,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 150,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 151,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 152,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_NOT_CONCRETELY_LIFTED at 0 remaining 1",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 153,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 5 live 5 pops 5 depth 2",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 154,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 7
+    },
+    {
+      "seed": 155,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 9
+    },
+    {
+      "seed": 156,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 2 pops 3 depth 2",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 157,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 158,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 159,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 1",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 160,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 161,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 162,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 12 live 6 pops 7 depth 3",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 163,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 164,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 165,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 166,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 167,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 168,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 169,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_NOT_CONCRETELY_LIFTED at 0 remaining 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 170,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 171,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 6 live 3 pops 5 depth 1",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 172,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 173,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 11 live 6 pops 9 depth 4",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 174,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 175,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 176,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_NOT_CONCRETELY_LIFTED at 0 remaining 2",
+      "explicit_reached": 16
+    },
+    {
+      "seed": 177,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 5 live 5 pops 5 depth 3",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 178,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 179,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_NOT_CONCRETELY_LIFTED at 1 remaining 2",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 180,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 181,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 5 live 4 pops 5 depth 2",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 182,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 183,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 184,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_NOT_CONCRETELY_LIFTED at 0 remaining 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 185,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 186,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 187,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 2 pops 3 depth 2",
+      "explicit_reached": 6
+    },
+    {
+      "seed": 188,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 189,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 190,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 191,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 192,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 9 live 9 pops 9 depth 3",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 193,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 14 live 9 pops 12 depth 3",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 194,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 195,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 196,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 1",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 197,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 8 live 8 pops 8 depth 2",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 198,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 199,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 200,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 201,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 202,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 203,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 204,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 205,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 2 pops 2 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 206,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 207,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 208,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 5
+    },
+    {
+      "seed": 209,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 210,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 211,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 212,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 213,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 214,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 215,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 1",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 216,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 5 live 4 pops 5 depth 2",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 217,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 218,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 22 live 16 pops 17 depth 5",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 219,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 220,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 4 live 4 pops 4 depth 2",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 221,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_NOT_CONCRETELY_LIFTED at 0 remaining 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 222,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 223,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 6 live 6 pops 6 depth 2",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 224,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_NOT_CONCRETELY_LIFTED at 1 remaining 1",
+      "explicit_reached": 8
+    },
+    {
+      "seed": 225,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 2",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 226,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 227,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 228,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 229,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 230,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 5 live 5 pops 5 depth 2",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 231,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 232,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 233,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 234,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 2",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 235,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 236,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 4 live 4 pops 4 depth 2",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 237,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_NOT_CONCRETELY_LIFTED at 1 remaining 3",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 238,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 239,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 240,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 5
+    },
+    {
+      "seed": 241,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 242,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 2",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 243,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 244,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 245,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 9
+    },
+    {
+      "seed": 246,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 5
+    },
+    {
+      "seed": 247,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 248,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 249,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 5 live 5 pops 5 depth 3",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 250,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 251,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 252,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 253,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 254,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 255,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 4
+    },
+    {
+      "seed": 256,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 9
+    },
+    {
+      "seed": 257,
+      "explicit_hit": true,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 10
+    },
+    {
+      "seed": 258,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 11 live 7 pops 8 depth 3",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 259,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 4 live 4 pops 4 depth 2",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 260,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 9
+    },
+    {
+      "seed": 261,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 262,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 263,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 264,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 265,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 266,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 267,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 268,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_NOT_CONCRETELY_LIFTED at 1 remaining 4",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 269,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 2",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 270,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 6 live 5 pops 5 depth 2",
+      "explicit_reached": 4
+    },
+    {
+      "seed": 271,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 272,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 1",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 273,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 274,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 275,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 7 live 6 pops 6 depth 3",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 276,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 277,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 4 live 3 pops 3 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 278,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 2 pops 3 depth 2",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 279,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 280,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_NOT_CONCRETELY_LIFTED at 0 remaining 1",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 281,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 10 live 7 pops 8 depth 5",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 282,
+      "explicit_hit": true,
+      "cube_status": "status CUBE_HIT_NOT_CONCRETELY_LIFTED at 1 remaining 1",
+      "explicit_reached": 8
+    },
+    {
+      "seed": 283,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_NOT_CONCRETELY_LIFTED at 0 remaining 2",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 284,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 285,
+      "explicit_hit": true,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 286,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_NOT_CONCRETELY_LIFTED at 0 remaining 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 287,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 4 live 3 pops 3 depth 1",
+      "explicit_reached": 7
+    },
+    {
+      "seed": 288,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 289,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 2",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 290,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 291,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 292,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 293,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 3 live 3 pops 3 depth 1",
+      "explicit_reached": 3
+    },
+    {
+      "seed": 294,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 295,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_HIT_GOAL_NOT_LIFTED",
+      "explicit_reached": 11
+    },
+    {
+      "seed": 296,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 1 live 1 pops 1 depth 0",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 297,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 2
+    },
+    {
+      "seed": 298,
+      "explicit_hit": false,
+      "cube_status": "status CUBE_EXHAUSTED_NO_INITIAL labels 2 live 2 pops 2 depth 1",
+      "explicit_reached": 1
+    },
+    {
+      "seed": 299,
+      "explicit_hit": true,
+      "cube_status": "status CONCRETE_MODEL_WITNESS",
+      "explicit_reached": 1
+    }
+  ]
+}

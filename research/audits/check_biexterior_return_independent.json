@@ -1,0 +1,38 @@
+{
+  "status": "PASS global simultaneous-white-exterior return theorem and independent exact controls",
+  "note_sha256": "e76114b0df91a4ed2a1b086103c7c43e4dfeaf4dfd0b79d1e71a64d42d1424f9",
+  "counts": {
+    "geometric_tests": 51200,
+    "starts": 51261,
+    "already_biexterior": 50144,
+    "non_biexterior": 1117,
+    "fine_clock_updates": 1279
+  },
+  "max_delay": 12,
+  "blank_582_585_flags": [
+    [
+      true,
+      false
+    ],
+    [
+      false,
+      false
+    ],
+    [
+      false,
+      true
+    ],
+    [
+      true,
+      true
+    ]
+  ],
+  "analytic_review": [
+    "Finite WHITE components have enclosing simple BLACK cycles in the opposite planar lattice. Incident black midpoints have Chebyshev distance<=1, placing each cycle inside one fixed terminal rectangle. An active vertex based outside that rectangle cannot be strictly enclosed, including the extremal-line equality case.",
+    "Terminal rectangles are pairwise cell-distance>=2, so a unit head cannot relay between them. Induction retains the entire outside board and confines every pre-return read to the same original rectangle.",
+    "Merging semiperimeters gives a+b<=2k, area<=k^2. Head displacement<=a+b-1, return mass<=m-k+area<=m^2.",
+    "Centered retained strict clock has pre-return total range<=(area+2)(3^ceil((a+b-2)/2)-1). Exactly tau-1 internal-to-internal updates give stated tau bound. Finite-state alternative counts all4area2^area complete pre-return states.",
+    "Empty or singleton boards are already bi-exterior; initial exterior states use tau0 and never invoke negative exponent. Infinite checkpoint recurrence follows by applying the theorem to any state after a hypothetical final checkpoint. One ordinary step followed by first return defines a total positive-time complete-state map."
+  ],
+  "scope": "Arbitrary finite-support actual ants, both sectors and all words. This is a complete-state global section, not a finite summary, monotone return mass/topology, standard capture or invariant pruning theorem."
+}

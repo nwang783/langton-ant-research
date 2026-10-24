@@ -1,0 +1,43 @@
+{
+  "status": "all-parameter first-failure certificate passed; full capture not claimed",
+  "parameter_domain": "integer k>=200",
+  "rail_half_length": 80,
+  "input_mass": 3877,
+  "planned_word": "(W^k REF)^2",
+  "planned_return_time": [
+    208,
+    42448
+  ],
+  "first_difference_time": [
+    208,
+    42296
+  ],
+  "first_difference_position": [
+    0,
+    -2
+  ],
+  "heading": "W",
+  "expected": "R",
+  "actual": "L",
+  "previous_read_time": 100,
+  "previous_letter": "R",
+  "complete_previous_read_times": [
+    4,
+    8,
+    100
+  ],
+  "black_lifetime_age": [
+    208,
+    42196
+  ],
+  "updates_before_planned_return": 152,
+  "reference_word_sha256": "b365447b3a00548e6af732e582f0a4f72fc77d8d512d097825880730098cafa9",
+  "statistics": {
+    "finite_read_constraints": 5362,
+    "periodic_read_constraints": 80,
+    "affine_guards": 4528,
+    "excluded_isolated_equalities": 23771965
+  },
+  "finite_field_terms": 6087,
+  "ray_terms": 64
+}

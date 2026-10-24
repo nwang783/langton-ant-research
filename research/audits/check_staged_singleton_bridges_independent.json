@@ -1,0 +1,132 @@
+{
+  "status": "PASS independent end-to-end staged singleton capture proofs",
+  "claims": "Two separate singleton-label statements; their union is NOT proved.",
+  "reports": [
+    {
+      "label": "LRRLRRRRLRL",
+      "initial_nodes": 18678,
+      "total_nodes": 19454,
+      "max_depth": 91,
+      "returns": 30,
+      "history_words": 3779,
+      "history_vertices": 853,
+      "recurrent_histories": 575,
+      "contracted_DAG_vertices": 279,
+      "stages": [
+        {
+          "contexts": 127,
+          "clauses": 2835600,
+          "marks": 23,
+          "recurrent_sizes": [
+            28
+          ]
+        },
+        {
+          "contexts": 28,
+          "clauses": 135994,
+          "marks": 13,
+          "recurrent_sizes": [
+            7
+          ]
+        },
+        {
+          "contexts": 7,
+          "clauses": 9472,
+          "marks": 2,
+          "recurrent_sizes": [
+            3
+          ]
+        }
+      ],
+      "terminal_cycles": [
+        {
+          "kind": "standard104",
+          "cycle": [
+            1,
+            6,
+            5
+          ],
+          "phase": 49
+        }
+      ],
+      "seconds": 0.5171740055084229
+    },
+    {
+      "label": "RRRLRLLRRRR",
+      "initial_nodes": 18692,
+      "total_nodes": 19484,
+      "max_depth": 91,
+      "returns": 26,
+      "history_words": 2203,
+      "history_vertices": 527,
+      "recurrent_histories": 366,
+      "contracted_DAG_vertices": 162,
+      "stages": [
+        {
+          "contexts": 89,
+          "clauses": 1023737,
+          "marks": 25,
+          "recurrent_sizes": [
+            17,
+            1,
+            1
+          ]
+        },
+        {
+          "contexts": 17,
+          "clauses": 56328,
+          "marks": 8,
+          "recurrent_sizes": [
+            3,
+            1
+          ]
+        }
+      ],
+      "terminal_cycles": [
+        {
+          "kind": "infinite_first_L_fuel",
+          "word": "RRRRLRLLRRRRLLRL",
+          "length": 16,
+          "drift": [
+            0,
+            2
+          ],
+          "first_L_classes": 3
+        },
+        {
+          "kind": "infinite_first_L_fuel",
+          "word": "LLLLRLRRRRLRRLRRRR",
+          "length": 18,
+          "drift": [
+            1,
+            3
+          ],
+          "first_L_classes": 2
+        },
+        {
+          "kind": "standard104",
+          "cycle": [
+            3,
+            16,
+            14
+          ],
+          "phase": 49
+        },
+        {
+          "kind": "infinite_first_L_fuel",
+          "word": "LLLLRLRRRRLRLLLLRRRRLRRLRRRR",
+          "length": 28,
+          "drift": [
+            0,
+            4
+          ],
+          "first_L_classes": 5
+        }
+      ],
+      "seconds": 0.22257590293884277
+    }
+  ],
+  "manifest_sha256": "c56da6b266b51f4af694f9c854279e254ee22b870ae2264707d9cc51bf0c0056",
+  "clause_replay_manifest_sha256": "2e70e644a57cfbaa4137a1f4173dbf545215e8d463175e17b6d23cd5e4b803e1",
+  "cpp_checker_sha256": "1d2c353f1373d469a6df34e97405ec03482f5095794e80a52380a54cf382c2fc"
+}

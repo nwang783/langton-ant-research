@@ -1,0 +1,157 @@
+{
+  "status": "PASS independent complete-history first-port, first-time and counterflow controls",
+  "note_sha256": "44302c05565a1320b3793e3f279a6355ce099387f1b2f853bca2046895446c7a",
+  "controls": [
+    {
+      "period": 104,
+      "full_drift": [
+        2,
+        2
+      ],
+      "cycles": [
+        {
+          "length": 4,
+          "winding": -1,
+          "left_corners": 2,
+          "exact_q_sum": 27,
+          "rank_debt": 12
+        },
+        {
+          "length": 4,
+          "winding": -1,
+          "left_corners": 2,
+          "exact_q_sum": 27,
+          "rank_debt": 12
+        }
+      ],
+      "residual_edges": 96,
+      "counterflow_period_bound": 20
+    },
+    {
+      "period": 104,
+      "full_drift": [
+        2,
+        -2
+      ],
+      "cycles": [
+        {
+          "length": 4,
+          "winding": -1,
+          "left_corners": 2,
+          "exact_q_sum": 27,
+          "rank_debt": 12
+        },
+        {
+          "length": 4,
+          "winding": -1,
+          "left_corners": 2,
+          "exact_q_sum": 27,
+          "rank_debt": 12
+        }
+      ],
+      "residual_edges": 96,
+      "counterflow_period_bound": 20
+    },
+    {
+      "period": 208,
+      "full_drift": [
+        4,
+        4
+      ],
+      "cycles": [
+        {
+          "length": 8,
+          "winding": -1,
+          "left_corners": 4,
+          "exact_q_sum": 54,
+          "rank_debt": 24
+        },
+        {
+          "length": 8,
+          "winding": -1,
+          "left_corners": 4,
+          "exact_q_sum": 54,
+          "rank_debt": 24
+        }
+      ],
+      "residual_edges": 192,
+      "counterflow_period_bound": 40
+    },
+    {
+      "period": 208,
+      "full_drift": [
+        4,
+        -4
+      ],
+      "cycles": [
+        {
+          "length": 8,
+          "winding": -1,
+          "left_corners": 4,
+          "exact_q_sum": 54,
+          "rank_debt": 24
+        },
+        {
+          "length": 8,
+          "winding": -1,
+          "left_corners": 4,
+          "exact_q_sum": 54,
+          "rank_debt": 24
+        }
+      ],
+      "residual_edges": 192,
+      "counterflow_period_bound": 40
+    },
+    {
+      "period": 312,
+      "full_drift": [
+        6,
+        6
+      ],
+      "cycles": [
+        {
+          "length": 12,
+          "winding": -1,
+          "left_corners": 6,
+          "exact_q_sum": 81,
+          "rank_debt": 36
+        },
+        {
+          "length": 12,
+          "winding": -1,
+          "left_corners": 6,
+          "exact_q_sum": 81,
+          "rank_debt": 36
+        }
+      ],
+      "residual_edges": 288,
+      "counterflow_period_bound": 60
+    },
+    {
+      "period": 312,
+      "full_drift": [
+        6,
+        -6
+      ],
+      "cycles": [
+        {
+          "length": 12,
+          "winding": -1,
+          "left_corners": 6,
+          "exact_q_sum": 81,
+          "rank_debt": 36
+        },
+        {
+          "length": 12,
+          "winding": -1,
+          "left_corners": 6,
+          "exact_q_sum": 81,
+          "rank_debt": 36
+        }
+      ],
+      "residual_edges": 288,
+      "counterflow_period_bound": 60
+    }
+  ],
+  "scope": "The cap-free all-front theorem is analytic; these actual standard controls independently check conventions, cycle signs, multiple components, ordinal times and residual-flow arithmetic. No new exclusion graph."
+}

@@ -1,0 +1,197 @@
+{"segment": 0, "time": [0, 0, 3631], "pose": [[[0, 0, 10], [0, 0, -11]], 3]}
+{"segment": 1, "time": [104, 0, 14135], "pose": [[[2, 0, 212], [-2, 0, -213]], 3]}
+{"segment": 2, "time": [104, 0, 30338], "pose": [[[2, 0, 239], [-2, 0, -193]], 2]}
+{"segment": 3, "time": [208, 104, 50722], "pose": [[[0, -2, -153], [0, 2, 199]], 2]}
+{"segment": 4, "time": [208, 104, 57964], "pose": [[[0, -2, -170], [0, 2, 270]], 0]}
+{
+  "status": "exact full three-cell field and eternal standard tail",
+  "phase": 75,
+  "domain": "m>=100,n-m>=100",
+  "variables": "u=m-100>=0,v=n-m-100>=0",
+  "source_capture_time": [
+    208,
+    104,
+    57964
+  ],
+  "source_capture_pose": [
+    [
+      [
+        0,
+        -2,
+        -170
+      ],
+      [
+        0,
+        2,
+        270
+      ]
+    ],
+    0
+  ],
+  "total_capture_time": [
+    520,
+    520,
+    253140
+  ],
+  "total_capture_pose": [
+    [
+      [
+        -2,
+        -2,
+        -432
+      ],
+      [
+        2,
+        2,
+        472
+      ]
+    ],
+    0
+  ],
+  "tail": {
+    "drift": [
+      -2,
+      2
+    ],
+    "heading": 0,
+    "required_cells": 44,
+    "odd_cells": 36
+  },
+  "tail_phase": 100,
+  "full_prefix_read_upper": {
+    "u": 58,
+    "z": 71
+  },
+  "tail_read_upper": {
+    "u": -903,
+    "z": 45
+  },
+  "statistics": {
+    "finite_read_constraints": 4998,
+    "periodic_read_constraints": 132,
+    "affine_guards": 9837,
+    "excluded_isolated_equalities": 31117609
+  },
+  "records": [
+    {
+      "segment": 0,
+      "time": [
+        0,
+        0,
+        3631
+      ],
+      "pose": [
+        [
+          [
+            0,
+            0,
+            10
+          ],
+          [
+            0,
+            0,
+            -11
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 1,
+      "time": [
+        104,
+        0,
+        14135
+      ],
+      "pose": [
+        [
+          [
+            2,
+            0,
+            212
+          ],
+          [
+            -2,
+            0,
+            -213
+          ]
+        ],
+        3
+      ]
+    },
+    {
+      "segment": 2,
+      "time": [
+        104,
+        0,
+        30338
+      ],
+      "pose": [
+        [
+          [
+            2,
+            0,
+            239
+          ],
+          [
+            -2,
+            0,
+            -193
+          ]
+        ],
+        2
+      ]
+    },
+    {
+      "segment": 3,
+      "time": [
+        208,
+        104,
+        50722
+      ],
+      "pose": [
+        [
+          [
+            0,
+            -2,
+            -153
+          ],
+          [
+            0,
+            2,
+            199
+          ]
+        ],
+        2
+      ]
+    },
+    {
+      "segment": 4,
+      "time": [
+        208,
+        104,
+        57964
+      ],
+      "pose": [
+        [
+          [
+            0,
+            -2,
+            -170
+          ],
+          [
+            0,
+            2,
+            270
+          ]
+        ],
+        0
+      ]
+    }
+  ],
+  "template_sha256": "7ab753fd705c2be1ec893db63e42144c6cfaa8ed70d805710a96eb5d45577bef",
+  "all_future_read_upper": {
+    "u": 58,
+    "z": 71
+  }
+}

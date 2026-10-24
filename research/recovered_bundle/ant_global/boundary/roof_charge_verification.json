@@ -1,0 +1,411 @@
+{
+  "exhaustive_seeds": 4096,
+  "random_seeds": 10000,
+  "counts": {
+    "prefixes": 101730,
+    "with_bridge": 6344,
+    "with_surplus": 1250,
+    "with_collision": 0
+  },
+  "witnesses": {
+    "bridge": {
+      "seed": [
+        [
+          1,
+          -3
+        ],
+        [
+          2,
+          -4
+        ],
+        [
+          2,
+          -3
+        ]
+      ],
+      "audit": {
+        "steps": 10,
+        "M": 2,
+        "H": 1,
+        "J0": 0,
+        "JP": 1,
+        "rho": 0,
+        "D0": 0,
+        "D": 0,
+        "Q": 0,
+        "KC": 0,
+        "Z": 1,
+        "Z0": 0,
+        "N": {
+          "0": 2,
+          "-1": 3,
+          "-2": 2,
+          "-3": 2
+        },
+        "delta": {
+          "0": 2,
+          "-1": 1,
+          "-2": -2,
+          "-3": 2
+        },
+        "collision_count": 0,
+        "collisions": [],
+        "roofs": [
+          {
+            "start": 2,
+            "end": 8,
+            "k": 1,
+            "tops": [
+              4,
+              6
+            ],
+            "right_a": 7
+          }
+        ]
+      },
+      "events": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": -4,
+          "level": -4,
+          "incoming": 2,
+          "color": 0,
+          "outgoing": 3
+        },
+        {
+          "t": 1,
+          "x": 0,
+          "y": -3,
+          "level": -3,
+          "incoming": 3,
+          "color": 0,
+          "outgoing": 0
+        },
+        {
+          "t": 2,
+          "x": 1,
+          "y": -3,
+          "level": -2,
+          "incoming": 0,
+          "color": 1,
+          "outgoing": 3
+        },
+        {
+          "t": 3,
+          "x": 1,
+          "y": -2,
+          "level": -1,
+          "incoming": 3,
+          "color": 0,
+          "outgoing": 0
+        },
+        {
+          "t": 4,
+          "x": 2,
+          "y": -2,
+          "level": 0,
+          "incoming": 0,
+          "color": 0,
+          "outgoing": 1
+        },
+        {
+          "t": 5,
+          "x": 2,
+          "y": -3,
+          "level": -1,
+          "incoming": 1,
+          "color": 1,
+          "outgoing": 0
+        },
+        {
+          "t": 6,
+          "x": 3,
+          "y": -3,
+          "level": 0,
+          "incoming": 0,
+          "color": 0,
+          "outgoing": 1
+        },
+        {
+          "t": 7,
+          "x": 3,
+          "y": -4,
+          "level": -1,
+          "incoming": 1,
+          "color": 0,
+          "outgoing": 2
+        },
+        {
+          "t": 8,
+          "x": 2,
+          "y": -4,
+          "level": -2,
+          "incoming": 2,
+          "color": 1,
+          "outgoing": 1
+        },
+        {
+          "t": 9,
+          "x": 2,
+          "y": -5,
+          "level": -3,
+          "incoming": 1,
+          "color": 0,
+          "outgoing": 2
+        }
+      ]
+    },
+    "surplus": {
+      "seed": [
+        [
+          -6,
+          1
+        ],
+        [
+          -5,
+          -1
+        ],
+        [
+          -5,
+          1
+        ],
+        [
+          -4,
+          -2
+        ],
+        [
+          -3,
+          -3
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -2,
+          -5
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -1,
+          -5
+        ],
+        [
+          -1,
+          -3
+        ],
+        [
+          0,
+          -7
+        ],
+        [
+          1,
+          -8
+        ],
+        [
+          1,
+          -6
+        ],
+        [
+          1,
+          -5
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          2,
+          -3
+        ],
+        [
+          3,
+          -5
+        ],
+        [
+          3,
+          -4
+        ],
+        [
+          4,
+          -11
+        ],
+        [
+          4,
+          -6
+        ],
+        [
+          5,
+          -11
+        ],
+        [
+          5,
+          -8
+        ],
+        [
+          6,
+          -8
+        ],
+        [
+          6,
+          -7
+        ]
+      ],
+      "audit": {
+        "steps": 12,
+        "M": 3,
+        "H": 2,
+        "J0": 0,
+        "JP": 1,
+        "rho": 1,
+        "D0": 0,
+        "D": 1,
+        "Q": 0,
+        "KC": 0,
+        "Z": 4,
+        "Z0": 0,
+        "N": {
+          "0": 3,
+          "-1": 4,
+          "-2": 2,
+          "-3": 2
+        },
+        "delta": {
+          "0": 3,
+          "-1": 0,
+          "-2": -2,
+          "-3": 2
+        },
+        "collision_count": 0,
+        "collisions": [],
+        "roofs": [
+          {
+            "start": 2,
+            "end": 10,
+            "k": 2,
+            "tops": [
+              4,
+              6,
+              8
+            ],
+            "right_a": 9
+          }
+        ]
+      },
+      "events": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": -4,
+          "level": -4,
+          "incoming": 2,
+          "color": 0,
+          "outgoing": 3
+        },
+        {
+          "t": 1,
+          "x": 0,
+          "y": -3,
+          "level": -3,
+          "incoming": 3,
+          "color": 0,
+          "outgoing": 0
+        },
+        {
+          "t": 2,
+          "x": 1,
+          "y": -3,
+          "level": -2,
+          "incoming": 0,
+          "color": 1,
+          "outgoing": 3
+        },
+        {
+          "t": 3,
+          "x": 1,
+          "y": -2,
+          "level": -1,
+          "incoming": 3,
+          "color": 0,
+          "outgoing": 0
+        },
+        {
+          "t": 4,
+          "x": 2,
+          "y": -2,
+          "level": 0,
+          "incoming": 0,
+          "color": 0,
+          "outgoing": 1
+        },
+        {
+          "t": 5,
+          "x": 2,
+          "y": -3,
+          "level": -1,
+          "incoming": 1,
+          "color": 1,
+          "outgoing": 0
+        },
+        {
+          "t": 6,
+          "x": 3,
+          "y": -3,
+          "level": 0,
+          "incoming": 0,
+          "color": 0,
+          "outgoing": 1
+        },
+        {
+          "t": 7,
+          "x": 3,
+          "y": -4,
+          "level": -1,
+          "incoming": 1,
+          "color": 1,
+          "outgoing": 0
+        },
+        {
+          "t": 8,
+          "x": 4,
+          "y": -4,
+          "level": 0,
+          "incoming": 0,
+          "color": 0,
+          "outgoing": 1
+        },
+        {
+          "t": 9,
+          "x": 4,
+          "y": -5,
+          "level": -1,
+          "incoming": 1,
+          "color": 0,
+          "outgoing": 2
+        },
+        {
+          "t": 10,
+          "x": 3,
+          "y": -5,
+          "level": -2,
+          "incoming": 2,
+          "color": 1,
+          "outgoing": 1
+        },
+        {
+          "t": 11,
+          "x": 3,
+          "y": -6,
+          "level": -3,
+          "incoming": 1,
+          "color": 0,
+          "outgoing": 2
+        }
+      ]
+    }
+  }
+}

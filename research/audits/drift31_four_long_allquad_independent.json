@@ -1,0 +1,84 @@
+{
+  "status": "PASS four specified long all-quadruple interfaces excluded, three short interfaces remain OPEN",
+  "proof_sha256": "404562d6946f48d3b0c36105d0472b987a1066cb093c6a5bfc93c8d287681673",
+  "certificate_sha256": "54bf616201c8ec10c1a29b81dcfc02e69359b3821e61cc31ce79e53a59a05851",
+  "script_sha256": "02afc018a274af033f83156b21333abfeb1357f8890ec73ac3b42d73997d103e",
+  "counts": {
+    "T8_open": 23,
+    "T9_skipped_rank": 42,
+    "T9_Rule_B": 16,
+    "T8_skipped_rank": 17,
+    "T8_positive_rank_clock_cycle": 13
+  },
+  "T9_domain_sizes": [
+    2,
+    2,
+    4,
+    2,
+    7,
+    7,
+    18
+  ],
+  "remaining_complete_pairs": [
+    [
+      [
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        2,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        3,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        2,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        3,
+        3,
+        1
+      ]
+    ]
+  ],
+  "analytic_checks": [
+    "Independent reconstruction from signed complete T0..7 histories; all unnamed classes including T10+ remain UNKNOWN.",
+    "All53 derived T8 binary histories covered,17 literal rank skips/13 explicit positive rank-clock cycles/23open. Full voltage actuald3,1 and physical first-return paths independently rebuilt.",
+    "16 rotated RuleB cases use firstW afterS_a, forcing that read itselfS_(a+1); supplied next return would skipW1. No firstcolor or unseen multiplicity shortcut.",
+    "Seven unrestricted-parity T9 domains 2,2,4,2,7,7,18 exhaust derivedbounds<=19; all42 exact8step rank0-to3 paths checked at same physical cell.",
+    "Neither growth8 budget nor global visit/support/period cap is used in this local completion obstruction."
+  ],
+  "not_claimed": [
+    "three remaining short modes excluded",
+    "arbitrary single-used F-circle existence",
+    "all drift3,1 fronts excluded",
+    "global attraction"
+  ]
+}

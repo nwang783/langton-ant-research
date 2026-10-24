@@ -1,0 +1,147 @@
+{
+  "scope": "Complete lower square and canonical producer at an early RIGHT ancestor.\nSaved complete110 inventory, all rotations; no front or period scan.\n",
+  "ancestor_rows": 72,
+  "R_rows": 36,
+  "S_rows": 36,
+  "R_modes": [
+    {
+      "x": "EWW",
+      "r": "WEEW",
+      "e": "SNN",
+      "count": 12
+    },
+    {
+      "x": "EWWW",
+      "r": "WEW",
+      "e": "SNNN",
+      "count": 12
+    },
+    {
+      "x": "EWWW",
+      "r": "WEWW",
+      "e": "SNNN",
+      "count": 12
+    }
+  ],
+  "lower_F_completions": [
+    {
+      "physical": {
+        "(-3, -1)": "EEWW",
+        "(-3, 0)": "NNS",
+        "(-2, 0)": "EWWW",
+        "(-2, -1)": "SSS"
+      },
+      "entry": [
+        -3,
+        -1
+      ],
+      "rotation": 3,
+      "canonical_profile": {
+        "A": "NNSS",
+        "Z": "WWE",
+        "Y": "NSSS",
+        "B": "EEE"
+      },
+      "potential_children": [
+        "Z"
+      ]
+    }
+  ],
+  "Q2_completions": [
+    {
+      "physical": {
+        "(-3, 0)": "NNS",
+        "(-4, 0)": "WW",
+        "(-4, 1)": "NSSS",
+        "(-3, 1)": "EEWE"
+      },
+      "entry": [
+        -3,
+        0
+      ],
+      "rotation": 0,
+      "canonical_profile": {
+        "A": "NNS",
+        "Z": "WW",
+        "Y": "NSSS",
+        "B": "EEWE"
+      },
+      "potential_children": [
+        "B"
+      ],
+      "flag_one_potential_count": 1
+    },
+    {
+      "physical": {
+        "(-3, 0)": "NNS",
+        "(-4, 0)": "WWE",
+        "(-4, 1)": "NSSS",
+        "(-3, 1)": "EEWE"
+      },
+      "entry": [
+        -3,
+        0
+      ],
+      "rotation": 0,
+      "canonical_profile": {
+        "A": "NNS",
+        "Z": "WWE",
+        "Y": "NSSS",
+        "B": "EEWE"
+      },
+      "potential_children": [
+        "Z",
+        "B"
+      ],
+      "flag_one_potential_count": 1
+    },
+    {
+      "physical": {
+        "(-3, 0)": "NNS",
+        "(-4, 0)": "WWEE",
+        "(-4, 1)": "NSN",
+        "(-3, 1)": "EEWE"
+      },
+      "entry": [
+        -3,
+        0
+      ],
+      "rotation": 0,
+      "canonical_profile": {
+        "A": "NNS",
+        "Z": "WWEE",
+        "Y": "NSN",
+        "B": "EEWE"
+      },
+      "potential_children": [
+        "Z",
+        "B"
+      ],
+      "flag_one_potential_count": 1
+    },
+    {
+      "physical": {
+        "(-3, 0)": "NNS",
+        "(-4, 0)": "EWW",
+        "(-4, 1)": "SSNS",
+        "(-3, 1)": "EEWE"
+      },
+      "entry": [
+        -3,
+        0
+      ],
+      "rotation": 0,
+      "canonical_profile": {
+        "A": "NNS",
+        "Z": "EWW",
+        "Y": "SSNS",
+        "B": "EEWE"
+      },
+      "potential_children": [
+        "B"
+      ],
+      "flag_one_potential_count": 1
+    }
+  ],
+  "capacity": "Nodd >= n_Sanc + n_R3 + 2*n_R4 = n_A + n_R4"
+}

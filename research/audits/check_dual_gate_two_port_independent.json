@@ -1,0 +1,72 @@
+{
+  "status": "PASS independent dual-cursor coupling, exact all-M two-port support/count deduction and fresh finite-board controls",
+  "bindings": {
+    "coupled_dual_cursors_and_gate_memory.md": "45d44d39ab2680c41617dcd5e8bbe524f35f605bf61a71bfd8940d56404ce5df",
+    "fixed_exterior_two_port_excursion.md": "435649268fa54f39b75ec1014bcec873ea1fbc3a0ffd9e695ae803a0f242197c"
+  },
+  "source_manifest_sha256": "52d80fe06d739254a9d71615de67bfb6639d1f4d1301455b4f332d7110874f9b",
+  "local_cases": 8,
+  "K_costs": [
+    1973,
+    1972,
+    75515,
+    7358,
+    7353,
+    8418
+  ],
+  "controls": [
+    {
+      "M": 1,
+      "mass": 5925,
+      "duration": 221337,
+      "internal_K": 105096,
+      "cut_events": [
+        [
+          0,
+          [
+            -2,
+            2
+          ],
+          0,
+          "R"
+        ],
+        [
+          221336,
+          [
+            10,
+            -10
+          ],
+          2,
+          "R"
+        ]
+      ]
+    },
+    {
+      "M": 2,
+      "mass": 7266,
+      "duration": 249717,
+      "internal_K": 118365,
+      "cut_events": [
+        [
+          0,
+          [
+            -2,
+            2
+          ],
+          0,
+          "R"
+        ],
+        [
+          249716,
+          [
+            10,
+            -10
+          ],
+          2,
+          "R"
+        ]
+      ]
+    }
+  ],
+  "scope": "Global occupied-fence shielding only until its first actual L gate; mixed fences require genuine Jordan curve, permanent current edges and28 buffer. Two-port family has growing initial mass; exact timing/cost obstruction only, not untimed qualitative or finite-seed noncapture."
+}

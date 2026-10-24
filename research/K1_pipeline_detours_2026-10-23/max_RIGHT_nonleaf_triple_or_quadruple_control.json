@@ -1,0 +1,325 @@
+{
+  "scope": "Complete local physical ports and middle-sheet repair for nonleaf stock holes.\nNo front, drift, period or radius scan; all thirty E/W WHITE histories.\n",
+  "right_count": 12,
+  "right_rows": [
+    {
+      "headings": "EEE",
+      "middle_in_rank": 1,
+      "middle_out_rank": 2,
+      "high_ports": [
+        [
+          "in",
+          "E",
+          3
+        ]
+      ]
+    },
+    {
+      "headings": "EWE",
+      "middle_in_rank": 2,
+      "middle_out_rank": 1,
+      "high_ports": [
+        [
+          "out",
+          "S",
+          3
+        ]
+      ]
+    },
+    {
+      "headings": "WEW",
+      "middle_in_rank": 2,
+      "middle_out_rank": 1,
+      "high_ports": [
+        [
+          "out",
+          "N",
+          3
+        ]
+      ]
+    },
+    {
+      "headings": "WWW",
+      "middle_in_rank": 1,
+      "middle_out_rank": 2,
+      "high_ports": [
+        [
+          "in",
+          "W",
+          3
+        ]
+      ]
+    },
+    {
+      "headings": "EEEE",
+      "middle_in_rank": 1,
+      "middle_out_rank": 2,
+      "high_ports": [
+        [
+          "in",
+          "E",
+          4
+        ]
+      ]
+    },
+    {
+      "headings": "EEEW",
+      "middle_in_rank": 1,
+      "middle_out_rank": 2,
+      "high_ports": [
+        [
+          "in",
+          "E",
+          3
+        ],
+        [
+          "out",
+          "S",
+          3
+        ]
+      ]
+    },
+    {
+      "headings": "EWEE",
+      "middle_in_rank": 2,
+      "middle_out_rank": 1,
+      "high_ports": [
+        [
+          "in",
+          "E",
+          3
+        ],
+        [
+          "out",
+          "S",
+          3
+        ]
+      ]
+    },
+    {
+      "headings": "EWEW",
+      "middle_in_rank": 2,
+      "middle_out_rank": 1,
+      "high_ports": [
+        [
+          "out",
+          "S",
+          4
+        ]
+      ]
+    },
+    {
+      "headings": "WEWE",
+      "middle_in_rank": 2,
+      "middle_out_rank": 1,
+      "high_ports": [
+        [
+          "out",
+          "N",
+          4
+        ]
+      ]
+    },
+    {
+      "headings": "WEWW",
+      "middle_in_rank": 2,
+      "middle_out_rank": 1,
+      "high_ports": [
+        [
+          "in",
+          "W",
+          3
+        ],
+        [
+          "out",
+          "N",
+          3
+        ]
+      ]
+    },
+    {
+      "headings": "WWWE",
+      "middle_in_rank": 1,
+      "middle_out_rank": 2,
+      "high_ports": [
+        [
+          "in",
+          "W",
+          3
+        ],
+        [
+          "out",
+          "N",
+          3
+        ]
+      ]
+    },
+    {
+      "headings": "WWWW",
+      "middle_in_rank": 1,
+      "middle_out_rank": 2,
+      "high_ports": [
+        [
+          "in",
+          "W",
+          4
+        ]
+      ]
+    }
+  ],
+  "triple_rows": [
+    {
+      "headings": "EEE",
+      "type": "sink",
+      "incoming_middle_rank": 1,
+      "outgoing_middle_rank": null
+    },
+    {
+      "headings": "EWE",
+      "type": "source",
+      "incoming_middle_rank": null,
+      "outgoing_middle_rank": 1
+    },
+    {
+      "headings": "WEW",
+      "type": "source",
+      "incoming_middle_rank": null,
+      "outgoing_middle_rank": 1
+    },
+    {
+      "headings": "WWW",
+      "type": "sink",
+      "incoming_middle_rank": 1,
+      "outgoing_middle_rank": null
+    },
+    {
+      "headings": "EEEW",
+      "type": "internal",
+      "incoming_middle_rank": 1,
+      "outgoing_middle_rank": 2
+    },
+    {
+      "headings": "EEWE",
+      "type": "internal",
+      "incoming_middle_rank": 1,
+      "outgoing_middle_rank": 2
+    },
+    {
+      "headings": "EWEE",
+      "type": "internal",
+      "incoming_middle_rank": 2,
+      "outgoing_middle_rank": 1
+    },
+    {
+      "headings": "EWWW",
+      "type": "internal",
+      "incoming_middle_rank": 2,
+      "outgoing_middle_rank": 1
+    },
+    {
+      "headings": "WEEE",
+      "type": "internal",
+      "incoming_middle_rank": 2,
+      "outgoing_middle_rank": 1
+    },
+    {
+      "headings": "WEWW",
+      "type": "internal",
+      "incoming_middle_rank": 2,
+      "outgoing_middle_rank": 1
+    },
+    {
+      "headings": "WWEW",
+      "type": "internal",
+      "incoming_middle_rank": 1,
+      "outgoing_middle_rank": 2
+    },
+    {
+      "headings": "WWWE",
+      "type": "internal",
+      "incoming_middle_rank": 1,
+      "outgoing_middle_rank": 2
+    }
+  ],
+  "quadruple": {
+    "source": [
+      {
+        "rank": 0,
+        "incoming": "E",
+        "outgoing": "S",
+        "in_ordinal": 1,
+        "out_ordinal": 1,
+        "in_label": 0,
+        "out_label": 0
+      },
+      {
+        "rank": 1,
+        "incoming": "W",
+        "outgoing": "S",
+        "in_ordinal": 1,
+        "out_ordinal": 2,
+        "in_label": -2,
+        "out_label": -1
+      },
+      {
+        "rank": 2,
+        "incoming": "E",
+        "outgoing": "S",
+        "in_ordinal": 2,
+        "out_ordinal": 3,
+        "in_label": -1,
+        "out_label": -2
+      },
+      {
+        "rank": 3,
+        "incoming": "W",
+        "outgoing": "S",
+        "in_ordinal": 2,
+        "out_ordinal": 4,
+        "in_label": -3,
+        "out_label": -3
+      }
+    ],
+    "target": [
+      {
+        "rank": 0,
+        "incoming": "S",
+        "outgoing": "W",
+        "in_ordinal": 1,
+        "out_ordinal": 1,
+        "in_label": 0,
+        "out_label": 0
+      },
+      {
+        "rank": 1,
+        "incoming": "S",
+        "outgoing": "E",
+        "in_ordinal": 2,
+        "out_ordinal": 1,
+        "in_label": -1,
+        "out_label": -2
+      },
+      {
+        "rank": 2,
+        "incoming": "S",
+        "outgoing": "W",
+        "in_ordinal": 3,
+        "out_ordinal": 2,
+        "in_label": -2,
+        "out_label": -1
+      },
+      {
+        "rank": 3,
+        "incoming": "S",
+        "outgoing": "E",
+        "in_ordinal": 4,
+        "out_ordinal": 2,
+        "in_label": -3,
+        "out_label": -3
+      }
+    ],
+    "upper_sheet": -1,
+    "lower_sheet": -2,
+    "exchange_edges": "two distinct parallel graph edges"
+  }
+}

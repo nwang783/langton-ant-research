@@ -1,0 +1,19 @@
+standard_positive True BOUNDED
+prepared_rail_positive True UNBOUNDED
+prepared108_positive True UNBOUNDED
+standard_reverse_return False UNBOUNDED
+low_fuel_but_illegal_D10_return False BOUNDED
+unequal_copy_rates True UNBOUNDED
+{
+  "status": "PASS focused all-n validator with independent literal controls",
+  "scope": "Nonzero-collinear supplied words only; no cap synthesis, arbitrary-period classification, or general semilinear extraction.",
+  "invalid_inputs_rejected": 4,
+  "exact_cases": 50,
+  "literal_parameter_controls": 249,
+  "seconds": 7.294678723003017,
+  "isl_version": "isl-0.27-GMP",
+  "source_sha256": {
+    "flat_collinear_validator.py": "66c5a332af35a58b7a58bbf6f7d43f70925d6190c45897feaf3ef652e8b1c6cd",
+    "check_flat_collinear_validator.py": "846341dd0ffe27075104712d52a95ba4d0fe313900555623cdc6fa810f6517de"
+  }
+}

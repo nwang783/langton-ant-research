@@ -1,0 +1,312 @@
+{
+  "frame_equation_checks": 7557,
+  "generated_edge_instances": 2519,
+  "records": [
+    {
+      "name": "identity",
+      "images": [
+        "R",
+        "L",
+        "R",
+        "L",
+        "R",
+        "L",
+        "R",
+        "L"
+      ],
+      "reachable_states": [
+        0
+      ],
+      "pins": [
+        [
+          [
+            0,
+            0
+          ],
+          0
+        ]
+      ],
+      "levels": [
+        {
+          "max_child_depth": 0,
+          "edges": 1,
+          "consistent": true
+        },
+        {
+          "max_child_depth": 1,
+          "edges": 2,
+          "consistent": true
+        },
+        {
+          "max_child_depth": 2,
+          "edges": 3,
+          "consistent": true
+        }
+      ]
+    },
+    {
+      "name": "five_monochromatic",
+      "images": [
+        "RRRRR",
+        "LLLLL",
+        "RRRRR",
+        "LLLLL",
+        "RRRRR",
+        "LLLLL",
+        "RRRRR",
+        "LLLLL"
+      ],
+      "reachable_states": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "pins": [
+        [
+          [
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            -1
+          ],
+          0
+        ]
+      ],
+      "levels": [
+        {
+          "max_child_depth": 0,
+          "edges": 20,
+          "consistent": false
+        },
+        {
+          "max_child_depth": 1,
+          "edges": 100,
+          "consistent": false
+        },
+        {
+          "max_child_depth": 2,
+          "edges": 180,
+          "consistent": false
+        }
+      ]
+    },
+    {
+      "name": "five_defect",
+      "images": [
+        "RLLLL",
+        "LRRRR",
+        "RLLLL",
+        "LRRRR",
+        "RLLLL",
+        "LRRRR",
+        "RLLLL",
+        "LRRRR"
+      ],
+      "reachable_states": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "pins": [
+        [
+          [
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          1
+        ]
+      ],
+      "levels": [
+        {
+          "max_child_depth": 0,
+          "edges": 40,
+          "consistent": false
+        },
+        {
+          "max_child_depth": 1,
+          "edges": 200,
+          "consistent": false
+        },
+        {
+          "max_child_depth": 2,
+          "edges": 680,
+          "consistent": false
+        }
+      ]
+    },
+    {
+      "name": "nine_exact",
+      "images": [
+        "RLLLLRRRR",
+        "LRRRRLLLL",
+        "RLLLLRRRR",
+        "LRRRRLLLL",
+        "RLLLLRRRR",
+        "LRRRRLLLL",
+        "RLLLLRRRR",
+        "LRRRRLLLL"
+      ],
+      "reachable_states": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "pins": [
+        [
+          [
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          1
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            -1
+          ],
+          0
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          1
+        ]
+      ],
+      "levels": [
+        {
+          "max_child_depth": 0,
+          "edges": 72,
+          "consistent": false
+        },
+        {
+          "max_child_depth": 1,
+          "edges": 504,
+          "consistent": false
+        },
+        {
+          "max_child_depth": 2,
+          "edges": 1656,
+          "consistent": false
+        }
+      ]
+    }
+  ],
+  "scope": "Finite algebra controls only; all-level automatic projection and seed existence not executed.",
+  "seconds": 0.09778437700151699
+}

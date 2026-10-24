@@ -1,0 +1,68 @@
+{
+  "status": "PASS two-generation same-cell east black guard through full-cut age5 and B tail exclusion",
+  "manifest_sha256": "bce8ef93e45d892923f1ac25e609e94b70f95760f727e7e22ca10086d49bd5b5",
+  "actual_breaker_variants": [
+    {
+      "name": "U",
+      "q_reads": [
+        [
+          13,
+          "L"
+        ],
+        [
+          21,
+          "R"
+        ]
+      ],
+      "full_completion_C_clock": 4
+    },
+    {
+      "name": "UC",
+      "q_reads": [
+        [
+          13,
+          "L"
+        ],
+        [
+          21,
+          "R"
+        ]
+      ],
+      "full_completion_C_clock": 5
+    },
+    {
+      "name": "UCC",
+      "q_reads": [
+        [
+          13,
+          "L"
+        ],
+        [
+          21,
+          "R"
+        ]
+      ],
+      "full_completion_C_clock": 6
+    }
+  ],
+  "B_before_white": {
+    "pose": [
+      -3,
+      6,
+      3
+    ],
+    "local_cell": [
+      -5,
+      -5
+    ],
+    "phase": 82,
+    "raw_length": 74
+  },
+  "analytic": [
+    "At any completed old-eight full cut, either the original east identity remains current or its actual first breaker has occurred. Signed directed renewal and exact clock force that event to(3,-1,N) at4.",
+    "Its actual U-base deletes the original east cell as an input and recreates it as its own recycled-q output; source C tails preserve the new black identity. The q consumer clock is earliest6 globally.",
+    "A breaker UCC completes at6 and cannot lie before a target full cut at<=5. There is no unaccounted internal fine/atomic cut: the statement is explicitly full-packet boundaries after creator completion.",
+    "B(-3,6,W) at5 requires the cell before-white, first at successor RAW phase8. The foreign RAW never visits it, so the entry black guard directly contradicts the complete B+M11 context without extending any permanence theorem past foreign entry."
+  ],
+  "scope": "Actual color guard through age5 with an explicit identity replacement, not single-token permanence, all-fine-time black constancy, all-age pose exclusion or capture."
+}

@@ -1,0 +1,112 @@
+{
+  "status": "PASS total exact first-import/cap active-flight reduction and complete chronological field representation",
+  "author_manifest_sha256": "a9451452de9d6651a54d6d822068f645486e904c8f0080e61c2698ccfc2c786c",
+  "author_note_sha256": "47b81e90c3f39fc82a739a79ed7a95f342a7f0057e2704d489cf2dab8a4ba515",
+  "independent_controls": {
+    "literal_updates": 6608,
+    "cases": 8447,
+    "cap": 5096,
+    "repeated_predictor_cases": 1978,
+    "exact_whole_component_imports": 3351,
+    "import": 3351,
+    "synthetic_chronology_cases": 6000
+  },
+  "maximum_event": 14,
+  "maximum_predictor_phases": 39,
+  "examples": [
+    {
+      "phase": 0,
+      "event": 1,
+      "period": 20,
+      "drift": [
+        0,
+        0
+      ],
+      "collision": {
+        "kind": "finite_prefix",
+        "vertex": [
+          1,
+          -3
+        ]
+      }
+    },
+    {
+      "phase": 7,
+      "event": 3,
+      "period": 20,
+      "drift": [
+        0,
+        0
+      ],
+      "collision": {
+        "kind": "finite_prefix",
+        "vertex": [
+          -3,
+          -3
+        ]
+      }
+    },
+    {
+      "phase": 38,
+      "event": 1,
+      "period": 20,
+      "drift": [
+        0,
+        0
+      ],
+      "collision": {
+        "kind": "finite_prefix",
+        "vertex": [
+          -7,
+          -3
+        ]
+      }
+    },
+    {
+      "phase": 84,
+      "event": 0,
+      "period": 20,
+      "drift": [
+        0,
+        0
+      ],
+      "collision": {
+        "kind": "finite_prefix",
+        "vertex": [
+          1,
+          -7
+        ]
+      }
+    },
+    {
+      "blank": true,
+      "event": 8,
+      "period": 20,
+      "drift": [
+        0,
+        0
+      ],
+      "collision": {
+        "kind": "periodic_emission",
+        "query_phase": 8,
+        "dump_phase": 4,
+        "epoch_gap": 0,
+        "vertex": [
+          1,
+          -1
+        ]
+      }
+    }
+  ],
+  "analytic": [
+    "For every pre-import state, active and dormant occupied vertex sets are disjoint. L affects only the active component and emits complete disjoint components; R to an active vertex cannot hit a dormant edge. An R to a new endpoint is the sole potential first import. If an emitted fragment could meet an older archive, its immediately preceding active history would already contain the first such R query. Thus query-versus-earlier-emission testing includes emitted/emitted collisions.",
+    "The isolated component predictor is not asserted physical after its first collision. Its earliest algebraic collision nevertheless is physical by induction on update time: every referenced emission precedes that query, so no later hypothetical archive can create an earlier spurious deviation. Cap priority is tested at pre-update cuts; an import that would cause a post-R overflow is correctly reported before that overflow.",
+    "Active connected mass<=M pins its edges to the head-relative square[-M,M]^2, including empty M0 and every R-only cut. Heading and finite relative edge set therefore give finitely many predictor states. A repeated heading forces even physical displacement parity, preserving the same fixed diagonal lattice. Finite cap failure or finite shape repetition is guaranteed, without a numerical simulation horizon.",
+    "For periodic query q_i+kD and emission v+ell D, equality gives v-q_i=(k-ell)D. Chronology forces n>0 or n0,j<i. For nonzero D the integer solution is unique; its earliest realization is k=n,ell0. For zero D equal vertices collide in cycle0 if j<i, otherwise cycle1. Static/preperiod emissions are eligible from cycle0; actual preperiod queries separately use only strictly prior emissions. All cases are finite integer arithmetic.",
+    "If no collision candidate exists, the entire predictor is actual. A zero-drift periodic predictor would keep the physical head in a bounded finite region forever, impossible by the retained no-bounded-orbit theorem; therefore the remaining infinite certificate has nonzero drift and restored heading. No supplied control is claimed to realize that branch.",
+    "Before the first event, full field is active plus initial archives plus strictly earlier emitted edge sets. Each whole prior period contributes a finite translation run, current period only j<i. All are current edge lifetimes, not XOR-cancelled or silently discarded; identity equality has never been read while dormant. Current implementation records detachment phase, not a separate original R-birth timestamp for each edge. Its promised complete-field and first-event outputs are exact.",
+    "The finite quantitative collision estimates follow from query distance<=P+1/2 and emitted vertex distance<=P+M+1/2 from cycle-start head. A nonzero integer drift coordinate bounds static epoch byceil(R)+P+1 and emission gap by2P+M+1. These are per-flight bounds depending on the complete archive position, not mass-only or total-import budgets."
+  ],
+  "scope": "Complete finite input field and integer active cap. Exact first nonempty dormant R import, earlier cap failure, or certified infinite nonzero translating no-import tail. No standard104 classification, universal capture, undecidability or finite closed state for successive imports. Synthetic arithmetic/run tests are not physical examples.",
+  "mandatory_metadata_clarification_sha256": "489ab3483875166fb0a953134771ac5e6332e51960b42b05c497d68c49c85ffd"
+}

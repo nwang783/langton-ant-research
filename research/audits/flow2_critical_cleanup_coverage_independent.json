@@ -1,0 +1,24 @@
+{
+  "status": "PASS critical constant-two b-circle must have singleton-LEFT O/U reset with singleton RIGHT neighbors",
+  "proof_sha256": "3447631641254368384cdcea7f81c4227ae7c70dd48a207c184110a8e32eed44",
+  "script_sha256": "46e3f23de93513768d3ff3c090776f7575945a3724d55e0aab68ff0457ef0eeb",
+  "control_sha256": "a4a46772420da992c39ab5818cdeb7ccc72707def30ff3dfcf7a5ebfab55a361",
+  "dependencies": {
+    "critical_pipeline": "a7ba88c1e91f05bd9a5ab44d0e8a4bce0b42eb404f6a5ab74411654dfa0a30f4",
+    "literal_cleanup": "ee0e8f6c24ff77c99442dbdf90026dd050237e625b9b97a9e1cc09090b9c0942",
+    "RR_gate": "8c2f326c598ea1194414770bf86f2f0d880b6229514dd83754bd65b58ee4a216"
+  },
+  "analytic_review": [
+    "At critical c, all LEFT physical occurrences belong to the actual same-contact reset loops. No extra untouched LEFT cycle can exist inside the single actual P orbit. Every gamma edge has exactly one LEFT occurrence.",
+    "Each double-LEFT reset has the full four-L route and exactly three gamma second occurrences. The fourth N chord at A is not its unique first-departure S edge and cannot alias under full drift because headings/physical edge ports are preserved; reverse B port is W, not along the chord. Quotient endpoint equality would not identify distinct port/voltage edges.",
+    "Embedded essential grid b-circle has zero total turning and no three consecutive equal turns. Hence double-LEFT runs are disjoint pairs. If q>=1 resets were all in such pairs, their complete partition gives ell=3q, but paired LEFT corners and equal LEFT/RIGHT counts give ell>=4q, contradiction.",
+    "The exact RLLR cover makes the second LEFT V. A reset outside double-LEFT pairs is therefore isolated. Signed LRRL first-ordinal unit-square gate forces both LEFT corners V, so the two RIGHT neighbors of an O/U reset cannot belong to double-RIGHT runs either.",
+    "The resulting L,R,O/U,R,L window is necessary; arbitrary exterior stock does not repair missing occurrence coverage. K>=2 lacks same-contact partition. No global one-use or fuel theorem."
+  ],
+  "not_claimed": [
+    "complete front exclusion",
+    "K>=2 exclusion",
+    "canonical unit nodes for arbitrary LEFT returns",
+    "initial fuel budget"
+  ]
+}

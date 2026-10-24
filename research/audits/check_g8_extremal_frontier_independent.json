@@ -1,0 +1,402 @@
+{
+  "status": "PASS normalized cyclic-E growth-eight necessary geometry and open17-event interface only",
+  "author_note": "0e3f0ea39edd5c600e7f9950f630b33bef5514d6ad21654110f5f9b1622072ab",
+  "internal_edges": [
+    [
+      [
+        0,
+        -1
+      ],
+      0,
+      [
+        0,
+        0
+      ],
+      2,
+      0
+    ],
+    [
+      [
+        1,
+        -2
+      ],
+      0,
+      [
+        1,
+        -1
+      ],
+      2,
+      0
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      1,
+      [
+        1,
+        0
+      ],
+      0,
+      0
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      2,
+      [
+        1,
+        0
+      ],
+      1,
+      0
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      0,
+      [
+        1,
+        -2
+      ],
+      0,
+      -1
+    ],
+    [
+      [
+        1,
+        -1
+      ],
+      1,
+      [
+        0,
+        1
+      ],
+      0,
+      1
+    ],
+    [
+      [
+        1,
+        -1
+      ],
+      2,
+      [
+        0,
+        1
+      ],
+      1,
+      1
+    ],
+    [
+      [
+        1,
+        -1
+      ],
+      0,
+      [
+        0,
+        -1
+      ],
+      0,
+      0
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      0,
+      [
+        0,
+        0
+      ],
+      0,
+      0
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      3,
+      [
+        0,
+        0
+      ],
+      1,
+      0
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      0,
+      [
+        1,
+        -1
+      ],
+      0,
+      0
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      3,
+      [
+        1,
+        -1
+      ],
+      1,
+      0
+    ]
+  ],
+  "open_incoming_ports": [
+    [
+      [
+        0,
+        1
+      ],
+      2,
+      [
+        1,
+        1
+      ],
+      0,
+      -16
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      3,
+      [
+        1,
+        1
+      ],
+      0,
+      -4
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      4,
+      [
+        1,
+        1
+      ],
+      0,
+      28
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      2,
+      [
+        0,
+        2
+      ],
+      1,
+      14
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      3,
+      [
+        0,
+        2
+      ],
+      1,
+      90
+    ]
+  ],
+  "open_outgoing_ports": [
+    [
+      [
+        0,
+        1
+      ],
+      1,
+      [
+        0,
+        2
+      ],
+      0,
+      -28
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      2,
+      [
+        0,
+        2
+      ],
+      0,
+      -16
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      4,
+      [
+        0,
+        2
+      ],
+      0,
+      28
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      1,
+      [
+        1,
+        1
+      ],
+      0,
+      2
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      2,
+      [
+        1,
+        1
+      ],
+      0,
+      14
+    ]
+  ],
+  "E_cycle": [
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      -2
+    ],
+    [
+      1,
+      -1
+    ]
+  ],
+  "winding": -1,
+  "triple_ages": [
+    32,
+    96
+  ],
+  "geometric_bridges_NOT_color_certified": [
+    {
+      "start": 2,
+      "end": 14,
+      "unknown_updates": 11,
+      "minimum_level": 2,
+      "maximum_level": 4
+    },
+    {
+      "start": 14,
+      "end": 28,
+      "unknown_updates": 13,
+      "minimum_level": 2,
+      "maximum_level": 4
+    },
+    {
+      "start": 28,
+      "end": 90,
+      "unknown_updates": 61,
+      "minimum_level": 2,
+      "maximum_level": 4
+    },
+    {
+      "start": 96,
+      "end": 108,
+      "unknown_updates": 11,
+      "minimum_level": 2,
+      "maximum_level": 4
+    },
+    {
+      "start": 108,
+      "end": 120,
+      "unknown_updates": 11,
+      "minimum_level": 2,
+      "maximum_level": 4
+    }
+  ],
+  "row1_count_options": [
+    [
+      4,
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      5,
+      [
+        1,
+        1,
+        2,
+        1
+      ]
+    ],
+    [
+      8,
+      [
+        0,
+        2,
+        4,
+        2
+      ]
+    ],
+    [
+      9,
+      [
+        0,
+        2,
+        5,
+        2
+      ]
+    ]
+  ],
+  "analytic_review": [
+    "Signed residue charge restricts cyclicE at g8 to full signed diagonal2,2 and ell4. Proper quarter rotations reach full(2,-2), without reflection. Four alternating-axis steps of displacement(-2,2) must alternate N/W. SingletonR corners are incomingW at level-1 and tripleL corners have fullSSN at level0, after translating one triple to0. Their two full-drift xparity classes exhaust each boundary level.",
+    "Signed one-sided E boundary puts all other used cell classes on the RIGHT of this staircase, hence at levels>=1. At the highest used level, arrival and departure must be from/to the lower half-plane. With fixed cell incoming axis, a firstR is possible only for horizontal incomingE; a subsequent alternatingL would require vertical incomingN, impossible. Thus that highest cell is a singletonR on an odd level in the normalized sector. At least one residual odd class is therefore odd checker; residualcheckerpurity forces ALLfour residual odd classes on positive odd levels, two per lane.",
+    "The17-event patch is independently reconstructed from explicit six histories and clocks. Physical directed-port ordinal matching checks all12 internal edges including exact full-drift voltages;17 phases are distinct, samecellgaps>=4, five ports each direction remain OPEN. E has the required fourcell winding-1 circle, both other firstR nodes feed it, and tripleages32+96=P+4. The even A finalL predecessor is genuinely open, so no fictitious first/last overlap charge is asserted.",
+    "Five supplied gap words were checked only as geometric unitstep paths with exact endpoint headings, all unspecified intermediate cells in levels2..11 and outside the six named classes. They are NOT checked or asserted color-compatible with one another. No fullperiod event orbit, finite initial board, or genuine autonomous controller is certified.",
+    "The proposed eight-odd screen has width12 and both signed residues2mod4, V2/J8. Its three still-unspecified odd classes are not emitted field. Nextrow visitlengths4/5/8/9 follow exactly from two lowerincoming/two loweroutgoing counts; the next evenrow bound28 follows from <=7 each lowerport, not a chosen cap. Exploratory solver statuses are not premises.",
+    "The historical width10g8 missingexhaustion status is unchanged. AcyclicE remains the larger open branch. This is a necessarygeometry and nonempty OPEN localconstraint interface, not g8 attainment/exclusion, arbitrarycontrollerclassification or capture."
+  ]
+}
